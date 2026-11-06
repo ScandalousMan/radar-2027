@@ -360,8 +360,7 @@ production.
 
 - **Token de design** : variable nommée (couleur, espacement, taille de police, rayon, ombre)
   portant une valeur par thème ; seule source autorisée pour les styles.
-- **Thème** : jeu de valeurs des tokens (clair ou sombre), sélectionné par préférence système ou
-  choix explicite mémorisé localement.
+- **Apparence** (thème clair ou sombre) : jeu de valeurs des tokens, sélectionné par préférence système ou choix explicite mémorisé localement ; nommée « apparence » dans le code pour ne pas la confondre avec les thèmes de l'ontologie.
 - **Composant de base** : brique d'interface réutilisable de `src/ui`, sans logique métier, décrite
   par ses propriétés et ses états ; possède une story et des tests.
 - **Story** : exemple documenté d'un composant dans un état donné, utilisé par Storybook pour la

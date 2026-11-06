@@ -32,15 +32,18 @@ Invariants :
 - La couleur d'accent est unique et choisie hors des couleurs emblématiques des partis
   (teinte proposée : un vert sarcelle ou un violet désaturé, validée par le propriétaire).
 
-## 2. Thème
+## 2. Apparence (clair / sombre)
 
-Jeu de valeurs des tokens, identifié par `light` ou `dark`.
+Jeu de valeurs des tokens, identifié par `light` ou `dark`. Le terme « apparence » est retenu
+dans le code et les clés i18n pour ne pas entrer en collision avec les « thèmes » de l'ontologie
+politique (ThemeChip, ThemePicker, specs 002 à 005) ; l'attribut HTML `data-theme` reste un
+détail d'implémentation imposé par la convention Tailwind.
 
 | Champ | Type | Règle |
 |---|---|---|
 | `id` | `light` \| `dark` | |
 | `source` | `system` \| `explicit` | `explicit` seulement après action sur la bascule |
-| `storageKey` | `radar-theme` | clé du stockage local, valeur `light` \| `dark` ; absente = suivre le système |
+| `storageKey` | `radar-appearance` | clé du stockage local, valeur `light` \| `dark` ; absente = suivre le système |
 
 Transitions :
 
@@ -50,7 +53,7 @@ light | dark   --bascule-->            dark | light   [source = explicit, écrit
 explicit       --effacer le stockage--> system
 ```
 
-Règles : le thème initial est posé sur `<html data-theme="…">` par un script en ligne exécuté
+Règles : l'apparence initiale est posée sur `<html data-theme="…">` par un script en ligne exécuté
 avant le premier rendu (pas de clignotement) ; si le stockage local est indisponible, le script
 retombe sur la préférence système sans lever d'erreur.
 

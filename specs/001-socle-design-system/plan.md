@@ -89,11 +89,12 @@ specs/001-socle-design-system/
 │   ├── preview.ts                  # import globals.css, withThemeByDataAttribute, a11y 'error'
 │   └── vitest.setup.ts             # addon-vitest
 ├── e2e/
-│   └── home.spec.ts                # lang=fr, titre depuis fr.json, aucune requête tierce
+│   ├── home.spec.ts                # lang=fr, titre depuis fr.json, aucune requête tierce
+│   └── headers.spec.ts             # projet `preview`, seulement si PREVIEW_URL est défini
 ├── public/                         # favicon, robots.txt
 ├── src/
 │   ├── app/
-│   │   ├── layout.tsx              # <html lang="fr" data-theme>, script de thème, NextIntlClientProvider, PageShell
+│   │   ├── layout.tsx              # <html lang="fr" data-theme>, script d'apparence, NextIntlClientProvider, PageShell
 │   │   ├── page.tsx                # accueil : titre, lead, privacy, CTA
 │   │   └── globals.css             # @import "tailwindcss"; @import "../ui/tokens.css"; @custom-variant dark
 │   ├── core/
@@ -101,9 +102,12 @@ specs/001-socle-design-system/
 │   ├── i18n/
 │   │   ├── config.ts               # locales, locale par défaut
 │   │   ├── request.ts              # getRequestConfig → fr
-│   │   └── messages/fr.json
+│   │   ├── messages/fr.json
+│   │   └── messages.test.ts        # clés requises, typographie française
 │   ├── lib/
-│   │   └── theme.ts                # lecture/écriture du thème, script d'initialisation
+│   │   ├── appearance.ts           # apparence clair/sombre : lecture/écriture, script d'initialisation
+│   │   ├── appearance.test.ts
+│   │   └── core-boundary.test.ts   # vérifie la règle de lint protégeant src/core
 │   ├── ui/
 │   │   ├── tokens.css              # @theme + [data-theme="dark"]
 │   │   ├── tokens.test.ts          # contrastes WCAG
@@ -115,7 +119,7 @@ specs/001-socle-design-system/
 │   │   ├── ProgressBar/…
 │   │   ├── ScoreBar/…
 │   │   ├── Card/…
-│   │   ├── PageShell/…             # inclut ThemeToggle
+│   │   ├── PageShell/…             # inclut AppearanceToggle
 │   │   ├── EvidenceBadge/…
 │   │   └── index.ts
 │   └── types/
@@ -130,7 +134,8 @@ specs/001-socle-design-system/
 ├── postcss.config.mjs
 ├── tsconfig.json                   # strict, paths @/*
 ├── vercel.json                     # headers de sécurité
-└── vitest.config.ts                # projets unit + storybook
+├── vitest.config.ts                # projets unit + storybook
+└── vitest.setup.ts                 # jest-dom pour le projet unit
 ```
 
 **Structure Decision** : projet unique à la racine du dépôt (principe VII, FR-001). Trois
@@ -144,16 +149,16 @@ tant qu'il n'existe pas de second consommateur de `src/core`.
 1. **Fondation** : `package.json` (versions épinglées, scripts), Node/pnpm épinglés, TypeScript
    strict, ESLint flat config avec les trois règles projet, `.env.example`, README des commandes.
 2. **Application minimale** : Next 16 export statique, Tailwind 4 + `tokens.css`, next-intl
-   sans routage, `layout.tsx` avec script de thème et `lang="fr"`, page d'accueil ; preuve par
+   sans routage, `layout.tsx` avec script d'apparence et `lang="fr"`, page d'accueil ; preuve par
    `pnpm build` que l'export fonctionne avec next-intl (risque R2 levé tôt).
 3. **Design system** : `tokens.css` complet et `tokens.test.ts` ; puis composants dans l'ordre
    Button → Card → ProgressBar → ScoreBar → EvidenceBadge → ThemeChip → ThemePicker →
-   LikertChoice → PageShell (ThemeToggle inclus) ; chaque composant livré avec story, test et
+   LikertChoice → PageShell (AppearanceToggle inclus) ; chaque composant livré avec story, test et
    clés i18n.
 4. **Storybook** : configuration nextjs-vite, addons, page Tokens, bascule de thème, a11y en
    `error`, addon Vitest branché sur le projet `storybook`.
-5. **Tests e2e et CI** : Playwright contre `out/`, workflow `ci.yml`, `pnpm verify` ; note
-   README pour la protection de branche.
+5. **Tests e2e et CI** : Playwright contre `out/`, workflow `ci.yml` (Chromium installé avant
+   l'étape test), `pnpm verify` ; note README pour la protection de branche.
 6. **Déploiement** : `vercel.json`, procédure de liaison documentée, vérification des en-têtes
    sur la prévisualisation.
 

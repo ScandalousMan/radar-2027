@@ -12,15 +12,16 @@
 |---|---|
 | `common.siteName` | radar-2027 |
 | `common.skipToContent` | Aller au contenu |
-| `common.theme.toggle` | Changer de thème |
-| `common.theme.light` | Thème clair |
-| `common.theme.dark` | Thème sombre |
+| `common.appearance.toggle` | Changer d'apparence |
+| `common.appearance.light` | Apparence claire |
+| `common.appearance.dark` | Apparence sombre |
 | `common.footer.methodology` | Méthodologie |
 | `common.footer.about` | À propos |
 | `home.title` | Quels candidats sont proches de vous ? |
 | `home.lead` | radar-2027 compare vos réponses aux positions des candidats à la présidentielle 2027, en donnant plus de poids aux sujets qui comptent pour vous. |
 | `home.privacy` | Tout est calculé dans votre navigateur : aucune réponse n'est envoyée ni conservée. |
 | `home.cta` | Commencer |
+| `home.ctaSoon` | Le questionnaire arrive bientôt. |
 | `ui.likert.stronglyDisagree` | Pas du tout d'accord |
 | `ui.likert.disagree` | Plutôt pas d'accord |
 | `ui.likert.neutral` | Neutre / sans avis |

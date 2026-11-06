@@ -134,10 +134,9 @@ type PageShellProps = {
 ```
 
 Structure : lien « aller au contenu » (`common.skipToContent`) premier élément focalisable ;
-en-tête avec nom du site (`common.siteName`) et `ThemeToggle` (bascule clair/sombre, libellés
-`common.theme.light` / `common.theme.dark` / `common.theme.toggle`) ; pied avec liens
+en-tête avec nom du site (`common.siteName`) et `AppearanceToggle` (bascule d'apparence clair/sombre, libellés `common.appearance.light` / `common.appearance.dark` / `common.appearance.toggle` ; le mot « thème » est réservé aux sujets de l'ontologie) ; pied avec liens
 `common.footer.methodology` (→ `/methodologie`) et `common.footer.about` (→ `/a-propos`), pages
-pouvant être absentes à ce stade. États : par défaut, thème sombre, largeur 320 px.
+pouvant être absentes à ce stade. États : par défaut, apparence sombre, largeur 320 px.
 
 ## EvidenceBadge
 

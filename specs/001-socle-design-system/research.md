@@ -65,7 +65,7 @@ la pile, mises à jour par pull request dédiée).
 
 ## R5. Vitest 5.1 et stratégie de tests unitaires
 
-- **Décision** : Vitest 5.1.x avec deux projets : `unit` (environnement jsdom, Testing Library,
+- **Décision** : Vitest 5.1.x avec deux projets (le projet navigateur impose d'installer Chromium Playwright avant `pnpm test` en CI) : `unit` (environnement jsdom, Testing Library,
   tests `*.test.tsx` et `tokens.test.ts`) et `storybook` (addon Vitest, navigateur Chromium via
   `@vitest/browser-playwright`, exécute chaque story et sa vérification d'accessibilité).
 - **Justification** : les stories deviennent des tests sans duplication (SC-003, SC-004) ; les
@@ -77,7 +77,7 @@ la pile, mises à jour par pull request dédiée).
 
 ## R6. Playwright 1.65 contre l'export statique
 
-- **Décision** : Playwright 1.65.x, projet Chromium seul, `retries: 1`, `webServer` lançant
+- **Décision** : Playwright 1.65.x, projet `chromium` (seul en CI) plus un projet `preview` conditionné à `PREVIEW_URL` pour les en-têtes de production, `retries: 1`, `webServer` lançant
   `pnpm start:static` (`serve out -l 3000`), `reuseExistingServer: !process.env.CI`.
 - **Justification** : le test doit viser le build réellement déployé (FR-020) ; `serve` est un
   serveur de fichiers neutre, sans logique Next.

@@ -21,16 +21,15 @@
 - Un job `ci` sur `ubuntu-latest`, Node 24 (lu depuis `.nvmrc`), pnpm via `pnpm/action-setup`
   (version lue depuis `packageManager`), cache pnpm.
 - Étapes, dans l'ordre, chacune en `run` séparé pour un statut lisible : install (frozen
-  lockfile) → lint → typecheck → test → storybook:build → build → installation de Chromium
-  Playwright → e2e. Les rapports Playwright sont publiés en artefact en cas d'échec.
+  lockfile) → installation de Chromium Playwright (nécessaire dès l'étape test, qui exécute les stories dans un navigateur) → lint → typecheck → [emplacement réservé `data:validate`, spec 002] → test → storybook:build → build → e2e. Les rapports Playwright sont publiés en artefact en cas d'échec.
 - Le job `ci` est la vérification requise par la protection de branche de `main` (action manuelle
   du propriétaire, documentée dans le README).
 - Budget : moins de 10 minutes (SC-008).
 
 ## Playwright
 
-- Projet unique Chromium ; `retries: 1` ; `webServer` lance `pnpm start:static` et attend
-  `http://localhost:3000`.
+- Projet `chromium` (seul exécuté en CI) ; `retries: 1` ; `webServer` lance `pnpm start:static` et attend `http://localhost:3000`.
+- Projet `preview` (fichier `e2e/headers.spec.ts`), défini uniquement lorsque `PREVIEW_URL` est renseigné en local, sans `webServer` : vérifie les en-têtes de sécurité d'une prévisualisation ou de la production.
 - Test `e2e/home.spec.ts` : `html[lang="fr"]`, titre `home.title` lu depuis `fr.json`, aucune
   requête vers un hôte autre que `localhost`, aucun cookie.
 
