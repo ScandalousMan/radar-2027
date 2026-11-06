@@ -439,8 +439,8 @@ production.
   toute origine tierce. Le durcissement ultérieur (hachages) pourra être traité dans un plan.
 - **Tests de bout en bout** : exécutés dans un seul navigateur (Chromium) en CI contre le build
   statique ; les autres navigateurs pourront être ajoutés par une spécification ultérieure.
-- **Mesure d'audience** : aucune en v1 ; la question « aucune ou sans cookie » reste ouverte dans
-  le plan de projet et n'est pas tranchée ici (le socle n'en installe pas).
+- **Mesure d'audience** : aucune, même sans cookie (décision du propriétaire du 2026-11-06) ; le
+  socle n'en installe pas et aucune spécification ultérieure n'en prévoit.
 - **Dépendances** : aucune dépendance sur les spécifications 002 à 005 ; en revanche 003, 004 et
   005 dépendent de ce socle.
 

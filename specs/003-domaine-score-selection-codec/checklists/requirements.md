@@ -13,7 +13,7 @@
 
 ## Requirement Completeness
 
-- [ ] No [NEEDS CLARIFICATION] markers remain
+- [x] No [NEEDS CLARIFICATION] markers remain
 - [x] Requirements are testable and unambiguous
 - [x] Success criteria are measurable
 - [x] Success criteria are technology-agnostic (no implementation details)
@@ -41,13 +41,10 @@
   - **Written for non-technical stakeholders** : le sujet est intrinsèquement mathématique ;
     chaque formule est accompagnée d'un exemple chiffré (exemples A et B, quotas 14/5/4 et
     3/3/3/3/2, fragments d'exemple) et d'une justification en langage courant. Item validé.
-  - **No [NEEDS CLARIFICATION] markers remain** : **non coché volontairement**. Deux marqueurs
-    sont laissés ouverts pour `/speckit-clarify`, conformément au plan du projet (section 5,
-    points à trancher) :
-    1. FR-010 : plafond strict `G = min(W %, P %)` ou tolérance `G = min(W %, P % + 10 points)`
-       (défaut provisoire : plafond strict).
-    2. FR-040 : rescorer un ancien lien avec les positions courantes des candidats (défaut
-       proposé) ou avec des positions figées par version de banque.
+  - **No [NEEDS CLARIFICATION] markers remain** : les deux marqueurs ont été tranchés par le
+    propriétaire le 2026-11-06 : FR-010 plafond strict `G = min(W %, P %)` ; FR-040 positions
+    figées par version de banque (un ancien lien reproduit exactement le résultat du jour du
+    partage). Les scénarios, entités et SC-009 ont été alignés en conséquence.
   - **Testable and unambiguous** : chaque FR fixe une règle vérifiable (formule, seuil inclusif
     ou strict, ordre de départage, ordre des vérifications du décodeur, motif de rejet).
     Une relecture a précisé le scénario 5 de l'histoire 3 (motifs de rejet possibles après

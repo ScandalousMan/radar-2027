@@ -13,7 +13,7 @@
 
 ## Requirement Completeness
 
-- [ ] No [NEEDS CLARIFICATION] markers remain
+- [x] No [NEEDS CLARIFICATION] markers remain
 - [x] Requirements are testable and unambiguous
 - [x] Success criteria are measurable
 - [x] Success criteria are technology-agnostic (no implementation details)
@@ -32,12 +32,11 @@
 ## Notes
 
 - Items marked incomplete require spec updates before `/speckit-clarify` or `/speckit-plan`
-- Un seul marqueur `[NEEDS CLARIFICATION]` subsiste, volontairement, dans FR-042 : présence ou
-  non d'une mesure d'audience sur la page de résultats (aucune, ou agrégée sans cookie et ne
-  recevant jamais le fragment d'URL). Il correspond au point ouvert « Statistiques d'usage » du
-  plan du projet et doit être tranché par le propriétaire via `/speckit-clarify`. Tous les autres
-  choix ont été tranchés et documentés dans la section Assumptions (plafond strict, rescorage des
-  anciens liens, aperçu de partage générique, comparaison éphémère, candidats retirés).
+- Le marqueur de FR-042 a été tranché par le propriétaire le 2026-11-06 : aucune mesure
+  d'audience. Le même jour, la décision « positions figées par version » (spécification 003) a
+  conduit à réécrire US3 scénario 2, FR-032, FR-033, l'entité « Avertissement de version » et les
+  hypothèses correspondantes : un ancien lien reproduit exactement le résultat vu au moment du
+  partage, sans recalcul avec des données courantes.
 - Revue effectuée item par item le 2026-11-06 : une correction appliquée (SC-010 reformulé pour
   retirer la mention d'un outil de vérification spécifique). Le fragment d'URL (`#…`) est cité
   parce qu'il s'agit d'une exigence de vie privée de la constitution visible par le répondant, pas

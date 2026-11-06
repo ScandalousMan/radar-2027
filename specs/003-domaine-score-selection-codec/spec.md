@@ -53,8 +53,7 @@ la main (exemples A et B ci-dessous).
    « plutôt aligné ».
 2. **Given** l'exemple B : un thème prioritaire avec `S = 0` (50 %) et deux autres thèmes avec
    `S = 1,0` (100 %), tous définis, **When** le score est calculé, **Then**
-   `W = (3·0 + 1 + 1) / 5 = 0,4` soit 70 %, `P = 50 %`, et `G = 50 %` avec le plafond strict
-   (60 % avec la variante à tolérance, voir FR-010).
+   `W = (3·0 + 1 + 1) / 5 = 0,4` soit 70 %, `P = 50 %`, et `G = 50 %` (plafond strict).
 3. **Given** un répondant qui a répondu (sans passer) à 10 questions et un candidat dont la
    position est connue sur 5 d'entre elles seulement, **When** le score est calculé, **Then** la
    couverture vaut 50 %, le candidat porte le statut « données insuffisantes », n'a pas de rang,
@@ -169,18 +168,20 @@ l'état d'origine, puis en altérant des caractères et en vérifiant le rejet.
 
 ---
 
-### User Story 4 - Des versions de banque immuables et des anciens liens lisibles (Priority: P4)
+### User Story 4 - Des versions de banque immuables et des anciens liens fidèles (Priority: P4)
 
 En tant que répondant ayant partagé un lien il y a plusieurs semaines, je veux que ce lien
-s'ouvre encore après que la banque de questions a évolué : les réponses sont réattribuées aux
-bonnes questions, les questions retirées depuis sont signalées, et le résultat reste calculable.
+s'ouvre encore après que la banque de questions ou les positions des candidats ont évolué, et
+qu'il montre exactement le résultat que j'ai vu au moment du partage : chaque version de banque
+fige ensemble les questions, les candidats inclus et leurs positions.
 
 **Why this priority**: indispensable à la pérennité des liens partagés, mais ne se manifeste
 qu'à partir de la deuxième version de banque.
 
 **Independent Test**: on peut le tester seul avec deux versions de banque fictives (la seconde
-retirant une question et en ajoutant une autre), en décodant un lien émis avec la première et
-en vérifiant la sélection reconstruite, le marquage des questions retirées et le score.
+retirant une question, en ajoutant une autre et modifiant une position), en décodant un lien
+émis avec la première et en vérifiant que la sélection, les positions utilisées et le score sont
+identiques à ceux obtenus avec la première version seule.
 
 **Acceptance Scenarios**:
 
@@ -190,10 +191,12 @@ en vérifiant la sélection reconstruite, le marquage des questions retirées et
    **When** il est décodé, **Then** la sélection est reconstruite avec les thèmes, questions et
    pouvoirs discriminants figés de la version 0, et chaque réponse est associée à la même
    question qu'au moment du partage.
-3. **Given** ce même lien, où la question q17 de la version 0 n'existe plus dans les données
-   courantes, **When** le score est calculé, **Then** q17 est marquée « question retirée »,
-   exclue du score, de la couverture et des scores de thème, et le résultat signale que le
-   lien provient d'une version antérieure de la banque.
+3. **Given** ce même lien, où la position d'un candidat sur la question q17 et la liste des
+   candidats inclus ont changé entre la version 0 et la version 1, **When** le score est calculé,
+   **Then** les positions et la liste de candidats utilisées sont celles figées dans la version 0,
+   les scores, rangs et bandes sont identiques à ceux affichés le jour du partage, et le résultat
+   signale qu'il repose sur une version antérieure de la banque (avec la date de publication de
+   cette version).
 4. **Given** une version de banque publiée, **When** l'énoncé d'une de ses questions doit être
    modifié, **Then** la version existante reste inchangée et une nouvelle version est créée.
 5. **Given** un lien dont l'octet de version vaut 3 alors que seules les versions 0 à 1 sont
@@ -231,8 +234,6 @@ en vérifiant la sélection reconstruite, le marquage des questions retirées et
   (« contenu invalide »).
 - Bits réservés de l'octet de drapeaux non nuls : refusé (« contenu invalide »), afin de
   préserver la bijection et de laisser ces bits à de futures évolutions.
-- Variante à tolérance (si retenue en clarification) : `G` peut dépasser `P` de 10 points au
-  plus ; un candidat peut alors atteindre 80 % avec `P = 70 %`.
 
 ## Requirements *(mandatory)*
 
@@ -245,7 +246,7 @@ en vérifiant la sélection reconstruite, le marquage des questions retirées et
   `s = 1 − 0,5 · |u − c|`, comprise dans [−1, +1], et DOIT pouvoir la restituer en pourcentage
   `(s + 1) / 2`.
 - **FR-002**: Le système DOIT exclure de tout calcul de score les questions « passées », « non
-  répondues », à position de candidat « inconnue » ou marquées « question retirée ».
+  répondues » ou à position de candidat « inconnue ».
 - **FR-003**: Le système DOIT compter chaque question dans chacun de ses thèmes (1 ou 2).
 - **FR-004**: Le système DOIT calculer le score de thème `S_t` comme la moyenne arithmétique des
   concordances des questions exploitables (au sens de FR-001) du thème `t`, et DOIT le déclarer
@@ -258,8 +259,8 @@ en vérifiant la sélection reconstruite, le marquage des questions retirées et
   des thèmes dont le score est défini, avec `w_t = 3` pour un thème prioritaire et 1 sinon.
 - **FR-007**: Le système DOIT calculer la couverture d'un candidat comme le quotient du nombre
   de questions répondues (valeur numérique) dont la position du candidat est connue par le
-  nombre total de questions répondues (valeur numérique), les questions retirées étant exclues
-  des deux termes ; la couverture est indéfinie si le dénominateur est nul.
+  nombre total de questions répondues (valeur numérique) ; la couverture est indéfinie si le
+  dénominateur est nul.
 - **FR-008**: Le système DOIT attribuer le statut « données insuffisantes » à tout candidat dont
   la couverture est indéfinie ou strictement inférieure à 60 %, ou dont `P` est indéfini. Un tel
   candidat n'a pas de rang ni de score global, est restitué à part, mais ses scores de thème
@@ -267,10 +268,8 @@ en vérifiant la sélection reconstruite, le marquage des questions retirées et
 - **FR-009**: Pour tout candidat non concerné par FR-008, le système DOIT calculer le score
   global `G` en pourcentage à partir de `W %` et `P %` selon FR-010.
 - **FR-010**: `G` DOIT être tel qu'un candidat ne puisse pas être présenté comme mieux aligné
-  globalement qu'il ne l'est sur les sujets prioritaires : `G = min(W %, P %)`.
-  [NEEDS CLARIFICATION: plafond strict `G = min(W %, P %)` (exemple B → 50 %) ou tolérance
-  `G = min(W %, P % + 10 points)` (exemple B → 60 %) ? Le plafond strict est la règle par défaut
-  de cette spécification tant que le point n'est pas tranché.]
+  globalement qu'il ne l'est sur les sujets prioritaires : `G = min(W %, P %)` (plafond strict,
+  décision du 2026-11-06 ; aucune tolérance).
 - **FR-011**: Le système DOIT arrondir tout pourcentage destiné à l'affichage à l'entier
   inférieur (troncature) ; les comparaisons de classement et les seuils de bande utilisent la
   valeur affichée de `G` (exemple A : 62,5 % → 62 %).
@@ -292,7 +291,7 @@ en vérifiant la sélection reconstruite, le marquage des questions retirées et
   insuffisantes »), son rang et sa bande le cas échéant, `G`, `P`, `W`, la couverture, le score
   de chaque thème (ou « autres thèmes » en mode court) avec le nombre de questions exploitables
   ayant servi, et, par question, la concordance ou le motif d'exclusion (passée, non répondue,
-  position inconnue, question retirée).
+  position inconnue).
 - **FR-017**: Le calcul de score DOIT être déterministe et pur : mêmes entrées (réponses,
   sujets, mode, positions, version) ⇒ mêmes sorties, sans dépendance à l'heure, au hasard ou à
   une ressource réseau.
@@ -383,20 +382,22 @@ en vérifiant la sélection reconstruite, le marquage des questions retirées et
 #### Versions de banque
 
 - **FR-037**: Une version de banque DOIT être immuable : la liste ordonnée des thèmes, la liste
-  des questions avec leurs identifiants, leurs thèmes et leur `D_q` ne changent jamais une fois
-  la version publiée. Toute modification (énoncé, thème, ajout ou retrait de question) DOIT
+  des questions avec leurs identifiants, leurs thèmes et leur `D_q`, la liste des candidats
+  inclus et la position de chaque candidat sur chaque question (valeur et niveau de preuve) ne
+  changent jamais une fois la version publiée. Toute modification (énoncé, thème, ajout ou
+  retrait de question, inclusion ou retrait d'un candidat, mise à jour d'une position) DOIT
   donner lieu à une nouvelle version, ajoutée en fin de liste.
 - **FR-038**: L'application DOIT toujours encoder un nouveau résultat avec la dernière version
   de banque connue.
 - **FR-039**: Le décodeur DOIT reconstruire la sélection d'un ancien lien avec la version de
   banque indiquée dans la charge, et non avec la version courante.
-- **FR-040**: Lors du score d'un ancien lien, le système DOIT marquer « question retirée »
-  toute question de la version indiquée qui n'a plus de position dans les données courantes,
-  l'exclure du score et de la couverture (FR-002, FR-007), et signaler que le résultat provient
-  d'une version antérieure de la banque. Les positions des candidats utilisées sont les
-  positions courantes. [NEEDS CLARIFICATION: un ancien lien est-il rescoré avec les positions
-  courantes des candidats (défaut proposé ici, avec avertissement daté) ou avec des positions
-  figées par version de banque, ce qui supposerait d'inclure les positions dans la version ?]
+- **FR-040**: Lors du score d'un ancien lien, le système DOIT utiliser exclusivement les
+  candidats et les positions figés dans la version de banque indiquée dans la charge, de sorte
+  que les scores, rangs et bandes soient identiques à ceux obtenus au moment du partage, et DOIT
+  signaler que le résultat repose sur une version antérieure de la banque, avec la date de
+  publication de cette version. Aucune donnée courante n'entre dans ce calcul (décision du
+  2026-11-06 : positions figées par version). Les données d'une version antérieure ne sont
+  chargées que lorsqu'un lien la référence.
 - **FR-041**: Un identifiant de question DOIT désigner la même question dans toutes les versions
   où il apparaît ; une question dont l'énoncé change reçoit un nouvel identifiant.
 
@@ -404,19 +405,19 @@ en vérifiant la sélection reconstruite, le marquage des questions retirées et
 
 - **Version de banque** : instantané immuable publié de la banque de questions ; identifié par
   son indice dans la liste ordonnée des versions ; contient la liste ordonnée des thèmes (ordre
-  canonique), les questions (identifiant, énoncé, 1 ou 2 thèmes, `D_q`) et une date de
-  publication.
+  canonique), les questions (identifiant, énoncé, 1 ou 2 thèmes, `D_q`), les candidats inclus,
+  la position de chaque candidat sur chaque question et une date de publication.
 - **Thème** : sujet de l'ontologie (16 actuellement), identifié par un identifiant stable et un
   indice canonique dans la version ; prioritaire ou non selon le choix du répondant.
 - **Question** : énoncé rattaché à 1 ou 2 thèmes, avec un identifiant stable et un pouvoir
-  discriminant `D_q` ; peut être « retirée » du point de vue des données courantes.
+  discriminant `D_q`, figés dans la version de banque.
 - **État de résultat** : version de banque, mode (complet ou court), ensemble de 3 à 5 sujets
   prioritaires, et pour chaque question de la sélection une réponse (−2 à +2, passée, non
   répondue). C'est l'objet encodé dans le fragment d'URL.
 - **Sélection** : liste ordonnée de questions dérivée de (version, mode, sujets), chaque
   question portant un thème d'ancrage et une position de présentation.
 - **Position de candidat** : valeur −2 à +2 ou « inconnue » d'un candidat sur une question, avec
-  un niveau de preuve transmis pour affichage ; fournie par les données courantes (spec 002).
+  un niveau de preuve transmis pour affichage ; figée dans la version de banque (spec 002).
 - **Résultat de score** : pour un candidat, statut, rang, bande, `G`, `P`, `W`, couverture,
   scores de thème (définis ou indéfinis, avec effectif), détail par question (concordance ou
   motif d'exclusion), indicateur « version antérieure ».
@@ -452,9 +453,9 @@ en vérifiant la sélection reconstruite, le marquage des questions retirées et
   22 en mode court, pour toute combinaison de sujets et de réponses.
 - **SC-008**: Le calcul complet du classement (22 candidats, 100 questions, 16 thèmes) et le
   décodage d'un lien s'achèvent chacun en moins de 100 ms sur un téléphone d'entrée de gamme.
-- **SC-009**: Un lien émis avec la version de banque 0 décodé après publication de la version 1
-  reproduit, pour les questions encore présentes, des scores de thème identiques à ceux obtenus
-  en version 0 lorsque les positions des candidats n'ont pas changé.
+- **SC-009**: Un lien émis avec la version de banque 0, décodé après publication de la version 1
+  (questions, candidats et positions modifiés), reproduit à l'identique les scores, rangs, bandes
+  et couvertures obtenus au moment de son émission, dans 100 % des cas de test.
 
 ## Assumptions
 
@@ -482,7 +483,10 @@ en vérifiant la sélection reconstruite, le marquage des questions retirées et
   elle est traitée exactement comme « passée » dans le calcul mais reste distinguée dans l'état
   pour l'affichage et la reprise.
 - La liste des versions de banque publiées est disponible dans le site (données de la spec 002) ;
-  l'indice tient sur un octet, soit 256 versions au plus.
+  l'indice tient sur un octet, soit 256 versions au plus. Chaque publication de positions créant
+  une version, le rythme de publication doit rester compatible avec cette limite (par exemple au
+  plus une version par semaine jusqu'au scrutin) ; seules les données de la version courante sont
+  chargées par défaut, celles des versions antérieures à la demande.
 - Les positions de candidats « inconnues » incluent les positions absentes, non sourcées ou en
   statut `draft`, conformément au principe I ; cette fonctionnalité ne reçoit que des positions
   déjà filtrées par la spec 002.

@@ -113,8 +113,8 @@ en cache. Dans chaque cas elle comprend ce qui se passe et ce qu'elle peut faire
 **Why this priority**: les liens circulent pendant des mois ; sans gestion explicite, une partie
 des visiteurs arriverait sur une page vide ou sur des chiffres faux, ce qui ruinerait la confiance.
 
-**Independent Test**: ouvrir trois liens fabriqués (corrompu, version antérieure contenant une
-question retirée, version inconnue) et vérifier le message et le comportement de chacun. Testable
+**Independent Test**: ouvrir trois liens fabriqués (corrompu, version antérieure dont une position
+a changé depuis, version inconnue) et vérifier le message et le comportement de chacun. Testable
 indépendamment des autres histoires.
 
 **Acceptance Scenarios**:
@@ -124,10 +124,11 @@ indépendamment des autres histoires.
    lien est incomplet ou invalide, n'affiche aucun chiffre, et propose de commencer le
    questionnaire.
 2. **Given** un lien encodé avec une version de banque antérieure à la version courante, **When**
-   il est ouvert, **Then** les résultats s'affichent, précédés d'un avertissement « résultats
-   recalculés avec les données du JJ/MM/AAAA » (date de publication de la version courante), les
-   questions retirées depuis apparaissent dans le détail comme « question retirée » et sont exclues
-   du calcul, et les questions ajoutées depuis sont comptées comme non répondues.
+   il est ouvert, **Then** les résultats s'affichent exactement tels qu'ils étaient au moment du
+   partage (mêmes candidats, mêmes positions, mêmes chiffres), précédés d'un avertissement
+   « résultats calculés avec les données du JJ/MM/AAAA ; des données plus récentes existent » (date
+   de publication de la version du lien) et d'une proposition de refaire le questionnaire avec les
+   données actuelles.
 3. **Given** un lien encodé avec une version de banque inconnue de la page (plus récente), **When**
    il est ouvert, **Then** la page n'affiche aucun chiffre et invite à recharger pour obtenir la
    dernière version du site, en conservant le lien.
@@ -344,12 +345,14 @@ partir d'un état chargé sans utiliser le détail par question.
   état impossible), la page DOIT afficher un message indiquant que le lien est incomplet ou
   invalide, n'afficher aucun chiffre et proposer de commencer le questionnaire.
 - **FR-032**: Lorsque le fragment référence une version de banque antérieure à la version
-  courante, la page DOIT afficher les résultats recalculés avec les données courantes, précédés
-  d'un avertissement « résultats recalculés avec les données du JJ/MM/AAAA » (date de publication
-  de la version courante, au format français), et proposer un lien vers la page Méthodologie.
-- **FR-033**: Dans ce cas, les questions retirées depuis DOIVENT apparaître dans le détail par
-  question comme « question retirée », sans énoncé ni position, et être exclues de tout calcul ;
-  les questions ajoutées depuis DOIVENT être comptées comme non répondues.
+  courante, la page DOIT afficher les résultats calculés avec les candidats et les positions figés
+  dans cette version (identiques à ceux vus au moment du partage), précédés d'un avertissement
+  « résultats calculés avec les données du JJ/MM/AAAA ; des données plus récentes existent » (date
+  de publication de la version du lien, au format français), proposer de refaire le questionnaire
+  avec les données actuelles et proposer un lien vers la page Méthodologie.
+- **FR-033**: Dans ce cas, un candidat présent dans la version du lien mais qui ne figure plus
+  dans la version courante DOIT rester calculé et affiché, avec la mention « ne se présente
+  plus » ; aucune donnée de la version courante NE DOIT être mélangée à l'affichage.
 - **FR-034**: Lorsque le fragment référence une version de banque inconnue de la page (plus
   récente), la page DOIT n'afficher aucun chiffre et inviter à recharger la page pour obtenir la
   dernière version, en conservant le lien intact.
@@ -377,9 +380,8 @@ partir d'un état chargé sans utiliser le détail par question.
   d'un candidat et tout avertissement de version.
 - **FR-042**: La page NE DOIT émettre aucune requête réseau contenant tout ou partie du fragment,
   des réponses, des sujets clés ou des résultats ; aucun cookie ni traceur tiers NE DOIT être
-  déposé. [NEEDS CLARIFICATION: faut-il une mesure d'audience sur la page de résultats ? Options :
-  aucune mesure ; ou une mesure agrégée sans cookie (pages vues, sans identifiant individuel) qui
-  ne reçoit jamais le fragment d'URL ni aucune donnée dérivée de l'état.]
+  déposé. Aucune mesure d'audience, même agrégée et sans cookie, N'EST installée sur la page de
+  résultats ni ailleurs sur le site (décision du 2026-11-06).
 
 ### Key Entities *(include if feature involves data)*
 
@@ -395,8 +397,8 @@ partir d'un état chargé sans utiliser le détail par question.
   pourcentage entier, bande qualitative, lien vers la fiche.
 - **Fiche candidat** : vue détaillée d'un candidat — identité, statut (classé ou données
   insuffisantes), liste des scores de thème ordonnée (sujets clés d'abord, « autres thèmes » en mode
-  court), couverture par thème, détail par question, questions passées, questions retirées, nombre
-  de questions non répondues.
+  court), couverture par thème, détail par question, questions passées, nombre de questions non
+  répondues, mention « ne se présente plus » le cas échéant.
 - **Ligne de question** : pour une question et un candidat — énoncé, thèmes, réponse du répondant,
   position du candidat ou « inconnue », niveau d'accord (cinq paliers), niveau de preuve, citation,
   source (titre, date de publication, lien).
@@ -404,9 +406,10 @@ partir d'un état chargé sans utiliser le détail par question.
   page, non encodé dans le lien.
 - **Lien de partage** : adresse de la page de résultats dont le fragment est l'encodage de l'état de
   résultat ; accompagné d'un aperçu générique (titre, description) identique pour tous les liens.
-- **Avertissement de version** : message affiché quand la version de banque du lien diffère de la
-  version courante — date de publication de la version courante, nombre de questions retirées,
-  nombre de questions ajoutées, nombre de candidats retirés.
+- **Avertissement de version** : message affiché quand la version de banque du lien est antérieure
+  à la version courante — date de publication de la version du lien, mention que des données plus
+  récentes existent, nombre de candidats qui ne se présentent plus, proposition de refaire le
+  questionnaire.
 
 ## Success Criteria *(mandatory)*
 
@@ -446,21 +449,21 @@ partir d'un état chargé sans utiliser le détail par question.
 ## Assumptions
 
 - **Plafonnement strict** : le moteur de score (spécification 003) applique le plafond strict
-  « global = minimum du score pondéré et du score sur les sujets clés », sans tolérance ; la phrase
-  d'explication de FR-005 en découle. Si la spécification 003 retenait une tolérance, seule cette
-  phrase serait à adapter.
+  « global = minimum du score pondéré et du score sur les sujets clés », sans tolérance (décision
+  du 2026-11-06) ; la phrase d'explication de FR-005 en découle.
 - **Arrondi** : le pourcentage entier, l'ordre de classement et la détection des ex æquo sont
   fournis par le moteur de score sur la base du même arrondi (entier le plus proche), de sorte que
   l'affichage et le classement ne se contredisent jamais.
 - **Niveau de preuve non pondéré** : le badge de preuve est informatif ; il n'influence aucun
   chiffre en v1.
-- **Rescorage des anciens liens** : un lien d'une version antérieure est recalculé avec les
-  positions et la banque courantes (les versions de banque étant immuables et les identifiants de
-  question stables) ; la date de l'avertissement est la date de publication de la version
-  courante. Aucune position n'est figée par version.
-- **Candidats affichés** : la page affiche les candidats présents dans la version courante publiée ;
-  un candidat retiré n'est ni calculé ni affiché, et n'est mentionné que par un décompte dans
-  l'avertissement de version.
+- **Positions figées par version** : un lien d'une version antérieure est rejoué avec les
+  candidats et les positions figés dans cette version (décision du 2026-11-06) ; il reproduit donc
+  exactement ce qui a été vu au moment du partage. La date de l'avertissement est la date de
+  publication de la version du lien. Aucun recalcul avec des données courantes n'est proposé :
+  seule l'option de refaire le questionnaire l'est.
+- **Candidats affichés** : pour un nouveau résultat, la page affiche les candidats de la version
+  courante ; pour un ancien lien, ceux de la version du lien, un candidat qui ne figure plus dans
+  la version courante portant la mention « ne se présente plus ».
 - **Liens partiels** : un lien peut décrire un questionnaire inachevé ; les questions non répondues
   sont simplement absentes du calcul et dénombrées. Il n'existe pas de seuil minimal de réponses
   pour afficher la page, seulement les règles de données insuffisantes.
@@ -473,8 +476,8 @@ partir d'un état chargé sans utiliser le détail par question.
   2 questions, bandes) et les critères d'inclusion des candidats ; la page de résultats s'y réfère
   sans les redéfinir.
 - **Pré-remplissage du questionnaire** : le questionnaire (spécification 004) sait démarrer à partir
-  d'un état complet fourni par la page de résultats, y compris pour une version antérieure (les
-  questions retirées y sont ignorées).
+  d'un état complet fourni par la page de résultats ; pour un ancien lien, il démarre sur la version
+  courante en reprenant, par identifiant, les réponses aux questions encore présentes.
 - **Reprise locale** : la détection d'un questionnaire en cours sur l'appareil (FR-035) repose sur
   le mécanisme de reprise de la spécification 004, qui reste sur l'appareil.
 
