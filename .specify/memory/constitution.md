@@ -1,9 +1,11 @@
 <!--
 Sync Impact Report
-- Version change: (template) → 1.0.0
-- Modified principles: aucun (création initiale)
-- Added sections: Principes fondamentaux (I à VII), Contraintes techniques et d'hébergement,
-  Flux de travail et portes de qualité, Gouvernance
+- Version change: 1.0.0 → 1.0.1 (2026-11-06)
+- Modified principles: aucun ; correctif de libellé dans « Contraintes techniques » :
+  « Storybook 9 » → « Storybook (version stable courante, 10 au 2026-11-06) », la 9 n'étant plus
+  la version stable (constat du plan de la fonctionnalité 001)
+- Added sections: aucune (1.0.0 : Principes I à VII, Contraintes techniques et d'hébergement,
+  Flux de travail et portes de qualité, Gouvernance)
 - Removed sections: aucune
 - Templates reviewed: plan-template.md ✅ (Constitution Check lit ce fichier à l'exécution),
   spec-template.md ✅, tasks-template.md ✅ — aucune modification requise
@@ -110,7 +112,7 @@ inventée ou orientée discrédite l'ensemble.
 ## Contraintes techniques et d'hébergement
 
 - Pile imposée : Next.js (App Router) avec export statique, React, TypeScript strict,
-  Tailwind CSS v4 avec tokens en variables CSS, composants maison, Storybook 9 avec addon
+  Tailwind CSS v4 avec tokens en variables CSS, composants maison, Storybook (version stable courante, 10 au 2026-11-06) avec addon
   d'accessibilité, Vitest, Playwright, next-intl, pnpm, Node.js 24.
 - Hébergement : Vercel, plan Hobby. Conséquences : usage non commercial, un seul compte
   propriétaire, pas de fonctions serveur ni de stockage Vercel, production déployée depuis
@@ -155,4 +157,4 @@ inventée ou orientée discrédite l'ensemble.
   explicite par rapport aux principes ; `/speckit-analyze` est exécuté avant toute
   implémentation pour détecter les contradictions.
 
-**Version**: 1.0.0 | **Ratified**: 2026-11-06 | **Last Amended**: 2026-11-06
+**Version**: 1.0.1 | **Ratified**: 2026-11-06 | **Last Amended**: 2026-11-06

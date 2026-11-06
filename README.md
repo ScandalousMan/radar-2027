@@ -20,7 +20,7 @@ La constitution complète du projet est dans [`.specify/memory/constitution.md`]
 
 ## Pile technique (cible)
 
-Next.js (export statique) · React · TypeScript · Tailwind CSS v4 · Storybook 9 · Vitest ·
+Next.js (export statique) · React · TypeScript · Tailwind CSS v4 · Storybook 10 · Vitest ·
 Playwright · next-intl · pnpm · Node.js 24 · hébergement Vercel (plan Hobby).
 
 ## Méthode : Spec-Driven Development avec Spec Kit

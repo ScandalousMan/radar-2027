@@ -310,7 +310,7 @@ production.
 - **FR-013**: Chaque composant DOIT être entièrement utilisable au clavier (Tab, Maj+Tab, Entrée,
   Espace, flèches pour les groupes d'options), exposer des rôles et libellés accessibles corrects,
   et afficher un indicateur de focus visible dans les deux thèmes.
-- **FR-014**: Storybook 9 DOIT être configuré avec l'addon d'accessibilité, une bascule de thème
+- **FR-014**: Storybook (version stable courante, 10) DOIT être configuré avec l'addon d'accessibilité, une bascule de thème
   clair/sombre dans la barre d'outils, et une page documentant les tokens ; aucune story NE DOIT
   présenter de violation d'accessibilité de niveau critique ou sérieux.
 - **FR-015**: Chaque composant et la page d'accueil DOIVENT rester utilisables à 320 px de large
@@ -408,7 +408,7 @@ production.
 
 - **Public de la spécification** : les utilisateurs sont les mainteneurs et contributeurs ; aucun
   parcours électeur n'est livré ici. Les outils cités sont uniquement ceux imposés par la
-  constitution (Next.js export statique, Tailwind v4, Storybook 9 + addon a11y, Vitest, Playwright,
+  constitution (Next.js export statique, Tailwind v4, Storybook 10 + addon a11y, Vitest, Playwright,
   next-intl, pnpm, Node 24, Vercel Hobby, GitHub Actions) ; tout autre choix (structure de
   fichiers, bibliothèques utilitaires, configuration précise) relève du plan.
 - **Polices** : la typographie repose sur une pile de polices système ; aucune police n'est chargée

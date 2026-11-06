@@ -37,7 +37,7 @@
   contributeurs). Les items « No implementation details », « Written for non-technical
   stakeholders » et « Success criteria are technology-agnostic » sont évalués comme « aucun détail
   au-delà de ce que la constitution impose » (section « Contraintes techniques et d'hébergement » :
-  Next.js export statique, Tailwind v4 avec tokens CSS, Storybook 9 + addon a11y, Vitest,
+  Next.js export statique, Tailwind v4 avec tokens CSS, Storybook 10 + addon a11y, Vitest,
   Playwright, next-intl, pnpm, Node 24, Vercel Hobby, GitHub Actions ; dossiers `src/ui` et
   `src/core` ; `.env.example`). Vérification faite : la spec ne décrit ni structure de fichiers
   détaillée, ni code, ni configuration précise, ni bibliothèque non imposée ; ces choix sont
