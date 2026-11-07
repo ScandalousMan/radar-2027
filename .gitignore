@@ -18,3 +18,7 @@ test-results/
 
 # Spec Kit : état local
 .specify/feature.json
+
+# Artefacts TypeScript et Next générés
+*.tsbuildinfo
+next-env.d.ts
