@@ -28,6 +28,15 @@ Modifier `home.title` dans `src/i18n/messages/fr.json`, recharger : le titre cha
 modification de composant.
 
 ```bash
+pnpm lint
+```
+
+Recherche automatisée de texte en dur (règle `react/jsx-no-literals` et sélecteurs
+d'attributs textuels de `eslint.config.mjs`, SC-002). **Résultat attendu et constaté le
+2026-11-07 : 0 violation.** Contre-épreuve : remplacer `{t('cta')}` par `Commencer` dans
+`src/app/page.tsx` fait échouer le lint en désignant la ligne.
+
+```bash
 pnpm build
 ```
 

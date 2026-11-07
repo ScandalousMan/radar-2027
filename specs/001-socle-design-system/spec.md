@@ -4,7 +4,7 @@
 
 **Created**: 2026-11-06
 
-**Status**: Draft
+**Status**: Implemented (2026-11-07, branche `001-socle-design-system` ; T053 et T057 restent des actions du propriétaire)
 
 **Input**: User description: "Socle applicatif, design system, Storybook, tests et déploiement Vercel"
 
