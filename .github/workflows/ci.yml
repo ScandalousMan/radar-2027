@@ -1,0 +1,68 @@
+# Intégration continue de radar-2027 (FR-021, R10).
+# Un seul job `ci` : c'est la vérification requise par la protection de branche de `main`.
+name: ci
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  ci:
+    name: ci
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: pnpm/action-setup@v6
+        # La version de pnpm est lue dans le champ `packageManager` de package.json.
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+
+      - name: install
+        run: pnpm install --frozen-lockfile
+
+      - name: playwright chromium
+        # Nécessaire dès l'étape test : les projets Vitest `storybook*` exécutent les stories dans Chromium.
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: lint
+        run: pnpm lint
+
+      - name: typecheck
+        run: pnpm typecheck
+
+      # Emplacement réservé (fonctionnalité 002, principe V) : validation de schéma des données.
+      # - name: data:validate
+      #   run: pnpm data:validate
+
+      - name: test
+        run: pnpm test
+
+      - name: storybook:build
+        run: pnpm storybook:build
+
+      - name: build
+        run: pnpm build
+
+      - name: e2e
+        run: pnpm e2e
+
+      - uses: actions/upload-artifact@v5
+        if: failure()
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7

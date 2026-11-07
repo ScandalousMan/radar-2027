@@ -1,0 +1,32 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { TokensTable } from './docs/TokensTable';
+
+<Meta title="Fondations/Tokens" />
+
+# Tokens de design
+
+Source unique : `src/ui/tokens.css`. Les noms et familles ci-dessous sont lus dans ce fichier ;
+les valeurs sont calculées au rendu dans les deux apparences (clair et sombre). Aucune autre
+valeur de style n'est autorisée dans `src/app` et `src/ui` (règle de lint).
+
+Les couleurs sont **sémantiques** (rôle, pas teinte). L'accent est un sarcelle, hors des
+couleurs emblématiques des partis. Les contrastes des couples texte/fond sont vérifiés par
+`src/ui/tokens.test.ts` (4,5:1 pour le texte, 3:1 pour le focus).
+
+<TokensTable family="color" title="Couleurs" />
+
+<TokensTable family="spacing" title="Espacements" />
+
+<TokensTable family="container" title="Largeurs de contenu" />
+
+<TokensTable family="font" title="Polices" />
+
+<TokensTable family="font-size" title="Tailles de police" />
+
+<TokensTable family="line-height" title="Hauteurs de ligne" />
+
+<TokensTable family="font-weight" title="Graisses" />
+
+<TokensTable family="radius" title="Rayons" />
+
+<TokensTable family="shadow" title="Ombres" />

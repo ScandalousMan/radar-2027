@@ -1,0 +1,24 @@
+# Dépendances et builds
+node_modules/
+.next/
+out/
+storybook-static/
+coverage/
+playwright-report/
+test-results/
+
+# Environnement
+.env
+.env.*
+!.env.example
+.vercel/
+
+# Système
+.DS_Store
+
+# Spec Kit : état local
+.specify/feature.json
+
+# Artefacts TypeScript et Next générés
+*.tsbuildinfo
+next-env.d.ts
