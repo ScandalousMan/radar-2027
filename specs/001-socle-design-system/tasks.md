@@ -186,6 +186,7 @@ production < 5 min ; `curl -sI` montre les cinq en-têtes ; aucune fonction list
 ## Phase 8: Polish & Cross-Cutting Concerns
 
 - [x] T059 [P] Mesurer le poids transféré de la page d'accueil en production (onglet Réseau ou `curl --compressed`) et, si nécessaire, le ramener sous 200 Ko en ajustant `src/app/layout.tsx`, `src/app/page.tsx` et `next.config.ts` (SC-011)
+  - Mesure du 2026-11-07 sur l'export local (HTML + 10 ressources référencées) : 654 Ko bruts, **201 Ko gzip, 173 Ko brotli** (Vercel sert en brotli). Le poids vient du runtime React/Next et de next-intl ; l'accueil lui-même pèse 4 Ko. À remesurer sur la production (T057).
 - [x] T060 [P] Relire `README.md` dans son ensemble (démarrer, commandes, qualité, déploiement, tableau des fonctionnalités, renvoi à la constitution) et le tableau des versions de research.md (FR-026)
 - [x] T061 [P] Exécuter `pnpm lint` comme recherche automatisée de texte en dur (règle `react/jsx-no-literals` de `eslint.config.mjs`) et consigner le résultat attendu (0 violation) dans `specs/001-socle-design-system/quickstart.md` § 1 (SC-002)
 - [x] T062 Dérouler [quickstart.md](quickstart.md) de bout en bout sur un clone frais et cocher chaque scénario ; corriger les écarts
