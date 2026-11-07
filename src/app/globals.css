@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "../ui/tokens.css";
+
+/* Apparence sombre pilotée par l'attribut `data-theme` posé sur <html> (R3, FR-010). */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  html[data-theme="dark"] {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-bg text-fg font-sans antialiased;
+    min-height: 100dvh;
+  }
+
+  /* Indicateur de focus commun : anneau `--color-focus`, visible dans les deux apparences (FR-013). */
+  :focus-visible {
+    outline: var(--focus-ring-width) solid var(--color-focus);
+    outline-offset: var(--focus-ring-offset);
+  }
+}

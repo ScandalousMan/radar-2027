@@ -1,0 +1,48 @@
+{
+  "common": {
+    "siteName": "radar-2027",
+    "skipToContent": "Aller au contenu",
+    "appearance": {
+      "toggle": "Changer d’apparence",
+      "light": "Apparence claire",
+      "dark": "Apparence sombre"
+    },
+    "footer": {
+      "methodology": "Méthodologie",
+      "about": "À propos"
+    }
+  },
+  "home": {
+    "title": "Quels candidats sont proches de vous ?",
+    "description": "Comparez vos réponses aux positions des candidats à la présidentielle 2027, en donnant plus de poids aux sujets qui comptent pour vous.",
+    "lead": "radar-2027 compare vos réponses aux positions des candidats à la présidentielle 2027, en donnant plus de poids aux sujets qui comptent pour vous.",
+    "privacy": "Tout est calculé dans votre navigateur : aucune réponse n’est envoyée ni conservée.",
+    "cta": "Commencer",
+    "ctaSoon": "Le questionnaire arrive bientôt."
+  },
+  "ui": {
+    "likert": {
+      "stronglyDisagree": "Pas du tout d’accord",
+      "disagree": "Plutôt pas d’accord",
+      "neutral": "Neutre / sans avis",
+      "agree": "Plutôt d’accord",
+      "stronglyAgree": "Tout à fait d’accord",
+      "skip": "Passer cette question"
+    },
+    "themePicker": {
+      "counter": "{count} / {max}",
+      "counterLabel": "{count} sujet(s) choisi(s) sur {max}",
+      "maxReached": "Vous avez atteint le maximum de {max} sujets.",
+      "minNotReached": "Choisissez encore {missing, plural, one {# sujet} other {# sujets}} (minimum {min})."
+    },
+    "scoreBar": {
+      "undefined": "—",
+      "unavailable": "Score indisponible"
+    },
+    "evidence": {
+      "programme": "Programme officiel",
+      "livrePlateforme": "Livre ou plateforme écrite",
+      "declarationVote": "Déclaration publique ou vote"
+    }
+  }
+}

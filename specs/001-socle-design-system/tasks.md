@@ -45,14 +45,14 @@ projet, avant tout code.
 
 **⚠️ CRITICAL** : aucune story ne démarre avant la fin de cette phase.
 
-- [ ] T008 Créer `next.config.ts` : `output: 'export'`, `images.unoptimized: true`, `trailingSlash: false`, `cacheComponents: false`, enveloppé par `createNextIntlPlugin('./src/i18n/request.ts')` (R1, R2)
-- [ ] T009 [P] Créer `postcss.config.mjs` avec `@tailwindcss/postcss` et `src/app/globals.css` : `@import "tailwindcss"`, `@import "../ui/tokens.css"`, `@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *))`, styles de base (`body` sur `bg-bg text-fg font-sans`) (R3)
-- [ ] T010 [P] Créer `src/ui/tokens.css` avec le bloc `@theme` complet et le bloc `[data-theme="dark"]` selon [contracts/tokens.md](contracts/tokens.md) (couleurs sémantiques, espacements dont `--spacing-touch`, typographie système, rayons, ombres)
-- [ ] T011 [P] Créer `src/i18n/config.ts` (`locales = ['fr'] as const`, `defaultLocale = 'fr'`), `src/i18n/request.ts` (`getRequestConfig` renvoyant locale `fr` et messages importés statiquement) et `src/types/global.d.ts` déclarant `IntlMessages` à partir de `fr.json` (R2, FR-006)
-- [ ] T012 [P] Créer `src/i18n/messages/fr.json` avec toutes les clés de [contracts/i18n-messages.md](contracts/i18n-messages.md) (`common.*`, `home.*`, `ui.*`), typographie française
-- [ ] T013 [P] Créer `vitest.config.ts` avec le projet `unit` (environnement jsdom, `@testing-library/react`, `@testing-library/jest-dom`, fichiers `src/**/*.test.{ts,tsx}`, `setupFiles: ['./vitest.setup.ts']`) et `vitest.setup.ts` ; le projet `storybook` est ajouté en US3 (R5)
-- [ ] T014 [P] Créer `src/lib/appearance.ts` (apparence clair/sombre, distincte des « thèmes » de l'ontologie) : constantes `STORAGE_KEY = 'radar-appearance'`, fonctions `readStoredAppearance()`, `writeStoredAppearance()`, `resolveInitialAppearance()` (stockage local puis `prefers-color-scheme`, tolérant à un stockage indisponible), et la chaîne du script d'initialisation à injecter dans `<head>` (FR-010, data-model § Apparence)
-- [ ] T015 [P] Écrire `src/lib/appearance.test.ts` : préférence système seule, choix explicite prioritaire, stockage local indisponible sans erreur
+- [x] T008 Créer `next.config.ts` : `output: 'export'`, `images.unoptimized: true`, `trailingSlash: false`, `cacheComponents: false`, enveloppé par `createNextIntlPlugin('./src/i18n/request.ts')` (R1, R2)
+- [x] T009 [P] Créer `postcss.config.mjs` avec `@tailwindcss/postcss` et `src/app/globals.css` : `@import "tailwindcss"`, `@import "../ui/tokens.css"`, `@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *))`, styles de base (`body` sur `bg-bg text-fg font-sans`) (R3)
+- [x] T010 [P] Créer `src/ui/tokens.css` avec le bloc `@theme` complet et le bloc `[data-theme="dark"]` selon [contracts/tokens.md](contracts/tokens.md) (couleurs sémantiques, espacements dont `--spacing-touch`, typographie système, rayons, ombres)
+- [x] T011 [P] Créer `src/i18n/config.ts` (`locales = ['fr'] as const`, `defaultLocale = 'fr'`), `src/i18n/request.ts` (`getRequestConfig` renvoyant locale `fr` et messages importés statiquement) et `src/types/global.d.ts` déclarant `IntlMessages` à partir de `fr.json` (R2, FR-006)
+- [x] T012 [P] Créer `src/i18n/messages/fr.json` avec toutes les clés de [contracts/i18n-messages.md](contracts/i18n-messages.md) (`common.*`, `home.*`, `ui.*`), typographie française
+- [x] T013 [P] Créer `vitest.config.ts` avec le projet `unit` (environnement jsdom, `@testing-library/react`, `@testing-library/jest-dom`, fichiers `src/**/*.test.{ts,tsx}`, `setupFiles: ['./vitest.setup.ts']`) et `vitest.setup.ts` ; le projet `storybook` est ajouté en US3 (R5)
+- [x] T014 [P] Créer `src/lib/appearance.ts` (apparence clair/sombre, distincte des « thèmes » de l'ontologie) : constantes `STORAGE_KEY = 'radar-appearance'`, fonctions `readStoredAppearance()`, `writeStoredAppearance()`, `resolveInitialAppearance()` (stockage local puis `prefers-color-scheme`, tolérant à un stockage indisponible), et la chaîne du script d'initialisation à injecter dans `<head>` (FR-010, data-model § Apparence)
+- [x] T015 [P] Écrire `src/lib/appearance.test.ts` : préférence système seule, choix explicite prioritaire, stockage local indisponible sans erreur
 
 **Checkpoint** : `pnpm typecheck`, `pnpm lint` et `pnpm test` verts ; `tokens.css` chargé sans erreur PostCSS.
 
