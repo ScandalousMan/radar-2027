@@ -250,6 +250,7 @@ L'éditeur lance une exécution d'extraction sur les sources d'un candidat : un 
 - **I. Neutralité et traçabilité** : FR-013 à FR-022 (sources, niveaux de preuve, citation vérifiable, brouillon jamais publié), FR-005 à FR-006 (critères publics et identiques), FR-009 à FR-012 (neutralité et équilibre des énoncés), FR-041 (données versionnées et relues).
 - **II. Vie privée** : FR-037 et FR-045 (aucune donnée d'éditeur, de relecteur ni de visiteur publiée ou collectée) ; le pipeline s'exécute hors du site et ne touche à aucune donnée de répondant.
 - **III. Cœur métier pur** : les indicateurs calculés ici (couverture, pouvoir discriminant) sont déterministes à corpus donné et livrés dans le jeu de données, de sorte que la sélection (003) reste pure.
+- **IV. Design system d'abord** : la page Méthodologie (FR-042 à FR-045) est la seule interface de cette fonctionnalité ; elle n'utilise que les composants et tokens du socle (001), reste utilisable à 320 px et au clavier, et ses contenus issus des données (FR-044) sont rendus par ces composants sans style propre.
 - **V. Tests comme contrat** : FR-031 et SC-001 imposent une validation bloquante en intégration continue avec jeu de violations de référence.
 - **VI. Internationalisation** : les contenus de données (énoncés, libellés, citations) sont en français et séparés des chaînes d'interface de la page Méthodologie.
 - **VII. Simplicité, statique et sobriété** : aucun service serveur ; le pipeline est un outillage hors du site ; SC-004 borne le poids des données chargées par un visiteur.
