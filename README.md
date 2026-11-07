@@ -49,8 +49,58 @@ Le dossier de la fonctionnalité courante est pointé par `.specify/feature.json
 | 004 | `specs/004-parcours-questionnaire` | Accueil, choix des sujets clés, mode court/complet, réponses |
 | 005 | `specs/005-resultats-partage` | Classement, détail par thème et par question, partage par URL |
 
-## Prérequis locaux
+## Démarrer
+
+### Prérequis
+
+- **Node.js 24** (`.nvmrc` est fourni : `nvm use` suffit). Une autre version est refusée à
+  l'installation (`engine-strict`).
+- **pnpm 12** à la version indiquée par le champ `packageManager` de `package.json`
+  (`npm install -g pnpm@<version>` ; Corepack n'est pas requis).
+- Aucun fichier `.env` n'est nécessaire : le site se construit sans variable d'environnement
+  (voir [`.env.example`](.env.example)).
+
+### Commandes
+
+```bash
+pnpm install --frozen-lockfile
+```
+
+```bash
+pnpm dev
+```
+
+La page d'accueil est servie sur <http://localhost:3000>, en français (`<html lang="fr">`),
+sans requête vers un domaine tiers ni cookie. Toutes les chaînes affichées viennent de
+[`src/i18n/messages/fr.json`](src/i18n/messages/fr.json) : modifier `home.title` suffit à
+changer l'écran.
+
+```bash
+pnpm build
+```
+
+```bash
+pnpm start:static
+```
+
+`pnpm build` produit l'export statique dans `out/` (aucune fonction serveur, aucune route
+dynamique) ; `pnpm start:static` sert ce dossier sur le port 3000, exactement comme en
+production.
+
+| Commande | Effet |
+|---|---|
+| `pnpm dev` | serveur de développement Next.js |
+| `pnpm build` | export statique dans `out/` |
+| `pnpm start:static` | sert `out/` localement (port 3000) |
+| `pnpm lint` | ESLint : règles Next, accessibilité, Storybook, interdictions projet |
+| `pnpm typecheck` | `tsc --noEmit` sur l'application, les composants, les stories, les tests et les e2e |
+| `pnpm test` | Vitest : tests unitaires, tests de tokens, stories exécutées comme tests d'accessibilité |
+| `pnpm e2e` | Playwright contre `out/` servi automatiquement |
+| `pnpm storybook` | Storybook en développement (<http://localhost:6006>) |
+| `pnpm storybook:build` | build statique de Storybook dans `storybook-static/` |
+| `pnpm verify` | lint → typecheck → test → storybook:build → build → e2e, même ordre que la CI |
+
+### Outillage Spec Kit
 
 - [`specify`](https://github.com/github/spec-kit) (installé via `uv tool install specify-cli`)
 - `jq` pour les scripts Spec Kit (`brew install jq`, ou fixer une version dans `.tool-versions` si asdf est utilisé)
-- Node.js 24 et pnpm (à partir de la fonctionnalité 001)

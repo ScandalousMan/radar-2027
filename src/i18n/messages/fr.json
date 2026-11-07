@@ -13,10 +13,10 @@
     }
   },
   "home": {
-    "title": "Quels candidats sont proches de vous ?",
+    "title": "Quels candidats sont proches de vous ?",
     "description": "Comparez vos réponses aux positions des candidats à la présidentielle 2027, en donnant plus de poids aux sujets qui comptent pour vous.",
     "lead": "radar-2027 compare vos réponses aux positions des candidats à la présidentielle 2027, en donnant plus de poids aux sujets qui comptent pour vous.",
-    "privacy": "Tout est calculé dans votre navigateur : aucune réponse n’est envoyée ni conservée.",
+    "privacy": "Tout est calculé dans votre navigateur : aucune réponse n’est envoyée ni conservée.",
     "cta": "Commencer",
     "ctaSoon": "Le questionnaire arrive bientôt."
   },

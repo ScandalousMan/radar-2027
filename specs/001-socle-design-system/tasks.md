@@ -69,13 +69,13 @@ modifier `home.title` change l'écran sans toucher aux composants (quickstart §
 
 ### Implementation for User Story 1
 
-- [ ] T016 [US1] Créer `src/app/layout.tsx` : `<html lang="fr" suppressHydrationWarning>`, script d'initialisation de l'apparence (`src/lib/appearance.ts`) injecté avant tout rendu, import de `globals.css`, `NextIntlClientProvider`, métadonnées (`title`, `description`) lues depuis les messages via `getTranslations` (FR-004, FR-010)
-- [ ] T017 [US1] Créer `src/app/page.tsx` : accueil avec `home.title`, `home.lead`, `home.privacy` et bouton `home.cta` rendu désactivé (`aria-disabled`) accompagné du texte `home.ctaSoon`, tant que la page du questionnaire (spec 004) n'existe pas ; aucun lien vers une page absente de l'export, via `useTranslations` / `getTranslations` ; aucun littéral JSX (FR-004, FR-005)
-- [ ] T018 [P] [US1] Ajouter `public/favicon.svg` (forme neutre aux couleurs des tokens) et `public/robots.txt` ; aucune ressource externe (FR-007)
-- [ ] T019 [US1] Exécuter `pnpm build` et vérifier `out/index.html` (lang `fr`, titre présent, aucun `<script src>` externe, aucune `<link>` vers un domaine tiers) ; si l'export échoue avec next-intl, appliquer le repli de research.md R2 et documenter ; si `out/` est incomplet avec Turbopack, documenter `next build --webpack` dans le script `build` (R1)
-- [ ] T020 [US1] Exécuter `pnpm start:static` (script créé en T001 : `serve out -l 3000`) et vérifier le service de `out/` ; vérifier dans le navigateur l'absence de cookie et de requête tierce (FR-007)
-- [ ] T021 [P] [US1] Écrire `src/i18n/messages.test.ts` : chaque clé de [contracts/i18n-messages.md](contracts/i18n-messages.md) est présente, typographie française respectée (espace insécable avant `? ! : ;`, guillemets « »), aucune valeur vide
-- [ ] T022 [US1] Rédiger la section « Démarrer » du `README.md` : prérequis (Node 24, pnpm 12), commandes `pnpm install`, `pnpm dev`, `pnpm build`, `pnpm start:static`, renvoi à la constitution (FR-026, SC-001)
+- [x] T016 [US1] Créer `src/app/layout.tsx` : `<html lang="fr" suppressHydrationWarning>`, script d'initialisation de l'apparence (`src/lib/appearance.ts`) injecté avant tout rendu, import de `globals.css`, `NextIntlClientProvider`, métadonnées (`title`, `description`) lues depuis les messages via `getTranslations` (FR-004, FR-010)
+- [x] T017 [US1] Créer `src/app/page.tsx` : accueil avec `home.title`, `home.lead`, `home.privacy` et bouton `home.cta` rendu désactivé (`aria-disabled`) accompagné du texte `home.ctaSoon`, tant que la page du questionnaire (spec 004) n'existe pas ; aucun lien vers une page absente de l'export, via `useTranslations` / `getTranslations` ; aucun littéral JSX (FR-004, FR-005)
+- [x] T018 [P] [US1] Ajouter `public/favicon.svg` (forme neutre aux couleurs des tokens) et `public/robots.txt` ; aucune ressource externe (FR-007)
+- [x] T019 [US1] Exécuter `pnpm build` et vérifier `out/index.html` (lang `fr`, titre présent, aucun `<script src>` externe, aucune `<link>` vers un domaine tiers) ; si l'export échoue avec next-intl, appliquer le repli de research.md R2 et documenter ; si `out/` est incomplet avec Turbopack, documenter `next build --webpack` dans le script `build` (R1)
+- [x] T020 [US1] Exécuter `pnpm start:static` (script créé en T001 : `serve out -l 3000`) et vérifier le service de `out/` ; vérifier dans le navigateur l'absence de cookie et de requête tierce (FR-007)
+- [x] T021 [P] [US1] Écrire `src/i18n/messages.test.ts` : chaque clé de [contracts/i18n-messages.md](contracts/i18n-messages.md) est présente, typographie française respectée (espace insécable avant `? ! : ;`, guillemets « »), aucune valeur vide
+- [x] T022 [US1] Rédiger la section « Démarrer » du `README.md` : prérequis (Node 24, pnpm 12), commandes `pnpm install`, `pnpm dev`, `pnpm build`, `pnpm start:static`, renvoi à la constitution (FR-026, SC-001)
 
 **Checkpoint** : US1 démontrable seule ; `pnpm lint` échoue si un littéral de texte est ajouté dans `page.tsx` (SC-002).
 
