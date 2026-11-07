@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getTranslations } from 'next-intl/server';
 import type { ReactNode } from 'react';
 import { appearanceInitScript } from '@/lib/appearance';
+import { PageShell } from '@/ui/PageShell';
 import './globals.css';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -24,7 +25,9 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: appearanceInitScript }} />
       </head>
       <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <PageShell>{children}</PageShell>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

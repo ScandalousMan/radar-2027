@@ -105,7 +105,8 @@ export default defineConfig([
   //    les attributs textuels lus par l'utilisateur sont couverts par le sélecteur ci-dessous.
   {
     files: ['src/app/**/*.tsx', 'src/ui/**/*.tsx'],
-    ignores: ['src/**/*.test.tsx', 'src/**/*.stories.tsx'],
+    // Tests, stories et pages de documentation Storybook (`src/ui/docs`) ne sont pas de l'interface produit.
+    ignores: ['src/**/*.test.tsx', 'src/**/*.stories.tsx', 'src/ui/docs/**'],
     rules: {
       'react/jsx-no-literals': [
         'error',
