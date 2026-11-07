@@ -59,14 +59,13 @@ export function Button({
 }: ButtonProps) {
   const inactive = disabled || loading;
   const classes = buttonClassName({ variant, size, className });
+  // En chargement, le libellé reste visible et lisible par les lecteurs d'écran ; l'indicateur s'ajoute devant.
   const content = (
     <>
-      <span className={loading ? 'invisible' : undefined}>{children}</span>
       {loading ? (
-        <span aria-hidden="true" className="absolute inset-0 inline-flex items-center justify-center">
-          <span className="size-4 animate-spin rounded-full border-2 border-current border-t-transparent" />
-        </span>
+        <span aria-hidden="true" className="size-4 shrink-0 animate-spin rounded-full border-2 border-current border-t-transparent" />
       ) : null}
+      <span className={loading ? 'opacity-70' : undefined}>{children}</span>
     </>
   );
 

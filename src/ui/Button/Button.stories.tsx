@@ -82,3 +82,9 @@ export const ToutesLesVariantes: Story = {
     </div>
   ),
 };
+
+export const Etroit320: Story = {
+  name: 'Étroit 320 px',
+  globals: { viewport: { value: 'mobile320', isRotated: false } },
+  args: { children: 'Commencer le questionnaire complet', className: 'w-full whitespace-normal' },
+};

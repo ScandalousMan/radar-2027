@@ -47,3 +47,9 @@ export const ToutAFaitDaccord: Story = { name: 'Tout à fait d’accord (+2)', a
 export const Passee: Story = { name: 'Passée', args: { value: 'skipped' } };
 
 export const Desactive: Story = { name: 'Désactivé', args: { value: 1, disabled: true } };
+
+export const Etroit320: Story = {
+  name: 'Étroit 320 px',
+  globals: { viewport: { value: 'mobile320', isRotated: false } },
+  args: { value: 1 },
+};

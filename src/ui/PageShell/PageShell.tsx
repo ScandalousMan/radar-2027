@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import type { ReactNode } from 'react';
 import { AppearanceToggle } from './AppearanceToggle';
+import { SkipLink } from './SkipLink';
 
 export type PageShellProps = {
   /** Contenu principal, rendu dans `<main id="contenu">`. */
@@ -19,12 +20,7 @@ export function PageShell({ children, className = '' }: PageShellProps) {
   const t = useTranslations('common');
   return (
     <div className={['flex min-h-dvh flex-col', className].filter(Boolean).join(' ')}>
-      <a
-        href={`#${MAIN_CONTENT_ID}`}
-        className="sr-only z-10 rounded-md bg-accent px-4 py-2 font-medium text-accent-fg focus:not-sr-only focus:absolute focus:top-2 focus:left-2"
-      >
-        {t('skipToContent')}
-      </a>
+      <SkipLink targetId={MAIN_CONTENT_ID}>{t('skipToContent')}</SkipLink>
       <header className="border-b border-border">
         <div className="mx-auto flex w-full max-w-content items-center justify-between gap-4 px-4 py-3">
           <Link href="/" className="rounded-sm text-lg font-semibold tracking-tight">

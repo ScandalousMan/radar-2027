@@ -66,3 +66,9 @@ export const Desactive: Story = {
   name: 'Désactivé',
   args: { value: ['logement', 'sante', 'education'], disabled: true },
 };
+
+export const Etroit320: Story = {
+  name: 'Étroit 320 px',
+  globals: { viewport: { value: 'mobile320', isRotated: false } },
+  args: { value: ['logement', 'ecologie'] },
+};

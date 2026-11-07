@@ -57,3 +57,9 @@ export const InteractiveLien: Story = {
   name: 'Interactive (lien)',
   args: { interactive: true, href: '/methodologie', header: 'Lire la méthodologie' },
 };
+
+export const Etroit320: Story = {
+  name: 'Étroit 320 px',
+  globals: { viewport: { value: 'mobile320', isRotated: false } },
+  args: { interactive: true, header: 'Voir le détail de ce candidat', footer: 'Source : programme officiel' },
+};

@@ -29,6 +29,24 @@ describe('PageShell', () => {
     const main = screen.getByRole('main');
     expect(main).toHaveAttribute('id', 'contenu');
     expect(main).toHaveAttribute('tabindex', '-1');
+    await userEvent.keyboard('{Enter}');
+    expect(main).toHaveFocus();
+  });
+
+  it('ordre de focus : aller au contenu, nom du site, bascule, puis le contenu', async () => {
+    renderWithIntl(
+      <PageShell>
+        <button type="button">Action</button>
+      </PageShell>,
+    );
+    await userEvent.tab();
+    expect(screen.getByRole('link', { name: fr.common.skipToContent })).toHaveFocus();
+    await userEvent.tab();
+    expect(screen.getByRole('link', { name: fr.common.siteName })).toHaveFocus();
+    await userEvent.tab();
+    expect(screen.getByRole('button', { name: fr.common.appearance.toggle })).toHaveFocus();
+    await userEvent.tab();
+    expect(screen.getByRole('button', { name: 'Action' })).toHaveFocus();
   });
 
   it('en-tête avec le nom du site, pied avec méthodologie et à propos', () => {

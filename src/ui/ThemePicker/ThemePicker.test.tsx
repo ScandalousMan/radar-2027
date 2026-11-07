@@ -67,4 +67,36 @@ describe('ThemePicker', () => {
     await userEvent.click(screen.getByRole('button', { name: 'Sujet B' }));
     expect(onChange).not.toHaveBeenCalled();
   });
+
+  describe('clavier (FR-013)', () => {
+    it('chaque puce est atteignable au clavier, y compris au maximum, et annonce son état', async () => {
+      setup(['a', 'b', 'c', 'd', 'e']);
+      const names = ['A', 'B', 'C', 'D', 'E', 'F'];
+      for (const [index, letter] of names.entries()) {
+        await userEvent.tab();
+        const chip = screen.getByRole('button', { name: `Sujet ${letter}` });
+        expect(chip).toHaveFocus();
+        expect(chip).toHaveAttribute('aria-pressed', index < 5 ? 'true' : 'false');
+      }
+      expect(screen.getByRole('button', { name: 'Sujet F' })).toHaveAttribute('aria-disabled', 'true');
+    });
+
+    it('Espace et Entrée basculent une puce', async () => {
+      const { onChange } = setup(['a']);
+      screen.getByRole('button', { name: 'Sujet B' }).focus();
+      await userEvent.keyboard('{Enter}');
+      expect(onChange).toHaveBeenLastCalledWith(['a', 'b'], { valid: false });
+      screen.getByRole('button', { name: 'Sujet A' }).focus();
+      await userEvent.keyboard(' ');
+      expect(onChange).toHaveBeenLastCalledWith([], { valid: false });
+    });
+
+    it('le compteur est relié au groupe par aria-describedby', () => {
+      setup(['a', 'b', 'c']);
+      const group = screen.getByRole('group', { name: 'Vos sujets' });
+      const describedBy = group.getAttribute('aria-describedby');
+      expect(describedBy).toBeTruthy();
+      expect(document.getElementById(describedBy ?? '')).toHaveTextContent('3 / 5');
+    });
+  });
 });

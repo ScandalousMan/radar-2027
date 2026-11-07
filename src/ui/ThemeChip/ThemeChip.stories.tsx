@@ -41,3 +41,9 @@ export const LibelleLong: Story = {
     </div>
   ),
 };
+
+export const Etroit320: Story = {
+  name: 'Étroit 320 px',
+  globals: { viewport: { value: 'mobile320', isRotated: false } },
+  args: { id: 'transition', label: 'Transition écologique, énergie et adaptation au changement climatique', selected: true },
+};
