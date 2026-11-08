@@ -1,0 +1,160 @@
+- id: economie-q01
+  text: Énoncé de test numéro 1 du thème Économie.
+  themes:
+    - economie
+  polarity: +
+  status: active
+  author: adrien
+  reviewer: relecteur-1
+  reviewedAt: 2026-11-08
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+  introducedIn: 1
+- id: economie-q02
+  text: Énoncé de test numéro 2 du thème Économie.
+  themes:
+    - economie
+  polarity: "-"
+  status: active
+  author: adrien
+  reviewer: relecteur-1
+  reviewedAt: 2026-11-08
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+  introducedIn: 1
+- id: economie-q03
+  text: Énoncé de test numéro 3 du thème Économie.
+  themes:
+    - economie
+  polarity: +
+  status: active
+  author: adrien
+  reviewer: relecteur-1
+  reviewedAt: 2026-11-08
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+  introducedIn: 1
+- id: economie-q04
+  text: Énoncé de test numéro 4 du thème Économie.
+  themes:
+    - economie
+  polarity: "-"
+  status: active
+  author: adrien
+  reviewer: relecteur-1
+  reviewedAt: 2026-11-08
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+  introducedIn: 1
+- id: economie-q05
+  text: Énoncé de test numéro 5 du thème Économie.
+  themes:
+    - economie
+  polarity: +
+  status: active
+  author: adrien
+  reviewer: relecteur-1
+  reviewedAt: 2026-11-08
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+  introducedIn: 1
+- id: economie-q06
+  text: Énoncé de test numéro 6 du thème Économie.
+  themes:
+    - economie
+  polarity: "-"
+  status: active
+  author: adrien
+  reviewer: relecteur-1
+  reviewedAt: 2026-11-08
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+  introducedIn: 1
+- id: economie-q07
+  text: Énoncé de test numéro 7 du thème Économie.
+  themes:
+    - economie
+  polarity: +
+  status: active
+  author: adrien
+  reviewer: relecteur-1
+  reviewedAt: 2026-11-08
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+  introducedIn: 1
+- id: economie-q08
+  text: Énoncé de test numéro 8 du thème Économie.
+  themes:
+    - economie
+  polarity: "-"
+  status: active
+  author: adrien
+  reviewer: relecteur-1
+  reviewedAt: 2026-11-08
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+  introducedIn: 1
+- id: economie-q09
+  text: Énoncé de test numéro 9 du thème Économie.
+  themes:
+    - economie
+  polarity: +
+  status: active
+  author: adrien
+  reviewer: relecteur-1
+  reviewedAt: 2026-11-08
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+  introducedIn: 1
+- id: economie-q10
+  text: Énoncé de test numéro 10 du thème Économie.
+  themes:
+    - economie
+  polarity: "-"
+  status: active
+  author: adrien
+  reviewer: relecteur-1
+  reviewedAt: 2026-11-08
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+  introducedIn: 1

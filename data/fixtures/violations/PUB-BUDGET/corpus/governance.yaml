@@ -1,0 +1,43 @@
+inclusionCriteria:
+  - id: declaration-publique-personnelle
+    kind: inclusion
+    text: La personne a annoncé publiquement et personnellement sa candidature à l'élection présidentielle de 2027, par une déclaration datée et vérifiable (discours, entretien, communiqué ou publication signée). Une candidature évoquée par des tiers, pressentie ou en cours de désignation ne suffit pas.
+  - id: renoncement-public
+    kind: withdrawal
+    text: La personne a annoncé publiquement renoncer à sa candidature, ou s'est désistée au profit d'une autre candidature, par une déclaration datée et vérifiable.
+  - id: absent-liste-conseil-constitutionnel
+    kind: withdrawal
+    text: La personne ne figure pas sur la liste officielle des candidats publiée par le Conseil constitutionnel après la clôture du recueil des parrainages.
+neutralityChecklist:
+  - id: no-loaded-term
+    text: L'énoncé n'emploie aucun terme connoté ou militant ; le vocabulaire est descriptif et accepté par les partisans comme par les opposants de la mesure.
+  - id: no-presupposition
+    text: L'énoncé ne présuppose aucun fait contesté et ne contient pas de jugement implicite sur la situation actuelle.
+  - id: no-person-or-party
+    text: L'énoncé ne nomme ni personne, ni parti, ni mouvement politique.
+  - id: single-claim
+    text: L'énoncé porte une seule proposition, sans conjonction qui en combinerait deux, et sans double négation.
+  - id: both-ends-defensible
+    text: Les deux extrémités de l'échelle (pas du tout d'accord, tout à fait d'accord) correspondent à des positions effectivement défendues dans le débat public.
+evidenceLevels:
+  - id: programme
+    label: Programme
+    definition: Le programme officiel de la candidature pour 2027, publié par la candidate ou le candidat ou son équipe de campagne.
+  - id: livre_plateforme
+    label: Livre ou plateforme
+    definition: Un livre signé, une plateforme programmatique ou un document thématique publié par la candidate ou le candidat ou son mouvement.
+  - id: declaration_vote
+    label: Déclaration ou vote
+    definition: Une déclaration publique datée (discours, entretien, débat, publication) ou un vote enregistré de la candidate ou du candidat.
+thresholds:
+  polarityMin: 0.4
+  polarityMax: 0.6
+  minQuestionsPerTheme: 10
+  maxStatementLength: 200
+  maxQuoteLength: 300
+  oldSourceBefore: 2022-01-01
+  mainBudgetBytes: 10
+  detailBudgetBytes: 153600
+  bankMin: 250
+  bankMax: 300
+reportIssueUrl: https://github.com/ScandalousMan/radar-2027/issues/new?title={title}&labels=donnees

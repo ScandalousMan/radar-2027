@@ -115,5 +115,21 @@ export function computeStats(ctx: RuleContext): Stats {
     positions: positionStats(ctx),
     ...coverageStats(ctx),
     unreachableSources: unreachableStats(ctx),
+    ...(ctx.published && ctx.published.registry.current > 0 ? { publishedSizes: publishedSizes(ctx) } : {}),
   };
+}
+
+/** Tailles des fichiers de la version courante, avec leur budget. */
+export function publishedSizes(ctx: RuleContext): NonNullable<Stats['publishedSizes']> {
+  const version = ctx.published!.registry.current;
+  const prefix = `versions/${version}/`;
+  const files = [...ctx.published!.files]
+    .filter(([path]) => path.startsWith(prefix) || path === 'versions.json')
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([path, { bytes }]) => ({
+      path,
+      bytes,
+      budget: path === 'versions.json' ? 20_479 : path.endsWith('/main.json') ? ctx.thresholds.mainBudgetBytes : ctx.thresholds.detailBudgetBytes,
+    }));
+  return { version, files };
 }

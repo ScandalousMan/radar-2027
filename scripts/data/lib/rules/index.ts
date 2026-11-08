@@ -16,6 +16,8 @@ import { FR_018 } from './FR-018';
 import { FR_019 } from './FR-019';
 import { FR_020 } from './FR-020';
 import { ID_UNIQUE } from './ID-UNIQUE';
+import { PUB_BUDGET } from './PUB-BUDGET';
+import { PUB_IMMUTABLE } from './PUB-IMMUTABLE';
 import { REF_EXISTS } from './REF-EXISTS';
 import { SCALE } from './SCALE';
 import type { Rule, RuleContext, Violation, Warning } from './types';
@@ -40,6 +42,8 @@ export const RULES: Rule[] = [
   FR_019,
   FR_020,
   SCALE,
+  PUB_IMMUTABLE,
+  PUB_BUDGET,
 ];
 
 /** Règles portant sur les sources et les positions (relecture d'une position, data:review). */
