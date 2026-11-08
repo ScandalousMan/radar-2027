@@ -1,7 +1,10 @@
 // @vitest-environment node
 import { join } from 'node:path';
 import { ESLint } from 'eslint';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
+
+// Le premier appel à ESLint charge toute la configuration (plusieurs secondes sous charge).
+vi.setConfig({ testTimeout: 30_000 });
 
 const root = join(__dirname, '..', '..');
 

@@ -1,0 +1,47 @@
+# Banque de questions, thème principal « institutions » (FR-008 à FR-012).
+# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
+
+- id: institutions-supprimer-49-3
+  text: Le recours à l'article 49.3 de la Constitution doit être supprimé.
+  themes:
+    - institutions
+  polarity: +
+  status: draft
+  author: adrien
+- id: institutions-pouvoirs-prefet-renforces
+  text: Le préfet doit disposer de pouvoirs renforcés sur les collectivités locales.
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: adrien
+- id: institutions-adaptation-lois-regions
+  text: Les régions doivent obtenir un pouvoir d'adaptation des lois à leur territoire.
+  themes:
+    - institutions
+  polarity: +
+  status: draft
+  author: adrien
+- id: institutions-mandat-presidentiel-sept-ans
+  text: Le mandat présidentiel doit être porté à sept ans.
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: adrien
+- id: institutions-parlement-interventions-militaires
+  text: Le Parlement doit approuver toute intervention militaire extérieure avant son déclenchement.
+  themes:
+    - institutions
+    - defense
+  polarity: +
+  status: draft
+  author: adrien
+- id: institutions-fusions-communes-obligatoires
+  text: Le nombre de communes doit être réduit par des fusions obligatoires.
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: adrien

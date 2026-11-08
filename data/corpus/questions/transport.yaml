@@ -1,0 +1,46 @@
+# Banque de questions, thème principal « transport » (FR-008 à FR-012).
+# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
+
+- id: transport-doubler-investissement-ferroviaire
+  text: Les investissements dans le réseau ferroviaire doivent être doublés sur le quinquennat.
+  themes:
+    - transport
+  polarity: +
+  status: draft
+  author: adrien
+- id: transport-concurrence-ferroviaire
+  text: Le transport ferroviaire de voyageurs doit être davantage ouvert à la concurrence.
+  themes:
+    - transport
+  polarity: "-"
+  status: draft
+  author: adrien
+- id: transport-gratuite-transports-urbains
+  text: Les transports en commun urbains doivent être gratuits pour les usagers.
+  themes:
+    - transport
+  polarity: +
+  status: draft
+  author: adrien
+- id: transport-routes-90-kmh
+  text: La limitation de vitesse sur les routes secondaires doit être relevée à 90 km/h partout.
+  themes:
+    - transport
+  polarity: "-"
+  status: draft
+  author: adrien
+- id: transport-taxe-kilometrique-poids-lourds
+  text: Les poids lourds doivent payer une taxe kilométrique sur le réseau routier.
+  themes:
+    - transport
+  polarity: +
+  status: draft
+  author: adrien
+- id: transport-autoroutes-concedees
+  text: Les autoroutes doivent rester concédées à des sociétés privées.
+  themes:
+    - transport
+  polarity: "-"
+  status: draft
+  author: adrien

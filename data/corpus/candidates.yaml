@@ -1,0 +1,4 @@
+# Candidats (FR-004 à FR-007). Inclusion seulement sur déclaration publique et personnelle
+# attestée par une source datée (critère `declaration-publique-personnelle`, FR-006).
+# Chaque source de statut est enregistrée par `pnpm data:source fetch … --kind declaration_vote`.
+[]

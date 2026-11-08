@@ -1,0 +1,138 @@
+# Thèmes de radar-2027 (FR-001, FR-002) : liste plate, ordre canonique, axes factuels.
+#
+# Liste de travail issue de monvote2027.fr (lue le 2026-11-06) ; elle est confrontée au site
+# lors de la mise en œuvre et toute différence est tranchée par le propriétaire du projet.
+# Un identifiant publié n'est jamais renommé ni réutilisé : un thème abandonné passe `retired`.
+#
+# L'axe décrit ce que fait la mesure, jamais une étiquette partisane : `negative` est le pôle
+# rejoint par « pas du tout d'accord » avec un énoncé de polarité `+`, `positive` celui rejoint
+# par « tout à fait d'accord ».
+
+- id: international
+  label: International
+  description: Place de la France dans le monde, construction européenne, aide au développement et relations avec les autres États.
+  axis:
+    negative: Moins d'intégration européenne et d'engagements internationaux
+    positive: Plus d'intégration européenne et d'engagements internationaux
+  order: 0
+  status: active
+- id: societe
+  label: Société
+  description: Libertés individuelles, famille, laïcité, bioéthique et questions de mœurs.
+  axis:
+    negative: Moins de droits individuels nouveaux, cadre existant maintenu
+    positive: Plus de droits individuels nouveaux et de libertés de choix
+  order: 1
+  status: active
+- id: economie
+  label: Économie
+  description: Rôle de l'État dans l'activité, dépense publique, entreprises, industrie et commerce.
+  axis:
+    negative: Moins d'intervention publique dans l'économie
+    positive: Plus d'intervention publique dans l'économie
+  order: 2
+  status: active
+- id: fiscalite
+  label: Fiscalité
+  description: Niveau et répartition des impôts, des taxes et des cotisations.
+  axis:
+    negative: Moins de prélèvements et moins de redistribution par l'impôt
+    positive: Plus de prélèvements et plus de redistribution par l'impôt
+  order: 3
+  status: active
+- id: immigration
+  label: Immigration
+  description: Entrée et séjour des étrangers, asile, naturalisation et intégration.
+  axis:
+    negative: Conditions d'entrée et de séjour plus restrictives
+    positive: Conditions d'entrée et de séjour plus ouvertes
+  order: 4
+  status: active
+- id: sante
+  label: Santé
+  description: Organisation et financement du système de soins, hôpital, médecine de ville et prévention.
+  axis:
+    negative: Moins de dépense et de régulation publiques dans la santé
+    positive: Plus de dépense et de régulation publiques dans la santé
+  order: 5
+  status: active
+- id: securite
+  label: Sécurité
+  description: Police, gendarmerie, prévention de la délinquance et lutte contre le terrorisme.
+  axis:
+    negative: Moins de moyens et de pouvoirs pour les forces de l'ordre
+    positive: Plus de moyens et de pouvoirs pour les forces de l'ordre
+  order: 6
+  status: active
+- id: justice
+  label: Justice
+  description: Organisation des tribunaux, politique pénale, prisons et accès au droit.
+  axis:
+    negative: Peines plus orientées vers la réinsertion et les alternatives à la prison
+    positive: Peines plus sévères et plus systématiquement exécutées
+  order: 7
+  status: active
+- id: institutions
+  label: Institutions
+  description: Organisation des pouvoirs publics, Constitution, Parlement, collectivités territoriales.
+  axis:
+    negative: Pouvoirs concentrés sur l'exécutif et l'État central
+    positive: Pouvoirs davantage répartis entre Parlement et collectivités
+  order: 8
+  status: active
+- id: democratie
+  label: Démocratie
+  description: Participation des citoyens, modes de scrutin, référendum, transparence et médias.
+  axis:
+    negative: Démocratie représentative en l'état, peu de participation directe
+    positive: Plus de participation directe des citoyens aux décisions
+  order: 9
+  status: active
+- id: numerique
+  label: Numérique
+  description: Régulation des plateformes, données personnelles, intelligence artificielle et accès au numérique.
+  axis:
+    negative: Moins de régulation publique du numérique
+    positive: Plus de régulation publique du numérique
+  order: 10
+  status: active
+- id: agriculture
+  label: Agriculture
+  description: Modèle agricole, revenus des agriculteurs, alimentation, pêche et territoires ruraux.
+  axis:
+    negative: Moins de normes et de régulation publiques de l'agriculture
+    positive: Plus de normes et de régulation publiques de l'agriculture
+  order: 11
+  status: active
+- id: travail
+  label: Travail
+  description: Emploi, salaires, temps de travail, retraites, chômage et dialogue social.
+  axis:
+    negative: Moins de protections et de règles collectives pour les salariés
+    positive: Plus de protections et de règles collectives pour les salariés
+  order: 12
+  status: active
+- id: defense
+  label: Défense
+  description: Armées, dissuasion, budget militaire, industrie de défense et alliances.
+  axis:
+    negative: Moins de dépense et d'engagements militaires
+    positive: Plus de dépense et d'engagements militaires
+  order: 13
+  status: active
+- id: environnement
+  label: Environnement
+  description: Climat, énergie, biodiversité, pollutions et adaptation au changement climatique.
+  axis:
+    negative: Moins de contraintes environnementales sur l'activité
+    positive: Plus de contraintes environnementales sur l'activité
+  order: 14
+  status: active
+- id: transport
+  label: Transport
+  description: Mobilités, transports publics, routes, ferroviaire, aérien et logistique.
+  axis:
+    negative: Moins d'investissement public et de régulation des transports
+    positive: Plus d'investissement public et de régulation des transports
+  order: 15
+  status: active

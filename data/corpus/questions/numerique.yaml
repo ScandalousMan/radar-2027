@@ -1,0 +1,48 @@
+# Banque de questions, thème principal « numerique » (FR-008 à FR-012).
+# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
+
+- id: numerique-reseaux-sociaux-moins-15-ans
+  text: L'accès aux réseaux sociaux doit être interdit aux moins de 15 ans.
+  themes:
+    - numerique
+  polarity: +
+  status: draft
+  author: adrien
+- id: numerique-assouplir-regles-ia
+  text: Les règles européennes encadrant l'intelligence artificielle doivent être assouplies.
+  themes:
+    - numerique
+  polarity: "-"
+  status: draft
+  author: adrien
+- id: numerique-taxe-plateformes
+  text: Les grandes plateformes numériques doivent payer un impôt sur le chiffre d'affaires réalisé en France.
+  themes:
+    - numerique
+    - fiscalite
+  polarity: +
+  status: draft
+  author: adrien
+- id: numerique-anonymat-en-ligne
+  text: L'anonymat en ligne doit être préservé sur les réseaux sociaux.
+  themes:
+    - numerique
+  polarity: "-"
+  status: draft
+  author: adrien
+- id: numerique-logiciels-libres-administration
+  text: Les administrations doivent utiliser en priorité des logiciels libres ou hébergés en Europe.
+  themes:
+    - numerique
+  polarity: +
+  status: draft
+  author: adrien
+- id: numerique-chiffrement-messageries
+  text: Le chiffrement des messageries privées doit rester hors d'atteinte des autorités.
+  themes:
+    - numerique
+    - securite
+  polarity: "-"
+  status: draft
+  author: adrien

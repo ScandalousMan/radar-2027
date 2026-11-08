@@ -1,0 +1,24 @@
+- id: economie
+  label: Économie
+  description: Rôle de l'État dans l'activité économique.
+  axis:
+    negative: Moins d'intervention publique
+    positive: Plus d'intervention publique
+  order: 0
+  status: active
+- id: sante
+  label: Santé
+  description: Organisation et financement du système de soins.
+  axis:
+    negative: Plus de place au secteur privé
+    positive: Plus de place au secteur public
+  order: 1
+  status: retired
+- id: environnement
+  label: Environnement
+  description: Climat, biodiversité et énergie.
+  axis:
+    negative: Moins de contraintes environnementales
+    positive: Plus de contraintes environnementales
+  order: 2
+  status: active

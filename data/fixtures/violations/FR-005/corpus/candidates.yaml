@@ -1,0 +1,24 @@
+- id: dupont
+  name: Jeanne Dupont
+  party: Parti A
+  status: declared
+  statusChangedAt: 2026-09-12
+  statusSource: dupont-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-09-12
+      source: dupont-declaration-candidature
+      criterion: critere-invente
+- id: martin
+  name: Paul Martin
+  party: Sans étiquette
+  status: declared
+  statusChangedAt: 2026-10-03
+  statusSource: martin-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-10-03
+      source: martin-declaration-candidature
+      criterion: declaration-publique-personnelle

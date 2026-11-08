@@ -1,0 +1,47 @@
+# Banque de questions, thème principal « fiscalite » (FR-008 à FR-012).
+# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
+
+- id: fiscalite-impot-fortune-retabli
+  text: Un impôt sur la fortune incluant les actifs financiers doit être rétabli.
+  themes:
+    - fiscalite
+  polarity: +
+  status: draft
+  author: adrien
+- id: fiscalite-reduire-droits-succession
+  text: Les droits de succession doivent être réduits pour les transmissions familiales.
+  themes:
+    - fiscalite
+  polarity: "-"
+  status: draft
+  author: adrien
+- id: fiscalite-capital-aligne-travail
+  text: Le taux d'imposition des revenus du capital doit être aligné sur celui des revenus du travail.
+  themes:
+    - fiscalite
+  polarity: +
+  status: draft
+  author: adrien
+- id: fiscalite-baisse-tva
+  text: Le taux normal de la TVA doit être abaissé.
+  themes:
+    - fiscalite
+  polarity: "-"
+  status: draft
+  author: adrien
+- id: fiscalite-tranche-hauts-revenus
+  text: Les plus hauts revenus doivent être soumis à une tranche d'impôt supplémentaire.
+  themes:
+    - fiscalite
+  polarity: +
+  status: draft
+  author: adrien
+- id: fiscalite-supprimer-impots-production
+  text: Les impôts de production payés par les entreprises doivent être supprimés.
+  themes:
+    - fiscalite
+    - economie
+  polarity: "-"
+  status: draft
+  author: adrien
