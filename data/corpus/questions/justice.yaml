@@ -45,3 +45,81 @@
   polarity: "-"
   status: draft
   author: claude
+- id: justice-perpetuite-reelle-etendue
+  text: La réclusion à perpétuité sans possibilité de libération doit s'appliquer à davantage de crimes.
+  themes:
+    - justice
+  polarity: +
+  status: draft
+  author: claude
+- id: justice-comparution-immediate-mineurs
+  text: Les mineurs de plus de 16 ans doivent pouvoir être jugés en comparution immédiate.
+  themes:
+    - justice
+  polarity: +
+  status: draft
+  author: claude
+- id: justice-detenus-frais-incarceration
+  text: Les détenus doivent participer financièrement à leurs frais d'incarcération.
+  themes:
+    - justice
+  polarity: +
+  status: draft
+  author: claude
+- id: justice-liberation-conditionnelle-deux-tiers
+  text: La libération conditionnelle doit être réservée aux détenus ayant purgé au moins les deux tiers de leur peine.
+  themes:
+    - justice
+  polarity: +
+  status: draft
+  author: claude
+- id: justice-imprescriptibilite-crimes-sexuels-mineurs
+  text: Les crimes sexuels commis sur des mineurs doivent être imprescriptibles.
+  themes:
+    - justice
+  polarity: +
+  status: draft
+  author: claude
+- id: justice-sanction-financiere-parents
+  text: Les parents de mineurs délinquants doivent pouvoir être sanctionnés financièrement.
+  themes:
+    - justice
+    - societe
+  polarity: +
+  status: draft
+  author: claude
+- id: justice-plafonner-detenus-places
+  text: Le nombre de détenus doit être plafonné au nombre de places de prison disponibles.
+  themes:
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
+- id: justice-tig-delits-sans-violence
+  text: Le travail d'intérêt général doit être préféré à la prison pour les délits commis sans violence.
+  themes:
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
+- id: justice-justice-restaurative-systematique
+  text: La justice restaurative doit être proposée systématiquement aux victimes et aux auteurs d'infractions.
+  themes:
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
+- id: justice-juridictions-mineurs-specialisees
+  text: Les mineurs doivent continuer à être jugés par des juridictions distinctes de celles des majeurs.
+  themes:
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
+- id: justice-visites-familiales-prisons
+  text: Toutes les prisons doivent permettre des visites familiales prolongées sans surveillance directe.
+  themes:
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
