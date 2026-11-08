@@ -1,0 +1,11 @@
+- id: martin-declaration-candidature
+  url: https://exemple.fr/martin/entretien
+  title: Entretien de candidature
+  kind: declaration_vote
+  publishedAt:
+    date: 2021-03
+    precision: month
+  accessedAt: 2026-11-07
+  candidates:
+    - martin
+  contentHash: sha256:fb53cdcf9ca10dcabaf9bb3bffb22249dd397d7583638c030014b92d3cafa8b2

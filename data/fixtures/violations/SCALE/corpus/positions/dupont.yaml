@@ -1,0 +1,73 @@
+- question: economie-q01
+  value: 1
+  evidence: programme
+  sources:
+    - dupont-programme-2027
+  quote: Nous revaloriserons le SMIC de 10 % dès l'été 2027.
+  quoteSource: dupont-programme-2027
+  justification: Hausse chiffrée et ponctuelle.
+  status: reviewed
+  provenance:
+    kind: manual
+  author: adrien
+  authoredAt: 2026-11-08
+  reviewer: relecteur-1
+  reviewedAt: 2026-11-09
+  reviewedHash: sha256:7c154c2e032df0261e953d8ea47f60fc2aa5ad16c10e1a323dc9b9e46c1a72ea
+- question: economie-q02
+  value: -1
+  evidence: programme
+  sources:
+    - dupont-programme-2027
+  quote: Nous réduirons les impôts de production des entreprises industrielles.
+  quoteSource: dupont-programme-2027
+  justification: Baisse ciblée d'impôts.
+  status: reviewed
+  provenance:
+    kind: manual
+  author: adrien
+  authoredAt: 2026-11-08
+  reviewer: relecteur-1
+  reviewedAt: 2026-11-09
+  reviewedHash: sha256:2f1908fe39dec03a724bd66ed4dfd80d55fbeec60647f7b67fd16f455335c86a
+- question: economie-q03
+  value: 3
+  evidence: programme
+  sources:
+    - dupont-programme-2027
+  quote: Programme 2027.
+  quoteSource: dupont-programme-2027
+  justification: Brouillon non relu.
+  status: draft
+  provenance:
+    kind: manual
+  author: adrien
+  authoredAt: 2026-11-08
+- question: sante-q01
+  value: 1
+  evidence: programme
+  sources:
+    - dupont-programme-2027
+    - dupont-declaration-candidature
+  quote: L'hôpital public recevra cinq milliards d'euros supplémentaires par an.
+  quoteSource: dupont-programme-2027
+  justification: "Le programme renforce le public, la déclaration ouvre au privé : sources contradictoires."
+  status: contested
+  provenance:
+    kind: manual
+  author: adrien
+  authoredAt: 2026-11-08
+- question: sante-q02
+  value: unknown
+  sources:
+    - dupont-programme-2027
+    - dupont-declaration-candidature
+  justification: Aucune prise de position trouvée dans les sources consultées.
+  status: reviewed
+  provenance:
+    kind: manual
+  author: adrien
+  authoredAt: 2026-11-08
+  reviewer: relecteur-1
+  reviewedAt: 2026-11-09
+  reviewedHash: sha256:65eaa44ac178ebcfd111e59dfedf6da60b4c5077de6f77d8a26994b3c5c7c1cb

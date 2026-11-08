@@ -39,6 +39,16 @@ describe('data:validate (SC-001)', () => {
     expect(report.violations).toEqual([]);
   });
 
+  it('inconnue explicite et position contestée acceptées, traitées comme inconnues (US2 scénarios 5 et 7)', async () => {
+    const report = await validate(resolvePaths({ corpus: join(process.cwd(), 'data', 'fixtures', 'minimal') }));
+    const dupont = report.ctx.corpus.positions.get('dupont')!;
+    expect(dupont.find((p) => p.question === 'sante-q02')).toMatchObject({ value: 'unknown', status: 'reviewed' });
+    expect(dupont.find((p) => p.question === 'sante-q01')).toMatchObject({ status: 'contested' });
+    expect(report.violations).toEqual([]);
+    // Seules economie-q01 et economie-q02 comptent pour dupont : inconnue, contestée et brouillon exclues.
+    expect(report.stats.coverageByCandidate?.find((c) => c.id === 'dupont')?.known).toBe(2);
+  });
+
   it('le corpus du dépôt est conforme', async () => {
     const report = await validate(resolvePaths({}, {}), { noCache: true });
     expect(report.violations).toEqual([]);
