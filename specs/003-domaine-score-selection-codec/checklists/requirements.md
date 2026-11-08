@@ -68,3 +68,9 @@
     les sept principes (la conformité n'était énoncée que pour I à III, dans les hypothèses).
   - Les deux fragments d'exemple et leurs sommes de contrôle (`C3`, charge de 44 puis 16 octets)
     ont été recalculés indépendamment et vérifiés exacts.
+- Analyse croisée du 2026-11-08 (`/speckit-analyze`, après plan et tasks) : aucun point
+  critique ; deux points hauts corrigés dans la spec : (1) les exemples A et B n'ont qu'un
+  sujet prioritaire, la borne 3 à 5 ne s'applique qu'à la sélection et à l'encodage ;
+  (2) l'invariant des planchers de quota est `T ≤ 20` (le mode court déborde à 21 thèmes),
+  refusé par le calcul des quotas, règle 002 à ajouter en suivi. FR-033 mentionne le contrôle
+  de longueur minimale ; SC-008 précise le seuil de CI.

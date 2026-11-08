@@ -37,8 +37,8 @@ persisté par ce module.
 **Testing**: projet Vitest `unit`, tests à côté des modules (`*.test.ts`, en-tête
 `// @vitest-environment node`) : exemples de la spec, propriétés fast-check (SC-002, SC-003,
 SC-005, SC-006), énumération exhaustive des 13 496 combinaisons (SC-004), fragments de référence
-caractère par caractère (SC-007), test de budget temps (SC-008, exécuté sans seuil bloquant en
-CI, seuil informatif), rejeu inter-versions sur deux banques fictives (SC-009). Le test de
+caractère par caractère (SC-007), test de budget temps (SC-008, seuil bloquant de 500 ms sur la
+machine de CI, R10), rejeu inter-versions sur deux banques fictives (SC-009). Le test de
 frontière `src/lib/core-boundary.test.ts` existant couvre les nouveaux dossiers.
 
 **Target Platform**: navigateurs evergreen (exécution dans l'application statique) et Node 24
@@ -134,6 +134,10 @@ src/core/
     └── codec.test.ts            # fixtures, propriétés SC-002/SC-003/SC-007, mutations
 ```
 
+Les fichiers de test ci-dessus sont indicatifs : tasks.md les découpe plus finement (un fichier
+par groupe de scénarios, plus `perf`, `replay`, `versions`, `enumeration` et
+`src/core/contract.test.ts`).
+
 **Structure Decision** : projet unique conservé (principe VII) ; tout vit sous `src/core`, déjà
 protégé par la règle de lint et le test de frontière de la 001. Le module `dataset` de la 002
 reste la seule description du jeu publié ; `bank` en est une vue dérivée, pour que `selection`,
@@ -172,6 +176,7 @@ Les étapes 2, 3 et 4 sont indépendantes une fois la 1 posée ; la 5 dépend de
 | Banque réelle < 100 questions à la première publication | cas couvert par FR-019 et FR-032 ; test dédié « banque de 96 » ; SC-007 vérifié sur banque ≥ N |
 | `BigInt` et cibles de compilation | `target` ES2020+ déjà requis par Next 16 ; vérifié au typecheck |
 | Thèmes au-delà de 24 ou masque hors plage | `MAX_THEMES = 24` déjà imposé par le schéma de la 002 ; l'encodeur refuse (FR-036) |
+| Plus de 20 thèmes : les planchers du mode court dépassent `N` (FR-021) | `computeQuotas` lève `BankError('too-many-themes-for-quotas')` ; propriété testée sur `T ∈ [8, 20]` et refus testé à 21 ; règle de validation à proposer à la 002 (suivi) |
 
 ## Complexity Tracking
 

@@ -29,14 +29,14 @@ export type DecodeResult<T> = { ok: true; value: T } | { ok: false; reason: Reje
 
 ```ts
 export function bankFromDataset(ds: MainDataset): BankVersion;   // lève BankError si invariants violés (jamais sur un jeu validé par la 002)
-export class BankError extends Error { code: 'too-many-themes' | 'duplicate-theme' | 'bad-theme-ref' | 'misaligned-positions' }
+export class BankError extends Error { code: 'too-many-themes' | 'duplicate-theme' | 'bad-theme-ref' | 'misaligned-positions' | 'too-many-themes-for-quotas' }
 export function normalizePriorities(bank: BankVersion, ids: readonly string[]): readonly string[]; // distinct, ordre canonique ; lève StateError
 ```
 
 ## Sélection (`src/core/selection`)
 
 ```ts
-export function computeQuotas(bank: BankVersion, mode: Mode, priorityIndices: readonly number[]): readonly number[]; // Σ = N (FR-021)
+export function computeQuotas(bank: BankVersion, mode: Mode, priorityIndices: readonly number[]): readonly number[]; // Σ = N (FR-021) ; lève BankError('too-many-themes-for-quotas') si les planchers débordent N (T > 20 en mode court)
 export function selectQuestions(bank: BankVersion, mode: Mode, priorities: readonly string[]): Selection;            // FR-018 → FR-027
 ```
 
@@ -58,12 +58,14 @@ Garanties : `ranked` trié selon FR-012 ; aucun `ranked[i].global.percent >
 ranked[i].priority.percent` ; `band` dérivée de `global.percent` ; `insufficient` contient
 tout candidat à couverture nulle, indéfinie ou < 60 %, ou à `P` indéfini ; chaque
 `CandidateScore.questions` a exactement `selection.items.length` entrées. Lève `StateError` si
-`state` ne correspond pas à `selection` (longueur) ou `bank.version ≠ state.bankVersion`.
+`state` ne correspond pas à `selection` (longueur) ou `bank.version ≠ state.bankVersion`. Le
+nombre de sujets n'est **pas** borné ici (1 à `T` identifiants connus) : les exemples A et B de
+la spec n'en ont qu'un ; la borne 3 à 5 est celle de `selectQuestions` et `encodeFragment`.
 
 ## Codec (`src/core/codec`)
 
 ```ts
-export function encodeFragment(state: ResultState, bank: BankVersion): string;  // '#1.<charge>' ; lève StateError (FR-036)
+export function encodeFragment(state: ResultState, bank: BankVersion): string;  // '#1.<charge>' ; lève StateError (FR-036) ; la 004 passe la banque de la version COURANTE (bank.version = registry.current, FR-038)
 export function decodeHeader(fragment: string, versionCount: number): DecodeResult<DecodedHeader>;   // R5 : sans banque
 export function decodeFragment(fragment: string, bank: BankVersion): DecodeResult<ResultState>;      // vérifications FR-033 dans l'ordre
 export function expectedPayloadLength(selectionSize: number): number;             // 5 + ceil(3n/8) + 1 (FR-032)
@@ -74,7 +76,7 @@ Comportements :
 
 | Entrée | Sortie |
 |---|---|
-| fragment `''`, `'#'`, `undefined` | **ne pas appeler** : l'appelant teste la présence d'un fragment (Edge case « fragment absent ») ; s'il appelle, `{ ok: false, reason: 'unsupported-link-version' }` |
+| fragment `''` ou `'#'` | `{ ok: false, reason: 'unsupported-link-version' }` ; l'appelant choisit de n'afficher aucune erreur dans ce cas (Edge case « fragment absent ») |
 | fragment avec ou sans `#` initial | accepté dans les deux formes ; l'encodeur produit toujours `#1.…` |
 | préfixe ≠ `1.` | `unsupported-link-version` |
 | caractère hors alphabet, `=`, bits de queue non nuls | `invalid-content` |

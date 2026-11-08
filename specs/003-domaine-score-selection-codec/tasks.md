@@ -163,7 +163,9 @@ passent sur des banques fictives, sans sélection algorithmique (sélections lit
   `P.ratio ↓`, `coverage.ratio ↓`, `id ↑`, rangs ex æquo avec saut (FR-012)
 - [ ] T021 [US1] Écrire `src/core/score/score.ts` : `scoreCandidates({ bank, selection, state,
   versionCount })` → `Scoreboard` (`ranked`, `insufficient` dans l'ordre du jeu,
-  `answeredCount`, `priorVersion = bank.version < versionCount`, `bankPublishedAt`) ; lève
+  `answeredCount`, `priorVersion = bank.version < versionCount`, `bankPublishedAt`) ; **ne borne
+  pas** le nombre de sujets (accepte 1 à `T` identifiants connus, sans appeler
+  `normalizePriorities` : les exemples A et B n'ont qu'un sujet, spec § Assumptions) ; lève
   `StateError` si `state.answers.length ≠ selection.items.length` (`bad-answer-count`) ou
   `bank.version ≠ state.bankVersion` (`version-mismatch`) (FR-017)
 - [ ] T022 [US1] Écrire `src/core/score/index.ts` (réexports : `scoreCandidates`, types,
@@ -191,7 +193,8 @@ scénarios 1 à 3, les scénarios 4 à 8, SC-004 (13 496 combinaisons) et SC-006
 - [ ] T024 [P] [US2] Écrire `src/core/selection/quotas.test.ts` : complet + sujets {0, 1, 2}
   → `[14, 14, 14, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4]` ; court + 5 sujets → `3, 3, 3, 3, 2`
   et `1 × 11` ; complet + 5 sujets → `12, 11, 11, 11, 11` et `4 × 11` ; propriété : `Σ = N`
-  pour tout sous-ensemble de 3 à 5 parmi `T ∈ [8, 24]`, chaque quota ≥ plancher
+  pour tout sous-ensemble de 3 à 5 parmi `T ∈ [8, 20]`, chaque quota ≥ plancher ; refus :
+  mode court, `T = 21` et 5 sujets → `BankError('too-many-themes-for-quotas')` (FR-021)
 - [ ] T025 [P] [US2] Écrire `src/core/selection/select.test.ts` : scénario 5 (D_q 0,9, 0,9,
   0,4, quota 2 → les deux 0,9, égalité par identifiant) ; scénario 7 (thème prioritaire à 6
   questions, quota 14 → 100 questions, déficit comblé d'abord par les autres prioritaires) ;
@@ -209,8 +212,8 @@ scénarios 1 à 3, les scénarios 4 à 8, SC-004 (13 496 combinaisons) et SC-006
 
 - [ ] T027 [P] [US2] Écrire `src/core/selection/quotas.ts` : `computeQuotas(bank, mode,
   priorityIndices)` — part exacte `e_t = N·w_t/Σw` en `Ratio`, `q_t = max(plancher, ⌊e_t⌋)`,
-  reste distribué une unité par thème par `(e_t − q_t)` décroissant puis ordre canonique
-  (FR-021)
+  reste distribué une unité par thème par `(e_t − q_t)` décroissant puis ordre canonique ;
+  lève `BankError('too-many-themes-for-quotas')` si `Σ q_t > N` avant distribution (FR-021)
 - [ ] T028 [US2] Écrire `src/core/selection/fill.ts` : `fillQuotas(bank, quotas,
   priorityIndices)` → premier passage glouton (prioritaires puis autres en ordre canonique,
   `D_q` décroissant puis identifiant croissant, une question retenue crédite tous ses thèmes)
@@ -450,6 +453,11 @@ pnpm vitest run src/core/codec </dev/null
 - Aucune tâche ne touche `src/app`, `src/ui`, `scripts/`, `public/` ni `package.json`.
 - Les durées de SC-004 et SC-008 sont journalisées, pas devinées ; si l'énumération dépasse
   30 s en CI, appliquer le repli décrit en T026.
+- SC-001 exige aussi que les exemples A et B figurent sur la page Méthodologie : c'est une
+  tâche de la 005 (afficher `EXAMPLE_A`, `EXAMPLE_B` et les formules depuis `@/core`), à
+  inscrire dans son tasks.md.
+- Suivi 002 : ajouter une règle de validation refusant plus de 20 thèmes actifs (invariant des
+  quotas du mode court, FR-021 de la 003).
 - Les fixtures de la spec (exemples A, B, deux fragments) sont la source de vérité ; en cas de
   désaccord entre un test et la spec, c'est la spec qui est corrigée par le propriétaire,
   jamais le test silencieusement.

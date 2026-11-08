@@ -223,9 +223,10 @@ identiques à ceux obtenus avec la première version seule.
 - Banque dont le nombre total de questions est inférieur à `N` : la sélection contient toutes
   les questions de la banque (moins de `N`), et la longueur attendue de la charge est calculée
   sur cette taille réelle.
-- Les planchers de quota dépassent `N` (impossible avec 16 thèmes : 16 × 3 = 48 ≤ 100 et
-  16 × 1 = 16 ≤ 25) : situation considérée comme une erreur de configuration de la banque,
-  détectée à la validation de la banque (spec 002) et non au moment de la sélection.
+- Les planchers de quota font déborder `N` (mode court dès `T = 21`, voir FR-021) : erreur de
+  configuration de la banque, refusée par le calcul des quotas ; à ajouter comme règle de
+  validation de la 002 (suivi) afin qu'une telle version ne soit jamais publiée. Impossible
+  avec les 16 thèmes actuels.
 - Mode court et question rattachée à deux thèmes non prioritaires : elle compte une seule fois
   dans le pseudo-thème « autres thèmes » (FR-013), alors qu'en mode complet elle compterait dans
   chacun des deux thèmes.
@@ -315,7 +316,11 @@ identiques à ceux obtenus avec la première version seule.
   `q_t = max(plancher, partie entière de e_t)` avec un plancher de 3 en mode complet et 1 en mode
   court ; puis le reste `N − Σ q_t` est distribué, une unité à la fois, aux thèmes par ordre
   décroissant de `(e_t − q_t)` puis par ordre canonique, sans qu'un thème reçoive plus d'une
-  unité. La somme des quotas DOIT valoir exactement `N`.
+  unité. La somme des quotas DOIT valoir exactement `N`. Cette somme n'est atteignable que si
+  `Σ_t max(plancher, ⌊e_t⌋) ≤ N` pour chaque mode et chaque nombre de sujets de 3 à 5, ce qui
+  impose `T ≤ 20` (le mode court déborde dès 21 thèmes : par exemple 24 thèmes et 5 sujets
+  donnent 29 > 25) ; une version de banque qui viole cet invariant DOIT être refusée par le
+  calcul des quotas avec une erreur de configuration explicite, jamais tronquée en silence.
 - **FR-022**: Le système DOIT remplir les quotas par un parcours glouton des thèmes : d'abord
   les thèmes prioritaires dans l'ordre canonique, puis les autres dans l'ordre canonique. Pour
   chaque thème, tant que le nombre de questions déjà retenues rattachées à ce thème est
@@ -366,7 +371,8 @@ identiques à ceux obtenus avec la première version seule.
   16 octets (22 caractères) en mode court à 25 questions.
 - **FR-033**: Le décodeur DOIT, dans cet ordre : vérifier le préfixe `1.` ; vérifier que la
   charge ne contient que des caractères base64url, sans bourrage, et que les bits inutilisés du
-  dernier caractère sont nuls ; vérifier que l'octet de version, augmenté de un, désigne un numéro de version publié ;
+  dernier caractère sont nuls ; vérifier que la charge compte au moins 6 octets (en-tête et
+  somme de contrôle, motif « longueur incorrecte ») ; vérifier que l'octet de version, augmenté de un, désigne un numéro de version publié ;
   vérifier que les bits réservés sont nuls ; vérifier que le masque ne désigne que des thèmes
   existants dans cette version et compte 3 à 5 bits ; recalculer la sélection à partir de
   (version, mode, sujets) ; vérifier la longueur exacte attendue (FR-032) ; vérifier la somme de
@@ -459,7 +465,8 @@ identiques à ceux obtenus avec la première version seule.
   22 en mode court, pour toute combinaison de sujets et de réponses.
 - **SC-008**: Le calcul complet du classement (au moins 22 candidats, 100 questions, 16 thèmes ;
   18 candidats sont déclarés au 2026-11-08) et le
-  décodage d'un lien s'achèvent chacun en moins de 100 ms sur un téléphone d'entrée de gamme.
+  décodage d'un lien s'achèvent chacun en moins de 100 ms sur un téléphone d'entrée de gamme ;
+  vérifié en intégration continue par un seuil bloquant de 500 ms sur la machine de CI.
 - **SC-009**: Un lien émis avec la version de banque 1, décodé après publication de la version 2
   (questions, candidats et positions modifiés), reproduit à l'identique les scores, rangs, bandes
   et couvertures obtenus au moment de son émission, dans 100 % des cas de test.
@@ -469,9 +476,9 @@ identiques à ceux obtenus avec la première version seule.
 - Le nombre de thèmes `T` est fourni par la version de banque et vaut 16 dans l'ontologie
   actuelle ; le masque sur 3 octets autorise jusqu'à 24 thèmes. Au-delà, une nouvelle version du
   format de lien serait nécessaire.
-- Les planchers de quota ne dépassent jamais `N` (16 × 3 = 48 ≤ 100 ; 16 × 1 = 16 ≤ 25) ; toute
-  banque violant cette contrainte est refusée à la validation de la banque (spec 002), pas au
-  moment de la sélection.
+- Le masque autorise 24 thèmes mais les quotas n'en supportent que 20 (FR-021) ; avec les 16
+  thèmes actuels la marge est confortable. Le calcul des quotas refuse une version qui
+  dépasse ; la validation de la 002 devrait l'anticiper (règle à ajouter, hors périmètre ici).
 - La banque cible compte 250 à 300 questions, soit au moins `N` questions par mode ; le cas
   d'une banque plus petite que `N` est géré (liste plus courte, longueur de charge adaptée) mais
   n'est pas un cas nominal. Au 2026-11-08, le corpus compte 96 énoncés (6 par thème) et aucune
@@ -489,6 +496,10 @@ identiques à ceux obtenus avec la première version seule.
   qui entre dans `W` avec un poids de 1 (FR-013) ; sans cette agrégation, chaque thème non
   prioritaire n'aurait qu'une question et serait indéfini, ce qui rendrait `W` égal à `P` en
   mode court.
+- Les exemples A et B n'utilisent qu'un seul sujet prioritaire et deux ou trois thèmes, pour
+  rester lisibles : les règles de score (FR-001 à FR-017) ne dépendent pas du nombre de sujets
+  ni du nombre de thèmes, et le moteur de score les accepte telles quelles. La borne de 3 à 5
+  sujets s'applique à la sélection (FR-018) et à l'encodage (FR-036), pas au calcul du score.
 - Une réponse « non répondue » représente un questionnaire interrompu ou partiellement partagé ;
   elle est traitée exactement comme « passée » dans le calcul mais reste distinguée dans l'état
   pour l'affichage et la reprise.

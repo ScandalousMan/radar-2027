@@ -140,7 +140,7 @@ vis-à-vis des réponses (la fonction ne les reçoit pas, FR-018).
 `Coverage = { known: number; answered: number; ratio: Ratio; percent: number }` ;
 `ThemeScore = { kind: 'theme'; themeIndex: number; themeId: string; priority: boolean; count:
 number; score: Score | null } | { kind: 'others'; count: number; score: Score | null }` ;
-`QuestionScore = { position: number; questionId: string; answer: Answer; position_candidate:
+`QuestionScore = { position: number; questionId: string; answer: Answer; candidatePosition:
 PositionCell } & ({ concordance: Ratio; level: EvidenceCode } | { excluded: 'skipped' |
 'unanswered' | 'unknown-position' })`.
 
