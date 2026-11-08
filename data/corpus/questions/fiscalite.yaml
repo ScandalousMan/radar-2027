@@ -45,3 +45,84 @@
   polarity: "-"
   status: draft
   author: claude
+- id: fiscalite-impot-minimum-grandes-fortunes
+  text: Les patrimoines supérieurs à 100 millions d'euros doivent être soumis à un impôt minimum de 2 % par an.
+  themes:
+    - fiscalite
+  polarity: +
+  status: draft
+  author: claude
+- id: fiscalite-taxe-benefices-exceptionnels
+  text: Les bénéfices exceptionnels des grandes entreprises doivent être soumis à une taxe supplémentaire.
+  themes:
+    - fiscalite
+    - economie
+  polarity: +
+  status: draft
+  author: claude
+- id: fiscalite-csg-progressive
+  text: La CSG doit devenir progressive en fonction du revenu.
+  themes:
+    - fiscalite
+  polarity: +
+  status: draft
+  author: claude
+- id: fiscalite-hausse-taxe-transactions-financieres
+  text: Le taux de la taxe sur les transactions financières doit être relevé.
+  themes:
+    - fiscalite
+  polarity: +
+  status: draft
+  author: claude
+- id: fiscalite-reduire-credits-impot
+  text: Le montant total des réductions et crédits d'impôt doit être diminué de moitié.
+  themes:
+    - fiscalite
+  polarity: +
+  status: draft
+  author: claude
+- id: fiscalite-heures-sup-sans-plafond
+  text: Les heures supplémentaires doivent être exonérées d'impôt sur le revenu sans plafond.
+  themes:
+    - fiscalite
+    - travail
+  polarity: "-"
+  status: draft
+  author: claude
+- id: fiscalite-baisse-ir-tranches-intermediaires
+  text: L'impôt sur le revenu doit baisser pour les tranches intermédiaires.
+  themes:
+    - fiscalite
+  polarity: "-"
+  status: draft
+  author: claude
+- id: fiscalite-baisse-impot-societes
+  text: Le taux de l'impôt sur les sociétés doit être abaissé.
+  themes:
+    - fiscalite
+    - economie
+  polarity: "-"
+  status: draft
+  author: claude
+- id: fiscalite-baisse-cotisations-salaries
+  text: Les cotisations sociales payées par les salariés doivent baisser.
+  themes:
+    - fiscalite
+    - travail
+  polarity: "-"
+  status: draft
+  author: claude
+- id: fiscalite-supprimer-ifi
+  text: L'impôt sur la fortune immobilière doit être supprimé.
+  themes:
+    - fiscalite
+  polarity: "-"
+  status: draft
+  author: claude
+- id: fiscalite-baisse-prelevements-obligatoires
+  text: Le niveau total des prélèvements obligatoires doit baisser au cours du quinquennat.
+  themes:
+    - fiscalite
+  polarity: "-"
+  status: draft
+  author: claude
