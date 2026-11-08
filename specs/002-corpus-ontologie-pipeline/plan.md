@@ -65,7 +65,7 @@ centaines de sources ; 7 commandes `data:*`, ~20 règles de validation, 2 compos
 | I. Neutralité et traçabilité | source + niveau de preuve par position ; `draft` jamais publié ; critères publics ; énoncés neutres et équilibrés ; données versionnées et relues | règles `FR-013`→`FR-022` codées et bloquantes ; publication ne lit que les positions `reviewed` connues (R10) ; `governance.yaml` publié tel quel ; grille de neutralité cochée avant `active` ; corpus en YAML relu par PR (R1, R13) | ✅ |
 | II. Vie privée | rien du visiteur ni des contributeurs ne sort ; pipeline hors du site | contributeurs exclus des jeux publiés (R13) ; page Méthodologie statique sans requête ; signalement = lien vers le suivi de tickets (R12) ; scripts jamais dans le bundle (R3) | ✅ |
 | III. Cœur métier pur | fonctions pures et testées par propriétés dans `src/core` | `src/core/dataset/{schema,types,metrics,positions}.ts` : couverture et `D_q` purs, fast-check, fixtures de la spec (R9) ; `zod` seul import, sans effet de bord | ✅ |
-| IV. Design system d'abord | composants dans `src/ui` avec stories, tokens, a11y, 320 px, deux apparences | `PositionCard` et `CoverageList` avec stories/tests ; page composée de `Card`, `EvidenceBadge`, `ProgressBar`, `ThemeChip`, `Button` ; lint « tokens seulement » déjà actif (R12) | ✅ |
+| IV. Design system d'abord | composants dans `src/ui` avec stories, tokens, a11y, 320 px, deux apparences | `PositionCard` et `CoverageList` avec stories/tests ; page composée de `Card`, `EvidenceBadge`, `ProgressBar`, `Button` ; lint « tokens seulement » déjà actif (R12) | ✅ |
 | V. Tests comme contrat et CI bloquante | validation de schéma des données en CI ; e2e par parcours | étape `data:validate` activée dans `ci.yml` et `pnpm verify` ; test SC-001 sur fixtures ; `e2e/methodology.spec.ts` (R14) | ✅ |
 | VI. i18n dès le premier écran | aucune chaîne en dur ; contenus de données séparés | textes de méthode dans `fr.json` (`methodology.*`), contenus (énoncés, thèmes, citations) dans le jeu publié (R12) | ✅ |
 | VII. Simplicité, statique, sobriété | pas de backend ; projet unique ; données légères | scripts dans le même projet, pas d'espace de travail (R3) ; publication statique immuable ; budgets mesurés et bloquants (R10) | ✅ |
@@ -171,6 +171,9 @@ de la 003) et `public/data/` (publication immuable servie telle quelle). La fron
    `violations`, test d'intégration SC-001 ; saisie des 16 thèmes, de `governance.yaml`, des
    contributeurs, de la liste de candidats confrontée à monvote2027.fr (différences tranchées
    par le propriétaire) et d'une première tranche de la banque. Activation de l'étape CI.
+   `FR-012` ne s'applique qu'aux thèmes ayant au moins un énoncé actif ; un thème vide est un
+   avertissement `THEME-EMPTY`, bloquant à la publication, pour que le référentiel reste
+   validable avant relecture de la banque.
 3. **Sources et positions (US2)** : `text.ts` (normalisation, empreinte, citation), `cache.ts`,
    `data:source fetch|check`, règles `FR-013`→`FR-020`, `SCALE`, `data:review`.
 4. **Publication et Méthodologie (US3)** : `publish/`, registre, `PUB-IMMUTABLE`, `PUB-BUDGET`,

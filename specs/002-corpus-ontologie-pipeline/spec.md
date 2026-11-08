@@ -144,7 +144,7 @@ L'éditeur lance une exécution d'extraction sur les sources d'un candidat : un 
 
 - **FR-013**: Chaque source DOIT porter une adresse unique, un titre, un type de preuve parmi programme officiel / livre ou plateforme écrite / déclaration publique ou vote, une date de publication (précision jour, mois ou année), une date de consultation, et l'identifiant du ou des candidats concernés.
 - **FR-014**: Le texte brut de chaque source DOIT être conservé dans un cache local hors du dépôt ; le dépôt NE DOIT contenir que les métadonnées et une empreinte du texte en cache permettant de détecter toute modification.
-- **FR-015**: Une source datée d'avant le 1er janvier 2022 NE DOIT fonder une position que si aucune source plus récente du même candidat ne traite la question ; la position est alors marquée « ancienne ».
+- **FR-015**: Une position dont toutes les sources sont datées d'avant le 1er janvier 2022 DOIT porter la marque « ancienne » ; le relecteur atteste, en la validant, qu'aucune source plus récente du même candidat ne traite la question (la validation signale toute source plus récente du candidat dont le texte en cache contient la citation). Une position comptant au moins une source récente NE DOIT PAS porter la marque.
 
 **Positions**
 
@@ -208,7 +208,7 @@ L'éditeur lance une exécution d'extraction sur les sources d'un candidat : un 
 
 ### Measurable Outcomes
 
-- **SC-001**: 100 % des positions de valeur connue présentes dans un jeu de données publié ont le statut « relue », au moins une source et une citation vérifiable ; un jeu de test contenant au moins dix violations distinctes (source absente, brouillon, contestée, valeur hors échelle, citation absente ou introuvable, niveau de preuve surévalué, auto-relecture, thème inconnu, trois thèmes, identifiant dupliqué) est refusé à 100 % par la validation, chaque violation étant désignée par identifiant.
+- **SC-001**: 100 % des positions de valeur connue présentes dans un jeu de données publié ont le statut « relue », au moins une source et une citation vérifiable ; un jeu de test contenant au moins dix violations distinctes (source absente, brouillon, contestée, valeur hors échelle, citation absente ou introuvable, niveau de preuve surévalué, auto-relecture, thème inconnu, trois thèmes, identifiant dupliqué) est traité à 100 % : les violations de règle (source absente, valeur hors échelle, citation absente ou introuvable, niveau de preuve surévalué, auto-relecture, thème inconnu, trois thèmes, identifiant dupliqué) sont refusées par la validation, chacune désignée par identifiant ; les positions « brouillon » et « contestée » ne sont pas des violations mais sont exclues du jeu publié (FR-022), ce que le test de construction vérifie.
 - **SC-002**: La banque publiée en version 1 compte entre 250 et 300 énoncés actifs, chaque thème en porte au moins 10 comme thème principal, et la part de chaque polarité par thème est comprise entre 40 % et 60 %.
 - **SC-003**: Avant la première publication, chaque candidat « déclaré » a une couverture d'au moins 60 % des questions actives, et la couverture de 100 % des candidats inclus est calculée et affichée sur la page Méthodologie.
 - **SC-004**: Le jeu de données principal pèse au plus 300 ko et chaque jeu de détail par candidat au plus 150 ko, pour 22 candidats et 300 questions actives.

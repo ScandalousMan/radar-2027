@@ -122,7 +122,7 @@ l'identifiant de l'élément fautif.
 | `FR-009` | énoncé ≤ 200 car., grille de neutralité complète avant `active` | question |
 | `FR-010` | `active` ⇒ `reviewer` présent et ≠ `author` | question |
 | `FR-011` | texte d'une question publiée inchangé (hors typographie) | question |
-| `FR-012` | par thème : ≥ 10 actives, polarités dans [40 %, 60 %] | thème (avec effectifs) |
+| `FR-012` | par thème ayant ≥ 1 énoncé actif : ≥ 10 actives, polarités dans [40 %, 60 %] ; un thème actif sans aucun énoncé actif produit l'avertissement `THEME-EMPTY`, bloquant pour `data:publish` | thème (avec effectifs) |
 | `FR-013` | source complète ; `url` unique ; date avec précision | source |
 | `FR-014` | `contentHash` présent et, cache disponible, égal à l'empreinte du fichier | source |
 | `FR-015` | position fondée sur des sources < 2022 alors qu'une source plus récente du candidat existe pour la question ⇒ erreur ; sinon `old: true` requis | position |
@@ -136,4 +136,6 @@ l'identifiant de l'élément fautif.
 | `PUB-BUDGET` | tailles des fichiers publiés ≤ budgets | fichier |
 
 Avertissements (non bloquants) : `CACHE-MISSING`, `SOURCE-UNREACHABLE`, `VERSIONS-NEAR-LIMIT`,
-`BANK-SIZE` (banque active hors 250–300 avant la première publication).
+`BANK-SIZE` (banque active hors 250–300 avant la première publication), `THEME-EMPTY` (thème
+actif sans énoncé actif ; bloquant pour `data:publish`), `OLD-NEWER-SOURCE` (position « ancienne »
+alors qu'une source plus récente du candidat contient la citation dans le cache).

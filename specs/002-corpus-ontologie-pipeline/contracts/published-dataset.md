@@ -60,7 +60,7 @@ Composant serveur ; aucune requête réseau côté client ; contenus de données
 |---|---|---|
 | Règles de traçabilité et de relecture | i18n | prose |
 | Niveaux de preuve | `governance.evidenceLevels` | `EvidenceBadge` + définition |
-| Thèmes (ordre canonique, description, axe) | `themes` | liste ordonnée, `ThemeChip` non interactif |
+| Thèmes (ordre canonique, description, axe) | `themes` | liste ordonnée (`<ol>`) de `Card` : libellé en titre, description, axe « {negative} ⟷ {positive} » |
 | Grille de neutralité | `governance.neutralityChecklist` | liste |
 | Critères d'inclusion et de retrait | `governance.inclusionCriteria` | liste |
 | Candidats inclus (statut, étiquette, couverture) | `candidates` | `CoverageList` |

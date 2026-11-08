@@ -42,7 +42,10 @@ Scripts npm ajoutés : `data:validate`, `data:source`, `data:extract`, `data:aff
 - **`data:review`** : refuse si `--by` est l'auteur, si la position n'est pas `draft` (ou
   `contested` pour un arbitrage), ou si la validation de cette position échoue (source,
   citation, niveau). Pose `reviewedHash`.
-- **`data:publish`** : lance d'abord `validate` (échec ⇒ pas de publication). Compare le
+- **`data:publish`** : lance d'abord `validate` (échec ⇒ pas de publication) ; refuse ensuite si le
+  cache est absent ou s'il manque le texte d'une `quoteSource` d'une position `reviewed` connue
+  (message listant les sources manquantes), car « connue » exige la citation vérifiée (FR-022) ;
+  aucune option ne contourne ce refus. Compare le
   contenu candidat (questions actives, candidats déclarés, positions connues) à la version
   courante : identique ⇒ refus « rien à publier » ; différent sans `--next` ⇒ refus en listant
   les différences ; avec `--next` ⇒ crée `n+1`, pose `introducedIn`/`retiredIn` sur les
