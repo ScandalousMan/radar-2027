@@ -41,7 +41,8 @@ describe('QuestionCard', () => {
 
   it('propage onChange et onCommit ; nom de groupe question-{position}', async () => {
     const { onChange, onCommit } = setup();
-    expect(screen.getByRole('radiogroup', { name: fr.ui.questionCard.answerLegend })).toBeInTheDocument();
+    // FR-032 : le groupe est nommé par l'énoncé, puis par la légende.
+    expect(screen.getByRole('radiogroup', { name: `L’État doit construire davantage de logements. ${fr.ui.questionCard.answerLegend}` })).toBeInTheDocument();
     const radio = screen.getByRole('radio', { name: fr.ui.likert.agree });
     expect(radio).toHaveAttribute('name', 'question-3');
     await userEvent.click(radio);

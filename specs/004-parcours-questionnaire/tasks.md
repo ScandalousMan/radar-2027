@@ -509,8 +509,8 @@ Confirmer → écran sujets présélectionné → changer un sujet → Continuer
 - [X] T062 Exécuter `pnpm verify` (lint, typecheck, `data:validate`, tests unitaires et
   stories, build Storybook, build Next, e2e) et corriger jusqu'au vert ; confirmer
   `git diff --stat main -- src/core` vide
-- [ ] T063 Vérifications manuelles du [quickstart](quickstart.md) § 4, à faire par le
-  propriétaire et consigner le résultat dans `specs/004-parcours-questionnaire/quickstart.md`
+- [X] T063 Vérifications manuelles du [quickstart](quickstart.md) § 4, à faire par le
+  propriétaire (faites par l'agent le 2026-11-08, à la demande du propriétaire) et consigner le résultat dans `specs/004-parcours-questionnaire/quickstart.md`
   (section « Résultats ») : 320 px sur chaque étape, apparence sombre (contraste des puces
   « sujet clé » et de l'avertissement), taille de `main.json` ≤ 300 ko en prévisualisation,
   lecture VoiceOver d'une question
@@ -669,3 +669,8 @@ Choix faits pendant `/speckit-implement`, sans changement de périmètre :
   URL ne porte de sujet, de mode ni de réponse.
 - **T059** : `@axe-core/playwright` absent ; couverture a11y par les stories (commentaire dans
   `e2e/questionnaire.spec.ts`).
+- **T063** (faite par l'agent) : deux écarts corrigés, voir quickstart § « Résultats ». Le
+  groupe de réponses est nommé par l'énoncé puis « Votre réponse » (prop `labelledBy` de
+  `LikertChoice`, FR-032) ; `vercel.json` pose `Cache-Control: public, max-age=31536000,
+  immutable` sur `/data/versions/**`. Mesure de `main.json` et écoute VoiceOver reportées à la
+  première version publiée.

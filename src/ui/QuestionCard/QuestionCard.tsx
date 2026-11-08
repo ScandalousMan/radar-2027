@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import type { Ref } from 'react';
+import { useId, type Ref } from 'react';
 import { LikertChoice, type LikertAnswer } from '@/ui/LikertChoice';
 
 export type QuestionCardTheme = { id: string; label: string; priority: boolean };
@@ -36,6 +36,7 @@ function KeyIcon() {
 /** Une question : énoncé focalisable, thèmes en lecture seule, échelle de réponse. */
 export function QuestionCard({ position, statement, themes, value, onChange, onCommit, disabled = false, headingRef, hint, className = '' }: QuestionCardProps) {
   const t = useTranslations('ui.questionCard');
+  const statementId = useId();
   return (
     <article className={['flex flex-col gap-5', className].filter(Boolean).join(' ')}>
       <div className="flex flex-col gap-3">
@@ -62,12 +63,12 @@ export function QuestionCard({ position, statement, themes, value, onChange, onC
             </li>
           ))}
         </ul>
-        <h2 ref={headingRef} tabIndex={-1} className="rounded-sm text-2xl font-semibold tracking-tight break-words outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-focus">
+        <h2 id={statementId} ref={headingRef} tabIndex={-1} className="rounded-sm text-2xl font-semibold tracking-tight break-words outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-focus">
           {statement}
         </h2>
         {hint ? <p className="text-sm text-fg-muted">{hint}</p> : null}
       </div>
-      <LikertChoice name={`question-${position}`} value={value} onChange={onChange} onCommit={onCommit} legend={t('answerLegend')} disabled={disabled} />
+      <LikertChoice name={`question-${position}`} value={value} onChange={onChange} onCommit={onCommit} legend={t('answerLegend')} labelledBy={statementId} disabled={disabled} />
     </article>
   );
 }

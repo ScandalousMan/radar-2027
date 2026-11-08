@@ -16,6 +16,8 @@ export type LikertChoiceProps = {
   disabled?: boolean;
   /** Énoncé de la question ou libellé du groupe, fourni par le parent. */
   legend: string;
+  /** Identifiant d'un élément qui nomme le groupe avant la légende (l'énoncé, FR-032). */
+  labelledBy?: string;
   /**
    * Activation explicite d'une option (clic ou toucher, Entrée, Espace), y compris l'option déjà
    * sélectionnée ; appelé après `onChange`. Les flèches, Début et Fin n'appellent que `onChange`.
@@ -43,7 +45,7 @@ const SKIP_IDLE = 'border-transparent bg-transparent text-fg-muted underline-off
 const SKIP_SELECTED = 'border-border bg-bg text-fg';
 const DISABLED = 'cursor-not-allowed opacity-60 hover:border-border hover:no-underline';
 
-export function LikertChoice({ name, value, onChange, onCommit, disabled = false, legend, className = '', ...rest }: LikertChoiceProps) {
+export function LikertChoice({ name, value, onChange, onCommit, disabled = false, legend, labelledBy, className = '', ...rest }: LikertChoiceProps) {
   const t = useTranslations('ui.likert');
   const groupId = useId();
   const inputs = useRef<Array<HTMLInputElement | null>>([]);
@@ -109,7 +111,7 @@ export function LikertChoice({ name, value, onChange, onCommit, disabled = false
       <legend id={`${groupId}-legend`} className="mb-2 text-lg font-medium">
         {legend}
       </legend>
-      <div role="radiogroup" aria-labelledby={`${groupId}-legend`} aria-disabled={disabled || undefined} className="flex flex-col gap-3">
+      <div role="radiogroup" aria-labelledby={[labelledBy, `${groupId}-legend`].filter(Boolean).join(' ')} aria-disabled={disabled || undefined} className="flex flex-col gap-3">
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-5">
         {LIKERT_OPTIONS.slice(0, 5).map((option, index) => (
           <LikertOption

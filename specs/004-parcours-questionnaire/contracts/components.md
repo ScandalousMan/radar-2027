@@ -62,7 +62,8 @@ type QuestionCardProps = {
 Rendu : `<article>` ; `<h2 tabIndex={-1}>` = énoncé ; liste des thèmes en `ThemeChip` non
 interactives (`aria-pressed` absent, variante lecture : `role="listitem"`, préfixe
 `ui.questionCard.priorityTheme` « Sujet clé : {label} » en texte masqué) ; `LikertChoice`
-(`legend` = `ui.questionCard.answerLegend` « Votre réponse », `name = question-{position}`).
+(`legend` = `ui.questionCard.answerLegend` « Votre réponse », `name = question-{position}`,
+`labelledBy` = identifiant de l'énoncé : le groupe est nommé « énoncé + Votre réponse », FR-032).
 États : sans réponse, chaque niveau, passée, deux thèmes dont un clé, avec aide, désactivée,
 320 px.
 

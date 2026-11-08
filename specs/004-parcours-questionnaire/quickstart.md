@@ -113,3 +113,25 @@ pnpm verify
 
 Attendu : lint, typecheck, `data:validate`, tests unitaires et stories, build Storybook, build
 Next, e2e tous verts ; même enchaînement que la CI.
+
+## Résultats (T063, 2026-11-08)
+
+Vérifications du § 4 faites par l'agent (Claude Code) sur l'export statique (`pnpm build`),
+servi localement avec la banque fictive des e2e (16 thèmes × 20 questions) copiée dans une
+copie de `out/` hors dépôt : rien de fictif sous `public/data`. Mesures par script dans le
+navigateur intégré (largeur de défilement, contraste WCAG calculé sur les couleurs rendues,
+arbre d'accessibilité).
+
+| Vérification | Résultat |
+|---|---|
+| 320 px (SC-004) : `/`, `/questionnaire`, `/mode`, `/questions`, `/fin`, `/resultats` | **OK** : `scrollWidth` = 320 sur chaque écran, aucun élément ne déborde ; six options, Précédent, Suivant/Terminer et progression présents, sur une colonne |
+| Apparence sombre et claire, contraste du texte | **OK** : aucun texte sous 4,5:1 (3:1 en grand corps) ; minimum 6,16:1 en sombre, 5,24:1 en clair |
+| Puces « sujet clé » | **OK** : ≥ 7,99:1 en sombre, ≥ 5,24:1 en clair ; le sujet clé est aussi marqué par une étoile et le texte « sujet clé » (jamais la couleur seule) |
+| Encart d'avertissement (`/fin`, « Résultat peu fiable ») | **OK** : texte ≥ 6,16:1 en sombre, ≥ 5,47:1 en clair ; icône et titre en plus de la bordure |
+| Bordures des commandes non sélectionnées (puces de thème, boutons secondaires) | 1,35 à 1,53:1. Admis par WCAG 1.4.11 : le libellé identifie la commande, l'état sélectionné est porté par une coche et `aria-pressed`. À reprendre au design system si l'on vise mieux |
+| Taille de `main.json` ≤ 300 ko | **Non mesurable aujourd'hui** : aucune version publiée (`current = 0`), et la prévisualisation Vercel est protégée par connexion. Le plafond est imposé à la publication par la règle `PUB-BUDGET` (002). Une seule requête `main.json` par chargement de page, même origine, sans paramètre |
+| En-tête de cache de `main.json` | **Écart corrigé** : `vercel.json` ne posait aucun `Cache-Control` sur `/data/versions/**` (plan § risques : « immuable »). Ajout de `public, max-age=31536000, immutable` ; le registre garde le comportement par défaut de Vercel (revalidation). À constater sur la prévisualisation après la première publication |
+| Lecteur d'écran (arbre d'accessibilité, VoiceOver non lancé) | **OK après correction** : focus sur l'énoncé (`h2`) à chaque question ; « Question n sur N » dans une région `aria-live="polite"` ; options en `radio` nommées par leur libellé avec « n sur 6 » (`aria-posinset`/`aria-setsize`), tabulation itinérante ; dialogue de modification fermé non exposé. **Écart corrigé** : le groupe de réponses était nommé « Votre réponse » seul, alors que FR-032 demande qu'il soit nommé par l'énoncé ; il est désormais nommé « énoncé + Votre réponse » (`LikertChoice.labelledBy`). Ordre du DOM : progression → thèmes → énoncé → réponses ; le focus posé sur l'énoncé fait lire énoncé puis réponses, les thèmes se lisent en remontant (SC-005 satisfait : numéro, thème, énoncé et options sont énonçables) |
+
+Reste ouvert : écoute réelle avec VoiceOver et mesure de `main.json` sur la première version
+publiée (prévisualisation Vercel).
