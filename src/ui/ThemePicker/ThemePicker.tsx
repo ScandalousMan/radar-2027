@@ -39,6 +39,7 @@ export function ThemePicker({
   const count = value.length;
   const atMax = count >= max;
   const missing = Math.max(0, min - count);
+  const withDescriptions = options.some((option) => Boolean(option.description));
 
   const toggle = (id: string) => {
     if (disabled) return;
@@ -53,19 +54,37 @@ export function ThemePicker({
   return (
     <fieldset {...rest} disabled={undefined} aria-describedby={statusId} className={['flex flex-col gap-3', className].filter(Boolean).join(' ')}>
       <legend className="mb-1 text-base font-medium">{legend}</legend>
-      <div className="flex flex-wrap gap-2">
-        {options.map((option) => (
-          <ThemeChip
-            key={option.id}
-            id={option.id}
-            label={option.label}
-            title={option.description}
-            selected={value.includes(option.id)}
-            disabled={disabled || atMax}
-            onToggle={toggle}
-          />
-        ))}
-      </div>
+      {withDescriptions ? (
+        // FR-003 : la description est visible sous chaque libellé et reliée à la puce.
+        <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {options.map((option) => {
+            const descriptionId = option.description ? `${statusId}-${option.id}` : undefined;
+            return (
+              <li key={option.id} className="flex flex-col items-start gap-1">
+                <ThemeChip
+                  id={option.id}
+                  label={option.label}
+                  aria-describedby={descriptionId}
+                  selected={value.includes(option.id)}
+                  disabled={disabled || atMax}
+                  onToggle={toggle}
+                />
+                {option.description ? (
+                  <p id={descriptionId} className="px-1 text-sm text-fg-muted">
+                    {option.description}
+                  </p>
+                ) : null}
+              </li>
+            );
+          })}
+        </ul>
+      ) : (
+        <div className="flex flex-wrap gap-2">
+          {options.map((option) => (
+            <ThemeChip key={option.id} id={option.id} label={option.label} selected={value.includes(option.id)} disabled={disabled || atMax} onToggle={toggle} />
+          ))}
+        </div>
+      )}
       <p id={statusId} aria-live="polite" aria-atomic="true" className="flex flex-col gap-1 text-sm">
         <span className="text-fg-muted">
           <span aria-hidden="true">{t('counter', { count, max })}</span>

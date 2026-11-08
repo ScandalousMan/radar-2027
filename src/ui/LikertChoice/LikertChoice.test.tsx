@@ -162,6 +162,85 @@ describe('LikertChoice', () => {
     });
   });
 
+  describe('onCommit (avancement automatique, R7)', () => {
+    function setupCommit(initial: LikertAnswer = null) {
+      const onChange = vi.fn();
+      const onCommit = vi.fn();
+      function C() {
+        const [value, setValue] = useState<LikertAnswer>(initial);
+        return (
+          <LikertChoice
+            name="q1"
+            value={value}
+            legend="Énoncé"
+            onChange={(next) => {
+              setValue(next);
+              onChange(next);
+            }}
+            onCommit={onCommit}
+          />
+        );
+      }
+      renderWithIntl(<C />);
+      return { onChange, onCommit };
+    }
+
+    it('clic appelle onChange puis onCommit', async () => {
+      const { onChange, onCommit } = setupCommit();
+      await userEvent.click(screen.getByRole('radio', { name: LABELS.agree }));
+      expect(onChange).toHaveBeenCalledTimes(1);
+      expect(onChange).toHaveBeenCalledWith(1);
+      expect(onCommit).toHaveBeenCalledTimes(1);
+      expect(onCommit).toHaveBeenCalledWith(1);
+      expect(onChange.mock.invocationCallOrder[0]!).toBeLessThan(onCommit.mock.invocationCallOrder[0]!);
+    });
+
+    it('clic sur l’option déjà sélectionnée appelle onCommit sans onChange', async () => {
+      const { onChange, onCommit } = setupCommit(-1);
+      await userEvent.click(screen.getByRole('radio', { name: LABELS.disagree }));
+      expect(onChange).not.toHaveBeenCalled();
+      expect(onCommit).toHaveBeenCalledWith(-1);
+    });
+
+    it('clic sur « passer » appelle onCommit avec « skipped »', async () => {
+      const { onCommit } = setupCommit();
+      await userEvent.click(screen.getByRole('radio', { name: LABELS.skip }));
+      expect(onCommit).toHaveBeenCalledWith('skipped');
+    });
+
+    it('flèche droite n’appelle que onChange', async () => {
+      const { onChange, onCommit } = setupCommit();
+      await userEvent.tab();
+      await userEvent.keyboard('{ArrowRight}{End}{Home}');
+      expect(onChange).toHaveBeenCalledTimes(3);
+      expect(onCommit).not.toHaveBeenCalled();
+    });
+
+    it('Entrée sur l’option focalisée appelle onCommit, une seule fois', async () => {
+      const { onCommit } = setupCommit();
+      screen.getByRole('radio', { name: LABELS.neutral }).focus();
+      await userEvent.keyboard('{Enter}');
+      expect(onCommit).toHaveBeenCalledTimes(1);
+      expect(onCommit).toHaveBeenCalledWith(0);
+    });
+
+    it('Espace sur l’option focalisée appelle onCommit, une seule fois', async () => {
+      const { onCommit } = setupCommit();
+      screen.getByRole('radio', { name: LABELS.stronglyAgree }).focus();
+      await userEvent.keyboard(' ');
+      await new Promise((r) => setTimeout(r, 5));
+      expect(onCommit).toHaveBeenCalledTimes(1);
+      expect(onCommit).toHaveBeenCalledWith(2);
+    });
+
+    it('désactivé : aucun commit', async () => {
+      const onCommit = vi.fn();
+      renderWithIntl(<LikertChoice name="q1" value={null} onChange={vi.fn()} onCommit={onCommit} legend="Énoncé" disabled />);
+      await userEvent.click(screen.getByRole('radio', { name: LABELS.agree }));
+      expect(onCommit).not.toHaveBeenCalled();
+    });
+  });
+
   it('chaque option a une cible tactile de 44 px', () => {
     setup(null);
     for (const r of screen.getAllByRole('radio')) {

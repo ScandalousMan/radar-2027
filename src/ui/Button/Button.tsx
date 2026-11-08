@@ -2,11 +2,11 @@
 
 import type { AnchorHTMLAttributes, ButtonHTMLAttributes, ReactNode } from 'react';
 
-export type ButtonVariant = 'primary' | 'secondary' | 'ghost';
+export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger';
 export type ButtonSize = 'md' | 'sm';
 
 type CommonProps = {
-  /** Apparence : `primary` (défaut), `secondary`, `ghost` (discrète). */
+  /** Apparence : `primary` (défaut), `secondary`, `ghost` (discrète), `danger` (action destructrice). */
   variant?: ButtonVariant;
   /** Taille : `md` (défaut) ou `sm` (compacte). La hauteur minimale reste tactile (44 px). */
   size?: ButtonSize;
@@ -31,6 +31,7 @@ const VARIANTS: Record<ButtonVariant, string> = {
   primary: 'bg-accent text-accent-fg hover:bg-accent/90 active:bg-accent/80',
   secondary: 'border border-border bg-surface text-fg hover:bg-bg active:bg-border/60',
   ghost: 'bg-transparent text-accent hover:bg-accent-soft active:bg-accent-soft/80',
+  danger: 'bg-danger text-accent-fg hover:bg-danger/90 active:bg-danger/80',
 };
 
 const SIZES: Record<ButtonSize, string> = {

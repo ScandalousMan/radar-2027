@@ -99,4 +99,23 @@ describe('ThemePicker', () => {
       expect(document.getElementById(describedBy ?? '')).toHaveTextContent('3 / 5');
     });
   });
+  it('la description est rendue et reliée à la puce (FR-003)', () => {
+    renderWithIntl(
+      <ThemePicker
+        options={[
+          { id: 'a', label: 'Sujet A', description: 'Description de A.' },
+          { id: 'b', label: 'Sujet B', description: '' },
+        ]}
+        value={[]}
+        onChange={vi.fn()}
+        legend="Vos sujets"
+      />,
+    );
+    const chip = screen.getByRole('button', { name: 'Sujet A' });
+    expect(screen.getByText('Description de A.')).toBeVisible();
+    expect(chip).toHaveAccessibleDescription('Description de A.');
+    expect(chip).not.toHaveAttribute('title');
+    expect(screen.getByRole('button', { name: 'Sujet B' })).not.toHaveAttribute('aria-describedby');
+    expect(screen.getAllByRole('listitem')).toHaveLength(2);
+  });
 });

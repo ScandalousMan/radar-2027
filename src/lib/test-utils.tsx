@@ -17,3 +17,6 @@ export function renderWithIntl(ui: ReactElement, options?: Omit<RenderOptions, '
 }
 
 export const fr = messages[defaultLocale];
+
+/** Texte tel que le comparent Testing Library et jest-dom (espaces, y compris insécables, réduits). */
+export const norm = (text: string) => text.replace(/\s+/g, ' ').trim();

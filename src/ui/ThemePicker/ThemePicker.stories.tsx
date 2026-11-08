@@ -72,3 +72,16 @@ export const Etroit320: Story = {
   globals: { viewport: { value: 'mobile320', isRotated: false } },
   args: { value: ['logement', 'ecologie'] },
 };
+
+export const AvecDescriptions: Story = {
+  name: 'Avec descriptions',
+  args: {
+    value: ['logement'],
+    options: [
+      { id: 'logement', label: 'Logement', description: 'Accès au logement, loyers, construction et logement social.' },
+      { id: 'sante', label: 'Santé', description: 'Hôpital, médecine de ville, accès aux soins et prévention.' },
+      { id: 'ecologie', label: 'Transition écologique et énergie', description: 'Climat, énergie, biodiversité et transports.' },
+      { id: 'securite', label: 'Sécurité et justice', description: 'Police, justice, prisons et prévention de la délinquance.' },
+    ],
+  },
+};

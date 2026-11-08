@@ -48,19 +48,19 @@ n'est **pas** modifié (principe III) : tout vient de `@/core` en lecture.
 
 **Purpose**: arborescence, textes et garde-fous de frontières, sans logique.
 
-- [ ] T001 Créer les dossiers `src/lib/questionnaire/`, `src/app/questionnaire/mode/`,
+- [X] T001 Créer les dossiers `src/lib/questionnaire/`, `src/app/questionnaire/mode/`,
   `src/app/questionnaire/questions/`, `src/app/questionnaire/fin/`, `src/app/resultats/`,
   `e2e/fixtures/` et les dossiers de composants `src/ui/ModeChoice/`, `src/ui/QuestionCard/`,
   `src/ui/ResumeCard/`, `src/ui/ConfirmDialog/`, `src/ui/Notice/`, `src/ui/AnswerSummary/`
   (un `index.ts` vide dans chaque dossier de composant pour que l'arborescence du plan existe)
-- [ ] T002 [P] Ajouter à `src/i18n/messages/fr.json` toutes les clés de
+- [X] T002 [P] Ajouter à `src/i18n/messages/fr.json` toutes les clés de
   [contracts/i18n-messages.md](contracts/i18n-messages.md) : `home.resume.*`,
   `questionnaire.*` (title, loading, noVersion, loadError, retry, themes.*, mode.*,
   questions.*, confirm.*, end.*), `ui.modeChoice.*`, `ui.questionCard.*`, `ui.resumeCard.*`,
   `ui.notice.*`, `ui.answerSummary.*`, `results.*` ; respecter la typographie française
   (espaces insécables avant `?` `!` `:` `;`, guillemets « ») et vérifier
   `pnpm vitest run src/i18n/messages.test.ts </dev/null`
-- [ ] T003 [P] Étendre `src/lib/core-boundary.test.ts` d'un cas vérifiant qu'aucun fichier de
+- [X] T003 [P] Étendre `src/lib/core-boundary.test.ts` d'un cas vérifiant qu'aucun fichier de
   `src/core/**` n'importe `@/lib/questionnaire` ni `@/lib/dataset-client`, et que
   `src/lib/questionnaire/**` n'importe pas `next/navigation` ni `@/ui` (lecture des sources
   par `node:fs`, même technique que les cas existants)
@@ -78,7 +78,7 @@ T024 peuvent toutefois avancer en parallèle des modules T005 à T017).
 
 ### Types et modules d'état (`src/lib/questionnaire`)
 
-- [ ] T004 Écrire `src/lib/questionnaire/types.ts` : `Draft` (`format: 1`, `bankVersion`,
+- [X] T004 Écrire `src/lib/questionnaire/types.ts` : `Draft` (`format: 1`, `bankVersion`,
   `mode`, `priorities`, `answers`, `position`, `updatedAt`), `Choice`, `Step`
   (`'themes' | 'mode' | 'questions' | 'end'`), `Action` (`start`, `answer`, `next`,
   `previous`, `goTo`, `resume`, `reset`, `clear`), `QuestionnaireBank` (`version`,
@@ -86,72 +86,72 @@ T024 peuvent toutefois avancer en parallèle des modules T005 à T017).
   `QuestionTheme`, `StorageStatus`, `LoadState`, `ResumeInfo`, `ThemeSummary`, `EndSummary`,
   conformément à [data-model.md](data-model.md) § 1 à § 8 ; `Mode`, `Answer`, `Selection`,
   `BankVersion` importés de `@/core`
-- [ ] T005 [P] Écrire `src/lib/questionnaire/bank-view.test.ts` (node) sur
+- [X] T005 [P] Écrire `src/lib/questionnaire/bank-view.test.ts` (node) sur
   `syntheticDataset({ themes: 16, perTheme: 20 })` de `src/core/bank/fixtures.ts` :
   `questionnaireBankFrom` donne 16 thèmes avec `label`, `description`, `index = i` et
   `bank.version = main.version` ; `selectionsFor(bank, 4 sujets)` renvoie `full.items.length =
   100` et `short.items.length = 25` ; `themesOf` renvoie 1 ou 2 thèmes et marque
   `priority: true` exactement pour les sujets clés
-- [ ] T006 [P] Écrire `src/lib/questionnaire/bank-view.ts` : `questionnaireBankFrom(main)`
+- [X] T006 [P] Écrire `src/lib/questionnaire/bank-view.ts` : `questionnaireBankFrom(main)`
   (`bankFromDataset` + thèmes avec description en ordre canonique), `selectionsFor(bank,
   priorities)` (deux appels `selectQuestions`, R8), `themesOf(bank, question, priorities)`
   ([contracts/storage-and-data.md](contracts/storage-and-data.md) § 3)
-- [ ] T007 [P] Écrire `src/lib/questionnaire/reducer.test.ts` (node) : cas unitaires du
+- [X] T007 [P] Écrire `src/lib/questionnaire/reducer.test.ts` (node) : cas unitaires du
   [quickstart](quickstart.md) § 1 (`start` crée `N × 'unanswered'` en position 0 ; `answer`
   hors position ignorée ; `next` borné à `N − 1` ; `previous` borné à 0 ; `goTo` idempotent et
   hors bornes ignoré ; `resume` remplace ; `reset` et `clear` rendent `null` ;
   `firstUnanswered`) et propriétés fast-check : pour toute suite d'actions valides,
   `answers.length` constant, `0 ≤ position < N`, chaque réponse satisfait `isAnswer`, aucune
   réponse non visée ne change, `updatedAt` égal au `now` de la dernière action qui écrit
-- [ ] T008 [P] Écrire `src/lib/questionnaire/reducer.ts` : `reduce(draft, action, { selection })`
+- [X] T008 [P] Écrire `src/lib/questionnaire/reducer.ts` : `reduce(draft, action, { selection })`
   pur selon la table de [data-model.md](data-model.md) § 4, `isCompleted(draft)`,
   `firstUnanswered(draft)` ([contracts/routes-and-state.md](contracts/routes-and-state.md)
   § Réducteur) ; aucune règle de sélection ni de score
-- [ ] T009 [P] Écrire `src/lib/questionnaire/storage.test.ts` (node, stockage en mémoire
+- [X] T009 [P] Écrire `src/lib/questionnaire/storage.test.ts` (node, stockage en mémoire
   injecté) : `readDraft` rend `null` sur valeur absente, JSON invalide, `format: 0`, réponse
   `7`, `priorities` en double ; aller-retour `writeDraft` → `readDraft` exact ; `writeDraft`
   rend `false` et ne lève pas si `setItem` lève ; `clearDraft` supprime la clé
   `radar-questionnaire` et aucune autre ; `probeStorage` rend `'unavailable'` sur un stockage
   qui lève et ne laisse aucune clé d'essai ; `subscribeDraft` n'appelle l'écouteur que pour
   l'événement `storage` de la clé `radar-questionnaire` et se désabonne
-- [ ] T010 [P] Écrire `src/lib/questionnaire/storage.ts` : `DRAFT_STORAGE_KEY`,
+- [X] T010 [P] Écrire `src/lib/questionnaire/storage.ts` : `DRAFT_STORAGE_KEY`,
   `DRAFT_FORMAT`, `DraftSchema` (zod, [data-model.md](data-model.md) § 5), `readDraft`,
   `writeDraft`, `clearDraft`, `probeStorage`, `subscribeDraft`, type `StorageLike` et stockage
   par défaut `window.localStorage` sous `try/catch` (même convention que
   `src/lib/appearance.ts`) ; journalisation des lectures invalides en développement seulement
-- [ ] T011 [P] Écrire `src/lib/questionnaire/summary.test.ts` (node) : `summarize` compte une
+- [X] T011 [P] Écrire `src/lib/questionnaire/summary.test.ts` (node) : `summarize` compte une
   question à deux thèmes dans les deux ; `reliable` faux sous `MIN_THEME_QUESTIONS` réponses
   numériques (`'skipped'` ne compte pas) ; `warning` vrai dès qu'un sujet clé n'est pas fiable ;
   `totalAnswered` / `totalSkipped` ; `resultStateFromDraft` normalise les sujets et garde
   `'unanswered'` ; `decodeFragment(resultHref(draft, bank).split('#')[1], bank.bank)` redonne
   l'état exact (brouillon complet, brouillon partiel, toutes passées)
-- [ ] T012 [P] Écrire `src/lib/questionnaire/summary.ts` : `summarize(draft, bank, selection)`
+- [X] T012 [P] Écrire `src/lib/questionnaire/summary.ts` : `summarize(draft, bank, selection)`
   (R9), `resultStateFromDraft(draft, bank)`, `resultHref(draft, bank)` =
   `'/resultats' + encodeFragment(state, bank.bank)` (R10) ; constantes importées de `@/core`
-- [ ] T013 [P] Écrire `src/lib/questionnaire/resume-info.test.ts` (node) : `resumeInfoFrom(draft,
+- [X] T013 [P] Écrire `src/lib/questionnaire/resume-info.test.ts` (node) : `resumeInfoFrom(draft,
   registry)` rend `done` = nombre de réponses ≠ `'unanswered'`, `total`, `mode`, `updatedAt`
   et `status` `'resumable'` si `bankVersion = registry.current`, `'version-changed'` sinon ;
   `resumeInfoFrom(draft, null)` rend `'unavailable'`
-- [ ] T014 [P] Écrire `src/lib/questionnaire/resume-info.ts` : `resumeInfoFrom(draft, registry |
+- [X] T014 [P] Écrire `src/lib/questionnaire/resume-info.ts` : `resumeInfoFrom(draft, registry |
   null): ResumeInfo` ([data-model.md](data-model.md) § 6)
-- [ ] T015 [P] Écrire `src/lib/questionnaire/guards.test.ts` (node) : `requiredStep(route,
+- [X] T015 [P] Écrire `src/lib/questionnaire/guards.test.ts` (node) : `requiredStep(route,
   { choice, draft })` rend `null` ou la route de redirection pour chaque ligne de
   [data-model.md](data-model.md) § 3 (mode sans sujets → `/questionnaire` ; questions sans mode
   → `/questionnaire/mode` ; questions sans sujets → `/questionnaire` ; fin sans brouillon →
   `/questionnaire` ; brouillon présent → tout autorisé)
-- [ ] T016 [P] Écrire `src/lib/questionnaire/guards.ts` : `requiredStep(route, state)` et la
+- [X] T016 [P] Écrire `src/lib/questionnaire/guards.ts` : `requiredStep(route, state)` et la
   table `ROUTES: Record<Step, string>` ([contracts/routes-and-state.md](contracts/routes-and-state.md)
   § Routes) ; `isChoiceValid(choice)` via `MIN_PRIORITIES` / `MAX_PRIORITIES`
 
 ### Chargeur client du jeu publié
 
-- [ ] T017 [P] Écrire `src/lib/dataset-client.test.ts` (node, `fetch` fictif injecté) : URL
+- [X] T017 [P] Écrire `src/lib/dataset-client.test.ts` (node, `fetch` fictif injecté) : URL
   exactes `/data/versions.json` et `/data/versions/1/main.json` sans paramètre ni en-tête
   ajouté ; `cache: 'no-cache'` pour le registre et `'force-cache'` pour `main.json` ; erreur
   `{ kind: 'network', status }` sur réponse non 2xx ou exception ; `{ kind: 'invalid' }` sur
   schéma refusé ; `loadMain(1)` appelé deux fois ne fait qu'une requête ; `clearDatasetCache`
   réinitialise
-- [ ] T018 [P] Écrire `src/lib/dataset-client.ts` : `loadRegistry(fetcher?)`,
+- [X] T018 [P] Écrire `src/lib/dataset-client.ts` : `loadRegistry(fetcher?)`,
   `loadMain(version, fetcher?)`, `clearDatasetCache()`, type `DatasetClientError`, validation
   par `VersionRegistrySchema` / `MainDatasetSchema` de `@/core`
   ([contracts/storage-and-data.md](contracts/storage-and-data.md) § 2) ; aucun import
@@ -159,30 +159,30 @@ T024 peuvent toutefois avancer en parallèle des modules T005 à T017).
 
 ### Composants `src/ui` (parallélisables entre eux)
 
-- [ ] T019 [P] Étendre `src/ui/LikertChoice/LikertChoice.tsx` d'une prop optionnelle
+- [X] T019 [P] Étendre `src/ui/LikertChoice/LikertChoice.tsx` d'une prop optionnelle
   `onCommit(answer)` appelée après `onChange` sur clic/toucher, Entrée ou Espace d'une option
   (y compris déjà sélectionnée), jamais sur flèches, Début, Fin (R7) ; ajouter dans
   `src/ui/LikertChoice/LikertChoice.test.tsx` les cas « clic appelle onChange et onCommit »,
   « flèche droite n'appelle que onChange », « Entrée sur l'option focalisée appelle onCommit »
   et une story « Commit » avec play function dans `src/ui/LikertChoice/LikertChoice.stories.tsx`
-- [ ] T020 [P] Créer `src/ui/Notice/Notice.tsx`, `index.ts`, `Notice.test.tsx` (rôle ARIA
+- [X] T020 [P] Créer `src/ui/Notice/Notice.tsx`, `index.ts`, `Notice.test.tsx` (rôle ARIA
   `status` par défaut, `alert` sur demande ; titre par défaut `ui.notice.info` /
   `ui.notice.warning` quand `title` absent) et `Notice.stories.tsx` (info, warning, avec
   titre, long texte à 320 px) ; icône par ton distincte par la forme, tokens seulement
-- [ ] T021 [P] Créer `src/ui/ConfirmDialog/ConfirmDialog.tsx`, `index.ts`,
+- [X] T021 [P] Créer `src/ui/ConfirmDialog/ConfirmDialog.tsx`, `index.ts`,
   `ConfirmDialog.test.tsx` (ouverture par `showModal()` quand `open` passe à `true` ; focus
   initial sur Annuler ; Échap et clic hors boîte appellent `onCancel` ; Confirmer appelle
   `onConfirm` ; le focus revient à l'élément actif avant l'ouverture ; `aria-labelledby` et
   `aria-describedby`) et `ConfirmDialog.stories.tsx` (fermé, ouvert, destructif, 320 px) ;
   `<dialog>` natif, aucune bibliothèque (R12) ; prévoir un `polyfill` minimal de `showModal`
   dans le test si jsdom ne l'implémente pas
-- [ ] T022 [P] Créer `src/ui/ModeChoice/ModeChoice.tsx`, `index.ts`, `ModeChoice.test.tsx`
+- [X] T022 [P] Créer `src/ui/ModeChoice/ModeChoice.tsx`, `index.ts`, `ModeChoice.test.tsx`
   (clic et flèches changent la valeur ; `aria-checked` ; `disabled`) et
   `ModeChoice.stories.tsx` (aucun choisi, court, complet, désactivé) : `<fieldset>` +
   `role="radiogroup"`, deux cartes radio avec `ui.modeChoice.{short,full}.title`,
   `ui.modeChoice.questions` ({count} exact, R8), `.duration`, `.detail` ; empilement
   vertical à 320 px ; cibles ≥ 44 px
-- [ ] T023 [P] Créer `src/ui/QuestionCard/QuestionCard.tsx`, `index.ts`,
+- [X] T023 [P] Créer `src/ui/QuestionCard/QuestionCard.tsx`, `index.ts`,
   `QuestionCard.test.tsx` (focus posé via `headingRef` ; thème clé annoncé par
   `ui.questionCard.priorityTheme` en texte masqué ; `onChange` et `onCommit` propagés ;
   `name = question-{position}`) et `QuestionCard.stories.tsx` (sans réponse, chaque niveau,
@@ -190,22 +190,22 @@ T024 peuvent toutefois avancer en parallèle des modules T005 à T017).
   tabIndex={-1}>` = énoncé, liste de thèmes en lecture seule (`role="list"` / `listitem`,
   style « sujet clé » jamais par la couleur seule), `LikertChoice` avec `legend =
   ui.questionCard.answerLegend`, `hint` optionnel
-- [ ] T024 [P] Créer `src/ui/ResumeCard/ResumeCard.tsx`, `index.ts`, `ResumeCard.test.tsx`
+- [X] T024 [P] Créer `src/ui/ResumeCard/ResumeCard.tsx`, `index.ts`, `ResumeCard.test.tsx`
   (Reprendre, Recommencer, Effacer appellent leurs rappels ; Reprendre absent si
   `status = 'version-changed'` et `Notice` d'avertissement présent) et
   `ResumeCard.stories.tsx` (reprenable, version changée, 320 px) : `Card`,
   `ui.resumeCard.title`, `ui.resumeCard.summary` ({mode} select, {done}, {total}, {date}
   déjà formatée), boutons `Button` primaire / secondaire / ghost
-- [ ] T025 [P] Créer `src/ui/AnswerSummary/AnswerSummary.tsx`, `index.ts`,
+- [X] T025 [P] Créer `src/ui/AnswerSummary/AnswerSummary.tsx`, `index.ts`,
   `AnswerSummary.test.tsx` (marque `ui.answerSummary.unreliable` présente seulement si
   `!reliable`, avec `{min} = minReliable`) et `AnswerSummary.stories.tsx` (tous fiables, un
   non fiable, tous non fiables, 320 px) : `<ul>`, par sujet libellé +
   `ui.answerSummary.counts`
-- [ ] T026 Exporter les six nouveaux composants et leurs types depuis `src/ui/index.ts`
+- [X] T026 Exporter les six nouveaux composants et leurs types depuis `src/ui/index.ts`
   (après T020 à T025) et vérifier `pnpm vitest run src/ui </dev/null` puis `pnpm vitest run
   --project storybook --project storybook-sombre </dev/null` : aucune violation a11y dans les
   deux apparences
-- [ ] T027 Compléter `src/ui/ThemePicker/ThemePicker.tsx` pour afficher la description courte
+- [X] T027 Compléter `src/ui/ThemePicker/ThemePicker.tsx` pour afficher la description courte
   de chaque thème sous son libellé (FR-003 : visible, pas seulement en infobulle `title`) via
   une liste `<ul>` d'éléments contenant la `ThemeChip` et un `<p>` de description lié par
   `aria-describedby` ; ajouter la story « Avec descriptions » dans
