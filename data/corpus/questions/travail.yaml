@@ -45,3 +45,84 @@
   polarity: "-"
   status: draft
   author: claude
+- id: travail-semaine-32-heures
+  text: La durée légale du travail doit être réduite à 32 heures par semaine.
+  themes:
+    - travail
+  polarity: +
+  status: draft
+  author: claude
+- id: travail-indexation-salaires
+  text: Les salaires doivent être indexés automatiquement sur l'inflation.
+  themes:
+    - travail
+    - economie
+  polarity: +
+  status: draft
+  author: claude
+- id: travail-plafonner-ecart-salaires
+  text: L'écart entre les salaires les plus élevés et les plus bas d'une même entreprise doit être plafonné par la loi.
+  themes:
+    - travail
+  polarity: +
+  status: draft
+  author: claude
+- id: travail-salaries-conseils-administration
+  text: Les salariés doivent occuper au moins un tiers des sièges des conseils d'administration des grandes entreprises.
+  themes:
+    - travail
+    - economie
+  polarity: +
+  status: draft
+  author: claude
+- id: travail-elargir-penibilite-retraite
+  text: Les critères de pénibilité ouvrant droit à un départ anticipé à la retraite doivent être élargis.
+  themes:
+    - travail
+  polarity: +
+  status: draft
+  author: claude
+- id: travail-plateformes-presomption-salariat
+  text: Les travailleurs des plateformes numériques doivent être présumés salariés.
+  themes:
+    - travail
+    - numerique
+  polarity: +
+  status: draft
+  author: claude
+- id: travail-retraite-au-dela-64-ans
+  text: L'âge légal de départ à la retraite doit être porté au-delà de 64 ans.
+  themes:
+    - travail
+  polarity: "-"
+  status: draft
+  author: claude
+- id: travail-retraite-capitalisation
+  text: Une part des retraites doit être financée par capitalisation.
+  themes:
+    - travail
+  polarity: "-"
+  status: draft
+  author: claude
+- id: travail-augmenter-jours-carence
+  text: Le nombre de jours de carence en cas d'arrêt maladie doit être augmenté.
+  themes:
+    - travail
+    - sante
+  polarity: "-"
+  status: draft
+  author: claude
+- id: travail-smic-regional
+  text: Le SMIC doit pouvoir varier selon les régions.
+  themes:
+    - travail
+  polarity: "-"
+  status: draft
+  author: claude
+- id: travail-statut-fonction-publique-regalien
+  text: Le statut de fonctionnaire doit être réservé aux missions régaliennes de l'État.
+  themes:
+    - travail
+  polarity: "-"
+  status: draft
+  author: claude
