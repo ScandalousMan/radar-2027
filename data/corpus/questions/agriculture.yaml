@@ -45,3 +45,84 @@
   polarity: "-"
   status: draft
   author: claude
+- id: agriculture-origine-viandes-restaurants
+  text: L'origine des viandes doit être obligatoirement indiquée dans les plats servis par les restaurants.
+  themes:
+    - agriculture
+  polarity: +
+  status: draft
+  author: claude
+- id: agriculture-interdire-glyphosate
+  text: L'usage du glyphosate doit être interdit en France.
+  themes:
+    - agriculture
+    - environnement
+  polarity: +
+  status: draft
+  author: claude
+- id: agriculture-encadrer-prix-terres
+  text: Le prix de vente des terres agricoles doit être encadré par l'État.
+  themes:
+    - agriculture
+  polarity: +
+  status: draft
+  author: claude
+- id: agriculture-plafonner-aides-pac
+  text: Les aides de la politique agricole commune versées à une même exploitation doivent être plafonnées.
+  themes:
+    - agriculture
+  polarity: +
+  status: draft
+  author: claude
+- id: agriculture-interdire-poules-cage
+  text: L'élevage de poules pondeuses en cage doit être interdit.
+  themes:
+    - agriculture
+  polarity: +
+  status: draft
+  author: claude
+- id: agriculture-chalut-aires-protegees
+  text: La pêche au chalut de fond doit être interdite dans les aires marines protégées.
+  themes:
+    - agriculture
+    - environnement
+  polarity: +
+  status: draft
+  author: claude
+- id: agriculture-autoriser-nouvelles-techniques-genomiques
+  text: La culture de plantes issues des nouvelles techniques génomiques doit être autorisée en France.
+  themes:
+    - agriculture
+  polarity: "-"
+  status: draft
+  author: claude
+- id: agriculture-derogations-neonicotinoides
+  text: Les agriculteurs doivent pouvoir obtenir des dérogations pour utiliser des insecticides néonicotinoïdes.
+  themes:
+    - agriculture
+    - environnement
+  polarity: "-"
+  status: draft
+  author: claude
+- id: agriculture-moins-controles-exploitations
+  text: Les contrôles administratifs dans les exploitations agricoles doivent être moins fréquents.
+  themes:
+    - agriculture
+  polarity: "-"
+  status: draft
+  author: claude
+- id: agriculture-tirs-loups-sans-autorisation
+  text: Les éleveurs doivent pouvoir abattre sans autorisation préalable un loup qui attaque leur troupeau.
+  themes:
+    - agriculture
+    - environnement
+  polarity: "-"
+  status: draft
+  author: claude
+- id: agriculture-curage-fosses-sans-autorisation
+  text: Les agriculteurs doivent pouvoir curer les fossés et les cours d'eau sans autorisation préalable.
+  themes:
+    - agriculture
+  polarity: "-"
+  status: draft
+  author: claude
