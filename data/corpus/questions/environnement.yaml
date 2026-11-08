@@ -48,3 +48,85 @@
   polarity: "-"
   status: draft
   author: claude
+- id: environnement-calendrier-logements-mal-isoles
+  text: L'interdiction de louer les logements les moins bien isolés doit être appliquée selon le calendrier prévu.
+  themes:
+    - environnement
+  polarity: +
+  status: draft
+  author: claude
+- id: environnement-taxer-kerosene-vols-interieurs
+  text: Le kérosène des vols intérieurs doit être taxé comme les autres carburants.
+  themes:
+    - environnement
+    - fiscalite
+  polarity: +
+  status: draft
+  author: claude
+- id: environnement-ecocide-crime
+  text: L'écocide doit être reconnu comme un crime dans le Code pénal.
+  themes:
+    - environnement
+    - justice
+  polarity: +
+  status: draft
+  author: claude
+- id: environnement-publicite-vehicules-emetteurs
+  text: La publicité pour les véhicules les plus émetteurs de CO2 doit être interdite.
+  themes:
+    - environnement
+  polarity: +
+  status: draft
+  author: claude
+- id: environnement-plastique-usage-unique-2030
+  text: Les emballages en plastique à usage unique doivent être interdits d'ici 2030.
+  themes:
+    - environnement
+  polarity: +
+  status: draft
+  author: claude
+- id: environnement-trajectoire-emissions-entreprises
+  text: Les grandes entreprises doivent être tenues de réduire leurs émissions selon une trajectoire fixée par la loi.
+  themes:
+    - environnement
+  polarity: +
+  status: draft
+  author: claude
+- id: environnement-pause-normes-europeennes
+  text: L'Union européenne doit suspendre l'adoption de nouvelles normes environnementales pendant plusieurs années.
+  themes:
+    - environnement
+    - international
+  polarity: "-"
+  status: draft
+  author: claude
+- id: environnement-chasse-dimanche
+  text: La chasse doit rester autorisée le dimanche.
+  themes:
+    - environnement
+  polarity: "-"
+  status: draft
+  author: claude
+- id: environnement-gazole-non-routier-agriculteurs
+  text: Les agriculteurs doivent conserver un taux réduit de taxe sur le gazole non routier.
+  themes:
+    - environnement
+    - agriculture
+  polarity: "-"
+  status: draft
+  author: claude
+- id: environnement-limiter-recours-projets
+  text: Les recours contre les projets industriels doivent être limités pour accélérer leur réalisation.
+  themes:
+    - environnement
+    - economie
+  polarity: "-"
+  status: draft
+  author: claude
+- id: environnement-exploitation-hydrocarbures
+  text: L'exploitation de nouveaux gisements d'hydrocarbures doit être autorisée sur le territoire français.
+  themes:
+    - environnement
+  polarity: "-"
+  status: draft
+  author: claude
