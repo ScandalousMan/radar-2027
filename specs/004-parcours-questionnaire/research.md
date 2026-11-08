@@ -5,8 +5,9 @@
 Le contexte technique ne contenait aucun `NEEDS CLARIFICATION` : la pile est imposée par la
 constitution et le socle 001, les règles métier par la 003. Les points ci-dessous sont les
 décisions de conception à trancher avant d'écrire le modèle et les contrats. Celles marquées
-**(à valider)** méritent un regard du propriétaire avant `/speckit-tasks` car elles engagent la
-005 ou l'expérience en production.
+**(validée le 2026-11-08)** engageaient la 005 ou l'expérience en production et ont été
+confirmées par le propriétaire avant l'implémentation ; leurs conséquences sont listées en fin
+de section.
 
 ## R1. Quatre routes statiques sous un layout client commun
 
@@ -71,7 +72,7 @@ décisions de conception à trancher avant d'écrire le modèle et les contrats.
 - **Alternatives** : `sessionStorage` (perdu à la fermeture de l'onglet, contraire à US3) ;
   IndexedDB (asynchrone et surdimensionné pour 1 ko) ; cookie (interdit par le principe II).
 
-## R5. Lecture du jeu publié à l'exécution, même origine **(à valider)**
+## R5. Lecture du jeu publié à l'exécution, même origine **(validée le 2026-11-08)**
 
 - **Décision** : le fournisseur du layout charge `fetch('/data/versions.json')` puis
   `fetch('/data/versions/<current>/main.json')`, valide avec `MainDatasetSchema`, construit
@@ -93,6 +94,16 @@ décisions de conception à trancher avant d'écrire le modèle et les contrats.
   dernier point est théorique puisque la publication redéploie, mais la première raison suffit).
   Le contrat `published-dataset.md` de la 002 indiquait « version courante importée au build »
   pour la page Méthodologie, qui reste inchangée.
+
+- **Conséquences (validation du 2026-11-08)** : (1) l'entrée du questionnaire passe par un
+  état `loading` puis `ready` / `no-version` / `error` avec bouton Réessayer ; le HTML statique
+  ne contient aucun thème ni question. (2) `src/lib/dataset-client.ts` est le seul chargeur
+  navigateur du jeu publié ; la 005 le réutilise tel quel pour les versions antérieures et ne
+  doit pas en créer un second. (3) La page Méthodologie reste importée au build
+  (`src/lib/dataset.ts`) : deux chemins de lecture coexistent volontairement, serveur et client.
+  (4) Les e2e servent la banque fictive par `page.route('**/data/**')` ; aucun fichier fictif
+  n'est commité sous `public/data`. (5) `main.json` doit rester ≤ 300 ko et servi avec un
+  en-tête de cache immuable (à vérifier en prévisualisation Vercel, quickstart § 4).
 
 ## R6. Banque fictive pour Playwright par interception de route
 
@@ -172,7 +183,7 @@ décisions de conception à trancher avant d'écrire le modèle et les contrats.
   résultats (la 005 doit de toute façon décoder un fragment pour les liens partagés ; un seul
   chemin d'entrée).
 
-## R11. Page de garde `/resultats` tant que la 005 n'est pas livrée **(à valider)**
+## R11. Page de garde `/resultats` tant que la 005 n'est pas livrée **(validée le 2026-11-08)**
 
 - **Décision** : la 004 crée `src/app/resultats/page.tsx`, page statique minimale : titre,
   texte « vos résultats seront bientôt disponibles ; ce lien reste valable » (`results.soon`),
@@ -183,6 +194,14 @@ décisions de conception à trancher avant d'écrire le modèle et les contrats.
   donnée ; aucun impact sur la 005 qui écrase le fichier.
 - **Alternatives** : laisser le 404 (impasse visible en production ou en prévisualisation) ;
   désactiver le bouton de fin (le parcours ne serait pas testable de bout en bout).
+
+- **Conséquences (validation du 2026-11-08)** : (1) `src/app/resultats/page.tsx` est
+  temporaire : la 005 l'écrase entièrement, sans migration. (2) Elle ne lit pas le fragment ;
+  le lien produit par la 004 est déjà au format définitif `#1.…` du codec 003, donc un lien
+  conservé par un répondant restera valable après la 005. (3) Le brouillon n'est pas effacé à
+  l'arrivée sur `/resultats` (FR-026) : le répondant peut revenir au questionnaire.
+  (4) Les clés `results.title`, `results.soon`, `results.backToQuestionnaire` seront remplacées
+  ou réutilisées par la 005, qui en est propriétaire.
 
 ## R12. Confirmations par `<dialog>` natif
 

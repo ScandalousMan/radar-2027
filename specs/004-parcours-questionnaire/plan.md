@@ -84,7 +84,7 @@ côté client
 | Contraintes techniques | pile imposée ; échelle −2…+2 plus « passer » | `LikertChoice` existant (6 options) ; Next/React/next-intl/Tailwind/Storybook/Vitest/Playwright du socle | ✅ |
 
 **Pré-recherche** : aucun écart. **Post-conception** : aucun écart ; la page de garde
-`/resultats` (R11) n'introduit ni donnée ni règle, elle évite seulement une impasse tant que la
+`/resultats` (R11, validée le 2026-11-08 avec R5) n'introduit ni donnée ni règle, elle évite seulement une impasse tant que la
 005 n'est pas livrée et sera remplacée par celle-ci.
 
 ## Project Structure
