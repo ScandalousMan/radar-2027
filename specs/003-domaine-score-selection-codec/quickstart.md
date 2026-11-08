@@ -103,6 +103,15 @@ modifiée, un candidat retiré) :
 - Octet `0x03` avec deux versions connues → `unknown-bank-version` ; `decodeFragment` avec la
   mauvaise banque → `unknown-bank-version`.
 
+## Durées mesurées (poste de développement, 2026-11-08)
+
+| Critère | Mesure |
+|---|---|
+| SC-004 : 13 496 sélections, chacune calculée deux fois (idempotence) | 3,2 s |
+| SC-008 : sélection + classement de 22 candidats × 100 questions × 16 thèmes | 4 à 7 ms |
+| SC-008 : décodage d'un lien complet (sélection recalculée comprise) | 0,7 ms |
+| SC-002 : 10 000 allers-retours encodage/décodage sur deux versions (quatre sélections recalculées par état) | 22,5 s, mesuré pendant un `pnpm verify` concurrent |
+
 ## 5. Tout le projet
 
 ```bash

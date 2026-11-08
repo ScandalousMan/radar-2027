@@ -42,14 +42,14 @@ spec en fixtures, propriétés fast-check).
 
 **Purpose**: préparer l'arborescence et les points d'entrée sans logique.
 
-- [ ] T001 Créer les dossiers `src/core/bank/`, `src/core/selection/`, `src/core/score/`,
+- [X] T001 Créer les dossiers `src/core/bank/`, `src/core/selection/`, `src/core/score/`,
   `src/core/codec/` et le fichier `src/core/index.ts` réexportant `./types`, `./ratio`,
   `./dataset`, `./bank`, `./selection`, `./score`, `./codec` (les sous-modules pourront être
   vides au début : créer un `index.ts` vide dans chaque dossier)
-- [ ] T002 [P] Mettre à jour `src/core/README.md` : décrire les quatre nouveaux modules, le
+- [X] T002 [P] Mettre à jour `src/core/README.md` : décrire les quatre nouveaux modules, le
   graphe de dépendances (`dataset ← bank ← selection ← score, codec`), la règle d'arithmétique
   exacte et le lien vers `specs/003-domaine-score-selection-codec/contracts/core-api.md`
-- [ ] T003 [P] Vérifier que `src/lib/core-boundary.test.ts` couvre bien `src/core/**` (motif de
+- [X] T003 [P] Vérifier que `src/lib/core-boundary.test.ts` couvre bien `src/core/**` (motif de
   fichiers de la règle `no-restricted-imports` dans `eslint.config.mjs`) et ajouter, si le test
   énumère des chemins, les quatre nouveaux dossiers
 
@@ -62,32 +62,32 @@ fictives, dont dépendent toutes les stories.
 
 **⚠️ CRITICAL**: aucune story ne commence avant la fin de cette phase.
 
-- [ ] T004 Écrire `src/core/types.ts` : `Mode`, `Answer`, `ResultState`, `Band`,
+- [X] T004 Écrire `src/core/types.ts` : `Mode`, `Answer`, `ResultState`, `Band`,
   `RejectionReason`, `ExclusionReason`, `DecodeResult<T>`, `StateError` (codes
   `bad-priorities | bad-mode | bad-answer-count | bad-answer | version-mismatch`) et les
   constantes `TARGET_COUNT`, `QUOTA_FLOOR`, `PRIORITY_WEIGHT`, `OTHER_WEIGHT`,
   `MIN_PRIORITIES`, `MAX_PRIORITIES`, `MIN_THEME_QUESTIONS`, `COVERAGE_THRESHOLD`,
   `LINK_FORMAT_VERSION`, `BANDS` ([data-model.md](data-model.md) § 1 et § 4)
-- [ ] T005 [P] Écrire `src/core/ratio.test.ts` : réduction par pgcd, `add/sub/mul/div`,
+- [X] T005 [P] Écrire `src/core/ratio.test.ts` : réduction par pgcd, `add/sub/mul/div`,
   `cmp` par produit en croix, `mean`, `weightedMean`, `floorPercentSigned(1/4) = 62`,
   `floorPercentSigned(0) = 50`, `floorPercentSigned(1) = 100`, `floorPercentSigned(−1) = 0`,
   `floorPercentUnit(3/4) = 75`, `floorPercentUnit(1/2) = 50`, et propriétés fast-check :
   `cmp` antisymétrique et transitif, `toNumber` monotone, `floorPercent*` égal à
   `Math.floor` sur des rationnels à petit dénominateur
-- [ ] T006 [P] Écrire `src/core/ratio.ts` : type `Ratio { num: bigint; den: bigint }` réduit,
+- [X] T006 [P] Écrire `src/core/ratio.ts` : type `Ratio { num: bigint; den: bigint }` réduit,
   `ratio(num, den)`, `ZERO`, `ONE`, `add`, `sub`, `mul`, `div`, `cmp`, `min`, `mean(list)`,
   `weightedMean([{ value, weight }])`, `floorPercentSigned`, `floorPercentUnit`, `toNumber`
   ([data-model.md](data-model.md) § 2)
-- [ ] T007 [P] Écrire `src/core/bank/bank.test.ts` : `bankFromDataset(minimalMainDataset())`
+- [X] T007 [P] Écrire `src/core/bank/bank.test.ts` : `bankFromDataset(minimalMainDataset())`
   donne 2 thèmes indexés 0 et 1, `questionById`, `themeIndexById`, positions alignées ;
   `BankError` pour un jeu à 25 thèmes (`too-many-themes`), un thème dupliqué, une question
   référençant un thème inconnu, des positions désalignées ; `normalizePriorities` trie en ordre
   canonique, dédoublonne, refuse 2 ou 6 sujets et un identifiant inconnu (`bad-priorities`)
-- [ ] T008 [P] Écrire `src/core/bank/bank.ts` : types `BankTheme`, `BankQuestion`,
+- [X] T008 [P] Écrire `src/core/bank/bank.ts` : types `BankTheme`, `BankQuestion`,
   `BankCandidate`, `BankVersion`, classe `BankError`, `bankFromDataset(ds: MainDataset)` (lit
   `ds.themes` en ordre canonique, construit `themeIndices` depuis `q.themes`, `positions` en
   `ReadonlyMap`), `normalizePriorities(bank, ids)` ([data-model.md](data-model.md) § 3)
-- [ ] T009 [P] Écrire `src/core/bank/fixtures.ts` : `syntheticBank({ themes = 16, perTheme =
+- [X] T009 [P] Écrire `src/core/bank/fixtures.ts` : `syntheticBank({ themes = 16, perTheme =
   20, version = 1, candidates = 22, publishedAt })` (identifiants `tNN`, `tNN-qMM`, `D_q = 2 −
   MM/perTheme`, une question sur cinq avec second thème `(NN + 1) mod T`, positions
   `((NN + MM + k) mod 5) − 2` avec `null` quand `(NN + MM + k) mod 7 = 0`, niveaux `p/l/d`
@@ -96,7 +96,7 @@ fictives, dont dépendent toutes les stories.
   questions `q1`, `q2` économie, `q3`, `q4` santé ; un candidat `cand` aux positions `+1, +1,
   +2, null`), `selectionOf(bank, questionIds)` (construit une `Selection` littérale pour les
   tests de score, thème d'ancrage = premier thème) ([data-model.md](data-model.md) § 8)
-- [ ] T010 Écrire `src/core/bank/index.ts` réexportant `bank.ts` (pas `fixtures.ts`, réservé
+- [X] T010 Écrire `src/core/bank/index.ts` réexportant `bank.ts` (pas `fixtures.ts`, réservé
   aux tests) et vérifier `pnpm vitest run src/core/ratio.test.ts src/core/bank </dev/null` vert
   et `pnpm lint` vert
 
@@ -117,29 +117,29 @@ passent sur des banques fictives, sans sélection algorithmique (sélections lit
 
 ### Tests for User Story 1
 
-- [ ] T011 [P] [US1] Écrire `src/core/score/examples.ts` : `EXAMPLE_A` (banque
+- [X] T011 [P] [US1] Écrire `src/core/score/examples.ts` : `EXAMPLE_A` (banque
   `exampleABank()`, état mode complet, priorité `economie`, réponses `+2, −1, +2, 0`, attendus :
   `s = 1/2, 0, 1`, q4 exclue `unknown-position`, `S_economie = 1/4` (62 %), `S_sante = null`,
   `W = P = 1/4`, `G` 62 %, couverture 3/4 (75 %), `ranked`, `rather-aligned`) et `EXAMPLE_B`
   (trois thèmes dont un prioritaire à `S = 0` et deux à `S = 1`, attendus `W = 2/5` (70 %),
   `P = 0` (50 %), `G` 50 %) ; type `ScoreExample` exporté ([contracts/core-api.md](contracts/core-api.md))
-- [ ] T012 [P] [US1] Écrire `src/core/score/score.test.ts` (exemples) : `EXAMPLE_A` et
+- [X] T012 [P] [US1] Écrire `src/core/score/score.test.ts` (exemples) : `EXAMPLE_A` et
   `EXAMPLE_B` reproduits champ par champ (ratios exacts et `percent`), détail par question
   (concordance, niveau de preuve, motif d'exclusion) — SC-001
-- [ ] T013 [P] [US1] Écrire `src/core/score/candidate.test.ts` (scénarios US1 3 à 7) :
+- [X] T013 [P] [US1] Écrire `src/core/score/candidate.test.ts` (scénarios US1 3 à 7) :
   couverture 5/10 → `insufficient-data`, `rank: null`, scores de thème définis fournis ; `P`
   indéfini avec couverture 90 % → insuffisant ; `W` 85 % et `P` 72 % → `G` 72 %, bande
   `rather-aligned` ; couverture exactement 60 % → classé ; thème à exactement 2 questions
   exploitables → défini ; aucune réponse numérique → couverture `null`, tous insuffisants,
   `ranked` vide ; deux candidats ne différant que par le niveau de preuve → scores identiques
-- [ ] T014 [P] [US1] Écrire `src/core/score/rank.test.ts` : X (`G` exact 5/8 = 62,5 %, `P`
+- [X] T014 [P] [US1] Écrire `src/core/score/rank.test.ts` : X (`G` exact 5/8 = 62,5 %, `P`
   5/8), Y (`G` 62,2 %, `P` 65 %), Z (58 %) → `percent` 62, 62, 58 ; rangs 1, 1, 3 ; Y avant X ;
   égalité parfaite → identifiant croissant ; propriété : tri stable et idempotent
-- [ ] T015 [P] [US1] Écrire `src/core/score/themes.test.ts` : mode complet → un `ThemeScore`
+- [X] T015 [P] [US1] Écrire `src/core/score/themes.test.ts` : mode complet → un `ThemeScore`
   par thème avec `count` ; mode court → thèmes prioritaires + `{ kind: 'others' }` comptant
   chaque question une seule fois même si elle a deux thèmes non prioritaires ; question à deux
   thèmes prioritaires comptée dans les deux ; `null` sous 2 questions exploitables
-- [ ] T016 [P] [US1] Écrire `src/core/score/properties.test.ts` (fast-check, SC-005) : sur
+- [X] T016 [P] [US1] Écrire `src/core/score/properties.test.ts` (fast-check, SC-005) : sur
   `syntheticBank()` et des états aléatoires (réponses, 3 à 5 sujets, deux modes), pour tout
   candidat classé `global.percent ≤ priority.percent` et `global.percent ≤ weighted.percent` ;
   `band = 'very-aligned' ⇒ priority.percent ≥ 80` ; `ranked.length + insufficient.length =
@@ -148,29 +148,29 @@ passent sur des banques fictives, sans sélection algorithmique (sélections lit
 
 ### Implementation for User Story 1
 
-- [ ] T017 [P] [US1] Écrire `src/core/score/concordance.ts` : `concordance(u: Answer, c:
+- [X] T017 [P] [US1] Écrire `src/core/score/concordance.ts` : `concordance(u: Answer, c:
   PositionCell): { concordance: Ratio; level: EvidenceCode } | { excluded: ExclusionReason }`
   avec `s = 1 − |u − c| / 2` (FR-001, FR-002)
-- [ ] T018 [US1] Écrire `src/core/score/themes.ts` : `themeScores(bank, selection, state,
+- [X] T018 [US1] Écrire `src/core/score/themes.ts` : `themeScores(bank, selection, state,
   perQuestion)` → `ThemeScore[]` (moyenne des concordances par thème, chaque question comptée
   dans ses 1 ou 2 thèmes, `null` sous `MIN_THEME_QUESTIONS` ; pseudo-thème `others` en mode
   court, FR-003, FR-004, FR-013)
-- [ ] T019 [US1] Écrire `src/core/score/candidate.ts` : `scoreCandidate(...)` → `CandidateScore`
+- [X] T019 [US1] Écrire `src/core/score/candidate.ts` : `scoreCandidate(...)` → `CandidateScore`
   (P, W pondéré 3/1, couverture `known/answered`, statut par seuil inclusif 60 et `P` défini,
   `G = min(W, P)`, `percent` par `floorPercentSigned`, bande par `BANDS`, FR-005 → FR-011,
   FR-014 → FR-016)
-- [ ] T020 [US1] Écrire `src/core/score/rank.ts` : `rankCandidates(scores)` → tri `G.percent ↓`,
+- [X] T020 [US1] Écrire `src/core/score/rank.ts` : `rankCandidates(scores)` → tri `G.percent ↓`,
   `P.ratio ↓`, `coverage.ratio ↓`, `id ↑`, rangs ex æquo avec saut (FR-012)
-- [ ] T021 [US1] Écrire `src/core/score/score.ts` : `scoreCandidates({ bank, selection, state,
+- [X] T021 [US1] Écrire `src/core/score/score.ts` : `scoreCandidates({ bank, selection, state,
   versionCount })` → `Scoreboard` (`ranked`, `insufficient` dans l'ordre du jeu,
   `answeredCount`, `priorVersion = bank.version < versionCount`, `bankPublishedAt`) ; **ne borne
   pas** le nombre de sujets (accepte 1 à `T` identifiants connus, sans appeler
   `normalizePriorities` : les exemples A et B n'ont qu'un sujet, spec § Assumptions) ; lève
   `StateError` si `state.answers.length ≠ selection.items.length` (`bad-answer-count`) ou
   `bank.version ≠ state.bankVersion` (`version-mismatch`) (FR-017)
-- [ ] T022 [US1] Écrire `src/core/score/index.ts` (réexports : `scoreCandidates`, types,
+- [X] T022 [US1] Écrire `src/core/score/index.ts` (réexports : `scoreCandidates`, types,
   `EXAMPLE_A`, `EXAMPLE_B`) et faire passer `pnpm vitest run src/core/score </dev/null`
-- [ ] T023 [US1] Écrire `src/core/score/perf.test.ts` (SC-008) : classement de 22 candidats ×
+- [X] T023 [US1] Écrire `src/core/score/perf.test.ts` (SC-008) : classement de 22 candidats ×
   100 questions × 16 thèmes sur `syntheticBank()` et `selectionOf` des 100 premières questions,
   durée mesurée avec `performance.now()` (disponible en Node et navigateur, hors `src/core`
   non : le test seul l'utilise), journalisée, échec au-delà de 500 ms
@@ -190,19 +190,19 @@ scénarios 1 à 3, les scénarios 4 à 8, SC-004 (13 496 combinaisons) et SC-006
 
 ### Tests for User Story 2
 
-- [ ] T024 [P] [US2] Écrire `src/core/selection/quotas.test.ts` : complet + sujets {0, 1, 2}
+- [X] T024 [P] [US2] Écrire `src/core/selection/quotas.test.ts` : complet + sujets {0, 1, 2}
   → `[14, 14, 14, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4]` ; court + 5 sujets → `3, 3, 3, 3, 2`
   et `1 × 11` ; complet + 5 sujets → `12, 11, 11, 11, 11` et `4 × 11` ; propriété : `Σ = N`
   pour tout sous-ensemble de 3 à 5 parmi `T ∈ [8, 20]`, chaque quota ≥ plancher ; refus :
   mode court, `T = 21` et 5 sujets → `BankError('too-many-themes-for-quotas')` (FR-021)
-- [ ] T025 [P] [US2] Écrire `src/core/selection/select.test.ts` : scénario 5 (D_q 0,9, 0,9,
+- [X] T025 [P] [US2] Écrire `src/core/selection/select.test.ts` : scénario 5 (D_q 0,9, 0,9,
   0,4, quota 2 → les deux 0,9, égalité par identifiant) ; scénario 7 (thème prioritaire à 6
   questions, quota 14 → 100 questions, déficit comblé d'abord par les autres prioritaires) ;
   scénario 8 (question à deux thèmes créditée aux deux quotas) ; scénario 4 (deux appels
   égaux en profondeur) ; scénario 6 (alternance des thèmes d'ancrage, trois premières
   questions = trois sujets en ordre canonique) ; banque de 96 questions → 96 ; banque à
   `T = 24` acceptée ; `StateError` sur 2 ou 6 sujets ; `items[i].position = i`
-- [ ] T026 [P] [US2] Écrire `src/core/selection/enumeration.test.ts` (SC-004, SC-006) :
+- [X] T026 [P] [US2] Écrire `src/core/selection/enumeration.test.ts` (SC-004, SC-006) :
   énumération des 6 748 sous-ensembles × 2 modes sur `syntheticBank()` : `Σ quotas = N`, `N`
   identifiants distincts, alternance d'ancrage tant que deux thèmes restent, idempotence ;
   durée journalisée (attendu < 10 s ; si > 30 s en CI, réduire à un échantillon fast-check
@@ -210,26 +210,26 @@ scénarios 1 à 3, les scénarios 4 à 8, SC-004 (13 496 combinaisons) et SC-006
 
 ### Implementation for User Story 2
 
-- [ ] T027 [P] [US2] Écrire `src/core/selection/quotas.ts` : `computeQuotas(bank, mode,
+- [X] T027 [P] [US2] Écrire `src/core/selection/quotas.ts` : `computeQuotas(bank, mode,
   priorityIndices)` — part exacte `e_t = N·w_t/Σw` en `Ratio`, `q_t = max(plancher, ⌊e_t⌋)`,
   reste distribué une unité par thème par `(e_t − q_t)` décroissant puis ordre canonique ;
   lève `BankError('too-many-themes-for-quotas')` si `Σ q_t > N` avant distribution (FR-021)
-- [ ] T028 [US2] Écrire `src/core/selection/fill.ts` : `fillQuotas(bank, quotas,
+- [X] T028 [US2] Écrire `src/core/selection/fill.ts` : `fillQuotas(bank, quotas,
   priorityIndices)` → premier passage glouton (prioritaires puis autres en ordre canonique,
   `D_q` décroissant puis identifiant croissant, une question retenue crédite tous ses thèmes)
   et second passage (restantes des prioritaires puis de toute la banque) jusqu'à `N` ou
   épuisement ; attribue `anchorThemeIndex` et `pass` (FR-022 → FR-024)
-- [ ] T029 [US2] Écrire `src/core/selection/order.ts` : `roundRobin(selected,
+- [X] T029 [US2] Écrire `src/core/selection/order.ts` : `roundRobin(selected,
   rotationOrder)` → tourniquet sur les thèmes d'ancrage, chaque thème livrant sa question
   suivante par `D_q` décroissant puis identifiant, thèmes épuisés sautés ; pose `position`
   (FR-025, FR-026)
-- [ ] T030 [US2] Écrire `src/core/selection/select.ts` : `selectQuestions(bank, mode,
+- [X] T030 [US2] Écrire `src/core/selection/select.ts` : `selectQuestions(bank, mode,
   priorities)` → normalise les priorités (`normalizePriorities`), calcule quotas, remplit,
   ordonne, retourne `Selection { mode, priorityIndices, quotas, items }` (FR-018, FR-019,
   FR-027)
-- [ ] T031 [US2] Écrire `src/core/selection/index.ts` et faire passer
+- [X] T031 [US2] Écrire `src/core/selection/index.ts` et faire passer
   `pnpm vitest run src/core/selection </dev/null`
-- [ ] T032 [US2] Remplacer, dans `src/core/score/perf.test.ts`, la sélection littérale par
+- [X] T032 [US2] Remplacer, dans `src/core/score/perf.test.ts`, la sélection littérale par
   `selectQuestions(syntheticBank(), 'full', …)` et vérifier que le budget SC-008 tient toujours
 
 **Checkpoint**: sélection et score fonctionnent ensemble sur une banque fictive.
@@ -247,20 +247,20 @@ fragments de référence, vérifie SC-002 (10 000 états), SC-003 (mutations) et
 
 ### Tests for User Story 3
 
-- [ ] T033 [P] [US3] Écrire `src/core/codec/fixtures.ts` : `FRAGMENT_FULL_EXAMPLE` et
+- [X] T033 [P] [US3] Écrire `src/core/codec/fixtures.ts` : `FRAGMENT_FULL_EXAMPLE` et
   `FRAGMENT_SHORT_EXAMPLE` (`FragmentFixture { title, bank: () => BankVersion, state,
   fragment, bytesHex }`) avec les valeurs de
   [contracts/link-format.md](contracts/link-format.md) : banque `syntheticBank()` version 1,
   sujets d'indices 2, 7, 9 (court : 0, 2, 7, 9, 12), réponses `+2`, `skipped`, `−1`, reste
   `unanswered`
-- [ ] T034 [P] [US3] Écrire `src/core/codec/crc8.test.ts` : `crc8([])  = 0`, `crc8('123456789')
+- [X] T034 [P] [US3] Écrire `src/core/codec/crc8.test.ts` : `crc8([])  = 0`, `crc8('123456789')
   = 0xF4` (vecteur de référence du CRC-8 polynôme 0x07), CRC des deux charges de référence
   `0xC3` et `0x9E` ; propriété : changer un octet change le CRC dans ≥ 99 % des cas
-- [ ] T035 [P] [US3] Écrire `src/core/codec/base64url.test.ts` : encodage sans `=` des octets
+- [X] T035 [P] [US3] Écrire `src/core/codec/base64url.test.ts` : encodage sans `=` des octets
   de référence, décodage inverse, rejet de `=`, de `+`, `/`, espace, et d'une chaîne dont les
   bits de queue sont non nuls (`AB` décode `0x00` mais `AC` est refusé) ; propriété
   `decode(encode(b)) = b` et `encode(decode(s)) = s` pour toute chaîne valide
-- [ ] T036 [P] [US3] Écrire `src/core/codec/codec.test.ts` : fixtures caractère par caractère
+- [X] T036 [P] [US3] Écrire `src/core/codec/codec.test.ts` : fixtures caractère par caractère
   et octets (`00 00 84 02 00 C5 80 00 … C3` ; `00 01 85 12 00 C5 80 … 9E`) ; SC-007 (59 et 22
   caractères quels que soient sujets et réponses) ; SC-002 (`numRuns: 10000`, états
   aléatoires sur `syntheticBank()` : deux modes, 3 à 5 sujets, réponses, versions 1 et 2 via
@@ -277,29 +277,29 @@ fragments de référence, vérifie SC-002 (10 000 états), SC-003 (mutations) et
 
 ### Implementation for User Story 3
 
-- [ ] T037 [P] [US3] Écrire `src/core/codec/crc8.ts` : table de 256 entrées calculée au
+- [X] T037 [P] [US3] Écrire `src/core/codec/crc8.ts` : table de 256 entrées calculée au
   chargement (polynôme 0x07), `crc8(bytes: Uint8Array): number` (FR-031)
-- [ ] T038 [P] [US3] Écrire `src/core/codec/base64url.ts` : `encodeBase64Url(bytes)` sans
+- [X] T038 [P] [US3] Écrire `src/core/codec/base64url.ts` : `encodeBase64Url(bytes)` sans
   bourrage, `decodeBase64Url(text): Uint8Array | null` (alphabet strict, bits de queue nuls,
   longueur `≡ 1 mod 4` refusée) (FR-028, R3)
-- [ ] T039 [P] [US3] Écrire `src/core/codec/bits.ts` : `packAnswers(codes: number[]):
+- [X] T039 [P] [US3] Écrire `src/core/codec/bits.ts` : `packAnswers(codes: number[]):
   Uint8Array` (3 bits, poids fort d'abord, bourrage nul) et `unpackAnswers(bytes, n):
   number[] | null` (null si un bit de bourrage est non nul) ; `answerToCode`, `codeToAnswer`
   (FR-029 (4), FR-030)
-- [ ] T040 [US3] Écrire `src/core/codec/payload.ts` : `buildPayload(state, bank, selection)`
+- [X] T040 [US3] Écrire `src/core/codec/payload.ts` : `buildPayload(state, bank, selection)`
   → `Uint8Array` (octet version − 1, drapeaux, masque 3 octets depuis `priorityIndices`,
   réponses, CRC) et `expectedPayloadLength(n)` ; `parseHeader(bytes)` → `{ versionByte, mode,
   reservedBits, maskIndices }` (FR-029, FR-032)
-- [ ] T041 [US3] Écrire `src/core/codec/encode.ts` : `encodeFragment(state, bank)` →
+- [X] T041 [US3] Écrire `src/core/codec/encode.ts` : `encodeFragment(state, bank)` →
   `'#1.' + base64url(payload)` ; valide l'état (`normalizePriorities`, mode, `answers.length
   = selectQuestions(...).items.length`, domaine des réponses, `bankVersion = bank.version`) et
   lève `StateError` sinon (FR-028, FR-036)
-- [ ] T042 [US3] Écrire `src/core/codec/decode.ts` : `decodeHeader(fragment, versionCount)`
+- [X] T042 [US3] Écrire `src/core/codec/decode.ts` : `decodeHeader(fragment, versionCount)`
   (étapes 1 à 6 de [contracts/link-format.md](contracts/link-format.md), sans contrôle de
   `T`) et `decodeFragment(fragment, bank)` (étapes 1 à 9, `unknown-bank-version` si
   `bank.version ≠ octet + 1`, sélection recalculée, longueur, CRC, codes, bourrage ;
   retourne un `ResultState` aux priorités en identifiants ordonnés) (FR-033 → FR-035)
-- [ ] T043 [US3] Écrire `src/core/codec/index.ts` (réexports : `encodeFragment`,
+- [X] T043 [US3] Écrire `src/core/codec/index.ts` (réexports : `encodeFragment`,
   `decodeHeader`, `decodeFragment`, `expectedPayloadLength`, fixtures) et faire passer
   `pnpm vitest run src/core/codec </dev/null`
 
@@ -317,13 +317,13 @@ passe avec `bankPair()`.
 
 ### Tests for User Story 4
 
-- [ ] T044 [P] [US4] Écrire `src/core/codec/versions.test.ts` : état sur la version 2 →
+- [X] T044 [P] [US4] Écrire `src/core/codec/versions.test.ts` : état sur la version 2 →
   octet `0x01` ; `decodeHeader(lienV1, 2).value.bankVersion = 1` ; `decodeFragment(lienV1,
   bankV2)` → `unknown-bank-version` ; octet `0x03` avec `versionCount = 2` →
   `unknown-bank-version` ; `decodeFragment(lienV1, bankV1)` reconstruit la sélection de la
   version 1 (question `t03-q07` présente, `t03-q20` absente) et associe chaque réponse à la
   même question (scénarios 1, 2, 5)
-- [ ] T045 [P] [US4] Écrire `src/core/score/replay.test.ts` (SC-009, scénario 3) : pour 200
+- [X] T045 [P] [US4] Écrire `src/core/score/replay.test.ts` (SC-009, scénario 3) : pour 200
   états aléatoires sur `bankPair().v1`, `Scoreboard` calculé avant « publication » puis
   recalculé après décodage du lien avec `bankV1` et `versionCount = 2` → identiques en
   profondeur (scores, rangs, bandes, couvertures), `priorVersion: true`, `bankPublishedAt` =
@@ -332,11 +332,11 @@ passe avec `bankPair()`.
 
 ### Implementation for User Story 4
 
-- [ ] T046 [US4] Vérifier et compléter `src/core/score/score.ts` et
+- [X] T046 [US4] Vérifier et compléter `src/core/score/score.ts` et
   `src/core/codec/decode.ts` pour que les tests T044 et T045 passent sans aucune lecture de
   données « courantes » : la seule source est la `BankVersion` passée en argument (FR-037 →
   FR-041) ; ajouter un en-tête de commentaire citant FR-039 et FR-040 dans les deux fichiers
-- [ ] T047 [US4] Documenter dans `src/core/README.md` le flux de rejeu d'un ancien lien
+- [X] T047 [US4] Documenter dans `src/core/README.md` le flux de rejeu d'un ancien lien
   (extrait de [contracts/core-api.md](contracts/core-api.md) : `decodeHeader` → chargement de
   la version → `bankFromDataset` → `decodeFragment` → `selectQuestions` → `scoreCandidates`)
   à l'intention des fonctionnalités 004 et 005
@@ -347,22 +347,22 @@ passe avec `bankPair()`.
 
 ## Phase 7: Polish & Cross-Cutting Concerns
 
-- [ ] T048 [P] Compléter `src/core/index.ts` avec tous les réexports publics listés dans
+- [X] T048 [P] Compléter `src/core/index.ts` avec tous les réexports publics listés dans
   [contracts/core-api.md](contracts/core-api.md) et vérifier qu'aucun symbole de `fixtures.ts`
   ni d'`examples.ts` de test n'est réexporté par accident (les `EXAMPLE_*` et `FRAGMENT_*`
   le sont volontairement, SC-001)
-- [ ] T049 [P] Écrire `src/core/contract.test.ts` : test de contrat qui importe `@/core` et
+- [X] T049 [P] Écrire `src/core/contract.test.ts` : test de contrat qui importe `@/core` et
   vérifie l'existence et le type (via `expectTypeOf` de Vitest) des exports de
   [contracts/core-api.md](contracts/core-api.md) : `selectQuestions`, `scoreCandidates`,
   `encodeFragment`, `decodeHeader`, `decodeFragment`, `bankFromDataset`, `TARGET_COUNT`,
   `EXAMPLE_A`, `FRAGMENT_FULL_EXAMPLE`
-- [ ] T050 [P] Relire chaque module de `src/core/{bank,selection,score,codec}` pour vérifier :
+- [X] T050 [P] Relire chaque module de `src/core/{bank,selection,score,codec}` pour vérifier :
   aucune chaîne destinée à l'utilisateur, aucun `Date`, `Math.random`, `fetch`, `console` ;
   en-têtes citant les FR ; `readonly` sur les types publics
-- [ ] T051 Exécuter `pnpm verify` (lint, typecheck, data:validate, tests, Storybook, build,
+- [X] T051 Exécuter `pnpm verify` (lint, typecheck, data:validate, tests, Storybook, build,
   e2e) et corriger tout échec ; noter dans `specs/003-domaine-score-selection-codec/quickstart.md`
   les durées mesurées de SC-004 et SC-008 sur la machine de développement
-- [ ] T052 Exécuter `/speckit-analyze` (cohérence spec / plan / tasks) puis ouvrir la pull
+- [X] T052 Exécuter `/speckit-analyze` (cohérence spec / plan / tasks) puis ouvrir la pull
   request `003-domaine-score-selection-codec → main` en citant la fonctionnalité et la
   conformité aux principes I à VII
 
