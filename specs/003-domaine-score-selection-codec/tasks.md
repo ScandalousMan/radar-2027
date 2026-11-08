@@ -82,7 +82,8 @@ fictives, dont dépendent toutes les stories.
   donne 2 thèmes indexés 0 et 1, `questionById`, `themeIndexById`, positions alignées ;
   `BankError` pour un jeu à 25 thèmes (`too-many-themes`), un thème dupliqué, une question
   référençant un thème inconnu, des positions désalignées ; `normalizePriorities` trie en ordre
-  canonique, dédoublonne, refuse 2 ou 6 sujets et un identifiant inconnu (`bad-priorities`)
+  canonique, refuse 2 ou 6 sujets, un doublon et un identifiant inconnu (`bad-priorities`,
+  conformément à [contracts/core-api.md](contracts/core-api.md))
 - [X] T008 [P] Écrire `src/core/bank/bank.ts` : types `BankTheme`, `BankQuestion`,
   `BankCandidate`, `BankVersion`, classe `BankError`, `bankFromDataset(ds: MainDataset)` (lit
   `ds.themes` en ordre canonique, construit `themeIndices` depuis `q.themes`, `positions` en
@@ -258,7 +259,8 @@ fragments de référence, vérifie SC-002 (10 000 états), SC-003 (mutations) et
   `0xC3` et `0x9E` ; propriété : changer un octet change le CRC dans ≥ 99 % des cas
 - [X] T035 [P] [US3] Écrire `src/core/codec/base64url.test.ts` : encodage sans `=` des octets
   de référence, décodage inverse, rejet de `=`, de `+`, `/`, espace, et d'une chaîne dont les
-  bits de queue sont non nuls (`AB` décode `0x00` mais `AC` est refusé) ; propriété
+  bits de queue sont non nuls (`AA` décode `0x00`, `AQ` décode `0x01`, mais `AB` et `AC`
+  sont refusés) ; propriété
   `decode(encode(b)) = b` et `encode(decode(s)) = s` pour toute chaîne valide
 - [X] T036 [P] [US3] Écrire `src/core/codec/codec.test.ts` : fixtures caractère par caractère
   et octets (`00 00 84 02 00 C5 80 00 … C3` ; `00 01 85 12 00 C5 80 … 9E`) ; SC-007 (59 et 22
@@ -267,7 +269,8 @@ fragments de référence, vérifie SC-002 (10 000 états), SC-003 (mutations) et
   `bankPair()`) : `decodeFragment(encodeFragment(s)) = { ok: true, value: s }` et
   `encodeFragment(decodeFragment(c).value) = c` ; SC-003 : pour chaque position du fragment
   complet, substitution par chacun des 64 caractères, insertion, suppression → `ok: false`
-  avec motif ∈ {`invalid-length`, `invalid-content`, `invalid-checksum`} ; 1 000 charges
+  avec motif ∈ {`invalid-length`, `invalid-content`, `invalid-checksum`}, ou
+  `unknown-bank-version` si l'altération modifie l'octet de version ; 1 000 charges
   aléatoires de 44 octets → ≥ 99 % rejetées ; scénario 6 (masque à 2 et 6 bits, code 7,
   bourrage non nul, bits réservés → `invalid-content`) ; scénario 7 (`2.`, sans point →
   `unsupported-link-version`) ; `#` optionnel accepté ; `expectedPayloadLength(100) = 44`,

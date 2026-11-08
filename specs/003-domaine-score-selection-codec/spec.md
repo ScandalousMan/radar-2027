@@ -158,8 +158,9 @@ l'état d'origine, puis en altérant des caractères et en vérifiant le rejet.
    la chaîne obtenue est identique caractère pour caractère à la chaîne de départ.
 5. **Given** le fragment du scénario 1 dont un caractère quelconque a été remplacé, inséré ou
    supprimé, **When** il est décodé, **Then** le décodage est refusé avec un motif explicite
-   (longueur incorrecte, contenu invalide ou somme de contrôle invalide) et aucun état partiel
-   n'est produit.
+   (longueur incorrecte, contenu invalide ou somme de contrôle invalide ; « version de banque
+   inconnue » lorsque l'altération modifie l'octet de version, contrôlé avant la somme de
+   contrôle selon l'ordre de FR-033) et aucun état partiel n'est produit.
 6. **Given** un fragment dont le masque de sujets compte 2 bits (ou 6 bits), ou dont une réponse
    porte le code 7, ou dont les bits de bourrage ne sont pas nuls, **When** il est décodé,
    **Then** le décodage est refusé avec le motif « contenu invalide ».
