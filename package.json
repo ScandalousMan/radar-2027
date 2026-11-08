@@ -20,7 +20,7 @@
     "storybook:build": "storybook build",
     "data:validate": "tsx scripts/data/validate.ts",
     "data:source": "tsx scripts/data/source.ts",
-    "data:extract": "tsx scripts/data/extract.ts",
+    "data:extract": "tsx --env-file-if-exists=.env.local scripts/data/extract.ts",
     "data:affirmation": "tsx scripts/data/affirmation.ts",
     "data:review": "tsx scripts/data/review.ts",
     "data:publish": "tsx scripts/data/publish.ts",

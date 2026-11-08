@@ -62,3 +62,29 @@ Détail des options et des codes de sortie :
 
 Toutes acceptent les chemins par défaut du dépôt ; `pnpm data:validate --corpus <dossier>`
 accepte aussi un dossier de fixture (`corpus/`, `cache/`, `published/`).
+
+## Extraction assistée
+
+L'extraction propose des affirmations ; elle ne crée jamais de position relue.
+
+1. **Prérequis** : la source est enregistrée (`pnpm data:source fetch`) et son texte est dans le
+   cache local ; la banque contient au moins une question active ; `ANTHROPIC_API_KEY` est
+   définie dans `.env.local` ou l'environnement (jamais commitée, jamais journalisée).
+2. **Estimer d'abord** : `pnpm data:extract --candidate <id> --dry-run` affiche les tranches,
+   les jetons estimés et le coût maximal, sans clé ni appel réseau.
+3. **Lancer sous plafond** : `pnpm data:extract --candidate <id> --max-cost 2`. Avant chaque
+   requête, si le coût cumulé plus l'estimation dépasse le plafond, l'exécution s'arrête
+   proprement (`interrupted`). Le modèle par défaut est `claude-opus-5-5`
+   (`RADAR_EXTRACTION_MODEL` ou `--model` pour en changer).
+4. **Trier** : `pnpm data:affirmation list --candidate <id> --state verifiable`, puis
+   `accept <id> --by <contributeur>` (crée une position `draft`) ou
+   `reject <id> --by <contributeur> --reason …`. Une affirmation dont la citation est introuvable
+   dans la source (`unverifiable`) ne peut pas être acceptée.
+5. **Relire** : la position créée doit être relue par une autre personne
+   (`pnpm data:review`) avant toute publication.
+
+Les relances sont idempotentes : une affirmation déjà connue (même source, même emplacement,
+même question) n'est ni dupliquée ni modifiée. Le modèle n'étant pas déterministe, une relance
+peut toutefois proposer de nouvelles citations ; le journal le montre. Chaque exécution est
+journalisée dans `extractions/runs/` (modèle, consignes, banque, sources, effectifs, coût) et
+le cumul se consulte avec `pnpm data:costs`.
