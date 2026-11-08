@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « societe » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: societe-aide-active-a-mourir
@@ -9,28 +9,28 @@
     - sante
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: societe-gpa-interdite
   text: La gestation pour autrui doit rester interdite en France.
   themes:
     - societe
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: societe-cannabis-legalisation
   text: La consommation de cannabis par les adultes doit être légalisée et encadrée.
   themes:
     - societe
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: societe-signes-religieux-sorties-scolaires
   text: Le port de signes religieux doit être interdit aux accompagnateurs de sorties scolaires.
   themes:
     - societe
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: societe-conge-second-parent
   text: Le congé de naissance du second parent doit avoir la même durée que celui de la mère.
   themes:
@@ -38,11 +38,11 @@
     - travail
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: societe-service-national-obligatoire
   text: Le service national doit devenir obligatoire pour tous les jeunes.
   themes:
     - societe
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude

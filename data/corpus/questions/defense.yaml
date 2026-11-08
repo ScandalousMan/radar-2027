@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « defense » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: defense-budget-armees-3-pib
@@ -8,7 +8,7 @@
     - defense
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: defense-reduire-presence-etranger
   text: La France doit réduire sa présence militaire à l'étranger.
   themes:
@@ -16,7 +16,7 @@
     - international
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: defense-armes-ukraine
   text: La France doit livrer davantage d'armes à l'Ukraine.
   themes:
@@ -24,25 +24,25 @@
     - international
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: defense-renoncer-modernisation-dissuasion
   text: La France doit renoncer à moderniser sa dissuasion nucléaire.
   themes:
     - defense
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: defense-defense-europeenne-emprunt
   text: Une défense européenne commune doit être financée par un emprunt de l'Union européenne.
   themes:
     - defense
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: defense-controle-exportations-armes
   text: Les exportations d'armes françaises doivent être soumises à un contrôle parlementaire préalable.
   themes:
     - defense
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude

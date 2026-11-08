@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « securite » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: securite-reconnaissance-faciale-police
@@ -9,39 +9,39 @@
     - numerique
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: securite-recepisse-controles-identite
   text: Les contrôles d'identité doivent donner lieu à la remise d'un récépissé.
   themes:
     - securite
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: securite-hausse-effectifs-police
   text: Les effectifs de police et de gendarmerie doivent augmenter d'au moins 10 % sur le quinquennat.
   themes:
     - securite
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: securite-interdire-lbd-manifestations
   text: L'usage des lanceurs de balles de défense doit être interdit lors des manifestations.
   themes:
     - securite
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: securite-pouvoirs-polices-municipales
   text: Les polices municipales doivent recevoir les mêmes pouvoirs d'enquête que la police nationale.
   themes:
     - securite
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: securite-budget-vers-prevention
   text: Une partie du budget des forces de l'ordre doit être réorientée vers la prévention de la délinquance.
   themes:
     - securite
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude

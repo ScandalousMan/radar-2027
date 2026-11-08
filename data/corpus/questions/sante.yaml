@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « sante » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: sante-regulation-installation-medecins
@@ -8,28 +8,28 @@
     - sante
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: sante-depassements-honoraires-libres
   text: Les médecins doivent rester libres de pratiquer des dépassements d'honoraires.
   themes:
     - sante
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: sante-budget-hopital-inflation
   text: Le budget de l'hôpital public doit augmenter plus vite que l'inflation chaque année.
   themes:
     - sante
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: sante-hausse-franchises-medicales
   text: Les franchises médicales payées par les patients doivent être augmentées.
   themes:
     - sante
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: sante-production-publique-medicaments
   text: Les médicaments essentiels doivent être produits par un établissement public lorsque l'offre privée fait défaut.
   themes:
@@ -37,11 +37,11 @@
     - economie
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: sante-mutuelles-part-accrue
   text: Les mutuelles doivent prendre en charge une part plus importante des dépenses de santé, à la place de l'Assurance maladie.
   themes:
     - sante
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude

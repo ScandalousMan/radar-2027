@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « international » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: international-majorite-qualifiee-ue
@@ -8,7 +8,7 @@
     - international
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: international-primaute-loi-nationale
   text: La France doit pouvoir appliquer sa loi nationale lorsqu'elle entre en conflit avec une règle européenne.
   themes:
@@ -16,14 +16,14 @@
     - institutions
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: international-aide-developpement-0-7
   text: L'aide publique au développement doit atteindre 0,7 % du revenu national brut.
   themes:
     - international
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: international-quitter-commandement-otan
   text: La France doit quitter le commandement intégré de l'OTAN.
   themes:
@@ -31,18 +31,18 @@
     - defense
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: international-emprunt-commun-ue
   text: L'Union européenne doit pouvoir emprunter en commun pour financer des investissements.
   themes:
     - international
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: international-reduire-contribution-ue
   text: La contribution de la France au budget de l'Union européenne doit être réduite.
   themes:
     - international
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude

@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « immigration » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: immigration-asile-droit-travail
@@ -8,14 +8,14 @@
     - immigration
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: immigration-regroupement-familial-ressources
   text: Le regroupement familial doit être soumis à des conditions de ressources plus strictes.
   themes:
     - immigration
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: immigration-regularisation-metiers-tension
   text: Les travailleurs sans titre de séjour employés dans des métiers en tension doivent pouvoir être régularisés.
   themes:
@@ -23,14 +23,14 @@
     - travail
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: immigration-supprimer-droit-du-sol
   text: Le droit du sol doit être supprimé pour l'acquisition de la nationalité française.
   themes:
     - immigration
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: immigration-vote-local-etrangers
   text: Les étrangers non européens résidant en France depuis plusieurs années doivent pouvoir voter aux élections locales.
   themes:
@@ -38,7 +38,7 @@
     - democratie
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: immigration-ame-soins-urgents
   text: L'aide médicale d'État doit être limitée aux soins urgents.
   themes:
@@ -46,4 +46,4 @@
     - sante
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude

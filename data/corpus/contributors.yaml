@@ -1,9 +1,13 @@
 # Contributeurs du corpus (R13) : identifiants courts référencés par `author` et `reviewer`.
 # Ce fichier n'entre jamais dans un jeu publié (FR-037) ; aucune donnée personnelle au-delà
 # du compte GitHub.
+#
+# `claude` désigne la rédaction assistée par IA (agent Claude Code opéré depuis le compte du
+# propriétaire) : tout ce qu'il rédige reste en brouillon tant qu'une personne humaine distincte
+# ne l'a pas relu (FR-010, FR-018, FR-041). `adrien` est le relecteur humain.
 
 - id: adrien
   github: ScandalousMan
-- id: relecteur-1
-  # Compte GitHub du relecteur à compléter par le propriétaire (T093).
-  github: a-completer
+- id: claude
+  github: ScandalousMan
+  displayName: Claude (rédaction assistée par IA, à relire par un humain)

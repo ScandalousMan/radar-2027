@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « economie » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: economie-participations-etat-industrie
@@ -8,14 +8,14 @@
     - economie
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: economie-alleger-regles-entreprises
   text: Les règles encadrant la création et la gestion des entreprises doivent être allégées.
   themes:
     - economie
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: economie-prix-energie-reglementes
   text: Les prix de l'énergie pour les ménages doivent être réglementés par l'État.
   themes:
@@ -23,14 +23,14 @@
     - environnement
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: economie-baisse-depense-publique
   text: La dépense publique doit baisser en proportion du PIB au cours du prochain quinquennat.
   themes:
     - economie
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: economie-aides-conditionnees-emploi
   text: Les aides publiques aux entreprises doivent être conditionnées au maintien de l'emploi en France.
   themes:
@@ -38,11 +38,11 @@
     - travail
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: economie-ouverture-dimanche-libre
   text: L'ouverture des commerces le dimanche doit être libre.
   themes:
     - economie
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude

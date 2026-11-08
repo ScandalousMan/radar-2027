@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « justice » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: justice-peines-minimales-recidive
@@ -8,35 +8,35 @@
     - justice
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: justice-courtes-peines-alternatives
   text: Les peines de prison de moins d'un an doivent être remplacées par des peines alternatives.
   themes:
     - justice
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: justice-majorite-penale-16-ans
   text: La majorité pénale doit être abaissée à 16 ans.
   themes:
     - justice
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: justice-arret-construction-prisons
   text: La construction de nouvelles places de prison doit être arrêtée.
   themes:
     - justice
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: justice-supprimer-reductions-automatiques
   text: Les réductions automatiques de peine doivent être supprimées.
   themes:
     - justice
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: justice-accompagnement-emploi-detenus
   text: Les détenus doivent bénéficier d'un accompagnement vers l'emploi pendant toute leur détention.
   themes:
@@ -44,4 +44,4 @@
     - travail
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude

@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « travail » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: travail-retraite-62-ans
@@ -8,14 +8,14 @@
     - travail
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: travail-durcir-indemnisation-chomage
   text: Les règles d'indemnisation du chômage doivent être durcies.
   themes:
     - travail
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: travail-smic-au-dela-inflation
   text: Le SMIC doit être augmenté au-delà de l'inflation.
   themes:
@@ -23,25 +23,25 @@
     - economie
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: travail-duree-travail-accord-entreprise
   text: La durée légale du travail doit pouvoir être fixée par accord d'entreprise au-delà de 35 heures.
   themes:
     - travail
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: travail-limiter-licenciements-beneficiaires
   text: Les entreprises bénéficiaires doivent être limitées dans leur recours aux licenciements économiques.
   themes:
     - travail
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: travail-plafond-prudhommes-maintenu
   text: Le plafond des indemnités prud'homales en cas de licenciement abusif doit être maintenu.
   themes:
     - travail
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
