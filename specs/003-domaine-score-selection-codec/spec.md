@@ -142,8 +142,8 @@ l'état d'origine, puis en altérant des caractères et en vérifiant le rejet.
 
 **Acceptance Scenarios**:
 
-1. **Given** un état complet (version de banque d'indice 0, mode complet, sujets d'indices
-   canoniques 2, 7 et 9, réponses : première question `+2`, deuxième « passée », troisième `−1`,
+1. **Given** un état complet (version de banque numéro 1, codée 0, mode complet, sujets
+   d'indices canoniques 2, 7 et 9, réponses : première question `+2`, deuxième « passée », troisième `−1`,
    les 97 autres « non répondues »), **When** il est encodé, **Then** le fragment est
    `#1.AACEAgDFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMM` : préfixe `1.` puis
    59 caractères représentant 44 octets, dont les 8 premiers valent (en hexadécimal)
@@ -185,22 +185,23 @@ identiques à ceux obtenus avec la première version seule.
 
 **Acceptance Scenarios**:
 
-1. **Given** une banque publiée en deux versions (indices 0 et 1), **When** un nouveau résultat
-   est encodé, **Then** l'octet de version vaut 1 (la dernière version connue).
-2. **Given** un lien dont l'octet de version vaut 0 alors que la version courante est 1,
-   **When** il est décodé, **Then** la sélection est reconstruite avec les thèmes, questions et
-   pouvoirs discriminants figés de la version 0, et chaque réponse est associée à la même
-   question qu'au moment du partage.
+1. **Given** une banque publiée en deux versions (numéros 1 et 2), **When** un nouveau résultat
+   est encodé, **Then** l'octet de version vaut 1 (numéro 2 moins un : la dernière version
+   connue).
+2. **Given** un lien dont l'octet de version vaut 0 (version numéro 1) alors que la version
+   courante est la 2, **When** il est décodé, **Then** la sélection est reconstruite avec les
+   thèmes, questions et pouvoirs discriminants figés de la version 1, et chaque réponse est
+   associée à la même question qu'au moment du partage.
 3. **Given** ce même lien, où la position d'un candidat sur la question q17 et la liste des
-   candidats inclus ont changé entre la version 0 et la version 1, **When** le score est calculé,
-   **Then** les positions et la liste de candidats utilisées sont celles figées dans la version 0,
+   candidats inclus ont changé entre la version 1 et la version 2, **When** le score est calculé,
+   **Then** les positions et la liste de candidats utilisées sont celles figées dans la version 1,
    les scores, rangs et bandes sont identiques à ceux affichés le jour du partage, et le résultat
    signale qu'il repose sur une version antérieure de la banque (avec la date de publication de
    cette version).
 4. **Given** une version de banque publiée, **When** l'énoncé d'une de ses questions doit être
    modifié, **Then** la version existante reste inchangée et une nouvelle version est créée.
-5. **Given** un lien dont l'octet de version vaut 3 alors que seules les versions 0 à 1 sont
-   connues, **When** il est décodé, **Then** le décodage est refusé avec le motif « version de
+5. **Given** un lien dont l'octet de version vaut 3 (version numéro 4) alors que seules les
+   versions 1 et 2 sont publiées, **When** il est décodé, **Then** le décodage est refusé avec le motif « version de
    banque inconnue (lien créé par une version plus récente de l'application) ».
 
 ---
@@ -260,7 +261,9 @@ identiques à ceux obtenus avec la première version seule.
 - **FR-007**: Le système DOIT calculer la couverture d'un candidat comme le quotient du nombre
   de questions répondues (valeur numérique) dont la position du candidat est connue par le
   nombre total de questions répondues (valeur numérique) ; la couverture est indéfinie si le
-  dénominateur est nul.
+  dénominateur est nul. Cette couverture « par répondant » est distincte de la couverture de
+  corpus (part des questions actives à position connue) calculée et publiée par la spec 002,
+  qui n'intervient pas dans le score.
 - **FR-008**: Le système DOIT attribuer le statut « données insuffisantes » à tout candidat dont
   la couverture est indéfinie ou strictement inférieure à 60 %, ou dont `P` est indéfini. Un tel
   candidat n'a pas de rang ni de score global, est restitué à part, mais ses scores de thème
@@ -305,7 +308,8 @@ identiques à ceux obtenus avec la première version seule.
   DOIT contenir exactement `N` questions distinctes dès lors que la banque en compte au moins
   `N`, et toutes les questions de la banque sinon.
 - **FR-020**: Le système DOIT utiliser le pouvoir discriminant `D_q` fourni par la version de
-  banque (valeur précalculée, spec 002) sans le recalculer.
+  banque (valeur précalculée par la spec 002, nombre réel compris entre 0 et 2) sans le
+  recalculer.
 - **FR-021**: Le système DOIT calculer un quota par thème ainsi : part exacte
   `e_t = N · w_t / Σ w` avec `Σ w = 3 · |P| + (T − |P|)` ; quota initial
   `q_t = max(plancher, partie entière de e_t)` avec un plancher de 3 en mode complet et 1 en mode
@@ -344,8 +348,9 @@ identiques à ceux obtenus avec la première version seule.
   répondue ») dans le **fragment** de l'URL, sous la forme `#1.<charge>`, où `1` est la version
   du format de lien, écrite en clair, et `<charge>` est la charge binaire encodée en base64url
   **sans bourrage** `=`.
-- **FR-029**: La charge binaire DOIT être composée, dans cet ordre : (1) 1 octet : indice de la
-  version de banque dans la liste ordonnée des versions publiées (0 = première version) ;
+- **FR-029**: La charge binaire DOIT être composée, dans cet ordre : (1) 1 octet : numéro de la
+  version de banque **moins un** (les numéros publiés sont contigus à partir de 1, spec 002 ;
+  la première version, numéro 1, est donc codée 0) ;
   (2) 1 octet de drapeaux : bit de poids faible = mode (0 complet, 1 court), les 7 autres bits
   réservés et nuls ; (3) 3 octets : masque des sujets prioritaires, le premier octet portant les
   thèmes d'indices canoniques 0 à 7 (bit de poids faible = indice 0), le deuxième les indices 8
@@ -361,7 +366,7 @@ identiques à ceux obtenus avec la première version seule.
   16 octets (22 caractères) en mode court à 25 questions.
 - **FR-033**: Le décodeur DOIT, dans cet ordre : vérifier le préfixe `1.` ; vérifier que la
   charge ne contient que des caractères base64url, sans bourrage, et que les bits inutilisés du
-  dernier caractère sont nuls ; vérifier que l'indice de version désigne une version connue ;
+  dernier caractère sont nuls ; vérifier que l'octet de version, augmenté de un, désigne un numéro de version publié ;
   vérifier que les bits réservés sont nuls ; vérifier que le masque ne désigne que des thèmes
   existants dans cette version et compte 3 à 5 bits ; recalculer la sélection à partir de
   (version, mode, sujets) ; vérifier la longueur exacte attendue (FR-032) ; vérifier la somme de
@@ -403,8 +408,9 @@ identiques à ceux obtenus avec la première version seule.
 
 ### Key Entities
 
-- **Version de banque** : instantané immuable publié de la banque de questions ; identifié par
-  son indice dans la liste ordonnée des versions ; contient la liste ordonnée des thèmes (ordre
+- **Version de banque** : instantané immuable publié de la banque de questions ; identifiée par
+  son numéro (entier contigu à partir de 1, registre de la spec 002), codé dans le lien comme
+  numéro moins un ; contient la liste ordonnée des thèmes (ordre
   canonique), les questions (identifiant, énoncé, 1 ou 2 thèmes, `D_q`), les candidats inclus,
   la position de chaque candidat sur chaque question et une date de publication.
 - **Thème** : sujet de l'ontologie (16 actuellement), identifié par un identifiant stable et un
@@ -451,9 +457,10 @@ identiques à ceux obtenus avec la première version seule.
   même thème d'ancrage tant qu'au moins deux thèmes ont encore des questions à présenter.
 - **SC-007**: Les fragments produits font exactement 59 caractères après `1.` en mode complet et
   22 en mode court, pour toute combinaison de sujets et de réponses.
-- **SC-008**: Le calcul complet du classement (22 candidats, 100 questions, 16 thèmes) et le
+- **SC-008**: Le calcul complet du classement (au moins 22 candidats, 100 questions, 16 thèmes ;
+  18 candidats sont déclarés au 2026-11-08) et le
   décodage d'un lien s'achèvent chacun en moins de 100 ms sur un téléphone d'entrée de gamme.
-- **SC-009**: Un lien émis avec la version de banque 0, décodé après publication de la version 1
+- **SC-009**: Un lien émis avec la version de banque 1, décodé après publication de la version 2
   (questions, candidats et positions modifiés), reproduit à l'identique les scores, rangs, bandes
   et couvertures obtenus au moment de son émission, dans 100 % des cas de test.
 
@@ -467,7 +474,10 @@ identiques à ceux obtenus avec la première version seule.
   moment de la sélection.
 - La banque cible compte 250 à 300 questions, soit au moins `N` questions par mode ; le cas
   d'une banque plus petite que `N` est géré (liste plus courte, longueur de charge adaptée) mais
-  n'est pas un cas nominal.
+  n'est pas un cas nominal. Au 2026-11-08, le corpus compte 96 énoncés (6 par thème) et aucune
+  version n'est encore publiée : tant que la banque reste sous 100 questions, le mode complet
+  retient toutes les questions et la charge est plus courte que 44 octets (FR-019, FR-032) ;
+  SC-004 et SC-007 se vérifient sur une banque de test d'au moins `N` questions.
 - Le pouvoir discriminant `D_q` est précalculé par la spec 002 et figé dans la version de
   banque ; sa formule n'appartient pas à cette spécification.
 - Le départage à égalité de `D_q` ou d'identifiants se fait par ordre lexicographique des
@@ -482,8 +492,9 @@ identiques à ceux obtenus avec la première version seule.
 - Une réponse « non répondue » représente un questionnaire interrompu ou partiellement partagé ;
   elle est traitée exactement comme « passée » dans le calcul mais reste distinguée dans l'état
   pour l'affichage et la reprise.
-- La liste des versions de banque publiées est disponible dans le site (données de la spec 002) ;
-  l'indice tient sur un octet, soit 256 versions au plus. Chaque publication de positions créant
+- La liste des versions de banque publiées (registre de la spec 002 : numéro, date, effectifs)
+  est disponible dans le site ; le numéro moins un tient sur un octet, soit 256 versions au
+  plus, limite reprise par la spec 002 (FR-040). Chaque publication de positions créant
   une version, le rythme de publication doit rester compatible avec cette limite (par exemple au
   plus une version par semaine jusqu'au scrutin) ; seules les données de la version courante sont
   chargées par défaut, celles des versions antérieures à la demande.
@@ -492,10 +503,53 @@ identiques à ceux obtenus avec la première version seule.
   déjà filtrées par la spec 002.
 - Les bits réservés de l'octet de drapeaux permettront d'ajouter des indicateurs sans changer la
   version du format de lien ; tant qu'ils ne sont pas définis, une valeur non nulle est refusée.
-- Cette spécification ne couvre ni la présentation des résultats (spec 005), ni le déroulé du
-  questionnaire (spec 004), ni la production des données (spec 002) : elle fournit uniquement
-  les règles et leurs résultats structurés.
-- Conformité à la constitution : principe II (état complet dans le fragment, bijection, aucun
-  envoi serveur), principe III (règles pures et déterministes, propriétés énoncées dans les
-  SC-002 à SC-006, exemples chiffrés servant de fixtures) et principe I (positions inconnues
-  exclues) sont satisfaits par les exigences ci-dessus.
+- Les « règles d'interprétation » des positions publiées sont celles de la spec 002 : une case
+  vide signifie « inconnue », une case renseignée porte la valeur et le niveau de preuve.
+
+## Scope Boundaries
+
+**Dans le périmètre** : formules de score (concordance, scores de thème, `P`, `W`, couverture,
+plafond, bandes, classement) ; sélection déterministe des questions (quotas, remplissage,
+ordre de présentation) ; codec fragment d'URL ↔ état (format, somme de contrôle, motifs de
+rejet, bijection) ; règles d'immuabilité et de rejeu des versions de banque ; exemples
+chiffrés servant de référence à la page Méthodologie.
+
+**Hors périmètre** : production, validation et publication des données, calcul de `D_q` et de
+la couverture de corpus (002) ; déroulé du questionnaire, reprise de session et choix des
+sujets (004) ; page de résultats, fiches candidats, affichage des motifs de rejet et bouton de
+partage (005) ; rendu de la page Méthodologie (002 pour les données, 005 pour les formules).
+
+## Dependencies
+
+- Fonctionnalité 002 : jeu de données principal d'une version (thèmes en ordre canonique,
+  questions avec thèmes et `D_q`, candidats inclus, positions connues ou inconnues avec niveau
+  de preuve) et registre des versions publiées (numéros contigus à partir de 1, dates). Aucune
+  version n'est publiée au 2026-11-08 ; les tests de cette fonctionnalité reposent sur des
+  banques fictives.
+- Fonctionnalité 001 : module de domaine existant, sa frontière de lint et son outillage de
+  tests unitaires et de propriétés.
+
+## Constitution Check
+
+- **I. Neutralité et traçabilité** : FR-002 et FR-015 (positions inconnues exclues, niveau de
+  preuve sans pondération) ; cette fonctionnalité ne reçoit que des positions déjà filtrées
+  par la spec 002 et n'en produit aucune.
+- **II. Vie privée** : FR-028 (état complet dans le fragment, jamais dans la query string),
+  FR-035 (bijection), FR-017 et FR-027 (aucun accès réseau : tout calcul se fait sur
+  l'appareil).
+- **III. Cœur métier pur** : FR-017, FR-027 et FR-035 (règles pures et déterministes) ; SC-001 à
+  SC-006 et SC-009 énoncent les propriétés à tester et les exemples A, B et les fragments
+  d'exemple servent de fixtures ; SC-001 impose que la page Méthodologie reprenne les formules
+  du code.
+- **IV. Design system d'abord** : sans objet, cette fonctionnalité ne comporte aucune
+  interface ; ses résultats structurés (FR-016, FR-034) sont conçus pour être rendus par les
+  composants des spécifications 004 et 005.
+- **V. Tests comme contrat** : les propriétés SC-002 à SC-006 sont vérifiées par des tests
+  unitaires et de propriétés exécutés en intégration continue ; les parcours de bout en bout
+  relèvent des spécifications 004 et 005.
+- **VI. Internationalisation** : FR-034 livre des motifs de rejet typés, pas des textes ; les
+  libellés (motifs, bandes, « autres thèmes », « — ») sont traduits par les fonctionnalités
+  d'interface.
+- **VII. Simplicité, statique et sobriété** : aucun service serveur ; les données d'une version
+  antérieure ne sont chargées que lorsqu'un lien la référence (FR-040) ; un seul projet
+  d'application.
