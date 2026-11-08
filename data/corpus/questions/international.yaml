@@ -46,3 +46,88 @@
   polarity: "-"
   status: draft
   author: claude
+- id: international-adhesion-ukraine-ue
+  text: L'Ukraine doit pouvoir adhérer à l'Union européenne.
+  themes:
+    - international
+  polarity: +
+  status: draft
+  author: claude
+- id: international-listes-transnationales
+  text: Une partie des députés européens doit être élue sur des listes transnationales.
+  themes:
+    - international
+    - democratie
+  polarity: +
+  status: draft
+  author: claude
+- id: international-impots-propres-ue
+  text: L'Union européenne doit disposer de nouveaux impôts qui lui sont propres.
+  themes:
+    - international
+    - fiscalite
+  polarity: +
+  status: draft
+  author: claude
+- id: international-casques-bleus
+  text: La France doit augmenter sa participation aux missions de maintien de la paix de l'ONU.
+  themes:
+    - international
+    - defense
+  polarity: +
+  status: draft
+  author: claude
+- id: international-initiative-parlement-europeen
+  text: Le Parlement européen doit obtenir le droit d'initiative législative.
+  themes:
+    - international
+    - institutions
+  polarity: +
+  status: draft
+  author: claude
+- id: international-referendum-traites-europeens
+  text: Tout nouveau traité européen doit être soumis à référendum en France.
+  themes:
+    - international
+    - democratie
+  polarity: "-"
+  status: draft
+  author: claude
+- id: international-quitter-ue
+  text: La France doit quitter l'Union européenne.
+  themes:
+    - international
+  polarity: "-"
+  status: draft
+  author: claude
+- id: international-quitter-euro
+  text: La France doit quitter la zone euro.
+  themes:
+    - international
+    - economie
+  polarity: "-"
+  status: draft
+  author: claude
+- id: international-controles-frontieres-schengen
+  text: La France doit rétablir durablement des contrôles à toutes ses frontières intérieures de l'espace Schengen.
+  themes:
+    - international
+    - immigration
+  polarity: "-"
+  status: draft
+  author: claude
+- id: international-lever-sanctions-russie
+  text: Les sanctions de l'Union européenne contre la Russie doivent être levées.
+  themes:
+    - international
+  polarity: "-"
+  status: draft
+  author: claude
+- id: international-quitter-cedh
+  text: La France doit se retirer de la Convention européenne des droits de l'homme.
+  themes:
+    - international
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
