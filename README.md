@@ -28,8 +28,10 @@ Les versions exactes sont épinglées dans [`package.json`](package.json) et jus
 [`specs/001-socle-design-system/research.md`](specs/001-socle-design-system/research.md).
 
 Structure : `src/app` (pages Next), `src/ui` (composants, stories, tokens), `src/core`
-(domaine, vide jusqu'à la fonctionnalité 003, protégé par le lint), `src/i18n` (messages),
-`src/lib` (utilitaires sans effet de bord), `e2e` (Playwright), `.storybook`.
+(domaine pur protégé par le lint ; premier module : `dataset`, contrat du jeu publié),
+`src/i18n` (messages), `src/lib` (utilitaires), `e2e` (Playwright), `.storybook`,
+`scripts/data` (outillage du corpus, hors bundle), `data/` (corpus relu), `public/data`
+(jeux publiés).
 
 ## Méthode : Spec-Driven Development avec Spec Kit
 
@@ -49,13 +51,13 @@ Le dossier de la fonctionnalité courante est pointé par `.specify/feature.json
 
 ### Fonctionnalités spécifiées
 
-| # | Dossier | Objet |
-|---|---|---|
-| 001 | `specs/001-socle-design-system` | Socle applicatif, design system, Storybook, tests, déploiement Vercel |
-| 002 | `specs/002-corpus-ontologie-pipeline` | Thèmes, candidats, banque de questions, sources, positions, pipeline d'extraction |
-| 003 | `specs/003-domaine-score-selection-codec` | Moteur de score, sélection déterministe des questions, codec URL |
-| 004 | `specs/004-parcours-questionnaire` | Accueil, choix des sujets clés, mode court/complet, réponses |
-| 005 | `specs/005-resultats-partage` | Classement, détail par thème et par question, partage par URL |
+| # | Dossier | Objet | État |
+|---|---|---|---|
+| 001 | `specs/001-socle-design-system` | Socle applicatif, design system, Storybook, tests, déploiement Vercel | réalisée |
+| 002 | `specs/002-corpus-ontologie-pipeline` | Thèmes, candidats, banque de questions, sources, positions, pipeline d'extraction | outillage réalisé ; campagne éditoriale à mener |
+| 003 | `specs/003-domaine-score-selection-codec` | Moteur de score, sélection déterministe des questions, codec URL | spécifiée |
+| 004 | `specs/004-parcours-questionnaire` | Accueil, choix des sujets clés, mode court/complet, réponses | spécifiée |
+| 005 | `specs/005-resultats-partage` | Classement, détail par thème et par question, partage par URL | spécifiée |
 
 ## Démarrer
 
@@ -101,18 +103,51 @@ production.
 | `pnpm build` | export statique dans `out/` |
 | `pnpm start:static` | sert `out/` localement (port 3000) |
 | `pnpm lint` | ESLint : règles Next, accessibilité, Storybook, interdictions projet |
-| `pnpm typecheck` | `tsc --noEmit` sur l'application, les composants, les stories, les tests et les e2e |
+| `pnpm typecheck` | `tsc --noEmit` sur l'application, les stories, les tests et les e2e, puis sur les scripts de données |
+| `pnpm data:validate` | valide le corpus et écrit le rapport `data/reports/validation.md` (voir « Données et pipeline ») |
 | `pnpm test` | Vitest : tests unitaires, tests de tokens, stories exécutées comme tests d'accessibilité |
 | `pnpm e2e` | Playwright contre `out/` servi automatiquement |
 | `pnpm storybook` | Storybook en développement (<http://localhost:6006>) |
 | `pnpm storybook:build` | build statique de Storybook dans `storybook-static/` |
-| `pnpm verify` | lint → typecheck → test → storybook:build → build → e2e, même ordre que la CI |
+| `pnpm verify` | lint → typecheck → data:validate → test → storybook:build → build → e2e, même ordre que la CI |
+
+## Données et pipeline
+
+La matière première du site (thèmes, candidats, questions, sources, positions) vit dans le
+dépôt et se modifie uniquement par pull request de données, relue par une autre personne que
+son auteur. Détail : [`data/README.md`](data/README.md) et
+[spécification 002](specs/002-corpus-ontologie-pipeline/spec.md).
+
+| Emplacement | Contenu | Versionné |
+|---|---|---|
+| `data/corpus/` | corpus relu, en YAML (source de vérité) | oui |
+| `data/extractions/` | journaux et affirmations de l'extraction assistée, cumul des coûts | oui |
+| `public/data/` | versions publiées, immuables, lues par le site (`versions.json`, `versions/<n>/`) | oui |
+| `.cache/sources/` | texte des sources, identifié par son empreinte SHA-256 | non |
+| `data/reports/` | rapports de validation | non |
+
+| Commande | Rôle |
+|---|---|
+| `pnpm data:validate` | valide tout le corpus (règles codées une à une), couverture et pouvoir discriminant |
+| `pnpm data:source fetch \| check` | enregistre une source (texte en cache, empreinte) ; revérifie le cache et les adresses |
+| `pnpm data:extract` | extraction assistée par l'API Anthropic, sous plafond de coût (clé locale) |
+| `pnpm data:affirmation list \| accept \| reject` | transforme une affirmation extraite en position `draft`, ou la rejette |
+| `pnpm data:review` | relit une position (`draft` → `reviewed`), par une personne distincte de l'auteur |
+| `pnpm data:publish` | construit une nouvelle version immuable sous `public/data/` |
+| `pnpm data:costs` | cumul des coûts d'extraction |
+
+Cycle éditorial : **source** (`data:source fetch`) → **extraction facultative** (`data:extract`)
+→ **affirmation** (`data:affirmation accept`) ou saisie manuelle → **position `draft`** →
+**relecture** (`data:review`) → **publication** (`data:publish --next`). Seules les positions
+relues, sourcées et dont la citation est retrouvée dans la source sont publiées ; tout le reste
+compte comme inconnu. Les règles sont exposées sur la page [`/methodologie`](src/app/methodologie/page.tsx)
+et découlent de la [constitution](.specify/memory/constitution.md).
 
 ## Qualité et CI
 
 Chaque pull request vers `main` et chaque poussée sur `main` déclenchent le workflow
 [`ci.yml`](.github/workflows/ci.yml) : un job unique `ci` enchaîne, dans l'ordre, **lint →
-typecheck → test → storybook:build → build → e2e** (Playwright contre l'export `out/` servi
+typecheck → data:validate → test → storybook:build → build → e2e** (Playwright contre l'export `out/` servi
 localement, une relance automatique en cas d'échec e2e). Le rapport Playwright est publié en
 artefact si une étape échoue. Budget : moins de 10 minutes.
 
@@ -126,7 +161,8 @@ Trois règles de lint propres au projet protègent les principes de la constitut
 
 | Règle | Portée | Principe |
 |---|---|---|
-| `no-restricted-imports` (react, react-dom, next, `@/ui`, `@/app`) | `src/core/**` | III — cœur métier pur |
+| `no-restricted-imports` (react, react-dom, next, `@/ui`, `@/app`, `scripts/`) | `src/core/**` | III — cœur métier pur |
+| `no-restricted-imports` (`src` n'importe jamais `scripts/` ; les scripts n'importent que `src/core`) | `src/**`, `scripts/**` | III, VII — scripts hors du bundle |
 | `no-restricted-syntax` (couleurs `#hex`, `rgb(`, `hsl(`, `oklch(`, valeurs arbitraires `bg-[#…]`, `p-[7px]`) | `src/app/**`, `src/ui/**` | IV — tokens seulement |
 | `react/jsx-no-literals` + attributs textuels (`aria-label`, `title`, `alt`, …) | `src/app/**`, `src/ui/**` | VI — i18n |
 

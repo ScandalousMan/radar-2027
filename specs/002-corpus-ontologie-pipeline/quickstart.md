@@ -22,8 +22,10 @@ pnpm data:validate
 ```
 
 Attendu sur le corpus du dépôt : `0 violation`, rapport dans `data/reports/validation.md`
-listant les 16 thèmes dans l'ordre canonique, les effectifs par thème et par polarité, et un
-avertissement `BANK-SIZE` tant que la banque n'atteint pas 250 énoncés actifs.
+listant les 16 thèmes dans l'ordre canonique, les effectifs par thème et par polarité, et des
+avertissements : `BANK-SIZE` tant que la banque n'atteint pas 250 énoncés actifs,
+`THEME-EMPTY` pour chaque thème encore sans énoncé actif (la première tranche est en
+brouillon), `CACHE-MISSING` sans cache local.
 
 Contre-épreuves (chaque fixture doit faire échouer la commande avec le code indiqué) :
 
@@ -32,7 +34,7 @@ pnpm data:validate --corpus data/fixtures/violations/FR-012
 ```
 
 Attendu : code de sortie 1, violation `FR-012` désignant le thème avec ses effectifs
-(ex. `economie : 7 '+' / 3 '-' (70 % / 30 %), attendu 40–60 %`). Même procédé pour
+(ex. `economie : 7 '+' / 3 '-' (70 % / 30 %), attendu 40 %–60 %`). Même procédé pour
 `REF-EXISTS` (thème inconnu), `FR-008` (trois thèmes), `ID-UNIQUE`, `FR-010` (énoncé actif
 sans relecteur distinct), `FR-011` (texte publié modifié), `FR-004` (candidat sans source de
 statut).
@@ -119,13 +121,27 @@ clics, lien de signalement pointant vers le suivi de tickets.
 Storybook : stories `PositionCard` (valeur −2 à +2, ancienne, plusieurs sources) et
 `CoverageList` (0 %, 60 %, 100 %) sans violation d'accessibilité dans les deux apparences.
 
+**Poids mesuré le 2026-11-08 (T089).** Fixture minimale publiée (3 thèmes, 30 questions,
+2 candidats) : `main.json` 7,7 ko, détails 0,6 à 0,8 ko. À l'échelle cible (300 questions,
+22 candidats), l'estimation de research.md R10 reste d'environ 130 ko pour `main.json`, sous
+le budget de 300 ko, et chaque publication mesure réellement les fichiers (`PUB-BUDGET`, refus
+avant écriture). `zod` n'apparaît dans aucun fragment JavaScript chargé par `out/index.html` ni
+par `out/methodologie.html` : la validation du jeu se fait au build. JavaScript de la page
+d'accueil : 191,7 ko compressés (gzip), sous la limite de 200 ko (SC-011 de la 001).
+
+Sans version publiée, `/methodologie` affiche les règles et un message d'attente, et l'export
+contient une seule page réservée `/methodologie/candidats/_aucune-version` (page 404) : l'export
+statique de Next exige au moins un paramètre pour une route dynamique.
+
 ## 4. Extraction assistée (US4, clé d'API requise)
 
 ```bash
 pnpm data:extract --candidate dupont --max-cost 2 --dry-run
 ```
 
-Attendu : tranches par source, jetons estimés, coût estimé, aucune requête.
+Attendu : tranches par source, jetons estimés, coût estimé, aucune requête. La simulation
+fonctionne sans clé : les jetons sont estimés localement (environ 3,5 caractères par jeton).
+La clé est lue dans l'environnement ou dans `.env.local` (chargé par `pnpm data:extract`).
 
 ```bash
 pnpm data:extract --candidate dupont --max-cost 2
@@ -142,8 +158,11 @@ affirmation modifiée, zéro position modifiée (`git diff --stat data/corpus` v
 connue (research R8) : si le modèle retrouve une citation **supplémentaire**, une affirmation
 nouvelle apparaît ; elle n'altère rien d'existant et reste à relire.
 
-Plafond : `--max-cost 0.01` ⇒ arrêt avant la deuxième requête, état `interrupted`,
-affirmations de la première tranche conservées (US4 scénario 7).
+Plafond : le plafond est comparé, avant chaque requête, au coût cumulé plus le coût maximal de
+la requête suivante (entrée comptée et sortie au plafond de 16 000 jetons, soit environ 0,32 $
+par tranche avec `claude-opus-5-5`). Un plafond inférieur à cette estimation arrête donc avant
+la première requête ; un plafond compris entre une et deux estimations arrête avant la
+deuxième, état `interrupted`, affirmations de la première tranche conservées (US4 scénario 7).
 
 Transformation :
 
@@ -167,3 +186,23 @@ factice (`fakeClient`) : plafond, idempotence, vérification des citations, jour
 les règles dépendant du cache passent en avertissement `CACHE-MISSING`, toutes les autres
 restent bloquantes. La durée de `data:validate` sur le corpus complet doit rester sous
 2 minutes (SC-010 ; attendu : quelques secondes).
+
+**Mesure du 2026-11-08 (T088).** `RADAR_PERF=1 pnpm exec vitest run --project unit
+scripts/data/validate.perf.test.ts` : corpus synthétique de 22 candidats, 16 thèmes,
+304 questions, 6 600 positions relues avec cache et citations vérifiées, validé en **1,7 s**.
+
+## Suivi de vérification (T091, 2026-11-08)
+
+- [x] § 1 Référentiel : `pnpm data:validate` vert sur le dépôt ; chacune des 23 fixtures de
+  `data/fixtures/violations/` échoue avec son code (test d'intégration et exécution à la main).
+- [x] § 2 Sources et positions : `data:source fetch --from-file` et `check`, relecture refusée à
+  l'auteur, `FR-019` après modification, inconnue explicite et contestée acceptées (tests
+  `source`, `review`, `validate`).
+- [x] § 3 Publication et Méthodologie : `--dry-run`, `--next`, « rien à publier », refus
+  d'écrasement, `PUB-IMMUTABLE` (tests `publish`) ; pages vérifiées dans le navigateur à 375 px
+  avec la fixture minimale publiée, e2e vert avec et sans version publiée.
+- [ ] § 4 Extraction avec une vraie clé (`--max-cost 1` sur une source réelle) : **à faire par
+  le propriétaire**. Le scénario complet est couvert sans clé par `scripts/data/extract.test.ts`
+  (client factice) et `--dry-run` a été exécuté sans clé.
+- [x] § 5 Intégration continue : `pnpm verify` enchaîne `data:validate` ; étape activée dans
+  `ci.yml`.
