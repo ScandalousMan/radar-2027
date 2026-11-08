@@ -1,0 +1,50 @@
+# Banque de questions, thème principal « environnement » (FR-008 à FR-012).
+# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
+
+- id: environnement-fin-thermique-2035
+  text: La vente de voitures neuves à moteur thermique doit être interdite dès 2035.
+  themes:
+    - environnement
+    - transport
+  polarity: +
+  status: draft
+  author: adrien
+- id: environnement-supprimer-taxe-carbone
+  text: La taxe carbone sur les carburants doit être supprimée.
+  themes:
+    - environnement
+    - fiscalite
+  polarity: "-"
+  status: draft
+  author: adrien
+- id: environnement-interdire-vols-interieurs
+  text: Les vols intérieurs doivent être interdits lorsqu'une alternative en train de moins de quatre heures existe.
+  themes:
+    - environnement
+    - transport
+  polarity: +
+  status: draft
+  author: adrien
+- id: environnement-assouplir-artificialisation
+  text: Les objectifs de réduction de l'artificialisation des sols doivent être assouplis.
+  themes:
+    - environnement
+  polarity: "-"
+  status: draft
+  author: adrien
+- id: environnement-taxe-carbone-importations
+  text: Les entreprises doivent payer une taxe sur les émissions de gaz à effet de serre de leurs importations.
+  themes:
+    - environnement
+  polarity: +
+  status: draft
+  author: adrien
+- id: environnement-supprimer-zfe
+  text: Les zones à faibles émissions dans les grandes villes doivent être supprimées.
+  themes:
+    - environnement
+    - transport
+  polarity: "-"
+  status: draft
+  author: adrien

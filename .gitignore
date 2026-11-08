@@ -22,3 +22,7 @@ test-results/
 # Artefacts TypeScript et Next générés
 *.tsbuildinfo
 next-env.d.ts
+
+# Pipeline de données (fonctionnalité 002) : cache des textes de sources et rapports locaux
+.cache/
+data/reports/

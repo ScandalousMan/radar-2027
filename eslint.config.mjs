@@ -78,6 +78,7 @@ export default defineConfig([
             { group: ['next/*'], message: 'src/core est un module pur : aucun import Next.js.' },
             { group: ['@/ui', '@/ui/*', '**/ui', '**/ui/*'], message: 'src/core ne dépend pas de src/ui.' },
             { group: ['@/app', '@/app/*', '**/app', '**/app/*'], message: 'src/core ne dépend pas de src/app.' },
+            { group: ['**/scripts/*', '**/scripts/**'], message: 'src n’importe jamais scripts/.' },
           ],
         },
       ],
@@ -87,6 +88,36 @@ export default defineConfig([
         { name: 'document', message: 'src/core n’accède pas au DOM.' },
         { name: 'localStorage', message: 'src/core n’accède pas au stockage du navigateur.' },
         { name: 'fetch', message: 'src/core n’accède pas au réseau.' },
+      ],
+    },
+  },
+
+  // 1 bis. Frontière des scripts de données (fonctionnalité 002, R3) : `src` n'importe jamais
+  //        `scripts/`, et les scripts n'importent que `src/core` (jamais l'interface).
+  {
+    files: ['src/**/*.{ts,tsx}'],
+    ignores: ['src/core/**'],
+    rules: {
+      'no-restricted-imports': [
+        'error',
+        { patterns: [{ group: ['**/scripts/*', '**/scripts/**'], message: 'src n’importe jamais scripts/.' }] },
+      ],
+    },
+  },
+  {
+    files: ['scripts/**/*.ts'],
+    rules: {
+      'no-restricted-imports': [
+        'error',
+        {
+          paths: [
+            { name: 'react', message: 'Les scripts n’importent que src/core.' },
+            { name: 'next', message: 'Les scripts n’importent que src/core.' },
+          ],
+          patterns: [
+            { group: ['@/ui', '@/ui/*', '@/app', '@/app/*', 'next/*', 'react/*'], message: 'Les scripts n’importent que src/core.' },
+          ],
+        },
       ],
     },
   },

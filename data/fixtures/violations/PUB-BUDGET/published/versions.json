@@ -1,0 +1,16 @@
+{
+  "current": 1,
+  "versions": [
+    {
+      "number": 1,
+      "publishedAt": "2026-11-10",
+      "questionCount": 30,
+      "candidateCount": 2,
+      "mainHash": "sha256:c96832f113fa4f0c927d150c6a8c29d972d3c92669fdbbd298ce6086da1542cb",
+      "detailHashes": {
+        "dupont": "sha256:4b1de32f62b479525ed645653c852785e3eb4cd67879a6560c4ebebe58f75a6c",
+        "martin": "sha256:2c5da0c5fb56489c166cdc4d3f71f4bbba047c305c72542d1470b75a6ddca5bc"
+      }
+    }
+  ]
+}

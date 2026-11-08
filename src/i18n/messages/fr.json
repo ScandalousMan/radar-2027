@@ -43,6 +43,90 @@
       "programme": "Programme officiel",
       "livrePlateforme": "Livre ou plateforme écrite",
       "declarationVote": "Déclaration publique ou vote"
+    },
+    "positionCard": {
+      "value": {
+        "minus2": "Pas du tout d’accord",
+        "minus1": "Plutôt pas d’accord",
+        "zero": "Neutre",
+        "plus1": "Plutôt d’accord",
+        "plus2": "Tout à fait d’accord"
+      },
+      "scaleLabel": "Position sur l’échelle d’accord",
+      "old": "Position ancienne : sources antérieures à 2022",
+      "quoteLabel": "Citation",
+      "justificationLabel": "Justification",
+      "sources": "Sources",
+      "publishedOn": {
+        "day": "publiée le {date}",
+        "month": "publiée en {date}",
+        "year": "publiée en {date}"
+      },
+      "accessedOn": "consultée le {date}",
+      "newTab": "(nouvel onglet)",
+      "report": "Signaler une erreur sur cette position"
+    },
+    "coverageList": {
+      "coverage": "{percent} %",
+      "coverageLabel": "Couverture des questions : {percent} %",
+      "status": {
+        "declared": "Candidature déclarée"
+      },
+      "viewPositions": "Voir les positions"
+    }
+  },
+  "methodology": {
+    "title": "Méthodologie",
+    "description": "Comment radar-2027 choisit ses thèmes, ses questions et ses candidats, et comment chaque position est sourcée puis relue.",
+    "intro": "radar-2027 compare vos réponses aux positions des candidats. Cette page décrit les règles appliquées à toutes les données, de manière identique pour chaque candidat.",
+    "rules": {
+      "title": "Règles appliquées aux données",
+      "traceability": "Chaque position publiée renvoie à au moins une source datée et à une citation retrouvée mot pour mot dans le texte de cette source.",
+      "review": "Chaque position est relue par une personne différente de celle qui l’a saisie, et chaque question par une personne différente de celle qui l’a rédigée.",
+      "draft": "Une position non relue, contestée ou sans source n’est jamais publiée : elle compte comme inconnue.",
+      "versioned": "Les données sont publiées par versions numérotées qui ne changent plus une fois publiées ; un lien de résultat se rejoue toujours sur sa propre version."
+    },
+    "evidenceLevels": {
+      "title": "Niveaux de preuve"
+    },
+    "themes": {
+      "title": "Thèmes",
+      "axis": "{negative} ⟷ {positive}"
+    },
+    "neutrality": {
+      "title": "Grille de neutralité des questions",
+      "intro": "Avant d’être utilisée, chaque question est relue avec cette grille, dont tous les critères doivent être remplis."
+    },
+    "inclusion": {
+      "title": "Critères d’inclusion et de retrait des candidats",
+      "inclusion": "Inclusion",
+      "withdrawal": "Retrait"
+    },
+    "candidates": {
+      "title": "Candidats inclus",
+      "intro": "La couverture indique la part des questions pour lesquelles une position relue et sourcée est connue.",
+      "none": "Aucun candidat inclus pour l’instant."
+    },
+    "withdrawn": {
+      "title": "Candidats retirés",
+      "item": "{name}, retiré le {date} ({criterion})"
+    },
+    "version": {
+      "title": "Version des données",
+      "summary": "Version {version} du {date}, {count, plural, one {# question active} other {# questions actives}}."
+    },
+    "noVersion": "Aucun jeu de données n’est encore publié. Les règles ci-dessus s’appliqueront dès la première version.",
+    "report": {
+      "cta": "Signaler une erreur",
+      "positionTitle": "{candidate}/{question}"
+    },
+    "license": "Les données publiées sont produites par le projet radar-2027 à partir des sources publiques citées.",
+    "backToList": "Retour à la méthodologie",
+    "candidate": {
+      "metaTitle": "Positions de {name}",
+      "description": "Positions relues et sourcées de {name}, avec citation et sources.",
+      "positionsTitle": "Positions sourcées",
+      "noPositions": "Aucune position relue et sourcée n’est encore publiée pour cette candidature."
     }
   }
 }

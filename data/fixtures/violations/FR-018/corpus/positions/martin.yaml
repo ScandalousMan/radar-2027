@@ -1,0 +1,16 @@
+- question: environnement-q01
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - martin-declaration-candidature
+  quote: Je veux interdire les vols intérieurs lorsqu'une alternative en train de moins de quatre heures existe.
+  quoteSource: martin-declaration-candidature
+  justification: Interdiction explicite.
+  status: reviewed
+  provenance:
+    kind: manual
+  author: adrien
+  authoredAt: 2026-11-08
+  reviewer: adrien
+  reviewedAt: 2026-11-09
+  reviewedHash: sha256:7329b5d48a961838443458f531e9ee1f620aa9f6638f98d9ac8b17438bc4414c

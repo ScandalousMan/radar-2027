@@ -44,9 +44,10 @@ jobs:
       - name: typecheck
         run: pnpm typecheck
 
-      # Emplacement réservé (fonctionnalité 002, principe V) : validation de schéma des données.
-      # - name: data:validate
-      #   run: pnpm data:validate
+      # Validation du corpus (fonctionnalité 002, principe V). Sans cache des sources en CI :
+      # les citations sont signalées CACHE-MISSING, toutes les autres règles restent bloquantes.
+      - name: data:validate
+        run: pnpm data:validate
 
       - name: test
         run: pnpm test

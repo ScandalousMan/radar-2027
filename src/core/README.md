@@ -1,14 +1,19 @@
 # `src/core` — cœur métier
 
-Ce dossier accueillera le **domaine** de radar-2027 (fonctionnalité 003) : moteur de score,
-sélection déterministe des questions et codec URL ↔ état. Il est volontairement vide dans le
-socle (fonctionnalité 001).
+Ce dossier accueille le **domaine** de radar-2027. Son premier module est
+[`dataset/`](dataset) (fonctionnalité 002) : types et schémas Zod du jeu de données publié
+(`main.json`, détails par candidat, registre des versions), calculs de couverture et de pouvoir
+discriminant, accès aux positions. Il est consommé par les scripts de données
+(`scripts/data/`), par la page Méthodologie et servira de base à la fonctionnalité 003 (moteur
+de score, sélection déterministe des questions, codec URL ↔ état).
+
+`zod` est la seule dépendance tierce autorisée dans `src/core` (validation pure, sans I/O).
 
 ## Frontière
 
 Conformément au principe III de la [constitution](../../.specify/memory/constitution.md) :
 
-- aucun import de `react`, `react-dom`, `next`, `next/*`, ni de `src/ui` ou `src/app` ;
+- aucun import de `react`, `react-dom`, `next`, `next/*`, ni de `src/ui`, `src/app` ou `scripts/` ;
 - aucun accès au DOM, au réseau, à l'horloge ou à l'aléatoire ;
 - uniquement des fonctions pures et déterministes, couvertes par des tests unitaires et des
   tests de propriétés.

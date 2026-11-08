@@ -1,0 +1,9 @@
+# Contributeurs du corpus (R13) : identifiants courts référencés par `author` et `reviewer`.
+# Ce fichier n'entre jamais dans un jeu publié (FR-037) ; aucune donnée personnelle au-delà
+# du compte GitHub.
+
+- id: adrien
+  github: ScandalousMan
+- id: relecteur-1
+  # Compte GitHub du relecteur à compléter par le propriétaire (T093).
+  github: a-completer
