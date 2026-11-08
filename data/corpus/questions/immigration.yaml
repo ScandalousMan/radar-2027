@@ -47,3 +47,85 @@
   polarity: "-"
   status: draft
   author: claude
+- id: immigration-titre-sejour-longue-duree
+  text: Les étrangers en situation régulière doivent obtenir plus facilement un titre de séjour de longue durée.
+  themes:
+    - immigration
+  polarity: +
+  status: draft
+  author: claude
+- id: immigration-reduire-duree-naturalisation
+  text: La durée de résidence exigée pour demander la naturalisation doit être réduite.
+  themes:
+    - immigration
+  polarity: +
+  status: draft
+  author: claude
+- id: immigration-voies-legales-travail-ue
+  text: L'Union européenne doit ouvrir davantage de voies d'immigration légale pour le travail.
+  themes:
+    - immigration
+    - international
+  polarity: +
+  status: draft
+  author: claude
+- id: immigration-frais-etudiants-etrangers
+  text: Les étudiants étrangers hors Union européenne doivent payer les mêmes frais d'inscription que les étudiants français.
+  themes:
+    - immigration
+  polarity: +
+  status: draft
+  author: claude
+- id: immigration-regularisation-cinq-ans
+  text: Les étrangers sans titre de séjour présents en France depuis plus de cinq ans doivent pouvoir être régularisés.
+  themes:
+    - immigration
+  polarity: +
+  status: draft
+  author: claude
+- id: immigration-visas-professions-qualifiees
+  text: Les visas de travail pour les professions qualifiées doivent être délivrés plus facilement.
+  themes:
+    - immigration
+    - travail
+  polarity: +
+  status: draft
+  author: claude
+- id: immigration-plafond-annuel-admissions
+  text: Le Parlement doit fixer chaque année un plafond du nombre d'étrangers admis au séjour.
+  themes:
+    - immigration
+  polarity: "-"
+  status: draft
+  author: claude
+- id: immigration-prestations-duree-residence
+  text: L'accès des étrangers aux prestations sociales non contributives doit être soumis à cinq ans de résidence.
+  themes:
+    - immigration
+  polarity: "-"
+  status: draft
+  author: claude
+- id: immigration-expulsion-condamnes
+  text: Les étrangers condamnés pour un crime ou un délit grave doivent être systématiquement expulsés.
+  themes:
+    - immigration
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
+- id: immigration-asile-examen-hors-europe
+  text: Les demandes d'asile doivent être examinées dans des centres situés hors du territoire européen.
+  themes:
+    - immigration
+    - international
+  polarity: "-"
+  status: draft
+  author: claude
+- id: immigration-delit-sejour-irregulier
+  text: Le séjour irrégulier en France doit redevenir un délit.
+  themes:
+    - immigration
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
