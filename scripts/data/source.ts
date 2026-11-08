@@ -1,5 +1,5 @@
 // pnpm data:source fetch|check (contracts/cli.md, FR-013, FR-014, cas limite « source inaccessible »).
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { readCached, writeCached } from './lib/cache';
 import { fail, info, parseCli, resolvePaths, runCli, today, usage, warn, type DataPaths } from './lib/cli';
@@ -87,6 +87,7 @@ export async function addSource(paths: DataPaths, opts: AddSourceOptions, fetchI
   for (let n = 2; ids.has(id); n++) id = `${opts.candidates[0]}-${slugify(opts.title)}-${n}`;
 
   const fileName = opts.candidates.length === 1 ? `${opts.candidates[0]}.yaml` : 'commun.yaml';
+  mkdirSync(join(paths.corpusDir, 'sources'), { recursive: true });
   const file = join(paths.corpusDir, 'sources', fileName);
   const list = readList(file);
   const entry = {

@@ -54,6 +54,14 @@ describe('data:source', () => {
     expect(cached).toBe("Je propose d'augmenter le budget de la santé de 10 % par an.");
   });
 
+  it('crée le dossier sources/ s’il n’existe pas encore', async () => {
+    const paths = await tempFixture();
+    const { rm } = await import('node:fs/promises');
+    await rm(join(paths.corpusDir, 'sources'), { recursive: true });
+    const added = await addSource(paths, { url: 'https://exemple.fr/x', candidates: ['dupont'], kind: 'declaration_vote', title: 'X', published: '2026' }, fakeFetch(200));
+    expect(added.file.endsWith(join('sources', 'dupont.yaml'))).toBe(true);
+  });
+
   it('plusieurs candidats ⇒ commun.yaml ; téléchargement via fetch', async () => {
     const paths = await tempFixture();
     const added = await addSource(
