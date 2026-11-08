@@ -6,6 +6,15 @@ candidat n'est encore saisi dans `data/corpus/candidates.yaml`** : c'est au prop
 décider (spec, Assumptions). Chaque source retenue sera ensuite enregistrée avec
 `pnpm data:source fetch <url> --candidate <id> --kind declaration_vote …`.
 
+> **Décision du propriétaire (2026-11-08) : les 18 personnes du tableau A sont retenues.**
+> Elles sont saisies dans `data/corpus/candidates.yaml`, chacune avec sa source de statut
+> téléchargée, mise en cache et empreinte. Les 18 textes en cache ont été relus : chacun
+> annonce la candidature. Les tableaux B et C ne sont pas saisis (Polony et Bouamrane restent à
+> arbitrer s'ils doivent être ajoutés). Sources à remplacer par une source primaire ou un grand
+> média quand c'est possible : Philippe (article France 3 et non l'entretien au Point),
+> Mélenchon (article en anglais), Attal (sans citation directe), Ruffin et Dupont-Aignan
+> (sources secondaires), Branco (Sud Radio seul) et Asselineau (communiqué de son parti).
+
 **Méthode.** Les pages ont été lues le 2026-11-08 et chaque cas a été vérifié par recherche
 web. Les citations viennent des pages ouvertes, sauf mention « page non lue ». Le Monde, BFM,
 CNews et web.archive.org ont bloqué la lecture automatique.
@@ -38,7 +47,7 @@ Toutes les sources sont de type `declaration_vote`.
 | François Ruffin | Debout ! | vers 2026-04-10 | [LyonMag](https://www.lyonmag.com/article/151368/presidentielle-2027-francois-ruffin-candidat-son-premier-meeting-entretien-d-embauche-programme-a-lyon) | aucune citation d'annonce | moyenne | trouver la vidéo ou le communiqué d'origine |
 | Nicolas Dupont-Aignan | Debout la France | 2026-04-23 | [info.fr](https://info.fr/yerres-dupont-aignan-candidature-presidentielle-2027-sursaut-gaulliste/) | « Je serai candidat en 2027 pour offrir aux Français un sursaut gaulliste ! » | moyenne | source secondaire faible : citer le message d'origine |
 | Juan Branco | Les Ruches (ou « Sans étiquette ») | 2025-12-19 | [Sud Radio](https://www.sudradio.fr/sud-radio/lavocat-juan-branco-candidat-a-la-presidentielle) | aucune citation directe | moyenne-basse | aucune reprise par un grand média |
-| François Asselineau | UPR | non établie | aucune source vérifiée | — | basse | **à ne garder que si une source est trouvée** |
+| François Asselineau | Union populaire républicaine | 2026-03-21 | [UPR](https://upr.fr/militantisme/19-ans-de-lupr-francois-asselineau-lance-sa-campagne-presidentielle-2027-et-nomme-marc-parigot-directeur-de-campagne/) (2026-03-22) | « Le président de l'UPR y a lancé formellement sa campagne pour l'élection présidentielle de 2027 » | moyenne-basse | source trouvée le 2026-11-08 : communiqué du parti, à la troisième personne |
 
 ## B. Non retenus, présents sur monvote2027.fr (4)
 

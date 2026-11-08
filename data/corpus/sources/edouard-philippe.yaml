@@ -1,0 +1,11 @@
+- id: edouard-philippe-declaration-candidature
+  url: https://france3-regions.franceinfo.fr/normandie/seine-maritime/havre/je-serai-candidat-a-la-prochaine-election-presidentielle-edouard-philippe-l-ancien-premier-ministre-et-maire-du-havre-officialise-sa-candidature-3026366.html
+  title: Édouard Philippe officialise sa candidature à la présidentielle (France 3)
+  kind: declaration_vote
+  publishedAt:
+    date: 2024-09-03
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:4f53bd39d22b3d931c5c7ee8f0a10c9d87707f8ca99afebb37cd22a73f908f0b

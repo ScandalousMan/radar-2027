@@ -1,0 +1,11 @@
+- id: florian-philippot-declaration-candidature
+  url: https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-le-souverainiste-florian-philippot-annonce-sa-candidature-a-l-elysee_7993346.html
+  title: Florian Philippot annonce sa candidature à l'Élysée (franceinfo)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-09
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - florian-philippot
+  contentHash: sha256:2730fac54b77a1d49068284bfa9125f35bcee35a082905a32203939484e31083

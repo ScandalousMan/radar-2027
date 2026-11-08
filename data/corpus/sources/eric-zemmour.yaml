@@ -1,0 +1,11 @@
+- id: eric-zemmour-declaration-candidature
+  url: https://lcp.fr/actualites/presidentielle-2027-eric-zemmour-officialise-sa-candidature-441871
+  title: Éric Zemmour officialise sa candidature (LCP)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-17
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:8543abbe552c811446b3e3297d03a02cf7da4000d1a7883e67ec3e24954fdfff

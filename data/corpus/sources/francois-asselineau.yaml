@@ -1,0 +1,11 @@
+- id: francois-asselineau-declaration-candidature
+  url: https://upr.fr/militantisme/19-ans-de-lupr-francois-asselineau-lance-sa-campagne-presidentielle-2027-et-nomme-marc-parigot-directeur-de-campagne/
+  title: "19 ans de l'UPR : François Asselineau lance sa campagne présidentielle 2027 (UPR)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-03-22
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - francois-asselineau
+  contentHash: sha256:f9c417e85b180dc453b68ba2e61cd5e00ceefd3ae045796e0051952cefac6a89

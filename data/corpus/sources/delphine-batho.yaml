@@ -1,0 +1,11 @@
+- id: delphine-batho-declaration-candidature
+  url: https://www.linfodurable.fr/lex-ministre-delphine-batho-candidate-la-presidentielle-pour-conjurer-la-rikikisation-de-lecologie
+  title: Delphine Batho candidate à la présidentielle (L'Info Durable / AFP)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-11-25
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - delphine-batho
+  contentHash: sha256:a7a72d94a21244229bfbef2c75e667a9d7ce589f3b3436fb490243a74793ece4

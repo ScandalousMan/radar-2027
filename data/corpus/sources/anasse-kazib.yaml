@@ -1,0 +1,11 @@
+- id: anasse-kazib-declaration-candidature
+  url: https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-le-cheminot-anasse-kazib-annonce-sa-candidature_8040020.html
+  title: Anasse Kazib annonce sa candidature (franceinfo)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-06-01
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - anasse-kazib
+  contentHash: sha256:bf8d0029aaa9b46a52cd57df0911794e2f0351cb58496e8187e6b089edd3767e

@@ -1,0 +1,11 @@
+- id: nathalie-arthaud-declaration-candidature
+  url: https://www.ici.fr/auvergne-rhone-alpes/drome-26/presidentielle-2027-nathalie-arthaud-annonce-sa-candidature-pour-lutte-ouvriere-8888318
+  title: Nathalie Arthaud annonce sa candidature pour Lutte ouvrière (ICI)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-12-08
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:76c50e39d11b0bc08da990aa6a733999ec2dc777bb31ca7fc7c9f3076cb40188

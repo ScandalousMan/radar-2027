@@ -1,0 +1,11 @@
+- id: jean-luc-melenchon-declaration-candidature
+  url: https://www.france24.com/en/france/20260503-lfi-s-m%C3%A9lenchon-to-stand-in-2027-french-presidential-election
+  title: Jean-Luc Mélenchon candidat à la présidentielle 2027 (France 24)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-03
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:109dfafa16925c1e1872110a306a9a089af393a188ec05160c2d451e3c43914f

@@ -1,0 +1,11 @@
+- id: marine-le-pen-declaration-candidature
+  url: https://lcp.fr/actualites/ce-soir-je-suis-candidate-a-l-election-presidentielle-annonce-marine-le-pen-438886
+  title: "Marine Le Pen : « Ce soir, je suis candidate à l'élection présidentielle » (LCP)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-07-07
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:a170bf9ad381d64a19fc114b8f46e27ad486bcd62235dbc28cd47cf5b12b3cc9

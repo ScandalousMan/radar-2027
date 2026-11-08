@@ -1,0 +1,11 @@
+- id: bruno-retailleau-declaration-candidature
+  url: https://www.publicsenat.fr/actualites/politique/je-suis-pret-bruno-retailleau-se-declare-candidat-a-lelection-presidentielle-2027
+  title: Bruno Retailleau se déclare candidat à l'élection présidentielle 2027 (Public Sénat)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-02-12
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:c610560e181b6dbf5e1bd2e35461b2cdb8c44f05a6bfe5eb8ec811c97e3d4a07

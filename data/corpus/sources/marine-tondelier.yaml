@@ -1,0 +1,11 @@
+- id: marine-tondelier-declaration-candidature
+  url: https://www.brut.media/fr/articles/france/politique/marine-tondelier-la-patronne-des-ecologistes-officiellement-candidate-a-la-presidentielle-de-2027
+  title: Marine Tondelier officiellement candidate à la présidentielle de 2027 (Brut)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-10-22
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - marine-tondelier
+  contentHash: sha256:4382c05ba973454675fb8256a9e89a684e4dfcc48af38dd5991269de152b21a6
