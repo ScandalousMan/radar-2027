@@ -46,3 +46,83 @@
   polarity: "-"
   status: draft
   author: claude
+- id: societe-etat-civil-declaration-mairie
+  text: Le changement de la mention du sexe à l'état civil doit pouvoir se faire sur simple déclaration en mairie.
+  themes:
+    - societe
+  polarity: +
+  status: draft
+  author: claude
+- id: societe-abroger-penalisation-clients
+  text: La pénalisation des clients de la prostitution doit être abrogée.
+  themes:
+    - societe
+  polarity: +
+  status: draft
+  author: claude
+- id: societe-pma-post-mortem
+  text: Une femme doit pouvoir poursuivre une PMA avec les gamètes de son conjoint décédé.
+  themes:
+    - societe
+    - sante
+  polarity: +
+  status: draft
+  author: claude
+- id: societe-salles-consommation-drogue
+  text: Les salles de consommation de drogue à moindre risque doivent être généralisées.
+  themes:
+    - societe
+    - sante
+  polarity: +
+  status: draft
+  author: claude
+- id: societe-statut-beau-parent
+  text: Le beau-parent doit pouvoir obtenir un statut juridique lui donnant des droits sur l'enfant de son conjoint.
+  themes:
+    - societe
+  polarity: +
+  status: draft
+  author: claude
+- id: societe-casinos-en-ligne
+  text: Les jeux de casino en ligne doivent être légalisés et encadrés.
+  themes:
+    - societe
+  polarity: +
+  status: draft
+  author: claude
+- id: societe-uniforme-ecole-publique
+  text: Le port d'une tenue uniforme doit être obligatoire à l'école publique.
+  themes:
+    - societe
+  polarity: "-"
+  status: draft
+  author: claude
+- id: societe-signes-religieux-universite
+  text: Le port de signes religieux ostensibles doit être interdit aux étudiants à l'université.
+  themes:
+    - societe
+  polarity: "-"
+  status: draft
+  author: claude
+- id: societe-interdire-ecriture-inclusive
+  text: L'écriture inclusive doit être interdite dans les documents administratifs.
+  themes:
+    - societe
+  polarity: "-"
+  status: draft
+  author: claude
+- id: societe-education-sexualite-accord-parents
+  text: Les séances d'éducation à la sexualité à l'école doivent être soumises à l'accord des parents.
+  themes:
+    - societe
+  polarity: "-"
+  status: draft
+  author: claude
+- id: societe-clause-conscience-ivg
+  text: Les médecins doivent conserver une clause de conscience spécifique leur permettant de refuser de pratiquer une IVG.
+  themes:
+    - societe
+    - sante
+  polarity: "-"
+  status: draft
+  author: claude
