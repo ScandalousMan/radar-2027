@@ -1,0 +1,12 @@
+{
+  "//": "Scripts du pipeline de données (scripts/data), exécutés par tsx. Hérite du tsconfig racine sans le plugin Next ni le JSX ; conserve moduleResolution bundler et l'alias @/* (honorés par tsx).",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "types": ["node"],
+    "plugins": [],
+    "jsx": "preserve"
+  },
+  "include": ["scripts/**/*.ts", "src/core/**/*.ts"],
+  "exclude": ["node_modules", "out", "storybook-static"]
+}

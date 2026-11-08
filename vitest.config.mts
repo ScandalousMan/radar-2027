@@ -27,7 +27,9 @@ function storybookProject(name: string, theme: 'clair' | 'sombre') {
 
 /**
  * Trois projets Vitest :
- * - `unit` : jsdom + Testing Library, tests `src/**\/*.test.{ts,tsx}` ;
+ * - `unit` : jsdom + Testing Library, tests `src/**\/*.test.{ts,tsx}` et tests des scripts de
+ *   données `scripts/**\/*.test.ts` (ces derniers portent l'en-tête `// @vitest-environment node`
+ *   et n'écrivent que dans un dossier temporaire) ;
  * - `storybook` et `storybook-sombre` : toutes les stories comme tests, dans chaque apparence (SC-004).
  */
 export default defineConfig({
@@ -42,7 +44,7 @@ export default defineConfig({
         test: {
           name: 'unit',
           environment: 'jsdom',
-          include: ['src/**/*.test.{ts,tsx}'],
+          include: ['src/**/*.test.{ts,tsx}', 'scripts/**/*.test.ts'],
           setupFiles: ['./vitest.setup.ts'],
         },
       },
