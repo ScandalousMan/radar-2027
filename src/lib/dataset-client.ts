@@ -1,7 +1,10 @@
 // Chargeur navigateur du jeu publié (contracts/storage-and-data.md § 2, R5).
 // Seul chargeur client : réutilisé par la 005 pour les versions antérieures. Requêtes même
 // origine, sans paramètre ni en-tête ajouté (SC-008) ; aucun import `node:*`.
-import { MainDatasetSchema, VersionRegistrySchema, type MainDataset, type VersionRegistry } from '@/core';
+import type { MainDataset, VersionRegistry } from '@/core/dataset/types';
+
+// Schémas chargés à la demande, en parallèle de la requête : zod reste hors du chargement initial des pages.
+const schemas = () => import('@/core/dataset/schema');
 
 export type DatasetClientError = { kind: 'network'; status?: number } | { kind: 'invalid'; issues: string };
 
@@ -36,14 +39,15 @@ function validate<T>(schema: { safeParse(v: unknown): { success: true; data: T }
 
 /** Registre des versions publiées (`current = 0` : aucune version). */
 export async function loadRegistry(fetcher: Fetcher = fetch): Promise<VersionRegistry> {
-  return validate(VersionRegistrySchema, await getJson('/data/versions.json', 'no-cache', fetcher));
+  const [json, { VersionRegistrySchema }] = await Promise.all([getJson('/data/versions.json', 'no-cache', fetcher), schemas()]);
+  return validate(VersionRegistrySchema, json);
 }
 
 /** Jeu principal d'une version (immuable, mémoïsé pour la durée de la page). */
 export function loadMain(version: number, fetcher: Fetcher = fetch): Promise<MainDataset> {
   const cached = mainCache.get(version);
   if (cached) return cached;
-  const promise = getJson(`/data/versions/${version}/main.json`, 'force-cache', fetcher).then((json) => validate(MainDatasetSchema, json));
+  const promise = Promise.all([getJson(`/data/versions/${version}/main.json`, 'force-cache', fetcher), schemas()]).then(([json, { MainDatasetSchema }]) => validate(MainDatasetSchema, json));
   mainCache.set(version, promise);
   // Un échec n'est pas mémorisé : « Réessayer » relance la requête.
   promise.catch(() => mainCache.delete(version));

@@ -6,7 +6,7 @@
 export const DRAFT_STORAGE_KEY = 'radar-questionnaire';
 export const DRAFT_FORMAT = 1;
 
-export const DraftSchema: z.ZodType<Draft>;                 // relecture stricte (data-model § 5)
+export function parseDraft(value: unknown): Draft | null;   // relecture stricte (data-model § 5), sans zod (voir tasks.md § Écarts)
 export function readDraft(storage?: StorageLike | null): Draft | null;   // null si absent, invalide, stockage indisponible
 export function writeDraft(draft: Draft, storage?: StorageLike | null): boolean; // false si indisponible
 export function clearDraft(storage?: StorageLike | null): boolean;

@@ -230,14 +230,14 @@ contextes avec le même triplet voient les mêmes énoncés dans le même ordre.
 
 ### Tests pour User Story 1
 
-- [ ] T028 [P] [US1] Écrire `e2e/fixtures/published.ts` : sérialiser
+- [X] T028 [P] [US1] Écrire `e2e/fixtures/published.ts` : sérialiser
   `syntheticDataset({ themes: 16, perTheme: 20 })` (import relatif
   `../../src/core/bank/fixtures`) en un registre `{ current: 1, versions: [...] }` conforme à
   `VersionRegistrySchema` et un `main.json` conforme à `MainDatasetSchema` ; exporter
   `servePublished(page, { current = 1 } = {})` qui répond par `page.route('**/data/versions.json')`
   et `page.route('**/data/versions/1/main.json')`, `expectedSelection(mode, priorities)` via
   `selectQuestions` et `fr` (lecture de `src/i18n/messages/fr.json`) pour les libellés (R6)
-- [ ] T029 [P] [US1] Écrire `src/lib/questionnaire/store.test.tsx` (jsdom, Testing Library,
+- [X] T029 [P] [US1] Écrire `src/lib/questionnaire/store.test.tsx` (jsdom, Testing Library,
   `fetch` et stockage fictifs) : `load` passe de `loading` à `ready` avec 16 thèmes ;
   `no-version` quand `current = 0` ; `error.network` et `error.invalid` ; `setPriorities`
   normalise en ordre canonique et calcule `selections` pour les deux modes dès 3 sujets ;
@@ -245,7 +245,7 @@ contextes avec le même triplet voient les mêmes énoncés dans le même ordre.
   triplet qu'un brouillon existant rend `'resumed'` sans modifier le brouillon (R13) ; avec un
   triplet différent rend `'needs-confirmation'` et `confirmStart()` repart de zéro ;
   `resultHref` commence par `/resultats#1.` ; `useQuestionnaire` lève hors du fournisseur
-- [ ] T030 [P] [US1] Écrire dans `e2e/questionnaire.spec.ts` les tests « accueil → fin, mode
+- [X] T030 [P] [US1] Écrire dans `e2e/questionnaire.spec.ts` les tests « accueil → fin, mode
   court » (4 sujets, « 1 / 25 », 25 clics, écran de fin sans avertissement, lien « Voir mes
   résultats » dont le fragment décodé par `decodeFragment` donne `short`, 4 sujets,
   25 réponses), « mode complet » (3 sujets, « 1 / 100 », 100 réponses), « déterminisme »
@@ -258,7 +258,7 @@ contextes avec le même triplet voient les mêmes énoncés dans le même ordre.
 
 ### Implementation pour User Story 1
 
-- [ ] T031 [US1] Écrire `src/lib/questionnaire/store.tsx` ('use client') :
+- [X] T031 [US1] Écrire `src/lib/questionnaire/store.tsx` ('use client') :
   `QuestionnaireProvider` et `useQuestionnaire()` selon
   [contracts/routes-and-state.md](contracts/routes-and-state.md) § Fournisseur : chargement
   `loadRegistry` → `loadMain` → `questionnaireBankFrom` (états `loading` / `no-version` /
@@ -267,25 +267,25 @@ contextes avec le même triplet voient les mêmes énoncés dans le même ordre.
   `setPriorities` (normalisées par `normalizePriorities`), `setMode`, `start()` /
   `confirmStart()` (R13), `dispatch` injectant `now`, `resultHref` ; la persistance et la
   synchronisation multi-onglets sont ajoutées en US3 (T049), l'historique en US2 (T042)
-- [ ] T032 [US1] Écrire `src/app/questionnaire/layout.tsx` ('use client') : enveloppe les
+- [X] T032 [US1] Écrire `src/app/questionnaire/layout.tsx` ('use client') : enveloppe les
   pages enfants dans `QuestionnaireProvider` ; affiche `questionnaire.loading`,
   `questionnaire.noVersion` ou `questionnaire.loadError` + bouton `questionnaire.retry`
   selon `load.status` et ne rend les enfants qu'en `ready` ; `<h1>` `questionnaire.title`
   masqué visuellement si la page porte son propre titre
-- [ ] T033 [US1] Écrire `src/app/questionnaire/page.tsx` (étape `themes`) : titre
+- [X] T033 [US1] Écrire `src/app/questionnaire/page.tsx` (étape `themes`) : titre
   `questionnaire.themes.title`, explication `questionnaire.themes.explain` (FR-007),
   `ThemePicker` (options = `bank.themes` avec descriptions, `min = MIN_PRIORITIES`, `max =
   MAX_PRIORITIES`, `legend = questionnaire.themes.legend`, valeur = `choice.priorities`),
   bouton `questionnaire.themes.continue` actif seulement si la sélection est valide
   (`router.push('/questionnaire/mode')`) ; garde `requiredStep` dans un effet
   (`router.replace`)
-- [ ] T034 [US1] Écrire `src/app/questionnaire/mode/page.tsx` (étape `mode`) : titre
+- [X] T034 [US1] Écrire `src/app/questionnaire/mode/page.tsx` (étape `mode`) : titre
   `questionnaire.mode.title`, `ModeChoice` (`options` = `selections.full.items.length` et
   `selections.short.items.length`, R8), lien `questionnaire.mode.back` vers `/questionnaire`
   (sélection conservée, FR-010), bouton `questionnaire.mode.continue` actif si un mode est
   choisi : appelle `start()` et navigue vers `/questionnaire/questions` sur `'started'` ou
   `'resumed'` (le cas `'needs-confirmation'` est câblé en US4, T056) ; garde `requiredStep`
-- [ ] T035 [US1] Écrire `src/app/questionnaire/questions/page.tsx` (étape `questions`,
+- [X] T035 [US1] Écrire `src/app/questionnaire/questions/page.tsx` (étape `questions`,
   parcours nominal) : question courante = `selection.items[draft.position]` ; `QuestionCard`
   (`statement = question.text`, `themes = themesOf(...)`, `value` dérivée de
   `draft.answers[position]`, `hint = questionnaire.questions.hint` sur la première question
@@ -296,23 +296,23 @@ contextes avec le même triplet voient les mêmes énoncés dans le même ordre.
   posé sur l'énoncé via `headingRef` à chaque changement de position ; garde `requiredStep`
   (déclenche `start()` si `choice` complet et aucun brouillon) ; Précédent / Suivant /
   Modifier sont ajoutés en US2 et US4
-- [ ] T036 [US1] Écrire `src/app/questionnaire/fin/page.tsx` (étape `end`) : titre
+- [X] T036 [US1] Écrire `src/app/questionnaire/fin/page.tsx` (étape `end`) : titre
   `questionnaire.end.title`, `questionnaire.end.intro`, `AnswerSummary` (`items` =
   `summarize(draft, bank, selection).themes`, `minReliable = MIN_THEME_QUESTIONS`),
   `questionnaire.end.totals`, lien `questionnaire.end.results` (`<a href={resultHref}>`,
   jamais `router.push`, R10) ; le brouillon n'est pas effacé (FR-026) ; garde `requiredStep` ;
   l'avertissement et « Revenir aux questions » sont ajoutés en US2 (T044)
-- [ ] T037 [P] [US1] Écrire `src/app/resultats/page.tsx` (page de garde, R11) : `<h1>`
+- [X] T037 [P] [US1] Écrire `src/app/resultats/page.tsx` (page de garde, R11) : `<h1>`
   `results.title`, paragraphe `results.soon`, lien `results.backToQuestionnaire` vers
   `/questionnaire` ; aucune lecture du fragment, aucun composant client
-- [ ] T038 [US1] Modifier `src/app/page.tsx` (accueil, serveur) : le bouton `home.cta`
+- [X] T038 [US1] Modifier `src/app/page.tsx` (accueil, serveur) : le bouton `home.cta`
   devient un lien `Button`/`Link` vers `/questionnaire` actif quand
   `loadRegistry().current > 0` (import de `@/lib/dataset`, lecture au build), sinon
   désactivé avec `home.ctaSoon` (comportement actuel) ; ajouter un lien explicite vers
   `/methodologie` dans le corps de la page (FR-001, en plus de la navigation du `PageShell`)
   avec une clé `home.methodology` ajoutée à `fr.json` ; mettre à jour `e2e/home.spec.ts` si
   un test en dépend
-- [ ] T039 [US1] Exécuter `pnpm build && pnpm e2e -- e2e/questionnaire.spec.ts` et corriger
+- [X] T039 [US1] Exécuter `pnpm build && pnpm e2e -- e2e/questionnaire.spec.ts` et corriger
   jusqu'au vert des tests T030 ; vérifier dans la sortie du build que la page
   `/questionnaire` reste ≤ 200 ko compressés hors données (plan § Performance Goals)
 
@@ -334,12 +334,12 @@ depuis q3 affiche q2 ; depuis q1 revient à `/questionnaire/mode`.
 
 ### Tests pour User Story 2
 
-- [ ] T040 [P] [US2] Écrire `src/lib/questionnaire/history.test.ts` (jsdom) pour le hook
+- [X] T040 [P] [US2] Écrire `src/lib/questionnaire/history.test.ts` (jsdom) pour le hook
   `useQuestionHistory(position, onPopPosition)` : `replaceState({ radar: { position } })` au
   montage ; `pushState` à chaque nouvelle position initiée par l'interface, URL inchangée ;
   un événement `popstate` avec `state.radar.position` appelle `onPopPosition(position)` sans
   nouveau `pushState` ; un `popstate` sans `radar` est ignoré
-- [ ] T041 [P] [US2] Ajouter à `e2e/questionnaire.spec.ts` les tests « passer, précédent,
+- [X] T041 [P] [US2] Ajouter à `e2e/questionnaire.spec.ts` les tests « passer, précédent,
   corriger » (progression cohérente, Suivant actif seulement avec une réponse ou « passée »,
   réponse précédente présélectionnée, avancer jusqu'à la première non traitée),
   « avertissement de fin » (toutes les questions d'un sujet clé passées →
@@ -351,10 +351,10 @@ depuis q3 affiche q2 ; depuis q1 revient à `/questionnaire/mode`.
 
 ### Implementation pour User Story 2
 
-- [ ] T042 [US2] Écrire `src/lib/questionnaire/history.ts` ('use client') : hook
+- [X] T042 [US2] Écrire `src/lib/questionnaire/history.ts` ('use client') : hook
   `useQuestionHistory` selon [contracts/routes-and-state.md](contracts/routes-and-state.md)
   § Historique (R2) ; aucune modification d'URL
-- [ ] T043 [US2] Compléter `src/app/questionnaire/questions/page.tsx` : bouton
+- [X] T043 [US2] Compléter `src/app/questionnaire/questions/page.tsx` : bouton
   `questionnaire.questions.previous` (`Button` secondaire, désactivé si `position = 0`,
   `dispatch(previous)`), bouton `questionnaire.questions.next` (actif si
   `answers[position] ≠ 'unanswered'`, `dispatch(next)` ; libellé `finish` sur la dernière),
@@ -362,13 +362,13 @@ depuis q3 affiche q2 ; depuis q1 revient à `/questionnaire/mode`.
   passe par l'option « Passer » de `LikertChoice` (`onCommit('skipped')` → `answer` puis
   `next`) ; disposition à 320 px : options, Passer, Précédent, Suivant et progression visibles
   sans défilement horizontal
-- [ ] T044 [US2] Compléter `src/app/questionnaire/fin/page.tsx` : si `summary.warning`,
+- [X] T044 [US2] Compléter `src/app/questionnaire/fin/page.tsx` : si `summary.warning`,
   `Notice` ton `warning`, `role="alert"`, titre `questionnaire.end.warning.title`, texte
   `questionnaire.end.warning.description` ({min} = `MIN_THEME_QUESTIONS`, {themes} =
   libellés non fiables joints par `useFormatter().list`) ; bouton `questionnaire.end.back`
   (`dispatch(goTo(N − 1))` puis `router.push('/questionnaire/questions')`) ; le résumé est
   recalculé à chaque rendu depuis `draft` (cas limite « revient sur l'écran de fin »)
-- [ ] T045 [US2] Exécuter `pnpm build && pnpm e2e -- e2e/questionnaire.spec.ts` et corriger
+- [X] T045 [US2] Exécuter `pnpm build && pnpm e2e -- e2e/questionnaire.spec.ts` et corriger
   jusqu'au vert des tests T041 sans régression des tests US1
 
 **Checkpoint**: US1 et US2 fonctionnent ; la navigation ne perd jamais une réponse.
@@ -388,18 +388,18 @@ vide `localStorage.getItem('radar-questionnaire')` et l'accueil n'a plus de cart
 
 ### Tests pour User Story 3
 
-- [ ] T046 [P] [US3] Ajouter à `src/lib/questionnaire/store.test.tsx` : aucune écriture avant
+- [X] T046 [P] [US3] Ajouter à `src/lib/questionnaire/store.test.tsx` : aucune écriture avant
   `start` ; écriture complète après `start`, `answer`, `next`, `previous`, `goTo` ; aucune
   écriture et `storage = 'unavailable'` quand `probeStorage` échoue, parcours fonctionnel en
   mémoire ; au montage avec un brouillon valide stocké et `bankVersion = bank.version`, le
   brouillon est repris ; un événement `storage` portant un `updatedAt` plus récent déclenche
   `resume`, plus ancien est ignoré ; `reset` et `clear` effacent la clé
-- [ ] T047 [P] [US3] Écrire `src/app/ResumePrompt.test.tsx` (jsdom, fixtures) : rien n'est
+- [X] T047 [P] [US3] Écrire `src/app/ResumePrompt.test.tsx` (jsdom, fixtures) : rien n'est
   rendu sans brouillon ; `ResumeCard` rendue avec « 10 / 25 », le mode et la date formatée ;
   variante « version changée » quand `registry.current ≠ draft.bankVersion` ; Recommencer et
   Effacer ouvrent `ConfirmDialog` ; confirmer Effacer appelle `clearDraft` ; annuler ne change
   rien
-- [ ] T048 [P] [US3] Ajouter à `e2e/questionnaire.spec.ts` les tests « reprise » (10 réponses,
+- [X] T048 [P] [US3] Ajouter à `e2e/questionnaire.spec.ts` les tests « reprise » (10 réponses,
   `page.reload()`, `/`, carte « 10 / 25 », Reprendre → question 11, les 10 réponses intactes
   par Précédent, même liste d'énoncés), « effacer » (Effacer → confirmer → clé absente, accueil
   sans carte), « recommencer » (Recommencer → confirmer → écran sujets, clé absente),
@@ -411,17 +411,17 @@ vide `localStorage.getItem('radar-questionnaire')` et l'accueil n'a plus de cart
 
 ### Implementation pour User Story 3
 
-- [ ] T049 [US3] Compléter `src/lib/questionnaire/store.tsx` : lecture initiale du brouillon
+- [X] T049 [US3] Compléter `src/lib/questionnaire/store.tsx` : lecture initiale du brouillon
   via `useSyncExternalStore(subscribeDraft, readDraft, () => null)` (instantané serveur
   `null`, aucun texte dépendant du stockage dans le HTML statique) ; `probeStorage` au premier
   `start` ou `resume` → `storage` ; `writeDraft` après chaque action qui écrit si
   `'available'` ; `clearDraft` sur `reset` et `clear` ; adoption d'un brouillon plus récent
   venu d'un autre onglet (`resume`) ; `resume` refusé si `bankVersion ≠ bank.version` ou
   longueur incohérente (le brouillon reste stocké pour l'accueil, FR-024)
-- [ ] T050 [US3] Compléter `src/app/questionnaire/questions/page.tsx` : `Notice` ton `info`
+- [X] T050 [US3] Compléter `src/app/questionnaire/questions/page.tsx` : `Notice` ton `info`
   `questionnaire.questions.storageUnavailable` quand `storage = 'unavailable'` (FR-025),
   affiché au-dessus de la première question et conservé sur les suivantes
-- [ ] T051 [US3] Écrire `src/app/ResumePrompt.tsx` ('use client') : lit le brouillon par
+- [X] T051 [US3] Écrire `src/app/ResumePrompt.tsx` ('use client') : lit le brouillon par
   `useSyncExternalStore`, charge le registre par `loadRegistry` (état `unavailable` en cas
   d'échec → rien de rendu), dérive `resumeInfoFrom`, rend `ResumeCard` (`updatedAt` formaté
   par `useFormatter().dateTime`, libellés `home.resume.*`) ; Reprendre →
@@ -429,10 +429,10 @@ vide `localStorage.getItem('radar-questionnaire')` et l'accueil n'a plus de cart
   `questionnaire.confirm.restart.*` puis `clearDraft` et `router.push('/questionnaire')` ;
   Effacer → `ConfirmDialog` `questionnaire.confirm.clear.*` puis `clearDraft` (FR-023,
   FR-026) ; variante `version-changed` sans Reprendre (FR-024)
-- [ ] T052 [US3] Intégrer `<ResumePrompt />` dans `src/app/page.tsx` au-dessus du bouton de
+- [X] T052 [US3] Intégrer `<ResumePrompt />` dans `src/app/page.tsx` au-dessus du bouton de
   démarrage (composant client dans une page serveur) et vérifier qu'aucun texte de reprise
   n'apparaît dans le HTML exporté (`grep -c "Questionnaire en cours" out/index.html` = 0)
-- [ ] T053 [US3] Exécuter `pnpm build && pnpm e2e -- e2e/questionnaire.spec.ts` et corriger
+- [X] T053 [US3] Exécuter `pnpm build && pnpm e2e -- e2e/questionnaire.spec.ts` et corriger
   jusqu'au vert des tests T048 sans régression
 
 **Checkpoint**: une interruption à n'importe quel moment après la première question est
@@ -452,7 +452,7 @@ Confirmer → écran sujets présélectionné → changer un sujet → Continuer
 
 ### Tests pour User Story 4
 
-- [ ] T054 [P] [US4] Ajouter à `e2e/questionnaire.spec.ts` les tests « changer de sujets »
+- [X] T054 [P] [US4] Ajouter à `e2e/questionnaire.spec.ts` les tests « changer de sujets »
   (5 réponses, Modifier mes sujets → Annuler → même question et réponses intactes ; Modifier →
   Confirmer → écran sujets avec la sélection précédente présélectionnée, clé de stockage
   absente ; nouveau triplet → « 1 / N » et aucune réponse), « changer de mode » (idem via
@@ -464,20 +464,20 @@ Confirmer → écran sujets présélectionné → changer un sujet → Continuer
 
 ### Implementation pour User Story 4
 
-- [ ] T055 [US4] Compléter `src/app/questionnaire/questions/page.tsx` : boutons ghost
+- [X] T055 [US4] Compléter `src/app/questionnaire/questions/page.tsx` : boutons ghost
   `questionnaire.questions.changeThemes` et `questionnaire.questions.changeMode` ouvrant
   `ConfirmDialog` (`questionnaire.confirm.change.*`, `destructive`) ; Confirmer →
   `dispatch(reset)` (le `Choice` garde `priorities` et `mode`, R13) puis `router.push` vers
   `/questionnaire` ou `/questionnaire/mode` ; Annuler → fermeture, focus rendu au déclencheur,
   rien ne change
-- [ ] T056 [US4] Compléter `src/app/questionnaire/page.tsx` et
+- [X] T056 [US4] Compléter `src/app/questionnaire/page.tsx` et
   `src/app/questionnaire/mode/page.tsx` : présélection depuis `choice` (ou, si `choice` est
   vide et qu'un brouillon existe, depuis `draft.priorities` / `draft.mode`) ; sur
   `start() = 'needs-confirmation'`, ouvrir `ConfirmDialog` `questionnaire.confirm.change.*`
   puis `confirmStart()` et naviguer ; sur `'resumed'`, naviguer directement vers la position
   mémorisée ; aucune navigation vers `/questionnaire` ou `/questionnaire/mode` n'efface le
   brouillon
-- [ ] T057 [US4] Exécuter `pnpm build && pnpm e2e -- e2e/questionnaire.spec.ts` et corriger
+- [X] T057 [US4] Exécuter `pnpm build && pnpm e2e -- e2e/questionnaire.spec.ts` et corriger
   jusqu'au vert des tests T054 sans régression
 
 **Checkpoint**: les quatre stories passent ; aucune réponse n'est perdue sans confirmation.
@@ -488,25 +488,25 @@ Confirmer → écran sujets présélectionné → changer un sujet → Continuer
 
 **Purpose**: accessibilité clavier de bout en bout, vérification complète, documentation.
 
-- [ ] T058 [P] Ajouter à `e2e/questionnaire.spec.ts` le test « clavier seul » (SC-005) :
+- [X] T058 [P] Ajouter à `e2e/questionnaire.spec.ts` le test « clavier seul » (SC-005) :
   parcours court entièrement au clavier (Tab, flèches, Entrée) ; le focus n'est jamais sur
   `body` ; après Entrée sur une option, le focus est sur l'énoncé suivant ; la zone
   `aria-live` contient « Question n sur N » ; et le test « 320 px » (SC-004) : viewport
   320 × 640 sur chaque étape, `document.documentElement.scrollWidth ≤ 320`, chaque option,
   Passer, Précédent, Suivant a une boîte ≥ 44 × 44 px
-- [ ] T059 [P] Ajouter une vérification a11y automatisée (SC-006) dans
+- [X] T059 [P] Ajouter une vérification a11y automatisée (SC-006) dans
   `e2e/questionnaire.spec.ts` si `@axe-core/playwright` est déjà présent dans
   `package.json` ; sinon, s'appuyer sur les stories (projets `storybook` et
   `storybook-sombre`) et consigner dans le test un commentaire renvoyant à cette couverture ;
   n'ajouter aucune dépendance sans l'accord du propriétaire
-- [ ] T060 [P] Écrire `src/lib/questionnaire/README.md` : rôle du module (hors `src/core`,
+- [X] T060 [P] Écrire `src/lib/questionnaire/README.md` : rôle du module (hors `src/core`,
   hors `src/ui`), schéma du brouillon et de la clé `radar-questionnaire`, diagramme d'états
   de [data-model.md](data-model.md) § 4, point d'extension `draftFromResultState` réservé à
   la 005 (R14), lien vers les contrats de la 004
-- [ ] T061 [P] Vérifier que `.github/workflows/*.yml` exécute déjà `pnpm e2e` sur Chromium
+- [X] T061 [P] Vérifier que `.github/workflows/*.yml` exécute déjà `pnpm e2e` sur Chromium
   après `pnpm build` (socle 001) et qu'aucun ajout n'est nécessaire pour
   `e2e/questionnaire.spec.ts` ; sinon ajouter l'étape manquante
-- [ ] T062 Exécuter `pnpm verify` (lint, typecheck, `data:validate`, tests unitaires et
+- [X] T062 Exécuter `pnpm verify` (lint, typecheck, `data:validate`, tests unitaires et
   stories, build Storybook, build Next, e2e) et corriger jusqu'au vert ; confirmer
   `git diff --stat main -- src/core` vide
 - [ ] T063 Vérifications manuelles du [quickstart](quickstart.md) § 4, à faire par le
@@ -632,3 +632,40 @@ fusion dans l'ordre P2 → P3 → P4.
   005 (R14) et n'est pas une tâche de cette liste.
 - Commiter après chaque tâche ou groupe logique ; s'arrêter à chaque checkpoint pour valider
   la story indépendamment.
+
+---
+
+## Écarts d'implémentation (2026-11-08)
+
+Choix faits pendant `/speckit-implement`, sans changement de périmètre :
+
+- **Validation du brouillon sans zod** (T010) : `DraftSchema` est remplacé par `parseDraft`,
+  écrit à la main avec les mêmes règles (data-model § 5). Les schémas du jeu publié restent ceux
+  du cœur, mais `dataset-client.ts` les charge à la demande, en parallèle de la requête.
+  Ajout de `"sideEffects": ["**/*.css"]` à `package.json` pour que le module de schémas du cœur
+  ne soit plus embarqué dans le chargement initial. Poids mesurés sur l'export (HTML + JS + CSS
+  initiaux) : `/` 175 Ko, `/questionnaire` 179 Ko, `/questionnaire/questions` 181 Ko en brotli
+  (servi par Vercel) ; 202 à 208 Ko en gzip. Sans ces deux mesures : ~237 Ko gzip (zod ≈ 37 Ko).
+- **Accueil et e2e** (T030, T038) : le bouton « Commencer » de l'accueil reste lu au build
+  (`current = 0` aujourd'hui), les tests e2e entrent donc par `/questionnaire` ; la carte de
+  reprise, elle, charge le registre à l'exécution et est testée depuis `/`.
+- **Revalidation identique** (T056) : le bouton précédent du navigateur ramène le curseur en
+  arrière ; revalider le même triplet reprend donc à la **première question non traitée**
+  (question 6 du scénario US4), pas à la position laissée par l'historique.
+- **Démarrage implicite** (T035) : tenté une seule fois à l'arrivée sur l'étape questions ;
+  après « Modifier » (reset), la page part vers l'écran demandé sans recréer de brouillon.
+- **Brouillon stocké d'une autre version** : `start()` demande aussi confirmation avant de
+  l'écraser (rien n'est effacé sans confirmation, FR-024), en plus du cas R13.
+- **Contrôle T052** : `fr.json` est sérialisé dans chaque page par next-intl, donc le texte
+  « Questionnaire en cours » figure dans `out/index.html` comme donnée ; le contrôle porte sur le
+  rendu (aucun `>Reprendre<` ni titre de carte rendu dans le HTML exporté : 0).
+- **Composants** : variante `danger` ajoutée à `Button` (bouton Confirmer des actions
+  destructrices, story « Destructrice ») ; `buttonClassName` déplacé dans `Button/classes.ts`
+  (sans directive client) pour styler des `Link` rendus côté serveur ; clé
+  `ui.questionCard.priorityMark` (« sujet clé », visible) ajoutée pour ne jamais distinguer le
+  sujet clé par la seule couleur.
+- **Requêtes admises** (T030) : en plus de `/data/**`, l'export Next charge des fichiers de
+  segments (`/__next.*.txt`, paramètre `_rsc`) et précharge les liens du pied de page ; aucune
+  URL ne porte de sujet, de mode ni de réponse.
+- **T059** : `@axe-core/playwright` absent ; couverture a11y par les stories (commentaire dans
+  `e2e/questionnaire.spec.ts`).
