@@ -45,3 +45,83 @@
   polarity: "-"
   status: draft
   author: claude
+- id: institutions-proportionnelle-legislatives
+  text: Les députés doivent être élus au scrutin proportionnel.
+  themes:
+    - institutions
+    - democratie
+  polarity: +
+  status: draft
+  author: claude
+- id: institutions-autonomie-fiscale-collectivites
+  text: Les collectivités locales doivent disposer d'une plus grande autonomie fiscale.
+  themes:
+    - institutions
+    - fiscalite
+  polarity: +
+  status: draft
+  author: claude
+- id: institutions-autonomie-corse-constitution
+  text: La Corse doit obtenir un statut d'autonomie inscrit dans la Constitution.
+  themes:
+    - institutions
+  polarity: +
+  status: draft
+  author: claude
+- id: institutions-pouvoirs-commissions-enquete
+  text: Les commissions d'enquête parlementaires doivent disposer de pouvoirs d'investigation élargis.
+  themes:
+    - institutions
+  polarity: +
+  status: draft
+  author: claude
+- id: institutions-ordre-du-jour-parlement
+  text: Le Parlement doit fixer seul son ordre du jour, sans priorité accordée au gouvernement.
+  themes:
+    - institutions
+  polarity: +
+  status: draft
+  author: claude
+- id: institutions-investiture-premier-ministre
+  text: Le Premier ministre doit obtenir un vote de confiance de l'Assemblée nationale après sa nomination.
+  themes:
+    - institutions
+  polarity: +
+  status: draft
+  author: claude
+- id: institutions-reduire-nombre-parlementaires
+  text: Le nombre de députés et de sénateurs doit être réduit.
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: claude
+- id: institutions-supprimer-senat
+  text: Le Sénat doit être supprimé.
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: claude
+- id: institutions-competences-retour-etat
+  text: Une partie des compétences exercées par les collectivités locales doit revenir à l'État.
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: claude
+- id: institutions-ordonnances-elargies
+  text: Le gouvernement doit pouvoir légiférer plus largement par ordonnances.
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: claude
+- id: institutions-referendum-revision-constitution
+  text: Le président de la République doit pouvoir soumettre directement au référendum une révision de la Constitution.
+  themes:
+    - institutions
+    - democratie
+  polarity: "-"
+  status: draft
+  author: claude
