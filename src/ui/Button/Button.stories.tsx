@@ -12,7 +12,7 @@ const meta = {
     disabled: false,
   },
   argTypes: {
-    variant: { control: 'inline-radio', options: ['primary', 'secondary', 'ghost'] },
+    variant: { control: 'inline-radio', options: ['primary', 'secondary', 'ghost', 'danger'] },
     size: { control: 'inline-radio', options: ['md', 'sm'] },
     href: { control: 'text' },
     onClick: { action: 'clic' },
@@ -62,6 +62,11 @@ export const Discret: Story = {
   args: { variant: 'ghost', children: 'Passer' },
 };
 
+export const Danger: Story = {
+  name: 'Destructrice',
+  args: { variant: 'danger', children: 'Effacer' },
+};
+
 export const Compact: Story = {
   name: 'Compacte',
   args: { size: 'sm', children: 'Détails' },
@@ -71,7 +76,7 @@ export const ToutesLesVariantes: Story = {
   name: 'Toutes les variantes',
   render: (args) => (
     <div className="flex flex-col gap-4">
-      {(['primary', 'secondary', 'ghost'] as const).map((variant) => (
+      {(['primary', 'secondary', 'ghost', 'danger'] as const).map((variant) => (
         <div key={variant} className="flex flex-wrap items-center gap-3">
           <Button {...args} variant={variant} />
           <Button {...args} variant={variant} size="sm" />

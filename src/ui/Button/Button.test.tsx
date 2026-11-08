@@ -69,6 +69,8 @@ describe('Button', () => {
     );
     expect(screen.getByRole('button').className).toContain('text-accent');
     expect(screen.getByRole('button').className).toContain('text-sm');
+    rerender(<Button variant="danger">A</Button>);
+    expect(screen.getByRole('button').className).toContain('bg-danger');
   });
 
   it('garde une cible tactile minimale de 44 px', () => {

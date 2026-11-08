@@ -8,6 +8,9 @@
   "engines": {
     "node": ">=24 <25"
   },
+  "sideEffects": [
+    "**/*.css"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",

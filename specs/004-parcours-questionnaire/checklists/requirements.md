@@ -45,3 +45,14 @@
     listées dans « Assumptions ».
   - Section « Constitution Alignment » couvrant les principes I à VII, comme l'exige la
     gouvernance de la constitution.
+- Revalidation du 2026-11-08 (itération 2, après fusion des spécifications 002 et 003 dans `main`) :
+  - FR-016, FR-017, SC-009 et l'hypothèse sur la liste de questions reformulés : l'ordre de
+    présentation (tourniquet) est produit par la sélection de la 003 (FR-024 à FR-027 de cette
+    spécification), le parcours le respecte sans le recalculer ; la position dans cet ordre est
+    l'index de la réponse dans l'état complet.
+  - Vocabulaire des réponses (« passée », « non répondue »), seuil de fiabilité (« moins de 2
+    réponses non passées »), bornes 3 à 5 sujets clés et cibles 25 / 100 questions vérifiés
+    conformes au contrat `core-api` de la 003.
+  - Hypothèse ajoutée : la version de banque est celle servie au démarrage et reste figée pendant
+    le questionnaire et sa reprise (FR-024 traite le cas où le site a changé de version).
+  - Aucun autre écart ; tous les points de la checklist restent cochés.

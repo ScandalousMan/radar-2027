@@ -1,0 +1,59 @@
+// Chargeur navigateur du jeu publié (contracts/storage-and-data.md § 2, R5).
+// Seul chargeur client : réutilisé par la 005 pour les versions antérieures. Requêtes même
+// origine, sans paramètre ni en-tête ajouté (SC-008) ; aucun import `node:*`.
+import type { MainDataset, VersionRegistry } from '@/core/dataset/types';
+
+// Schémas chargés à la demande, en parallèle de la requête : zod reste hors du chargement initial des pages.
+const schemas = () => import('@/core/dataset/schema');
+
+export type DatasetClientError = { kind: 'network'; status?: number } | { kind: 'invalid'; issues: string };
+
+type Fetcher = typeof fetch;
+
+const mainCache = new Map<number, Promise<MainDataset>>();
+
+export function isDatasetClientError(value: unknown): value is DatasetClientError {
+  return typeof value === 'object' && value !== null && 'kind' in value && (value.kind === 'network' || value.kind === 'invalid');
+}
+
+async function getJson(url: string, cache: RequestCache, fetcher: Fetcher): Promise<unknown> {
+  let response: Response;
+  try {
+    response = await fetcher(url, { cache });
+  } catch {
+    throw { kind: 'network' } satisfies DatasetClientError;
+  }
+  if (!response.ok) throw { kind: 'network', status: response.status } satisfies DatasetClientError;
+  try {
+    return await response.json();
+  } catch {
+    throw { kind: 'invalid', issues: 'JSON illisible' } satisfies DatasetClientError;
+  }
+}
+
+function validate<T>(schema: { safeParse(v: unknown): { success: true; data: T } | { success: false; error: { message: string } } }, value: unknown): T {
+  const parsed = schema.safeParse(value);
+  if (!parsed.success) throw { kind: 'invalid', issues: parsed.error.message } satisfies DatasetClientError;
+  return parsed.data;
+}
+
+/** Registre des versions publiées (`current = 0` : aucune version). */
+export async function loadRegistry(fetcher: Fetcher = fetch): Promise<VersionRegistry> {
+  const [json, { VersionRegistrySchema }] = await Promise.all([getJson('/data/versions.json', 'no-cache', fetcher), schemas()]);
+  return validate(VersionRegistrySchema, json);
+}
+
+/** Jeu principal d'une version (immuable, mémoïsé pour la durée de la page). */
+export function loadMain(version: number, fetcher: Fetcher = fetch): Promise<MainDataset> {
+  const cached = mainCache.get(version);
+  if (cached) return cached;
+  const promise = Promise.all([getJson(`/data/versions/${version}/main.json`, 'force-cache', fetcher), schemas()]).then(([json, { MainDatasetSchema }]) => validate(MainDatasetSchema, json));
+  mainCache.set(version, promise);
+  // Un échec n'est pas mémorisé : « Réessayer » relance la requête.
+  promise.catch(() => mainCache.delete(version));
+  return promise;
+}
+
+export function clearDatasetCache(): void {
+  mainCache.clear();
+}

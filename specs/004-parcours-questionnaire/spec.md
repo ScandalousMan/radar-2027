@@ -4,7 +4,7 @@
 
 **Created**: 2026-11-06
 
-**Status**: Draft
+**Status**: Draft (révisée le 2026-11-08 après fusion des spécifications 002 et 003)
 
 **Input**: User description: "Parcours questionnaire : choix des sujets clés, mode, réponses"
 
@@ -254,12 +254,13 @@ de questions correspondant aux nouveaux sujets.
 - **FR-015**: La liste et l'ordre des questions d'un parcours DOIVENT être entièrement déterminés
   par le triplet (version de banque, mode, sujets clés) et NE DOIVENT jamais dépendre des réponses
   données ; le nombre total N DOIT être connu et affiché dès la première question.
-- **FR-016**: Les questions DOIVENT être présentées en tourniquet entre les thèmes, de sorte que
-  deux questions consécutives appartiennent à des thèmes différents chaque fois que la liste le
-  permet.
-- **FR-017**: La composition de la liste (quotas par thème, choix des énoncés) relève de la
-  spécification 003 ; la présente fonctionnalité DOIT se contenter de présenter la liste reçue
-  sans la modifier.
+- **FR-016**: Les questions DOIVENT être présentées dans l'ordre de présentation fourni par la
+  spécification 003 (tourniquet entre les thèmes : deux questions consécutives appartiennent à
+  des thèmes différents chaque fois que la liste le permet) ; la position de chaque question dans
+  cet ordre est celle qui identifie sa réponse dans l'état complet transmis aux résultats.
+- **FR-017**: La composition et l'ordre de la liste (quotas par thème, choix des énoncés,
+  tourniquet) relèvent de la spécification 003 ; la présente fonctionnalité DOIT se contenter de
+  présenter la liste reçue sans la modifier, la réordonner ni la filtrer.
 - **FR-018**: Le répondant DOIT pouvoir, depuis n'importe quelle question, demander à modifier
   ses sujets clés ou son mode ; le système DOIT alors l'avertir que ses réponses seront perdues,
   obtenir sa confirmation, puis réinitialiser le questionnaire (réponses et mémorisation sur
@@ -357,8 +358,9 @@ de questions correspondant aux nouveaux sujets.
   clé, de mode, de réponse ou de position (vérifié par observation du trafic en test de bout en
   bout).
 - **SC-009**: Pour un même triplet (version de banque, mode, sujets clés), 100 des 100 démarrages
-  produisent la même liste de questions dans le même ordre, et deux questions consécutives
-  appartiennent à des thèmes différents dans au moins 95 % des transitions.
+  produisent la même liste de questions dans le même ordre, identique à celle fournie par la
+  spécification 003, et deux questions consécutives appartiennent à des thèmes différents dans au
+  moins 95 % des transitions.
 - **SC-010**: Le passage d'une question à la suivante est perçu comme immédiat : moins de 100 ms
   entre le choix d'une réponse et l'affichage de la question suivante sur un téléphone de milieu
   de gamme.
@@ -369,8 +371,12 @@ de questions correspondant aux nouveaux sujets.
 
 - La liste des thèmes (environ 16, libellés et descriptions courtes) et la banque de questions
   versionnée sont fournies par la spécification 002 ; cette fonctionnalité ne les modifie pas.
-- La constitution de la liste de questions pour un triplet (version, mode, sujets clés) est
-  fournie par la spécification 003 ; le parcours la reçoit telle quelle et l'affiche en tourniquet.
+- La constitution et l'ordre de présentation de la liste de questions pour un triplet (version,
+  mode, sujets clés) sont fournis par la spécification 003 (sélection déterministe, tourniquet
+  sur les thèmes, fusionnée le 2026-11-08) ; le parcours reçoit la liste telle quelle et la
+  présente dans cet ordre.
+- La version de banque du questionnaire est celle servie par le site au moment du démarrage ;
+  elle est figée pour toute la durée du questionnaire et de sa reprise.
 - Le seuil de fiabilité retenu pour l'avertissement de fin est « moins de 2 réponses non passées
   dans au moins un sujet clé », aligné sur la règle de score (score de thème indéfini sous
   2 réponses) ; il pourra être ajusté par la spécification 005 sans changer le parcours.

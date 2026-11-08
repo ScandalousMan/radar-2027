@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { useState } from 'react';
-import { fn } from 'storybook/test';
+import { expect, fn, userEvent, within } from 'storybook/test';
 import { LikertChoice, type LikertChoiceProps } from './LikertChoice';
 
 function Controlled(props: LikertChoiceProps) {
@@ -27,6 +27,7 @@ const meta = {
     legend: 'L’État doit construire davantage de logements sociaux.',
     disabled: false,
     onChange: fn(),
+    onCommit: fn(),
   },
   argTypes: {
     value: { control: 'select', options: [null, -2, -1, 0, 1, 2, 'skipped'] },
@@ -52,4 +53,17 @@ export const Etroit320: Story = {
   name: 'Étroit 320 px',
   globals: { viewport: { value: 'mobile320', isRotated: false } },
   args: { value: 1 },
+};
+
+export const Commit: Story = {
+  name: 'Commit (clic, Entrée ; flèches sans commit)',
+  play: async ({ args, canvasElement }) => {
+    const canvas = within(canvasElement);
+    await userEvent.click(canvas.getByRole('radio', { name: 'Plutôt d’accord' }));
+    await expect(args.onCommit).toHaveBeenCalledWith(1);
+    await userEvent.keyboard('{ArrowRight}');
+    await expect(args.onCommit).toHaveBeenCalledTimes(1);
+    await userEvent.keyboard('{Enter}');
+    await expect(args.onCommit).toHaveBeenLastCalledWith(2);
+  },
 };

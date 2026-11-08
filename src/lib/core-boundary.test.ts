@@ -1,4 +1,5 @@
 // @vitest-environment node
+import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { ESLint } from 'eslint';
 import { describe, expect, it, vi } from 'vitest';
@@ -42,5 +43,34 @@ describe('frontière src/core (FR-018, principe III)', () => {
   it('le même import est accepté hors de src/core', async () => {
     const messages = await lintVirtualFile('src/lib/exemple.ts', "import { useState } from 'react';\nexport const x = useState;\n");
     expect(messages.some((m) => m.ruleId === 'no-restricted-imports')).toBe(false);
+  });
+});
+
+// Fonctionnalité 004 : le parcours dépend du cœur, jamais l'inverse ; l'état du parcours ne
+// dépend ni du routeur Next ni des composants (lecture des sources par node:fs).
+describe('frontières du parcours questionnaire (004)', () => {
+  const sourcesUnder = (dir: string): Array<[string, string]> =>
+    readdirSync(join(root, dir), { recursive: true, withFileTypes: true })
+      .filter((entry) => entry.isFile() && /\.(ts|tsx)$/.test(entry.name))
+      .map((entry) => {
+        const file = join(entry.parentPath, entry.name);
+        return [file, readFileSync(file, 'utf8')] as [string, string];
+      });
+  const importsOf = (code: string) => [...code.matchAll(/(?:from|import)\s*\(?\s*['"]([^'"]+)['"]/g)].map((m) => m[1]!);
+
+  it('aucun fichier de src/core n’importe @/lib/questionnaire ni @/lib/dataset-client', () => {
+    for (const [file, code] of sourcesUnder('src/core')) {
+      const bad = importsOf(code).filter((s) => /lib\/(questionnaire|dataset-client)/.test(s));
+      expect(bad, file).toEqual([]);
+    }
+  });
+
+  it('src/lib/questionnaire n’importe ni next/navigation ni @/ui', () => {
+    const files = sourcesUnder('src/lib/questionnaire');
+    expect(files.length).toBeGreaterThan(0);
+    for (const [file, code] of files) {
+      const bad = importsOf(code).filter((s) => s === 'next/navigation' || s.startsWith('next/') || s === '@/ui' || s.startsWith('@/ui/'));
+      expect(bad, file).toEqual([]);
+    }
   });
 });

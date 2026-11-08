@@ -18,7 +18,16 @@
     "lead": "radar-2027 compare vos réponses aux positions des candidats à la présidentielle 2027, en donnant plus de poids aux sujets qui comptent pour vous.",
     "privacy": "Tout est calculé dans votre navigateur : aucune réponse n’est envoyée ni conservée.",
     "cta": "Commencer",
-    "ctaSoon": "Le questionnaire arrive bientôt."
+    "ctaSoon": "Le questionnaire arrive bientôt.",
+    "methodology": "Comment sont choisis les thèmes, les questions et les candidats",
+    "resume": {
+      "title": "Un questionnaire est en cours",
+      "summary": "{mode, select, short {Mode court} full {Mode complet} other {Questionnaire}} · {done} / {total} questions · dernière réponse le {date}",
+      "resume": "Reprendre",
+      "restart": "Recommencer",
+      "clear": "Effacer",
+      "versionChanged": "Les questions ont été mises à jour depuis votre dernière visite : ce questionnaire ne peut pas être repris tel quel. Vous pouvez le recommencer ou l’effacer."
+    }
   },
   "ui": {
     "likert": {
@@ -73,6 +82,41 @@
         "declared": "Candidature déclarée"
       },
       "viewPositions": "Voir les positions"
+    },
+    "modeChoice": {
+      "short": {
+        "title": "Mode court",
+        "duration": "Environ 3 minutes",
+        "detail": "Seuls vos sujets clés sont détaillés ; les autres thèmes sont effleurés."
+      },
+      "full": {
+        "title": "Mode complet",
+        "duration": "Environ 10 minutes",
+        "detail": "Tous les thèmes sont détaillés, vos sujets clés davantage."
+      },
+      "questions": "{count, plural, one {# question} other {# questions}}"
+    },
+    "questionCard": {
+      "answerLegend": "Votre réponse",
+      "themes": "Thèmes de la question",
+      "priorityTheme": "Sujet clé : {label}",
+      "priorityMark": "sujet clé"
+    },
+    "resumeCard": {
+      "title": "Questionnaire en cours",
+      "summary": "{mode, select, short {Mode court} full {Mode complet} other {Questionnaire}} · {done} / {total} questions traitées · dernière réponse le {date}",
+      "resume": "Reprendre",
+      "restart": "Recommencer",
+      "clear": "Effacer",
+      "versionChanged": "Les questions ont été mises à jour : ce questionnaire ne peut pas être repris tel quel."
+    },
+    "notice": {
+      "info": "Information",
+      "warning": "Attention"
+    },
+    "answerSummary": {
+      "counts": "{answered, plural, one {# répondue} other {# répondues}}, {skipped, plural, one {# passée} other {# passées}}, {unanswered, plural, one {# non répondue} other {# non répondues}}",
+      "unreliable": "Trop peu de réponses pour un score fiable (minimum {min})"
     }
   },
   "methodology": {
@@ -128,5 +172,68 @@
       "positionsTitle": "Positions sourcées",
       "noPositions": "Aucune position relue et sourcée n’est encore publiée pour cette candidature."
     }
+  },
+  "questionnaire": {
+    "title": "Questionnaire",
+    "loading": "Chargement des questions…",
+    "noVersion": "Le questionnaire n’est pas encore disponible : aucune version des questions n’est publiée.",
+    "loadError": "Les questions n’ont pas pu être chargées. Vérifiez votre connexion puis réessayez.",
+    "retry": "Réessayer",
+    "themes": {
+      "title": "Quels sujets comptent le plus pour vous ?",
+      "legend": "Choisissez de 3 à 5 sujets clés",
+      "explain": "Vos sujets clés pèsent trois fois plus que les autres dans le calcul, et un candidat ne peut pas obtenir un score global supérieur à son score sur ces sujets.",
+      "continue": "Continuer"
+    },
+    "mode": {
+      "title": "Choisissez votre mode",
+      "legend": "Mode du questionnaire",
+      "back": "Revenir aux sujets",
+      "continue": "Commencer le questionnaire"
+    },
+    "questions": {
+      "progress": "Question {n} sur {total}",
+      "previous": "Question précédente",
+      "next": "Question suivante",
+      "finish": "Terminer",
+      "changeThemes": "Modifier mes sujets clés",
+      "changeMode": "Modifier le mode",
+      "hint": "« Neutre / sans avis » compte comme une réponse au milieu de l’échelle ; « Passer » retire la question du calcul.",
+      "storageUnavailable": "Votre navigateur ne permet pas de conserver votre progression : si vous quittez cette page, vos réponses seront perdues."
+    },
+    "confirm": {
+      "change": {
+        "title": "Modifier vos choix ?",
+        "description": "La liste des questions dépend de vos sujets clés et du mode : vos réponses en cours seront perdues.",
+        "confirm": "Modifier et recommencer"
+      },
+      "restart": {
+        "title": "Recommencer le questionnaire ?",
+        "description": "Vos réponses en cours seront effacées de cet appareil.",
+        "confirm": "Recommencer"
+      },
+      "clear": {
+        "title": "Effacer le questionnaire ?",
+        "description": "Toutes les données du questionnaire seront supprimées de cet appareil. Rien n’a jamais été envoyé ailleurs.",
+        "confirm": "Effacer"
+      },
+      "cancel": "Annuler"
+    },
+    "end": {
+      "title": "Vous avez terminé",
+      "intro": "Voici le nombre de réponses données pour chacun de vos sujets clés.",
+      "totals": "{answered, plural, one {# question répondue} other {# questions répondues}}, {skipped, plural, =0 {aucune passée} one {# passée} other {# passées}}",
+      "warning": {
+        "title": "Résultat peu fiable sur certains sujets",
+        "description": "Vous avez répondu à moins de {min} questions sur : {themes}. Le score de ces sujets ne pourra pas être calculé. Vous pouvez revenir compléter vos réponses ou afficher vos résultats malgré tout."
+      },
+      "back": "Revenir aux questions",
+      "results": "Voir mes résultats"
+    }
+  },
+  "results": {
+    "title": "Résultats",
+    "soon": "La page de résultats arrive bientôt. Ce lien reste valable : conservez-le pour revenir voir vos résultats.",
+    "backToQuestionnaire": "Revenir au questionnaire"
   }
 }
