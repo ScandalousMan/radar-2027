@@ -46,3 +46,86 @@
   polarity: "-"
   status: draft
   author: claude
+- id: defense-effectifs-armees-hausse
+  text: Les effectifs des armées doivent augmenter d'au moins 10 % d'ici 2030.
+  themes:
+    - defense
+  polarity: +
+  status: draft
+  author: claude
+- id: defense-dissuasion-protection-europe
+  text: La dissuasion nucléaire française doit couvrir explicitement la protection des autres pays européens.
+  themes:
+    - defense
+    - international
+  polarity: +
+  status: draft
+  author: claude
+- id: defense-second-porte-avions
+  text: La France doit se doter d'un second porte-avions.
+  themes:
+    - defense
+  polarity: +
+  status: draft
+  author: claude
+- id: defense-troupes-ukraine-cessez-le-feu
+  text: La France doit être prête à déployer des troupes en Ukraine pour garantir un cessez-le-feu.
+  themes:
+    - defense
+    - international
+  polarity: +
+  status: draft
+  author: claude
+- id: defense-doubler-reservistes
+  text: Le nombre de réservistes opérationnels des armées doit être doublé.
+  themes:
+    - defense
+  polarity: +
+  status: draft
+  author: claude
+- id: defense-livret-a-industrie-defense
+  text: L'épargne du livret A doit pouvoir financer l'industrie de défense.
+  themes:
+    - defense
+    - economie
+  polarity: +
+  status: draft
+  author: claude
+- id: defense-traite-interdiction-armes-nucleaires
+  text: La France doit signer le traité sur l'interdiction des armes nucléaires.
+  themes:
+    - defense
+    - international
+  polarity: "-"
+  status: draft
+  author: claude
+- id: defense-cesser-ventes-armes-conflits
+  text: La France doit cesser de vendre des armes aux États engagés dans un conflit armé.
+  themes:
+    - defense
+    - international
+  polarity: "-"
+  status: draft
+  author: claude
+- id: defense-reduire-budget-armees
+  text: Le budget des armées doit être réduit en proportion du PIB.
+  themes:
+    - defense
+  polarity: "-"
+  status: draft
+  author: claude
+- id: defense-fermer-bases-afrique
+  text: La France doit fermer ses bases militaires en Afrique.
+  themes:
+    - defense
+    - international
+  polarity: "-"
+  status: draft
+  author: claude
+- id: defense-priorite-depenses-sociales
+  text: Les dépenses sociales doivent passer avant les dépenses militaires dans le budget de l'État.
+  themes:
+    - defense
+  polarity: "-"
+  status: draft
+  author: claude
