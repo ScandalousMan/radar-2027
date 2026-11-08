@@ -45,3 +45,85 @@
   polarity: "-"
   status: draft
   author: claude
+- id: securite-videosurveillance-algorithmique
+  text: La vidéosurveillance algorithmique doit être autorisée de façon permanente dans l'espace public.
+  themes:
+    - securite
+    - numerique
+  polarity: +
+  status: draft
+  author: claude
+- id: securite-presomption-legitime-defense
+  text: Les policiers doivent bénéficier d'une présomption de légitime défense lorsqu'ils font usage de leur arme.
+  themes:
+    - securite
+    - justice
+  polarity: +
+  status: draft
+  author: claude
+- id: securite-couvre-feu-mineurs
+  text: Les maires doivent pouvoir instaurer un couvre-feu nocturne pour les mineurs.
+  themes:
+    - securite
+  polarity: +
+  status: draft
+  author: claude
+- id: securite-armer-polices-municipales
+  text: Les policiers municipaux doivent être armés dans toutes les communes.
+  themes:
+    - securite
+  polarity: +
+  status: draft
+  author: claude
+- id: securite-retention-radicalisation
+  text: Les personnes signalées pour radicalisation violente doivent pouvoir être placées en rétention administrative.
+  themes:
+    - securite
+  polarity: +
+  status: draft
+  author: claude
+- id: securite-enquetes-policiers-independantes
+  text: Les enquêtes visant des policiers doivent être confiées à un organisme indépendant du ministère de l'Intérieur.
+  themes:
+    - securite
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
+- id: securite-restreindre-tirs-refus-obtemperer
+  text: Les règles d'usage des armes à feu par les policiers lors des refus d'obtempérer doivent être restreintes.
+  themes:
+    - securite
+  polarity: "-"
+  status: draft
+  author: claude
+- id: securite-renseignement-autorisation-juge
+  text: Les techniques de renseignement doivent être soumises à l'autorisation préalable d'un juge.
+  themes:
+    - securite
+    - numerique
+  polarity: "-"
+  status: draft
+  author: claude
+- id: securite-limiter-dissolution-associations
+  text: Le pouvoir du gouvernement de dissoudre des associations par décret doit être limité.
+  themes:
+    - securite
+  polarity: "-"
+  status: draft
+  author: claude
+- id: securite-interdire-drones-manifestations
+  text: L'usage de drones par la police pour surveiller les manifestations doit être interdit.
+  themes:
+    - securite
+  polarity: "-"
+  status: draft
+  author: claude
+- id: securite-manifestations-sans-declaration
+  text: Les manifestations doivent pouvoir se tenir sans déclaration préalable en préfecture.
+  themes:
+    - securite
+    - democratie
+  polarity: "-"
+  status: draft
+  author: claude
