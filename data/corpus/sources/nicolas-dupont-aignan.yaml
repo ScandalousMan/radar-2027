@@ -1,0 +1,11 @@
+- id: nicolas-dupont-aignan-declaration-candidature
+  url: https://info.fr/yerres-dupont-aignan-candidature-presidentielle-2027-sursaut-gaulliste/
+  title: Nicolas Dupont-Aignan candidat en 2027 (info.fr)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-04-23
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:5ceb00054311e801777520775415bdd8e58e7d7e51c8200b0272e31061a5dd30

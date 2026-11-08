@@ -1,0 +1,11 @@
+- id: raphael-glucksmann-declaration-candidature
+  url: https://lcp.fr/actualites/presidentielle-2027-raphael-glucksmann-officialise-sa-candidature-et-participera-a-la
+  title: Raphaël Glucksmann officialise sa candidature (LCP)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-08-23
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - raphael-glucksmann
+  contentHash: sha256:5b23a4314a13ea8e28aeebf8797425eb97b1df2d0435f75279c6d442577f920a

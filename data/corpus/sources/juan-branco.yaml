@@ -1,0 +1,11 @@
+- id: juan-branco-declaration-candidature
+  url: https://www.sudradio.fr/sud-radio/lavocat-juan-branco-candidat-a-la-presidentielle
+  title: L'avocat Juan Branco candidat à la présidentielle (Sud Radio)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-12-19
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - juan-branco
+  contentHash: sha256:a3ca7eff460274e1c292f88af9ab23f8396887e37e1c4d14874362512bd33c34

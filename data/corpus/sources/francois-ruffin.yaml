@@ -1,0 +1,11 @@
+- id: francois-ruffin-declaration-candidature
+  url: https://www.lyonmag.com/article/151368/presidentielle-2027-francois-ruffin-candidat-son-premier-meeting-entretien-d-embauche-programme-a-lyon
+  title: François Ruffin candidat, premier meeting à Lyon (LyonMag)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-04-10
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:d4e678089f4324bbe9abd6b2891dd68723acfbe7d1c627dd18dbd59d9a10b9e4

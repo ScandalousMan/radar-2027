@@ -1,0 +1,11 @@
+- id: david-lisnard-declaration-candidature
+  url: https://lcp.fr/actualites/je-suis-candidat-david-lisnard-quitte-lr-et-relance-le-debat-sur-une-primaire-a-droite
+  title: "David Lisnard : « Je suis candidat » (LCP)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-04-01
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - david-lisnard
+  contentHash: sha256:faa79bb061acf6099ac1b4c6dab4bb6ba5260f2e46f4599fde8bf542d762a67b

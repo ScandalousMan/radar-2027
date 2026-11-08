@@ -1,4 +1,223 @@
 # Candidats (FR-004 à FR-007). Inclusion seulement sur déclaration publique et personnelle
 # attestée par une source datée (critère `declaration-publique-personnelle`, FR-006).
 # Chaque source de statut est enregistrée par `pnpm data:source fetch … --kind declaration_vote`.
-[]
+#
+# Liste arbitrée par le propriétaire le 2026-11-08 sur la base de
+# specs/002-corpus-ontologie-pipeline/candidats-2026-11-08.md (18 déclarés retenus).
+
+- id: edouard-philippe
+  name: Édouard Philippe
+  party: Horizons
+  status: declared
+  statusChangedAt: 2024-09-03
+  statusSource: edouard-philippe-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2024-09-03
+      source: edouard-philippe-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: marine-tondelier
+  name: Marine Tondelier
+  party: Les Écologistes
+  status: declared
+  statusChangedAt: 2025-10-22
+  statusSource: marine-tondelier-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2025-10-22
+      source: marine-tondelier-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: delphine-batho
+  name: Delphine Batho
+  party: Génération Écologie
+  status: declared
+  statusChangedAt: 2025-11-25
+  statusSource: delphine-batho-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2025-11-25
+      source: delphine-batho-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: nathalie-arthaud
+  name: Nathalie Arthaud
+  party: Lutte ouvrière
+  status: declared
+  statusChangedAt: 2025-12-08
+  statusSource: nathalie-arthaud-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2025-12-08
+      source: nathalie-arthaud-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: juan-branco
+  name: Juan Branco
+  party: Les Ruches
+  status: declared
+  statusChangedAt: 2025-12-19
+  statusSource: juan-branco-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2025-12-19
+      source: juan-branco-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: bruno-retailleau
+  name: Bruno Retailleau
+  party: Les Républicains
+  status: declared
+  statusChangedAt: 2026-02-12
+  statusSource: bruno-retailleau-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-02-12
+      source: bruno-retailleau-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: francois-asselineau
+  name: François Asselineau
+  party: Union populaire républicaine
+  status: declared
+  statusChangedAt: 2026-03-21
+  statusSource: francois-asselineau-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-03-21
+      source: francois-asselineau-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: david-lisnard
+  name: David Lisnard
+  party: Nouvelle Énergie
+  status: declared
+  statusChangedAt: 2026-03-31
+  statusSource: david-lisnard-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-03-31
+      source: david-lisnard-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: francois-ruffin
+  name: François Ruffin
+  party: Debout !
+  status: declared
+  statusChangedAt: 2026-04-10
+  statusSource: francois-ruffin-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-04-10
+      source: francois-ruffin-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: nicolas-dupont-aignan
+  name: Nicolas Dupont-Aignan
+  party: Debout la France
+  status: declared
+  statusChangedAt: 2026-04-23
+  statusSource: nicolas-dupont-aignan-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-04-23
+      source: nicolas-dupont-aignan-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: jean-luc-melenchon
+  name: Jean-Luc Mélenchon
+  party: La France insoumise
+  status: declared
+  statusChangedAt: 2026-05-03
+  statusSource: jean-luc-melenchon-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-05-03
+      source: jean-luc-melenchon-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: florian-philippot
+  name: Florian Philippot
+  party: Les Patriotes
+  status: declared
+  statusChangedAt: 2026-05-09
+  statusSource: florian-philippot-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-05-09
+      source: florian-philippot-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: gabriel-attal
+  name: Gabriel Attal
+  party: Renaissance
+  status: declared
+  statusChangedAt: 2026-05-22
+  statusSource: gabriel-attal-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-05-22
+      source: gabriel-attal-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: anasse-kazib
+  name: Anasse Kazib
+  party: Révolution permanente
+  status: declared
+  statusChangedAt: 2026-06-01
+  statusSource: anasse-kazib-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-06-01
+      source: anasse-kazib-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: marine-le-pen
+  name: Marine Le Pen
+  party: Rassemblement national
+  status: declared
+  statusChangedAt: 2026-07-07
+  statusSource: marine-le-pen-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-07-07
+      source: marine-le-pen-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: raphael-glucksmann
+  name: Raphaël Glucksmann
+  party: Place publique
+  status: declared
+  statusChangedAt: 2026-08-23
+  statusSource: raphael-glucksmann-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-08-23
+      source: raphael-glucksmann-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: fabien-roussel
+  name: Fabien Roussel
+  party: Parti communiste français
+  status: declared
+  statusChangedAt: 2026-09-06
+  statusSource: fabien-roussel-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-09-06
+      source: fabien-roussel-declaration-candidature
+      criterion: declaration-publique-personnelle
+- id: eric-zemmour
+  name: Éric Zemmour
+  party: Reconquête
+  status: declared
+  statusChangedAt: 2026-09-17
+  statusSource: eric-zemmour-declaration-candidature
+  statusCriterion: declaration-publique-personnelle
+  history:
+    - status: declared
+      at: 2026-09-17
+      source: eric-zemmour-declaration-candidature
+      criterion: declaration-publique-personnelle

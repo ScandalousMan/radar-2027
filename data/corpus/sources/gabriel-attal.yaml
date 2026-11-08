@@ -1,0 +1,11 @@
+- id: gabriel-attal-declaration-candidature
+  url: https://lcp.fr/actualites/presidentielle-2027-gabriel-attal-officialise-sa-candidature-436721
+  title: Gabriel Attal officialise sa candidature (LCP)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-22
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:84850bb1126814329a8d31ad13b9d09aef90fa788d9a8ff0af9208e919733cc6

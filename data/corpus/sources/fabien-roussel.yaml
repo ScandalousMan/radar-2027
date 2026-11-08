@@ -1,0 +1,11 @@
+- id: fabien-roussel-declaration-candidature
+  url: https://www.franceinfo.fr/elections/presidentielle/le-communiste-fabien-roussel-officialise-sa-candidature-a-l-election-presidentielle-de-2027-pour-defendre-un-projet-de-rupture_8179856.html
+  title: Fabien Roussel officialise sa candidature à l'élection présidentielle de 2027 (franceinfo)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-06
+    precision: day
+  accessedAt: 2026-11-08
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:834aca6d0fe54ae9e90ada164a7d507cfe00143b29f1c49c5a8bc8cb4ba07b76
