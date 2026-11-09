@@ -1,0 +1,1137 @@
+# Positions de Raphaël Glucksmann (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
+# provenance manual), à relire par adrien avec pnpm data:review.
+
+- question: agriculture-bio-restauration-collective
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Faire de la cantine le lieu d'accès universel à une alimentation saine, locale et bio
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut une cantine offrant une alimentation bio et locale, sans fixer l'objectif chiffré de 30 %.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-chalut-aires-protegees
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: faire en sorte que les aires marines protégées soient réellement protégées (chalutage)
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut protéger réellement les aires marines protégées en visant le chalutage, sans formuler explicitement une interdiction du chalut de fond.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-derogations-neonicotinoides
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Éliminer les produits chimiques dangereux en interdisant les pesticides les plus néfastes, glyphosate, néonicotinoïdes tueurs d'abeilles
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose d'interdire les néonicotinoïdes, ce qui est l'inverse de dérogations permettant leur usage.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-interdire-glyphosate
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Éliminer les produits chimiques dangereux en interdisant les pesticides les plus néfastes, glyphosate, néonicotinoïdes tueurs d'abeilles
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement d'interdire le glyphosate.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-interdire-poules-cage
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: porter au niveau européen la disparition par étape de l'élevage en cage
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut faire disparaître par étapes l'élevage en cage au niveau européen, sans interdiction nationale immédiate ni mention spécifique des poules pondeuses.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-pesticides-moitie-2030
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Réduire massivement les intrants chimiques et soutenir les alternatives durables
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut réduire massivement les intrants chimiques, sans objectif chiffré ni échéance 2030.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-plafonner-aides-pac
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: en plafonnant les aides comme en Espagne pour rediriger les fonds vers les petites fermes
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement de plafonner les aides de la PAC.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-prix-plancher-agricoles
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Garantir le revenu des agriculteurs par la mise en place de prix planchers rémunérateurs
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement des prix planchers pour garantir le revenu agricole.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-retenues-eau-irrigation
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Refuser les méga-bassines au profit de solutions locales réfléchies avec les agriculteurs
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme refuse les méga-bassines, une catégorie de retenues d'eau, sans se prononcer sur l'ensemble des retenues pour l'irrigation.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-armes-ukraine
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Augmenter drastiquement l'aide militaire à l'Ukraine qui est notre première ligne de défense
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose d'augmenter fortement l'aide militaire à l'Ukraine.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-defense-europeenne-emprunt
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Oeuvrer à la mise en place rapide d'un fonds européen de défense de 500 milliards d'euros via un emprunt commun
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose un fonds européen de défense financé par un emprunt commun.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-dissuasion-protection-europe
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Proposer à nos partenaires de l'UE d'étendre la dissuasion nucléaire française aux autres pays de l'Union européenne
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose d'étendre la dissuasion nucléaire française aux autres pays de l'UE, la décision d'emploi restant française.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-doubler-reservistes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Augmenter drastiquement la réserve opérationnelle, la mettant au cœur de la défense nationale.
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut augmenter fortement la réserve opérationnelle, sans fixer d'objectif de doublement.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-conventions-citoyennes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: généraliser des conventions citoyennes
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut généraliser les conventions citoyennes, sans préciser qu'elles seraient consultées avant chaque grande réforme.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-initiative-citoyenne
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Instaurer un droit d'initiative citoyenne, permettant de déclencher des séquences démocratiques avec des référendums à l'échelle locale et nationale
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose un droit d'initiative citoyenne pouvant déclencher des référendums nationaux, sans préciser le mécanisme de pétition ni de seuil.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-local-initiative
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Instaurer un droit d'initiative citoyenne, permettant de déclencher des séquences démocratiques avec des référendums à l'échelle locale et nationale
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose un droit d'initiative citoyenne pouvant déclencher des référendums locaux, sans préciser le mécanisme de pétition.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-reserve-elus
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Instaurer un droit d'initiative citoyenne, permettant de déclencher des séquences démocratiques avec des référendums à l'échelle locale et nationale
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut que des citoyens puissent déclencher des référendums, ce qui s'oppose à une convocation réservée aux élus, mais les modalités restent imprécises.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-vote-16-ans
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Ouvrir le droit de vote à 16 ans et pour les étrangers extra-communautaires aux élections locales
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement le droit de vote à 16 ans.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-accords-libre-echange
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: s'opposer aux traités comme le Mercosur qui placent nos éleveurs dans une situation injuste et intenable
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme s'oppose à des traités comme le Mercosur, sans rejeter en termes généraux tout nouvel accord de libre-échange.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-controle-rachats-etrangers
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: surveiller de près les investissements étrangers dans les secteurs stratégiques
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut surveiller de près les investissements étrangers dans les secteurs stratégiques, sans détailler un renforcement du contrôle des rachats.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-participations-etat-industrie
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: création de fonds régionaux conséquents pour permettre aux Régions d'entrer au capital d'entreprises clés
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose que les Régions, et non l'État, entrent au capital d'entreprises clés.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-plafonner-prix-alimentaires
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Plafonner les prix des biens de première nécessité et des produits essentiels
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose de plafonner les prix des biens de première nécessité, mais seulement dans les Outre-mer.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-prix-energie-reglementes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Fixer une partie de la facture des ménages, entreprises, industriels et collectivités sur le coût de production de notre électricité nucléaire et renouvelable
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut indexer une partie de la facture d'électricité sur les coûts de production, une régulation partielle limitée à l'électricité.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-reduire-part-nucleaire
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Conforter le rôle du nucléaire, énergie pilotable et décarbonée, en assurant la sûreté des centrales existantes et la construction à temps de nouvelles unités
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut conforter le rôle du nucléaire et construire de nouvelles unités, sans se prononcer explicitement sur sa part dans le mix.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-supprimer-aides-solaire-eolien
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Lancer un grand plan d'investissement pluriannuel dans toutes les énergies renouvelables
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose un plan d'investissement dans toutes les énergies renouvelables, sans se prononcer explicitement sur les aides à la production solaire et éolienne.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-assouplir-artificialisation
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Défendre résolument les objectifs du Zéro Artificialisation Nette des sols (ZAN)
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme défend explicitement les objectifs du ZAN, tout en voulant sortir d'une logique purement comptable dans leur application.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-interdire-vols-interieurs
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: étendre l'interdiction des vols intérieurs avec alternative ferroviaire viable
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut étendre l'interdiction des vols intérieurs quand une alternative ferroviaire existe, sans fixer le seuil de quatre heures.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-plastique-usage-unique-2030
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: fin des plastiques à usage unique d'ici 2030
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose la fin des plastiques à usage unique d'ici 2030.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-taxer-kerosene-vols-interieurs
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: suppression des exonérations de TVA et de taxe sur le kérosène
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose de supprimer l'exonération de taxe sur le kérosène, ce qui inclut les vols intérieurs.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-capital-aligne-travail
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Rééquilibrage de la fiscalité entre le travail, le capital et l'héritage
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut rééquilibrer la fiscalité entre travail et capital, sans proposer explicitement un alignement des taux.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-impot-minimum-grandes-fortunes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Effort fiscal nouveau, ciblé sur les très hauts patrimoines et les grands groupes
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme prévoit un effort fiscal nouveau sur les très hauts patrimoines, sans préciser d'impôt minimum, de seuil ni de taux.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-reduire-credits-impot
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Supprimer des niches fiscales inefficaces et inefficientes.
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut supprimer des niches fiscales jugées inefficaces, sans objectif de réduction de moitié.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-reduire-droits-succession
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: rééquilibrer la répartition de la taxation entre le travail, le capital, l'héritage et les retraites pour sortir de cette impasse injuste qui favorise les héritiers
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme juge que la fiscalité actuelle favorise les héritiers et veut la rééquilibrer, sans proposer explicitement de hausse des droits de succession.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-taxe-benefices-exceptionnels
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Mise en place d'un mécanisme automatique de taxation des superprofits des multinationales et des profiteurs de guerre.
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement une taxation automatique des superprofits.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-asile-droit-travail
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: ouvrir le droit au travail, sans autorisation spécifique, dès l'enregistrement de la demande d'asile
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement le droit au travail dès l'enregistrement de la demande d'asile.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-asile-examen-hors-europe
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: refuser l'externalisation de nos politiques migratoires et d'asile
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme refuse explicitement l'externalisation des politiques d'asile.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-regularisation-metiers-tension
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Faciliter les démarches de régularisation des travailleurs sans papiers
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut faciliter la régularisation des travailleurs sans papiers en général, sans en faire un droit ni viser les métiers en tension.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-titre-sejour-longue-duree
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Généraliser la carte de séjour pluriannuelle en en faisant le titre de séjour de référence.
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut faire de la carte pluriannuelle le titre de référence, une durée intermédiaire plutôt qu'un titre de longue durée.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-voies-legales-travail-ue
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Créer des voies légales et sécurisées d'immigration de travail et passer des accords bilatéraux (au niveau français ou européen)
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose de créer des voies légales d'immigration de travail, y compris au niveau européen.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-vote-local-etrangers
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Ouvrir le droit de vote à 16 ans et pour les étrangers extra-communautaires aux élections locales
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement le droit de vote des étrangers extra-communautaires aux élections locales.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-autonomie-fiscale-collectivites
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: en renforçant le pouvoir d'imposition des collectivités
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement de renforcer le pouvoir d'imposition des collectivités.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-investiture-premier-ministre
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Investir le premier ministre par un vote de confiance de l'Assemblée nationale
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement l'investiture du Premier ministre par un vote de confiance de l'Assemblée.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-pouvoirs-commissions-enquete
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: "Renforcer le contrôle du Parlement sur l'action gouvernementale : transparence sur les décrets d'application, évaluation rigoureuse du budget, droit d'enquête élargi"
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose un droit d'enquête élargi pour le Parlement.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-proportionnelle-legislatives
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Instaurer immédiatement la proportionnelle, de préférence par circonscriptions régionales
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement le scrutin proportionnel pour les législatives.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-supprimer-49-3
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: ce qui permettra de mettre fin au 49.3
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose une motion de censure constructive présentée comme mettant fin au 49.3.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-aide-developpement-0-7
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: atteindre progressivement 0,7 % du RNB dédié à l'aide publique au développement
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose une programmation pour atteindre progressivement 0,7 % du RNB d'aide au développement.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-emprunt-commun-ue
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+    - raphael-glucksmann-livre-2026-lcp
+  quote: Oeuvrer à la mise en place rapide d'un fonds européen de défense de 500 milliards d'euros via un emprunt commun
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose un emprunt commun européen pour financer des investissements de défense ; le compte rendu de son livre évoque aussi un grand emprunt européen.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-impots-propres-ue
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: attribuer à l'Union des ressources propres nouvelles
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut de nouvelles ressources propres pour l'UE, sans préciser qu'il s'agirait d'impôts.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-initiative-parlement-europeen
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: donnant le pouvoir d'initiative législative au Parlement européen
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement le droit d'initiative législative pour le Parlement européen.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-majorite-qualifiee-ue
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: passant à la majorité qualifiée au Conseil européen
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose le passage à la majorité qualifiée au Conseil européen.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-reduire-contribution-ue
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Augmenter massivement le budget de l'Union pour lui permettre de lancer des politiques publiques
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut augmenter massivement le budget de l'UE, sans se prononcer explicitement sur la contribution française.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-renforcer-sanctions-russie
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Interdire immédiatement toute importation de gaz russe
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose d'interdire les importations de gaz russe, une mesure ciblée plutôt qu'un renforcement général des sanctions.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-justice-restaurative-systematique
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Déployer massivement la justice restaurative et les travaux d'intérêt général (TIG)
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut déployer massivement la justice restaurative, sans la rendre systématique.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-tig-delits-sans-violence
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: délits mineurs et infractions du quotidien doivent pouvoir être traités localement grâce à la médiation, aux travaux d'intérêt général et aux sanctions pédagogiques
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut traiter les délits mineurs notamment par des TIG, sans poser de préférence générale du TIG sur la prison pour les délits sans violence.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-ia-remuneration-auteurs
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: développer la protection du droit d'auteur et des créateurs, notamment face aux défis posés par les plateformes d'intelligence artificielle générative
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut protéger le droit d'auteur face à l'IA générative, sans mentionner explicitement une rémunération pour l'entraînement des modèles.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-logiciels-libres-administration
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: investir dans les alternatives numériques libres et européennes
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut investir dans les alternatives numériques libres et européennes, sans viser spécifiquement leur usage prioritaire par les administrations.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-reseaux-sociaux-moins-15-ans
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Interdire les réseaux sociaux pour les moins de 15 ans
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement d'interdire les réseaux sociaux aux moins de 15 ans.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-taxe-plateformes
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: une hausse ciblée de la taxe GAFAM
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme prévoit une hausse de la taxe GAFAM, qui porte sur le chiffre d'affaires réalisé en France.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: sante-taxer-boissons-sucrees
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: taxer davantage les boissons trop sucrées
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement de taxer davantage les boissons sucrées.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: securite-pouvoirs-polices-municipales
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Réaffirmer le rôle de la police municipale, centré sur la proximité et la prévention.
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut centrer la police municipale sur la proximité et la prévention, ce qui va à l'opposé d'un alignement de ses pouvoirs d'enquête sur la police nationale, sans rejet explicite.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: securite-recepisse-controles-identite
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Généraliser les récépissés de contrôle d'identité.
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose explicitement de généraliser les récépissés de contrôle d'identité.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-cannabis-legalisation
+  value: 0
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Organiser une convention citoyenne sur la politique vis-à-vis des drogues, notamment la question de la légalisation du cannabis.
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme renvoie la question de la légalisation du cannabis à une convention citoyenne, sans trancher.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-conge-second-parent
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Réformer le congé parental pour plus d'égalité entre les hommes et les femmes
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut réformer le congé parental pour plus d'égalité, sans viser explicitement l'alignement du congé de naissance du second parent.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-service-national-obligatoire
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - raphael-glucksmann-livre-2026-lcp
+  quote: Raphaël Glucksmann propose également d'instaurer un service civique obligatoire de dix mois pour toutes les jeunes Français
+  quoteSource: raphael-glucksmann-livre-2026-lcp
+  justification: Selon le compte rendu de son livre, il propose un service civique obligatoire de dix mois pour tous les jeunes, la dimension militaire restant volontaire.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-simplifier-changement-sexe-etat-civil
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Respecter les identités et garantir le droit à l'autodétermination de genre
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut garantir l'autodétermination de genre, ce qui va au-delà d'une simple simplification de la procédure.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-abandonner-nouvelles-lgv
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Relancer les trains de nuit, accélérer les LGV et les liaisons prioritaires pour faire l'Europe du Rail.
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose d'accélérer les LGV, l'inverse de leur abandon.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-abonnement-national-unique
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: "Faire le Ticket climat : un titre de transport unique, à tarif fixe, abordable et valable à l'échelle nationale pour les transports du quotidien, d'abord réservé aux jeunes et aux publics précaires."
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose un titre national unique pour les transports du quotidien, d'abord réservé aux jeunes et aux publics précaires.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-doubler-investissement-ferroviaire
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Lancer un Plan Rail national en lien avec les régions, en démultipliant les aides à SNCF Réseau
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut démultiplier les aides à SNCF Réseau, sans objectif de doublement sur le quinquennat.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-milliard-amenagements-cyclables
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Doubler les déplacements à vélo en 10 ans grâce à un plan de développement d'infrastructures cyclables sûres
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme prévoit un plan d'infrastructures cyclables, sans montant annuel.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-petites-lignes-maintenues
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: développer les trains légers en zones rurales, relancer les Trains d'Équilibre du Territoire
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut développer la desserte ferroviaire rurale, sans s'engager explicitement sur le maintien des lignes peu fréquentées.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-subventionner-fret-ferroviaire
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Soutenir le fret ferroviaire en modernisant les lignes
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut soutenir le fret ferroviaire par la modernisation des lignes, sans subvention explicite à l'exploitation.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-taxe-kilometrique-poids-lourds
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: taxer les camions européens qui traversent nos territoires sans payer aujourd'hui la moindre taxe
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut taxer les camions européens en transit, sans préciser une taxe kilométrique sur tous les poids lourds.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-trains-de-nuit
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Relancer les trains de nuit, accélérer les LGV et les liaisons prioritaires pour faire l'Europe du Rail.
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut relancer les trains de nuit, sans préciser un financement de nouvelles lignes par l'État.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-durcir-indemnisation-chomage
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Abroger la réforme Macron de l'assurance chômage, injuste et inefficace.
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose d'abroger la réforme de l'assurance chômage, l'inverse d'un durcissement.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-duree-travail-accord-entreprise
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: "Protéger les salariés : redonner la priorité aux accords de branches professionnelles par rapport aux accords d'entreprise."
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut redonner la priorité aux accords de branche sur les accords d'entreprise, sans viser explicitement la durée du travail.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-elargir-penibilite-retraite
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: mieux prendre en compte les carrières pénibles et les parcours hachés
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut mieux prendre en compte les carrières pénibles pour la retraite, sans parler explicitement d'élargir les critères.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-indexation-salaires
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: indexant leur point d'indice sur l'inflation
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose d'indexer le point d'indice des fonctionnaires sur l'inflation, et non l'ensemble des salaires.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-plafonner-ecart-salaires
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Travailler à limiter les écarts de salaires dans une même entreprise
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut travailler à limiter les écarts de salaires dans une entreprise, sans plafond légal explicite.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-retraite-62-ans
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Abroger la réforme Macron de 2023.
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose d'abroger la réforme de 2023, qui avait porté l'âge légal à 64 ans, tout en voulant cesser la focalisation sur l'âge légal et faire travailler certains plus longtemps.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-salaries-conseils-administration
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Intégrer davantage les représentants des salariés dans les conseils d'administration des entreprises, dès 100 salariés
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme veut davantage de représentants des salariés dans les conseils d'administration, sans fixer la part d'un tiers.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-smic-au-dela-inflation
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: Augmenter le SMIC à 1600 euros net dans les deux ans qui suivent notre accession au pouvoir.
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: La plateforme propose de porter le SMIC à 1 600 euros net en deux ans, une hausse au-delà de l'inflation.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
