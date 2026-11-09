@@ -9,3 +9,25 @@
   candidates:
     - juan-branco
   contentHash: sha256:a3ca7eff460274e1c292f88af9ab23f8396887e37e1c4d14874362512bd33c34
+- id: juan-branco-la-voie-programme-2027
+  url: https://media.ruches.org/projet-1784217879253.pdf
+  title: "La Voie : pour sauver le peuple français (« Le Projet » version 9, Les Ruches, PDF)"
+  kind: programme
+  publishedAt:
+    date: 2026-05-27
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - juan-branco
+  contentHash: sha256:be1140874477aae4a408986cf7c924aea6e2aa1ef71d33d6708eee1906afc8e8
+- id: juan-branco-le-projet-2027
+  url: https://ruches.org/le-projet
+  title: "Le Projet 2027 : programme en 6 piliers (Les Ruches)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-09
+  candidates:
+    - juan-branco
+  contentHash: sha256:00878d04de584b1274e5080f181f5a6a7f71056af0d0da54924cc6dcfc02d5c6

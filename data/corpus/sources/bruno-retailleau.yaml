@@ -9,3 +9,58 @@
   candidates:
     - bruno-retailleau
   contentHash: sha256:c610560e181b6dbf5e1bd2e35461b2cdb8c44f05a6bfe5eb8ec811c97e3d4a07
+- id: bruno-retailleau-lr-livret-travail
+  url: https://republicains.fr/wp-content/uploads/2026/01/51705_LesRepublicains_Brochures_A5-40P_DEF.pdf
+  title: "Nos propositions pour la France : travail gagnant (Les Républicains, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-01
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:31607bcbda9d65aaa0f19a779285622139c427168d9ca6c41dece924380c26dc
+- id: bruno-retailleau-lr-livret-produire-plus
+  url: https://republicains.fr/wp-content/uploads/2026/02/LR_Produire_Plus_LIVRET.pdf
+  title: "Nos propositions pour la France : produire plus pour vivre mieux (Les Républicains, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-02
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:252911f5fd70bf070950547662a7c37ac263662c77f672d036bcbf7beb220ade
+- id: bruno-retailleau-lr-livret-education
+  url: https://republicains.fr/wp-content/uploads/2026/09/LR_Ecole_vF.pdf
+  title: "Nos propositions pour la France : éducation (Les Républicains, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-08
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:d404c5ec730ef8c0053bd1ef2c1af370cbb1d417892c3f0e5c89ebaecf6bb382
+- id: bruno-retailleau-figaro-constitution-2026-09
+  url: https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/
+  title: « En France, la seule cour suprême, c'est le peuple. Je lui donnerai le dernier mot » (entretien au Figaro, Les Républicains)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-02
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:35d76fbafca3420c90bfbc296fd809cd202c4e146fd144e34fb38c15d52dee7a
+- id: bruno-retailleau-jdd-schengen-2026-08
+  url: https://republicains.fr/actualites/2026/08/02/lespace-schengen-doit-etre-reserve-aux-europeens/
+  title: « L'espace Schengen doit être réservé aux Européens ! » (entretien au JDD, Les Républicains)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-08-02
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:0b297a461063718daf2ef67f060de4080056fcd830f48452959b12def108ba3d

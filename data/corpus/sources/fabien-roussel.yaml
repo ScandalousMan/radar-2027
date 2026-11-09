@@ -9,3 +9,58 @@
   candidates:
     - fabien-roussel
   contentHash: sha256:834aca6d0fe54ae9e90ada164a7d507cfe00143b29f1c49c5a8bc8cb4ba07b76
+- id: fabien-roussel-site-campagne-vivre
+  url: https://www.fabienroussel2027.fr/
+  title: Fabien Roussel 2027 « VIVRE ! » (fabienroussel2027.fr)
+  kind: programme
+  publishedAt:
+    date: 2026-09
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:447a794708d073bcd0edd7e3f5bafd425cd3b87024ed5dafec517e73ce9cb945
+- id: fabien-roussel-plan-jeunesse-2027-2032
+  url: https://assets.nationbuilder.com/pcf/pages/44609/attachments/original/1791282014/Plan_Jeunesse_2027-2032.pdf?1791282014
+  title: Plan « Jeunesse 2027-2032 » (fabienroussel2027.fr, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-10-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:26efaab4788f1ecc40648df62ebf0a2d59d1018250fde1e1b31567fea638e760
+- id: fabien-roussel-congres-2026-base-commune
+  url: https://assets.nationbuilder.com/pcf/pages/42499/attachments/original/1784128307/document_1095_CommunisteS_40e_Congre%CC%80s.pdf
+  title: "CommunisteS n° 1095, 40e congrès du PCF : discours de clôture et base commune (PCF, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-07-15
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:d6042ba39fb913a8e9885adcafa3c7c30ffcf3fd7b2db94ffec54cffe62c123d
+- id: fabien-roussel-candidature-lcp
+  url: https://lcp.fr/actualites/fabien-roussel-officiellement-candidat-du-pcf-a-l-election-presidentielle-de-2027-441389
+  title: Fabien Roussel officiellement candidat du PCF à l'élection présidentielle de 2027 (LCP)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:d839e92dbebc3586a815ebd48d3c09659812d17d106b03af681c8231e4cc8484
+- id: fabien-roussel-nouvelle-industrialisation-2025
+  url: https://assets.nationbuilder.com/pcf/pages/30221/attachments/original/1747822112/Intro_FR_nouvelleind_170525.pdf
+  title: "Introduction de Fabien Roussel : « Une nouvelle industrialisation pour la France » (PCF, PDF)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-05-17
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:69ae2ceeaf005e43d709a086ec148a9f9ba28535c5de6bffbac920b9cadea5da

@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « immigration » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: immigration-asile-droit-travail
@@ -8,14 +8,14 @@
     - immigration
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: immigration-regroupement-familial-ressources
   text: Le regroupement familial doit être soumis à des conditions de ressources plus strictes.
   themes:
     - immigration
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: immigration-regularisation-metiers-tension
   text: Les travailleurs sans titre de séjour employés dans des métiers en tension doivent pouvoir être régularisés.
   themes:
@@ -23,14 +23,14 @@
     - travail
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: immigration-supprimer-droit-du-sol
   text: Le droit du sol doit être supprimé pour l'acquisition de la nationalité française.
   themes:
     - immigration
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: immigration-vote-local-etrangers
   text: Les étrangers non européens résidant en France depuis plusieurs années doivent pouvoir voter aux élections locales.
   themes:
@@ -38,7 +38,7 @@
     - democratie
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: immigration-ame-soins-urgents
   text: L'aide médicale d'État doit être limitée aux soins urgents.
   themes:
@@ -46,4 +46,86 @@
     - sante
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
+- id: immigration-titre-sejour-longue-duree
+  text: Les étrangers en situation régulière doivent obtenir plus facilement un titre de séjour de longue durée.
+  themes:
+    - immigration
+  polarity: +
+  status: draft
+  author: claude
+- id: immigration-reduire-duree-naturalisation
+  text: La durée de résidence exigée pour demander la naturalisation doit être réduite.
+  themes:
+    - immigration
+  polarity: +
+  status: draft
+  author: claude
+- id: immigration-voies-legales-travail-ue
+  text: L'Union européenne doit ouvrir davantage de voies d'immigration légale pour le travail.
+  themes:
+    - immigration
+    - international
+  polarity: +
+  status: draft
+  author: claude
+- id: immigration-frais-etudiants-etrangers
+  text: Les étudiants étrangers hors Union européenne doivent payer les mêmes frais d'inscription que les étudiants français.
+  themes:
+    - immigration
+  polarity: +
+  status: draft
+  author: claude
+- id: immigration-regularisation-cinq-ans
+  text: Les étrangers sans titre de séjour présents en France depuis plus de cinq ans doivent pouvoir être régularisés.
+  themes:
+    - immigration
+  polarity: +
+  status: draft
+  author: claude
+- id: immigration-visas-professions-qualifiees
+  text: Les visas de travail pour les professions qualifiées doivent être délivrés plus facilement.
+  themes:
+    - immigration
+    - travail
+  polarity: +
+  status: draft
+  author: claude
+- id: immigration-plafond-annuel-admissions
+  text: Le Parlement doit fixer chaque année un plafond du nombre d'étrangers admis au séjour.
+  themes:
+    - immigration
+  polarity: "-"
+  status: draft
+  author: claude
+- id: immigration-prestations-duree-residence
+  text: L'accès des étrangers aux prestations sociales non contributives doit être soumis à cinq ans de résidence.
+  themes:
+    - immigration
+  polarity: "-"
+  status: draft
+  author: claude
+- id: immigration-condamnes-perte-titre-sejour
+  text: Les étrangers condamnés à une peine de prison ferme doivent perdre leur titre de séjour.
+  themes:
+    - immigration
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
+- id: immigration-asile-examen-hors-europe
+  text: Les demandes d'asile doivent être examinées dans des centres situés hors du territoire européen.
+  themes:
+    - immigration
+    - international
+  polarity: "-"
+  status: draft
+  author: claude
+- id: immigration-amende-sejour-irregulier
+  text: Le séjour irrégulier en France doit être sanctionné par une amende.
+  themes:
+    - immigration
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude

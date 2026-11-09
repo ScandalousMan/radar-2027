@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « institutions » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: institutions-supprimer-49-3
@@ -8,28 +8,28 @@
     - institutions
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: institutions-pouvoirs-prefet-renforces
   text: Le préfet doit disposer de pouvoirs renforcés sur les collectivités locales.
   themes:
     - institutions
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: institutions-adaptation-lois-regions
   text: Les régions doivent obtenir un pouvoir d'adaptation des lois à leur territoire.
   themes:
     - institutions
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: institutions-mandat-presidentiel-sept-ans
   text: Le mandat présidentiel doit être porté à sept ans.
   themes:
     - institutions
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: institutions-parlement-interventions-militaires
   text: Le Parlement doit approuver toute intervention militaire extérieure avant son déclenchement.
   themes:
@@ -37,11 +37,91 @@
     - defense
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: institutions-fusions-communes-obligatoires
   text: Le nombre de communes doit être réduit par des fusions obligatoires.
   themes:
     - institutions
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
+- id: institutions-proportionnelle-legislatives
+  text: Les députés doivent être élus au scrutin proportionnel.
+  themes:
+    - institutions
+    - democratie
+  polarity: +
+  status: draft
+  author: claude
+- id: institutions-autonomie-fiscale-collectivites
+  text: Les collectivités locales doivent disposer d'une plus grande autonomie fiscale.
+  themes:
+    - institutions
+    - fiscalite
+  polarity: +
+  status: draft
+  author: claude
+- id: institutions-autonomie-corse-constitution
+  text: La Corse doit obtenir un statut d'autonomie inscrit dans la Constitution.
+  themes:
+    - institutions
+  polarity: +
+  status: draft
+  author: claude
+- id: institutions-pouvoirs-commissions-enquete
+  text: Les commissions d'enquête parlementaires doivent disposer de pouvoirs d'investigation élargis.
+  themes:
+    - institutions
+  polarity: +
+  status: draft
+  author: claude
+- id: institutions-ordre-du-jour-parlement
+  text: Le Parlement doit fixer seul son ordre du jour, sans priorité accordée au gouvernement.
+  themes:
+    - institutions
+  polarity: +
+  status: draft
+  author: claude
+- id: institutions-investiture-premier-ministre
+  text: Le Premier ministre doit obtenir un vote de confiance de l'Assemblée nationale après sa nomination.
+  themes:
+    - institutions
+  polarity: +
+  status: draft
+  author: claude
+- id: institutions-reduire-nombre-parlementaires
+  text: Le nombre de députés et de sénateurs doit être réduit.
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: claude
+- id: institutions-supprimer-senat
+  text: Le Sénat doit être supprimé.
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: claude
+- id: institutions-competences-retour-etat
+  text: Une partie des compétences exercées par les collectivités locales doit revenir à l'État.
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: claude
+- id: institutions-ordonnances-elargies
+  text: Le gouvernement doit pouvoir légiférer plus largement par ordonnances.
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: claude
+- id: institutions-referendum-revision-constitution
+  text: Le président de la République doit pouvoir soumettre directement au référendum une révision de la Constitution.
+  themes:
+    - institutions
+    - democratie
+  polarity: "-"
+  status: draft
+  author: claude

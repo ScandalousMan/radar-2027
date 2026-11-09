@@ -9,3 +9,58 @@
   candidates:
     - delphine-batho
   contentHash: sha256:a7a72d94a21244229bfbef2c75e667a9d7ce589f3b3436fb490243a74793ece4
+- id: delphine-batho-priorite-republique-terrestre
+  url: https://delphinebatho.fr/priorites/la-republique-terrestre/
+  title: La République terrestre (site de Delphine Batho)
+  kind: programme
+  publishedAt:
+    date: 2026-11
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - delphine-batho
+  contentHash: sha256:0607c20a350c49966de5a8dfe78ce0ff62095c134f143e435392acc0b4fa405c
+- id: delphine-batho-priorite-securite-climatique
+  url: https://delphinebatho.fr/priorites/la-securite-climatique-et-la-paix/
+  title: La sécurité climatique et la paix (site de Delphine Batho)
+  kind: programme
+  publishedAt:
+    date: 2026-11
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - delphine-batho
+  contentHash: sha256:89c9632d47c5ee5271eac4c8ca99e128af69a5dd5949055928d0eff6995e8fa1
+- id: delphine-batho-priorite-pleine-sante
+  url: https://delphinebatho.fr/priorites/la-pleine-sante/
+  title: La pleine santé (site de Delphine Batho)
+  kind: programme
+  publishedAt:
+    date: 2026-11
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - delphine-batho
+  contentHash: sha256:b74a52341affcff3dd09d36cb560edd00237316983b0aa36c60ba15bbe4c5eaf
+- id: delphine-batho-priorite-beaute
+  url: https://delphinebatho.fr/priorites/la-beaute-pour-vivre-mieux/
+  title: La beauté pour vivre mieux (site de Delphine Batho)
+  kind: programme
+  publishedAt:
+    date: 2026-11
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - delphine-batho
+  contentHash: sha256:457e298b3cd652d7f5d1cd3c2dab4e9a5278e8e837fcc9128e9bc5ad4a9496b9
+- id: delphine-batho-objectif-gard-2026-05
+  url: https://www.objectifgard.com/environnement/linterview-delphine-batho-nous-sommes-dans-une-situation-dinsecurite-climatique-qui-nous-concerne-tous-164678.php
+  title: "L'interview de Delphine Batho : « Nous sommes dans une situation d'insécurité climatique qui nous concerne tous » (Objectif Gard)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-29
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - delphine-batho
+  contentHash: sha256:4a1cc39e61b03b5f0c36613c4da01988df1447fe1c3a7677c6b909b080804ffd

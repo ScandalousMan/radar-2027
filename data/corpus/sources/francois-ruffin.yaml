@@ -9,3 +9,69 @@
   candidates:
     - francois-ruffin
   contentHash: sha256:d4e678089f4324bbe9abd6b2891dd68723acfbe7d1c627dd18dbd59d9a10b9e4
+- id: francois-ruffin-plan-de-redressement
+  url: https://nouspresident.fr/wp-content/uploads/2026/10/Plan-de-redressement-2026-mise-en-page.pdf
+  title: "Plan d'action : plan de redressement (Ruffin 2027, PDF)"
+  kind: programme
+  publishedAt:
+    date: 2026-10-21
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:184506cd43a36e7a26430836640cdac0d4dd28c2831a23aa6237b831fa04dc5c
+- id: francois-ruffin-cahier-travailleurs-essentiels
+  url: https://nouspresident.fr/wp-content/uploads/2026/04/Debout-Livret-Campagne_Web.pdf
+  title: "Cahier de campagne n° 1 : pour un statut des travailleuses et travailleurs essentiels (Ruffin 2027, PDF)"
+  kind: programme
+  publishedAt:
+    date: 2026-04-13
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:6765f6e34fbafc396adfbab0581d869c1f26fe7de7bbd355ba81941da79508ff
+- id: francois-ruffin-cahier-probite
+  url: https://nouspresident.fr/wp-content/uploads/2026/07/Debout-Livret-Probite-Web-1.pdf
+  title: "Cahier de campagne n° 2 : pour une loi de séparation de l'argent et de l'État (Ruffin 2027, PDF)"
+  kind: programme
+  publishedAt:
+    date: 2026-07-02
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:5475763ae0274a310afa4db768a44917ae7c86845fd05118fe37b01657609817
+- id: francois-ruffin-cahier-travaillisme-ecologique
+  url: https://nouspresident.fr/wp-content/uploads/2026/09/Livret-Campagne-5-Travaillisme-Ecologique-VDEF.pdf
+  title: "Cahier de campagne n° 5 : pour un travaillisme écologique (Ruffin 2027, PDF)"
+  kind: programme
+  publishedAt:
+    date: 2026-09-09
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:7cc042c474bf6722b9cf862bd2d3fae8314332fc8cd152fbba2681ce5b48ad5b
+- id: francois-ruffin-cahier-industrie
+  url: https://nouspresident.fr/wp-content/uploads/2026/10/Debout-Livret-Campagne-7-Industrie-Vweb.pdf
+  title: "Cahier de campagne n° 7 : industrie (Ruffin 2027, PDF)"
+  kind: programme
+  publishedAt:
+    date: 2026-10-15
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:ffbf940a1c2dbbf86f2304d8e2dc25dafeaadfe2fb336ccab3c33cd73605faed
+- id: francois-ruffin-tribune-convergence-pourrissements
+  url: https://francoisruffin.fr/la-convergence-des-pourrissements-coleres-et-espoirs/
+  title: "La convergence des pourrissements : colères et espoirs (francoisruffin.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-22
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:5f833a57ef97f05f63befd4e344471dfdbc3c33a349d96b957d5b263825b5026

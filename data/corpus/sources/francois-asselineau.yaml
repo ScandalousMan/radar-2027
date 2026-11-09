@@ -9,3 +9,25 @@
   candidates:
     - francois-asselineau
   contentHash: sha256:f9c417e85b180dc453b68ba2e61cd5e00ceefd3ae045796e0051952cefac6a89
+- id: francois-asselineau-discours-rentree-2026
+  url: https://upr.fr/universites/discours-de-rentree-2026-de-francois-asselineau-la-liberation-nationale
+  title: "Discours de rentrée 2026 de François Asselineau : la Libération nationale ! (UPR)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-30
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - francois-asselineau
+  contentHash: sha256:c979069131895175a3188286ac26224ddda145f9cc09a0dca00596e5dabdc22e
+- id: francois-asselineau-programme-2022
+  url: https://upr.fr/notre-programme/programme-2022
+  title: "Programme 2022 : « Notre programme de libération nationale pour 2022 » (UPR)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2022-02
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - francois-asselineau
+  contentHash: sha256:9b2c5fb0ae9994f19f7124c9efbdd251024f8a14809ca11f8e448d9c11c00412

@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « democratie » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: democratie-referendum-initiative-citoyenne
@@ -8,35 +8,35 @@
     - democratie
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: democratie-referendum-exceptionnel
   text: Le recours au référendum doit rester exceptionnel.
   themes:
     - democratie
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: democratie-conventions-citoyennes
   text: Des conventions citoyennes tirées au sort doivent être consultées avant les grandes réformes.
   themes:
     - democratie
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: democratie-assemblees-tirees-consultatives
   text: Les assemblées citoyennes tirées au sort doivent conserver un rôle uniquement consultatif.
   themes:
     - democratie
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: democratie-vote-blanc-exprime
   text: Le vote blanc doit être pris en compte dans les suffrages exprimés.
   themes:
     - democratie
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: democratie-referendum-reserve-elus
   text: La décision de convoquer un référendum doit rester réservée au président de la République et au Parlement.
   themes:
@@ -44,4 +44,83 @@
     - institutions
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
+- id: democratie-referendum-local-initiative
+  text: Les habitants d'une commune doivent pouvoir imposer l'organisation d'un référendum local par une pétition.
+  themes:
+    - democratie
+  polarity: +
+  status: draft
+  author: claude
+- id: democratie-budget-participatif-communes
+  text: Chaque commune de plus de 10 000 habitants doit consacrer une part de son budget à des projets choisis par les habitants.
+  themes:
+    - democratie
+  polarity: +
+  status: draft
+  author: claude
+- id: democratie-referendum-revocatoire
+  text: Les électeurs doivent pouvoir révoquer un élu en cours de mandat par référendum.
+  themes:
+    - democratie
+  polarity: +
+  status: draft
+  author: claude
+- id: democratie-vote-16-ans
+  text: Le droit de vote doit être accordé dès 16 ans.
+  themes:
+    - democratie
+  polarity: +
+  status: draft
+  author: claude
+- id: democratie-petition-debat-parlement
+  text: Une pétition signée par un million de personnes doit obligatoirement être débattue en séance au Parlement.
+  themes:
+    - democratie
+  polarity: +
+  status: draft
+  author: claude
+- id: democratie-chambre-tiree-au-sort
+  text: Des citoyens tirés au sort doivent siéger dans une chambre du Parlement aux côtés des élus.
+  themes:
+    - democratie
+    - institutions
+  polarity: +
+  status: draft
+  author: claude
+- id: democratie-supprimer-cese
+  text: Le Conseil économique, social et environnemental doit être supprimé.
+  themes:
+    - democratie
+    - institutions
+  polarity: "-"
+  status: draft
+  author: claude
+- id: democratie-seuil-rip-maintenu
+  text: Le référendum d'initiative partagée doit continuer d'exiger le soutien d'un dixième des électeurs inscrits.
+  themes:
+    - democratie
+  polarity: "-"
+  status: draft
+  author: claude
+- id: democratie-parrainages-elus-maintenus
+  text: Les candidats à l'élection présidentielle doivent continuer à recueillir 500 parrainages d'élus.
+  themes:
+    - democratie
+  polarity: "-"
+  status: draft
+  author: claude
+- id: democratie-raccourcir-consultations-public
+  text: Les procédures de consultation du public sur les projets d'aménagement doivent être raccourcies.
+  themes:
+    - democratie
+  polarity: "-"
+  status: draft
+  author: claude
+- id: democratie-supprimer-cndp
+  text: La Commission nationale du débat public doit être supprimée.
+  themes:
+    - democratie
+  polarity: "-"
+  status: draft
+  author: claude

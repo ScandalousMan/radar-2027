@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « agriculture » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: agriculture-pesticides-moitie-2030
@@ -9,39 +9,120 @@
     - environnement
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: agriculture-alleger-normes-agricoles
   text: Les normes environnementales imposées aux agriculteurs français doivent être allégées.
   themes:
     - agriculture
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: agriculture-prix-plancher-agricoles
   text: Des prix plancher garantis doivent être fixés pour les principales productions agricoles.
   themes:
     - agriculture
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: agriculture-retenues-eau-irrigation
   text: La construction de retenues d'eau pour l'irrigation doit être facilitée.
   themes:
     - agriculture
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: agriculture-bio-restauration-collective
   text: La part des produits biologiques dans la restauration collective publique doit être portée à 30 %.
   themes:
     - agriculture
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: agriculture-agrandissement-sans-autorisation
   text: Les exploitations agricoles doivent pouvoir s'agrandir sans autorisation administrative.
   themes:
     - agriculture
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
+- id: agriculture-origine-viandes-restaurants
+  text: L'origine des viandes doit être obligatoirement indiquée dans les plats servis par les restaurants.
+  themes:
+    - agriculture
+  polarity: +
+  status: draft
+  author: claude
+- id: agriculture-interdire-glyphosate
+  text: L'usage du glyphosate doit être interdit en France.
+  themes:
+    - agriculture
+    - environnement
+  polarity: +
+  status: draft
+  author: claude
+- id: agriculture-encadrer-prix-terres
+  text: Le prix de vente des terres agricoles doit être encadré par l'État.
+  themes:
+    - agriculture
+  polarity: +
+  status: draft
+  author: claude
+- id: agriculture-plafonner-aides-pac
+  text: Les aides de la politique agricole commune versées à une même exploitation doivent être plafonnées.
+  themes:
+    - agriculture
+  polarity: +
+  status: draft
+  author: claude
+- id: agriculture-interdire-poules-cage
+  text: L'élevage de poules pondeuses en cage doit être interdit.
+  themes:
+    - agriculture
+  polarity: +
+  status: draft
+  author: claude
+- id: agriculture-chalut-aires-protegees
+  text: La pêche au chalut de fond doit être interdite dans les aires marines protégées.
+  themes:
+    - agriculture
+    - environnement
+  polarity: +
+  status: draft
+  author: claude
+- id: agriculture-autoriser-nouvelles-techniques-genomiques
+  text: La culture de plantes issues des nouvelles techniques génomiques doit être autorisée en France.
+  themes:
+    - agriculture
+  polarity: "-"
+  status: draft
+  author: claude
+- id: agriculture-derogations-neonicotinoides
+  text: Les agriculteurs doivent pouvoir obtenir des dérogations pour utiliser des insecticides néonicotinoïdes.
+  themes:
+    - agriculture
+    - environnement
+  polarity: "-"
+  status: draft
+  author: claude
+- id: agriculture-moins-controles-exploitations
+  text: Les contrôles administratifs dans les exploitations agricoles doivent être moins fréquents.
+  themes:
+    - agriculture
+  polarity: "-"
+  status: draft
+  author: claude
+- id: agriculture-tirs-loups-sans-autorisation
+  text: Les éleveurs doivent pouvoir abattre sans autorisation préalable un loup qui attaque leur troupeau.
+  themes:
+    - agriculture
+    - environnement
+  polarity: "-"
+  status: draft
+  author: claude
+- id: agriculture-curage-fosses-sans-autorisation
+  text: Les agriculteurs doivent pouvoir curer les fossés et les cours d'eau sans autorisation préalable.
+  themes:
+    - agriculture
+  polarity: "-"
+  status: draft
+  author: claude

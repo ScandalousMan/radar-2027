@@ -9,3 +9,69 @@
   candidates:
     - marine-tondelier
   contentHash: sha256:4382c05ba973454675fb8256a9e89a684e4dfcc48af38dd5991269de152b21a6
+- id: marine-tondelier-programme-ecologistes-2026
+  url: https://web.archive.org/web/20260825202751if_/https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf
+  title: "Pour une prospérité écologique : le nouveau programme des Écologistes (Les Écologistes, PDF, copie Wayback Machine)"
+  kind: programme
+  publishedAt:
+    date: 2026-07
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - marine-tondelier
+  contentHash: sha256:fdeb08d03093140476727c402de82a8a42385d6d69da1c307e0e79fc54a7db11
+- id: marine-tondelier-livret-travail-2026-11
+  url: https://marinetondelier.fr/s/livret-travail.pdf
+  title: "Livret thématique : travailler mieux (campagne de Marine Tondelier, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-11
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - marine-tondelier
+  contentHash: sha256:6a6791f469f708f2a9f006490885033b0dcd7e0af7ae87f1fba3489632efa959
+- id: marine-tondelier-livret-enfance-2026-09
+  url: https://marinetondelier.fr/s/livret-enfance-vf.pdf
+  title: "Livret thématique : pour un pays à hauteur d'enfants (campagne de Marine Tondelier, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-09
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - marine-tondelier
+  contentHash: sha256:288700efe845c80533953380b2051813426a6c93e7b41179802b69ca6cf73fe0
+- id: marine-tondelier-carnet-international-2026
+  url: https://marinetondelier.fr/s/CARNET-DE-DOCTRINE-INTERNATIONAL.pdf
+  title: "Carnet de doctrine international : face aux impérialismes, l'Europe comme puissance écologique (campagne de Marine Tondelier, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-02
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - marine-tondelier
+  contentHash: sha256:2cb9d0ebf9408c4126f20e7c8861b92ddcca9394c63a62c0ac570209ffb760c5
+- id: marine-tondelier-discours-jde-2026-08
+  url: https://marinetondelier.fr/blog/discours-jde
+  title: Discours aux Journées d'été des Écologistes (site de Marine Tondelier)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-08-21
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - marine-tondelier
+  contentHash: sha256:66118bf62678b65bfc49c3e3bee801d06e79639b80d574dd78033ff124b92b85
+- id: marine-tondelier-21-priorites-2026-04
+  url: https://marinetondelier.fr/blog/21-priorites-gouverner-ensemble-demain
+  title: 21 priorités communes qui devraient pouvoir nous rassembler (site de Marine Tondelier)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-04-17
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - marine-tondelier
+  contentHash: sha256:190a6b57ee641ad67f6dbd6c72a3c286fd3a7cec51e9060e5ed172141fde6163

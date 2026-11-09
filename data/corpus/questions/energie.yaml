@@ -1,0 +1,94 @@
+# Banque de questions, thème principal « energie » (FR-008 à FR-012).
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
+# de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
+# Thème ajouté sur décision du propriétaire du 2026-11-09 (axe nucléaire ↔ renouvelables).
+
+- id: energie-reduire-part-nucleaire
+  text: La part du nucléaire dans la production d'électricité doit être progressivement réduite.
+  themes:
+    - energie
+  polarity: +
+  status: draft
+  author: claude
+- id: energie-nouveaux-reacteurs-au-dela-epr2
+  text: La France doit construire de nouveaux réacteurs nucléaires au-delà des six EPR2 prévus.
+  themes:
+    - energie
+  polarity: "-"
+  status: draft
+  author: claude
+- id: energie-accelerer-eolien-terrestre
+  text: L'implantation d'éoliennes terrestres doit être accélérée.
+  themes:
+    - energie
+  polarity: +
+  status: draft
+  author: claude
+- id: energie-suspendre-nouvelles-eoliennes
+  text: L'installation de nouvelles éoliennes doit être suspendue.
+  themes:
+    - energie
+    - environnement
+  polarity: "-"
+  status: draft
+  author: claude
+- id: energie-solaire-toits-batiments-neufs
+  text: Les panneaux solaires doivent être obligatoires sur les toits de tous les bâtiments neufs.
+  themes:
+    - energie
+  polarity: +
+  status: draft
+  author: claude
+- id: energie-prolonger-reacteurs-60-ans
+  text: Les réacteurs nucléaires existants doivent être prolongés au-delà de 60 ans lorsque l'autorité de sûreté l'autorise.
+  themes:
+    - energie
+  polarity: "-"
+  status: draft
+  author: claude
+- id: energie-consommation-moitie-2050
+  text: La consommation d'énergie finale de la France doit baisser de moitié d'ici 2050.
+  themes:
+    - energie
+    - environnement
+  polarity: +
+  status: draft
+  author: claude
+- id: energie-petits-reacteurs-modulaires
+  text: L'État doit financer le développement de petits réacteurs nucléaires modulaires.
+  themes:
+    - energie
+    - economie
+  polarity: "-"
+  status: draft
+  author: claude
+- id: energie-centres-donnees-electricite-renouvelable
+  text: L'implantation de centres de données doit être conditionnée à une production d'électricité renouvelable dédiée.
+  themes:
+    - energie
+    - numerique
+  polarity: +
+  status: draft
+  author: claude
+- id: energie-supprimer-aides-solaire-eolien
+  text: Les aides publiques à la production d'électricité solaire et éolienne doivent être supprimées.
+  themes:
+    - energie
+  polarity: "-"
+  status: draft
+  author: claude
+- id: energie-fonds-publics-renouvelables
+  text: Les fonds publics consacrés à l'énergie doivent aller en priorité aux énergies renouvelables plutôt qu'au nucléaire.
+  themes:
+    - energie
+  polarity: +
+  status: draft
+  author: claude
+- id: energie-centres-donnees-pres-centrales
+  text: Les centres de données doivent bénéficier d'un accès prioritaire à l'électricité des centrales nucléaires.
+  themes:
+    - energie
+    - numerique
+  polarity: "-"
+  status: draft
+  author: claude

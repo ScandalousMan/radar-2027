@@ -136,3 +136,11 @@
     positive: Plus d'investissement public et de régulation des transports
   order: 15
   status: active
+- id: energie
+  label: Énergie
+  description: Production et consommation d'énergie, nucléaire, énergies renouvelables, réseaux et besoins nouveaux comme les centres de données.
+  axis:
+    negative: Priorité au nucléaire et aux énergies pilotables
+    positive: Priorité aux énergies renouvelables et à la réduction de la consommation
+  order: 16
+  status: active

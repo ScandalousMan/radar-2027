@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « securite » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: securite-reconnaissance-faciale-police
@@ -9,39 +9,121 @@
     - numerique
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: securite-recepisse-controles-identite
   text: Les contrôles d'identité doivent donner lieu à la remise d'un récépissé.
   themes:
     - securite
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: securite-hausse-effectifs-police
   text: Les effectifs de police et de gendarmerie doivent augmenter d'au moins 10 % sur le quinquennat.
   themes:
     - securite
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: securite-interdire-lbd-manifestations
   text: L'usage des lanceurs de balles de défense doit être interdit lors des manifestations.
   themes:
     - securite
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: securite-pouvoirs-polices-municipales
   text: Les polices municipales doivent recevoir les mêmes pouvoirs d'enquête que la police nationale.
   themes:
     - securite
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: securite-budget-vers-prevention
   text: Une partie du budget des forces de l'ordre doit être réorientée vers la prévention de la délinquance.
   themes:
     - securite
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
+- id: securite-videosurveillance-algorithmique
+  text: La vidéosurveillance algorithmique doit être autorisée de façon permanente dans l'espace public.
+  themes:
+    - securite
+    - numerique
+  polarity: +
+  status: draft
+  author: claude
+- id: securite-presomption-legitime-defense
+  text: Les policiers doivent bénéficier d'une présomption de légitime défense lorsqu'ils font usage de leur arme.
+  themes:
+    - securite
+    - justice
+  polarity: +
+  status: draft
+  author: claude
+- id: securite-couvre-feu-mineurs
+  text: Les maires doivent pouvoir instaurer un couvre-feu nocturne pour les mineurs.
+  themes:
+    - securite
+  polarity: +
+  status: draft
+  author: claude
+- id: securite-armer-polices-municipales
+  text: Les policiers municipaux doivent être armés dans toutes les communes.
+  themes:
+    - securite
+  polarity: +
+  status: draft
+  author: claude
+- id: securite-surveillance-antiterroriste-prolongee
+  text: Les mesures individuelles de surveillance antiterroriste doivent pouvoir durer plus d'un an.
+  themes:
+    - securite
+  polarity: +
+  status: draft
+  author: claude
+- id: securite-enquetes-policiers-independantes
+  text: Les enquêtes visant des policiers doivent être confiées à un organisme indépendant du ministère de l'Intérieur.
+  themes:
+    - securite
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
+- id: securite-restreindre-tirs-refus-obtemperer
+  text: Les règles d'usage des armes à feu par les policiers lors des refus d'obtempérer doivent être restreintes.
+  themes:
+    - securite
+  polarity: "-"
+  status: draft
+  author: claude
+- id: securite-renseignement-autorisation-juge
+  text: Les techniques de renseignement doivent être soumises à l'autorisation préalable d'un juge.
+  themes:
+    - securite
+    - numerique
+  polarity: "-"
+  status: draft
+  author: claude
+- id: securite-limiter-dissolution-associations
+  text: Le pouvoir du gouvernement de dissoudre des associations par décret doit être limité.
+  themes:
+    - securite
+  polarity: "-"
+  status: draft
+  author: claude
+- id: securite-interdire-drones-manifestations
+  text: L'usage de drones par la police pour surveiller les manifestations doit être interdit.
+  themes:
+    - securite
+  polarity: "-"
+  status: draft
+  author: claude
+- id: securite-manifestations-sans-declaration
+  text: Les manifestations doivent pouvoir se tenir sans déclaration préalable en préfecture.
+  themes:
+    - securite
+    - democratie
+  polarity: "-"
+  status: draft
+  author: claude

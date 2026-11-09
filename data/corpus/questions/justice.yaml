@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « justice » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: justice-peines-minimales-recidive
@@ -8,35 +8,35 @@
     - justice
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: justice-courtes-peines-alternatives
   text: Les peines de prison de moins d'un an doivent être remplacées par des peines alternatives.
   themes:
     - justice
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: justice-majorite-penale-16-ans
   text: La majorité pénale doit être abaissée à 16 ans.
   themes:
     - justice
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: justice-arret-construction-prisons
   text: La construction de nouvelles places de prison doit être arrêtée.
   themes:
     - justice
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: justice-supprimer-reductions-automatiques
   text: Les réductions automatiques de peine doivent être supprimées.
   themes:
     - justice
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: justice-accompagnement-emploi-detenus
   text: Les détenus doivent bénéficier d'un accompagnement vers l'emploi pendant toute leur détention.
   themes:
@@ -44,4 +44,82 @@
     - travail
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
+- id: justice-perpetuite-reelle-etendue
+  text: La réclusion à perpétuité sans possibilité de libération doit s'appliquer à davantage de crimes.
+  themes:
+    - justice
+  polarity: +
+  status: draft
+  author: claude
+- id: justice-comparution-immediate-mineurs
+  text: Les mineurs de plus de 16 ans doivent pouvoir être jugés en comparution immédiate.
+  themes:
+    - justice
+  polarity: +
+  status: draft
+  author: claude
+- id: justice-detenus-frais-incarceration
+  text: Les détenus doivent participer financièrement à leurs frais d'incarcération.
+  themes:
+    - justice
+  polarity: +
+  status: draft
+  author: claude
+- id: justice-liberation-conditionnelle-deux-tiers
+  text: La libération conditionnelle doit être réservée aux détenus ayant purgé au moins les deux tiers de leur peine.
+  themes:
+    - justice
+  polarity: +
+  status: draft
+  author: claude
+- id: justice-imprescriptibilite-crimes-sexuels-mineurs
+  text: Les crimes sexuels commis sur des mineurs doivent être imprescriptibles.
+  themes:
+    - justice
+  polarity: +
+  status: draft
+  author: claude
+- id: justice-sanction-financiere-parents
+  text: Les parents de mineurs délinquants doivent pouvoir être sanctionnés financièrement.
+  themes:
+    - justice
+    - societe
+  polarity: +
+  status: draft
+  author: claude
+- id: justice-plafonner-detenus-places
+  text: Le nombre de détenus doit être plafonné au nombre de places de prison disponibles.
+  themes:
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
+- id: justice-tig-delits-sans-violence
+  text: Le travail d'intérêt général doit être préféré à la prison pour les délits commis sans violence.
+  themes:
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
+- id: justice-justice-restaurative-systematique
+  text: La justice restaurative doit être proposée systématiquement aux victimes et aux auteurs d'infractions.
+  themes:
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
+- id: justice-juridictions-mineurs-specialisees
+  text: Les mineurs doivent continuer à être jugés par des juridictions distinctes de celles des majeurs.
+  themes:
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude
+- id: justice-visites-familiales-prisons
+  text: Toutes les prisons doivent permettre des visites familiales prolongées sans surveillance directe.
+  themes:
+    - justice
+  polarity: "-"
+  status: draft
+  author: claude

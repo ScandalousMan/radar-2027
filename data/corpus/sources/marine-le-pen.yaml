@@ -9,3 +9,47 @@
   candidates:
     - marine-le-pen
   contentHash: sha256:a170bf9ad381d64a19fc114b8f46e27ad486bcd62235dbc28cd47cf5b12b3cc9
+- id: marine-le-pen-programme-2022
+  url: https://mlafrance.fr/pdfs/manifeste-m-la-france-programme-presidentiel.pdf
+  title: "M la France : mon programme présidentiel (mlafrance.fr, campagne 2022, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2022-03-28
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:c015fa69ab9b1d4019f96e20b269c937ea32e3910322c8944e6c0703c77154b6
+- id: marine-le-pen-22-mesures-2022
+  url: https://mlafrance.fr/pdfs/22-mesures-pour-2022.pdf
+  title: 22 mesures pour 2022 (mlafrance.fr, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2022-02-08
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:2aef55d934b3a918e7320d188c80e2586ad954b1340505c530c55a900ab76c73
+- id: marine-le-pen-henin-beaumont-2026
+  url: https://lcp.fr/actualites/reserver-les-logements-hlm-aux-francais-la-proposition-de-marine-le-pen-provoque-une
+  title: "Réserver les logements HLM aux Français : la proposition de Marine Le Pen provoque une levée de boucliers (LCP)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-14
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:c24870f50de89fa45ce51cbd173f957bafb824514ccb9eebdd49a5fea3789a92
+- id: marine-le-pen-ligne-economique-2026
+  url: https://www.franceinfo.fr/replay-radio/le-decryptage-eco/entre-defense-du-pouvoir-d-achat-et-seduction-des-entreprises-marine-le-pen-entretient-une-ligne-parfois-difficile-a-concilier_8065598.html
+  title: Entre défense du pouvoir d'achat et séduction des entreprises, Marine Le Pen entretient une ligne parfois difficile à concilier (franceinfo)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-07-08
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:8666a74d666c0e691bf422932589e3481e7e4608df84f68409836eec4ab1704b

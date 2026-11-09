@@ -9,3 +9,124 @@
   candidates:
     - gabriel-attal
   contentHash: sha256:84850bb1126814329a8d31ad13b9d09aef90fa788d9a8ff0af9208e919733cc6
+- id: gabriel-attal-vision-economique-2026
+  url: https://attalpresident.fr/actualites/gabriel-attal-vision-economique-liberer-innover-independance-france
+  title: Gabriel Attal présente sa vision économique pour libérer, innover et renforcer l'indépendance de la France (attalpresident.fr)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-28
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:49c86e31d005e9d75e7449ba4281d256ea43dc2ea00816fc5ac5ca98aba2cf2e
+- id: gabriel-attal-meeting-lyon-2026
+  url: https://attalpresident.fr/actualites/gabriel-attal-en-meeting-a-lyon-un-pacte-pour-la-jeunesse
+  title: "Gabriel Attal en meeting à Lyon : un pacte pour la jeunesse (attalpresident.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-10
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:1487832b3b7f7f32f451bd879faf232c30474134996b41de4a71abd04f59e53f
+- id: gabriel-attal-lettre-finances-publiques
+  url: https://attalpresident.fr/actualites/gabriel-attal-lettre-aux-francais-plan-finances-publiques
+  title: "Gabriel Attal : son plan pour les finances publiques (attalpresident.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-15
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:6a5498d713dcf90dee49a14395b16dff710e351417bb33908e2cc5f21a5e0449
+- id: gabriel-attal-renaissance-nouvelle-donne
+  url: https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf
+  title: Pour une nouvelle donne économique et climatique (Renaissance, conventions thématiques, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2025-07-21
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:93feac91f8dc434eed08d94662ffffa3757c8131e16b90fe78ff09a6309f7bfd
+- id: gabriel-attal-renaissance-regalien
+  url: https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf
+  title: Une République ferme, une France apaisée (Renaissance, conventions thématiques, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2025-05-26
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:e3d696a2eac736346405f57a1d48e254818563472cabfac03262f26bf18a7c16
+- id: gabriel-attal-programme-education
+  url: https://attalpresident.fr/programme/education
+  title: "Mes chantiers capitaux : éducation (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-10
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:8de87ef90f3c279b0143a338ec1f995ddaa1e4ec720d6f87da3f1b420999c657
+- id: gabriel-attal-programme-travail-salaires
+  url: https://attalpresident.fr/programme/travail-salaires
+  title: "Mes chantiers capitaux : travail et salaires (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-10
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:b891a2867411b229a060c4047f725faf4ae1055e0fc725247caf8988266a9127
+- id: gabriel-attal-programme-frontieres
+  url: https://attalpresident.fr/programme/frontieres
+  title: "Mes chantiers capitaux : frontières (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-10
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:22be26cd7cab9902f2994bf2aaab8ea042be5ac4549f15fa7933933ceb2c5fab
+- id: gabriel-attal-programme-intelligence-artificielle
+  url: https://attalpresident.fr/programme/intelligence-artificielle
+  title: "Mes chantiers capitaux : intelligence artificielle (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-10
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:f4a489e2595238370775c0b413a1c9dd02b0aa8e4225be0fcd668cf2fa4f03ba
+- id: gabriel-attal-programme-dette-etat
+  url: https://attalpresident.fr/programme/dette-de-letat
+  title: "Dettes à résorber : la dette de l'État (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-10
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:15737d535a3ec3cdfbb611b24d23bade05d9d8878b867bff9ab19eb0097fe0a7
+- id: gabriel-attal-programme-dette-ecologique
+  url: https://attalpresident.fr/programme/dette-ecologique
+  title: "Dettes à résorber : la dette écologique (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-10
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:ff46c7199e248c93c0889250956f65c28b086a7137d19cea6afdb3de88cf97d9

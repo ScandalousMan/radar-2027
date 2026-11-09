@@ -1,5 +1,5 @@
 # Banque de questions, thème principal « transport » (FR-008 à FR-012).
-# Première tranche en brouillon (draft) : activation après relecture par une personne distincte
+# Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
 - id: transport-doubler-investissement-ferroviaire
@@ -8,39 +8,118 @@
     - transport
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: transport-concurrence-ferroviaire
   text: Le transport ferroviaire de voyageurs doit être davantage ouvert à la concurrence.
   themes:
     - transport
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: transport-gratuite-transports-urbains
   text: Les transports en commun urbains doivent être gratuits pour les usagers.
   themes:
     - transport
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: transport-routes-90-kmh
   text: La limitation de vitesse sur les routes secondaires doit être relevée à 90 km/h partout.
   themes:
     - transport
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
 - id: transport-taxe-kilometrique-poids-lourds
   text: Les poids lourds doivent payer une taxe kilométrique sur le réseau routier.
   themes:
     - transport
   polarity: +
   status: draft
-  author: adrien
+  author: claude
 - id: transport-autoroutes-concedees
   text: Les autoroutes doivent rester concédées à des sociétés privées.
   themes:
     - transport
   polarity: "-"
   status: draft
-  author: adrien
+  author: claude
+- id: transport-trains-de-nuit
+  text: L'État doit financer l'ouverture de nouvelles lignes de trains de nuit.
+  themes:
+    - transport
+  polarity: +
+  status: draft
+  author: claude
+- id: transport-petites-lignes-maintenues
+  text: Les petites lignes ferroviaires doivent être maintenues même lorsqu'elles sont peu fréquentées.
+  themes:
+    - transport
+  polarity: +
+  status: draft
+  author: claude
+- id: transport-subventionner-fret-ferroviaire
+  text: L'État doit subventionner le fret ferroviaire pour qu'il puisse concurrencer le transport routier.
+  themes:
+    - transport
+  polarity: +
+  status: draft
+  author: claude
+- id: transport-milliard-amenagements-cyclables
+  text: L'État doit consacrer au moins un milliard d'euros par an aux aménagements cyclables.
+  themes:
+    - transport
+  polarity: +
+  status: draft
+  author: claude
+- id: transport-abonnement-national-unique
+  text: Un abonnement national unique donnant accès aux trains régionaux et aux transports urbains doit être créé.
+  themes:
+    - transport
+  polarity: +
+  status: draft
+  author: claude
+- id: transport-sncf-entreprise-publique
+  text: La SNCF doit rester une entreprise entièrement publique.
+  themes:
+    - transport
+    - economie
+  polarity: +
+  status: draft
+  author: claude
+- id: transport-baisser-taxe-billets-avion
+  text: La taxe sur les billets d'avion doit être réduite.
+  themes:
+    - transport
+    - fiscalite
+  polarity: "-"
+  status: draft
+  author: claude
+- id: transport-voitures-centres-villes-libres
+  text: L'accès des voitures aux centres-villes doit rester libre.
+  themes:
+    - transport
+  polarity: "-"
+  status: draft
+  author: claude
+- id: transport-abandonner-nouvelles-lgv
+  text: La construction de nouvelles lignes à grande vitesse doit être abandonnée.
+  themes:
+    - transport
+  polarity: "-"
+  status: draft
+  author: claude
+- id: transport-supprimer-subventions-aeroports
+  text: Les subventions publiques aux aéroports régionaux doivent être supprimées.
+  themes:
+    - transport
+  polarity: "-"
+  status: draft
+  author: claude
+- id: transport-supprimer-controle-technique-motos
+  text: Le contrôle technique des deux-roues motorisés doit être supprimé.
+  themes:
+    - transport
+  polarity: "-"
+  status: draft
+  author: claude
