@@ -1,0 +1,666 @@
+# Positions de François Ruffin (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
+# provenance manual), à relire par adrien avec pnpm data:review.
+
+- question: agriculture-bio-restauration-collective
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "étendra les moyens d'action de l'Agence Bio notamment pour structurer et renforcer les filières de transformation et soutenir la distribution de produits bio en restau- ration collective"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme prévoit de soutenir la distribution de produits bio en restauration collective, sans fixer l'objectif de 30 %."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-derogations-neonicotinoides
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-probite
+  quote: "loi Evin affaiblie, réauto- risation des néonicotinoïdes en France, parti pris en faveur d'Uber"
+  quoteSource: francois-ruffin-cahier-probite
+  justification: "Le programme présente la réautorisation des néonicotinoïdes comme une conséquence de l'influence des lobbies, sans formuler de proposition explicite sur les dérogations."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-origine-viandes-restaurants
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-industrie
+  quote: "RENDRE SYSTÉMATIQUE L'ÉTIQUETAGE CLAIR DES ORIGINES POUR L'ENSEMBLE DES ALIMENTS ET L'ÉTENDRE À D'AUTRES PRODUITS"
+  quoteSource: francois-ruffin-cahier-industrie
+  justification: "Le programme propose l'étiquetage obligatoire de l'origine de tous les aliments, mesure voisine qui ne vise pas spécifiquement les plats servis en restaurant."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-pesticides-moitie-2030
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "Pour faire avancer la transition et sortir des engrais fossiles et des pesticides de synthèse, la question du travail est centrale."
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme fixe l'objectif de sortir des pesticides de synthèse, sans objectif chiffré ni échéance 2030."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-plafonner-aides-pac
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "les aides ne doivent plus être seulement distribuées selon les hectares, mais da- vantage selon le travail humain réellement présent sur les fermes"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme propose de répartir les aides de la PAC selon le travail plutôt que selon les hectares, mesure voisine d'un plafonnement par exploitation."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-prix-plancher-agricoles
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "Nous proposons des prix minimums ga- rantis discutés par les interprofessions représentatives de chaque filière."
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme propose explicitement des prix minimums garantis fixés par filière à partir des coûts de production."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-exceptionnel
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "nous proposons de soumettre au vote des Français, par référendum, les mesures suivantes portées par la Convention ci- toyenne pour le climat"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme propose d'organiser plusieurs référendums et d'instaurer le RIC, ce qui va dans le sens contraire d'un recours exceptionnel sans le rejeter en ces termes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-initiative-citoyenne
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+    - francois-ruffin-tribune-convergence-pourrissements
+  quote: "Les idées de référendum devront aussi et surtout venir des citoyens, avec le Référendum d'initiative citoyenne (RIC), enfin."
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme propose explicitement l'instauration du référendum d'initiative citoyenne."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-reserve-elus
+  value: -2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "Les idées de référendum devront aussi et surtout venir des citoyens, avec le Référendum d'initiative citoyenne (RIC), enfin."
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme propose le référendum d'initiative citoyenne, ce qui retire aux seuls élus le monopole du déclenchement du référendum."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-accords-libre-echange
+  value: -2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-industrie
+  quote: "Dès notre arrivée au pouvoir, nous mettrons un terme aux négociations pour les accords de libre-échange avec la Malaisie, la Thaïlande, les Emirats Arabes Unis, ou encore les Philippines."
+  quoteSource: francois-ruffin-cahier-industrie
+  justification: "Le programme propose de mettre fin aux négociations d'accords de libre-échange en cours, soit le contraire explicite de l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-aides-conditionnees-emploi
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-industrie
+  quote: "Celui qui touche l'argent public garde les emplois, investit dans les usines, forme les salariés, respecte les sous-traitants. Sinon, il rembourse."
+  quoteSource: francois-ruffin-cahier-industrie
+  justification: "Le programme conditionne explicitement les aides publiques au maintien des emplois, avec remboursement à défaut."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-controle-rachats-etrangers
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-probite
+    - francois-ruffin-cahier-industrie
+  quote: "Un État stratège doit défendre ses entreprises privées stratégiques face aux ingérences étrangères."
+  quoteSource: francois-ruffin-cahier-probite
+  justification: "Le programme propose une étude stratégique publique pour chaque rachat d'entreprise stratégique par un investisseur étranger, voire des nationalisations."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-edf-entierement-publique
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "Et nous reviendrons progressivement à un modèle 100 % public de production"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme prévoit un retour à une production électrique entièrement publique confiée à EDF, sans se prononcer explicitement sur la détention du capital d'EDF."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-participations-etat-industrie
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-industrie
+    - francois-ruffin-plan-de-redressement
+  quote: "privilégier les participations dans les PME- ETI aux aides versées sans conditions aux start-ups ou aux multinationales et prendre le contrôle des entreprises les plus stratégiques"
+  quoteSource: francois-ruffin-cahier-industrie
+  justification: "Le programme propose explicitement des prises de participation publiques dans les entreprises industrielles et le contrôle des plus stratégiques."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-prix-energie-reglementes
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "retour à un service public dont les prix de vente seront basés sur les coûts réels de production"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme prévoit des prix de l'électricité fixés sur les coûts de production par un service public, ce qui ne couvre que l'électricité et non l'ensemble de l'énergie."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-vendre-participations-etat
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-probite
+  quote: "Nous refusons la logique de privatisation et le déman- tèlement des services publics."
+  quoteSource: francois-ruffin-cahier-probite
+  justification: "Le programme refuse la logique de privatisation, sans viser explicitement la vente de participations dans des entreprises cotées."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-accelerer-eolien-terrestre
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "nous poursuivrons le développement de l'énergie éolienne, car elle produit davantage en hiver"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme prévoit de poursuivre le développement de l'éolien, sans parler d'accélération ni distinguer l'éolien terrestre."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-consommation-moitie-2050
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "À l'horizon 2050, nous prévoyons de réduire nos besoins en énergie d'environ 33 %, à 1 050 TWh"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme prévoit une baisse de la consommation d'énergie d'environ un tiers d'ici 2050, objectif de même sens mais inférieur à la moitié."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-nouveaux-reacteurs-au-dela-epr2
+  value: 0
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "La décision de construire ou non huit réacteurs EPR2 supplémen- taires sera prise en fonction du devis proposé par EDF"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme confirme les six EPR2 et laisse explicitement ouverte la construction de huit réacteurs supplémentaires selon leur coût."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-prolonger-reacteurs-60-ans
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "nous prolongerons la durée de vie des centrales existantes, tant que l'Autorité de sûreté nucléaire et de radioprotection validera leur niveau de sûreté"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme propose explicitement de prolonger les réacteurs existants tant que l'autorité de sûreté le valide, sans limite d'âge."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-suspendre-nouvelles-eoliennes
+  value: -2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "nous poursuivrons le développement de l'énergie éolienne, car elle produit davantage en hiver"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme prévoit de poursuivre le développement de l'éolien, soit le contraire explicite d'une suspension."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-ecocide-crime
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "Nous créerons un délit de faute systémique, pour recon- naître le lien entre la pollution et les décisions budgétaires ou de rentabilité du dirigeant."
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme propose de nouveaux délits environnementaux visant les dirigeants, mesure voisine qui ne reprend pas la qualification de crime d'écocide."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+
+- question: environnement-plastique-usage-unique-2030
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "réduire les quantités de plastique, remettre en place la consigne du verre"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme propose de réduire le plastique et de rétablir la consigne du verre, sans interdiction des emballages à usage unique ni échéance."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+
+- question: environnement-taxe-carbone-importations
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-industrie
+  quote: "De plus, le MACF reste un outil facile à contourner - comme reconnu par la Commission européenne elle-même -, il s'agira donc de renforcer les contrôles aux importations."
+  quoteSource: francois-ruffin-cahier-industrie
+  justification: "Le programme soutient le renforcement du mécanisme d'ajustement carbone aux frontières existant, sans proposer de taxe nouvelle sur l'ensemble des importations."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-impot-fortune-retabli
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - francois-ruffin-tribune-convergence-pourrissements
+  quote: "Il n'a pas rétabli l'impôt de solidarité sur la fortune."
+  quoteSource: francois-ruffin-tribune-convergence-pourrissements
+  justification: "La tribune reproche au président de ne pas avoir rétabli l'ISF, sans formuler de proposition explicite."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-impot-minimum-grandes-fortunes
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-plan-de-redressement
+  quote: "Gabriel Zucman propose une taxe annuelle de 2 % sur les patrimoines supérieurs à 100 M€, après déduction des impôts déjà acquittés."
+  quoteSource: francois-ruffin-plan-de-redressement
+  justification: "Le programme retient explicitement la taxe Zucman de 2 % sur les patrimoines de plus de 100 millions d'euros."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-reduire-droits-succession
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-plan-de-redressement
+  quote: "Imposer les grandes successions à la hauteur du patrimoine accumulé"
+  quoteSource: francois-ruffin-plan-de-redressement
+  justification: "Le programme alourdit l'imposition des successions du 1 % le plus aisé tout en doublant l'abattement à 200 000 euros, ce qui va globalement dans le sens contraire."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-supprimer-impots-production
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-industrie
+  quote: "L'absence d'efficacité de cette nouvelle baisse d'impôts a été confirmée par l'évaluation de l'IPP de 2025."
+  quoteSource: francois-ruffin-cahier-industrie
+  justification: "Le programme juge inefficace la baisse des impôts de production, sans proposer explicitement de la rétablir ou de la refuser."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-taxe-benefices-exceptionnels
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-plan-de-redressement
+  quote: "Nous proposons donc de mettre en place une contribution exceptionnelle sur les surprofits des entreprises pétrolières et du raffinage"
+  quoteSource: francois-ruffin-plan-de-redressement
+  justification: "Le programme propose une contribution sur les surprofits limitée au secteur pétrolier et au raffinage."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-pouvoirs-commissions-enquete
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-probite
+  quote: "les assemblées disposeront de moyens techniques, humains et d'expertise renforcés pour exercer pleinement leur mission de contrôle de l'exécutif, évaluer les politiques publiques et enquê- ter sur les dérives du pouvoir"
+  quoteSource: francois-ruffin-cahier-probite
+  justification: "Le programme prévoit des moyens renforcés pour le contrôle parlementaire et les enquêtes, sans préciser d'élargissement des pouvoirs des commissions d'enquête."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-donnees-sante-hebergeurs-europeens
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-industrie
+  quote: "Édouard Philippe a aggravé cette dépendance en confiant en 2019 la plateforme nationale des données de santé à Microsoft."
+  quoteSource: francois-ruffin-cahier-industrie
+  justification: "Le programme critique l'hébergement des données de santé par Microsoft et prévoit d'étendre au secteur de la santé l'obligation de cloud certifié européen."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-faciliter-centres-donnees
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "Le déploiement des centres de données sera beaucoup plus encadré"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme prévoit un encadrement accru des centres de données, ce qui va dans le sens contraire de procédures accélérées."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-logiciels-libres-administration
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-industrie
+  quote: "Afin de réduire la dépendance en logiciel, nous proposons de développer un éco-système basé sur le logiciel libre et les communs numériques."
+  quoteSource: francois-ruffin-cahier-industrie
+  justification: "Le programme propose explicitement d'appuyer la commande publique informatique sur le logiciel libre et un cloud certifié européen."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: sante-production-publique-medicaments
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-industrie
+  quote: "une production publique à court terme pour les produits de base critiques"
+  quoteSource: francois-ruffin-cahier-industrie
+  justification: "Le programme propose explicitement un pôle public du médicament assurant la production de médicaments essentiels."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-doubler-investissement-ferroviaire
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "Cela supposera notamment des investissements importants dans de nouveaux trains, fabriqués en France, et la modernisation du réseau."
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme prévoit des investissements importants dans le ferroviaire, sans chiffrer un doublement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-subventionner-fret-ferroviaire
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "Le renouveau du secteur ferroviaire permettra aussi de tripler la part du fret ferroviaire dans le transport de marchandises"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme vise un triplement de la part du fret ferroviaire, sans mentionner explicitement de subvention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-trains-de-nuit
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "Nous développerons aussi les trains de nuit et les liaisons directes vers les grandes villes européennes"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme propose explicitement le développement des trains de nuit par la puissance publique."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-durcir-indemnisation-chomage
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travailleurs-essentiels
+  quote: "on a durci l'assurance- chômage par décrets"
+  quoteSource: francois-ruffin-cahier-travailleurs-essentiels
+  justification: "Le programme critique les durcissements successifs de l'assurance chômage, sans proposition explicite sur les règles d'indemnisation."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-duree-travail-accord-entreprise
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travailleurs-essentiels
+  quote: "les accords d'entreprise priment désormais sur les accords de branche et a fortiori sur le code du travail pour déterminer les règles applicables dans l'entreprise"
+  quoteSource: francois-ruffin-cahier-travailleurs-essentiels
+  justification: "Le programme critique la primauté des accords d'entreprise sur la loi, sans viser explicitement la durée du travail."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-elargir-penibilite-retraite
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travailleurs-essentiels
+  quote: "pour quatre trimestres cotisés dans un métier exposé à la pénibilité, un trimestre supplémentaire de retraite sera accordé"
+  quoteSource: francois-ruffin-cahier-travailleurs-essentiels
+  justification: "Le programme renforce les droits à retraite anticipée liés à la pénibilité, sans annoncer explicitement d'élargissement des critères."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-indexation-salaires
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travailleurs-essentiels
+    - francois-ruffin-cahier-industrie
+  quote: "nous indexerons les salaires sur l'inflation, comme cela a existé jusqu'en 1982"
+  quoteSource: francois-ruffin-cahier-travailleurs-essentiels
+  justification: "Le programme propose explicitement l'indexation des salaires sur l'inflation."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-plafond-prudhommes-maintenu
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travailleurs-essentiels
+  quote: "en clair, on plafonne le prix de l'injustice, on normalise l'abus"
+  quoteSource: francois-ruffin-cahier-travailleurs-essentiels
+  justification: "Le programme critique le plafonnement des indemnités issu des ordonnances de 2017, sans proposer explicitement sa suppression."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-retraite-62-ans
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travailleurs-essentiels
+  quote: "Des mesures fortes, concrètes, comme le SMIC à 1 600€ ou la retraite à 60 ans, qui revalorisent le travail."
+  quoteSource: francois-ruffin-cahier-travailleurs-essentiels
+  justification: "Le programme reprend la retraite à 60 ans, ce qui va au-delà d'un retour à 62 ans."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-retraite-au-dela-64-ans
+  value: -2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travailleurs-essentiels
+  quote: "Des mesures fortes, concrètes, comme le SMIC à 1 600€ ou la retraite à 60 ans, qui revalorisent le travail."
+  quoteSource: francois-ruffin-cahier-travailleurs-essentiels
+  justification: "Le programme reprend la retraite à 60 ans, soit le contraire explicite d'un report au-delà de 64 ans."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-salaries-conseils-administration
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travaillisme-ecologique
+  quote: "Les salariés seront réellement représentés, en nombre, aux conseils d'administration des entreprises"
+  quoteSource: francois-ruffin-cahier-travaillisme-ecologique
+  justification: "Le programme prévoit une représentation accrue des salariés aux conseils d'administration, sans fixer la proportion d'un tiers."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-smic-au-dela-inflation
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-travailleurs-essentiels
+  quote: "Des mesures fortes, concrètes, comme le SMIC à 1 600€ ou la retraite à 60 ans, qui revalorisent le travail."
+  quoteSource: francois-ruffin-cahier-travailleurs-essentiels
+  justification: "Le programme reprend un SMIC à 1 600 euros, hausse ponctuelle au-delà de l'inflation sans règle de revalorisation permanente."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-statut-fonction-publique-regalien
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-probite
+  quote: "En parallèle, nous renforcerons le statut des fonction- naires"
+  quoteSource: francois-ruffin-cahier-probite
+  justification: "Le programme prévoit de renforcer le statut des fonctionnaires, ce qui va dans le sens contraire d'une restriction aux missions régaliennes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
