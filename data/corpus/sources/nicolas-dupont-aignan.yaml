@@ -9,3 +9,80 @@
   candidates:
     - nicolas-dupont-aignan
   contentHash: sha256:5ceb00054311e801777520775415bdd8e58e7d7e51c8200b0272e31061a5dd30
+- id: nicolas-dupont-aignan-projet-economie
+  url: https://www.debout-la-france.fr/projet/economie-travail/
+  title: "Projet 2027 : économie, « Récompenser le travail et relocaliser ! » (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-05
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:40329fb64b06a90bbaa1c44eeed4bc8118ed0104c1c4dcfdf2836ed5d9a6c7c5
+- id: nicolas-dupont-aignan-projet-immigration
+  url: https://www.debout-la-france.fr/projet/immigration-et-assimilation/
+  title: "Projet : immigration et assimilation (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-03-03
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:1955fb6eb87393956ca8614c471d95c2b54e9b0e49bc959d1dfae6242cc5d553
+- id: nicolas-dupont-aignan-projet-europe
+  url: https://www.debout-la-france.fr/projet/affaires-europeennes/
+  title: "Projet : affaires européennes (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-10-05
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:5c1eb3779ed36243e1e4d387cef688b2b6a56a7997e678686c0b979a32bce4ac
+- id: nicolas-dupont-aignan-projet-democratie
+  url: https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/
+  title: "Projet : refonder et moraliser notre démocratie (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-06-09
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:2622ce51368dd317b1ffa47ec54e265aa838b71fd28cba0919fc1a77146713ca
+- id: nicolas-dupont-aignan-projet-securite
+  url: https://www.debout-la-france.fr/projet/securite/
+  title: "Projet : sécurité (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-02-16
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:599e05889f15b39b1bdf3332adba02c61b43ed5d191d53005a68d325e37f13d1
+- id: nicolas-dupont-aignan-projet-environnement-energie
+  url: https://www.debout-la-france.fr/projet/environnement-energie/
+  title: "Projet : environnement et énergie (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2025-10-29
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:835ac343e62da02857d4f12a12224fd320d018a1b6d44d096e2c575e3797a4df
+- id: nicolas-dupont-aignan-sudradio-2026-05-18
+  url: https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-les-regles-de-lue-sont-devenues-une-prison-pour-la-france
+  title: "Nicolas Dupont-Aignan : « Les règles de l'UE sont devenues une prison pour la France ! » (Sud Radio)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-18
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:877021f36a8150b497bded14da1ceeec64321d2d069f2fa5a0dd5b415592393c

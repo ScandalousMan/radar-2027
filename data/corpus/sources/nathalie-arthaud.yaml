@@ -9,3 +9,47 @@
   candidates:
     - nathalie-arthaud
   contentHash: sha256:76c50e39d11b0bc08da990aa6a733999ec2dc777bb31ca7fc7c9f3076cb40188
+- id: nathalie-arthaud-depliant-2026-11
+  url: https://www.lutte-ouvriere.org/medias/document/fichiers/2026/11/Depliant-NA-3nov.pdf
+  title: "Le camp des travailleurs : dépliant de campagne de Nathalie Arthaud (Lutte ouvrière, PDF)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-03
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:0dad28f11ef45f9a9ec530e6f347dc5db56d5aea0ee58f0cdeacde1ff531348b
+- id: nathalie-arthaud-brochure-fete-2026
+  url: https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf
+  title: "Fête annuelle de Lutte ouvrière, mai 2026 : Nathalie Arthaud, présidentielle 2027 (Lutte ouvrière, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-05
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:4e1255e8532d373e1acc82750f1a12f1193b8ed0fc12e36c37ae87f8c462ffd2
+- id: nathalie-arthaud-discours-fete-2026-dimanche
+  url: https://www.lutte-ouvriere.org/portail/brochures/fete-lutte-ouvriere-2026-discours-nathalie-arthaud-dimanche-194655.html
+  title: "Fête de Lutte ouvrière 2026 : discours de Nathalie Arthaud, dimanche (Lutte ouvrière)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:8f0c12b4d9188ec5381c961e7a9652dfc30df171399d7af8e8acf25db50806cd
+- id: nathalie-arthaud-discours-meeting-2026-02-14
+  url: https://www.lutte-ouvriere.org/portail/brochures/meeting-14-fevrier-2026-discours-nathalie-arthaud-191591.html
+  title: "Meeting du 14 février 2026 : discours de Nathalie Arthaud (Lutte ouvrière)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-02-14
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:0980942bfb9034a633e93fa95a7f64195cde4016e8f0be3ffa3cc009e0bfb65f

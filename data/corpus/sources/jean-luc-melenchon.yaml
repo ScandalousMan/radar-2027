@@ -9,3 +9,47 @@
   candidates:
     - jean-luc-melenchon
   contentHash: sha256:109dfafa16925c1e1872110a306a9a089af393a188ec05160c2d451e3c43914f
+- id: jean-luc-melenchon-aec-introduction
+  url: https://melenchon2027.fr/programme/livre/introduction
+  title: "L'Avenir en commun 2027, introduction : vers une nouvelle France (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:647e66d7dabfe7f1e0046e7615f12b68d788624371cf3011b7c49940375a4ba3
+- id: jean-luc-melenchon-aec-europe
+  url: https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1
+  title: "L'Avenir en commun 2027, chapitre : se libérer du libéralisme en Europe (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:8ca447281624be4a9dde40905519b2b14d0c527e9f5ba8b37e438c4f9a255ad2
+- id: jean-luc-melenchon-comptes-publics-2027
+  url: https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf
+  title: Comment nous allons remettre de l'ordre dans les comptes publics (melenchon2027.fr, PDF)
+  kind: programme
+  publishedAt:
+    date: 2026-10-14
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:76a1e12cbde6a728ed7b52449d11493226929679633dc19e30b8068d04257cab
+- id: jean-luc-melenchon-lettre-peuple-de-france
+  url: https://melenchon.fr/wp-content/uploads/2026/05/LETTRE-AU-PEUPLE-DE-FRANCE-.pdf
+  title: Lettre au peuple de France, 5 mai 2026 (melenchon.fr, PDF)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-05
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:e5892389a6898917e3e2d717e9f8e60e9a61d196757ef9088005a4be8cd2c4ff

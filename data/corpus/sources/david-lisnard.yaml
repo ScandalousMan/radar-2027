@@ -9,3 +9,58 @@
   candidates:
     - david-lisnard
   contentHash: sha256:faa79bb061acf6099ac1b4c6dab4bb6ba5260f2e46f4599fde8bf542d762a67b
+- id: david-lisnard-programme-maitre-de-notre-destin
+  url: https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/
+  title: "Programme 2027, axe 1 : « Être maître de notre destin » (Nouvelle Énergie)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-09
+  candidates:
+    - david-lisnard
+  contentHash: sha256:f471a34514daa29f0bd8c367d661d08b2eec4492f51486e99cbf4011cc67feaa
+- id: david-lisnard-programme-nouvelle-ambition
+  url: https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/
+  title: "Programme 2027, axe 2 : « Réussir une nouvelle ambition française » (Nouvelle Énergie)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-09
+  candidates:
+    - david-lisnard
+  contentHash: sha256:546bd895e4f9b192ae1f298c88280715a1f2008bdf066e581277b6512b739256
+- id: david-lisnard-programme-renouveau-civique
+  url: https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/
+  title: "Programme 2027, axe 3 : « Générer un renouveau civique » (Nouvelle Énergie)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-09
+  candidates:
+    - david-lisnard
+  contentHash: sha256:8fe8c0a32587710bd91b65fc245e3dc9845fb3fc63bb11e805863f6c82d5f4ea
+- id: david-lisnard-programme-immigration
+  url: https://www.unenouvelleenergie.fr/notre-programme/immigration/
+  title: "Programme 2027 : immigration (Nouvelle Énergie)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-09
+  candidates:
+    - david-lisnard
+  contentHash: sha256:3b03e0a389bc6a8cc5ba67bdb4a98770e2cd12b1681b385b69c95f92ce4ebda8
+- id: david-lisnard-discours-bayeux-2026
+  url: https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf
+  title: Discours de David Lisnard à Bayeux, 17 juin 2026 (Nouvelle Énergie, PDF)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-06-17
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - david-lisnard
+  contentHash: sha256:69ef0bf0d668d73fc8229368a28e387e3bb54d5e7e5f9e7a8c381a3d5a670787

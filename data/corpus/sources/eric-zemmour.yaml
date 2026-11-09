@@ -9,3 +9,36 @@
   candidates:
     - eric-zemmour
   contentHash: sha256:8543abbe552c811446b3e3297d03a02cf7da4000d1a7883e67ec3e24954fdfff
+- id: eric-zemmour-priorites
+  url: https://www.ericzemmour.fr/priorites
+  title: Priorités (ericzemmour.fr, campagne 2022)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-09
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:8747c1e7257cd5f65aa707be67976248f7850288df71fc356043db523510df62
+- id: eric-zemmour-discours-udt-2024
+  url: https://www.ericzemmour.fr/discours-udt-2024
+  title: Discours de l'université d'été 2024 à Orange (ericzemmour.fr)
+  kind: declaration_vote
+  publishedAt:
+    date: 2024-09-08
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:41d0da02061363b29288096f9c97ac8349086df96fef547dbde11cdc0ea73e8f
+- id: eric-zemmour-candidature-public-senat
+  url: https://www.publicsenat.fr/actualites/politique/eric-zemmour-officialise-sa-candidature-a-la-presidentielle-2027
+  title: Éric Zemmour officialise sa candidature à la présidentielle 2027 (Public Sénat)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-18
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:f9446d316f3effcf0d91bb4482ff8a4f66340d8615a26d764d5059c5f08aa949

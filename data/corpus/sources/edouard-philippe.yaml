@@ -9,3 +9,69 @@
   candidates:
     - edouard-philippe
   contentHash: sha256:4f53bd39d22b3d931c5c7ee8f0a10c9d87707f8ca99afebb37cd22a73f908f0b
+- id: edouard-philippe-priorites-prosperite
+  url: https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere
+  title: Pour une France plus prospère (Avec Édouard 2027)
+  kind: programme
+  publishedAt:
+    date: 2026-07
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:f098c387300502a4464e244e606f4e9e27a2d150e1913cc0a99feb4bdc1ec89c
+- id: edouard-philippe-priorites-surete
+  url: https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure
+  title: Pour une France plus sûre (Avec Édouard 2027)
+  kind: programme
+  publishedAt:
+    date: 2026-07
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:6a920f09af072142c1cb73fc8b97ca67287f7e4700c079b7381ac0b1085d8062
+- id: edouard-philippe-priorites-enfants
+  url: https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants
+  title: Pour une France plus attentive à ses enfants (Avec Édouard 2027)
+  kind: programme
+  publishedAt:
+    date: 2026-07
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:f6d4ae993cedf2f1fa0f8e52d1ff4a6aa3001d5aeff8d199983adf0343707218
+- id: edouard-philippe-priorites-conquerante
+  url: https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante
+  title: Pour une France plus conquérante (Avec Édouard 2027)
+  kind: programme
+  publishedAt:
+    date: 2026-07
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:b79208aeae384b953c373153e89049f39412738401efe186e0d10420346a88ee
+- id: edouard-philippe-discours-adidas-arena-2026-07
+  url: https://horizonsleparti.fr/discours-dedouard-philippe-lors-de-son-grand-meeting-a-ladidas-arena-5-juillet-2026/
+  title: Discours d'Édouard Philippe lors de son grand meeting à l'Adidas Arena, 5 juillet 2026 (Horizons)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-07-05
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:c38274c883a1ca4d98c114c14e31dab06a337b3652dc3e95cb4ed92b484f5889
+- id: edouard-philippe-discours-reims-2026-05
+  url: https://horizonsleparti.fr/discours-dedouard-philippe-lors-du-conseil-national-a-reims-10-mai-2026/
+  title: Discours d'Édouard Philippe lors du Conseil national à Reims, 10 mai 2026 (Horizons)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-10
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:9f9858ed77d79592e341cf80d097c6424bbd0083b278f38bc5db5db49613180c

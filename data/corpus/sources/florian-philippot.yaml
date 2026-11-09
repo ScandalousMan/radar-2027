@@ -9,3 +9,25 @@
   candidates:
     - florian-philippot
   contentHash: sha256:2730fac54b77a1d49068284bfa9125f35bcee35a082905a32203939484e31083
+- id: florian-philippot-projet-pour-la-france-2026
+  url: https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf
+  title: Grandes orientations pour un projet patriote, édition 2026-2027 (Les Patriotes, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-09-03
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - florian-philippot
+  contentHash: sha256:34c563c3c7dabc9e2c100e9ad5f4b3aff8ea9badcbddd90e5f1d4deeaa013d11
+- id: florian-philippot-candidature-sudradio
+  url: https://www.sudradio.fr/politique/je-suis-candidat-florian-philippot-se-lance-pour-la-presidentielle-de-2027
+  title: "« Je suis candidat » : Florian Philippot se lance pour la présidentielle de 2027 (Sud Radio)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-09
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - florian-philippot
+  contentHash: sha256:5964525a388d0af88a9b5b7f1c26ca477334443c69ec6aa106cc26c4574b28bd

@@ -9,3 +9,36 @@
   candidates:
     - anasse-kazib
   contentHash: sha256:bf8d0029aaa9b46a52cd57df0911794e2f0351cb58496e8187e6b089edd3767e
+- id: anasse-kazib-programme-2027
+  url: https://anasse2027.fr/programme
+  title: "Programme : Anasse Kazib 2027 (anasse2027.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-09
+  candidates:
+    - anasse-kazib
+  contentHash: sha256:89958e8fb4eb56bdc0a4fe540d9a7a750b7741b229dda9bc2cd213db74666aac
+- id: anasse-kazib-depliant-2027
+  url: https://anasse2027.fr/programme/depliant-anasse-2027.pdf
+  title: Dépliant Anasse 2027 « Faire entendre la voix de notre classe » (anasse2027.fr, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-10-27
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - anasse-kazib
+  contentHash: sha256:0797f2cc9f69aca6f350e80b26f12511a9b4a65ac995984e9bc2aa1d24d6ff94
+- id: anasse-kazib-edito-candidature-2026
+  url: https://www.revolutionpermanente.fr/Presidentielle-2027-Anasse-Kazib-veut-faire-entendre-la-voix-de-la-nouvelle-classe-ouvriere
+  title: "Présidentielle 2027 : Anasse Kazib veut faire entendre la voix de la nouvelle classe ouvrière (Révolution permanente)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-06-01
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - anasse-kazib
+  contentHash: sha256:ff3d2cb89c605adc23337fe8d9ee646b1ac1a5718f56ffddd53027c9724924f3

@@ -9,3 +9,47 @@
   candidates:
     - raphael-glucksmann
   contentHash: sha256:5b23a4314a13ea8e28aeebf8797425eb97b1df2d0435f75279c6d442577f920a
+- id: raphael-glucksmann-place-publique-acte-1
+  url: https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf
+  title: "Acte un, notre vision pour la France : les chantiers de Place publique (Place publique, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2025"
+    precision: year
+  accessedAt: 2026-11-09
+  candidates:
+    - raphael-glucksmann
+  contentHash: sha256:00b5c77db03dfb340456addf524ed434c78e59c07042b998c60b80d791392cb9
+- id: raphael-glucksmann-lettre-aux-francais
+  url: https://place-publique.eu/posts/2fgDdljEIy36rgxBjRyiQZ/raphael-glucksmann-sa-lettre-aux-francais
+  title: "Raphaël Glucksmann : sa lettre aux Français (Place publique)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-08-25
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - raphael-glucksmann
+  contentHash: sha256:c2ec4b7cbec697723bcc51a36d5ec3f1b845b7da2a53c952cb25b1ba6f8b35c0
+- id: raphael-glucksmann-combats-place-publique
+  url: https://place-publique.eu/pages/59EfFYTpFlj2lJhQ92PXsy/les-urgences
+  title: Les combats (Place publique)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2025"
+    precision: year
+  accessedAt: 2026-11-09
+  candidates:
+    - raphael-glucksmann
+  contentHash: sha256:cb48cbd8fa94be628094156a9c7fa6061885bcd8ee7dad6a19e274802fdd14ab
+- id: raphael-glucksmann-livre-2026-lcp
+  url: https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme
+  title: "Présidentielle : Raphaël Glucksmann dévoile les premières lignes de son possible programme (LCP)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-26
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - raphael-glucksmann
+  contentHash: sha256:83e9b8b9f41e97c57559eacd6b56a7fba3e050d4be4b522f3d8d532b516ff266
