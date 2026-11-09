@@ -1,0 +1,408 @@
+# Positions de Bruno Retailleau (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
+# provenance manual), à relire par adrien avec pnpm data:review.
+
+- question: agriculture-retenues-eau-irrigation
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: Suppression des PTGE et déclaration des retenues d'eau agricoles comme étant d'Intérêt général majeur
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret propose de supprimer les projets de territoire pour la gestion de l'eau et de déclarer les retenues d'eau agricoles d'intérêt général majeur, mesures qui facilitent directement leur construction.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-exceptionnel
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-figaro-constitution-2026-09
+  quote: le peuple français doit pouvoir décider, par référendum, de toute question législative
+  quoteSource: bruno-retailleau-figaro-constitution-2026-09
+  justification: Le candidat propose d'ouvrir le référendum à toute question législative, ce qui va à l'encontre d'un usage exceptionnel, sans se prononcer sur la fréquence de son recours.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-seuil-rip-maintenu
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-figaro-constitution-2026-09
+  quote: plutôt que 5 millions de signatures, il en faudrait moitié moins
+  quoteSource: bruno-retailleau-figaro-constitution-2026-09
+  justification: Le candidat propose de diviser par deux le nombre de signatures requis pour un référendum d'initiative partagée, soit l'abandon explicite du seuil actuel.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-alleger-regles-entreprises
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: Supprimer, dès le lendemain de l'élection, les 50 règles qui paralysent le plus nos entreprises
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret propose explicitement de supprimer cinquante règles pesant sur les entreprises dès le début du quinquennat, puis de poursuivre la déréglementation.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-assouplir-seuils-effectifs
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: Seuil de 50 salariés Relèvement du seuil à 100 salariés pour toutes les obligations
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret propose de relever de 50 à 100 salariés le seuil déclenchant les obligations, ce qui assouplit directement les obligations liées aux seuils d'effectifs.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-accelerer-eolien-terrestre
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: Nous mettrons fin aux soutiens publics aux nouvelles capacités solaires et éoliennes
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret prévoit la fin des soutiens publics aux nouvelles capacités éoliennes, ce qui va dans le sens contraire d'une accélération, sans viser spécifiquement l'éolien terrestre.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-prolonger-reacteurs-60-ans
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: La prolongation de l'exploitation des réacteurs jusqu'à quatre-vingts ans, lorsque les conditions de sûreté le permettront
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret propose de prolonger les réacteurs existants jusqu'à quatre-vingts ans sous réserve de sûreté, ce qui correspond à la mesure de l'énoncé.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-supprimer-aides-solaire-eolien
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: Nous mettrons fin aux soutiens publics aux nouvelles capacités solaires et éoliennes
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret prévoit la fin des soutiens publics aux nouvelles capacités solaires et éoliennes, sans viser les aides déjà accordées aux installations existantes.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-suspendre-nouvelles-eoliennes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: reporterons les projets déjà autorisés lorsque la situation de surcapacité l'exigera
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret prévoit de reporter les projets solaires et éoliens déjà autorisés en cas de surcapacité, soit une suspension conditionnelle et non générale.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-limiter-recours-projets
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: tout en limitant strictement les recours dilatoires
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret propose de limiter strictement les recours dilatoires contre la remise en service des friches industrielles, une version restreinte de la limitation des recours contre les projets industriels.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-plastique-usage-unique-2030
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: Loi anti-gaspillage pour une économie circulaire (AGEC) et interdiction plastiques/PFAS Moratoire immédiat sur toute interdiction allant au-delà des règlements européens
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret propose un moratoire sur les interdictions de plastiques allant au-delà du droit européen, ce qui va contre de nouvelles interdictions nationales sans viser explicitement l'échéance de 2030.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-taxe-carbone-importations
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: le mécanisme d'ajustement carbone aux frontières sera renforcé et étendu aux produits transformés
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret propose de renforcer et d'étendre le mécanisme d'ajustement carbone aux frontières, qui fait payer les émissions des produits importés.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-baisse-cotisations-salaries
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-travail
+  quote: Au-delà, les heures travaillées sont exonérées de cotisations sociales, salariales comme patronales.
+  quoteSource: bruno-retailleau-lr-livret-travail
+  justification: Le livret propose d'exonérer de cotisations salariales les heures travaillées au-delà de 1 623 heures par an, une baisse limitée à ces heures et non générale.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-baisse-prelevements-obligatoires
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: Réduire franchement les prélèvements obligatoires
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret fait de la réduction des prélèvements obligatoires une proposition explicite, chiffrée à environ 40 milliards d'euros.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-reduire-droits-succession
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: tant qu'il n'y a pas de cession, il n'y a pas d'imposition
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret propose de différer l'exigibilité des droits de mutation sur les entreprises transmises tant qu'elles ne sont pas cédées, une mesure limitée au capital productif.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-supprimer-impots-production
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: un allègement ciblé de près de 15 milliards d'euros de la fiscalité de production
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret propose de supprimer la C3S et la CVAE et d'alléger d'environ 15 milliards d'euros des impôts de production évalués à 95 milliards, soit une suppression partielle.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-prestations-duree-residence
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-figaro-constitution-2026-09
+  quote: la fin des aides sociales automatiques pour les étrangers, qui avait été votée par le Parlement mais censurée par le Conseil constitutionnel, serait appliquée aujourd'hui
+  quoteSource: bruno-retailleau-figaro-constitution-2026-09
+  justification: Le candidat souhaite appliquer la fin des aides sociales automatiques pour les étrangers votée puis censurée, sans préciser dans l'entretien la durée de résidence exigée.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-supprimer-droit-du-sol
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-figaro-constitution-2026-09
+  quote: abolir le droit du sol
+  quoteSource: bruno-retailleau-figaro-constitution-2026-09
+  justification: Le candidat propose explicitement d'abolir le droit du sol.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-competences-retour-etat
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+  quote: Des compétences nouvelles seront transférées aux collectivités, qui connaissent mieux que personne leurs besoins.
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: Le livret propose de transférer de nouvelles compétences éducatives aux régions et aux départements, mouvement inverse d'un retour de compétences à l'État, dans le seul domaine de l'éducation.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-arrets-cedh-derogation
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-figaro-constitution-2026-09
+  quote: je propose qu'une loi organique puisse revenir sur une jurisprudence européenne si elle est contraire à nos intérêts fondamentaux
+  quoteSource: bruno-retailleau-figaro-constitution-2026-09
+  justification: Le candidat propose qu'une loi organique puisse écarter une jurisprudence européenne, en citant les arrêts de la CEDH sur les expulsions, ce qui correspond à la mesure de l'énoncé.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-primaute-loi-nationale
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-figaro-constitution-2026-09
+  quote: Je veux donc préciser à l'article 88 de notre Constitution que le droit européen ne sera supérieur à la loi qu'à deux conditions.
+  quoteSource: bruno-retailleau-figaro-constitution-2026-09
+  justification: Le candidat propose que le droit européen ne prime la loi que s'il respecte la Constitution et la répartition des compétences, tout en écartant explicitement un Frexit juridique, d'où une valeur de 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-peines-minimales-recidive
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-figaro-constitution-2026-09
+  quote: si aujourd'hui les peines minimales existent, leur application dépend du juge. Je veux qu'elles soient désormais obligatoires
+  quoteSource: bruno-retailleau-figaro-constitution-2026-09
+  justification: Le candidat veut rendre les peines minimales obligatoires, sans mentionner spécifiquement les récidivistes.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-sanction-financiere-parents
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+  quote: les parents des élèves violents ou durablement absentéistes seront responsabilisés, accompagnés au sein des conseils des droits et devoirs des familles, rendus obligatoires dans les communes de plus de 5 000 habitants, jusqu'à, s'il le faut, réduire ou suspendre les allocations
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: Le livret prévoit de pouvoir réduire ou suspendre les allocations des parents d'élèves violents ou absentéistes, une variante voisine qui ne vise pas la délinquance des mineurs en général.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-telephone-interdit-lycees
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+  quote: le téléphone interdit dans l'enceinte des établissements jusqu'à la fin du lycée
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: Le livret propose explicitement d'interdire le téléphone dans l'enceinte des établissements jusqu'à la fin du lycée.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-instruction-famille-autorisation
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+  quote: nous rendrons aux parents qui le souhaitent la liberté d'instruire leur enfant en famille jusqu'à six ans
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: Le livret propose de rétablir la liberté d'instruction en famille, mais seulement jusqu'à six ans, ce qui s'oppose partiellement au régime d'autorisation préalable.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-signes-religieux-sorties-scolaires
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+  quote: La neutralité de la loi de 2004 sera étendue aux accompagnateurs des sorties scolaires
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: Le livret propose d'étendre aux accompagnateurs de sorties scolaires l'interdiction des signes religieux prévue par la loi de 2004.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-uniforme-ecole-publique
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+  quote: le port de l'uniforme encouragé
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: Le livret propose d'encourager le port de l'uniforme sans le rendre obligatoire, une version plus faible de l'énoncé.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-durcir-indemnisation-chomage
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-travail
+  quote: réformer l'assurance chômage, en resserrant les conditions d'indemnisation
+  quoteSource: bruno-retailleau-lr-livret-travail
+  justification: Le livret propose explicitement de resserrer les conditions d'indemnisation du chômage, notamment la durée maximale et l'indemnisation des ruptures conventionnelles.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-retraite-capitalisation
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: créer un étage de retraite par capitalisation pour tous
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: Le livret propose de créer un étage de retraite par capitalisation, complémentaire et volontaire, venant s'ajouter à la répartition.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
