@@ -1,0 +1,184 @@
+# Positions de Nicolas Dupont-Aignan (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
+# provenance manual), à relire par adrien avec pnpm data:review.
+
+- question: democratie-referendum-exceptionnel
+  value: -1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie
+  quote: Nous voulons remettre le citoyen au centre des décisions, en instaurant un référendum d'initiative citoyenne pour la loi et la Constitution
+  quoteSource: nicolas-dupont-aignan-projet-democratie
+  justification: Le projet propose un référendum d'initiative citoyenne pour la loi et la Constitution, ce qui va dans le sens d'un recours plus fréquent au référendum sans se prononcer explicitement sur son caractère exceptionnel.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-initiative-citoyenne
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie
+  quote: en instaurant un référendum d'initiative citoyenne pour la loi et la Constitution
+  quoteSource: nicolas-dupont-aignan-projet-democratie
+  justification: Le projet propose explicitement d'instaurer un référendum d'initiative citoyenne, pour la loi comme pour la Constitution.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-reserve-elus
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie
+  quote: en instaurant un référendum d'initiative citoyenne pour la loi et la Constitution
+  quoteSource: nicolas-dupont-aignan-projet-democratie
+  justification: Le projet propose un référendum d'initiative citoyenne, mesure inverse d'un déclenchement réservé au président de la République et au Parlement.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-revocatoire
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie
+  quote: en conditionnant la révocation ou la reconduction des mandats à la confiance populaire
+  quoteSource: nicolas-dupont-aignan-projet-democratie
+  justification: Le projet prévoit de conditionner la révocation des mandats à la confiance populaire, sans préciser qu'il s'agit d'un référendum en cours de mandat ; la valeur est donc 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-fin-thermique-2035
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-europe
+  quote: Nous protégerons notre agriculture et notre industrie contre la concurrence sauvage et les délires bureaucratiques imposés par les technocrates bruxellois (fin du moteur thermique
+  quoteSource: nicolas-dupont-aignan-projet-europe
+  justification: Le projet range la fin du moteur thermique parmi les mesures européennes contre lesquelles il s'engage à protéger l'industrie, ce qui constitue un rejet explicite de l'interdiction.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-condamnes-perte-titre-sejour
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nicolas-dupont-aignan-sudradio-2026-05-18
+  quote: Il faut construire 40 000 places de prison et expulser les délinquants étrangers.
+  quoteSource: nicolas-dupont-aignan-sudradio-2026-05-18
+  justification: Le candidat propose d'expulser les délinquants étrangers, mesure voisine du retrait du titre de séjour des condamnés à de la prison ferme, sans en reprendre les termes ; la valeur est donc 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-prestations-duree-residence
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-immigration
+  quote: la fin des aides sociales non contributives aux étrangers
+  quoteSource: nicolas-dupont-aignan-projet-immigration
+  justification: Le projet propose de supprimer les aides sociales non contributives aux étrangers, mesure plus restrictive qu'une condition de cinq ans de résidence et différente dans sa forme ; la valeur est donc 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-regroupement-familial-ressources
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-immigration
+  quote: la suspension du regroupement familial
+  quoteSource: nicolas-dupont-aignan-projet-immigration
+  justification: Le projet propose de suspendre le regroupement familial, ce qui va dans le sens d'un durcissement sans porter sur des conditions de ressources ; la valeur est donc 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-supprimer-droit-du-sol
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-immigration
+  quote: Nous proposons, par conséquent, la suppression du droit du sol
+  quoteSource: nicolas-dupont-aignan-projet-immigration
+  justification: Le projet propose explicitement la suppression du droit du sol.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-controles-frontieres-schengen
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-europe
+  quote: Nous rétablirons immédiatement nos frontières nationales et abandonnerons l'espace Schengen
+  quoteSource: nicolas-dupont-aignan-projet-europe
+  justification: Le projet prévoit de rétablir immédiatement les frontières nationales et de quitter l'espace Schengen, ce qui inclut le contrôle durable à toutes les frontières.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-primaute-loi-nationale
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-europe
+  quote: Nous rétablirons la primauté du droit national sur le droit européen
+  quoteSource: nicolas-dupont-aignan-projet-europe
+  justification: Le projet propose explicitement de rétablir la primauté du droit national sur le droit européen.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-referendum-maintien-ue
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-europe
+  quote: Nous organiserons un référendum sur l'appartenance à l'Union européenne.
+  quoteSource: nicolas-dupont-aignan-projet-europe
+  justification: Le projet s'engage explicitement à organiser un référendum sur l'appartenance de la France à l'Union européenne.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-arret-construction-prisons
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - nicolas-dupont-aignan-sudradio-2026-05-18
+  quote: Il faut construire 40 000 places de prison
+  quoteSource: nicolas-dupont-aignan-sudradio-2026-05-18
+  justification: Le candidat propose de construire 40 000 places de prison, mesure inverse de l'arrêt des constructions.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
