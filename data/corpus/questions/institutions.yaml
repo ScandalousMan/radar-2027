@@ -9,6 +9,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: institutions-pouvoirs-prefet-renforces
   text: Le préfet doit disposer de pouvoirs renforcés sur les collectivités locales.
   themes:
@@ -16,6 +22,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: institutions-adaptation-lois-regions
   text: Les régions doivent obtenir un pouvoir d'adaptation des lois à leur territoire.
   themes:
@@ -23,8 +35,18 @@
   polarity: +
   status: draft
   author: claude
-- id: institutions-mandat-presidentiel-sept-ans
-  text: Le mandat présidentiel doit être porté à sept ans.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `institutions-mandat-presidentiel-sept-ans` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Le mandat présidentiel doit être porté à sept ans.
+# Motif : La durée du mandat n'indique pas en elle-même une concentration des pouvoirs exécutifs ; la polarité − n'est pas justifiée par l'axe Institutions.
+# P! : polarité ou thème à trancher en seconde passe.
+- id: institutions-mandat-presidentiel-sept-ans-v2
+  text: "La durée du mandat du président de la République doit être portée à sept ans."
   themes:
     - institutions
   polarity: "-"
@@ -38,8 +60,18 @@
   polarity: +
   status: draft
   author: claude
-- id: institutions-fusions-communes-obligatoires
-  text: Le nombre de communes doit être réduit par des fusions obligatoires.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `institutions-fusions-communes-obligatoires` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Le nombre de communes doit être réduit par des fusions obligatoires.
+# Motif : La fusion communale peut centraliser ou mutualiser ; elle ne mesure pas directement le partage des pouvoirs entre exécutif, Parlement et collectivités.
+# P! : polarité ou thème à trancher en seconde passe.
+- id: institutions-fusions-communes-obligatoires-v2
+  text: "Les communes doivent être regroupées par des fusions obligatoires au-delà d'un seuil de population défini."
   themes:
     - institutions
   polarity: "-"
@@ -53,6 +85,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: institutions-autonomie-fiscale-collectivites
   text: Les collectivités locales doivent disposer d'une plus grande autonomie fiscale.
   themes:
@@ -61,8 +99,17 @@
   polarity: +
   status: draft
   author: claude
-- id: institutions-autonomie-corse-constitution
-  text: La Corse doit obtenir un statut d'autonomie inscrit dans la Constitution.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `institutions-autonomie-corse-constitution` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : La Corse doit obtenir un statut d'autonomie inscrit dans la Constitution.
+# Motif : « Obtenir » est une formulation orientée vers un résultat ; le texte doit énoncer directement la mesure institutionnelle.
+- id: institutions-autonomie-corse-constitution-v2
+  text: "La Constitution doit reconnaître un statut d'autonomie pour la Corse."
   themes:
     - institutions
   polarity: +
@@ -75,6 +122,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: institutions-ordre-du-jour-parlement
   text: Le Parlement doit fixer seul son ordre du jour, sans priorité accordée au gouvernement.
   themes:
@@ -82,6 +135,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: institutions-investiture-premier-ministre
   text: Le Premier ministre doit obtenir un vote de confiance de l'Assemblée nationale après sa nomination.
   themes:
@@ -89,6 +148,13 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Relecture du 2026-11-09 (adrien) : texte conservé, polarité à trancher en seconde passe (P!). Motif : La réduction du nombre de parlementaires ne signifie pas mécaniquement une concentration des pouvoirs sur l'exécutif ou l'État central ; item non positionnable sur l'axe tel qu'il est défini.
 - id: institutions-reduire-nombre-parlementaires
   text: Le nombre de députés et de sénateurs doit être réduit.
   themes:
@@ -96,6 +162,7 @@
   polarity: "-"
   status: draft
   author: claude
+# Relecture du 2026-11-09 (adrien) : texte conservé, polarité à trancher en seconde passe (P!). Motif : La suppression d'une chambre ne correspond pas nécessairement à une concentration des pouvoirs sur l'exécutif ; la polarité − est à revoir.
 - id: institutions-supprimer-senat
   text: Le Sénat doit être supprimé.
   themes:
@@ -103,8 +170,11 @@
   polarity: "-"
   status: draft
   author: claude
-- id: institutions-competences-retour-etat
-  text: Une partie des compétences exercées par les collectivités locales doit revenir à l'État.
+# Reformulation de `institutions-competences-retour-etat` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Une partie des compétences exercées par les collectivités locales doit revenir à l'État.
+# Motif : « Revenir » présuppose un état antérieur ; « transférées » décrit la décision sans jugement.
+- id: institutions-competences-retour-etat-v2
+  text: "Certaines compétences actuellement exercées par les collectivités territoriales doivent être transférées à l'État."
   themes:
     - institutions
   polarity: "-"
@@ -117,6 +187,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: institutions-referendum-revision-constitution
   text: Le président de la République doit pouvoir soumettre directement au référendum une révision de la Constitution.
   themes:
@@ -125,3 +201,9 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

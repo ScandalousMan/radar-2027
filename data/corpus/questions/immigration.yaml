@@ -9,6 +9,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: immigration-regroupement-familial-ressources
   text: Le regroupement familial doit être soumis à des conditions de ressources plus strictes.
   themes:
@@ -16,8 +22,17 @@
   polarity: "-"
   status: draft
   author: claude
-- id: immigration-regularisation-metiers-tension
-  text: Les travailleurs sans titre de séjour employés dans des métiers en tension doivent pouvoir être régularisés.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `immigration-regularisation-metiers-tension` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les travailleurs sans titre de séjour employés dans des métiers en tension doivent pouvoir être régularisés.
+# Motif : « Métiers en tension » dépend d'une liste évolutive ; préciser la référence juridique et distinguer droit de demander et droit d'obtenir.
+- id: immigration-regularisation-metiers-tension-v2
+  text: "Les personnes étrangères sans titre de séjour travaillant dans un métier inscrit sur la liste des métiers en tension doivent pouvoir demander une régularisation."
   themes:
     - immigration
     - travail
@@ -31,8 +46,17 @@
   polarity: "-"
   status: draft
   author: claude
-- id: immigration-vote-local-etrangers
-  text: Les étrangers non européens résidant en France depuis plusieurs années doivent pouvoir voter aux élections locales.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `immigration-vote-local-etrangers` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les étrangers non européens résidant en France depuis plusieurs années doivent pouvoir voter aux élections locales.
+# Motif : « Depuis plusieurs années » est indéfini ; préciser durée, régularité du séjour et type d'élection.
+- id: immigration-vote-local-etrangers-v2
+  text: "Les étrangers non ressortissants de l'Union européenne résidant régulièrement en France depuis au moins cinq ans doivent pouvoir voter aux élections municipales."
   themes:
     - immigration
     - democratie
@@ -47,15 +71,27 @@
   polarity: "-"
   status: draft
   author: claude
-- id: immigration-titre-sejour-longue-duree
-  text: Les étrangers en situation régulière doivent obtenir plus facilement un titre de séjour de longue durée.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `immigration-titre-sejour-longue-duree` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les étrangers en situation régulière doivent obtenir plus facilement un titre de séjour de longue durée.
+# Motif : « Plus facilement » ne décrit pas le changement souhaité ; la reformulation reste à préciser selon le type de titre concerné.
+- id: immigration-titre-sejour-longue-duree-v2
+  text: "Les étrangers en situation régulière doivent pouvoir obtenir un titre de séjour pluriannuel après une durée de résidence réduite."
   themes:
     - immigration
   polarity: +
   status: draft
   author: claude
-- id: immigration-reduire-duree-naturalisation
-  text: La durée de résidence exigée pour demander la naturalisation doit être réduite.
+# Reformulation de `immigration-reduire-duree-naturalisation` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : La durée de résidence exigée pour demander la naturalisation doit être réduite.
+# Motif : La version initiale est compréhensible, mais ne distingue pas durée de résidence, conditions d'assimilation et décision de naturalisation.
+- id: immigration-reduire-duree-naturalisation-v2
+  text: "La durée minimale de résidence exigée avant une demande de naturalisation doit être réduite."
   themes:
     - immigration
   polarity: +
@@ -69,6 +105,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: immigration-frais-etudiants-etrangers
   text: Les étudiants étrangers hors Union européenne doivent payer les mêmes frais d'inscription que les étudiants français.
   themes:
@@ -76,15 +118,27 @@
   polarity: +
   status: draft
   author: claude
-- id: immigration-regularisation-cinq-ans
-  text: Les étrangers sans titre de séjour présents en France depuis plus de cinq ans doivent pouvoir être régularisés.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `immigration-regularisation-cinq-ans` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les étrangers sans titre de séjour présents en France depuis plus de cinq ans doivent pouvoir être régularisés.
+# Motif : Distinguer le droit de déposer une demande de l'obtention automatique d'un titre.
+- id: immigration-regularisation-cinq-ans-v2
+  text: "Les personnes étrangères sans titre de séjour présentes en France depuis au moins cinq ans doivent pouvoir demander une régularisation."
   themes:
     - immigration
   polarity: +
   status: draft
   author: claude
-- id: immigration-visas-professions-qualifiees
-  text: Les visas de travail pour les professions qualifiées doivent être délivrés plus facilement.
+# Reformulation de `immigration-visas-professions-qualifiees` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les visas de travail pour les professions qualifiées doivent être délivrés plus facilement.
+# Motif : « Plus facilement » est vague ; la reformulation désigne l'assouplissement des conditions.
+- id: immigration-visas-professions-qualifiees-v2
+  text: "Les conditions de délivrance des visas de travail aux personnes exerçant des professions qualifiées doivent être assouplies."
   themes:
     - immigration
     - travail
@@ -98,6 +152,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: immigration-prestations-duree-residence
   text: L'accès des étrangers aux prestations sociales non contributives doit être soumis à cinq ans de résidence.
   themes:
@@ -105,16 +165,28 @@
   polarity: "-"
   status: draft
   author: claude
-- id: immigration-condamnes-perte-titre-sejour
-  text: Les étrangers condamnés à une peine de prison ferme doivent perdre leur titre de séjour.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `immigration-condamnes-perte-titre-sejour` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les étrangers condamnés à une peine de prison ferme doivent perdre leur titre de séjour.
+# Motif : « Doivent perdre » rend la conséquence automatique ; « pouvoir entraîner » distingue automaticité et pouvoir d'appréciation. Le seuil de gravité mérite d'être défini.
+- id: immigration-condamnes-perte-titre-sejour-v2
+  text: "Une condamnation à une peine d'emprisonnement ferme doit pouvoir entraîner le retrait du titre de séjour d'une personne étrangère."
   themes:
     - immigration
     - justice
   polarity: "-"
   status: draft
   author: claude
-- id: immigration-asile-examen-hors-europe
-  text: Les demandes d'asile doivent être examinées dans des centres situés hors du territoire européen.
+# Reformulation de `immigration-asile-examen-hors-europe` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les demandes d'asile doivent être examinées dans des centres situés hors du territoire européen.
+# Motif : « Hors du territoire européen » est géographiquement ambigu : Europe géographique, UE ou territoire français.
+- id: immigration-asile-examen-hors-europe-v2
+  text: "Les demandes d'asile déposées auprès des autorités françaises doivent pouvoir être examinées dans des centres situés hors du territoire de l'Union européenne."
   themes:
     - immigration
     - international
@@ -129,3 +201,9 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

@@ -10,6 +10,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: agriculture-alleger-normes-agricoles
   text: Les normes environnementales imposées aux agriculteurs français doivent être allégées.
   themes:
@@ -17,8 +23,17 @@
   polarity: "-"
   status: draft
   author: claude
-- id: agriculture-prix-plancher-agricoles
-  text: Des prix plancher garantis doivent être fixés pour les principales productions agricoles.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `agriculture-prix-plancher-agricoles` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Des prix plancher garantis doivent être fixés pour les principales productions agricoles.
+# Motif : « Principales productions » est indéfini ; « prix plancher » est un terme de politique publique acceptable mais « prix minimaux garantis » est plus accessible.
+- id: agriculture-prix-plancher-agricoles-v2
+  text: "Des prix minimaux garantis doivent être fixés pour certaines productions agricoles."
   themes:
     - agriculture
   polarity: +
@@ -31,8 +46,17 @@
   polarity: "-"
   status: draft
   author: claude
-- id: agriculture-bio-restauration-collective
-  text: La part des produits biologiques dans la restauration collective publique doit être portée à 30 %.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `agriculture-bio-restauration-collective` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : La part des produits biologiques dans la restauration collective publique doit être portée à 30 %.
+# Motif : Préciser si le pourcentage porte sur la valeur des achats, le volume ou le nombre de produits.
+- id: agriculture-bio-restauration-collective-v2
+  text: "Les produits issus de l'agriculture biologique doivent représenter au moins 30 % des achats alimentaires de la restauration collective publique."
   themes:
     - agriculture
   polarity: +
@@ -45,8 +69,17 @@
   polarity: "-"
   status: draft
   author: claude
-- id: agriculture-origine-viandes-restaurants
-  text: L'origine des viandes doit être obligatoirement indiquée dans les plats servis par les restaurants.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `agriculture-origine-viandes-restaurants` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : L'origine des viandes doit être obligatoirement indiquée dans les plats servis par les restaurants.
+# Motif : Le terme « origine » doit être défini (pays d'élevage, d'abattage, lieu de transformation) pour éviter des interprétations divergentes.
+- id: agriculture-origine-viandes-restaurants-v2
+  text: "Les restaurants doivent indiquer l'origine des viandes utilisées dans les plats qu'ils servent."
   themes:
     - agriculture
   polarity: +
@@ -60,6 +93,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: agriculture-encadrer-prix-terres
   text: Le prix de vente des terres agricoles doit être encadré par l'État.
   themes:
@@ -67,6 +106,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: agriculture-plafonner-aides-pac
   text: Les aides de la politique agricole commune versées à une même exploitation doivent être plafonnées.
   themes:
@@ -74,6 +119,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: agriculture-interdire-poules-cage
   text: L'élevage de poules pondeuses en cage doit être interdit.
   themes:
@@ -81,16 +132,28 @@
   polarity: +
   status: draft
   author: claude
-- id: agriculture-chalut-aires-protegees
-  text: La pêche au chalut de fond doit être interdite dans les aires marines protégées.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `agriculture-chalut-aires-protegees` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : La pêche au chalut de fond doit être interdite dans les aires marines protégées.
+# Motif : « Aires marines protégées » recouvre des niveaux de protection différents ; préciser si l'interdiction concerne toutes les catégories.
+- id: agriculture-chalut-aires-protegees-v2
+  text: "La pêche au chalut de fond doit être interdite dans les zones marines bénéficiant d'un statut de protection."
   themes:
     - agriculture
     - environnement
   polarity: +
   status: draft
   author: claude
-- id: agriculture-autoriser-nouvelles-techniques-genomiques
-  text: La culture de plantes issues des nouvelles techniques génomiques doit être autorisée en France.
+# Reformulation de `agriculture-autoriser-nouvelles-techniques-genomiques` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : La culture de plantes issues des nouvelles techniques génomiques doit être autorisée en France.
+# Motif : Le terme technique est peu connu et les positions publiques varient selon les techniques et leur encadrement ; ajouter une définition courte dans l'interface.
+- id: agriculture-autoriser-nouvelles-techniques-genomiques-v2
+  text: "La culture en France de plantes obtenues par de nouvelles techniques génomiques doit être autorisée sous un régime spécifique."
   themes:
     - agriculture
   polarity: "-"
@@ -104,6 +167,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: agriculture-moins-controles-exploitations
   text: Les contrôles administratifs dans les exploitations agricoles doivent être moins fréquents.
   themes:
@@ -111,16 +180,28 @@
   polarity: "-"
   status: draft
   author: claude
-- id: agriculture-tirs-loups-sans-autorisation
-  text: Les éleveurs doivent pouvoir abattre sans autorisation préalable un loup qui attaque leur troupeau.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `agriculture-tirs-loups-sans-autorisation` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les éleveurs doivent pouvoir abattre sans autorisation préalable un loup qui attaque leur troupeau.
+# Motif : « Sans autorisation préalable » peut être compris comme absence de toute condition ou contrôle ; préciser les circonstances et obligations de signalement.
+- id: agriculture-tirs-loups-sans-autorisation-v2
+  text: "Un éleveur doit pouvoir abattre un loup attaquant son troupeau sans autorisation administrative préalable."
   themes:
     - agriculture
     - environnement
   polarity: "-"
   status: draft
   author: claude
-- id: agriculture-curage-fosses-sans-autorisation
-  text: Les agriculteurs doivent pouvoir curer les fossés et les cours d'eau sans autorisation préalable.
+# Reformulation de `agriculture-curage-fosses-sans-autorisation` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les agriculteurs doivent pouvoir curer les fossés et les cours d'eau sans autorisation préalable.
+# Motif : L'item combine fossés et cours d'eau, qui ne relèvent pas nécessairement des mêmes règles ; « curer » est technique et le champ d'application doit être borné.
+- id: agriculture-curage-fosses-sans-autorisation-v2
+  text: "Les agriculteurs doivent pouvoir entretenir les fossés agricoles sans autorisation préalable, dans le respect des règles de protection des cours d'eau."
   themes:
     - agriculture
   polarity: "-"

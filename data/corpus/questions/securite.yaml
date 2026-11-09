@@ -10,8 +10,18 @@
   polarity: +
   status: draft
   author: claude
-- id: securite-recepisse-controles-identite
-  text: Les contrôles d'identité doivent donner lieu à la remise d'un récépissé.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `securite-recepisse-controles-identite` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les contrôles d'identité doivent donner lieu à la remise d'un récépissé.
+# Motif : Cette mesure relève surtout de la traçabilité et des garanties procédurales, pas directement de « moins de moyens et de pouvoirs » policiers. Polarité à revoir ou axe Sécurité à élargir.
+# P! : polarité ou thème à trancher en seconde passe.
+- id: securite-recepisse-controles-identite-v2
+  text: "Toute personne faisant l'objet d'un contrôle d'identité doit pouvoir recevoir un récépissé."
   themes:
     - securite
   polarity: "-"
@@ -24,6 +34,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-interdire-lbd-manifestations
   text: L'usage des lanceurs de balles de défense doit être interdit lors des manifestations.
   themes:
@@ -31,6 +47,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-pouvoirs-polices-municipales
   text: Les polices municipales doivent recevoir les mêmes pouvoirs d'enquête que la police nationale.
   themes:
@@ -38,8 +60,18 @@
   polarity: +
   status: draft
   author: claude
-- id: securite-budget-vers-prevention
-  text: Une partie du budget des forces de l'ordre doit être réorientée vers la prévention de la délinquance.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `securite-budget-vers-prevention` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Une partie du budget des forces de l'ordre doit être réorientée vers la prévention de la délinquance.
+# Motif : La polarité « moins de moyens et de pouvoirs » est approximative : le volume budgétaire peut rester inchangé ; l'énoncé mesure une réallocation.
+# P! : polarité ou thème à trancher en seconde passe.
+- id: securite-budget-vers-prevention-v2
+  text: "Une part du budget consacré aux forces de l'ordre doit être transférée vers des actions de prévention de la délinquance."
   themes:
     - securite
   polarity: "-"
@@ -53,6 +85,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-presomption-legitime-defense
   text: Les policiers doivent bénéficier d'une présomption de légitime défense lorsqu'ils font usage de leur arme.
   themes:
@@ -61,6 +99,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-couvre-feu-mineurs
   text: Les maires doivent pouvoir instaurer un couvre-feu nocturne pour les mineurs.
   themes:
@@ -68,6 +112,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-armer-polices-municipales
   text: Les policiers municipaux doivent être armés dans toutes les communes.
   themes:
@@ -75,6 +125,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-surveillance-antiterroriste-prolongee
   text: Les mesures individuelles de surveillance antiterroriste doivent pouvoir durer plus d'un an.
   themes:
@@ -82,8 +138,18 @@
   polarity: +
   status: draft
   author: claude
-- id: securite-enquetes-policiers-independantes
-  text: Les enquêtes visant des policiers doivent être confiées à un organisme indépendant du ministère de l'Intérieur.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `securite-enquetes-policiers-independantes` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les enquêtes visant des policiers doivent être confiées à un organisme indépendant du ministère de l'Intérieur.
+# Motif : L'indépendance du contrôle ne signifie pas nécessairement moins de moyens ou de pouvoirs policiers. Ne pas coder automatiquement en p− sur l'axe actuel.
+# P! : polarité ou thème à trancher en seconde passe.
+- id: securite-enquetes-policiers-independantes-v2
+  text: "Les enquêtes portant sur des faits susceptibles d'être imputés à des policiers doivent être confiées à une autorité indépendante du ministère de l'Intérieur."
   themes:
     - securite
     - justice
@@ -97,16 +163,30 @@
   polarity: "-"
   status: draft
   author: claude
-- id: securite-renseignement-autorisation-juge
-  text: Les techniques de renseignement doivent être soumises à l'autorisation préalable d'un juge.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `securite-renseignement-autorisation-juge` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les techniques de renseignement doivent être soumises à l'autorisation préalable d'un juge.
+# Motif : Il s'agit d'un contrôle juridictionnel préalable, pas simplement d'une diminution des moyens policiers ; polarité à revoir.
+# P! : polarité ou thème à trancher en seconde passe.
+- id: securite-renseignement-autorisation-juge-v2
+  text: "La mise en œuvre des techniques de renseignement doit être soumise à l'autorisation préalable d'un juge."
   themes:
     - securite
     - numerique
   polarity: "-"
   status: draft
   author: claude
-- id: securite-limiter-dissolution-associations
-  text: Le pouvoir du gouvernement de dissoudre des associations par décret doit être limité.
+# Reformulation de `securite-limiter-dissolution-associations` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Le pouvoir du gouvernement de dissoudre des associations par décret doit être limité.
+# Motif : L'énoncé concerne le pouvoir exécutif sur les associations, pas les moyens ou pouvoirs des forces de l'ordre ; mauvais rattachement à l'axe Sécurité.
+# P! : polarité ou thème à trancher en seconde passe.
+- id: securite-limiter-dissolution-associations-v2
+  text: "Les motifs permettant au gouvernement de dissoudre une association par décret doivent être restreints."
   themes:
     - securite
   polarity: "-"
@@ -119,8 +199,18 @@
   polarity: "-"
   status: draft
   author: claude
-- id: securite-manifestations-sans-declaration
-  text: Les manifestations doivent pouvoir se tenir sans déclaration préalable en préfecture.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `securite-manifestations-sans-declaration` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les manifestations doivent pouvoir se tenir sans déclaration préalable en préfecture.
+# Motif : La déclaration relève de la liberté de manifestation et du pouvoir administratif ; la polarité ne mesure pas directement les moyens/pouvoirs des forces de l'ordre.
+# P! : polarité ou thème à trancher en seconde passe.
+- id: securite-manifestations-sans-declaration-v2
+  text: "Les manifestations sur la voie publique doivent pouvoir être organisées sans déclaration préalable en préfecture."
   themes:
     - securite
     - democratie

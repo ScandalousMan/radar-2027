@@ -9,6 +9,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-reduire-droits-succession
   text: Les droits de succession doivent être réduits pour les transmissions familiales.
   themes:
@@ -16,6 +22,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-capital-aligne-travail
   text: Le taux d'imposition des revenus du capital doit être aligné sur celui des revenus du travail.
   themes:
@@ -23,6 +35,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-baisse-tva
   text: Le taux normal de la TVA doit être abaissé.
   themes:
@@ -30,8 +48,17 @@
   polarity: "-"
   status: draft
   author: claude
-- id: fiscalite-tranche-hauts-revenus
-  text: Les plus hauts revenus doivent être soumis à une tranche d'impôt supplémentaire.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `fiscalite-tranche-hauts-revenus` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les plus hauts revenus doivent être soumis à une tranche d'impôt supplémentaire.
+# Motif : « Plus hauts revenus » ne fixe aucun seuil ; la mesure est incomparablement interprétable selon les répondants.
+- id: fiscalite-tranche-hauts-revenus-v2
+  text: "Une tranche supplémentaire d'impôt sur le revenu doit être créée au-delà d'un seuil de revenu fixé par la loi."
   themes:
     - fiscalite
   polarity: +
@@ -45,23 +72,38 @@
   polarity: "-"
   status: draft
   author: claude
-- id: fiscalite-impot-minimum-grandes-fortunes
-  text: Les patrimoines supérieurs à 100 millions d'euros doivent être soumis à un impôt minimum de 2 % par an.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `fiscalite-impot-minimum-grandes-fortunes` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les patrimoines supérieurs à 100 millions d'euros doivent être soumis à un impôt minimum de 2 % par an.
+# Motif : Préciser qu'il s'agit du patrimoine net et de l'assiette ; le niveau de 2 % est très spécifique et mérite un contrôle de cohérence avec les propositions réellement présentes dans le débat.
+- id: fiscalite-impot-minimum-grandes-fortunes-v2
+  text: "Les patrimoines nets supérieurs à 100 millions d'euros doivent être soumis à un prélèvement annuel minimal de 2 %."
   themes:
     - fiscalite
   polarity: +
   status: draft
   author: claude
-- id: fiscalite-taxe-benefices-exceptionnels
-  text: Les bénéfices exceptionnels des grandes entreprises doivent être soumis à une taxe supplémentaire.
+# Reformulation de `fiscalite-taxe-benefices-exceptionnels` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les bénéfices exceptionnels des grandes entreprises doivent être soumis à une taxe supplémentaire.
+# Motif : « Exceptionnels » et « grandes entreprises » ne sont pas définis ; éviter de faire dépendre la réponse d'une appréciation subjective.
+- id: fiscalite-taxe-benefices-exceptionnels-v2
+  text: "Les bénéfices des grandes entreprises dépassant un seuil défini doivent être soumis à un prélèvement supplémentaire."
   themes:
     - fiscalite
     - economie
   polarity: +
   status: draft
   author: claude
-- id: fiscalite-csg-progressive
-  text: La CSG doit devenir progressive en fonction du revenu.
+# Reformulation de `fiscalite-csg-progressive` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : La CSG doit devenir progressive en fonction du revenu.
+# Motif : La CSG comporte déjà des situations de taux et d'exonération différenciées ; la version actuelle pourrait laisser croire qu'elle est uniformément proportionnelle dans tous les cas.
+- id: fiscalite-csg-progressive-v2
+  text: "Le taux de la contribution sociale généralisée doit varier en fonction du revenu."
   themes:
     - fiscalite
   polarity: +
@@ -74,8 +116,17 @@
   polarity: +
   status: draft
   author: claude
-- id: fiscalite-reduire-credits-impot
-  text: Le montant total des réductions et crédits d'impôt doit être diminué de moitié.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `fiscalite-reduire-credits-impot` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Le montant total des réductions et crédits d'impôt doit être diminué de moitié.
+# Motif : Le périmètre « total » et les bénéficiaires ne sont pas précisés ; la mesure pourrait toucher des dispositifs très différents.
+- id: fiscalite-reduire-credits-impot-v2
+  text: "Le montant total des réductions et crédits d'impôt accordés aux ménages doit être réduit de moitié."
   themes:
     - fiscalite
   polarity: +
@@ -89,8 +140,17 @@
   polarity: "-"
   status: draft
   author: claude
-- id: fiscalite-baisse-ir-tranches-intermediaires
-  text: L'impôt sur le revenu doit baisser pour les tranches intermédiaires.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `fiscalite-baisse-ir-tranches-intermediaires` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : L'impôt sur le revenu doit baisser pour les tranches intermédiaires.
+# Motif : « Tranches intermédiaires » n'a pas de définition stable sans seuils ; ajouter des seuils ou une référence explicite au barème.
+- id: fiscalite-baisse-ir-tranches-intermediaires-v2
+  text: "L'impôt sur le revenu doit être réduit pour les contribuables situés dans les tranches intermédiaires du barème."
   themes:
     - fiscalite
   polarity: "-"
@@ -104,6 +164,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-baisse-cotisations-salaries
   text: Les cotisations sociales payées par les salariés doivent baisser.
   themes:
@@ -112,6 +178,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-supprimer-ifi
   text: L'impôt sur la fortune immobilière doit être supprimé.
   themes:
@@ -119,6 +191,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-baisse-prelevements-obligatoires
   text: Le niveau total des prélèvements obligatoires doit baisser au cours du quinquennat.
   themes:
@@ -126,3 +204,9 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

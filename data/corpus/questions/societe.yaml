@@ -2,16 +2,22 @@
 # Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
-- id: societe-aide-active-a-mourir
-  text: L'aide active à mourir doit être autorisée pour les adultes atteints d'une maladie incurable.
+# Reformulation de `societe-aide-active-a-mourir` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : L'aide active à mourir doit être autorisée pour les adultes atteints d'une maladie incurable.
+# Motif : « Maladie incurable » ne décrit pas à elle seule les critères possibles d'accès ; le périmètre légal est décisif et peut déplacer les réponses.
+- id: societe-aide-active-a-mourir-v2
+  text: "L'aide à mourir doit être autorisée en France sous des conditions définies par la loi."
   themes:
     - societe
     - sante
   polarity: +
   status: draft
   author: claude
-- id: societe-gpa-interdite
-  text: La gestation pour autrui doit rester interdite en France.
+# Reformulation de `societe-gpa-interdite` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : La gestation pour autrui doit rester interdite en France.
+# Motif : « Rester » présuppose le maintien du droit existant. La nouvelle version conserve la position sans présupposé temporel.
+- id: societe-gpa-interdite-v2
+  text: "La gestation pour autrui doit être interdite en France."
   themes:
     - societe
   polarity: "-"
@@ -24,6 +30,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-signes-religieux-sorties-scolaires
   text: Le port de signes religieux doit être interdit aux accompagnateurs de sorties scolaires.
   themes:
@@ -31,6 +43,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-conge-second-parent
   text: Le congé de naissance du second parent doit avoir la même durée que celui de la mère.
   themes:
@@ -39,6 +57,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-service-national-obligatoire
   text: Le service national doit devenir obligatoire pour tous les jeunes.
   themes:
@@ -46,6 +70,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-simplifier-changement-sexe-etat-civil
   text: La procédure de changement de la mention du sexe à l'état civil doit être simplifiée.
   themes:
@@ -53,6 +83,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-succession-couples-non-maries
   text: Les couples non mariés doivent bénéficier des mêmes droits de succession que les couples mariés.
   themes:
@@ -60,6 +96,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-pma-post-mortem
   text: Une femme doit pouvoir poursuivre une PMA avec les gamètes de son conjoint décédé.
   themes:
@@ -68,23 +110,38 @@
   polarity: +
   status: draft
   author: claude
-- id: societe-salles-consommation-drogue
-  text: Les salles de consommation de drogue à moindre risque doivent être généralisées.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `societe-salles-consommation-drogue` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les salles de consommation de drogue à moindre risque doivent être généralisées.
+# Motif : « À moindre risque » est une qualification de politique publique ; « supervisée » décrit plus directement le dispositif. « Généralisées » est imprécis.
+- id: societe-salles-consommation-drogue-v2
+  text: "Des salles de consommation supervisée de drogues doivent être ouvertes dans davantage de villes."
   themes:
     - societe
     - sante
   polarity: +
   status: draft
   author: claude
-- id: societe-statut-beau-parent
-  text: Le beau-parent doit pouvoir obtenir un statut juridique lui donnant des droits sur l'enfant de son conjoint.
+# Reformulation de `societe-statut-beau-parent` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Le beau-parent doit pouvoir obtenir un statut juridique lui donnant des droits sur l'enfant de son conjoint.
+# Motif : « Des droits sur l'enfant » est imprécis et réducteur ; droits et devoirs doivent être distingués. La portée du statut est à définir.
+- id: societe-statut-beau-parent-v2
+  text: "Un beau-parent doit pouvoir obtenir un statut juridique lui donnant certains droits et devoirs à l'égard de l'enfant de son conjoint."
   themes:
     - societe
   polarity: +
   status: draft
   author: claude
-- id: societe-casinos-en-ligne
-  text: Les jeux de casino en ligne doivent être légalisés et encadrés.
+# Reformulation de `societe-casinos-en-ligne` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les jeux de casino en ligne doivent être légalisés et encadrés.
+# Motif : « Légalisés et encadrés » associe autorisation et modalités de régulation ; si l'objet est l'autorisation, isoler cette décision.
+- id: societe-casinos-en-ligne-v2
+  text: "Les jeux de casino en ligne doivent être autorisés en France."
   themes:
     - societe
   polarity: +
@@ -97,15 +154,27 @@
   polarity: "-"
   status: draft
   author: claude
-- id: societe-signes-religieux-universite
-  text: Le port de signes religieux ostensibles doit être interdit aux étudiants à l'université.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `societe-signes-religieux-universite` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Le port de signes religieux ostensibles doit être interdit aux étudiants à l'université.
+# Motif : « Ostensibles » peut être compris au sens juridique ou courant ; préciser le périmètre institutionnel et le terme retenu.
+- id: societe-signes-religieux-universite-v2
+  text: "Le port de signes religieux visibles doit être interdit aux étudiants dans les universités publiques."
   themes:
     - societe
   polarity: "-"
   status: draft
   author: claude
-- id: societe-interdire-ecriture-inclusive
-  text: L'écriture inclusive doit être interdite dans les documents administratifs.
+# Reformulation de `societe-interdire-ecriture-inclusive` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : L'écriture inclusive doit être interdite dans les documents administratifs.
+# Motif : « Écriture inclusive » recouvre plusieurs pratiques ; préciser le procédé visé pour rendre les réponses comparables.
+- id: societe-interdire-ecriture-inclusive-v2
+  text: "L'usage du point médian et des formes typographiques inclusives doit être interdit dans les documents administratifs."
   themes:
     - societe
   polarity: "-"
@@ -118,6 +187,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-instruction-famille-autorisation
   text: L'instruction en famille doit rester soumise à une autorisation préalable.
   themes:
@@ -125,3 +200,9 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

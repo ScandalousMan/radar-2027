@@ -9,6 +9,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-assouplir-regles-ia
   text: Les règles européennes encadrant l'intelligence artificielle doivent être assouplies.
   themes:
@@ -16,6 +22,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-taxe-plateformes
   text: Les grandes plateformes numériques doivent payer un impôt sur le chiffre d'affaires réalisé en France.
   themes:
@@ -24,6 +36,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-anonymat-en-ligne
   text: L'anonymat en ligne doit être préservé sur les réseaux sociaux.
   themes:
@@ -31,15 +49,27 @@
   polarity: "-"
   status: draft
   author: claude
-- id: numerique-logiciels-libres-administration
-  text: Les administrations doivent utiliser en priorité des logiciels libres ou hébergés en Europe.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `numerique-logiciels-libres-administration` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les administrations doivent utiliser en priorité des logiciels libres ou hébergés en Europe.
+# Motif : La formulation combine deux critères différents : logiciel libre et hébergement en Europe. Il faut choisir l'un, ou créer deux énoncés distincts.
+- id: numerique-logiciels-libres-administration-v2
+  text: "Les administrations doivent privilégier les logiciels libres."
   themes:
     - numerique
   polarity: +
   status: draft
   author: claude
-- id: numerique-chiffrement-messageries
-  text: Le chiffrement des messageries privées doit rester hors d'atteinte des autorités.
+# Reformulation de `numerique-chiffrement-messageries` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Le chiffrement des messageries privées doit rester hors d'atteinte des autorités.
+# Motif : « Hors d'atteinte » est imagé et imprécis ; préciser le type d'accès et le périmètre technique.
+- id: numerique-chiffrement-messageries-v2
+  text: "Les autorités publiques ne doivent pas pouvoir accéder au contenu des messages privés protégés par un chiffrement de bout en bout."
   themes:
     - numerique
     - securite
@@ -53,16 +83,28 @@
   polarity: +
   status: draft
   author: claude
-- id: numerique-telephone-interdit-lycees
-  text: L'usage du téléphone portable doit être interdit dans l'enceinte des lycées.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `numerique-telephone-interdit-lycees` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : L'usage du téléphone portable doit être interdit dans l'enceinte des lycées.
+# Motif : « Dans l'enceinte » peut inclure espaces extérieurs ; préciser le périmètre et les exceptions.
+- id: numerique-telephone-interdit-lycees-v2
+  text: "L'utilisation des téléphones portables doit être interdite dans les locaux des lycées, sauf exceptions définies par le règlement."
   themes:
     - numerique
     - societe
   polarity: +
   status: draft
   author: claude
-- id: numerique-donnees-sante-hebergeurs-europeens
-  text: Les données de santé des Français doivent être hébergées exclusivement par des entreprises européennes.
+# Reformulation de `numerique-donnees-sante-hebergeurs-europeens` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les données de santé des Français doivent être hébergées exclusivement par des entreprises européennes.
+# Motif : « Entreprises européennes » désigne la nationalité du fournisseur plutôt que la localisation et la juridiction de l'hébergement.
+- id: numerique-donnees-sante-hebergeurs-europeens-v2
+  text: "Les données de santé des personnes prises en charge en France doivent être hébergées dans l'Union européenne."
   themes:
     - numerique
     - sante
@@ -77,6 +119,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-ia-remuneration-auteurs
   text: Les entreprises d'intelligence artificielle doivent rémunérer les auteurs dont les œuvres servent à entraîner leurs modèles.
   themes:
@@ -84,6 +132,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-faciliter-centres-donnees
   text: L'implantation de centres de données doit bénéficier de procédures administratives accélérées.
   themes:
@@ -92,6 +146,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-alleger-moderation
   text: Les obligations de modération imposées aux réseaux sociaux doivent être allégées.
   themes:
@@ -99,6 +159,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-assouplir-consentement-traceurs
   text: Les règles de consentement aux traceurs publicitaires sur internet doivent être assouplies.
   themes:
@@ -106,6 +172,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-rgpd-petites-entreprises
   text: Les petites entreprises doivent être exemptées d'une partie des obligations du règlement sur la protection des données.
   themes:
@@ -114,8 +186,17 @@
   polarity: "-"
   status: draft
   author: claude
-- id: numerique-responsabilite-plateformes-limitee
-  text: La responsabilité des plateformes pour les contenus publiés par leurs utilisateurs doit rester limitée.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `numerique-responsabilite-plateformes-limitee` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : La responsabilité des plateformes pour les contenus publiés par leurs utilisateurs doit rester limitée.
+# Motif : « Rester limitée » présuppose une situation actuelle et ne précise pas la nature de la responsabilité.
+- id: numerique-responsabilite-plateformes-limitee-v2
+  text: "La responsabilité juridique des plateformes pour les contenus publiés par leurs utilisateurs doit être limitée."
   themes:
     - numerique
   polarity: "-"
@@ -128,3 +209,9 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

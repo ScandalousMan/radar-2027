@@ -9,8 +9,17 @@
   polarity: +
   status: draft
   author: claude
-- id: international-primaute-loi-nationale
-  text: La France doit pouvoir appliquer sa loi nationale lorsqu'elle entre en conflit avec une règle européenne.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `international-primaute-loi-nationale` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : La France doit pouvoir appliquer sa loi nationale lorsqu'elle entre en conflit avec une règle européenne.
+# Motif : La formulation actuelle ne distingue pas conflit avec la Constitution et conflit avec une loi ordinaire ; elle laisse croire qu'une loi nationale peut écarter librement le droit de l'UE.
+- id: international-primaute-loi-nationale-v2
+  text: "La France doit pouvoir ne pas appliquer une règle de l'Union européenne lorsqu'elle est incompatible avec une disposition de sa Constitution."
   themes:
     - international
     - institutions
@@ -24,6 +33,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-quitter-commandement-otan
   text: La France doit quitter le commandement intégré de l'OTAN.
   themes:
@@ -32,6 +47,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-emprunt-commun-ue
   text: L'Union européenne doit pouvoir emprunter en commun pour financer des investissements.
   themes:
@@ -39,6 +60,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-reduire-contribution-ue
   text: La contribution de la France au budget de l'Union européenne doit être réduite.
   themes:
@@ -46,8 +73,17 @@
   polarity: "-"
   status: draft
   author: claude
-- id: international-adhesion-ukraine-ue
-  text: L'Ukraine doit pouvoir adhérer à l'Union européenne.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `international-adhesion-ukraine-ue` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : L'Ukraine doit pouvoir adhérer à l'Union européenne.
+# Motif : « Pouvoir adhérer » ne précise ni le processus ni le calendrier ; l'ouverture de négociations est une décision politique plus précisément identifiable.
+- id: international-adhesion-ukraine-ue-v2
+  text: "L'Union européenne doit ouvrir des négociations d'adhésion avec l'Ukraine."
   themes:
     - international
   polarity: +
@@ -61,6 +97,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-impots-propres-ue
   text: L'Union européenne doit disposer de nouveaux impôts qui lui sont propres.
   themes:
@@ -69,6 +111,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-casques-bleus
   text: La France doit augmenter sa participation aux missions de maintien de la paix de l'ONU.
   themes:
@@ -77,6 +125,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-initiative-parlement-europeen
   text: Le Parlement européen doit obtenir le droit d'initiative législative.
   themes:
@@ -85,6 +139,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-referendum-traites-europeens
   text: Tout nouveau traité européen doit être soumis à référendum en France.
   themes:
@@ -93,6 +153,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-referendum-maintien-ue
   text: La France doit organiser un référendum sur son maintien dans l'Union européenne.
   themes:
@@ -101,6 +167,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-renegocier-traites-competences
   text: Les traités européens doivent être renégociés pour rendre des compétences aux États.
   themes:
@@ -108,6 +180,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-controles-frontieres-schengen
   text: La France doit rétablir durablement des contrôles à toutes ses frontières intérieures de l'espace Schengen.
   themes:
@@ -116,6 +194,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-renforcer-sanctions-russie
   text: L'Union européenne doit renforcer ses sanctions contre la Russie.
   themes:
@@ -123,8 +207,17 @@
   polarity: +
   status: draft
   author: claude
-- id: international-arrets-cedh-derogation
-  text: La France doit pouvoir s'affranchir de certains arrêts de la Cour européenne des droits de l'homme.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `international-arrets-cedh-derogation` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : La France doit pouvoir s'affranchir de certains arrêts de la Cour européenne des droits de l'homme.
+# Motif : « S'affranchir » est connoté ; préciser si l'on parle de non-exécution d'arrêts, sans confondre la CEDH avec l'Union européenne.
+- id: international-arrets-cedh-derogation-v2
+  text: "La France doit pouvoir ne pas appliquer certaines décisions de la Cour européenne des droits de l'homme."
   themes:
     - international
     - justice

@@ -10,6 +10,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: environnement-supprimer-taxe-carbone
   text: La taxe carbone sur les carburants doit être supprimée.
   themes:
@@ -18,6 +24,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: environnement-interdire-vols-interieurs
   text: Les vols intérieurs doivent être interdits lorsqu'une alternative en train de moins de quatre heures existe.
   themes:
@@ -26,6 +38,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: environnement-assouplir-artificialisation
   text: Les objectifs de réduction de l'artificialisation des sols doivent être assouplis.
   themes:
@@ -33,6 +51,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: environnement-taxe-carbone-importations
   text: Les entreprises doivent payer une taxe sur les émissions de gaz à effet de serre de leurs importations.
   themes:
@@ -40,6 +64,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: environnement-supprimer-zfe
   text: Les zones à faibles émissions dans les grandes villes doivent être supprimées.
   themes:
@@ -48,8 +78,17 @@
   polarity: "-"
   status: draft
   author: claude
-- id: environnement-calendrier-logements-mal-isoles
-  text: L'interdiction de louer les logements les moins bien isolés doit être appliquée selon le calendrier prévu.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Reformulation de `environnement-calendrier-logements-mal-isoles` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : L'interdiction de louer les logements les moins bien isolés doit être appliquée selon le calendrier prévu.
+# Motif : « Les moins bien isolés » est imprécis et la référence aux classes DPE rend la mesure compréhensible ; vérifier la réglementation applicable au moment de publier.
+- id: environnement-calendrier-logements-mal-isoles-v2
+  text: "Le calendrier légal d'interdiction de location des logements classés F et G au diagnostic de performance énergétique doit être appliqué."
   themes:
     - environnement
   polarity: +
@@ -63,6 +102,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: environnement-ecocide-crime
   text: L'écocide doit être reconnu comme un crime dans le Code pénal.
   themes:
@@ -71,6 +116,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: environnement-publicite-vehicules-emetteurs
   text: La publicité pour les véhicules les plus émetteurs de CO2 doit être interdite.
   themes:
@@ -78,6 +129,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: environnement-plastique-usage-unique-2030
   text: Les emballages en plastique à usage unique doivent être interdits d'ici 2030.
   themes:
@@ -85,6 +142,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: environnement-trajectoire-emissions-entreprises
   text: Les grandes entreprises doivent être tenues de réduire leurs émissions selon une trajectoire fixée par la loi.
   themes:
@@ -92,6 +155,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: environnement-pause-normes-europeennes
   text: L'Union européenne doit suspendre l'adoption de nouvelles normes environnementales pendant plusieurs années.
   themes:
@@ -100,6 +169,13 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Relecture du 2026-11-09 (adrien) : texte conservé, polarité à trancher en seconde passe (P!). Motif : L'item concerne le calendrier de chasse et les usages, pas directement les contraintes environnementales imposées à l'activité ; polarité − non déductible de l'axe Environnement.
 - id: environnement-chasse-dimanche
   text: La chasse doit rester autorisée le dimanche.
   themes:
@@ -107,16 +183,23 @@
   polarity: "-"
   status: draft
   author: claude
-- id: environnement-gazole-non-routier-agriculteurs
-  text: Les agriculteurs doivent conserver un taux réduit de taxe sur le gazole non routier.
+# Reformulation de `environnement-gazole-non-routier-agriculteurs` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les agriculteurs doivent conserver un taux réduit de taxe sur le gazole non routier.
+# Motif : L'item mesure une préférence fiscale sectorielle, pas directement le niveau de contraintes environnementales ; le classement Environnement et la polarité sont à revoir.
+# P! : polarité ou thème à trancher en seconde passe.
+- id: environnement-gazole-non-routier-agriculteurs-v2
+  text: "Le taux réduit de fiscalité applicable au gazole non routier utilisé par les agriculteurs doit être maintenu."
   themes:
     - environnement
     - agriculture
   polarity: "-"
   status: draft
   author: claude
-- id: environnement-limiter-recours-projets
-  text: Les recours contre les projets industriels doivent être limités pour accélérer leur réalisation.
+# Reformulation de `environnement-limiter-recours-projets` proposée par la relecture du 2026-11-09, endossée par adrien.
+# Ancien texte : Les recours contre les projets industriels doivent être limités pour accélérer leur réalisation.
+# Motif : « Pour accélérer leur réalisation » donne une justification à la mesure et peut orienter la réponse ; supprimer cette finalité évaluative.
+- id: environnement-limiter-recours-projets-v2
+  text: "Les possibilités de recours juridictionnel contre les autorisations de projets industriels doivent être limitées."
   themes:
     - environnement
     - economie
@@ -130,3 +213,9 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
