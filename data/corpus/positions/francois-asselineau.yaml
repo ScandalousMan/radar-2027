@@ -87,10 +87,9 @@
 
 - question: democratie-referendum-initiative-citoyenne
   value: 2
-  evidence: livre_plateforme
+  evidence: declaration_vote
   sources:
     - francois-asselineau-discours-rentree-2026
-    - francois-asselineau-programme-2022
   quote: "instauration du Référendum d'Initiative Citoyenne (RIC)"
   quoteSource: francois-asselineau-discours-rentree-2026
   justification: "Le discours de 2026, comme le programme de 2022, propose d'instaurer le référendum d'initiative citoyenne."
@@ -102,10 +101,9 @@
 
 - question: democratie-referendum-reserve-elus
   value: -2
-  evidence: livre_plateforme
+  evidence: declaration_vote
   sources:
     - francois-asselineau-discours-rentree-2026
-    - francois-asselineau-programme-2022
   quote: "instauration du Référendum d'Initiative Citoyenne (RIC)"
   quoteSource: francois-asselineau-discours-rentree-2026
   justification: "Le discours de 2026, comme le programme de 2022, propose un référendum d'initiative citoyenne, ce qui retire aux seuls président et Parlement le monopole du déclenchement d'un référendum."
@@ -369,10 +367,9 @@
 
 - question: institutions-reduire-nombre-parlementaires
   value: 2
-  evidence: livre_plateforme
+  evidence: declaration_vote
   sources:
     - francois-asselineau-discours-rentree-2026
-    - francois-asselineau-programme-2022
   quote: "réduction du nombre de députés et de sénateurs"
   quoteSource: francois-asselineau-discours-rentree-2026
   justification: "Le discours de 2026, comme le programme de 2022 (qui chiffre la baisse à 35 %), propose de réduire le nombre de députés et de sénateurs."
@@ -412,10 +409,9 @@
 
 - question: international-controles-frontieres-schengen
   value: 2
-  evidence: livre_plateforme
+  evidence: declaration_vote
   sources:
     - francois-asselineau-discours-rentree-2026
-    - francois-asselineau-programme-2022
   quote: "rétablissement des contrôles frontaliers pour les flux humains, de marchandises et de capitaux"
   quoteSource: francois-asselineau-discours-rentree-2026
   justification: "Le discours de 2026 annonce le rétablissement des contrôles aux frontières, et le programme de 2022 prévoit de quitter l'espace Schengen pour contrôler toutes les frontières."
@@ -427,10 +423,9 @@
 
 - question: international-quitter-commandement-otan
   value: 2
-  evidence: livre_plateforme
+  evidence: declaration_vote
   sources:
     - francois-asselineau-discours-rentree-2026
-    - francois-asselineau-programme-2022
   quote: "Libération de l'OTAN : notification immédiate au Département d'État américain via l'article 13 pour faire sortir la France de l'alliance sous un an"
   quoteSource: francois-asselineau-discours-rentree-2026
   justification: "Le discours de 2026, comme le programme de 2022, prévoit la sortie complète de la France de l'OTAN, ce qui inclut et dépasse la sortie du commandement intégré."
