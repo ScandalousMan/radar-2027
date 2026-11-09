@@ -856,19 +856,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: societe-cannabis-legalisation
-  value: 0
-  evidence: livre_plateforme
-  sources:
-    - raphael-glucksmann-place-publique-acte-1
-  quote: Organiser une convention citoyenne sur la politique vis-à-vis des drogues, notamment la question de la légalisation du cannabis.
-  quoteSource: raphael-glucksmann-place-publique-acte-1
-  justification: La plateforme renvoie la question de la légalisation du cannabis à une convention citoyenne, sans trancher.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
 
 - question: societe-conge-second-parent
   value: 1
@@ -899,13 +886,13 @@
   authoredAt: 2026-11-09
 
 - question: societe-simplifier-changement-sexe-etat-civil
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - raphael-glucksmann-place-publique-acte-1
   quote: Respecter les identités et garantir le droit à l'autodétermination de genre
   quoteSource: raphael-glucksmann-place-publique-acte-1
-  justification: La plateforme veut garantir l'autodétermination de genre, ce qui va au-delà d'une simple simplification de la procédure.
+  justification: "La plateforme veut garantir l'autodétermination de genre, ce qui va au-delà d'une simple simplification de la procédure. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual

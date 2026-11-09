@@ -394,13 +394,13 @@
   authoredAt: 2026-11-09
 
 - question: energie-suspendre-nouvelles-eoliennes
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - eric-zemmour-programme-2022-pdf
   quote: Mettre fin à tous les projets d'éoliennes actuels et futurs, sur terre comme sur mer
   quoteSource: eric-zemmour-programme-2022-pdf
-  justification: Le programme de 2022 propose de mettre fin à tous les projets d'éoliennes actuels et futurs, ce qui va jusqu'à l'arrêt de toute nouvelle installation, d'où 2.
+  justification: "Le programme de 2022 propose de mettre fin à tous les projets d'éoliennes actuels et futurs, ce qui va jusqu'à l'arrêt de toute nouvelle installation. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -590,13 +590,13 @@
   authoredAt: 2026-11-09
 
 - question: immigration-condamnes-perte-titre-sejour
-  value: 2
+  value: 1
   evidence: declaration_vote
   sources:
     - eric-zemmour-bfmtv-candidature-afp-2026
   quote: Il faut renvoyer tous les délinquants étrangers, même ceux qui ne sont pas en prison
   quoteSource: eric-zemmour-bfmtv-candidature-afp-2026
-  justification: Dans cet entretien de septembre 2026 rapporté par l'AFP, il demande le renvoi de tous les délinquants étrangers, ce qui implique la perte du droit au séjour et va au-delà de l'énoncé ; le programme de 2022 prévoyait déjà leur expulsion dès la condamnation, d'où 2.
+  justification: "Dans cet entretien de septembre 2026 rapporté par l'AFP, il demande le renvoi de tous les délinquants étrangers, ce qui implique la perte du droit au séjour et va au-delà de l'énoncé ; le programme de 2022 prévoyait déjà leur expulsion dès la condamnation. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -856,13 +856,13 @@
   authoredAt: 2026-11-09
 
 - question: justice-peines-minimales-recidive
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - eric-zemmour-programme-2022-pdf
   quote: Obliger les juges à sanctionner tous les délinquants et criminels en introduisant des peines planchers pour tous les crimes et délits
   quoteSource: eric-zemmour-programme-2022-pdf
-  justification: Le programme de 2022 propose des peines planchers pour tous les crimes et délits, ce qui inclut les récidivistes et va au-delà de l'énoncé, d'où 2.
+  justification: "Le programme de 2022 propose des peines planchers pour tous les crimes et délits, ce qui inclut les récidivistes et va au-delà de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual

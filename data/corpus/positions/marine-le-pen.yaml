@@ -576,13 +576,13 @@
   authoredAt: 2026-11-09
 
 - question: justice-peines-minimales-recidive
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - marine-le-pen-22-mesures-2022
   quote: "Rétablir les peines planchers pour que tout criminel et délinquant aient une sanction."
   quoteSource: marine-le-pen-22-mesures-2022
-  justification: "Les 22 mesures de 2022 proposent de rétablir les peines planchers, au-delà des seuls récidivistes."
+  justification: "Les 22 mesures de 2022 proposent de rétablir les peines planchers, au-delà des seuls récidivistes. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual

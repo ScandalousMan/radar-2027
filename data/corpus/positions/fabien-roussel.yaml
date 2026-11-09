@@ -254,13 +254,13 @@
   authoredAt: 2026-11-09
 
 - question: economie-participations-etat-industrie
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - fabien-roussel-congres-2026-base-commune
   quote: "Dans cette optique, des nationalisations dans les secteurs prioritaires sont nécessaires"
   quoteSource: fabien-roussel-congres-2026-base-commune
-  justification: "La base commune juge nécessaires des nationalisations dans les secteurs prioritaires, ce qui va au-delà de prises de participation."
+  justification: "La base commune juge nécessaires des nationalisations dans les secteurs prioritaires, ce qui va au-delà de prises de participation. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -772,13 +772,13 @@
   authoredAt: 2026-11-09
 
 - question: travail-retraite-62-ans
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - fabien-roussel-congres-2026-base-commune
   quote: "garantissant une retraite de haut niveau, dès 60 ans à taux plein"
   quoteSource: fabien-roussel-congres-2026-base-commune
-  justification: "La base commune garantit la retraite dès 60 ans à taux plein, ce qui va au-delà d'un retour à 62 ans."
+  justification: "La base commune garantit la retraite dès 60 ans à taux plein, ce qui va au-delà d'un retour à 62 ans. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual

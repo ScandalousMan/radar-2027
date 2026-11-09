@@ -16,14 +16,14 @@
   authoredAt: 2026-11-09
 
 - question: immigration-regularisation-cinq-ans
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - nathalie-arthaud-brochure-fete-2026
     - nathalie-arthaud-discours-fete-2026-dimanche
   quote: Régularisation de tous les sans-papiers
   quoteSource: nathalie-arthaud-brochure-fete-2026
-  justification: La brochure et le discours de la fête demandent la régularisation de tous les sans-papiers, ce qui inclut ceux présents depuis plus de cinq ans, sans condition de durée.
+  justification: "La brochure et le discours de la fête demandent la régularisation de tous les sans-papiers, ce qui inclut ceux présents depuis plus de cinq ans, sans condition de durée. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -31,14 +31,14 @@
   authoredAt: 2026-11-09
 
 - question: immigration-regularisation-metiers-tension
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - nathalie-arthaud-brochure-fete-2026
     - nathalie-arthaud-discours-fete-2026-dimanche
   quote: Régularisation de tous les sans-papiers
   quoteSource: nathalie-arthaud-brochure-fete-2026
-  justification: La brochure et le discours de la fête demandent la régularisation de tous les sans-papiers, ce qui inclut les travailleurs employés dans des métiers en tension, sans condition de métier.
+  justification: "La brochure et le discours de la fête demandent la régularisation de tous les sans-papiers, ce qui inclut les travailleurs employés dans des métiers en tension, sans condition de métier. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -61,13 +61,13 @@
   authoredAt: 2026-11-09
 
 - question: travail-limiter-licenciements-beneficiaires
-  value: 2
+  value: 1
   evidence: declaration_vote
   sources:
     - nathalie-arthaud-declaration-candidature
   quote: prône notamment l'interdiction des licenciements
   quoteSource: nathalie-arthaud-declaration-candidature
-  justification: L'article rapporte que Lutte ouvrière prône l'interdiction des licenciements, mesure plus large qui inclut la limitation des licenciements dans les entreprises bénéficiaires ; la formule est celle du journaliste, pas une citation de la candidate.
+  justification: "L'article rapporte que Lutte ouvrière prône l'interdiction des licenciements, mesure plus large qui inclut la limitation des licenciements dans les entreprises bénéficiaires ; la formule est celle du journaliste, pas une citation de la candidate. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual

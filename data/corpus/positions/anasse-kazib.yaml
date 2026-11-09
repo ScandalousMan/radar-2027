@@ -59,14 +59,14 @@
   authoredAt: 2026-11-09
 
 - question: defense-reduire-budget-armees
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - anasse-kazib-programme-2027
     - anasse-kazib-depliant-2027
   quote: Pas un euro pour la guerre, démantèlement de la machine de guerre française, 2ème exportateur d'armes mondial.
   quoteSource: anasse-kazib-programme-2027
-  justification: Le programme refuse tout financement de la guerre et propose le démantèlement de l'appareil militaire français, ce qui va au-delà d'une réduction du budget des armées, d'où 2.
+  justification: "Le programme refuse tout financement de la guerre et propose le démantèlement de l'appareil militaire français, ce qui va au-delà d'une réduction du budget des armées. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -148,14 +148,14 @@
   authoredAt: 2026-11-09
 
 - question: immigration-regularisation-cinq-ans
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - anasse-kazib-programme-2027
     - anasse-kazib-depliant-2027
   quote: Régularisation de tous les sans-papiers, liberté de circulation et d'installation.
   quoteSource: anasse-kazib-programme-2027
-  justification: Le programme demande la régularisation de tous les sans-papiers, ce qui inclut ceux présents depuis plus de cinq ans, d'où 2.
+  justification: "Le programme demande la régularisation de tous les sans-papiers, ce qui inclut ceux présents depuis plus de cinq ans. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -163,14 +163,14 @@
   authoredAt: 2026-11-09
 
 - question: immigration-regularisation-metiers-tension
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - anasse-kazib-programme-2027
     - anasse-kazib-depliant-2027
   quote: Régularisation de tous les sans-papiers, liberté de circulation et d'installation.
   quoteSource: anasse-kazib-programme-2027
-  justification: Le programme demande la régularisation de tous les sans-papiers, ce qui inclut les travailleurs employés dans les métiers en tension, d'où 2.
+  justification: "Le programme demande la régularisation de tous les sans-papiers, ce qui inclut les travailleurs employés dans les métiers en tension. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -282,14 +282,14 @@
   authoredAt: 2026-11-09
 
 - question: travail-limiter-licenciements-beneficiaires
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - anasse-kazib-programme-2027
     - anasse-kazib-depliant-2027
   quote: Interdiction des licenciements.
   quoteSource: anasse-kazib-programme-2027
-  justification: Le programme demande l'interdiction de tous les licenciements, ce qui inclut et dépasse la limitation des licenciements économiques dans les entreprises bénéficiaires, d'où 2.
+  justification: "Le programme demande l'interdiction de tous les licenciements, ce qui inclut et dépasse la limitation des licenciements économiques dans les entreprises bénéficiaires. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual

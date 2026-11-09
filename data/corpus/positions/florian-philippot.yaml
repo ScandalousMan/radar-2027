@@ -394,13 +394,13 @@
   authoredAt: 2026-11-09
 
 - question: international-arrets-cedh-derogation
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - florian-philippot-projet-pour-la-france-2026
   quote: "Quitter la CEDH (Cour européenne des droits de l'homme)."
   quoteSource: florian-philippot-projet-pour-la-france-2026
-  justification: "Le livret propose de dénoncer la Convention et de quitter la CEDH, ce qui va au-delà de s'affranchir de certains de ses arrêts."
+  justification: "Le livret propose de dénoncer la Convention et de quitter la CEDH, ce qui va au-delà de s'affranchir de certains de ses arrêts. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -408,13 +408,13 @@
   authoredAt: 2026-11-09
 
 - question: international-controles-frontieres-schengen
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - florian-philippot-projet-pour-la-france-2026
   quote: "Retrouver des frontières nationales en quittant l'espace Schengen et l'UE."
   quoteSource: florian-philippot-projet-pour-la-france-2026
-  justification: "Le livret propose de quitter l'espace Schengen pour rétablir des contrôles permanents aux frontières nationales, ce qui va au-delà de la mesure de l'énoncé."
+  justification: "Le livret propose de quitter l'espace Schengen pour rétablir des contrôles permanents aux frontières nationales, ce qui va au-delà de la mesure de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -422,14 +422,14 @@
   authoredAt: 2026-11-09
 
 - question: international-quitter-commandement-otan
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - florian-philippot-projet-pour-la-france-2026
     - florian-philippot-declaration-candidature
   quote: "Quitter l'OTAN est l'une des conditions de notre indépendance sur la scène internationale."
   quoteSource: florian-philippot-projet-pour-la-france-2026
-  justification: "Le livret et la déclaration de candidature proposent de quitter l'OTAN, ce qui inclut le commandement intégré et va au-delà de la mesure de l'énoncé."
+  justification: "Le livret et la déclaration de candidature proposent de quitter l'OTAN, ce qui inclut le commandement intégré et va au-delà de la mesure de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -437,13 +437,13 @@
   authoredAt: 2026-11-09
 
 - question: international-reduire-contribution-ue
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - florian-philippot-projet-pour-la-france-2026
   quote: "Le Frexit signifie la fin de la contribution française à l'UE"
   quoteSource: florian-philippot-projet-pour-la-france-2026
-  justification: "Le livret présente la fin de la contribution française au budget de l'UE, par la sortie de l'Union, comme une source d'économies, ce qui va au-delà d'une réduction."
+  justification: "Le livret présente la fin de la contribution française au budget de l'UE, par la sortie de l'Union, comme une source d'économies, ce qui va au-delà d'une réduction. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual

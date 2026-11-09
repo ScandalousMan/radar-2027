@@ -30,13 +30,13 @@
   authoredAt: 2026-11-09
 
 - question: agriculture-bio-restauration-collective
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Mobiliser la commande publique comme un levier de transformation en atteignant 100 % de bio dans la restauration collective d'ici 2040.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme fixe un objectif de 100 % de produits bio dans la restauration collective d'ici 2040, qui dépasse le seuil de 30 % de l'énoncé.
+  justification: "Le programme fixe un objectif de 100 % de produits bio dans la restauration collective d'ici 2040, qui dépasse le seuil de 30 % de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -692,13 +692,13 @@
   authoredAt: 2026-11-09
 
 - question: environnement-interdire-vols-interieurs
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Interdire les vols intra-européens lorsqu'une alternative de moins de 4h30 en train existe.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme interdit les vols intra-européens dès qu'une alternative en train de moins de 4h30 existe, ce qui couvre et dépasse la mesure de l'énoncé.
+  justification: "Le programme interdit les vols intra-européens dès qu'une alternative en train de moins de 4h30 existe, ce qui couvre et dépasse la mesure de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -818,13 +818,13 @@
   authoredAt: 2026-11-09
 
 - question: fiscalite-capital-aligne-travail
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Taxer plus fortement le capital que le travail.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme veut taxer le capital plus fortement que le travail, ce qui va au-delà d'un simple alignement.
+  justification: "Le programme veut taxer le capital plus fortement que le travail, ce qui va au-delà d'un simple alignement. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -1129,19 +1129,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: institutions-autonomie-corse-constitution
-  value: 1
-  evidence: programme
-  sources:
-    - marine-tondelier-programme-ecologistes-2026
-  quote: Faire évoluer le statut de certaines régions comme l'Alsace ou la Corse après un référendum local.
-  quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme envisage une évolution du statut de la Corse après référendum local, sans préciser une autonomie inscrite dans la Constitution.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
 
 - question: institutions-autonomie-fiscale-collectivites
   value: 2

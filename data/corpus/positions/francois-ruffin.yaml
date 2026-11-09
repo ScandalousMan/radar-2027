@@ -596,13 +596,13 @@
   authoredAt: 2026-11-09
 
 - question: travail-retraite-62-ans
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - francois-ruffin-cahier-travailleurs-essentiels
   quote: "Des mesures fortes, concrètes, comme le SMIC à 1 600€ ou la retraite à 60 ans, qui revalorisent le travail."
   quoteSource: francois-ruffin-cahier-travailleurs-essentiels
-  justification: "Le programme reprend la retraite à 60 ans, ce qui va au-delà d'un retour à 62 ans."
+  justification: "Le programme reprend la retraite à 60 ans, ce qui va au-delà d'un retour à 62 ans. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual

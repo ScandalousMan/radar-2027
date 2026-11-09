@@ -422,13 +422,13 @@
   authoredAt: 2026-11-09
 
 - question: international-quitter-commandement-otan
-  value: 2
+  value: 1
   evidence: declaration_vote
   sources:
     - francois-asselineau-discours-rentree-2026
   quote: "Libération de l'OTAN : notification immédiate au Département d'État américain via l'article 13 pour faire sortir la France de l'alliance sous un an"
   quoteSource: francois-asselineau-discours-rentree-2026
-  justification: "Le discours de 2026, comme le programme de 2022, prévoit la sortie complète de la France de l'OTAN, ce qui inclut et dépasse la sortie du commandement intégré."
+  justification: "Le discours de 2026, comme le programme de 2022, prévoit la sortie complète de la France de l'OTAN, ce qui inclut et dépasse la sortie du commandement intégré. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -632,13 +632,13 @@
   authoredAt: 2026-11-09
 
 - question: sante-production-publique-medicaments
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - francois-asselineau-programme-2022
   quote: "créerons un grand pôle public et transparent de recherche médicale et de production de médicaments en France"
   quoteSource: francois-asselineau-programme-2022
-  justification: "Le programme de 2022 prévoit un pôle public de production de médicaments visant l'autosuffisance, ce qui couvre et dépasse la production publique en cas de défaut de l'offre privée."
+  justification: "Le programme de 2022 prévoit un pôle public de production de médicaments visant l'autosuffisance, ce qui couvre et dépasse la production publique en cas de défaut de l'offre privée. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual

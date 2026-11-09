@@ -16,13 +16,13 @@
   authoredAt: 2026-11-09
 
 - question: agriculture-bio-restauration-collective
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-gout-du-futur-ch4
   quote: Porter l'alimentation dans la restauration collective et scolaire à 100 % biologique et locale
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
-  justification: Le programme vise 100 % de produits biologiques dans la restauration collective, objectif qui dépasse les 30 % de l'énoncé.
+  justification: "Le programme vise 100 % de produits biologiques dans la restauration collective, objectif qui dépasse les 30 % de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -2079,14 +2079,14 @@
   authoredAt: 2026-11-09
 
 - question: travail-retraite-62-ans
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-securite-sociale-ch1
     - jean-luc-melenchon-comptes-publics-2027
   quote: Abroger la réforme Macron passant l'âge de départ à la retraite à 64 ans, puis abaisser l'âge de départ jusqu'à restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
-  justification: Le programme ramène l'âge de départ sous 64 ans jusqu'à 60 ans, ce qui va au-delà d'un retour à 62 ans.
+  justification: "Le programme ramène l'âge de départ sous 64 ans jusqu'à 60 ans, ce qui va au-delà d'un retour à 62 ans. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual

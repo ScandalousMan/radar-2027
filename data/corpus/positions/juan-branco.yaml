@@ -30,13 +30,13 @@
   authoredAt: 2026-11-09
 
 - question: agriculture-interdire-poules-cage
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - juan-branco-la-voie-programme-2027
   quote: Interdiction progressive des élevages en cage et de l'élevage laitier intensif.
   quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme prévoit l'interdiction progressive de tous les élevages en cage, ce qui inclut les poules pondeuses.
+  justification: "Le programme prévoit l'interdiction progressive de tous les élevages en cage, ce qui inclut les poules pondeuses. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -454,19 +454,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: environnement-exploitation-hydrocarbures
-  value: 1
-  evidence: programme
-  sources:
-    - juan-branco-la-voie-programme-2027
-  quote: Relance de l'exploration hydrocarbure en Guyane et référendum sur une exploitation dans l'hexagone et les outremers afin d'assurer la transition énergétique de façon souveraine.
-  quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme relance l'exploration en Guyane et soumet l'exploitation de nouveaux gisements à référendum, d'où 1 (mesure conditionnée).
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
 
 - question: environnement-gazole-non-routier-agriculteurs
   value: -1
@@ -792,47 +779,8 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: international-arrets-cedh-derogation
-  value: 1
-  evidence: programme
-  sources:
-    - juan-branco-la-voie-programme-2027
-  quote: Sortie de l'Union Européenne, de l'euro, du Conseil de l'Europe et/ou de l'espace Schengen.
-  quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme soumet à référendum une possible sortie du Conseil de l'Europe, qui affranchirait la France de la Cour européenne des droits de l'homme, d'où 1 (option et mesure voisine).
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
 
-- question: international-controles-frontieres-schengen
-  value: 1
-  evidence: programme
-  sources:
-    - juan-branco-la-voie-programme-2027
-  quote: Sortie de l'Union Européenne, de l'euro, du Conseil de l'Europe et/ou de l'espace Schengen.
-  quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme soumet à référendum une possible sortie de l'espace Schengen, mesure voisine du rétablissement des contrôles aux frontières intérieures, d'où 1.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
 
-- question: international-quitter-commandement-otan
-  value: 2
-  evidence: programme
-  sources:
-    - juan-branco-la-voie-programme-2027
-  quote: Sortie de l'OTAN (commandement intégré ou du Traité).
-  quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme propose, par référendum, la sortie du commandement intégré de l'OTAN ou du traité lui-même.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
 
 - question: international-referendum-maintien-ue
   value: 2
@@ -1005,13 +953,13 @@
   authoredAt: 2026-11-09
 
 - question: sante-production-publique-medicaments
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - juan-branco-la-voie-programme-2027
   quote: Création d'une industrie pharmaceutique publique
   quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme propose une industrie pharmaceutique publique, ce qui va au-delà d'une production publique en cas de défaut de l'offre privée.
+  justification: "Le programme propose une industrie pharmaceutique publique, ce qui va au-delà d'une production publique en cas de défaut de l'offre privée. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
@@ -1102,19 +1050,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: societe-cannabis-legalisation
-  value: 0
-  evidence: programme
-  sources:
-    - juan-branco-la-voie-programme-2027
-  quote: "Référendum interlocutoire de l'Assemblée constituante proposant alternativement : - Réforme \" portugaise \" du suivi socio-sanitaire de la consommation de drogues"
-  quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme soumet à référendum deux options opposées, une dépénalisation avec monopole d'État ou une justice d'exception contre le narcotrafic, sans trancher.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
 
 - question: societe-instruction-famille-autorisation
   value: -1
@@ -1130,19 +1065,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: societe-service-national-obligatoire
-  value: 2
-  evidence: programme
-  sources:
-    - juan-branco-la-voie-programme-2027
-  quote: Référendum proposant un service militaire obligatoire pour tous, avec options civile et militaire
-  quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme propose un service obligatoire universel, civil ou militaire, soumis à référendum.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
 
 - question: transport-autoroutes-concedees
   value: -2
@@ -1242,19 +1164,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: travail-limiter-licenciements-beneficiaires
-  value: -1
-  evidence: programme
-  sources:
-    - juan-branco-la-voie-programme-2027
-  quote: Référendum proposant une réforme à la suisse unifiant les statuts de travail et créant la possibilité d'un licenciement simple avec préavis.
-  quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme propose par référendum de faciliter le licenciement, sens contraire à une limitation, sans viser les entreprises bénéficiaires, d'où -1.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
 
 - question: travail-salaries-conseils-administration
   value: 1

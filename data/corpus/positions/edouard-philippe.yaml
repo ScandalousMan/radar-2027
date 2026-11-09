@@ -456,13 +456,13 @@
   authoredAt: 2026-11-09
 
 - question: justice-imprescriptibilite-crimes-sexuels-mineurs
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - edouard-philippe-priorites-enfants
   quote: Mettre en place l'imprescriptibilité pour les crimes sur mineur
   quoteSource: edouard-philippe-priorites-enfants
-  justification: Le programme propose l'imprescriptibilité de tous les crimes sur mineur, ce qui inclut les crimes sexuels.
+  justification: "Le programme propose l'imprescriptibilité de tous les crimes sur mineur, ce qui inclut les crimes sexuels. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
