@@ -317,7 +317,8 @@
       "title": "Classement",
       "noneTitle": "Aucun candidat ne dispose d’assez de données",
       "noneBody": "Avec vos réponses actuelles, aucun candidat n’a assez de positions connues pour être classé. Répondez à davantage de questions pour obtenir un classement.",
-      "answerMore": "Répondre à davantage de questions"
+      "answerMore": "Répondre à davantage de questions",
+      "tied": "ex æquo"
     },
     "insufficient": {
       "title": "Données insuffisantes",
@@ -346,7 +347,8 @@
       "detailLoading": "Chargement des citations et des sources…",
       "detailError": "Les citations et sources n’ont pas pu être chargées. Les chiffres ci-dessus restent valables.",
       "detailRetry": "Recharger les citations",
-      "rank": "Rang {rank}"
+      "rank": "Rang {rank}",
+      "othersGroup": "Autres thèmes"
     },
     "share": {
       "title": "Partager mes résultats",

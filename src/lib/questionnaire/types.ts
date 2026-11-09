@@ -67,13 +67,16 @@ export type LoadState =
   | { readonly status: 'error'; readonly reason: 'network' | 'invalid' }
   | { readonly status: 'ready'; readonly bank: QuestionnaireBank; readonly selections: Readonly<Record<Mode, Selection>> | null };
 
-/** Ce que voit le répondant à l'accueil (data-model § 6). */
+/** Ce que voit le répondant à l'accueil (data-model § 6 ; 005 : data-model § 10). */
 export type ResumeInfo = {
   readonly mode: Mode;
   readonly done: number;
   readonly total: number;
   readonly updatedAt: string;
-  readonly status: 'resumable' | 'version-changed' | 'unavailable';
+  /** `complete` (005, FR-035a) : aucune question non répondue, la carte propose « Voir mes résultats ». */
+  readonly status: 'resumable' | 'version-changed' | 'unavailable' | 'complete';
+  /** Version du brouillon différente de la courante. */
+  readonly versionChanged: boolean;
 };
 
 export type ThemeSummary = {

@@ -153,26 +153,26 @@ données insuffisantes, phrase de plafonnement et lien Méthodologie.
 vérifier ordre, pourcentages, bandes, ex æquo, section « Données insuffisantes », message
 « aucun classable ».
 
-- [ ] T027 [P] [US1] Étendre `e2e/fixtures/published.ts` : versions 1 et 2 (`syntheticDataset`
+- [X] T027 [P] [US1] Étendre `e2e/fixtures/published.ts` : versions 1 et 2 (`syntheticDataset`
   avec, en v2, un candidat retiré, un ajouté et une position modifiée) ; `servePublished(page,
   { current })` sert aussi `/data/versions/<n>/candidates/<id>.json` (citation et source
   fictives, `https://exemple.invalid/…`) ; aides `linkFor(state, version)` et
   `expectedBoard(state, version)` calculées avec `@/core`
-- [ ] T028 [P] [US1] Écrire `e2e/results.spec.ts` (scénarios US1) : questionnaire complet à
+- [X] T028 [P] [US1] Écrire `e2e/results.spec.ts` (scénarios US1) : questionnaire complet à
   4 sujets ⇒ sujets rappelés, entrées dans l'ordre de `expectedBoard`, pourcentages et bandes ;
   ex æquo ; candidat en données insuffisantes avec mention ; aucun classable (3 réponses) ⇒
   message et « Répondre à davantage de questions » ; phrase de plafonnement et lien
   Méthodologie ; 320 px sans défilement horizontal
-- [ ] T029 [US1] Créer `src/app/resultats/ResultsApp.tsx` (client) : lecture du fragment après
+- [X] T029 [US1] Créer `src/app/resultats/ResultsApp.tsx` (client) : lecture du fragment après
   montage, `loadResults`, rendu des états de contracts/routes-and-views.md (tous les états
   sans résultat, texte seul pour l'instant), vue classement avec `ResultsHeader`, `RankingList`,
   `InsufficientList`, message « aucun classable » ; écoute `hashchange`. Le bouton
   « Répondre à davantage de questions » (FR-010) appelle le gestionnaire « Modifier mes
   réponses », laissé vide ici et branché en T036
-- [ ] T030 [US1] Remplacer `src/app/resultats/page.tsx` par la page statique : métadonnées
+- [X] T030 [US1] Remplacer `src/app/resultats/page.tsx` par la page statique : métadonnées
   génériques (`results.meta.*`, `openGraph` sans image, FR-029) et `<ResultsApp/>` ; aucun
   chiffre ni nom dans le HTML exporté
-- [ ] T031 [US1] Brancher « Voir le détail » et « Comparer » de `RankingList` sur des
+- [X] T031 [US1] Brancher « Voir le détail » et « Comparer » de `RankingList` sur des
   gestionnaires vides de `ResultsApp` (complétés en US4 et US5) et vérifier les scénarios US1
   verts (`pnpm build && pnpm e2e -- e2e/results.spec.ts`)
 
@@ -188,7 +188,7 @@ revenir au questionnaire pré-rempli, voir l'aperçu générique ; carte « Voir
 **Independent Test**: copier, rouvrir dans un contexte vierge, comparer chiffre à chiffre ;
 modifier une réponse et obtenir un autre lien.
 
-- [ ] T032 [P] [US2] Scénarios US2 dans `e2e/results.spec.ts` : copie (permission
+- [X] T032 [P] [US2] Scénarios US2 dans `e2e/results.spec.ts` : copie (permission
   `clipboard-write` accordée) puis lecture du presse-papiers, aucune query string, fragment
   ≤ 64 (complet) et ≤ 32 (court) (toutes combinaisons : propriétés du codec de la 003) ;
   réouverture dans `browser.newContext()` : sujets, mode, classement, %, bandes, insuffisants
@@ -197,22 +197,22 @@ modifier une réponse et obtenir un autre lien.
   brouillon ⇒ questionnaire pré-rempli, changer une réponse, terminer ⇒ nouveau lien différent,
   l'ancien redonne les anciens chiffres (SC-011) ; avec un autre brouillon ⇒ confirmation,
   refus ⇒ brouillon intact
-- [ ] T033 [P] [US2] Test `src/ui/ResumeCard/ResumeCard.test.tsx` (compléter) et stories : statut
+- [X] T033 [P] [US2] Test `src/ui/ResumeCard/ResumeCard.test.tsx` (compléter) et stories : statut
   `complete` (titre, « Voir mes résultats », « Recommencer », notice si `versionChanged`)
-- [ ] T034 [US2] Étendre `src/ui/ResumeCard/ResumeCard.tsx` avec le statut `complete` et
+- [X] T034 [US2] Étendre `src/ui/ResumeCard/ResumeCard.tsx` avec le statut `complete` et
   `onViewResults` (contracts/components.md § ResumeCard)
-- [ ] T035 [US2] Brancher `SharePanel` dans `ResultsApp` (classement et comparaison) avec
+- [X] T035 [US2] Brancher `SharePanel` dans `ResultsApp` (classement et comparaison) avec
   `copyLink(data.shareUrl)`, `shareNatively` si disponible et l'aperçu `results.meta.*`
-- [ ] T036 [US2] Ajouter « Modifier mes réponses » à `ResultsApp` : `draftFromResultState`
+- [X] T036 [US2] Ajouter « Modifier mes réponses » à `ResultsApp` : `draftFromResultState`
   si le lien est de la version courante, sinon `carryOver` vers `data.currentBank`
   (`choose-themes` ⇒ `/questionnaire` avec les sujets restants présélectionnés transmis par
   `history.state`, lecture ajoutée à `src/app/questionnaire/page.tsx`) ; `needsConfirmation` avec le brouillon lu par `readDraft`, `ConfirmDialog`
   (`results.modify.confirm.*`), `writeDraft` puis navigation vers `/questionnaire/questions` ;
   refus ⇒ rien d'écrit ; stockage indisponible ⇒ notice de la 004
-- [ ] T037 [US2] Étendre `src/lib/questionnaire/resume-info.ts` (+ test) avec le statut
+- [X] T037 [US2] Étendre `src/lib/questionnaire/resume-info.ts` (+ test) avec le statut
   `complete` et `src/app/ResumePrompt.tsx` : brouillon complet ⇒ `loadMain(draft.bankVersion)`,
   `resultHref`, `ResumeCard status="complete"` ; échec ⇒ carte `resumable` (data-and-share § 5)
-- [ ] T038 [US2] Ajouter un test e2e dans `e2e/questionnaire.spec.ts` : questionnaire terminé ⇒
+- [X] T038 [US2] Ajouter un test e2e dans `e2e/questionnaire.spec.ts` : questionnaire terminé ⇒
   accueil propose « Voir mes résultats » menant au même lien que l'écran de fin
 
 **Checkpoint**: le partage et la modification fonctionnent ; US1 inchangée.
@@ -226,20 +226,20 @@ ancien lien rejoué avec ses données et averti.
 
 **Independent Test**: ouvrir les liens fabriqués et vérifier message et absence de chiffre.
 
-- [ ] T039 [P] [US3] Scénarios US3 dans `e2e/results.spec.ts` : caractère supprimé, caractère
+- [X] T039 [P] [US3] Scénarios US3 dans `e2e/results.spec.ts` : caractère supprimé, caractère
   altéré, CRC faux, 2 sujets, 10 000 caractères ⇒ `results.invalid.*` en `role="alert"`, aucun
   pourcentage ni nom ; lien v1 avec `current = 2` ⇒ avertissement daté (format français),
   chiffres égaux à `expectedBoard(state, 1)`, « ne se présente plus » sur le candidat retiré,
   compte des retirés, « Refaire le questionnaire » et lien Méthodologie ; lien v3 ⇒ invitation
   à recharger, fragment conservé ; sans fragment ⇒ invitation à commencer, carte de reprise si
   brouillon
-- [ ] T040 [US3] Finaliser dans `ResultsApp` les états `invalid`, `unknown-version`, `error`
+- [X] T040 [US3] Finaliser dans `ResultsApp` les états `invalid`, `unknown-version`, `error`
   (« Réessayer »), `no-fragment` (réutiliser `ResumePrompt`), `no-version` (texte de la 004),
   avec les `Notice` et boutons de contracts/routes-and-views.md
-- [ ] T041 [US3] Avertissement de version (`Notice`, `results.prior.*`) en tête de la vue
+- [X] T041 [US3] Avertissement de version (`Notice`, `results.prior.*`) en tête de la vue
   classement quand `prior` ; mention « ne se présente plus » dans `RankingList`,
   `InsufficientList` et la fiche
-- [ ] T042 [US3] Bouton « Refaire le questionnaire avec les données actuelles » de
+- [X] T042 [US3] Bouton « Refaire le questionnaire avec les données actuelles » de
   l'avertissement de version : même gestionnaire que « Modifier mes réponses » (T036) ; e2e :
   depuis un lien v1 avec `current = 2`, arrivée sur le questionnaire v2 avec les réponses
   reportées par identifiant
@@ -256,17 +256,17 @@ questions passées, non répondues ; vue sur la même page avec retour arrière.
 **Independent Test**: ouvrir la fiche d'un classé et d'un insuffisant, vérifier contenu, ordre
 et la requête du détail à l'ouverture seulement.
 
-- [ ] T043 [P] [US4] Scénarios US4 dans `e2e/results.spec.ts` : fiche classée (ordre des
+- [X] T043 [P] [US4] Scénarios US4 dans `e2e/results.spec.ts` : fiche classée (ordre des
   thèmes, sujets clés distingués, « — », couverture) ; mode court ⇒ ligne « autres thèmes » ;
   lignes de question (réponse, position ou « inconnue », palier, badge, citation, lien source
   nouvel onglet) ; passées sans palier ; compte des non répondues ; fiche insuffisante sans
   rang ni score global ; aucune requête `candidates/` avant l'ouverture, une seule après ;
   bouton précédent du navigateur ⇒ classement, focus sur l'entrée quittée ; adresse inchangée
-- [ ] T044 [US4] Vue fiche dans `ResultsApp` : `pushView({ view: 'candidate', … })`,
+- [X] T044 [US4] Vue fiche dans `ResultsApp` : `pushView({ view: 'candidate', … })`,
   `candidateSheet`, `ThemeScoreList`, groupes de `QuestionDetail`, « Questions passées », non
   répondues, Méthodologie, « Comparer », « Retour au classement » ; focus titre (R12) ;
   `popstate` et restauration du défilement
-- [ ] T045 [US4] Chargement du détail à l'ouverture : `loadDetail(data.bank.version, id)`,
+- [X] T045 [US4] Chargement du détail à l'ouverture : `loadDetail(data.bank.version, id)`,
   état `loading | ready | error` passé à `QuestionDetail` ; citation via
   `detail.positions[questionId]`, source via `detail.sources[quoteSource]` (date selon sa
   précision) ; aucun préchargement
@@ -281,13 +281,13 @@ et la requête du détail à l'ouverture seulement.
 
 **Independent Test**: sélectionner 2 puis 3, refuser le 4e, retirer, revenir en arrière.
 
-- [ ] T046 [P] [US5] Scénarios US5 dans `e2e/results.spec.ts` : sélection de 2 (dont un
+- [X] T046 [P] [US5] Scénarios US5 dans `e2e/results.spec.ts` : sélection de 2 (dont un
   insuffisant) ⇒ globaux ou « données insuffisantes », thèmes dans l'ordre ; 3e ajouté ; 4e
   indisponible et limite annoncée ; retrait ; précédent ⇒ classement ; lien de partage inchangé
   (FR-022) ; 320 px sans défilement horizontal
-- [ ] T047 [US5] Barre de comparaison dans la vue classement (sélection locale 0–3, annonce
+- [X] T047 [US5] Barre de comparaison dans la vue classement (sélection locale 0–3, annonce
   `aria-live` des ajouts, retraits et de la limite) et « Comparer » depuis la fiche
-- [ ] T048 [US5] Vue comparaison dans `ResultsApp` : `pushView({ view: 'compare', … })`,
+- [X] T048 [US5] Vue comparaison dans `ResultsApp` : `pushView({ view: 'compare', … })`,
   `comparisonView`, `ComparisonTable`, retrait (2 ⇒ reste ouverte, 1 ⇒ retour au classement
   avec sélection), « Retour au classement », `SharePanel`
 
@@ -297,11 +297,11 @@ et la requête du détail à l'ouverture seulement.
 
 ## Phase 8: Polish & Cross-Cutting Concerns
 
-- [ ] T049 [P] Test e2e transversal dans `e2e/results.spec.ts` : observation de toutes les
+- [X] T049 [P] Test e2e transversal dans `e2e/results.spec.ts` : observation de toutes les
   requêtes (`page.on('request')`) pendant chargement, copie, fiche, comparaison ; chaque URL dans
   la liste blanche de contracts/data-and-share.md § 2 ; aucune ne contient la charge du fragment
   ni de query string porteuse (SC-003)
-- [ ] T050 [P] Test e2e clavier : classement → fiche → retour → comparaison → partage sans souris,
+- [X] T050 [P] Test e2e clavier : classement → fiche → retour → comparaison → partage sans souris,
   focus toujours visible (SC-008) ; un passage avec `forcedColors: 'active'` vérifie que rang
   ex æquo, sujets clés et données insuffisantes restent signalés par du texte (cas limite
   « contraste élevé »)

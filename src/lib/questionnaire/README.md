@@ -22,6 +22,7 @@ Contrats : [routes et état](../../../specs/004-parcours-questionnaire/contracts
 | `guards.ts` | étape requise par route, redirection silencieuse |
 | `history.ts` | historique du navigateur entre questions (`pushState` sans changer l'URL) |
 | `from-result.ts` | 005 : `draftFromResultState`, `carryOver` (report par identifiant vers la version courante), `needsConfirmation` |
+| `handoff.ts` | 005 : relais en mémoire vers le questionnaire (brouillon sans stockage, présélection de sujets) |
 | `store.tsx` | `QuestionnaireProvider` / `useQuestionnaire` : chargement du jeu publié, présélection, brouillon, onglets |
 
 ## Brouillon stocké
@@ -65,7 +66,7 @@ sa première question non traitée, sans confirmation ; un triplet différent de
 - `carryOver(state, linkBank, current, now)` — lien d'une version antérieure : sujets clés encore
   présents, sélection recalculée sur la version courante, réponses reportées par identifiant de
   question (les nouvelles restent `'unanswered'`) ; moins de 3 sujets ⇒ `choose-themes` avec la
-  présélection des sujets restants (`setPendingPreselection`, lue par l'étape des sujets).
+  présélection des sujets restants (relais `handoff.ts`, lu par l'étape des sujets).
 - `needsConfirmation(stored, next)` — un brouillon stocké différent (version, mode, sujets,
   réponses) n'est jamais remplacé sans confirmation.
 

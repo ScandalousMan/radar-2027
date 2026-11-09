@@ -8,6 +8,7 @@ import { BankError, normalizePriorities, selectQuestions, type Mode, type Select
 import { isDatasetClientError, loadMain, loadRegistry } from '@/lib/dataset-client';
 import { questionnaireBankFrom, selectionsFor } from './bank-view';
 import { isChoiceValid } from './guards';
+import { takeHandoffDraft } from './handoff';
 import { reduce, sameTriplet } from './reducer';
 import { clearDraft, probeStorage, readDraftSnapshot, writeDraft, type StorageLike } from './storage';
 import { resultHref as hrefOf } from './summary';
@@ -84,7 +85,8 @@ export function QuestionnaireProvider({ children, fetcher, storage: storageOverr
         if (cancelled) return;
         // Brouillon stocké adopté dans la même mise à jour que « ready » : les gardes des étapes
         // le voient dès leur premier rendu et ne redirigent pas à tort.
-        const initial = storageArg === undefined ? readDraftSnapshot() : readDraftSnapshot(storageArg);
+        // Brouillon relayé par « Modifier mes réponses » (005) quand le stockage est indisponible.
+        const initial = (storageArg === undefined ? readDraftSnapshot() : readDraftSnapshot(storageArg)) ?? takeHandoffDraft();
         if (initial && !draftRef.current && fitsBank(initial, bank)) {
           draftRef.current = initial;
           setDraft(initial);
