@@ -42,3 +42,58 @@
   candidates:
     - eric-zemmour
   contentHash: sha256:f9446d316f3effcf0d91bb4482ff8a4f66340d8615a26d764d5059c5f08aa949
+- id: eric-zemmour-programme-2022-pdf
+  url: https://xn--ambitionsant2022-mqb.fhf.fr/medias/ez-programme-2022-final6-compressed-623218e2a2ef4036050815.pdf
+  title: Pour que la France reste la France — Mon programme (Éric Zemmour, PDF hébergé par la FHF, ambitionsanté2022.fhf.fr)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2022-03-16
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:6613c1633c3a5a5921cdf07f8c4dde8ccaadd0c61b42dc0849c01e053c747f66
+- id: eric-zemmour-profession-de-foi-2022
+  url: https://www.macommune.info/wp-content/uploads/2022/04/candidat-12-eric-zemmour-declaration.pdf
+  title: Profession de foi d'Éric Zemmour, 1er tour de l'élection présidentielle du 10 avril 2022 (macommune.info)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2022-03
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:6acddcfcb3b06e7241bdbabd04eb84222fc648004f360f87d810b9f15a3d608f
+- id: eric-zemmour-discours-programme-defense-2022
+  url: https://web.archive.org/web/20220526163618/https://www.ericzemmour.fr/presentation-du-programme-defense
+  title: Présentation du programme Défense - Éric Zemmour 2022 (ericzemmour.fr, archive Wayback Machine)
+  kind: declaration_vote
+  publishedAt:
+    date: 2022-02
+    precision: month
+  accessedAt: 2026-11-09
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:ce48e46f0325b1774ec859c5a8fafa9ee58b49590b3e8e4b39c07d869e77f302
+- id: eric-zemmour-bfmtv-candidature-afp-2026
+  url: https://www.lagazettefrance.fr/article/zemmour-confirme-qu-il-sera-candidat-durcit-encore-son-discours-sur-l-immigration
+  title: Zemmour confirme qu'il sera candidat, durcit encore son discours sur l'immigration (La Gazette France / AFP)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-18
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:1051f910e7a85641b71b6989960a6468a8586b178c79c46cfe8439ff3788bd06
+- id: eric-zemmour-discours-port-marly-2026
+  url: https://www.institutmontaigne.org/expressions/paroles-de-candidats-zemmour-le-pourfendeur-de-la-modernite-qui-parlait-dia
+  title: "[Paroles de candidats] - Zemmour, le pourfendeur de la modernité qui parlait d'IA (Institut Montaigne)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-29
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:26b73b9ad7109cbd574c08af989ec5ad607e7dd6a183e6af097fddcac687cd3a
