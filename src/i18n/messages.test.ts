@@ -1,4 +1,6 @@
 import { describe, expect, it } from 'vitest';
+import { BANDS } from '@/core/types';
+import { AGREEMENT_LEVELS } from '@/lib/results/types';
 import fr from './messages/fr.json';
 
 /** Clés requises par le socle (contracts/i18n-messages.md). */
@@ -106,8 +108,79 @@ const REQUIRED_KEYS = [
   'ui.answerSummary.counts',
   'ui.answerSummary.unreliable',
   'results.title',
-  'results.soon',
-  'results.backToQuestionnaire',
+  // Fonctionnalité 005 : résultats et partage (contracts/i18n-messages.md).
+  'results.meta.title',
+  'results.meta.description',
+  'results.loading',
+  'results.header.mode',
+  'results.header.cap',
+  'results.header.methodology',
+  'results.ranking.title',
+  'results.ranking.noneTitle',
+  'results.ranking.noneBody',
+  'results.ranking.answerMore',
+  'results.insufficient.title',
+  'results.compare.title',
+  'results.compare.action',
+  'results.compare.limit',
+  'results.compare.added',
+  'results.compare.removed',
+  'results.candidate.back',
+  'results.candidate.themes',
+  'results.candidate.questions',
+  'results.candidate.skipped',
+  'results.candidate.unanswered',
+  'results.candidate.insufficient',
+  'results.candidate.detailError',
+  'results.share.title',
+  'results.modify.action',
+  'results.modify.confirm.title',
+  'results.modify.confirm.description',
+  'results.modify.confirm.confirm',
+  'results.modify.confirm.cancel',
+  'results.prior.warning',
+  'results.prior.withdrawn',
+  'results.prior.redo',
+  'results.withdrawn',
+  'results.empty.title',
+  'results.empty.start',
+  'results.invalid.title',
+  'results.invalid.body',
+  'results.unknownVersion.title',
+  'results.unknownVersion.reload',
+  'results.error.title',
+  'results.error.retry',
+  'ui.resultsHeader.priorities',
+  'ui.rankingList.rank',
+  'ui.rankingList.tied',
+  'ui.rankingList.open',
+  'ui.rankingList.compare',
+  'ui.rankingList.compareDisabled',
+  'ui.insufficientList.status',
+  'ui.insufficientList.unknown',
+  'ui.themeScoreList.priorityTheme',
+  'ui.themeScoreList.priorityMark',
+  'ui.themeScoreList.others',
+  'ui.themeScoreList.undefined',
+  'ui.themeScoreList.coverage',
+  'ui.questionDetail.yourAnswer',
+  'ui.questionDetail.position',
+  'ui.questionDetail.unknownNote',
+  'ui.questionDetail.agreement',
+  'ui.questionDetail.quoteMissing',
+  'ui.questionDetail.source',
+  'ui.questionDetail.newTab',
+  'ui.questionDetail.skipped',
+  'ui.comparisonTable.global',
+  'ui.comparisonTable.insufficient',
+  'ui.comparisonTable.remove',
+  'ui.sharePanel.copy',
+  'ui.sharePanel.copied',
+  'ui.sharePanel.manualHint',
+  'ui.sharePanel.native',
+  'ui.sharePanel.previewTitle',
+  'ui.resumeCard.completeTitle',
+  'ui.resumeCard.viewResults',
 ];
 
 type Tree = { [key: string]: string | Tree };
@@ -164,5 +237,22 @@ describe('messages fr', () => {
       expect(value, `${key} : guillemet droit`).not.toMatch(/"/);
       expect(value, `${key} : apostrophe droite (ambiguë en ICU MessageFormat)`).not.toMatch(/'/);
     }
+  });
+});
+
+// Fonctionnalité 005 : listes fermées de libellés qualifiant la relation au candidat (FR-003,
+// FR-015, FR-040) et retrait de la page de garde de la 004.
+describe('messages fr — listes fermées de la 005', () => {
+  it('results.band : exactement les valeurs de Band', () => {
+    expect(Object.keys(fr.results.band).sort()).toEqual(BANDS.map((b) => b.band).sort());
+  });
+
+  it('results.agreement : exactement les valeurs d’AgreementLevel', () => {
+    expect(Object.keys(fr.results.agreement).sort()).toEqual([...AGREEMENT_LEVELS].sort());
+  });
+
+  it('aucune clé de la page de garde ne subsiste', () => {
+    expect(byKey.has('results.soon')).toBe(false);
+    expect(byKey.has('results.backToQuestionnaire')).toBe(false);
   });
 });

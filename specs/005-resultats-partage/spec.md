@@ -4,9 +4,19 @@
 
 **Created**: 2026-11-06
 
-**Status**: Draft
+**Status**: Implemented (2026-11-09)
 
 **Input**: User description: "Page de résultats, détail par thème et par candidat, partage par URL"
+
+## Clarifications
+
+### Session 2026-11-08
+
+- Q: Un lien ouvert, « Modifier mes réponses » alors qu'un autre questionnaire est en cours sur l'appareil : que devient le brouillon local ? → A: confirmation avant remplacement ; le brouillon local n'est remplacé qu'après accord (cohérent avec FR-024 de la 004).
+- Q: Comment atteindre la fiche candidat et la comparaison, le format de lien étant figé par la 003 ? → A: sur la même page `/resultats`, sans changer l'URL ni le lien de partage ; le bouton précédent du navigateur ramène au classement ; fiche et comparaison ne sont pas partageables en tant que telles.
+- Q: Quand télécharger le fichier de détail d'un candidat (citations, sources) ? → A: à l'ouverture de sa fiche seulement ; la requête révèle quel candidat est consulté, jamais les réponses, sujets clés ou scores.
+- Q: Une fois le questionnaire terminé sur l'appareil, que montre la carte de l'accueil ? → A: « Voir mes résultats » (lien recalculé depuis le brouillon, identique à celui de l'écran de fin) et « Recommencer ».
+- Alignement sur la 003 et la 004 implémentées (sans question) : pourcentages affichés **tronqués** à l'entier inférieur (FR-011 de la 003), et non arrondis ; l'état encode les réponses aux questions de la **sélection**, dans l'ordre de présentation ; un candidat d'un ancien lien absent de la version courante reste calculé (FR-033), le cas limite contradictoire est corrigé ; l'écran de fin de la 004 mène déjà à `/resultats#1.…`, l'adresse de la page de résultats est donc le lien de partage.
 
 ## User Scenarios & Testing *(mandatory)*
 
@@ -43,7 +53,7 @@ partage, sans détail et sans comparaison.
    page de résultats s'affiche, **Then** ses quatre sujets clés sont rappelés en tête de page, puis
    chaque candidat classable apparaît par score global décroissant avec son rang, un pourcentage
    entier et sa bande qualitative (« très aligné », « plutôt aligné », « mitigé » ou « éloigné »).
-2. **Given** deux candidats classables ont le même pourcentage global arrondi, **When** le
+2. **Given** deux candidats classables ont le même pourcentage global affiché (tronqué), **When** le
    classement s'affiche, **Then** ils portent le même rang et la mention « ex æquo », leur ordre
    relatif respectant les critères secondaires du moteur de score (score sur les sujets clés, puis
    couverture, puis identifiant), et le rang suivant est décalé d'autant.
@@ -208,9 +218,10 @@ partir d'un état chargé sans utiliser le détail par question.
   message « aucun candidat classable » et propose de commencer ou de reprendre le questionnaire.
 - Toutes les questions répondues sont « passées » : même traitement qu'aucune réponse.
 - Un seul candidat classable : classement d'un seul rang, sans mention « ex æquo ».
-- Tous les candidats classables ont le même pourcentage arrondi : tous au rang 1, tous « ex æquo ».
+- Tous les candidats classables ont le même pourcentage affiché : tous au rang 1, tous « ex æquo ».
 - Un candidat dont le score global est exactement 80, 60 ou 40 : bande déterminée sur le
-  pourcentage entier affiché (80 → « très aligné », 60 → « plutôt aligné », 40 → « mitigé »).
+  pourcentage entier affiché, tronqué (80 → « très aligné », 60 → « plutôt aligné », 40 →
+  « mitigé » ; 79,9 % s'affiche 79 → « plutôt aligné »).
 - Un thème avec exactement deux questions exploitables : score défini et affiché ; un thème avec une
   seule : « — ».
 - En mode court, aucun thème non prioritaire ne possède de question exploitable : la ligne « autres
@@ -219,9 +230,9 @@ partir d'un état chargé sans utiliser le détail par question.
   une seule fois dans le détail par question.
 - Une position connue mais sans citation d'appui exploitable : la ligne affiche la position, le
   badge de preuve et la source, et signale l'absence de citation sans masquer la ligne.
-- Un candidat retiré de la version courante de la banque mais présent dans l'ancienne : il
-  n'apparaît pas dans les résultats ; une note dénombre les candidats retirés depuis la date du
-  lien.
+- Un candidat retiré de la version courante de la banque mais présent dans l'ancienne : il reste
+  calculé et affiché avec les données figées du lien, avec la mention « ne se présente plus »
+  (FR-033) ; l'avertissement de version dénombre ces candidats.
 - Fragment extrêmement long ou contenant des caractères hors alphabet attendu : traité comme lien
   invalide, sans blocage de la page.
 - Le répondant modifie le fragment à la main pour une autre version ou d'autres réponses : la page
@@ -247,14 +258,17 @@ partir d'un état chargé sans utiliser le détail par question.
 - **FR-003**: La bande qualitative DOIT être déterminée à partir du pourcentage entier affiché :
   80 et plus « très aligné », 60 à 79 « plutôt aligné », 40 à 59 « mitigé », moins de 40
   « éloigné ». Aucun autre libellé de bande n'est autorisé.
-- **FR-004**: Les candidats classables ayant le même pourcentage global arrondi DOIVENT partager le
+- **FR-004**: Les candidats classables ayant le même pourcentage global affiché (tronqué) DOIVENT partager le
   même rang et porter la mention « ex æquo » ; le rang suivant DOIT être décalé du nombre
   d'ex æquo (classement 1, 2, 2, 4).
 - **FR-005**: La page DOIT afficher une phrase expliquant le plafonnement : « votre score global
   avec un candidat ne dépasse jamais votre accord avec lui sur vos sujets clés », à proximité
   immédiate du classement, et un lien vers la page Méthodologie.
 - **FR-006**: Chaque entrée du classement DOIT permettre d'ouvrir la fiche détaillée du candidat
-  (US4) et de l'ajouter à une comparaison (US5).
+  (US4) et de l'ajouter à une comparaison (US5). La fiche et la comparaison s'affichent sur la
+  page de résultats elle-même : l'adresse, donc le lien de partage, ne change pas ; le bouton
+  précédent du navigateur referme la vue et ramène au classement, à la position de lecture
+  quittée. Ni la fiche ni la comparaison ne sont partageables en tant que telles.
 
 **Données insuffisantes**
 
@@ -331,7 +345,10 @@ partir d'un état chargé sans utiliser le détail par question.
   sélectionnable avec une consigne de copie manuelle.
 - **FR-028**: Depuis des résultats affichés (générés localement ou ouverts par lien), le
   répondant DOIT pouvoir revenir au questionnaire pré-rempli avec l'état complet pour modifier ses
-  réponses, puis revenir aux résultats recalculés.
+  réponses, puis revenir aux résultats recalculés. Si un autre questionnaire est en cours sur
+  l'appareil (brouillon local différent de l'état du lien), le remplacement DOIT être confirmé au
+  préalable ; sans confirmation, le brouillon local est conservé et le répondant reste sur les
+  résultats.
 - **FR-029**: L'aperçu de partage (titre et description que montrent les messageries et réseaux)
   DOIT être générique et identique pour tous les liens : il NE DOIT contenir ni réponse, ni sujet
   clé, ni nom de candidat, ni score. La page DOIT permettre au répondant de voir ce texte avant de
@@ -352,12 +369,18 @@ partir d'un état chargé sans utiliser le détail par question.
   avec les données actuelles et proposer un lien vers la page Méthodologie.
 - **FR-033**: Dans ce cas, un candidat présent dans la version du lien mais qui ne figure plus
   dans la version courante DOIT rester calculé et affiché, avec la mention « ne se présente
-  plus » ; aucune donnée de la version courante NE DOIT être mélangée à l'affichage.
+  plus » ; aucune donnée de la version courante NE DOIT être mélangée à l'affichage. Seule la
+  liste des identifiants de candidats de la version courante est consultée, pour poser cette
+  mention.
 - **FR-034**: Lorsque le fragment référence une version de banque inconnue de la page (plus
   récente), la page DOIT n'afficher aucun chiffre et inviter à recharger la page pour obtenir la
   dernière version, en conservant le lien intact.
 - **FR-035**: Lorsqu'un lien est ouvert sans fragment, la page DOIT inviter à commencer le
   questionnaire ou à reprendre celui en cours sur l'appareil s'il existe.
+- **FR-035a**: Lorsque le brouillon de l'appareil est complet (aucune question « non répondue »),
+  la carte de reprise de l'accueil DOIT proposer « Voir mes résultats », menant au lien de
+  résultats recalculé depuis le brouillon (identique à celui de l'écran de fin de la 004), ainsi
+  que « Recommencer » ; tant qu'il reste des questions non répondues, elle propose « Reprendre ».
 
 **Transversal**
 
@@ -381,13 +404,17 @@ partir d'un état chargé sans utiliser le détail par question.
 - **FR-042**: La page NE DOIT émettre aucune requête réseau contenant tout ou partie du fragment,
   des réponses, des sujets clés ou des résultats ; aucun cookie ni traceur tiers NE DOIT être
   déposé. Aucune mesure d'audience, même agrégée et sans cookie, N'EST installée sur la page de
-  résultats ni ailleurs sur le site (décision du 2026-11-06).
+  résultats ni ailleurs sur le site (décision du 2026-11-06). Le fichier de détail d'un candidat
+  (citations, sources) N'EST téléchargé qu'à l'ouverture de sa fiche : cette requête, sans
+  paramètre, révèle seulement quel candidat est consulté ; aucun préchargement ne suit l'ordre du
+  classement.
 
 ### Key Entities *(include if feature involves data)*
 
 - **État de résultat** : ce que décrit un lien de partage — version de banque, mode (court ou
-  complet), sujets clés (3 à 5), réponse à chaque question de la banque (valeur sur cinq niveaux,
-  « passée » ou « non répondue »). Produit et lu par le codec ; la page ne fait que l'afficher et le
+  complet), sujets clés (3 à 5), réponse à chaque question de la sélection, dans l'ordre de
+  présentation (valeur sur cinq niveaux, « passée » ou « non répondue ») ; la sélection est
+  recalculée par le moteur à partir de la version, du mode et des sujets clés. Produit et lu par le codec ; la page ne fait que l'afficher et le
   transmettre au questionnaire pour modification.
 - **Résultat calculé** : sortie du moteur de score pour un état et une version de banque courante —
   pour chaque candidat : score global (ou indéfini), score sur les sujets clés (ou indéfini),
@@ -403,7 +430,7 @@ partir d'un état chargé sans utiliser le détail par question.
   position du candidat ou « inconnue », niveau d'accord (cinq paliers), niveau de preuve, citation,
   source (titre, date de publication, lien).
 - **Comparaison** : sélection de deux à trois candidats et leur vue côte à côte ; état local à la
-  page, non encodé dans le lien.
+  page (historique de navigation compris), non encodé dans le lien.
 - **Lien de partage** : adresse de la page de résultats dont le fragment est l'encodage de l'état de
   résultat ; accompagné d'un aperçu générique (titre, description) identique pour tous les liens.
 - **Avertissement de version** : message affiché quand la version de banque du lien est antérieure
@@ -452,8 +479,8 @@ partir d'un état chargé sans utiliser le détail par question.
   « global = minimum du score pondéré et du score sur les sujets clés », sans tolérance (décision
   du 2026-11-06) ; la phrase d'explication de FR-005 en découle.
 - **Arrondi** : le pourcentage entier, l'ordre de classement et la détection des ex æquo sont
-  fournis par le moteur de score sur la base du même arrondi (entier le plus proche), de sorte que
-  l'affichage et le classement ne se contredisent jamais.
+  fournis par le moteur de score sur la base de la même troncature à l'entier inférieur (FR-011 de
+  la 003), de sorte que l'affichage et le classement ne se contredisent jamais.
 - **Niveau de preuve non pondéré** : le badge de preuve est informatif ; il n'influence aucun
   chiffre en v1.
 - **Positions figées par version** : un lien d'une version antérieure est rejoué avec les
@@ -479,7 +506,10 @@ partir d'un état chargé sans utiliser le détail par question.
   d'un état complet fourni par la page de résultats ; pour un ancien lien, il démarre sur la version
   courante en reprenant, par identifiant, les réponses aux questions encore présentes.
 - **Reprise locale** : la détection d'un questionnaire en cours sur l'appareil (FR-035) repose sur
-  le mécanisme de reprise de la spécification 004, qui reste sur l'appareil.
+  le mécanisme de reprise de la spécification 004, qui reste sur l'appareil. La 004 ne sait pas
+  démarrer depuis un état complet (sa décision R14) : la conversion d'un état de résultat en
+  brouillon, prévue par la 004, est ajoutée par la présente fonctionnalité, qui remplace aussi la
+  page de garde temporaire des résultats posée par la 004.
 
 ### Dependencies
 
@@ -487,7 +517,9 @@ partir d'un état chargé sans utiliser le détail par question.
   Méthodologie, date de publication de chaque version de banque.
 - Spécification 003 : moteur de score (scores, bandes, couverture, ordre, ex æquo, données
   insuffisantes), codec URL (encodage, validation, détection de version), fixtures chiffrées.
-- Spécification 004 : questionnaire acceptant un état pré-rempli ; reprise locale.
+- Spécification 004 : brouillon local et étape questions sachant reprendre un brouillon complet ;
+  écran de fin menant à `/resultats#1.…` ; carte de reprise de l'accueil (modifiée par FR-035a) ;
+  chargement du jeu publié dans le navigateur.
 - Spécification 001 : composants du design system, tokens, thèmes clair et sombre, i18n,
   accessibilité, tests de bout en bout.
 

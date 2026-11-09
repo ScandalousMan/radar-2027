@@ -55,9 +55,9 @@ Le dossier de la fonctionnalité courante est pointé par `.specify/feature.json
 |---|---|---|---|
 | 001 | `specs/001-socle-design-system` | Socle applicatif, design system, Storybook, tests, déploiement Vercel | réalisée |
 | 002 | `specs/002-corpus-ontologie-pipeline` | Thèmes, candidats, banque de questions, sources, positions, pipeline d'extraction | outillage réalisé ; campagne éditoriale à mener |
-| 003 | `specs/003-domaine-score-selection-codec` | Moteur de score, sélection déterministe des questions, codec URL | spécifiée |
-| 004 | `specs/004-parcours-questionnaire` | Accueil, choix des sujets clés, mode court/complet, réponses | spécifiée |
-| 005 | `specs/005-resultats-partage` | Classement, détail par thème et par question, partage par URL | spécifiée |
+| 003 | `specs/003-domaine-score-selection-codec` | Moteur de score, sélection déterministe des questions, codec URL | réalisée |
+| 004 | `specs/004-parcours-questionnaire` | Accueil, choix des sujets clés, mode court/complet, réponses | réalisée |
+| 005 | `specs/005-resultats-partage` | Classement, détail par thème et par question, comparaison, partage par URL (état complet dans le fragment, rien envoyé) | réalisée |
 
 ## Démarrer
 
