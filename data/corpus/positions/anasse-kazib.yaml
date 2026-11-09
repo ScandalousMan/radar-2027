@@ -1,0 +1,372 @@
+# Positions d'Anasse Kazib (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
+# provenance manual), à relire par adrien avec pnpm data:review.
+
+- question: defense-budget-armees-3-pib
+  value: -2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Pas un euro pour la guerre, démantèlement de la machine de guerre française
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme refuse tout financement de la guerre et demande le démantèlement de l'appareil militaire, ce qui est l'inverse explicite d'une hausse du budget des armées, d'où -2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-cesser-ventes-armes-conflits
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - anasse-kazib-edito-candidature-2026
+  quote: En démantelant l'industrie de l'armement et l'ensemble des marchands de morts, complices du génocide à Gaza
+  quoteSource: anasse-kazib-edito-candidature-2026
+  justification: Le texte de campagne propose de démanteler l'industrie de l'armement en la liant au conflit à Gaza, sans formuler une interdiction des ventes aux États en conflit, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-fermer-bases-afrique
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - anasse-kazib-edito-candidature-2026
+  quote: En exigeant la fermeture de l'ensemble des bases militaires, le retrait de toutes les troupes françaises et la fin de toutes les opérations de l'armée à l'étranger
+  quoteSource: anasse-kazib-edito-candidature-2026
+  justification: Le texte de campagne demande la fermeture de l'ensemble des bases militaires françaises à l'étranger, ce qui inclut celles situées en Afrique, d'où 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-priorite-depenses-sociales
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - anasse-kazib-edito-candidature-2026
+  quote: L'argent de la guerre doit servir à financer massivement les services publics
+  quoteSource: anasse-kazib-edito-candidature-2026
+  justification: Le texte de campagne demande de réaffecter les crédits militaires aux services publics, et non explicitement aux dépenses sociales, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-reduire-budget-armees
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Pas un euro pour la guerre, démantèlement de la machine de guerre française, 2ème exportateur d'armes mondial.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme refuse tout financement de la guerre et propose le démantèlement de l'appareil militaire français, ce qui va au-delà d'une réduction du budget des armées, d'où 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-reduire-presence-etranger
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Retrait des troupes françaises à l'étranger.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande le retrait des troupes françaises stationnées à l'étranger, ce qui réduit explicitement la présence militaire extérieure, d'où 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-revocatoire
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - anasse-kazib-edito-candidature-2026
+  quote: Ses membres devraient être élus pour deux ans, révocables et payés au salaire médian
+  quoteSource: anasse-kazib-edito-candidature-2026
+  justification: Le texte de campagne prévoit des élus révocables pour la future assemblée unique, sans préciser que la révocation passe par un référendum des électeurs, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-baisse-depense-publique
+  value: -1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Investissements massifs dans les services publics, qui doivent être placés sous le contrôle des travailleur·ses.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme propose des investissements massifs dans les services publics, ce qui va dans le sens contraire d'une baisse de la dépense publique, sans se prononcer sur son niveau global rapporté au PIB, d'où -1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-participations-etat-industrie
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Expropriation des secteurs stratégiques (énergie, transports, banques, santé, …) et placement sous contrôle des travailleur·ses.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme propose d'exproprier les secteurs stratégiques et de les placer sous contrôle des travailleurs, ce qui diffère d'une prise de participations de l'État, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-plafond-annuel-admissions
+  value: -2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Régularisation de tous les sans-papiers, liberté de circulation et d'installation.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande la liberté de circulation et d'installation, ce qui est l'inverse explicite d'un plafond annuel d'admissions au séjour, d'où -2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-regularisation-cinq-ans
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Régularisation de tous les sans-papiers, liberté de circulation et d'installation.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande la régularisation de tous les sans-papiers, ce qui inclut ceux présents depuis plus de cinq ans, d'où 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-regularisation-metiers-tension
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Régularisation de tous les sans-papiers, liberté de circulation et d'installation.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande la régularisation de tous les sans-papiers, ce qui inclut les travailleurs employés dans les métiers en tension, d'où 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-supprimer-senat
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Fin de la Ve République, du Sénat et de la figure présidentielle.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande explicitement la fin du Sénat, d'où 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-service-national-obligatoire
+  value: -2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Non au SNU et à la militarisation de nos écoles et de nos facs.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme rejette explicitement le service national universel, ce qui s'oppose à le rendre obligatoire, d'où -2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-signes-religieux-sorties-scolaires
+  value: -1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Abrogation de toutes les lois sécuritaires, racistes et islamophobes, à commencer par la loi de 2004.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande l'abrogation de la loi de 2004 sur les signes religieux à l'école, ce qui va dans le sens contraire d'une extension de l'interdiction aux accompagnateurs de sorties scolaires, sans viser ce cas précis, d'où -1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-signes-religieux-universite
+  value: -1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Abrogation de toutes les lois sécuritaires, racistes et islamophobes, à commencer par la loi de 2004.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande l'abrogation de la loi de 2004 sur les signes religieux à l'école, ce qui va dans le sens contraire d'une extension de l'interdiction à l'université, sans viser ce cas précis, d'où -1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-simplifier-changement-sexe-etat-civil
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Avortement, PMA, transitions libres et gratuits.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande que les transitions de genre soient libres et gratuites, sans mentionner explicitement la procédure de changement de sexe à l'état civil, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-gratuite-transports-urbains
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - anasse-kazib-edito-candidature-2026
+  quote: qu'il s'agisse de la santé, de l'éducation ou des transports, qui devraient être gratuits
+  quoteSource: anasse-kazib-edito-candidature-2026
+  justification: Le texte de campagne demande la gratuité des transports publics, ce qui inclut les transports en commun urbains, d'où 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-indexation-salaires
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: SMIC à 2000 € net, revalorisation de toutes les allocations, augmentation des salaires de 500 €, indexation sur l'inflation.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande l'indexation des salaires sur l'inflation, d'où 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-limiter-licenciements-beneficiaires
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Interdiction des licenciements.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande l'interdiction de tous les licenciements, ce qui inclut et dépasse la limitation des licenciements économiques dans les entreprises bénéficiaires, d'où 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-plateformes-presomption-salariat
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Fin de la sous-traitance et CDI pour tous·tes.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande un CDI pour tous les travailleurs, sans viser explicitement les travailleurs des plateformes ni une présomption de salariat, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-retraite-62-ans
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Retraite à 60 ans et 55 ans pour les métiers pénibles, sans conditions d'annuité.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande la retraite à 60 ans, soit un abaissement plus important que le retour à 62 ans de l'énoncé, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-retraite-au-dela-64-ans
+  value: -2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Retraite à 60 ans et 55 ans pour les métiers pénibles, sans conditions d'annuité.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande la retraite à 60 ans, ce qui est l'inverse explicite d'un report au-delà de 64 ans, d'où -2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-semaine-32-heures
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: Répartition du travail pour une semaine de 28h sans baisse de salaire.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme propose une semaine de 28 heures, soit une réduction plus forte que les 32 heures de l'énoncé, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-smic-au-dela-inflation
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: SMIC à 2000 € net, revalorisation de toutes les allocations, augmentation des salaires de 500 €, indexation sur l'inflation.
+  quoteSource: anasse-kazib-programme-2027
+  justification: Le programme demande de porter le SMIC à 2000 euros net, soit une hausse nettement supérieure à l'inflation, d'où 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
