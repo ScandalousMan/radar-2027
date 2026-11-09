@@ -50,17 +50,17 @@ servie par interception de route (R11) : aucune publication réelle n'est néces
 
 **Purpose**: arborescence, textes et tokens, sans logique.
 
-- [ ] T001 Créer `src/lib/results/` et les dossiers de composants `src/ui/ResultsHeader/`,
+- [X] T001 Créer `src/lib/results/` et les dossiers de composants `src/ui/ResultsHeader/`,
   `src/ui/RankingList/`, `src/ui/InsufficientList/`, `src/ui/ThemeScoreList/`,
   `src/ui/QuestionDetail/`, `src/ui/ComparisonTable/`, `src/ui/SharePanel/` (un `index.ts`
   vide dans chacun)
-- [ ] T002 [P] Ajouter à `src/i18n/messages/fr.json` toutes les clés `results.*` et `ui.*` de
+- [X] T002 [P] Ajouter à `src/i18n/messages/fr.json` toutes les clés `results.*` et `ui.*` de
   [contracts/i18n-messages.md](contracts/i18n-messages.md), retirer `results.soon` et
   `results.backToQuestionnaire` (page de garde), conserver la clé `results.title` avec sa
   nouvelle valeur (attendue par `e2e/questionnaire.spec.ts`) ; typographie française
   (espaces insécables avant `:` `;` `?` `!`) ; déclarer les nouvelles clés dans la liste de
   `src/i18n/messages.test.ts`
-- [ ] T003 [P] Ajouter `--color-series-1`, `--color-series-2`, `--color-series-3` (clair et
+- [X] T003 [P] Ajouter `--color-series-1`, `--color-series-2`, `--color-series-3` (clair et
   sombre ; sarcelle, ocre, prune, R9) dans `src/ui/tokens.css`, leur classe utilitaire Tailwind,
   et les contrôles de contraste ≥ 3:1 sur `surface` dans `src/ui/tokens.test.ts` ; documenter
   dans `src/ui/Tokens.mdx` l'attribution par emplacement de comparaison
@@ -72,13 +72,13 @@ servie par interception de route (R11) : aucune publication réelle n'est néces
 **Purpose**: modules purs, chargement, partage et composants, tous testés ; bloque toutes les
 stories.
 
-- [ ] T004 Écrire `src/lib/results/types.ts` : `PageState`, `ReadyData`, `ResultsView`,
+- [X] T004 Écrire `src/lib/results/types.ts` : `PageState`, `ReadyData`, `ResultsView`,
   `RankingRow`, `InsufficientRow`, `CandidateSheet`, `ThemeRow`, `QuestionRow`, `SkippedRow`,
   `ComparisonView`, `ViewState`, `AgreementLevel` (data-model § 1–7, results-model)
-- [ ] T005 [P] Test `src/lib/results/agreement.test.ts` : concordances 1, 3/4, 1/2, 1/4, 0 ⇒
+- [X] T005 [P] Test `src/lib/results/agreement.test.ts` : concordances 1, 3/4, 1/2, 1/4, 0 ⇒
   `identical` … `opposite` ; toute autre valeur lève une erreur de programmation
-- [ ] T006 [P] Implémenter `agreementOf` dans `src/lib/results/agreement.ts` (R3)
-- [ ] T007 [P] Test `src/lib/results/view-model.test.ts` : pour `EXAMPLE_A` et `EXAMPLE_B`
+- [X] T006 [P] Implémenter `agreementOf` dans `src/lib/results/agreement.ts` (R3)
+- [X] T007 [P] Test `src/lib/results/view-model.test.ts` : pour `EXAMPLE_A` et `EXAMPLE_B`
   de `@/core`, classement (rang, `tied`, `percent`, `band`) et données insuffisantes conformes
   aux valeurs attendues (SC-001) ; tableaux de scores construits pour : ex æquo 1, 1, 3 ; tous
   ex æquo ; un seul classé ; aucun classé (`noneRanked`) ; `unknown = answered − known` ; ordre
@@ -86,14 +86,14 @@ stories.
   présente une seule fois dans la fiche ; questions passées et compte des non répondues ;
   comparaison à 2 et 3 colonnes avec emplacements dans l'ordre d'ajout ; `withdrawn` posé
   d'après `prior.withdrawnIds`
-- [ ] T008 Implémenter `resultsView`, `candidateSheet`, `comparisonView`, `orderedThemeKeys`
+- [X] T008 Implémenter `resultsView`, `candidateSheet`, `comparisonView`, `orderedThemeKeys`
   dans `src/lib/results/view-model.ts` (data-model § 2–7, sans recalcul de score)
-- [ ] T009 [P] Test `src/lib/dataset-client.test.ts` (compléter) : `loadDetail(v, id)` appelle
+- [X] T009 [P] Test `src/lib/dataset-client.test.ts` (compléter) : `loadDetail(v, id)` appelle
   `/data/versions/<v>/candidates/<id>.json` sans paramètre, `cache: 'force-cache'`, valide par
   `CandidateDetailSchema`, mémoïse par `(v, id)`, ne mémorise pas l'échec, refuse un identifiant
   hors `^[a-z0-9-]+$`
-- [ ] T010 Implémenter `loadDetail` dans `src/lib/dataset-client.ts` (data-and-share § 1, R5)
-- [ ] T011 [P] Test `src/lib/results/load.test.ts` (fetcher simulé, banque `syntheticDataset`
+- [X] T010 Implémenter `loadDetail` dans `src/lib/dataset-client.ts` (data-and-share § 1, R5)
+- [X] T011 [P] Test `src/lib/results/load.test.ts` (fetcher simulé, banque `syntheticDataset`
   en v1 et v2) : `''`/`'#'` ⇒ `no-fragment` ; `current = 0` ⇒ `no-version` ; préfixe faux,
   caractère hors alphabet, CRC faux, longueur fausse, 2 sujets ⇒ `invalid` avec la raison ;
   version > current ⇒ `unknown-version` ; v = current ⇒ `ready` sans requête supplémentaire ;
@@ -102,43 +102,43 @@ stories.
   d'exception ; `shareUrl = origin + '/resultats#1.…'` ; `currentBank` = projection de la
   version courante dans les deux cas ; `unknown-bank-version` au décodage complet ⇒
   `error: internal`
-- [ ] T012 Implémenter `loadResults` dans `src/lib/results/load.ts` (R2, R4, contrat
+- [X] T012 Implémenter `loadResults` dans `src/lib/results/load.ts` (R2, R4, contrat
   `core-api` § flux 005) ; `currentBank` via `questionnaireBankFrom` de
   `src/lib/questionnaire/bank-view.ts`
-- [ ] T013 [P] Test `src/lib/results/history.test.ts` : `readView` tolère `null`, objets
+- [X] T013 [P] Test `src/lib/results/history.test.ts` : `readView` tolère `null`, objets
   étrangers et vues invalides (⇒ `ranking`) ; `pushView`/`replaceView` gardent l'URL courante
   (faux `History`)
-- [ ] T014 [P] Implémenter `src/lib/results/history.ts` (R1)
-- [ ] T015 [P] Test `src/lib/results/share.test.ts` : `copyLink` ⇒ `copied` si `writeText`
+- [X] T014 [P] Implémenter `src/lib/results/history.ts` (R1)
+- [X] T015 [P] Test `src/lib/results/share.test.ts` : `copyLink` ⇒ `copied` si `writeText`
   réussit, `manual` s'il rejette ou est absent ; `canShareNatively` ; `shareNatively`
   distingue partage et annulation (`AbortError`)
-- [ ] T016 [P] Implémenter `src/lib/results/share.ts` (R6)
-- [ ] T017 [P] Test `src/lib/questionnaire/from-result.test.ts` : `draftFromResultState` même
+- [X] T016 [P] Implémenter `src/lib/results/share.ts` (R6)
+- [X] T017 [P] Test `src/lib/questionnaire/from-result.test.ts` : `draftFromResultState` même
   version, `position` = première non répondue sinon 0, aller-retour
   `decodeFragment(resultHref(draft))` = état ; `carryOver` reporte par identifiant, laisse
   `'unanswered'` aux questions nouvelles, renvoie `choose-themes` si moins de 3 sujets
   subsistent ; `needsConfirmation` ignore `position` et `updatedAt`
-- [ ] T018 Implémenter `src/lib/questionnaire/from-result.ts` (data-and-share § 4, R7) et
+- [X] T018 Implémenter `src/lib/questionnaire/from-result.ts` (data-and-share § 4, R7) et
   l'exporter depuis le `README.md` du module
-- [ ] T019 [P] Composant `src/ui/ResultsHeader/` (`ResultsHeader.tsx`, `.stories.tsx`,
+- [X] T019 [P] Composant `src/ui/ResultsHeader/` (`ResultsHeader.tsx`, `.stories.tsx`,
   `.test.tsx`, `index.ts`) selon contracts/components.md ; états 3/4/5 sujets, court, complet,
   320 px
-- [ ] T020 [P] Composant `src/ui/RankingList/` (fichiers idem) ; états un seul, ex æquo, tous
+- [X] T020 [P] Composant `src/ui/RankingList/` (fichiers idem) ; états un seul, ex æquo, tous
   ex æquo, 3 sélectionnés (case désactivée et raison), retiré ; test : rang et « ex æquo » en
   texte, `aria-pressed`, `onOpen`/`onToggleCompare`
-- [ ] T021 [P] Composant `src/ui/InsufficientList/` ; rendu atténué AA (jamais l'opacité
+- [X] T021 [P] Composant `src/ui/InsufficientList/` ; rendu atténué AA (jamais l'opacité
   seule), mention pluralisée ; états vide (non rendu), plusieurs, tous
-- [ ] T022 [P] Composant `src/ui/ThemeScoreList/` ; sujet clé (étoile + texte), « — » avec
+- [X] T022 [P] Composant `src/ui/ThemeScoreList/` ; sujet clé (étoile + texte), « — » avec
   « non calculable », couverture ; états complet, court (`others`), indéfinis
-- [ ] T023 [P] Composant `src/ui/QuestionDetail/` réutilisant `EvidenceBadge` ; états
+- [X] T023 [P] Composant `src/ui/QuestionDetail/` réutilisant `EvidenceBadge` ; états
   identique … opposé, inconnue, passée, citation absente, détail en chargement, en erreur ;
   test : lien source `target="_blank"` `rel="noopener noreferrer"`, mention « nouvel onglet »
-- [ ] T024 [P] Composant `src/ui/ComparisonTable/` ; blocs < 640 px, `<table>` ≥ 640 px
+- [X] T024 [P] Composant `src/ui/ComparisonTable/` ; blocs < 640 px, `<table>` ≥ 640 px
   (`th scope`) ; formes et `--color-series-<slot>` ; bouton « Retirer » ; états 2, 3, avec
   insuffisant, court, 320 px
-- [ ] T025 [P] Composant `src/ui/SharePanel/` ; région `aria-live="polite"`, champ `readonly`
+- [X] T025 [P] Composant `src/ui/SharePanel/` ; région `aria-live="polite"`, champ `readonly`
   de repli sélectionné, bouton natif conditionnel, aperçu ; états initial, copié, manuel, natif
-- [ ] T026 Exporter les sept composants depuis `src/ui/index.ts`
+- [X] T026 Exporter les sept composants depuis `src/ui/index.ts`
 
 **Checkpoint**: modules et composants verts ; aucune page encore.
 

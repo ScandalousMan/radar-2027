@@ -108,7 +108,10 @@
       "resume": "Reprendre",
       "restart": "Recommencer",
       "clear": "Effacer",
-      "versionChanged": "Les questions ont été mises à jour : ce questionnaire ne peut pas être repris tel quel."
+      "versionChanged": "Les questions ont été mises à jour : ce questionnaire ne peut pas être repris tel quel.",
+      "completeTitle": "Questionnaire terminé",
+      "completeSummary": "{mode, select, short {Mode court} full {Mode complet} other {Questionnaire}} · {total} questions · dernière réponse le {date}",
+      "viewResults": "Voir mes résultats"
     },
     "notice": {
       "info": "Information",
@@ -117,6 +120,60 @@
     "answerSummary": {
       "counts": "{answered, plural, one {# répondue} other {# répondues}}, {skipped, plural, one {# passée} other {# passées}}, {unanswered, plural, one {# non répondue} other {# non répondues}}",
       "unreliable": "Trop peu de réponses pour un score fiable (minimum {min})"
+    },
+    "resultsHeader": {
+      "priorities": "Vos sujets clés"
+    },
+    "rankingList": {
+      "label": "Classement des candidats",
+      "rank": "Rang {rank}",
+      "tied": "ex æquo",
+      "open": "Voir le détail",
+      "openLabel": "Voir le détail de {name}",
+      "compare": "Comparer",
+      "compareLabel": "Comparer {name}",
+      "compareDisabled": "Trois candidats au plus : retirez-en un pour en ajouter un autre."
+    },
+    "insufficientList": {
+      "status": "données insuffisantes",
+      "unknown": "{unknown, plural, one {# position inconnue} other {# positions inconnues}} sur {answered, plural, one {# question répondue} other {# questions répondues}}"
+    },
+    "themeScoreList": {
+      "priorityTheme": "Sujet clé : {label}",
+      "priorityMark": "sujet clé",
+      "others": "Autres thèmes",
+      "undefined": "non calculable",
+      "coverage": "{known, plural, one {# position connue} other {# positions connues}} sur {answered, plural, one {# question répondue} other {# questions répondues}}"
+    },
+    "questionDetail": {
+      "yourAnswer": "Votre réponse",
+      "position": "Position du candidat",
+      "agreement": "Accord",
+      "unknown": "inconnue",
+      "unknownNote": "Cette question n’entre pas dans le calcul pour ce candidat.",
+      "skipped": "question passée",
+      "quoteLabel": "Citation",
+      "quoteMissing": "Citation indisponible.",
+      "source": "Source",
+      "newTab": "(nouvel onglet)",
+      "loading": "Chargement de la citation…",
+      "error": "Citation et source indisponibles."
+    },
+    "comparisonTable": {
+      "caption": "Comparaison des candidats",
+      "theme": "Thème",
+      "global": "Score global",
+      "insufficient": "données insuffisantes",
+      "undefined": "non calculable",
+      "remove": "Retirer {name}"
+    },
+    "sharePanel": {
+      "copy": "Copier le lien",
+      "copied": "Lien copié dans le presse-papiers.",
+      "manualHint": "La copie automatique n’est pas disponible : sélectionnez le lien ci-dessous et copiez-le.",
+      "manualLabel": "Lien de vos résultats",
+      "native": "Partager…",
+      "previewTitle": "Aperçu dans les messageries"
     }
   },
   "methodology": {
@@ -232,8 +289,106 @@
     }
   },
   "results": {
-    "title": "Résultats",
-    "soon": "La page de résultats arrive bientôt. Ce lien reste valable : conservez-le pour revenir voir vos résultats.",
-    "backToQuestionnaire": "Revenir au questionnaire"
+    "meta": {
+      "title": "Mes affinités avec les candidats à la présidentielle 2027",
+      "description": "Comparez vos réponses aux positions des candidats, en donnant plus de poids aux sujets qui comptent pour vous."
+    },
+    "title": "Vos résultats",
+    "loading": "Calcul de vos résultats…",
+    "header": {
+      "mode": "{mode, select, short {Mode court} other {Mode complet}} · {answered, plural, one {# réponse} other {# réponses}} sur {total} questions",
+      "cap": "Votre score global avec un candidat ne dépasse jamais votre accord avec lui sur vos sujets clés.",
+      "methodology": "Comprendre le calcul"
+    },
+    "band": {
+      "very-aligned": "très aligné",
+      "rather-aligned": "plutôt aligné",
+      "mixed": "mitigé",
+      "distant": "éloigné"
+    },
+    "agreement": {
+      "identical": "identique",
+      "close": "proche",
+      "intermediate": "intermédiaire",
+      "distant": "éloigné",
+      "opposite": "opposé"
+    },
+    "ranking": {
+      "title": "Classement",
+      "noneTitle": "Aucun candidat ne dispose d’assez de données",
+      "noneBody": "Avec vos réponses actuelles, aucun candidat n’a assez de positions connues pour être classé. Répondez à davantage de questions pour obtenir un classement.",
+      "answerMore": "Répondre à davantage de questions"
+    },
+    "insufficient": {
+      "title": "Données insuffisantes",
+      "intro": "Ces candidats n’ont pas assez de positions connues sur vos réponses pour recevoir un rang ni un score global."
+    },
+    "compare": {
+      "title": "Comparaison",
+      "intro": "Sélectionnez de 2 à 3 candidats avec « Comparer », puis ouvrez la comparaison.",
+      "selected": "{count, plural, =0 {Aucun candidat sélectionné} one {# candidat sélectionné} other {# candidats sélectionnés}} sur 3",
+      "action": "Comparer ({count})",
+      "limit": "Trois candidats au plus : retirez-en un pour en ajouter un autre.",
+      "added": "{name} ajouté à la comparaison.",
+      "removed": "{name} retiré de la comparaison.",
+      "back": "Retour au classement"
+    },
+    "candidate": {
+      "back": "Retour au classement",
+      "insufficient": "Données insuffisantes : ce candidat n’est pas classé.",
+      "themes": "Scores par thème",
+      "questions": "Détail par question",
+      "noQuestions": "Aucune question répondue.",
+      "skipped": "Questions passées",
+      "unanswered": "{count, plural, one {# question non répondue} other {# questions non répondues}}",
+      "compare": "Ajouter à la comparaison",
+      "compareRemove": "Retirer de la comparaison",
+      "detailLoading": "Chargement des citations et des sources…",
+      "detailError": "Les citations et sources n’ont pas pu être chargées. Les chiffres ci-dessus restent valables.",
+      "detailRetry": "Recharger les citations",
+      "rank": "Rang {rank}"
+    },
+    "share": {
+      "title": "Partager mes résultats",
+      "explain": "Le lien contient vos réponses, encodées après le signe #. Elles ne sont envoyées à aucun serveur : seule la personne qui ouvre le lien les voit."
+    },
+    "modify": {
+      "action": "Modifier mes réponses",
+      "confirm": {
+        "title": "Remplacer le questionnaire en cours ?",
+        "description": "Un autre questionnaire est enregistré sur cet appareil. Le remplacer par les réponses de ces résultats l’effacera.",
+        "confirm": "Remplacer",
+        "cancel": "Annuler"
+      },
+      "storageUnavailable": "Votre navigateur ne permet pas de conserver vos réponses : le questionnaire démarrera sans les vôtres."
+    },
+    "prior": {
+      "title": "Données d’une version antérieure",
+      "warning": "Résultats calculés avec les données du {date} ; des données plus récentes existent.",
+      "withdrawn": "{count, plural, one {# candidat de ces résultats ne se présente plus} other {# candidats de ces résultats ne se présentent plus}}.",
+      "redo": "Refaire le questionnaire avec les données actuelles",
+      "methodology": "Voir la méthodologie"
+    },
+    "withdrawn": "ne se présente plus",
+    "empty": {
+      "title": "Aucun résultat à afficher",
+      "body": "Cette page affiche les résultats d’un questionnaire. Répondez au questionnaire pour obtenir les vôtres.",
+      "start": "Commencer le questionnaire"
+    },
+    "invalid": {
+      "title": "Ce lien est incomplet ou invalide",
+      "body": "Il a peut-être été tronqué ou modifié lors de sa copie. Aucun résultat ne peut être affiché à partir de ce lien.",
+      "start": "Commencer le questionnaire"
+    },
+    "unknownVersion": {
+      "title": "Ce lien vient d’une version plus récente du site",
+      "body": "Rechargez la page pour obtenir la dernière version : votre lien est conservé.",
+      "reload": "Recharger la page"
+    },
+    "error": {
+      "title": "Les données n’ont pas pu être chargées",
+      "body": "Vérifiez votre connexion puis réessayez. Aucun résultat n’est affiché tant que les données ne sont pas disponibles.",
+      "retry": "Réessayer"
+    }
   }
 }

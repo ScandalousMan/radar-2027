@@ -21,6 +21,7 @@ Contrats : [routes et état](../../../specs/004-parcours-questionnaire/contracts
 | `resume-info.ts` | ce qu'affiche la carte de reprise de l'accueil |
 | `guards.ts` | étape requise par route, redirection silencieuse |
 | `history.ts` | historique du navigateur entre questions (`pushState` sans changer l'URL) |
+| `from-result.ts` | 005 : `draftFromResultState`, `carryOver` (report par identifiant vers la version courante), `needsConfirmation` |
 | `store.tsx` | `QuestionnaireProvider` / `useQuestionnaire` : chargement du jeu publié, présélection, brouillon, onglets |
 
 ## Brouillon stocké
@@ -55,8 +56,17 @@ l'accueil d'afficher « version changée ». `radar-appearance` (001) reste ind�
 Revalider le même triplet (version, mode, sujets) depuis l'écran du mode reprend le brouillon à
 sa première question non traitée, sans confirmation ; un triplet différent demande confirmation.
 
-## Point d'extension réservé à la 005 (R14)
+## Pré-remplissage depuis les résultats (005, R14 de la 004)
 
-`draftFromResultState(state, bank, now): Draft` — pré-remplissage depuis un état de résultats ;
-`position = firstUnanswered`, exige `state.bankVersion = bank.version`. Non implémenté par la
-004 ; le réducteur et le stockage n'ont pas besoin de changer pour l'accueillir.
+`from-result.ts` met en œuvre le point d'extension réservé par la 004 :
+
+- `draftFromResultState(state, bank, now): Draft` — même version : brouillon identique à l'état,
+  `position` = première question non répondue, sinon 0 ; exige `state.bankVersion = bank.version`.
+- `carryOver(state, linkBank, current, now)` — lien d'une version antérieure : sujets clés encore
+  présents, sélection recalculée sur la version courante, réponses reportées par identifiant de
+  question (les nouvelles restent `'unanswered'`) ; moins de 3 sujets ⇒ `choose-themes` avec la
+  présélection des sujets restants (`setPendingPreselection`, lue par l'étape des sujets).
+- `needsConfirmation(stored, next)` — un brouillon stocké différent (version, mode, sujets,
+  réponses) n'est jamais remplacé sans confirmation.
+
+Le réducteur et le stockage n'ont pas changé.
