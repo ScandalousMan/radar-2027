@@ -64,3 +64,69 @@
   candidates:
     - delphine-batho
   contentHash: sha256:4a1cc39e61b03b5f0c36613c4da01988df1447fe1c3a7677c6b909b080804ffd
+- id: delphine-batho-reporterre-2026-10
+  url: https://reporterre.net/Delphine-Batho-Je-ne-multiplie-pas-les-candidatures-a-gauche-je-suis-la-seule-candidate-de-l-ecologie
+  title: "Delphine Batho : « Je ne multiplie pas les candidatures à gauche, je suis la seule candidate de l’écologie » (Reporterre)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-16
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - delphine-batho
+  contentHash: sha256:3c259a77c2c766dfe2a37746428507ab05433f22a5af5c7d3024c5a73b171db5
+- id: delphine-batho-alliance-republique-agriculture
+  url: https://delphinebatho.fr/une-nouvelle-alliance-entre-la-republique-et-son-agriculture/
+  title: « Une nouvelle alliance entre la République et son agriculture » (delphinebatho.fr)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-03
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - delphine-batho
+  contentHash: sha256:d541b4b37392cb0fc87d4464134c9b6973b8db51ac98330e70fa1d4cc9c46ea5
+- id: delphine-batho-pompiers-soldats-du-climat
+  url: https://delphinebatho.fr/les-pompiers-de-france-sont-les-soldats-du-climat/
+  title: Les pompiers de France sont les soldats du climat (delphinebatho.fr)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-07-30
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - delphine-batho
+  contentHash: sha256:83080bfeba9418fc3c10ef07771fe8280df92398474f438d52128e26abf7088a
+- id: delphine-batho-ge-etat-resilience
+  url: https://www.generationecologie.fr/2024/12/27/pour-un-etat-resilience/
+  title: Pour un État-Résilience, contribution au plan national d’adaptation au changement climatique (Génération Écologie)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2024-12-27
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - delphine-batho
+  contentHash: sha256:d30a45bf85a569a33e5e5fee0ca146d0e7bf503c2a4fb1f2724e64c5e7aa42ad
+- id: delphine-batho-ppl-moratoire-bassines
+  url: https://www.assemblee-nationale.fr/dyn/17/textes/l17b0199_proposition-loi.pdf
+  title: Proposition de loi n° 199 instaurant un moratoire sur la construction d’ouvrages de stockage de l’eau à usage d’irrigation agricole et réformant le code de l’environnement concernant l’usage de l’eau en agriculture (Assemblée nationale)
+  kind: declaration_vote
+  publishedAt:
+    date: 2024-09-17
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - delphine-batho
+  contentHash: sha256:40be22fcd558a6832b4f8dbdf0968e126c6e2ec4584ded388c292f508f989d76
+- id: delphine-batho-ppl-abrogation-loi-duplomb
+  url: https://www.assemblee-nationale.fr/dyn/17/textes/l17b1842_proposition-loi.pdf
+  title: Proposition de loi n° 1842 visant à abroger la loi n° 2025-794 du 11 août 2025, dite loi Duplomb, à rendre définitive l’interdiction des néonicotinoïdes en France, à tenir compte du dernier état des connaissances scientifiques et à lutter contre la concurrence déloyale en matière de pesticides (Assemblée nationale)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-09-16
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - delphine-batho
+  contentHash: sha256:fafae03421749eb7cea96eef945a42721ec47982e5bc010e70598dba62e7b98c
