@@ -1,0 +1,58 @@
+# Positions d'Éric Zemmour (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
+# provenance manual), à relire par adrien avec pnpm data:review.
+
+- question: agriculture-alleger-normes-agricoles
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - eric-zemmour-discours-udt-2024
+  quote: Nous chasserons également les idéologies écologistes qui mettent l'État au service de la décroissance, qui paralysent les agriculteurs à coup de normes absurdes
+  quoteSource: eric-zemmour-discours-udt-2024
+  justification: Le discours annonce la fin des orientations écologistes qui imposent des normes aux agriculteurs, sans détailler quelles normes environnementales seraient allégées, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-baisse-impot-societes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-priorites
+  quote: La baisse des impôts pesant sur les travailleurs modestes, sur les classes moyennes comme sur les entreprises qui produisent en France est indispensable
+  quoteSource: eric-zemmour-priorites
+  justification: La plateforme de 2022 demande une baisse des impôts pesant sur les entreprises qui produisent en France, sans viser spécifiquement le taux de l'impôt sur les sociétés, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-baisse-ir-tranches-intermediaires
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-priorites
+  quote: La baisse des impôts pesant sur les travailleurs modestes, sur les classes moyennes comme sur les entreprises qui produisent en France est indispensable
+  quoteSource: eric-zemmour-priorites
+  justification: La plateforme de 2022 demande une baisse des impôts pesant sur les classes moyennes, sans préciser qu'il s'agit de l'impôt sur le revenu, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-condamnes-perte-titre-sejour
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - eric-zemmour-candidature-public-senat
+  quote: "Il a détaillé une liste de catégories visées par cette politique : les détenus étrangers"
+  quoteSource: eric-zemmour-candidature-public-senat
+  justification: Selon le compte rendu de presse de 2026, il propose d'expulser les détenus étrangers, ce qui va au-delà du retrait du titre de séjour sans être formulé comme tel, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
