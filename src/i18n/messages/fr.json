@@ -228,6 +228,25 @@
       "description": "Positions relues et sourcées de {name}, avec citation et sources.",
       "positionsTitle": "Positions sourcées",
       "noPositions": "Aucune position relue et sourcée n’est encore publiée pour cette candidature."
+    },
+    "scoring": {
+      "title": "Calcul des résultats",
+      "intro": "Le calcul est le même pour chaque candidat. Il ne dépend que de vos réponses, de vos sujets clés et des positions publiées dans la version des données de votre lien.",
+      "concordance": "Pour chaque question, l’accord entre votre réponse et la position du candidat vaut 1 − écart ÷ 2, l’écart étant mesuré sur l’échelle de −2 à +2 : il va de 1 (même réponse) à −1 (réponses opposées). Une question passée, non répondue ou dont la position est inconnue n’entre pas dans le calcul.",
+      "agreementTitle": "Niveaux d’accord affichés pour chaque question",
+      "agreementItem": "{label} : {gap, plural, =0 {même réponse} one {écart de # cran} other {écart de # crans}}",
+      "theme": "Le score d’un thème est la moyenne des accords de ses questions. Il n’est calculé qu’à partir de {min} questions exploitables ; sinon il s’affiche « — » (non calculable).",
+      "weighted": "Le score pondéré est la moyenne des scores de thème, vos sujets clés comptant {weight} fois plus que les autres thèmes. En mode court, les thèmes qui ne sont pas des sujets clés forment une seule ligne « autres thèmes ».",
+      "cap": "Le score global est le plus petit des deux nombres suivants : le score pondéré et votre score sur vos sujets clés. Il ne dépasse donc jamais votre accord avec le candidat sur ce qui compte le plus pour vous.",
+      "percent": "Les pourcentages sont tronqués, jamais arrondis (62,9 % s’affiche 62 %). Les candidats au même pourcentage affiché partagent le même rang, avec la mention « ex æquo », et le rang suivant est décalé d’autant (1, 1, 3).",
+      "coverage": "Un candidat n’est classé que si au moins {threshold} % des questions auxquelles vous avez répondu ont une position connue chez lui et si son score sur vos sujets clés est calculable. Sinon, il figure dans la section « Données insuffisantes », sans rang ni score global.",
+      "bandsTitle": "Bandes d’alignement",
+      "bandFrom": "{label} : {min} % et plus",
+      "bandRange": "{label} : de {min} à {max} %",
+      "bandBelow": "{label} : moins de {max} %",
+      "examplesTitle": "Exemples chiffrés",
+      "exampleA": "Exemple A — un sujet clé (économie, deux questions) et un autre thème (santé). Accords 1/2 et 0 sur l’économie, 1 sur la santé ; la quatrième question, à position inconnue, est exclue. Économie {economie} %, santé non calculable (une seule question exploitable), score global {global} %, couverture {coverage} %, bande « {band} ».",
+      "exampleB": "Exemple B — un sujet clé à accord nul, deux autres thèmes à accord parfait. Score pondéré {weighted} %, score sur les sujets clés {priority} %, score global {global} % : le plafond s’applique, bande « {band} »."
     }
   },
   "questionnaire": {

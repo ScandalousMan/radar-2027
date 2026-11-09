@@ -4,7 +4,7 @@
 
 **Created**: 2026-11-06
 
-**Status**: Draft
+**Status**: Implemented (2026-11-09)
 
 **Input**: User description: "Page de résultats, détail par thème et par candidat, partage par URL"
 

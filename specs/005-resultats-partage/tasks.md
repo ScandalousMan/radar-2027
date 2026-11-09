@@ -305,18 +305,18 @@ et la requête du détail à l'ouverture seulement.
   focus toujours visible (SC-008) ; un passage avec `forcedColors: 'active'` vérifie que rang
   ex æquo, sujets clés et données insuffisantes restent signalés par du texte (cas limite
   « contraste élevé »)
-- [ ] T051 [P] Test i18n dans `src/i18n/messages.test.ts` : clés `results.band.*` = valeurs de
+- [X] T051 [P] Test i18n dans `src/i18n/messages.test.ts` : clés `results.band.*` = valeurs de
   `Band`, `results.agreement.*` = `AgreementLevel` ; aucune clé de la page de garde ne subsiste
-- [ ] T052 [P] Mettre à jour la page Méthodologie si nécessaire pour les libellés de paliers
+- [X] T052 [P] Mettre à jour la page Méthodologie si nécessaire pour les libellés de paliers
   (`src/app/methodologie/page.tsx`) et le `README.md` (tableau des fonctionnalités : 003, 004,
   005 réalisées ; partage par URL)
-- [ ] T053 Mesurer le JS initial de `/resultats` sur l'export (≤ 200 ko compressés) et consigner
+- [X] T053 Mesurer le JS initial de `/resultats` sur l'export (≤ 200 ko compressés) et consigner
   la mesure en fin de ce fichier
-- [ ] T054 Vérifications navigateur de [quickstart.md](quickstart.md) § 3, faites par l'agent
+- [X] T054 Vérifications navigateur de [quickstart.md](quickstart.md) § 3, faites par l'agent
   (320 px, clair et sombre, contraste des marqueurs de série et du rendu atténué, arbre
   d'accessibilité du classement, de la fiche, de la comparaison et des trois états de lien
   invalide, SC-008) ; consigner les résultats dans `quickstart.md` § « Résultats »
-- [ ] T055 `pnpm verify` vert ; cocher les items de `checklists/requirements.md` encore
+- [X] T055 `pnpm verify` vert ; cocher les items de `checklists/requirements.md` encore
   pertinents ; passer `spec.md` en `Status: Implemented`
 
 ---
@@ -429,3 +429,52 @@ Aucune violation de la constitution ; 100 % des FR couvertes avant correction. C
   états de lien invalide ajouté à T054 ; SC-004 « toute combinaison » renvoyé aux propriétés du
   codec de la 003.
 
+
+---
+
+## Mesure du JS initial (T053, 2026-11-09)
+
+Export du 2026-11-09, scripts `<script src>` de `out/resultats.html` (10 fichiers, hors
+`main.json`, fichiers de détail et chunk de validation zod chargé à la demande) :
+
+| Page | Brut | gzip -9 | brotli |
+|---|---|---|---|
+| `/resultats` | 669,8 ko | 205,0 ko | **178,4 ko** |
+| `/questionnaire` (référence 004) | 630,7 ko | 195,6 ko | 169,9 ko |
+| `/` (référence) | 627,2 ko | 193,8 ko | 168,2 ko |
+
+Budget ≤ 200 ko compressés respecté avec la compression que sert Vercel (brotli, 178 ko),
+comme pour la 004 (175–181 ko). En gzip seul, la page dépasse de 5 ko : le socle Next et React
+en représente l'essentiel (≈ 194 ko sur l'accueil) ; les 11 ko propres à la 005 (projection,
+composants) n'ont pas de dépendance ajoutée.
+
+---
+
+## Écarts d'implémentation (2026-11-09)
+
+- **Paliers d'accord (R3, T005)** : la concordance fournie par le cœur est `s = 1 − |u − c| / 2`
+  ∈ {1, 1/2, 0, −1/2, −1} (écart de 0 à 4 sur l'échelle), pas une valeur de [0, 1]
+  ({1, 3/4, 1/2, 1/4, 0}) comme l'écrivaient R3 et T005. `agreementOf` lit les vraies valeurs
+  du cœur ; la correspondance reste bijective (identique, proche, intermédiaire, éloigné, opposé).
+- **Présélection `choose-themes` et brouillon sans stockage (R7, T036)** : transmis par un relais
+  en mémoire (`src/lib/questionnaire/handoff.ts`, consommé à la première lecture) plutôt que par
+  `history.state` : `router.push` du routeur Next ne permet pas de poser un état d'historique
+  arbitraire. Même garantie : rien dans l'URL ni dans le stockage. Le mode du lien est
+  présélectionné avec les sujets restants.
+- **Listes fermées dans les composants** : `RankingList`, `QuestionDetail` et `ResultsHeader`
+  lisent `results.band.*`, `results.agreement.*` et `results.title|header.*` (et non une copie
+  sous `ui.*`), pour que les listes fermées n'existent qu'une fois, contrôlées par le test i18n.
+- **Méthodologie (T052)** : la page ne publiait pas encore les formules (la 003 les confie à la
+  005). Section « Calcul des résultats » ajoutée (`/methodologie#calcul`) : concordance, paliers,
+  seuil de 2 questions, poids 3, plafond, troncature et ex æquo, seuil de couverture, bandes,
+  exemples A et B lus dans `EXAMPLE_A`/`EXAMPLE_B` (valeurs reprises du code, e2e). Les liens
+  « Comprendre le calcul » y pointent.
+- **Carte terminée** : `ResumeInfo` porte `versionChanged` en plus du statut `complete` ; la carte
+  terminée garde « Effacer » à côté de « Voir mes résultats » et « Recommencer ». Depuis
+  `/resultats` sans fragment, « Voir mes résultats » navigue par le fragment (`location.assign`)
+  pour que la page le relise (`hashchange`).
+- **Trafic (T049)** : comme dans la 004, le seul paramètre admis est `_rsc` (cache des
+  navigations du routeur Next, sans donnée du répondant) ; aucune requête `/data/…` n'en porte.
+- **Fixtures e2e** : la version 2 fictive est construite dans `e2e/fixtures/published.ts` (c21
+  retiré, c22 ajouté à faible couverture, position de c05 sur t04-q02 changée) ; `src/core`
+  n'est pas modifié (`git diff main -- src/core` vide).

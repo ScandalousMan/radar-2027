@@ -140,13 +140,16 @@ test.describe('US1 — consulter mon classement', () => {
   test('phrase de plafonnement et lien Méthodologie', async ({ page }) => {
     await openResults(page, stateFor('short', FOUR, cycle));
     await expect(main(page)).toContainText(msg('results.header.cap'));
-    await expect(main(page).getByRole('link', { name: msg('results.header.methodology') }).first()).toHaveAttribute('href', '/methodologie');
+    await expect(main(page).getByRole('link', { name: msg('results.header.methodology') }).first()).toHaveAttribute('href', '/methodologie#calcul');
   });
 
   test('HTML statique sans résultat : titre générique et chargement', async ({ request }) => {
     const html = await (await request.get('/resultats')).text();
     expect(html).toContain(msg('results.loading'));
-    expect(html).not.toMatch(/\d+\s?%/);
+    // Aucun élément de classement rendu (le catalogue de messages embarqué contient des exemples chiffrés).
+    expect(html).not.toContain('role="meter"');
+    expect(html).not.toContain('data-candidate');
+    expect(html).not.toContain(`aria-label="${msg('ui.rankingList.label')}"`);
     expect(html).toContain(`<meta property="og:title" content="${msg('results.meta.title')}"`);
   });
 
@@ -335,11 +338,22 @@ test.describe('US3 — liens invalides, anciens ou absents', () => {
     await expect(notice).toContainText(msg('results.prior.warning', { date: '08/11/2026' }));
     await expect(notice).toContainText('1 candidat de ces résultats ne se présente plus');
     await expect(notice.getByRole('button', { name: msg('results.prior.redo') })).toBeVisible();
-    await expect(notice.getByRole('link', { name: msg('results.prior.methodology') })).toHaveAttribute('href', '/methodologie');
+    await expect(notice.getByRole('link', { name: msg('results.prior.methodology') })).toHaveAttribute('href', '/methodologie#calcul');
     await expectBoard(page, state, 2);
     const withdrawn = main(page).locator(`li[data-candidate="${WITHDRAWN_IN_V2}"]`);
     await expect(withdrawn).toContainText(msg('results.withdrawn'));
     await expect(main(page).locator(`li[data-candidate="${ADDED_IN_V2}"]`)).toHaveCount(0);
+  });
+
+  test('320 px : avertissement de version et « aucun classable » sans défilement horizontal', async ({ page }) => {
+    await page.setViewportSize({ width: 320, height: 720 });
+    await page.unrouteAll();
+    await servePublished(page, { current: 2 });
+    await openResults(page, stateFor('short', FOUR, cycle, 1));
+    await noHorizontalScroll(page);
+    await page.goto(linkFor(stateFor('short', FOUR, (i) => (i < 3 ? 1 : 'unanswered'), 2)));
+    await expect(main(page).getByText(msg('results.ranking.noneTitle'))).toBeVisible();
+    await noHorizontalScroll(page);
   });
 
   test('« Refaire avec les données actuelles » : questionnaire v2, réponses reportées par identifiant', async ({ page }) => {

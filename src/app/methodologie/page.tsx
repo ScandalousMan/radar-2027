@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { getFormatter, getTranslations } from 'next-intl/server';
+import { BANDS, COVERAGE_THRESHOLD, EXAMPLE_A, EXAMPLE_B, MIN_THEME_QUESTIONS, PRIORITY_WEIGHT } from '@/core';
 import { loadCurrentMain } from '@/lib/dataset';
+import { AGREEMENT_LEVELS } from '@/lib/results/types';
 import { parseDay } from '@/lib/published-date';
 import { Button } from '@/ui/Button';
 import { Card } from '@/ui/Card';
@@ -15,9 +17,14 @@ export async function generateMetadata(): Promise<Metadata> {
 const H2 = 'text-2xl font-semibold tracking-tight';
 const SECTION = 'flex flex-col gap-4';
 
-/** Page Méthodologie (FR-042, FR-044, FR-045) : règles, gouvernance et candidats de la version courante. */
+/**
+ * Page Méthodologie (FR-042, FR-044, FR-045) : règles, gouvernance et candidats de la version
+ * courante. 005 (FR-005, FR-041 ; 003 SC-001) : formules, seuils, bandes, paliers d'accord et
+ * exemples chiffrés, lus dans le cœur pour que la page reprenne exactement ce que le code calcule.
+ */
 export default async function MethodologyPage() {
   const t = await getTranslations('methodology');
+  const tResults = await getTranslations('results');
   const format = await getFormatter();
   const main = loadCurrentMain();
   const day = (d: string) => format.dateTime(parseDay(d), { day: 'numeric', month: 'long', year: 'numeric' });
@@ -38,6 +45,52 @@ export default async function MethodologyPage() {
           <li>{t('rules.review')}</li>
           <li>{t('rules.draft')}</li>
           <li>{t('rules.versioned')}</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="calcul-titre" id="calcul" className={SECTION}>
+        <h2 id="calcul-titre" className={H2}>
+          {t('scoring.title')}
+        </h2>
+        <p>{t('scoring.intro')}</p>
+        <p>{t('scoring.concordance')}</p>
+        <h3 className="text-lg font-semibold">{t('scoring.agreementTitle')}</h3>
+        <ul className="flex list-disc flex-col gap-1 pl-5">
+          {AGREEMENT_LEVELS.map((level, gap) => (
+            <li key={level}>{t('scoring.agreementItem', { label: tResults(`agreement.${level}`), gap })}</li>
+          ))}
+        </ul>
+        <p>{t('scoring.theme', { min: MIN_THEME_QUESTIONS })}</p>
+        <p>{t('scoring.weighted', { weight: PRIORITY_WEIGHT })}</p>
+        <p>{t('scoring.cap')}</p>
+        <p>{t('scoring.percent')}</p>
+        <p>{t('scoring.coverage', { threshold: COVERAGE_THRESHOLD })}</p>
+        <h3 className="text-lg font-semibold">{t('scoring.bandsTitle')}</h3>
+        <ul className="flex list-disc flex-col gap-1 pl-5">
+          {BANDS.map((b, i) => {
+            const label = tResults(`band.${b.band}`);
+            const upper = i === 0 ? null : BANDS[i - 1]!.min;
+            return <li key={b.band}>{upper === null ? t('scoring.bandFrom', { label, min: b.min }) : b.min === 0 ? t('scoring.bandBelow', { label, max: upper }) : t('scoring.bandRange', { label, min: b.min, max: upper - 1 })}</li>;
+          })}
+        </ul>
+        <h3 className="text-lg font-semibold">{t('scoring.examplesTitle')}</h3>
+        <ul className="flex flex-col gap-2">
+          <li>
+            {t('scoring.exampleA', {
+              economie: EXAMPLE_A.expected.themes[0]!.percent!,
+              global: EXAMPLE_A.expected.global.percent,
+              coverage: EXAMPLE_A.expected.coverage.percent,
+              band: tResults(`band.${EXAMPLE_A.expected.band}`),
+            })}
+          </li>
+          <li>
+            {t('scoring.exampleB', {
+              weighted: EXAMPLE_B.expected.weighted.percent,
+              priority: EXAMPLE_B.expected.priority.percent,
+              global: EXAMPLE_B.expected.global.percent,
+              band: tResults(`band.${EXAMPLE_B.expected.band}`),
+            })}
+          </li>
         </ul>
       </section>
 

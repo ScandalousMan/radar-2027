@@ -35,6 +35,15 @@ test.describe('page Méthodologie (FR-042 à FR-045, SC-007)', () => {
     expect(await context.cookies(), 'aucun cookie').toEqual([]);
   });
 
+  test('calcul des résultats : formules, bandes et exemples A et B du cœur (005)', async ({ page }) => {
+    await page.goto('/methodologie#calcul');
+    const section = page.locator('#calcul');
+    await expect(section.getByRole('heading', { level: 2, name: 'Calcul des résultats' })).toBeVisible();
+    await expect(section).toContainText('très aligné');
+    await expect(section).toContainText(/Économie 62\s%.*score global 62\s%.*couverture 75\s%/);
+    await expect(section).toContainText(/Score pondéré 70\s%, score sur les sujets clés 50\s%, score global 50\s%/);
+  });
+
   test('accessible depuis le pied de page', async ({ page }) => {
     await page.goto('/');
     await page.getByRole('contentinfo').getByRole('link', { name: 'Méthodologie' }).click();

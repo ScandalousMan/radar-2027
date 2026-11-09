@@ -19,7 +19,7 @@ import { loadResults } from '@/lib/results/load';
 import { canShareNatively, copyLink, shareNatively } from '@/lib/results/share';
 import { MAX_COMPARED, MIN_COMPARED, OTHERS_KEY, type PageState, type ReadyData, type ViewState } from '@/lib/results/types';
 import { candidateSheet, comparisonView, resultsView } from '@/lib/results/view-model';
-import { Button } from '@/ui/Button';
+import { Button, buttonClassName } from '@/ui/Button';
 import { ComparisonTable } from '@/ui/ComparisonTable';
 import { ConfirmDialog } from '@/ui/ConfirmDialog';
 import { InsufficientList } from '@/ui/InsufficientList';
@@ -31,13 +31,15 @@ import { SharePanel } from '@/ui/SharePanel';
 import { ThemeScoreList } from '@/ui/ThemeScoreList';
 import { ResumePrompt } from '../ResumePrompt';
 
-const METHODOLOGY = '/methodologie';
+const METHODOLOGY = '/methodologie#calcul';
 const RANKING: ViewState = { view: 'ranking' };
 
 type DetailState = { key: string; status: 'loading' | 'ready' | 'error'; detail: CandidateDetail | null };
 
 const headingClass = 'rounded-sm text-3xl font-semibold tracking-tight outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-focus';
 const linkClass = 'rounded-sm text-accent underline underline-offset-4';
+/** Bouton à libellé long dans un encart étroit : passe à la ligne (320 px, FR-038). */
+const wrappingButton = buttonClassName({ size: 'sm' }).replace('whitespace-nowrap', 'whitespace-normal py-2 text-left');
 
 /** Vue valide pour ce résultat ; sinon le classement (data-model § 3). */
 function validView(view: ViewState, data: ReadyData): ViewState {
@@ -507,9 +509,9 @@ export function ResultsApp({ fetcher }: { fetcher?: typeof fetch }) {
             <p>{t('prior.warning', { date: format.dateTime(parseDay(results.prior.publishedAt), { day: '2-digit', month: '2-digit', year: 'numeric' }) })}</p>
             {results.prior.withdrawnCount > 0 ? <p>{t('prior.withdrawn', { count: results.prior.withdrawnCount })}</p> : null}
             <div className="flex flex-col items-start gap-2">
-              <Button size="sm" onClick={modify}>
+              <button type="button" className={wrappingButton} onClick={modify}>
                 {t('prior.redo')}
-              </Button>
+              </button>
               <a href={METHODOLOGY} className={linkClass}>
                 {t('prior.methodology')}
               </a>
@@ -526,9 +528,9 @@ export function ResultsApp({ fetcher }: { fetcher?: typeof fetch }) {
           <Notice tone="info" title={t('ranking.noneTitle')}>
             <div className="flex flex-col items-start gap-3">
               <p>{t('ranking.noneBody')}</p>
-              <Button size="sm" onClick={modify}>
+              <button type="button" className={wrappingButton} onClick={modify}>
                 {t('ranking.answerMore')}
-              </Button>
+              </button>
             </div>
           </Notice>
         ) : (

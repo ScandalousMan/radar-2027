@@ -59,3 +59,23 @@ pnpm verify
 
 Attendu : lint, typecheck, `data:validate`, tests unitaires et stories, build Storybook, build
 Next, e2e tous verts.
+
+## Résultats
+
+Vérifications faites par l'agent le 2026-11-09 (T054), sur une copie de `out/` hors dépôt servie
+localement avec la banque fictive à deux versions de `e2e/fixtures/published.ts` (registre
+`current = 2`, `main.json` et fichiers de détail générés), comme pour T063 de la 004.
+
+| Vérification | Résultat |
+|---|---|
+| axe-core 4.14 (violations critiques ou sérieuses), 11 vues/états × clair/sombre × 320/1024 px : classement, ancien lien (v1), fiche classée, fiche insuffisante, comparaison à 3, partage manuel, aucun classable, lien invalide, version inconnue, sans fragment, Méthodologie § calcul | **0 violation** sur les 44 combinaisons |
+| 320 px, `scrollWidth` = largeur sur chaque vue et état | **1 défaut trouvé puis corrigé** : le bouton « Refaire le questionnaire avec les données actuelles » (libellé insécable) faisait déborder l'avertissement de version (436 px) ; il passe désormais à la ligne, comme « Répondre à davantage de questions ». Test e2e de non-régression ajouté |
+| Contraste des marqueurs de série (≥ 3:1 sur `surface` et `bg`, clair et sombre) | vérifié par `src/ui/tokens.test.ts` |
+| Rendu atténué des données insuffisantes | couleur `fg-muted` (≥ 4,5:1) sur `bg`, bordure en tirets, mention « données insuffisantes » en texte ; jamais l'opacité seule. En sombre, le texte secondaire sur fond de sujet clé était insuffisant dans `ThemeScoreList` : corrigé (texte principal), relevé par l'a11y Storybook |
+| Ex æquo, sujets clés, données insuffisantes sans la couleur | texte « ex æquo », étoile + « sujet clé » (et « Sujet clé : … » lu), « données insuffisantes » ; vérifié aussi en `forced-colors: active` (e2e) |
+| Arbre d'accessibilité | titres de vue focalisés (`h1` `tabIndex=-1`) ; retour au classement : focus sur « Voir le détail » du candidat quitté ; « Lien copié », ajouts, retraits et limite annoncés en `aria-live="polite"` ; lien invalide en `role="alert"` ; comparaison large en `<table>` avec `th scope` (e2e) |
+| Clavier seul (SC-008) | classement → fiche → retour → comparaison → partage, focus visible à chaque étape (e2e) |
+| JS initial de `/resultats` | brotli 178,4 ko (≤ 200 ko) ; gzip 205,0 ko (voir tasks.md § Mesure) |
+
+Restent après la première publication réelle (§ 4) : SC-006 (< 2 s sur téléphone d'entrée de
+gamme) et SC-007 (test utilisateur à cinq personnes).

@@ -1,4 +1,6 @@
 import { describe, expect, it } from 'vitest';
+import { BANDS } from '@/core/types';
+import { AGREEMENT_LEVELS } from '@/lib/results/types';
 import fr from './messages/fr.json';
 
 /** Clés requises par le socle (contracts/i18n-messages.md). */
@@ -235,5 +237,22 @@ describe('messages fr', () => {
       expect(value, `${key} : guillemet droit`).not.toMatch(/"/);
       expect(value, `${key} : apostrophe droite (ambiguë en ICU MessageFormat)`).not.toMatch(/'/);
     }
+  });
+});
+
+// Fonctionnalité 005 : listes fermées de libellés qualifiant la relation au candidat (FR-003,
+// FR-015, FR-040) et retrait de la page de garde de la 004.
+describe('messages fr — listes fermées de la 005', () => {
+  it('results.band : exactement les valeurs de Band', () => {
+    expect(Object.keys(fr.results.band).sort()).toEqual(BANDS.map((b) => b.band).sort());
+  });
+
+  it('results.agreement : exactement les valeurs d’AgreementLevel', () => {
+    expect(Object.keys(fr.results.agreement).sort()).toEqual([...AGREEMENT_LEVELS].sort());
+  });
+
+  it('aucune clé de la page de garde ne subsiste', () => {
+    expect(byKey.has('results.soon')).toBe(false);
+    expect(byKey.has('results.backToQuestionnaire')).toBe(false);
   });
 });
