@@ -1,8 +1,9 @@
 # Contrat : messages ajoutés à `src/i18n/messages/fr.json`
 
 Les valeurs ci-dessous sont indicatives (rédaction finale à l'implémentation) ; les **clés** et
-les **listes fermées** sont contractuelles. `results.title`, `results.soon` et
-`results.backToQuestionnaire` (page de garde de la 004) sont retirées.
+les **listes fermées** sont contractuelles. `results.soon` et
+`results.backToQuestionnaire` (page de garde de la 004) sont retirées ; `results.title` est
+conservée (nouvelle valeur), car `e2e/questionnaire.spec.ts` l'attend en titre de niveau 1.
 
 ## Listes fermées (FR-003, FR-015, FR-040)
 

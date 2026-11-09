@@ -19,6 +19,7 @@ la page et le modèle d'affichage de `src/lib/results`.
 
 `ready` porte : `state: ResultState`, `board: Scoreboard`, `bank: BankVersion` (version du lien),
 `themes` (libellés et ordre), `prior: null | { publishedAt: string; withdrawnIds: readonly string[] }`,
+`currentBank: QuestionnaireBank` (version courante, pour « Modifier » et « Refaire »),
 `shareUrl: string`.
 
 Transitions : `loading → (no-fragment | no-version | invalid | unknown-version | error | ready)` ;

@@ -20,6 +20,7 @@ export type ReadyData = {
   state: ResultState; board: Scoreboard; bank: BankVersion;
   themes: readonly { id: string; label: string; index: number }[];
   prior: null | { publishedAt: string; withdrawnIds: readonly string[] };
+  currentBank: QuestionnaireBank;   // projection de la version courante (= celle du lien si v = current) : « Modifier » et « Refaire » (R7)
   shareUrl: string;            // origin + '/resultats' + '#1.…' (fragment normalisé, jamais de query)
 };
 
@@ -28,7 +29,9 @@ export function loadResults(hash: string, origin: string, fetcher?: typeof fetch
 
 Ordre (R2) : fragment vide ⇒ `no-fragment` ; registre ; `current = 0` ⇒ `no-version` ;
 `decodeHeader` ; `loadMain(v)` (+ `loadMain(current)` si `v < current`) ; `decodeFragment` ;
-`selectQuestions` ; `scoreCandidates`. Ne lève jamais.
+`selectQuestions` ; `scoreCandidates`. Ne lève jamais. Si `decodeFragment` renvoie
+`unknown-bank-version` malgré un en-tête accepté (banque incohérente), l'état est
+`error: internal`, jamais `invalid`.
 
 ## `view-model.ts`
 

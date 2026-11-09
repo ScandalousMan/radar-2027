@@ -45,7 +45,9 @@ export function carryOver(state: ResultState, linkBank: BankVersion, current: Qu
 export function needsConfirmation(stored: Draft | null, next: Draft): boolean;                                   // data-model § 9
 ```
 
-Flux « Modifier mes réponses » : calcul du brouillon (ou `choose-themes`) ⇒ si
+Flux « Modifier mes réponses » (et « Refaire » de l'avertissement de version, même flux) :
+`draftFromResultState` si `state.bankVersion = currentBank.version`, sinon `carryOver` vers
+`currentBank` ⇒ brouillon (ou `choose-themes`) ⇒ si
 `needsConfirmation`, `ConfirmDialog` (`results.modify.confirm.*`) ⇒ sur accord, `writeDraft`
 puis `/questionnaire/questions` (ou `/questionnaire` avec présélection pour `choose-themes`,
 transmise par `history.state`, jamais par l'URL) ; sur refus, rien n'est écrit. Stockage

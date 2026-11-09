@@ -55,8 +55,9 @@ servie par interception de route (R11) : aucune publication réelle n'est néces
   `src/ui/QuestionDetail/`, `src/ui/ComparisonTable/`, `src/ui/SharePanel/` (un `index.ts`
   vide dans chacun)
 - [ ] T002 [P] Ajouter à `src/i18n/messages/fr.json` toutes les clés `results.*` et `ui.*` de
-  [contracts/i18n-messages.md](contracts/i18n-messages.md), retirer `results.title` (page de
-  garde, remplacé), `results.soon`, `results.backToQuestionnaire` ; typographie française
+  [contracts/i18n-messages.md](contracts/i18n-messages.md), retirer `results.soon` et
+  `results.backToQuestionnaire` (page de garde), conserver la clé `results.title` avec sa
+  nouvelle valeur (attendue par `e2e/questionnaire.spec.ts`) ; typographie française
   (espaces insécables avant `:` `;` `?` `!`) ; déclarer les nouvelles clés dans la liste de
   `src/i18n/messages.test.ts`
 - [ ] T003 [P] Ajouter `--color-series-1`, `--color-series-2`, `--color-series-3` (clair et
@@ -98,9 +99,12 @@ stories.
   version > current ⇒ `unknown-version` ; v = current ⇒ `ready` sans requête supplémentaire ;
   v < current ⇒ `ready` calculé avec v seulement, `prior.publishedAt` de v et `withdrawnIds`
   corrects ; échec réseau ⇒ `error: network` ; jeu invalide ⇒ `error: invalid-data` ; jamais
-  d'exception ; `shareUrl = origin + '/resultats#1.…'`
+  d'exception ; `shareUrl = origin + '/resultats#1.…'` ; `currentBank` = projection de la
+  version courante dans les deux cas ; `unknown-bank-version` au décodage complet ⇒
+  `error: internal`
 - [ ] T012 Implémenter `loadResults` dans `src/lib/results/load.ts` (R2, R4, contrat
-  `core-api` § flux 005)
+  `core-api` § flux 005) ; `currentBank` via `questionnaireBankFrom` de
+  `src/lib/questionnaire/bank-view.ts`
 - [ ] T013 [P] Test `src/lib/results/history.test.ts` : `readView` tolère `null`, objets
   étrangers et vues invalides (⇒ `ranking`) ; `pushView`/`replaceView` gardent l'URL courante
   (faux `History`)
@@ -162,7 +166,9 @@ vérifier ordre, pourcentages, bandes, ex æquo, section « Données insuffisant
 - [ ] T029 [US1] Créer `src/app/resultats/ResultsApp.tsx` (client) : lecture du fragment après
   montage, `loadResults`, rendu des états de contracts/routes-and-views.md (tous les états
   sans résultat, texte seul pour l'instant), vue classement avec `ResultsHeader`, `RankingList`,
-  `InsufficientList`, message « aucun classable » ; écoute `hashchange`
+  `InsufficientList`, message « aucun classable » ; écoute `hashchange`. Le bouton
+  « Répondre à davantage de questions » (FR-010) appelle le gestionnaire « Modifier mes
+  réponses », laissé vide ici et branché en T036
 - [ ] T030 [US1] Remplacer `src/app/resultats/page.tsx` par la page statique : métadonnées
   génériques (`results.meta.*`, `openGraph` sans image, FR-029) et `<ResultsApp/>` ; aucun
   chiffre ni nom dans le HTML exporté
@@ -184,8 +190,9 @@ modifier une réponse et obtenir un autre lien.
 
 - [ ] T032 [P] [US2] Scénarios US2 dans `e2e/results.spec.ts` : copie (permission
   `clipboard-write` accordée) puis lecture du presse-papiers, aucune query string, fragment
-  ≤ 64 (complet) et ≤ 32 (court) ; réouverture dans `browser.newContext()` : sujets, mode,
-  classement, %, bandes, insuffisants identiques ; presse-papiers refusé ⇒ champ manuel ;
+  ≤ 64 (complet) et ≤ 32 (court) (toutes combinaisons : propriétés du codec de la 003) ;
+  réouverture dans `browser.newContext()` : sujets, mode, classement, %, bandes, insuffisants
+  identiques, paramétrée sur court et complet × 3, 4 et 5 sujets (SC-002) ; presse-papiers refusé ⇒ champ manuel ;
   aperçu générique identique pour deux liens différents ; « Modifier mes réponses » sans
   brouillon ⇒ questionnaire pré-rempli, changer une réponse, terminer ⇒ nouveau lien différent,
   l'ancien redonne les anciens chiffres (SC-011) ; avec un autre brouillon ⇒ confirmation,
@@ -197,7 +204,9 @@ modifier une réponse et obtenir un autre lien.
 - [ ] T035 [US2] Brancher `SharePanel` dans `ResultsApp` (classement et comparaison) avec
   `copyLink(data.shareUrl)`, `shareNatively` si disponible et l'aperçu `results.meta.*`
 - [ ] T036 [US2] Ajouter « Modifier mes réponses » à `ResultsApp` : `draftFromResultState`
-  (même version), `needsConfirmation` avec le brouillon lu par `readDraft`, `ConfirmDialog`
+  si le lien est de la version courante, sinon `carryOver` vers `data.currentBank`
+  (`choose-themes` ⇒ `/questionnaire` avec les sujets restants présélectionnés transmis par
+  `history.state`, lecture ajoutée à `src/app/questionnaire/page.tsx`) ; `needsConfirmation` avec le brouillon lu par `readDraft`, `ConfirmDialog`
   (`results.modify.confirm.*`), `writeDraft` puis navigation vers `/questionnaire/questions` ;
   refus ⇒ rien d'écrit ; stockage indisponible ⇒ notice de la 004
 - [ ] T037 [US2] Étendre `src/lib/questionnaire/resume-info.ts` (+ test) avec le statut
@@ -230,10 +239,10 @@ ancien lien rejoué avec ses données et averti.
 - [ ] T041 [US3] Avertissement de version (`Notice`, `results.prior.*`) en tête de la vue
   classement quand `prior` ; mention « ne se présente plus » dans `RankingList`,
   `InsufficientList` et la fiche
-- [ ] T042 [US3] « Refaire le questionnaire avec les données actuelles » : `carryOver` vers la
-  version courante (chargée par `loadMain(current)`), confirmation commune avec T036,
-  `choose-themes` ⇒ `/questionnaire` avec les sujets restants présélectionnés transmis par
-  `history.state` (lecture ajoutée à `src/app/questionnaire/page.tsx`)
+- [ ] T042 [US3] Bouton « Refaire le questionnaire avec les données actuelles » de
+  l'avertissement de version : même gestionnaire que « Modifier mes réponses » (T036) ; e2e :
+  depuis un lien v1 avec `current = 2`, arrivée sur le questionnaire v2 avec les réponses
+  reportées par identifiant
 
 **Checkpoint**: aucun lien ne mène à une page vide ou à des chiffres faux.
 
@@ -293,7 +302,9 @@ et la requête du détail à l'ouverture seulement.
   la liste blanche de contracts/data-and-share.md § 2 ; aucune ne contient la charge du fragment
   ni de query string porteuse (SC-003)
 - [ ] T050 [P] Test e2e clavier : classement → fiche → retour → comparaison → partage sans souris,
-  focus toujours visible (SC-008)
+  focus toujours visible (SC-008) ; un passage avec `forcedColors: 'active'` vérifie que rang
+  ex æquo, sujets clés et données insuffisantes restent signalés par du texte (cas limite
+  « contraste élevé »)
 - [ ] T051 [P] Test i18n dans `src/i18n/messages.test.ts` : clés `results.band.*` = valeurs de
   `Band`, `results.agreement.*` = `AgreementLevel` ; aucune clé de la page de garde ne subsiste
 - [ ] T052 [P] Mettre à jour la page Méthodologie si nécessaire pour les libellés de paliers
@@ -303,7 +314,8 @@ et la requête du détail à l'ouverture seulement.
   la mesure en fin de ce fichier
 - [ ] T054 Vérifications navigateur de [quickstart.md](quickstart.md) § 3, faites par l'agent
   (320 px, clair et sombre, contraste des marqueurs de série et du rendu atténué, arbre
-  d'accessibilité) ; consigner les résultats dans `quickstart.md` § « Résultats »
+  d'accessibilité du classement, de la fiche, de la comparaison et des trois états de lien
+  invalide, SC-008) ; consigner les résultats dans `quickstart.md` § « Résultats »
 - [ ] T055 `pnpm verify` vert ; cocher les items de `checklists/requirements.md` encore
   pertinents ; passer `spec.md` en `Status: Implemented`
 
@@ -321,15 +333,14 @@ et la requête du détail à l'ouverture seulement.
 - **US1 (Phase 3)** : après la Phase 2 ; T027, T028 en parallèle ; T029 → T030 → T031.
 - **US2 à US5 (Phases 4–7)** : chacune après US1 ; indépendantes fonctionnellement **mais**
   toutes modifient `src/app/resultats/ResultsApp.tsx` : séquentiel sur cette branche.
-  T042 (US3) réutilise la confirmation de T036 (US2) : faire US2 avant US3 ou extraire la
-  confirmation dans T042.
+  T042 (US3) réutilise le gestionnaire de T036 (US2) : faire US2 avant US3.
 - **Polish (Phase 8)** : après toutes les stories retenues.
 
 ### User Story Dependencies
 
 - **US1 (P1)** : Phase 2 seulement ; MVP autonome.
 - **US2 (P2)** : US1 (vue classement) ; indépendante de US3–US5.
-- **US3 (P2)** : US1 ; partage la confirmation de US2 (voir ci-dessus).
+- **US3 (P2)** : US1 ; le bouton « Refaire » réutilise le gestionnaire de US2 (T036).
 - **US4 (P3)** : US1 ; indépendante de US2, US3, US5.
 - **US5 (P4)** : US1 ; « Comparer » depuis la fiche suppose US4 (sinon seulement depuis le
   classement).
@@ -399,3 +410,22 @@ Task: "T028 e2e/results.spec.ts (scénarios US1)"
   utilisateur à cinq personnes) se vérifient après la première publication (quickstart § 4) et
   ne sont pas des tâches de cette liste.
 - Les vérifications navigateur (T054) sont faites par l'agent, pas par le propriétaire.
+
+---
+
+## Corrections issues de /speckit-analyze (2026-11-09)
+
+Aucune violation de la constitution ; 100 % des FR couvertes avant correction. Corrigé :
+
+- **HIGH** : « Modifier mes réponses » depuis un ancien lien n'était pas couvert (T036 ne
+  traitait que la version courante, T042 rechargeait la version courante). `ReadyData` porte
+  désormais `currentBank` ; T036 traite les deux versions ; T042 réutilise son gestionnaire.
+- **MEDIUM** : T002 retirait `results.title`, attendue par l'e2e de la 004 ; la clé est
+  conservée avec sa nouvelle valeur (contrat i18n aligné).
+- **MEDIUM** : SC-002 (court et complet × 3, 4, 5 sujets) ajouté à T032 ; FR-010 (« Répondre à
+  davantage de questions ») rattaché dès T029.
+- **LOW** : `unknown-bank-version` au décodage complet classé `error: internal` (R2 et
+  results-model alignés) ; cas limite « contraste élevé » couvert par T050 ; SC-008 sur les
+  états de lien invalide ajouté à T054 ; SC-004 « toute combinaison » renvoyé aux propriétés du
+  codec de la 003.
+

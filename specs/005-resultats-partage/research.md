@@ -31,8 +31,9 @@ Décisions de conception de la 005. Chaque entrée : décision, justification, a
      rejet ⇒ `invalid` (FR-031) ;
   4. `loadMain(v)` de la version du lien ; si `v < current`, `loadMain(current)` en parallèle
      pour les seuls identifiants de candidats (R4) ;
-  5. `bankFromDataset`, `decodeFragment(hash, bank)` ; rejet ⇒ `invalid` (y compris
-     `unknown-bank-version` impossible ici) ;
+  5. `bankFromDataset`, `decodeFragment(hash, bank)` ; rejet ⇒ `invalid`, sauf
+     `unknown-bank-version` (incohérence de banque, impossible sur un jeu publié) ⇒
+     `error: internal` ;
   6. `selectQuestions`, `scoreCandidates({ …, versionCount: current })` ⇒ `ready`.
   Erreur réseau ou jeu invalide ⇒ `error` avec « Réessayer ». `StateError` ou `BankError`
   (programmation ou configuration) ⇒ `error` également, journalisée en développement.
@@ -105,7 +106,10 @@ Décisions de conception de la 005. Chaque entrée : décision, justification, a
 
 ## R7. « Modifier mes réponses » et « Refaire le questionnaire »
 
-- **Décision** : `draftFromResultState(state, bank, now)` (point d'extension prévu par la 004)
+- **Décision** : « Modifier mes réponses » et « Refaire le questionnaire avec les données
+  actuelles » (avertissement de version) déclenchent le même flux ; `ReadyData.currentBank`
+  fournit la version courante (déjà chargée pour R4). `draftFromResultState(state, bank, now)`
+  (point d'extension prévu par la 004)
   dans `src/lib/questionnaire/from-result.ts`. Même version que la courante : brouillon identique
   à l'état, `position` = première question non répondue, sinon 0 (le répondant relit depuis le
   début ; « Terminer » le ramène à l'écran de fin puis aux résultats recalculés). Version
