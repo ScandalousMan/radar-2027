@@ -1,0 +1,30 @@
+# Positions de Delphine Batho (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
+# provenance manual), à relire par adrien avec pnpm data:review.
+
+- question: energie-consommation-moitie-2050
+  value: 1
+  evidence: programme
+  sources:
+    - delphine-batho-priorite-securite-climatique
+  quote: Nous devons réduire notre consommation d'énergie et lutter contre le gaspillage.
+  quoteSource: delphine-batho-priorite-securite-climatique
+  justification: Le programme demande de réduire la consommation d'énergie sans fixer d'objectif chiffré ni d'échéance, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-assouplir-regles-ia
+  value: -1
+  evidence: programme
+  sources:
+    - delphine-batho-priorite-beaute
+  quote: Sans attendre, elle doit mettre en œuvre tout ce que permet déjà la réglementation européenne pour stopper le pillage des œuvres d'art et des productions intellectuelles
+  quoteSource: delphine-batho-priorite-beaute
+  justification: Le programme demande d'appliquer pleinement la réglementation européenne existante et de réguler l'intelligence artificielle, sans se prononcer explicitement contre un assouplissement des règles européennes, d'où -1 plutôt que -2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
