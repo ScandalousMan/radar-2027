@@ -93,18 +93,18 @@
   polarity: "-"
   status: draft
   author: claude
-- id: international-quitter-ue
-  text: La France doit quitter l'Union européenne.
+- id: international-referendum-maintien-ue
+  text: La France doit organiser un référendum sur son maintien dans l'Union européenne.
   themes:
     - international
+    - democratie
   polarity: "-"
   status: draft
   author: claude
-- id: international-quitter-euro
-  text: La France doit quitter la zone euro.
+- id: international-renegocier-traites-competences
+  text: Les traités européens doivent être renégociés pour rendre des compétences aux États.
   themes:
     - international
-    - economie
   polarity: "-"
   status: draft
   author: claude
@@ -116,15 +116,15 @@
   polarity: "-"
   status: draft
   author: claude
-- id: international-lever-sanctions-russie
-  text: Les sanctions de l'Union européenne contre la Russie doivent être levées.
+- id: international-renforcer-sanctions-russie
+  text: L'Union européenne doit renforcer ses sanctions contre la Russie.
   themes:
     - international
-  polarity: "-"
+  polarity: +
   status: draft
   author: claude
-- id: international-quitter-cedh
-  text: La France doit se retirer de la Convention européenne des droits de l'homme.
+- id: international-arrets-cedh-derogation
+  text: La France doit pouvoir s'affranchir de certains arrêts de la Cour européenne des droits de l'homme.
   themes:
     - international
     - justice

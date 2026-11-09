@@ -75,8 +75,8 @@
   polarity: +
   status: draft
   author: claude
-- id: securite-retention-radicalisation
-  text: Les personnes signalées pour radicalisation violente doivent pouvoir être placées en rétention administrative.
+- id: securite-surveillance-antiterroriste-prolongee
+  text: Les mesures individuelles de surveillance antiterroriste doivent pouvoir durer plus d'un an.
   themes:
     - securite
   polarity: +

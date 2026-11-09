@@ -105,8 +105,8 @@
   polarity: "-"
   status: draft
   author: claude
-- id: immigration-expulsion-condamnes
-  text: Les étrangers condamnés pour un crime ou un délit grave doivent être systématiquement expulsés.
+- id: immigration-condamnes-perte-titre-sejour
+  text: Les étrangers condamnés à une peine de prison ferme doivent perdre leur titre de séjour.
   themes:
     - immigration
     - justice
@@ -121,8 +121,8 @@
   polarity: "-"
   status: draft
   author: claude
-- id: immigration-delit-sejour-irregulier
-  text: Le séjour irrégulier en France doit redevenir un délit.
+- id: immigration-amende-sejour-irregulier
+  text: Le séjour irrégulier en France doit être sanctionné par une amende.
   themes:
     - immigration
     - justice

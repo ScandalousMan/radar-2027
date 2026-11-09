@@ -46,15 +46,15 @@
   polarity: "-"
   status: draft
   author: claude
-- id: societe-etat-civil-declaration-mairie
-  text: Le changement de la mention du sexe à l'état civil doit pouvoir se faire sur simple déclaration en mairie.
+- id: societe-simplifier-changement-sexe-etat-civil
+  text: La procédure de changement de la mention du sexe à l'état civil doit être simplifiée.
   themes:
     - societe
   polarity: +
   status: draft
   author: claude
-- id: societe-abroger-penalisation-clients
-  text: La pénalisation des clients de la prostitution doit être abrogée.
+- id: societe-succession-couples-non-maries
+  text: Les couples non mariés doivent bénéficier des mêmes droits de succession que les couples mariés.
   themes:
     - societe
   polarity: +
@@ -118,11 +118,10 @@
   polarity: "-"
   status: draft
   author: claude
-- id: societe-clause-conscience-ivg
-  text: Les médecins doivent conserver une clause de conscience spécifique leur permettant de refuser de pratiquer une IVG.
+- id: societe-instruction-famille-autorisation
+  text: L'instruction en famille doit rester soumise à une autorisation préalable.
   themes:
     - societe
-    - sante
   polarity: "-"
   status: draft
   author: claude
