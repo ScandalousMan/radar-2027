@@ -1,7 +1,8 @@
-// Chargeur navigateur du jeu publié (contracts/storage-and-data.md § 2, R5).
-// Seul chargeur client : réutilisé par la 005 pour les versions antérieures. Requêtes même
-// origine, sans paramètre ni en-tête ajouté (SC-008) ; aucun import `node:*`.
-import type { MainDataset, VersionRegistry } from '@/core/dataset/types';
+// Chargeur navigateur du jeu publié (contracts/storage-and-data.md § 2, R5 ; 005 :
+// contracts/data-and-share.md § 1, R5). Seul chargeur client : réutilisé par la 005 pour les
+// versions antérieures et les fichiers de détail. Requêtes même origine, sans paramètre ni
+// en-tête ajouté (SC-008 de la 004, SC-003 et FR-042 de la 005) ; aucun import `node:*`.
+import type { CandidateDetail, MainDataset, VersionRegistry } from '@/core/dataset/types';
 
 // Schémas chargés à la demande, en parallèle de la requête : zod reste hors du chargement initial des pages.
 const schemas = () => import('@/core/dataset/schema');
@@ -11,6 +12,10 @@ export type DatasetClientError = { kind: 'network'; status?: number } | { kind: 
 type Fetcher = typeof fetch;
 
 const mainCache = new Map<number, Promise<MainDataset>>();
+const detailCache = new Map<string, Promise<CandidateDetail>>();
+
+/** Identifiant de candidat admis dans un chemin (validé par la 002 ; jamais lu dans le fragment). */
+const CANDIDATE_ID = /^[a-z0-9-]+$/;
 
 export function isDatasetClientError(value: unknown): value is DatasetClientError {
   return typeof value === 'object' && value !== null && 'kind' in value && (value.kind === 'network' || value.kind === 'invalid');
@@ -54,6 +59,26 @@ export function loadMain(version: number, fetcher: Fetcher = fetch): Promise<Mai
   return promise;
 }
 
+/**
+ * Fichier de détail d'un candidat (citations, sources) d'une version, chargé à l'ouverture de sa
+ * fiche seulement (FR-042) ; immuable, mémoïsé par (version, identifiant), échec non mémorisé.
+ */
+export function loadDetail(version: number, candidateId: string, fetcher: Fetcher = fetch): Promise<CandidateDetail> {
+  if (!Number.isInteger(version) || version < 1 || !CANDIDATE_ID.test(candidateId)) {
+    return Promise.reject({ kind: 'invalid', issues: 'identifiant de fichier de détail refusé' } satisfies DatasetClientError);
+  }
+  const key = `${version}/${candidateId}`;
+  const cached = detailCache.get(key);
+  if (cached) return cached;
+  const promise = Promise.all([getJson(`/data/versions/${version}/candidates/${candidateId}.json`, 'force-cache', fetcher), schemas()]).then(([json, { CandidateDetailSchema }]) =>
+    validate(CandidateDetailSchema, json),
+  );
+  detailCache.set(key, promise);
+  promise.catch(() => detailCache.delete(key));
+  return promise;
+}
+
 export function clearDatasetCache(): void {
   mainCache.clear();
+  detailCache.clear();
 }

@@ -18,6 +18,13 @@ const PAIRS: Array<[string, string, number]> = [
   ['--color-danger', '--color-bg', 4.5],
   ['--color-success', '--color-bg', 4.5],
   ['--color-fg', '--color-accent-soft', 4.5],
+  // Marqueurs de série de la comparaison (005, R9) : composants graphiques, ≥ 3:1.
+  ['--color-series-1', '--color-surface', 3],
+  ['--color-series-2', '--color-surface', 3],
+  ['--color-series-3', '--color-surface', 3],
+  ['--color-series-1', '--color-bg', 3],
+  ['--color-series-2', '--color-bg', 3],
+  ['--color-series-3', '--color-bg', 3],
 ];
 
 const SEMANTIC_COLORS = [
@@ -31,6 +38,9 @@ const SEMANTIC_COLORS = [
   '--color-focus',
   '--color-danger',
   '--color-success',
+  '--color-series-1',
+  '--color-series-2',
+  '--color-series-3',
 ];
 
 function resolve(theme: 'light' | 'dark', name: string): string {

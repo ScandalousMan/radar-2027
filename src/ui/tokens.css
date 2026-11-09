@@ -27,6 +27,11 @@
   --color-focus: #0f766e;        /* anneau de focus */
   --color-danger: #b42318;       /* erreur, limite dépassée */
   --color-success: #027a48;      /* validation */
+  /* Séries de comparaison (005, R9) : attribuées par emplacement (1er, 2e, 3e candidat ajouté),
+     jamais par candidat ni parti ; toujours doublées d'une forme et du nom. */
+  --color-series-1: #0f766e;     /* sarcelle */
+  --color-series-2: #8a5a00;     /* ocre */
+  --color-series-3: #86198f;     /* prune */
   --color-transparent: transparent;
   --color-current: currentColor;
 
@@ -113,6 +118,9 @@
   --color-focus: #5eead4;
   --color-danger: #f97066;
   --color-success: #32d583;
+  --color-series-1: #2dd4bf;
+  --color-series-2: #e0b04a;
+  --color-series-3: #e3a6f0;
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.4);
   --shadow-md: 0 4px 12px -2px rgb(0 0 0 / 0.5);
 }
