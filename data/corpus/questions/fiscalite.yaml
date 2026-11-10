@@ -206,3 +206,30 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
+# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: fiscalite-hausse-droits-gros-heritages
+  text: "Les droits de succession sur les héritages les plus élevés doivent être augmentés."
+  themes:
+    - fiscalite
+  polarity: +
+  status: draft
+  author: claude
+# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
+# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: fiscalite-taxer-rachats-actions
+  text: "Les rachats de leurs propres actions par les grandes entreprises doivent être davantage taxés."
+  themes:
+    - fiscalite
+  polarity: +
+  status: draft
+  author: claude
+# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
+# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: fiscalite-exit-tax-renforcee
+  text: "Les contribuables qui transfèrent leur domicile fiscal à l'étranger doivent être imposés plus lourdement sur leurs plus-values."
+  themes:
+    - fiscalite
+  polarity: +
+  status: draft
+  author: claude

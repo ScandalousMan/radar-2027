@@ -202,3 +202,21 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
+# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: economie-eau-operateurs-publics
+  text: "La distribution de l'eau potable doit être assurée uniquement par des opérateurs publics."
+  themes:
+    - economie
+  polarity: +
+  status: draft
+  author: claude
+# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
+# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: economie-encadrement-loyers-generalise
+  text: "L'encadrement des loyers doit être obligatoire dans toutes les grandes villes."
+  themes:
+    - economie
+  polarity: +
+  status: draft
+  author: claude

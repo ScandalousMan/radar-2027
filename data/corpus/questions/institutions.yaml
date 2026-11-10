@@ -205,3 +205,30 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
+# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: institutions-dotations-conditionnees-etat
+  text: "Les dotations de l'État aux collectivités locales doivent être conditionnées au respect d'objectifs de maîtrise de leurs dépenses fixés par l'État."
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: claude
+# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
+# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: institutions-limiter-amendements
+  text: "Le nombre d'amendements que les parlementaires peuvent déposer sur un texte doit être limité."
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: claude
+# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
+# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: institutions-etat-impose-equipements
+  text: "L'État doit pouvoir imposer plus facilement aux communes l'implantation d'équipements d'intérêt national, comme une prison ou une ligne à haute tension."
+  themes:
+    - institutions
+  polarity: "-"
+  status: draft
+  author: claude
