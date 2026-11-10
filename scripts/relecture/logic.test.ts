@@ -3,6 +3,7 @@ import { describe, expect, it } from 'vitest';
 import {
   applyChange,
   buildExport,
+  closeHistory,
   c5Status,
   canKeep,
   computeBalances,
@@ -44,6 +45,9 @@ function ev(side: 'for' | 'against', over: Partial<EvidenceRef> = {}): EvidenceR
     verificationStatus: 'reviewed',
     verifiedAt: '2026-11-10',
     verifiedBy: 'adrien',
+    // « TEXT » est remplacé par le texte d'origine de l'énoncé dans q().
+    scoredQuestionId: 'ID',
+    scoredText: 'TEXT',
     ...over,
   };
 }
@@ -51,6 +55,17 @@ const VERIFIED_BOTH = [ev('for'), ev('against')];
 const DRAFT_BOTH = [ev('for', { verificationStatus: 'draft', verifiedAt: null, verifiedBy: null }), ev('against', { verificationStatus: 'draft', verifiedAt: null, verifiedBy: null })];
 
 function q(over: Partial<Question> & { id: string }): Question {
+  const built = qRaw(over);
+  return {
+    ...built,
+    evidence: built.evidence.map((e) => ({
+      ...e,
+      scoredText: e.scoredText === 'TEXT' ? built.originalText : e.scoredText,
+      scoredQuestionId: e.scoredQuestionId === 'ID' ? built.id : e.scoredQuestionId,
+    })),
+  };
+}
+function qRaw(over: Partial<Question> & { id: string }): Question {
   return {
     finalId: `${over.id}-v2`,
     originalText: `Texte ${over.id}.`,
@@ -144,6 +159,16 @@ describe('Bloquant 1 : garde-fous d\'activation selon le statut d\'audit', () =>
     expect(methodologyStatus(move, proposed)).toBe('axis_change_confirmed');
     expect(isActive(move, proposed, CRIT)).toBe(true);
   });
+  it('un statut d\'audit inconnu bloque l\'activation', () => {
+    const odd = q({ id: 'x', status: 'SOMETHING_NEW' });
+    expect(methodologyStatus(odd, kept(odd))).toBe('unknown_audit_status');
+    expect(isActive(odd, kept(odd), CRIT)).toBe(false);
+  });
+  it("une proposition de changement d'axe n'est pas effective avant adoption", () => {
+    expect(effectiveAssignment(move, emptyRecord(move, CRIT))).toEqual(move.originalAssignment);
+    const [sec, inst] = computeBalances(THEMES, {}, [move], {}, CRIT);
+    expect([sec!.awaiting, inst!.awaiting]).toEqual([1, 0]);
+  });
   it("5. un énoncé correctement résolu devient éligible si toutes les autres conditions sont réunies", () => {
     const resolved = kept(arb, { ...confirmAs({ theme: 'securite', polarity: '-' }), resolution: { theme: 'securite', polarity: '-', rationale: "mesure l'axe autorité", at: T0 } });
     expect(methodologyStatus(arb, resolved)).toBe('resolved_arbitration');
@@ -161,23 +186,24 @@ describe('Bloquant 1 : garde-fous d\'activation selon le statut d\'audit', () =>
 describe('Bloquant 2 : état des preuves C5', () => {
   it('1. des positions sourcées « brouillons non relus » des deux côtés ne valent pas « documenté des deux côtés »', () => {
     const draft = q({ id: 'd', evidence: DRAFT_BOTH, c5Note: 'Positions sourcées des deux côtés (brouillons non relus).', auditCriteria: { C1: 'satisfied', C5: 'documented_both_ends' } });
-    expect(c5Status(draft.evidence)).toBe('sources_to_verify');
+    expect(c5Status(draft.evidence, draft.originalText)).toBe('sources_to_verify');
     const parsed = JSON.parse(buildExport([draft], {}, CRIT)).questions[0];
     expect(parsed.c5.status).toBe('sources_to_verify');
     expect(parsed.c5.auditLabel).toBe('documented_both_ends');
   });
   it('2. « documenté des deux côtés » exige une preuve relue de chaque côté', () => {
-    expect(c5Status(VERIFIED_BOTH)).toBe('documented_both_ends');
-    expect(c5Status([ev('for'), ev('for', { candidate: 'x' })])).toBe('one_end_documented');
-    expect(c5Status([ev('for'), DRAFT_BOTH[1]!])).toBe('sources_to_verify');
-    expect(c5Status([ev('for'), ev('against', { verificationStatus: 'contested' })])).toBe('one_end_documented');
-    expect(c5Status([ev('for'), ev('against', { verifiedAt: null })])).toBe('one_end_documented');
-    expect(c5Status([])).toBe('needs_verification');
-    expect(c5Status([ev('against', { verificationStatus: 'contested' })])).toBe('needs_verification');
+    expect(c5Status(VERIFIED_BOTH, 'TEXT')).toBe('documented_both_ends');
+    expect(c5Status([ev('for'), ev('for', { candidate: 'x' })], 'TEXT')).toBe('one_end_documented');
+    expect(c5Status([ev('for'), DRAFT_BOTH[1]!], 'TEXT')).toBe('sources_to_verify');
+    expect(c5Status([ev('for'), ev('against', { verificationStatus: 'contested' })], 'TEXT')).toBe('one_end_documented');
+    // Relue mais sans date de relecture : incomplète, donc encore à vérifier.
+    expect(c5Status([ev('for'), ev('against', { verifiedAt: null })], 'TEXT')).toBe('sources_to_verify');
+    expect(c5Status([], 'TEXT')).toBe('needs_verification');
+    expect(c5Status([ev('against', { verificationStatus: 'contested' })], 'TEXT')).toBe('needs_verification');
   });
   it('3. une URL ou une citation manquante reste visiblement manquante et empêche la vérification', () => {
     const gap = ev('against', { url: null, quote: null, publishedAt: null });
-    expect(c5Status([ev('for'), gap])).toBe('one_end_documented');
+    expect(c5Status([ev('for'), gap], 'TEXT')).not.toBe('documented_both_ends');
     const row = JSON.parse(buildExport([q({ id: 'g', evidence: [ev('for'), gap] })], {}, CRIT)).questions[0];
     const against = row.c5.evidence.find((e: { side: string }) => e.side === 'against');
     expect(against).toMatchObject({ url: null, quote: null, publishedAt: null, verified: false, missing: ['url', 'quote', 'publishedAt'] });
@@ -188,6 +214,23 @@ describe('Bloquant 2 : état des preuves C5', () => {
       ['against', false, 'draft'],
       ['for', true, 'reviewed'],
     ]);
+  });
+  it("une position prise sur un autre énoncé est conservée mais ne compte jamais", () => {
+    const other = q({ id: 'i', evidence: [ev('for'), ev('against', { scoredQuestionId: 'autre-enonce' })] });
+    expect(isActive(other, kept(other), CRIT)).toBe(false);
+    const row = JSON.parse(buildExport([other], {}, CRIT)).questions[0];
+    expect(row.c5.status).toBe('one_end_documented');
+    expect(row.c5.indirectCount).toBe(1);
+    expect(row.c5.evidence.find((e: { side: string }) => e.side === 'against')).toMatchObject({ direct: false, verified: false, scoredQuestionId: 'autre-enonce' });
+    expect(row.outcome.outstandingConcerns).toContain('c5:no_source_against');
+  });
+  it("une position relue sur une autre formulation ne prouve rien pour le texte retenu", () => {
+    expect(c5Status(VERIFIED_BOTH, 'Autre texte')).toBe('sources_to_verify');
+    expect(c5Status([ev('for', { scoredText: null }), ev('against')], 'TEXT')).toBe('sources_to_verify');
+    const a = q({ id: 'w' });
+    expect(isActive(a, kept(a), CRIT)).toBe(true);
+    const edited = { ...kept(a), finalText: 'Texte w reformulé.' };
+    expect(canKeep(a, edited, CRIT).reasons.join()).toContain('sources_to_verify');
   });
   it('5. C5 ne peut pas être satisfait tant que ses preuves ne sont pas vérifiées, même coché par le relecteur', () => {
     const draft = q({ id: 'd', evidence: DRAFT_BOTH });
@@ -225,7 +268,7 @@ describe('FR-012', () => {
 
   it('1. se calcule sur les énoncés validés actifs uniquement', () => {
     const [sec] = computeBalances(THEMES, base, qs, recs, CRIT);
-    expect(sec).toMatchObject({ theme: 'securite', active: 11, plus: 5, minus: 6, awaiting: 3, excluded: 0, arbitration: 0 });
+    expect(sec).toMatchObject({ theme: 'securite', active: 11, plus: 5, minus: 6, awaiting: 1, rework: 1, dropped: 1, excluded: 0, arbitration: 0 });
     expect(sec!.compliant).toBe(true);
   });
   it('2. ne compte ni les hors périmètre ni les arbitrages, même « gardés » et confirmés', () => {
@@ -305,19 +348,38 @@ describe('historique', () => {
     ]);
     expect(rec.updatedAt).toBe(T1);
   });
-  it('regroupe les frappes rapprochées mais garde le texte de départ', () => {
+  it("prolonge l'entrée de texte ouverte, puis en ouvre une nouvelle après chaque enregistrement, sans rien effacer", () => {
     let rec = emptyRecord(a, CRIT);
-    rec = applyChange(rec, { finalText: 'Texte a. modifié' }, T0);
-    rec = applyChange(rec, { finalText: 'Texte a. modifié deux fois' }, T1);
-    expect(rec.history).toEqual([{ at: T1, field: 'finalText', from: 'Texte a.', to: 'Texte a. modifié deux fois' }]);
-    rec = applyChange(rec, { finalText: 'Troisième version' }, T2);
-    expect(rec.history).toHaveLength(2);
+    rec = applyChange(rec, { finalText: 'B' }, T0);
+    rec = applyChange(rec, { finalText: 'C' }, T1);
+    expect(rec.history).toEqual([{ at: T1, field: 'finalText', from: 'Texte a.', to: 'C', open: true }]);
+    rec = closeHistory(rec); // enregistrement
+    rec = applyChange(rec, { finalText: 'D' }, T2);
+    rec = closeHistory(rec);
+    rec = applyChange(rec, { finalText: 'C' }, T2); // retour à une valeur enregistrée : conservé
+    expect(rec.history.map((h) => [h.from, h.to])).toEqual([['Texte a.', 'C'], ['C', 'D'], ['D', 'C']]);
   });
-  it('compte les entrées retirées au-delà de la limite', () => {
-    let rec = emptyRecord(a, CRIT);
-    for (let i = 0; i < MAX_HISTORY + 5; i++) rec = applyChange(rec, { decision: i % 2 ? 'keep' : 'drop' }, T0);
+  it("oublie une frappe non enregistrée revenue à sa valeur de départ", () => {
+    let rec = closeHistory(applyChange(emptyRecord(a, CRIT), { comment: 'x' }, T0));
+    rec = applyChange(rec, { comment: 'xy' }, T1);
+    rec = applyChange(rec, { comment: 'x' }, T1);
+    expect(rec.history.map((h) => [h.field, h.from, h.to])).toEqual([['comment', '', 'x']]);
+  });
+  it('ne retire jamais une décision ou une affectation au-delà de la limite, et compte ce qui est retiré', () => {
+    let rec = applyChange(emptyRecord(a, CRIT), { decision: 'keep' }, T0);
+    for (let i = 0; i < MAX_HISTORY + 5; i++) rec = applyChange(rec, { criteria: { ...rec.criteria, c1: i % 2 ? 'satisfied' : 'not_satisfied' } }, T0);
     expect(rec.history).toHaveLength(MAX_HISTORY);
-    expect(rec.historyDropped).toBe(5);
+    expect(rec.historyDropped).toBe(6);
+    expect(rec.history[0]).toMatchObject({ field: 'decision', to: 'keep' });
+  });
+  it('modifier la formulation retire « garder » et remet les critères à « non examiné »', () => {
+    const before = kept(a);
+    expect(isActive(a, before, CRIT)).toBe(true);
+    const after = applyChange(before, { finalText: 'Un tout autre énoncé.' }, T1);
+    expect(after.decision).toBeNull();
+    expect(Object.values(after.criteria)).toEqual(CRIT.map(() => 'not_reviewed'));
+    expect(isActive(a, after, CRIT)).toBe(false);
+    expect(after.history.map((h) => h.field)).toEqual(['decision', 'finalText', ...CRIT.map((c) => `criteria.${c}`)]);
   });
 });
 
@@ -326,7 +388,11 @@ describe('persistance et migration', () => {
   it("relit à l'identique un document de forme 3", () => {
     let rec = kept(pq, { comment: 'ok', confirmed: { theme: 'institutions', polarity: '+', at: T0 }, resolution: { theme: 'institutions', polarity: '+', rationale: 'motif', at: T0 } });
     rec = applyChange(rec, { comment: 'ok, vu' }, T1);
-    expect(normalizeRecord(JSON.parse(JSON.stringify(toDocument(rec))), pq, CRIT)).toEqual(rec);
+    expect(normalizeRecord(JSON.parse(JSON.stringify(toDocument(rec))), pq, CRIT)).toEqual(closeHistory(rec));
+  });
+  it('relit un texte vidé par le relecteur sans le remplacer par celui de l\'audit', () => {
+    const rec = { ...emptyRecord(pq, CRIT), finalText: '' };
+    expect(normalizeRecord(toDocument(rec), pq, CRIT).finalText).toBe('');
   });
   it('relit un document de forme 2 (V3) sans arbitrage ni historique', () => {
     const v3 = { schema: 2, decision: 'keep', criteria: satisfied, finalText: 'Texte.', comment: '', chosen: null, confirmed: { theme: 'institutions', polarity: '+', at: T0 }, updatedAt: T0 };
@@ -381,6 +447,12 @@ describe('Bloquant 3 : export de la piste d\'audit', () => {
     });
     expect(row.finalId).toBe('p-v2');
   });
+  it("2 bis. ajoute « -v2 » quand le relecteur modifie un énoncé dont l'audit gardait le texte d'origine", () => {
+    const o = q({ id: 'o', finalId: 'o' });
+    const ex = (r: ReviewRecord) => JSON.parse(buildExport([o], { o: r }, CRIT)).questions[0].finalId;
+    expect(ex(emptyRecord(o, CRIT))).toBe('o');
+    expect(ex({ ...emptyRecord(o, CRIT), finalText: 'Texte o modifié.' })).toBe('o-v2');
+  });
   it('3. distingue affectations d\'origine, proposées, choisies et confirmées', () => {
     expect(row.assignment).toEqual({
       original: { theme: 'securite', polarity: '-' },
@@ -396,7 +468,9 @@ describe('Bloquant 3 : export de la piste d\'audit', () => {
     expect(row.c5.status).toBe('sources_to_verify');
     expect(row.c5.note).toBe('note C5');
     expect(row.c5.evidence).toHaveLength(2);
-    expect(row.c5.evidence[1]).toMatchObject({ side: 'for', sourceId: 'src-for', url: 'https://example.org/for', quote: 'Citation for', verifiedAt: '2026-11-10', verified: true, missing: [] });
+    // Position relue, mais évaluée sur le texte d'origine : elle ne prouve rien pour le texte du relecteur.
+    expect(row.c5.evidence[1]).toMatchObject({ side: 'for', sourceId: 'src-for', url: 'https://example.org/for', quote: 'Citation for', verifiedAt: '2026-11-10', scoredText: 'Texte p.', matchesFinalText: false, verified: false, missing: [] });
+    expect(row.c5.sides).toEqual({ for: { verified: 0, pending: 1, contested: 0 }, against: { verified: 0, pending: 1, contested: 0 } });
     expect(row.outcome).toMatchObject({ active: false, eligibleToKeep: false });
     expect(row.outcome.outstandingConcerns).toContain('c5:sources_to_verify');
   });

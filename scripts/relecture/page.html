@@ -171,7 +171,8 @@ const METHOD = {
   excluded_out_of_scope: ["excluded", "Hors périmètre selon l'audit : ne peut pas être activé ici. Le réintégrer exige une nouvelle formulation, auditée à nouveau."],
   unresolved_arbitration: ["", "Arbitrage requis : choisis l'affectation, écris le motif, puis « Arbitrer avec cette affectation ». Une simple confirmation ne suffit pas."],
   resolved_arbitration: ["done", "Arbitrage enregistré."],
-  unresolved_axis_change: ["", "Changement d'axe proposé : confirme la nouvelle affectation, ou arbitre une autre affectation avec un motif."],
+  unresolved_axis_change: ["", "Changement d'axe proposé : adopte et confirme la nouvelle affectation, ou arbitre une autre affectation avec un motif."],
+  unknown_audit_status: ["excluded", "Statut d'audit inconnu : non activable."],
   axis_change_confirmed: ["done", "Nouvelle affectation confirmée."],
   axis_change_rejected_resolved: ["done", "Changement d'axe refusé par arbitrage motivé."],
 };
@@ -203,10 +204,12 @@ function cardHTML(q) {
   const need = needsConfirmation(q, r);
   const confirmed = isConfirmed(q, r);
   const chk = canKeep(q, r, CRIT);
-  const c5 = questionC5(q);
+  const c5 = questionC5(q, r);
   const m = methodologyStatus(q, r);
   const excluded = m === "excluded_out_of_scope";
-  const arbitrable = q.status === "NEEDS_HUMAN_ARBITRATION" || q.axisOutcome === "NEEDS_HUMAN_ARBITRATION" || (q.axisOutcome === "CHANGE_AXIS" && !(q.proposedAssignment && eff.theme === q.proposedAssignment.theme && eff.polarity === q.proposedAssignment.polarity));
+  const onProposal = !!q.proposedAssignment && eff.theme === q.proposedAssignment.theme && eff.polarity === q.proposedAssignment.polarity;
+  const arbitrable = q.status === "NEEDS_HUMAN_ARBITRATION" || q.axisOutcome === "NEEDS_HUMAN_ARBITRATION" || (q.axisOutcome === "CHANGE_AXIS" && !onProposal);
+  const adoptable = q.axisOutcome === "CHANGE_AXIS" && !!q.proposedAssignment && !onProposal;
   const len = [...r.finalText.trim()].length;
   const themeOpts = DATA.themes.map(t => `<option value="${t.id}"${t.id === eff.theme ? " selected" : ""}>${esc(t.label)}</option>`).join("");
   const crit = DATA.checks.map((c, i) => {
@@ -217,7 +220,7 @@ function cardHTML(q) {
     return `<label for="c-${q.id}-${c.id}" title="${esc(c.text)}">${SHORT[c.id] || c.id} <span class="hint">· ${hint}</span></label>
       <select id="c-${q.id}-${c.id}" data-crit="${c.id}" data-v="${v}">${Object.entries(CRIT_LABEL).map(([k, l]) => `<option value="${k}"${k === v ? " selected" : ""}${lock && k === "satisfied" && v !== k ? " disabled" : ""}>${l}${lock && k === "satisfied" ? " (preuves non vérifiées)" : ""}</option>`).join("")}</select>`;
   }).join("");
-  const decisions = Object.entries(DEC_LABEL).map(([k, l]) => `<button type="button" data-act="${k}" aria-pressed="${r.decision === k}"${k === "keep" && !chk.ok ? " disabled" : ""}>${l}</button>`).join("");
+  const decisions = Object.entries(DEC_LABEL).map(([k, l]) => `<button type="button" data-act="${k}" aria-pressed="${r.decision === k}"${k === "keep" && !chk.ok && r.decision !== "keep" ? " disabled" : ""}>${l}</button>`).join("");
   return `<article class="q" id="q-${q.id}" data-id="${q.id}" data-d="${r.decision || ""}">
     <div class="meta"><span class="qid">${esc(q.id)}${q.finalId !== q.id ? " → " + esc(q.finalId) : ""}</span>
       <span class="chip${q.status !== "PENDING_HUMAN_VALIDATION" ? " hold" : ""}">${AUDIT_LABEL[q.status]}</span>${q.pFlag ? '<span class="chip p">P!</span>' : ""}<span class="chip">fidélité de la 1re proposition : ${esc(q.fidelity)}</span></div>
@@ -236,12 +239,13 @@ function cardHTML(q) {
       <div class="row"><select id="th-${q.id}" data-field="theme" aria-label="Thème">${themeOpts}</select>
         <select id="po-${q.id}" data-field="polarity" aria-label="Polarité"><option value="+"${eff.polarity === "+" ? " selected" : ""}>+</option><option value="-"${eff.polarity === "-" ? " selected" : ""}>−</option></select>
         ${need && !excluded && !arbitrable ? `<button type="button" data-act="confirm"${confirmed ? " disabled" : ""}>${confirmed ? "Affectation confirmée" : "Confirmer cette affectation"}</button>` : ""}</div>
+      ${adoptable ? `<div class="row"><button type="button" data-act="adopt">Adopter et confirmer la proposition : ${assignLabel(q.proposedAssignment)}</button></div>` : ""}
       ${arbitrable && !excluded ? `<label class="lbl" for="ra-${q.id}">Motif de l'arbitrage (obligatoire)</label><textarea id="ra-${q.id}" rows="2" data-local="rationale">${esc(rationaleDraft[q.id] ?? (r.resolution ? r.resolution.rationale : ""))}</textarea>
         <div class="row"><button type="button" data-act="resolve"${isResolved(q, r) ? " disabled" : ""}>${isResolved(q, r) ? "Arbitrage enregistré pour cette affectation" : "Arbitrer avec cette affectation"}</button></div>` : ""}
       <span>« Tout à fait d'accord » = ${esc(eff.polarity === "+" ? themeById[eff.theme].pos : themeById[eff.theme].neg)}</span>
       <p class="why" style="color:var(--muted)">${esc(q.axisExplanation)}</p>
     </div>
-    ${evidenceHTML(q, c5)}
+    ${evidenceHTML(q, c5, r.finalText)}
     <div class="crit">${crit}</div>
     <div class="row">${decisions}</div>
     ${!chk.ok ? `<p class="reasons">Pour garder : ${esc(chk.reasons.join(" ; "))}.</p>` : r.decision === "keep" ? '<p class="ok-note">Actif dès l\'activation groupée.</p>' : ""}
@@ -249,20 +253,24 @@ function cardHTML(q) {
   </article>`;
 }
 
-function evidenceHTML(q, c5) {
+function evidenceHTML(q, c5, text) {
   const ev = q.evidence || [];
+  const sides = c5Sides(directEvidence(q), text);
+  const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : null;
   const side = s => ev.filter(e => e.side === s);
   const item = e => {
     const miss = missingEvidenceFields(e);
-    return `<li><span class="chip ${isVerifiedEvidence(e) ? "ok" : "draft"}">${isVerifiedEvidence(e) ? "vérifiée" : EV_LABEL[e.verificationStatus] || e.verificationStatus}</span>
+    const direct = isDirectEvidence(e, q), ok = direct && isVerifiedEvidence(e, text), same = matchesWording(e, text);
+    return `<li><span class="chip ${ok ? "ok" : "draft"}">${ok ? "vérifiée" : EV_LABEL[e.verificationStatus] || e.verificationStatus}</span>${!direct ? ` <span class="chip draft">position sur un autre énoncé (${esc(e.scoredQuestionId || "?")}) : ne compte pas</span>` : same ? "" : ' <span class="chip draft">évaluée sur un autre texte</span>'}
       <b>${esc(e.candidate)}</b> (${e.positionValue === null ? "valeur ?" : (e.positionValue > 0 ? "+" : "") + e.positionValue}) ·
-      ${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title || e.sourceId)}</a>` : `${esc(e.title || e.sourceId)} <span class="missing">URL manquante</span>`}
+      ${safeUrl(e.url) ? `<a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title || e.sourceId)}</a>` : `${esc(e.title || e.sourceId)} <span class="missing">${e.url ? "URL non http(s)" : "URL manquante"}</span>`}
       · publié ${e.publishedAt ? esc(e.publishedAt) : '<span class="missing">date inconnue</span>'} · consulté ${e.accessedAt ? esc(e.accessedAt) : "?"}
       · relu ${e.verifiedAt ? esc(e.verifiedAt) + (e.verifiedBy ? " par " + esc(e.verifiedBy) : "") : '<span class="missing">non</span>'}
-      ${e.quote ? `<p class="ev-q">« ${esc(e.quote)} »</p>` : '<p class="missing">Citation manquante</p>'}${miss.length ? `<span class="missing">Manque : ${miss.join(", ")}</span>` : ""}</li>`;
+      ${e.quote ? `<p class="ev-q">« ${esc(e.quote)} »</p>` : '<p class="missing">Citation manquante</p>'}${same ? "" : `<p class="why">Évaluée sur : « ${esc(e.scoredText || "texte inconnu")} »</p>`}${miss.length ? `<span class="missing">Manque : ${miss.join(", ")}</span>` : ""}</li>`;
   };
   const block = (s, l) => `<div class="lbl">${l} (${side(s).length})</div>${side(s).length ? `<ul>${side(s).map(item).join("")}</ul>` : '<p class="missing">Aucune source pour cette extrémité.</p>'}`;
-  return `<details class="ev"><summary>Preuves C5 : ${C5_LABEL[c5]}</summary><p class="why">${esc(q.c5Note)}</p>${block("for", "Pour (d'accord)")}${block("against", "Contre (pas d'accord)")}</details>`;
+  const sideTxt = (s, l) => { const x = sides[s]; return x.verified + x.pending ? `${l} : ${x.verified} vérifiée(s), ${x.pending} à vérifier` : `${l} : aucune source`; };
+  return `<details class="ev" id="ev-${q.id}"><summary>Preuves C5 : ${C5_LABEL[c5]} · ${sideTxt("for", "pour")} · ${sideTxt("against", "contre")}</summary><p class="why">${esc(q.c5Note)}</p>${block("for", "Pour (d'accord)")}${block("against", "Contre (pas d'accord)")}</details>`;
 }
 
 function passes(q) {
@@ -275,7 +283,9 @@ function passes(q) {
 }
 
 function render() {
-  const keep = document.activeElement && document.activeElement.id;
+  const active = document.activeElement, keep = active && active.id;
+  const sel = active && active.tagName === "TEXTAREA" ? [active.selectionStart, active.selectionEnd] : null;
+  const openEv = new Set([...document.querySelectorAll("details.ev[open]")].map(d => d.id));
   const groups = groupByEffectiveTheme(themeIds, Q, records, CRIT);
   const bal = Object.fromEntries(computeBalances(themeIds, DATA.base, Q, records, CRIT).map(b => [b.theme, b]));
   let html = "";
@@ -284,12 +294,13 @@ function render() {
     if (!ids.length) continue;
     const b = bal[t.id];
     html += `<section class="theme"><div class="theme-head"><h2>${esc(t.label)}</h2>
-      <span class="balance${b.compliant ? "" : " bad"}">Validés actifs ${b.active} : ${b.plus} + / ${b.minus} − (${Math.round(b.plusShare * 100)} % de +) · ${b.compliant ? "FR-012 respectée" : "échec FR-012"} · en attente ${b.awaiting}, hors périmètre ${b.excluded}, arbitrage ${b.arbitration}</span>
+      <span class="balance${b.compliant ? "" : " bad"}">Validés actifs ${b.active} : ${b.plus} + / ${b.minus} − (${Math.round(b.plusShare * 100)} % de +) · ${b.compliant ? "FR-012 respectée" : "échec FR-012"} · en attente ${b.awaiting}, à reformuler ${b.rework}, retirés ${b.dropped}, hors périmètre ${b.excluded}, arbitrage ${b.arbitration}</span>
       <div class="axis">− ${esc(t.neg)} · + ${esc(t.pos)}</div></div>${ids.map(id => cardHTML(byId[id])).join("")}</section>`;
   }
   $("#list").innerHTML = html || '<p class="lede">Aucun énoncé ne correspond aux filtres.</p>';
   paintSummary(bal);
-  if (keep) { const el = document.getElementById(keep); if (el) { el.focus(); if (el.setSelectionRange && el.value !== undefined && el.tagName === "TEXTAREA") el.setSelectionRange(el.value.length, el.value.length); } }
+  openEv.forEach(id => { const d = document.getElementById(id); if (d) d.open = true; });
+  if (keep) { const el = document.getElementById(keep); if (el) { el.focus(); if (sel && el.tagName === "TEXTAREA") el.setSelectionRange(Math.min(sel[0], el.value.length), Math.min(sel[1], el.value.length)); } }
 }
 
 function paintSummary(bal) {
@@ -307,25 +318,30 @@ function paintSummary(bal) {
   const proj = Object.fromEntries(optimisticBalances(themeIds, DATA.base, Q).map(b => [b.theme, b]));
   const pct = b => `${Math.round(b.plusShare * 100)} %`;
   $("#fr012-table").innerHTML = `<p>Seuil : au moins ${FR012.min} énoncés validés actifs et entre ${FR012.low * 100} et ${FR012.high * 100} % de « + ». La projection optimiste garde tous les énoncés « à valider » tels que proposés (sans tenir compte de C5) ; hors périmètre et arbitrages exclus.</p>
-    <table class="fr"><thead><tr><th>Thème</th><th>Validés actifs</th><th>+ / −</th><th>Part +</th><th>État</th><th>En attente</th><th>Hors pér.</th><th>Arbitrage</th><th>Projection</th><th>Part +</th></tr></thead><tbody>${
-    list.map(b => { const p = proj[b.theme]; return `<tr><td>${esc(themeById[b.theme].label)}</td><td>${b.active}</td><td>${b.plus} / ${b.minus}</td><td>${pct(b)}</td><td class="${b.compliant ? "" : "bad"}">${b.compliant ? "respectée" : "échec"}</td><td>${b.awaiting}</td><td>${b.excluded}</td><td>${b.arbitration}</td><td class="${p.compliant ? "" : "bad"}">${p.active}${p.compliant ? "" : " · échec"}</td><td>${pct(p)}</td></tr>`; }).join("")}</tbody></table>`;
+    <table class="fr"><thead><tr><th>Thème</th><th>Validés actifs</th><th>+ / −</th><th>Part +</th><th>État</th><th>En attente</th><th>À reform.</th><th>Retirés</th><th>Hors pér.</th><th>Arbitrage</th><th>Projection</th><th>Part +</th></tr></thead><tbody>${
+    list.map(b => { const p = proj[b.theme]; return `<tr><td>${esc(themeById[b.theme].label)}</td><td>${b.active}</td><td>${b.plus} / ${b.minus}</td><td>${pct(b)}</td><td class="${b.compliant ? "" : "bad"}">${b.compliant ? "respectée" : "échec"}</td><td>${b.awaiting}</td><td>${b.rework}</td><td>${b.dropped}</td><td>${b.excluded}</td><td>${b.arbitration}</td><td class="${p.compliant ? "" : "bad"}">${p.active}${p.compliant ? "" : " · échec"}</td><td>${pct(p)}</td></tr>`; }).join("")}</tbody></table>`;
 }
 
 // ---------- enregistrement ----------
-let db = null, canWrite = true;
+let db = null, canWrite = true, loaded = false;
 const timers = {}, inflight = {}, again = {};
 async function save(id) {
   if (!db) { setStatus("Enregistrement indisponible : tes choix ne sont pas sauvegardés.", true); return; }
-  if (!canWrite) return;
+  if (!canWrite || !loaded) return;
   if (inflight[id]) { again[id] = true; return; }
   inflight[id] = true;
-  try { await db.doc("passe2/" + id).set(toDocument(rec(id))); setStatus("Enregistré"); }
+  records[id] = closeHistory(rec(id));
+  try { await db.doc("passe2/" + id).set(toDocument(records[id])); setStatus("Enregistré"); }
   catch (e) {
     if (e && e.code === "invalid_argument") { canWrite = false; setStatus("Lecture seule : seul le propriétaire enregistre des décisions.", true); }
     else setStatus("Échec de l'enregistrement, réessaie dans un instant.", true);
   } finally { inflight[id] = false; if (again[id]) { again[id] = false; save(id); } }
 }
+// Tant que les décisions enregistrées ne sont pas chargées, aucune modification n'est possible :
+// un enregistrement à ce moment écraserait la décision existante.
+function locked() { if (db && !loaded) { setStatus("Chargement des décisions enregistrées… attends avant de modifier.", true); return true; } return false; }
 function change(id, patch, opts = {}) {
+  if (locked()) { render(); return; }
   records[id] = applyChange(rec(id), patch, new Date().toISOString());
   clearTimeout(timers[id]); delete timers[id];
   if (opts.debounce) { setStatus("Saisie…"); timers[id] = setTimeout(() => { delete timers[id]; save(id); render(); }, 700); }
@@ -346,6 +362,7 @@ list.addEventListener("change", e => {
   }
 });
 list.addEventListener("input", e => {
+  if (locked()) { render(); return; }
   if (e.target.dataset.local === "rationale") { rationaleDraft[e.target.closest("article.q").dataset.id] = e.target.value; return; }
   const f = e.target.dataset.field; if (f !== "finalText" && f !== "comment") return;
   const id = e.target.closest("article.q").dataset.id;
@@ -358,6 +375,7 @@ list.addEventListener("click", e => {
   const btn = e.target.closest("button[data-act]"); if (!btn) return;
   const id = btn.closest("article.q").dataset.id, q = byId[id], r = rec(id), act = btn.dataset.act;
   if (act === "confirm") { const eff = effectiveAssignment(q, r); change(id, { chosen: eff, confirmed: { ...eff, at: new Date().toISOString() } }); return; }
+  if (act === "adopt") { const a = q.proposedAssignment; change(id, { chosen: { ...a }, confirmed: { ...a, at: new Date().toISOString() }, resolution: null }); return; }
   if (act === "resolve") {
     const ta = document.getElementById("ra-" + id), why = ta ? ta.value.trim() : "";
     if (!why) { setStatus("Écris le motif de l'arbitrage avant de l'enregistrer.", true); if (ta) ta.focus(); return; }
@@ -384,14 +402,15 @@ render();
   if (!window.claude || !window.claude.use) { setStatus("Ouvre cette page sur claude.ai pour enregistrer tes choix.", true); return; }
   db = await window.claude.use("db");
   if (!db) { setStatus("Enregistrement indisponible : connecte-toi pour sauvegarder.", true); return; }
+  list.inert = true; setStatus("Chargement des décisions enregistrées…");
   try { const user = await window.claude.use("user"); if (user && !(await user.isOwner())) { canWrite = false; setStatus("Lecture seule : seul le propriétaire enregistre des décisions.", true); } } catch {}
-  const timer = setTimeout(() => setStatus("L'enregistrement ne répond pas encore ; tes choix seront envoyés dès qu'il répondra.", true), 10000);
+  const timer = setTimeout(() => setStatus("Les décisions enregistrées ne sont pas encore chargées : la page reste en lecture seule jusque-là. Recharge si ça dure.", true), 10000);
   db.collection("passe2").onSnapshot(snap => {
     for (const d of snap.docs) {
       if (!byId[d.id] || inflight[d.id] || timers[d.id]) continue;
       records[d.id] = normalizeRecord(d.data(), byId[d.id], CRIT);
     }
-    if (!snap.metadata.fromCache) { clearTimeout(timer); if (canWrite) setStatus("À jour"); }
+    if (!snap.metadata.fromCache) { clearTimeout(timer); loaded = true; list.inert = false; if (canWrite) setStatus("À jour"); }
     render();
   }, () => { clearTimeout(timer); setStatus("Connexion à l'enregistrement perdue : recharge la page.", true); });
 })();

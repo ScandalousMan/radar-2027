@@ -18,10 +18,20 @@ export type CriterionState = (typeof CRITERION_STATES)[number];
 export const MAX_TEXT_LENGTH = 200;
 /** Le 5e critère de la grille de neutralité est C5 (deux extrémités défendables). */
 export const C5_INDEX = 4;
-/** Nombre maximal d'entrées d'historique conservées par énoncé ; les plus anciennes sont comptées puis retirées. */
-export const MAX_HISTORY = 80;
-/** Deux modifications de texte successives à moins de 10 minutes forment une seule entrée d'historique. */
-export const TEXT_COALESCE_MS = 10 * 60 * 1000;
+/**
+ * Nombre maximal d'entrées d'historique conservées par énoncé (taille du document enregistré).
+ * Au-delà, seules les plus anciennes entrées de texte, de commentaire ou de critère sont retirées
+ * (et comptées) ; les décisions, affectations, confirmations et arbitrages ne le sont jamais.
+ */
+export const MAX_HISTORY = 150;
+const PROTECTED_HISTORY = new Set(['decision', 'chosen', 'confirmed', 'resolution']);
+
+/** Statuts et issues d'axe connus ; toute autre valeur bloque l'activation (échec fermé). */
+const KNOWN_STATUS = new Set(['PENDING_HUMAN_VALIDATION', 'NEEDS_HUMAN_ARBITRATION', 'OUT_OF_SCOPE']);
+const KNOWN_AXIS = new Set(['VALID_AXIS_AND_POLARITY', 'CHANGE_AXIS', 'NEEDS_HUMAN_ARBITRATION', 'OUT_OF_SCOPE']);
+
+/** Tri par identifiant indépendant de la langue du navigateur. */
+const compareById = (a: { id: string }, b: { id: string }) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
 
 // ---------- preuves C5 ----------
 
@@ -52,7 +62,19 @@ export type EvidenceRef = {
   verificationStatus: VerificationStatus;
   verifiedAt: string | null;
   verifiedBy: string | null;
+  /** Énoncé sur lequel la position a été évaluée, et sa formulation à ce moment ; `null` si inconnus. */
+  scoredQuestionId: string | null;
+  scoredText: string | null;
 };
+
+/**
+ * Une preuve n'est directe que si la position porte sur cet énoncé (identifiant d'origine ou final).
+ * Une position sur un autre énoncé, même voisin, est conservée pour la traçabilité mais ne compte
+ * jamais pour C5.
+ */
+export function isDirectEvidence(e: EvidenceRef, q: Pick<Question, 'id' | 'finalId'>): boolean {
+  return e.scoredQuestionId === q.id || e.scoredQuestionId === q.finalId;
+}
 
 /** Champs manquants d'une preuve, affichés tels quels (rien n'est complété). */
 export function missingEvidenceFields(e: EvidenceRef): string[] {
@@ -62,21 +84,50 @@ export function missingEvidenceFields(e: EvidenceRef): string[] {
   if (!e.quote) out.push('quote');
   if (!e.publishedAt) out.push('publishedAt');
   if (e.verificationStatus === 'reviewed' && !e.verifiedAt) out.push('verifiedAt');
+  if (!e.scoredQuestionId) out.push('scoredQuestionId');
+  if (!e.scoredText) out.push('scoredText');
   return out;
 }
 
-/** Une preuve n'est vérifiée que si la position est relue, datée, et que l'URL et la citation sont présentes. */
-export function isVerifiedEvidence(e: EvidenceRef): boolean {
-  return e.verificationStatus === 'reviewed' && !!e.verifiedAt && !!e.url && !!e.quote;
+const norm = (t: string | null | undefined) => (t ?? '').trim();
+
+/** La position a-t-elle été évaluée sur cette formulation exactement ? */
+export function matchesWording(e: EvidenceRef, text: string): boolean {
+  return !!e.scoredText && norm(e.scoredText) === norm(text);
 }
 
-export function c5Status(evidence: readonly EvidenceRef[]): C5State {
-  const verified = (side: EvidenceRef['side']) => evidence.some((e) => e.side === side && isVerifiedEvidence(e));
-  const vFor = verified('for');
-  const vAgainst = verified('against');
-  if (vFor && vAgainst) return 'documented_both_ends';
-  if (evidence.some((e) => e.verificationStatus === 'draft')) return 'sources_to_verify';
-  if (vFor || vAgainst) return 'one_end_documented';
+/**
+ * Une preuve n'est vérifiée, pour une formulation donnée, que si la position est relue et datée,
+ * avec URL et citation, ET qu'elle a été évaluée sur cette formulation. Une position relue sur un
+ * autre texte doit être réévaluée : elle compte comme source à vérifier.
+ */
+export function isVerifiedEvidence(e: EvidenceRef, text: string): boolean {
+  return e.verificationStatus === 'reviewed' && !!e.verifiedAt && !!e.url && !!e.quote && matchesWording(e, text);
+}
+
+/** Preuve existante mais pas encore exploitable : brouillon, ou relue sur une autre formulation. */
+const isPending = (e: EvidenceRef, text: string) =>
+  e.verificationStatus === 'draft' || (e.verificationStatus === 'reviewed' && !isVerifiedEvidence(e, text));
+
+export type C5Sides = Record<'for' | 'against', { verified: number; pending: number; contested: number }>;
+
+export function c5Sides(evidence: readonly EvidenceRef[], text: string): C5Sides {
+  const side = (s: EvidenceRef['side']) => {
+    const es = evidence.filter((e) => e.side === s);
+    return {
+      verified: es.filter((e) => isVerifiedEvidence(e, text)).length,
+      pending: es.filter((e) => isPending(e, text)).length,
+      contested: es.filter((e) => e.verificationStatus === 'contested').length,
+    };
+  };
+  return { for: side('for'), against: side('against') };
+}
+
+export function c5Status(evidence: readonly EvidenceRef[], text: string): C5State {
+  const sides = c5Sides(evidence, text);
+  if (sides.for.verified && sides.against.verified) return 'documented_both_ends';
+  if (sides.for.pending || sides.against.pending) return 'sources_to_verify';
+  if (sides.for.verified || sides.against.verified) return 'one_end_documented';
   return 'needs_verification';
 }
 
@@ -113,7 +164,8 @@ export type Question = {
 /** Arbitrage humain explicite d'une question méthodologique ouverte, lié à une affectation précise. */
 export type Resolution = Assignment & { rationale: string; at: string };
 
-export type HistoryEntry = { at: string; field: string; from: unknown; to: unknown };
+/** `open` : entrée de texte pas encore enregistrée, que les frappes suivantes prolongent. */
+export type HistoryEntry = { at: string; field: string; from: unknown; to: unknown; open?: boolean };
 
 /** Enregistrement d'une décision humaine, tel qu'il est conservé (collection `passe2`). */
 export type ReviewRecord = {
@@ -179,8 +231,9 @@ export function normalizeRecord(raw: unknown, q: Question, criteriaIds: readonly
   } else if (typeof r.checks === 'object' && r.checks !== null) {
     for (const c of criteriaIds) if ((r.checks as Record<string, unknown>)[c] === true) criteria[c] = 'satisfied';
   }
+  // Forme 2 ou 3 : le texte est relu tel quel, même vide. Forme 1 : `newText`, sinon le texte de l'audit.
   const finalText =
-    typeof r.finalText === 'string' && r.finalText.trim() !== ''
+    modern && typeof r.finalText === 'string'
       ? r.finalText
       : typeof r.newText === 'string' && r.newText.trim() !== ''
         ? r.newText
@@ -232,7 +285,7 @@ export function toDocument(rec: ReviewRecord): Record<string, unknown> {
     chosen: rec.chosen,
     confirmed: rec.confirmed,
     resolution: rec.resolution,
-    history: rec.history,
+    history: closeHistory(rec).history,
     historyDropped: rec.historyDropped,
     updatedAt: rec.updatedAt,
   };
@@ -244,42 +297,64 @@ const json = (v: unknown) => JSON.stringify(v ?? null);
 
 /**
  * Applique une modification et l'inscrit dans l'historique (valeur avant, valeur après, date).
- * Les frappes successives dans un même champ texte (moins de 10 minutes d'écart) forment une seule
- * entrée, dont la valeur « avant » reste celle d'origine.
+ * - Les frappes dans un même champ texte prolongent l'entrée ouverte de ce champ ; l'entrée est
+ *   fermée à chaque enregistrement (`closeHistory`). Une valeur enregistrée n'est donc jamais
+ *   effacée de l'historique ; seule une entrée ouverte revenue à sa valeur de départ disparaît.
+ * - Modifier la formulation finale invalide l'examen fait sur l'ancien texte : les critères
+ *   repassent à « non examiné » et une décision « garder » est retirée.
  */
 export function applyChange(rec: ReviewRecord, patch: RecordPatch, at: string): ReviewRecord {
-  const next: ReviewRecord = { ...rec, ...patch, updatedAt: at };
+  const effective: RecordPatch = { ...patch };
+  if ('finalText' in patch && patch.finalText !== rec.finalText) {
+    effective.criteria = Object.fromEntries(Object.keys({ ...rec.criteria, ...patch.criteria }).map((c) => [c, 'not_reviewed' as CriterionState]));
+    if ((patch.decision ?? rec.decision) === 'keep') effective.decision = null;
+  }
+  const next: ReviewRecord = { ...rec, ...effective, updatedAt: at };
   const history = [...rec.history];
   const push = (field: string, from: unknown, to: unknown) => {
     if (json(from) === json(to)) return;
     const last = history[history.length - 1];
-    if (TEXT_FIELDS.has(field) && last && last.field === field && Date.parse(at) - Date.parse(last.at) < TEXT_COALESCE_MS) {
-      history[history.length - 1] = { ...last, at, to };
+    if (TEXT_FIELDS.has(field) && last && last.open && last.field === field) {
       if (json(last.from) === json(to)) history.pop();
+      else history[history.length - 1] = { ...last, at, to };
       return;
     }
-    history.push({ at, field, from: from ?? null, to: to ?? null });
+    history.push({ at, field, from: from ?? null, to: to ?? null, ...(TEXT_FIELDS.has(field) ? { open: true } : {}) });
   };
   for (const k of ['decision', 'finalText', 'comment', 'chosen', 'confirmed', 'resolution'] as const) {
-    if (k in patch) push(k, rec[k], next[k]);
+    if (k in effective) push(k, rec[k], next[k]);
   }
-  if (patch.criteria) {
-    for (const c of Object.keys(patch.criteria).sort()) push(`criteria.${c}`, rec.criteria[c] ?? null, patch.criteria[c]);
+  if (effective.criteria) {
+    for (const c of Object.keys(effective.criteria).sort()) push(`criteria.${c}`, rec.criteria[c] ?? null, effective.criteria[c]);
   }
-  const dropped = Math.max(0, history.length - MAX_HISTORY);
-  return { ...next, history: history.slice(dropped), historyDropped: rec.historyDropped + dropped };
+  // Au-delà de la limite, retirer les plus anciennes entrées non protégées.
+  let dropped = 0;
+  while (history.length > MAX_HISTORY) {
+    const i = history.findIndex((h) => !PROTECTED_HISTORY.has(h.field) && !h.open);
+    if (i < 0) break;
+    history.splice(i, 1);
+    dropped += 1;
+  }
+  return { ...next, history, historyDropped: rec.historyDropped + dropped };
+}
+
+/** Ferme les entrées de texte ouvertes : appelé avant chaque enregistrement. */
+export function closeHistory(rec: ReviewRecord): ReviewRecord {
+  if (!rec.history.some((h) => h.open)) return rec;
+  return { ...rec, history: rec.history.map((h) => ({ at: h.at, field: h.field, from: h.from, to: h.to })) };
 }
 
 // ---------- affectation, confirmation, statut méthodologique ----------
 
 /**
  * Affectation effective, la seule utilisée pour grouper, filtrer, compter et exporter :
- * confirmée, sinon choisie, sinon proposée, sinon d'origine.
+ * confirmée, sinon choisie par le relecteur, sinon d'origine. Une proposition de l'audit n'est
+ * jamais effective tant qu'un humain ne l'a pas adoptée.
  */
 export function effectiveAssignment(q: Question, rec: ReviewRecord): Assignment {
   if (rec.confirmed) return { theme: rec.confirmed.theme, polarity: rec.confirmed.polarity };
   if (rec.chosen) return rec.chosen;
-  return q.proposedAssignment ?? q.originalAssignment;
+  return q.originalAssignment;
 }
 
 /**
@@ -308,7 +383,8 @@ export function isResolved(q: Question, rec: ReviewRecord): boolean {
  * - `unresolved_arbitration` / `resolved_arbitration` ;
  * - `unresolved_axis_change` : changement d'axe proposé, pas encore confirmé ;
  * - `axis_change_confirmed` : la nouvelle affectation proposée est confirmée ;
- * - `axis_change_rejected_resolved` : une autre affectation a été arbitrée, avec un motif.
+ * - `axis_change_rejected_resolved` : une autre affectation a été arbitrée, avec un motif ;
+ * - `unknown_audit_status` : statut ou issue d'axe inconnus, non activable (échec fermé).
  */
 export type MethodologyStatus =
   | 'none'
@@ -317,9 +393,11 @@ export type MethodologyStatus =
   | 'resolved_arbitration'
   | 'unresolved_axis_change'
   | 'axis_change_confirmed'
-  | 'axis_change_rejected_resolved';
+  | 'axis_change_rejected_resolved'
+  | 'unknown_audit_status';
 
 export function methodologyStatus(q: Question, rec: ReviewRecord): MethodologyStatus {
+  if (!KNOWN_STATUS.has(q.status) || !KNOWN_AXIS.has(q.axisOutcome)) return 'unknown_audit_status';
   if (q.status === 'OUT_OF_SCOPE' || q.axisOutcome === 'OUT_OF_SCOPE') return 'excluded_out_of_scope';
   if (q.status === 'NEEDS_HUMAN_ARBITRATION' || q.axisOutcome === 'NEEDS_HUMAN_ARBITRATION') return isResolved(q, rec) ? 'resolved_arbitration' : 'unresolved_arbitration';
   if (q.axisOutcome === 'CHANGE_AXIS') {
@@ -333,11 +411,17 @@ const BLOCKING_METHODOLOGY: Partial<Record<MethodologyStatus, string>> = {
   excluded_out_of_scope: "hors périmètre selon l'audit : non activable ; le réintégrer exige une nouvelle formulation, auditée à nouveau",
   unresolved_arbitration: "arbitrage requis : choisis l'affectation, donne un motif et enregistre l'arbitrage (une simple confirmation ne suffit pas)",
   unresolved_axis_change: "changement d'axe proposé : confirme la nouvelle affectation proposée, ou arbitre une autre affectation avec un motif",
+  unknown_audit_status: "statut d'audit inconnu : non activable",
 };
 
-/** État C5 tel qu'il découle des preuves (jamais de l'étiquette d'audit). */
-export function questionC5(q: Question): C5State {
-  return c5Status(q.evidence);
+/** État C5 tel qu'il découle des preuves, pour la formulation retenue par le relecteur (jamais de l'étiquette d'audit). */
+export function questionC5(q: Question, rec: ReviewRecord): C5State {
+  return c5Status(directEvidence(q), rec.finalText);
+}
+
+/** Preuves portant sur cet énoncé ; les positions sur d'autres énoncés sont écartées. */
+export function directEvidence(q: Question): EvidenceRef[] {
+  return q.evidence.filter((e) => isDirectEvidence(e, q));
 }
 
 export type KeepCheck = { ok: boolean; reasons: string[] };
@@ -349,7 +433,7 @@ export function canKeep(q: Question, rec: ReviewRecord, criteriaIds: readonly st
   if (methodology) reasons.push(methodology);
   const notSatisfied = criteriaIds.filter((c) => rec.criteria[c] !== 'satisfied');
   if (notSatisfied.length) reasons.push(`critères non satisfaits : ${notSatisfied.join(', ')}`);
-  const c5 = questionC5(q);
+  const c5 = questionC5(q, rec);
   if (c5 !== 'documented_both_ends') reasons.push(`C5 : preuves non vérifiées des deux côtés (état : ${c5})`);
   const len = [...rec.finalText.trim()].length;
   if (len === 0) reasons.push('formulation vide');
@@ -375,15 +459,24 @@ export type ThemeBalance = {
   minus: number;
   plusShare: number;
   compliant: boolean;
-  /** Énoncés de seconde passe rattachés au thème, non actifs, par catégorie. */
+  /**
+   * Énoncés de seconde passe rattachés au thème, non actifs, par catégorie :
+   * en attente (sans décision, ou « garder » encore bloqué), à reformuler, retirés,
+   * exclus (hors périmètre selon l'audit ou le relecteur), en arbitrage (audit ou relecteur, y compris polarité indéterminée).
+   */
   awaiting: number;
+  rework: number;
+  dropped: number;
   excluded: number;
   arbitration: number;
 };
 
 export type BaseCounts = Record<string, { plus: number; minus: number }>;
 
-function balanceRow(theme: string, plus: number, minus: number, extra: Pick<ThemeBalance, 'awaiting' | 'excluded' | 'arbitration'>): ThemeBalance {
+type Buckets = Pick<ThemeBalance, 'awaiting' | 'rework' | 'dropped' | 'excluded' | 'arbitration'>;
+const emptyBuckets = (): Buckets => ({ awaiting: 0, rework: 0, dropped: 0, excluded: 0, arbitration: 0 });
+
+function balanceRow(theme: string, plus: number, minus: number, extra: Buckets): ThemeBalance {
   const active = plus + minus;
   const plusShare = active ? plus / active : 0;
   return { theme, active, plus, minus, plusShare, compliant: active >= FR012.min && plusShare >= FR012.low && plusShare <= FR012.high, ...extra };
@@ -404,7 +497,7 @@ export function computeBalances(
   return themeIds.map((t) => {
     let plus = base[t]?.plus ?? 0;
     let minus = base[t]?.minus ?? 0;
-    const extra = { awaiting: 0, excluded: 0, arbitration: 0 };
+    const extra = emptyBuckets();
     for (const q of questions) {
       const rec = records[q.id] ?? emptyRecord(q, criteriaIds);
       const a = effectiveAssignment(q, rec);
@@ -415,8 +508,10 @@ export function computeBalances(
         continue;
       }
       const m = methodologyStatus(q, rec);
-      if (m === 'excluded_out_of_scope') extra.excluded += 1;
-      else if (m === 'unresolved_arbitration') extra.arbitration += 1;
+      if (m === 'excluded_out_of_scope' || rec.decision === 'out_of_scope') extra.excluded += 1;
+      else if (rec.decision === 'drop') extra.dropped += 1;
+      else if (rec.decision === 'rework') extra.rework += 1;
+      else if (m === 'unresolved_arbitration' || rec.decision === 'arbitration' || rec.decision === 'polarity_unknown') extra.arbitration += 1;
       else extra.awaiting += 1;
     }
     return balanceRow(t, plus, minus, extra);
@@ -431,7 +526,7 @@ export function optimisticBalances(themeIds: readonly string[], base: BaseCounts
   return themeIds.map((t) => {
     let plus = base[t]?.plus ?? 0;
     let minus = base[t]?.minus ?? 0;
-    const extra = { awaiting: 0, excluded: 0, arbitration: 0 };
+    const extra = emptyBuckets();
     for (const q of questions) {
       if (q.status === 'OUT_OF_SCOPE' || q.axisOutcome === 'OUT_OF_SCOPE') {
         if (q.originalAssignment.theme === t) extra.excluded += 1;
@@ -471,7 +566,7 @@ export function groupByEffectiveTheme(
   criteriaIds: readonly string[],
 ): Record<string, string[]> {
   const out: Record<string, string[]> = Object.fromEntries(themeIds.map((t) => [t, [] as string[]]));
-  for (const q of [...questions].sort((a, b) => a.id.localeCompare(b.id))) {
+  for (const q of [...questions].sort(compareById)) {
     const t = effectiveAssignment(q, records[q.id] ?? emptyRecord(q, criteriaIds)).theme;
     (out[t] ??= []).push(q.id);
   }
@@ -491,8 +586,10 @@ export function outstandingConcerns(q: Question, rec: ReviewRecord): string[] {
   const out: string[] = [];
   const m = methodologyStatus(q, rec);
   if (BLOCKING_METHODOLOGY[m]) out.push(`methodology:${m}`);
-  const c5 = questionC5(q);
+  const c5 = questionC5(q, rec);
   if (c5 !== 'documented_both_ends') out.push(`c5:${c5}`);
+  const sides = c5Sides(directEvidence(q), rec.finalText);
+  for (const side of ['for', 'against'] as const) if (!sides[side].verified && !sides[side].pending) out.push(`c5:no_source_${side}`);
   for (const [k, v] of Object.entries(q.auditCriteria).sort()) if (k !== 'C5' && v !== 'satisfied') out.push(`audit:${k}:${v}`);
   if (q.fidelity === 'AMBIGUOUS') out.push('fidelity:AMBIGUOUS');
   if (needsConfirmation(q, rec) && !isConfirmed(q, rec)) out.push('assignment:not_confirmed');
@@ -504,18 +601,21 @@ export const EXPORT_SCHEMA = 'radar-2027/relecture-seconde-passe-decisions@2';
 /**
  * Export déterministe et autosuffisant (énoncés triés par identifiant, clés triées, aucune donnée
  * dépendant de l'heure de l'export). Structure d'un énoncé :
- * - `id`, `finalId` : identifiant stable, identifiant final (`-v2` si le texte retenu diffère de l'origine) ;
+ * - `id`, `finalId` : identifiant stable, identifiant final (`-v2` dès que le texte du relecteur diffère de l'origine) ;
  * - `text` : `original`, `firstReviewProposal`, `firstReviewMotif`, `auditFinal`, `auditFinalBasis`, `reviewerFinal` ;
  * - `audit` : `fidelity`, `explanation`, `axisOutcome`, `axisExplanation`, `status`, `pFlag`, `secondaryTheme`,
  *   `criteria` (C1 à C5 tels que produits par l'audit, indicatifs) ;
  * - `assignment` : `original`, `previousClaudeProposal`, `proposed`, `chosen`, `confirmed` (avec date), `confirmation`
- *   (`required`, `status` = not_required | missing | confirmed | stale, `provenance` = human_explicit | null), `effective` ;
+ *   (`required`, `status` = not_required | missing | confirmed, `provenance` = human_explicit | null), `effective` ;
  * - `methodology` : `status` (voir `MethodologyStatus`), `resolution` (affectation, motif, date) ;
- * - `c5` : `status` (calculé depuis les preuves), `auditLabel`, `note`, `evidence` (preuves avec champs manquants
- *   à `null` et liste `missing`) ;
+ * - `c5` : `status` (calculé depuis les preuves pour la formulation du relecteur), `sides` (preuves vérifiées,
+ *   en attente, contestées de chaque côté, preuves directes seulement), `indirectCount`, `auditLabel`, `note`,
+ *   `evidence` (preuves avec énoncé et formulation évalués, `direct`, `matchesFinalText`, `verified`, champs
+ *   manquants à `null` et liste `missing`) ;
  * - `review` : `criteria` (états saisis), `decision`, `comment`, `updatedAt` ;
  * - `outcome` : `active`, `eligibleToKeep`, `blockingReasons`, `outstandingConcerns` ;
- * - `history` : modifications horodatées (champ, avant, après), `historyDropped`.
+ * - `history` : modifications horodatées (champ, avant, après), `historyDropped` (entrées de texte ou de critère
+ *   retirées faute de place ; jamais de décision, d'affectation, de confirmation ni d'arbitrage).
  */
 export function buildExport(
   questions: readonly Question[],
@@ -524,15 +624,16 @@ export function buildExport(
   fr012?: { balances: readonly ThemeBalance[]; overall: Fr012Overall },
 ): string {
   const rows = [...questions]
-    .sort((a, b) => a.id.localeCompare(b.id))
+    .sort(compareById)
     .map((q) => {
       const rec = records[q.id] ?? emptyRecord(q, criteriaIds);
       const check = canKeep(q, rec, criteriaIds);
       const need = needsConfirmation(q, rec);
-      const confirmationStatus = !need && !rec.confirmed ? 'not_required' : isConfirmed(q, rec) ? 'confirmed' : rec.confirmed ? 'stale' : 'missing';
+      const confirmationStatus = isConfirmed(q, rec) ? 'confirmed' : need ? 'missing' : 'not_required';
+      const changed = rec.finalText.trim() !== q.originalText.trim();
       return {
         id: q.id,
-        finalId: rec.finalText.trim() === q.originalText ? q.id : q.finalId,
+        finalId: !changed ? q.id : q.finalId !== q.id ? q.finalId : `${q.id}-v2`,
         text: {
           original: q.originalText,
           firstReviewProposal: q.firstReviewProposal,
@@ -562,12 +663,18 @@ export function buildExport(
         },
         methodology: { status: methodologyStatus(q, rec), resolution: rec.resolution },
         c5: {
-          status: questionC5(q),
+          status: questionC5(q, rec),
+          sides: c5Sides(directEvidence(q), rec.finalText),
+          indirectCount: q.evidence.length - directEvidence(q).length,
           auditLabel: q.auditCriteria.C5 ?? null,
           note: q.c5Note,
           evidence: [...q.evidence]
-            .sort((a, b) => `${a.side}|${a.candidate}|${a.sourceId}`.localeCompare(`${b.side}|${b.candidate}|${b.sourceId}`))
-            .map((e) => ({ ...e, verified: isVerifiedEvidence(e), missing: missingEvidenceFields(e) })),
+            .map((e) => ({ e, key: `${e.side}|${e.candidate}|${e.sourceId}|${e.quote ?? ''}` }))
+            .sort((a, b) => (a.key < b.key ? -1 : a.key > b.key ? 1 : 0))
+            .map(({ e }) => {
+              const direct = isDirectEvidence(e, q);
+              return { ...e, direct, matchesFinalText: matchesWording(e, rec.finalText), verified: direct && isVerifiedEvidence(e, rec.finalText), missing: missingEvidenceFields(e) };
+            }),
         },
         review: { criteria: rec.criteria, decision: rec.decision, comment: rec.comment, updatedAt: rec.updatedAt },
         outcome: {
@@ -576,7 +683,7 @@ export function buildExport(
           blockingReasons: check.reasons,
           outstandingConcerns: outstandingConcerns(q, rec),
         },
-        history: rec.history,
+        history: closeHistory(rec).history,
         historyDropped: rec.historyDropped,
       };
     });
