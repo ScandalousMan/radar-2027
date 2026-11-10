@@ -67,12 +67,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `justice-accompagnement-emploi-detenus` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les détenus doivent bénéficier d'un accompagnement vers l'emploi pendant toute leur détention.
-# Motif : Le sujet porte sur la réinsertion, donc p− est cohérent, mais l'axe « peines plus orientées vers la réinsertion » ne résume pas à lui seul la politique pénitentiaire.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: justice-accompagnement-emploi-detenus-v2
-  text: "Les personnes détenues doivent bénéficier d'un accompagnement vers l'emploi pendant leur détention."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: justice-accompagnement-emploi-detenus
+  text: "Les détenus doivent bénéficier d'un accompagnement vers l'emploi pendant toute leur détention."
   themes:
     - justice
     - travail
@@ -105,12 +103,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `justice-detenus-frais-incarceration` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les détenus doivent participer financièrement à leurs frais d'incarcération.
-# Motif : La contribution financière n'est pas directement une peine plus sévère ni une orientation vers la réinsertion ; l'item est mal positionné sur l'axe Justice.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: justice-detenus-frais-incarceration-v2
-  text: "Les personnes détenues doivent contribuer financièrement aux frais liés à leur incarcération, selon leurs ressources."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: justice-detenus-frais-incarceration
+  text: "Les détenus doivent participer financièrement à leurs frais d'incarcération."
   themes:
     - justice
   polarity: +
@@ -129,23 +125,19 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `justice-imprescriptibilite-crimes-sexuels-mineurs` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les crimes sexuels commis sur des mineurs doivent être imprescriptibles.
-# Motif : Le terme « crimes sexuels » est imprécis en droit pénal ; « infractions criminelles » est plus précis. L'imprescriptibilité mesure la prescription, pas directement la sévérité de la peine.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: justice-imprescriptibilite-crimes-sexuels-mineurs-v2
-  text: "Les infractions criminelles à caractère sexuel commises sur des mineurs doivent être imprescriptibles."
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: justice-imprescriptibilite-crimes-sexuels-mineurs
+  text: "Les crimes sexuels commis sur des mineurs doivent être imprescriptibles."
   themes:
     - justice
   polarity: +
   status: draft
   author: claude
-# Reformulation de `justice-sanction-financiere-parents` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les parents de mineurs délinquants doivent pouvoir être sanctionnés financièrement.
-# Motif : La sanction des parents n'est pas une peine prononcée contre l'auteur et ne se place pas clairement sur l'axe réinsertion/sévérité des peines.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: justice-sanction-financiere-parents-v2
-  text: "Les parents d'un mineur reconnu coupable d'une infraction doivent pouvoir faire l'objet d'une sanction financière dans des conditions définies par la loi."
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: justice-sanction-financiere-parents
+  text: "Les parents de mineurs délinquants doivent pouvoir être sanctionnés financièrement."
   themes:
     - justice
     - societe
@@ -191,23 +183,20 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `justice-juridictions-mineurs-specialisees` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les mineurs doivent continuer à être jugés par des juridictions distinctes de celles des majeurs.
-# Motif : La spécialisation juridictionnelle ne correspond pas nécessairement à la réinsertion ou aux alternatives à la prison ; item à sortir de l'axe Justice actuel ou axe à élargir.
-# P! : polarité ou thème à trancher en seconde passe.
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : OUT_OF_SCOPE.
+# Texte d'origine (justice-juridictions-mineurs-specialisees) : Les mineurs doivent continuer à être jugés par des juridictions distinctes de celles des majeurs.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: justice-juridictions-mineurs-specialisees-v2
-  text: "Les mineurs doivent continuer à relever de juridictions spécialisées distinctes de celles des majeurs."
+  text: "Les mineurs doivent être jugés par des juridictions distinctes de celles des majeurs."
   themes:
     - justice
   polarity: "-"
   status: draft
   author: claude
-# Reformulation de `justice-visites-familiales-prisons` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Toutes les prisons doivent permettre des visites familiales prolongées sans surveillance directe.
-# Motif : Les conditions de visite relèvent des droits en détention, pas directement de la nature des peines ; p− n'est pas une polarité valide sur l'axe actuel.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: justice-visites-familiales-prisons-v2
-  text: "Les établissements pénitentiaires doivent permettre des visites familiales prolongées dans des espaces garantissant l'intimité."
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: justice-visites-familiales-prisons
+  text: "Toutes les prisons doivent permettre des visites familiales prolongées sans surveillance directe."
   themes:
     - justice
   polarity: "-"

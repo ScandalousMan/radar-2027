@@ -54,11 +54,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `fiscalite-tranche-hauts-revenus` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les plus hauts revenus doivent être soumis à une tranche d'impôt supplémentaire.
-# Motif : « Plus hauts revenus » ne fixe aucun seuil ; la mesure est incomparablement interprétable selon les répondants.
-- id: fiscalite-tranche-hauts-revenus-v2
-  text: "Une tranche supplémentaire d'impôt sur le revenu doit être créée au-delà d'un seuil de revenu fixé par la loi."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: fiscalite-tranche-hauts-revenus
+  text: "Les plus hauts revenus doivent être soumis à une tranche d'impôt supplémentaire."
   themes:
     - fiscalite
   polarity: +
@@ -78,9 +77,9 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `fiscalite-impot-minimum-grandes-fortunes` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les patrimoines supérieurs à 100 millions d'euros doivent être soumis à un impôt minimum de 2 % par an.
-# Motif : Préciser qu'il s'agit du patrimoine net et de l'assiette ; le niveau de 2 % est très spécifique et mérite un contrôle de cohérence avec les propositions réellement présentes dans le débat.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (fiscalite-impot-minimum-grandes-fortunes) : Les patrimoines supérieurs à 100 millions d'euros doivent être soumis à un impôt minimum de 2 % par an.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: fiscalite-impot-minimum-grandes-fortunes-v2
   text: "Les patrimoines nets supérieurs à 100 millions d'euros doivent être soumis à un prélèvement annuel minimal de 2 %."
   themes:
@@ -88,22 +87,21 @@
   polarity: +
   status: draft
   author: claude
-# Reformulation de `fiscalite-taxe-benefices-exceptionnels` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les bénéfices exceptionnels des grandes entreprises doivent être soumis à une taxe supplémentaire.
-# Motif : « Exceptionnels » et « grandes entreprises » ne sont pas définis ; éviter de faire dépendre la réponse d'une appréciation subjective.
-- id: fiscalite-taxe-benefices-exceptionnels-v2
-  text: "Les bénéfices des grandes entreprises dépassant un seuil défini doivent être soumis à un prélèvement supplémentaire."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: fiscalite-taxe-benefices-exceptionnels
+  text: "Les bénéfices exceptionnels des grandes entreprises doivent être soumis à une taxe supplémentaire."
   themes:
     - fiscalite
     - economie
   polarity: +
   status: draft
   author: claude
-# Reformulation de `fiscalite-csg-progressive` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : La CSG doit devenir progressive en fonction du revenu.
-# Motif : La CSG comporte déjà des situations de taux et d'exonération différenciées ; la version actuelle pourrait laisser croire qu'elle est uniformément proportionnelle dans tous les cas.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (fiscalite-csg-progressive) : La CSG doit devenir progressive en fonction du revenu.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: fiscalite-csg-progressive-v2
-  text: "Le taux de la contribution sociale généralisée doit varier en fonction du revenu."
+  text: "Le taux de la contribution sociale généralisée (CSG) doit augmenter avec le revenu."
   themes:
     - fiscalite
   polarity: +
@@ -122,11 +120,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `fiscalite-reduire-credits-impot` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Le montant total des réductions et crédits d'impôt doit être diminué de moitié.
-# Motif : Le périmètre « total » et les bénéficiaires ne sont pas précisés ; la mesure pourrait toucher des dispositifs très différents.
-- id: fiscalite-reduire-credits-impot-v2
-  text: "Le montant total des réductions et crédits d'impôt accordés aux ménages doit être réduit de moitié."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: fiscalite-reduire-credits-impot
+  text: "Le montant total des réductions et crédits d'impôt doit être diminué de moitié."
   themes:
     - fiscalite
   polarity: +
@@ -146,11 +143,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `fiscalite-baisse-ir-tranches-intermediaires` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'impôt sur le revenu doit baisser pour les tranches intermédiaires.
-# Motif : « Tranches intermédiaires » n'a pas de définition stable sans seuils ; ajouter des seuils ou une référence explicite au barème.
-- id: fiscalite-baisse-ir-tranches-intermediaires-v2
-  text: "L'impôt sur le revenu doit être réduit pour les contribuables situés dans les tranches intermédiaires du barème."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: fiscalite-baisse-ir-tranches-intermediaires
+  text: "L'impôt sur le revenu doit baisser pour les tranches intermédiaires."
   themes:
     - fiscalite
   polarity: "-"

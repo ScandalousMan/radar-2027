@@ -41,12 +41,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `institutions-mandat-presidentiel-sept-ans` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Le mandat présidentiel doit être porté à sept ans.
-# Motif : La durée du mandat n'indique pas en elle-même une concentration des pouvoirs exécutifs ; la polarité − n'est pas justifiée par l'axe Institutions.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: institutions-mandat-presidentiel-sept-ans-v2
-  text: "La durée du mandat du président de la République doit être portée à sept ans."
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : FAITHFUL ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: institutions-mandat-presidentiel-sept-ans
+  text: "Le mandat présidentiel doit être porté à sept ans."
   themes:
     - institutions
   polarity: "-"
@@ -66,12 +64,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `institutions-fusions-communes-obligatoires` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Le nombre de communes doit être réduit par des fusions obligatoires.
-# Motif : La fusion communale peut centraliser ou mutualiser ; elle ne mesure pas directement le partage des pouvoirs entre exécutif, Parlement et collectivités.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: institutions-fusions-communes-obligatoires-v2
-  text: "Les communes doivent être regroupées par des fusions obligatoires au-delà d'un seuil de population défini."
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: institutions-fusions-communes-obligatoires
+  text: "Le nombre de communes doit être réduit par des fusions obligatoires."
   themes:
     - institutions
   polarity: "-"
@@ -105,9 +101,9 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `institutions-autonomie-corse-constitution` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : La Corse doit obtenir un statut d'autonomie inscrit dans la Constitution.
-# Motif : « Obtenir » est une formulation orientée vers un résultat ; le texte doit énoncer directement la mesure institutionnelle.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (institutions-autonomie-corse-constitution) : La Corse doit obtenir un statut d'autonomie inscrit dans la Constitution.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: institutions-autonomie-corse-constitution-v2
   text: "La Constitution doit reconnaître un statut d'autonomie pour la Corse."
   themes:
@@ -154,25 +150,27 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Relecture du 2026-11-09 (adrien) : texte conservé, polarité à trancher en seconde passe (P!). Motif : La réduction du nombre de parlementaires ne signifie pas mécaniquement une concentration des pouvoirs sur l'exécutif ou l'État central ; item non positionnable sur l'axe tel qu'il est défini.
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : FAITHFUL ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: institutions-reduire-nombre-parlementaires
-  text: Le nombre de députés et de sénateurs doit être réduit.
+  text: "Le nombre de députés et de sénateurs doit être réduit."
   themes:
     - institutions
   polarity: "-"
   status: draft
   author: claude
-# Relecture du 2026-11-09 (adrien) : texte conservé, polarité à trancher en seconde passe (P!). Motif : La suppression d'une chambre ne correspond pas nécessairement à une concentration des pouvoirs sur l'exécutif ; la polarité − est à revoir.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: institutions-supprimer-senat
-  text: Le Sénat doit être supprimé.
+  text: "Le Sénat doit être supprimé."
   themes:
     - institutions
   polarity: "-"
   status: draft
   author: claude
-# Reformulation de `institutions-competences-retour-etat` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Une partie des compétences exercées par les collectivités locales doit revenir à l'État.
-# Motif : « Revenir » présuppose un état antérieur ; « transférées » décrit la décision sans jugement.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (institutions-competences-retour-etat) : Une partie des compétences exercées par les collectivités locales doit revenir à l'État.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: institutions-competences-retour-etat-v2
   text: "Certaines compétences actuellement exercées par les collectivités territoriales doivent être transférées à l'État."
   themes:

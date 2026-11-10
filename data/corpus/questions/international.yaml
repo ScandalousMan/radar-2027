@@ -15,11 +15,11 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `international-primaute-loi-nationale` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : La France doit pouvoir appliquer sa loi nationale lorsqu'elle entre en conflit avec une règle européenne.
-# Motif : La formulation actuelle ne distingue pas conflit avec la Constitution et conflit avec une loi ordinaire ; elle laisse croire qu'une loi nationale peut écarter librement le droit de l'UE.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (international-primaute-loi-nationale) : La France doit pouvoir appliquer sa loi nationale lorsqu'elle entre en conflit avec une règle européenne.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: international-primaute-loi-nationale-v2
-  text: "La France doit pouvoir ne pas appliquer une règle de l'Union européenne lorsqu'elle est incompatible avec une disposition de sa Constitution."
+  text: "La France doit pouvoir appliquer sa loi nationale lorsqu'elle entre en conflit avec une règle de l'Union européenne."
   themes:
     - international
     - institutions
@@ -79,11 +79,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `international-adhesion-ukraine-ue` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'Ukraine doit pouvoir adhérer à l'Union européenne.
-# Motif : « Pouvoir adhérer » ne précise ni le processus ni le calendrier ; l'ouverture de négociations est une décision politique plus précisément identifiable.
-- id: international-adhesion-ukraine-ue-v2
-  text: "L'Union européenne doit ouvrir des négociations d'adhésion avec l'Ukraine."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: international-adhesion-ukraine-ue
+  text: "L'Ukraine doit pouvoir adhérer à l'Union européenne."
   themes:
     - international
   polarity: +
@@ -213,11 +212,11 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `international-arrets-cedh-derogation` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : La France doit pouvoir s'affranchir de certains arrêts de la Cour européenne des droits de l'homme.
-# Motif : « S'affranchir » est connoté ; préciser si l'on parle de non-exécution d'arrêts, sans confondre la CEDH avec l'Union européenne.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (international-arrets-cedh-derogation) : La France doit pouvoir s'affranchir de certains arrêts de la Cour européenne des droits de l'homme.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: international-arrets-cedh-derogation-v2
-  text: "La France doit pouvoir ne pas appliquer certaines décisions de la Cour européenne des droits de l'homme."
+  text: "La France doit pouvoir ne pas exécuter certains arrêts de la Cour européenne des droits de l'homme."
   themes:
     - international
     - justice

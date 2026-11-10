@@ -84,11 +84,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `environnement-calendrier-logements-mal-isoles` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'interdiction de louer les logements les moins bien isolés doit être appliquée selon le calendrier prévu.
-# Motif : « Les moins bien isolés » est imprécis et la référence aux classes DPE rend la mesure compréhensible ; vérifier la réglementation applicable au moment de publier.
-- id: environnement-calendrier-logements-mal-isoles-v2
-  text: "Le calendrier légal d'interdiction de location des logements classés F et G au diagnostic de performance énergétique doit être appliqué."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: environnement-calendrier-logements-mal-isoles
+  text: "L'interdiction de louer les logements les moins bien isolés doit être appliquée selon le calendrier prévu."
   themes:
     - environnement
   polarity: +
@@ -175,29 +174,29 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Relecture du 2026-11-09 (adrien) : texte conservé, polarité à trancher en seconde passe (P!). Motif : L'item concerne le calendrier de chasse et les usages, pas directement les contraintes environnementales imposées à l'activité ; polarité − non déductible de l'axe Environnement.
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : FAITHFUL ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: environnement-chasse-dimanche
-  text: La chasse doit rester autorisée le dimanche.
+  text: "La chasse doit rester autorisée le dimanche."
   themes:
     - environnement
   polarity: "-"
   status: draft
   author: claude
-# Reformulation de `environnement-gazole-non-routier-agriculteurs` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les agriculteurs doivent conserver un taux réduit de taxe sur le gazole non routier.
-# Motif : L'item mesure une préférence fiscale sectorielle, pas directement le niveau de contraintes environnementales ; le classement Environnement et la polarité sont à revoir.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: environnement-gazole-non-routier-agriculteurs-v2
-  text: "Le taux réduit de fiscalité applicable au gazole non routier utilisé par les agriculteurs doit être maintenu."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : CHANGE_AXIS.
+# Affectation proposée, à confirmer : thème fiscalite, polarité -.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: environnement-gazole-non-routier-agriculteurs
+  text: "Les agriculteurs doivent conserver un taux réduit de taxe sur le gazole non routier."
   themes:
     - environnement
     - agriculture
   polarity: "-"
   status: draft
   author: claude
-# Reformulation de `environnement-limiter-recours-projets` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les recours contre les projets industriels doivent être limités pour accélérer leur réalisation.
-# Motif : « Pour accélérer leur réalisation » donne une justification à la mesure et peut orienter la réponse ; supprimer cette finalité évaluative.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (environnement-limiter-recours-projets) : Les recours contre les projets industriels doivent être limités pour accélérer leur réalisation.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: environnement-limiter-recours-projets-v2
   text: "Les possibilités de recours juridictionnel contre les autorisations de projets industriels doivent être limitées."
   themes:

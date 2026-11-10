@@ -2,11 +2,10 @@
 # Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
-# Reformulation de `economie-participations-etat-industrie` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'État doit prendre des participations dans les entreprises industrielles jugées stratégiques.
-# Motif : « Jugées stratégiques » ne précise ni les critères ni l'autorité de jugement ; expliciter le périmètre si la question doit mesurer une préférence stable.
-- id: economie-participations-etat-industrie-v2
-  text: "L'État doit prendre des participations dans des entreprises industrielles appartenant à des secteurs définis comme stratégiques."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: economie-participations-etat-industrie
+  text: "L'État doit prendre des participations dans les entreprises industrielles jugées stratégiques."
   themes:
     - economie
   polarity: +
@@ -52,22 +51,21 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `economie-aides-conditionnees-emploi` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les aides publiques aux entreprises doivent être conditionnées au maintien de l'emploi en France.
-# Motif : « Maintien de l'emploi » ne dit pas s'il s'agit des effectifs, des sites ou de l'emploi net ; le libellé proposé reste général mais évite de promettre une garantie absolue.
-- id: economie-aides-conditionnees-emploi-v2
-  text: "Les aides publiques aux entreprises doivent être conditionnées à des engagements de maintien de l'emploi en France."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: economie-aides-conditionnees-emploi
+  text: "Les aides publiques aux entreprises doivent être conditionnées au maintien de l'emploi en France."
   themes:
     - economie
     - travail
   polarity: +
   status: draft
   author: claude
-# Reformulation de `economie-ouverture-dimanche-libre` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'ouverture des commerces le dimanche doit être libre.
-# Motif : « Libre » est trop vague : il peut désigner l'absence de règle, de compensation ou de restriction locale.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (economie-ouverture-dimanche-libre) : L'ouverture des commerces le dimanche doit être libre.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: economie-ouverture-dimanche-libre-v2
-  text: "Les commerces doivent pouvoir ouvrir le dimanche sans autorisation dérogatoire spécifique."
+  text: "Les commerces doivent pouvoir ouvrir le dimanche sans autorisation préalable."
   themes:
     - economie
   polarity: "-"
@@ -99,32 +97,29 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `economie-plafonner-prix-alimentaires` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les prix des produits alimentaires de première nécessité doivent être plafonnés par l'État.
-# Motif : La catégorie « produits de première nécessité » doit être définie dans l'interface ou dans une note ; le périmètre conditionne fortement l'opinion.
-- id: economie-plafonner-prix-alimentaires-v2
-  text: "Les prix de certains produits alimentaires de première nécessité doivent être plafonnés par l'État."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: economie-plafonner-prix-alimentaires
+  text: "Les prix des produits alimentaires de première nécessité doivent être plafonnés par l'État."
   themes:
     - economie
   polarity: +
   status: draft
   author: claude
-# Reformulation de `economie-encadrer-marges-distribution` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les marges de la grande distribution doivent être encadrées par la loi.
-# Motif : « Encadrées » peut désigner de nombreux mécanismes ; « plafonnées » mesure une intervention plus précise. Vérifier que c'est bien la mesure visée.
-- id: economie-encadrer-marges-distribution-v2
-  text: "Les marges commerciales de la grande distribution doivent être plafonnées par la loi."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: economie-encadrer-marges-distribution
+  text: "Les marges de la grande distribution doivent être encadrées par la loi."
   themes:
     - economie
     - agriculture
   polarity: +
   status: draft
   author: claude
-# Reformulation de `economie-etat-finance-usines` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'État doit financer directement la construction d'usines dans les secteurs qu'il juge prioritaires.
-# Motif : « Qu'il juge prioritaires » laisse le périmètre entièrement indéterminé ; la question reste défendable mais nécessite une définition des secteurs.
-- id: economie-etat-finance-usines-v2
-  text: "L'État doit financer directement la construction d'usines dans des secteurs définis comme prioritaires."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: economie-etat-finance-usines
+  text: "L'État doit financer directement la construction d'usines dans les secteurs qu'il juge prioritaires."
   themes:
     - economie
   polarity: +
@@ -143,11 +138,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `economie-regle-equilibre-constitution` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Une règle d'équilibre des comptes publics doit être inscrite dans la Constitution.
-# Motif : « Équilibre des comptes publics » peut signifier équilibre annuel, structurel ou trajectoire de dette ; préciser l'objet de la règle.
-- id: economie-regle-equilibre-constitution-v2
-  text: "La Constitution doit fixer une règle limitant le déficit ou l'endettement des administrations publiques."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: economie-regle-equilibre-constitution
+  text: "Une règle d'équilibre des comptes publics doit être inscrite dans la Constitution."
   themes:
     - economie
     - institutions

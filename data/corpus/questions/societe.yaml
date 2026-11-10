@@ -2,20 +2,19 @@
 # Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
-# Reformulation de `societe-aide-active-a-mourir` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'aide active à mourir doit être autorisée pour les adultes atteints d'une maladie incurable.
-# Motif : « Maladie incurable » ne décrit pas à elle seule les critères possibles d'accès ; le périmètre légal est décisif et peut déplacer les réponses.
-- id: societe-aide-active-a-mourir-v2
-  text: "L'aide à mourir doit être autorisée en France sous des conditions définies par la loi."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: societe-aide-active-a-mourir
+  text: "L'aide active à mourir doit être autorisée pour les adultes atteints d'une maladie incurable."
   themes:
     - societe
     - sante
   polarity: +
   status: draft
   author: claude
-# Reformulation de `societe-gpa-interdite` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : La gestation pour autrui doit rester interdite en France.
-# Motif : « Rester » présuppose le maintien du droit existant. La nouvelle version conserve la position sans présupposé temporel.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (societe-gpa-interdite) : La gestation pour autrui doit rester interdite en France.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: societe-gpa-interdite-v2
   text: "La gestation pour autrui doit être interdite en France."
   themes:
@@ -116,32 +115,31 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `societe-salles-consommation-drogue` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les salles de consommation de drogue à moindre risque doivent être généralisées.
-# Motif : « À moindre risque » est une qualification de politique publique ; « supervisée » décrit plus directement le dispositif. « Généralisées » est imprécis.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (societe-salles-consommation-drogue) : Les salles de consommation de drogue à moindre risque doivent être généralisées.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: societe-salles-consommation-drogue-v2
-  text: "Des salles de consommation supervisée de drogues doivent être ouvertes dans davantage de villes."
+  text: "Les salles de consommation de drogue supervisées doivent être généralisées."
   themes:
     - societe
     - sante
   polarity: +
   status: draft
   author: claude
-# Reformulation de `societe-statut-beau-parent` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Le beau-parent doit pouvoir obtenir un statut juridique lui donnant des droits sur l'enfant de son conjoint.
-# Motif : « Des droits sur l'enfant » est imprécis et réducteur ; droits et devoirs doivent être distingués. La portée du statut est à définir.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (societe-statut-beau-parent) : Le beau-parent doit pouvoir obtenir un statut juridique lui donnant des droits sur l'enfant de son conjoint.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: societe-statut-beau-parent-v2
-  text: "Un beau-parent doit pouvoir obtenir un statut juridique lui donnant certains droits et devoirs à l'égard de l'enfant de son conjoint."
+  text: "Un beau-parent doit pouvoir obtenir un statut juridique lui donnant des droits à l'égard de l'enfant de son conjoint."
   themes:
     - societe
   polarity: +
   status: draft
   author: claude
-# Reformulation de `societe-casinos-en-ligne` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les jeux de casino en ligne doivent être légalisés et encadrés.
-# Motif : « Légalisés et encadrés » associe autorisation et modalités de régulation ; si l'objet est l'autorisation, isoler cette décision.
-- id: societe-casinos-en-ligne-v2
-  text: "Les jeux de casino en ligne doivent être autorisés en France."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: societe-casinos-en-ligne
+  text: "Les jeux de casino en ligne doivent être légalisés et encadrés."
   themes:
     - societe
   polarity: +
@@ -160,21 +158,19 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `societe-signes-religieux-universite` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Le port de signes religieux ostensibles doit être interdit aux étudiants à l'université.
-# Motif : « Ostensibles » peut être compris au sens juridique ou courant ; préciser le périmètre institutionnel et le terme retenu.
-- id: societe-signes-religieux-universite-v2
-  text: "Le port de signes religieux visibles doit être interdit aux étudiants dans les universités publiques."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: societe-signes-religieux-universite
+  text: "Le port de signes religieux ostensibles doit être interdit aux étudiants à l'université."
   themes:
     - societe
   polarity: "-"
   status: draft
   author: claude
-# Reformulation de `societe-interdire-ecriture-inclusive` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'écriture inclusive doit être interdite dans les documents administratifs.
-# Motif : « Écriture inclusive » recouvre plusieurs pratiques ; préciser le procédé visé pour rendre les réponses comparables.
-- id: societe-interdire-ecriture-inclusive-v2
-  text: "L'usage du point médian et des formes typographiques inclusives doit être interdit dans les documents administratifs."
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : AMBIGUOUS ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: societe-interdire-ecriture-inclusive
+  text: "L'écriture inclusive doit être interdite dans les documents administratifs."
   themes:
     - societe
   polarity: "-"

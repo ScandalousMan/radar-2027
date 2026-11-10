@@ -67,9 +67,9 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `transport-autoroutes-concedees` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les autoroutes doivent rester concédées à des sociétés privées.
-# Motif : « Rester » présuppose le statu quo ; distinguer propriété des infrastructures et mode d'exploitation.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (transport-autoroutes-concedees) : Les autoroutes doivent rester concédées à des sociétés privées.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-autoroutes-concedees-v2
   text: "L'exploitation des autoroutes doit continuer à être confiée à des sociétés privées dans le cadre de concessions."
   themes:
@@ -90,11 +90,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `transport-petites-lignes-maintenues` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les petites lignes ferroviaires doivent être maintenues même lorsqu'elles sont peu fréquentées.
-# Motif : « Même lorsqu'elles sont peu fréquentées » laisse de côté le coût et le niveau de service ; préciser l'arbitrage mesuré.
-- id: transport-petites-lignes-maintenues-v2
-  text: "Les lignes ferroviaires régionales peu fréquentées doivent être maintenues même si leur exploitation nécessite une subvention publique."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: transport-petites-lignes-maintenues
+  text: "Les petites lignes ferroviaires doivent être maintenues même lorsqu'elles sont peu fréquentées."
   themes:
     - transport
   polarity: +
@@ -126,19 +125,18 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `transport-abonnement-national-unique` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Un abonnement national unique donnant accès aux trains régionaux et aux transports urbains doit être créé.
-# Motif : « Donner accès » peut laisser croire à une couverture universelle ; préciser les réseaux couverts. Le tarif et les modalités ne sont pas définis.
-- id: transport-abonnement-national-unique-v2
-  text: "Un abonnement national unique doit permettre d'utiliser les trains régionaux et les réseaux de transports urbains participants."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: transport-abonnement-national-unique
+  text: "Un abonnement national unique donnant accès aux trains régionaux et aux transports urbains doit être créé."
   themes:
     - transport
   polarity: +
   status: draft
   author: claude
-# Reformulation de `transport-sncf-entreprise-publique` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : La SNCF doit rester une entreprise entièrement publique.
-# Motif : « Rester » présuppose le statu quo ; préciser si l'on parle de l'entreprise, de ses filiales ou de l'ensemble du groupe.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (transport-sncf-entreprise-publique) : La SNCF doit rester une entreprise entièrement publique.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-sncf-entreprise-publique-v2
   text: "La SNCF doit être détenue intégralement par des entités publiques."
   themes:
@@ -161,11 +159,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `transport-voitures-centres-villes-libres` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'accès des voitures aux centres-villes doit rester libre.
-# Motif : « Rester libre » est vague et peut être compris comme absence de toute règle, y compris piétonnisation ou zones réglementées.
-- id: transport-voitures-centres-villes-libres-v2
-  text: "L'accès des voitures particulières aux centres-villes ne doit pas être soumis à des restrictions générales de circulation."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: transport-voitures-centres-villes-libres
+  text: "L'accès des voitures aux centres-villes doit rester libre."
   themes:
     - transport
   polarity: "-"
@@ -197,9 +194,9 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `transport-supprimer-controle-technique-motos` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Le contrôle technique des deux-roues motorisés doit être supprimé.
-# Motif : Préciser qu'il s'agit du contrôle périodique obligatoire, et non de tout contrôle de sécurité.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (transport-supprimer-controle-technique-motos) : Le contrôle technique des deux-roues motorisés doit être supprimé.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-supprimer-controle-technique-motos-v2
   text: "Le contrôle technique périodique obligatoire des deux-roues motorisés doit être supprimé."
   themes:

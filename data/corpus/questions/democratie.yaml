@@ -15,11 +15,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `democratie-referendum-exceptionnel` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Le recours au référendum doit rester exceptionnel.
-# Motif : « Exceptionnel » est vague et normatif ; préciser le principe de limitation.
-- id: democratie-referendum-exceptionnel-v2
-  text: "Le recours au référendum national doit être limité à des circonstances définies par la Constitution."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: democratie-referendum-exceptionnel
+  text: "Le recours au référendum doit rester exceptionnel."
   themes:
     - democratie
   polarity: "-"
@@ -38,9 +37,9 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `democratie-assemblees-tirees-consultatives` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les assemblées citoyennes tirées au sort doivent conserver un rôle uniquement consultatif.
-# Motif : « Conserver » présuppose un statut actuel ; la reformulation exprime le choix institutionnel.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (democratie-assemblees-tirees-consultatives) : Les assemblées citoyennes tirées au sort doivent conserver un rôle uniquement consultatif.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-assemblees-tirees-consultatives-v2
   text: "Les assemblées citoyennes tirées au sort doivent avoir un rôle consultatif et non décisionnel."
   themes:
@@ -61,9 +60,9 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `democratie-referendum-reserve-elus` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : La décision de convoquer un référendum doit rester réservée au président de la République et au Parlement.
-# Motif : La version initiale peut être comprise comme exigeant une décision conjointe ; préciser l'alternative institutionnelle.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (democratie-referendum-reserve-elus) : La décision de convoquer un référendum doit rester réservée au président de la République et au Parlement.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-referendum-reserve-elus-v2
   text: "Le déclenchement d'un référendum national doit rester de la compétence du président de la République ou du Parlement."
   themes:
@@ -85,11 +84,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `democratie-budget-participatif-communes` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Chaque commune de plus de 10 000 habitants doit consacrer une part de son budget à des projets choisis par les habitants.
-# Motif : « Une part de son budget » ne distingue pas fonctionnement et investissement ; préciser l'assiette.
-- id: democratie-budget-participatif-communes-v2
-  text: "Les communes de plus de 10 000 habitants doivent consacrer une part de leur budget d'investissement à des projets choisis par les habitants."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: democratie-budget-participatif-communes
+  text: "Chaque commune de plus de 10 000 habitants doit consacrer une part de son budget à des projets choisis par les habitants."
   themes:
     - democratie
   polarity: +
@@ -162,9 +160,9 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `democratie-seuil-rip-maintenu` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Le référendum d'initiative partagée doit continuer d'exiger le soutien d'un dixième des électeurs inscrits.
-# Motif : « Continuer d'exiger » présuppose le maintien du droit actuel ; la reformulation isole le seuil. Vérifier la cohérence juridique du seuil avant publication.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (democratie-seuil-rip-maintenu) : Le référendum d'initiative partagée doit continuer d'exiger le soutien d'un dixième des électeurs inscrits.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-seuil-rip-maintenu-v2
   text: "Le seuil de soutien d'un dixième des électeurs inscrits doit être maintenu pour déclencher un référendum d'initiative partagée."
   themes:
@@ -172,21 +170,19 @@
   polarity: "-"
   status: draft
   author: claude
-# Reformulation de `democratie-parrainages-elus-maintenus` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les candidats à l'élection présidentielle doivent continuer à recueillir 500 parrainages d'élus.
-# Motif : « Continuer » présuppose le statu quo ; « présentations » est le terme juridique usuel à privilégier.
-- id: democratie-parrainages-elus-maintenus-v2
-  text: "L'accès à l'élection présidentielle doit rester conditionné à l'obtention de 500 présentations d'élus."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: democratie-parrainages-elus-maintenus
+  text: "Les candidats à l'élection présidentielle doivent continuer à recueillir 500 parrainages d'élus."
   themes:
     - democratie
   polarity: "-"
   status: draft
   author: claude
-# Reformulation de `democratie-raccourcir-consultations-public` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les procédures de consultation du public sur les projets d'aménagement doivent être raccourcies.
-# Motif : « Raccourcies » ne dit pas si la durée, le nombre d'étapes ou les délais de recours sont concernés.
-- id: democratie-raccourcir-consultations-public-v2
-  text: "La durée des procédures de consultation du public sur les projets d'aménagement doit être réduite."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: democratie-raccourcir-consultations-public
+  text: "Les procédures de consultation du public sur les projets d'aménagement doivent être raccourcies."
   themes:
     - democratie
   polarity: "-"

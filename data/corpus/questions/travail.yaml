@@ -55,19 +55,19 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `travail-limiter-licenciements-beneficiaires` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les entreprises bénéficiaires doivent être limitées dans leur recours aux licenciements économiques.
-# Motif : « Bénéficiaires » ne précise pas de quelles aides ; « limitées dans leur recours » ne définit pas la contrainte.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (travail-limiter-licenciements-beneficiaires) : Les entreprises bénéficiaires doivent être limitées dans leur recours aux licenciements économiques.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-limiter-licenciements-beneficiaires-v2
-  text: "Les entreprises ayant reçu des aides publiques doivent être soumises à des restrictions concernant les licenciements économiques."
+  text: "Les entreprises qui réalisent des bénéfices doivent être limitées dans leur recours aux licenciements économiques."
   themes:
     - travail
   polarity: +
   status: draft
   author: claude
-# Reformulation de `travail-plafond-prudhommes-maintenu` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Le plafond des indemnités prud'homales en cas de licenciement abusif doit être maintenu.
-# Motif : « Licenciement abusif » est une expression courante mais juridiquement imprécise ; « maintenu » présuppose le statu quo.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (travail-plafond-prudhommes-maintenu) : Le plafond des indemnités prud'homales en cas de licenciement abusif doit être maintenu.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-plafond-prudhommes-maintenu-v2
   text: "Le barème légal plafonnant les indemnités accordées par les prud'hommes en cas de licenciement sans cause réelle et sérieuse doit être maintenu."
   themes:
@@ -102,21 +102,19 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `travail-plafonner-ecart-salaires` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'écart entre les salaires les plus élevés et les plus bas d'une même entreprise doit être plafonné par la loi.
-# Motif : Préciser si la comparaison porte sur salaire brut, rémunération totale et temps plein équivalent.
-- id: travail-plafonner-ecart-salaires-v2
-  text: "La loi doit fixer un écart maximal entre la rémunération la plus élevée et la plus faible au sein d'une même entreprise."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: travail-plafonner-ecart-salaires
+  text: "L'écart entre les salaires les plus élevés et les plus bas d'une même entreprise doit être plafonné par la loi."
   themes:
     - travail
   polarity: +
   status: draft
   author: claude
-# Reformulation de `travail-salaries-conseils-administration` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les salariés doivent occuper au moins un tiers des sièges des conseils d'administration des grandes entreprises.
-# Motif : « Grandes entreprises » n'est pas défini ; le seuil d'effectif est nécessaire pour rendre la mesure opératoire.
-- id: travail-salaries-conseils-administration-v2
-  text: "Les salariés doivent occuper au moins un tiers des sièges des conseils d'administration des sociétés dépassant un seuil d'effectif défini."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: travail-salaries-conseils-administration
+  text: "Les salariés doivent occuper au moins un tiers des sièges des conseils d'administration des grandes entreprises."
   themes:
     - travail
     - economie
@@ -136,11 +134,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `travail-plateformes-presomption-salariat` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les travailleurs des plateformes numériques doivent être présumés salariés.
-# Motif : La présomption juridique doit être expliquée ; vérifier que le mécanisme envisagé correspond bien à une présomption simple ou irréfragable.
-- id: travail-plateformes-presomption-salariat-v2
-  text: "Les travailleurs des plateformes numériques doivent bénéficier d'une présomption de salariat, sauf preuve contraire."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: travail-plateformes-presomption-salariat
+  text: "Les travailleurs des plateformes numériques doivent être présumés salariés."
   themes:
     - travail
     - numerique
@@ -187,22 +184,19 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `travail-smic-regional` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Le SMIC doit pouvoir varier selon les régions.
-# Motif : La variation territoriale du SMIC n'est pas nécessairement une baisse des protections collectives ; la polarité − est plausible mais ne découle pas mécaniquement de l'axe Travail.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: travail-smic-regional-v2
-  text: "Le montant du salaire minimum légal doit pouvoir varier selon les régions."
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : FAITHFUL ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: travail-smic-regional
+  text: "Le SMIC doit pouvoir varier selon les régions."
   themes:
     - travail
   polarity: "-"
   status: draft
   author: claude
-# Reformulation de `travail-statut-fonction-publique-regalien` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Le statut de fonctionnaire doit être réservé aux missions régaliennes de l'État.
-# Motif : « Missions régaliennes » est une catégorie large et contestable ; une note explicative ou une liste d'exemples est nécessaire.
-- id: travail-statut-fonction-publique-regalien-v2
-  text: "Le statut de fonctionnaire titulaire doit être réservé aux emplois correspondant aux missions régaliennes de l'État."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: travail-statut-fonction-publique-regalien
+  text: "Le statut de fonctionnaire doit être réservé aux missions régaliennes de l'État."
   themes:
     - travail
   polarity: "-"

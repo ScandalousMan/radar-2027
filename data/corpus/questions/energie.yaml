@@ -110,11 +110,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `energie-centres-donnees-electricite-renouvelable` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'implantation de centres de données doit être conditionnée à une production d'électricité renouvelable dédiée.
-# Motif : « Production dédiée » peut signifier une centrale physiquement raccordée ou un contrat d'approvisionnement ; préciser le mécanisme.
-- id: energie-centres-donnees-electricite-renouvelable-v2
-  text: "L'autorisation d'implantation de centres de données doit être conditionnée à la contractualisation d'une production d'électricité renouvelable dédiée."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: energie-centres-donnees-electricite-renouvelable
+  text: "L'implantation de centres de données doit être conditionnée à une production d'électricité renouvelable dédiée."
   themes:
     - energie
     - numerique

@@ -55,19 +55,18 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `numerique-logiciels-libres-administration` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les administrations doivent utiliser en priorité des logiciels libres ou hébergés en Europe.
-# Motif : La formulation combine deux critères différents : logiciel libre et hébergement en Europe. Il faut choisir l'un, ou créer deux énoncés distincts.
-- id: numerique-logiciels-libres-administration-v2
-  text: "Les administrations doivent privilégier les logiciels libres."
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: numerique-logiciels-libres-administration
+  text: "Les administrations doivent utiliser en priorité des logiciels libres ou hébergés en Europe."
   themes:
     - numerique
   polarity: +
   status: draft
   author: claude
-# Reformulation de `numerique-chiffrement-messageries` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Le chiffrement des messageries privées doit rester hors d'atteinte des autorités.
-# Motif : « Hors d'atteinte » est imagé et imprécis ; préciser le type d'accès et le périmètre technique.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (numerique-chiffrement-messageries) : Le chiffrement des messageries privées doit rester hors d'atteinte des autorités.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: numerique-chiffrement-messageries-v2
   text: "Les autorités publiques ne doivent pas pouvoir accéder au contenu des messages privés protégés par un chiffrement de bout en bout."
   themes:
@@ -89,22 +88,20 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `numerique-telephone-interdit-lycees` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'usage du téléphone portable doit être interdit dans l'enceinte des lycées.
-# Motif : « Dans l'enceinte » peut inclure espaces extérieurs ; préciser le périmètre et les exceptions.
-- id: numerique-telephone-interdit-lycees-v2
-  text: "L'utilisation des téléphones portables doit être interdite dans les locaux des lycées, sauf exceptions définies par le règlement."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: numerique-telephone-interdit-lycees
+  text: "L'usage du téléphone portable doit être interdit dans l'enceinte des lycées."
   themes:
     - numerique
     - societe
   polarity: +
   status: draft
   author: claude
-# Reformulation de `numerique-donnees-sante-hebergeurs-europeens` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les données de santé des Français doivent être hébergées exclusivement par des entreprises européennes.
-# Motif : « Entreprises européennes » désigne la nationalité du fournisseur plutôt que la localisation et la juridiction de l'hébergement.
-- id: numerique-donnees-sante-hebergeurs-europeens-v2
-  text: "Les données de santé des personnes prises en charge en France doivent être hébergées dans l'Union européenne."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: numerique-donnees-sante-hebergeurs-europeens
+  text: "Les données de santé des Français doivent être hébergées exclusivement par des entreprises européennes."
   themes:
     - numerique
     - sante
@@ -192,9 +189,9 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `numerique-responsabilite-plateformes-limitee` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : La responsabilité des plateformes pour les contenus publiés par leurs utilisateurs doit rester limitée.
-# Motif : « Rester limitée » présuppose une situation actuelle et ne précise pas la nature de la responsabilité.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (numerique-responsabilite-plateformes-limitee) : La responsabilité des plateformes pour les contenus publiés par leurs utilisateurs doit rester limitée.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: numerique-responsabilite-plateformes-limitee-v2
   text: "La responsabilité juridique des plateformes pour les contenus publiés par leurs utilisateurs doit être limitée."
   themes:

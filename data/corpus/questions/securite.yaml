@@ -16,12 +16,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `securite-recepisse-controles-identite` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les contrôles d'identité doivent donner lieu à la remise d'un récépissé.
-# Motif : Cette mesure relève surtout de la traçabilité et des garanties procédurales, pas directement de « moins de moyens et de pouvoirs » policiers. Polarité à revoir ou axe Sécurité à élargir.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: securite-recepisse-controles-identite-v2
-  text: "Toute personne faisant l'objet d'un contrôle d'identité doit pouvoir recevoir un récépissé."
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: securite-recepisse-controles-identite
+  text: "Les contrôles d'identité doivent donner lieu à la remise d'un récépissé."
   themes:
     - securite
   polarity: "-"
@@ -66,12 +64,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `securite-budget-vers-prevention` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Une partie du budget des forces de l'ordre doit être réorientée vers la prévention de la délinquance.
-# Motif : La polarité « moins de moyens et de pouvoirs » est approximative : le volume budgétaire peut rester inchangé ; l'énoncé mesure une réallocation.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: securite-budget-vers-prevention-v2
-  text: "Une part du budget consacré aux forces de l'ordre doit être transférée vers des actions de prévention de la délinquance."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: securite-budget-vers-prevention
+  text: "Une partie du budget des forces de l'ordre doit être réorientée vers la prévention de la délinquance."
   themes:
     - securite
   polarity: "-"
@@ -144,12 +140,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `securite-enquetes-policiers-independantes` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les enquêtes visant des policiers doivent être confiées à un organisme indépendant du ministère de l'Intérieur.
-# Motif : L'indépendance du contrôle ne signifie pas nécessairement moins de moyens ou de pouvoirs policiers. Ne pas coder automatiquement en p− sur l'axe actuel.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: securite-enquetes-policiers-independantes-v2
-  text: "Les enquêtes portant sur des faits susceptibles d'être imputés à des policiers doivent être confiées à une autorité indépendante du ministère de l'Intérieur."
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: securite-enquetes-policiers-independantes
+  text: "Les enquêtes visant des policiers doivent être confiées à un organisme indépendant du ministère de l'Intérieur."
   themes:
     - securite
     - justice
@@ -169,24 +163,20 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `securite-renseignement-autorisation-juge` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les techniques de renseignement doivent être soumises à l'autorisation préalable d'un juge.
-# Motif : Il s'agit d'un contrôle juridictionnel préalable, pas simplement d'une diminution des moyens policiers ; polarité à revoir.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: securite-renseignement-autorisation-juge-v2
-  text: "La mise en œuvre des techniques de renseignement doit être soumise à l'autorisation préalable d'un juge."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: securite-renseignement-autorisation-juge
+  text: "Les techniques de renseignement doivent être soumises à l'autorisation préalable d'un juge."
   themes:
     - securite
     - numerique
   polarity: "-"
   status: draft
   author: claude
-# Reformulation de `securite-limiter-dissolution-associations` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Le pouvoir du gouvernement de dissoudre des associations par décret doit être limité.
-# Motif : L'énoncé concerne le pouvoir exécutif sur les associations, pas les moyens ou pouvoirs des forces de l'ordre ; mauvais rattachement à l'axe Sécurité.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: securite-limiter-dissolution-associations-v2
-  text: "Les motifs permettant au gouvernement de dissoudre une association par décret doivent être restreints."
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: securite-limiter-dissolution-associations
+  text: "Le pouvoir du gouvernement de dissoudre des associations par décret doit être limité."
   themes:
     - securite
   polarity: "-"
@@ -205,12 +195,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `securite-manifestations-sans-declaration` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les manifestations doivent pouvoir se tenir sans déclaration préalable en préfecture.
-# Motif : La déclaration relève de la liberté de manifestation et du pouvoir administratif ; la polarité ne mesure pas directement les moyens/pouvoirs des forces de l'ordre.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: securite-manifestations-sans-declaration-v2
-  text: "Les manifestations sur la voie publique doivent pouvoir être organisées sans déclaration préalable en préfecture."
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: securite-manifestations-sans-declaration
+  text: "Les manifestations doivent pouvoir se tenir sans déclaration préalable en préfecture."
   themes:
     - securite
     - democratie

@@ -29,11 +29,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `agriculture-prix-plancher-agricoles` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Des prix plancher garantis doivent être fixés pour les principales productions agricoles.
-# Motif : « Principales productions » est indéfini ; « prix plancher » est un terme de politique publique acceptable mais « prix minimaux garantis » est plus accessible.
-- id: agriculture-prix-plancher-agricoles-v2
-  text: "Des prix minimaux garantis doivent être fixés pour certaines productions agricoles."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: agriculture-prix-plancher-agricoles
+  text: "Des prix plancher garantis doivent être fixés pour les principales productions agricoles."
   themes:
     - agriculture
   polarity: +
@@ -52,9 +51,9 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `agriculture-bio-restauration-collective` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : La part des produits biologiques dans la restauration collective publique doit être portée à 30 %.
-# Motif : Préciser si le pourcentage porte sur la valeur des achats, le volume ou le nombre de produits.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (agriculture-bio-restauration-collective) : La part des produits biologiques dans la restauration collective publique doit être portée à 30 %.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: agriculture-bio-restauration-collective-v2
   text: "Les produits issus de l'agriculture biologique doivent représenter au moins 30 % des achats alimentaires de la restauration collective publique."
   themes:
@@ -75,9 +74,9 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `agriculture-origine-viandes-restaurants` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'origine des viandes doit être obligatoirement indiquée dans les plats servis par les restaurants.
-# Motif : Le terme « origine » doit être défini (pays d'élevage, d'abattage, lieu de transformation) pour éviter des interprétations divergentes.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (agriculture-origine-viandes-restaurants) : L'origine des viandes doit être obligatoirement indiquée dans les plats servis par les restaurants.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: agriculture-origine-viandes-restaurants-v2
   text: "Les restaurants doivent indiquer l'origine des viandes utilisées dans les plats qu'ils servent."
   themes:
@@ -138,22 +137,20 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `agriculture-chalut-aires-protegees` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : La pêche au chalut de fond doit être interdite dans les aires marines protégées.
-# Motif : « Aires marines protégées » recouvre des niveaux de protection différents ; préciser si l'interdiction concerne toutes les catégories.
-- id: agriculture-chalut-aires-protegees-v2
-  text: "La pêche au chalut de fond doit être interdite dans les zones marines bénéficiant d'un statut de protection."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: agriculture-chalut-aires-protegees
+  text: "La pêche au chalut de fond doit être interdite dans les aires marines protégées."
   themes:
     - agriculture
     - environnement
   polarity: +
   status: draft
   author: claude
-# Reformulation de `agriculture-autoriser-nouvelles-techniques-genomiques` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : La culture de plantes issues des nouvelles techniques génomiques doit être autorisée en France.
-# Motif : Le terme technique est peu connu et les positions publiques varient selon les techniques et leur encadrement ; ajouter une définition courte dans l'interface.
-- id: agriculture-autoriser-nouvelles-techniques-genomiques-v2
-  text: "La culture en France de plantes obtenues par de nouvelles techniques génomiques doit être autorisée sous un régime spécifique."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: agriculture-autoriser-nouvelles-techniques-genomiques
+  text: "La culture de plantes issues des nouvelles techniques génomiques doit être autorisée en France."
   themes:
     - agriculture
   polarity: "-"
@@ -186,9 +183,9 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `agriculture-tirs-loups-sans-autorisation` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les éleveurs doivent pouvoir abattre sans autorisation préalable un loup qui attaque leur troupeau.
-# Motif : « Sans autorisation préalable » peut être compris comme absence de toute condition ou contrôle ; préciser les circonstances et obligations de signalement.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (agriculture-tirs-loups-sans-autorisation) : Les éleveurs doivent pouvoir abattre sans autorisation préalable un loup qui attaque leur troupeau.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: agriculture-tirs-loups-sans-autorisation-v2
   text: "Un éleveur doit pouvoir abattre un loup attaquant son troupeau sans autorisation administrative préalable."
   themes:
@@ -197,11 +194,10 @@
   polarity: "-"
   status: draft
   author: claude
-# Reformulation de `agriculture-curage-fosses-sans-autorisation` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les agriculteurs doivent pouvoir curer les fossés et les cours d'eau sans autorisation préalable.
-# Motif : L'item combine fossés et cours d'eau, qui ne relèvent pas nécessairement des mêmes règles ; « curer » est technique et le champ d'application doit être borné.
-- id: agriculture-curage-fosses-sans-autorisation-v2
-  text: "Les agriculteurs doivent pouvoir entretenir les fossés agricoles sans autorisation préalable, dans le respect des règles de protection des cours d'eau."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: agriculture-curage-fosses-sans-autorisation
+  text: "Les agriculteurs doivent pouvoir curer les fossés et les cours d'eau sans autorisation préalable."
   themes:
     - agriculture
   polarity: "-"

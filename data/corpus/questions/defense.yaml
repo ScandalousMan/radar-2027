@@ -69,12 +69,11 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `defense-controle-exportations-armes` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : Les exportations d'armes françaises doivent être soumises à un contrôle parlementaire préalable.
-# Motif : Le contrôle parlementaire porte sur la gouvernance et la transparence, pas directement sur le niveau de dépense ou d'engagement militaire ; la polarité − n'est pas justifiée.
-# P! : polarité ou thème à trancher en seconde passe.
-- id: defense-controle-exportations-armes-v2
-  text: "Les exportations d'armes françaises doivent être soumises à l'approbation préalable du Parlement."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : CHANGE_AXIS.
+# Affectation proposée, à confirmer : thème institutions, polarité +.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: defense-controle-exportations-armes
+  text: "Les exportations d'armes françaises doivent être soumises à un contrôle parlementaire préalable."
   themes:
     - defense
   polarity: "-"
@@ -93,9 +92,9 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `defense-dissuasion-protection-europe` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : La dissuasion nucléaire française doit couvrir explicitement la protection des autres pays européens.
-# Motif : « Couvrir la protection » est peu précis ; la question concerne une doctrine de garantie, non un déploiement matériel.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (defense-dissuasion-protection-europe) : La dissuasion nucléaire française doit couvrir explicitement la protection des autres pays européens.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: defense-dissuasion-protection-europe-v2
   text: "La France doit étendre explicitement sa doctrine de dissuasion nucléaire à la protection de ses partenaires européens."
   themes:
@@ -117,9 +116,9 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `defense-troupes-ukraine-cessez-le-feu` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : La France doit être prête à déployer des troupes en Ukraine pour garantir un cessez-le-feu.
-# Motif : « Garantir un cessez-le-feu » est une finalité très large qui présuppose la capacité de garantie ; préciser le cadre du déploiement.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (defense-troupes-ukraine-cessez-le-feu) : La France doit être prête à déployer des troupes en Ukraine pour garantir un cessez-le-feu.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: defense-troupes-ukraine-cessez-le-feu-v2
   text: "La France doit être prête à déployer des militaires en Ukraine dans le cadre d'un accord de cessez-le-feu."
   themes:
@@ -141,11 +140,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Reformulation de `defense-livret-a-industrie-defense` proposée par la relecture du 2026-11-09, endossée par adrien.
-# Ancien texte : L'épargne du livret A doit pouvoir financer l'industrie de défense.
-# Motif : La formulation est compréhensible mais touche à l'affectation de l'épargne réglementée, pas seulement au budget militaire ; conserver si cet enjeu est voulu.
-- id: defense-livret-a-industrie-defense-v2
-  text: "Les fonds collectés par le Livret A doivent pouvoir financer des entreprises de l'industrie de défense."
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: defense-livret-a-industrie-defense
+  text: "L'épargne du livret A doit pouvoir financer l'industrie de défense."
   themes:
     - defense
     - economie
