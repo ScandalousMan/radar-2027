@@ -1,0 +1,322 @@
+<title>Relecture de la banque radar-2027</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Une colonne de lecture (~800px), barre de filtres collante, un bloc par thème effectif, une fiche par énoncé. */
+:root {
+  --bg: #f6f7f6; --surface: #ffffff; --fg: #1d2523; --muted: #5d6b67; --line: #d9dfdc;
+  --accent: #1f6f78; --accent-soft: #e2f0f1;
+  --keep: #2f7a4b; --keep-soft: #e3f2e8; --rework: #9a6a12; --rework-soft: #f8eed8; --drop: #8a3b3b; --drop-soft: #f6e4e4; --hold: #5b4f9a; --hold-soft: #ecebf7;
+  --warn: #b5541c;
+  --font-text: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-ui: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #131817; --surface: #1b2220; --fg: #e4ebe8; --muted: #9aa8a3; --line: #2e3835; --accent: #5fb7bf; --accent-soft: #1d3436;
+  --keep: #6cc38c; --keep-soft: #1d3326; --rework: #e0b45c; --rework-soft: #362c17; --drop: #e08a8a; --drop-soft: #3a2222; --hold: #b3a8f0; --hold-soft: #27243d;
+  --warn: #f0965c; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #131817; --surface: #1b2220; --fg: #e4ebe8; --muted: #9aa8a3; --line: #2e3835; --accent: #5fb7bf; --accent-soft: #1d3436;
+  --keep: #6cc38c; --keep-soft: #1d3326; --rework: #e0b45c; --rework-soft: #362c17; --drop: #e08a8a; --drop-soft: #3a2222; --hold: #b3a8f0; --hold-soft: #27243d;
+  --warn: #f0965c; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-ui); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 24px 64px }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg) }
+.wrap { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px }
+h1 { font-weight: 600; font-size: 1.55rem; margin: 0; text-wrap: balance }
+.lede { color: var(--muted); margin: 0; max-width: 68ch }
+.summary { display: flex; flex-wrap: wrap; gap: 6px 16px; font-variant-numeric: tabular-nums; font-size: .88rem }
+.fr012 { font-size: .9rem; padding: 8px 12px; border-radius: 6px; background: var(--drop-soft); color: var(--fg) }
+.fr012.ok { background: var(--keep-soft) }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 8px; align-items: center }
+.bar select, .bar input { font: inherit; font-size: .88rem; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); min-width: 0 }
+.bar input { flex: 1 1 160px }
+.status { font-size: .8rem; color: var(--muted); margin-left: auto }
+.status.err { color: var(--warn) }
+details.help { font-size: .88rem; color: var(--muted) }
+details.help summary { cursor: pointer; color: var(--accent) }
+details.help ul { padding-left: 1.2em; margin: 6px 0 0 }
+section.theme { display: flex; flex-direction: column; gap: 10px }
+.theme-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; align-items: baseline; padding-top: 12px }
+.theme-head h2 { margin: 0; font-size: 1.12rem; font-weight: 600 }
+.axis { font-size: .8rem; color: var(--muted); width: 100% }
+.balance { font-size: .82rem; font-variant-numeric: tabular-nums; color: var(--muted) }
+.balance.bad { color: var(--warn); font-weight: 600 }
+article.q { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; border-left: 4px solid var(--line) }
+article.q[data-d="keep"] { border-left-color: var(--keep) }
+article.q[data-d="rework"] { border-left-color: var(--rework) }
+article.q[data-d="drop"] { border-left-color: var(--drop) }
+article.q[data-d="out_of_scope"], article.q[data-d="arbitration"], article.q[data-d="polarity_unknown"] { border-left-color: var(--hold) }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: .78rem; color: var(--muted) }
+.qid { font-family: var(--font-mono); font-size: .74rem; overflow-wrap: anywhere }
+.chip { border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; white-space: nowrap }
+.chip.p { border-color: var(--rework); color: var(--rework) }
+.chip.hold { border-color: var(--hold); color: var(--hold) }
+.lbl { font-size: .74rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em }
+.orig { font-family: var(--font-text); font-size: .98rem; margin: 0 }
+.prev { font-family: var(--font-text); font-size: .92rem; color: var(--muted); margin: 0 }
+.why { font-size: .85rem; margin: 0 }
+textarea { font: inherit; font-size: .9rem; width: 100%; min-height: 2.6em; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); resize: vertical }
+textarea.final { font-family: var(--font-text); font-size: 1.05rem }
+.count { font-size: .76rem; color: var(--muted); font-variant-numeric: tabular-nums }
+.count.bad { color: var(--warn); font-weight: 600 }
+.box { border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; display: flex; flex-direction: column; gap: 6px; font-size: .85rem }
+.box.need { border-color: var(--rework); border-style: dashed }
+.box dl { display: grid; grid-template-columns: max-content 1fr; gap: 2px 10px; margin: 0 }
+.box dt { color: var(--muted) }
+.box dd { margin: 0; min-width: 0 }
+.box select, .crit select { font: inherit; font-size: .84rem; padding: 3px 6px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); max-width: 100% }
+.crit { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; align-items: center; font-size: .84rem }
+.crit .hint { font-size: .74rem; color: var(--muted) }
+.crit select[data-v="satisfied"] { border-color: var(--keep) }
+.crit select[data-v="not_satisfied"] { border-color: var(--drop) }
+.crit select[data-v="needs_verification"] { border-color: var(--rework) }
+.row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center }
+button { font: inherit; font-size: .84rem; padding: 6px 10px; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer }
+button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+button:disabled { opacity: .45; cursor: not-allowed }
+button[aria-pressed="true"][data-act="keep"] { background: var(--keep-soft); border-color: var(--keep); color: var(--keep) }
+button[aria-pressed="true"][data-act="rework"] { background: var(--rework-soft); border-color: var(--rework); color: var(--rework) }
+button[aria-pressed="true"][data-act="drop"] { background: var(--drop-soft); border-color: var(--drop); color: var(--drop) }
+button[aria-pressed="true"][data-act="out_of_scope"], button[aria-pressed="true"][data-act="arbitration"], button[aria-pressed="true"][data-act="polarity_unknown"] { background: var(--hold-soft); border-color: var(--hold); color: var(--hold) }
+.reasons { font-size: .78rem; color: var(--warn); margin: 0 }
+.ok-note { font-size: .78rem; color: var(--keep); margin: 0 }
+#export-box textarea { font-family: var(--font-mono); font-size: .75rem; min-height: 14em }
+</style>
+
+<div class="wrap">
+  <header style="display:flex;flex-direction:column;gap:8px">
+    <h1>Relecture de la banque d'énoncés · seconde passe</h1>
+    <p class="lede">Les 96 énoncés reformulés à la première passe, réaudités le 10 novembre. Pour chacun : examine les cinq critères sur la formulation finale, confirme le thème et la polarité quand c'est demandé, puis décide. Seule une décision « Garder » valide (critères satisfaits, formulation de 200 caractères au plus, affectation confirmée si nécessaire) rend un énoncé actif.</p>
+    <div class="fr012" id="fr012"></div>
+    <div class="summary" id="summary"></div>
+    <details class="help"><summary>Comment lire cette page</summary>
+      <ul>
+        <li>Les compteurs de thème ne retiennent que les énoncés actifs : les 188 gardés en première passe et les « Garder » valides d'ici. Le reste (à décider, à reformuler, retiré, hors axe, arbitrage, polarité indéterminée) n'est jamais compté.</li>
+        <li>Les critères partent de « non examiné ». L'avis de l'audit est affiché à côté, à titre indicatif ; il ne coche rien.</li>
+        <li>Affectation : l'origine, la proposition de Claude et ta confirmation sont enregistrées séparément ; l'origine n'est jamais écrasée.</li>
+        <li>Changer le thème déplace immédiatement la fiche dans le bon thème, dans les filtres, les compteurs et l'export.</li>
+        <li>Le détail de l'audit est dans <code>data/relectures/2026-11-10-seconde-passe.md</code>.</li>
+      </ul>
+    </details>
+  </header>
+
+  <div class="bar" role="search">
+    <select id="f-theme" aria-label="Thème effectif"></select>
+    <select id="f-decision" aria-label="Décision">
+      <option value="all">Toutes décisions</option>
+      <option value="todo">À décider</option>
+      <option value="keep">Gardés</option>
+      <option value="rework">À reformuler</option>
+      <option value="drop">Retirés</option>
+      <option value="out_of_scope">Hors axe</option>
+      <option value="arbitration">Arbitrage</option>
+      <option value="polarity_unknown">Polarité indéterminée</option>
+    </select>
+    <select id="f-audit" aria-label="Statut de l'audit">
+      <option value="all">Tout l'audit</option>
+      <option value="PENDING_HUMAN_VALIDATION">Audit : à valider</option>
+      <option value="NEEDS_HUMAN_ARBITRATION">Audit : arbitrage</option>
+      <option value="OUT_OF_SCOPE">Audit : hors axe</option>
+      <option value="P">P! seulement</option>
+    </select>
+    <input id="f-search" type="search" placeholder="Rechercher un mot ou un identifiant" aria-label="Rechercher">
+    <button id="export-btn" type="button">Exporter (JSON)</button>
+    <span class="status" id="status">Connexion à l'enregistrement…</span>
+  </div>
+
+  <div id="export-box" hidden class="box">
+    <span>Export déterministe des décisions (trié par identifiant). Copie-le ou transmets-le à Claude.</span>
+    <textarea id="export-text" readonly aria-label="Export JSON"></textarea>
+    <div class="row"><button id="export-copy" type="button">Copier</button><button id="export-close" type="button">Fermer</button></div>
+  </div>
+
+  <main id="list" style="display:flex;flex-direction:column;gap:18px"></main>
+</div>
+
+<script>
+__LOGIC__
+const DATA = __DATA__;
+const CRIT = DATA.checks.map(c => c.id);
+const SHORT = {"no-loaded-term":"C1 · Vocabulaire neutre","no-presupposition":"C2 · Pas de présupposé","no-person-or-party":"C3 · Ni personne ni parti","single-claim":"C4 · Une seule proposition","both-ends-defensible":"C5 · Deux extrémités défendables"};
+const CRIT_LABEL = { not_reviewed: "Non examiné", satisfied: "Satisfait", not_satisfied: "Non satisfait", needs_verification: "À vérifier" };
+const AUDIT_CRIT = { satisfied: "satisfait", not_satisfied: "non satisfait", needs_verification: "à vérifier", documented_both_ends: "documenté des deux côtés", one_end_documented: "un seul côté documenté" };
+const DEC_LABEL = { keep: "Garder", rework: "Reformuler", drop: "Retirer", out_of_scope: "Hors axe", arbitration: "Arbitrage", polarity_unknown: "Polarité indéterminée" };
+const AUDIT_LABEL = { PENDING_HUMAN_VALIDATION: "audit : à valider", NEEDS_HUMAN_ARBITRATION: "audit : arbitrage", OUT_OF_SCOPE: "audit : hors axe" };
+const AUDIT_KEY = ["C1", "C2", "C3", "C4", "C5"];
+const themeById = Object.fromEntries(DATA.themes.map(t => [t.id, t]));
+const themeIds = DATA.themes.map(t => t.id);
+const Q = DATA.questions;
+const byId = Object.fromEntries(Q.map(q => [q.id, q]));
+const records = {};
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const pol = p => p === "+" ? "+" : "−";
+const assignLabel = a => a ? `${themeById[a.theme].label} (${pol(a.polarity)})` : "aucune";
+function rec(id) { return records[id] || (records[id] = emptyRecord(byId[id], CRIT)); }
+function setStatus(msg, err) { const s = $("#status"); s.textContent = msg; s.classList.toggle("err", !!err); }
+
+const fTheme = $("#f-theme");
+fTheme.append(new Option("Tous les thèmes", "all"));
+DATA.themes.forEach(t => fTheme.append(new Option(t.label, t.id)));
+try { const v = localStorage.getItem("relecture2-theme"); if (v) fTheme.value = v; } catch {}
+
+function cardHTML(q) {
+  const r = rec(q.id);
+  const eff = effectiveAssignment(q, r);
+  const need = needsConfirmation(q, r);
+  const confirmed = isConfirmed(q, r);
+  const chk = canKeep(q, r, CRIT);
+  const len = [...r.finalText.trim()].length;
+  const themeOpts = DATA.themes.map(t => `<option value="${t.id}"${t.id === eff.theme ? " selected" : ""}>${esc(t.label)}</option>`).join("");
+  const crit = DATA.checks.map((c, i) => {
+    const v = r.criteria[c.id] || "not_reviewed";
+    const audit = q.auditCriteria[AUDIT_KEY[i]];
+    return `<label for="c-${q.id}-${c.id}" title="${esc(c.text)}">${SHORT[c.id] || c.id} <span class="hint">· audit : ${AUDIT_CRIT[audit] || audit}${i === 4 && q.c5Note ? " — " + esc(q.c5Note) : ""}</span></label>
+      <select id="c-${q.id}-${c.id}" data-crit="${c.id}" data-v="${v}">${Object.entries(CRIT_LABEL).map(([k, l]) => `<option value="${k}"${k === v ? " selected" : ""}>${l}</option>`).join("")}</select>`;
+  }).join("");
+  const decisions = Object.entries(DEC_LABEL).map(([k, l]) => `<button type="button" data-act="${k}" aria-pressed="${r.decision === k}"${k === "keep" && !chk.ok ? " disabled" : ""}>${l}</button>`).join("");
+  return `<article class="q" id="q-${q.id}" data-id="${q.id}" data-d="${r.decision || ""}">
+    <div class="meta"><span class="qid">${esc(q.id)}${q.finalId !== q.id ? " → " + esc(q.finalId) : ""}</span>
+      <span class="chip${q.status !== "PENDING_HUMAN_VALIDATION" ? " hold" : ""}">${AUDIT_LABEL[q.status]}</span>${q.pFlag ? '<span class="chip p">P!</span>' : ""}<span class="chip">fidélité de la 1re proposition : ${esc(q.fidelity)}</span></div>
+    <div><div class="lbl">Texte d'origine</div><p class="orig">${esc(q.originalText)}</p></div>
+    ${q.firstReviewProposal ? `<div><div class="lbl">Proposition de la 1re relecture</div><p class="prev">${esc(q.firstReviewProposal)}</p></div>` : ""}
+    <div><label class="lbl" for="t-${q.id}">Formulation finale proposée</label>
+      <textarea class="final" id="t-${q.id}" data-field="finalText" rows="2">${esc(r.finalText)}</textarea>
+      <div class="count${len > 200 ? " bad" : ""}" id="n-${q.id}">${len} / 200 caractères${len > 200 ? " : trop long pour FR-009, « Garder » reste bloqué (le texte est enregistré tel quel)" : ""}</div></div>
+    <div><div class="lbl">Justification de l'audit</div><p class="why">${esc(q.explanation)}</p></div>
+    <div class="box${need ? " need" : ""}">
+      <div class="lbl">Thème et polarité · ${esc(q.axisOutcome)}</div>
+      <dl><dt>Origine</dt><dd>${assignLabel(q.originalAssignment)}</dd>
+        <dt>Proposition de Claude</dt><dd>${assignLabel(q.proposedAssignment)}</dd>
+        <dt>Confirmé</dt><dd>${r.confirmed ? assignLabel(r.confirmed) + (confirmed ? "" : " (ne correspond plus à la sélection)") : "non"}</dd></dl>
+      <div class="row"><select id="th-${q.id}" data-field="theme" aria-label="Thème">${themeOpts}</select>
+        <select id="po-${q.id}" data-field="polarity" aria-label="Polarité"><option value="+"${eff.polarity === "+" ? " selected" : ""}>+</option><option value="-"${eff.polarity === "-" ? " selected" : ""}>−</option></select>
+        ${need ? `<button type="button" data-act="confirm"${confirmed ? " disabled" : ""}>${confirmed ? "Affectation confirmée" : "Confirmer cette affectation"}</button>` : ""}</div>
+      <span>« Tout à fait d'accord » = ${esc(eff.polarity === "+" ? themeById[eff.theme].pos : themeById[eff.theme].neg)}</span>
+      <p class="why" style="color:var(--muted)">${esc(q.axisExplanation)}</p>
+    </div>
+    <div class="crit">${crit}</div>
+    <div class="row">${decisions}</div>
+    ${!chk.ok ? `<p class="reasons">Pour garder : ${esc(chk.reasons.join(" ; "))}.</p>` : r.decision === "keep" ? '<p class="ok-note">Actif dès l\'activation groupée.</p>' : ""}
+    <div><label class="lbl" for="m-${q.id}">Commentaire du relecteur</label><textarea id="m-${q.id}" data-field="comment" rows="1">${esc(r.comment)}</textarea></div>
+  </article>`;
+}
+
+function passes(q) {
+  const r = rec(q.id), th = fTheme.value, dec = $("#f-decision").value, au = $("#f-audit").value, term = $("#f-search").value.trim().toLowerCase();
+  const eff = effectiveAssignment(q, r);
+  return (th === "all" || eff.theme === th)
+    && (dec === "all" || (dec === "todo" ? !r.decision : r.decision === dec))
+    && (au === "all" || (au === "P" ? q.pFlag : q.status === au))
+    && (!term || q.originalText.toLowerCase().includes(term) || r.finalText.toLowerCase().includes(term) || q.id.includes(term));
+}
+
+function render() {
+  const keep = document.activeElement && document.activeElement.id;
+  const groups = groupByEffectiveTheme(themeIds, Q, records, CRIT);
+  const bal = Object.fromEntries(computeBalances(themeIds, DATA.base, Q, records, CRIT).map(b => [b.theme, b]));
+  let html = "";
+  for (const t of DATA.themes) {
+    const ids = (groups[t.id] || []).filter(id => passes(byId[id]));
+    if (!ids.length) continue;
+    const b = bal[t.id];
+    html += `<section class="theme"><div class="theme-head"><h2>${esc(t.label)}</h2>
+      <span class="balance${b.compliant ? "" : " bad"}">Actifs ${b.active} : ${b.plus} + / ${b.minus} − (${Math.round(b.plusShare * 100)} % de +) · ${b.pending} non actifs ici${b.compliant ? "" : " · hors règle FR-012"}</span>
+      <div class="axis">− ${esc(t.neg)} · + ${esc(t.pos)}</div></div>${ids.map(id => cardHTML(byId[id])).join("")}</section>`;
+  }
+  $("#list").innerHTML = html || '<p class="lede">Aucun énoncé ne correspond aux filtres.</p>';
+  paintSummary(bal);
+  if (keep) { const el = document.getElementById(keep); if (el) { el.focus(); if (el.setSelectionRange && el.value !== undefined && el.tagName === "TEXTAREA") el.setSelectionRange(el.value.length, el.value.length); } }
+}
+
+function paintSummary(bal) {
+  const counts = {}; let todo = 0;
+  Q.forEach(q => { const d = rec(q.id).decision; if (d) counts[d] = (counts[d] || 0) + 1; else todo++; });
+  const active = Q.filter(q => isActive(q, rec(q.id), CRIT)).length;
+  $("#summary").innerHTML = `<span><b>${todo}</b> à décider</span>` + Object.entries(DEC_LABEL).map(([k, l]) => `<span>${l} : <b>${counts[k] || 0}</b></span>`).join("") + `<span>Actifs issus de cette passe : <b>${active}</b></span>`;
+  const list = Object.values(bal), bad = list.filter(b => !b.compliant), total = list.reduce((s, b) => s + b.active, 0);
+  const el = $("#fr012");
+  el.classList.toggle("ok", bad.length === 0 && todo === 0);
+  el.textContent = bad.length === 0
+    ? (todo === 0 ? `FR-012 respectée : ${total} énoncés actifs, tous les thèmes entre 40 et 60 % avec au moins 10 énoncés.` : `Thèmes à l'équilibre pour l'instant (${total} énoncés actifs), mais ${todo} énoncés restent à décider : la banque n'est pas encore conforme.`)
+    : `FR-012 non respectée : ${total} énoncés actifs ; hors règle : ${bad.map(b => `${themeById[b.theme].label} (${b.active} actifs, ${Math.round(b.plusShare * 100)} % de +)`).join(", ")}.`;
+}
+
+// ---------- enregistrement ----------
+let db = null, canWrite = true;
+const timers = {}, inflight = {}, again = {};
+async function save(id) {
+  if (!db) { setStatus("Enregistrement indisponible : tes choix ne sont pas sauvegardés.", true); return; }
+  if (!canWrite) return;
+  if (inflight[id]) { again[id] = true; return; }
+  inflight[id] = true;
+  try { await db.doc("passe2/" + id).set(toDocument(rec(id))); setStatus("Enregistré"); }
+  catch (e) {
+    if (e && e.code === "invalid_argument") { canWrite = false; setStatus("Lecture seule : seul le propriétaire enregistre des décisions.", true); }
+    else setStatus("Échec de l'enregistrement, réessaie dans un instant.", true);
+  } finally { inflight[id] = false; if (again[id]) { again[id] = false; save(id); } }
+}
+function change(id, patch, opts = {}) {
+  records[id] = { ...rec(id), ...patch, updatedAt: new Date().toISOString() };
+  clearTimeout(timers[id]); delete timers[id];
+  if (opts.debounce) { setStatus("Saisie…"); timers[id] = setTimeout(() => { delete timers[id]; save(id); render(); }, 700); }
+  else { save(id); render(); }
+}
+
+const list = $("#list");
+list.addEventListener("change", e => {
+  const card = e.target.closest("article.q"); if (!card) return;
+  const id = card.dataset.id, q = byId[id], r = rec(id);
+  if (e.target.dataset.crit) { change(id, { criteria: { ...r.criteria, [e.target.dataset.crit]: e.target.value } }); return; }
+  const f = e.target.dataset.field;
+  if (f === "theme" || f === "polarity") {
+    const eff = effectiveAssignment(q, r);
+    const chosen = { ...eff, [f]: e.target.value };
+    // Une nouvelle sélection remplace la confirmation précédente : elle devra être reconfirmée.
+    change(id, { chosen, confirmed: null, decision: r.decision === "keep" ? null : r.decision });
+  }
+});
+list.addEventListener("input", e => {
+  const f = e.target.dataset.field; if (f !== "finalText" && f !== "comment") return;
+  const id = e.target.closest("article.q").dataset.id;
+  records[id] = { ...rec(id), [f]: e.target.value, updatedAt: new Date().toISOString() };
+  if (f === "finalText") { const n = [...e.target.value.trim()].length, c = document.getElementById("n-" + id); c.textContent = `${n} / 200 caractères${n > 200 ? " : trop long pour FR-009, « Garder » reste bloqué (le texte est enregistré tel quel)" : ""}`; c.classList.toggle("bad", n > 200); }
+  clearTimeout(timers[id]); setStatus("Saisie…");
+  timers[id] = setTimeout(() => { delete timers[id]; save(id); if (f === "finalText") render(); }, 700);
+});
+list.addEventListener("click", e => {
+  const btn = e.target.closest("button[data-act]"); if (!btn) return;
+  const id = btn.closest("article.q").dataset.id, q = byId[id], r = rec(id), act = btn.dataset.act;
+  if (act === "confirm") { const eff = effectiveAssignment(q, r); change(id, { chosen: eff, confirmed: { ...eff, at: new Date().toISOString() } }); return; }
+  change(id, { decision: r.decision === act ? null : act });
+});
+["#f-theme", "#f-decision", "#f-audit"].forEach(s => $(s).addEventListener("change", () => { try { localStorage.setItem("relecture2-theme", fTheme.value); } catch {} render(); }));
+$("#f-search").addEventListener("input", render);
+$("#export-btn").addEventListener("click", () => { $("#export-text").value = buildExport(Q, records, CRIT); $("#export-box").hidden = false; });
+$("#export-close").addEventListener("click", () => { $("#export-box").hidden = true; });
+$("#export-copy").addEventListener("click", async () => {
+  const ta = $("#export-text");
+  try { await navigator.clipboard.writeText(ta.value); setStatus("Export copié"); } catch { ta.focus(); ta.select(); setStatus("Sélectionne le texte et copie-le (Cmd+C)."); }
+});
+
+render();
+(async () => {
+  if (!window.claude || !window.claude.use) { setStatus("Ouvre cette page sur claude.ai pour enregistrer tes choix.", true); return; }
+  db = await window.claude.use("db");
+  if (!db) { setStatus("Enregistrement indisponible : connecte-toi pour sauvegarder.", true); return; }
+  try { const user = await window.claude.use("user"); if (user && !(await user.isOwner())) { canWrite = false; setStatus("Lecture seule : seul le propriétaire enregistre des décisions.", true); } } catch {}
+  const timer = setTimeout(() => setStatus("L'enregistrement ne répond pas encore ; tes choix seront envoyés dès qu'il répondra.", true), 10000);
+  db.collection("passe2").onSnapshot(snap => {
+    for (const d of snap.docs) {
+      if (!byId[d.id] || inflight[d.id] || timers[d.id]) continue;
+      records[d.id] = normalizeRecord(d.data(), byId[d.id], CRIT);
+    }
+    if (!snap.metadata.fromCache) { clearTimeout(timer); if (canWrite) setStatus("À jour"); }
+    render();
+  }, () => { clearTimeout(timer); setStatus("Connexion à l'enregistrement perdue : recharge la page.", true); });
+})();
+</script>
