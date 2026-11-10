@@ -9,6 +9,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: institutions-pouvoirs-prefet-renforces
   text: Le préfet doit disposer de pouvoirs renforcés sur les collectivités locales.
   themes:
@@ -16,6 +22,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: institutions-adaptation-lois-regions
   text: Les régions doivent obtenir un pouvoir d'adaptation des lois à leur territoire.
   themes:
@@ -23,8 +35,16 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : FAITHFUL ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: institutions-mandat-presidentiel-sept-ans
-  text: Le mandat présidentiel doit être porté à sept ans.
+  text: "Le mandat présidentiel doit être porté à sept ans."
   themes:
     - institutions
   polarity: "-"
@@ -38,8 +58,16 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: institutions-fusions-communes-obligatoires
-  text: Le nombre de communes doit être réduit par des fusions obligatoires.
+  text: "Le nombre de communes doit être réduit par des fusions obligatoires."
   themes:
     - institutions
   polarity: "-"
@@ -53,6 +81,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: institutions-autonomie-fiscale-collectivites
   text: Les collectivités locales doivent disposer d'une plus grande autonomie fiscale.
   themes:
@@ -61,8 +95,17 @@
   polarity: +
   status: draft
   author: claude
-- id: institutions-autonomie-corse-constitution
-  text: La Corse doit obtenir un statut d'autonomie inscrit dans la Constitution.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (institutions-autonomie-corse-constitution) : La Corse doit obtenir un statut d'autonomie inscrit dans la Constitution.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: institutions-autonomie-corse-constitution-v2
+  text: "La Constitution doit reconnaître un statut d'autonomie pour la Corse."
   themes:
     - institutions
   polarity: +
@@ -75,6 +118,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: institutions-ordre-du-jour-parlement
   text: Le Parlement doit fixer seul son ordre du jour, sans priorité accordée au gouvernement.
   themes:
@@ -82,6 +131,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: institutions-investiture-premier-ministre
   text: Le Premier ministre doit obtenir un vote de confiance de l'Assemblée nationale après sa nomination.
   themes:
@@ -89,22 +144,35 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : FAITHFUL ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: institutions-reduire-nombre-parlementaires
-  text: Le nombre de députés et de sénateurs doit être réduit.
+  text: "Le nombre de députés et de sénateurs doit être réduit."
   themes:
     - institutions
   polarity: "-"
   status: draft
   author: claude
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: institutions-supprimer-senat
-  text: Le Sénat doit être supprimé.
+  text: "Le Sénat doit être supprimé."
   themes:
     - institutions
   polarity: "-"
   status: draft
   author: claude
-- id: institutions-competences-retour-etat
-  text: Une partie des compétences exercées par les collectivités locales doit revenir à l'État.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (institutions-competences-retour-etat) : Une partie des compétences exercées par les collectivités locales doit revenir à l'État.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: institutions-competences-retour-etat-v2
+  text: "Certaines compétences actuellement exercées par les collectivités territoriales doivent être transférées à l'État."
   themes:
     - institutions
   polarity: "-"
@@ -117,6 +185,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: institutions-referendum-revision-constitution
   text: Le président de la République doit pouvoir soumettre directement au référendum une révision de la Constitution.
   themes:
@@ -125,3 +199,9 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

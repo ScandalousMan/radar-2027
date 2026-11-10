@@ -9,6 +9,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: defense-reduire-presence-etranger
   text: La France doit réduire sa présence militaire à l'étranger.
   themes:
@@ -17,6 +23,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: defense-armes-ukraine
   text: La France doit livrer davantage d'armes à l'Ukraine.
   themes:
@@ -25,6 +37,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: defense-renoncer-modernisation-dissuasion
   text: La France doit renoncer à moderniser sa dissuasion nucléaire.
   themes:
@@ -32,6 +50,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: defense-defense-europeenne-emprunt
   text: Une défense européenne commune doit être financée par un emprunt de l'Union européenne.
   themes:
@@ -39,8 +63,17 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : CHANGE_AXIS.
+# Affectation proposée, à confirmer : thème institutions, polarité +.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: defense-controle-exportations-armes
-  text: Les exportations d'armes françaises doivent être soumises à un contrôle parlementaire préalable.
+  text: "Les exportations d'armes françaises doivent être soumises à un contrôle parlementaire préalable."
   themes:
     - defense
   polarity: "-"
@@ -53,8 +86,17 @@
   polarity: +
   status: draft
   author: claude
-- id: defense-dissuasion-protection-europe
-  text: La dissuasion nucléaire française doit couvrir explicitement la protection des autres pays européens.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (defense-dissuasion-protection-europe) : La dissuasion nucléaire française doit couvrir explicitement la protection des autres pays européens.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: defense-dissuasion-protection-europe-v2
+  text: "La France doit étendre explicitement sa doctrine de dissuasion nucléaire à la protection de ses partenaires européens."
   themes:
     - defense
     - international
@@ -68,8 +110,17 @@
   polarity: +
   status: draft
   author: claude
-- id: defense-troupes-ukraine-cessez-le-feu
-  text: La France doit être prête à déployer des troupes en Ukraine pour garantir un cessez-le-feu.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (defense-troupes-ukraine-cessez-le-feu) : La France doit être prête à déployer des troupes en Ukraine pour garantir un cessez-le-feu.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: defense-troupes-ukraine-cessez-le-feu-v2
+  text: "La France doit être prête à déployer des militaires en Ukraine dans le cadre d'un accord de cessez-le-feu."
   themes:
     - defense
     - international
@@ -83,8 +134,16 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: defense-livret-a-industrie-defense
-  text: L'épargne du livret A doit pouvoir financer l'industrie de défense.
+  text: "L'épargne du livret A doit pouvoir financer l'industrie de défense."
   themes:
     - defense
     - economie
@@ -99,6 +158,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: defense-cesser-ventes-armes-conflits
   text: La France doit cesser de vendre des armes aux États engagés dans un conflit armé.
   themes:
@@ -107,6 +172,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: defense-reduire-budget-armees
   text: Le budget des armées doit être réduit en proportion du PIB.
   themes:
@@ -114,6 +185,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: defense-fermer-bases-afrique
   text: La France doit fermer ses bases militaires en Afrique.
   themes:
@@ -122,6 +199,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: defense-priorite-depenses-sociales
   text: Les dépenses sociales doivent passer avant les dépenses militaires dans le budget de l'État.
   themes:
@@ -129,3 +212,9 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

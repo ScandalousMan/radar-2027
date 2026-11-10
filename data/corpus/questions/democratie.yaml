@@ -9,8 +9,16 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-referendum-exceptionnel
-  text: Le recours au référendum doit rester exceptionnel.
+  text: "Le recours au référendum doit rester exceptionnel."
   themes:
     - democratie
   polarity: "-"
@@ -23,8 +31,17 @@
   polarity: +
   status: draft
   author: claude
-- id: democratie-assemblees-tirees-consultatives
-  text: Les assemblées citoyennes tirées au sort doivent conserver un rôle uniquement consultatif.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (democratie-assemblees-tirees-consultatives) : Les assemblées citoyennes tirées au sort doivent conserver un rôle uniquement consultatif.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: democratie-assemblees-tirees-consultatives-v2
+  text: "Les assemblées citoyennes tirées au sort doivent avoir un rôle consultatif et non décisionnel."
   themes:
     - democratie
   polarity: "-"
@@ -37,8 +54,17 @@
   polarity: +
   status: draft
   author: claude
-- id: democratie-referendum-reserve-elus
-  text: La décision de convoquer un référendum doit rester réservée au président de la République et au Parlement.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (democratie-referendum-reserve-elus) : La décision de convoquer un référendum doit rester réservée au président de la République et au Parlement.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: democratie-referendum-reserve-elus-v2
+  text: "Le déclenchement d'un référendum national doit rester de la compétence du président de la République ou du Parlement."
   themes:
     - democratie
     - institutions
@@ -52,8 +78,16 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-budget-participatif-communes
-  text: Chaque commune de plus de 10 000 habitants doit consacrer une part de son budget à des projets choisis par les habitants.
+  text: "Chaque commune de plus de 10 000 habitants doit consacrer une part de son budget à des projets choisis par les habitants."
   themes:
     - democratie
   polarity: +
@@ -66,6 +100,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: democratie-vote-16-ans
   text: Le droit de vote doit être accordé dès 16 ans.
   themes:
@@ -73,6 +113,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: democratie-petition-debat-parlement
   text: Une pétition signée par un million de personnes doit obligatoirement être débattue en séance au Parlement.
   themes:
@@ -80,6 +126,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: democratie-chambre-tiree-au-sort
   text: Des citoyens tirés au sort doivent siéger dans une chambre du Parlement aux côtés des élus.
   themes:
@@ -88,6 +140,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: democratie-supprimer-cese
   text: Le Conseil économique, social et environnemental doit être supprimé.
   themes:
@@ -96,22 +154,35 @@
   polarity: "-"
   status: draft
   author: claude
-- id: democratie-seuil-rip-maintenu
-  text: Le référendum d'initiative partagée doit continuer d'exiger le soutien d'un dixième des électeurs inscrits.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (democratie-seuil-rip-maintenu) : Le référendum d'initiative partagée doit continuer d'exiger le soutien d'un dixième des électeurs inscrits.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: democratie-seuil-rip-maintenu-v2
+  text: "Le seuil de soutien d'un dixième des électeurs inscrits doit être maintenu pour déclencher un référendum d'initiative partagée."
   themes:
     - democratie
   polarity: "-"
   status: draft
   author: claude
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-parrainages-elus-maintenus
-  text: Les candidats à l'élection présidentielle doivent continuer à recueillir 500 parrainages d'élus.
+  text: "Les candidats à l'élection présidentielle doivent continuer à recueillir 500 parrainages d'élus."
   themes:
     - democratie
   polarity: "-"
   status: draft
   author: claude
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-raccourcir-consultations-public
-  text: Les procédures de consultation du public sur les projets d'aménagement doivent être raccourcies.
+  text: "Les procédures de consultation du public sur les projets d'aménagement doivent être raccourcies."
   themes:
     - democratie
   polarity: "-"
@@ -124,3 +195,9 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

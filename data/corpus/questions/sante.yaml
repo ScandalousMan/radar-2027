@@ -2,8 +2,10 @@
 # Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: sante-regulation-installation-medecins
-  text: L'installation des médecins doit être régulée dans les zones déjà bien dotées.
+  text: "L'installation des médecins doit être régulée dans les zones déjà bien dotées."
   themes:
     - sante
   polarity: +
@@ -16,6 +18,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: sante-budget-hopital-inflation
   text: Le budget de l'hôpital public doit augmenter plus vite que l'inflation chaque année.
   themes:
@@ -23,6 +31,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: sante-hausse-franchises-medicales
   text: Les franchises médicales payées par les patients doivent être augmentées.
   themes:
@@ -30,6 +44,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: sante-production-publique-medicaments
   text: Les médicaments essentiels doivent être produits par un établissement public lorsque l'offre privée fait défaut.
   themes:
@@ -38,15 +58,26 @@
   polarity: +
   status: draft
   author: claude
-- id: sante-mutuelles-part-accrue
-  text: Les mutuelles doivent prendre en charge une part plus importante des dépenses de santé, à la place de l'Assurance maladie.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (sante-mutuelles-part-accrue) : Les mutuelles doivent prendre en charge une part plus importante des dépenses de santé, à la place de l'Assurance maladie.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: sante-mutuelles-part-accrue-v2
+  text: "Les complémentaires santé doivent prendre en charge une part plus importante des dépenses actuellement remboursées par l'Assurance maladie."
   themes:
     - sante
   polarity: "-"
   status: draft
   author: claude
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: sante-jeunes-medecins-zones-sous-dotees
-  text: Les jeunes médecins doivent exercer au moins deux ans dans une zone sous-dotée à la fin de leurs études.
+  text: "Les jeunes médecins doivent exercer au moins deux ans dans une zone sous-dotée à la fin de leurs études."
   themes:
     - sante
   polarity: +
@@ -60,15 +91,25 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: sante-doubler-etudiants-medecine
-  text: Le nombre d'étudiants admis en deuxième année de médecine doit être doublé.
+  text: "Le nombre d'étudiants admis en deuxième année de médecine doit être doublé."
   themes:
     - sante
   polarity: +
   status: draft
   author: claude
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: sante-psychologues-rembourses
-  text: Les consultations chez un psychologue doivent être remboursées sans limite de nombre.
+  text: "Les consultations chez un psychologue doivent être remboursées sans limite de nombre."
   themes:
     - sante
   polarity: +
@@ -82,6 +123,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: sante-centres-sante-publics
   text: Chaque département doit disposer de centres de santé publics employant des médecins salariés.
   themes:
@@ -89,6 +136,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: sante-depenses-assurance-maladie-inflation
   text: La croissance des dépenses de l'Assurance maladie doit être limitée à l'inflation.
   themes:
@@ -96,6 +149,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: sante-medicaments-grandes-surfaces
   text: La vente de médicaments sans ordonnance doit être autorisée en grande surface.
   themes:
@@ -104,6 +163,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: sante-reduire-indemnites-arret-maladie
   text: Les indemnités journalières versées pendant un arrêt maladie doivent être réduites.
   themes:
@@ -112,8 +177,17 @@
   polarity: "-"
   status: draft
   author: claude
-- id: sante-assurance-sante-privee-option
-  text: Les assurés doivent pouvoir choisir une assurance santé privée à la place de l'Assurance maladie.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (sante-assurance-sante-privee-option) : Les assurés doivent pouvoir choisir une assurance santé privée à la place de l'Assurance maladie.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: sante-assurance-sante-privee-option-v2
+  text: "Les assurés doivent pouvoir quitter l'Assurance maladie obligatoire au profit d'une assurance santé privée."
   themes:
     - sante
   polarity: "-"
@@ -126,3 +200,9 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

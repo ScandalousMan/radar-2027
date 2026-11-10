@@ -9,6 +9,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: immigration-regroupement-familial-ressources
   text: Le regroupement familial doit être soumis à des conditions de ressources plus strictes.
   themes:
@@ -16,8 +22,16 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: immigration-regularisation-metiers-tension
-  text: Les travailleurs sans titre de séjour employés dans des métiers en tension doivent pouvoir être régularisés.
+  text: "Les travailleurs sans titre de séjour employés dans des métiers en tension doivent pouvoir être régularisés."
   themes:
     - immigration
     - travail
@@ -31,8 +45,17 @@
   polarity: "-"
   status: draft
   author: claude
-- id: immigration-vote-local-etrangers
-  text: Les étrangers non européens résidant en France depuis plusieurs années doivent pouvoir voter aux élections locales.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : NEEDS_HUMAN_ARBITRATION.
+# Texte d'origine (immigration-vote-local-etrangers) : Les étrangers non européens résidant en France depuis plusieurs années doivent pouvoir voter aux élections locales.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: immigration-vote-local-etrangers-v2
+  text: "Les étrangers non ressortissants de l'Union européenne résidant en France depuis plusieurs années doivent pouvoir voter aux élections locales."
   themes:
     - immigration
     - democratie
@@ -47,15 +70,25 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: immigration-titre-sejour-longue-duree
-  text: Les étrangers en situation régulière doivent obtenir plus facilement un titre de séjour de longue durée.
+  text: "Les étrangers en situation régulière doivent obtenir plus facilement un titre de séjour de longue durée."
   themes:
     - immigration
   polarity: +
   status: draft
   author: claude
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: immigration-reduire-duree-naturalisation
-  text: La durée de résidence exigée pour demander la naturalisation doit être réduite.
+  text: "La durée de résidence exigée pour demander la naturalisation doit être réduite."
   themes:
     - immigration
   polarity: +
@@ -69,6 +102,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: immigration-frais-etudiants-etrangers
   text: Les étudiants étrangers hors Union européenne doivent payer les mêmes frais d'inscription que les étudiants français.
   themes:
@@ -76,15 +115,26 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: immigration-regularisation-cinq-ans
-  text: Les étrangers sans titre de séjour présents en France depuis plus de cinq ans doivent pouvoir être régularisés.
+  text: "Les étrangers sans titre de séjour présents en France depuis plus de cinq ans doivent pouvoir être régularisés."
   themes:
     - immigration
   polarity: +
   status: draft
   author: claude
-- id: immigration-visas-professions-qualifiees
-  text: Les visas de travail pour les professions qualifiées doivent être délivrés plus facilement.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (immigration-visas-professions-qualifiees) : Les visas de travail pour les professions qualifiées doivent être délivrés plus facilement.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: immigration-visas-professions-qualifiees-v2
+  text: "Les conditions de délivrance des visas de travail aux personnes exerçant des professions qualifiées doivent être assouplies."
   themes:
     - immigration
     - travail
@@ -98,6 +148,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: immigration-prestations-duree-residence
   text: L'accès des étrangers aux prestations sociales non contributives doit être soumis à cinq ans de résidence.
   themes:
@@ -105,16 +161,27 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: immigration-condamnes-perte-titre-sejour
-  text: Les étrangers condamnés à une peine de prison ferme doivent perdre leur titre de séjour.
+  text: "Les étrangers condamnés à une peine de prison ferme doivent perdre leur titre de séjour."
   themes:
     - immigration
     - justice
   polarity: "-"
   status: draft
   author: claude
-- id: immigration-asile-examen-hors-europe
-  text: Les demandes d'asile doivent être examinées dans des centres situés hors du territoire européen.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (immigration-asile-examen-hors-europe) : Les demandes d'asile doivent être examinées dans des centres situés hors du territoire européen.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: immigration-asile-examen-hors-europe-v2
+  text: "Les demandes d'asile doivent être examinées dans des centres situés hors du territoire de l'Union européenne."
   themes:
     - immigration
     - international
@@ -129,3 +196,9 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

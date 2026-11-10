@@ -9,6 +9,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: transport-concurrence-ferroviaire
   text: Le transport ferroviaire de voyageurs doit être davantage ouvert à la concurrence.
   themes:
@@ -16,6 +22,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: transport-gratuite-transports-urbains
   text: Les transports en commun urbains doivent être gratuits pour les usagers.
   themes:
@@ -23,6 +35,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: transport-routes-90-kmh
   text: La limitation de vitesse sur les routes secondaires doit être relevée à 90 km/h partout.
   themes:
@@ -30,6 +48,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: transport-taxe-kilometrique-poids-lourds
   text: Les poids lourds doivent payer une taxe kilométrique sur le réseau routier.
   themes:
@@ -37,8 +61,17 @@
   polarity: +
   status: draft
   author: claude
-- id: transport-autoroutes-concedees
-  text: Les autoroutes doivent rester concédées à des sociétés privées.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (transport-autoroutes-concedees) : Les autoroutes doivent rester concédées à des sociétés privées.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: transport-autoroutes-concedees-v2
+  text: "L'exploitation des autoroutes doit continuer à être confiée à des sociétés privées dans le cadre de concessions."
   themes:
     - transport
   polarity: "-"
@@ -51,8 +84,16 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-petites-lignes-maintenues
-  text: Les petites lignes ferroviaires doivent être maintenues même lorsqu'elles sont peu fréquentées.
+  text: "Les petites lignes ferroviaires doivent être maintenues même lorsqu'elles sont peu fréquentées."
   themes:
     - transport
   polarity: +
@@ -65,6 +106,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: transport-milliard-amenagements-cyclables
   text: L'État doit consacrer au moins un milliard d'euros par an aux aménagements cyclables.
   themes:
@@ -72,15 +119,26 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-abonnement-national-unique
-  text: Un abonnement national unique donnant accès aux trains régionaux et aux transports urbains doit être créé.
+  text: "Un abonnement national unique donnant accès aux trains régionaux et aux transports urbains doit être créé."
   themes:
     - transport
   polarity: +
   status: draft
   author: claude
-- id: transport-sncf-entreprise-publique
-  text: La SNCF doit rester une entreprise entièrement publique.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (transport-sncf-entreprise-publique) : La SNCF doit rester une entreprise entièrement publique.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: transport-sncf-entreprise-publique-v2
+  text: "La SNCF doit être détenue intégralement par des entités publiques."
   themes:
     - transport
     - economie
@@ -95,8 +153,16 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-voitures-centres-villes-libres
-  text: L'accès des voitures aux centres-villes doit rester libre.
+  text: "L'accès des voitures aux centres-villes doit rester libre."
   themes:
     - transport
   polarity: "-"
@@ -109,6 +175,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: transport-supprimer-subventions-aeroports
   text: Les subventions publiques aux aéroports régionaux doivent être supprimées.
   themes:
@@ -116,8 +188,17 @@
   polarity: "-"
   status: draft
   author: claude
-- id: transport-supprimer-controle-technique-motos
-  text: Le contrôle technique des deux-roues motorisés doit être supprimé.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (transport-supprimer-controle-technique-motos) : Le contrôle technique des deux-roues motorisés doit être supprimé.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: transport-supprimer-controle-technique-motos-v2
+  text: "Le contrôle technique périodique obligatoire des deux-roues motorisés doit être supprimé."
   themes:
     - transport
   polarity: "-"

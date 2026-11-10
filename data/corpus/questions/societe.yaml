@@ -2,16 +2,21 @@
 # Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: societe-aide-active-a-mourir
-  text: L'aide active à mourir doit être autorisée pour les adultes atteints d'une maladie incurable.
+  text: "L'aide active à mourir doit être autorisée pour les adultes atteints d'une maladie incurable."
   themes:
     - societe
     - sante
   polarity: +
   status: draft
   author: claude
-- id: societe-gpa-interdite
-  text: La gestation pour autrui doit rester interdite en France.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (societe-gpa-interdite) : La gestation pour autrui doit rester interdite en France.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: societe-gpa-interdite-v2
+  text: "La gestation pour autrui doit être interdite en France."
   themes:
     - societe
   polarity: "-"
@@ -24,6 +29,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-signes-religieux-sorties-scolaires
   text: Le port de signes religieux doit être interdit aux accompagnateurs de sorties scolaires.
   themes:
@@ -31,6 +42,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-conge-second-parent
   text: Le congé de naissance du second parent doit avoir la même durée que celui de la mère.
   themes:
@@ -39,6 +56,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-service-national-obligatoire
   text: Le service national doit devenir obligatoire pour tous les jeunes.
   themes:
@@ -46,6 +69,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-simplifier-changement-sexe-etat-civil
   text: La procédure de changement de la mention du sexe à l'état civil doit être simplifiée.
   themes:
@@ -53,6 +82,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-succession-couples-non-maries
   text: Les couples non mariés doivent bénéficier des mêmes droits de succession que les couples mariés.
   themes:
@@ -60,6 +95,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-pma-post-mortem
   text: Une femme doit pouvoir poursuivre une PMA avec les gamètes de son conjoint décédé.
   themes:
@@ -68,23 +109,37 @@
   polarity: +
   status: draft
   author: claude
-- id: societe-salles-consommation-drogue
-  text: Les salles de consommation de drogue à moindre risque doivent être généralisées.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (societe-salles-consommation-drogue) : Les salles de consommation de drogue à moindre risque doivent être généralisées.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: societe-salles-consommation-drogue-v2
+  text: "Les salles de consommation de drogue supervisées doivent être généralisées."
   themes:
     - societe
     - sante
   polarity: +
   status: draft
   author: claude
-- id: societe-statut-beau-parent
-  text: Le beau-parent doit pouvoir obtenir un statut juridique lui donnant des droits sur l'enfant de son conjoint.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (societe-statut-beau-parent) : Le beau-parent doit pouvoir obtenir un statut juridique lui donnant des droits sur l'enfant de son conjoint.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: societe-statut-beau-parent-v2
+  text: "Un beau-parent doit pouvoir obtenir un statut juridique lui donnant des droits à l'égard de l'enfant de son conjoint."
   themes:
     - societe
   polarity: +
   status: draft
   author: claude
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: societe-casinos-en-ligne
-  text: Les jeux de casino en ligne doivent être légalisés et encadrés.
+  text: "Les jeux de casino en ligne doivent être légalisés et encadrés."
   themes:
     - societe
   polarity: +
@@ -97,15 +152,25 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: societe-signes-religieux-universite
-  text: Le port de signes religieux ostensibles doit être interdit aux étudiants à l'université.
+  text: "Le port de signes religieux ostensibles doit être interdit aux étudiants à l'université."
   themes:
     - societe
   polarity: "-"
   status: draft
   author: claude
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : AMBIGUOUS ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: societe-interdire-ecriture-inclusive
-  text: L'écriture inclusive doit être interdite dans les documents administratifs.
+  text: "L'écriture inclusive doit être interdite dans les documents administratifs."
   themes:
     - societe
   polarity: "-"
@@ -118,6 +183,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: societe-instruction-famille-autorisation
   text: L'instruction en famille doit rester soumise à une autorisation préalable.
   themes:
@@ -125,3 +196,9 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

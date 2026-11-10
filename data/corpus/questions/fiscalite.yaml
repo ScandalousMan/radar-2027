@@ -9,6 +9,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-reduire-droits-succession
   text: Les droits de succession doivent être réduits pour les transmissions familiales.
   themes:
@@ -16,6 +22,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-capital-aligne-travail
   text: Le taux d'imposition des revenus du capital doit être aligné sur celui des revenus du travail.
   themes:
@@ -23,6 +35,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-baisse-tva
   text: Le taux normal de la TVA doit être abaissé.
   themes:
@@ -30,8 +48,16 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: fiscalite-tranche-hauts-revenus
-  text: Les plus hauts revenus doivent être soumis à une tranche d'impôt supplémentaire.
+  text: "Les plus hauts revenus doivent être soumis à une tranche d'impôt supplémentaire."
   themes:
     - fiscalite
   polarity: +
@@ -45,23 +71,37 @@
   polarity: "-"
   status: draft
   author: claude
-- id: fiscalite-impot-minimum-grandes-fortunes
-  text: Les patrimoines supérieurs à 100 millions d'euros doivent être soumis à un impôt minimum de 2 % par an.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (fiscalite-impot-minimum-grandes-fortunes) : Les patrimoines supérieurs à 100 millions d'euros doivent être soumis à un impôt minimum de 2 % par an.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: fiscalite-impot-minimum-grandes-fortunes-v2
+  text: "Les patrimoines nets supérieurs à 100 millions d'euros doivent être soumis à un prélèvement annuel minimal de 2 %."
   themes:
     - fiscalite
   polarity: +
   status: draft
   author: claude
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: fiscalite-taxe-benefices-exceptionnels
-  text: Les bénéfices exceptionnels des grandes entreprises doivent être soumis à une taxe supplémentaire.
+  text: "Les bénéfices exceptionnels des grandes entreprises doivent être soumis à une taxe supplémentaire."
   themes:
     - fiscalite
     - economie
   polarity: +
   status: draft
   author: claude
-- id: fiscalite-csg-progressive
-  text: La CSG doit devenir progressive en fonction du revenu.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (fiscalite-csg-progressive) : La CSG doit devenir progressive en fonction du revenu.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: fiscalite-csg-progressive-v2
+  text: "Le taux de la contribution sociale généralisée (CSG) doit augmenter avec le revenu."
   themes:
     - fiscalite
   polarity: +
@@ -74,8 +114,16 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: fiscalite-reduire-credits-impot
-  text: Le montant total des réductions et crédits d'impôt doit être diminué de moitié.
+  text: "Le montant total des réductions et crédits d'impôt doit être diminué de moitié."
   themes:
     - fiscalite
   polarity: +
@@ -89,8 +137,16 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: fiscalite-baisse-ir-tranches-intermediaires
-  text: L'impôt sur le revenu doit baisser pour les tranches intermédiaires.
+  text: "L'impôt sur le revenu doit baisser pour les tranches intermédiaires."
   themes:
     - fiscalite
   polarity: "-"
@@ -104,6 +160,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-baisse-cotisations-salaries
   text: Les cotisations sociales payées par les salariés doivent baisser.
   themes:
@@ -112,6 +174,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-supprimer-ifi
   text: L'impôt sur la fortune immobilière doit être supprimé.
   themes:
@@ -119,6 +187,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-baisse-prelevements-obligatoires
   text: Le niveau total des prélèvements obligatoires doit baisser au cours du quinquennat.
   themes:
@@ -126,3 +200,9 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

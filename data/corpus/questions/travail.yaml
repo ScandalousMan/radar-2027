@@ -9,6 +9,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-durcir-indemnisation-chomage
   text: Les règles d'indemnisation du chômage doivent être durcies.
   themes:
@@ -16,6 +22,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-smic-au-dela-inflation
   text: Le SMIC doit être augmenté au-delà de l'inflation.
   themes:
@@ -24,6 +36,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-duree-travail-accord-entreprise
   text: La durée légale du travail doit pouvoir être fixée par accord d'entreprise au-delà de 35 heures.
   themes:
@@ -31,15 +49,27 @@
   polarity: "-"
   status: draft
   author: claude
-- id: travail-limiter-licenciements-beneficiaires
-  text: Les entreprises bénéficiaires doivent être limitées dans leur recours aux licenciements économiques.
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (travail-limiter-licenciements-beneficiaires) : Les entreprises bénéficiaires doivent être limitées dans leur recours aux licenciements économiques.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: travail-limiter-licenciements-beneficiaires-v2
+  text: "Les entreprises qui réalisent des bénéfices doivent être limitées dans leur recours aux licenciements économiques."
   themes:
     - travail
   polarity: +
   status: draft
   author: claude
-- id: travail-plafond-prudhommes-maintenu
-  text: Le plafond des indemnités prud'homales en cas de licenciement abusif doit être maintenu.
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (travail-plafond-prudhommes-maintenu) : Le plafond des indemnités prud'homales en cas de licenciement abusif doit être maintenu.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: travail-plafond-prudhommes-maintenu-v2
+  text: "Le barème légal plafonnant les indemnités accordées par les prud'hommes en cas de licenciement sans cause réelle et sérieuse doit être maintenu."
   themes:
     - travail
   polarity: "-"
@@ -52,6 +82,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-indexation-salaires
   text: Les salaires doivent être indexés automatiquement sur l'inflation.
   themes:
@@ -60,15 +96,25 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-plafonner-ecart-salaires
-  text: L'écart entre les salaires les plus élevés et les plus bas d'une même entreprise doit être plafonné par la loi.
+  text: "L'écart entre les salaires les plus élevés et les plus bas d'une même entreprise doit être plafonné par la loi."
   themes:
     - travail
   polarity: +
   status: draft
   author: claude
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-salaries-conseils-administration
-  text: Les salariés doivent occuper au moins un tiers des sièges des conseils d'administration des grandes entreprises.
+  text: "Les salariés doivent occuper au moins un tiers des sièges des conseils d'administration des grandes entreprises."
   themes:
     - travail
     - economie
@@ -82,8 +128,16 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-plateformes-presomption-salariat
-  text: Les travailleurs des plateformes numériques doivent être présumés salariés.
+  text: "Les travailleurs des plateformes numériques doivent être présumés salariés."
   themes:
     - travail
     - numerique
@@ -97,6 +151,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-retraite-capitalisation
   text: Une part des retraites doit être financée par capitalisation.
   themes:
@@ -104,6 +164,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-augmenter-jours-carence
   text: Le nombre de jours de carence en cas d'arrêt maladie doit être augmenté.
   themes:
@@ -112,15 +178,25 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : FAITHFUL ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-smic-regional
-  text: Le SMIC doit pouvoir varier selon les régions.
+  text: "Le SMIC doit pouvoir varier selon les régions."
   themes:
     - travail
   polarity: "-"
   status: draft
   author: claude
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-statut-fonction-publique-regalien
-  text: Le statut de fonctionnaire doit être réservé aux missions régaliennes de l'État.
+  text: "Le statut de fonctionnaire doit être réservé aux missions régaliennes de l'État."
   themes:
     - travail
   polarity: "-"

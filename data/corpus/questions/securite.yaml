@@ -10,8 +10,16 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-recepisse-controles-identite
-  text: Les contrôles d'identité doivent donner lieu à la remise d'un récépissé.
+  text: "Les contrôles d'identité doivent donner lieu à la remise d'un récépissé."
   themes:
     - securite
   polarity: "-"
@@ -24,6 +32,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-interdire-lbd-manifestations
   text: L'usage des lanceurs de balles de défense doit être interdit lors des manifestations.
   themes:
@@ -31,6 +45,12 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-pouvoirs-polices-municipales
   text: Les polices municipales doivent recevoir les mêmes pouvoirs d'enquête que la police nationale.
   themes:
@@ -38,8 +58,16 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-budget-vers-prevention
-  text: Une partie du budget des forces de l'ordre doit être réorientée vers la prévention de la délinquance.
+  text: "Une partie du budget des forces de l'ordre doit être réorientée vers la prévention de la délinquance."
   themes:
     - securite
   polarity: "-"
@@ -53,6 +81,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-presomption-legitime-defense
   text: Les policiers doivent bénéficier d'une présomption de légitime défense lorsqu'ils font usage de leur arme.
   themes:
@@ -61,6 +95,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-couvre-feu-mineurs
   text: Les maires doivent pouvoir instaurer un couvre-feu nocturne pour les mineurs.
   themes:
@@ -68,6 +108,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-armer-polices-municipales
   text: Les policiers municipaux doivent être armés dans toutes les communes.
   themes:
@@ -75,6 +121,12 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-surveillance-antiterroriste-prolongee
   text: Les mesures individuelles de surveillance antiterroriste doivent pouvoir durer plus d'un an.
   themes:
@@ -82,8 +134,16 @@
   polarity: +
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-enquetes-policiers-independantes
-  text: Les enquêtes visant des policiers doivent être confiées à un organisme indépendant du ministère de l'Intérieur.
+  text: "Les enquêtes visant des policiers doivent être confiées à un organisme indépendant du ministère de l'Intérieur."
   themes:
     - securite
     - justice
@@ -97,16 +157,26 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-renseignement-autorisation-juge
-  text: Les techniques de renseignement doivent être soumises à l'autorisation préalable d'un juge.
+  text: "Les techniques de renseignement doivent être soumises à l'autorisation préalable d'un juge."
   themes:
     - securite
     - numerique
   polarity: "-"
   status: draft
   author: claude
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-limiter-dissolution-associations
-  text: Le pouvoir du gouvernement de dissoudre des associations par décret doit être limité.
+  text: "Le pouvoir du gouvernement de dissoudre des associations par décret doit être limité."
   themes:
     - securite
   polarity: "-"
@@ -119,8 +189,16 @@
   polarity: "-"
   status: draft
   author: claude
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-manifestations-sans-declaration
-  text: Les manifestations doivent pouvoir se tenir sans déclaration préalable en préfecture.
+  text: "Les manifestations doivent pouvoir se tenir sans déclaration préalable en préfecture."
   themes:
     - securite
     - democratie
