@@ -84,19 +84,39 @@ button[aria-pressed="true"][data-act="drop"] { background: var(--drop-soft); bor
 button[aria-pressed="true"][data-act="out_of_scope"], button[aria-pressed="true"][data-act="arbitration"], button[aria-pressed="true"][data-act="polarity_unknown"] { background: var(--hold-soft); border-color: var(--hold); color: var(--hold) }
 .reasons { font-size: .78rem; color: var(--warn); margin: 0 }
 .ok-note { font-size: .78rem; color: var(--keep); margin: 0 }
+.banner { font-size: .85rem; padding: 6px 10px; border-radius: 6px; background: var(--hold-soft); color: var(--fg); border-left: 3px solid var(--hold); margin: 0 }
+.banner.excluded { background: var(--drop-soft); border-left-color: var(--drop) }
+.banner.done { background: var(--keep-soft); border-left-color: var(--keep) }
+details.ev { font-size: .82rem }
+details.ev summary { cursor: pointer; color: var(--accent) }
+details.ev ul { list-style: none; padding: 0; margin: 6px 0 0; display: flex; flex-direction: column; gap: 6px }
+details.ev li { border-top: 1px solid var(--line); padding-top: 6px; overflow-wrap: anywhere }
+.ev-q { font-family: var(--font-text); margin: 2px 0 }
+.chip.draft { border-color: var(--rework); color: var(--rework) }
+.chip.ok { border-color: var(--keep); color: var(--keep) }
+.missing { color: var(--warn) }
+.tbl-wrap { overflow-x: auto }
+table.fr { border-collapse: collapse; font-size: .8rem; font-variant-numeric: tabular-nums; width: 100% }
+table.fr th, table.fr td { padding: 3px 6px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap }
+table.fr th:first-child, table.fr td:first-child { text-align: left }
+table.fr td.bad { color: var(--warn); font-weight: 600 }
 #export-box textarea { font-family: var(--font-mono); font-size: .75rem; min-height: 14em }
 </style>
 
 <div class="wrap">
   <header style="display:flex;flex-direction:column;gap:8px">
     <h1>Relecture de la banque d'énoncés · seconde passe</h1>
-    <p class="lede">Les 96 énoncés reformulés à la première passe, réaudités le 10 novembre. Pour chacun : examine les cinq critères sur la formulation finale, confirme le thème et la polarité quand c'est demandé, puis décide. Seule une décision « Garder » valide (critères satisfaits, formulation de 200 caractères au plus, affectation confirmée si nécessaire) rend un énoncé actif.</p>
+    <p class="lede">Les 96 énoncés reformulés à la première passe, réaudités le 10 novembre. Pour chacun : examine les cinq critères sur la formulation finale, confirme le thème et la polarité quand c'est demandé, puis décide. Seule une décision « Garder » valide rend un énoncé actif : critères satisfaits, preuves C5 relues des deux côtés, formulation de 200 caractères au plus, affectation confirmée si nécessaire, question méthodologique résolue. Un énoncé hors périmètre n'est jamais activable ici.</p>
     <div class="fr012" id="fr012"></div>
+    <details class="help" id="fr012-details"><summary>FR-012 thème par thème</summary><div class="tbl-wrap" id="fr012-table"></div></details>
     <div class="summary" id="summary"></div>
     <details class="help"><summary>Comment lire cette page</summary>
       <ul>
         <li>Les compteurs de thème ne retiennent que les énoncés actifs : les 188 gardés en première passe et les « Garder » valides d'ici. Le reste (à décider, à reformuler, retiré, hors axe, arbitrage, polarité indéterminée) n'est jamais compté.</li>
         <li>Les critères partent de « non examiné ». L'avis de l'audit est affiché à côté, à titre indicatif ; il ne coche rien.</li>
+        <li>C5 : une preuve n'est vérifiée que si la position du candidat a été relue (<code>pnpm data:review</code>). Les brouillons sont affichés comme « sources à vérifier » et « Satisfait » reste indisponible pour C5 tant que les deux côtés ne sont pas vérifiés.</li>
+        <li>Arbitrage et changement d'axe : une confirmation ne suffit pas. Pour un arbitrage, ou pour refuser un changement d'axe proposé, choisis l'affectation, écris le motif, puis « Arbitrer avec cette affectation ».</li>
+        <li>Chaque modification est horodatée dans l'historique de l'énoncé (valeur avant, valeur après), repris dans l'export.</li>
         <li>Affectation : l'origine, la proposition de Claude et ta confirmation sont enregistrées séparément ; l'origine n'est jamais écrasée.</li>
         <li>Changer le thème déplace immédiatement la fiche dans le bon thème, dans les filtres, les compteurs et l'export.</li>
         <li>Le détail de l'audit est dans <code>data/relectures/2026-11-10-seconde-passe.md</code>.</li>
@@ -120,7 +140,8 @@ button[aria-pressed="true"][data-act="out_of_scope"], button[aria-pressed="true"
       <option value="all">Tout l'audit</option>
       <option value="PENDING_HUMAN_VALIDATION">Audit : à valider</option>
       <option value="NEEDS_HUMAN_ARBITRATION">Audit : arbitrage</option>
-      <option value="OUT_OF_SCOPE">Audit : hors axe</option>
+      <option value="OUT_OF_SCOPE">Audit : hors périmètre</option>
+      <option value="CHANGE_AXIS">Audit : changement d'axe</option>
       <option value="P">P! seulement</option>
     </select>
     <input id="f-search" type="search" placeholder="Rechercher un mot ou un identifiant" aria-label="Rechercher">
@@ -129,7 +150,7 @@ button[aria-pressed="true"][data-act="out_of_scope"], button[aria-pressed="true"
   </div>
 
   <div id="export-box" hidden class="box">
-    <span>Export déterministe des décisions (trié par identifiant). Copie-le ou transmets-le à Claude.</span>
+    <span>Export déterministe (schéma <code>relecture-seconde-passe-decisions@2</code>, trié par identifiant). Pour chaque énoncé : textes (origine, 1re proposition, audit, relecteur), avis d'audit C1 à C5, affectations d'origine, proposée, choisie et confirmée, statut méthodologique et arbitrage, preuves C5 avec leur état de vérification, critères saisis, décision, motifs de blocage, questions ouvertes et historique horodaté. Le bloc <code>fr012</code> donne l'état par thème. Copie-le ou transmets-le à Claude.</span>
     <textarea id="export-text" readonly aria-label="Export JSON"></textarea>
     <div class="row"><button id="export-copy" type="button">Copier</button><button id="export-close" type="button">Fermer</button></div>
   </div>
@@ -144,14 +165,26 @@ const CRIT = DATA.checks.map(c => c.id);
 const SHORT = {"no-loaded-term":"C1 · Vocabulaire neutre","no-presupposition":"C2 · Pas de présupposé","no-person-or-party":"C3 · Ni personne ni parti","single-claim":"C4 · Une seule proposition","both-ends-defensible":"C5 · Deux extrémités défendables"};
 const CRIT_LABEL = { not_reviewed: "Non examiné", satisfied: "Satisfait", not_satisfied: "Non satisfait", needs_verification: "À vérifier" };
 const AUDIT_CRIT = { satisfied: "satisfait", not_satisfied: "non satisfait", needs_verification: "à vérifier", documented_both_ends: "documenté des deux côtés", one_end_documented: "un seul côté documenté" };
+const C5_LABEL = { documented_both_ends: "preuves relues des deux côtés", one_end_documented: "un seul côté prouvé (relu)", sources_to_verify: "sources à vérifier (brouillons non relus)", needs_verification: "aucune source exploitable" };
+const EV_LABEL = { reviewed: "relue", draft: "brouillon non relu", contested: "contestée" };
+const METHOD = {
+  excluded_out_of_scope: ["excluded", "Hors périmètre selon l'audit : ne peut pas être activé ici. Le réintégrer exige une nouvelle formulation, auditée à nouveau."],
+  unresolved_arbitration: ["", "Arbitrage requis : choisis l'affectation, écris le motif, puis « Arbitrer avec cette affectation ». Une simple confirmation ne suffit pas."],
+  resolved_arbitration: ["done", "Arbitrage enregistré."],
+  unresolved_axis_change: ["", "Changement d'axe proposé : confirme la nouvelle affectation, ou arbitre une autre affectation avec un motif."],
+  axis_change_confirmed: ["done", "Nouvelle affectation confirmée."],
+  axis_change_rejected_resolved: ["done", "Changement d'axe refusé par arbitrage motivé."],
+};
+const FR_STATE = { fail: "FR-012 non respectée", satisfied_review_incomplete: "FR-012 respectée pour les énoncés validés actifs ; revue incomplète", satisfied: "FR-012 respectée, revue terminée" };
 const DEC_LABEL = { keep: "Garder", rework: "Reformuler", drop: "Retirer", out_of_scope: "Hors axe", arbitration: "Arbitrage", polarity_unknown: "Polarité indéterminée" };
-const AUDIT_LABEL = { PENDING_HUMAN_VALIDATION: "audit : à valider", NEEDS_HUMAN_ARBITRATION: "audit : arbitrage", OUT_OF_SCOPE: "audit : hors axe" };
+const AUDIT_LABEL = { PENDING_HUMAN_VALIDATION: "audit : à valider", NEEDS_HUMAN_ARBITRATION: "audit : arbitrage", OUT_OF_SCOPE: "audit : hors périmètre" };
 const AUDIT_KEY = ["C1", "C2", "C3", "C4", "C5"];
 const themeById = Object.fromEntries(DATA.themes.map(t => [t.id, t]));
 const themeIds = DATA.themes.map(t => t.id);
 const Q = DATA.questions;
 const byId = Object.fromEntries(Q.map(q => [q.id, q]));
 const records = {};
+const rationaleDraft = {};
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 const pol = p => p === "+" ? "+" : "−";
@@ -170,18 +203,25 @@ function cardHTML(q) {
   const need = needsConfirmation(q, r);
   const confirmed = isConfirmed(q, r);
   const chk = canKeep(q, r, CRIT);
+  const c5 = questionC5(q);
+  const m = methodologyStatus(q, r);
+  const excluded = m === "excluded_out_of_scope";
+  const arbitrable = q.status === "NEEDS_HUMAN_ARBITRATION" || q.axisOutcome === "NEEDS_HUMAN_ARBITRATION" || (q.axisOutcome === "CHANGE_AXIS" && !(q.proposedAssignment && eff.theme === q.proposedAssignment.theme && eff.polarity === q.proposedAssignment.polarity));
   const len = [...r.finalText.trim()].length;
   const themeOpts = DATA.themes.map(t => `<option value="${t.id}"${t.id === eff.theme ? " selected" : ""}>${esc(t.label)}</option>`).join("");
   const crit = DATA.checks.map((c, i) => {
     const v = r.criteria[c.id] || "not_reviewed";
-    const audit = q.auditCriteria[AUDIT_KEY[i]];
-    return `<label for="c-${q.id}-${c.id}" title="${esc(c.text)}">${SHORT[c.id] || c.id} <span class="hint">· audit : ${AUDIT_CRIT[audit] || audit}${i === 4 && q.c5Note ? " — " + esc(q.c5Note) : ""}</span></label>
-      <select id="c-${q.id}-${c.id}" data-crit="${c.id}" data-v="${v}">${Object.entries(CRIT_LABEL).map(([k, l]) => `<option value="${k}"${k === v ? " selected" : ""}>${l}</option>`).join("")}</select>`;
+    const isC5 = i === C5_INDEX;
+    const hint = isC5 ? `preuves : ${C5_LABEL[c5]}` : `audit : ${AUDIT_CRIT[q.auditCriteria[AUDIT_KEY[i]]] || q.auditCriteria[AUDIT_KEY[i]]}`;
+    const lock = isC5 && c5 !== "documented_both_ends";
+    return `<label for="c-${q.id}-${c.id}" title="${esc(c.text)}">${SHORT[c.id] || c.id} <span class="hint">· ${hint}</span></label>
+      <select id="c-${q.id}-${c.id}" data-crit="${c.id}" data-v="${v}">${Object.entries(CRIT_LABEL).map(([k, l]) => `<option value="${k}"${k === v ? " selected" : ""}${lock && k === "satisfied" && v !== k ? " disabled" : ""}>${l}${lock && k === "satisfied" ? " (preuves non vérifiées)" : ""}</option>`).join("")}</select>`;
   }).join("");
   const decisions = Object.entries(DEC_LABEL).map(([k, l]) => `<button type="button" data-act="${k}" aria-pressed="${r.decision === k}"${k === "keep" && !chk.ok ? " disabled" : ""}>${l}</button>`).join("");
   return `<article class="q" id="q-${q.id}" data-id="${q.id}" data-d="${r.decision || ""}">
     <div class="meta"><span class="qid">${esc(q.id)}${q.finalId !== q.id ? " → " + esc(q.finalId) : ""}</span>
       <span class="chip${q.status !== "PENDING_HUMAN_VALIDATION" ? " hold" : ""}">${AUDIT_LABEL[q.status]}</span>${q.pFlag ? '<span class="chip p">P!</span>' : ""}<span class="chip">fidélité de la 1re proposition : ${esc(q.fidelity)}</span></div>
+    ${METHOD[m] ? `<p class="banner ${METHOD[m][0]}">${esc(METHOD[m][1])}${r.resolution ? ` Motif : « ${esc(r.resolution.rationale)} » (${esc(r.resolution.at.slice(0, 10))}).` : ""}</p>` : ""}
     <div><div class="lbl">Texte d'origine</div><p class="orig">${esc(q.originalText)}</p></div>
     ${q.firstReviewProposal ? `<div><div class="lbl">Proposition de la 1re relecture</div><p class="prev">${esc(q.firstReviewProposal)}</p></div>` : ""}
     <div><label class="lbl" for="t-${q.id}">Formulation finale proposée</label>
@@ -195,10 +235,13 @@ function cardHTML(q) {
         <dt>Confirmé</dt><dd>${r.confirmed ? assignLabel(r.confirmed) + (confirmed ? "" : " (ne correspond plus à la sélection)") : "non"}</dd></dl>
       <div class="row"><select id="th-${q.id}" data-field="theme" aria-label="Thème">${themeOpts}</select>
         <select id="po-${q.id}" data-field="polarity" aria-label="Polarité"><option value="+"${eff.polarity === "+" ? " selected" : ""}>+</option><option value="-"${eff.polarity === "-" ? " selected" : ""}>−</option></select>
-        ${need ? `<button type="button" data-act="confirm"${confirmed ? " disabled" : ""}>${confirmed ? "Affectation confirmée" : "Confirmer cette affectation"}</button>` : ""}</div>
+        ${need && !excluded && !arbitrable ? `<button type="button" data-act="confirm"${confirmed ? " disabled" : ""}>${confirmed ? "Affectation confirmée" : "Confirmer cette affectation"}</button>` : ""}</div>
+      ${arbitrable && !excluded ? `<label class="lbl" for="ra-${q.id}">Motif de l'arbitrage (obligatoire)</label><textarea id="ra-${q.id}" rows="2" data-local="rationale">${esc(rationaleDraft[q.id] ?? (r.resolution ? r.resolution.rationale : ""))}</textarea>
+        <div class="row"><button type="button" data-act="resolve"${isResolved(q, r) ? " disabled" : ""}>${isResolved(q, r) ? "Arbitrage enregistré pour cette affectation" : "Arbitrer avec cette affectation"}</button></div>` : ""}
       <span>« Tout à fait d'accord » = ${esc(eff.polarity === "+" ? themeById[eff.theme].pos : themeById[eff.theme].neg)}</span>
       <p class="why" style="color:var(--muted)">${esc(q.axisExplanation)}</p>
     </div>
+    ${evidenceHTML(q, c5)}
     <div class="crit">${crit}</div>
     <div class="row">${decisions}</div>
     ${!chk.ok ? `<p class="reasons">Pour garder : ${esc(chk.reasons.join(" ; "))}.</p>` : r.decision === "keep" ? '<p class="ok-note">Actif dès l\'activation groupée.</p>' : ""}
@@ -206,12 +249,28 @@ function cardHTML(q) {
   </article>`;
 }
 
+function evidenceHTML(q, c5) {
+  const ev = q.evidence || [];
+  const side = s => ev.filter(e => e.side === s);
+  const item = e => {
+    const miss = missingEvidenceFields(e);
+    return `<li><span class="chip ${isVerifiedEvidence(e) ? "ok" : "draft"}">${isVerifiedEvidence(e) ? "vérifiée" : EV_LABEL[e.verificationStatus] || e.verificationStatus}</span>
+      <b>${esc(e.candidate)}</b> (${e.positionValue === null ? "valeur ?" : (e.positionValue > 0 ? "+" : "") + e.positionValue}) ·
+      ${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title || e.sourceId)}</a>` : `${esc(e.title || e.sourceId)} <span class="missing">URL manquante</span>`}
+      · publié ${e.publishedAt ? esc(e.publishedAt) : '<span class="missing">date inconnue</span>'} · consulté ${e.accessedAt ? esc(e.accessedAt) : "?"}
+      · relu ${e.verifiedAt ? esc(e.verifiedAt) + (e.verifiedBy ? " par " + esc(e.verifiedBy) : "") : '<span class="missing">non</span>'}
+      ${e.quote ? `<p class="ev-q">« ${esc(e.quote)} »</p>` : '<p class="missing">Citation manquante</p>'}${miss.length ? `<span class="missing">Manque : ${miss.join(", ")}</span>` : ""}</li>`;
+  };
+  const block = (s, l) => `<div class="lbl">${l} (${side(s).length})</div>${side(s).length ? `<ul>${side(s).map(item).join("")}</ul>` : '<p class="missing">Aucune source pour cette extrémité.</p>'}`;
+  return `<details class="ev"><summary>Preuves C5 : ${C5_LABEL[c5]}</summary><p class="why">${esc(q.c5Note)}</p>${block("for", "Pour (d'accord)")}${block("against", "Contre (pas d'accord)")}</details>`;
+}
+
 function passes(q) {
   const r = rec(q.id), th = fTheme.value, dec = $("#f-decision").value, au = $("#f-audit").value, term = $("#f-search").value.trim().toLowerCase();
   const eff = effectiveAssignment(q, r);
   return (th === "all" || eff.theme === th)
     && (dec === "all" || (dec === "todo" ? !r.decision : r.decision === dec))
-    && (au === "all" || (au === "P" ? q.pFlag : q.status === au))
+    && (au === "all" || (au === "P" ? q.pFlag : au === "CHANGE_AXIS" ? q.axisOutcome === au : q.status === au))
     && (!term || q.originalText.toLowerCase().includes(term) || r.finalText.toLowerCase().includes(term) || q.id.includes(term));
 }
 
@@ -225,7 +284,7 @@ function render() {
     if (!ids.length) continue;
     const b = bal[t.id];
     html += `<section class="theme"><div class="theme-head"><h2>${esc(t.label)}</h2>
-      <span class="balance${b.compliant ? "" : " bad"}">Actifs ${b.active} : ${b.plus} + / ${b.minus} − (${Math.round(b.plusShare * 100)} % de +) · ${b.pending} non actifs ici${b.compliant ? "" : " · hors règle FR-012"}</span>
+      <span class="balance${b.compliant ? "" : " bad"}">Validés actifs ${b.active} : ${b.plus} + / ${b.minus} − (${Math.round(b.plusShare * 100)} % de +) · ${b.compliant ? "FR-012 respectée" : "échec FR-012"} · en attente ${b.awaiting}, hors périmètre ${b.excluded}, arbitrage ${b.arbitration}</span>
       <div class="axis">− ${esc(t.neg)} · + ${esc(t.pos)}</div></div>${ids.map(id => cardHTML(byId[id])).join("")}</section>`;
   }
   $("#list").innerHTML = html || '<p class="lede">Aucun énoncé ne correspond aux filtres.</p>';
@@ -238,12 +297,18 @@ function paintSummary(bal) {
   Q.forEach(q => { const d = rec(q.id).decision; if (d) counts[d] = (counts[d] || 0) + 1; else todo++; });
   const active = Q.filter(q => isActive(q, rec(q.id), CRIT)).length;
   $("#summary").innerHTML = `<span><b>${todo}</b> à décider</span>` + Object.entries(DEC_LABEL).map(([k, l]) => `<span>${l} : <b>${counts[k] || 0}</b></span>`).join("") + `<span>Actifs issus de cette passe : <b>${active}</b></span>`;
-  const list = Object.values(bal), bad = list.filter(b => !b.compliant), total = list.reduce((s, b) => s + b.active, 0);
+  const list = Object.values(bal), total = list.reduce((s, b) => s + b.active, 0);
+  const overall = fr012Overall(list, isReviewComplete(Q, records, CRIT));
   const el = $("#fr012");
-  el.classList.toggle("ok", bad.length === 0 && todo === 0);
-  el.textContent = bad.length === 0
-    ? (todo === 0 ? `FR-012 respectée : ${total} énoncés actifs, tous les thèmes entre 40 et 60 % avec au moins 10 énoncés.` : `Thèmes à l'équilibre pour l'instant (${total} énoncés actifs), mais ${todo} énoncés restent à décider : la banque n'est pas encore conforme.`)
-    : `FR-012 non respectée : ${total} énoncés actifs ; hors règle : ${bad.map(b => `${themeById[b.theme].label} (${b.active} actifs, ${Math.round(b.plusShare * 100)} % de +)`).join(", ")}.`;
+  el.classList.toggle("ok", overall.state === "satisfied");
+  el.textContent = overall.state === "fail"
+    ? `${FR_STATE.fail} : ${overall.failing.length} thème(s) sur ${list.length} en échec (${overall.failing.map(t => themeById[t].label).join(", ")}). ${total} énoncés validés actifs, dont ${active} issus de cette passe.`
+    : `${FR_STATE[overall.state]} (${total} énoncés validés actifs).`;
+  const proj = Object.fromEntries(optimisticBalances(themeIds, DATA.base, Q).map(b => [b.theme, b]));
+  const pct = b => `${Math.round(b.plusShare * 100)} %`;
+  $("#fr012-table").innerHTML = `<p>Seuil : au moins ${FR012.min} énoncés validés actifs et entre ${FR012.low * 100} et ${FR012.high * 100} % de « + ». La projection optimiste garde tous les énoncés « à valider » tels que proposés (sans tenir compte de C5) ; hors périmètre et arbitrages exclus.</p>
+    <table class="fr"><thead><tr><th>Thème</th><th>Validés actifs</th><th>+ / −</th><th>Part +</th><th>État</th><th>En attente</th><th>Hors pér.</th><th>Arbitrage</th><th>Projection</th><th>Part +</th></tr></thead><tbody>${
+    list.map(b => { const p = proj[b.theme]; return `<tr><td>${esc(themeById[b.theme].label)}</td><td>${b.active}</td><td>${b.plus} / ${b.minus}</td><td>${pct(b)}</td><td class="${b.compliant ? "" : "bad"}">${b.compliant ? "respectée" : "échec"}</td><td>${b.awaiting}</td><td>${b.excluded}</td><td>${b.arbitration}</td><td class="${p.compliant ? "" : "bad"}">${p.active}${p.compliant ? "" : " · échec"}</td><td>${pct(p)}</td></tr>`; }).join("")}</tbody></table>`;
 }
 
 // ---------- enregistrement ----------
@@ -261,7 +326,7 @@ async function save(id) {
   } finally { inflight[id] = false; if (again[id]) { again[id] = false; save(id); } }
 }
 function change(id, patch, opts = {}) {
-  records[id] = { ...rec(id), ...patch, updatedAt: new Date().toISOString() };
+  records[id] = applyChange(rec(id), patch, new Date().toISOString());
   clearTimeout(timers[id]); delete timers[id];
   if (opts.debounce) { setStatus("Saisie…"); timers[id] = setTimeout(() => { delete timers[id]; save(id); render(); }, 700); }
   else { save(id); render(); }
@@ -277,13 +342,14 @@ list.addEventListener("change", e => {
     const eff = effectiveAssignment(q, r);
     const chosen = { ...eff, [f]: e.target.value };
     // Une nouvelle sélection remplace la confirmation précédente : elle devra être reconfirmée.
-    change(id, { chosen, confirmed: null, decision: r.decision === "keep" ? null : r.decision });
+    change(id, { chosen, confirmed: null, resolution: null, decision: r.decision === "keep" ? null : r.decision });
   }
 });
 list.addEventListener("input", e => {
+  if (e.target.dataset.local === "rationale") { rationaleDraft[e.target.closest("article.q").dataset.id] = e.target.value; return; }
   const f = e.target.dataset.field; if (f !== "finalText" && f !== "comment") return;
   const id = e.target.closest("article.q").dataset.id;
-  records[id] = { ...rec(id), [f]: e.target.value, updatedAt: new Date().toISOString() };
+  records[id] = applyChange(rec(id), { [f]: e.target.value }, new Date().toISOString());
   if (f === "finalText") { const n = [...e.target.value.trim()].length, c = document.getElementById("n-" + id); c.textContent = `${n} / 200 caractères${n > 200 ? " : trop long pour FR-009, « Garder » reste bloqué (le texte est enregistré tel quel)" : ""}`; c.classList.toggle("bad", n > 200); }
   clearTimeout(timers[id]); setStatus("Saisie…");
   timers[id] = setTimeout(() => { delete timers[id]; save(id); if (f === "finalText") render(); }, 700);
@@ -292,11 +358,21 @@ list.addEventListener("click", e => {
   const btn = e.target.closest("button[data-act]"); if (!btn) return;
   const id = btn.closest("article.q").dataset.id, q = byId[id], r = rec(id), act = btn.dataset.act;
   if (act === "confirm") { const eff = effectiveAssignment(q, r); change(id, { chosen: eff, confirmed: { ...eff, at: new Date().toISOString() } }); return; }
+  if (act === "resolve") {
+    const ta = document.getElementById("ra-" + id), why = ta ? ta.value.trim() : "";
+    if (!why) { setStatus("Écris le motif de l'arbitrage avant de l'enregistrer.", true); if (ta) ta.focus(); return; }
+    const eff = effectiveAssignment(q, r), at = new Date().toISOString();
+    change(id, { chosen: eff, confirmed: { ...eff, at }, resolution: { ...eff, rationale: why, at } }); return;
+  }
   change(id, { decision: r.decision === act ? null : act });
 });
 ["#f-theme", "#f-decision", "#f-audit"].forEach(s => $(s).addEventListener("change", () => { try { localStorage.setItem("relecture2-theme", fTheme.value); } catch {} render(); }));
 $("#f-search").addEventListener("input", render);
-$("#export-btn").addEventListener("click", () => { $("#export-text").value = buildExport(Q, records, CRIT); $("#export-box").hidden = false; });
+$("#export-btn").addEventListener("click", () => {
+  const balances = computeBalances(themeIds, DATA.base, Q, records, CRIT);
+  $("#export-text").value = buildExport(Q, records, CRIT, { balances, overall: fr012Overall(balances, isReviewComplete(Q, records, CRIT)) });
+  $("#export-box").hidden = false;
+});
 $("#export-close").addEventListener("click", () => { $("#export-box").hidden = true; });
 $("#export-copy").addEventListener("click", async () => {
   const ta = $("#export-text");

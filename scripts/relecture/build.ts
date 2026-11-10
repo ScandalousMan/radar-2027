@@ -1,6 +1,6 @@
 // Assemble la page de relecture (seconde passe) en un seul fichier HTML publiable.
 // Usage : pnpm exec tsx scripts/relecture/build.ts <export.json> <dossier corpus> <sortie.html>
-//   export.json   : data/relectures/2026-11-10-seconde-passe.json (audit des 96 énoncés)
+//   export.json   : data/relectures/2026-11-10-seconde-passe.json (audit des 96 énoncés, schéma @2)
 //   dossier corpus : data/corpus (thèmes, grille de neutralité, énoncés gardés en 1re passe)
 // La logique de `logic.ts` est transpilée par le compilateur TypeScript et intégrée telle quelle.
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -11,11 +11,13 @@ import { parse } from 'yaml';
 
 type Theme = { id: string; label: string; order: number; axis: { negative: string; positive: string } };
 type Bank = { id: string; themes: string[]; polarity: '+' | '-'; neutralityChecklist?: Record<string, boolean> };
+type Assignment = { theme: string; polarity: '+' | '-' };
 type Audited = {
-  id: string; finalId: string; originalText: string; finalText: string; firstReviewProposal: string | null;
+  id: string; finalId: string; originalText: string; finalText: string; finalTextBasis: string;
+  firstReviewProposal: string | null; firstReviewMotif: string | null;
   fidelity: string; pFlag: boolean; axisOutcome: string; status: string; explanation: string; axisExplanation: string;
-  originalAssignment: { theme: string; polarity: '+' | '-' }; proposedAssignment: { theme: string; polarity: '+' | '-' } | null;
-  criteria: Record<string, string>; c5Evidence: { note: string };
+  originalAssignment: Assignment; previousClaudeProposal: Assignment | null; proposedAssignment: Assignment | null; secondaryTheme: string | null;
+  criteria: Record<string, string>; c5Evidence: { note: string; evidence: unknown[] };
 };
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -27,7 +29,9 @@ if (!exportPath || !corpusDir || !outPath) {
 
 const themes = (parse(readFileSync(join(corpusDir, 'themes.yaml'), 'utf8')) as Theme[]).sort((a, b) => a.order - b.order);
 const governance = parse(readFileSync(join(corpusDir, 'governance.yaml'), 'utf8')) as { neutralityChecklist: { id: string; text: string }[] };
-const audited = (JSON.parse(readFileSync(exportPath, 'utf8')) as { questions: Audited[] }).questions;
+const exported = JSON.parse(readFileSync(exportPath, 'utf8')) as { schema: string; questions: Audited[] };
+if (exported.schema !== 'radar-2027/relecture-seconde-passe@2') throw new Error(`schéma d'export inattendu : ${exported.schema} (@2 attendu, avec les preuves C5)`);
+const audited = exported.questions;
 const auditedIds = new Set(audited.flatMap((q) => [q.id, q.finalId]));
 const checkIds = governance.neutralityChecklist.map((c) => c.id);
 
@@ -49,11 +53,13 @@ const data = {
   themes: themes.map((t) => ({ id: t.id, label: t.label, neg: t.axis.negative, pos: t.axis.positive })),
   checks: governance.neutralityChecklist,
   base,
+  // Forme `Question` de logic.ts : toutes les métadonnées d'audit, pour l'affichage et l'export.
   questions: audited.map((q) => ({
-    id: q.id, finalId: q.finalId, originalText: q.originalText, finalText: q.finalText, firstReviewProposal: q.firstReviewProposal,
-    fidelity: q.fidelity, pFlag: q.pFlag, axisOutcome: q.axisOutcome, status: q.status, explanation: q.explanation,
-    axisExplanation: q.axisExplanation, originalAssignment: q.originalAssignment, proposedAssignment: q.proposedAssignment,
-    auditCriteria: q.criteria, c5Note: q.c5Evidence.note,
+    id: q.id, finalId: q.finalId, originalText: q.originalText, finalText: q.finalText, finalTextBasis: q.finalTextBasis,
+    firstReviewProposal: q.firstReviewProposal, firstReviewMotif: q.firstReviewMotif, fidelity: q.fidelity, explanation: q.explanation,
+    originalAssignment: q.originalAssignment, previousClaudeProposal: q.previousClaudeProposal, proposedAssignment: q.proposedAssignment,
+    secondaryTheme: q.secondaryTheme, axisOutcome: q.axisOutcome, axisExplanation: q.axisExplanation, pFlag: q.pFlag, status: q.status,
+    auditCriteria: q.criteria, evidence: q.c5Evidence.evidence, c5Note: q.c5Evidence.note,
   })),
 };
 
