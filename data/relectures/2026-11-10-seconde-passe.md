@@ -8,7 +8,7 @@ Rapport généré depuis `2026-11-10-seconde-passe.json` (même dossier, schéma
 - Propositions de la première relecture : **48 dérives de sens**, 16 fidèles, 31 fidèles avec une clarification mineure, 1 ambiguë (texte d'origine lui-même ambigu). La dérive la plus fréquente consiste à ajouter un seuil, une condition ou une exception absents de la mesure, ou à la rendre facultative (« doit pouvoir »).
 - Formulation finale : **64 reprennent le texte d'origine** (avec leur identifiant d'origine), 22 reprennent la proposition de la première relecture, 10 sont corrigées.
 - Axes et polarités : 78 confirmés, 2 changements d'axe proposés, 9 hors axe, 7 à arbitrer. Aucune polarité n'a été inversée, et aucune n'a été choisie pour équilibrer un thème.
-- **C5 : aucune preuve n'est vérifiée.** Toutes les positions citées sont des brouillons non relus : 89 énoncés ont des sources à vérifier, 7 n'en ont aucune. La version précédente affichait à tort « documenté des deux côtés » pour 25 énoncés (voir § 7). Tant que ces positions ne sont pas relues, aucun énoncé de seconde passe ne peut être gardé.
+- **C5 : aucune preuve n'est vérifiée.** Toutes les positions citées sont des brouillons non relus : 86 énoncés ont des sources à vérifier, 10 n'ont aucune source directe. La version précédente affichait à tort « documenté des deux côtés » pour 25 énoncés (voir § 7). Tant que ces positions ne sont pas relues, aucun énoncé de seconde passe ne peut être gardé.
 - **FR-012 n'est pas respectée.** Sur l'ensemble validé actuel (les 188 énoncés gardés en première passe), 7 thèmes sur 17 échouent : Économie (10, 30 % de +), Fiscalité (11, 27 % de +), Immigration (9, 33 % de +), Sécurité (11, 73 % de +), Institutions (11, 73 % de +), Démocratie (10, 80 % de +), Environnement (13, 62 % de +). Même dans le scénario optimiste où les 80 énoncés à valider seraient tous gardés, Sécurité et Institutions échoueraient encore (voir § 9).
 
 ## 2. Principes appliqués
@@ -209,7 +209,7 @@ Fidélité au sens d'origine (portée, population, conditions, ambition) ; aucun
 - **Formulation finale** (texte d'origine conservé) : **Le port de signes religieux ostensibles doit être interdit aux étudiants à l'université.**
 - **Fidélité de la proposition** : SEMANTIC_DRIFT — « Visibles » est plus large qu'« ostensibles », le terme de la loi de 2004 : la proposition étendait l'interdiction aux signes discrets. Texte d'origine conservé.
 - **Axe** : VALID_AXIS_AND_POLARITY. Affectation d'origine Société (−) ; proposée Société (−). Restreint une liberté individuelle : pôle −.
-- **Critères** : C1 satisfait · C2 satisfait · C3 satisfait · C4 satisfait · C5 sources à vérifier (brouillons)
+- **Critères** : C1 satisfait · C2 satisfait · C3 satisfait · C4 satisfait · C5 à vérifier
 - **Statut** : À valider
 
 #### `societe-statut-beau-parent` → `societe-statut-beau-parent-v2`
@@ -743,7 +743,7 @@ Fidélité au sens d'origine (portée, population, conditions, ambition) ; aucun
 - **Formulation finale** (proposition de la 1re relecture acceptée) : **Le déclenchement d'un référendum national doit rester de la compétence du président de la République ou du Parlement.**
 - **Fidélité de la proposition** : FAITHFUL_WITH_MINOR_CLARIFICATION — « Ou » au lieu de « et » évite de suggérer une décision conjointe.
 - **Axe** : VALID_AXIS_AND_POLARITY. Affectation d'origine Démocratie (−) ; proposée Démocratie (−). Pas d'initiative citoyenne : pôle −.
-- **Critères** : C1 satisfait · C2 satisfait · C3 satisfait · C4 satisfait · C5 sources à vérifier (brouillons)
+- **Critères** : C1 satisfait · C2 satisfait · C3 satisfait · C4 satisfait · C5 à vérifier
 - **Statut** : À valider
 
 #### `democratie-seuil-rip-maintenu` → `democratie-seuil-rip-maintenu-v2`
@@ -939,7 +939,7 @@ Fidélité au sens d'origine (portée, population, conditions, ambition) ; aucun
 - **Formulation finale** (texte d'origine conservé) : **Le SMIC doit pouvoir varier selon les régions.**
 - **Fidélité de la proposition** : FAITHFUL — Proposition équivalente.
 - **Axe** : NEEDS_HUMAN_ARBITRATION. Affectation d'origine Travail (−) ; proposée — ; proposition antérieure de Claude Travail (−). Un SMIC régional remplace une règle nationale unique, ce qui affaiblit l'uniformité de la règle collective. Mais il peut aussi relever le minimum dans les régions chères. La direction (moins de protection) n'est pas établie par la mesure elle-même.
-- **Critères** : C1 satisfait · C2 satisfait · C3 satisfait · C4 satisfait · C5 sources à vérifier (brouillons)
+- **Critères** : C1 satisfait · C2 satisfait · C3 satisfait · C4 satisfait · C5 à vérifier
 - **Statut** : Arbitrage humain
 
 #### `travail-statut-fonction-publique-regalien`
@@ -1171,103 +1171,104 @@ Les preuves C5 sont les positions de candidats extraites dans ScandalousMan/rada
 
 **Correction de la version précédente.** Elle affichait « documenté des deux côtés » pour 25 énoncés et « un côté documenté » pour 64, alors que les positions n'étaient pas relues. Ces libellés sont conservés dans `c5Evidence.v3Label` pour la traçabilité, mais ne valent pas preuve.
 
-- **Sources à vérifier (89)** : nombre de positions en brouillon de chaque côté. « 0 » signale un côté sans aucune source.
+**Preuves indirectes écartées.** 35 preuves, sur 13 énoncés, étaient des positions prises sur un autre énoncé (par exemple la position sur le rétablissement de l'ISF citée pour les crédits d'impôt). Elles restent dans l'export (`direct: false`, `scoredQuestionId`) mais ne comptent plus : `international-primaute-loi-nationale-v2`, `societe-signes-religieux-universite`, `fiscalite-reduire-credits-impot`, `immigration-regularisation-cinq-ans`, `immigration-regularisation-metiers-tension`, `immigration-vote-local-etrangers-v2`, `democratie-referendum-exceptionnel`, `democratie-referendum-reserve-elus-v2`, `democratie-seuil-rip-maintenu-v2`, `travail-limiter-licenciements-beneficiaires-v2`, `travail-smic-regional`, `transport-sncf-entreprise-publique-v2`, `transport-voitures-centres-villes-libres`.
 
-| Énoncé | Pour (brouillons) | Contre (brouillons) | Ancien libellé |
-|---|---|---|---|
-| `international-adhesion-ukraine-ue` | 1 | 1 | documented_both_ends |
-| `international-arrets-cedh-derogation-v2` | 5 | 1 | documented_both_ends |
-| `international-primaute-loi-nationale-v2` | 7 | 0 | one_end_documented |
-| `societe-aide-active-a-mourir` | 2 | 1 | documented_both_ends |
-| `societe-gpa-interdite-v2` | 4 | 0 | one_end_documented |
-| `societe-interdire-ecriture-inclusive` | 1 | 0 | one_end_documented |
-| `societe-salles-consommation-drogue-v2` | 2 | 0 | one_end_documented |
-| `societe-signes-religieux-universite` | 1 | 2 | documented_both_ends |
-| `societe-statut-beau-parent-v2` | 1 | 0 | one_end_documented |
-| `economie-aides-conditionnees-emploi` | 6 | 0 | one_end_documented |
-| `economie-encadrer-marges-distribution` | 3 | 0 | one_end_documented |
-| `economie-etat-finance-usines` | 3 | 0 | one_end_documented |
-| `economie-ouverture-dimanche-libre-v2` | 0 | 1 | one_end_documented |
-| `economie-participations-etat-industrie` | 11 | 0 | one_end_documented |
-| `economie-plafonner-prix-alimentaires` | 4 | 0 | one_end_documented |
-| `economie-regle-equilibre-constitution` | 3 | 1 | documented_both_ends |
-| `fiscalite-baisse-ir-tranches-intermediaires` | 2 | 0 | one_end_documented |
-| `fiscalite-csg-progressive-v2` | 2 | 0 | one_end_documented |
-| `fiscalite-impot-minimum-grandes-fortunes-v2` | 4 | 1 | documented_both_ends |
-| `fiscalite-reduire-credits-impot` | 6 | 0 | one_end_documented |
-| `fiscalite-taxe-benefices-exceptionnels` | 7 | 1 | documented_both_ends |
-| `fiscalite-tranche-hauts-revenus` | 4 | 0 | one_end_documented |
-| `immigration-asile-examen-hors-europe-v2` | 4 | 3 | documented_both_ends |
-| `immigration-condamnes-perte-titre-sejour` | 7 | 0 | one_end_documented |
-| `immigration-reduire-duree-naturalisation` | 2 | 1 | documented_both_ends |
-| `immigration-regularisation-cinq-ans` | 5 | 4 | documented_both_ends |
-| `immigration-regularisation-metiers-tension` | 6 | 3 | documented_both_ends |
-| `immigration-titre-sejour-longue-duree` | 3 | 2 | documented_both_ends |
-| `immigration-visas-professions-qualifiees-v2` | 4 | 1 | documented_both_ends |
-| `immigration-vote-local-etrangers-v2` | 4 | 0 | one_end_documented |
-| `sante-assurance-sante-privee-option-v2` | 0 | 1 | one_end_documented |
-| `sante-doubler-etudiants-medecine` | 2 | 0 | one_end_documented |
-| `sante-jeunes-medecins-zones-sous-dotees` | 1 | 0 | one_end_documented |
-| `sante-mutuelles-part-accrue-v2` | 0 | 4 | one_end_documented |
-| `sante-psychologues-rembourses` | 3 | 0 | one_end_documented |
-| `sante-regulation-installation-medecins` | 3 | 0 | one_end_documented |
-| `securite-budget-vers-prevention` | 1 | 0 | one_end_documented |
-| `securite-enquetes-policiers-independantes` | 4 | 0 | one_end_documented |
-| `securite-limiter-dissolution-associations` | 1 | 2 | documented_both_ends |
-| `securite-recepisse-controles-identite` | 4 | 0 | one_end_documented |
-| `securite-renseignement-autorisation-juge` | 1 | 0 | one_end_documented |
-| `justice-accompagnement-emploi-detenus` | 4 | 0 | one_end_documented |
-| `justice-imprescriptibilite-crimes-sexuels-mineurs` | 2 | 1 | documented_both_ends |
-| `justice-juridictions-mineurs-specialisees-v2` | 2 | 1 | documented_both_ends |
-| `justice-sanction-financiere-parents` | 4 | 0 | one_end_documented |
-| `justice-visites-familiales-prisons` | 1 | 0 | one_end_documented |
-| `institutions-autonomie-corse-constitution-v2` | 1 | 1 | documented_both_ends |
-| `institutions-competences-retour-etat-v2` | 4 | 3 | documented_both_ends |
-| `institutions-fusions-communes-obligatoires` | 0 | 2 | one_end_documented |
-| `institutions-mandat-presidentiel-sept-ans` | 4 | 0 | one_end_documented |
-| `institutions-reduire-nombre-parlementaires` | 1 | 0 | one_end_documented |
-| `institutions-supprimer-senat` | 1 | 2 | documented_both_ends |
-| `democratie-assemblees-tirees-consultatives-v2` | 0 | 2 | one_end_documented |
-| `democratie-budget-participatif-communes` | 1 | 0 | one_end_documented |
-| `democratie-parrainages-elus-maintenus` | 0 | 2 | one_end_documented |
-| `democratie-raccourcir-consultations-public` | 1 | 1 | documented_both_ends |
-| `democratie-referendum-exceptionnel` | 0 | 9 | one_end_documented |
-| `democratie-referendum-reserve-elus-v2` | 0 | 10 | one_end_documented |
-| `democratie-seuil-rip-maintenu-v2` | 0 | 2 | one_end_documented |
-| `numerique-chiffrement-messageries-v2` | 2 | 0 | one_end_documented |
-| `numerique-donnees-sante-hebergeurs-europeens` | 5 | 0 | one_end_documented |
-| `numerique-logiciels-libres-administration` | 11 | 0 | one_end_documented |
-| `numerique-responsabilite-plateformes-limitee-v2` | 0 | 1 | one_end_documented |
-| `numerique-telephone-interdit-lycees` | 2 | 0 | one_end_documented |
-| `agriculture-autoriser-nouvelles-techniques-genomiques` | 1 | 3 | documented_both_ends |
-| `agriculture-bio-restauration-collective-v2` | 4 | 0 | one_end_documented |
-| `agriculture-chalut-aires-protegees` | 2 | 0 | one_end_documented |
-| `agriculture-origine-viandes-restaurants-v2` | 1 | 0 | one_end_documented |
-| `agriculture-prix-plancher-agricoles` | 7 | 0 | one_end_documented |
-| `travail-limiter-licenciements-beneficiaires-v2` | 4 | 0 | one_end_documented |
-| `travail-plafond-prudhommes-maintenu-v2` | 0 | 2 | one_end_documented |
-| `travail-plafonner-ecart-salaires` | 3 | 0 | one_end_documented |
-| `travail-plateformes-presomption-salariat` | 4 | 0 | one_end_documented |
-| `travail-salaries-conseils-administration` | 5 | 0 | one_end_documented |
-| `travail-smic-regional` | 1 | 0 | one_end_documented |
-| `travail-statut-fonction-publique-regalien` | 1 | 4 | documented_both_ends |
-| `defense-controle-exportations-armes` | 2 | 0 | one_end_documented |
-| `defense-dissuasion-protection-europe-v2` | 2 | 2 | documented_both_ends |
-| `defense-troupes-ukraine-cessez-le-feu-v2` | 1 | 0 | one_end_documented |
-| `environnement-calendrier-logements-mal-isoles` | 2 | 1 | documented_both_ends |
-| `environnement-chasse-dimanche` | 0 | 1 | one_end_documented |
-| `environnement-gazole-non-routier-agriculteurs` | 0 | 1 | one_end_documented |
-| `environnement-limiter-recours-projets-v2` | 3 | 0 | one_end_documented |
-| `transport-abonnement-national-unique` | 3 | 0 | one_end_documented |
-| `transport-autoroutes-concedees-v2` | 0 | 6 | one_end_documented |
-| `transport-petites-lignes-maintenues` | 6 | 0 | one_end_documented |
-| `transport-sncf-entreprise-publique-v2` | 5 | 0 | one_end_documented |
-| `transport-supprimer-controle-technique-motos-v2` | 1 | 0 | one_end_documented |
-| `transport-voitures-centres-villes-libres` | 1 | 1 | documented_both_ends |
+- **Sources à vérifier (86)** : nombre de positions directes en brouillon de chaque côté. « 0 » signale un côté sans aucune source directe.
 
-- **Aucune source (7)** : `societe-casinos-en-ligne`, `securite-manifestations-sans-declaration`, `justice-detenus-frais-incarceration`, `agriculture-curage-fosses-sans-autorisation`, `agriculture-tirs-loups-sans-autorisation-v2`, `defense-livret-a-industrie-defense`, `energie-centres-donnees-electricite-renouvelable`.
+| Énoncé | Pour (brouillons) | Contre (brouillons) | Indirectes écartées | Ancien libellé |
+|---|---|---|---|---|
+| `international-adhesion-ukraine-ue` | 1 | 1 | 0 | documented_both_ends |
+| `international-arrets-cedh-derogation-v2` | 5 | 1 | 0 | documented_both_ends |
+| `international-primaute-loi-nationale-v2` | 5 | 0 | 2 | one_end_documented |
+| `societe-aide-active-a-mourir` | 2 | 1 | 0 | documented_both_ends |
+| `societe-gpa-interdite-v2` | 4 | 0 | 0 | one_end_documented |
+| `societe-interdire-ecriture-inclusive` | 1 | 0 | 0 | one_end_documented |
+| `societe-salles-consommation-drogue-v2` | 2 | 0 | 0 | one_end_documented |
+| `societe-statut-beau-parent-v2` | 1 | 0 | 0 | one_end_documented |
+| `economie-aides-conditionnees-emploi` | 6 | 0 | 0 | one_end_documented |
+| `economie-encadrer-marges-distribution` | 3 | 0 | 0 | one_end_documented |
+| `economie-etat-finance-usines` | 3 | 0 | 0 | one_end_documented |
+| `economie-ouverture-dimanche-libre-v2` | 0 | 1 | 0 | one_end_documented |
+| `economie-participations-etat-industrie` | 11 | 0 | 0 | one_end_documented |
+| `economie-plafonner-prix-alimentaires` | 4 | 0 | 0 | one_end_documented |
+| `economie-regle-equilibre-constitution` | 3 | 1 | 0 | documented_both_ends |
+| `fiscalite-baisse-ir-tranches-intermediaires` | 2 | 0 | 0 | one_end_documented |
+| `fiscalite-csg-progressive-v2` | 2 | 0 | 0 | one_end_documented |
+| `fiscalite-impot-minimum-grandes-fortunes-v2` | 4 | 1 | 0 | documented_both_ends |
+| `fiscalite-reduire-credits-impot` | 5 | 0 | 1 | one_end_documented |
+| `fiscalite-taxe-benefices-exceptionnels` | 7 | 1 | 0 | documented_both_ends |
+| `fiscalite-tranche-hauts-revenus` | 4 | 0 | 0 | one_end_documented |
+| `immigration-asile-examen-hors-europe-v2` | 4 | 3 | 0 | documented_both_ends |
+| `immigration-condamnes-perte-titre-sejour` | 7 | 0 | 0 | one_end_documented |
+| `immigration-reduire-duree-naturalisation` | 2 | 1 | 0 | documented_both_ends |
+| `immigration-regularisation-cinq-ans` | 4 | 4 | 1 | documented_both_ends |
+| `immigration-regularisation-metiers-tension` | 1 | 0 | 8 | documented_both_ends |
+| `immigration-titre-sejour-longue-duree` | 3 | 2 | 0 | documented_both_ends |
+| `immigration-visas-professions-qualifiees-v2` | 4 | 1 | 0 | documented_both_ends |
+| `immigration-vote-local-etrangers-v2` | 3 | 0 | 1 | one_end_documented |
+| `sante-assurance-sante-privee-option-v2` | 0 | 1 | 0 | one_end_documented |
+| `sante-doubler-etudiants-medecine` | 2 | 0 | 0 | one_end_documented |
+| `sante-jeunes-medecins-zones-sous-dotees` | 1 | 0 | 0 | one_end_documented |
+| `sante-mutuelles-part-accrue-v2` | 0 | 4 | 0 | one_end_documented |
+| `sante-psychologues-rembourses` | 3 | 0 | 0 | one_end_documented |
+| `sante-regulation-installation-medecins` | 3 | 0 | 0 | one_end_documented |
+| `securite-budget-vers-prevention` | 1 | 0 | 0 | one_end_documented |
+| `securite-enquetes-policiers-independantes` | 4 | 0 | 0 | one_end_documented |
+| `securite-limiter-dissolution-associations` | 1 | 2 | 0 | documented_both_ends |
+| `securite-recepisse-controles-identite` | 4 | 0 | 0 | one_end_documented |
+| `securite-renseignement-autorisation-juge` | 1 | 0 | 0 | one_end_documented |
+| `justice-accompagnement-emploi-detenus` | 4 | 0 | 0 | one_end_documented |
+| `justice-imprescriptibilite-crimes-sexuels-mineurs` | 2 | 1 | 0 | documented_both_ends |
+| `justice-juridictions-mineurs-specialisees-v2` | 2 | 1 | 0 | documented_both_ends |
+| `justice-sanction-financiere-parents` | 4 | 0 | 0 | one_end_documented |
+| `justice-visites-familiales-prisons` | 1 | 0 | 0 | one_end_documented |
+| `institutions-autonomie-corse-constitution-v2` | 1 | 1 | 0 | documented_both_ends |
+| `institutions-competences-retour-etat-v2` | 4 | 3 | 0 | documented_both_ends |
+| `institutions-fusions-communes-obligatoires` | 0 | 2 | 0 | one_end_documented |
+| `institutions-mandat-presidentiel-sept-ans` | 4 | 0 | 0 | one_end_documented |
+| `institutions-reduire-nombre-parlementaires` | 1 | 0 | 0 | one_end_documented |
+| `institutions-supprimer-senat` | 1 | 2 | 0 | documented_both_ends |
+| `democratie-assemblees-tirees-consultatives-v2` | 0 | 2 | 0 | one_end_documented |
+| `democratie-budget-participatif-communes` | 1 | 0 | 0 | one_end_documented |
+| `democratie-parrainages-elus-maintenus` | 0 | 2 | 0 | one_end_documented |
+| `democratie-raccourcir-consultations-public` | 1 | 1 | 0 | documented_both_ends |
+| `democratie-referendum-exceptionnel` | 0 | 8 | 1 | one_end_documented |
+| `democratie-seuil-rip-maintenu-v2` | 0 | 1 | 1 | one_end_documented |
+| `numerique-chiffrement-messageries-v2` | 2 | 0 | 0 | one_end_documented |
+| `numerique-donnees-sante-hebergeurs-europeens` | 5 | 0 | 0 | one_end_documented |
+| `numerique-logiciels-libres-administration` | 11 | 0 | 0 | one_end_documented |
+| `numerique-responsabilite-plateformes-limitee-v2` | 0 | 1 | 0 | one_end_documented |
+| `numerique-telephone-interdit-lycees` | 2 | 0 | 0 | one_end_documented |
+| `agriculture-autoriser-nouvelles-techniques-genomiques` | 1 | 3 | 0 | documented_both_ends |
+| `agriculture-bio-restauration-collective-v2` | 4 | 0 | 0 | one_end_documented |
+| `agriculture-chalut-aires-protegees` | 2 | 0 | 0 | one_end_documented |
+| `agriculture-origine-viandes-restaurants-v2` | 1 | 0 | 0 | one_end_documented |
+| `agriculture-prix-plancher-agricoles` | 7 | 0 | 0 | one_end_documented |
+| `travail-limiter-licenciements-beneficiaires-v2` | 3 | 0 | 1 | one_end_documented |
+| `travail-plafond-prudhommes-maintenu-v2` | 0 | 2 | 0 | one_end_documented |
+| `travail-plafonner-ecart-salaires` | 3 | 0 | 0 | one_end_documented |
+| `travail-plateformes-presomption-salariat` | 4 | 0 | 0 | one_end_documented |
+| `travail-salaries-conseils-administration` | 5 | 0 | 0 | one_end_documented |
+| `travail-statut-fonction-publique-regalien` | 1 | 4 | 0 | documented_both_ends |
+| `defense-controle-exportations-armes` | 2 | 0 | 0 | one_end_documented |
+| `defense-dissuasion-protection-europe-v2` | 2 | 2 | 0 | documented_both_ends |
+| `defense-troupes-ukraine-cessez-le-feu-v2` | 1 | 0 | 0 | one_end_documented |
+| `environnement-calendrier-logements-mal-isoles` | 2 | 1 | 0 | documented_both_ends |
+| `environnement-chasse-dimanche` | 0 | 1 | 0 | one_end_documented |
+| `environnement-gazole-non-routier-agriculteurs` | 0 | 1 | 0 | one_end_documented |
+| `environnement-limiter-recours-projets-v2` | 3 | 0 | 0 | one_end_documented |
+| `transport-abonnement-national-unique` | 3 | 0 | 0 | one_end_documented |
+| `transport-autoroutes-concedees-v2` | 0 | 6 | 0 | one_end_documented |
+| `transport-petites-lignes-maintenues` | 6 | 0 | 0 | one_end_documented |
+| `transport-sncf-entreprise-publique-v2` | 1 | 0 | 4 | one_end_documented |
+| `transport-supprimer-controle-technique-motos-v2` | 1 | 0 | 0 | one_end_documented |
+| `transport-voitures-centres-villes-libres` | 0 | 1 | 1 | documented_both_ends |
 
-Chaque preuve est détaillée dans l'export (candidat, valeur, source, URL, titre, citation, date de publication, date d'accès, statut de relecture ; date et auteur de la relecture à `null` tant qu'elle n'a pas eu lieu). Pour lever le blocage : relire ces positions avec `pnpm data:review`, puis régénérer l'export et la page.
+- **Aucune source directe (10)** : `societe-casinos-en-ligne`, `societe-signes-religieux-universite`, `securite-manifestations-sans-declaration`, `justice-detenus-frais-incarceration`, `democratie-referendum-reserve-elus-v2`, `agriculture-curage-fosses-sans-autorisation`, `agriculture-tirs-loups-sans-autorisation-v2`, `travail-smic-regional`, `defense-livret-a-industrie-defense`, `energie-centres-donnees-electricite-renouvelable`.
+
+**Formulation évaluée.** Les positions ont été évaluées sur le texte de la banque du 2026-11-09 (`scoredText`). Pour 30 énoncés, la formulation finale diffère : leurs positions devront être réévaluées sur la nouvelle formulation avant de compter comme preuves, même relues. Même règle si le relecteur modifie le texte sur la page.
+
+Chaque preuve est détaillée dans l'export (candidat, valeur, source, URL, titre, citation, date de publication, date d'accès, énoncé et texte évalués, statut de relecture ; date et auteur de la relecture à `null` tant qu'elle n'a pas eu lieu). Pour lever le blocage : relire ces positions avec `pnpm data:review`, puis régénérer l'export et la page.
 
 ## 8. Ambiguïtés restantes
 
