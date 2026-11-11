@@ -202,12 +202,12 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
-# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
-- id: immigration-reduire-duree-retention
-  text: "La durée maximale de rétention administrative des étrangers en instance d'éloignement doit être réduite."
+# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
+# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: immigration-asile-examen-en-france
+  text: "Un demandeur d'asile doit pouvoir faire examiner sa demande en France, même s'il est entré dans l'Union européenne par un autre pays."
   themes:
     - immigration
-  polarity: +
+  polarity: "+"
   status: draft
   author: claude

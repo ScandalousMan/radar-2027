@@ -206,30 +206,30 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
-# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
-- id: fiscalite-hausse-droits-gros-heritages
-  text: "Les droits de succession sur les héritages les plus élevés doivent être augmentés."
+# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
+# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: fiscalite-reduire-allegements-cotisations
+  text: "Les exonérations de cotisations sociales dont bénéficient les employeurs sur les salaires doivent être réduites."
   themes:
     - fiscalite
-  polarity: +
+  polarity: "+"
   status: draft
   author: claude
-# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
-# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
-- id: fiscalite-taxer-rachats-actions
-  text: "Les rachats de leurs propres actions par les grandes entreprises doivent être davantage taxés."
+# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
+# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: fiscalite-plafonner-abattement-pensions
+  text: "Le plafond de l'abattement fiscal de 10 % appliqué aux pensions de retraite doit être abaissé."
   themes:
     - fiscalite
-  polarity: +
+  polarity: "+"
   status: draft
   author: claude
-# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
-# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
+# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
+# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
 - id: fiscalite-exit-tax-renforcee
-  text: "Les contribuables qui transfèrent leur domicile fiscal à l'étranger doivent être imposés plus lourdement sur leurs plus-values."
+  text: "Les contribuables qui quittent la France en détenant plus de 800 000 € d'actions doivent rester imposables sur leurs plus-values pendant quinze ans, au lieu de deux à cinq ans aujourd'hui."
   themes:
     - fiscalite
-  polarity: +
+  polarity: "+"
   status: draft
   author: claude

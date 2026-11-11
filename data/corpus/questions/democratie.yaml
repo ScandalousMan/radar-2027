@@ -201,37 +201,28 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
-# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
+# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
+# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
 - id: democratie-quorum-referendum
-  text: "Un référendum national ne doit être valide que si au moins la moitié des électeurs inscrits y participent."
+  text: "Un référendum national ne doit être valide que si au moins un quart des électeurs inscrits y participent."
   themes:
     - democratie
   polarity: "-"
   status: draft
   author: claude
-# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
-# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
+# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
+# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
 - id: democratie-champ-referendum-inchange
-  text: "Les sujets pouvant être soumis à référendum national doivent rester ceux prévus aujourd'hui par la Constitution."
+  text: "Le référendum doit rester limité aux sujets actuels : institutions, réformes économiques, sociales ou environnementales, services publics et certains traités."
   themes:
     - democratie
   polarity: "-"
   status: draft
   author: claude
-# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
-# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
-- id: democratie-projets-nationaux-sans-referendum-local
-  text: "La décision sur les projets d'aménagement d'intérêt national doit revenir à l'État et au Parlement, sans référendum local."
-  themes:
-    - democratie
-  polarity: "-"
-  status: draft
-  author: claude
-# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
-# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
-- id: democratie-loi-referendaire-modifiable
-  text: "Le Parlement doit pouvoir modifier une loi adoptée par référendum sans consulter à nouveau les électeurs."
+# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
+# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: democratie-pas-de-constituante
+  text: "La France ne doit pas convoquer d'assemblée constituante pour rédiger une nouvelle Constitution."
   themes:
     - democratie
   polarity: "-"

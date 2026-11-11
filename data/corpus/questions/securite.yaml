@@ -205,28 +205,28 @@
   polarity: "-"
   status: draft
   author: claude
-# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
-# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
+# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
+# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
 - id: securite-controles-identite-soupcon
-  text: "Les contrôles d'identité doivent être réservés aux personnes soupçonnées d'avoir commis une infraction."
+  text: "Les contrôles d'identité que la police peut effectuer à titre préventif, quel que soit le comportement de la personne, doivent être supprimés."
   themes:
     - securite
   polarity: "-"
   status: draft
   author: claude
-# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
-# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
+# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
+# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
 - id: securite-interdire-plaquage-ventral
-  text: "La technique d'immobilisation par plaquage ventral doit être interdite aux forces de l'ordre."
+  text: "Il doit être interdit aux forces de l'ordre de maintenir une personne à plat ventre en appuyant sur son dos."
   themes:
     - securite
   polarity: "-"
   status: draft
   author: claude
-# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
-# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
-- id: securite-reduire-videosurveillance
-  text: "Le nombre de caméras de vidéosurveillance dans l'espace public doit être réduit."
+# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
+# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: securite-dissoudre-brav-m
+  text: "Les brigades de policiers à moto chargées du maintien de l'ordre à Paris (BRAV-M) doivent être démantelées."
   themes:
     - securite
   polarity: "-"

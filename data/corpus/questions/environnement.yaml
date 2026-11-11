@@ -218,10 +218,10 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Nouvel énoncé FR-012 du 2026-11-10 (boucle de rédaction claude / relecture indépendante, 3 tours) : à valider par adrien.
-# Détail : data/relectures/2026-11-10-nouveaux-enonces.md
-- id: environnement-alleger-reporting-environnemental
-  text: "Les obligations de publication d'informations environnementales imposées aux entreprises doivent être davantage allégées."
+# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
+# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
+- id: environnement-derogation-especes-protegees
+  text: "Les conditions permettant à un projet industriel ou d'aménagement de déroger à la protection des espèces doivent être assouplies."
   themes:
     - environnement
   polarity: "-"
