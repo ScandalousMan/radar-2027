@@ -209,6 +209,7 @@
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Texte v4 (revue adverse n° 1) : Les exonérations de cotisations sociales dont bénéficient les employeurs sur les salaires doivent être réduites.
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
 - id: fiscalite-reduire-allegements-cotisations
   text: "Les allègements de cotisations sociales accordés aux employeurs sur les salaires doivent être réduits."
   themes:
@@ -219,8 +220,11 @@
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Texte v4 (revue adverse n° 1) : Les contribuables qui quittent la France en détenant plus de 800 000 € d'actions doivent rester imposables sur leurs plus-values pendant quinze ans, au lieu de deux à cinq ans aujourd'hui.
-- id: fiscalite-exit-tax-renforcee
-  text: "Quand une personne quitte la France avec plus de 800 000 € d'actions, l'impôt sur ses plus-values déjà acquises ne doit être annulé que si elle garde ses actions 15 ans, et non 2 ou 5."
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+# Ancien identifiant : fiscalite-exit-tax-renforcee (renommé par la revue corrective : le sens a changé depuis la première version de cet identifiant).
+# Texte v5 (revue adverse n° 2) : Quand une personne quitte la France avec plus de 800 000 € d'actions, l'impôt sur ses plus-values déjà acquises ne doit être annulé que si elle garde ses actions 15 ans, et non 2 ou 5.
+- id: fiscalite-exit-tax-conservation-15-ans
+  text: "Quand une personne quitte la France avec plus de 800 000 € d'actions, l'impôt sur ses plus-values déjà acquises au départ ne doit être effacé que si elle les garde 15 ans, contre 2 ou 5 aujourd'hui."
   themes:
     - fiscalite
   polarity: "+"
@@ -229,6 +233,7 @@
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Remplace fiscalite-plafonner-abattement-pensions (retiré, voir le rapport).
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
 - id: fiscalite-quotient-familial-credit-enfant
   text: "Le quotient familial doit être remplacé par un crédit d'impôt du même montant pour chaque enfant, quel que soit le revenu des parents."
   themes:

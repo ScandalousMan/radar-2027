@@ -208,7 +208,9 @@
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Texte v4 (revue adverse n° 1) : Les contrôles d'identité que la police peut effectuer à titre préventif, quel que soit le comportement de la personne, doivent être supprimés.
-- id: securite-controles-identite-soupcon
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+# Ancien identifiant : securite-controles-identite-soupcon (renommé par la revue corrective : le sens a changé depuis la première version de cet identifiant).
+- id: securite-supprimer-controles-preventifs
   text: "Les contrôles d'identité que la police peut faire sans soupçon ni réquisition du procureur, pour prévenir un trouble à l'ordre public, doivent être supprimés."
   themes:
     - securite
@@ -218,6 +220,7 @@
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Texte v4 (revue adverse n° 1) : Il doit être interdit aux forces de l'ordre de maintenir une personne à plat ventre en appuyant sur son dos.
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
 - id: securite-interdire-plaquage-ventral
   text: "Il doit être interdit aux forces de l'ordre d'immobiliser une personne au sol, à plat ventre, en exerçant une pression sur son dos ou son thorax."
   themes:
@@ -228,6 +231,7 @@
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Remplace securite-dissoudre-brav-m (retiré, voir le rapport).
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
 - id: securite-supprimer-bac
   text: "Les brigades anticriminalité (BAC) de la police nationale doivent être supprimées."
   themes:

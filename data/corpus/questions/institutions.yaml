@@ -205,21 +205,15 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
-# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
-# Texte v4 (revue adverse n° 1) : Les dotations de l'État aux grandes collectivités doivent baisser si leurs dépenses de fonctionnement augmentent plus vite que le rythme maximal fixé par l'État.
-- id: institutions-dotations-conditionnees-etat
-  text: "Les dotations de l'État aux grandes collectivités doivent baisser si leurs dépenses de fonctionnement augmentent plus vite que le plafond fixé par l'État."
-  themes:
-    - institutions
-  polarity: "-"
-  status: draft
-  author: claude
+# Retiré par la revue corrective du 2026-11-11 : institutions-dotations-conditionnees-etat (REJECT_C5_UNSUPPORTED, voir data/relectures/2026-11-11-revue-corrective.md).
+# Texte retiré : Les dotations de l'État aux grandes collectivités doivent baisser si leurs dépenses de fonctionnement augmentent plus vite que le plafond fixé par l'État.
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Texte v4 (revue adverse n° 1) : L'interdiction faite aux parlementaires de proposer des mesures qui augmentent les dépenses publiques doit être maintenue.
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+# Texte v5 (revue adverse n° 2) : Seul le gouvernement, et non les parlementaires, doit continuer à pouvoir proposer des mesures qui augmentent les dépenses publiques.
 - id: institutions-maintenir-article-40
-  text: "Seul le gouvernement, et non les parlementaires, doit continuer à pouvoir proposer des mesures qui augmentent les dépenses publiques."
+  text: "Les députés et sénateurs doivent rester empêchés de proposer une mesure qui crée ou augmente une charge pour les finances publiques."
   themes:
     - institutions
   polarity: "-"

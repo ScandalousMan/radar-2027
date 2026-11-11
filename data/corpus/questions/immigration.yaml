@@ -205,8 +205,11 @@
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Texte v4 (revue adverse n° 1) : Un demandeur d'asile doit pouvoir faire examiner sa demande en France, même s'il est entré dans l'Union européenne par un autre pays.
-- id: immigration-asile-examen-en-france
-  text: "La France doit examiner elle-même les demandes d'asile déposées sur son sol, au lieu de renvoyer les demandeurs vers le pays européen désigné par les règles de l'Union."
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+# Ancien identifiant : immigration-asile-examen-en-france (renommé par la revue corrective : le sens a changé depuis la première version de cet identifiant).
+# Texte v5 (revue adverse n° 2) : La France doit examiner elle-même les demandes d'asile déposées sur son sol, au lieu de renvoyer les demandeurs vers le pays européen désigné par les règles de l'Union.
+- id: immigration-asile-examen-sans-transfert
+  text: "Un demandeur d'asile présent en France doit pouvoir y faire examiner sa demande, au lieu d'être renvoyé vers le pays européen responsable selon les règles de l'Union."
   themes:
     - immigration
   polarity: "+"

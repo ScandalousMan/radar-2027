@@ -204,26 +204,22 @@
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Texte v4 (revue adverse n° 1) : Le référendum doit rester limité aux sujets actuels : institutions, réformes économiques, sociales ou environnementales, services publics et certains traités.
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+# Texte v5 (revue adverse n° 2) : Le référendum sur un projet de loi doit rester limité aux sujets prévus aujourd'hui, sans être étendu à tous les domaines de la loi, comme la justice pénale ou les sujets de société.
 - id: democratie-champ-referendum-inchange
-  text: "Le référendum sur un projet de loi doit rester limité aux sujets prévus aujourd'hui, sans être étendu à tous les domaines de la loi, comme la justice pénale ou les sujets de société."
+  text: "Le référendum sur un texte de loi doit rester limité à ses sujets actuels (notamment institutions, politique économique, sociale ou environnementale), sans être étendu à tous les domaines de la loi."
   themes:
     - democratie
   polarity: "-"
   status: draft
   author: claude
-# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
-# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
-# Remplace democratie-quorum-referendum (retiré, voir le rapport).
-- id: democratie-cours-criminelles-sans-jury
-  text: "Les crimes punis de 15 ou 20 ans de réclusion doivent continuer à être jugés par des magistrats sans jury populaire, dans les cours criminelles départementales."
-  themes:
-    - democratie
-  polarity: "-"
-  status: draft
-  author: claude
+# Retiré par la revue corrective du 2026-11-11 : democratie-cours-criminelles-sans-jury (REJECT_OFF_AXIS, voir data/relectures/2026-11-11-revue-corrective.md).
+# Il remplaçait democratie-quorum-referendum (retiré par la revue n° 2).
+# Texte retiré : Les crimes punis de 15 ou 20 ans de réclusion doivent continuer à être jugés par des magistrats sans jury populaire, dans les cours criminelles départementales.
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Remplace democratie-pas-de-constituante (retiré, voir le rapport).
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
 - id: democratie-revision-par-congres
   text: "Une révision de la Constitution doit pouvoir continuer à être adoptée par le Parlement réuni en Congrès, sans référendum."
   themes:

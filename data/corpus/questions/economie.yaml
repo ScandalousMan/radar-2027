@@ -204,6 +204,7 @@
     both-ends-defensible: true
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
 - id: economie-eau-operateurs-publics
   text: "La distribution de l'eau potable doit être assurée uniquement par des opérateurs publics."
   themes:
@@ -214,7 +215,9 @@
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Texte v4 (revue adverse n° 1) : Le plafonnement du niveau des loyers doit être obligatoire dans toutes les zones où le logement manque (zones tendues), même si la commune ne le demande pas.
-- id: economie-encadrement-loyers-generalise
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+# Ancien identifiant : economie-encadrement-loyers-generalise (renommé par la revue corrective : le sens a changé depuis la première version de cet identifiant).
+- id: economie-plafonnement-loyers-zones-tendues
   text: "Le plafonnement du niveau des loyers doit être obligatoire dans toutes les zones où le logement manque (zones tendues), même si les élus locaux ne le demandent pas."
   themes:
     - economie
