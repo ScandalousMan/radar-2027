@@ -1,0 +1,279 @@
+{
+  "schema": "radar-2027/revue-adverse-2@1",
+  "date": "2026-11-11",
+  "referenceDate": "2026-11-11",
+  "status": "Toutes les entrées restent draft, à valider par adrien.",
+  "reviewRounds": [
+    {
+      "round": 1,
+      "version": "v4",
+      "accept": 3,
+      "blocking": 5,
+      "major": 13,
+      "minor": 15
+    },
+    {
+      "round": 2,
+      "version": "v5",
+      "accept": 13,
+      "blocking": 1,
+      "major": 4,
+      "minor": 20
+    },
+    {
+      "round": 3,
+      "version": "v5 final",
+      "accept": 15,
+      "blocking": 0,
+      "major": 0,
+      "minor": 17
+    }
+  ],
+  "items": [
+    {
+      "id": "economie-eau-operateurs-publics",
+      "theme": "economie",
+      "polarity": "+",
+      "verdict": "ACCEPT",
+      "textV4": "La distribution de l'eau potable doit être assurée uniquement par des opérateurs publics.",
+      "textFinal": "La distribution de l'eau potable doit être assurée uniquement par des opérateurs publics.",
+      "chars": 89,
+      "change": "inchangé",
+      "evidenceAndLaw": "+ Mélenchon (AEC 2027 régie publique, KNOWN candidat) ; − FP2E (audition AN 12/05/2021, KNOWN acteur), LR Schellenberger 2018 (KNOWN groupe). Aucun candidat côté −.",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-economie-fiscalite.md"
+    },
+    {
+      "id": "economie-encadrement-loyers-generalise",
+      "theme": "economie",
+      "polarity": "+",
+      "verdict": "ACCEPT",
+      "textV4": "Le plafonnement du niveau des loyers doit être obligatoire dans toutes les zones où le logement manque (zones tendues), même si la commune ne le demande pas.",
+      "textFinal": "Le plafonnement du niveau des loyers doit être obligatoire dans toutes les zones où le logement manque (zones tendues), même si les élus locaux ne le demandent pas.",
+      "chars": 164,
+      "change": "« la commune » → « les élus locaux » (souvent l'EPCI)",
+      "evidenceAndLaw": "+ Mélenchon (AEC 2027 « encadrement des loyers partout », KNOWN candidat) ; − Retailleau (plan 28/05/2026 « suppression de l'encadrement », KNOWN via source secondaire). Droit : ELAN art. 140 expérimental jusqu'au 23-24/11/2026 ; PPL 2039 non adoptée au 11/11.",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-economie-fiscalite.md"
+    },
+    {
+      "id": "fiscalite-reduire-allegements-cotisations",
+      "theme": "fiscalite",
+      "polarity": "+",
+      "verdict": "ACCEPT",
+      "textV4": "Les exonérations de cotisations sociales dont bénéficient les employeurs sur les salaires doivent être réduites.",
+      "textFinal": "Les allègements de cotisations sociales accordés aux employeurs sur les salaires doivent être réduits.",
+      "chars": 102,
+      "change": "« exonérations … dont bénéficient » → « allègements … accordés »",
+      "evidenceAndLaw": "+ Mélenchon (chiffrage oct. 2026 « au-dessus de 2 SMIC », KNOWN candidat) ; − Attal (X, 21/11/2024 cité LCP, KNOWN candidat, formule courte), DR/EPR groupes. Droit : RGDU, CSS L241-13 depuis 01/01/2026.",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-economie-fiscalite.md"
+    },
+    {
+      "id": "fiscalite-quotient-familial-credit-enfant",
+      "theme": "fiscalite",
+      "polarity": "+",
+      "verdict": "ACCEPT",
+      "textV4": null,
+      "textFinal": "Le quotient familial doit être remplacé par un crédit d'impôt du même montant pour chaque enfant, quel que soit le revenu des parents.",
+      "chars": 134,
+      "change": "REMPLACE fiscalite-plafonner-abattement-pensions (aucun candidat « pour », quasi-unanimité probable, droit instable)",
+      "evidenceAndLaw": "d'accord : groupe LFI (amendement AS16, 13/06/2025, KNOWN groupe) ; Mélenchon KNOWN sur « Créer un crédit d'impôt par enfant pour toutes les familles » (AEC 2027), PLAUSIBLE sur le remplacement du quotient ; pas d'accord : Zemmour 2022 (« doubler le quotient familial », KNOWN candidat), RN 2024, DR (PPL 3224). Droit : CGI 197 I 2, plafond 1 807 € par demi-part (revenus 2025, BOFiP).",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-economie-fiscalite.md"
+    },
+    {
+      "id": "fiscalite-exit-tax-renforcee",
+      "theme": "fiscalite",
+      "polarity": "+",
+      "verdict": "ACCEPT",
+      "textV4": "Les contribuables qui quittent la France en détenant plus de 800 000 € d'actions doivent rester imposables sur leurs plus-values pendant quinze ans, au lieu de deux à cinq ans aujourd'hui.",
+      "textFinal": "Quand une personne quitte la France avec plus de 800 000 € d'actions, l'impôt sur ses plus-values déjà acquises ne doit être annulé que si elle garde ses actions 15 ans, et non 2 ou 5.",
+      "chars": 184,
+      "change": "mécanisme corrigé : impôt sur la plus-value latente au départ, annulé si titres conservés 2 ou 5 ans",
+      "evidenceAndLaw": "+ Ruffin (LCP 03/11/2025, KNOWN candidat), RN I-807 (2025) ; − gouvernement (Montchalin). Droit : CGI 167 bis (seuil 800 000 € OU 50 % des bénéfices ; dégrèvement 2 ans, 5 ans au-delà de 2,57 M€) ; historique : 8 ans 2011-2013, 15 ans 2014-2018. Critère 50 % omis volontairement (ne change pas le choix).",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-economie-fiscalite.md"
+    },
+    {
+      "id": "immigration-asile-examen-en-france",
+      "theme": "immigration",
+      "polarity": "+",
+      "verdict": "ACCEPT",
+      "textV4": "Un demandeur d'asile doit pouvoir faire examiner sa demande en France, même s'il est entré dans l'Union européenne par un autre pays.",
+      "textFinal": "La France doit examiner elle-même les demandes d'asile déposées sur son sol, au lieu de renvoyer les demandeurs vers le pays européen désigné par les règles de l'Union.",
+      "chars": 168,
+      "change": "ne confond plus entrée et responsabilité ; vise les transferts",
+      "evidenceAndLaw": "+ Mélenchon (AEC 2027, KNOWN candidat), LFI CL13 (17/07/2026) ; − gouvernement (projet de loi n° 2820 d'adaptation au règlement 2024/1351, KNOWN acteur). Droit : règlement 2024/1351 applicable (1er juillet 2026 selon art. 85 ; le gouvernement dit 12 juin) ; art. 35 clauses discrétionnaires.",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-immigration-securite.md"
+    },
+    {
+      "id": "securite-controles-identite-soupcon",
+      "theme": "securite",
+      "polarity": "-",
+      "verdict": "ACCEPT",
+      "textV4": "Les contrôles d'identité que la police peut effectuer à titre préventif, quel que soit le comportement de la personne, doivent être supprimés.",
+      "textFinal": "Les contrôles d'identité que la police peut faire sans soupçon ni réquisition du procureur, pour prévenir un trouble à l'ordre public, doivent être supprimés.",
+      "chars": 158,
+      "change": "exclut explicitement soupçon et réquisition ; finalité légale ajoutée",
+      "evidenceAndLaw": "+ (d'accord) Ruffin (PPL 1841, supprime l'al. 8 de 78-2 CPP, KNOWN candidat) ; − Sénat majorité LR (rapport Bonhomme, KNOWN groupe). Zone frontalière hors champ (ni soupçon ni réquisition, mais finalité différente) : à juger.",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-immigration-securite.md"
+    },
+    {
+      "id": "securite-interdire-plaquage-ventral",
+      "theme": "securite",
+      "polarity": "-",
+      "verdict": "ACCEPT",
+      "textV4": "Il doit être interdit aux forces de l'ordre de maintenir une personne à plat ventre en appuyant sur son dos.",
+      "textFinal": "Il doit être interdit aux forces de l'ordre d'immobiliser une personne au sol, à plat ventre, en exerçant une pression sur son dos ou son thorax.",
+      "chars": 145,
+      "change": "description précisée (au sol, dos ou thorax)",
+      "evidenceAndLaw": "d'accord : Mélenchon (AEC 2027, KNOWN candidat), Ruffin et Glucksmann (2020) ; pas d'accord : ministère de l'Intérieur (maintien de la technique en 2020, KNOWN acteur). Défenseur des droits 2026-062 : demande un cadre, pas une interdiction.",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-immigration-securite.md"
+    },
+    {
+      "id": "securite-supprimer-bac",
+      "theme": "securite",
+      "polarity": "-",
+      "verdict": "ACCEPT",
+      "textV4": null,
+      "textFinal": "Les brigades anticriminalité (BAC) de la police nationale doivent être supprimées.",
+      "chars": 82,
+      "change": "REMPLACE securite-dissoudre-brav-m (unité parisienne, redondance manifestations)",
+      "evidenceAndLaw": "d'accord : Mélenchon (AEC 2027 « démanteler les BAC et la BRAV-M », KNOWN candidat) ; pas d'accord : NON VÉRIFIÉ (défenseur public identifiable à trouver). Risque : isole LFI.",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-immigration-securite.md"
+    },
+    {
+      "id": "institutions-dotations-conditionnees-etat",
+      "theme": "institutions",
+      "polarity": "-",
+      "verdict": "ACCEPT",
+      "textV4": "Les dotations de l'État aux grandes collectivités doivent baisser si leurs dépenses de fonctionnement augmentent plus vite que le rythme maximal fixé par l'État.",
+      "textFinal": "Les dotations de l'État aux grandes collectivités doivent baisser si leurs dépenses de fonctionnement augmentent plus vite que le plafond fixé par l'État.",
+      "chars": 154,
+      "change": "« rythme maximal » → « plafond »",
+      "evidenceAndLaw": "d'accord : Philippe (contrats de Cahors 2018 comme Premier ministre, acte ; reprise sur fiscalité, pas sur dotations), Haut-commissariat au Plan (avril 2026, bonus/malus sur dotations) ; pas d'accord : Lisnard (Cannes refuse de signer, 2018, KNOWN acte), AMF. Droit : aucun mécanisme lié aux dépenses en vigueur ; CPEB du PLF 2027 assise sur les recettes. C'est une réforme proposée.",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-institutions-environnement.md"
+    },
+    {
+      "id": "institutions-maintenir-article-40",
+      "theme": "institutions",
+      "polarity": "-",
+      "verdict": "ACCEPT",
+      "textV4": "L'interdiction faite aux parlementaires de proposer des mesures qui augmentent les dépenses publiques doit être maintenue.",
+      "textFinal": "Seul le gouvernement, et non les parlementaires, doit continuer à pouvoir proposer des mesures qui augmentent les dépenses publiques.",
+      "chars": 133,
+      "change": "monopole du gouvernement rendu visible",
+      "evidenceAndLaw": "pas d'accord : Roussel (CF47 2018, amendement n° 6 2024 « L'article 40 est abrogé », KNOWN candidat), LFI, PS, CRCE ; d'accord : EPR, MoDem, commission des lois du Sénat (KNOWN groupe). Droit : Constitution art. 40 (création ou aggravation d'une charge publique ; ressources compensables).",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-institutions-environnement.md"
+    },
+    {
+      "id": "democratie-champ-referendum-inchange",
+      "theme": "democratie",
+      "polarity": "-",
+      "verdict": "ACCEPT",
+      "textV4": "Le référendum doit rester limité aux sujets actuels : institutions, réformes économiques, sociales ou environnementales, services publics et certains traités.",
+      "textFinal": "Le référendum sur un projet de loi doit rester limité aux sujets prévus aujourd'hui, sans être étendu à tous les domaines de la loi, comme la justice pénale ou les sujets de société.",
+      "chars": 182,
+      "change": "vise le référendum sur un projet de loi (art. 11) et montre ce qui est exclu",
+      "evidenceAndLaw": "pas d'accord : Retailleau (« l'ensemble du domaine de la loi », Public Sénat 03/09/2026, KNOWN candidat), Le Pen (programme 2022) ; d'accord : Union centriste (Bonnecarrère 06/12/2023, KNOWN groupe). RIC (LFI, Philippot) = autre extension, non compté.",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-democratie.md"
+    },
+    {
+      "id": "democratie-cours-criminelles-sans-jury",
+      "theme": "democratie",
+      "polarity": "-",
+      "verdict": "ACCEPT",
+      "textV4": null,
+      "textFinal": "Les crimes punis de 15 ou 20 ans de réclusion doivent continuer à être jugés par des magistrats sans jury populaire, dans les cours criminelles départementales.",
+      "chars": 160,
+      "change": "REMPLACE democratie-quorum-referendum (aucun défenseur, seuil jamais approché)",
+      "evidenceAndLaw": "pas d'accord : Mélenchon et Ruffin (amendement AN n° 7, 14/05/2021, KNOWN candidats), LFI n° 153 (25/06/2026) ; d'accord : gouvernement (loi n° 2026-651 du 23/07/2026), Philippe (gouvernement créateur 2019, PLAUSIBLE). Risque : axe Justice plutôt que Démocratie.",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-democratie.md"
+    },
+    {
+      "id": "democratie-revision-par-congres",
+      "theme": "democratie",
+      "polarity": "-",
+      "verdict": "ACCEPT",
+      "textV4": null,
+      "textFinal": "Une révision de la Constitution doit pouvoir continuer à être adoptée par le Parlement réuni en Congrès, sans référendum.",
+      "chars": 121,
+      "change": "REMPLACE democratie-pas-de-constituante (polarité fausse, aucun défenseur)",
+      "evidenceAndLaw": "pas d'accord : Mélenchon (AEC 2027 ?p=26659 « Rendre obligatoire le recours au référendum en cas de modification de la Constitution », KNOWN candidat), Ruffin (PPLC 1900) ; d'accord : seulement indirect (amendement DR n° 45, 06/02/2026, « équilibre … article 89 »). Droit : Constitution art. 89 al. 3.",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-democratie.md"
+    },
+    {
+      "id": "environnement-derogation-especes-protegees",
+      "theme": "environnement",
+      "polarity": "-",
+      "verdict": "ACCEPT",
+      "textV4": "Les conditions permettant à un projet industriel ou d'aménagement de déroger à la protection des espèces doivent être assouplies.",
+      "textFinal": "Un projet industriel ou d'aménagement doit pouvoir obtenir plus facilement une dérogation à l'interdiction de détruire des espèces protégées.",
+      "chars": 141,
+      "change": "ne prétend plus assouplir les conditions de fond (fixées par la directive Habitats)",
+      "evidenceAndLaw": "pas d'accord : Batho (vote contre l'élargissement de la RIIPM, scrutin 2141, 28/05/2025 ; amendement 228 PPL A69), Ruffin (cosigne 228) : KNOWN candidats ; d'accord : RN, DR, EPR, Horizons (votes, KNOWN groupe). Droit : L411-2 (version 20/08/2026), L411-2-1, loi 2026-403 art. 36, décret 2026-980.",
+      "annex": "data/relectures/2026-11-11-revue-adverse-2/annexe-institutions-environnement.md"
+    }
+  ],
+  "withdrawn": [
+    {
+      "id": "securite-dissoudre-brav-m",
+      "theme": "securite",
+      "verdict": "REPLACE",
+      "textV4": "Les brigades de policiers à moto chargées du maintien de l'ordre à Paris (BRAV-M) doivent être démantelées.",
+      "reason": "Unité de la seule préfecture de police de Paris ; troisième item « manifestations » avec LBD et drones ; remplacé par securite-supprimer-bac."
+    },
+    {
+      "id": "fiscalite-plafonner-abattement-pensions",
+      "theme": "fiscalite",
+      "verdict": "REPLACE",
+      "textV4": "Le plafond de l'abattement fiscal de 10 % appliqué aux pensions de retraite doit être abaissé.",
+      "reason": "Aucun candidat « pour » ; la seule preuve candidat (Le Pen) porte sur une autre mesure (forfait 2 000 €) ; quasi-unanimité probable ; PLF 2027 art. 3 en navette. Remplacé par fiscalite-quotient-familial-credit-enfant."
+    },
+    {
+      "id": "institutions-etat-impose-equipements",
+      "theme": "institutions",
+      "verdict": "REJECT_NO_VALID_CANDIDATE",
+      "textV4": "Pour un grand projet industriel d'intérêt national, l'État doit pouvoir modifier le plan d'urbanisme d'une commune sans l'accord du maire.",
+      "reason": "Présupposé faux : l'État peut déjà modifier un PLU sans accord du maire (DUP, PIG, déclaration de projet de l'État) ; L300-6-2 II : accord réputé donné après un mois ; aucun défenseur actuel. Remplaçant SRU (préfet délivrant les permis) rejeté : droit non relu, portée inexacte, axe logement, opposant seulement plausible."
+    },
+    {
+      "id": "democratie-quorum-referendum",
+      "theme": "democratie",
+      "verdict": "REPLACE",
+      "textV4": "Un référendum national ne doit être valide que si au moins un quart des électeurs inscrits y participent.",
+      "reason": "Le quorum de 25 % de la PPLC n° 1552 (2018) ne vise que le RIC qu'elle crée ; aucun défenseur pour tous les référendums ; aucun référendum national sous 25 % (minimum 30,2 % en 2000). Remplacé par democratie-cours-criminelles-sans-jury."
+    },
+    {
+      "id": "democratie-pas-de-constituante",
+      "theme": "democratie",
+      "verdict": "REPLACE",
+      "textV4": "La France ne doit pas convoquer d'assemblée constituante pour rédiger une nouvelle Constitution.",
+      "reason": "Aucun défenseur explicite du refus ; polarité fausse (RN, Retailleau, Philippot d'accord tout en étant pro-référendum) ; double négation. Remplacé par democratie-revision-par-congres."
+    }
+  ],
+  "emptySlots": [
+    {
+      "theme": "institutions",
+      "polarity": "-",
+      "verdict": "REJECT_NO_VALID_CANDIDATE",
+      "examined": [
+        "PLU sans accord du maire (PINM)",
+        "Préfet délivrant les permis en cas de carence SRU",
+        "Différenciation régionale (miroir d'un item existant)",
+        "Corse (déjà dans la banque)",
+        "Suppression du département"
+      ]
+    },
+    {
+      "theme": "democratie",
+      "polarity": "-",
+      "verdict": "REJECT_NO_VALID_CANDIDATE",
+      "examined": [
+        "Loi référendaire modifiable par le Parlement (droit actuel, 89-265 DC ; aucun défenseur)",
+        "Respect du « non » référendaire (Le Pen 2022 : NOT_FOUND)",
+        "Contrôle du Conseil constitutionnel sur les lois référendaires (polarité ambiguë)",
+        "Pétitions au CESE (doublon)",
+        "Référendum obligatoire sur les traités européens (chevauche International)",
+        "Quorum de 50 % du référendum local",
+        "Mandat impératif"
+      ]
+    }
+  ]
+}

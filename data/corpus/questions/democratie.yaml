@@ -201,28 +201,31 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
-# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
-- id: democratie-quorum-referendum
-  text: "Un référendum national ne doit être valide que si au moins un quart des électeurs inscrits y participent."
-  themes:
-    - democratie
-  polarity: "-"
-  status: draft
-  author: claude
-# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
-# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
+# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
+# Texte v4 (revue adverse n° 1) : Le référendum doit rester limité aux sujets actuels : institutions, réformes économiques, sociales ou environnementales, services publics et certains traités.
 - id: democratie-champ-referendum-inchange
-  text: "Le référendum doit rester limité aux sujets actuels : institutions, réformes économiques, sociales ou environnementales, services publics et certains traités."
+  text: "Le référendum sur un projet de loi doit rester limité aux sujets prévus aujourd'hui, sans être étendu à tous les domaines de la loi, comme la justice pénale ou les sujets de société."
   themes:
     - democratie
   polarity: "-"
   status: draft
   author: claude
-# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
-# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
-- id: democratie-pas-de-constituante
-  text: "La France ne doit pas convoquer d'assemblée constituante pour rédiger une nouvelle Constitution."
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
+# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
+# Remplace democratie-quorum-referendum (retiré, voir le rapport).
+- id: democratie-cours-criminelles-sans-jury
+  text: "Les crimes punis de 15 ou 20 ans de réclusion doivent continuer à être jugés par des magistrats sans jury populaire, dans les cours criminelles départementales."
+  themes:
+    - democratie
+  polarity: "-"
+  status: draft
+  author: claude
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
+# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
+# Remplace democratie-pas-de-constituante (retiré, voir le rapport).
+- id: democratie-revision-par-congres
+  text: "Une révision de la Constitution doit pouvoir continuer à être adoptée par le Parlement réuni en Congrès, sans référendum."
   themes:
     - democratie
   polarity: "-"

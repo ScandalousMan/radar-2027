@@ -218,10 +218,11 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Nouvel énoncé FR-012 (2026-11-11, après revue adverse externe et 2 tours de relecture indépendante) : à valider par adrien.
-# Détail, statut juridique et acteurs : data/relectures/2026-11-10-nouveaux-enonces.md
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
+# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
+# Texte v4 (revue adverse n° 1) : Les conditions permettant à un projet industriel ou d'aménagement de déroger à la protection des espèces doivent être assouplies.
 - id: environnement-derogation-especes-protegees
-  text: "Les conditions permettant à un projet industriel ou d'aménagement de déroger à la protection des espèces doivent être assouplies."
+  text: "Un projet industriel ou d'aménagement doit pouvoir obtenir plus facilement une dérogation à l'interdiction de détruire des espèces protégées."
   themes:
     - environnement
   polarity: "-"
