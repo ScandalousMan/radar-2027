@@ -1,0 +1,814 @@
+# Positions de François Asselineau (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
+# provenance manual), à relire par adrien avec pnpm data:review.
+
+- question: agriculture-interdire-glyphosate
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous interdirons les pesticides dangereux pour la santé humaine et la biodiversité tels le glyphosate"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit d'interdire les pesticides dangereux en citant nommément le glyphosate, ce qui correspond à la mesure de l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-interdire-poules-cage
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous interdirons les élevages en batterie et industriels"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit d'interdire les élevages en batterie, sans viser explicitement les poules pondeuses ni l'ensemble des cages, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-armes-ukraine
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - francois-asselineau-discours-rentree-2026
+  quote: "Guerre en Ukraine : arrêt immédiat de tout versement d'aides financières et militaires à l'Ukraine dès sa prise de fonction"
+  quoteSource: francois-asselineau-discours-rentree-2026
+  justification: "Le discours de 2026 annonce l'arrêt immédiat de toute aide militaire à l'Ukraine, soit le contraire explicite de livraisons d'armes accrues."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-budget-armees-3-pib
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous porterons le budget de la défense à 3% du PIB en fin de quinquennat"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 fixe explicitement l'objectif d'un budget de la défense à 3 % du PIB."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-reduire-budget-armees
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous porterons le budget de la défense à 3% du PIB en fin de quinquennat"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de porter le budget de la défense de 1,9 % à 3 % du PIB, soit une hausse et non une réduction en proportion du PIB."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-reduire-presence-etranger
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "nous désengagerons nos forces des interventions menées dans le cadre de l'OTAN"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de retirer les forces des interventions menées dans le cadre de l'OTAN, sans viser l'ensemble de la présence militaire à l'étranger, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-initiative-citoyenne
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - francois-asselineau-discours-rentree-2026
+  quote: "instauration du Référendum d'Initiative Citoyenne (RIC)"
+  quoteSource: francois-asselineau-discours-rentree-2026
+  justification: "Le discours de 2026, comme le programme de 2022, propose d'instaurer le référendum d'initiative citoyenne."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-reserve-elus-v2
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - francois-asselineau-discours-rentree-2026
+  quote: Référendum d'Initiative Citoyenne (RIC)
+  quoteSource: francois-asselineau-discours-rentree-2026
+  justification: Le discours de 2026 propose un référendum d'initiative citoyenne, qui ouvrirait aux citoyens le déclenchement d'un référendum national, contrairement à une compétence réservée au président de la République ou au Parlement.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: economie-accords-libre-echange
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "dénoncerons les traités transcontinentaux déjà adoptés tels que le CETA"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de cesser les négociations de traités transcontinentaux et de dénoncer ceux déjà adoptés comme le CETA, soit le contraire explicite de nouveaux accords."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-alleger-regles-entreprises
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Cette politique s'accompagnera d'un choc de simplification des normes pour favoriser la compétitivité"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 annonce un choc de simplification des normes applicables aux entreprises, sans viser précisément les règles de création et de gestion, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-controle-rachats-etrangers
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Les investissements étrangers en France, pour préserver nos entreprises stratégiques et empêcher la prédation de sociétés par des fonds-vautours"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit, via le contrôle des mouvements de capitaux, de contrôler les investissements étrangers en France pour protéger les entreprises stratégiques."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-eau-operateurs-publics
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: 'Nous renationaliserons ou cesserons le processus de privatisation rampante et de dégradation de la qualité de service de plusieurs grandes entreprises, en particulier : • des sociétés de production et de distribution de gaz ; • des réseaux d''adduction d''eau'
+  quoteSource: francois-asselineau-programme-2022
+  justification: Le programme de 2022 prévoit de renationaliser les réseaux d'adduction d'eau, sans dire explicitement que la distribution devra être assurée uniquement par des opérateurs publics, d'où 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: economie-edf-entierement-publique
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous renationaliserons ou cesserons le processus de privatisation rampante et de dégradation de la qualité de service de plusieurs grandes entreprises, en particulier : • des sociétés de production et de distribution de gaz ; • des réseaux d'adduction d'eau ; • d'EDF"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 cite EDF parmi les entreprises à renationaliser ou à soustraire à la privatisation, ce qui correspond à une détention entièrement publique."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-participations-etat-industrie
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "par regroupement d'institutions publiques de recherche et de laboratoires privés totalement ou partiellement nationalisés"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de nationaliser totalement ou partiellement des laboratoires pharmaceutiques privés, sans énoncer de règle générale pour les entreprises industrielles stratégiques, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-prix-energie-reglementes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "les tarifs de l'électricité et du gaz seront gelés pendant au moins les deux premières années du mandat"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit un gel des tarifs de l'électricité et du gaz pendant au moins deux ans, mesure temporaire plutôt qu'une réglementation durable des prix, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-vendre-participations-etat
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous renationaliserons ou cesserons le processus de privatisation rampante"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de renationaliser plusieurs grandes entreprises ou d'arrêter leur privatisation, soit le contraire explicite d'une vente de participations de l'État."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-assouplir-artificialisation
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous lutterons enfin contre l'étalement urbain qui participe à l'artificialisation des sols"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de lutter contre l'étalement urbain et l'artificialisation des sols, sans se prononcer sur les objectifs réglementaires eux-mêmes, d'où -1 plutôt que -2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-baisse-ir-tranches-intermediaires
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "les taux d'imposition sur le revenu des tranches moyennes seront revus à la baisse"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit une baisse des taux des tranches moyennes de l'impôt sur le revenu, conditionnée aux résultats du plan d'économies, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-baisse-prelevements-obligatoires
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "En nous débarrassant des contraintes de l'Union européenne, nous diminuerons l'impôt tout en améliorant les services publics"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 annonce une baisse de l'impôt, sans chiffrer le niveau total des prélèvements obligatoires et tout en créant de nouvelles tranches pour les très hauts revenus, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-baisse-tva
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "la baisse de la TVA sur une large gamme de produits de consommation courante"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit une baisse de la TVA sur une large gamme de produits courants, sans viser le taux normal, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-hausse-taxe-transactions-financieres
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "une réforme du dispositif de taxe sur les transactions financières pour soumettre à cet impôt l'ensemble des transactions financières spéculatives réalisées en France"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit d'élargir l'assiette de la taxe sur les transactions financières, sans mentionner une hausse de son taux, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-reduire-droits-succession
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "nous diminuerons de 5 points l'ensemble des droits de succession en dessous d'une valeur de 300 000 € par héritier"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit une baisse de 5 points des droits de succession sous 300 000 euros par héritier, au nom de la transmission entre générations."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-tranche-hauts-revenus
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "la création de deux nouvelles tranches d'imposition pour les très hauts revenus"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit explicitement deux nouvelles tranches d'impôt sur le revenu au-delà de 250 000 et 500 000 euros par an."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-condamnes-perte-titre-sejour
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Permettre aux préfets de systématiser le prononcé de décisions d'éloignement du territoire français à l'encontre des étrangers reconnus coupables d'infractions criminelles ou délictuelles"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de systématiser l'éloignement des étrangers condamnés pour crime ou délit, mesure voisine mais distincte du retrait du titre de séjour pour toute peine de prison ferme, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-fusions-communes-obligatoires
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "en conditionnant les fusions de commune à un référendum"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 subordonne toute fusion de communes à un référendum, ce qui exclut des fusions obligatoires."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-mandat-presidentiel-sept-ans
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Rétablir le septennat pour le mandat du Président de la République"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 propose explicitement de rétablir le septennat présidentiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-proportionnelle-legislatives
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Introduire un système de proportionnelle partielle aux élections législatives"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 propose une proportionnelle partielle aux législatives, et non une élection de tous les députés à la proportionnelle, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-reduire-nombre-parlementaires
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - francois-asselineau-discours-rentree-2026
+  quote: "réduction du nombre de députés et de sénateurs"
+  quoteSource: francois-asselineau-discours-rentree-2026
+  justification: "Le discours de 2026, comme le programme de 2022 (qui chiffre la baisse à 35 %), propose de réduire le nombre de députés et de sénateurs."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-referendum-revision-constitution
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Imposer le recours au référendum pour toute future révision de la Constitution"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 propose de soumettre obligatoirement toute révision constitutionnelle au référendum, ce qui va dans le sens de l'énoncé sans porter sur le pouvoir d'initiative du président, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-arrets-cedh-derogation-v2
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: Nous retirerons la France de certains articles de la Convention européenne des Droits de l'Homme (CEDH) pour la même raison.
+  quoteSource: francois-asselineau-programme-2022
+  justification: Le programme de 2022 prévoit de retirer la France de certains articles de la Convention pour ne plus être lié par la jurisprudence en matière migratoire, mécanisme voisin mais distinct du refus d'exécuter certains arrêts, d'où 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: international-controles-frontieres-schengen
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - francois-asselineau-discours-rentree-2026
+  quote: "rétablissement des contrôles frontaliers pour les flux humains, de marchandises et de capitaux"
+  quoteSource: francois-asselineau-discours-rentree-2026
+  justification: "Le discours de 2026 annonce le rétablissement des contrôles aux frontières, et le programme de 2022 prévoit de quitter l'espace Schengen pour contrôler toutes les frontières."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-quitter-commandement-otan
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - francois-asselineau-discours-rentree-2026
+  quote: "Libération de l'OTAN : notification immédiate au Département d'État américain via l'article 13 pour faire sortir la France de l'alliance sous un an"
+  quoteSource: francois-asselineau-discours-rentree-2026
+  justification: "Le discours de 2026, comme le programme de 2022, prévoit la sortie complète de la France de l'OTAN, ce qui inclut et dépasse la sortie du commandement intégré. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-reduire-contribution-ue
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Suppression des coûts budgétaires liés à notre appartenance à l'Union européenne (12 milliards d'euros par an d'économies)"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit la suppression des coûts budgétaires liés à l'appartenance à l'Union européenne, donc de la contribution française, dans le cadre de la sortie de l'UE."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-referendum-maintien-ue
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - francois-asselineau-discours-rentree-2026
+  quote: "Il refuse l'idée d'un référendum préalable sur le sujet, estimant que son élection vaudra mandat"
+  quoteSource: francois-asselineau-discours-rentree-2026
+  justification: "Le discours de 2026 rejette explicitement un référendum préalable sur la sortie de l'Union européenne, l'élection devant valoir mandat."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-renforcer-sanctions-russie
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous mettrons un terme aux politiques actuelles de sanction, dictées par les États-Unis pour des motifs politiques, inefficaces, contreproductives et discriminatoires (Fédération de Russie"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de mettre fin aux sanctions visant notamment la Russie, soit le contraire explicite d'un renforcement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-accompagnement-emploi-detenus
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous rendrons obligatoire le travail ou le suivi d'une formation en prison"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 rend obligatoires le travail ou la formation en détention, mesure voisine d'un accompagnement vers l'emploi pendant toute la détention, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-courtes-peines-alternatives
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous développerons le recours aux peines d'emprisonnement, même courtes, dès la première atteinte violente aux personnes"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de développer les courtes peines de prison pour les atteintes violentes, tout en systématisant le travail d'intérêt général pour les délits non violents, d'où -1 plutôt que -2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-peines-minimales-recidive
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous rétablirons des peines planchers pour les auteurs récidivistes de ces mêmes infractions, avec des planchers augmentant à chaque nouvelle récidive"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de rétablir des peines planchers pour les récidivistes, mais seulement pour les infractions violentes et assimilées (cambriolages, trafic de stupéfiants), d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-perpetuite-reelle-etendue
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous introduirons dans notre droit pénal la peine de perpétuité incompressible pour les auteurs de crimes terroristes"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 propose la perpétuité incompressible pour les crimes terroristes, une catégorie précise de crimes, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-supprimer-reductions-automatiques
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "supprimerons les crédits automatiques de peines d'emprisonnement pour tous les délits"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de supprimer les crédits automatiques de réduction de peine et de les remplacer par des remises conditionnées."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-tig-delits-sans-violence
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "nous systématiserons le recours aux peines de travail d'intérêt général, à encadrement civil ou militaire, pour sanctionner et réinsérer les auteurs de délits non-violents"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de systématiser le travail d'intérêt général pour les auteurs de délits non violents."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-logiciels-libres-administration
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "en accompagnant les administrations d'État, les services publics et entreprises publiques vers l'utilisation de solutions informatiques françaises ou libres"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit d'orienter les administrations vers des solutions françaises ou libres, sous forme d'accompagnement plutôt que d'une priorité imposée, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-taxe-plateformes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous taxerons les multinationales géantes du net (en particulier les GAFAM) sur leurs profits réalisés grâce au marché français"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de taxer les grandes plateformes sur leurs profits réalisés en France, et non sur leur chiffre d'affaires, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-telephone-interdit-lycees
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "l'interdiction des téléphones portables en cours sera scrupuleusement appliquée dans les faits, sous peine de sanctions disciplinaires"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit d'appliquer strictement l'interdiction des téléphones portables en cours, sans l'étendre à toute l'enceinte des lycées, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: sante-budget-hopital-inflation
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous augmenterons de 15% le budget de l'hôpital public dès le premier budget voté sous le quinquennat"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit une hausse ponctuelle de 15 % du budget de l'hôpital public, sans engagement de progression annuelle supérieure à l'inflation, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: sante-derembourser-faible-service-rendu
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "en consolidant l'Assurance Maladie et mettant fin aux déremboursements"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de mettre fin aux déremboursements, soit le contraire explicite de l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: sante-production-publique-medicaments
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "créerons un grand pôle public et transparent de recherche médicale et de production de médicaments en France"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit un pôle public de production de médicaments visant l'autosuffisance, ce qui couvre et dépasse la production publique en cas de défaut de l'offre privée. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-instruction-famille-autorisation
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous garantirons la liberté éducative en rétablissant le régime déclaratif pour l'instruction en famille"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de rétablir le régime déclaratif pour l'instruction en famille, soit la fin de l'autorisation préalable."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-uniforme-ecole-publique
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Le port de vêtements neutres pour les élèves sera favorisé"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de favoriser des vêtements neutres pour les élèves, sans rendre un uniforme obligatoire, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-autoroutes-concedees-v2
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: des concessionnaires d'autoroutes ; • de Télédiffusion de France ; • de la RATP et de la SNCF
+  quoteSource: francois-asselineau-programme-2022
+  justification: Le programme de 2022 cite les concessionnaires d'autoroutes parmi les entreprises à renationaliser, soit le contraire explicite d'une exploitation confiée à des sociétés privées concessionnaires.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: transport-concurrence-ferroviaire
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous mettrons un terme à la politique d'ouverture de nos services publics à la concurrence imposée par la Commission européenne"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit de mettre fin à l'ouverture des services publics à la concurrence, ce qui inclut le transport ferroviaire de voyageurs, sans toutefois le nommer."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-petites-lignes-maintenues
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Interdisant toute fermeture de petite ligne ferroviaire"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit d'interdire toute fermeture de petite ligne ferroviaire et de réexaminer les lignes fermées pour motifs économiques."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-sncf-entreprise-publique-v2
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: des concessionnaires d'autoroutes ; • de Télédiffusion de France ; • de la RATP et de la SNCF
+  quoteSource: francois-asselineau-programme-2022
+  justification: Le programme de 2022 cite la SNCF parmi les entreprises à renationaliser ou à soustraire à toute privatisation, ce qui correspond à une détention intégralement publique.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: transport-subventionner-fret-ferroviaire
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Créant un grand plan d'incitations et d'investissement pour favoriser le recours au ferroutage"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit un plan d'incitations et d'investissement en faveur du ferroutage, forme particulière de fret ferroviaire, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-taxe-kilometrique-poids-lourds
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "la création d'une écotaxe imposée aux poids lourds étrangers utilisant les infrastructures nationales"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit une écotaxe sur les seuls poids lourds étrangers, et non sur tous les poids lourds, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-durcir-indemnisation-chomage
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "les allocations-chômage pourront être supprimées après deux refus de propositions d'embauche correspondant aux critères géographiques du demandeur d'emploi"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit la suppression des allocations après deux refus d'offre, mais seulement en fin de quinquennat une fois le marché du travail redevenu dynamique, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-retraite-capitalisation
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous proposerons ainsi aux Français d'inscrire dans la Constitution le principe selon lequel le régime général de retraites se fait par répartition"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 veut inscrire la répartition dans la Constitution pour le régime général, tout en préservant la capitalisation complémentaire facultative, d'où -1 plutôt que -2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-smic-au-dela-inflation
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous augmenterons le SMIC brut de +24% sur le quinquennat"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme de 2022 prévoit une hausse nominale du SMIC de 24 % sur cinq ans, sans la définir par rapport à l'inflation, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09

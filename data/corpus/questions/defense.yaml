@@ -7,8 +7,10 @@
   themes:
     - defense
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -21,8 +23,10 @@
     - defense
     - international
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -35,8 +39,10 @@
     - defense
     - international
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -48,8 +54,10 @@
   themes:
     - defense
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -61,15 +69,17 @@
   themes:
     - defense
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : CHANGE_AXIS.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : CHANGE_AXIS.
 # Affectation proposée, à confirmer : thème institutions, polarité +.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: defense-controle-exportations-armes
@@ -77,22 +87,32 @@
   themes:
     - defense
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-- id: defense-effectifs-armees-hausse
-  text: Les effectifs des armées doivent augmenter d'au moins 10 % d'ici 2030.
-  themes:
-    - defense
-  polarity: +
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+- id: defense-effectifs-armees-hausse
+  text: Les effectifs des armées doivent augmenter d'au moins 10 % d'ici 2030.
+  themes:
+    - defense
+  polarity: +
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (defense-dissuasion-protection-europe) : La dissuasion nucléaire française doit couvrir explicitement la protection des autres pays européens.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: defense-dissuasion-protection-europe-v2
@@ -101,22 +121,32 @@
     - defense
     - international
   polarity: +
-  status: draft
+  status: active
   author: claude
-- id: defense-second-porte-avions
-  text: La France doit se doter d'un second porte-avions.
-  themes:
-    - defense
-  polarity: +
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+- id: defense-second-porte-avions
+  text: La France doit se doter d'un second porte-avions.
+  themes:
+    - defense
+  polarity: +
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (defense-troupes-ukraine-cessez-le-feu) : La France doit être prête à déployer des troupes en Ukraine pour garantir un cessez-le-feu.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: defense-troupes-ukraine-cessez-le-feu-v2
@@ -125,22 +155,32 @@
     - defense
     - international
   polarity: +
-  status: draft
+  status: active
   author: claude
-- id: defense-doubler-reservistes
-  text: Le nombre de réservistes opérationnels des armées doit être doublé.
-  themes:
-    - defense
-  polarity: +
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+- id: defense-doubler-reservistes
+  text: Le nombre de réservistes opérationnels des armées doit être doublé.
+  themes:
+    - defense
+  polarity: +
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: defense-livret-a-industrie-defense
   text: "L'épargne du livret A doit pouvoir financer l'industrie de défense."
@@ -148,16 +188,26 @@
     - defense
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: defense-traite-interdiction-armes-nucleaires
   text: La France doit signer le traité sur l'interdiction des armes nucléaires.
   themes:
     - defense
     - international
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -170,8 +220,10 @@
     - defense
     - international
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -183,8 +235,10 @@
   themes:
     - defense
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -197,8 +251,10 @@
     - defense
     - international
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -210,8 +266,10 @@
   themes:
     - defense
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true

@@ -53,3 +53,245 @@
   candidates:
     - jean-luc-melenchon
   contentHash: sha256:e5892389a6898917e3e2d717e9f8e60e9a61d196757ef9088005a4be8cd2c4ff
+- id: jean-luc-melenchon-aec-6e-republique-ch1
+  url: https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1
+  title: "L'Avenir en commun 2027 : Chapitre 1 : Le pouvoir au peuple (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:340e09720752ba94a9f21689edbdf197113b3ed7de491d2baa04b890d38986f9
+- id: jean-luc-melenchon-aec-6e-republique-ch2
+  url: https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2
+  title: "L'Avenir en commun 2027 : Chapitre 2 : Libertés publiques et sûreté (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:c72e7343d86d6297fca069a9966c71218a78bb06b5225b9e3d73e1d5634596a1
+- id: jean-luc-melenchon-aec-6e-republique-ch3
+  url: https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre3
+  title: "L'Avenir en commun 2027 : Chapitre 3 : Une France sans déserts de droits (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:5b4fc399b2913806ffbc27662ceb7aa3e338a67179265a243cb90b11ddc4d789
+- id: jean-luc-melenchon-aec-gout-du-futur-ch1
+  url: https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre1
+  title: "L'Avenir en commun 2027 : Chapitre 1 : Les nouveaux droits de l’espèce : protéger les biens communs (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:483eaf7ee1edc4996afa509c2fd36b6fcd977464571620da736f1fa5bb78201c
+- id: jean-luc-melenchon-aec-gout-du-futur-ch2
+  url: https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2
+  title: "L'Avenir en commun 2027 : Chapitre 2 : Élever le niveau d’éducation et de savoirs (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:5662fc0a73a11eb4d36e32e2b5e26a358b35b8d27665ee0bc4d352808f240b32
+- id: jean-luc-melenchon-aec-gout-du-futur-ch3
+  url: https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre3
+  title: "L'Avenir en commun 2027 : Chapitre 3 : Humaniser par la culture et le sport (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:5803e6a1f739b4dc93570b98706726a18188fa3ea3f7afab18f8b6843bec18f2
+- id: jean-luc-melenchon-aec-gout-du-futur-ch4
+  url: https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4
+  title: "L'Avenir en commun 2027 : Chapitre 4 : Faire de la santé un enjeu global (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:95c32bd8e8502b81b83668949c835f589554cb805db08bd5a2babada64978231
+- id: jean-luc-melenchon-aec-gout-du-futur-ch5
+  url: https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre5
+  title: "L'Avenir en commun 2027 : Chapitre 5 : Entrer en mer sans saccage (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:7136251d9704b5ff91467e1f47d816cd7905377bb3b70b35486e7f73d9b03eb6
+- id: jean-luc-melenchon-aec-gout-du-futur-ch6
+  url: https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre6
+  title: "L'Avenir en commun 2027 : Chapitre 6 : Mettre le spatial au service de l’intérêt général humain (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:32e96721e7a836b79a5a7a3f72b133203ef56d6018f6ed0fd60dc19169fc27ff
+- id: jean-luc-melenchon-aec-gout-du-futur-ch7
+  url: https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre7
+  title: "L'Avenir en commun 2027 : Chapitre 7 : Démocratiser la révolution numérique (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:a62124e5d0876c0d5899e76058bbc0c02be842abfc3d899d562b7018e8bd2443
+- id: jean-luc-melenchon-aec-securite-sociale-ch1
+  url: https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1
+  title: "L'Avenir en commun 2027 : Chapitre 1 : À chacun selon ses besoins (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:8a1959bc4473fc09fb70c28f1cdc55fbef1f449479e9875495735d7ec9aabf76
+- id: jean-luc-melenchon-aec-securite-sociale-ch2
+  url: https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre2
+  title: "L'Avenir en commun 2027 : Chapitre 2 : Une République de l’égalité réelle et des droits nouveaux (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:7d935ad4e7f6b1abd170ae4331e36eebce589c735b926f395ee99b84733a9946
+- id: jean-luc-melenchon-aec-securite-sociale-ch3
+  url: https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre3
+  title: "L'Avenir en commun 2027 : Chapitre 3 : Entrer pleinement dans l’ère de l’émancipation des femmes (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:1d1a07ab4dbb9579236742c37ad29a5f499498b674e36c43db24dfe0380b4e1b
+- id: jean-luc-melenchon-aec-securite-sociale-ch4
+  url: https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre4
+  title: "L'Avenir en commun 2027 : Chapitre 4 : Faire triompher l’égalité contre le racisme et les discriminations (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:d59acd9eb80bb384a6b90062c71c411c05b2a87383ccf44f1aa105610b435313
+- id: jean-luc-melenchon-aec-bifurcation-ch1
+  url: https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1
+  title: "L'Avenir en commun 2027 : Chapitre 1 : Planification écologique (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:41d278c9d1f2cce2f0b84fa216969d63509ee49baacfdacfe828d68e69161dea
+- id: jean-luc-melenchon-aec-bifurcation-ch2
+  url: https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre2
+  title: "L'Avenir en commun 2027 : Chapitre 2 : Produire nous-mêmes pour répondre aux besoins (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:a753ebd6c7c43aaf4afea2e82dacb75408c3e4bdabfd6b54fd1d67f0a9940cdb
+- id: jean-luc-melenchon-aec-bifurcation-ch3
+  url: https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3
+  title: "L'Avenir en commun 2027 : Chapitre 3 : Les grands chantiers de la bifurcation écologique (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:71f4eb82b394068045b7bc1fa200f58dc96dc46de71fa36e76a37269648aa2fb
+- id: jean-luc-melenchon-aec-un-monde-ordonne-ch2
+  url: https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2
+  title: "L'Avenir en commun 2027 : Chapitre 2 : Une France indépendante au service de la paix (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:3d1aa9819773e75e2ad4cf9a5f4a9f6c9d1f25b7fc5de9e1f06d0a08d5bdbf5b
+- id: jean-luc-melenchon-aec-un-monde-ordonne-ch3
+  url: https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3
+  title: "L'Avenir en commun 2027 : Chapitre 3 : Les nouvelles coopérations de la diplomatie altermondialiste (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:e9744d97ee7e83366af7a085decf36699c77ed7024dcf82982ddd90e311d4aaa
+- id: jean-luc-melenchon-aec-economie-ch1
+  url: https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre1
+  title: "L'Avenir en commun 2027 : Chapitre 1 : L’ère d’un nouveau collectivisme (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:6e78944734f40b618ec7f2fb51085789658317aee3135ce4331969841c7df339
+- id: jean-luc-melenchon-aec-economie-ch2
+  url: https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2
+  title: "L'Avenir en commun 2027 : Chapitre 2 : Partager les richesses (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:d4b46b0933a2e6b60e4b222bf888c9812289fbdb3dae17a603fd1772a3951a94
+- id: jean-luc-melenchon-aec-economie-ch3
+  url: https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre3
+  title: "L'Avenir en commun 2027 : Chapitre 3 : Un pacte productif pour répondre aux besoins (melenchon2027.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-09
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:789ab1e08feb27209c009e2dcc7c27836f13a3ee4ce344cd8ec498ea7b9463b2

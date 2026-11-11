@@ -2,22 +2,32 @@
 # Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: sante-regulation-installation-medecins
   text: "L'installation des médecins doit être régulée dans les zones déjà bien dotées."
   themes:
     - sante
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: sante-depassements-honoraires-libres
   text: Les médecins doivent rester libres de pratiquer des dépassements d'honoraires.
   themes:
     - sante
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -29,8 +39,10 @@
   themes:
     - sante
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -42,8 +54,10 @@
   themes:
     - sante
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -56,15 +70,17 @@
     - sante
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (sante-mutuelles-part-accrue) : Les mutuelles doivent prendre en charge une part plus importante des dépenses de santé, à la place de l'Assurance maladie.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: sante-mutuelles-part-accrue-v2
@@ -72,57 +88,93 @@
   themes:
     - sante
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
-# Détail : data/relectures/2026-11-10-seconde-passe.md
-- id: sante-jeunes-medecins-zones-sous-dotees
-  text: "Les jeunes médecins doivent exercer au moins deux ans dans une zone sous-dotée à la fin de leurs études."
-  themes:
-    - sante
-  polarity: +
-  status: draft
-  author: claude
-- id: sante-ratios-soignants-patients
-  text: Un nombre minimal de soignants par patient doit être fixé par la loi dans les hôpitaux.
-  themes:
-    - sante
-    - travail
-  polarity: +
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: sante-jeunes-medecins-zones-sous-dotees
+  text: "Les jeunes médecins doivent exercer au moins deux ans dans une zone sous-dotée à la fin de leurs études."
+  themes:
+    - sante
+  polarity: +
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+- id: sante-ratios-soignants-patients
+  text: Un nombre minimal de soignants par patient doit être fixé par la loi dans les hôpitaux.
+  themes:
+    - sante
+    - travail
+  polarity: +
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: sante-doubler-etudiants-medecine
   text: "Le nombre d'étudiants admis en deuxième année de médecine doit être doublé."
   themes:
     - sante
   polarity: +
-  status: draft
+  status: active
   author: claude
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: sante-psychologues-rembourses
   text: "Les consultations chez un psychologue doivent être remboursées sans limite de nombre."
   themes:
     - sante
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: sante-taxer-boissons-sucrees
   text: La taxe sur les boissons sucrées doit être augmentée.
   themes:
     - sante
     - fiscalite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -134,8 +186,10 @@
   themes:
     - sante
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -147,8 +201,10 @@
   themes:
     - sante
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -161,8 +217,10 @@
     - sante
     - economie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -175,15 +233,17 @@
     - sante
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (sante-assurance-sante-privee-option) : Les assurés doivent pouvoir choisir une assurance santé privée à la place de l'Assurance maladie.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: sante-assurance-sante-privee-option-v2
@@ -191,15 +251,25 @@
   themes:
     - sante
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: sante-derembourser-faible-service-rendu
   text: Les médicaments dont le service médical rendu est jugé faible doivent être déremboursés.
   themes:
     - sante
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
