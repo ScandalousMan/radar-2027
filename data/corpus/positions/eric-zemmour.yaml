@@ -169,6 +169,20 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: democratie-revision-par-congres
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+  quote: Instaurer un référendum obligatoire pour toute proposition de révision de la Constitution
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: Le programme de 2022 rend le référendum obligatoire pour toute révision de la Constitution, ce qui exclut une adoption par le Congrès sans référendum.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: economie-accords-libre-echange
   value: -2
   evidence: livre_plateforme
@@ -491,6 +505,20 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: fiscalite-csg-progressive-v2
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+  quote: par la baisse de la Contribution Sociale Généralisée (CSG) s'appliquant de manière dégressive pour tous les salaires allant du SMIC à 2 000 euros
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: Le programme de 2022 propose une baisse dégressive de la CSG sur les salaires du SMIC à 2 000 euros, ce qui rend le taux croissant avec le revenu sur cette seule tranche, d'où 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: fiscalite-heures-sup-sans-plafond
   value: 2
   evidence: livre_plateforme
@@ -504,6 +532,20 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+
+- question: fiscalite-quotient-familial-credit-enfant
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+  quote: Doubler le plafond du quotient familial de 1 592 à 3 000 euros
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: Le programme de 2022 propose de renforcer le quotient familial en doublant son plafond, ce qui va à l'inverse de son remplacement par un crédit d'impôt uniforme sans le rejeter explicitement, d'où -1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: fiscalite-reduire-droits-succession
   value: 2
@@ -575,19 +617,33 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: immigration-asile-examen-hors-europe
+- question: immigration-asile-examen-hors-europe-v2
   value: 1
   evidence: livre_plateforme
   sources:
     - eric-zemmour-programme-2022-pdf
   quote: exiger que les demandes d'asile soient déposées en dehors du territoire national, dans nos consulats
   quoteSource: eric-zemmour-programme-2022-pdf
-  justification: Le programme de 2022 exige que les demandes d'asile soient déposées hors du territoire national, dans les consulats, et non dans des centres situés hors d'Europe, d'où 1 plutôt que 2.
+  justification: Le programme de 2022 exige que les demandes d'asile soient déposées hors du territoire national, dans les consulats, et non examinées dans des centres situés hors de l'Union européenne, d'où 1 plutôt que 2.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
+
+- question: immigration-asile-examen-sans-transfert
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+  quote: exiger que les demandes d'asile soient déposées en dehors du territoire national, dans nos consulats
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: 'Le programme de 2022 veut que les demandes d''asile ne soient plus déposées en France mais dans les consulats, ce qui exclut un examen en France sans viser les règles de transfert européennes. Mesure plus large que l''énoncé, dans le sens contraire : -1 par convention.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: immigration-condamnes-perte-titre-sejour
   value: 1
@@ -715,7 +771,7 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: institutions-competences-retour-etat
+- question: institutions-competences-retour-etat-v2
   value: 2
   evidence: livre_plateforme
   sources:
@@ -727,7 +783,7 @@
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: international-adhesion-ukraine-ue
   value: -2
@@ -757,19 +813,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: international-primaute-loi-nationale
+- question: international-primaute-loi-nationale-v2
   value: 2
   evidence: livre_plateforme
   sources:
     - eric-zemmour-programme-2022-pdf
   quote: Instaurer la supériorité des nouvelles lois nationales sur tout texte international antérieur et sur tout acte dérivé qui en résulte en modifiant l'article 55 de la Constitution
   quoteSource: eric-zemmour-programme-2022-pdf
-  justification: Le programme de 2022 propose de faire prévaloir les nouvelles lois nationales sur les textes internationaux et le droit dérivé, ce qui correspond à l'énoncé, d'où 2.
+  justification: Le programme de 2022 propose de faire prévaloir les nouvelles lois nationales sur les traités antérieurs et le droit dérivé, dont celui de l'Union européenne, ce qui correspond à l'énoncé, d'où 2.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: international-quitter-commandement-otan
   value: 2
@@ -840,6 +896,20 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+
+- question: justice-juridictions-mineurs-specialisees-v2
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+  quote: abaissant l'âge de la majorité pénale de 18 à 16 ans pour responsabiliser les mineurs
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: Le programme de 2022 abaisse la majorité pénale à 16 ans, ce qui ferait juger les 16-17 ans comme des majeurs sans remettre en cause des juridictions distinctes pour les plus jeunes, d'où -1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: justice-majorite-penale-16-ans
   value: 2
@@ -1009,19 +1079,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: societe-gpa-interdite
+- question: societe-gpa-interdite-v2
   value: 2
   evidence: livre_plateforme
   sources:
     - eric-zemmour-programme-2022-pdf
   quote: Interdire réellement la gestation pour autrui (GPA) en réprimant judiciairement le recours aux GPA à l'étranger
   quoteSource: eric-zemmour-programme-2022-pdf
-  justification: Le programme de 2022 veut maintenir et renforcer l'interdiction de la GPA, d'où 2.
+  justification: Le programme de 2022 veut interdire réellement la GPA, y compris en réprimant le recours à l'étranger, d'où 2.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: societe-interdire-ecriture-inclusive
   value: 1
@@ -1107,19 +1177,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: transport-supprimer-controle-technique-motos
+- question: transport-supprimer-controle-technique-motos-v2
   value: 1
   evidence: livre_plateforme
   sources:
     - eric-zemmour-programme-2022-pdf
   quote: Allonger la durée de validité du contrôle technique à 3 ans au lieu de 2 ans et ne pas l'élargir aux deux- roues
   quoteSource: eric-zemmour-programme-2022-pdf
-  justification: Le programme de 2022 refusait d'étendre le contrôle technique aux deux-roues, alors inexistant, sans proposer de supprimer un dispositif en place, d'où 1 plutôt que 2.
+  justification: Le programme de 2022 refusait d'étendre le contrôle technique aux deux-roues, alors inexistant, sans proposer de supprimer un contrôle périodique en place, d'où 1 plutôt que 2.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: transport-voitures-centres-villes-libres
   value: 1

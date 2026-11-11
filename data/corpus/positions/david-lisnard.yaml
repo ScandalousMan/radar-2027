@@ -1,6 +1,20 @@
 # Positions de David Lisnard (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
 # provenance manual), à relire par adrien avec pnpm data:review.
 
+- question: democratie-champ-referendum-inchange
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-discours-bayeux-2026
+  quote: "L'article 11 sera libéré de ses limites thématiques : tout sujet pourra être soumis au pays - l'immigration, l'école, la justice, la dépense publique."
+  quoteSource: david-lisnard-discours-bayeux-2026
+  justification: "Le discours veut supprimer les limites thématiques de l'article 11 pour que tout sujet puisse être soumis à référendum, soit le contraire explicite du maintien du champ actuel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: democratie-referendum-initiative-citoyenne
   value: 2
   evidence: declaration_vote
@@ -15,33 +29,33 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: democratie-referendum-reserve-elus
+- question: democratie-referendum-reserve-elus-v2
   value: -2
   evidence: declaration_vote
   sources:
     - david-lisnard-discours-bayeux-2026
   quote: "Le référendum d'initiative populaire sera vraiment institué et rendu praticable, avec un seuil de signatures atteignable et, au terme du délai, un vote garanti."
   quoteSource: david-lisnard-discours-bayeux-2026
-  justification: "Le discours prévoit un référendum déclenché par des citoyens avec vote garanti, ce qui retire aux seuls président et Parlement le pouvoir de le convoquer."
+  justification: "Le discours prévoit un référendum déclenché par les citoyens avec vote garanti, ce qui retire au président et au Parlement l'exclusivité du déclenchement d'un référendum national."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
-- question: democratie-seuil-rip-maintenu
+- question: democratie-seuil-rip-maintenu-v2
   value: -1
   evidence: declaration_vote
   sources:
     - david-lisnard-discours-bayeux-2026
   quote: "Le référendum d'initiative populaire sera vraiment institué et rendu praticable, avec un seuil de signatures atteignable et, au terme du délai, un vote garanti."
   quoteSource: david-lisnard-discours-bayeux-2026
-  justification: "Le discours demande un seuil de signatures « atteignable » pour un référendum d'initiative populaire, sans citer le RIP ni chiffrer le seuil, d'où 1 plutôt que 2 en valeur absolue."
+  justification: "Le discours réclame un seuil de signatures « atteignable » pour le référendum d'initiative populaire, sans nommer le RIP ni chiffrer le seuil, d'où -1 plutôt que -2."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: economie-alleger-regles-entreprises
   value: 2
@@ -169,6 +183,20 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: fiscalite-quotient-familial-credit-enfant
+  value: -1
+  evidence: programme
+  sources:
+    - david-lisnard-programme-nouvelle-ambition
+  quote: "la France doit relancer sa politique familiale dans ses trois dimensions : des allocations financières, notamment par le déplafonnement du quotient familial"
+  quoteSource: david-lisnard-programme-nouvelle-ambition
+  justification: "Le programme veut déplafonner le quotient familial, ce qui le renforce au lieu de le remplacer par un crédit d'impôt uniforme par enfant, sans rejeter nommément ce remplacement, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: fiscalite-reduire-droits-succession
   value: 1
   evidence: programme
@@ -225,19 +253,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: immigration-asile-examen-hors-europe
+- question: immigration-asile-examen-hors-europe-v2
   value: 1
   evidence: programme
   sources:
     - david-lisnard-programme-immigration
   quote: "Traiter les demandes d'asiles au sein de nos consulats à l'étranger"
   quoteSource: david-lisnard-programme-immigration
-  justification: "Le programme propose d'instruire les demandes d'asile dans les consulats à l'étranger, variante voisine des centres situés hors du territoire européen, d'où 1 plutôt que 2."
+  justification: "Le programme veut instruire les demandes d'asile dans les consulats à l'étranger, variante voisine de centres situés hors de l'Union européenne, d'où 1 plutôt que 2."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: immigration-condamnes-perte-titre-sejour
   value: 1
@@ -365,19 +393,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: institutions-competences-retour-etat
+- question: institutions-competences-retour-etat-v2
   value: -2
   evidence: programme
   sources:
     - david-lisnard-programme-renouveau-civique
   quote: "Le principe de base de la nouvelle décentralisation serait de transférer aux collectivités territoriales, outre l'essentiel des compétences aujourd'hui exercées par l'Etat"
   quoteSource: david-lisnard-programme-renouveau-civique
-  justification: "Le programme propose de transférer aux collectivités l'essentiel des compétences de l'État hors régalien, soit la mesure inverse de l'énoncé."
+  justification: "Le programme veut transférer aux collectivités l'essentiel des compétences de l'État, soit le mouvement inverse d'un transfert de compétences des collectivités vers l'État."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: institutions-mandat-presidentiel-sept-ans
   value: 2
@@ -421,33 +449,33 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: international-arrets-cedh-derogation
+- question: international-arrets-cedh-derogation-v2
   value: 2
   evidence: programme
   sources:
     - david-lisnard-programme-immigration
   quote: "Inscrire la primauté du droit national en matière migratoire dans la Constitution afin de rendre inapplicables les décisions de la CJUE et de la CEDH contraires à l'intérêt national"
   quoteSource: david-lisnard-programme-immigration
-  justification: "Le programme propose de rendre inapplicables les décisions de la CEDH contraires à l'intérêt national, ce qui correspond à l'énoncé."
+  justification: "Le programme veut rendre inapplicables les décisions de la CEDH contraires à l'intérêt national, c'est-à-dire pouvoir ne pas exécuter certains de ses arrêts."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
-- question: international-primaute-loi-nationale
+- question: international-primaute-loi-nationale-v2
   value: 1
   evidence: programme
   sources:
     - david-lisnard-programme-immigration
   quote: "Inscrire la primauté du droit national en matière migratoire dans la Constitution afin de rendre inapplicables les décisions de la CJUE et de la CEDH contraires à l'intérêt national"
   quoteSource: david-lisnard-programme-immigration
-  justification: "Le programme affirme la primauté du droit national sur les décisions de la CJUE en matière migratoire seulement, d'où 1 plutôt que 2."
+  justification: "Le programme affirme la primauté du droit national sur les décisions de la CJUE, mais en matière migratoire seulement, d'où 1 plutôt que 2."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: international-renegocier-traites-competences
   value: 1

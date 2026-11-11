@@ -132,6 +132,21 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: economie-plafonnement-loyers-zones-tendues
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: "Expropriation des logements vides, plafonnement et gel des loyers."
+  quoteSource: anasse-kazib-programme-2027
+  justification: "Le programme demande le plafonnement et le gel des loyers sans les limiter aux zones tendues ni les subordonner à la demande des élus locaux. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: immigration-plafond-annuel-admissions
   value: -2
   evidence: programme
@@ -281,20 +296,20 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: travail-limiter-licenciements-beneficiaires
+- question: travail-limiter-licenciements-beneficiaires-v2
   value: 1
   evidence: programme
   sources:
     - anasse-kazib-programme-2027
     - anasse-kazib-depliant-2027
-  quote: Interdiction des licenciements.
+  quote: "Interdiction des licenciements."
   quoteSource: anasse-kazib-programme-2027
-  justification: "Le programme demande l'interdiction de tous les licenciements, ce qui inclut et dépasse la limitation des licenciements économiques dans les entreprises bénéficiaires. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  justification: "Le programme demande l'interdiction de tous les licenciements, ce qui inclut et dépasse la limitation des licenciements économiques dans les entreprises qui réalisent des bénéfices. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: travail-plateformes-presomption-salariat
   value: 1

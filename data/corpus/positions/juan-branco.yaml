@@ -127,19 +127,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: democratie-assemblees-tirees-consultatives
+- question: democratie-assemblees-tirees-consultatives-v2
   value: -1
   evidence: programme
   sources:
     - juan-branco-la-voie-programme-2027
-  quote: des intercommunalités, remplacées par des assemblées composées au tiers d'élus et aux deux tiers de citoyens tirés au sort
+  quote: "des intercommunalités, remplacées par des assemblées composées au tiers d'élus et aux deux tiers de citoyens tirés au sort"
   quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme confie à des assemblées majoritairement tirées au sort le rôle des intercommunalités, donc un rôle non consultatif, sans se prononcer en général sur toutes les assemblées tirées au sort, d'où -1.
+  justification: "Le programme confie à des assemblées aux deux tiers tirées au sort les compétences des intercommunalités, donc un rôle décisionnel, sans se prononcer sur toutes les assemblées tirées au sort, d'où -1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: democratie-chambre-tiree-au-sort
   value: 1
@@ -155,6 +155,20 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+
+- question: democratie-champ-referendum-inchange
+  value: -1
+  evidence: programme
+  sources:
+    - juan-branco-la-voie-programme-2027
+  quote: "Création d'un RIC en toutes matières."
+  quoteSource: juan-branco-la-voie-programme-2027
+  justification: "Le programme ouvre le référendum d'initiative citoyenne à toutes les matières, soit l'extension du référendum à tous les domaines que l'énoncé refuse. Déduit d'un RIC en toutes matières, et non de l'article 11 lui-même : -1, harmonisé avec les autres candidats."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: democratie-parrainages-elus-maintenus
   value: -2
@@ -213,19 +227,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: democratie-referendum-reserve-elus
+- question: democratie-referendum-reserve-elus-v2
   value: -2
   evidence: programme
   sources:
     - juan-branco-la-voie-programme-2027
-  quote: Création d'un RIC en toutes matières.
+  quote: "Création d'un RIC en toutes matières."
   quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme propose que les citoyens puissent déclencher un référendum en toutes matières, ce qui contredit la réservation de cette initiative au président et au Parlement.
+  justification: "Le programme crée un référendum d'initiative citoyenne en toutes matières, ce qui retire au président et au Parlement le monopole du déclenchement d'un référendum national."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: democratie-referendum-revocatoire
   value: 2
@@ -312,6 +326,20 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+
+- question: economie-eau-operateurs-publics
+  value: 2
+  evidence: programme
+  sources:
+    - juan-branco-la-voie-programme-2027
+  quote: "Renationalisation des entreprises de distribution de l'eau."
+  quoteSource: juan-branco-la-voie-programme-2027
+  justification: "Le programme propose de renationaliser les entreprises de distribution de l'eau, ce qui confie celle-ci à des opérateurs publics."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: economie-etat-finance-usines
   value: 2
@@ -454,7 +482,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-
 - question: environnement-gazole-non-routier-agriculteurs
   value: -1
   evidence: programme
@@ -469,19 +496,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: environnement-limiter-recours-projets
+- question: environnement-limiter-recours-projets-v2
   value: 1
   evidence: programme
   sources:
     - juan-branco-la-voie-programme-2027
-  quote: Création d'un guichet unique pour la création de sites industriels, avec un délai d'étude maximal de six mois avant approbation ou rejet ; et un délai maximal de trois mois concernant le traitement de tout recours.
+  quote: "Création d'un guichet unique pour la création de sites industriels, avec un délai d'étude maximal de six mois avant approbation ou rejet ; et un délai maximal de trois mois concernant le traitement de tout recours."
   quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme encadre la durée de traitement des recours contre les sites industriels, sans limiter les recours eux-mêmes, d'où 1.
+  justification: "Le programme plafonne à trois mois le traitement des recours contre les sites industriels, version voisine qui encadre les recours sans en restreindre explicitement les possibilités, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: environnement-plastique-usage-unique-2030
   value: 1
@@ -595,6 +622,20 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: fiscalite-impot-minimum-grandes-fortunes-v2
+  value: 1
+  evidence: programme
+  sources:
+    - juan-branco-la-voie-programme-2027
+  quote: "Rétablissement de l'ISF avec un mécanisme de précompte sur les droits de succession."
+  quoteSource: juan-branco-la-voie-programme-2027
+  justification: "Le programme rétablit l'ISF, qui taxe chaque année les grands patrimoines sans seuil de 100 millions ni taux minimal de 2 %. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: fiscalite-reduire-credits-impot
   value: 1
   evidence: programme
@@ -651,19 +692,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: immigration-asile-examen-hors-europe
+- question: immigration-asile-examen-hors-europe-v2
   value: 1
   evidence: programme
   sources:
     - juan-branco-la-voie-programme-2027
-  quote: Conditionnalisation du regroupement familial et déconcentration du traitement de l'asile au niveau consulaire.
+  quote: "Conditionnalisation du regroupement familial et déconcentration du traitement de l'asile au niveau consulaire."
   quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme prévoit le traitement de l'asile dans les consulats, donc hors du territoire national, sans parler de centres hors d'Europe, d'où 1.
+  justification: "Le programme déplace le traitement de l'asile vers les consulats, donc hors du territoire national, sans parler de centres situés hors de l'Union européenne, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: immigration-regroupement-familial-ressources
   value: 1
@@ -679,34 +720,34 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: immigration-visas-professions-qualifiees
+- question: immigration-visas-professions-qualifiees-v2
   value: 1
   evidence: programme
   sources:
     - juan-branco-la-voie-programme-2027
-  quote: Développement d'une politique d'attractivité en faveur des individus à haut niveau de qualification
+  quote: "Développement d'une politique d'attractivité en faveur des individus à haut niveau de qualification"
   quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme prévoit une politique d'attractivité pour les personnes très qualifiées, sans mentionner explicitement la délivrance des visas de travail, d'où 1.
+  justification: "Le programme prévoit une politique d'attractivité envers les personnes très qualifiées, sans viser explicitement l'assouplissement des conditions de délivrance des visas de travail, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
-- question: institutions-competences-retour-etat
+- question: institutions-competences-retour-etat-v2
   value: 2
   evidence: programme
   sources:
     - juan-branco-le-projet-2027
     - juan-branco-la-voie-programme-2027
-  quote: reconcentrer une grande partie de politiques déléguées en un foisonnement d'agences, institutions et collectivités décentralisées
+  quote: "reconcentrer une grande partie de politiques déléguées en un foisonnement d'agences, institutions et collectivités décentralisées"
   quoteSource: juan-branco-le-projet-2027
-  justification: Le programme propose que l'État reprenne une grande partie des politiques déléguées aux collectivités décentralisées.
+  justification: "Le programme propose que l'État reconcentre une grande partie des politiques aujourd'hui déléguées notamment aux collectivités décentralisées."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: institutions-mandat-presidentiel-sept-ans
   value: 2
@@ -778,9 +819,6 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
-
-
-
 
 - question: international-referendum-maintien-ue
   value: 2
@@ -880,6 +918,20 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: sante-assurance-sante-privee-option-v2
+  value: -1
+  evidence: programme
+  sources:
+    - juan-branco-le-projet-2027
+  quote: "financé notamment par la suppression des complémentaires et mutuelles privées"
+  quoteSource: juan-branco-le-projet-2027
+  justification: "Le programme veut un service public de santé universel et la suppression des assurances santé privées, ce qui exclut de quitter l'Assurance maladie pour un assureur privé sans que la question soit posée explicitement, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: sante-centres-sante-publics
   value: 2
   evidence: programme
@@ -937,20 +989,20 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: sante-mutuelles-part-accrue
+- question: sante-mutuelles-part-accrue-v2
   value: -2
   evidence: programme
   sources:
     - juan-branco-le-projet-2027
     - juan-branco-la-voie-programme-2027
-  quote: financé notamment par la suppression des complémentaires et mutuelles privées
+  quote: "financé notamment par la suppression des complémentaires et mutuelles privées"
   quoteSource: juan-branco-le-projet-2027
-  justification: Le programme propose de supprimer les complémentaires et mutuelles au profit d'un service public de santé, soit le contraire de l'énoncé.
+  justification: "Le programme veut supprimer les complémentaires et mutuelles privées au profit d'un service public de santé, soit le contraire d'une part accrue des complémentaires."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: sante-production-publique-medicaments
   value: 1
@@ -1050,6 +1102,19 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: securite-supprimer-bac
+  value: 2
+  evidence: programme
+  sources:
+    - juan-branco-la-voie-programme-2027
+  quote: "Suppression des brigades anticriminalité (BAC) au profit d'une police de proximité."
+  quoteSource: juan-branco-la-voie-programme-2027
+  justification: "Le programme propose explicitement de supprimer les BAC au profit d'une police de proximité."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: societe-instruction-famille-autorisation
   value: -1
@@ -1065,20 +1130,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-
-- question: transport-autoroutes-concedees
+- question: transport-autoroutes-concedees-v2
   value: -2
   evidence: programme
   sources:
     - juan-branco-la-voie-programme-2027
-  quote: Expropriation des compagnies d'autoroutes.
+  quote: "Expropriation des compagnies d'autoroutes."
   quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme propose d'exproprier les sociétés d'autoroutes, soit le contraire du maintien des concessions.
+  justification: "Le programme propose d'exproprier les sociétés d'autoroutes, soit le contraire de la poursuite des concessions privées."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: transport-concurrence-ferroviaire
   value: -2
@@ -1136,6 +1200,20 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: transport-supprimer-controle-technique-motos-v2
+  value: 1
+  evidence: programme
+  sources:
+    - juan-branco-la-voie-programme-2027
+  quote: "Limitation des contrôles techniques aux points essentiels."
+  quoteSource: juan-branco-la-voie-programme-2027
+  justification: "Le programme veut limiter les contrôles techniques aux points essentiels, sans les supprimer ni viser spécifiquement les deux-roues, version partielle dans le même sens, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: transport-taxe-kilometrique-poids-lourds
   value: 1
   evidence: programme
@@ -1163,7 +1241,6 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
-
 
 - question: travail-salaries-conseils-administration
   value: 1

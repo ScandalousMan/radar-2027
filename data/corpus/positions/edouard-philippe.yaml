@@ -241,19 +241,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: fiscalite-impot-minimum-grandes-fortunes
+- question: fiscalite-impot-minimum-grandes-fortunes-v2
   value: -1
-  evidence: declaration_vote
+  evidence: programme
   sources:
-    - edouard-philippe-discours-adidas-arena-2026-07
-  quote: Aux catégories les plus aisées, qu'on n'a pas besoin de réinventer des impôts idiots pour leur demander, à elles aussi, de contribuer au redressement national.
-  quoteSource: edouard-philippe-discours-adidas-arena-2026-07
-  justification: Le candidat rejette la création de nouveaux impôts visant les plus aisés et le programme exclut tout nouvel impôt, sans viser nommément un impôt minimum sur les grandes fortunes.
+    - edouard-philippe-priorites-prosperite
+  quote: "Sceller un moratoire normatif et fiscal : pas de nouvelle norme et de nouvel impôt sur le quinquennat."
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: "Le programme exclut tout nouvel impôt pendant le quinquennat, ce qui écarte un prélèvement minimal sur les grandes fortunes sans le viser nommément. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: fiscalite-reduire-credits-impot
   value: 1
@@ -384,33 +384,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: immigration-visas-professions-qualifiees
-  value: 1
-  evidence: declaration_vote
-  sources:
-    - edouard-philippe-discours-adidas-arena-2026-07
-  quote: nous aurons besoin d'accueillir dans les années qui viennent des étudiants, des médecins, des aides-soignants, des ingénieurs étrangers sur notre sol
-  quoteSource: edouard-philippe-discours-adidas-arena-2026-07
-  justification: Le candidat affirme le besoin d'accueillir des étrangers qualifiés, sans proposer explicitement de faciliter la délivrance des visas de travail.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
-
-- question: international-arrets-cedh-derogation
+- question: international-arrets-cedh-derogation-v2
   value: -1
   evidence: declaration_vote
   sources:
     - edouard-philippe-discours-adidas-arena-2026-07
-  quote: ils ne sont pas sortis de la Convention Européenne des Droits de l'Homme
+  quote: "ils ne sont pas sortis de la Convention Européenne des Droits de l'Homme"
   quoteSource: edouard-philippe-discours-adidas-arena-2026-07
-  justification: Le candidat entend maîtriser l'immigration sans sortir de la Convention européenne des droits de l'homme, sans se prononcer explicitement sur la possibilité d'écarter certains de ses arrêts.
+  justification: "Le candidat veut maîtriser l'immigration comme d'autres pays européens, sans réviser la Constitution ni sortir de la CEDH, sans se prononcer explicitement sur la non-exécution de certains arrêts, d'où -1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: international-renegocier-traites-competences
   value: -1

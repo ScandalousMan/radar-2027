@@ -57,19 +57,33 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: defense-dissuasion-protection-europe
+- question: defense-dissuasion-protection-europe-v2
   value: -1
   evidence: livre_plateforme
   sources:
     - florian-philippot-projet-pour-la-france-2026
-  quote: "Les déclarations du président Macron se disant prêt à partager notre dissuasion avec l'Europe constituent une trahison sans précédent de nos intérêts nationaux."
+  quote: Les déclarations du président Macron se disant prêt à partager notre dissuasion avec l'Europe constituent une trahison sans précédent de nos intérêts nationaux.
   quoteSource: florian-philippot-projet-pour-la-france-2026
-  justification: "Le livret s'oppose au partage de la dissuasion avec l'Europe, ce qui est voisin mais distinct d'une couverture explicite des autres pays européens, d'où -1."
+  justification: Le livret qualifie de trahison le partage de la dissuasion avec l'Europe, refus voisin mais non identique d'une extension explicite de la doctrine à la protection des partenaires européens, d'où -1.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
+
+- question: democratie-champ-referendum-inchange
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - florian-philippot-projet-pour-la-france-2026
+  quote: Créer le référendum d'initiative citoyenne (RIC) sur tout sujet et l'inscrire dans la Constitution.
+  quoteSource: florian-philippot-projet-pour-la-france-2026
+  justification: Le livret propose un référendum d'initiative citoyenne sur tout sujet, ce qui étend le référendum à tous les domaines par un mécanisme nouveau plutôt que par l'élargissement du référendum législatif existant, d'où -1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: democratie-referendum-exceptionnel
   value: -1
@@ -99,19 +113,33 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: democratie-referendum-reserve-elus
+- question: democratie-referendum-reserve-elus-v2
   value: -2
   evidence: livre_plateforme
   sources:
     - florian-philippot-projet-pour-la-france-2026
-  quote: "Créer le référendum d'initiative citoyenne (RIC) sur tout sujet et l'inscrire dans la Constitution."
+  quote: Créer le référendum d'initiative citoyenne (RIC) sur tout sujet et l'inscrire dans la Constitution.
   quoteSource: florian-philippot-projet-pour-la-france-2026
-  justification: "Le livret propose un RIC sur tout sujet, qui permet aux citoyens de déclencher un référendum, mesure contraire à une décision réservée au président et au Parlement."
+  justification: Le livret propose un RIC sur tout sujet, qui ouvrirait aux citoyens le déclenchement d'un référendum national, contrairement à une compétence réservée au président de la République ou au Parlement.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
+
+- question: democratie-revision-par-congres
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - florian-philippot-projet-pour-la-france-2026
+  quote: 'Ne permettre la révision de la Constitution que par référendum et donc supprimer la procédure de révision par le " Congrès ".'
+  quoteSource: florian-philippot-projet-pour-la-france-2026
+  justification: Le livret propose explicitement de supprimer la révision constitutionnelle par le Congrès au profit du seul référendum.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: economie-accords-libre-echange
   value: -2
@@ -337,19 +365,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: immigration-visas-professions-qualifiees
+- question: immigration-visas-professions-qualifiees-v2
   value: -1
   evidence: livre_plateforme
   sources:
     - florian-philippot-projet-pour-la-france-2026
-  quote: "Mettre fin à l'immigration de travail et à la directive européenne des travailleurs détachés."
+  quote: Mettre fin à l'immigration de travail et à la directive européenne des travailleurs détachés.
   quoteSource: florian-philippot-projet-pour-la-france-2026
-  justification: "Le livret propose de mettre fin à l'immigration de travail, en visant surtout la concurrence sur les emplois peu qualifiés, sans mentionner les visas des professions qualifiées, d'où -1."
+  justification: 'Le livret veut mettre fin à toute immigration de travail sans viser spécifiquement les visas des professions qualifiées. Mesure plus large que l''énoncé, dans le sens contraire : -1 par convention.'
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: immigration-voies-legales-travail-ue
   value: -2
@@ -365,19 +393,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: institutions-competences-retour-etat
+- question: institutions-competences-retour-etat-v2
   value: 2
   evidence: livre_plateforme
   sources:
     - florian-philippot-projet-pour-la-france-2026
-  quote: "Les scandales à répétition de l'ASE exigent une réforme d'ampleur de ce service public si sensible, qui passe notamment par le retrait de cette compétence aux départements."
+  quote: qui passe notamment par le retrait de cette compétence aux départements. L'État doit donc reprendre toute sa responsabilité dans la politique de la protection de l'enfance.
   quoteSource: florian-philippot-projet-pour-la-france-2026
-  justification: "Le livret propose explicitement de retirer aux départements la compétence de l'aide sociale à l'enfance pour la rendre à l'État."
+  justification: Le livret propose de retirer aux départements la compétence de l'aide sociale à l'enfance pour la confier à l'État, soit un transfert explicite de compétence à l'État.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: institutions-referendum-revision-constitution
   value: 1
@@ -393,19 +421,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: international-arrets-cedh-derogation
+- question: international-arrets-cedh-derogation-v2
   value: 1
   evidence: livre_plateforme
   sources:
     - florian-philippot-projet-pour-la-france-2026
-  quote: "Quitter la CEDH (Cour européenne des droits de l'homme)."
+  quote: Quitter la CEDH (Cour européenne des droits de l'homme).
   quoteSource: florian-philippot-projet-pour-la-france-2026
-  justification: "Le livret propose de dénoncer la Convention et de quitter la CEDH, ce qui va au-delà de s'affranchir de certains de ses arrêts. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  justification: 'Le livret propose de dénoncer la Convention et de quitter la CEDH, ce qui va au-delà de ne pas exécuter certains de ses arrêts. Mesure plus large que l''énoncé, dans le même sens : 1 par convention.'
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: international-controles-frontieres-schengen
   value: 1
@@ -506,19 +534,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: justice-juridictions-mineurs-specialisees
+- question: justice-juridictions-mineurs-specialisees-v2
   value: -1
   evidence: livre_plateforme
   sources:
     - florian-philippot-projet-pour-la-france-2026
-  quote: "Les actes graves doivent être jugés comme tels : qui tue comme un adulte doit être jugé comme un adulte."
+  quote: 'Les actes graves doivent être jugés comme tels : qui tue comme un adulte doit être jugé comme un adulte.'
   quoteSource: florian-philippot-projet-pour-la-france-2026
-  justification: "Le livret demande que les mineurs auteurs d'actes graves soient jugés comme des adultes, sans se prononcer explicitement sur les juridictions spécialisées, d'où -1."
+  justification: Le livret veut que les mineurs auteurs d'actes graves soient jugés comme des adultes, sans se prononcer sur l'existence de juridictions distinctes pour les autres, d'où -1.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: justice-majorite-penale-16-ans
   value: 1
@@ -688,19 +716,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: transport-autoroutes-concedees
+- question: transport-autoroutes-concedees-v2
   value: -2
   evidence: livre_plateforme
   sources:
     - florian-philippot-projet-pour-la-france-2026
-  quote: "Renationaliser les autoroutes."
+  quote: Renationaliser les autoroutes.
   quoteSource: florian-philippot-projet-pour-la-france-2026
-  justification: "Le livret propose de renationaliser les autoroutes, mesure contraire à leur maintien en concession à des sociétés privées."
+  justification: Le livret propose de renationaliser les autoroutes, contraire explicite d'une exploitation confiée à des sociétés privées concessionnaires.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: transport-concurrence-ferroviaire
   value: -2
@@ -716,19 +744,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: transport-sncf-entreprise-publique
+- question: transport-sncf-entreprise-publique-v2
   value: 1
   evidence: livre_plateforme
   sources:
     - florian-philippot-projet-pour-la-france-2026
-  quote: "Rétablir les monopoles publics dans le rail et l'énergie."
+  quote: Rétablir les monopoles publics dans le rail et l'énergie.
   quoteSource: florian-philippot-projet-pour-la-france-2026
-  justification: "Le livret propose de rétablir un monopole public dans le rail, sans se prononcer explicitement sur la détention intégrale de la SNCF par l'État, d'où 1 plutôt que 2."
+  justification: Le livret propose de rétablir un monopole public dans le rail sans se prononcer explicitement sur la détention intégrale de la SNCF par des entités publiques, d'où 1.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: travail-durcir-indemnisation-chomage
   value: -1

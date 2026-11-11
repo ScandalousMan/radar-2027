@@ -99,19 +99,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: democratie-referendum-reserve-elus
+- question: democratie-referendum-reserve-elus-v2
   value: -2
   evidence: declaration_vote
   sources:
     - francois-asselineau-discours-rentree-2026
-  quote: "instauration du Référendum d'Initiative Citoyenne (RIC)"
+  quote: Référendum d'Initiative Citoyenne (RIC)
   quoteSource: francois-asselineau-discours-rentree-2026
-  justification: "Le discours de 2026, comme le programme de 2022, propose un référendum d'initiative citoyenne, ce qui retire aux seuls président et Parlement le monopole du déclenchement d'un référendum."
+  justification: Le discours de 2026 propose un référendum d'initiative citoyenne, qui ouvrirait aux citoyens le déclenchement d'un référendum national, contrairement à une compétence réservée au président de la République ou au Parlement.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: economie-accords-libre-echange
   value: -2
@@ -154,6 +154,20 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+
+- question: economie-eau-operateurs-publics
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: 'Nous renationaliserons ou cesserons le processus de privatisation rampante et de dégradation de la qualité de service de plusieurs grandes entreprises, en particulier : • des sociétés de production et de distribution de gaz ; • des réseaux d''adduction d''eau'
+  quoteSource: francois-asselineau-programme-2022
+  justification: Le programme de 2022 prévoit de renationaliser les réseaux d'adduction d'eau, sans dire explicitement que la distribution devra être assurée uniquement par des opérateurs publics, d'où 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: economie-edf-entierement-publique
   value: 2
@@ -393,19 +407,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: international-arrets-cedh-derogation
-  value: 2
+- question: international-arrets-cedh-derogation-v2
+  value: 1
   evidence: livre_plateforme
   sources:
     - francois-asselineau-programme-2022
-  quote: "Nous retirerons la France de certains articles de la Convention européenne des Droits de l'Homme (CEDH)"
+  quote: Nous retirerons la France de certains articles de la Convention européenne des Droits de l'Homme (CEDH) pour la même raison.
   quoteSource: francois-asselineau-programme-2022
-  justification: "Le programme de 2022 prévoit de retirer la France de certains articles de la CEDH afin de ne plus être lié par ses décisions en matière migratoire, ce qui correspond à l'énoncé."
+  justification: Le programme de 2022 prévoit de retirer la France de certains articles de la Convention pour ne plus être lié par la jurisprudence en matière migratoire, mécanisme voisin mais distinct du refus d'exécuter certains arrêts, d'où 1.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: international-controles-frontieres-schengen
   value: 2
@@ -673,19 +687,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: transport-autoroutes-concedees
+- question: transport-autoroutes-concedees-v2
   value: -2
   evidence: livre_plateforme
   sources:
     - francois-asselineau-programme-2022
-  quote: "des concessionnaires d'autoroutes ; • de Télédiffusion de France ; • de la RATP et de la SNCF"
+  quote: des concessionnaires d'autoroutes ; • de Télédiffusion de France ; • de la RATP et de la SNCF
   quoteSource: francois-asselineau-programme-2022
-  justification: "Le programme de 2022 cite les concessionnaires d'autoroutes parmi les entreprises à renationaliser, soit le contraire explicite du maintien des concessions privées."
+  justification: Le programme de 2022 cite les concessionnaires d'autoroutes parmi les entreprises à renationaliser, soit le contraire explicite d'une exploitation confiée à des sociétés privées concessionnaires.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: transport-concurrence-ferroviaire
   value: -2
@@ -715,19 +729,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: transport-sncf-entreprise-publique
+- question: transport-sncf-entreprise-publique-v2
   value: 2
   evidence: livre_plateforme
   sources:
     - francois-asselineau-programme-2022
-  quote: "des concessionnaires d'autoroutes ; • de Télédiffusion de France ; • de la RATP et de la SNCF"
+  quote: des concessionnaires d'autoroutes ; • de Télédiffusion de France ; • de la RATP et de la SNCF
   quoteSource: francois-asselineau-programme-2022
-  justification: "Le programme de 2022 cite la SNCF parmi les entreprises à renationaliser ou à soustraire à la privatisation, ce qui correspond à une entreprise entièrement publique."
+  justification: Le programme de 2022 cite la SNCF parmi les entreprises à renationaliser ou à soustraire à toute privatisation, ce qui correspond à une détention intégralement publique.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: transport-subventionner-fret-ferroviaire
   value: 1

@@ -85,6 +85,20 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: environnement-faciliter-derogation-especes
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-ppl-abrogation-loi-duplomb
+  quote: en accordant de façon systématique à ces ouvrages le bénéfice de la raison impérative d'intérêt public majeur, porte atteinte à la protection des espèces protégées et de leurs habitats.
+  quoteSource: delphine-batho-ppl-abrogation-loi-duplomb
+  justification: La proposition de loi déposée par la candidate abroge la présomption de raison impérative d'intérêt public majeur accordée aux retenues d'eau, qui facilitait les dérogations espèces protégées, mais pour ce seul type d'ouvrage, d'où -1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: fiscalite-taxe-benefices-exceptionnels
   value: 1
   evidence: livre_plateforme
@@ -98,6 +112,20 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+
+- question: institutions-competences-retour-etat-v2
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-reporterre-2026-10
+  quote: C'est pourquoi je plaide pour une réorganisation des pouvoirs en France, en donnant beaucoup plus de pouvoir au local.
+  quoteSource: delphine-batho-reporterre-2026-10
+  justification: La candidate veut donner beaucoup plus de pouvoir au niveau local, à l'inverse d'un transfert de compétences vers l'État, sans se prononcer précisément sur la répartition des compétences, d'où -1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: numerique-assouplir-regles-ia
   value: -1

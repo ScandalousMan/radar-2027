@@ -15,6 +15,20 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: democratie-champ-referendum-inchange
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-figaro-constitution-2026-09
+  quote: "le peuple français doit pouvoir décider, par référendum, de toute question législative"
+  quoteSource: bruno-retailleau-figaro-constitution-2026-09
+  justification: "Le candidat veut élargir l'article 11 pour que toute question législative puisse être soumise à référendum, contraire explicite du maintien du champ actuel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: democratie-referendum-exceptionnel
   value: -1
   evidence: declaration_vote
@@ -29,19 +43,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: democratie-seuil-rip-maintenu
+- question: democratie-seuil-rip-maintenu-v2
   value: -2
   evidence: declaration_vote
   sources:
     - bruno-retailleau-figaro-constitution-2026-09
-  quote: plutôt que 5 millions de signatures, il en faudrait moitié moins
+  quote: "alléger les contraintes nécessaires à l'organisation d'un référendum d'initiative partagée : plutôt que 5 millions de signatures, il en faudrait moitié moins"
   quoteSource: bruno-retailleau-figaro-constitution-2026-09
-  justification: Le candidat propose de diviser par deux le nombre de signatures requis pour un référendum d'initiative partagée, soit l'abandon explicite du seuil actuel.
+  justification: "Le candidat veut diviser par deux le nombre de soutiens requis pour un référendum d'initiative partagée, contraire explicite du maintien du seuil d'un dixième des inscrits."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: economie-alleger-regles-entreprises
   value: 2
@@ -127,19 +141,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: environnement-limiter-recours-projets
+- question: environnement-limiter-recours-projets-v2
   value: 1
   evidence: livre_plateforme
   sources:
     - bruno-retailleau-lr-livret-produire-plus
-  quote: tout en limitant strictement les recours dilatoires
+  quote: "ouvrant la voie à des procédures simplifiées et sécurisées, tout en limitant strictement les recours dilatoires"
   quoteSource: bruno-retailleau-lr-livret-produire-plus
-  justification: Le livret propose de limiter strictement les recours dilatoires contre la remise en service des friches industrielles, une version restreinte de la limitation des recours contre les projets industriels.
+  justification: "Le livret veut limiter strictement les recours dilatoires contre la remise en service des friches industrielles, version partielle (friches, recours dilatoires) de la limitation des recours contre les autorisations de projets industriels."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: environnement-plastique-usage-unique-2030
   value: -1
@@ -197,6 +211,20 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: fiscalite-reduire-allegements-cotisations
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-produire-plus
+  quote: "Plus de 25 milliards d'euros d'allègements porteront sur le coût du travail, en combinant la mise en place du seuil \" zéro cotisation \", tel que présenté dans Travail gagnant, et une baisse directe des cotisations patronales non contributives."
+  quoteSource: bruno-retailleau-lr-livret-produire-plus
+  justification: "Le livret prévoit plus de 25 milliards d'euros d'allègements supplémentaires de cotisations patronales, contraire explicite d'une réduction de ces allègements."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: fiscalite-reduire-droits-succession
   value: 1
   evidence: livre_plateforme
@@ -253,47 +281,47 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: institutions-competences-retour-etat
+- question: institutions-competences-retour-etat-v2
   value: -1
   evidence: livre_plateforme
   sources:
     - bruno-retailleau-lr-livret-education
-  quote: Des compétences nouvelles seront transférées aux collectivités, qui connaissent mieux que personne leurs besoins.
+  quote: "Des compétences nouvelles seront transférées aux collectivités, qui connaissent mieux que personne leurs besoins."
   quoteSource: bruno-retailleau-lr-livret-education
-  justification: Le livret propose de transférer de nouvelles compétences éducatives aux régions et aux départements, mouvement inverse d'un retour de compétences à l'État, dans le seul domaine de l'éducation.
+  justification: "Le livret veut transférer de nouvelles compétences éducatives aux collectivités, mouvement inverse d'un transfert vers l'État, mais dans le seul domaine de l'éducation, d'où -1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
-- question: international-arrets-cedh-derogation
+- question: international-arrets-cedh-derogation-v2
   value: 2
   evidence: declaration_vote
   sources:
     - bruno-retailleau-figaro-constitution-2026-09
-  quote: je propose qu'une loi organique puisse revenir sur une jurisprudence européenne si elle est contraire à nos intérêts fondamentaux
+  quote: "je propose qu'une loi organique puisse revenir sur une jurisprudence européenne si elle est contraire à nos intérêts fondamentaux"
   quoteSource: bruno-retailleau-figaro-constitution-2026-09
-  justification: Le candidat propose qu'une loi organique puisse écarter une jurisprudence européenne, en citant les arrêts de la CEDH sur les expulsions, ce qui correspond à la mesure de l'énoncé.
+  justification: "Le candidat, citant les arrêts de la CEDH sur les expulsions, propose qu'une loi organique puisse écarter une jurisprudence européenne, donc ne pas exécuter certains arrêts."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
-- question: international-primaute-loi-nationale
+- question: international-primaute-loi-nationale-v2
   value: 1
   evidence: declaration_vote
   sources:
     - bruno-retailleau-figaro-constitution-2026-09
-  quote: Je veux donc préciser à l'article 88 de notre Constitution que le droit européen ne sera supérieur à la loi qu'à deux conditions.
+  quote: "Je veux donc préciser à l'article 88 de notre Constitution que le droit européen ne sera supérieur à la loi qu'à deux conditions."
   quoteSource: bruno-retailleau-figaro-constitution-2026-09
-  justification: Le candidat propose que le droit européen ne prime la loi que s'il respecte la Constitution et la répartition des compétences, tout en écartant explicitement un Frexit juridique, d'où une valeur de 1.
+  justification: "Le candidat veut que le droit de l'Union ne prime la loi que s'il respecte la Constitution et la répartition des compétences, tout en écartant un « Frexit juridique », position conditionnée d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: justice-peines-minimales-recidive
   value: 1

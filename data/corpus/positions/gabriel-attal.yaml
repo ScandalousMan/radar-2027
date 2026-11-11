@@ -57,19 +57,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: democratie-assemblees-tirees-consultatives
+- question: democratie-assemblees-tirees-consultatives-v2
   value: -1
   evidence: declaration_vote
   sources:
     - gabriel-attal-meeting-lyon-2026
   quote: "convention de 150 jeunes tirés au sort, âgés de 16 à 25 ans, pour les associer directement aux décisions. \" Non pas pour consulter. Mais pour décider."
   quoteSource: gabriel-attal-meeting-lyon-2026
-  justification: "Le candidat annonce une convention de jeunes tirés au sort qui doit décider et non seulement consulter ; la mesure ne vise qu'une convention de jeunes, d'où -1."
+  justification: "Le candidat annonce une convention de jeunes tirés au sort chargée de décider et non de consulter, ce qui s'oppose à un rôle seulement consultatif, mais pour une seule convention, d'où -1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: democratie-conventions-citoyennes
   value: 1
@@ -253,19 +253,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: environnement-limiter-recours-projets
+- question: environnement-limiter-recours-projets-v2
   value: 1
   evidence: livre_plateforme
   sources:
     - gabriel-attal-renaissance-nouvelle-donne
-  quote: "L'enquête publique et le recours contentieux seraient regroupés en un seul bloc procédural"
+  quote: "L'enquête publique et le recours contentieux seraient regroupés en un seul bloc procédural, avec un délai plafond de 24 mois pour le solaire et 36 mois pour l'éolien."
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
-  justification: "La plateforme Renaissance propose d'encadrer les recours dans un bloc procédural à délai plafond pour les projets d'énergie renouvelable, version partielle de l'énoncé, d'où 1."
+  justification: "La plateforme Renaissance enserre le recours contentieux contre les projets solaires et éoliens dans un bloc procédural à délai plafond, version partielle qui borne les recours sans en restreindre explicitement l'accès, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: environnement-supprimer-taxe-carbone
   value: -1
@@ -407,7 +407,7 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: immigration-visas-professions-qualifiees
+- question: immigration-visas-professions-qualifiees-v2
   value: 1
   evidence: programme
   sources:
@@ -415,12 +415,12 @@
     - gabriel-attal-renaissance-regalien
   quote: "où l'on accueille les compétences, les talents dont nous avons besoin sur la base d'un système à points comme au Canada"
   quoteSource: gabriel-attal-programme-frontieres
-  justification: "Le programme propose un système à points pour accueillir les compétences recherchées, sans mentionner explicitement les visas des professions qualifiées, d'où 1."
+  justification: "Le programme veut accueillir les compétences et talents dont la France a besoin par un système à points, dans le sens d'un accès facilité des travailleurs qualifiés, sans viser explicitement l'assouplissement des visas de travail, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: international-emprunt-commun-ue
   value: 2

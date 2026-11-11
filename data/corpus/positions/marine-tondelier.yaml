@@ -29,19 +29,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: agriculture-bio-restauration-collective
+- question: agriculture-bio-restauration-collective-v2
   value: 1
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Mobiliser la commande publique comme un levier de transformation en atteignant 100 % de bio dans la restauration collective d'ici 2040.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: "Le programme fixe un objectif de 100 % de produits bio dans la restauration collective d'ici 2040, qui dépasse le seuil de 30 % de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  justification: "Le programme vise 100 % de produits bio dans la restauration collective d'ici 2040, au-delà du seuil de 30 % des achats de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: agriculture-chalut-aires-protegees
   value: 2
@@ -212,7 +212,7 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: defense-dissuasion-protection-europe
+- question: defense-dissuasion-protection-europe-v2
   value: 1
   evidence: programme
   sources:
@@ -220,12 +220,12 @@
     - marine-tondelier-carnet-international-2026
   quote: envisager l'extension de la garantie de sécurité nucléaire française à d'autres pays européens dans une optique de non- prolifération
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme propose d'envisager l'extension de la garantie nucléaire française à d'autres pays européens, sans l'arrêter fermement.
+  justification: Le programme propose seulement d'envisager l'extension de la garantie nucléaire française aux autres pays européens, sans s'engager fermement à étendre la doctrine, d'où 1 plutôt que 2.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: defense-priorite-depenses-sociales
   value: 1
@@ -269,20 +269,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: defense-troupes-ukraine-cessez-le-feu
+- question: defense-troupes-ukraine-cessez-le-feu-v2
   value: 1
-  evidence: programme
+  evidence: livre_plateforme
   sources:
-    - marine-tondelier-programme-ecologistes-2026
     - marine-tondelier-carnet-international-2026
-  quote: Offrir des garanties de sécurité suffisantes et crédibles dans le cadre, notamment de la " Coalition des volontaires " (à définir comme une OPEX)
-  quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme prévoit des garanties de sécurité à l'Ukraine dans le cadre d'une opération extérieure de la Coalition des volontaires, sans mentionner explicitement un déploiement de troupes au sol pour un cessez-le-feu.
+  quote: Des garanties de sécurité durables doivent être mises en place, en travaillant à son intégration dans l'Union Européenne et en déployant des troupes européennes, à ses frontières ou sur son territoire, dans une posture dissuasive.
+  quoteSource: marine-tondelier-carnet-international-2026
+  justification: Le carnet de doctrine prévoit le déploiement de troupes européennes en Ukraine ou à ses frontières comme garantie de sécurité dans le cadre d'une négociation, sans viser explicitement des militaires français ni un accord de cessez-le-feu, d'où 1 plutôt que 2.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: democratie-budget-participatif-communes
   value: 1
@@ -354,19 +353,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: democratie-referendum-reserve-elus
+- question: democratie-referendum-reserve-elus-v2
   value: -2
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Renforcer la démocratie directe par la mise en œuvre du Référendum d'Initiative Citoyenne (RIC) propositionnel ou abrogatif
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le référendum d'initiative citoyenne proposé permet aux citoyens de déclencher un référendum, contrairement à une initiative réservée au président et au Parlement.
+  justification: Le référendum d'initiative citoyenne proposé permet aux citoyens de déclencher eux-mêmes un référendum, ce qui contredit une compétence réservée au président de la République ou au Parlement.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: democratie-supprimer-cese
   value: -1
@@ -453,6 +452,20 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: economie-eau-operateurs-publics
+  value: 2
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: Rendre applicable le droit à l'eau potable en imposant aux collectivités territoriales l'adoption de régies publiques de l'eau
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: Le programme impose aux collectivités des régies publiques de l'eau, soit une distribution assurée uniquement par des opérateurs publics.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: economie-encadrer-marges-distribution
   value: 1
   evidence: programme
@@ -480,6 +493,20 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+
+- question: economie-plafonnement-loyers-zones-tendues
+  value: 1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: Assurer le droit au logement par la généralisation, l'amélioration et la pérennisation de l'encadrement des loyers.
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: "Le programme généralise l'encadrement des loyers, au-delà des seules zones tendues et sans l'accord des élus locaux. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: economie-plafonner-prix-alimentaires
   value: 1
@@ -705,6 +732,20 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: environnement-limiter-recours-projets-v2
+  value: -1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: Redéployer des mécanismes de participa- tion du public (effet suspensif des référés, recours à la double juridiction…).
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: Le programme veut rétablir l'effet suspensif des référés et le double degré de juridiction en matière environnementale, ce qui va à l'encontre d'une limitation des recours sans viser spécifiquement les autorisations de projets industriels, d'où -1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: environnement-pause-normes-europeennes
   value: -1
   evidence: programme
@@ -831,19 +872,33 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: fiscalite-csg-progressive
+- question: fiscalite-csg-progressive-v2
   value: 2
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Supprimer le déficit de l'assurance-maladie sans pénaliser ni les soignant·es ni les malades en rendant progressive la Contribution Sociale Généralisée (CSG)
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme propose de rendre la CSG progressive.
+  justification: Le programme propose de rendre la CSG progressive, c'est-à-dire un taux qui augmente avec le revenu, soit exactement l'énoncé.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
+
+- question: fiscalite-exit-tax-conservation-15-ans
+  value: 1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: Étendre les conditions de l'exit tax afin de maintenir une contribution fiscale des émigrés fiscaux établissant leur domicile fiscal hors de France.
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: Le programme veut durcir l'exit tax sans préciser la durée de conservation de 15 ans, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: fiscalite-hausse-taxe-transactions-financieres
   value: 2
@@ -887,19 +942,33 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: fiscalite-impot-minimum-grandes-fortunes
+- question: fiscalite-impot-minimum-grandes-fortunes-v2
   value: 2
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Mettre en place une taxe Zucman de 2 % au-delà de 100 millions d'euros de patrimoine.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme reprend exactement la taxe minimale de 2 % sur les patrimoines de plus de 100 millions d'euros.
+  justification: Le programme reprend exactement le prélèvement minimal de 2 % sur les patrimoines de plus de 100 millions d'euros.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
+
+- question: fiscalite-reduire-allegements-cotisations
+  value: 1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: Supprimer les exonérations de cotisations inutiles car supérieures à 1,6 smic ou concernant les heures supplémentaires.
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: "Le programme supprime les exonérations de cotisations au-delà de 1,6 smic et sur les heures supplémentaires, ce qui réduit explicitement les allègements accordés aux employeurs. Version partielle (au-delà d'un seuil de salaire) : 1, harmonisé entre candidats."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: fiscalite-reduire-credits-impot
   value: 1
@@ -986,19 +1055,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: immigration-asile-examen-hors-europe
+- question: immigration-asile-examen-hors-europe-v2
   value: -2
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Toutes les demandes d'asile déposées en Europe doivent faire l'objet d'un examen en Europe.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme exige que les demandes d'asile soient examinées en Europe, soit le contraire de l'énoncé.
+  justification: Le programme exige que les demandes d'asile déposées en Europe y soient examinées, soit le contraire explicite d'un examen hors du territoire de l'Union.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: immigration-reduire-duree-naturalisation
   value: 1
@@ -1101,19 +1170,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: immigration-vote-local-etrangers
+- question: immigration-vote-local-etrangers-v2
   value: 2
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Étendre le droit de vote aux étranger·es extra-communautaires pour les élections locales (municipales, intercommunales, départementales et régionales) après cinq années de résidence en France.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme accorde le droit de vote aux élections locales aux étrangers non européens après cinq ans de résidence.
+  justification: Le programme accorde le droit de vote aux élections locales aux étrangers non ressortissants de l'Union après cinq ans de résidence, soit exactement l'énoncé.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: institutions-adaptation-lois-regions
   value: 1
@@ -1129,7 +1198,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-
 - question: institutions-autonomie-fiscale-collectivites
   value: 2
   evidence: programme
@@ -1144,19 +1212,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: institutions-competences-retour-etat
+- question: institutions-competences-retour-etat-v2
   value: -2
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
-  quote: Définir un nouveau pacte entre Etat et collectivités territoriales qui clarifie et élargisse les compétences des régions et des collectivités territoriales.
+  quote: Revenir sur le mouvement de recentralisation en cours.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme élargit les compétences des collectivités et refuse la recentralisation, soit l'inverse de l'énoncé.
+  justification: Le programme demande d'inverser la recentralisation en cours et d'élargir les compétences des collectivités, soit le contraire explicite d'un transfert de compétences vers l'État.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: institutions-investiture-premier-ministre
   value: 1
@@ -1171,6 +1239,20 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+
+- question: institutions-maintenir-article-40
+  value: -1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: Renforcer le pouvoir d'initiative et le droit d'amendement en assouplissant les règles de la recevabilité financière (actuel article 40).
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: Le programme assouplit les règles de l'article 40 sans les supprimer, ce qui s'écarte partiellement du maintien de l'interdiction, d'où -1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: institutions-mandat-presidentiel-sept-ans
   value: 2
@@ -1470,19 +1552,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: justice-juridictions-mineurs-specialisees
+- question: justice-juridictions-mineurs-specialisees-v2
   value: 2
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Conserver la double compétence civile et pénale du Juge des Enfants et des services de la Protection Judiciaire de la Jeunesse.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme conserve le juge des enfants, donc une juridiction distincte pour les mineurs.
+  justification: Le programme conserve la compétence pénale du juge des enfants, donc une juridiction distincte de celle des majeurs pour juger les mineurs.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: justice-justice-restaurative-systematique
   value: 1
@@ -1596,20 +1678,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: numerique-chiffrement-messageries
-  value: 1
-  evidence: programme
-  sources:
-    - marine-tondelier-programme-ecologistes-2026
-  quote: Soutenir les applications et les technologies de communication libres, chiffrées, décentralisées et non extractives.
-  quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme soutient les messageries chiffrées sans se prononcer explicitement sur l'accès des autorités.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
-
 - question: numerique-donnees-sante-hebergeurs-europeens
   value: 1
   evidence: programme
@@ -1666,19 +1734,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: numerique-responsabilite-plateformes-limitee
+- question: numerique-responsabilite-plateformes-limitee-v2
   value: -2
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Étendre le statut d'éditeur à toutes les grandes plateformes pour les rendre responsables de l'ensemble du contenu qu'elles produisent.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme rend les grandes plateformes responsables des contenus, soit le contraire d'une responsabilité limitée.
+  justification: Le programme veut appliquer le statut d'éditeur aux grandes plateformes pour les rendre responsables de l'ensemble des contenus, soit le contraire d'une responsabilité limitée.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: numerique-taxe-plateformes
   value: 2
@@ -1736,19 +1804,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: sante-mutuelles-part-accrue
+- question: sante-mutuelles-part-accrue-v2
   value: -2
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Concentrer la couverture par les mutuelles aux seuls soins optionnels.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme réduit le rôle des mutuelles aux soins optionnels, à l'opposé de l'énoncé.
+  justification: Le programme cantonne les complémentaires santé aux seuls soins optionnels, à l'opposé d'un transfert vers elles de dépenses remboursées par l'Assurance maladie.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: sante-production-publique-medicaments
   value: 2
@@ -1933,19 +2001,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: societe-salles-consommation-drogue
+- question: societe-salles-consommation-drogue-v2
   value: 1
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Augmenter les moyens de la prévention autour des toxicomanies en particulier les " haltes soins addictions "
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme renforce les haltes soins addictions sans prévoir leur généralisation.
+  justification: Le programme renforce les moyens des haltes soins addictions (salles de consommation supervisées) sans prévoir explicitement leur généralisation, d'où 1 plutôt que 2.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: societe-signes-religieux-sorties-scolaires
   value: -1
@@ -2018,19 +2086,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: transport-autoroutes-concedees
+- question: transport-autoroutes-concedees-v2
   value: -2
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Renationaliser progressi- vement les autoroutes afin d'investir dans les infrastructures de transport
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme renationalise les autoroutes, à l'opposé de leur maintien en concession.
+  justification: Le programme renationalise les autoroutes, à l'opposé du maintien de leur exploitation en concession par des sociétés privées.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: transport-baisser-taxe-billets-avion
   value: -2
@@ -2096,20 +2164,6 @@
   quote: Régénérer et moderniser le réseau existant (réseau structurant et "petites " lignes desservant les territoires ruraux)
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme régénère les petites lignes sans préciser leur maintien quelle que soit leur fréquentation.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
-
-- question: transport-sncf-entreprise-publique
-  value: 1
-  evidence: programme
-  sources:
-    - marine-tondelier-programme-ecologistes-2026
-  quote: Redonner l'exploitation des lignes en France à la SNCF et aux autorités de transport métropolitaines.
-  quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme confie l'exploitation des lignes à la SNCF sans se prononcer explicitement sur la détention de son capital.
   status: draft
   provenance:
     kind: manual

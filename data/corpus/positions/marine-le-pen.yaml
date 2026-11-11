@@ -365,19 +365,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: immigration-asile-examen-hors-europe
+- question: immigration-asile-examen-hors-europe-v2
   value: 1
   evidence: livre_plateforme
   sources:
     - marine-le-pen-22-mesures-2022
   quote: "Traiter les demandes de droit d'asile uniquement à l'étranger."
   quoteSource: marine-le-pen-22-mesures-2022
-  justification: "Les 22 mesures de 2022 prévoient l'examen des demandes d'asile uniquement à l'étranger, sans préciser des centres situés hors d'Europe."
+  justification: "Les 22 mesures de 2022 prévoient l'examen des demandes d'asile uniquement à l'étranger, sans préciser des centres hors de l'Union européenne, d'où 1 plutôt que 2."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: immigration-condamnes-perte-titre-sejour
   value: 1
@@ -477,33 +477,33 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: international-arrets-cedh-derogation
+- question: international-arrets-cedh-derogation-v2
   value: 1
   evidence: livre_plateforme
   sources:
     - marine-le-pen-programme-2022
   quote: "afin d'empê- cher les juridictions supranationales de forcer la France à suivre des politiques contraires à la volon- té du peuple Français"
   quoteSource: marine-le-pen-programme-2022
-  justification: "Le programme de 2022 veut empêcher par la Constitution les juridictions supranationales d'imposer des politiques migratoires à la France, sans nommer la Cour européenne des droits de l'homme."
+  justification: "Le programme de 2022 veut empêcher par la Constitution les juridictions supranationales d'imposer leurs décisions en matière migratoire, sans nommer la CEDH, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
-- question: international-primaute-loi-nationale
+- question: international-primaute-loi-nationale-v2
   value: 1
   evidence: livre_plateforme
   sources:
     - marine-le-pen-programme-2022
   quote: "afin d'empê- cher les juridictions supranationales de forcer la France à suivre des politiques contraires à la volon- té du peuple Français"
   quoteSource: marine-le-pen-programme-2022
-  justification: "Le programme de 2022 prévoit, dans le domaine migratoire, de soustraire la France aux décisions de juridictions supranationales contraires à la volonté populaire, d'où 1."
+  justification: "Le programme de 2022 veut soustraire la France, en matière migratoire, aux décisions de juridictions supranationales contraires à la volonté populaire, sans viser nommément le droit de l'Union, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: international-quitter-commandement-otan
   value: 2
@@ -673,19 +673,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: societe-gpa-interdite
+- question: societe-gpa-interdite-v2
   value: 2
   evidence: livre_plateforme
   sources:
     - marine-le-pen-programme-2022
   quote: "la gestion pour autrui, GPA, dont l'interdiction pourra être renforcée"
   quoteSource: marine-le-pen-programme-2022
-  justification: "Le programme de 2022 maintient l'interdiction de la GPA et envisage de la renforcer."
+  justification: "Le programme de 2022 maintient l'interdiction de la GPA et envisage de la renforcer, ce qui correspond à l'énoncé."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: societe-uniforme-ecole-publique
   value: 1
@@ -701,19 +701,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: transport-autoroutes-concedees
+- question: transport-autoroutes-concedees-v2
   value: -2
   evidence: livre_plateforme
   sources:
     - marine-le-pen-22-mesures-2022
   quote: "Renationaliser les autoroutes pour baisser de 15% les péages"
   quoteSource: marine-le-pen-22-mesures-2022
-  justification: "Les 22 mesures de 2022 proposent de renationaliser les autoroutes, contraire explicite de leur maintien en concession."
+  justification: "Les 22 mesures de 2022 proposent de renationaliser les autoroutes, contraire explicite du maintien de leur exploitation en concession privée."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: travail-retraite-62-ans
   value: 2

@@ -1,19 +1,19 @@
 # Positions de Raphaël Glucksmann (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
 # provenance manual), à relire par adrien avec pnpm data:review.
 
-- question: agriculture-bio-restauration-collective
+- question: agriculture-bio-restauration-collective-v2
   value: 1
   evidence: livre_plateforme
   sources:
     - raphael-glucksmann-place-publique-acte-1
-  quote: Faire de la cantine le lieu d'accès universel à une alimentation saine, locale et bio
+  quote: "Faire de la cantine le lieu d'accès universel à une alimentation saine, locale et bio"
   quoteSource: raphael-glucksmann-place-publique-acte-1
-  justification: La plateforme veut une cantine offrant une alimentation bio et locale, sans fixer l'objectif chiffré de 30 %.
+  justification: "La plateforme veut faire de la cantine le lieu d'une alimentation saine, locale et bio, sans fixer de part minimale de 30 % des achats, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: agriculture-chalut-aires-protegees
   value: 1
@@ -155,19 +155,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: defense-dissuasion-protection-europe
+- question: defense-dissuasion-protection-europe-v2
   value: 2
   evidence: livre_plateforme
   sources:
     - raphael-glucksmann-place-publique-acte-1
-  quote: Proposer à nos partenaires de l'UE d'étendre la dissuasion nucléaire française aux autres pays de l'Union européenne
+  quote: "Proposer à nos partenaires de l'UE d'étendre la dissuasion nucléaire française aux autres pays de l'Union européenne"
   quoteSource: raphael-glucksmann-place-publique-acte-1
-  justification: La plateforme propose d'étendre la dissuasion nucléaire française aux autres pays de l'UE, la décision d'emploi restant française.
+  justification: "La plateforme propose d'étendre la dissuasion nucléaire française aux autres pays de l'Union européenne, la décision d'emploi restant française."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: defense-doubler-reservistes
   value: 1
@@ -225,19 +225,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: democratie-referendum-reserve-elus
+- question: democratie-referendum-reserve-elus-v2
   value: -1
   evidence: livre_plateforme
   sources:
     - raphael-glucksmann-place-publique-acte-1
-  quote: Instaurer un droit d'initiative citoyenne, permettant de déclencher des séquences démocratiques avec des référendums à l'échelle locale et nationale
+  quote: "Instaurer un droit d'initiative citoyenne, permettant de déclencher des séquences démocratiques avec des référendums à l'échelle locale et nationale"
   quoteSource: raphael-glucksmann-place-publique-acte-1
-  justification: La plateforme veut que des citoyens puissent déclencher des référendums, ce qui s'oppose à une convocation réservée aux élus, mais les modalités restent imprécises.
+  justification: "La plateforme veut que des citoyens puissent déclencher des référendums nationaux, ce qui s'oppose à un déclenchement réservé au président et au Parlement, mais les modalités restent imprécises, d'où -1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: democratie-vote-16-ans
   value: 2
@@ -294,6 +294,20 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+
+- question: economie-plafonnement-loyers-zones-tendues
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: "Encadrer les loyers dans les zones en grande tension pour garantir l'accès au logement aux ménages modestes."
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: "La plateforme veut encadrer les loyers dans les zones en grande tension, sans dire que cet encadrement s'imposerait à toutes les zones tendues indépendamment des élus locaux, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: economie-plafonner-prix-alimentaires
   value: 1
@@ -421,19 +435,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: fiscalite-impot-minimum-grandes-fortunes
+- question: fiscalite-impot-minimum-grandes-fortunes-v2
   value: 1
   evidence: livre_plateforme
   sources:
     - raphael-glucksmann-place-publique-acte-1
-  quote: Effort fiscal nouveau, ciblé sur les très hauts patrimoines et les grands groupes
+  quote: "Effort fiscal nouveau, ciblé sur les très hauts patrimoines et les grands groupes"
   quoteSource: raphael-glucksmann-place-publique-acte-1
-  justification: La plateforme prévoit un effort fiscal nouveau sur les très hauts patrimoines, sans préciser d'impôt minimum, de seuil ni de taux.
+  justification: "La plateforme prévoit un effort fiscal nouveau sur les très hauts patrimoines, sans préciser de prélèvement minimal, de seuil ni de taux, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: fiscalite-reduire-credits-impot
   value: 1
@@ -491,19 +505,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: immigration-asile-examen-hors-europe
+- question: immigration-asile-examen-hors-europe-v2
   value: -2
   evidence: livre_plateforme
   sources:
     - raphael-glucksmann-place-publique-acte-1
-  quote: refuser l'externalisation de nos politiques migratoires et d'asile
+  quote: "refuser l'externalisation de nos politiques migratoires et d'asile"
   quoteSource: raphael-glucksmann-place-publique-acte-1
-  justification: La plateforme refuse explicitement l'externalisation des politiques d'asile.
+  justification: "La plateforme refuse explicitement l'externalisation des politiques d'asile, donc l'examen des demandes dans des centres hors de l'Union européenne."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: immigration-regularisation-metiers-tension
   value: 1
@@ -547,19 +561,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: immigration-vote-local-etrangers
+- question: immigration-vote-local-etrangers-v2
   value: 2
   evidence: livre_plateforme
   sources:
     - raphael-glucksmann-place-publique-acte-1
-  quote: Ouvrir le droit de vote à 16 ans et pour les étrangers extra-communautaires aux élections locales
+  quote: "Ouvrir le droit de vote à 16 ans et pour les étrangers extra-communautaires aux élections locales"
   quoteSource: raphael-glucksmann-place-publique-acte-1
-  justification: La plateforme propose explicitement le droit de vote des étrangers extra-communautaires aux élections locales.
+  justification: "La plateforme propose explicitement le droit de vote des étrangers extra-communautaires aux élections locales."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: institutions-autonomie-fiscale-collectivites
   value: 2
@@ -588,6 +602,20 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+
+- question: institutions-maintenir-article-40
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: "renforcer le pouvoir d'initiative et d'amendement du Parlement (fin de l'article 40)"
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: "La plateforme propose explicitement la fin de l'article 40, qui empêche les parlementaires de créer ou d'aggraver une charge publique."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: institutions-pouvoirs-commissions-enquete
   value: 2
@@ -855,7 +883,6 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
-
 
 - question: societe-conge-second-parent
   value: 1

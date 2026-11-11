@@ -15,19 +15,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: agriculture-bio-restauration-collective
+- question: agriculture-bio-restauration-collective-v2
   value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-gout-du-futur-ch4
   quote: Porter l'alimentation dans la restauration collective et scolaire à 100 % biologique et locale
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
-  justification: "Le programme vise 100 % de produits biologiques dans la restauration collective, objectif qui dépasse les 30 % de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  justification: "Le programme vise 100 % d'alimentation biologique et locale dans la restauration collective, au-delà du minimum de 30 % des achats de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: agriculture-derogations-neonicotinoides
   value: -2
@@ -226,19 +226,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: democratie-referendum-reserve-elus
+- question: democratie-referendum-reserve-elus-v2
   value: -2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-6e-republique-ch1
   quote: Instaurer le référendum d'initiative citoyenne (RIC), par lequel les citoyens qui réunissent suffisamment de signatures peuvent révoquer des élus, proposer ou abroger une loi et modifier la Constitution
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
-  justification: Le programme permet aux citoyens de déclencher eux-mêmes un référendum, ce qui retire ce pouvoir à la seule décision du président et du Parlement.
+  justification: Avec le RIC, les citoyens pourraient déclencher eux-mêmes un référendum, ce qui retire au président et au Parlement l'exclusivité de ce déclenchement.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: democratie-referendum-revocatoire
   value: 2
@@ -254,6 +254,20 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+
+- question: democratie-revision-par-congres
+  value: -2
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-aec-6e-republique-ch1
+  quote: Rendre obligatoire le recours au référendum en cas de modification de la Constitution ou d'adoption d'un nouveau traité européen
+  quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
+  justification: Le programme rend le référendum obligatoire pour toute modification de la Constitution, ce qui exclut une révision adoptée par le seul Congrès.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: democratie-vote-16-ans
   value: 2
@@ -339,6 +353,20 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: economie-eau-operateurs-publics
+  value: 1
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-aec-gout-du-futur-ch1
+  quote: Organiser la gestion publique autour de régies locales d'eau potable et d'assainissement, ouvertes avec voix délibérative aux habitantes et habitants et aux salariés
+  quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch1
+  justification: Le programme confie l'eau potable à des régies publiques locales, sans exclure explicitement tout opérateur privé.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: economie-encadrer-marges-distribution
   value: 2
   evidence: programme
@@ -367,19 +395,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: economie-ouverture-dimanche-libre
+- question: economie-ouverture-dimanche-libre-v2
   value: -2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-securite-sociale-ch1
   quote: Remettre en cause les autorisations de travail le dimanche
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
-  justification: Le programme veut remettre en cause les autorisations de travail le dimanche, à l'inverse d'une libre ouverture des commerces ce jour-là.
+  justification: Le programme veut remettre en cause les autorisations de travail le dimanche, à l'opposé d'une ouverture dominicale des commerces sans autorisation préalable.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: economie-participations-etat-industrie
   value: 2
@@ -394,6 +422,20 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+
+- question: economie-plafonnement-loyers-zones-tendues
+  value: 1
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-aec-6e-republique-ch3
+  quote: Geler les loyers le temps de déployer un encadrement des loyers partout sur le territoire et à la baisse dans les grandes villes
+  quoteSource: jean-luc-melenchon-aec-6e-republique-ch3
+  justification: "Le programme veut encadrer les loyers partout sur le territoire, au-delà des seules zones tendues. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: economie-plafonner-prix-alimentaires
   value: 2
@@ -759,19 +801,33 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: fiscalite-csg-progressive
+- question: fiscalite-csg-progressive-v2
   value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-securite-sociale-ch1
-  quote: Créer une cotisation sociale universelle pour financer la Sécurité sociale, fusionnant les différentes cotisations sociales actuelles et la contribution sociale généralisée (CSG)
+  quote: Créer une cotisation sociale universelle pour financer la Sécurité sociale, fusionnant les différentes cotisations sociales actuelles et la contribution sociale généralisée (CSG), perçue uniquement et directement par les caisses de la Sécurité sociale, avec une part progressive selon les revenus
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
-  justification: Le programme fusionne la CSG dans une cotisation sociale universelle comportant une part progressive selon les revenus, variante proche d'une CSG progressive.
+  justification: Le programme fond la CSG dans une cotisation sociale universelle comportant une part progressive selon les revenus, version voisine d'une CSG dont le taux augmente avec le revenu.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
+
+- question: fiscalite-exit-tax-conservation-15-ans
+  value: 1
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-aec-economie-ch2
+  quote: rétablir une exit tax renforcée pour lutter contre l'évasion fiscale
+  quoteSource: jean-luc-melenchon-aec-economie-ch2
+  justification: Le programme veut une exit tax renforcée, version voisine de l'énoncé sans la durée de conservation de 15 ans ni le seuil.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: fiscalite-hausse-taxe-transactions-financieres
   value: 2
@@ -802,19 +858,47 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: fiscalite-impot-minimum-grandes-fortunes
+- question: fiscalite-impot-minimum-grandes-fortunes-v2
   value: 2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-economie-ch2
   quote: Introduire une garantie d'impôt de 2 % sur le patrimoine des centimillionaires
   quoteSource: jean-luc-melenchon-aec-economie-ch2
-  justification: Le programme propose un impôt minimum de 2 % sur les patrimoines supérieurs à 100 millions d'euros (taxe Zucman).
+  justification: Le programme instaure une garantie d'impôt de 2 % sur le patrimoine des centimillionaires, soit le prélèvement minimal annuel de 2 % de l'énoncé.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
+
+- question: fiscalite-quotient-familial-credit-enfant
+  value: 1
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-aec-economie-ch2
+  quote: Mettre fin au quotient conjugal, système patriarcal favorisant les inégalités salariales entre les femmes et les hommes Créer un crédit d'impôt par enfant pour toutes les familles
+  quoteSource: jean-luc-melenchon-aec-economie-ch2
+  justification: Le programme crée un crédit d'impôt par enfant pour toutes les familles et supprime le quotient conjugal, version voisine sans dire explicitement que ce crédit remplace la part enfant du quotient familial.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: fiscalite-reduire-allegements-cotisations
+  value: 1
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-comptes-publics-2027
+  quote: Aussi pro- posons-nous d'interrompre cette subvention au-dessus de 2 SMIC, où les exonérations ne sont plus qu'un effet d'aubaine sans aucun effet sur l'emploi.
+  quoteSource: jean-luc-melenchon-comptes-publics-2027
+  justification: "Le chiffrage propose de supprimer les exonérations de cotisations au-dessus de 2 SMIC, ce qui réduit les allègements accordés aux employeurs. Version partielle (au-delà d'un seuil de salaire) : 1, harmonisé entre candidats."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: fiscalite-reduire-credits-impot
   value: 1
@@ -984,47 +1068,47 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: immigration-visas-professions-qualifiees
+- question: immigration-visas-professions-qualifiees-v2
   value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-un-monde-ordonne-ch3
   quote: Faciliter l'accès aux visas
   quoteSource: jean-luc-melenchon-aec-un-monde-ordonne-ch3
-  justification: Le programme veut faciliter l'accès aux visas en général, sans cibler les professions qualifiées.
+  justification: "Le programme veut faciliter l'accès aux visas en général, sans viser spécifiquement les visas de travail des professions qualifiées. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
-- question: immigration-vote-local-etrangers
+- question: immigration-vote-local-etrangers-v2
   value: 2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-securite-sociale-ch4
   quote: Instituer le droit de vote des étrangers aux élections locales
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch4
-  justification: Le programme propose le droit de vote des étrangers aux élections locales.
+  justification: Le programme institue le droit de vote des étrangers aux élections locales, ce qui couvre les résidents non européens visés par l'énoncé.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
-- question: institutions-autonomie-corse-constitution
+- question: institutions-autonomie-corse-constitution-v2
   value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-6e-republique-ch1
   quote: Donner à la Corse le statut garanti par un nouvel article de la Constitution
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
-  justification: Le programme propose un statut de la Corse garanti par la Constitution, sans employer explicitement le terme d'autonomie.
+  justification: Le programme veut un statut de la Corse garanti par un nouvel article de la Constitution, sans employer explicitement le mot « autonomie ».
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: institutions-autonomie-fiscale-collectivites
   value: 1
@@ -1040,19 +1124,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: institutions-competences-retour-etat
+- question: institutions-competences-retour-etat-v2
   value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-securite-sociale-ch2
   quote: Recentraliser la protection de l'enfance
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
-  justification: Le programme propose de recentraliser la protection de l'enfance, compétence aujourd'hui départementale, sans principe général de retour des compétences à l'État.
+  justification: Le programme recentralise la protection de l'enfance, compétence départementale, ce qui est un transfert partiel de compétences vers l'État.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: institutions-fusions-communes-obligatoires
   value: -2
@@ -1138,19 +1222,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: international-primaute-loi-nationale
+- question: international-primaute-loi-nationale-v2
   value: 2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-europe
   quote: elle appliquera, en revanche, sans aucune concession, le programme choisi démocratiquement par son peuple, même si cela n'est pas permis par les traités
   quoteSource: jean-luc-melenchon-aec-europe
-  justification: Le programme prévoit d'appliquer le droit national même lorsqu'il contredit les traités européens.
+  justification: Le programme appliquera le programme choisi par le peuple même lorsque les traités européens ne le permettent pas, donc la loi nationale contre la règle de l'Union.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: international-quitter-commandement-otan
   value: 2
@@ -1223,19 +1307,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: justice-juridictions-mineurs-specialisees
+- question: justice-juridictions-mineurs-specialisees-v2
   value: 2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-securite-sociale-ch2
   quote: Revenir sur toutes les mesures qui alignent la justice des mineurs sur celle des adultes, rétablir les principes de l'ordonnance de février 1945
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
-  justification: Le programme veut maintenir une justice des mineurs distincte en revenant sur son alignement sur celle des adultes.
+  justification: Le programme veut rétablir les principes de l'ordonnance de 1945 et revenir sur l'alignement de la justice des mineurs sur celle des adultes, donc des juridictions distinctes.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: justice-majorite-penale-16-ans
   value: -1
@@ -1293,19 +1377,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: numerique-chiffrement-messageries
+- question: numerique-chiffrement-messageries-v2
   value: 2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-gout-du-futur-ch7
   quote: Constitutionnaliser le droit au chiffrement et à la sécurité des données et des communications, afin de se prémunir contre les moyens d'interception et de surveillance
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch7
-  justification: Le programme veut constitutionnaliser le droit au chiffrement des communications contre l'interception et la surveillance.
+  justification: Le programme veut constitutionnaliser le droit au chiffrement des communications pour se prémunir contre l'interception et la surveillance, donc contre l'accès des autorités aux messages chiffrés.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: numerique-donnees-sante-hebergeurs-europeens
   value: 1
@@ -1377,19 +1461,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: sante-assurance-sante-privee-option
+- question: sante-assurance-sante-privee-option-v2
   value: -1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-securite-sociale-ch1
   quote: en intégrant les assurances maladie complémentaires dans la Sécurité sociale
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
-  justification: Le programme intègre les complémentaires santé dans la Sécurité sociale, ce qui va à l'encontre d'une assurance privée substituable, sans traiter explicitement cette option.
+  justification: Le programme intègre les complémentaires dans la Sécurité sociale, ce qui va à l'encontre d'une sortie de l'Assurance maladie vers un assureur privé, sans traiter explicitement cette possibilité.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: sante-budget-hopital-inflation
   value: 1
@@ -1489,19 +1573,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: sante-mutuelles-part-accrue
+- question: sante-mutuelles-part-accrue-v2
   value: -2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-securite-sociale-ch1
   quote: en remboursant à 100 % les soins de santé prescrits et en intégrant les assurances maladie complémentaires dans la Sécurité sociale
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
-  justification: Le programme intègre les complémentaires dans la Sécurité sociale avec un remboursement à 100 %, à l'inverse d'un transfert vers les mutuelles.
+  justification: Le programme rembourse à 100 % les soins prescrits et intègre les complémentaires dans la Sécurité sociale, à l'opposé d'un transfert de dépenses vers les complémentaires.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: sante-production-publique-medicaments
   value: 2
@@ -1629,6 +1713,20 @@
   author: claude
   authoredAt: 2026-11-09
 
+- question: securite-interdire-plaquage-ventral
+  value: 2
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-aec-6e-republique-ch2
+  quote: "Interdire les techniques d'immobilisation létales : plaquage ventral, pliage ventral, clé d'étranglement"
+  quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
+  justification: Le programme interdit explicitement le plaquage ventral aux forces de l'ordre.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
 - question: securite-presomption-legitime-defense
   value: -2
   evidence: programme
@@ -1698,6 +1796,20 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+
+- question: securite-supprimer-bac
+  value: 2
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-aec-6e-republique-ch2
+  quote: Rétablir la police de proximité comme pilier du service public et démanteler les brigades anticriminalité (BAC) ainsi que les brigades de répression des actions violentes motorisées (BRAV-M)
+  quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
+  justification: Le programme veut démanteler les brigades anticriminalité (BAC).
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: securite-videosurveillance-algorithmique
   value: -1
@@ -1769,33 +1881,33 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: societe-gpa-interdite
+- question: societe-gpa-interdite-v2
   value: 2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-securite-sociale-ch2
   quote: refuser la gestation pour autrui (GPA)
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
-  justification: Le programme refuse la gestation pour autrui, ce qui revient à maintenir son interdiction.
+  justification: Le programme refuse la gestation pour autrui, donc son interdiction en France.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
-- question: societe-salles-consommation-drogue
+- question: societe-salles-consommation-drogue-v2
   value: 2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-gout-du-futur-ch4
   quote: Pérenniser et généraliser les salles de consommation à moindre risque sur l'ensemble du territoire
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
-  justification: Le programme propose de généraliser les salles de consommation à moindre risque.
+  justification: Le programme veut pérenniser et généraliser les salles de consommation à moindre risque sur tout le territoire.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: societe-service-national-obligatoire
   value: 2
@@ -1825,19 +1937,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: societe-statut-beau-parent
+- question: societe-statut-beau-parent-v2
   value: 2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-securite-sociale-ch2
   quote: Reconnaître un statut de beau-parent sous condition de l'intérêt supérieur de l'enfant
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
-  justification: Le programme propose de reconnaître un statut de beau-parent.
+  justification: Le programme veut reconnaître un statut de beau-parent, sous condition de l'intérêt supérieur de l'enfant.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: societe-uniforme-ecole-publique
   value: -2
@@ -1853,7 +1965,7 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: transport-autoroutes-concedees
+- question: transport-autoroutes-concedees-v2
   value: -2
   evidence: programme
   sources:
@@ -1861,12 +1973,12 @@
     - jean-luc-melenchon-aec-economie-ch1
   quote: Renationaliser les autoroutes en revenant sur les hausses de prix passées
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
-  justification: Le programme propose de renationaliser les autoroutes, à l'inverse du maintien des concessions privées.
+  justification: Le programme renationalise les autoroutes, à l'opposé de la poursuite de leur exploitation par des concessionnaires privés.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: transport-concurrence-ferroviaire
   value: -2
@@ -1924,19 +2036,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: transport-sncf-entreprise-publique
+- question: transport-sncf-entreprise-publique-v2
   value: 2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-bifurcation-ch3
   quote: Renationaliser la Société nationale des chemins de fer français (SNCF) et refuser la mise en concurrence des lignes de transport
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
-  justification: Le programme propose de renationaliser la SNCF.
+  justification: Le programme veut renationaliser la SNCF, donc une détention intégralement publique.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: transport-subventionner-fret-ferroviaire
   value: 1
@@ -2022,33 +2134,33 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: travail-limiter-licenciements-beneficiaires
+- question: travail-limiter-licenciements-beneficiaires-v2
   value: 2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-economie-ch3
   quote: Interdire les licenciements boursiers et économiques par les entreprises qui versent des dividendes ou bénéficient des aides de l'État
   quoteSource: jean-luc-melenchon-aec-economie-ch3
-  justification: Le programme interdit les licenciements économiques aux entreprises qui versent des dividendes.
+  justification: Le programme interdit les licenciements économiques aux entreprises qui versent des dividendes, ce qui limite leur recours aux licenciements.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
-- question: travail-plafond-prudhommes-maintenu
+- question: travail-plafond-prudhommes-maintenu-v2
   value: -1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-securite-sociale-ch1
-  quote: Abroger les ordonnances dites " Pénicaud " ainsi que la loi dite " El Khomri "
+  quote: "Abroger les ordonnances dites \" Pénicaud \" ainsi que la loi dite \" El Khomri \""
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
-  justification: Le programme abroge les ordonnances Pénicaud, qui ont instauré le barème des indemnités prud'homales, sans citer ce plafond.
+  justification: Le programme abroge les ordonnances Pénicaud, qui ont instauré le barème plafonnant les indemnités prud'homales, sans citer ce barème.
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: travail-plafonner-ecart-salaires
   value: 2

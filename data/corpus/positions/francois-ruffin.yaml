@@ -1,19 +1,19 @@
 # Positions de François Ruffin (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
 # provenance manual), à relire par adrien avec pnpm data:review.
 
-- question: agriculture-bio-restauration-collective
+- question: agriculture-bio-restauration-collective-v2
   value: 1
   evidence: programme
   sources:
     - francois-ruffin-cahier-travaillisme-ecologique
   quote: "étendra les moyens d'action de l'Agence Bio notamment pour structurer et renforcer les filières de transformation et soutenir la distribution de produits bio en restau- ration collective"
   quoteSource: francois-ruffin-cahier-travaillisme-ecologique
-  justification: "Le programme prévoit de soutenir la distribution de produits bio en restauration collective, sans fixer l'objectif de 30 %."
+  justification: "Le programme prévoit de soutenir la distribution de produits bio en restauration collective, sans fixer de seuil minimal de 30 % des achats, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: agriculture-derogations-neonicotinoides
   value: -1
@@ -29,19 +29,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: agriculture-origine-viandes-restaurants
+- question: agriculture-origine-viandes-restaurants-v2
   value: 1
   evidence: programme
   sources:
     - francois-ruffin-cahier-industrie
   quote: "RENDRE SYSTÉMATIQUE L'ÉTIQUETAGE CLAIR DES ORIGINES POUR L'ENSEMBLE DES ALIMENTS ET L'ÉTENDRE À D'AUTRES PRODUITS"
   quoteSource: francois-ruffin-cahier-industrie
-  justification: "Le programme propose l'étiquetage obligatoire de l'origine de tous les aliments, mesure voisine qui ne vise pas spécifiquement les plats servis en restaurant."
+  justification: "Le programme veut rendre systématique l'étiquetage des origines de tous les aliments, mesure voisine qui ne vise pas explicitement les viandes servies en restaurant, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: agriculture-pesticides-moitie-2030
   value: 1
@@ -114,19 +114,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: democratie-referendum-reserve-elus
+- question: democratie-referendum-reserve-elus-v2
   value: -2
   evidence: programme
   sources:
     - francois-ruffin-cahier-travaillisme-ecologique
   quote: "Les idées de référendum devront aussi et surtout venir des citoyens, avec le Référendum d'initiative citoyenne (RIC), enfin."
   quoteSource: francois-ruffin-cahier-travaillisme-ecologique
-  justification: "Le programme propose le référendum d'initiative citoyenne, ce qui retire aux seuls élus le monopole du déclenchement du référendum."
+  justification: "Le programme veut que les référendums viennent surtout des citoyens par le RIC, ce qui retire au président et au Parlement le monopole du déclenchement (déduction du RIC conservée par convention)."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: economie-accords-libre-echange
   value: -2
@@ -312,7 +312,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-
 - question: environnement-plastique-usage-unique-2030
   value: 1
   evidence: programme
@@ -326,7 +325,6 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-09
-
 
 - question: environnement-taxe-carbone-importations
   value: 1
@@ -356,19 +354,33 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: fiscalite-impot-minimum-grandes-fortunes
+- question: fiscalite-impot-minimum-grandes-fortunes-v2
   value: 2
   evidence: programme
   sources:
     - francois-ruffin-plan-de-redressement
   quote: "Gabriel Zucman propose une taxe annuelle de 2 % sur les patrimoines supérieurs à 100 M€, après déduction des impôts déjà acquittés."
   quoteSource: francois-ruffin-plan-de-redressement
-  justification: "Le programme retient explicitement la taxe Zucman de 2 % sur les patrimoines de plus de 100 millions d'euros."
+  justification: "Le programme retient la taxe Zucman, prélèvement annuel de 2 % sur les patrimoines de plus de 100 millions d'euros après déduction des impôts déjà payés, soit exactement un prélèvement minimal."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
+
+- question: fiscalite-reduire-allegements-cotisations
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-plan-de-redressement
+  quote: "Avec des réductions plus lissées complétées par un gel au niveau de 2026, l'économie sera d'au moins 5 Md d'euros dès 2027"
+  quoteSource: francois-ruffin-plan-de-redressement
+  justification: "Le plan prévoit de lisser et de geler les allègements de cotisations patronales pour en économiser au moins 5 milliards, une réduction partielle plutôt qu'une baisse générale, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
 
 - question: fiscalite-reduire-droits-succession
   value: -1
@@ -581,19 +593,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: travail-plafond-prudhommes-maintenu
+- question: travail-plafond-prudhommes-maintenu-v2
   value: -1
   evidence: programme
   sources:
     - francois-ruffin-cahier-travailleurs-essentiels
   quote: "en clair, on plafonne le prix de l'injustice, on normalise l'abus"
   quoteSource: francois-ruffin-cahier-travailleurs-essentiels
-  justification: "Le programme critique le plafonnement des indemnités issu des ordonnances de 2017, sans proposer explicitement sa suppression."
+  justification: "Le programme critique le plafonnement des indemnités prud'homales issu des ordonnances de 2017, sans en proposer explicitement la suppression, d'où -1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-11
 
 - question: travail-retraite-62-ans
   value: 1
