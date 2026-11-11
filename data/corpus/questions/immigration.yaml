@@ -7,8 +7,10 @@
   themes:
     - immigration
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -20,15 +22,17 @@
   themes:
     - immigration
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: immigration-regularisation-metiers-tension
   text: "Les travailleurs sans titre de séjour employés dans des métiers en tension doivent pouvoir être régularisés."
@@ -36,15 +40,25 @@
     - immigration
     - travail
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: immigration-supprimer-droit-du-sol
   text: Le droit du sol doit être supprimé pour l'acquisition de la nationalité française.
   themes:
     - immigration
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -60,48 +74,76 @@
     - immigration
     - democratie
   polarity: +
-  status: draft
+  status: active
   author: claude
-- id: immigration-ame-soins-urgents
-  text: L'aide médicale d'État doit être limitée aux soins urgents.
-  themes:
-    - immigration
-    - sante
-  polarity: "-"
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+- id: immigration-ame-soins-urgents
+  text: L'aide médicale d'État doit être limitée aux soins urgents.
+  themes:
+    - immigration
+    - sante
+  polarity: "-"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: immigration-titre-sejour-longue-duree
   text: "Les étrangers en situation régulière doivent obtenir plus facilement un titre de séjour de longue durée."
   themes:
     - immigration
   polarity: +
-  status: draft
+  status: active
   author: claude
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: immigration-reduire-duree-naturalisation
   text: "La durée de résidence exigée pour demander la naturalisation doit être réduite."
   themes:
     - immigration
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: immigration-voies-legales-travail-ue
   text: L'Union européenne doit ouvrir davantage de voies d'immigration légale pour le travail.
   themes:
     - immigration
     - international
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -113,24 +155,34 @@
   themes:
     - immigration
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: immigration-regularisation-cinq-ans
   text: "Les étrangers sans titre de séjour présents en France depuis plus de cinq ans doivent pouvoir être régularisés."
   themes:
     - immigration
   polarity: +
-  status: draft
+  status: active
   author: claude
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (immigration-visas-professions-qualifiees) : Les visas de travail pour les professions qualifiées doivent être délivrés plus facilement.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: immigration-visas-professions-qualifiees-v2
@@ -139,15 +191,25 @@
     - immigration
     - travail
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: immigration-plafond-annuel-admissions
   text: Le Parlement doit fixer chaque année un plafond du nombre d'étrangers admis au séjour.
   themes:
     - immigration
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -159,15 +221,17 @@
   themes:
     - immigration
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: immigration-condamnes-perte-titre-sejour
   text: "Les étrangers condamnés à une peine de prison ferme doivent perdre leur titre de séjour."
@@ -175,9 +239,17 @@
     - immigration
     - justice
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (immigration-asile-examen-hors-europe) : Les demandes d'asile doivent être examinées dans des centres situés hors du territoire européen.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: immigration-asile-examen-hors-europe-v2
@@ -186,23 +258,33 @@
     - immigration
     - international
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-- id: immigration-amende-sejour-irregulier
-  text: Le séjour irrégulier en France doit être sanctionné par une amende.
-  themes:
-    - immigration
-    - justice
-  polarity: "-"
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
+- id: immigration-amende-sejour-irregulier
+  text: Le séjour irrégulier en France doit être sanctionné par une amende.
+  themes:
+    - immigration
+    - justice
+  polarity: "-"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Texte v4 (revue adverse n° 1) : Un demandeur d'asile doit pouvoir faire examiner sa demande en France, même s'il est entré dans l'Union européenne par un autre pays.
 # Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
@@ -213,5 +295,13 @@
   themes:
     - immigration
   polarity: "+"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

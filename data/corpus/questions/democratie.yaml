@@ -7,37 +7,49 @@
   themes:
     - democratie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-referendum-exceptionnel
   text: "Le recours au référendum doit rester exceptionnel."
   themes:
     - democratie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-- id: democratie-conventions-citoyennes
-  text: Des conventions citoyennes tirées au sort doivent être consultées avant les grandes réformes.
-  themes:
-    - democratie
-  polarity: +
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+- id: democratie-conventions-citoyennes
+  text: Des conventions citoyennes tirées au sort doivent être consultées avant les grandes réformes.
+  themes:
+    - democratie
+  polarity: +
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (democratie-assemblees-tirees-consultatives) : Les assemblées citoyennes tirées au sort doivent conserver un rôle uniquement consultatif.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-assemblees-tirees-consultatives-v2
@@ -45,22 +57,32 @@
   themes:
     - democratie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-- id: democratie-vote-blanc-exprime
-  text: Le vote blanc doit être pris en compte dans les suffrages exprimés.
-  themes:
-    - democratie
-  polarity: +
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+- id: democratie-vote-blanc-exprime
+  text: Le vote blanc doit être pris en compte dans les suffrages exprimés.
+  themes:
+    - democratie
+  polarity: +
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (democratie-referendum-reserve-elus) : La décision de convoquer un référendum doit rester réservée au président de la République et au Parlement.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-referendum-reserve-elus-v2
@@ -69,37 +91,57 @@
     - democratie
     - institutions
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-- id: democratie-referendum-local-initiative
-  text: Les habitants d'une commune doivent pouvoir imposer l'organisation d'un référendum local par une pétition.
-  themes:
-    - democratie
-  polarity: +
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+- id: democratie-referendum-local-initiative
+  text: Les habitants d'une commune doivent pouvoir imposer l'organisation d'un référendum local par une pétition.
+  themes:
+    - democratie
+  polarity: +
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-budget-participatif-communes
   text: "Chaque commune de plus de 10 000 habitants doit consacrer une part de son budget à des projets choisis par les habitants."
   themes:
     - democratie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: democratie-referendum-revocatoire
   text: Les électeurs doivent pouvoir révoquer un élu en cours de mandat par référendum.
   themes:
     - democratie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -111,8 +153,10 @@
   themes:
     - democratie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -124,8 +168,10 @@
   themes:
     - democratie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -138,8 +184,10 @@
     - democratie
     - institutions
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -152,15 +200,17 @@
     - democratie
     - institutions
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (democratie-seuil-rip-maintenu) : Le référendum d'initiative partagée doit continuer d'exiger le soutien d'un dixième des électeurs inscrits.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-seuil-rip-maintenu-v2
@@ -168,40 +218,66 @@
   themes:
     - democratie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
-# Détail : data/relectures/2026-11-10-seconde-passe.md
-- id: democratie-parrainages-elus-maintenus
-  text: "Les candidats à l'élection présidentielle doivent continuer à recueillir 500 parrainages d'élus."
-  themes:
-    - democratie
-  polarity: "-"
-  status: draft
-  author: claude
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
-# Détail : data/relectures/2026-11-10-seconde-passe.md
-- id: democratie-raccourcir-consultations-public
-  text: "Les procédures de consultation du public sur les projets d'aménagement doivent être raccourcies."
-  themes:
-    - democratie
-  polarity: "-"
-  status: draft
-  author: claude
-- id: democratie-supprimer-cndp
-  text: La Commission nationale du débat public doit être supprimée.
-  themes:
-    - democratie
-  polarity: "-"
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: democratie-parrainages-elus-maintenus
+  text: "Les candidats à l'élection présidentielle doivent continuer à recueillir 500 parrainages d'élus."
+  themes:
+    - democratie
+  polarity: "-"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: democratie-raccourcir-consultations-public
+  text: "Les procédures de consultation du public sur les projets d'aménagement doivent être raccourcies."
+  themes:
+    - democratie
+  polarity: "-"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+- id: democratie-supprimer-cndp
+  text: La Commission nationale du débat public doit être supprimée.
+  themes:
+    - democratie
+  polarity: "-"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Texte v4 (revue adverse n° 1) : Le référendum doit rester limité aux sujets actuels : institutions, réformes économiques, sociales ou environnementales, services publics et certains traités.
 # Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
@@ -211,12 +287,20 @@
   themes:
     - democratie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 # Retiré par la revue corrective du 2026-11-11 : democratie-cours-criminelles-sans-jury (REJECT_OFF_AXIS, voir data/relectures/2026-11-11-revue-corrective.md).
 # Il remplaçait democratie-quorum-referendum (retiré par la revue n° 2).
 # Texte retiré : Les crimes punis de 15 ou 20 ans de réclusion doivent continuer à être jugés par des magistrats sans jury populaire, dans les cours criminelles départementales.
-# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : à valider par adrien.
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Remplace democratie-pas-de-constituante (retiré, voir le rapport).
 # Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
@@ -225,5 +309,13 @@
   themes:
     - democratie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
