@@ -7,8 +7,10 @@
   themes:
     - travail
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -20,8 +22,10 @@
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -34,8 +38,10 @@
     - travail
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -47,15 +53,17 @@
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (travail-limiter-licenciements-beneficiaires) : Les entreprises bénéficiaires doivent être limitées dans leur recours aux licenciements économiques.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-limiter-licenciements-beneficiaires-v2
@@ -63,9 +71,17 @@
   themes:
     - travail
   polarity: +
-  status: draft
+  status: active
   author: claude
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (travail-plafond-prudhommes-maintenu) : Le plafond des indemnités prud'homales en cas de licenciement abusif doit être maintenu.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-plafond-prudhommes-maintenu-v2
@@ -73,15 +89,25 @@
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-semaine-32-heures
   text: La durée légale du travail doit être réduite à 32 heures par semaine.
   themes:
     - travail
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -94,24 +120,34 @@
     - travail
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-plafonner-ecart-salaires
   text: "L'écart entre les salaires les plus élevés et les plus bas d'une même entreprise doit être plafonné par la loi."
   themes:
     - travail
   polarity: +
-  status: draft
+  status: active
   author: claude
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-salaries-conseils-administration
   text: "Les salariés doivent occuper au moins un tiers des sièges des conseils d'administration des grandes entreprises."
@@ -119,22 +155,32 @@
     - travail
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
-- id: travail-elargir-penibilite-retraite
-  text: Les critères de pénibilité ouvrant droit à un départ anticipé à la retraite doivent être élargis.
-  themes:
-    - travail
-  polarity: +
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+- id: travail-elargir-penibilite-retraite
+  text: Les critères de pénibilité ouvrant droit à un départ anticipé à la retraite doivent être élargis.
+  themes:
+    - travail
+  polarity: +
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-plateformes-presomption-salariat
   text: "Les travailleurs des plateformes numériques doivent être présumés salariés."
@@ -142,15 +188,25 @@
     - travail
     - numerique
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-retraite-au-dela-64-ans
   text: L'âge légal de départ à la retraite doit être porté au-delà de 64 ans.
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -162,8 +218,10 @@
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -176,8 +234,10 @@
     - travail
     - sante
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -191,14 +251,30 @@
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-statut-fonction-publique-regalien
   text: "Le statut de fonctionnaire doit être réservé aux missions régaliennes de l'État."
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

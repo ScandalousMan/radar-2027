@@ -8,8 +8,10 @@
     - agriculture
     - environnement
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -21,37 +23,49 @@
   themes:
     - agriculture
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: agriculture-prix-plancher-agricoles
   text: "Des prix plancher garantis doivent être fixés pour les principales productions agricoles."
   themes:
     - agriculture
   polarity: +
-  status: draft
+  status: active
   author: claude
-- id: agriculture-retenues-eau-irrigation
-  text: La construction de retenues d'eau pour l'irrigation doit être facilitée.
-  themes:
-    - agriculture
-  polarity: "-"
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+- id: agriculture-retenues-eau-irrigation
+  text: La construction de retenues d'eau pour l'irrigation doit être facilitée.
+  themes:
+    - agriculture
+  polarity: "-"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (agriculture-bio-restauration-collective) : La part des produits biologiques dans la restauration collective publique doit être portée à 30 %.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: agriculture-bio-restauration-collective-v2
@@ -59,22 +73,32 @@
   themes:
     - agriculture
   polarity: +
-  status: draft
+  status: active
   author: claude
-- id: agriculture-agrandissement-sans-autorisation
-  text: Les exploitations agricoles doivent pouvoir s'agrandir sans autorisation administrative.
-  themes:
-    - agriculture
-  polarity: "-"
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+- id: agriculture-agrandissement-sans-autorisation
+  text: Les exploitations agricoles doivent pouvoir s'agrandir sans autorisation administrative.
+  themes:
+    - agriculture
+  polarity: "-"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (agriculture-origine-viandes-restaurants) : L'origine des viandes doit être obligatoirement indiquée dans les plats servis par les restaurants.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: agriculture-origine-viandes-restaurants-v2
@@ -82,16 +106,26 @@
   themes:
     - agriculture
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: agriculture-interdire-glyphosate
   text: L'usage du glyphosate doit être interdit en France.
   themes:
     - agriculture
     - environnement
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -103,8 +137,10 @@
   themes:
     - agriculture
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -116,8 +152,10 @@
   themes:
     - agriculture
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -129,15 +167,17 @@
   themes:
     - agriculture
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: agriculture-chalut-aires-protegees
   text: "La pêche au chalut de fond doit être interdite dans les aires marines protégées."
@@ -145,25 +185,43 @@
     - agriculture
     - environnement
   polarity: +
-  status: draft
+  status: active
   author: claude
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: agriculture-autoriser-nouvelles-techniques-genomiques
   text: "La culture de plantes issues des nouvelles techniques génomiques doit être autorisée en France."
   themes:
     - agriculture
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: agriculture-derogations-neonicotinoides
   text: Les agriculteurs doivent pouvoir obtenir des dérogations pour utiliser des insecticides néonicotinoïdes.
   themes:
     - agriculture
     - environnement
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -175,15 +233,17 @@
   themes:
     - agriculture
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (agriculture-tirs-loups-sans-autorisation) : Les éleveurs doivent pouvoir abattre sans autorisation préalable un loup qui attaque leur troupeau.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: agriculture-tirs-loups-sans-autorisation-v2
@@ -192,14 +252,30 @@
     - agriculture
     - environnement
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: agriculture-curage-fosses-sans-autorisation
   text: "Les agriculteurs doivent pouvoir curer les fossés et les cours d'eau sans autorisation préalable."
   themes:
     - agriculture
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

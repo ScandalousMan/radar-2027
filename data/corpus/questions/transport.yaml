@@ -7,8 +7,10 @@
   themes:
     - transport
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -20,8 +22,10 @@
   themes:
     - transport
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -33,8 +37,10 @@
   themes:
     - transport
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -46,8 +52,10 @@
   themes:
     - transport
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -59,15 +67,17 @@
   themes:
     - transport
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (transport-autoroutes-concedees) : Les autoroutes doivent rester concédées à des sociétés privées.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-autoroutes-concedees-v2
@@ -75,37 +85,57 @@
   themes:
     - transport
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-- id: transport-trains-de-nuit
-  text: L'État doit financer l'ouverture de nouvelles lignes de trains de nuit.
-  themes:
-    - transport
-  polarity: +
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+- id: transport-trains-de-nuit
+  text: L'État doit financer l'ouverture de nouvelles lignes de trains de nuit.
+  themes:
+    - transport
+  polarity: +
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-petites-lignes-maintenues
   text: "Les petites lignes ferroviaires doivent être maintenues même lorsqu'elles sont peu fréquentées."
   themes:
     - transport
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: transport-subventionner-fret-ferroviaire
   text: L'État doit subventionner le fret ferroviaire pour qu'il puisse concurrencer le transport routier.
   themes:
     - transport
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -117,24 +147,34 @@
   themes:
     - transport
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-abonnement-national-unique
   text: "Un abonnement national unique donnant accès aux trains régionaux et aux transports urbains doit être créé."
   themes:
     - transport
   polarity: +
-  status: draft
+  status: active
   author: claude
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (transport-sncf-entreprise-publique) : La SNCF doit rester une entreprise entièrement publique.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-sncf-entreprise-publique-v2
@@ -143,38 +183,58 @@
     - transport
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
-- id: transport-baisser-taxe-billets-avion
-  text: La taxe sur les billets d'avion doit être réduite.
-  themes:
-    - transport
-    - fiscalite
-  polarity: "-"
-  status: draft
-  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+- id: transport-baisser-taxe-billets-avion
+  text: La taxe sur les billets d'avion doit être réduite.
+  themes:
+    - transport
+    - fiscalite
+  polarity: "-"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-voitures-centres-villes-libres
   text: "L'accès des voitures aux centres-villes doit rester libre."
   themes:
     - transport
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: transport-abandonner-nouvelles-lgv
   text: La construction de nouvelles lignes à grande vitesse doit être abandonnée.
   themes:
     - transport
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
@@ -186,15 +246,17 @@
   themes:
     - transport
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
   neutralityChecklist:
     no-loaded-term: true
     no-presupposition: true
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
-# Seconde passe du 2026-11-10 : à valider par adrien. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (transport-supprimer-controle-technique-motos) : Le contrôle technique des deux-roues motorisés doit être supprimé.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-supprimer-controle-technique-motos-v2
@@ -202,5 +264,13 @@
   themes:
     - transport
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

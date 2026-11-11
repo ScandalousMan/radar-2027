@@ -1,0 +1,386 @@
+{
+  "schema": "radar-2027/revue-corrective@1",
+  "date": "2026-11-11",
+  "supersedesFor": "2026-11-11-revue-adverse-2 (non modifié)",
+  "baseline": {
+    "commit": "2d372e5",
+    "questions": 299,
+    "active": 0,
+    "draft": 299,
+    "publishedVersions": 0,
+    "positions": 0
+  },
+  "idPolicy": "nouvel id si la proposition diffère de celle portée par l'id à sa création ; id conservé pour une correction rédactionnelle. FR-011 ne s'applique qu'aux questions publiées ; aucun consommateur des anciens ids (ni position, ni publication, ni code).",
+  "idMap": {
+    "economie-eau-operateurs-publics": "economie-eau-operateurs-publics",
+    "economie-encadrement-loyers-generalise": "economie-plafonnement-loyers-zones-tendues",
+    "fiscalite-reduire-allegements-cotisations": "fiscalite-reduire-allegements-cotisations",
+    "fiscalite-quotient-familial-credit-enfant": "fiscalite-quotient-familial-credit-enfant",
+    "fiscalite-exit-tax-renforcee": "fiscalite-exit-tax-conservation-15-ans",
+    "immigration-asile-examen-en-france": "immigration-asile-examen-sans-transfert",
+    "securite-controles-identite-soupcon": "securite-supprimer-controles-preventifs",
+    "securite-interdire-plaquage-ventral": "securite-interdire-plaquage-ventral",
+    "securite-supprimer-bac": "securite-supprimer-bac",
+    "institutions-dotations-conditionnees-etat": null,
+    "institutions-maintenir-article-40": "institutions-maintenir-article-40",
+    "democratie-champ-referendum-inchange": "democratie-champ-referendum-inchange",
+    "democratie-cours-criminelles-sans-jury": null,
+    "democratie-revision-par-congres": "democratie-revision-par-congres",
+    "environnement-derogation-especes-protegees": "environnement-faciliter-derogation-especes"
+  },
+  "items": [
+    {
+      "previousId": "economie-eau-operateurs-publics",
+      "finalId": "economie-eau-operateurs-publics",
+      "decision": "KEEP",
+      "textChanged": false,
+      "themeChanged": false,
+      "textV5": "La distribution de l'eau potable doit être assurée uniquement par des opérateurs publics.",
+      "textFinal": "La distribution de l'eau potable doit être assurée uniquement par des opérateurs publics.",
+      "chars": 89,
+      "theme": "economie",
+      "polarity": "+",
+      "c5": "satisfied",
+      "legal": "exact",
+      "idAction": "retained",
+      "reason": "inchangé depuis la v1"
+    },
+    {
+      "previousId": "economie-encadrement-loyers-generalise",
+      "finalId": "economie-plafonnement-loyers-zones-tendues",
+      "decision": "KEEP",
+      "textChanged": false,
+      "themeChanged": false,
+      "textV5": "Le plafonnement du niveau des loyers doit être obligatoire dans toutes les zones où le logement manque (zones tendues), même si les élus locaux ne le demandent pas.",
+      "textFinal": "Le plafonnement du niveau des loyers doit être obligatoire dans toutes les zones où le logement manque (zones tendues), même si les élus locaux ne le demandent pas.",
+      "chars": 164,
+      "theme": "economie",
+      "polarity": "+",
+      "c5": "satisfied",
+      "legal": "exact_recheck_after_2026-11-24",
+      "idAction": "new_id",
+      "reason": "sens changé depuis la v1 (grandes villes → zones tendues contre l'avis des élus)"
+    },
+    {
+      "previousId": "fiscalite-reduire-allegements-cotisations",
+      "finalId": "fiscalite-reduire-allegements-cotisations",
+      "decision": "KEEP",
+      "textChanged": false,
+      "themeChanged": false,
+      "textV5": "Les allègements de cotisations sociales accordés aux employeurs sur les salaires doivent être réduits.",
+      "textFinal": "Les allègements de cotisations sociales accordés aux employeurs sur les salaires doivent être réduits.",
+      "chars": 102,
+      "theme": "fiscalite",
+      "polarity": "+",
+      "c5": "satisfied",
+      "legal": "exact",
+      "idAction": "retained",
+      "reason": "correction rédactionnelle seulement depuis la création (v4)"
+    },
+    {
+      "previousId": "fiscalite-quotient-familial-credit-enfant",
+      "finalId": "fiscalite-quotient-familial-credit-enfant",
+      "decision": "KEEP_FRAGILE",
+      "textChanged": false,
+      "themeChanged": false,
+      "textV5": "Le quotient familial doit être remplacé par un crédit d'impôt du même montant pour chaque enfant, quel que soit le revenu des parents.",
+      "textFinal": "Le quotient familial doit être remplacé par un crédit d'impôt du même montant pour chaque enfant, quel que soit le revenu des parents.",
+      "chars": 134,
+      "theme": "fiscalite",
+      "polarity": "+",
+      "c5": "satisfied_weak",
+      "legal": "exact",
+      "idAction": "retained",
+      "reason": "remplacement explicite seulement au niveau du groupe LFI ; pôle contre par incompatibilité (2022)"
+    },
+    {
+      "previousId": "fiscalite-exit-tax-renforcee",
+      "finalId": "fiscalite-exit-tax-conservation-15-ans",
+      "decision": "REVISE",
+      "textChanged": true,
+      "themeChanged": false,
+      "textV5": "Quand une personne quitte la France avec plus de 800 000 € d'actions, l'impôt sur ses plus-values déjà acquises ne doit être annulé que si elle garde ses actions 15 ans, et non 2 ou 5.",
+      "textFinal": "Quand une personne quitte la France avec plus de 800 000 € d'actions, l'impôt sur ses plus-values déjà acquises au départ ne doit être effacé que si elle les garde 15 ans, contre 2 ou 5 aujourd'hui.",
+      "chars": 198,
+      "theme": "fiscalite",
+      "polarity": "+",
+      "c5": "satisfied",
+      "legal": "exact_after_fix",
+      "idAction": "new_id",
+      "reason": "v1, v4 et v5 portent trois propositions différentes ; texte final précise « au départ » et la conservation des titres"
+    },
+    {
+      "previousId": "immigration-asile-examen-en-france",
+      "finalId": "immigration-asile-examen-sans-transfert",
+      "decision": "REVISE",
+      "textChanged": true,
+      "themeChanged": false,
+      "textV5": "La France doit examiner elle-même les demandes d'asile déposées sur son sol, au lieu de renvoyer les demandeurs vers le pays européen désigné par les règles de l'Union.",
+      "textFinal": "Un demandeur d'asile présent en France doit pouvoir y faire examiner sa demande, au lieu d'être renvoyé vers le pays européen responsable selon les règles de l'Union.",
+      "chars": 166,
+      "theme": "immigration",
+      "polarity": "+",
+      "c5": "satisfied",
+      "legal": "exact_after_fix",
+      "idAction": "new_id",
+      "reason": "v4 sur le pays d'entrée, v5 sur l'État responsable ; reformulé autour du demandeur pour écarter la lecture souverainiste ; AMMR applicable depuis le 12/06/2026"
+    },
+    {
+      "previousId": "securite-controles-identite-soupcon",
+      "finalId": "securite-supprimer-controles-preventifs",
+      "decision": "KEEP",
+      "textChanged": false,
+      "themeChanged": false,
+      "textV5": "Les contrôles d'identité que la police peut faire sans soupçon ni réquisition du procureur, pour prévenir un trouble à l'ordre public, doivent être supprimés.",
+      "textFinal": "Les contrôles d'identité que la police peut faire sans soupçon ni réquisition du procureur, pour prévenir un trouble à l'ordre public, doivent être supprimés.",
+      "chars": 158,
+      "theme": "securite",
+      "polarity": "-",
+      "c5": "satisfied",
+      "legal": "exact",
+      "idAction": "new_id",
+      "reason": "v1 réservait les contrôles aux suspects ; l'énoncé ne vise plus que les contrôles préventifs"
+    },
+    {
+      "previousId": "securite-interdire-plaquage-ventral",
+      "finalId": "securite-interdire-plaquage-ventral",
+      "decision": "KEEP",
+      "textChanged": false,
+      "themeChanged": false,
+      "textV5": "Il doit être interdit aux forces de l'ordre d'immobiliser une personne au sol, à plat ventre, en exerçant une pression sur son dos ou son thorax.",
+      "textFinal": "Il doit être interdit aux forces de l'ordre d'immobiliser une personne au sol, à plat ventre, en exerçant une pression sur son dos ou son thorax.",
+      "chars": 145,
+      "theme": "securite",
+      "polarity": "-",
+      "c5": "satisfied",
+      "legal": "exact",
+      "idAction": "retained",
+      "reason": "même proposition depuis la v1, mieux décrite ; aucun candidat au pôle contre"
+    },
+    {
+      "previousId": "securite-supprimer-bac",
+      "finalId": "securite-supprimer-bac",
+      "decision": "KEEP",
+      "textChanged": false,
+      "themeChanged": false,
+      "textV5": "Les brigades anticriminalité (BAC) de la police nationale doivent être supprimées.",
+      "textFinal": "Les brigades anticriminalité (BAC) de la police nationale doivent être supprimées.",
+      "chars": 82,
+      "theme": "securite",
+      "polarity": "-",
+      "c5": "satisfied_strengthened",
+      "legal": "exact",
+      "idAction": "retained",
+      "reason": "Le Pen (07/11/2026, via AFP) au pôle contre ; QO 818 réattribuée au député Weber"
+    },
+    {
+      "previousId": "institutions-dotations-conditionnees-etat",
+      "finalId": null,
+      "decision": "REJECT_C5_UNSUPPORTED",
+      "textChanged": null,
+      "themeChanged": null,
+      "textV5": "Les dotations de l'État aux grandes collectivités doivent baisser si leurs dépenses de fonctionnement augmentent plus vite que le plafond fixé par l'État.",
+      "textFinal": null,
+      "chars": null,
+      "theme": null,
+      "polarity": null,
+      "c5": "not_satisfied",
+      "legal": "mechanism_not_in_force",
+      "idAction": "withdrawn",
+      "reason": "aucune preuve KNOWN de niveau candidat sur le mécanisme ; Cahors écarté ; mesure surtout la discipline budgétaire"
+    },
+    {
+      "previousId": "institutions-maintenir-article-40",
+      "finalId": "institutions-maintenir-article-40",
+      "decision": "REVISE",
+      "textChanged": true,
+      "themeChanged": false,
+      "textV5": "Seul le gouvernement, et non les parlementaires, doit continuer à pouvoir proposer des mesures qui augmentent les dépenses publiques.",
+      "textFinal": "Les députés et sénateurs doivent rester empêchés de proposer une mesure qui crée ou augmente une charge pour les finances publiques.",
+      "chars": 132,
+      "theme": "institutions",
+      "polarity": "-",
+      "c5": "satisfied",
+      "legal": "exact_after_fix",
+      "idAction": "retained",
+      "reason": "même proposition ; « charge pour les finances publiques » fidèle à l'art. 40"
+    },
+    {
+      "previousId": "democratie-champ-referendum-inchange",
+      "finalId": "democratie-champ-referendum-inchange",
+      "decision": "REVISE",
+      "textChanged": true,
+      "themeChanged": false,
+      "textV5": "Le référendum sur un projet de loi doit rester limité aux sujets prévus aujourd'hui, sans être étendu à tous les domaines de la loi, comme la justice pénale ou les sujets de société.",
+      "textFinal": "Le référendum sur un texte de loi doit rester limité à ses sujets actuels (notamment institutions, politique économique, sociale ou environnementale), sans être étendu à tous les domaines de la loi.",
+      "chars": 198,
+      "theme": "democratie",
+      "polarity": "-",
+      "c5": "satisfied",
+      "legal": "exact_after_fix",
+      "idAction": "retained",
+      "reason": "même proposition ; exemples contestables retirés (justice pénale non établie)"
+    },
+    {
+      "previousId": "democratie-cours-criminelles-sans-jury",
+      "finalId": null,
+      "decision": "REJECT_OFF_AXIS",
+      "textChanged": null,
+      "themeChanged": null,
+      "textV5": "Les crimes punis de 15 ou 20 ans de réclusion doivent continuer à être jugés par des magistrats sans jury populaire, dans les cours criminelles départementales.",
+      "textFinal": null,
+      "chars": null,
+      "theme": null,
+      "polarity": null,
+      "c5": "satisfied",
+      "legal": "exact_first_instance_only",
+      "idAction": "withdrawn",
+      "reason": "pôle d'accord défendu par l'efficacité, pas la démocratie représentative ; anti-corrélation RN ; organisation des tribunaux"
+    },
+    {
+      "previousId": "democratie-revision-par-congres",
+      "finalId": "democratie-revision-par-congres",
+      "decision": "KEEP_FLAGGED",
+      "textChanged": false,
+      "themeChanged": false,
+      "textV5": "Une révision de la Constitution doit pouvoir continuer à être adoptée par le Parlement réuni en Congrès, sans référendum.",
+      "textFinal": "Une révision de la Constitution doit pouvoir continuer à être adoptée par le Parlement réuni en Congrès, sans référendum.",
+      "chars": 121,
+      "theme": "democratie",
+      "polarity": "-",
+      "c5": "satisfied_weak",
+      "legal": "exact",
+      "idAction": "retained",
+      "reason": "apport propre défendable ; pôle d'accord indirect ; double pondération partielle avec institutions-referendum-revision-constitution"
+    },
+    {
+      "previousId": "environnement-derogation-especes-protegees",
+      "finalId": "environnement-faciliter-derogation-especes",
+      "decision": "KEEP",
+      "textChanged": false,
+      "themeChanged": false,
+      "textV5": "Un projet industriel ou d'aménagement doit pouvoir obtenir plus facilement une dérogation à l'interdiction de détruire des espèces protégées.",
+      "textFinal": "Un projet industriel ou d'aménagement doit pouvoir obtenir plus facilement une dérogation à l'interdiction de détruire des espèces protégées.",
+      "chars": 141,
+      "theme": "environnement",
+      "polarity": "-",
+      "c5": "satisfied",
+      "legal": "exact",
+      "idAction": "new_id",
+      "reason": "v4 sur les conditions de fond, v5 sur la facilité d'obtention en général"
+    }
+  ],
+  "emptySlots": [
+    {
+      "theme": "institutions",
+      "polarity": "-",
+      "count": 2,
+      "reason": "SRU rejeté (revue n° 2) ; dotations REJECT_C5_UNSUPPORTED"
+    },
+    {
+      "theme": "democratie",
+      "polarity": "-",
+      "count": 2,
+      "reason": "4e créneau REJECT_NO_VALID_CANDIDATE (revue n° 2) ; cours criminelles REJECT_OFF_AXIS"
+    }
+  ],
+  "legalErrata": [
+    "J1 AMMR applicable le 12/06/2026 (rectificatif JO L 2025/90929 du 25/11/2025)",
+    "J2 DILICO : condition du PLF 2026 retirée par la LF 2026 art. 195-196",
+    "J3 CCD : loi 2026-651 (récidive légale), 2026-909 DC conforme, appel avec jury",
+    "J4 art. 11 : sujets de société exclus (2026-7 RIP), justice pénale non établie",
+    "J5 CGI 167 bis : dégrèvement limité aux plus-values latentes",
+    "J6 art. 40 : charge publique, redéploiement LOLF au sein d'une mission"
+  ],
+  "fr012": {
+    "active": {
+      "economie": {
+        "plus": 0,
+        "minus": 0,
+        "compliant": false
+      },
+      "fiscalite": {
+        "plus": 0,
+        "minus": 0,
+        "compliant": false
+      },
+      "immigration": {
+        "plus": 0,
+        "minus": 0,
+        "compliant": false
+      },
+      "securite": {
+        "plus": 0,
+        "minus": 0,
+        "compliant": false
+      },
+      "institutions": {
+        "plus": 0,
+        "minus": 0,
+        "compliant": false
+      },
+      "democratie": {
+        "plus": 0,
+        "minus": 0,
+        "compliant": false
+      },
+      "environnement": {
+        "plus": 0,
+        "minus": 0,
+        "compliant": false
+      }
+    },
+    "hypothetical": {
+      "economie": {
+        "validated": "3+/7-",
+        "validatedPlusNew": "5+/7- 42% ok",
+        "pendingOnly": "8+/9- 47% ok",
+        "all": "10+/9- 53% ok"
+      },
+      "fiscalite": {
+        "validated": "3+/8-",
+        "validatedPlusNew": "6+/8- 43% ok",
+        "pendingOnly": "8+/10- 44% ok",
+        "all": "11+/10- 52% ok"
+      },
+      "immigration": {
+        "validated": "3+/6-",
+        "validatedPlusNew": "4+/6- 40% ok (limite)",
+        "pendingOnly": "8+/8- 50% ok",
+        "all": "9+/8- 53% ok"
+      },
+      "securite": {
+        "validated": "8+/3-",
+        "validatedPlusNew": "8+/6- 57% ok",
+        "pendingOnly": "8+/5- 62% non",
+        "all": "8+/8- 50% ok"
+      },
+      "institutions": {
+        "validated": "8+/3-",
+        "validatedPlusNew": "8+/4- 67% non",
+        "pendingOnly": "10+/5- 67% non",
+        "all": "10+/6- 62,5% non",
+        "missing": "au moins 1 « - » avec toute la seconde passe"
+      },
+      "democratie": {
+        "validated": "8+/2-",
+        "validatedPlusNew": "8+/4- 67% non",
+        "pendingOnly": "9+/8- 53% ok",
+        "all": "9+/10- 47% ok",
+        "missing": "2 « - » sans la seconde passe"
+      },
+      "environnement": {
+        "validated": "8+/5-",
+        "validatedPlusNew": "8+/6- 57% ok",
+        "pendingOnly": "9+/6- 60% ok",
+        "all": "9+/7- 56% ok"
+      }
+    }
+  },
+  "validation": {
+    "pnpm data:validate </dev/null": "Corpus conforme : 0 violation ; 18 avertissements (THEME-EMPTY 17, BANK-SIZE 1)",
+    "pnpm test </dev/null": "958 réussis, 1 échec, 1 ignoré : src/core/codec/codec.test.ts « mutations » dépasse 5000 ms sous charge (5471 ms) ; relancé seul, 31/31 réussis ; test sans lien avec le corpus",
+    "contrôle ad hoc (unicité, longueur ≤ 200, polarité, statut draft, anciens ids)": "297 questions, 0 doublon, 0 texte > 200, 0 polarité invalide, 0 non-draft, aucun ancien id référencé hors data/relectures",
+    "non exécuté": "pnpm verify complet (build, storybook, e2e) : aucun code modifié"
+  }
+}
