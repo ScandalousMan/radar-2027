@@ -7,122 +7,331 @@
   themes:
     - fiscalite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-reduire-droits-succession
   text: Les droits de succession doivent être réduits pour les transmissions familiales.
   themes:
     - fiscalite
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-capital-aligne-travail
   text: Le taux d'imposition des revenus du capital doit être aligné sur celui des revenus du travail.
   themes:
     - fiscalite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-baisse-tva
   text: Le taux normal de la TVA doit être abaissé.
   themes:
     - fiscalite
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: fiscalite-tranche-hauts-revenus
-  text: Les plus hauts revenus doivent être soumis à une tranche d'impôt supplémentaire.
+  text: "Les plus hauts revenus doivent être soumis à une tranche d'impôt supplémentaire."
   themes:
     - fiscalite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-supprimer-impots-production
   text: Les impôts de production payés par les entreprises doivent être supprimés.
   themes:
     - fiscalite
     - economie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-- id: fiscalite-impot-minimum-grandes-fortunes
-  text: Les patrimoines supérieurs à 100 millions d'euros doivent être soumis à un impôt minimum de 2 % par an.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (fiscalite-impot-minimum-grandes-fortunes) : Les patrimoines supérieurs à 100 millions d'euros doivent être soumis à un impôt minimum de 2 % par an.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: fiscalite-impot-minimum-grandes-fortunes-v2
+  text: "Les patrimoines nets supérieurs à 100 millions d'euros doivent être soumis à un prélèvement annuel minimal de 2 %."
   themes:
     - fiscalite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: fiscalite-taxe-benefices-exceptionnels
-  text: Les bénéfices exceptionnels des grandes entreprises doivent être soumis à une taxe supplémentaire.
+  text: "Les bénéfices exceptionnels des grandes entreprises doivent être soumis à une taxe supplémentaire."
   themes:
     - fiscalite
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
-- id: fiscalite-csg-progressive
-  text: La CSG doit devenir progressive en fonction du revenu.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (fiscalite-csg-progressive) : La CSG doit devenir progressive en fonction du revenu.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: fiscalite-csg-progressive-v2
+  text: "Le taux de la contribution sociale généralisée (CSG) doit augmenter avec le revenu."
   themes:
     - fiscalite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-hausse-taxe-transactions-financieres
   text: Le taux de la taxe sur les transactions financières doit être relevé.
   themes:
     - fiscalite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: fiscalite-reduire-credits-impot
-  text: Le montant total des réductions et crédits d'impôt doit être diminué de moitié.
+  text: "Le montant total des réductions et crédits d'impôt doit être diminué de moitié."
   themes:
     - fiscalite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-heures-sup-sans-plafond
   text: Les heures supplémentaires doivent être exonérées d'impôt sur le revenu sans plafond.
   themes:
     - fiscalite
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: fiscalite-baisse-ir-tranches-intermediaires
-  text: L'impôt sur le revenu doit baisser pour les tranches intermédiaires.
+  text: "L'impôt sur le revenu doit baisser pour les tranches intermédiaires."
   themes:
     - fiscalite
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-baisse-impot-societes
   text: Le taux de l'impôt sur les sociétés doit être abaissé.
   themes:
     - fiscalite
     - economie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-baisse-cotisations-salaries
   text: Les cotisations sociales payées par les salariés doivent baisser.
   themes:
     - fiscalite
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-supprimer-ifi
   text: L'impôt sur la fortune immobilière doit être supprimé.
   themes:
     - fiscalite
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: fiscalite-baisse-prelevements-obligatoires
   text: Le niveau total des prélèvements obligatoires doit baisser au cours du quinquennat.
   themes:
     - fiscalite
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
+# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
+# Texte v4 (revue adverse n° 1) : Les exonérations de cotisations sociales dont bénéficient les employeurs sur les salaires doivent être réduites.
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+- id: fiscalite-reduire-allegements-cotisations
+  text: "Les allègements de cotisations sociales accordés aux employeurs sur les salaires doivent être réduits."
+  themes:
+    - fiscalite
+  polarity: "+"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
+# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
+# Texte v4 (revue adverse n° 1) : Les contribuables qui quittent la France en détenant plus de 800 000 € d'actions doivent rester imposables sur leurs plus-values pendant quinze ans, au lieu de deux à cinq ans aujourd'hui.
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+# Ancien identifiant : fiscalite-exit-tax-renforcee (renommé par la revue corrective : le sens a changé depuis la première version de cet identifiant).
+# Texte v5 (revue adverse n° 2) : Quand une personne quitte la France avec plus de 800 000 € d'actions, l'impôt sur ses plus-values déjà acquises ne doit être annulé que si elle garde ses actions 15 ans, et non 2 ou 5.
+- id: fiscalite-exit-tax-conservation-15-ans
+  text: "Quand une personne quitte la France avec plus de 800 000 € d'actions, l'impôt sur ses plus-values déjà acquises au départ ne doit être effacé que si elle les garde 15 ans, contre 2 ou 5 aujourd'hui."
+  themes:
+    - fiscalite
+  polarity: "+"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
+# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
+# Remplace fiscalite-plafonner-abattement-pensions (retiré, voir le rapport).
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+- id: fiscalite-quotient-familial-credit-enfant
+  text: "Le quotient familial doit être remplacé par un crédit d'impôt du même montant pour chaque enfant, quel que soit le revenu des parents."
+  themes:
+    - fiscalite
+  polarity: "+"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

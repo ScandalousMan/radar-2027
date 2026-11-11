@@ -7,122 +7,274 @@
   themes:
     - travail
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-durcir-indemnisation-chomage
   text: Les règles d'indemnisation du chômage doivent être durcies.
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-smic-au-dela-inflation
   text: Le SMIC doit être augmenté au-delà de l'inflation.
   themes:
     - travail
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-duree-travail-accord-entreprise
   text: La durée légale du travail doit pouvoir être fixée par accord d'entreprise au-delà de 35 heures.
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-- id: travail-limiter-licenciements-beneficiaires
-  text: Les entreprises bénéficiaires doivent être limitées dans leur recours aux licenciements économiques.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (travail-limiter-licenciements-beneficiaires) : Les entreprises bénéficiaires doivent être limitées dans leur recours aux licenciements économiques.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: travail-limiter-licenciements-beneficiaires-v2
+  text: "Les entreprises qui réalisent des bénéfices doivent être limitées dans leur recours aux licenciements économiques."
   themes:
     - travail
   polarity: +
-  status: draft
+  status: active
   author: claude
-- id: travail-plafond-prudhommes-maintenu
-  text: Le plafond des indemnités prud'homales en cas de licenciement abusif doit être maintenu.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (travail-plafond-prudhommes-maintenu) : Le plafond des indemnités prud'homales en cas de licenciement abusif doit être maintenu.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: travail-plafond-prudhommes-maintenu-v2
+  text: "Le barème légal plafonnant les indemnités accordées par les prud'hommes en cas de licenciement sans cause réelle et sérieuse doit être maintenu."
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-semaine-32-heures
   text: La durée légale du travail doit être réduite à 32 heures par semaine.
   themes:
     - travail
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-indexation-salaires
   text: Les salaires doivent être indexés automatiquement sur l'inflation.
   themes:
     - travail
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-plafonner-ecart-salaires
-  text: L'écart entre les salaires les plus élevés et les plus bas d'une même entreprise doit être plafonné par la loi.
+  text: "L'écart entre les salaires les plus élevés et les plus bas d'une même entreprise doit être plafonné par la loi."
   themes:
     - travail
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-salaries-conseils-administration
-  text: Les salariés doivent occuper au moins un tiers des sièges des conseils d'administration des grandes entreprises.
+  text: "Les salariés doivent occuper au moins un tiers des sièges des conseils d'administration des grandes entreprises."
   themes:
     - travail
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-elargir-penibilite-retraite
   text: Les critères de pénibilité ouvrant droit à un départ anticipé à la retraite doivent être élargis.
   themes:
     - travail
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-plateformes-presomption-salariat
-  text: Les travailleurs des plateformes numériques doivent être présumés salariés.
+  text: "Les travailleurs des plateformes numériques doivent être présumés salariés."
   themes:
     - travail
     - numerique
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-retraite-au-dela-64-ans
   text: L'âge légal de départ à la retraite doit être porté au-delà de 64 ans.
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-retraite-capitalisation
   text: Une part des retraites doit être financée par capitalisation.
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: travail-augmenter-jours-carence
   text: Le nombre de jours de carence en cas d'arrêt maladie doit être augmenté.
   themes:
     - travail
     - sante
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : FAITHFUL ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-smic-regional
-  text: Le SMIC doit pouvoir varier selon les régions.
+  text: "Le SMIC doit pouvoir varier selon les régions."
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-statut-fonction-publique-regalien
-  text: Le statut de fonctionnaire doit être réservé aux missions régaliennes de l'État.
+  text: "Le statut de fonctionnaire doit être réservé aux missions régaliennes de l'État."
   themes:
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

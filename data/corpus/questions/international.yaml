@@ -7,127 +7,271 @@
   themes:
     - international
   polarity: +
-  status: draft
+  status: active
   author: claude
-- id: international-primaute-loi-nationale
-  text: La France doit pouvoir appliquer sa loi nationale lorsqu'elle entre en conflit avec une règle européenne.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (international-primaute-loi-nationale) : La France doit pouvoir appliquer sa loi nationale lorsqu'elle entre en conflit avec une règle européenne.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: international-primaute-loi-nationale-v2
+  text: "La France doit pouvoir appliquer sa loi nationale lorsqu'elle entre en conflit avec une règle de l'Union européenne."
   themes:
     - international
     - institutions
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-aide-developpement-0-7
   text: L'aide publique au développement doit atteindre 0,7 % du revenu national brut.
   themes:
     - international
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-quitter-commandement-otan
   text: La France doit quitter le commandement intégré de l'OTAN.
   themes:
     - international
     - defense
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-emprunt-commun-ue
   text: L'Union européenne doit pouvoir emprunter en commun pour financer des investissements.
   themes:
     - international
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-reduire-contribution-ue
   text: La contribution de la France au budget de l'Union européenne doit être réduite.
   themes:
     - international
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: international-adhesion-ukraine-ue
-  text: L'Ukraine doit pouvoir adhérer à l'Union européenne.
+  text: "L'Ukraine doit pouvoir adhérer à l'Union européenne."
   themes:
     - international
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-listes-transnationales
   text: Une partie des députés européens doit être élue sur des listes transnationales.
   themes:
     - international
     - democratie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-impots-propres-ue
   text: L'Union européenne doit disposer de nouveaux impôts qui lui sont propres.
   themes:
     - international
     - fiscalite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-casques-bleus
   text: La France doit augmenter sa participation aux missions de maintien de la paix de l'ONU.
   themes:
     - international
     - defense
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-initiative-parlement-europeen
   text: Le Parlement européen doit obtenir le droit d'initiative législative.
   themes:
     - international
     - institutions
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-referendum-traites-europeens
   text: Tout nouveau traité européen doit être soumis à référendum en France.
   themes:
     - international
     - democratie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-referendum-maintien-ue
   text: La France doit organiser un référendum sur son maintien dans l'Union européenne.
   themes:
     - international
     - democratie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-renegocier-traites-competences
   text: Les traités européens doivent être renégociés pour rendre des compétences aux États.
   themes:
     - international
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-controles-frontieres-schengen
   text: La France doit rétablir durablement des contrôles à toutes ses frontières intérieures de l'espace Schengen.
   themes:
     - international
     - immigration
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: international-renforcer-sanctions-russie
   text: L'Union européenne doit renforcer ses sanctions contre la Russie.
   themes:
     - international
   polarity: +
-  status: draft
+  status: active
   author: claude
-- id: international-arrets-cedh-derogation
-  text: La France doit pouvoir s'affranchir de certains arrêts de la Cour européenne des droits de l'homme.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (international-arrets-cedh-derogation) : La France doit pouvoir s'affranchir de certains arrêts de la Cour européenne des droits de l'homme.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: international-arrets-cedh-derogation-v2
+  text: "La France doit pouvoir ne pas exécuter certains arrêts de la Cour européenne des droits de l'homme."
   themes:
     - international
     - justice
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

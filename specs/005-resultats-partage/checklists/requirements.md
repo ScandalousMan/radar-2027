@@ -41,3 +41,7 @@
   retirer la mention d'un outil de vérification spécifique). Le fragment d'URL (`#…`) est cité
   parce qu'il s'agit d'une exigence de vie privée de la constitution visible par le répondant, pas
   d'un choix d'implémentation.
+- `/speckit-clarify` du 2026-11-08 : quatre réponses du propriétaire (brouillon local, vues sur la
+  même page, détail téléchargé à l'ouverture, carte « Voir mes résultats ») et alignement sur la
+  003 et la 004 implémentées (troncature, sélection, FR-033). Revue item par item : aucun
+  changement d'état.

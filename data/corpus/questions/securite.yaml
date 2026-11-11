@@ -8,122 +8,328 @@
     - securite
     - numerique
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-recepisse-controles-identite
-  text: Les contrôles d'identité doivent donner lieu à la remise d'un récépissé.
+  text: "Les contrôles d'identité doivent donner lieu à la remise d'un récépissé."
   themes:
     - securite
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-hausse-effectifs-police
   text: Les effectifs de police et de gendarmerie doivent augmenter d'au moins 10 % sur le quinquennat.
   themes:
     - securite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-interdire-lbd-manifestations
   text: L'usage des lanceurs de balles de défense doit être interdit lors des manifestations.
   themes:
     - securite
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-pouvoirs-polices-municipales
   text: Les polices municipales doivent recevoir les mêmes pouvoirs d'enquête que la police nationale.
   themes:
     - securite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-budget-vers-prevention
-  text: Une partie du budget des forces de l'ordre doit être réorientée vers la prévention de la délinquance.
+  text: "Une partie du budget des forces de l'ordre doit être réorientée vers la prévention de la délinquance."
   themes:
     - securite
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-videosurveillance-algorithmique
   text: La vidéosurveillance algorithmique doit être autorisée de façon permanente dans l'espace public.
   themes:
     - securite
     - numerique
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-presomption-legitime-defense
   text: Les policiers doivent bénéficier d'une présomption de légitime défense lorsqu'ils font usage de leur arme.
   themes:
     - securite
     - justice
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-couvre-feu-mineurs
   text: Les maires doivent pouvoir instaurer un couvre-feu nocturne pour les mineurs.
   themes:
     - securite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-armer-polices-municipales
   text: Les policiers municipaux doivent être armés dans toutes les communes.
   themes:
     - securite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-surveillance-antiterroriste-prolongee
   text: Les mesures individuelles de surveillance antiterroriste doivent pouvoir durer plus d'un an.
   themes:
     - securite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-enquetes-policiers-independantes
-  text: Les enquêtes visant des policiers doivent être confiées à un organisme indépendant du ministère de l'Intérieur.
+  text: "Les enquêtes visant des policiers doivent être confiées à un organisme indépendant du ministère de l'Intérieur."
   themes:
     - securite
     - justice
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-restreindre-tirs-refus-obtemperer
   text: Les règles d'usage des armes à feu par les policiers lors des refus d'obtempérer doivent être restreintes.
   themes:
     - securite
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-renseignement-autorisation-juge
-  text: Les techniques de renseignement doivent être soumises à l'autorisation préalable d'un juge.
+  text: "Les techniques de renseignement doivent être soumises à l'autorisation préalable d'un juge."
   themes:
     - securite
     - numerique
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-limiter-dissolution-associations
-  text: Le pouvoir du gouvernement de dissoudre des associations par décret doit être limité.
+  text: "Le pouvoir du gouvernement de dissoudre des associations par décret doit être limité."
   themes:
     - securite
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: securite-interdire-drones-manifestations
   text: L'usage de drones par la police pour surveiller les manifestations doit être interdit.
   themes:
     - securite
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-manifestations-sans-declaration
-  text: Les manifestations doivent pouvoir se tenir sans déclaration préalable en préfecture.
+  text: "Les manifestations doivent pouvoir se tenir sans déclaration préalable en préfecture."
   themes:
     - securite
     - democratie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
+# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
+# Texte v4 (revue adverse n° 1) : Les contrôles d'identité que la police peut effectuer à titre préventif, quel que soit le comportement de la personne, doivent être supprimés.
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+# Ancien identifiant : securite-controles-identite-soupcon (renommé par la revue corrective : le sens a changé depuis la première version de cet identifiant).
+- id: securite-supprimer-controles-preventifs
+  text: "Les contrôles d'identité que la police peut faire sans soupçon ni réquisition du procureur, pour prévenir un trouble à l'ordre public, doivent être supprimés."
+  themes:
+    - securite
+  polarity: "-"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
+# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
+# Texte v4 (revue adverse n° 1) : Il doit être interdit aux forces de l'ordre de maintenir une personne à plat ventre en appuyant sur son dos.
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+- id: securite-interdire-plaquage-ventral
+  text: "Il doit être interdit aux forces de l'ordre d'immobiliser une personne au sol, à plat ventre, en exerçant une pression sur son dos ou son thorax."
+  themes:
+    - securite
+  polarity: "-"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
+# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
+# Remplace securite-dissoudre-brav-m (retiré, voir le rapport).
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+- id: securite-supprimer-bac
+  text: "Les brigades anticriminalité (BAC) de la police nationale doivent être supprimées."
+  themes:
+    - securite
+  polarity: "-"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

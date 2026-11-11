@@ -35,4 +35,22 @@ describe('ResumeCard', () => {
     expect(screen.getByRole('status')).toHaveTextContent(norm(L.versionChanged));
     expect(screen.getByRole('button', { name: L.restart })).toBeInTheDocument();
   });
+
+  it('terminé : titre, Voir mes résultats et Recommencer ; pas de Reprendre', async () => {
+    const callbacks = { onViewResults: vi.fn(), onRestart: vi.fn(), onClear: vi.fn() };
+    renderWithIntl(<ResumeCard mode="full" done={100} total={100} updatedAt="8 novembre 2026 à 17:42" status="complete" {...callbacks} />);
+    expect(screen.getByRole('heading', { name: L.completeTitle })).toBeInTheDocument();
+    expect(screen.getByText(/Mode complet · 100 questions · dernière réponse le 8 novembre 2026 à 17:42/)).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: L.resume })).toBeNull();
+    expect(screen.queryByRole('status')).toBeNull();
+    await userEvent.click(screen.getByRole('button', { name: L.viewResults }));
+    expect(callbacks.onViewResults).toHaveBeenCalledTimes(1);
+    expect(screen.getByRole('button', { name: L.restart })).toBeInTheDocument();
+  });
+
+  it('terminé, version changée : la notice s’ajoute, Voir mes résultats reste', () => {
+    renderWithIntl(<ResumeCard mode="short" done={25} total={25} updatedAt="8 novembre 2026" status="complete" versionChanged onViewResults={vi.fn()} onRestart={vi.fn()} onClear={vi.fn()} />);
+    expect(screen.getByRole('status')).toHaveTextContent(norm(L.versionChanged));
+    expect(screen.getByRole('button', { name: L.viewResults })).toBeInTheDocument();
+  });
 });

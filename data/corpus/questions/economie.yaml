@@ -2,128 +2,317 @@
 # Brouillons (draft) rédigés par `claude` : activation après relecture par une personne distincte
 # de l'auteur et grille de neutralité cochée (campagne éditoriale, T094).
 
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: economie-participations-etat-industrie
-  text: L'État doit prendre des participations dans les entreprises industrielles jugées stratégiques.
+  text: "L'État doit prendre des participations dans les entreprises industrielles jugées stratégiques."
   themes:
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: economie-alleger-regles-entreprises
   text: Les règles encadrant la création et la gestion des entreprises doivent être allégées.
   themes:
     - economie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: economie-prix-energie-reglementes
   text: Les prix de l'énergie pour les ménages doivent être réglementés par l'État.
   themes:
     - economie
     - environnement
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: economie-baisse-depense-publique
   text: La dépense publique doit baisser en proportion du PIB au cours du prochain quinquennat.
   themes:
     - economie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: economie-aides-conditionnees-emploi
-  text: Les aides publiques aux entreprises doivent être conditionnées au maintien de l'emploi en France.
+  text: "Les aides publiques aux entreprises doivent être conditionnées au maintien de l'emploi en France."
   themes:
     - economie
     - travail
   polarity: +
-  status: draft
+  status: active
   author: claude
-- id: economie-ouverture-dimanche-libre
-  text: L'ouverture des commerces le dimanche doit être libre.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (economie-ouverture-dimanche-libre) : L'ouverture des commerces le dimanche doit être libre.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: economie-ouverture-dimanche-libre-v2
+  text: "Les commerces doivent pouvoir ouvrir le dimanche sans autorisation préalable."
   themes:
     - economie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: economie-edf-entierement-publique
   text: EDF doit rester une entreprise entièrement détenue par l'État.
   themes:
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: economie-controle-rachats-etrangers
   text: Le contrôle de l'État sur le rachat d'entreprises françaises par des investisseurs étrangers doit être renforcé.
   themes:
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: economie-plafonner-prix-alimentaires
-  text: Les prix des produits alimentaires de première nécessité doivent être plafonnés par l'État.
+  text: "Les prix des produits alimentaires de première nécessité doivent être plafonnés par l'État."
   themes:
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: economie-encadrer-marges-distribution
-  text: Les marges de la grande distribution doivent être encadrées par la loi.
+  text: "Les marges de la grande distribution doivent être encadrées par la loi."
   themes:
     - economie
     - agriculture
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: economie-etat-finance-usines
-  text: L'État doit financer directement la construction d'usines dans les secteurs qu'il juge prioritaires.
+  text: "L'État doit financer directement la construction d'usines dans les secteurs qu'il juge prioritaires."
   themes:
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: economie-vendre-participations-etat
   text: L'État doit vendre une partie de ses participations dans les entreprises cotées en bourse.
   themes:
     - economie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: economie-regle-equilibre-constitution
-  text: Une règle d'équilibre des comptes publics doit être inscrite dans la Constitution.
+  text: "Une règle d'équilibre des comptes publics doit être inscrite dans la Constitution."
   themes:
     - economie
     - institutions
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: economie-reduire-nombre-fonctionnaires
   text: Le nombre de fonctionnaires doit diminuer au cours du prochain quinquennat.
   themes:
     - economie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: economie-supprimer-agences-etat
   text: Une partie des agences et opérateurs de l'État doit être supprimée.
   themes:
     - economie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: economie-accords-libre-echange
   text: L'Union européenne doit conclure davantage d'accords de libre-échange.
   themes:
     - economie
     - international
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: economie-assouplir-seuils-effectifs
   text: Les obligations liées aux seuils d'effectifs des entreprises doivent être assouplies.
   themes:
     - economie
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
+# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+- id: economie-eau-operateurs-publics
+  text: "La distribution de l'eau potable doit être assurée uniquement par des opérateurs publics."
+  themes:
+    - economie
+  polarity: "+"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
+# Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
+# Texte v4 (revue adverse n° 1) : Le plafonnement du niveau des loyers doit être obligatoire dans toutes les zones où le logement manque (zones tendues), même si la commune ne le demande pas.
+# Revue corrective (2026-11-11) : data/relectures/2026-11-11-revue-corrective.md
+# Ancien identifiant : economie-encadrement-loyers-generalise (renommé par la revue corrective : le sens a changé depuis la première version de cet identifiant).
+- id: economie-plafonnement-loyers-zones-tendues
+  text: "Le plafonnement du niveau des loyers doit être obligatoire dans toutes les zones où le logement manque (zones tendues), même si les élus locaux ne le demandent pas."
+  themes:
+    - economie
+  polarity: "+"
+  status: active
+  author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

@@ -7,119 +7,268 @@
   themes:
     - justice
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: justice-courtes-peines-alternatives
   text: Les peines de prison de moins d'un an doivent être remplacées par des peines alternatives.
   themes:
     - justice
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: justice-majorite-penale-16-ans
   text: La majorité pénale doit être abaissée à 16 ans.
   themes:
     - justice
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: justice-arret-construction-prisons
   text: La construction de nouvelles places de prison doit être arrêtée.
   themes:
     - justice
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: justice-supprimer-reductions-automatiques
   text: Les réductions automatiques de peine doivent être supprimées.
   themes:
     - justice
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: justice-accompagnement-emploi-detenus
-  text: Les détenus doivent bénéficier d'un accompagnement vers l'emploi pendant toute leur détention.
+  text: "Les détenus doivent bénéficier d'un accompagnement vers l'emploi pendant toute leur détention."
   themes:
     - justice
     - travail
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: justice-perpetuite-reelle-etendue
   text: La réclusion à perpétuité sans possibilité de libération doit s'appliquer à davantage de crimes.
   themes:
     - justice
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: justice-comparution-immediate-mineurs
   text: Les mineurs de plus de 16 ans doivent pouvoir être jugés en comparution immédiate.
   themes:
     - justice
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: justice-detenus-frais-incarceration
-  text: Les détenus doivent participer financièrement à leurs frais d'incarcération.
+  text: "Les détenus doivent participer financièrement à leurs frais d'incarcération."
   themes:
     - justice
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: justice-liberation-conditionnelle-deux-tiers
   text: La libération conditionnelle doit être réservée aux détenus ayant purgé au moins les deux tiers de leur peine.
   themes:
     - justice
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: justice-imprescriptibilite-crimes-sexuels-mineurs
-  text: Les crimes sexuels commis sur des mineurs doivent être imprescriptibles.
+  text: "Les crimes sexuels commis sur des mineurs doivent être imprescriptibles."
   themes:
     - justice
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : OUT_OF_SCOPE.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: justice-sanction-financiere-parents
-  text: Les parents de mineurs délinquants doivent pouvoir être sanctionnés financièrement.
+  text: "Les parents de mineurs délinquants doivent pouvoir être sanctionnés financièrement."
   themes:
     - justice
     - societe
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: justice-plafonner-detenus-places
   text: Le nombre de détenus doit être plafonné au nombre de places de prison disponibles.
   themes:
     - justice
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: justice-tig-delits-sans-violence
   text: Le travail d'intérêt général doit être préféré à la prison pour les délits commis sans violence.
   themes:
     - justice
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: justice-justice-restaurative-systematique
   text: La justice restaurative doit être proposée systématiquement aux victimes et aux auteurs d'infractions.
   themes:
     - justice
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-- id: justice-juridictions-mineurs-specialisees
-  text: Les mineurs doivent continuer à être jugés par des juridictions distinctes de celles des majeurs.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : OUT_OF_SCOPE.
+# Texte d'origine (justice-juridictions-mineurs-specialisees) : Les mineurs doivent continuer à être jugés par des juridictions distinctes de celles des majeurs.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: justice-juridictions-mineurs-specialisees-v2
+  text: "Les mineurs doivent être jugés par des juridictions distinctes de celles des majeurs."
   themes:
     - justice
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: justice-visites-familiales-prisons
-  text: Toutes les prisons doivent permettre des visites familiales prolongées sans surveillance directe.
+  text: "Toutes les prisons doivent permettre des visites familiales prolongées sans surveillance directe."
   themes:
     - justice
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

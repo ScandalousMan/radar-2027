@@ -252,6 +252,20 @@ test.describe('US3 — reprendre un questionnaire interrompu', () => {
     }
   });
 
+  test('questionnaire terminé : l’accueil propose « Voir mes résultats », même lien que l’écran de fin (005, FR-035a)', async ({ page }) => {
+    await startQuestionnaire(page, 'short', FOUR);
+    await answerAll(page, 25, cycle);
+    const href = await page.getByRole('link', { name: msg('questionnaire.end.results') }).getAttribute('href');
+    await page.goto('/');
+    const card = page.locator('section').filter({ hasText: msg('ui.resumeCard.completeTitle') });
+    await expect(card).toBeVisible();
+    await expect(card.getByRole('button', { name: msg('ui.resumeCard.resume') })).toHaveCount(0);
+    await card.getByRole('button', { name: msg('ui.resumeCard.viewResults') }).click();
+    await expect(page.getByRole('heading', { level: 1, name: msg('results.title') })).toBeVisible();
+    expect(new URL(page.url()).pathname + new URL(page.url()).hash).toBe(href);
+    await expect(page.getByRole('list', { name: msg('ui.rankingList.label') })).toBeVisible();
+  });
+
   test('effacer : confirmation puis clé absente et accueil sans carte', async ({ page }) => {
     await startQuestionnaire(page, 'short', FOUR);
     await answer(page, 1, 25, 1);

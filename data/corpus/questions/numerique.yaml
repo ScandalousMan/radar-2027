@@ -7,124 +7,272 @@
   themes:
     - numerique
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-assouplir-regles-ia
   text: Les règles européennes encadrant l'intelligence artificielle doivent être assouplies.
   themes:
     - numerique
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-taxe-plateformes
   text: Les grandes plateformes numériques doivent payer un impôt sur le chiffre d'affaires réalisé en France.
   themes:
     - numerique
     - fiscalite
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-anonymat-en-ligne
   text: L'anonymat en ligne doit être préservé sur les réseaux sociaux.
   themes:
     - numerique
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : NEEDS_HUMAN_ARBITRATION.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: numerique-logiciels-libres-administration
-  text: Les administrations doivent utiliser en priorité des logiciels libres ou hébergés en Europe.
+  text: "Les administrations doivent utiliser en priorité des logiciels libres ou hébergés en Europe."
   themes:
     - numerique
   polarity: +
-  status: draft
+  status: active
   author: claude
-- id: numerique-chiffrement-messageries
-  text: Le chiffrement des messageries privées doit rester hors d'atteinte des autorités.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (numerique-chiffrement-messageries) : Le chiffrement des messageries privées doit rester hors d'atteinte des autorités.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: numerique-chiffrement-messageries-v2
+  text: "Les autorités publiques ne doivent pas pouvoir accéder au contenu des messages privés protégés par un chiffrement de bout en bout."
   themes:
     - numerique
     - securite
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-algorithmes-publics
   text: Les plateformes doivent rendre publics les algorithmes qui hiérarchisent les contenus.
   themes:
     - numerique
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: numerique-telephone-interdit-lycees
-  text: L'usage du téléphone portable doit être interdit dans l'enceinte des lycées.
+  text: "L'usage du téléphone portable doit être interdit dans l'enceinte des lycées."
   themes:
     - numerique
     - societe
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: numerique-donnees-sante-hebergeurs-europeens
-  text: Les données de santé des Français doivent être hébergées exclusivement par des entreprises européennes.
+  text: "Les données de santé des Français doivent être hébergées exclusivement par des entreprises européennes."
   themes:
     - numerique
     - sante
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-scission-grandes-plateformes
   text: L'Union européenne doit pouvoir imposer la scission des grandes plateformes numériques en position dominante.
   themes:
     - numerique
     - economie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-ia-remuneration-auteurs
   text: Les entreprises d'intelligence artificielle doivent rémunérer les auteurs dont les œuvres servent à entraîner leurs modèles.
   themes:
     - numerique
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-faciliter-centres-donnees
   text: L'implantation de centres de données doit bénéficier de procédures administratives accélérées.
   themes:
     - numerique
     - environnement
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-alleger-moderation
   text: Les obligations de modération imposées aux réseaux sociaux doivent être allégées.
   themes:
     - numerique
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-assouplir-consentement-traceurs
   text: Les règles de consentement aux traceurs publicitaires sur internet doivent être assouplies.
   themes:
     - numerique
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-rgpd-petites-entreprises
   text: Les petites entreprises doivent être exemptées d'une partie des obligations du règlement sur la protection des données.
   themes:
     - numerique
     - economie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
-- id: numerique-responsabilite-plateformes-limitee
-  text: La responsabilité des plateformes pour les contenus publiés par leurs utilisateurs doit rester limitée.
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
+# Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
+# Texte d'origine (numerique-responsabilite-plateformes-limitee) : La responsabilité des plateformes pour les contenus publiés par leurs utilisateurs doit rester limitée.
+# Détail : data/relectures/2026-11-10-seconde-passe.md
+- id: numerique-responsabilite-plateformes-limitee-v2
+  text: "La responsabilité juridique des plateformes pour les contenus publiés par leurs utilisateurs doit être limitée."
   themes:
     - numerique
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 - id: numerique-donnees-publiques-entrainement-ia
   text: Les entreprises doivent pouvoir utiliser librement les données publiques pour entraîner des modèles d'intelligence artificielle.
   themes:
     - numerique
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-11
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
