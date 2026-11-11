@@ -1,0 +1,142 @@
+# Positions de Delphine Batho (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
+# provenance manual), à relire par adrien avec pnpm data:review.
+
+- question: agriculture-alleger-normes-agricoles
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-ppl-abrogation-loi-duplomb
+  quote: La loi no 2025-794 du 11 août 2025 visant à lever les contraintes à l'exercice du métier d'agriculteur est abrogée.
+  quoteSource: delphine-batho-ppl-abrogation-loi-duplomb
+  justification: La proposition de loi déposée par la candidate abroge la loi Duplomb, qui allégeait plusieurs règles environnementales applicables aux agriculteurs (pesticides, élevage, eau, police de l'environnement), soit le rejet explicite d'un allègement de ces normes, d'où -2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-derogations-neonicotinoides
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-ppl-abrogation-loi-duplomb
+  quote: les néonicotinoïdes doivent être définitivement et strictement interdits.
+  quoteSource: delphine-batho-ppl-abrogation-loi-duplomb
+  justification: La proposition de loi déposée par la candidate rétablit l'interdiction pleine et entière des néonicotinoïdes et supprime le mécanisme de dérogation, soit le contraire explicite de l'énoncé, d'où -2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-pesticides-moitie-2030
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-reporterre-2026-10
+  quote: nous devons accomplir en cinq ans le passage de l'ensemble de l'agriculture française à l'agriculture biologique et à l'agroécologie
+  quoteSource: delphine-batho-reporterre-2026-10
+  justification: La candidate propose de convertir toute l'agriculture à l'agriculture biologique en cinq ans, ce qui va au-delà d'une réduction de moitié des pesticides de synthèse mais sans objectif chiffré de réduction ni échéance 2030, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-retenues-eau-irrigation
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-ppl-moratoire-bassines
+  quote: C'est pourquoi il est nécessaire d'instaurer un moratoire sur la construction d'ouvrages de stockage de l'eau à usage d'irrigation agricole
+  quoteSource: delphine-batho-ppl-moratoire-bassines
+  justification: La proposition de loi déposée par la candidate instaure un moratoire sur les autorisations de nouvelles retenues d'eau pour l'irrigation et interdit leur financement par les agences de l'eau, soit le contraire explicite de l'énoncé, d'où -2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-accords-libre-echange
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-ppl-abrogation-loi-duplomb
+  quote: Aucun accord de libre-échange ne peut être conclu sans la mise en place de mesures miroirs
+  quoteSource: delphine-batho-ppl-abrogation-loi-duplomb
+  justification: La proposition de loi déposée par la candidate subordonne la conclusion de tout accord de libre-échange à des mesures miroirs sur les pesticides, ce qui restreint ces accords sans s'opposer à leur principe, d'où -1 plutôt que -2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-consommation-moitie-2050
+  value: 1
+  evidence: programme
+  sources:
+    - delphine-batho-priorite-securite-climatique
+  quote: Nous devons réduire notre consommation d'énergie et lutter contre le gaspillage.
+  quoteSource: delphine-batho-priorite-securite-climatique
+  justification: Le programme demande de réduire la consommation d'énergie sans fixer d'objectif chiffré ni d'échéance, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-faciliter-derogation-especes
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-ppl-abrogation-loi-duplomb
+  quote: en accordant de façon systématique à ces ouvrages le bénéfice de la raison impérative d'intérêt public majeur, porte atteinte à la protection des espèces protégées et de leurs habitats.
+  quoteSource: delphine-batho-ppl-abrogation-loi-duplomb
+  justification: La proposition de loi déposée par la candidate abroge la présomption de raison impérative d'intérêt public majeur accordée aux retenues d'eau, qui facilitait les dérogations espèces protégées, mais pour ce seul type d'ouvrage, d'où -1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: fiscalite-taxe-benefices-exceptionnels
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - delphine-batho-ge-etat-resilience
+  quote: Les superprofits sur les énergies fossiles sont les premiers à devoir être mis à contribution.
+  quoteSource: delphine-batho-ge-etat-resilience
+  justification: La contribution de Génération Écologie demande de mettre à contribution les superprofits des énergies fossiles pour financer une branche climatique de la sécurité sociale, ce qui vise un seul secteur sans préciser la forme d'une taxe, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-competences-retour-etat-v2
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-reporterre-2026-10
+  quote: C'est pourquoi je plaide pour une réorganisation des pouvoirs en France, en donnant beaucoup plus de pouvoir au local.
+  quoteSource: delphine-batho-reporterre-2026-10
+  justification: La candidate veut donner beaucoup plus de pouvoir au niveau local, à l'inverse d'un transfert de compétences vers l'État, sans se prononcer précisément sur la répartition des compétences, d'où -1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: numerique-assouplir-regles-ia
+  value: -1
+  evidence: programme
+  sources:
+    - delphine-batho-priorite-beaute
+  quote: Sans attendre, elle doit mettre en œuvre tout ce que permet déjà la réglementation européenne pour stopper le pillage des œuvres d'art et des productions intellectuelles
+  quoteSource: delphine-batho-priorite-beaute
+  justification: Le programme demande d'appliquer pleinement la réglementation européenne existante et de réguler l'intelligence artificielle, sans se prononcer explicitement contre un assouplissement des règles européennes, d'où -1 plutôt que -2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09

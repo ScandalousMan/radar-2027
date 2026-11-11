@@ -1,0 +1,696 @@
+# Positions d'Édouard Philippe (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
+# provenance manual), à relire par adrien avec pnpm data:review.
+
+- question: agriculture-alleger-normes-agricoles
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: "Renforcer la compétitivité de notre agriculture : zéro surtransposition agricole"
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme exclut toute surtransposition des normes agricoles, ce qui limite les normes nationales sans annoncer d'allègement général des normes environnementales existantes.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: agriculture-retenues-eau-irrigation
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-conquerante
+  quote: Accélérer le stockage de l'eau agricole en plaçant " la protection avant la procédure "
+  quoteSource: edouard-philippe-priorites-conquerante
+  justification: Le programme propose d'accélérer le stockage de l'eau agricole en allégeant la procédure, ce qui correspond à faciliter les retenues pour l'irrigation.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-doubler-reservistes
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+  quote: Porter le nombre de réservistes de 45 000 à 250 000
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme prévoit de faire passer les réservistes de 45 000 à 250 000, soit plus qu'un doublement.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-effectifs-armees-hausse
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+  quote: Lancer une nouvelle LPM (Loi de programmation militaire) de la massification, au-delà de la LPM actuelle qui épaissit les armées sans les étendre.
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme annonce une loi de programmation visant à étendre les armées, sans chiffrer la hausse des effectifs d'active ni l'échéance de 2030.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-alleger-regles-entreprises
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+    - edouard-philippe-discours-reims-2026-05
+  quote: Libérer nos entreprises du poids des impôts et de la bureaucratie
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme vise à libérer les entreprises de la bureaucratie et le discours de Reims annonce une ordonnance de suppression des complexités qu'elles subissent.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-baisse-depense-publique
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+    - edouard-philippe-discours-adidas-arena-2026-07
+  quote: Mettre en place une stratégie de sauvetage des dépenses publiques avec 50 % de l'effort sur les dépenses sociales et un quart sur l'État et les collectivités et un quart grâce à la croissance.
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme organise la réduction du déficit principalement par la baisse des dépenses sociales, de l'État et des collectivités, et le discours de l'Adidas Arena privilégie la baisse de la dépense à la hausse des impôts.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-reduire-nombre-fonctionnaires
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: Supprimer un tiers des fonctionnaires partant à la retraite, soit plus de 250 000 postes sur le quinquennat.
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme prévoit la suppression de plus de 250 000 postes de fonctionnaires sur le quinquennat.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-regle-equilibre-constitution
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: Inscrire dans la Constitution une règle d'or de maîtrise des déficits via un référendum
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme propose d'inscrire une règle d'or budgétaire dans la Constitution ; elle porte sur la maîtrise des déficits plutôt que sur un équilibre strict.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-supprimer-agences-etat
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: Fusionner et supprimer des dizaines d'opérateurs, d'agences et de comités publics.
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme prévoit explicitement la fusion et la suppression de dizaines d'agences et d'opérateurs.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-centres-donnees-pres-centrales
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-conquerante
+  quote: Ouvrir un accès préférentiel à notre énergie décarbonée pour les acteurs nationaux et européens
+  quoteSource: edouard-philippe-priorites-conquerante
+  justification: Dans le volet sur l'intelligence artificielle, le programme propose un accès préférentiel à l'énergie décarbonée, sans viser nommément les centres de données ni la seule électricité nucléaire.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-nouveaux-reacteurs-au-dela-epr2
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-conquerante
+  quote: lancement de 8 EPR supplémentaires en plus des 6 déjà prévus
+  quoteSource: edouard-philippe-priorites-conquerante
+  justification: Le programme prévoit huit EPR supplémentaires en plus des six déjà prévus.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-reduire-part-nucleaire
+  value: -1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-conquerante
+  quote: Assurer notre souveraineté énergétique en relançant le nucléaire
+  quoteSource: edouard-philippe-priorites-conquerante
+  justification: Le programme relance le nucléaire tout en développant les renouvelables, ce qui va contre une réduction de la part du nucléaire sans se prononcer explicitement sur cette part.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-pause-normes-europeennes
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: "Sceller un moratoire normatif et fiscal : pas de nouvelle norme et de nouvel impôt sur le quinquennat."
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme propose un moratoire sur toute nouvelle norme pendant le quinquennat, au niveau national et sans viser spécifiquement les normes environnementales européennes.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-taxe-carbone-importations
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-conquerante
+  quote: Instaurer un prix du carbone aux frontières européennes
+  quoteSource: edouard-philippe-priorites-conquerante
+  justification: Le programme propose un prix du carbone aux frontières européennes, c'est-à-dire une taxation des émissions liées aux importations.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-baisse-cotisations-salaries
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: Rééquilibrer le financement du modèle social pour qu'il ne repose plus uniquement sur le travail et augmenter le salaire net des actifs.
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme vise à alléger le financement du modèle social reposant sur le travail pour augmenter le salaire net, sans mentionner explicitement une baisse des cotisations salariales.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-heures-sup-sans-plafond
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: exonérer ces heures de cotisations sociales et d'impôt sur le revenu
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme exonère d'impôt sur le revenu les heures de travail supplémentaires décidées dans l'entreprise, sans préciser l'absence de plafond.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-impot-fortune-retabli
+  value: -1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: "Sceller un moratoire normatif et fiscal : pas de nouvelle norme et de nouvel impôt sur le quinquennat."
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme exclut tout nouvel impôt pendant le quinquennat, ce qui s'oppose au rétablissement d'un impôt sur la fortune sans le mentionner nommément.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-impot-minimum-grandes-fortunes-v2
+  value: -1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: "Sceller un moratoire normatif et fiscal : pas de nouvelle norme et de nouvel impôt sur le quinquennat."
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: "Le programme exclut tout nouvel impôt pendant le quinquennat, ce qui écarte un prélèvement minimal sur les grandes fortunes sans le viser nommément. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: fiscalite-reduire-credits-impot
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - edouard-philippe-discours-adidas-arena-2026-07
+  quote: il faut baisser les dépenses sociales, supprimer les niches fiscales, avant de songer à augmenter les impôts de ceux qui travaillent
+  quoteSource: edouard-philippe-discours-adidas-arena-2026-07
+  justification: Le candidat propose de supprimer des niches fiscales, sans fixer l'ampleur d'une réduction de moitié.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-supprimer-impots-production
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+    - edouard-philippe-discours-reims-2026-05
+  quote: 50 Md€ de baisses d'impôts de production contre 50 Md€ d'aides publiques improductives en moins
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme prévoit une baisse de 50 Md€ des impôts de production, et non leur suppression totale.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-taxe-benefices-exceptionnels
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - edouard-philippe-discours-adidas-arena-2026-07
+  quote: Je ne taxerai pas davantage les entreprises qui payent déjà trop d'impôts.
+  quoteSource: edouard-philippe-discours-adidas-arena-2026-07
+  justification: Le candidat refuse d'alourdir la fiscalité des entreprises et le programme exclut tout nouvel impôt, sans viser nommément une taxe sur les bénéfices exceptionnels.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-condamnes-perte-titre-sejour
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+    - edouard-philippe-discours-adidas-arena-2026-07
+  quote: "Être intraitable avec les étrangers délinquants : expulsion immédiate et fin des aides sociales."
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme prévoit l'expulsion immédiate des étrangers délinquants, sans préciser le critère d'une condamnation à de la prison ferme ni la perte du titre de séjour.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-frais-etudiants-etrangers
+  value: -2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+  quote: appliquer réellement la hausse des droits d'inscription des étudiants extra-européens
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme veut appliquer la hausse des droits d'inscription des étudiants extra-européens, soit l'inverse d'un alignement sur les frais des étudiants français.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-plafond-annuel-admissions
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+  quote: Mettre en place une politique de quotas migratoires permettant de choisir notre immigration économique.
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme propose des quotas migratoires pour l'immigration économique, sans préciser un plafond global voté chaque année par le Parlement.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-prestations-duree-residence
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+  quote: Aligner les aides sociales versées aux étrangers sur la moyenne européenne
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme restreint les aides sociales versées aux étrangers par un alignement sur la moyenne européenne, et non par une condition de cinq ans de résidence.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-regroupement-familial-ressources
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+    - edouard-philippe-discours-reims-2026-05
+  quote: Suspendre le regroupement familial pour la durée du quinquennat.
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme propose de suspendre le regroupement familial, mesure plus restrictive mais différente d'un durcissement des conditions de ressources.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-supprimer-droit-du-sol
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+  quote: Suspendre le droit du sol à Mayotte.
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme propose de suspendre le droit du sol à Mayotte uniquement, pas sur l'ensemble du territoire.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-arrets-cedh-derogation-v2
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - edouard-philippe-discours-adidas-arena-2026-07
+  quote: "ils ne sont pas sortis de la Convention Européenne des Droits de l'Homme"
+  quoteSource: edouard-philippe-discours-adidas-arena-2026-07
+  justification: "Le candidat veut maîtriser l'immigration comme d'autres pays européens, sans réviser la Constitution ni sortir de la CEDH, sans se prononcer explicitement sur la non-exécution de certains arrêts, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: international-renegocier-traites-competences
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - edouard-philippe-discours-adidas-arena-2026-07
+  quote: Une Europe que nous devons approfondir pour rester libres !
+  quoteSource: edouard-philippe-discours-adidas-arena-2026-07
+  justification: Le candidat prône l'approfondissement de l'Union européenne, ce qui va à l'opposé d'un retour de compétences aux États, sans évoquer explicitement la renégociation des traités.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-comparution-immediate-mineurs
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+  quote: créer la comparution immédiate des mineurs pour ces infractions
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme crée la comparution immédiate des mineurs, limitée aux infractions liées au narcotrafic.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-courtes-peines-alternatives
+  value: -2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+    - edouard-philippe-discours-adidas-arena-2026-07
+  quote: Mettre en place des courtes peines, en s'inspirant des pays du Nord qui condamnent dès la première infraction à une peine courte et dissuasive
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme veut des peines de prison courtes dès la première infraction, soit l'inverse de leur remplacement par des peines alternatives.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-imprescriptibilite-crimes-sexuels-mineurs
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-enfants
+  quote: Mettre en place l'imprescriptibilité pour les crimes sur mineur
+  quoteSource: edouard-philippe-priorites-enfants
+  justification: "Le programme propose l'imprescriptibilité de tous les crimes sur mineur, ce qui inclut les crimes sexuels. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-majorite-penale-16-ans
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+  quote: Lever l'excuse de minorité pour les faits en lien avec le narcotrafic
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme lève l'excuse de minorité pour les seuls faits liés au narcotrafic, sans abaisser la majorité pénale de façon générale.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-peines-minimales-recidive
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+  quote: Mettre en place des peines planchers pour les infractions les plus graves
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme prévoit des peines planchers pour les infractions les plus graves, sans viser spécifiquement la récidive.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-sanction-financiere-parents
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-enfants
+  quote: Créer une " amende de responsabilisation scolaire ", inspirée du modèle britannique, pour les parents d'enfants harceleurs, perturbateurs ou absentéistes
+  quoteSource: edouard-philippe-priorites-enfants
+  justification: Le programme crée une amende pour les parents d'enfants harceleurs, perturbateurs ou absentéistes, dans le cadre scolaire plutôt que pour la délinquance des mineurs.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-supprimer-reductions-automatiques
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+  quote: Supprimer le juge d'application des peines afin de garantir que ce qu'un juge a décidé ne soit pas défait par un autre que lui.
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme vise à ce que la peine prononcée ne soit pas modifiée après coup, par la suppression du juge d'application des peines plutôt que par celle des réductions automatiques.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-assouplir-regles-ia
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-conquerante
+    - edouard-philippe-discours-adidas-arena-2026-07
+  quote: Simplifier le cadre juridique européen applicable à l'IA, sans renoncer à une régulation éthique et protectrice des enfants.
+  quoteSource: edouard-philippe-priorites-conquerante
+  justification: Le programme propose de simplifier les règles européennes sur l'intelligence artificielle tout en conservant une régulation éthique, ce qui conditionne l'assouplissement.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-logiciels-libres-administration
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-conquerante
+  quote: Peser à l'échelle européenne avec un " Buy European Tech Act " et des achats technologiques groupés entre États membres.
+  quoteSource: edouard-philippe-priorites-conquerante
+  justification: Le programme propose une préférence européenne dans les achats technologiques publics, sans viser spécifiquement les logiciels utilisés par les administrations.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: sante-depenses-assurance-maladie-inflation
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: Stabiliser les dépenses de santé en dépensant mieux, en misant sur la prévention et les transformations technologiques plutôt que sur la seule hausse des moyens.
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme vise à stabiliser les dépenses de santé sans les indexer explicitement sur l'inflation ; le discours de Reims évoque par ailleurs un investissement massif dans le système de santé.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: securite-reconnaissance-faciale-police
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-surete
+  quote: allant jusqu'à l'utilisation ciblée de la reconnaissance faciale
+  quoteSource: edouard-philippe-priorites-surete
+  justification: Le programme autorise une utilisation ciblée de la reconnaissance faciale dans le cadre d'un état d'urgence limité dans le temps et l'espace, et non de façon générale.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-uniforme-ecole-publique
+  value: 0
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-enfants
+    - edouard-philippe-discours-adidas-arena-2026-07
+  quote: "Faire des chefs d'établissements les véritables patrons de l'école : liberté d'adapter les méthodes et les horaires, d'imposer l'uniforme"
+  quoteSource: edouard-philippe-priorites-enfants
+  justification: Le programme laisse à chaque établissement la liberté d'imposer ou non l'uniforme, sans le rendre obligatoire partout ni l'exclure.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-subventionner-fret-ferroviaire
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - edouard-philippe-discours-adidas-arena-2026-07
+  quote: Nous devrons mettre en oeuvre un grand plan fret ferroviaire pour faire disparaître des millions de camions de nos routes
+  quoteSource: edouard-philippe-discours-adidas-arena-2026-07
+  justification: Le candidat annonce un grand plan pour le fret ferroviaire face au transport routier, sans préciser qu'il prend la forme d'une subvention.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-augmenter-jours-carence
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: 3 jours de carence pour tout le monde, dans le privé comme le public
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme porte à trois jours la carence pour tous, ce qui augmente le nombre de jours dans le public mais le laisse inchangé dans le privé.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-durcir-indemnisation-chomage
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: Réduire à 12 mois maximum la durée d'indemnisation chômage pour les moins de 50 ans, contre 18 mois aujourd'hui
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme réduit la durée maximale d'indemnisation de 18 à 12 mois pour les moins de 50 ans.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-duree-travail-accord-entreprise
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: Permettre aux entreprises de fixer librement le temps de travail pour sortir des 35h
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme laisse les entreprises fixer leur temps de travail au-delà de 35 heures, après discussion interne.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-retraite-62-ans
+  value: -2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: porter progressivement l'âge de départ à 65 ans et la durée de cotisation à 45 ans
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme porte l'âge de départ à 65 ans, à l'opposé d'un retour à 62 ans.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-retraite-au-dela-64-ans
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: porter progressivement l'âge de départ à 65 ans et la durée de cotisation à 45 ans
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme porte progressivement l'âge de départ à 65 ans.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-retraite-capitalisation
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: Généraliser à tous les salariés la retraite par capitalisation collective
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme généralise la retraite par capitalisation collective à tous les salariés.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-semaine-32-heures
+  value: -1
+  evidence: programme
+  sources:
+    - edouard-philippe-priorites-prosperite
+  quote: Permettre aux entreprises de fixer librement le temps de travail pour sortir des 35h
+  quoteSource: edouard-philippe-priorites-prosperite
+  justification: Le programme vise à sortir des 35 heures pour travailler davantage, ce qui va à l'opposé d'une réduction à 32 heures sans la mentionner explicitement.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09

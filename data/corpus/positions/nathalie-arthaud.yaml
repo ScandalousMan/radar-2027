@@ -1,0 +1,117 @@
+# Positions de Nathalie Arthaud (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
+# provenance manual), à relire par adrien avec pnpm data:review.
+
+- question: defense-troupes-ukraine-cessez-le-feu-v2
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-discours-meeting-2026-02-14
+  quote: "Qu'il faut construire une armée européenne, rétablir le service militaire, envoyer nos soldats en Ukraine. C'est-à-dire, comme l'a dit le général Mandon, être prêt à sacrifier nos enfants dans une nouvelle guerre."
+  quoteSource: nathalie-arthaud-discours-meeting-2026-02-14
+  justification: "La candidate dénonce l'idée d'envoyer des soldats en Ukraine comme du « bourrage de crâne », rejet général qui ne vise pas spécifiquement un déploiement dans le cadre d'un cessez-le-feu, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: fiscalite-taxe-benefices-exceptionnels
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - nathalie-arthaud-brochure-fete-2026
+  quote: Confiscation des bénéfices de ces profiteurs de guerre
+  quoteSource: nathalie-arthaud-brochure-fete-2026
+  justification: La brochure demande la confiscation des bénéfices des entreprises qualifiées de profiteurs de guerre, une mesure voisine d'une taxe sur les bénéfices exceptionnels mais limitée à ces entreprises et de nature différente, d'où 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-regularisation-cinq-ans
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - nathalie-arthaud-brochure-fete-2026
+    - nathalie-arthaud-discours-fete-2026-dimanche
+  quote: Régularisation de tous les sans-papiers
+  quoteSource: nathalie-arthaud-brochure-fete-2026
+  justification: "La brochure et le discours de la fête demandent la régularisation de tous les sans-papiers, ce qui inclut ceux présents depuis plus de cinq ans, sans condition de durée. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-regularisation-metiers-tension
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - nathalie-arthaud-brochure-fete-2026
+    - nathalie-arthaud-discours-fete-2026-dimanche
+  quote: Régularisation de tous les sans-papiers
+  quoteSource: nathalie-arthaud-brochure-fete-2026
+  justification: "La brochure et le discours de la fête demandent la régularisation de tous les sans-papiers, ce qui inclut les travailleurs employés dans des métiers en tension, sans condition de métier. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-indexation-salaires
+  value: 2
+  evidence: programme
+  sources:
+    - nathalie-arthaud-depliant-2026-11
+    - nathalie-arthaud-brochure-fete-2026
+  quote: Exigeons L'AUGMENTATION des salaires, des retraites et des pensions, le SMIC à 2 200 € et leur INDEXATION sur l'inflation.
+  quoteSource: nathalie-arthaud-depliant-2026-11
+  justification: Le dépliant de campagne demande explicitement l'indexation des salaires sur l'inflation, que la brochure formule aussi comme une indexation sur la hausse des prix.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-limiter-licenciements-beneficiaires-v2
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-declaration-candidature
+  quote: "prône notamment l'interdiction des licenciements"
+  quoteSource: nathalie-arthaud-declaration-candidature
+  justification: "L'article rapporte que Lutte ouvrière prône l'interdiction des licenciements, mesure qui inclut la limitation des licenciements dans les entreprises qui réalisent des bénéfices ; la formule est celle du journaliste. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: travail-semaine-32-heures
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - nathalie-arthaud-brochure-fete-2026
+  quote: Il faut baisser le temps et la charge de travail sans perte de salaire pour permettre à tous de vivre.
+  quoteSource: nathalie-arthaud-brochure-fete-2026
+  justification: La brochure demande une baisse du temps de travail sans perte de salaire, sans fixer de durée légale de 32 heures, d'où 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-smic-au-dela-inflation
+  value: 2
+  evidence: programme
+  sources:
+    - nathalie-arthaud-depliant-2026-11
+  quote: Exigeons L'AUGMENTATION des salaires, des retraites et des pensions, le SMIC à 2 200 € et leur INDEXATION sur l'inflation.
+  quoteSource: nathalie-arthaud-depliant-2026-11
+  justification: Le dépliant demande de porter le SMIC à 2 200 euros, soit une augmentation nettement supérieure à l'inflation, en plus de son indexation sur les prix.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09

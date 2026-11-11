@@ -1,0 +1,856 @@
+# Positions de Fabien Roussel (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
+# provenance manual), à relire par adrien avec pnpm data:review.
+
+- question: defense-budget-armees-3-pib
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "refus de la course à l'arme- ment et du passage du budget de la défense à 5% du PIB"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune refuse le passage du budget de la défense à 5 % du PIB, ce qui va contre une hausse des crédits militaires, sans se prononcer sur le seuil de 3 %."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-cesser-ventes-armes-conflits
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "en mettant un terme aux relations com- merciales et à la vente d'armes"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune demande de cesser la vente d'armes à Israël, sans étendre cette exigence à tous les États engagés dans un conflit armé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-defense-europeenne-emprunt
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Le PCF s'oppose aussi à la militarisation de l'UE, à la prolifération nucléaire en Europe et dans le monde, à l'européanisation de la force nucléaire française, aux pro- jets d'une armée européenne"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune s'oppose à la militarisation de l'UE et à une armée européenne, sans se prononcer sur un financement par emprunt européen."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-dissuasion-protection-europe-v2
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Le PCF s'oppose aussi à la militarisation de l'UE, à la prolifération nucléaire en Europe et dans le monde, à l'européanisation de la force nucléaire française"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune s'oppose à l'« européanisation » de la force nucléaire française, notion voisine mais pas identique à l'extension de la doctrine de dissuasion à la protection des partenaires européens, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: defense-fermer-bases-afrique
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Le PCF défend le retrait des bases militaires"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "Dans le passage consacré au continent africain, la base commune défend explicitement le retrait des bases militaires françaises."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-priorite-depenses-sociales
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-plan-jeunesse-2027-2032
+  quote: "l'école avant les dépenses d'armement, l'école avant les aides sans contrepartie"
+  quoteSource: fabien-roussel-plan-jeunesse-2027-2032
+  justification: "Le plan jeunesse fait passer les dépenses d'éducation avant les dépenses d'armement, ce qui concerne l'école et non l'ensemble des dépenses sociales."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-reduire-budget-armees
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-plan-jeunesse-2027-2032
+  quote: "3,5 Md€ passent du budget de la défense à celui de l'école, une fois les 90 000 postes pourvus"
+  quoteSource: fabien-roussel-plan-jeunesse-2027-2032
+  justification: "Le plan jeunesse finance les postes d'enseignants en retirant 3,5 Md€ au budget de la défense, sans fixer d'objectif de baisse en proportion du PIB."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-reduire-presence-etranger
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "La moder- nisation et le développement des forces armées doivent être centrés sur la défense du territoire"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune recentre les forces armées sur la défense du territoire et s'oppose aux projections hors mandat de l'ONU, sans demander explicitement une réduction générale de la présence à l'étranger."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-second-porte-avions
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "le PCF s'oppose à la construction du porteavions à propulsion nucléaire de nouvelle génération"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune s'oppose au porte-avions de nouvelle génération ; elle ne parle pas d'un second porte-avions, mais va nettement contre."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-traite-interdiction-armes-nucleaires
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "La France doit prendre une initiative européenne pour inciter à signer et ratifier le Traité sur l'interdiction des armes nucléaires (TIAN)"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune demande explicitement que la France promeuve la signature et la ratification du traité sur l'interdiction des armes nucléaires."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-conventions-citoyennes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "référendum d'initiative citoyenne encadré et droit de pétition effectif, convention citoyenne suivi d'un projet de loi débattu au Parlement"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune prévoit des conventions citoyennes suivies d'un projet de loi, sans préciser le tirage au sort ni leur consultation systématique avant les grandes réformes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-petition-debat-parlement
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "référendum d'initiative citoyenne encadré et droit de pétition effectif, convention citoyenne suivi d'un projet de loi débattu au Parlement"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune demande un droit de pétition effectif, sans fixer de seuil ni d'obligation de débat en séance."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-exceptionnel
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "référendum d'initiative citoyenne encadré et droit de pétition effectif, convention citoyenne suivi d'un projet de loi débattu au Parlement"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune veut un référendum d'initiative citoyenne, ce qui va contre un recours au référendum qui resterait exceptionnel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-initiative-citoyenne
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "référendum d'initiative citoyenne encadré et droit de pétition effectif"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune propose explicitement un référendum d'initiative citoyenne encadré."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-reserve-elus-v2
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "référendum d'initiative citoyenne encadré et droit de pétition effectif"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune propose un référendum d'initiative citoyenne, ce qui retire au président et au Parlement le monopole du déclenchement d'un référendum national (déduction du RIC conservée par convention)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: economie-accords-libre-echange
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "une remise en cause des règles de fonctionnement et des traités de l'Union européenne libre-échangistes et déloyaux"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune remet en cause les traités européens libre-échangistes, ce qui va contre la conclusion de nouveaux accords sans s'y opposer explicitement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-aides-conditionnees-emploi
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "L'argent public versé aux entreprises doit être conditionné et contrôlé"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune conditionne les aides publiques aux entreprises sans préciser que la condition porte sur le maintien de l'emploi en France."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-eau-operateurs-publics
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "L'énergie et les res- sources naturelles comme l'eau sont des biens communs à extraire en priorité des marchés en les plaçant sous contrôle public."
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune veut extraire l'eau des marchés et la placer sous contrôle public, version voisine mais moins précise qu'une distribution assurée uniquement par des opérateurs publics, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: economie-edf-entierement-publique
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Il défend ainsi la constitution d'un pôle public de l'énergie constitué des grandes entreprises concernées (Edf, Engie, Total énergie)"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune intègre EDF dans un pôle public de l'énergie, sans préciser une détention à 100 % par l'État."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-participations-etat-industrie
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Dans cette optique, des nationalisations dans les secteurs prioritaires sont nécessaires"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune juge nécessaires des nationalisations dans les secteurs prioritaires, ce qui va au-delà de prises de participation. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-prix-energie-reglementes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Le secteur énergétique, stratégique pour le pays, est à extraire des logiques de concurrence pour abolir la précarité énergétique et pour la maîtrise des prix"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune veut sortir l'énergie de la concurrence pour maîtriser les prix, sans préciser une réglementation par l'État des prix payés par les ménages."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-reduire-nombre-fonctionnaires
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-plan-jeunesse-2027-2032
+  quote: "90 000 postes d'enseignants seront créés, soit environ 13% de plus dans l'école publique"
+  quoteSource: fabien-roussel-plan-jeunesse-2027-2032
+  justification: "Le plan jeunesse crée 90 000 postes d'enseignants, ce qui va contre une baisse du nombre de fonctionnaires, sans porter sur l'ensemble de la fonction publique."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-nouveaux-reacteurs-au-dela-epr2
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - fabien-roussel-nouvelle-industrialisation-2025
+  quote: "Notre plan climat articule bien nos propositions entre réindustrialisation et doublement de nos capacités de production d'électricité nucléaire"
+  quoteSource: fabien-roussel-nouvelle-industrialisation-2025
+  justification: "Le discours défend un doublement des capacités nucléaires, ce qui suppose d'autres réacteurs, sans mentionner explicitement des réacteurs au-delà des six EPR2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-reduire-part-nucleaire
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - fabien-roussel-nouvelle-industrialisation-2025
+  quote: "Notre plan climat articule bien nos propositions entre réindustrialisation et doublement de nos capacités de production d'électricité nucléaire"
+  quoteSource: fabien-roussel-nouvelle-industrialisation-2025
+  justification: "Le discours défend un doublement des capacités nucléaires, ce qui va contre une réduction progressive de la part du nucléaire, sans se prononcer explicitement sur cette part."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-assouplir-artificialisation
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "les communistes combat- tent l'artificialisation des sols"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune combat l'artificialisation des sols, ce qui va contre un assouplissement des objectifs, sans les mentionner explicitement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-supprimer-zfe
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - fabien-roussel-nouvelle-industrialisation-2025
+  quote: "C'est aussi, par exemple, la production de petites voitures électriques citée hier par Jacques Baudrier et notre combat contre les ZFE"
+  quoteSource: fabien-roussel-nouvelle-industrialisation-2025
+  justification: "Le discours revendique un combat contre les zones à faibles émissions, sans demander explicitement leur suppression."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-impot-fortune-retabli
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "il revendique l'imposition des grosses fortunes, la suppression des exonéra- tions fiscales dont bénéficient les grandes entreprises, la taxation des profits"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune revendique l'imposition des grosses fortunes, sans nommer le rétablissement d'un impôt sur la fortune incluant les actifs financiers."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-reduire-credits-impot
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "il revendique l'imposition des grosses fortunes, la suppression des exonéra- tions fiscales dont bénéficient les grandes entreprises, la taxation des profits"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune demande la suppression des exonérations fiscales des grandes entreprises, ce qui ne porte pas sur l'ensemble des réductions et crédits d'impôt."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-asile-examen-hors-europe-v2
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Les communistes s'opposent à toutes réglementations visant à expulser et à enfermer des migrants dans des cen- tres de rétention quels qu'ils soient, notamment extraterritoriaux"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune s'oppose aux centres de rétention extraterritoriaux prévus par le pacte européen, mesure voisine mais distincte de l'examen des demandes d'asile hors de l'Union, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: immigration-regularisation-cinq-ans
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "la régularisation des travailleuses et tra- vailleurs sans papiers comme des familles dont les enfants sont scolari- sés sur le sol français"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune prévoit la régularisation des travailleurs sans papiers et des familles d'enfants scolarisés, sans critère de durée de présence."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-regularisation-metiers-tension
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "la régularisation des travailleuses et tra- vailleurs sans papiers comme des familles dont les enfants sont scolari- sés sur le sol français"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune prévoit la régularisation des travailleurs sans papiers en général, ce qui inclut ceux des métiers en tension."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-supprimer-droit-du-sol
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Ils refusent la stigmatisation de l'immigration au nom de l'insécu- rité, la remise en cause du droit du sol et du droit d'asile"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune refuse explicitement la remise en cause du droit du sol."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-vote-local-etrangers-v2
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Ils réaffirment également l'exigence du droit de vote et d'éligibilité des étran- gères et étrangers extracommunau- taires aux élections locales"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune réaffirme le droit de vote et d'éligibilité aux élections locales des étrangers extracommunautaires, c'est-à-dire non ressortissants de l'Union."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: institutions-adaptation-lois-regions
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Une et indi- visible, la République ne peut être morcelée, au nom d'une fausse décentralisation, par un fédéralisme source de concurrences, de fractures et d'inégalités"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune refuse un fédéralisme qui morcellerait la République et rejette l'extension aux régions du modèle corse, sans viser explicitement un pouvoir d'adaptation des lois."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-autonomie-corse-constitution-v2
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "le projet constitutionnel d'autonomie de la Corse est une atteinte grave aux principes et à la conception même de la nation et de la République"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune qualifie le projet constitutionnel d'autonomie de la Corse d'atteinte grave à la République, rejet explicite d'une reconnaissance constitutionnelle de cette autonomie."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: institutions-ordre-du-jour-parlement
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Le Parlement doit redevenir le cœur de la vie démocratique, avec des pouvoirs renforcés de contrôle et d'initiative, une véritable capacité d'évaluation et la maîtrise de son ordre du jour"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune demande explicitement que le Parlement ait la maîtrise de son ordre du jour."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-parlement-interventions-militaires
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Le PCF s'oppose aux forces de projec- tion militaire extérieures en dehors d'un mandat onusien et de l'approba- tion du Parlement français"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune conditionne explicitement toute projection militaire extérieure à l'approbation du Parlement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-proportionnelle-legislatives
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "L'instauration d'une pro- portionnelle réelle, assurant à tous les courants une représentation corres- pondant à leur influence électorale, est indispensable"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune juge indispensable l'instauration d'une proportionnelle réelle."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-primaute-loi-nationale-v2
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "le PCF propose notamment de ne pas appliquer les directives européennes et de sortir du marché de l'énergie"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune propose de ne pas appliquer les directives européennes dans le domaine de l'énergie, version partielle du principe d'appliquer la loi nationale face à une règle de l'Union, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: international-quitter-commandement-otan
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Par la sortie immédiate de l'OTAN, première étape vers sa dissolution"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune demande la sortie immédiate de l'OTAN, ce qui inclut la sortie de son commandement intégré."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-renegocier-traites-competences
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Par la remise en cause des traités européens et de la logique capitaliste de la construction de l'UE dans la perspective de la construction d'une Europe de peuples et de nations libres, souverains et associés"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune remet en cause les traités européens au profit de nations souveraines, sans parler explicitement de renégociation des compétences."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-courtes-peines-alternatives
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Les peines aménagées doi- vent être favorisées pour les per- sonnes les moins dangereuses"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune favorise les peines aménagées pour les personnes les moins dangereuses, sans viser le remplacement des peines de moins d'un an."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-plafonner-detenus-places
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Il est aussi nécessaire d'en finir avec la surpopulation carcé- rale"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune veut en finir avec la surpopulation carcérale, sans proposer explicitement un plafonnement du nombre de détenus au nombre de places."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: numerique-logiciels-libres-administration
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "il est urgent de constituer un pôle public du numé- rique fondé sur le logiciel libre"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune propose un pôle public du numérique fondé sur le logiciel libre, sans viser l'usage prioritaire du logiciel libre par les administrations."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: sante-assurance-sante-privee-option-v2
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Son projet de baisse des cotisations sociales et de mise en place d'assurances privées vise à détruire la Sécurité sociale"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune dénonce la mise en place d'assurances privées comme une destruction de la Sécurité sociale, rejet voisin mais non explicite d'une sortie de l'Assurance maladie au profit d'une assurance privée, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: sante-mutuelles-part-accrue-v2
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "La Sécurité sociale doit répondre aux besoins humains et prendre en charge les soins à 100 %"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune veut une prise en charge des soins à 100 % par la Sécurité sociale, contraire explicite d'un transfert de dépenses vers les complémentaires santé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: sante-production-publique-medicaments
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Ce projet comporte la création d'un pôle public du médicament afin de réduire nos dépendances"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune propose explicitement un pôle public du médicament pour produire et réduire les dépendances."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: sante-psychologues-rembourses
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "En intégrant pleine- ment la santé mentale à la Sécurité sociale"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune intègre pleinement la santé mentale à la Sécurité sociale, sans mentionner explicitement le remboursement illimité des consultations de psychologue."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: securite-enquetes-policiers-independantes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Par ailleurs, une institution indépendante doit per- mettre les recours contre tout abus"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "Dans le passage sur les forces de sécurité, la base commune prévoit une institution indépendante pour les recours contre les abus, sans lui confier explicitement les enquêtes visant des policiers."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: securite-pouvoirs-polices-municipales
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "La police municipale ne doit pas devenir le supplétif de la police nationale"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune refuse que la police municipale devienne le supplétif de la police nationale, sans viser explicitement ses pouvoirs d'enquête."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-gpa-interdite-v2
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "le maintien de l'interdiction de la GPA"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune soutient explicitement le maintien de l'interdiction de la GPA."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: transport-concurrence-ferroviaire
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "L'avenir du ferro- viaire doit passer par le retour à une entreprise publique unique et intégrée"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune veut revenir à une entreprise ferroviaire publique unique, ce qui va contre l'ouverture à la concurrence sans la rejeter explicitement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-gratuite-transports-urbains
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Nous inscrirons l'investisse- ment dans des transports publics gratuits, comme nous le faisons dans les communes et les agglomérations"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "Le discours de clôture inscrit au programme l'investissement dans des transports publics gratuits, sans préciser une gratuité généralisée de tous les réseaux urbains."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-sncf-entreprise-publique-v2
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "L'avenir du ferro- viaire doit passer par le retour à une entreprise publique unique et intégrée"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune demande le retour à une entreprise ferroviaire publique unique et intégrée, donc détenue intégralement par la puissance publique."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: transport-subventionner-fret-ferroviaire
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Les infrastructures portuaires, ferroviaires ont besoin d'investissements massifs pour favoriser le fret maritime, fluvial et ferroviaire pour faire reculer la part modale du routier"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune prévoit des investissements massifs pour favoriser le fret ferroviaire face à la route, sans parler de subvention directe du fret."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-limiter-licenciements-beneficiaires-v2
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - fabien-roussel-nouvelle-industrialisation-2025
+  quote: "la proposition de loi présentée par Yannick Monnet pour interdire les licen- ciements boursiers"
+  quoteSource: fabien-roussel-nouvelle-industrialisation-2025
+  justification: "Le candidat soutient la proposition de loi visant à interdire les licenciements boursiers, c'est-à-dire décidés par des entreprises qui réalisent des bénéfices."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: travail-plateformes-presomption-salariat
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Nous serons à leurs côtés pour leur permettre d'avoir accès à un vrai contrat de travail"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "Le discours de clôture veut donner aux livreurs des plateformes un vrai contrat de travail, sans évoquer une présomption de salariat."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-retraite-62-ans
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "garantissant une retraite de haut niveau, dès 60 ans à taux plein"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune garantit la retraite dès 60 ans à taux plein, ce qui va au-delà d'un retour à 62 ans. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-retraite-au-dela-64-ans
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "garantissant une retraite de haut niveau, dès 60 ans à taux plein"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune garantit la retraite dès 60 ans à taux plein, à l'opposé d'un report au-delà de 64 ans."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-semaine-32-heures
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "combinée à une nouvelle étape de réduction du temps de travail"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune prévoit une nouvelle étape de réduction du temps de travail, sans fixer la durée de 32 heures."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-statut-fonction-publique-regalien
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-congres-2026-base-commune
+  quote: "le renforce- ment du statut de la fonction publique"
+  quoteSource: fabien-roussel-congres-2026-base-commune
+  justification: "La base commune demande le renforcement du statut de la fonction publique, ce qui va contre sa restriction aux missions régaliennes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09

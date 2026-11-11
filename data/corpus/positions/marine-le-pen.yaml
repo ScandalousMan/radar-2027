@@ -1,0 +1,744 @@
+# Positions de Marine Le Pen (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
+# provenance manual), à relire par adrien avec pnpm data:review.
+
+- question: agriculture-prix-plancher-agricoles
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "soient les services de l'État qui consti- tuent le recours direct pour valider des prix minimums en cas de litiges lors des négociations commerciales"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 confie à l'État la validation de prix minimums en cas de litige commercial, sans fixer de prix plancher garantis par production."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-effectifs-armees-hausse
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "un budget de l'ordre de 55 milliards d'euros, de sorte que soit ac- cru le format humain des armées"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 prévoit d'accroître le format humain des armées, sans chiffrer la hausse des effectifs ni retenir le seuil de 10 %."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-reduire-budget-armees
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Porter le budget de la défense à 55 milliards d'euros à l'horizon 2027."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 prévoient une hausse du budget de la défense en euros, sans l'exprimer en proportion du PIB, d'où -1 plutôt que -2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: defense-renoncer-modernisation-dissuasion
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "intégralement nationale de la dissuasion nucléaire, ce qui implique la modernisa- tion de l'ensemble de ses composantes"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 prévoit explicitement la modernisation de toutes les composantes de la dissuasion, contraire de l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: democratie-referendum-initiative-citoyenne
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Instaurer le Referendum d'Initiative Citoyenne et mettre en place la proportionnelle."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 proposent d'instaurer le référendum d'initiative citoyenne."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-accords-libre-echange
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "revoir les accords de libre-échange qui ne res- pectent pas les intérêts de la France"
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 prévoient de revoir les accords de libre-échange jugés contraires aux intérêts français, sans rejeter tout nouvel accord, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-aides-conditionnees-emploi
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Conditionner les subventions à la création d'emplois au titre d'une poli- tique d'aménagement du territoire."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 conditionnent les subventions à la création d'emplois dans un cadre d'aménagement du territoire, variante voisine du maintien de l'emploi en France."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-alleger-regles-entreprises
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - marine-le-pen-ligne-economique-2026
+  quote: "réduire les normes et réglementations qui, selon elle, empoisonnent la vie des entreprises"
+  quoteSource: marine-le-pen-ligne-economique-2026
+  justification: "Selon ce compte rendu de 2026, la candidate veut réduire les normes et réglementations pesant sur les entreprises ; le programme de 2022 prévoyait déjà une politique de simplification."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-controle-rachats-etrangers
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "protéger les entreprises de l'agroalimen- taire face aux menaces de rachat et de démantèle- ment par des groupes étrangers"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 vise la protection contre les rachats étrangers dans le seul secteur agroalimentaire, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-encadrer-marges-distribution
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Garantir aux paysans des prix res- pectueux de leur travail et mettre un terme aux marges abusives de la grande distribution."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 veulent mettre fin aux marges abusives de la grande distribution, sans préciser un encadrement par la loi."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-participations-etat-industrie
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "il sera destiné à l'investissement, dans l'économie française bien sûr, mais également dans des actifs stratégiques pour la souveraineté de la France à l'étranger"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 crée un fonds souverain investissant dans l'économie française et des actifs stratégiques, sans viser expressément des participations dans des entreprises industrielles."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: economie-supprimer-agences-etat
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Supprimer les ARS et réduire à 10% les postes administratifs dans les hôpi- taux"
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 suppriment les agences régionales de santé, une catégorie d'agences de l'État, sans programme général de suppression d'opérateurs."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-accelerer-eolien-terrestre
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Arrêter les projets éoliens et dé- manteler progressivement les parcs existants."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 prévoient l'arrêt des projets éoliens et le démantèlement des parcs, contraire explicite de l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-nouveaux-reacteurs-au-dela-epr2
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "engager sans tarder le renouvellement de notre parc nucléaire"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 prévoit le renouvellement du parc nucléaire sans chiffrer le nombre de réacteurs ni le situer par rapport aux six EPR2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-petits-reacteurs-modulaires
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "reprendre les études sur les réacteurs à neutrons rapides, scan- daleusement aban- donnés par Emma- nuel Macron, et les petits réacteurs mo- dulaires"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 prévoit de reprendre les études sur les petits réacteurs modulaires, sans mentionner un financement public de leur développement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-prolonger-reacteurs-60-ans
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "le parc nucléaire français sera inté- gralement préservé et sa durée de vie prolongée, sous le contrôle de l'Autorité de sûreté nucléaire"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 prévoit de prolonger la durée de vie du parc sous contrôle de l'autorité de sûreté, sans mentionner le seuil de 60 ans."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-reduire-part-nucleaire
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "Mon ambi- tion n'est pas seule- ment de préserver le nucléaire français, elle est d'en faire le pivot de notre politique énergétique"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 veut préserver intégralement le parc nucléaire et en faire le pivot de la politique énergétique, à l'opposé d'une réduction de sa part."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-supprimer-aides-solaire-eolien
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "Enfin il sera mis fin au sub- ventionnement de ces énergies intermittentes."
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 met fin aux subventions des énergies intermittentes dans un passage consacré aux éoliennes, sans mentionner le solaire, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: energie-suspendre-nouvelles-eoliennes
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "un moratoire sur la construction de toute nouvelle éolienne, sur terre ou mer, sera ins- tauré"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 prévoit un moratoire sur toute nouvelle éolienne terrestre ou maritime."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: environnement-calendrier-logements-mal-isoles
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - marine-le-pen-henin-beaumont-2026
+  quote: "supprimer les \"contraintes\" liées aux diagnostics de performance énergétique (DPE)"
+  quoteSource: marine-le-pen-henin-beaumont-2026
+  justification: "Selon ce compte rendu de 2026, la candidate veut supprimer les contraintes liées au DPE, sur lequel repose l'interdiction de louer les logements mal isolés, sans viser explicitement ce calendrier."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-baisse-impot-societes
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - marine-le-pen-ligne-economique-2026
+  quote: "elle a affiché sa volonté de baisser l'impôt sur les sociétés"
+  quoteSource: marine-le-pen-ligne-economique-2026
+  justification: "Selon ce compte rendu de 2026, la candidate veut baisser l'impôt sur les sociétés ; en 2022 elle ne proposait qu'une exonération pour les entrepreneurs de moins de 30 ans."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-impot-fortune-retabli
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Supprimer l'IFI qui taxe l'enracinement et créer un IFF, impôt sur la fortune financière, pour taxer la spéculation."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 créent un impôt sur la fortune financière ; le programme le limite aux produits financiers détenus depuis moins de 10 ans, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-reduire-droits-succession
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Supprimer les impôts sur l'héritage direct pour les familles modestes et les classes moyennes."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 suppriment l'impôt sur l'héritage direct pour les familles modestes et moyennes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-supprimer-ifi
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Supprimer l'IFI qui taxe l'enracinement"
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 proposent de supprimer l'impôt sur la fortune immobilière."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-supprimer-impots-production
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "Il s'agira de supprimer la Cotisation Fon- cière des Entreprises, CFE. La suppres- sion de la Contribution Sociale de Solida- rité des Sociétés, C3S, sera quant à elle réservée aux zones de relocalisation."
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 supprime la CFE mais réserve la suppression de la C3S aux zones de relocalisation, soit une suppression partielle des impôts de production."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: fiscalite-taxe-benefices-exceptionnels
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - marine-le-pen-ligne-economique-2026
+  quote: "elle défend une taxation des superprofits"
+  quoteSource: marine-le-pen-ligne-economique-2026
+  justification: "Selon ce compte rendu de 2026, la candidate défend une taxation des superprofits."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-asile-examen-hors-europe-v2
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Traiter les demandes de droit d'asile uniquement à l'étranger."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 prévoient l'examen des demandes d'asile uniquement à l'étranger, sans préciser des centres hors de l'Union européenne, d'où 1 plutôt que 2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: immigration-condamnes-perte-titre-sejour
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Expulser systématiquement les clandestins, délinquants et criminels étrangers."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 prévoient l'expulsion systématique des étrangers délinquants, sans viser expressément le retrait du titre après une peine de prison ferme."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-prestations-duree-residence
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Réserver les aides sociales aux Français, et conditionner à 5 années de travail en France l'accès aux pres- tations de solidarité."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 conditionnent l'accès aux prestations de solidarité à cinq années de travail en France, condition plus stricte que cinq ans de résidence."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-regroupement-familial-ressources
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Mettre fin à l'immigration de peu- plement et au regroupement familial."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 proposent de mettre fin au regroupement familial, mesure plus radicale que des conditions de ressources plus strictes, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-regularisation-cinq-ans
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "les étrangers en situation irrégulière, les étrangers criminels ou délinquants soient systématiquement et immédiate- ment reconduits à la frontière"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 prévoit la reconduite systématique des étrangers en situation irrégulière, sans se prononcer explicitement sur la régularisation."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-supprimer-droit-du-sol
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Supprimer le droit du sol"
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 proposent de supprimer le droit du sol."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: immigration-titre-sejour-longue-duree
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Supprimer l'autorisation de séjour pour tout étranger n'ayant pas travail- lé depuis un an en France."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 retirent le droit au séjour après un an sans travail, ce qui va dans le sens contraire d'un accès facilité au séjour de longue durée."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: institutions-proportionnelle-legislatives
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Instaurer le Referendum d'Initiative Citoyenne et mettre en place la proportionnelle."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 proposent de mettre en place la proportionnelle."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-arrets-cedh-derogation-v2
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "afin d'empê- cher les juridictions supranationales de forcer la France à suivre des politiques contraires à la volon- té du peuple Français"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 veut empêcher par la Constitution les juridictions supranationales d'imposer leurs décisions en matière migratoire, sans nommer la CEDH, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: international-primaute-loi-nationale-v2
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "afin d'empê- cher les juridictions supranationales de forcer la France à suivre des politiques contraires à la volon- té du peuple Français"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 veut soustraire la France, en matière migratoire, aux décisions de juridictions supranationales contraires à la volonté populaire, sans viser nommément le droit de l'Union, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: international-quitter-commandement-otan
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "Cela suppose que la France se retire du commandement intégré de l'OTAN"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 propose explicitement le retrait du commandement intégré de l'OTAN ; aucune source de 2026 ne traite ce point."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: international-renegocier-traites-competences
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "la création d'une Al- liance Européenne des Nations qui a vocation à se substituer progressivement à l'Union Européenne"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 vise une Alliance européenne des nations remplaçant progressivement l'Union ; selon un compte rendu de 2026, la sortie de l'Union n'est plus envisagée, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-arret-construction-prisons
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Atteindre 85 000 places de prison en 2027."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 prévoient d'atteindre 85 000 places de prison, contraire explicite de l'arrêt des constructions."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-comparution-immediate-mineurs
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "Les mineurs délinquants doivent être sanctionnés sans délai"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 veut des sanctions sans délai pour les mineurs délinquants, sans mentionner la comparution immédiate."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-courtes-peines-alternatives
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "Les aménagements de peine et alternatives à la pri- son (bracelets électroniques, travaux d'intérêt gé- néral) seront drastiquement limités"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 limite fortement les alternatives à la prison, tout en les maintenant pour certains condamnés, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-peines-minimales-recidive
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Rétablir les peines planchers pour que tout criminel et délinquant aient une sanction."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 proposent de rétablir les peines planchers, au-delà des seuls récidivistes. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-perpetuite-reelle-etendue
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Établir une perpétuité réelle."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 proposent d'établir une perpétuité réelle sans préciser les crimes concernés."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-supprimer-reductions-automatiques
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Supprimer toute possibilité de ré- duction et d'aménagements de peine, en particulier pour les violences contre les personnes."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 suppriment toute possibilité de réduction de peine, ce qui inclut les réductions automatiques."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: justice-tig-delits-sans-violence
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "Les aménagements de peine et alternatives à la pri- son (bracelets électroniques, travaux d'intérêt gé- néral) seront drastiquement limités"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 limite fortement le travail d'intérêt général, qui reste réservé aux condamnés sans danger pour l'ordre public, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: securite-hausse-effectifs-police
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "il faut augmenter les effectifs et les budgets des forces de l'ordre et de la justice"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 prévoit d'augmenter les effectifs des forces de l'ordre sans chiffrer la hausse."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: securite-limiter-dissolution-associations
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "seront systématiquement dissoutes"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 prévoit la dissolution systématique de certaines associations islamistes, ce qui va dans le sens contraire d'une limitation de ce pouvoir sans l'aborder explicitement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: securite-presomption-legitime-defense
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Instituer une présomption de légi- time défense pour les forces de l'ordre."
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 proposent une présomption de légitime défense pour les forces de l'ordre."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: societe-gpa-interdite-v2
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-programme-2022
+  quote: "la gestion pour autrui, GPA, dont l'interdiction pourra être renforcée"
+  quoteSource: marine-le-pen-programme-2022
+  justification: "Le programme de 2022 maintient l'interdiction de la GPA et envisage de la renforcer, ce qui correspond à l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: societe-uniforme-ecole-publique
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "l'instauration d'un uniforme au primaire et au collège"
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 instaurent l'uniforme au primaire et au collège, sans le lycée, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: transport-autoroutes-concedees-v2
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - marine-le-pen-22-mesures-2022
+  quote: "Renationaliser les autoroutes pour baisser de 15% les péages"
+  quoteSource: marine-le-pen-22-mesures-2022
+  justification: "Les 22 mesures de 2022 proposent de renationaliser les autoroutes, contraire explicite du maintien de leur exploitation en concession privée."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-11
+
+- question: travail-retraite-62-ans
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - marine-le-pen-ligne-economique-2026
+  quote: "Elle défend désormais un départ à 62 ans, avec des aménagements pour les personnes ayant commencé à travailler tôt."
+  quoteSource: marine-le-pen-ligne-economique-2026
+  justification: "Selon ce compte rendu de 2026, la candidate défend un départ à 62 ans ; en 2022 elle proposait un départ à 60 ans pour les carrières commencées avant 20 ans."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
+
+- question: travail-retraite-au-dela-64-ans
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - marine-le-pen-ligne-economique-2026
+  quote: "Elle défend désormais un départ à 62 ans, avec des aménagements pour les personnes ayant commencé à travailler tôt."
+  quoteSource: marine-le-pen-ligne-economique-2026
+  justification: "Selon ce compte rendu de 2026, la candidate défend un départ à 62 ans, comme en 2022 où elle refusait tout allongement ; le même article note qu'elle ne tranche pas sur une nouvelle réforme."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-09
