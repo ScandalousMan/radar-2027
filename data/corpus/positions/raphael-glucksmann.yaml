@@ -281,20 +281,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: economie-participations-etat-industrie
-  value: 1
-  evidence: livre_plateforme
-  sources:
-    - raphael-glucksmann-place-publique-acte-1
-  quote: création de fonds régionaux conséquents pour permettre aux Régions d'entrer au capital d'entreprises clés
-  quoteSource: raphael-glucksmann-place-publique-acte-1
-  justification: La plateforme propose que les Régions, et non l'État, entrent au capital d'entreprises clés.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
-
 - question: economie-plafonnement-loyers-zones-tendues
   value: 1
   evidence: livre_plateforme
@@ -730,20 +716,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: international-reduire-contribution-ue
-  value: -1
-  evidence: livre_plateforme
-  sources:
-    - raphael-glucksmann-place-publique-acte-1
-  quote: Augmenter massivement le budget de l'Union pour lui permettre de lancer des politiques publiques
-  quoteSource: raphael-glucksmann-place-publique-acte-1
-  justification: La plateforme veut augmenter massivement le budget de l'UE, sans se prononcer explicitement sur la contribution française.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
-
 - question: international-renforcer-sanctions-russie
   value: 1
   evidence: livre_plateforme
@@ -884,33 +856,19 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: societe-conge-second-parent
-  value: 1
-  evidence: livre_plateforme
-  sources:
-    - raphael-glucksmann-place-publique-acte-1
-  quote: Réformer le congé parental pour plus d'égalité entre les hommes et les femmes
-  quoteSource: raphael-glucksmann-place-publique-acte-1
-  justification: La plateforme veut réformer le congé parental pour plus d'égalité, sans viser explicitement l'alignement du congé de naissance du second parent.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
-
 - question: societe-service-national-obligatoire
-  value: 2
+  value: 1
   evidence: declaration_vote
   sources:
     - raphael-glucksmann-livre-2026-lcp
   quote: Raphaël Glucksmann propose également d'instaurer un service civique obligatoire de dix mois pour toutes les jeunes Français
   quoteSource: raphael-glucksmann-livre-2026-lcp
-  justification: Selon le compte rendu de son livre, il propose un service civique obligatoire de dix mois pour tous les jeunes, la dimension militaire restant volontaire.
+  justification: "Selon le compte rendu de son livre, il propose un service civique obligatoire de dix mois pour tous les jeunes, la dimension militaire restant volontaire : version partielle d'un service national obligatoire, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: societe-simplifier-changement-sexe-etat-civil
   value: 1
