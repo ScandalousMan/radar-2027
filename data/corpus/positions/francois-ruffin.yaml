@@ -439,18 +439,18 @@
   authoredAt: 2026-11-09
 
 - question: numerique-donnees-sante-hebergeurs-europeens
-  value: 1
+  value: 2
   evidence: programme
   sources:
     - francois-ruffin-cahier-industrie
-  quote: "Édouard Philippe a aggravé cette dépendance en confiant en 2019 la plateforme nationale des données de santé à Microsoft."
+  quote: 'L''obligation de recourir à SecNumCloud " 100% UE " sera étendue progressivement aux administrations de l''État, puis aux secteurs industriels stratégiques : industrie de défense, transports, banques, santé.'
   quoteSource: francois-ruffin-cahier-industrie
-  justification: "Le programme critique l'hébergement des données de santé par Microsoft et prévoit d'étendre au secteur de la santé l'obligation de cloud certifié européen."
+  justification: "Le programme étend progressivement au secteur de la santé l'obligation de recourir à un cloud SecNumCloud réservé aux acteurs de droit européen, après avoir critiqué l'hébergement des données de santé par Microsoft : c'est la mesure de l'énoncé, d'où 2."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: numerique-faciliter-centres-donnees
   value: -1

@@ -1,0 +1,1222 @@
+[
+  {
+    "ref": "P0007",
+    "candidate": "anasse-kazib",
+    "question": "democratie-referendum-revocatoire",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "La citation rend les élus révocables, mais ne dit pas que les électeurs les révoquent par référendum. Le mécanisme constitutif de l’énoncé manque."
+  },
+  {
+    "ref": "P0009",
+    "candidate": "anasse-kazib",
+    "question": "economie-participations-etat-industrie",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "L’expropriation et le contrôle par les travailleurs ne sont pas des prises de participations de l’État : l’instrument et l’acteur de propriété diffèrent."
+  },
+  {
+    "ref": "P0016",
+    "candidate": "anasse-kazib",
+    "question": "societe-signes-religieux-sorties-scolaires",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "L’abrogation de la loi de 2004 sur les signes religieux à l’école ne tranche pas directement l’interdiction visant les accompagnateurs de sorties scolaires."
+  },
+  {
+    "ref": "P0017",
+    "candidate": "anasse-kazib",
+    "question": "societe-signes-religieux-universite",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "La citation sur la loi de 2004 à l’école ne prend pas directement position sur l’interdiction de signes religieux aux étudiants à l’université."
+  },
+  {
+    "ref": "P0018",
+    "candidate": "anasse-kazib",
+    "question": "societe-simplifier-changement-sexe-etat-civil",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Des transitions libres et gratuites ne disent rien de la procédure administrative de changement de la mention du sexe à l’état civil."
+  },
+  {
+    "ref": "P0022",
+    "candidate": "anasse-kazib",
+    "question": "travail-plateformes-presomption-salariat",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "La demande de CDI pour tous ne vise ni spécifiquement les travailleurs des plateformes ni la présomption juridique de salariat."
+  },
+  {
+    "ref": "P0029",
+    "candidate": "bruno-retailleau",
+    "question": "democratie-referendum-exceptionnel",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Vouloir soumettre toute question législative au référendum ne renseigne pas sur la fréquence d’utilisation et ne suffit pas à rejeter son caractère exceptionnel."
+  },
+  {
+    "ref": "P0033",
+    "candidate": "bruno-retailleau",
+    "question": "energie-accelerer-eolien-terrestre",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "La fin des soutiens publics aux nouvelles capacités éoliennes ne dit pas si l’implantation des éoliennes terrestres doit être accélérée ou freinée."
+  },
+  {
+    "ref": "P0038",
+    "candidate": "bruno-retailleau",
+    "question": "environnement-plastique-usage-unique-2030",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Le moratoire vise les interdictions allant au-delà du droit européen ; la citation ne s’oppose pas directement à une interdiction des emballages à usage unique d’ici 2030."
+  },
+  {
+    "ref": "P0045",
+    "candidate": "bruno-retailleau",
+    "question": "immigration-prestations-duree-residence",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "La fin des aides sociales automatiques ne fixe pas une condition de cinq ans de résidence : suppression, condition d’accès et durée sont des mesures distinctes."
+  },
+  {
+    "ref": "P0048",
+    "candidate": "bruno-retailleau",
+    "question": "international-arrets-cedh-derogation-v2",
+    "current": 2,
+    "verdict": "FLAG",
+    "proposed": null,
+    "severity": "low",
+    "reason": "La citation parle de « jurisprudence européenne » sans identifier dans l’extrait la CEDH ni ses arrêts ; le lien avec l’énoncé dépend du contexte."
+  },
+  {
+    "ref": "P0051",
+    "candidate": "bruno-retailleau",
+    "question": "justice-sanction-financiere-parents",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Les allocations visées concernent les parents d’élèves violents ou absentéistes, pas directement les parents de mineurs délinquants."
+  },
+  {
+    "ref": "P0061",
+    "candidate": "david-lisnard",
+    "question": "democratie-seuil-rip-maintenu-v2",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Un seuil de signatures pour un référendum d’initiative populaire ne permet pas de conclure sur le seuil légal du référendum d’initiative partagée (RIP)."
+  },
+  {
+    "ref": "P0067",
+    "candidate": "david-lisnard",
+    "question": "energie-petits-reacteurs-modulaires",
+    "current": 2,
+    "verdict": "FLAG",
+    "proposed": null,
+    "severity": "low",
+    "reason": "Le déploiement de mini-réacteurs est cité, mais l’extrait ne précise pas que l’État finance leur développement ; l’origine publique des sommes dépend du contexte."
+  },
+  {
+    "ref": "P0069",
+    "candidate": "david-lisnard",
+    "question": "energie-supprimer-aides-solaire-eolien",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Faire rentrer les projets renouvelables dans le droit commun ne signifie pas supprimer les aides publiques à leur production."
+  },
+  {
+    "ref": "P0075",
+    "candidate": "david-lisnard",
+    "question": "immigration-amende-sejour-irregulier",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Rétablir le délit de séjour irrégulier ne précise pas qu’il sera sanctionné par une amende plutôt que par une autre peine."
+  },
+  {
+    "ref": "P0076",
+    "candidate": "david-lisnard",
+    "question": "immigration-asile-examen-hors-europe-v2",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Des consulats à l’étranger ne garantissent ni des centres situés hors de l’UE ni l’examen des demandes dans de tels centres."
+  },
+  {
+    "ref": "P0078",
+    "candidate": "david-lisnard",
+    "question": "immigration-plafond-annuel-admissions",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Des quotas d’immigration économique ne prouvent ni un plafond annuel global ni sa fixation par le Parlement."
+  },
+  {
+    "ref": "P0084",
+    "candidate": "david-lisnard",
+    "question": "institutions-adaptation-lois-regions",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Le transfert du pouvoir réglementaire d’application de la loi aux collectivités n’équivaut pas à leur donner le pouvoir d’adapter les lois elles-mêmes."
+  },
+  {
+    "ref": "P0094",
+    "candidate": "david-lisnard",
+    "question": "numerique-logiciels-libres-administration",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Refuser des serveurs non maîtrisés ne soutient directement ni les logiciels libres ni leur hébergement en Europe dans les administrations."
+  },
+  {
+    "ref": "P0095",
+    "candidate": "david-lisnard",
+    "question": "securite-pouvoirs-polices-municipales",
+    "current": 2,
+    "verdict": "FLAG",
+    "proposed": null,
+    "severity": "low",
+    "reason": "La qualité d’OPJ/APJ ne démontre pas à elle seule l’attribution aux polices territoriales des mêmes pouvoirs d’enquête que la police nationale."
+  },
+  {
+    "ref": "P0102",
+    "candidate": "delphine-batho",
+    "question": "agriculture-pesticides-moitie-2030",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "La conversion à l’agriculture biologique ne fixe pas directement une réduction de moitié des pesticides de synthèse d’ici 2030."
+  },
+  {
+    "ref": "P0108",
+    "candidate": "delphine-batho",
+    "question": "institutions-competences-retour-etat-v2",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Donner davantage de pouvoir au niveau local est une orientation générale, sans mesure explicite de transfert de compétences des collectivités vers l’État ou inversement."
+  },
+  {
+    "ref": "P0109",
+    "candidate": "delphine-batho",
+    "question": "numerique-assouplir-regles-ia",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Appliquer la réglementation européenne existante ne signifie pas s’opposer à son assouplissement ; la citation ne prend pas position sur une modification des règles."
+  },
+  {
+    "ref": "P0110",
+    "candidate": "edouard-philippe",
+    "question": "agriculture-alleger-normes-agricoles",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "L’absence de surtransposition agricole n’équivaut pas à un allègement des normes environnementales imposées aux agriculteurs."
+  },
+  {
+    "ref": "P0113",
+    "candidate": "edouard-philippe",
+    "question": "defense-effectifs-armees-hausse",
+    "current": 1,
+    "verdict": "FLAG",
+    "proposed": null,
+    "severity": "low",
+    "reason": "La « massification » et l’extension des armées ne précisent pas que les effectifs augmenteront d’au moins 10 % d’ici 2030."
+  },
+  {
+    "ref": "P0119",
+    "candidate": "edouard-philippe",
+    "question": "energie-centres-donnees-pres-centrales",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Un accès préférentiel à l’énergie décarbonée ne vise pas directement les centres de données ni l’électricité issue des centrales nucléaires."
+  },
+  {
+    "ref": "P0121",
+    "candidate": "edouard-philippe",
+    "question": "energie-reduire-part-nucleaire",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Relancer le nucléaire ne permet pas de déduire l’évolution de sa part dans le mix électrique, qui peut aussi dépendre de la croissance de la production totale."
+  },
+  {
+    "ref": "P0122",
+    "candidate": "edouard-philippe",
+    "question": "environnement-pause-normes-europeennes",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Le moratoire proposé est national ; il ne prend pas directement position sur l’adoption de normes environnementales par l’Union européenne."
+  },
+  {
+    "ref": "P0124",
+    "candidate": "edouard-philippe",
+    "question": "fiscalite-baisse-cotisations-salaries",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Rééquilibrer le financement du modèle social et augmenter le salaire net ne précise pas que les cotisations sociales salariales doivent baisser."
+  },
+  {
+    "ref": "P0128",
+    "candidate": "edouard-philippe",
+    "question": "fiscalite-reduire-credits-impot",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Supprimer des niches fiscales ne répond pas à la question de diminuer de moitié le montant total des réductions et crédits d’impôt."
+  },
+  {
+    "ref": "P0133",
+    "candidate": "edouard-philippe",
+    "question": "immigration-plafond-annuel-admissions",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Des quotas pour l’immigration économique ne suffisent pas à établir un plafond annuel global du nombre d’étrangers admis au séjour fixé par le Parlement."
+  },
+  {
+    "ref": "P0134",
+    "candidate": "edouard-philippe",
+    "question": "immigration-prestations-duree-residence",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Aligner les aides sociales sur la moyenne européenne ne correspond pas à une condition de cinq ans de résidence."
+  },
+  {
+    "ref": "P0137",
+    "candidate": "edouard-philippe",
+    "question": "international-arrets-cedh-derogation-v2",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Ne pas sortir de la CEDH ne signifie pas que la France doit exécuter tous ses arrêts ; la citation ne tranche pas la non-exécution de certains arrêts."
+  },
+  {
+    "ref": "P0138",
+    "candidate": "edouard-philippe",
+    "question": "international-renegocier-traites-competences",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Prôner l’approfondissement de l’Europe ne répond pas directement à la renégociation des traités pour rendre des compétences aux États."
+  },
+  {
+    "ref": "P0139",
+    "candidate": "edouard-philippe",
+    "question": "justice-comparution-immediate-mineurs",
+    "current": 1,
+    "verdict": "FLAG",
+    "proposed": null,
+    "severity": "low",
+    "reason": "La comparution immédiate des mineurs est mentionnée, mais l’extrait ne précise pas qu’elle concerne les mineurs de plus de 16 ans."
+  },
+  {
+    "ref": "P0142",
+    "candidate": "edouard-philippe",
+    "question": "justice-majorite-penale-16-ans",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Lever l’excuse de minorité pour certaines infractions ne revient pas à abaisser la majorité pénale à 16 ans."
+  },
+  {
+    "ref": "P0143",
+    "candidate": "edouard-philippe",
+    "question": "justice-peines-minimales-recidive",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Des peines planchers pour les infractions les plus graves ne visent pas directement les récidivistes, critère central de l’énoncé."
+  },
+  {
+    "ref": "P0144",
+    "candidate": "edouard-philippe",
+    "question": "justice-sanction-financiere-parents",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "L’amende vise les parents d’enfants harceleurs, perturbateurs ou absentéistes dans le cadre scolaire, pas les parents de mineurs délinquants en général."
+  },
+  {
+    "ref": "P0145",
+    "candidate": "edouard-philippe",
+    "question": "justice-supprimer-reductions-automatiques",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Supprimer le juge d’application des peines ne revient pas à supprimer les réductions automatiques de peine : les mécanismes sont distincts."
+  },
+  {
+    "ref": "P0147",
+    "candidate": "edouard-philippe",
+    "question": "numerique-logiciels-libres-administration",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Une préférence européenne dans les achats technologiques ne dit pas que les administrations doivent prioriser les logiciels libres ou hébergés en Europe."
+  },
+  {
+    "ref": "P0148",
+    "candidate": "edouard-philippe",
+    "question": "sante-depenses-assurance-maladie-inflation",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Stabiliser les dépenses de santé ne fixe pas leur progression à l’inflation ; la justification signale elle-même une autre orientation d’investissement."
+  },
+  {
+    "ref": "P0149",
+    "candidate": "edouard-philippe",
+    "question": "securite-reconnaissance-faciale-police",
+    "current": 1,
+    "verdict": "FLAG",
+    "proposed": null,
+    "severity": "low",
+    "reason": "Une utilisation « ciblée » de la reconnaissance faciale ne précise pas qu’il s’agit de reconnaissance en temps réel dans l’espace public pour la police."
+  },
+  {
+    "ref": "P0151",
+    "candidate": "edouard-philippe",
+    "question": "transport-subventionner-fret-ferroviaire",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Un plan fret ferroviaire ne précise pas que l’État subventionnera directement le fret pour le rendre concurrentiel face à la route."
+  },
+  {
+    "ref": "P0165",
+    "candidate": "eric-zemmour",
+    "question": "defense-priorite-depenses-sociales",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Juger la protection sociale trop élevée et les dépenses régaliennes insuffisantes ne formule pas une règle de priorité des dépenses sociales ou militaires dans le budget."
+  },
+  {
+    "ref": "P0175",
+    "candidate": "eric-zemmour",
+    "question": "economie-assouplir-seuils-effectifs",
+    "current": 2,
+    "verdict": "CHANGE_VALUE",
+    "proposed": 1,
+    "severity": "medium",
+    "reason": "Le relèvement du seuil de 50 à 250 salariés ne concerne qu’une obligation précise (consultation du CSE) ; c’est une version partielle de l’assouplissement des obligations liées aux seuils."
+  },
+  {
+    "ref": "P0177",
+    "candidate": "eric-zemmour",
+    "question": "economie-controle-rachats-etrangers",
+    "current": 2,
+    "verdict": "CHANGE_VALUE",
+    "proposed": 1,
+    "severity": "medium",
+    "reason": "Le contrôle de tous les investissements étrangers est plus large que le seul contrôle des rachats d’entreprises françaises ; selon la convention 4a, la mesure plus large vaut +1."
+  },
+  {
+    "ref": "P0180",
+    "candidate": "eric-zemmour",
+    "question": "economie-prix-energie-reglementes",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Un tarif régulé de l’électricité nucléaire en amont ne répond pas directement à la réglementation par l’État des prix de l’énergie payés par les ménages."
+  },
+  {
+    "ref": "P0191",
+    "candidate": "eric-zemmour",
+    "question": "fiscalite-baisse-cotisations-salaries",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "La CSG est un prélèvement social distinct des cotisations sociales ; sa baisse ne soutient pas directement une baisse des cotisations salariales."
+  },
+  {
+    "ref": "P0202",
+    "candidate": "eric-zemmour",
+    "question": "immigration-amende-sejour-irregulier",
+    "current": 2,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Rétablir le délit de séjour irrégulier et pouvoir sanctionner pénalement ne précise pas que la sanction sera une amende."
+  },
+  {
+    "ref": "P0203",
+    "candidate": "eric-zemmour",
+    "question": "immigration-asile-examen-hors-europe-v2",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Le dépôt des demandes dans des consulats hors de France n’établit pas leur examen dans des centres hors de l’Union européenne."
+  },
+  {
+    "ref": "P0204",
+    "candidate": "eric-zemmour",
+    "question": "immigration-asile-examen-sans-transfert",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Le dépôt des demandes dans des consulats ne démontre pas que la France refuse le mécanisme européen de transfert vers l’État responsable de l’examen."
+  },
+  {
+    "ref": "P0223",
+    "candidate": "eric-zemmour",
+    "question": "justice-juridictions-mineurs-specialisees-v2",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Abaisser la majorité pénale à 16 ans ne démontre pas que les juridictions des mineurs et des majeurs seront fusionnées."
+  },
+  {
+    "ref": "P0239",
+    "candidate": "eric-zemmour",
+    "question": "societe-signes-religieux-universite",
+    "current": 1,
+    "verdict": "FLAG",
+    "proposed": null,
+    "severity": "low",
+    "reason": "L’interdiction du voile dans l’espace public ne permet pas de trancher sans ambiguïté son application aux étudiants dans les locaux universitaires ; le champ juridique d’« espace public » est à clarifier."
+  },
+  {
+    "ref": "P0243",
+    "candidate": "eric-zemmour",
+    "question": "transport-supprimer-controle-technique-motos-v2",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Refuser en 2022 d’étendre le contrôle technique aux deux-roues ne répond pas à la suppression d’un contrôle périodique devenu obligatoire depuis lors."
+  },
+  {
+    "ref": "P0246",
+    "candidate": "eric-zemmour",
+    "question": "travail-retraite-62-ans",
+    "current": -2,
+    "verdict": "FLAG",
+    "proposed": null,
+    "severity": "low",
+    "reason": "La seule citation fournie date de 2022 et ne permet pas de savoir si la position sur l’âge de départ a été maintenue ou actualisée depuis ; la date de la source appelle une validation humaine."
+  },
+  {
+    "ref": "P0247",
+    "candidate": "fabien-roussel",
+    "question": "defense-budget-armees-3-pib",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Refuser un budget de défense à 5 % du PIB ne permet pas de déduire une opposition à un objectif de 3 % du PIB."
+  },
+  {
+    "ref": "P0254",
+    "candidate": "fabien-roussel",
+    "question": "defense-reduire-presence-etranger",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Centrer les forces armées sur la défense du territoire ne demande pas directement de réduire la présence militaire française à l’étranger."
+  },
+  {
+    "ref": "P0255",
+    "candidate": "fabien-roussel",
+    "question": "defense-second-porte-avions",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "S’opposer à la construction d’un porte-avions nucléaire de nouvelle génération ne répond pas à la question de construire un second porte-avions, qui pourrait être d’un autre type."
+  },
+  {
+    "ref": "P0258",
+    "candidate": "fabien-roussel",
+    "question": "democratie-petition-debat-parlement",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Un « droit de pétition effectif » ne fixe ni le seuil d’un million de signataires ni l’obligation d’un débat en séance au Parlement."
+  },
+  {
+    "ref": "P0259",
+    "candidate": "fabien-roussel",
+    "question": "democratie-referendum-exceptionnel",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Soutenir un RIC ne suffit pas à établir que le recours au référendum ne doit pas rester exceptionnel : le mécanisme ne fixe aucune fréquence."
+  },
+  {
+    "ref": "P0263",
+    "candidate": "fabien-roussel",
+    "question": "economie-aides-conditionnees-emploi",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Conditionner et contrôler l’argent public versé aux entreprises ne précise pas que la condition doit porter sur le maintien de l’emploi en France."
+  },
+  {
+    "ref": "P0269",
+    "candidate": "fabien-roussel",
+    "question": "energie-nouveaux-reacteurs-au-dela-epr2",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Doubler les capacités de production nucléaire ne démontre pas qu’il faut construire des réacteurs au-delà des six EPR2 ; d’autres leviers ne sont pas exclus par la citation."
+  },
+  {
+    "ref": "P0270",
+    "candidate": "fabien-roussel",
+    "question": "energie-reduire-part-nucleaire",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Doubler les capacités nucléaires ne permet pas de conclure sur la part du nucléaire dans la production totale d’électricité."
+  },
+  {
+    "ref": "P0271",
+    "candidate": "fabien-roussel",
+    "question": "environnement-assouplir-artificialisation",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Combattre l’artificialisation des sols ne prend pas directement position sur l’assouplissement des objectifs réglementaires de réduction."
+  },
+  {
+    "ref": "P0272",
+    "candidate": "fabien-roussel",
+    "question": "environnement-supprimer-zfe",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Combattre les ZFE ne signifie pas nécessairement demander leur suppression ; la citation ne formule pas cette mesure."
+  },
+  {
+    "ref": "P0274",
+    "candidate": "fabien-roussel",
+    "question": "fiscalite-reduire-credits-impot",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Supprimer les exonérations fiscales des grandes entreprises ne répond pas à la réduction de moitié de l’ensemble des réductions et crédits d’impôt."
+  },
+  {
+    "ref": "P0275",
+    "candidate": "fabien-roussel",
+    "question": "immigration-asile-examen-hors-europe-v2",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "S’opposer aux centres de rétention extraterritoriaux ne répond pas directement à l’examen des demandes d’asile dans des centres hors UE."
+  },
+  {
+    "ref": "P0280",
+    "candidate": "fabien-roussel",
+    "question": "institutions-adaptation-lois-regions",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Rejeter le fédéralisme et la « République morcelée » ne suffit pas à rejeter un pouvoir régional d’adaptation des lois, qui peut exister sans fédéralisme."
+  },
+  {
+    "ref": "P0282",
+    "candidate": "fabien-roussel",
+    "question": "institutions-ordre-du-jour-parlement",
+    "current": 2,
+    "verdict": "CHANGE_VALUE",
+    "proposed": 1,
+    "severity": "medium",
+    "reason": "La maîtrise de l’ordre du jour par le Parlement est explicite, mais l’extrait ne dit pas qu’il doit en disposer seul ni supprimer toute priorité gouvernementale."
+  },
+  {
+    "ref": "P0283",
+    "candidate": "fabien-roussel",
+    "question": "institutions-parlement-interventions-militaires",
+    "current": 2,
+    "verdict": "CHANGE_VALUE",
+    "proposed": 1,
+    "severity": "medium",
+    "reason": "La condition d’approbation parlementaire vise les projections militaires extérieures hors mandat de l’ONU, pas nécessairement toute intervention extérieure ; la portée est donc partielle."
+  },
+  {
+    "ref": "P0286",
+    "candidate": "fabien-roussel",
+    "question": "international-quitter-commandement-otan",
+    "current": 2,
+    "verdict": "CHANGE_VALUE",
+    "proposed": 1,
+    "severity": "medium",
+    "reason": "La sortie de l’OTAN est plus large que la seule sortie de son commandement intégré ; la convention 4a conduit à +1."
+  },
+  {
+    "ref": "P0288",
+    "candidate": "fabien-roussel",
+    "question": "justice-courtes-peines-alternatives",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Favoriser les peines aménagées pour les personnes les moins dangereuses ne dit pas que les peines de prison de moins d’un an doivent être remplacées par des alternatives."
+  },
+  {
+    "ref": "P0289",
+    "candidate": "fabien-roussel",
+    "question": "justice-plafonner-detenus-places",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Vouloir mettre fin à la surpopulation carcérale ne signifie pas instaurer un plafond légal du nombre de détenus égal au nombre de places."
+  },
+  {
+    "ref": "P0290",
+    "candidate": "fabien-roussel",
+    "question": "numerique-logiciels-libres-administration",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Créer un pôle public du numérique fondé sur le logiciel libre ne précise pas que les administrations doivent l’utiliser en priorité."
+  },
+  {
+    "ref": "P0294",
+    "candidate": "fabien-roussel",
+    "question": "sante-psychologues-rembourses",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Intégrer la santé mentale à la Sécurité sociale ne précise pas le remboursement des consultations de psychologues ni l’absence de limite de nombre."
+  },
+  {
+    "ref": "P0295",
+    "candidate": "fabien-roussel",
+    "question": "securite-enquetes-policiers-independantes",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Une institution indépendante permettant les recours contre les abus n’est pas nécessairement un organisme indépendant chargé des enquêtes visant des policiers."
+  },
+  {
+    "ref": "P0296",
+    "candidate": "fabien-roussel",
+    "question": "securite-pouvoirs-polices-municipales",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Refuser que la police municipale soit le supplétif de la police nationale ne tranche pas la question de l’égalité de leurs pouvoirs d’enquête."
+  },
+  {
+    "ref": "P0301",
+    "candidate": "fabien-roussel",
+    "question": "transport-subventionner-fret-ferroviaire",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Investir dans les infrastructures ferroviaires pour favoriser le fret ne signifie pas subventionner directement l’exploitation du fret ferroviaire."
+  },
+  {
+    "ref": "P0310",
+    "candidate": "florian-philippot",
+    "question": "defense-armes-ukraine",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Cesser d’« entretenir la guerre » ne précise pas que la France doit réduire ou cesser ses livraisons d’armes à l’Ukraine."
+  },
+  {
+    "ref": "P0313",
+    "candidate": "florian-philippot",
+    "question": "democratie-champ-referendum-inchange",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Le RIC sur tout sujet est un mécanisme distinct ; il ne démontre pas que le champ actuel du référendum législatif doit être élargi à tous les domaines."
+  },
+  {
+    "ref": "P0314",
+    "candidate": "florian-philippot",
+    "question": "democratie-referendum-exceptionnel",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "La création d’un RIC ne renseigne pas sur la fréquence du recours au référendum et ne suffit pas à rejeter son caractère exceptionnel."
+  },
+  {
+    "ref": "P0326",
+    "candidate": "florian-philippot",
+    "question": "energie-nouveaux-reacteurs-au-dela-epr2",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Un investissement massif dans le nucléaire de nouvelle génération ne précise pas qu’il faut construire des réacteurs au-delà des six EPR2."
+  },
+  {
+    "ref": "P0342",
+    "candidate": "florian-philippot",
+    "question": "international-referendum-maintien-ue",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Le référendum constitutionnel n’est cité que comme l’une de plusieurs voies possibles pour sortir de l’UE ; le candidat ne s’engage pas à organiser un référendum sur le maintien dans l’Union."
+  },
+  {
+    "ref": "P0345",
+    "candidate": "florian-philippot",
+    "question": "justice-comparution-immediate-mineurs",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "La concomitance du jugement et de la sanction ne signifie pas une comparution immédiate au sens procédural de l’énoncé."
+  },
+  {
+    "ref": "P0347",
+    "candidate": "florian-philippot",
+    "question": "justice-majorite-penale-16-ans",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Supprimer l’excuse automatique de minorité ne revient pas à abaisser la majorité pénale à 16 ans."
+  },
+  {
+    "ref": "P0351",
+    "candidate": "florian-philippot",
+    "question": "numerique-alleger-moderation",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "La suppression des lois restreignant la liberté d’expression ne vise pas directement les obligations de modération imposées aux réseaux sociaux."
+  },
+  {
+    "ref": "P0357",
+    "candidate": "florian-philippot",
+    "question": "societe-aide-active-a-mourir",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Refuser l’incitation à l’euthanasie des personnes handicapées ne tranche pas l’autorisation de l’aide active à mourir pour tous les adultes atteints d’une maladie incurable."
+  },
+  {
+    "ref": "P0381",
+    "candidate": "francois-asselineau",
+    "question": "environnement-assouplir-artificialisation",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Lutter contre l’étalement urbain et l’artificialisation ne répond pas directement à l’assouplissement des objectifs réglementaires de réduction."
+  },
+  {
+    "ref": "P0385",
+    "candidate": "francois-asselineau",
+    "question": "fiscalite-hausse-taxe-transactions-financieres",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Élargir l’assiette de la taxe sur les transactions financières ne signifie pas en relever le taux."
+  },
+  {
+    "ref": "P0394",
+    "candidate": "francois-asselineau",
+    "question": "international-arrets-cedh-derogation-v2",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Se retirer de certains articles de la Convention européenne des droits de l’homme est un mécanisme juridique distinct de la non-exécution de certains arrêts de la CEDH."
+  },
+  {
+    "ref": "P0400",
+    "candidate": "francois-asselineau",
+    "question": "justice-accompagnement-emploi-detenus",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Rendre obligatoire le travail ou la formation en prison ne garantit pas un accompagnement vers l’emploi pendant toute la détention."
+  },
+  {
+    "ref": "P0413",
+    "candidate": "francois-asselineau",
+    "question": "societe-uniforme-ecole-publique",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Favoriser des vêtements neutres pour les élèves ne soutient pas directement l’obligation de porter une tenue uniforme à l’école publique."
+  },
+  {
+    "ref": "P0424",
+    "candidate": "francois-ruffin",
+    "question": "agriculture-derogations-neonicotinoides",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "La citation décrit la réautorisation des néonicotinoïdes comme un fait ou une conséquence des lobbies ; elle n’exprime pas la position propre du candidat sur les dérogations."
+  },
+  {
+    "ref": "P0427",
+    "candidate": "francois-ruffin",
+    "question": "agriculture-plafonner-aides-pac",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Répartir les aides de la PAC selon le travail humain plutôt que les hectares ne signifie pas plafonner les aides par exploitation."
+  },
+  {
+    "ref": "P0434",
+    "candidate": "francois-ruffin",
+    "question": "economie-controle-rachats-etrangers",
+    "current": 2,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Défendre les entreprises stratégiques face aux ingérences étrangères ne précise pas le renforcement du contrôle des rachats par des investisseurs étrangers."
+  },
+  {
+    "ref": "P0438",
+    "candidate": "francois-ruffin",
+    "question": "economie-vendre-participations-etat",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Refuser les privatisations et le démantèlement des services publics ne prend pas directement position sur la vente de participations de l’État dans des sociétés cotées."
+  },
+  {
+    "ref": "P0439",
+    "candidate": "francois-ruffin",
+    "question": "energie-accelerer-eolien-terrestre",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Poursuivre le développement de l’éolien ne signifie pas accélérer son implantation, et l’extrait ne distingue pas l’éolien terrestre."
+  },
+  {
+    "ref": "P0442",
+    "candidate": "francois-ruffin",
+    "question": "energie-prolonger-reacteurs-60-ans",
+    "current": 2,
+    "verdict": "CHANGE_VALUE",
+    "proposed": 1,
+    "severity": "medium",
+    "reason": "La prolongation des centrales sous réserve de sûreté est explicite, mais l’extrait ne dit pas « au-delà de 60 ans » ; il soutient une version voisine, pas la durée précise."
+  },
+  {
+    "ref": "P0444",
+    "candidate": "francois-ruffin",
+    "question": "environnement-ecocide-crime",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Créer un délit de faute systémique n’équivaut pas à reconnaître le crime d’écocide dans le Code pénal."
+  },
+  {
+    "ref": "P0445",
+    "candidate": "francois-ruffin",
+    "question": "environnement-plastique-usage-unique-2030",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Réduire les quantités de plastique et rétablir la consigne ne signifie pas interdire les emballages à usage unique d’ici 2030."
+  },
+  {
+    "ref": "P0447",
+    "candidate": "francois-ruffin",
+    "question": "fiscalite-impot-fortune-retabli",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Reprocher au président de ne pas avoir rétabli l’ISF ne constitue pas une proposition propre du candidat en faveur de son rétablissement."
+  },
+  {
+    "ref": "P0451",
+    "candidate": "francois-ruffin",
+    "question": "fiscalite-supprimer-impots-production",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Juger inefficace une baisse des impôts de production ne signifie pas proposer de supprimer ou de refuser cette baisse."
+  },
+  {
+    "ref": "P0453",
+    "candidate": "francois-ruffin",
+    "question": "institutions-pouvoirs-commissions-enquete",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Renforcer les moyens d’expertise et de contrôle des assemblées ne confère pas explicitement de pouvoirs d’investigation élargis aux commissions d’enquête."
+  },
+  {
+    "ref": "P0454",
+    "candidate": "francois-ruffin",
+    "question": "numerique-donnees-sante-hebergeurs-europeens",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "La citation critique le choix de Microsoft pour les données de santé, mais ne formule pas la proposition d’un hébergement exclusivement européen annoncée dans la justification."
+  },
+  {
+    "ref": "P0456",
+    "candidate": "francois-ruffin",
+    "question": "numerique-logiciels-libres-administration",
+    "current": 2,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Développer un écosystème fondé sur le logiciel libre ne précise pas que les administrations doivent l’utiliser en priorité."
+  },
+  {
+    "ref": "P0459",
+    "candidate": "francois-ruffin",
+    "question": "transport-subventionner-fret-ferroviaire",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Tripler la part modale du fret ferroviaire ne précise pas que l’État doit subventionner le fret pour le rendre concurrentiel."
+  },
+  {
+    "ref": "P0461",
+    "candidate": "francois-ruffin",
+    "question": "travail-durcir-indemnisation-chomage",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Critiquer les durcissements de l’assurance-chômage décidés par le gouvernement ne constitue pas une proposition propre sur les règles futures d’indemnisation."
+  },
+  {
+    "ref": "P0462",
+    "candidate": "francois-ruffin",
+    "question": "travail-duree-travail-accord-entreprise",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Critiquer la primauté des accords d’entreprise sur la loi ne tranche pas la possibilité de fixer la durée légale du travail au-delà de 35 heures par accord d’entreprise."
+  },
+  {
+    "ref": "P0463",
+    "candidate": "francois-ruffin",
+    "question": "travail-elargir-penibilite-retraite",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Accorder un trimestre supplémentaire par quatre trimestres travaillés en situation de pénibilité améliore les droits, mais ne démontre pas un élargissement des critères de pénibilité."
+  },
+  {
+    "ref": "P0469",
+    "candidate": "francois-ruffin",
+    "question": "travail-smic-au-dela-inflation",
+    "current": 1,
+    "verdict": "FLAG",
+    "proposed": null,
+    "severity": "low",
+    "reason": "Un objectif de SMIC à 1 600 € ne permet pas, sans référence à un niveau de départ ou à une trajectoire d’inflation, d’établir une hausse au-delà de l’inflation."
+  },
+  {
+    "ref": "P0473",
+    "candidate": "gabriel-attal",
+    "question": "defense-armes-ukraine",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Continuer à soutenir l’Ukraine ne précise pas que la France doit augmenter les livraisons d’armes."
+  },
+  {
+    "ref": "P0474",
+    "candidate": "gabriel-attal",
+    "question": "defense-reduire-budget-armees",
+    "current": -2,
+    "verdict": "CHANGE_VALUE",
+    "proposed": -1,
+    "severity": "medium",
+    "reason": "L’augmentation des « moyens » de la défense s’oppose à une réduction, mais ne précise pas le budget en proportion du PIB ; −1 est plus proportionné que −2."
+  },
+  {
+    "ref": "P0488",
+    "candidate": "gabriel-attal",
+    "question": "energie-suspendre-nouvelles-eoliennes",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Relever l’objectif d’éolien offshore ne répond pas à la suspension de l’installation de nouvelles éoliennes terrestres."
+  },
+  {
+    "ref": "P0494",
+    "candidate": "gabriel-attal",
+    "question": "fiscalite-reduire-droits-succession",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Faciliter la transmission du patrimoine entre générations ne précise pas que les droits de succession doivent être réduits."
+  },
+  {
+    "ref": "P0508",
+    "candidate": "gabriel-attal",
+    "question": "justice-supprimer-reductions-automatiques",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "La suppression des aménagements automatiques de peine (libération sous contrainte) est distincte de la suppression des réductions automatiques de peine."
+  },
+  {
+    "ref": "P0509",
+    "candidate": "gabriel-attal",
+    "question": "justice-tig-delits-sans-violence",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Renforcer l’usage des TIG ne dit pas qu’ils doivent être préférés à la prison pour les délits sans violence."
+  },
+  {
+    "ref": "P0515",
+    "candidate": "gabriel-attal",
+    "question": "securite-limiter-dissolution-associations",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Accélérer la procédure de dissolution ne signifie pas nécessairement limiter le pouvoir de dissolution du gouvernement ; la citation ne traite pas des motifs ni du champ de ce pouvoir."
+  },
+  {
+    "ref": "P0519",
+    "candidate": "gabriel-attal",
+    "question": "travail-durcir-indemnisation-chomage",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Une réforme de l’assurance-chômage qui « incite au travail » ne précise pas que les règles d’indemnisation seront durcies."
+  },
+  {
+    "ref": "P0520",
+    "candidate": "gabriel-attal",
+    "question": "travail-duree-travail-accord-entreprise",
+    "current": 1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Donner davantage de liberté au dialogue social sur l’organisation du travail ne précise pas que l’accord d’entreprise pourra fixer la durée légale au-delà de 35 heures."
+  },
+  {
+    "ref": "P0521",
+    "candidate": "gabriel-attal",
+    "question": "travail-retraite-au-dela-64-ans",
+    "current": -1,
+    "verdict": "DELETE",
+    "proposed": null,
+    "severity": "high",
+    "reason": "Privilégier la durée de cotisation plutôt que l’âge comme paramètre ne signifie pas s’opposer à un report de l’âge légal au-delà de 64 ans."
+  },
+  {
+    "ref": "P0522",
+    "candidate": "gabriel-attal",
+    "question": "travail-retraite-capitalisation",
+    "current": 2,
+    "verdict": "FLAG",
+    "proposed": null,
+    "severity": "low",
+    "reason": "L’expression « retraite par investissement » n’est pas définie dans l’extrait ; il faut confirmer qu’elle désigne bien un financement par capitalisation avant de valider +2."
+  }
+]
