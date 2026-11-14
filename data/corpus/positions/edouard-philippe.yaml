@@ -384,20 +384,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: international-arrets-cedh-derogation-v2
-  value: -1
-  evidence: declaration_vote
-  sources:
-    - edouard-philippe-discours-adidas-arena-2026-07
-  quote: "ils ne sont pas sortis de la Convention Européenne des Droits de l'Homme"
-  quoteSource: edouard-philippe-discours-adidas-arena-2026-07
-  justification: "Le candidat veut maîtriser l'immigration comme d'autres pays européens, sans réviser la Constitution ni sortir de la CEDH, sans se prononcer explicitement sur la non-exécution de certains arrêts, d'où -1."
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-11
-
 - question: international-renegocier-traites-competences
   value: -1
   evidence: declaration_vote

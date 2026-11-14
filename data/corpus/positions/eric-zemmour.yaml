@@ -226,18 +226,18 @@
   authoredAt: 2026-11-09
 
 - question: economie-assouplir-seuils-effectifs
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - eric-zemmour-programme-2022-pdf
   quote: Relever le seuil de 50 à 250 salariés pour l'obligation de consultation du Comité social et économique (CSE)
   quoteSource: eric-zemmour-programme-2022-pdf
-  justification: Le programme de 2022 propose de relever un seuil d'effectifs déclenchant une obligation des entreprises, ce qui correspond à la mesure de l'énoncé, d'où 2.
+  justification: "Le programme de 2022 relève de 50 à 250 salariés le seuil d'une seule obligation, la consultation du CSE, en maintenant les autres obligations à 50 : assouplissement partiel des obligations liées aux seuils, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: economie-baisse-depense-publique
   value: 2
@@ -604,18 +604,18 @@
   authoredAt: 2026-11-09
 
 - question: immigration-amende-sejour-irregulier
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - eric-zemmour-programme-2022-pdf
   quote: réinstaurer le délit de séjour irrégulier supprimé en 2012 afin de pouvoir juridiquement sanctionner et renvoyer dans leur pays tout étranger entré illégalement sur le territoire
   quoteSource: eric-zemmour-programme-2022-pdf
-  justification: Le programme de 2022 propose de rétablir le délit de séjour irrégulier pour le sanctionner pénalement, ce qui correspond à l'énoncé, d'où 2.
+  justification: "Le programme de 2022 propose de rétablir le délit de séjour irrégulier pour pouvoir le sanctionner pénalement, sans préciser que la peine serait une amende : version voisine de l'énoncé, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: immigration-asile-examen-hors-europe-v2
   value: 1

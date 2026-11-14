@@ -71,20 +71,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: economie-accords-libre-echange
-  value: -1
-  evidence: livre_plateforme
-  sources:
-    - marine-le-pen-22-mesures-2022
-  quote: "revoir les accords de libre-échange qui ne res- pectent pas les intérêts de la France"
-  quoteSource: marine-le-pen-22-mesures-2022
-  justification: "Les 22 mesures de 2022 prévoient de revoir les accords de libre-échange jugés contraires aux intérêts français, sans rejeter tout nouvel accord, d'où -1."
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
-
 - question: economie-aides-conditionnees-emploi
   value: 1
   evidence: livre_plateforme
@@ -394,18 +380,18 @@
   authoredAt: 2026-11-09
 
 - question: immigration-prestations-duree-residence
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - marine-le-pen-22-mesures-2022
   quote: "Réserver les aides sociales aux Français, et conditionner à 5 années de travail en France l'accès aux pres- tations de solidarité."
   quoteSource: marine-le-pen-22-mesures-2022
-  justification: "Les 22 mesures de 2022 conditionnent l'accès aux prestations de solidarité à cinq années de travail en France, condition plus stricte que cinq ans de résidence."
+  justification: "Les 22 mesures de 2022 réservent les aides sociales aux Français et exigent cinq années de travail en France pour les prestations de solidarité, condition plus stricte que cinq ans de résidence. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: immigration-regroupement-familial-ressources
   value: 1

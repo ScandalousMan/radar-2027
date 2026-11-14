@@ -86,18 +86,18 @@
   authoredAt: 2026-11-09
 
 - question: agriculture-interdire-poules-cage
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Interdire les fermes usines et l'élevage en cage.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme propose d'interdire l'élevage en cage, ce qui inclut les poules pondeuses.
+  justification: "Le programme interdit tout élevage en cage, ce qui inclut les poules pondeuses. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: agriculture-pesticides-moitie-2030
   value: 1
@@ -410,19 +410,19 @@
   authoredAt: 2026-11-09
 
 - question: economie-accords-libre-echange
-  value: -2
+  value: -1
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
     - marine-tondelier-carnet-international-2026
   quote: Ne pas ratifier les accords européens en attente qui affectent le climat et la biodiversité notamment les traités avec le Canada (CETA) le Vietnam, Singapour, le Chili, le Mexique, le Mercosur, l'Indonésie et le Japon.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme refuse de ratifier les accords de libre-échange en attente, soit l'inverse de la conclusion de nouveaux accords.
+  justification: "Le programme refuse de ratifier les accords européens en attente qui affectent le climat et la biodiversité, mais admet de futurs traités assortis de clauses miroirs, d'où -1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: economie-aides-conditionnees-emploi
   value: 1
@@ -775,18 +775,18 @@
   authoredAt: 2026-11-09
 
 - question: environnement-publicite-vehicules-emetteurs
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Interdire la publicité toxique pour les produits fossiles (aviation, voitures thermiques…)
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme interdit la publicité pour les voitures thermiques, ce qui couvre les véhicules les plus émetteurs.
+  justification: "Le programme interdit la publicité pour les produits fossiles, dont les voitures thermiques, ce qui couvre les véhicules les plus émetteurs. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: environnement-supprimer-zfe
   value: -1
@@ -1112,7 +1112,7 @@
   authoredAt: 2026-11-09
 
 - question: immigration-regularisation-metiers-tension
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
@@ -1120,12 +1120,12 @@
     - marine-tondelier-21-priorites-2026-04
   quote: Régulariser les travailleur·ses, les étudiant·es et les parents d'enfants scolarisés sur la base de critères objectifs (durée de résidence, effectivité du lien familial, durée ou promesse d'activité professionnelle).
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme prévoit la régularisation des travailleurs sans titre, y compris ceux des métiers en tension.
+  justification: "Le programme régularise les travailleurs, les étudiants et les parents d'enfants scolarisés sur critères objectifs, ce qui inclut les travailleurs des métiers en tension. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: immigration-supprimer-droit-du-sol
   value: -2
@@ -1452,20 +1452,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: international-quitter-commandement-otan
-  value: -1
-  evidence: programme
-  sources:
-    - marine-tondelier-programme-ecologistes-2026
-  quote: Nous ne pouvons pas nous priver de l'Alliance atlantique à court terme, mais elle n'est plus acquise dans sa forme historique.
-  quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme refuse de se priver de l'Alliance atlantique à court terme tout en visant un pilier européen autonome, sans se prononcer explicitement sur le commandement intégré.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
-
 - question: international-renegocier-traites-competences
   value: -2
   evidence: programme
@@ -1524,33 +1510,33 @@
   authoredAt: 2026-11-09
 
 - question: justice-comparution-immediate-mineurs
-  value: -2
+  value: -1
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Limiter au maximum les procédures de jugement rapide et de comparutions immédiates notamment pour les mineurs.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme veut limiter au maximum les comparutions immédiates des mineurs, à l'opposé de l'énoncé.
+  justification: "Le programme veut limiter au maximum les comparutions immédiates, notamment pour les mineurs, sans les interdire explicitement, d'où -1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: justice-imprescriptibilite-crimes-sexuels-mineurs
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
     - marine-tondelier-livret-enfance-2026-09
   quote: Inscrire dans la loi l'imprescriptibilité des crimes sur les mineurs.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme rend imprescriptibles les crimes commis sur les mineurs, ce qui inclut les crimes sexuels.
+  justification: "Le programme rend imprescriptibles tous les crimes commis sur les mineurs, ce qui inclut les crimes sexuels. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: justice-juridictions-mineurs-specialisees-v2
   value: 2
@@ -1665,18 +1651,18 @@
   authoredAt: 2026-11-09
 
 - question: numerique-assouplir-regles-ia
-  value: -2
+  value: -1
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Améliorer la régulation des systèmes à haut risque et des modèles de grande taille
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme propose une nouvelle législation européenne renforçant la régulation de l'IA, soit le contraire d'un assouplissement.
+  justification: "Le programme veut améliorer la régulation européenne des systèmes d'IA à haut risque et des grands modèles, ce qui va contre un assouplissement sans rejeter toute évolution des règles, d'où -1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: numerique-donnees-sante-hebergeurs-europeens
   value: 1
@@ -1777,18 +1763,18 @@
   authoredAt: 2026-11-09
 
 - question: sante-depassements-honoraires-libres
-  value: -2
+  value: -1
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: Encadrer les dépassements d'honoraires chez les spécialistes en limitant les dépassements d'honoraires à 50 % du tarif de la Sécurité Sociale
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme plafonne les dépassements d'honoraires, à l'opposé de leur liberté.
+  justification: "Le programme plafonne les dépassements d'honoraires à 50 % du tarif de la Sécurité sociale et les interdit pour la moitié des ménages les moins aisés, sans les supprimer, d'où -1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: sante-hausse-franchises-medicales
   value: -2
@@ -2030,18 +2016,18 @@
   authoredAt: 2026-11-09
 
 - question: societe-signes-religieux-universite
-  value: -1
+  value: -2
   evidence: programme
   sources:
     - marine-tondelier-programme-ecologistes-2026
   quote: La laïcité impose la neutralité au service public et à ses agent·es, pas à ses usagers ni aux habitant·es.
   quoteSource: marine-tondelier-programme-ecologistes-2026
-  justification: Le programme exclut la neutralité religieuse pour les usagers du service public, catégorie qui inclut les étudiants sans les nommer.
+  justification: "Le programme affirme que la neutralité religieuse ne s'impose pas aux usagers du service public, dont les étudiants, soit l'inverse explicite d'une interdiction des signes religieux à l'université."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: societe-simplifier-changement-sexe-etat-civil
   value: 2

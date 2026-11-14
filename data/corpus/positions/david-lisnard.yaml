@@ -365,20 +365,6 @@
   author: claude
   authoredAt: 2026-11-09
 
-- question: institutions-adaptation-lois-regions
-  value: 1
-  evidence: programme
-  sources:
-    - david-lisnard-programme-maitre-de-notre-destin
-  quote: "transférer le pouvoir normatif d'application de la loi (celle-ci restant par définition nationale dans notre pays, qui n'est pas et ne doit pas être un Etat fédéral) aux collectivités territoriales"
-  quoteSource: david-lisnard-programme-maitre-de-notre-destin
-  justification: "Le programme transfère aux collectivités le pouvoir réglementaire d'application de la loi, la loi restant nationale, d'où 1 ; le discours de Bayeux exclut des lois différentes selon les territoires, ce qui va en sens contraire."
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
-
 - question: institutions-autonomie-fiscale-collectivites
   value: 1
   evidence: programme

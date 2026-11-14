@@ -548,18 +548,18 @@
   authoredAt: 2026-11-11
 
 - question: international-quitter-commandement-otan
-  value: 2
+  value: 1
   evidence: livre_plateforme
   sources:
     - fabien-roussel-congres-2026-base-commune
   quote: "Par la sortie immédiate de l'OTAN, première étape vers sa dissolution"
   quoteSource: fabien-roussel-congres-2026-base-commune
-  justification: "La base commune demande la sortie immédiate de l'OTAN, ce qui inclut la sortie de son commandement intégré."
+  justification: "La base commune demande la sortie immédiate de l'OTAN, ce qui inclut et dépasse la sortie du commandement intégré. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: international-renegocier-traites-competences
   value: 1
