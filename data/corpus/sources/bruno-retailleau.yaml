@@ -64,3 +64,256 @@
   candidates:
     - bruno-retailleau
   contentHash: sha256:0b297a461063718daf2ef67f060de4080056fcd830f48452959b12def108ba3d
+- id: bruno-retailleau-nos-propositions-pour-la-france-rearmer-notre-agriculture-le
+  url: https://republicains.fr/wp-content/uploads/2026/03/LR_Agriculture.pdf
+  title: "Nos propositions pour la France : réarmer notre agriculture (Les Républicains, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-03
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:947cae0d5743bbdc48d6a6729ece4acf8e29059b4a5d8d9f032979198ff55f8e
+- id: bruno-retailleau-nos-propositions-pour-la-france-politique-familiale-les-repu
+  url: https://republicains.fr/wp-content/uploads/2026/05/LR_Famille_vFinale.pdf
+  title: "Nos propositions pour la France : politique familiale (Les Républicains, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-05
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:7c3c98e0da59104f121eb5cf2d9a66822b05226511297f522c9fdee35d6e88dd
+- id: bruno-retailleau-nos-propositions-pour-la-france-facture-d-electricite-les-re
+  url: https://republicains.fr/wp-content/uploads/2026/05/LR_Electricite_vFF070626.pdf
+  title: "Nos propositions pour la France : facture d'électricité (Les Républicains, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-06
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:7f59ba46d9b9872c03f5ca3d061df2bf679e7809efb1d04be2199b99551e7348
+- id: bruno-retailleau-nos-propositions-pour-la-france-logement-les-republicains-pd
+  url: https://republicains.fr/wp-content/uploads/2026/05/LR_Logement.pdf
+  title: "Nos propositions pour la France : logement (Les Républicains, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-05
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:7d685df5878905846444e2c81b3835c8d37e4b37a3e0a069341e7d28bc8aa47a
+- id: bruno-retailleau-nos-propositions-pour-la-france-l-ia-au-service-des-francais
+  url: https://republicains.fr/wp-content/uploads/2026/07/LR_IA.pdf
+  title: "Nos propositions pour la France : l'IA au service des Français (Les Républicains, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-07
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:d6d4f0308ed298d6ff2805b77ac01a1726485d68c7a648c42e89e9e06739e994
+- id: bruno-retailleau-retailleau-la-dissuasion-nucleaire-francaise-ne-se-partage-p
+  url: https://republicains.fr/actualites/2026/03/01/la-dissuasion-nucleaire-francaise-ne-se-partage-pas/
+  title: "Retailleau : la dissuasion nucléaire française ne se partage pas (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-03-01
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:fe1626589b53b39f3f2c72af9922f597af8d7be85b14fb96f46a94949b37c4ed
+- id: bruno-retailleau-retailleau-entretien-sur-l-algerie-et-macron-republicains-fr
+  url: https://republicains.fr/actualites/2026/05/02/bruno-retailleau-interview-algerie-macron/
+  title: "Retailleau : entretien sur l'Algérie et Macron (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-02
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:af20fb1cd465022bf9114d7d657e77fc53c0edde5155e25ca5358a520f154052
+- id: bruno-retailleau-retailleau-travail-35-heures-salaires-retraites-republicains
+  url: https://republicains.fr/actualites/2026/05/02/priorite-travail-france-35h-salaires-retraites/
+  title: "Retailleau : travail, 35 heures, salaires, retraites (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-02
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:02627408293f6aa5a940a79e31db4d3472a99d245bc4f58dae8de8f6128c4524
+- id: bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
+  url: https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/
+  title: "Retailleau : ma candidature ira jusqu'au bout (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-31
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:fd13b876ee369c8eda44a5b7c2227c22503325448e2068138b42b3845d617290
+- id: bruno-retailleau-retailleau-creer-une-cour-disciplinaire-de-la-magistrature-r
+  url: https://republicains.fr/actualites/2026/06/06/il-faut-creer-une-cour-disciplinaire-de-la-magistrature/
+  title: "Retailleau : créer une cour disciplinaire de la magistrature (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-06-06
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:2ebb91f9656d8d251f766c54d0460ded7fe046f93fe1ffb426ff056389e3fa1d
+- id: bruno-retailleau-retailleau-je-serai-la-surprise-de-cette-election-republicai
+  url: https://republicains.fr/actualites/2026/07/01/je-serai-la-surprise-de-cette-election/
+  title: "Retailleau : je serai la surprise de cette élection (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-07-01
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:18354197275e3d99d4545aa8d786b527b44728075e8bfedea4303e2b9ed14a30
+- id: bruno-retailleau-retailleau-2027-est-l-election-de-la-derniere-chance-republi
+  url: https://republicains.fr/actualites/2026/07/03/2027-est-lelection-de-la-derniere-chance/
+  title: "Retailleau : 2027 est l'élection de la dernière chance (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-07-03
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:6dd07801cbf04faeb855ae4fd28fdc2a00442006b6f63db6ac94a1ac7677b304
+- id: bruno-retailleau-retailleau-sur-l-ia-une-fenetre-de-tir-de-deux-ans-republica
+  url: https://republicains.fr/actualites/2026/07/07/sur-lia-nous-avons-une-fenetre-de-tir-de-deux-ans/
+  title: "Retailleau : sur l'IA, une fenêtre de tir de deux ans (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-07-07
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:7d366288a1accb5bf3801860294cdd34c66ccf43b83ad1d8ee2a34dea0dae042
+- id: bruno-retailleau-retailleau-l-unite-nationale-premiere-de-nos-armes-republica
+  url: https://republicains.fr/actualites/2026/07/14/lunite-nationale-premiere-de-nos-armes/
+  title: "Retailleau : l'unité nationale, première de nos armes (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-07-14
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:42115d8b4b4850b3961df2be7edfc69acb95e74bb06168634f8411cd92e78218
+- id: bruno-retailleau-retailleau-incendies-moyens-pour-les-sapeurs-pompiers-republ
+  url: https://republicains.fr/actualites/2026/07/24/incendies-face-a-lurgence-le-gouvernement-doit-agir-et-donner-a-nos-sapeurs-pompiers-les-moyens-de-nous-proteger/
+  title: "Retailleau : incendies, moyens pour les sapeurs-pompiers (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-07-24
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:d92240858d3d0aba4f570d00cf728c4bbe4a92c1bcb87fdca69e18b4c9b9ea60
+- id: bruno-retailleau-retailleau-face-au-rechauffement-climatique-adapter-la-franc
+  url: https://republicains.fr/actualites/2026/08/09/face-au-rechauffement-climatique-adapter-la-france-plutot-que-punir/
+  title: "Retailleau : face au réchauffement climatique, adapter la France plutôt que punir (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-08-09
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:f9c2a98f4672305767fb886d8525c021bd7fac850ffabe06c72efd5a798c75c2
+- id: bruno-retailleau-retailleau-baisser-les-impots-de-succession-republicains-fr
+  url: https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/
+  title: "Retailleau : baisser les impôts de succession (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-08-26
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:6bb8ae5797f1d26d83129902acba98c24af0580b2edd4d9ffb0ed5b4ff6691d2
+- id: bruno-retailleau-retailleau-les-pressions-ne-marchent-pas-avec-moi-republicai
+  url: https://republicains.fr/actualites/2026/09/12/les-pressions-ne-marchent-pas-avec-moi-rien-ne-marretera/
+  title: "Retailleau : les pressions ne marchent pas avec moi (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-12
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:42870ad241b80b4d16bed680fb58953013d77c2680faf910406ae843f5ec9fe7
+- id: bruno-retailleau-retailleau-produire-en-france-la-meilleure-des-solutions-eco
+  url: https://republicains.fr/actualites/2026/09/16/produire-en-france-la-meilleure-des-solutions-ecologiques/
+  title: "Retailleau : produire en France, la meilleure des solutions écologiques (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-16
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:7505e96a80508dc6c18c347bd361f841ca4bb2d04b5f10fcbc63ef9485b61ef2
+- id: bruno-retailleau-retailleau-je-ne-veux-pas-etre-assimile-au-macronisme-republ
+  url: https://republicains.fr/actualites/2026/04/15/je-ne-veux-pas-etre-assimile-au-macronisme/
+  title: "Retailleau : je ne veux pas être assimilé au macronisme (republicains.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-04-15
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:f5dfe1d14f7ad1d5ed7fa5c841305f08cb6ba97e5ba3153dd74ccf610ae9e48f
+- id: bruno-retailleau-ppl-pour-reprendre-le-controle-de-la-politique-d-immigration
+  url: https://www.senat.fr/leg/ppl22-677.html
+  title: PPL pour reprendre le contrôle de la politique d'immigration, d'intégration et d'asile (Sénat, B. Retailleau)
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-06-01
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:1baef53cefa01614cbc9976ba60eca75d4d02073f5025dd35cc318abade32429
+- id: bruno-retailleau-ppl-constitutionnelle-relative-a-la-souverainete-de-la-franc
+  url: https://www.senat.fr/leg/ppl22-646.html
+  title: PPL constitutionnelle relative à la souveraineté de la France, à la nationalité, à l'immigration et à l'asile (Sénat, B. Retailleau)
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-05-25
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:95ae17ed7613c621b10d215bc6c46cc54a88940788f7a312c045b914fce6035d
+- id: bruno-retailleau-proposition-de-resolution-exprimant-le-soutien-du-senat-a-l
+  url: https://www.senat.fr/leg/ppr22-201.html
+  title: Proposition de résolution exprimant le soutien du Sénat à l'Ukraine et appelant au renforcement de l'aide (Sénat, B. Retailleau cosignataire)
+  kind: declaration_vote
+  publishedAt:
+    date: 2022-12-12
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:beb1b5c52b822c89a144e27870c0b584088dfcd453d637dddd894540ee369632

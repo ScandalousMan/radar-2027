@@ -697,3 +697,536 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:e2b9c7666a8f59da76f0314542da2b98922427ef237237dcaf50c6dae7174b55
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: agriculture-alleger-normes-agricoles
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
+  quote: "Aligner sans délai les zones de non-traitement sur les standards européens (5 mètres)."
+  quoteSource: david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
+  justification: "Le livre noir propose de ramener les zones de non-traitement françaises au standard européen de 5 mètres, un allègement ciblé d'une norme environnementale agricole, sans énoncer un allègement général."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: agriculture-retenues-eau-irrigation
+  value: 2
+  evidence: programme
+  sources:
+    - david-lisnard-programme-2027-agriculture-nouvelle-energie
+  quote: "oui aux bassines, lorsqu'elles sont techniquement justifiées et localement décidées"
+  quoteSource: david-lisnard-programme-2027-agriculture-nouvelle-energie
+  justification: "Le programme agricole approuve explicitement les retenues d'eau, sous condition de justification technique et de décision locale."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: agriculture-autoriser-nouvelles-techniques-genomiques
+  value: 2
+  evidence: programme
+  sources:
+    - david-lisnard-programme-2027-agriculture-nouvelle-energie
+  quote: "nous plaidons pour l'autorisation des nouvelles techniques génomiques (NTG)"
+  quoteSource: david-lisnard-programme-2027-agriculture-nouvelle-energie
+  justification: "Le programme agricole demande explicitement l'autorisation des nouvelles techniques génomiques."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: agriculture-moins-controles-exploitations
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - david-lisnard-carnet-thematique-agriculture-nouvelle-energie-pdf
+  quote: "31 300 fonctionnaires au ministère pour 390 000 exploitations - redéployons vers l'accompagnement, pas le contrôle."
+  quoteSource: david-lisnard-carnet-thematique-agriculture-nouvelle-energie-pdf
+  justification: "Le carnet propose de réorienter les agents du ministère du contrôle vers l'accompagnement, ce qui va dans le sens de contrôles moins nombreux, sans fixer de fréquence."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: defense-budget-armees-3-pib
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-nouvelle-energie-faq-quel-candidat-veut-renforcer-l-armee-ci
+  quote: "il affirme qu'il faut augmenter le budget de la défense et que c'est incontournable"
+  quoteSource: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-renforcer-l-armee-ci
+  justification: "Le candidat juge la hausse du budget de la défense incontournable ; le seuil de 3 % du PIB n'est pas posé comme objectif dans cette source, d'où une valeur partielle."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: defense-renoncer-modernisation-dissuasion
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-dissuasion-nucleaire-ce-que-le-discours-du-president-de-la-r
+  quote: "Plusieurs des décisions annoncées s'imposaient : la réévaluation à la hausse de notre arsenal, le lancement du missile hypersonique ASN4G, la confirmation du sous-marin de nouvelle génération"
+  quoteSource: david-lisnard-dissuasion-nucleaire-ce-que-le-discours-du-president-de-la-r
+  justification: "Dans cette tribune, le candidat juge nécessaires la hausse de l'arsenal, le missile ASN4G et le sous-marin de nouvelle génération, ce qui rejette l'idée de renoncer à moderniser la dissuasion."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: defense-dissuasion-protection-europe-v2
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-dissuasion-nucleaire-ce-que-le-discours-du-president-de-la-r
+  quote: "le dialogue avec nos partenaires européens sur l'extension de la couverture de notre dissuasion peut aller dans le bon sens, à condition qu'il ne laisse nulle place au doute : la France reste la seule et unique décisionnaire."
+  quoteSource: david-lisnard-dissuasion-nucleaire-ce-que-le-discours-du-president-de-la-r
+  justification: "Le candidat accepte le dialogue sur l'extension de la couverture de la dissuasion aux partenaires européens, sous la condition que la France reste seule décisionnaire ; il n'appelle pas à l'inscrire explicitement dans la doctrine."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: defense-priorite-depenses-sociales
+  value: -1
+  evidence: programme
+  sources:
+    - david-lisnard-programme-maitre-de-notre-destin
+  quote: "Les dépenses régaliennes traditionnelles (défense, police, justice, diplomatie) ne représentent plus qu'un cinquième du Budget de l'Etat et moins d'un dixième des dépenses publiques. Un rééquilibrage vers l'Etat régalien s'impose"
+  quoteSource: david-lisnard-programme-maitre-de-notre-destin
+  justification: "Le programme demande de rééquilibrer le budget vers le régalien, dont la défense, au détriment du reste de la dépense, ce qui rejette de façon nuancée la priorité donnée aux dépenses sociales."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: democratie-referendum-exceptionnel
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-discours-bayeux-2026
+  quote: "L'article 11 sera libéré de ses limites thématiques : tout sujet pourra être soumis au pays - l'immigration, l'école, la justice, la dépense publique."
+  quoteSource: david-lisnard-discours-bayeux-2026
+  justification: "Le discours de Bayeux étend le champ du référendum à tout sujet et promeut le référendum d'initiative populaire, ce qui rejette l'idée d'un recours exceptionnel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: economie-reduire-nombre-fonctionnaires
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-nouvelle-energie-faq-quel-candidat-veut-reduire-le-nombre-de
+  quote: "ne remplaçant plus l'ensemble des cinq cent mille départs annuels"
+  quoteSource: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-reduire-le-nombre-de
+  justification: "Au meeting de Saint-Raphaël (3 juillet 2026), le candidat annonce de ne plus remplacer l'ensemble des départs annuels de la fonction publique, soit une baisse du nombre d'agents."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: energie-accelerer-eolien-terrestre
+  value: -1
+  evidence: programme
+  sources:
+    - david-lisnard-programme-renouveau-civique
+  quote: "Il faut mettre un terme à cette gabegie en faisant rentrer ces projets dans le droit commun"
+  quoteSource: david-lisnard-programme-renouveau-civique
+  justification: "Le programme veut mettre fin au régime dérogatoire des énergies renouvelables (prix et urbanisme) pour les replacer dans le droit commun, ce qui va à l'encontre d'une accélération ; il ne propose pas d'interdire l'éolien terrestre."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: energie-nouveaux-reacteurs-au-dela-epr2
+  value: 1
+  evidence: programme
+  sources:
+    - david-lisnard-programme-renouveau-civique
+  quote: "construction d'EPR de nouvelle génération, déploiement de mini-réacteurs nucléaires"
+  quoteSource: david-lisnard-programme-renouveau-civique
+  justification: "Le programme prévoit des EPR de nouvelle génération et des mini-réacteurs, mais sans chiffrer un parc au-delà des six EPR2 prévus."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: environnement-assouplir-artificialisation
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-nouvelle-energie-faq-quel-candidat-veut-reindustrialiser-la
+  quote: "le zéro artificialisation nette, qu'il juge \" absurde \" et \" inapplicable \""
+  quoteSource: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-reindustrialiser-la
+  justification: "Le candidat dénonce le zéro artificialisation nette comme absurde et inapplicable et propose de le remplacer par une incitation à la densité plutôt que par un régime descendant."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: environnement-supprimer-zfe
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-nouvelle-energie-faq-quel-candidat-veut-supprimer-les-zones
+  quote: "nous les supprimerons par une loi en bonne et due forme, et au galop"
+  quoteSource: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-supprimer-les-zones
+  justification: "Le candidat s'engage à supprimer les zones à faibles émissions par une loi une fois au pouvoir (publication du 21 mai 2026)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: environnement-calendrier-logements-mal-isoles
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
+  quote: "Supprimer l'interdiction de location des passoires thermiques et la remplacer par un bonus-malus incitatif."
+  quoteSource: david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
+  justification: "Le livre noir propose de supprimer l'interdiction de louer les passoires thermiques au profit d'un bonus-malus, ce qui rejette l'application du calendrier d'interdiction."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-baisse-impot-societes
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-nouvelle-energie-faq-quel-candidat-veut-baisser-les-impots-c
+  quote: "Alléger les impôts de production, ramener l'impôt sur les sociétés à 20 % avec une part variable laissée aux collectivités locales entre 0 et 5 %"
+  quoteSource: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-baisser-les-impots-c
+  justification: "Le candidat propose de ramener l'impôt sur les sociétés à 20 % (tribune du JDD du 9 novembre 2024, reprise dans son livre)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-baisse-cotisations-salaries
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-nouvelle-energie-faq-quel-candidat-veut-baisser-les-charges
+  quote: "nous réduirons significativement les cotisations patronales et salariales."
+  quoteSource: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-baisser-les-charges
+  justification: "Au meeting de Saint-Raphaël (3 juillet 2026), le candidat promet de réduire significativement les cotisations salariales et patronales."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-supprimer-ifi
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
+  quote: "supprimer l'IFI et le remplacer par une fiscalité foncière assise sur des valeurs vénales actualisées"
+  quoteSource: david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
+  justification: "Le livre noir propose de supprimer l'IFI mais de le remplacer par une fiscalité foncière, ce qui n'est pas une suppression sèche de l'impôt."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: immigration-titre-sejour-longue-duree
+  value: -1
+  evidence: programme
+  sources:
+    - david-lisnard-programme-immigration
+  quote: "Diviser par huit la délivrance de titres de séjour"
+  quoteSource: david-lisnard-programme-immigration
+  justification: "Le programme veut réduire fortement la délivrance de titres de séjour, ce qui va à l'encontre d'un accès facilité aux titres de longue durée, sans viser ceux-ci spécifiquement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: institutions-autonomie-corse-constitution-v2
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-discours-bayeux-2026
+  quote: "pas de statuts d'exception négociés sous la pression"
+  quoteSource: david-lisnard-discours-bayeux-2026
+  justification: "Le candidat rejette les statuts d'exception négociés sous la pression, formule qui vise un statut d'autonomie comme celui de la Corse sans la nommer ; valeur partielle."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: international-referendum-maintien-ue
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-discours-bayeux-2026
+  quote: "Nous n'avons pas vocation à sortir de l'Europe."
+  quoteSource: david-lisnard-discours-bayeux-2026
+  justification: "Le candidat écarte la sortie de l'Union européenne, donc l'organisation d'un référendum sur le maintien dans l'Union."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: justice-peines-minimales-recidive
+  value: 2
+  evidence: programme
+  sources:
+    - david-lisnard-programme-2027-securite-nouvelle-energie
+  quote: "rétablir les peines planchers pour les récidivistes"
+  quoteSource: david-lisnard-programme-2027-securite-nouvelle-energie
+  justification: "Le programme propose explicitement de rétablir les peines planchers pour les récidivistes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: justice-majorite-penale-16-ans
+  value: 2
+  evidence: programme
+  sources:
+    - david-lisnard-programme-2027-securite-nouvelle-energie
+  quote: "Nous voulons abaisser la majorité pénale à 16 ans"
+  quoteSource: david-lisnard-programme-2027-securite-nouvelle-energie
+  justification: "Le programme propose explicitement d'abaisser la majorité pénale à 16 ans."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: justice-supprimer-reductions-automatiques
+  value: 2
+  evidence: programme
+  sources:
+    - david-lisnard-programme-2027-securite-nouvelle-energie
+  quote: "supprimer les réductions de peine automatiques"
+  quoteSource: david-lisnard-programme-2027-securite-nouvelle-energie
+  justification: "Le programme propose explicitement de supprimer les réductions de peine automatiques."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: justice-perpetuite-reelle-etendue
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-nouvelle-energie-faq-quel-candidat-veut-que-les-peines-soien
+  quote: "Nous instaurerons la perpétuité réelle"
+  quoteSource: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-que-les-peines-soien
+  justification: "Le candidat promet d'instaurer la perpétuité réelle (3 juillet 2026) sans préciser la liste des crimes concernés, d'où une valeur partielle sur l'extension."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: justice-comparution-immediate-mineurs
+  value: 1
+  evidence: programme
+  sources:
+    - david-lisnard-programme-2027-securite-nouvelle-energie
+  quote: "étendre la comparution immédiate dès 13 ans pour les cas graves"
+  quoteSource: david-lisnard-programme-2027-securite-nouvelle-energie
+  justification: "Le programme étend la comparution immédiate aux mineurs dès 13 ans pour les cas graves, mesure plus large que l'énoncé (plus de 16 ans)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: justice-sanction-financiere-parents
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-nouvelle-energie-faq-quel-candidat-veut-rendre-les-parents-r
+  quote: "les parents solvables devront payer"
+  quoteSource: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-rendre-les-parents-r
+  justification: "Le candidat annonce que les parents solvables de mineurs délinquants paieront la réparation (3 juillet 2026), ce qui engage leur responsabilité financière sans parler de sanction pénale."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: numerique-reseaux-sociaux-moins-15-ans
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-tribune-reseaux-sociaux-l-interdiction-est-le-dernier-refuge
+  quote: "Ce n'est pas l'accès qu'il faut interdire, mais les mécanismes prédateurs"
+  quoteSource: david-lisnard-tribune-reseaux-sociaux-l-interdiction-est-le-dernier-refuge
+  justification: "Dans sa tribune, le candidat rejette l'interdiction d'accès aux réseaux sociaux pour les moins de 15 ans et lui préfère l'encadrement du design des plateformes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: numerique-donnees-sante-hebergeurs-europeens
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - david-lisnard-livret-sante-nouvelle-energie-pdf
+  quote: "Protéger les données de santé par un cadre souverain d'hébergement, de cybersécurité et de gouvernance, garantissant souveraineté nationale et libertés individuelles."
+  quoteSource: david-lisnard-livret-sante-nouvelle-energie-pdf
+  justification: "Le livret santé demande un cadre souverain d'hébergement des données de santé, sans imposer explicitement des hébergeurs exclusivement européens."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: sante-regulation-installation-medecins
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - david-lisnard-livret-sante-nouvelle-energie-pdf
+  quote: "maintenir la liberté d'installation mais proposer un conventionnement différencié avec l'Assurance Maladie selon les zones et les besoins locaux"
+  quoteSource: david-lisnard-livret-sante-nouvelle-energie-pdf
+  justification: "Le livret santé maintient la liberté d'installation et ne propose qu'un conventionnement différencié, qui module le remboursement sans réguler directement les installations ; rejet nuancé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: sante-jeunes-medecins-zones-sous-dotees
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-nouvelle-energie-faq-comment-david-lisnard-compte-t-il-lutte
+  quote: "David Lisnard est opposé à la régulation de l'installation des médecins, c'est-à-dire à l'obligation d'exercer dans une zone sous-dotée."
+  quoteSource: david-lisnard-nouvelle-energie-faq-comment-david-lisnard-compte-t-il-lutte
+  justification: "La page de Nouvelle Énergie indique que le candidat s'oppose à toute obligation d'exercer dans une zone sous-dotée."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: sante-doubler-etudiants-medecine
+  value: 2
+  evidence: programme
+  sources:
+    - david-lisnard-programme-2027-sante-nouvelle-energie
+  quote: "Nous voulons doubler le nombre d'étudiants en médecine d'ici 2030"
+  quoteSource: david-lisnard-programme-2027-sante-nouvelle-energie
+  justification: "Le programme santé veut doubler le nombre d'étudiants en médecine d'ici 2030."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: securite-armer-polices-municipales
+  value: -2
+  evidence: programme
+  sources:
+    - david-lisnard-programme-2027-securite-nouvelle-energie
+  quote: "Mais cela doit rester une liberté, jamais une obligation."
+  quoteSource: david-lisnard-programme-2027-securite-nouvelle-energie
+  justification: "Le programme veut que l'armement soit laissé au choix des communes volontaires et exclut toute obligation."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: securite-hausse-effectifs-police
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-nouvelle-energie-faq-quel-candidat-propose-de-redonner-des-m
+  quote: "Moins de bureaucrates que l'on paye avec nos impôts, plus de policiers, plus d'enseignants."
+  quoteSource: david-lisnard-nouvelle-energie-faq-quel-candidat-propose-de-redonner-des-m
+  justification: "Le candidat veut plus de policiers financés par la réduction des effectifs administratifs ; aucun objectif chiffré de +10 % n'est posé, d'où une valeur partielle."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: societe-aide-active-a-mourir
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-david-lisnard-se-confie-sans-detour-sur-sa-foi-aleteia-repri
+  quote: "pourquoi il est opposé à une loi sur euthanasie qui serait \"un basculement anthropologique majeur\""
+  quoteSource: david-lisnard-david-lisnard-se-confie-sans-detour-sur-sa-foi-aleteia-repri
+  justification: "Dans son entretien au Point (12 janvier 2025, repris par Aleteia), le candidat dit son opposition à une loi autorisant l'aide active à mourir."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: societe-signes-religieux-universite
+  value: 1
+  evidence: programme
+  sources:
+    - david-lisnard-programme-2027-securite-nouvelle-energie
+  quote: "interdiction du voile à l'université"
+  quoteSource: david-lisnard-programme-2027-securite-nouvelle-energie
+  justification: "Le programme propose d'interdire le voile à l'université, mesure plus étroite que l'interdiction de tous les signes religieux ostensibles."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: travail-durcir-indemnisation-chomage
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - david-lisnard-nouvelle-energie-faq-quel-candidat-veut-reformer-l-assurance
+  quote: "répond que c'est \" une mesure qu'il faut prendre \" et se prononce pour la dégressivité"
+  quoteSource: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-reformer-l-assurance
+  justification: "Le candidat approuve le durcissement de l'indemnisation et se prononce pour la dégressivité des allocations (Sud Radio, 29 février 2024)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: travail-duree-travail-accord-entreprise
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
+  quote: "Permettre à tout accord d'entreprise de déroger à la durée légale à la hausse comme à la baisse, dans le respect du repos minimum de onze heures."
+  quoteSource: david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
+  justification: "Le livre noir propose de laisser tout accord d'entreprise déroger à la durée légale du travail."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14

@@ -75,3 +75,179 @@
   candidates:
     - edouard-philippe
   contentHash: sha256:9f9858ed77d79592e341cf80d097c6424bbd0083b278f38bc5db5db49613180c
+- id: edouard-philippe-programme-adaptation-climatique-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/adaptation-climatique
+  title: "Programme : adaptation-climatique (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:2398b90f186da45aeca94cb58bd78bdaefa1f19657815e7fd890f7e473c720d8
+- id: edouard-philippe-programme-comptes-publics-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/comptes-publics
+  title: "Programme : comptes-publics (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:c9bd370282dbf2629e9c2a095fe2be3031f5211945002fc25b4ff918db8f86f5
+- id: edouard-philippe-programme-defense-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/defense
+  title: "Programme : defense (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:9a65ba94c2cbadc4835b69e95e0a49832097aa749cf52862cc59f60208571aa2
+- id: edouard-philippe-programme-ecole-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/ecole
+  title: "Programme : ecole (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:a800fc58a4395c969b80e2797349a58b30aa96ddaaec9b4112d13b765a0dc791
+- id: edouard-philippe-programme-energie-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/energie
+  title: "Programme : energie (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:ae9897e952ab4e676ea2e3a4e8f8e3b9ffd2e40ebbf8e9e634f3d0b48c745b3a
+- id: edouard-philippe-programme-entreprises-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/entreprises
+  title: "Programme : entreprises (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:1754fff4f79ad11b9353ebc3507b40ec19ad8957e442fdade9404912015153ff
+- id: edouard-philippe-programme-famille-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/famille
+  title: "Programme : famille (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:2650afa00c3ff26d45bfb532bcedad931388d9e56f57e394683e73e1e4ff5cea
+- id: edouard-philippe-programme-immigration-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/immigration
+  title: "Programme : immigration (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:86a63661ad91ec615fc24c0f1b14f3cf1ffd6dcdcab8ee978a281034864fdd5a
+- id: edouard-philippe-programme-intelligence-artificielle-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/intelligence-artificielle
+  title: "Programme : intelligence-artificielle (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:d5c055d1198d76f8e6a9ed43b0f45b94e209249112e7adac12804f9ad07b9d89
+- id: edouard-philippe-programme-justice-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/justice
+  title: "Programme : justice (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:982c5fc7b4ded8f1ab9596d054a7047be1d1300fccf5b954580aaa3d5ea04f24
+- id: edouard-philippe-programme-outre-mer-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/outre-mer
+  title: "Programme : outre-mer (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:6460affceb180d627302583938f671aa2cb67ae47cab67f9887fd4dfa271ce24
+- id: edouard-philippe-programme-protection-de-l-enfance-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/protection-de-l-enfance
+  title: "Programme : protection-de-l-enfance (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:b5bac50e03fb965f1ce0822286f52cb4c4b977c39d578526e7c13032dea06680
+- id: edouard-philippe-programme-retraites-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/retraites
+  title: "Programme : retraites (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:36c6993270c5719700383d0fa920c652eee6553ff60d28c4e9c0c80f2e74f5e0
+- id: edouard-philippe-programme-securite-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/securite
+  title: "Programme : securite (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:273e4b8f80ae567e06aec2b648d4cd9a7d58eaea52e123cfd5b298b1c45fcfd3
+- id: edouard-philippe-programme-travail-edouardphilippe-fr
+  url: https://www.edouardphilippe.fr/programme/travail
+  title: "Programme : travail (edouardphilippe.fr)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:89ec8cef715cef69f1a30b68b9dff046f316036d73919f9a592bf94d6d210cfe
+- id: edouard-philippe-france-2-les-4-verites-policiers-municipaux-compte-rendu-edo
+  url: https://www.edouardphilippe.fr/actualites/sur-france-2-edouard-philippe-veut-donner-plus-de-pouvoirs-aux-policiers
+  title: "France 2, Les 4 Vérités : policiers municipaux (compte rendu edouardphilippe.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-21
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:7fc40a7cf1bfa3882147e14f849e2e3aa4e3746574405d875ce1b20ab1bf62a7
