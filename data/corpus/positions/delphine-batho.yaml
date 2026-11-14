@@ -252,6 +252,7 @@
   quoteSource: delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
   justification: "L'article L. 581-25-1 de la PPL dont elle est première signataire interdit la publicité au-delà de seuils d'émissions et nomme explicitement les « véhicules particuliers émettant des gaz à effet de serre » : soutien explicite, pas partiel. (valeur révisée en relecture)"
   status: reviewed
+  old: true
   provenance:
     kind: manual
   author: claude
