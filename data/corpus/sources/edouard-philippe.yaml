@@ -240,14 +240,3 @@
   candidates:
     - edouard-philippe
   contentHash: sha256:89ec8cef715cef69f1a30b68b9dff046f316036d73919f9a592bf94d6d210cfe
-- id: edouard-philippe-france-2-les-4-verites-policiers-municipaux-compte-rendu-edo
-  url: https://www.edouardphilippe.fr/actualites/sur-france-2-edouard-philippe-veut-donner-plus-de-pouvoirs-aux-policiers
-  title: "France 2, Les 4 Vérités : policiers municipaux (compte rendu edouardphilippe.fr)"
-  kind: declaration_vote
-  publishedAt:
-    date: 2026-10-21
-    precision: day
-  accessedAt: 2026-11-14
-  candidates:
-    - edouard-philippe
-  contentHash: sha256:7fc40a7cf1bfa3882147e14f849e2e3aa4e3746574405d875ce1b20ab1bf62a7

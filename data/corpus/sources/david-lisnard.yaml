@@ -185,17 +185,6 @@
   candidates:
     - david-lisnard
   contentHash: sha256:a3663d12986da5fe3e190d062d3cfc620fad40325079df5c388591d591545215
-- id: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-renforcer-l-armee-ci
-  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-renforcer-l-armee/
-  title: "Nouvelle Énergie, FAQ : Quel candidat veut renforcer l'armée ? (citations datées de David Lisnard)"
-  kind: declaration_vote
-  publishedAt:
-    date: "2026"
-    precision: year
-  accessedAt: 2026-11-14
-  candidates:
-    - david-lisnard
-  contentHash: sha256:c3fab46c2707b0dc5e7e9f645e13946b30eb3b924b90a6876b10a2a247c9b251
 - id: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-rendre-les-parents-r
   url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-rendre-les-parents-responsables-des-delits-de-leurs-enfants/
   title: "Nouvelle Énergie, FAQ : Quel candidat veut rendre les parents responsables des délits de leurs enfants ? (citations datées de David Lisnard)"
@@ -229,28 +218,6 @@
   candidates:
     - david-lisnard
   contentHash: sha256:f1d0be28c6a5f34fec1c68ea7e1e44572a3dcc90af3e1d30fa9ab413d74503e4
-- id: david-lisnard-nouvelle-energie-faq-comment-david-lisnard-compte-t-il-lutte
-  url: https://www.unenouvelleenergie.fr/questions/comment-david-lisnard-compte-t-il-lutter-contre-les-deserts-medicaux/
-  title: "Nouvelle Énergie, FAQ : Comment David Lisnard compte-t-il lutter contre les déserts médicaux ? (citations datées de David Lisnard)"
-  kind: declaration_vote
-  publishedAt:
-    date: "2026"
-    precision: year
-  accessedAt: 2026-11-14
-  candidates:
-    - david-lisnard
-  contentHash: sha256:6016c9bd454bb73b80329fe6f1b9f2751bd200dce13f3012b593de6758e57024
-- id: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-reindustrialiser-la
-  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-reindustrialiser-la-france/
-  title: "Nouvelle Énergie, FAQ : Quel candidat veut réindustrialiser la France ? (citations datées de David Lisnard)"
-  kind: declaration_vote
-  publishedAt:
-    date: "2026"
-    precision: year
-  accessedAt: 2026-11-14
-  candidates:
-    - david-lisnard
-  contentHash: sha256:a88d9855557e3461c1eb3a66787a2fcfc38eb7d334254c5ae2bbb285b3809f07
 - id: david-lisnard-tribune-reseaux-sociaux-l-interdiction-est-le-dernier-refuge
   url: https://www.unenouvelleenergie.fr/reseaux-sociaux-linterdiction-est-le-dernier-refuge-de-limpuissance-publique/
   title: "Tribune : « Réseaux sociaux : l'interdiction est le dernier refuge de l'impuissance publique » (Nouvelle Énergie)"
