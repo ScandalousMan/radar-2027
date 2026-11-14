@@ -261,6 +261,6 @@ Le second retour couvre les **parties 1 et 2** : Kazib, Retailleau, Lisnard, Bat
 
 ## Après cette revue
 
-- **Partie 3 à soumettre** (Mélenchon et Branco). La consigne du dossier devrait préciser que les intentions d'un candidat rapportées par la presse sont recevables. Seule une mesure attribuée au parti ou à un tiers ne l'est pas.
-- **Références décalées.** Les références du dossier datent d'avant cette revue. Les deux suppressions des parties 1 et 2 décalent de deux rangs les positions de la partie 3 dans le corpus actuel. Le retour de la partie 3 devra donc être rapproché par candidat et par énoncé, pas par référence.
-- **Total : 1 093 positions** au lieu de 1 102. Toutes restent en brouillon jusqu'à relecture par adrien.
+- **Partie 3 arbitrée le 2026-11-14** : voir `2026-11-14-revue-externe-partie-3.md` (13 corrections, 11 arbitrages humains en attente). Total après la partie 3 : 1 092 positions.
+- **Références décalées.** Les références du dossier datent d'avant cette revue. Les deux suppressions des parties 1 et 2 décalent de deux rangs les positions de la partie 3 dans le corpus actuel. Le retour de la partie 3 a donc été rapproché par candidat et par énoncé, pas par référence.
+- **Total après les parties 1, 2, 4 et 5 : 1 093 positions** au lieu de 1 102. Toutes restent en brouillon jusqu'à relecture par adrien.

@@ -1,0 +1,824 @@
+{
+  "title": "Revue adverse indépendante — Radar 2027 — Partie 3/5",
+  "scope": "P0523–P0776, Jean-Luc Mélenchon et Juan Branco",
+  "reviewed": 254,
+  "summary": {
+    "jean-luc-melenchon": {
+      "reviewed": 163,
+      "OK": 118,
+      "CHANGE_VALUE": 10,
+      "DELETE": 29,
+      "FLAG": 6
+    },
+    "juan-branco": {
+      "reviewed": 91,
+      "OK": 56,
+      "CHANGE_VALUE": 2,
+      "DELETE": 28,
+      "FLAG": 5
+    }
+  },
+  "findings": [
+    {
+      "ref": "P0536",
+      "candidate": "jean-luc-melenchon",
+      "question": "democratie-raccourcir-consultations-public",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La citation porte sur le renforcement des mécanismes de participation publique, pas sur la durée des consultations d'aménagement. Elle ne permet donc pas de prendre position sur leur raccourcissement."
+    },
+    {
+      "ref": "P0543",
+      "candidate": "jean-luc-melenchon",
+      "question": "democratie-vote-blanc-exprime",
+      "current": 2,
+      "verdict": "FLAG",
+      "proposed": null,
+      "severity": "low",
+      "reason": "« Reconnaître le vote blanc » ne précise pas s'il doit être intégré aux suffrages exprimés, distinction centrale de l'énoncé. Une validation humaine est nécessaire."
+    },
+    {
+      "ref": "P0546",
+      "candidate": "jean-luc-melenchon",
+      "question": "economie-baisse-depense-publique",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Le refus des coupes budgétaires et l'annonce de dépenses nouvelles ne répondent pas directement à la question du ratio entre dépense publique et PIB."
+    },
+    {
+      "ref": "P0550",
+      "candidate": "jean-luc-melenchon",
+      "question": "economie-etat-finance-usines",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Un plan de reconstruction industrielle ne dit pas que l'État financera directement la construction d'usines. Le financement public et la construction d'unités ne sont pas établis par cette citation."
+    },
+    {
+      "ref": "P0552",
+      "candidate": "jean-luc-melenchon",
+      "question": "economie-participations-etat-industrie",
+      "current": 2,
+      "verdict": "CHANGE_VALUE",
+      "proposed": 1,
+      "severity": "medium",
+      "reason": "La nationalisation d'ArcelorMittal France constitue un exemple précis de prise de contrôle public, mais ne soutient pas à elle seule une position générale sur les participations dans toutes les entreprises stratégiques."
+    },
+    {
+      "ref": "P0554",
+      "candidate": "jean-luc-melenchon",
+      "question": "economie-plafonner-prix-alimentaires",
+      "current": 2,
+      "verdict": "CHANGE_VALUE",
+      "proposed": 1,
+      "severity": "medium",
+      "reason": "Le plafonnement de l'ensemble des prix alimentaires est plus large que le plafonnement limité aux produits de première nécessité. Selon la convention de portée, la valeur doit être ramenée à +1."
+    },
+    {
+      "ref": "P0556",
+      "candidate": "jean-luc-melenchon",
+      "question": "economie-reduire-nombre-fonctionnaires",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Des recrutements dans certains services ne permettent pas d'établir une position sur l'évolution nette du nombre total de fonctionnaires pendant le quinquennat."
+    },
+    {
+      "ref": "P0557",
+      "candidate": "jean-luc-melenchon",
+      "question": "economie-regle-equilibre-constitution",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La suspension d'une règle européenne de déficit n'est pas une position sur l'inscription d'une règle d'équilibre budgétaire dans la Constitution."
+    },
+    {
+      "ref": "P0560",
+      "candidate": "jean-luc-melenchon",
+      "question": "energie-fonds-publics-renouvelables",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La cible de 100 % d'énergies renouvelables ne précise pas la répartition prioritaire des fonds publics entre renouvelables et nucléaire."
+    },
+    {
+      "ref": "P0565",
+      "candidate": "jean-luc-melenchon",
+      "question": "energie-suspendre-nouvelles-eoliennes",
+      "current": -2,
+      "verdict": "CHANGE_VALUE",
+      "proposed": -1,
+      "severity": "medium",
+      "reason": "Le déploiement de l'éolien en mer contredit une suspension générale des nouvelles éoliennes, mais la citation ne porte que sur l'éolien offshore : l'opposition est partielle."
+    },
+    {
+      "ref": "P0567",
+      "candidate": "jean-luc-melenchon",
+      "question": "environnement-calendrier-logements-mal-isoles",
+      "current": 2,
+      "verdict": "FLAG",
+      "proposed": null,
+      "severity": "low",
+      "reason": "La citation soutient l'interdiction effective des passoires thermiques, mais ne confirme pas l'application du calendrier légal prévu. Il faut arbitrer si l'énoncé porte sur le principe de l'interdiction ou sur son calendrier précis."
+    },
+    {
+      "ref": "P0571",
+      "candidate": "jean-luc-melenchon",
+      "question": "environnement-pause-normes-europeennes",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Refuser des plans de dérégulation européens ne répond pas à la question distincte d'une suspension de l'adoption de nouvelles normes environnementales."
+    },
+    {
+      "ref": "P0572",
+      "candidate": "jean-luc-melenchon",
+      "question": "environnement-plastique-usage-unique-2030",
+      "current": 2,
+      "verdict": "CHANGE_VALUE",
+      "proposed": 1,
+      "severity": "medium",
+      "reason": "L'interdiction de tous les plastiques à usage unique est plus large que celle des seuls emballages et dépasse l'échéance de 2030. La convention de portée impose +1."
+    },
+    {
+      "ref": "P0573",
+      "candidate": "jean-luc-melenchon",
+      "question": "environnement-publicite-vehicules-emetteurs",
+      "current": 2,
+      "verdict": "CHANGE_VALUE",
+      "proposed": 1,
+      "severity": "medium",
+      "reason": "L'interdiction de la publicité pour tous les produits et services très émetteurs de GES est plus large que la seule publicité pour les véhicules les plus émetteurs : +1 selon la convention de portée."
+    },
+    {
+      "ref": "P0575",
+      "candidate": "jean-luc-melenchon",
+      "question": "environnement-taxe-carbone-importations",
+      "current": 2,
+      "verdict": "CHANGE_VALUE",
+      "proposed": 1,
+      "severity": "medium",
+      "reason": "Des droits de douane écologiques fondés notamment sur les émissions carbone sont un instrument voisin, mais pas l'imposition directe des entreprises sur les émissions de leurs importations. La position est partielle."
+    },
+    {
+      "ref": "P0577",
+      "candidate": "jean-luc-melenchon",
+      "question": "environnement-trajectoire-emissions-entreprises",
+      "current": 2,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La comptabilité carbone obligatoire ne vaut pas obligation légale de réduire les émissions selon une trajectoire fixée par la loi. La justification ajoute une trajectoire absente de la citation."
+    },
+    {
+      "ref": "P0580",
+      "candidate": "jean-luc-melenchon",
+      "question": "fiscalite-csg-progressive-v2",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La citation prévoit une cotisation sociale universelle fusionnant CSG et cotisations, avec une part progressive. Elle ne dit pas que le taux de la CSG elle-même augmente avec le revenu."
+    },
+    {
+      "ref": "P0582",
+      "candidate": "jean-luc-melenchon",
+      "question": "fiscalite-hausse-taxe-transactions-financieres",
+      "current": 2,
+      "verdict": "FLAG",
+      "proposed": null,
+      "severity": "low",
+      "reason": "La citation annonce une hausse des taxes sur les transactions financières, mais ne précise pas si elle passe par une hausse du taux plutôt que par l'assiette ou un autre paramètre."
+    },
+    {
+      "ref": "P0584",
+      "candidate": "jean-luc-melenchon",
+      "question": "fiscalite-impot-minimum-grandes-fortunes-v2",
+      "current": 2,
+      "verdict": "CHANGE_VALUE",
+      "proposed": 1,
+      "severity": "medium",
+      "reason": "La garantie d'impôt de 2 % sur les centimillionnaires est proche de l'énoncé, mais la citation ne précise pas explicitement le caractère annuel et minimal du prélèvement."
+    },
+    {
+      "ref": "P0585",
+      "candidate": "jean-luc-melenchon",
+      "question": "fiscalite-quotient-familial-credit-enfant",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La citation supprime le quotient conjugal, pas le quotient familial. La création d'un crédit d'impôt par enfant ne suffit pas à établir le remplacement demandé."
+    },
+    {
+      "ref": "P0588",
+      "candidate": "jean-luc-melenchon",
+      "question": "fiscalite-reduire-droits-succession",
+      "current": 0,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "L'exonération des successions inférieures à 150 000 € ne prouve pas, à elle seule, une hausse des droits sur les patrimoines élevés. La position intermédiaire à 0 n'est donc pas étayée par la citation fournie."
+    },
+    {
+      "ref": "P0594",
+      "candidate": "jean-luc-melenchon",
+      "question": "immigration-reduire-duree-naturalisation",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Faciliter l'accès à la nationalité ne précise pas que la durée de résidence exigée pour la naturalisation doit être réduite."
+    },
+    {
+      "ref": "P0602",
+      "candidate": "jean-luc-melenchon",
+      "question": "institutions-autonomie-fiscale-collectivites",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Le rétablissement d'une taxe d'habitation communale peut accroître les recettes locales, mais ne démontre pas une autonomie fiscale accrue des collectivités."
+    },
+    {
+      "ref": "P0614",
+      "candidate": "jean-luc-melenchon",
+      "question": "justice-accompagnement-emploi-detenus",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La réinsertion sociale des détenus ne précise ni un accompagnement vers l'emploi ni sa continuité pendant toute la détention."
+    },
+    {
+      "ref": "P0615",
+      "candidate": "jean-luc-melenchon",
+      "question": "justice-comparution-immediate-mineurs",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Le refus général d'aligner la justice des mineurs sur celle des adultes ne tranche pas spécifiquement la possibilité de juger les plus de 16 ans en comparution immédiate."
+    },
+    {
+      "ref": "P0617",
+      "candidate": "jean-luc-melenchon",
+      "question": "justice-majorite-penale-16-ans",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La séparation de la justice des mineurs et de celle des adultes ne suffit pas à établir une position sur l'âge de la majorité pénale."
+    },
+    {
+      "ref": "P0619",
+      "candidate": "jean-luc-melenchon",
+      "question": "numerique-assouplir-consentement-traceurs",
+      "current": -1,
+      "verdict": "FLAG",
+      "proposed": null,
+      "severity": "low",
+      "reason": "La citation concerne le fondement juridique du traitement des données personnelles, mais ne permet pas de déterminer clairement la position sur les règles de consentement aux traceurs publicitaires."
+    },
+    {
+      "ref": "P0620",
+      "candidate": "jean-luc-melenchon",
+      "question": "numerique-assouplir-regles-ia",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Une autorisation nationale de mise sur le marché pour certaines IA ne constitue pas une position sur l'assouplissement des règles européennes."
+    },
+    {
+      "ref": "P0622",
+      "candidate": "jean-luc-melenchon",
+      "question": "numerique-donnees-sante-hebergeurs-europeens",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "L'hébergement public en France de données de services publics ne porte pas spécifiquement sur les données de santé ni sur leur hébergement exclusif par des entreprises européennes."
+    },
+    {
+      "ref": "P0627",
+      "candidate": "jean-luc-melenchon",
+      "question": "sante-assurance-sante-privee-option-v2",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "L'intégration des complémentaires à la Sécurité sociale ne répond pas directement à la possibilité de quitter l'Assurance maladie obligatoire au profit d'une assurance privée."
+    },
+    {
+      "ref": "P0628",
+      "candidate": "jean-luc-melenchon",
+      "question": "sante-budget-hopital-inflation",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Une hausse globale de 3 milliards ne prouve pas une augmentation annuelle du budget hospitalier supérieure à l'inflation."
+    },
+    {
+      "ref": "P0631",
+      "candidate": "jean-luc-melenchon",
+      "question": "sante-depenses-assurance-maladie-inflation",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Remplacer l'ONDAM par un objectif fondé sur les besoins ne précise pas la position sur une limite de croissance des dépenses égale à l'inflation."
+    },
+    {
+      "ref": "P0632",
+      "candidate": "jean-luc-melenchon",
+      "question": "sante-derembourser-faible-service-rendu",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Le remboursement intégral des soins prescrits ne précise pas le sort des médicaments dont le service médical rendu est faible."
+    },
+    {
+      "ref": "P0636",
+      "candidate": "jean-luc-melenchon",
+      "question": "sante-production-publique-medicaments",
+      "current": 2,
+      "verdict": "CHANGE_VALUE",
+      "proposed": 1,
+      "severity": "medium",
+      "reason": "La création d'un pôle public du médicament et la relocalisation de la production dépassent la seule production des médicaments essentiels lorsque l'offre privée fait défaut : +1 selon la convention de portée."
+    },
+    {
+      "ref": "P0638",
+      "candidate": "jean-luc-melenchon",
+      "question": "sante-ratios-soignants-patients",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La citation concerne un ratio minimal d'encadrement en EHPAD, pas un ratio légal de soignants par patient dans les hôpitaux."
+    },
+    {
+      "ref": "P0642",
+      "candidate": "jean-luc-melenchon",
+      "question": "securite-budget-vers-prevention",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Renforcer les moyens de prévention ne signifie pas les financer par une réorientation du budget des forces de l'ordre."
+    },
+    {
+      "ref": "P0649",
+      "candidate": "jean-luc-melenchon",
+      "question": "securite-renseignement-autorisation-juge",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Le contrôle judiciaire dans la lutte antiterroriste ne précise pas que les techniques de renseignement sont soumises à une autorisation préalable du juge."
+    },
+    {
+      "ref": "P0650",
+      "candidate": "jean-luc-melenchon",
+      "question": "securite-restreindre-tirs-refus-obtemperer",
+      "current": 2,
+      "verdict": "FLAG",
+      "proposed": null,
+      "severity": "low",
+      "reason": "L'abrogation de la loi dite « Cazeneuve » sur le refus d'obtempérer ne décrit pas, dans la citation, les règles d'usage des armes à feu qu'elle modifierait. La relation entre le texte cité et l'énoncé doit être vérifiée."
+    },
+    {
+      "ref": "P0652",
+      "candidate": "jean-luc-melenchon",
+      "question": "securite-videosurveillance-algorithmique",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "L'interdiction de l'identification biométrique et de la police prédictive ne tranche pas directement la question de l'autorisation permanente de la vidéosurveillance algorithmique."
+    },
+    {
+      "ref": "P0653",
+      "candidate": "jean-luc-melenchon",
+      "question": "societe-aide-active-a-mourir",
+      "current": 2,
+      "verdict": "CHANGE_VALUE",
+      "proposed": 1,
+      "severity": "medium",
+      "reason": "Le droit constitutionnel de mourir dans la dignité avec assistance est formulé plus largement que l'aide active à mourir réservée aux adultes atteints d'une maladie incurable. La convention de portée impose +1."
+    },
+    {
+      "ref": "P0656",
+      "candidate": "jean-luc-melenchon",
+      "question": "societe-education-sexualite-accord-parents",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Assurer trois séances d'éducation à tous les élèves ne précise pas si elles sont soumises ou non à l'accord préalable des parents."
+    },
+    {
+      "ref": "P0669",
+      "candidate": "jean-luc-melenchon",
+      "question": "transport-subventionner-fret-ferroviaire",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Développer le fret ferroviaire ne précise pas que l'État doit le subventionner. L'investissement et la subvention sont des instruments distincts."
+    },
+    {
+      "ref": "P0675",
+      "candidate": "jean-luc-melenchon",
+      "question": "travail-limiter-licenciements-beneficiaires-v2",
+      "current": 2,
+      "verdict": "CHANGE_VALUE",
+      "proposed": 1,
+      "severity": "medium",
+      "reason": "L'interdiction ne vise que les entreprises qui versent des dividendes ou bénéficient d'aides, sous-ensemble des entreprises bénéficiaires visées par l'énoncé : la position est partielle."
+    },
+    {
+      "ref": "P0676",
+      "candidate": "jean-luc-melenchon",
+      "question": "travail-plafond-prudhommes-maintenu-v2",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La citation demande l'abrogation des ordonnances Pénicaud et de la loi El Khomri, sans mentionner le barème prud'homal. La justification dépend d'un lien juridique non établi par l'extrait."
+    },
+    {
+      "ref": "P0684",
+      "candidate": "jean-luc-melenchon",
+      "question": "travail-smic-au-dela-inflation",
+      "current": 2,
+      "verdict": "FLAG",
+      "proposed": null,
+      "severity": "low",
+      "reason": "Un SMIC fixé à 1 700 € net ne permet pas, sans point de comparaison ni calendrier, d'établir une hausse au-delà de l'inflation."
+    },
+    {
+      "ref": "P0693",
+      "candidate": "juan-branco",
+      "question": "defense-doubler-reservistes",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La création de corps de réserve civils et militaires ne précise pas qu'il s'agit des réservistes opérationnels des armées ni que leur nombre doit doubler."
+    },
+    {
+      "ref": "P0694",
+      "candidate": "juan-branco",
+      "question": "defense-renoncer-modernisation-dissuasion",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La citation évoque le remplacement des M51 par des vecteurs hypersoniques, sans identifier explicitement la dissuasion nucléaire ni formuler une position sur sa modernisation."
+    },
+    {
+      "ref": "P0696",
+      "candidate": "juan-branco",
+      "question": "democratie-chambre-tiree-au-sort",
+      "current": 1,
+      "verdict": "FLAG",
+      "proposed": null,
+      "severity": "low",
+      "reason": "La chambre haute tirée au sort est présentée comme l'une de plusieurs options de réorganisation, sans que l'extrait établisse que cette option est retenue."
+    },
+    {
+      "ref": "P0701",
+      "candidate": "juan-branco",
+      "question": "democratie-referendum-local-initiative",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La mention de référendums d'initiative locaux ne précise ni une pétition des habitants ni le pouvoir de ceux-ci d'imposer un référendum communal."
+    },
+    {
+      "ref": "P0703",
+      "candidate": "juan-branco",
+      "question": "democratie-referendum-revocatoire",
+      "current": 2,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Le mandat révocable et le mandat impératif ne précisent pas que la révocation doit intervenir par référendum."
+    },
+    {
+      "ref": "P0704",
+      "candidate": "juan-branco",
+      "question": "democratie-supprimer-cese",
+      "current": 1,
+      "verdict": "FLAG",
+      "proposed": null,
+      "severity": "low",
+      "reason": "L'absorption du CESE dans une nouvelle chambre haute n'est présentée que comme l'une de trois options. Il faut déterminer si cette option constitue bien une proposition retenue."
+    },
+    {
+      "ref": "P0708",
+      "candidate": "juan-branco",
+      "question": "economie-baisse-depense-publique",
+      "current": 2,
+      "verdict": "CHANGE_VALUE",
+      "proposed": 1,
+      "severity": "medium",
+      "reason": "La baisse des dépenses publiques est explicite, mais la citation ne porte pas sur leur part dans le PIB. La position est donc partielle et doit être ramenée à +1."
+    },
+    {
+      "ref": "P0711",
+      "candidate": "juan-branco",
+      "question": "economie-participations-etat-industrie",
+      "current": 2,
+      "verdict": "CHANGE_VALUE",
+      "proposed": 1,
+      "severity": "medium",
+      "reason": "La reprise en main des conseils d'administration et la fin de la privatisation soutiennent une intervention publique, mais ne précisent pas explicitement la prise de participations au capital de chaque entreprise stratégique."
+    },
+    {
+      "ref": "P0712",
+      "candidate": "juan-branco",
+      "question": "economie-prix-energie-reglementes",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La modulation des tarifs énergétiques ne dit pas que l'État les réglemente ni que cette modulation concerne les ménages selon l'énoncé."
+    },
+    {
+      "ref": "P0716",
+      "candidate": "juan-branco",
+      "question": "energie-petits-reacteurs-modulaires",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Mettre fin à la privatisation des projets SMR ne signifie pas nécessairement que l'État finance leur développement. La citation ne soutient donc qu'un changement de propriété ou de gouvernance."
+    },
+    {
+      "ref": "P0717",
+      "candidate": "juan-branco",
+      "question": "energie-reduire-part-nucleaire",
+      "current": -2,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La construction de nouveaux réacteurs ne prouve pas que la part du nucléaire dans la production électrique ne doit pas diminuer : la citation ne donne aucun objectif de mix électrique."
+    },
+    {
+      "ref": "P0720",
+      "candidate": "juan-branco",
+      "question": "environnement-gazole-non-routier-agriculteurs",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Le plafonnement des aides au GNR n'est pas équivalent au maintien ou à la suppression d'un taux réduit de taxe : les instruments sont distincts."
+    },
+    {
+      "ref": "P0721",
+      "candidate": "juan-branco",
+      "question": "environnement-limiter-recours-projets-v2",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Limiter à trois mois le délai de traitement des recours ne limite pas les possibilités juridiques de former ces recours."
+    },
+    {
+      "ref": "P0724",
+      "candidate": "juan-branco",
+      "question": "environnement-taxe-carbone-importations",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La taxe décrite porte sur les pays utilisant du charbon au-delà d'un seuil, et non sur les émissions de GES des importations des entreprises."
+    },
+    {
+      "ref": "P0726",
+      "candidate": "juan-branco",
+      "question": "fiscalite-baisse-cotisations-salaries",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La réduction des cotisations sur les salaires ne précise pas qu'elle concerne la part payée par les salariés plutôt que celle des employeurs."
+    },
+    {
+      "ref": "P0728",
+      "candidate": "juan-branco",
+      "question": "fiscalite-hausse-taxe-transactions-financieres",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La création d'une taxe sur les transactions financières ne soutient pas une hausse du taux d'une taxe existante."
+    },
+    {
+      "ref": "P0730",
+      "candidate": "juan-branco",
+      "question": "fiscalite-impot-minimum-grandes-fortunes-v2",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Le rétablissement de l'ISF ne prouve pas l'instauration d'un prélèvement annuel minimal de 2 % pour les patrimoines supérieurs à 100 millions d'euros."
+    },
+    {
+      "ref": "P0734",
+      "candidate": "juan-branco",
+      "question": "immigration-amende-sejour-irregulier",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Les travaux d'intérêt général sont une sanction distincte de l'amende demandée par l'énoncé. La citation ne soutient donc pas la mesure proposée."
+    },
+    {
+      "ref": "P0735",
+      "candidate": "juan-branco",
+      "question": "immigration-asile-examen-hors-europe-v2",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Le traitement consulaire des demandes d'asile ne prouve pas l'existence de centres situés hors de l'Union européenne."
+    },
+    {
+      "ref": "P0736",
+      "candidate": "juan-branco",
+      "question": "immigration-regroupement-familial-ressources",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Conditionner le regroupement familial ne précise pas que les conditions ajoutées sont des conditions de ressources."
+    },
+    {
+      "ref": "P0737",
+      "candidate": "juan-branco",
+      "question": "immigration-visas-professions-qualifiees-v2",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Une politique d'attractivité pour les personnes qualifiées ne précise pas que les conditions de délivrance des visas de travail seront assouplies."
+    },
+    {
+      "ref": "P0743",
+      "candidate": "juan-branco",
+      "question": "international-aide-developpement-0-7",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Réduire l'aide multilatérale et convertir d'autres crédits en coopération ne permet pas de conclure sur l'objectif global de 0,7 % du RNB."
+    },
+    {
+      "ref": "P0745",
+      "candidate": "juan-branco",
+      "question": "justice-arret-construction-prisons",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Un plan pénitentiaire avec des cellules collectives ne précise pas si de nouvelles places de prison seront construites ou si leur construction sera arrêtée."
+    },
+    {
+      "ref": "P0747",
+      "candidate": "juan-branco",
+      "question": "justice-imprescriptibilite-crimes-sexuels-mineurs",
+      "current": -1,
+      "verdict": "FLAG",
+      "proposed": null,
+      "severity": "low",
+      "reason": "La prescription criminelle générale de dix ans pourrait avoir des exceptions pour les crimes sexuels commis sur des mineurs. L'extrait ne permet pas de trancher le sort de cette catégorie précise."
+    },
+    {
+      "ref": "P0749",
+      "candidate": "juan-branco",
+      "question": "numerique-ia-remuneration-auteurs",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La compensation du pillage de données françaises par les LLM ne précise pas que les auteurs dont les œuvres servent à l'entraînement doivent être rémunérés."
+    },
+    {
+      "ref": "P0751",
+      "candidate": "juan-branco",
+      "question": "sante-assurance-sante-privee-option-v2",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La suppression des complémentaires et mutuelles privées ne répond pas directement à la possibilité de quitter l'Assurance maladie obligatoire au profit d'une assurance privée."
+    },
+    {
+      "ref": "P0758",
+      "candidate": "juan-branco",
+      "question": "sante-psychologues-rembourses",
+      "current": 2,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Le remboursement intégral des consultations ne précise pas si leur nombre est illimité. Le taux de remboursement et le nombre de séances sont deux dimensions distinctes."
+    },
+    {
+      "ref": "P0759",
+      "candidate": "juan-branco",
+      "question": "sante-regulation-installation-medecins",
+      "current": 2,
+      "verdict": "FLAG",
+      "proposed": null,
+      "severity": "low",
+      "reason": "La « régulation de l'installation décennale » ne précise pas clairement si elle vise les zones déjà bien dotées. Le périmètre géographique de la mesure mérite une vérification."
+    },
+    {
+      "ref": "P0760",
+      "candidate": "juan-branco",
+      "question": "sante-taxer-boissons-sucrees",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La surtaxation des aliments ultra-transformés ne vise pas spécifiquement les boissons sucrées. Le lien entre ces deux catégories ne peut pas être présumé."
+    },
+    {
+      "ref": "P0761",
+      "candidate": "juan-branco",
+      "question": "securite-enquetes-policiers-independantes",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Un corps d'inspection indépendant des forces de l'ordre n'est pas explicitement déclaré indépendant du ministère de l'Intérieur."
+    },
+    {
+      "ref": "P0765",
+      "candidate": "juan-branco",
+      "question": "societe-instruction-famille-autorisation",
+      "current": -1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La simplification des conditions de l'instruction en famille ne dit pas que l'autorisation préalable doit être supprimée."
+    },
+    {
+      "ref": "P0768",
+      "candidate": "juan-branco",
+      "question": "transport-petites-lignes-maintenues",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Investir dans les lignes secondaires menacées ne précise pas qu'elles seront maintenues lorsqu'elles sont peu fréquentées."
+    },
+    {
+      "ref": "P0770",
+      "candidate": "juan-branco",
+      "question": "transport-subventionner-fret-ferroviaire",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "Un plan d'investissement dans le ferroutage ne précise pas que l'État subventionnera le fret ferroviaire."
+    },
+    {
+      "ref": "P0775",
+      "candidate": "juan-branco",
+      "question": "travail-smic-au-dela-inflation",
+      "current": 1,
+      "verdict": "FLAG",
+      "proposed": null,
+      "severity": "low",
+      "reason": "Le relèvement du seuil national à 1 500 € net ne permet pas de déterminer si la hausse dépasse l'inflation, faute de référence comparative et de calendrier."
+    },
+    {
+      "ref": "P0776",
+      "candidate": "juan-branco",
+      "question": "travail-smic-regional",
+      "current": 1,
+      "verdict": "DELETE",
+      "proposed": null,
+      "severity": "high",
+      "reason": "La « déconcentration » du SMIC et la fixation d'un seuil national minimal ne précisent pas que le SMIC pourra varier selon les régions."
+    }
+  ],
+  "non_ok": 80
+}

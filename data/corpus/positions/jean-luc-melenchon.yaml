@@ -410,18 +410,18 @@
   authoredAt: 2026-11-11
 
 - question: economie-participations-etat-industrie
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-bifurcation-ch2
   quote: Produire en France l'acier décarboné dont nous avons besoin pour la bifurcation écologique, notamment en nationalisant ArcelorMittal France
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch2
-  justification: Le programme propose des prises de contrôle publiques dans l'industrie stratégique, dont la nationalisation d'ArcelorMittal France.
+  justification: "Le programme propose la nationalisation d'ArcelorMittal France, prise de contrôle totale plus large que des participations dans les entreprises stratégiques. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: economie-plafonnement-loyers-zones-tendues
   value: 1
@@ -438,18 +438,18 @@
   authoredAt: 2026-11-11
 
 - question: economie-plafonner-prix-alimentaires
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-bifurcation-ch3
   quote: Plafonner le prix des produits alimentaires en fixant des coefficients multiplicateurs
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
-  justification: Le programme propose de plafonner le prix des produits alimentaires.
+  justification: "Le programme propose de plafonner le prix de tous les produits alimentaires, au-delà des seuls produits de première nécessité. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: economie-prix-energie-reglementes
   value: 2
@@ -592,18 +592,18 @@
   authoredAt: 2026-11-09
 
 - question: energie-suspendre-nouvelles-eoliennes
-  value: -2
+  value: -1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-gout-du-futur-ch5
   quote: Déployer l'éolien en mer, posé et flottant, pour atteindre au moins 45 gigawatts de puissance installée en 2050
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch5
-  justification: Le programme prévoit un déploiement massif de l'éolien en mer, à l'inverse d'une suspension des nouvelles éoliennes.
+  justification: "Le programme prévoit un déploiement massif de l'éolien en mer, ce qui s'oppose à une suspension des nouvelles éoliennes sans se prononcer sur l'éolien terrestre, d'où -1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: environnement-assouplir-artificialisation
   value: -1
@@ -690,32 +690,32 @@
   authoredAt: 2026-11-09
 
 - question: environnement-plastique-usage-unique-2030
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-bifurcation-ch3
   quote: Interdire immédiatement et réellement les plastiques à usage unique
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
-  justification: Le programme propose d'interdire immédiatement les plastiques à usage unique, avant l'échéance de 2030.
+  justification: "Le programme propose d'interdire immédiatement tous les plastiques à usage unique, au-delà des seuls emballages. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: environnement-publicite-vehicules-emetteurs
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-bifurcation-ch3
   quote: Proscrire, sur tous types de supports, la publicité des produits et des services les plus émetteurs de GES
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
-  justification: Le programme interdit la publicité pour les produits les plus émetteurs de gaz à effet de serre, ce qui inclut les véhicules les plus émetteurs.
+  justification: "Le programme interdit la publicité pour tous les produits et services les plus émetteurs de gaz à effet de serre, au-delà des seuls véhicules. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: environnement-supprimer-zfe
   value: 1
@@ -732,18 +732,18 @@
   authoredAt: 2026-11-09
 
 - question: environnement-taxe-carbone-importations
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-bifurcation-ch2
   quote: Instaurer des droits de douane sur des critères écologiques (émissions carbone, pollution, consommation d'eau)
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch2
-  justification: Le programme propose des droits de douane fondés sur les émissions carbone des produits importés.
+  justification: "Le programme propose des droits de douane fondés sur plusieurs critères écologiques (émissions carbone, pollution, consommation d'eau). Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: environnement-taxer-kerosene-vols-interieurs
   value: 1
@@ -1588,18 +1588,18 @@
   authoredAt: 2026-11-11
 
 - question: sante-production-publique-medicaments
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-gout-du-futur-ch4
   quote: "Construire un pôle public du médicament qui devra : Assurer une relocalisation de la production de médicaments"
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
-  justification: Le programme crée un pôle public du médicament chargé de produire et de garantir une réserve de médicaments essentiels.
+  justification: "Le programme crée un pôle public du médicament chargé de relocaliser la production de médicaments en général et de garantir une réserve de médicaments essentiels. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: sante-psychologues-rembourses
   value: 1
@@ -1609,20 +1609,6 @@
   quote: Élargir le conventionnement de psychologues par la Sécurité sociale, au-delà de 12 séances par an et avec un remboursement à 100 %
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
   justification: Le programme rembourse à 100 % les psychologues au-delà de 12 séances par an, sans affirmer une absence totale de limite.
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-09
-
-- question: sante-ratios-soignants-patients
-  value: 1
-  evidence: programme
-  sources:
-    - jean-luc-melenchon-aec-securite-sociale-ch2
-  quote: Former, qualifier et recruter du personnel en nombre suffisant pour respecter un ratio minimal d'encadrement
-  quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
-  justification: Le programme fixe un ratio minimal d'encadrement dans les EHPAD, et non dans les hôpitaux.
   status: draft
   provenance:
     kind: manual
@@ -1826,18 +1812,18 @@
   authoredAt: 2026-11-09
 
 - question: societe-aide-active-a-mourir
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-securite-sociale-ch2
   quote: Ajouter dans la Constitution le droit de mourir dans la dignité (y compris avec assistance)
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
-  justification: Le programme inscrit dans la Constitution le droit de mourir dans la dignité avec assistance.
+  justification: "Le programme inscrit dans la Constitution le droit de mourir dans la dignité, y compris avec assistance, sans le limiter aux adultes atteints d'une maladie incurable. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-12
 
 - question: societe-cannabis-legalisation
   value: 2
@@ -2135,18 +2121,18 @@
   authoredAt: 2026-11-09
 
 - question: travail-limiter-licenciements-beneficiaires-v2
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-economie-ch3
   quote: Interdire les licenciements boursiers et économiques par les entreprises qui versent des dividendes ou bénéficient des aides de l'État
   quoteSource: jean-luc-melenchon-aec-economie-ch3
-  justification: Le programme interdit les licenciements économiques aux entreprises qui versent des dividendes, ce qui limite leur recours aux licenciements.
+  justification: "Le programme interdit les licenciements économiques aux seules entreprises qui versent des dividendes ou bénéficient d'aides de l'État : version partielle de l'énoncé, d'où 1."
   status: draft
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-11
+  authoredAt: 2026-11-12
 
 - question: travail-plafond-prudhommes-maintenu-v2
   value: -1
