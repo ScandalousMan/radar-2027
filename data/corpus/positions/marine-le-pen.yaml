@@ -990,19 +990,6 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-14
-- question: defense-dissuasion-protection-europe-v2
-  value: -1
-  evidence: programme
-  sources:
-    - marine-le-pen-programme-du-rassemblement-national-pour-les-legislatives-20
-  quote: "Préserver la souveraineté pleine et entière sur notre dissuasion nucléaire et garantir notre modèle d'armée complet"
-  quoteSource: marine-le-pen-programme-du-rassemblement-national-pour-les-legislatives-20
-  justification: "Le programme insiste sur la souveraineté pleine et entière de la dissuasion ; le livret défense 2022 reprochait à Emmanuel Macron son dialogue stratégique avec les partenaires européens. L'extension explicite de la doctrine n'est pas nommée, d'où -1."
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-14
 - question: defense-defense-europeenne-emprunt
   value: -1
   evidence: programme
@@ -1024,19 +1011,6 @@
   quote: "Augmenter le nombre d'étudiants en médecine (fin du numerus apertus)"
   quoteSource: marine-le-pen-programme-du-rassemblement-national-pour-les-legislatives-20
   justification: "Le programme veut augmenter le nombre d'étudiants en médecine sans fixer d'objectif de doublement : soutien partiel."
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-14
-- question: institutions-referendum-revision-constitution
-  value: 2
-  evidence: programme
-  sources:
-    - marine-le-pen-programme-du-rassemblement-national-pour-les-legislatives-20
-  quote: "Réserver au peuple seul, par référendum, le pouvoir de modifier la Constitution"
-  quoteSource: marine-le-pen-programme-du-rassemblement-national-pour-les-legislatives-20
-  justification: "Le programme réserve la révision constitutionnelle au référendum ; le livret immigration 2022 prévoyait que le président soumette directement une réforme de la Constitution au référendum."
   status: draft
   provenance:
     kind: manual
@@ -1089,24 +1063,14 @@
   quote: "permettra à 500 000 électeurs de provoquer un réfé- rendum sur toute proposition de loi relevant du domaine législatif"
   quoteSource: marine-le-pen-livret-protection-des-animaux-projet-presidentiel-mlafrance
   justification: "Le référendum d'initiative populaire proposé porte sur toute proposition de loi du domaine législatif, ce qui étend le champ du référendum au-delà de ses sujets actuels."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
-- question: democratie-seuil-rip-maintenu-v2
-  value: -1
-  evidence: livre_plateforme
-  sources:
-    - marine-le-pen-livret-protection-des-animaux-projet-presidentiel-mlafrance
-  quote: "permettra à 500 000 électeurs de provoquer un réfé- rendum sur toute proposition de loi relevant du domaine législatif"
-  quoteSource: marine-le-pen-livret-protection-des-animaux-projet-presidentiel-mlafrance
-  justification: "La candidate propose une initiative populaire à 500 000 électeurs, bien en deçà du dixième des inscrits du RIP ; le texte ne vise pas le RIP lui-même, d'où -1."
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:69927ae5e2dab271cd4bfc73b72b54215a84d96bb13603a9fd67d5d1c3cdb274
 - question: travail-durcir-indemnisation-chomage
   value: -2
   evidence: programme
@@ -1141,11 +1105,14 @@
   quote: "Nous baisserons immédiatement le prix de l'électricité de 30 %, en alignant les prix facturés sur les coûts réels de pro- duction du parc électrique financé par les Français."
   quoteSource: marine-le-pen-livret-entreprise-projet-de-marine-le-pen-mis-a-jour-rassemb
   justification: "Le livret prévoit que l'État fixe les prix de l'électricité sur les coûts de production nationaux ; il ne vise que l'électricité et non toute l'énergie, d'où +1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1d376723b794acab59993c8869e7eb57412f6f8f664b7e543ae98dcaf6dc8940
 - question: economie-baisse-depense-publique
   value: 2
   evidence: livre_plateforme
@@ -1154,11 +1121,14 @@
   quote: "Le programme du Rassemblement national prévoit un grand plan de réduction de la dépense publique afin de faire baisser le taux de prélèvements obligatoires de 46 à 40 % du PIB à moyen terme."
   quoteSource: marine-le-pen-livret-entreprise-projet-de-marine-le-pen-mis-a-jour-rassemb
   justification: "Le projet mis à jour de la candidate (2024) prévoit explicitement un grand plan de réduction de la dépense publique."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5f7e97d170ca392eac2f2a00900f519dc1a0a7da74b5b3c2af323978698fd4a5
 - question: fiscalite-baisse-prelevements-obligatoires
   value: 2
   evidence: livre_plateforme
@@ -1167,11 +1137,14 @@
   quote: "Le programme du Rassemblement national prévoit un grand plan de réduction de la dépense publique afin de faire baisser le taux de prélèvements obligatoires de 46 à 40 % du PIB à moyen terme."
   quoteSource: marine-le-pen-livret-entreprise-projet-de-marine-le-pen-mis-a-jour-rassemb
   justification: "Le projet vise une baisse des prélèvements obligatoires de 46 à 40 % du PIB, à moyen terme."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5f7e97d170ca392eac2f2a00900f519dc1a0a7da74b5b3c2af323978698fd4a5
 - question: economie-assouplir-seuils-effectifs
   value: 2
   evidence: livre_plateforme
@@ -1180,11 +1153,14 @@
   quote: "les contraintes réglementaires liées au franchissement d'un seuil (nombre de salariés, chiffre d'affaires) seront désor- mais toutes soumises à un délai de ca- rence de 5 ans."
   quoteSource: marine-le-pen-livret-entreprise-projet-de-marine-le-pen-mis-a-jour-rassemb
   justification: "Le livret soumet toutes les obligations liées aux seuils à un délai de carence de cinq ans : c'est un assouplissement explicite."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ef05690cd5439fd9eb6d68652e7a7624a611dac2d66f4842377980d6f33dc3c3
 - question: fiscalite-reduire-credits-impot
   value: -1
   evidence: livre_plateforme
@@ -1193,11 +1169,14 @@
   quote: "Nous pérenniserons donc ces disposi- tifs et simplifierons les procédures pour accélérer leur mise en œuvre"
   quoteSource: marine-le-pen-livret-entreprise-projet-de-marine-le-pen-mis-a-jour-rassemb
   justification: "Le livret pérennise le crédit d'impôt recherche et le crédit d'impôt innovation, contre une réduction de moitié des crédits d'impôt ; il ne traite pas de l'ensemble des niches, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f4186ac06e7808c80bdf9ade69eea2e7c268b3fa999410ba4d45d20da24bf0f4
 - question: travail-duree-travail-accord-entreprise
   value: -1
   evidence: livre_plateforme
@@ -1206,11 +1185,14 @@
   quote: "nous stabiliserons la législation relative au temps de travail, y compris les disposi- tifs de défiscalisation et de désocialisa- tion des heures supplémentaires."
   quoteSource: marine-le-pen-livret-entreprise-projet-de-marine-le-pen-mis-a-jour-rassemb
   justification: "Le livret promet de stabiliser la législation sur le temps de travail plutôt que de permettre aux accords d'entreprise de dépasser la durée légale ; rejet implicite, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:32e2ae0f16e094e6a1d21fa01031e4b401897703b58f4e67fa09cc6a7edea31d
 - question: international-reduire-contribution-ue
   value: 2
   evidence: livre_plateforme
@@ -1315,19 +1297,6 @@
     kind: manual
   author: claude
   authoredAt: 2026-11-14
-- question: fiscalite-exit-tax-conservation-15-ans
-  value: 1
-  evidence: livre_plateforme
-  sources:
-    - marine-le-pen-contre-budget-2025-du-groupe-rassemblement-national-rassembl
-  quote: "Restaurer l'exit tax"
-  quoteSource: marine-le-pen-contre-budget-2025-du-groupe-rassemblement-national-rassembl
-  justification: "Restaurer l'exit tax renvoie au régime d'avant 2019, où le dégrèvement exigeait 15 ans de conservation ; le délai n'est pas écrit, d'où +1."
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-14
 - question: international-controles-frontieres-schengen
   value: 2
   evidence: declaration_vote
@@ -1336,11 +1305,14 @@
   quote: "j'ai proposé il y a quelques mois le rétablissement des contrôles permanents aux frontières nationales."
   quoteSource: marine-le-pen-ma-vision-pour-l-europe-declaration-de-marine-le-pen-mlafran
   justification: "La candidate propose explicitement le rétablissement de contrôles permanents aux frontières nationales, avant d'éventuels accords bilatéraux de contrôles simplifiés."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b4e95acf6c5946e3d69565294a26990c0a5cfe5b141ebb85240889b4853de61b
 - question: international-impots-propres-ue
   value: -1
   evidence: declaration_vote
@@ -1349,24 +1321,14 @@
   quote: "s'agissant de l'instau- ration de taxes à l'entrée de l'Union européenne, je considère que ce sont bien les Etats membres qui doivent en bénéficier et non la bureaucratie européenne."
   quoteSource: marine-le-pen-ma-vision-pour-l-europe-declaration-de-marine-le-pen-mlafran
   justification: "La candidate refuse que le produit des taxes aux frontières de l'Union aille à l'Union plutôt qu'aux États ; elle ne traite que de ces taxes, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
-- question: international-emprunt-commun-ue
-  value: -1
-  evidence: declaration_vote
-  sources:
-    - marine-le-pen-ma-vision-pour-l-europe-declaration-de-marine-le-pen-mlafran
-  quote: "Et je ne parle même pas du plan de relance annoncé en grande pompe avec Angela Merkel, dont le résultat conduira à ce que la France reçoive 39 milliards tout en garantissant 70."
-  quoteSource: marine-le-pen-ma-vision-pour-l-europe-declaration-de-marine-le-pen-mlafran
-  justification: "La candidate critique le plan de relance européen financé par emprunt commun comme défavorable à la France, sans rejeter tout emprunt commun par principe."
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8d9140bc31db470f953989eac86b6c825d9f0e0139546ded7bc6a08bb6ecb9ec
 - question: travail-elargir-penibilite-retraite
   value: 2
   evidence: declaration_vote
@@ -1375,11 +1337,14 @@
   quote: "Nous devons donc généraliser de manière simple et efficace la reconnaissance de cette péni- bilité."
   quoteSource: marine-le-pen-presentation-de-la-reforme-des-retraites-declaration-de-mari
   justification: "En présentant sa réforme des retraites, la candidate veut généraliser la reconnaissance de la pénibilité, soit un élargissement des critères."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:717a70e8fd3f501c11eade34a78926e0ea4e8479a3387477e25f9c91776152ad
 - question: travail-plateformes-presomption-salariat
   value: 2
   evidence: livre_plateforme
@@ -1388,11 +1353,14 @@
   quote: "Accorder le statut de sala- riés aux chauffeurs et livreurs des plateformes numériques"
   quoteSource: marine-le-pen-livret-numerique-projet-presidentiel-mlafrance-fr-campagne-2
   justification: "Le livret numérique veut accorder le statut de salarié aux chauffeurs et livreurs des plateformes."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b829c95c0ef946972c5e12423da591c8f03133d7e944049d58ef0f5132194217
 - question: numerique-taxe-plateformes
   value: 1
   evidence: livre_plateforme
@@ -1401,11 +1369,14 @@
   quote: "Payer en France des impôts correspondant à l'activité qu'ils y ont et aux profits qu'ils y font"
   quoteSource: marine-le-pen-livret-numerique-projet-presidentiel-mlafrance-fr-campagne-2
   justification: "Le livret veut contraindre les grandes plateformes à payer en France des impôts à proportion de leur activité et de leurs profits, sans préciser un impôt sur le chiffre d'affaires."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a5c9f9db9c28cba75417d5010abbc91322ce5cbb0956723610f5a4da8155a54d
 - question: numerique-donnees-sante-hebergeurs-europeens
   value: 1
   evidence: livre_plateforme
@@ -1414,11 +1385,14 @@
   quote: "Rendre obligatoire l'hébergement des données des Français, des entreprises françaises et des services publics en France ou dans l'Union européenne, par des opérateurs français ou européens."
   quoteSource: marine-le-pen-livret-numerique-projet-presidentiel-mlafrance-fr-campagne-2
   justification: "Le livret impose l'hébergement de toutes les données des Français par des opérateurs français ou européens ; mesure plus large que les seules données de santé, d'où +1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:723c304e11e76f4c618038508a1fd8a24fc927ac30bed0c8387d519ab7c60177
 - question: numerique-logiciels-libres-administration
   value: 1
   evidence: livre_plateforme
@@ -1427,24 +1401,14 @@
   quote: "Un recours exclusif à des four- nisseurs français pour la com- mande publique dans les do- maines militaires et de sécurité nationale, et pour le reste de la commande publique, une priori- té accordée à des fournisseurs européens."
   quoteSource: marine-le-pen-livret-numerique-projet-presidentiel-mlafrance-fr-campagne-2
   justification: "Le livret donne la priorité aux fournisseurs français ou européens, logiciels et cloud compris, dans la commande publique ; il ne parle pas de logiciels libres, d'où +1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
-- question: numerique-scission-grandes-plateformes
-  value: 1
-  evidence: livre_plateforme
-  sources:
-    - marine-le-pen-livret-numerique-projet-presidentiel-mlafrance-fr-campagne-2
-  quote: "Imposer, lorsque c'est néces- saire, par impératif stratégique ou en sanction de la violation de nos règles, aux entreprises étrangères exerçant en France une ouverture de capital, une cession partielle de leurs activi- tés, un partenariat avec des en- treprises françaises, un déman- tèlement"
-  quoteSource: marine-le-pen-livret-numerique-projet-presidentiel-mlafrance-fr-campagne-2
-  justification: "La candidate veut pouvoir imposer le démantèlement de plateformes étrangères, mais par la France et non par l'Union européenne, d'où +1."
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e6bff2ac7ac25e9effd8f71dd61b72739c4742afc16b98995bf8bb6cd4307a81
 - question: numerique-assouplir-consentement-traceurs
   value: -2
   evidence: livre_plateforme
@@ -1453,11 +1417,14 @@
   quote: "Les principes régissant la collecte de ces données personnelles se- ront renforcés en facilitant l'in- telligibilité et le paramétrage du consentement à leur prélèvement ainsi qu'à la publicité ciblée, la règle étant leur désactivation par défaut"
   quoteSource: marine-le-pen-livret-numerique-projet-presidentiel-mlafrance-fr-campagne-2
   justification: "Le livret renforce les règles de consentement à la collecte et à la publicité ciblée, désactivées par défaut : l'inverse d'un assouplissement."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:abc196a6bb87a9de810cec7ffd7e4ec5ee72669060bd31df6a15a2714cc13a21
 - question: agriculture-retenues-eau-irrigation
   value: 2
   evidence: livre_plateforme
@@ -1466,11 +1433,14 @@
   quote: "La création de réserves d'eau et la mise en place de systèmes d'irri- gation adaptés aux enjeux environ- nementaux sont incontournables"
   quoteSource: marine-le-pen-livret-agriculture-projet-presidentiel-mlafrance-fr-campagne
   justification: "Le livret agriculture juge les réserves d'eau incontournables et promet que l'État facilitera leur mise en place et leur financement."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8a4f8c8a79b593d5003ec1abf3289e859c1c721e1a7db4e67dcd9f5c43dc5f8c
 - question: agriculture-interdire-glyphosate
   value: -1
   evidence: livre_plateforme
@@ -1479,11 +1449,14 @@
   quote: "Il n'y aura désormais plus d'inter- diction de substances actives sans solution équivalente et économi- quement soutenable."
   quoteSource: marine-le-pen-livret-agriculture-projet-presidentiel-mlafrance-fr-campagne
   justification: "Le livret exclut toute interdiction de substance active sans alternative équivalente, ce qui s'oppose à une interdiction du glyphosate en l'état ; le produit n'est pas nommé, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:360a318a53feaabb1fd2cafd80be6b853d78068d5fc5f624134e470d1d47fd46
 - question: economie-accords-libre-echange
   value: -2
   evidence: livre_plateforme
@@ -1492,11 +1465,14 @@
   quote: "Quant aux trois projets de trai- tés en cours de négociation entre l'Union européenne et respecti- vement l'Australie, la Nouvelle-Zé- lande et le MERCOSUR (Argen- tine, Brésil, Paraguay et Uruguay) je m'opposerai à la poursuite des négociations"
   quoteSource: marine-le-pen-livret-agriculture-projet-presidentiel-mlafrance-fr-campagne
   justification: "La candidate s'oppose à la poursuite des négociations des accords UE-Australie, UE-Nouvelle-Zélande et UE-Mercosur et refuse de ratifier le CETA."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0b8abf2b1d7b351d8d6f17da3105b1b78e6c2275426afb4384738e692432e802
 - question: energie-fonds-publics-renouvelables
   value: -2
   evidence: livre_plateforme
@@ -1505,11 +1481,14 @@
   quote: "Toutes les subventions dédiées à promouvoir ces procédés seront suspendues, et l'énergie produite achetée à prix de marché."
   quoteSource: marine-le-pen-livret-ecologie-projet-presidentiel-mlafrance-fr-campagne-20
   justification: "Le livret écologie suspend toutes les subventions à l'éolien et au solaire et relance le nucléaire : l'inverse d'une priorité des fonds publics aux renouvelables."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:51ae0bd4b99b69cbf1c644e87a67de611778685c8350018c6671de14f828a043
 - question: transport-routes-90-kmh
   value: 1
   evidence: livre_plateforme
@@ -1518,11 +1497,14 @@
   quote: "nous déciderons de l'harmo- nisation nationale des limitations de vitesse (90, 110, 130 ) et en agglo- mération (50)"
   quoteSource: marine-le-pen-livret-ecologie-projet-presidentiel-mlafrance-fr-campagne-20
   justification: "Le livret prévoit une harmonisation nationale des vitesses avec 90 km/h sur route ; la formule est brève et ne dit pas explicitement « relever », d'où +1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2d65bc0a3cdd7b2e16c8a90cf0c25fabf72b7662ff56d76bfb282176e983dd1f
 - question: environnement-pause-normes-europeennes
   value: 1
   evidence: livre_plateforme
@@ -1531,11 +1513,14 @@
   quote: "Nous sortirons du \" Green deal \" et de l'enfer adminis- tratif qu'il impose aux petites entre- prises"
   quoteSource: marine-le-pen-livret-ecologie-projet-presidentiel-mlafrance-fr-campagne-20
   justification: "La candidate veut sortir du Pacte vert européen, ce qui va plus loin qu'une pause des nouvelles normes et ne porte pas sur une durée : soutien partiel."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7025c5c5c967542c06ab413a5ea5b60cba3e8e9233f07b2a4f0e334da9d0b3a6
 - question: immigration-vote-local-etrangers-v2
   value: -2
   evidence: livre_plateforme
@@ -1544,11 +1529,14 @@
   quote: "seuls les nationaux français ont le droit de vote et sont éligibles"
   quoteSource: marine-le-pen-livret-controle-de-l-immigration-projet-presidentiel-mlafran
   justification: "Le projet de loi référendaire inscrit que seuls les nationaux votent, en ne conservant que l'exception européenne pour les municipales : il exclut le vote local des étrangers non européens."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b01426a0ddb0bac18dda236f8fa7cc7760025477819f4438d1a2b3f3ef21686d
 - question: immigration-reduire-duree-naturalisation
   value: -1
   evidence: livre_plateforme
@@ -1557,11 +1545,14 @@
   quote: "La naturalisation sera enca- drée par des conditions très strictes"
   quoteSource: marine-le-pen-livret-controle-de-l-immigration-projet-presidentiel-mlafran
   justification: "Le livret durcit les conditions de naturalisation, à l'opposé d'un assouplissement ; la durée de résidence n'est pas citée, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c6950cc331aa6bdc72a9d7c29af5afbe561d0114cc3ef732fdc276ded9584dd0
 - question: defense-cesser-ventes-armes-conflits
   value: -1
   evidence: livre_plateforme
@@ -1570,11 +1561,14 @@
   quote: "l'ex- portation d'armement, compo- sante majeure de la diplomatie de Défense française, sera soutenue contre les tentatives des ONG de l'empêcher."
   quoteSource: marine-le-pen-livret-defense-projet-presidentiel-mlafrance-fr-campagne-202
   justification: "Le livret défense soutient les exportations d'armement contre les tentatives de les restreindre, sans traiter explicitement les États en conflit, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:59f54a0e71d72df8d3baeaf96d6ba34caaa366508c9c2c0911cb955880b9bf23
 - question: societe-instruction-famille-autorisation
   value: -1
   evidence: livre_plateforme
@@ -1583,11 +1577,14 @@
   quote: "renforcer la liberté d'enseigne- ment et notamment de l'enseigne- ment en famille, liberté qui a été particulièrement restreinte par la loi sur le séparatisme"
   quoteSource: marine-le-pen-livret-famille-projet-presidentiel-mlafrance-fr-campagne-202
   justification: "Le livret famille veut renforcer la liberté de l'instruction en famille restreinte par la loi de 2021, qui a créé le régime d'autorisation ; la suppression de l'autorisation n'est pas écrite, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:19b2fe3386ab6bae59c3b9b26cd3638a3cdbb84369a9c6fe2b2168c279904841
 - question: fiscalite-quotient-familial-credit-enfant
   value: -1
   evidence: livre_plateforme
@@ -1596,8 +1593,11 @@
   quote: "instaurer une part fiscale pleine, contre une demi-part actuellement, pour le deuxième enfant"
   quoteSource: marine-le-pen-livret-famille-projet-presidentiel-mlafrance-fr-campagne-202
   justification: "La candidate renforce le quotient familial (part pleine dès le 2e enfant) au lieu de le remplacer par un crédit d'impôt forfaitaire ; rejet implicite, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:66759d99f1639436e657c859ba6d6fd2a22f4d10886753861e4ebb329f6b785d

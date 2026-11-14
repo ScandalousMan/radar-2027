@@ -97,14 +97,3 @@
   candidates:
     - marine-tondelier
   contentHash: sha256:e75d892036024b564bdf096116d599c8a0cd137f5e69ae4ce804c6933d393422
-- id: marine-tondelier-socle-programmatique-des-ecologistes-pour-les-elections-euro
-  url: https://patrickbayeux.com/wp-content/uploads/2024/05/Marie-Toussaint-EELV.pdf
-  title: Socle programmatique des Écologistes pour les élections européennes 2024, liste conduite par Marie Toussaint (PDF, copie hébergée par un tiers)
-  kind: programme
-  publishedAt:
-    date: 2024-05
-    precision: month
-  accessedAt: 2026-11-14
-  candidates:
-    - marine-tondelier
-  contentHash: sha256:b940de598adec66a9e5b3522350206bd763da432b69107492963b2dd52d3139f

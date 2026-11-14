@@ -295,17 +295,6 @@
   candidates:
     - jean-luc-melenchon
   contentHash: sha256:789ab1e08feb27209c009e2dcc7c27836f13a3ee4ce344cd8ec498ea7b9463b2
-- id: jean-luc-melenchon-up-europeennes-2024
-  url: https://lafranceinsoumise.fr/wp-content/uploads/2024/05/PROGRAMME-UNION-POPULAIRE_EURO-2024.pdf
-  title: Programme de l'Union populaire pour les européennes 2024 (lafranceinsoumise.fr, PDF)
-  kind: programme
-  publishedAt:
-    date: 2024-05
-    precision: month
-  accessedAt: 2026-11-14
-  candidates:
-    - jean-luc-melenchon
-  contentHash: sha256:e4c82d20ff104e908893e35f676346c963a23767e627553aa8012aff50bdf0b7
 - id: jean-luc-melenchon-plan-ruralites
   url: https://melenchon2027.fr/wp-content/uploads/2026/10/plan_RURALITE_web.pdf
   title: "Plan thématique de L'Avenir en commun : ruralités (melenchon2027.fr, PDF)"
