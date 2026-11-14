@@ -1344,3 +1344,317 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:8d8cd8458c92e1ff5b533a17a123d2e94b2c32afd4f236172a0db3c0f0cb19df
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: environnement-taxe-carbone-importations
+  value: 2
+  evidence: programme
+  sources:
+    - raphael-glucksmann-revolution-ecologique-les-premiers-100-jours-pour-sortir-des
+  quote: "en renforçant notamment le mécanisme d'ajustement carbone aux frontières (MACF) et le devoir de vigilance"
+  quoteSource: raphael-glucksmann-revolution-ecologique-les-premiers-100-jours-pour-sortir-des
+  justification: "Le livret programme veut renforcer le mécanisme d'ajustement carbone aux frontières, qui fait payer aux importateurs les émissions de leurs importations."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-baisser-taxe-billets-avion
+  value: -2
+  evidence: programme
+  sources:
+    - raphael-glucksmann-revolution-ecologique-les-premiers-100-jours-pour-sortir-des
+  quote: "Dès les 100 premiers jours, nous mettrons fin aux exonérations fiscales sur le carburant pour les vols intérieurs et nous augmenterons la taxe sur les billets d'avion."
+  quoteSource: raphael-glucksmann-revolution-ecologique-les-premiers-100-jours-pour-sortir-des
+  justification: "Le livret programme prévoit d'augmenter la taxe sur les billets d'avion, à l'opposé d'une baisse."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: energie-prolonger-reacteurs-60-ans
+  value: 1
+  evidence: programme
+  sources:
+    - raphael-glucksmann-revolution-ecologique-les-premiers-100-jours-pour-sortir-des
+  quote: "Nous prolongerons et sécuriserons les réacteurs nucléaires existants."
+  quoteSource: raphael-glucksmann-revolution-ecologique-les-premiers-100-jours-pour-sortir-des
+  justification: "Le livret s'engage à prolonger les réacteurs existants, sans préciser l'horizon au-delà de 60 ans ni la condition d'autorisation de l'autorité de sûreté."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: energie-accelerer-eolien-terrestre
+  value: 1
+  evidence: programme
+  sources:
+    - raphael-glucksmann-revolution-ecologique-les-premiers-100-jours-pour-sortir-des
+  quote: "au moins doubler, d'ici 2035, compte tenu du retard pris, les capacités installées de production d'énergie renouvelable"
+  quoteSource: raphael-glucksmann-revolution-ecologique-les-premiers-100-jours-pour-sortir-des
+  justification: "Le livret vise au moins un doublement des capacités renouvelables d'ici 2035, mesure plus large que l'éolien terrestre seul."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: energie-suspendre-nouvelles-eoliennes
+  value: -1
+  evidence: programme
+  sources:
+    - raphael-glucksmann-revolution-ecologique-les-premiers-100-jours-pour-sortir-des
+  quote: "Le mix s'appuiera sur un déploiement massif des énergies renouvelables et la pérennisation de l'énergie nucléaire."
+  quoteSource: raphael-glucksmann-revolution-ecologique-les-premiers-100-jours-pour-sortir-des
+  justification: "Le livret mise sur un déploiement massif des renouvelables, incompatible avec une suspension des nouvelles éoliennes, sans viser l'éolien nommément."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-csg-progressive-v2
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - raphael-glucksmann-presidentielle-2027-raphael-glucksmann-met-200-milliards-sur
+  quote: "si vous conjuguez les deux mesures que nous proposons, d'un côté la baisse de la CSG sur les bas salaires"
+  quoteSource: raphael-glucksmann-presidentielle-2027-raphael-glucksmann-met-200-milliards-sur
+  justification: "Le candidat propose une baisse de la CSG sur les bas salaires, ce qui rend son taux croissant avec le revenu sans aller jusqu'à un barème progressif général."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-adhesion-ukraine-ue
+  value: 2
+  evidence: programme
+  sources:
+    - raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  quote: "En soutenant l'élargissement aux pays candidats à l'accession à l'UE, notamment à l'Ukraine"
+  quoteSource: raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  justification: "Le programme européen qu'il conduisait soutient explicitement l'élargissement de l'Union à l'Ukraine."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-reduire-contribution-ue
+  value: -1
+  evidence: programme
+  sources:
+    - raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  quote: "En augmentant le budget européen pour atteindre 5% du PIB, via de nouvelles ressources propres"
+  quoteSource: raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  justification: "Le programme veut augmenter fortement le budget européen, à l'opposé d'une réduction, mais par des ressources propres plutôt que par les contributions nationales."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-plateformes-presomption-salariat
+  value: 2
+  evidence: programme
+  sources:
+    - raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  quote: "Mettre en œuvre la directive européenne sur les travailleurs des plateformes en garantissant la présomption de salariat"
+  quoteSource: raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  justification: "Le programme demande explicitement la présomption de salariat pour les travailleurs des plateformes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: energie-consommation-moitie-2050
+  value: 1
+  evidence: programme
+  sources:
+    - raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  quote: "avec un objectif contraignant pour diviser par deux la demande énergétique de l'UE d'ici 2040"
+  quoteSource: raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  justification: "Le programme vise une division par deux de la demande énergétique, à l'échelle de l'Union et d'ici 2040 plutôt que pour la France en 2050."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-ecocide-crime
+  value: 1
+  evidence: programme
+  sources:
+    - raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  quote: "En rendant les sanctions contre les crimes d'écocide réellement dissuasives."
+  quoteSource: raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  justification: "Le programme traite l'écocide comme un crime à sanctionner plus durement, au niveau européen et sans mentionner le Code pénal français."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: agriculture-alleger-normes-agricoles
+  value: -1
+  evidence: programme
+  sources:
+    - raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  quote: "En interdisant l'usage des pesticides les plus néfastes - dont le glyphosate - et en veillant à l'effectivité de l'interdiction des néonicotinoïdes tueurs d'abeilles."
+  quoteSource: raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  justification: "Le programme veut durcir les règles environnementales applicables aux agriculteurs (interdiction du glyphosate), à l'opposé d'un allègement général."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-pause-normes-europeennes
+  value: -1
+  evidence: programme
+  sources:
+    - raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  quote: "En proposant une nouvelle législation pour la réduction de l'usage des pesticides construite avec toutes les parties prenantes"
+  quoteSource: raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  justification: "Le programme propose de nouvelles normes environnementales européennes, ce qui contredit une pause, sans se prononcer sur la pause elle-même."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-production-publique-medicaments
+  value: 1
+  evidence: programme
+  sources:
+    - raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  quote: "En créant un service public du médicament pour répondre aux besoins de santé des Européens, garantir les approvisionnements et des prix justes."
+  quoteSource: raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  justification: "Le programme propose un service public européen du médicament pour garantir les approvisionnements, mesure plus large que la production publique en cas de carence."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-exploitation-hydrocarbures
+  value: -1
+  evidence: programme
+  sources:
+    - raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  quote: "En mettant fin à tout nouveau projet d'infrastructure fossile (par exemple, les terminaux d'importation de gaz naturel liquéfié (GNL))"
+  quoteSource: raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  justification: "Le programme veut arrêter tout nouveau projet d'infrastructure fossile, ce qui s'oppose à de nouveaux gisements sans les citer expressément."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-regroupement-familial-ressources
+  value: -1
+  evidence: programme
+  sources:
+    - raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  quote: "En réaffirmant l'intangibilité du droit à la vie privée et familiale et du regroupement familial"
+  quoteSource: raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  justification: "Le programme affirme l'intangibilité du regroupement familial, ce qui va contre un durcissement de ses conditions sans viser les conditions de ressources."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-regularisation-cinq-ans
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: "Faciliter les démarches de régularisation des travailleurs sans papiers"
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: "La plateforme veut faciliter la régularisation des travailleurs sans papiers, sans critère de cinq ans de présence."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-visas-professions-qualifiees-v2
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: "Créer des voies légales et sécurisées d'immigration de travail"
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: "La plateforme veut ouvrir des voies légales d'immigration de travail, mesure plus large que les seules professions qualifiées."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: democratie-referendum-exceptionnel
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: "Instaurer un droit d'initiative citoyenne, permettant de déclencher des séquences démocratiques avec des référendums à l'échelle locale et nationale"
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: "Un droit d'initiative citoyenne pouvant déclencher des référendums nationaux va contre un référendum exceptionnel (position déduite du RIC, admise)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-retraite-au-dela-64-ans
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: "La réforme de 2023, imposée contre les partenaires sociaux et l'écrasante majorité des citoyens, est injuste. Elle doit être abrogée."
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: "La plateforme veut abroger la réforme qui a porté l'âge légal à 64 ans, tout en admettant que certains travailleurs partent plus tard."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-renegocier-traites-competences
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: "Porter d'ici 2030 un grand traité de réunification européenne qui sera aussi un traité de refondation institutionnelle"
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: "La plateforme veut un nouveau traité dans un sens fédéral (majorité qualifiée, pouvoirs du Parlement européen), à l'opposé d'un retour de compétences aux États."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-hausse-franchises-medicales
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - raphael-glucksmann-franchises-medicales-s-lecornu-envoie-la-facture-du-deficit
+  quote: "Place publique s'oppose avec force à ce type de mesures injustes et inefficaces."
+  quoteSource: raphael-glucksmann-franchises-medicales-s-lecornu-envoie-la-facture-du-deficit
+  justification: "Le communiqué de son parti rejette expressément le doublement du plafond des franchises médicales voulu par le gouvernement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-mutuelles-part-accrue-v2
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - raphael-glucksmann-franchises-medicales-s-lecornu-envoie-la-facture-du-deficit
+  quote: "Place publique s'oppose avec force à ce type de mesures injustes et inefficaces."
+  quoteSource: raphael-glucksmann-franchises-medicales-s-lecornu-envoie-la-facture-du-deficit
+  justification: "Le communiqué de son parti rejette expressément le transfert d'une partie des remboursements de l'Assurance maladie vers les complémentaires santé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-impot-fortune-retabli
+  value: 1
+  evidence: programme
+  sources:
+    - raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  quote: "En instaurant une imposition minimale de 2% sur le patrimoine des centi-millionnaires et des milliardaires"
+  quoteSource: raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  justification: "Le programme propose un impôt minimum sur les très grands patrimoines, plus étroit qu'un impôt sur la fortune rétabli et porté au niveau européen."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14

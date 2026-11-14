@@ -53,3 +53,69 @@
   candidates:
     - raphael-glucksmann
   contentHash: sha256:83e9b8b9f41e97c57559eacd6b56a7fba3e050d4be4b522f3d8d532b516ff266
+- id: raphael-glucksmann-reveiller-l-europe-programme-de-la-liste-ps-place-publique-c
+  url: https://assets.nationbuilder.com/reveillerleurope/pages/176/attachments/original/1717408561/Re%CC%81veiller_l'Europe_PROGRAMME.pdf
+  title: "Réveiller l'Europe : programme de la liste PS–Place publique conduite par Raphaël Glucksmann, européennes 2024 (PDF)"
+  kind: programme
+  publishedAt:
+    date: 2024-06
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - raphael-glucksmann
+  contentHash: sha256:ba37ca35e8eb8dbbd1b6979288224bed1ae82c4ad6011bb876ac777c6545e0f5
+- id: raphael-glucksmann-presidentielle-2027-s-il-gagne-raphael-glucksmann-engagera-l
+  url: https://lcp.fr/actualites/presidentielle-2027-s-il-gagne-raphael-glucksmann-engagera-les-100-jours-de-la
+  title: "Présidentielle 2027 : s'il gagne, Raphaël Glucksmann engagera « les 100 jours de la révolution écologique » (LCP)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-08-25
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - raphael-glucksmann
+  contentHash: sha256:00c7ad18e978be2395b96c218341ee8f8ddf4501b6095856fbc24adf87ffca75
+- id: raphael-glucksmann-fiscalite-ecole-immigration-ce-que-propose-raphael-glucksman
+  url: https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann
+  title: "Fiscalité, école, immigration : ce que propose Raphaël Glucksmann (Public Sénat)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-08-24
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - raphael-glucksmann
+  contentHash: sha256:819a085d4444ea81d440fca39f61164a6e0802f7c93f1f4fa7d5a97e6868b1e3
+- id: raphael-glucksmann-presidentielle-2027-raphael-glucksmann-met-200-milliards-sur
+  url: https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique
+  title: "Présidentielle 2027 : Raphaël Glucksmann met 200 milliards sur la table (Public Sénat, plan des 100 premiers jours)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-09
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - raphael-glucksmann
+  contentHash: sha256:a649ca26ec1c5766fa80679c4fe6287b25e14373d9628ec4a1e6bcb5bc1e4d2e
+- id: raphael-glucksmann-revolution-ecologique-les-premiers-100-jours-pour-sortir-des
+  url: https://glucks2027.fr/wp-content/uploads/2026/11/livret_progr_revolution_ecologique_2027.pdf
+  title: "Révolution écologique : les premiers 100 jours pour sortir des énergies fossiles, livret programme partie 1 (glucks2027.fr, PDF)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-09
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - raphael-glucksmann
+  contentHash: sha256:9313edfd09f5e90de7eac1591c3d226acfa0dbb7bbaffc72e08e5efa75e49e0f
+- id: raphael-glucksmann-franchises-medicales-s-lecornu-envoie-la-facture-du-deficit
+  url: https://place-publique.eu/posts/5alHI42mxxIp7GNFA9ImFX/franchises-medicales-s-lecornu-envoie-la-facture-du-deficit-aux-malades
+  title: "Franchises médicales : S. Lecornu envoie la facture du déficit aux malades (Place publique, communiqué)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-07-29
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - raphael-glucksmann
+  contentHash: sha256:76d55bc0c685292a438f5aaec1b4fda73fbfaa061601d99635a83d8e19c239c0

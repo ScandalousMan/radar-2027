@@ -2894,3 +2894,159 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:5ec81dcbaa650e95c3855e6f0cb6293e4caae481bf206f4a59e4393a8e45b09e
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+
+- question: democratie-champ-referendum-inchange
+  value: -1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: "Renforcer la démocratie directe par la mise en œuvre du Référendum d'Initiative Citoyenne (RIC) propositionnel ou abrogatif - sous condition d'un contrôle de constitutionnalité préalable."
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: 'Un RIC propositionnel ou abrogatif ouvre le référendum aux lois en général, au-delà des sujets actuels ; position déduite du RIC (admise par convention), sans mention explicite de tous les domaines, d''où -1.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: securite-supprimer-controles-preventifs
+  value: 1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: "Mettre fin au contrôle au faciès en interdisant les contrôles d'identité aléatoires pour les limiter aux situations de fragrance, d'enquête judiciaire ou d'ordre public."
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: 'Le programme interdit les contrôles d''identité aléatoires mais conserve un motif d''ordre public, ce qui rejoint l''énoncé seulement en partie.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: defense-reduire-presence-etranger
+  value: 1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: "Notre modèle d'armée doit aussi sortir d'une logique expéditionnaire héritée de la période post-coloniale et accélérer le pivot vers la défense continentale et la protection des territoires ultramarins."
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: 'Sortir de la logique expéditionnaire au profit de la défense continentale va dans le sens d''une moindre présence militaire à l''étranger, sans mesure chiffrée ni retrait explicite.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-baisse-impot-societes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-tondelier-livret-travail-2026-11
+  quote: "Soutenir les TPE et PME ainsi que les associations par des dispositifs de soutien ciblés, stables et proportionnés, comme un ajustement à la baisse du taux réduit de l'impôt sur les sociétés et de la taxe sur les salaires."
+  quoteSource: marine-tondelier-livret-travail-2026-11
+  justification: 'Le livret baisse seulement le taux réduit de l''impôt sur les sociétés applicable aux petites entreprises, soutien partiel à l''énoncé.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: agriculture-interdire-glyphosate
+  value: 1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: "Planifier une sortie progressive des pesticides de synthèse et des engrais azotés à l'horizon 2050."
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: 'Le glyphosate est un pesticide de synthèse : le programme prévoit d''en sortir, mais progressivement et à l''horizon 2050, et non par une interdiction immédiate.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: numerique-scission-grandes-plateformes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-tondelier-carnet-de-doctrine-numerique-technodiversites-reprendre-la-m
+  quote: "Le premier relève du droit de la concurrence, qu'il faut appliquer avec une fermeté inédite, jusqu'au démantèlement lorsqu'une position dominante dégénère en rente."
+  quoteSource: marine-tondelier-carnet-de-doctrine-numerique-technodiversites-reprendre-la-m
+  justification: 'Le carnet soutient le démantèlement des entreprises en position dominante, sans préciser que ce pouvoir revient à l''Union européenne.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: numerique-chiffrement-messageries-v2
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-tondelier-carnet-de-doctrine-numerique-technodiversites-reprendre-la-m
+  quote: "elle doit imposer l'interopérabilité, les normes ouvertes et le chiffrement de bout en bout. Les deux premières rendent aux usagers la liberté de changer de service sans renoncer à leurs données ; le troisième protège leurs communications de toute interception."
+  quoteSource: marine-tondelier-carnet-de-doctrine-numerique-technodiversites-reprendre-la-m
+  justification: 'Le carnet défend le chiffrement de bout en bout contre toute interception, sans se prononcer explicitement sur un accès des autorités publiques au contenu.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: sante-ratios-soignants-patients
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-tondelier-livret-thematique-lutter-contre-la-solitude-30-propositions
+  quote: "Instaurer un ratio de personnel dans tous les métiers du \"Care\", c'est-à-dire dans tous les métiers qui prennent soin des gens (médical, social, éducation)."
+  quoteSource: marine-tondelier-livret-thematique-lutter-contre-la-solitude-30-propositions
+  justification: 'Le livret instaure des ratios de personnel dans tous les métiers du soin, mesure plus large que l''énoncé qui ne vise que les hôpitaux et la loi.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: energie-consommation-moitie-2050
+  value: 1
+  evidence: programme
+  sources:
+    - marine-tondelier-socle-programmatique-des-ecologistes-pour-les-elections-euro
+  quote: "Notre objectif est d'économiser au niveau européen, 55 % de l'énergie finale consommée en 2050, par rapport au niveau pré-covid de 2019."
+  quoteSource: marine-tondelier-socle-programmatique-des-ecologistes-pour-les-elections-euro
+  justification: 'Le programme européen de 2024 vise une baisse de 55 % de l''énergie finale en 2050, mais à l''échelle européenne et non spécifiquement pour la France.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: economie-prix-energie-reglementes
+  value: 1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: "Refondre le tarif bleu. Réduire la part fixe de l'abonnement et développer une tarification progressive."
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: 'Le programme conserve et réforme le tarif bleu, tarif réglementé de l''électricité, sans se prononcer sur le gaz ni sur l''ensemble des prix de l''énergie.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: international-reduire-contribution-ue
+  value: -1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: "Augmenter les moyens budgétaires de l'Union Européenne pour atteindre 2 % du PIB européen en 2035 et 5 % du PIB en 2050."
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: 'Le programme veut accroître fortement le budget de l''Union, ce qui va à l''encontre d''une réduction de la contribution française, sans préciser la part des ressources propres.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14

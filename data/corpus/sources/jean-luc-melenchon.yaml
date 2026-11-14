@@ -295,3 +295,201 @@
   candidates:
     - jean-luc-melenchon
   contentHash: sha256:789ab1e08feb27209c009e2dcc7c27836f13a3ee4ce344cd8ec498ea7b9463b2
+- id: jean-luc-melenchon-up-europeennes-2024
+  url: https://lafranceinsoumise.fr/wp-content/uploads/2024/05/PROGRAMME-UNION-POPULAIRE_EURO-2024.pdf
+  title: Programme de l'Union populaire pour les européennes 2024 (lafranceinsoumise.fr, PDF)
+  kind: programme
+  publishedAt:
+    date: 2024-05
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:e4c82d20ff104e908893e35f676346c963a23767e627553aa8012aff50bdf0b7
+- id: jean-luc-melenchon-plan-ruralites
+  url: https://melenchon2027.fr/wp-content/uploads/2026/10/plan_RURALITE_web.pdf
+  title: "Plan thématique de L'Avenir en commun : ruralités (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-10
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:b55cf059db9101273ab095beeb8d676aa7d976d112265aea472050a4bbe6f762
+- id: jean-luc-melenchon-plan-sante
+  url: https://melenchon2027.fr/wp-content/uploads/2026/11/plan_SANTE_lowres.pdf
+  title: "Plan thématique de L'Avenir en commun : santé (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-11
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:66582520c6bbb3911a0c72b261cb4ce3e0cdfaf99659793ff688d8a345e898d1
+- id: jean-luc-melenchon-plan-automobile
+  url: https://melenchon2027.fr/wp-content/uploads/2026/10/PLAN-AUTO_Vf_ST.pdf
+  title: "Plan d'investissement productif de L'Avenir en commun : automobile (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-10
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:580871df7938d73081674e8c92872764f96198a85d4e1072b56fa96bde3c1f29
+- id: jean-luc-melenchon-livret-de-l-union-populaire-2022-defense-melenchon2027-fr-pd
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/Livret_UP_05_DEFENSE_web-ok.pdf
+  title: "Livret de l'Union populaire 2022 : Défense (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:00a6b5b71f09afc2f1f38f738bdb400b3bfdafc96241b0ac08538eecb4e9e98b
+- id: jean-luc-melenchon-livret-de-l-union-populaire-2022-paix-melenchon2027-fr-pdf
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/Livret_UP_03_PAIX_web-ok.pdf
+  title: "Livret de l'Union populaire 2022 : Paix (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:79c0bb35f886042a5705ac53da67cbc85809b717d3e8ececffb6fe6c2b9d4e95
+- id: jean-luc-melenchon-livret-de-l-union-populaire-2022-migration-melenchon2027-fr
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/Livret_UP_06_MIGRATION_web-1-ok.pdf
+  title: "Livret de l'Union populaire 2022 : Migration (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:2a88292141bba55099275e8ddce99c1f1736701dd8f5bf5cd990e9a4c64fd181
+- id: jean-luc-melenchon-livret-de-l-union-populaire-2022-agriculture-melenchon2027-f
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/Livret_UP_24_AGRICULTURE_web-1-ok.pdf
+  title: "Livret de l'Union populaire 2022 : Agriculture (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:cb2248dd3490b12623a79f4b2216ee0b1ade86a3ac1c21fbfdf872b9d80220a1
+- id: jean-luc-melenchon-livret-de-l-union-populaire-2022-securite-melenchon2027-fr-p
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/Livret_UP_28_SECURITE_web-ok.pdf
+  title: "Livret de l'Union populaire 2022 : Sécurité (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:8e9b612e3fbea5e4b23e45f4f98bbb43a35988ed7f2bb9a6af755722241091be
+- id: jean-luc-melenchon-livret-de-l-union-populaire-2022-justice-melenchon2027-fr-pd
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/Livret_UP_25_JUSTICE_web-1-ok.pdf
+  title: "Livret de l'Union populaire 2022 : Justice (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:990267c08d447b9b66dd46705747454715f9776540ba50a9fcb1b7589e5d38ff
+- id: jean-luc-melenchon-livret-de-l-union-populaire-2022-transports-melenchon2027-fr
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/Livret_UP_20_TRANSPORT_web-1-ok.pdf
+  title: "Livret de l'Union populaire 2022 : Transports (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:467f622ea3be60a0d7ba751ae7da388a82514093586282ecfff0114154bb3104
+- id: jean-luc-melenchon-livret-de-l-union-populaire-2022-energies-melenchon2027-fr-p
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/Livret_UP_08_ENERGIES_web-3-ok.pdf
+  title: "Livret de l'Union populaire 2022 : Énergies (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:1f32a4fee7ba0480e689bd200864ec9d6a0930247eb8593a919fd3ba83f8caa4
+- id: jean-luc-melenchon-livret-de-l-union-populaire-2022-numerique-melenchon2027-fr
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/Livret_UP_17_NUMERIQUE_web.pdf
+  title: "Livret de l'Union populaire 2022 : Numérique (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:dc4d651748bbedb0821d50906376cf83fb860b9fd49fc99e3071f4208f978a32
+- id: jean-luc-melenchon-livret-de-l-union-populaire-2022-6e-republique-melenchon2027
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/Livret_UP_40_6e-REP_web-1-ok.pdf
+  title: "Livret de l'Union populaire 2022 : 6e République (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:ac71437061154fbae4252de6367cef19a30215129b83ee668671f2f6916be338
+- id: jean-luc-melenchon-livret-de-l-union-populaire-2022-laicite-melenchon2027-fr-pd
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/Livret_UP_23_LAICITE_web.pdf
+  title: "Livret de l'Union populaire 2022 : Laïcité (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:fd1ebe7aa59ccf6ce825e1ea01aece659bc7bf19bf6cf54ac7afdbacfacb7b07
+- id: jean-luc-melenchon-plan-europe-de-l-avenir-en-commun-2022-melenchon2027-fr-pdf
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/PLAN-EUROPE_AVENIR-EN-COMMUN.pdf
+  title: Plan Europe de L'Avenir en commun 2022 (melenchon2027.fr, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:ca03eca2b21fe32e65f9877ced53a9dfbc028ef4c1c0d8b3ffc7b6ed01557379
+- id: jean-luc-melenchon-livret-de-l-union-populaire-2022-ecologie-melenchon2027-fr-p
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/Livret_UP_07_ECOLOGIE_web-ok.pdf
+  title: "Livret de l'Union populaire 2022 : Écologie (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:f558c37821559e59021be89aa999b092e2431b3ace5d5d51966fd72d02a6e1fd
+- id: jean-luc-melenchon-livret-de-l-union-populaire-2022-francais-de-l-etranger-mele
+  url: https://melenchon2027.fr/wp-content/uploads/2024/02/Livret_UP_29_FRA-ETR_web-ok.pdf
+  title: "Livret de l'Union populaire 2022 : Français de l'étranger (melenchon2027.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:dad7944d10fb87f5de538384d37bd45a29f1316738ca4a93668680409c206f65

@@ -53,3 +53,190 @@
   candidates:
     - nathalie-arthaud
   contentHash: sha256:0980942bfb9034a633e93fa95a7f64195cde4016e8f0be3ffa3cc009e0bfb65f
+- id: nathalie-arthaud-brochure-presidentielle-2022
+  url: https://audio.lutte-ouvriere.org/medias/document/fichiers/2022/03/brochure-janvier_2022_bd.pdf
+  title: "Travailleuses, travailleurs : brochure de campagne de Nathalie Arthaud, présidentielle 2022 (Lutte ouvrière, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2022-02-04
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:31bce75afa214c65cbfaa56b08b2923cbffbe1378d1301b48aa41a356d26a622
+- id: nathalie-arthaud-reponse-tdie-2022
+  url: https://audio.lutte-ouvriere.org/medias/presentation/fichiers/2022/03/TDIE-transports-NathalieArthaud2022.pdf
+  title: Réponse de Nathalie Arthaud au questionnaire TDIE sur les transports, présidentielle 2022 (Lutte ouvrière, PDF)
+  kind: declaration_vote
+  publishedAt:
+    date: 2022-03-10
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:1a1730e852d076987a1bf9893f57b4c2aa08619ae2495ef4a257cd3bf16e7fb1
+- id: nathalie-arthaud-circulaire-europeennes-2024
+  url: https://journal.lutte-ouvriere.org/medias/document/fichiers/2024/05/Circulaire-LO-europeennes-2024.pdf
+  title: Profession de foi de la liste Lutte ouvrière conduite par Nathalie Arthaud, européennes 2024 (Lutte ouvrière, PDF)
+  kind: programme
+  publishedAt:
+    date: 2024-05
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:7e540f112ba654df8c2250d90fc4c0aec4638490ec036746356b3d5450e5444d
+- id: nathalie-arthaud-depliant-europeennes-2024
+  url: https://WWW.LUTTE-OUVRIERE.ORG/medias/document/fichiers/2024/04/Europeennes-2024-depliant-campagne.pdf
+  title: Dépliant de campagne de la liste Lutte ouvrière conduite par Nathalie Arthaud, européennes 2024 (Lutte ouvrière, PDF)
+  kind: programme
+  publishedAt:
+    date: 2024-04
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:b87020c56bfbb44a0190574a634a7738a67b53b7f07ac3249ec555896eecbda3
+- id: nathalie-arthaud-lettre-admd-2021
+  url: https://audio.lutte-ouvriere.org/medias/presentation/fichiers/2022/03/Mourir-dans-la-dignite.pdf
+  title: Lettre de Nathalie Arthaud à l'ADMD sur le droit de mourir dans la dignité (Lutte ouvrière, PDF)
+  kind: declaration_vote
+  publishedAt:
+    date: 2021-12-11
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:4eff11068183bc6fac958ce0d398f19782f13bea8bb01a523592f60b721ac355
+- id: nathalie-arthaud-reponse-amnesty-2022
+  url: https://www.amnesty.fr/wp-content/uploads/2025/06/b261d51c-c946-4af8-9473-56aa7c3f853c_Nathalie-Arthaud-10-engagements-06.04.22.pdf
+  title: Réponse de Nathalie Arthaud aux 10 engagements d'Amnesty International, présidentielle 2022 (Amnesty International France, PDF)
+  kind: declaration_vote
+  publishedAt:
+    date: 2022-04-06
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:ec9794e079ee1f2b9947f018d22837367bc05cdeeb912af024dd5cfdd616606a
+- id: nathalie-arthaud-reponse-sortir-nucleaire-2022
+  url: https://audio.lutte-ouvriere.org/medias/presentation/fichiers/2022/03/Reseau-sortir-du-nucleaire.pdf
+  title: Réponse de Nathalie Arthaud au Réseau Sortir du nucléaire, présidentielle 2022 (Lutte ouvrière, PDF)
+  kind: declaration_vote
+  publishedAt:
+    date: 2022-03
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:5b9a8cf2dc1612f920b98fe8f05919565f340b025a9660df350284c437650c21
+- id: nathalie-arthaud-editorial-2024-12-09
+  url: https://www.lutte-ouvriere.org/portail/editoriaux/seules-luttes-peuvent-etre-dinteret-general-180251.html
+  title: "Seules les luttes peuvent être d'intérêt général : éditorial signé Nathalie Arthaud (Lutte ouvrière)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2024-12-09
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:a237761826b2a15e3f238e2f542f4b785ded9e918b5feb11f9b6581cc6d6b221
+- id: nathalie-arthaud-editorial-2024-10-14
+  url: https://www.lutte-ouvriere.org/portail/editoriaux/dette-nest-payer-178763.html
+  title: "Cette dette, ce n'est pas à nous de la payer : éditorial signé Nathalie Arthaud (Lutte ouvrière)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2024-10-14
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:54c45eaf0bdfa74c8dc77928fa87de311ac462b101de5b8eecd69fafa80659b0
+- id: nathalie-arthaud-editorial-2025-07-07
+  url: https://www.lutte-ouvriere.org/portail/editoriaux/saignee-classes-populaires-jackpot-marchands-darmes-185617.html
+  title: "Saignée pour les classes populaires, jackpot pour les marchands d'armes : éditorial signé Nathalie Arthaud (Lutte ouvrière)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-07-07
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:486494429f5a3dcd6115ac5984bf07f70885bcd24ac104e1b731550a8ea9fae6
+- id: nathalie-arthaud-editorial-2025-10-20
+  url: https://www.lutte-ouvriere.org/portail/editoriaux/budget-guerre-contre-monde-travail-187859.html
+  title: "Un budget de guerre contre le monde du travail : éditorial signé Nathalie Arthaud (Lutte ouvrière)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-10-20
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:fafa8a42768fb0e80153f5f16b8c250d17ed6eeade088f7bd10eb484ec34253b
+- id: nathalie-arthaud-editorial-2025-09-15
+  url: https://www.lutte-ouvriere.org/portail/editoriaux/faisons-entendre-colere-defendons-interets-travailleurs-186993.html
+  title: "Faisons entendre notre colère, défendons nos intérêts de travailleurs : éditorial signé Nathalie Arthaud (Lutte ouvrière)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-09-15
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:be0035c32143d0c26893d0181b0800aba7b28dc909cac0df6f1b3993ef650bd1
+- id: nathalie-arthaud-editorial-2026-07-20
+  url: https://www.lutte-ouvriere.org/portail/editoriaux/politique-ecologique-consequente-cest-renverser-capitalisme-195906.html
+  title: "Une politique écologique conséquente, c'est renverser le capitalisme : éditorial signé Nathalie Arthaud (Lutte ouvrière)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-07-20
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:cb696daeaf58f411b8ba0882d88f85ee5f75a6dd6f627613ad472e086ff36fed
+- id: nathalie-arthaud-editorial-2026-03-30
+  url: https://www.lutte-ouvriere.org/portail/editoriaux/essence-bas-profiteurs-guerre-augmentation-salaires-193163.html
+  title: "Essence : à bas les profiteurs de guerre, augmentation des salaires : éditorial signé Nathalie Arthaud (Lutte ouvrière)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-03-30
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:3e8d6e9a3eae08dc4f7310e92e92cb2811c77dc557717c329953d5b721f6b8d5
+- id: nathalie-arthaud-editorial-2026-09-21
+  url: https://www.lutte-ouvriere.org/portail/editoriaux/carburants-prix-budget-stop-racket-197249.html
+  title: "Carburants, prix, budget : stop au racket : éditorial signé Nathalie Arthaud (Lutte ouvrière)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-21
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:2782793dd7bf45baba04af871f37dec1f5696c8f9686b70db5bf0c5f0d0f1d07
+- id: nathalie-arthaud-editorial-2025-05-05
+  url: https://www.lutte-ouvriere.org/portail/editoriaux/interdiction-licenciements-sous-peine-requisition-184019.html
+  title: "Interdiction des licenciements sous peine de réquisition : éditorial signé Nathalie Arthaud (Lutte ouvrière)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-05-05
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:ce5eaac80d92e897ee47be0bd1bdf13239d4055160122f9f12592563ce397039
+- id: nathalie-arthaud-editorial-2026-08-24
+  url: https://www.lutte-ouvriere.org/portail/editoriaux/dette-budget-inflation-capitalistes-encaissent-travailleurs-paient-196520.html
+  title: "Dette, budget, inflation : les capitalistes encaissent, les travailleurs paient : éditorial signé Nathalie Arthaud (Lutte ouvrière)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-08-24
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:64b8892e0e36ece17fc1e7445f2c1ed040534410e61ebabb439b74be283f3cd7

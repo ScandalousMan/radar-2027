@@ -53,3 +53,168 @@
   candidates:
     - marine-le-pen
   contentHash: sha256:8666a74d666c0e691bf422932589e3481e7e4608df84f68409836eec4ab1704b
+- id: marine-le-pen-la-securite-partout-et-pour-tous-livret-thematique-mlafrance
+  url: https://mlafrance.fr/pdfs/projet-la-securite.pdf
+  title: "La sécurité, partout et pour tous : livret thématique (mlafrance.fr, campagne 2022, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:d38e520ca6dcfe0f07caf26812c9359db029ceec9cb138f37c32c306ebe1a52d
+- id: marine-le-pen-livret-sante-projet-presidentiel-mlafrance-fr-campagne-2022
+  url: https://mlafrance.fr/pdfs/projet-la-sante.pdf
+  title: Livret santé, projet présidentiel (mlafrance.fr, campagne 2022, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:8cfb41811005bb207b87f233ef74a28acd50e055de1156a4085be02a333353d6
+- id: marine-le-pen-livret-ecologie-projet-presidentiel-mlafrance-fr-campagne-20
+  url: https://mlafrance.fr/pdfs/projet-lecologie.pdf
+  title: Livret écologie, projet présidentiel (mlafrance.fr, campagne 2022, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:d5e00cd9e976b60e7a9623ec25a4336b8946f6ae6034d9021475c7300a5d0014
+- id: marine-le-pen-livret-defense-projet-presidentiel-mlafrance-fr-campagne-202
+  url: https://mlafrance.fr/pdfs/projet-la-defense.pdf
+  title: Livret défense, projet présidentiel (mlafrance.fr, campagne 2022, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:0040c71ba145cb31eb9d7368140b5282459b9bc29cfd08cebf18afae730c1a25
+- id: marine-le-pen-livret-agriculture-projet-presidentiel-mlafrance-fr-campagne
+  url: https://mlafrance.fr/pdfs/projet-l-agriculture.pdf
+  title: Livret agriculture, projet présidentiel (mlafrance.fr, campagne 2022, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:511e68eeca89c649617446e401aae3b4cf8b9fc46b5da6854205ccdf19012b46
+- id: marine-le-pen-livret-numerique-projet-presidentiel-mlafrance-fr-campagne-2
+  url: https://mlafrance.fr/pdfs/projet-le-numerique.pdf
+  title: Livret numérique, projet présidentiel (mlafrance.fr, campagne 2022, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:75e1f42287ab51fe463534521cd7dd08af777cbf5f13684f51797df37bc0f599
+- id: marine-le-pen-livret-controle-de-l-immigration-projet-presidentiel-mlafran
+  url: https://mlafrance.fr/pdfs/projet-controle-de-limmigration.pdf
+  title: Livret contrôle de l'immigration, projet présidentiel (mlafrance.fr, campagne 2022, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:92e35f7f0ea5ac1fce127d2fcaab8ed01cd402d19e4c644e0bc3b5356051df32
+- id: marine-le-pen-livret-famille-projet-presidentiel-mlafrance-fr-campagne-202
+  url: https://mlafrance.fr/pdfs/projet-la-famille.pdf
+  title: Livret famille, projet présidentiel (mlafrance.fr, campagne 2022, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:289bc9409a09f869f69adfd6800ff695045e00fc448ec1472303a9c781b4495a
+- id: marine-le-pen-livret-protection-des-animaux-projet-presidentiel-mlafrance
+  url: https://mlafrance.fr/pdfs/projet-la-protection-des-animaux.pdf
+  title: Livret protection des animaux, projet présidentiel (mlafrance.fr, campagne 2022, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:a9f2f688182c4837cd7e1101bec5896987c9c8f1849f29d3033c28d9e7a49503
+- id: marine-le-pen-presentation-de-la-reforme-des-retraites-declaration-de-mari
+  url: https://mlafrance.fr/pdfs/dossier-presse-retraites.pdf
+  title: "Présentation de la réforme des retraites : déclaration de Marine Le Pen (mlafrance.fr, dossier de presse, PDF)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2022-02-17
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:8e992d3fa4e0ca2c1f34df504de08151e1ceb3007985abeb8aa723c2eac6f3ef
+- id: marine-le-pen-ma-vision-pour-l-europe-declaration-de-marine-le-pen-mlafran
+  url: https://mlafrance.fr/pdfs/tracts-presidence-francaise-ue.pdf
+  title: "Ma vision pour l'Europe : déclaration de Marine Le Pen (mlafrance.fr, dossier de presse, PDF)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2022-01-18
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:8439c1a6000fc3480378e4c3c09ce07fa72d4980666b9334790965ef7363175e
+- id: marine-le-pen-programme-du-rassemblement-national-pour-les-legislatives-20
+  url: https://rassemblementnational.fr/documents/20240625-programme.pdf
+  title: Programme du Rassemblement national pour les législatives 2024 (rassemblementnational.fr, PDF)
+  kind: programme
+  publishedAt:
+    date: 2024-06-25
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:39a3308e2af0051de7228e82fa43495acd7ae69e9557982cbb956be6f24fb055
+- id: marine-le-pen-livret-entreprise-projet-de-marine-le-pen-mis-a-jour-rassemb
+  url: https://rassemblementnational.fr/documents/WEB-GRN-LIVRET-ENTREPRISE.pdf
+  title: "Livret entreprise : projet de Marine Le Pen mis à jour (rassemblementnational.fr, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2024-09
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:c857128c776a110b59faefa0a42dd5dd5b3ad53c65bd6bde9d3a05af6752a715
+- id: marine-le-pen-contre-budget-2025-du-groupe-rassemblement-national-rassembl
+  url: https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2025.pdf
+  title: Contre-budget 2025 du groupe Rassemblement national (rassemblementnational.fr, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2024-10-16
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:4f7cb037b5a49947cb14b142741454fd2916873cc61c991f59617be2481ebe31
+- id: marine-le-pen-contre-budget-2026-du-groupe-rassemblement-national-rassembl
+  url: https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf
+  title: Contre-budget 2026 du groupe Rassemblement national (rassemblementnational.fr, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2025-10-23
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:7816e0f258f1fefcbbc82f6b916e757ea30017dcfcf43c7eae01edc451b994af

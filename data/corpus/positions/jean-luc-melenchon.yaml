@@ -2760,3 +2760,356 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:ea7e4a18c9662c14b20d3eb6472a44cef5dac7907c1065df28f173de64abaee4
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: sante-ratios-soignants-patients
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-plan-sante
+  quote: 'Rendre obligatoire des ratios mi- nimum de soignant·es par patient·es'
+  quoteSource: jean-luc-melenchon-plan-sante
+  justification: 'Le plan santé rend obligatoires des ratios minimaux de soignants par patient, ce qui correspond à un minimum fixé par la norme ; le texte le situe dans le plan de recrutement hospitalier.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: institutions-pouvoirs-prefet-renforces
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-plan-ruralites
+  quote: 'Mettre fin à la concentration excessive des pouvoirs dans les mains des préfets'
+  quoteSource: jean-luc-melenchon-plan-ruralites
+  justification: 'Le plan veut mettre fin à la concentration des pouvoirs entre les mains des préfets, ce qui s''oppose à leur renforcement sur les collectivités.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: agriculture-plafonner-aides-pac
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-agriculture-melenchon2027-f
+  quote: 'Plafonner les aides aux plus grandes exploitations'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-agriculture-melenchon2027-f
+  justification: 'Le livret propose de plafonner les aides (PAC) aux plus grandes exploitations, ce qui correspond au plafonnement par exploitation.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: agriculture-agrandissement-sans-autorisation
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-agriculture-melenchon2027-f
+  quote: 'Conditionner les nouvelles autorisations d''exploiter lors d''un projet d''installation, d''agrandissement par location, d''achat de terres ou de transferts de parts d''une société à une surface maximale d''exploitation par actif·ve et par type de production'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-agriculture-melenchon2027-f
+  justification: 'Le livret soumet l''agrandissement à autorisation d''exploiter avec une surface maximale, à l''inverse d''un agrandissement sans autorisation.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: agriculture-encadrer-prix-terres
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-agriculture-melenchon2027-f
+  quote: 'd''une politique favorable au développement de l''agriculture écologique et paysanne et de la baisse du prix du foncier'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-agriculture-melenchon2027-f
+  justification: 'Le livret crée des établissements publics fonciers (préemption élargie) pour faire baisser le prix du foncier ; c''est une action de l''État sur le prix, sans encadrement direct explicite du prix de vente.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: agriculture-chalut-aires-protegees
+  value: 1
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-up-europeennes-2024
+  quote: 'interdire le chalutage des fonds marins et les techniques industrielles dévastatrices comme la senne démersale'
+  quoteSource: jean-luc-melenchon-up-europeennes-2024
+  justification: 'Le programme européen interdit le chalutage des fonds marins, mesure plus large que l''interdiction dans les seules aires marines protégées.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-listes-transnationales
+  value: 2
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-up-europeennes-2024
+  quote: 'Proposer la création de listes transnationales, s''ajoutant aux listes nationales habituelles, pour les élections européennes de 2029'
+  quoteSource: jean-luc-melenchon-up-europeennes-2024
+  justification: 'Le programme propose explicitement la création de listes transnationales pour les européennes de 2029.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-initiative-parlement-europeen
+  value: 2
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-up-europeennes-2024
+  quote: 'Donner le droit d''initiative au Parlement européen afin qu''il puisse initier des projets législatifs'
+  quoteSource: jean-luc-melenchon-up-europeennes-2024
+  justification: 'Le programme demande explicitement le droit d''initiative législative pour le Parlement européen.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-adhesion-ukraine-ue
+  value: -1
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-up-europeennes-2024
+  quote: 'Refuser tout nouvel élargissement de l''Union européenne, notamment à l''Ukraine, tant qu''une harmonisation écolo- gique, sociale, fiscale et des droits humains n''a pas été me- née'
+  quoteSource: jean-luc-melenchon-up-europeennes-2024
+  justification: 'Le programme refuse l''adhésion de l''Ukraine tant qu''une harmonisation n''est pas menée : rejet nommé mais conditionnel, d''où -1.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-dissuasion-protection-europe-v2
+  value: -2
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-up-europeennes-2024
+  quote: 'Maintenir le caractère national de la dissuasion nucléaire française'
+  quoteSource: jean-luc-melenchon-up-europeennes-2024
+  justification: 'Le programme veut maintenir le caractère national de la dissuasion, ce qui exclut de l''étendre explicitement à la protection des partenaires européens.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-controles-frontieres-schengen
+  value: -2
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-up-europeennes-2024
+  quote: 'Refuser les réintroductions injustifiées des contrôles aux frontières internes de l''Union européenne'
+  quoteSource: jean-luc-melenchon-up-europeennes-2024
+  justification: 'Le programme refuse les réintroductions de contrôles aux frontières internes de l''UE, à l''inverse d''un rétablissement durable à toutes les frontières (réserve : le texte vise celles « injustifiées »).'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-asile-examen-hors-europe-v2
+  value: -2
+  evidence: programme
+  sources:
+    - jean-luc-melenchon-up-europeennes-2024
+  quote: 'Mettre un terme aux accords formels et informels par lesquels l''Union européenne sous-traite sa politique migratoire à des États tiers'
+  quoteSource: jean-luc-melenchon-up-europeennes-2024
+  justification: 'Le programme veut mettre fin à la sous-traitance de la politique migratoire de l''UE à des pays tiers, ce qui s''oppose à l''examen des demandes d''asile hors du territoire de l''Union.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-asile-examen-sans-transfert
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-migration-melenchon2027-fr
+  quote: 'Rompre avec les directives européennes, notamment le règlement de Dublin, et abroger les lois successives ayant eu pour objectif de restreindre le droit d''asile'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-migration-melenchon2027-fr
+  justification: 'Le livret rompt avec le règlement de Dublin, qui organise le renvoi vers l''État responsable ; il prévoit toutefois des règles d''harmonisation et de répartition, d''où +1.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: securite-hausse-effectifs-police
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-securite-melenchon2027-fr-p
+  quote: 'La stabilisation des effectifs d''active au niveau actuel'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-securite-melenchon2027-fr-p
+  justification: 'Le livret prévoit de stabiliser les effectifs d''active au niveau actuel, donc pas de hausse d''au moins 10 % ; il renforce seulement la police judiciaire et les postes administratifs.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: securite-supprimer-controles-preventifs
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-securite-melenchon2027-fr-p
+  quote: 'Des zones sans contrôle d''identité en dehors d''un flagrant délit, comme c''était la règle avant l''inflation législative antiterroriste'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-securite-melenchon2027-fr-p
+  justification: 'Le livret propose, à titre expérimental, des zones sans contrôle d''identité hors flagrant délit : suppression partielle des contrôles sans soupçon.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: justice-courtes-peines-alternatives
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-justice-melenchon2027-fr-pd
+  quote: 'Nous supprimerons ainsi le référentiel carcéral pour bon nombre de délits (outre la dépénalisation de cer- tains d''entre eux et la loi d''amnistie qui s''en suivra), en privilégiant une peine de probation en milieu ouvert plus lisible, prononcée à titre principal'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-justice-melenchon2027-fr-pd
+  justification: 'Le livret remplace la prison par une peine de probation en milieu ouvert pour de nombreux délits, sans fixer le seuil d''un an de l''énoncé.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: justice-justice-restaurative-systematique
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-justice-melenchon2027-fr-pd
+  quote: 'proposer systématiquement une démarche restaurative (pour les auteur·es et les victimes)'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-justice-melenchon2027-fr-pd
+  justification: 'Le livret propose systématiquement une démarche restaurative aux auteurs et aux victimes.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: justice-supprimer-reductions-automatiques
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-justice-melenchon2027-fr-pd
+  quote: 'nous rétablirons le calcul automatique des remises de peine'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-justice-melenchon2027-fr-pd
+  justification: 'Le livret rétablit le calcul automatique des remises de peine, à l''opposé de leur suppression.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-gratuite-transports-urbains
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-transports-melenchon2027-fr
+  quote: 'Rendre gratuits les transports en commun urbains dans les villes et les TER et cars régionaux pour les moins de 25 ans, les privé·es d''emploi et les usager·es disposant de faibles revenus'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-transports-melenchon2027-fr
+  justification: 'Le livret rend les transports urbains gratuits mais pour certains publics seulement (moins de 25 ans, privés d''emploi, faibles revenus), mesure plus ciblée que l''énoncé.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-trains-de-nuit
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-transports-melenchon2027-fr
+  quote: 'Nous introduirons des trains classiques Intercités et des trains de nuit sur les relations longues distances, mêmes desservies par le TGV'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-transports-melenchon2027-fr
+  justification: 'Le livret introduit des trains de nuit sur les longues distances dans le cadre d''un plan public ferroviaire.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-baisser-taxe-billets-avion
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-transports-melenchon2027-fr
+  quote: 'Aligner la fiscalité du kérosène et des billets d''avion sur celle de la route et rehausser la taxe de solidarité dès 2022'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-transports-melenchon2027-fr
+  justification: 'Le livret veut relever la taxe de solidarité sur les billets d''avion, à l''inverse de sa réduction.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-abandonner-nouvelles-lgv
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-transports-melenchon2027-fr
+  quote: 'Nous élaborerons un plan complet pour les lignes ferroviaires à grande vitesse (LGV) dont la construction ne doit pas se faire au détriment de la rénovation des lignes classiques parallèles'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-transports-melenchon2027-fr
+  justification: 'Le livret prévoit un plan LGV avec audit de pertinence et conditions, sans abandonner la construction : rejet de l''abandon, mais nuancé.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-edf-entierement-publique
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-energies-melenchon2027-fr-p
+  quote: 'Créer un pôle public de l''énergie pour mener une politique cohé- rente, en renationalisant EDF et Engie'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-energies-melenchon2027-fr-p
+  justification: 'Le livret veut renationaliser EDF et Engie dans un pôle public de l''énergie, ce qui va dans le sens d''une EDF entièrement publique.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: energie-accelerer-eolien-terrestre
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-energies-melenchon2027-fr-p
+  quote: 'Plus que doubler l''éolien, qui pourra compter en 2050 sur environ 18 500 éoliennes et 3000 en mer'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-energies-melenchon2027-fr-p
+  justification: 'Le livret prévoit de plus que doubler l''éolien d''ici 2050 (environ 18 500 éoliennes), sans parler explicitement d''accélérer l''implantation terrestre.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: energie-consommation-moitie-2050
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-energies-melenchon2027-fr-p
+  quote: 'd''arriver à une consomma- tion d''énergie primaire divisée par 3 d''ici 2050 sans perte de service ou de qualité'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-energies-melenchon2027-fr-p
+  justification: 'Le livret vise une baisse de consommation d''énergie primaire supérieure à celle de l''énoncé (division par trois) d''ici 2050 ; la mesure est plus large et porte sur l''énergie primaire.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-scission-grandes-plateformes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-numerique-melenchon2027-fr
+  quote: 'Mettre en place des lois de déconcentration (anti-monopole) dans les industries numériques et réguler les rachats prédateurs d''entreprises innovantes'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-numerique-melenchon2027-fr
+  justification: 'Le livret prévoit des lois de déconcentration anti-monopole dans le numérique ; l''instrument est national et non européen, d''où +1.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-algorithmes-publics
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - jean-luc-melenchon-livret-de-l-union-populaire-2022-numerique-melenchon2027-fr
+  quote: 'Agir sur les modèles économiques des GAFAM reposant sur la captation de l''at- tention et la consommation sans limite de médias (ex. : interdiction de la lecture automatique par défaut des vidéos, transparence sur les algorithmes'
+  quoteSource: jean-luc-melenchon-livret-de-l-union-populaire-2022-numerique-melenchon2027-fr
+  justification: 'Le livret demande la transparence sur les algorithmes des grandes plateformes dans le cadre de leurs modèles d''attention ; énoncé voisin mais mesure moins précise.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14

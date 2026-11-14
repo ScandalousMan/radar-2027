@@ -1556,3 +1556,88 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:a6befd09bea666e4e737d5f7faee3957ac8164af5b3fb7df70c61d3fc1372cfa
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: economie-controle-rachats-etrangers
+  value: 1
+  evidence: programme
+  sources:
+    - juan-branco-la-voie-programme-2027
+  quote: Création d'un droit de préemption d'État et salarié sur toute fermeture ou vente d'entreprise.
+  quoteSource: juan-branco-la-voie-programme-2027
+  justification: Un droit de préemption de l'État sur toute vente d'entreprise renforce son contrôle sur les rachats, y compris par des investisseurs étrangers, sans que ceux-ci soient visés en propre ; mesure plus large que l'énoncé, d'où 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-baisse-tva
+  value: -1
+  evidence: programme
+  sources:
+    - juan-branco-la-voie-programme-2027
+  quote: Réduction des cotisations sociales sur les salaires financée par l'adoption d'une TVA sociale sur les bien non-essentiels
+  quoteSource: juan-branco-la-voie-programme-2027
+  justification: Le programme prévoit une TVA sociale, donc une hausse de la TVA sur les biens non essentiels (qui relèvent du taux normal), à l'opposé d'une baisse du taux normal ; le taux normal n'est pas nommé, d'où -1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-baisse-ir-tranches-intermediaires
+  value: 1
+  evidence: programme
+  sources:
+    - juan-branco-la-voie-programme-2027
+  quote: une baisse des prélèvements obligatoires moyens sur l'ensemble de la population à l'exception du dernier décile
+  quoteSource: juan-branco-la-voie-programme-2027
+  justification: Le programme veut baisser les prélèvements de toute la population sauf le dernier décile, ce qui inclut les revenus intermédiaires, sans viser l'impôt sur le revenu en particulier ; mesure plus large que l'énoncé, d'où 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-reduire-allegements-cotisations
+  value: 1
+  evidence: programme
+  sources:
+    - juan-branco-la-voie-programme-2027
+  quote: Suppression des exonérations fiscales issues du CICE (RGDU).
+  quoteSource: juan-branco-la-voie-programme-2027
+  justification: Le programme supprime la réduction générale dégressive unifiée (RGDU), principal allègement de cotisations patronales issu du CICE ; il prévoit par ailleurs une baisse des cotisations financée par une TVA sociale, d'où 1 plutôt que 2.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: societe-service-national-obligatoire
+  value: 1
+  evidence: programme
+  sources:
+    - juan-branco-le-projet-2027
+  quote: de basculer d'un modèle d'armée fondé sur le corps expéditionnaire à la conscription
+  quoteSource: juan-branco-le-projet-2027
+  justification: Le projet veut passer à une armée de conscription, ce qui suppose un service obligatoire ; le caractère universel (pour tous les jeunes) n'est affirmé que dans une proposition soumise à référendum, d'où 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: international-quitter-commandement-otan
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - juan-branco-entretien-avec-juan-branco-cela-risque-de-tres-mal-se-finir
+  quote: par la remise en branle d'une indépendance sérieuse de la France, en dehors de l'OTAN et de l'UE
+  quoteSource: juan-branco-entretien-avec-juan-branco-cela-risque-de-tres-mal-se-finir
+  justification: Le candidat dit vouloir une France en dehors de l'OTAN, ce qui va au-delà de la seule sortie du commandement intégré ; mesure plus large que l'énoncé, d'où 1.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
