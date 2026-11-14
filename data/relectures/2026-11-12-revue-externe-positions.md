@@ -261,6 +261,7 @@ Le second retour couvre les **parties 1 et 2** : Kazib, Retailleau, Lisnard, Bat
 
 ## Après cette revue
 
-- **Partie 3 arbitrée le 2026-11-14** : voir `2026-11-14-revue-externe-partie-3.md` (13 corrections, 11 arbitrages humains en attente). Total après la partie 3 : 1 092 positions.
+- **Partie 3 arbitrée le 2026-11-14** : voir `2026-11-14-revue-externe-partie-3.md` (13 corrections ; les 11 arbitrages humains ont été tranchés par adrien le même jour : 3 valeurs passées à 1, 8 gardées). Total après la partie 3 : 1 092 positions.
 - **Références décalées.** Les références du dossier datent d'avant cette revue. Les deux suppressions des parties 1 et 2 décalent de deux rangs les positions de la partie 3 dans le corpus actuel. Le retour de la partie 3 a donc été rapproché par candidat et par énoncé, pas par référence.
-- **Total après les parties 1, 2, 4 et 5 : 1 093 positions** au lieu de 1 102. Toutes restent en brouillon jusqu'à relecture par adrien.
+- **Total après les parties 1, 2, 4 et 5 : 1 093 positions** au lieu de 1 102.
+- **Relecture du 2026-11-14.** Une fois les cinq parties arbitrées, adrien a validé l'ensemble du corpus : les 1 092 positions passent en `reviewed` (`reviewer: adrien`, `reviewedAt: 2026-11-14`, `reviewedHash` calculé comme `pnpm data:review`). Les règles de relecture (relecteur différent de l'auteur, règles de position) passent sur les 1 092.

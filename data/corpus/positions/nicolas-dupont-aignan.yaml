@@ -1,5 +1,5 @@
-# Positions de Nicolas Dupont-Aignan (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
-# provenance manual), à relire par adrien avec pnpm data:review.
+# Positions de Nicolas Dupont-Aignan (FR-016 à FR-022). Rédigées par claude (extraction en session,
+# provenance manual), relues par adrien le 2026-11-14 (pnpm data:review).
 
 - question: democratie-referendum-exceptionnel
   value: -1
@@ -9,11 +9,14 @@
   quote: Nous voulons remettre le citoyen au centre des décisions, en instaurant un référendum d'initiative citoyenne pour la loi et la Constitution
   quoteSource: nicolas-dupont-aignan-projet-democratie
   justification: Le projet propose un référendum d'initiative citoyenne pour la loi et la Constitution, ce qui va dans le sens d'un recours plus fréquent au référendum sans se prononcer explicitement sur son caractère exceptionnel.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:705ebedf14cdd55da8ec5f61e1d8cf4d145a3f24642ddec7224b9d4ede52b87f
 
 - question: democratie-referendum-initiative-citoyenne
   value: 2
@@ -23,11 +26,14 @@
   quote: en instaurant un référendum d'initiative citoyenne pour la loi et la Constitution
   quoteSource: nicolas-dupont-aignan-projet-democratie
   justification: Le projet propose explicitement d'instaurer un référendum d'initiative citoyenne, pour la loi comme pour la Constitution.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ccba4ea1b6b3567f3aaed042cf7bc92afee05096c8af788e882801bbed90619e
 
 - question: democratie-referendum-reserve-elus-v2
   value: -2
@@ -37,11 +43,14 @@
   quote: en instaurant un référendum d'initiative citoyenne pour la loi et la Constitution
   quoteSource: nicolas-dupont-aignan-projet-democratie
   justification: Le projet propose un référendum d'initiative citoyenne pour la loi et la Constitution, qui ouvrirait aux citoyens le déclenchement d'un référendum national, contrairement à une compétence réservée au président de la République ou au Parlement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f4c8618068fd5ab693951969e33e9a6640755401c4d4496cd259e4ed62a26675
 
 - question: environnement-fin-thermique-2035
   value: -2
@@ -51,11 +60,14 @@
   quote: Nous protégerons notre agriculture et notre industrie contre la concurrence sauvage et les délires bureaucratiques imposés par les technocrates bruxellois (fin du moteur thermique
   quoteSource: nicolas-dupont-aignan-projet-europe
   justification: Le projet range la fin du moteur thermique parmi les mesures européennes contre lesquelles il s'engage à protéger l'industrie, ce qui constitue un rejet explicite de l'interdiction.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9575c5bc20786207139685761f1ffbafcc4b87d5252a771e6f20ac689963eaf5
 
 - question: immigration-condamnes-perte-titre-sejour
   value: 1
@@ -65,11 +77,14 @@
   quote: Il faut construire 40 000 places de prison et expulser les délinquants étrangers.
   quoteSource: nicolas-dupont-aignan-sudradio-2026-05-18
   justification: Le candidat propose d'expulser les délinquants étrangers, mesure voisine du retrait du titre de séjour des condamnés à de la prison ferme, sans en reprendre les termes ; la valeur est donc 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1ed9f138220a6ed113ed66d202a045657ed4cbb86cb7dc45c92dc467c8167a41
 
 - question: immigration-prestations-duree-residence
   value: 1
@@ -79,11 +94,14 @@
   quote: la fin des aides sociales non contributives aux étrangers
   quoteSource: nicolas-dupont-aignan-projet-immigration
   justification: Le projet propose de supprimer les aides sociales non contributives aux étrangers, mesure plus restrictive qu'une condition de cinq ans de résidence et différente dans sa forme ; la valeur est donc 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a6bf0b998b9c86f7133419bffb48d61f3c299186fa3328d20050ac1e2ad72e6e
 
 - question: immigration-regroupement-familial-ressources
   value: 1
@@ -93,11 +111,14 @@
   quote: la suspension du regroupement familial
   quoteSource: nicolas-dupont-aignan-projet-immigration
   justification: Le projet propose de suspendre le regroupement familial, ce qui va dans le sens d'un durcissement sans porter sur des conditions de ressources ; la valeur est donc 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:87ee6cb9c6b5b8bfa7ba6436b42d779333878104d62552e20bf2fc99fa426bd6
 
 - question: immigration-supprimer-droit-du-sol
   value: 2
@@ -107,11 +128,14 @@
   quote: Nous proposons, par conséquent, la suppression du droit du sol
   quoteSource: nicolas-dupont-aignan-projet-immigration
   justification: Le projet propose explicitement la suppression du droit du sol.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:625502760b743f301899036e52a212e9bfd314679737f0eb31de80c5b25a9d03
 
 - question: international-controles-frontieres-schengen
   value: 2
@@ -121,11 +145,14 @@
   quote: Nous rétablirons immédiatement nos frontières nationales et abandonnerons l'espace Schengen
   quoteSource: nicolas-dupont-aignan-projet-europe
   justification: Le projet prévoit de rétablir immédiatement les frontières nationales et de quitter l'espace Schengen, ce qui inclut le contrôle durable à toutes les frontières.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e7d38d12896ed72ea642c4e75b02e4e4d25e0eb218d8dad3095b04a3e4ea8623
 
 - question: international-primaute-loi-nationale-v2
   value: 2
@@ -135,11 +162,14 @@
   quote: Nous rétablirons la primauté du droit national sur le droit européen
   quoteSource: nicolas-dupont-aignan-projet-europe
   justification: Le projet propose explicitement de rétablir la primauté du droit national sur le droit européen, ce qui permet d'appliquer la loi nationale en cas de conflit avec une règle de l'Union.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f6bf8315f4c4d168bc3c3d8a29e7aeabe72f09f566b7753cb9905159b9332d54
 
 - question: international-referendum-maintien-ue
   value: 2
@@ -149,11 +179,14 @@
   quote: Nous organiserons un référendum sur l'appartenance à l'Union européenne.
   quoteSource: nicolas-dupont-aignan-projet-europe
   justification: Le projet s'engage explicitement à organiser un référendum sur l'appartenance de la France à l'Union européenne.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8f5e75c686bc12ee0185ffe6e6d268ef8c6e6f42dd44a3f770209900598bb36d
 
 - question: justice-arret-construction-prisons
   value: -2
@@ -163,8 +196,11 @@
   quote: Il faut construire 40 000 places de prison
   quoteSource: nicolas-dupont-aignan-sudradio-2026-05-18
   justification: Le candidat propose de construire 40 000 places de prison, mesure inverse de l'arrêt des constructions.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0ea8853f0326f119a0d440966bd89e5e7043df11d8db34822a8e61e8a53062d8

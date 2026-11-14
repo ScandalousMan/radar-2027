@@ -1,5 +1,5 @@
-# Positions de Marine Tondelier (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
-# provenance manual), à relire par adrien avec pnpm data:review.
+# Positions de Marine Tondelier (FR-016 à FR-022). Rédigées par claude (extraction en session,
+# provenance manual), relues par adrien le 2026-11-14 (pnpm data:review).
 
 - question: agriculture-alleger-normes-agricoles
   value: -1
@@ -9,11 +9,14 @@
   quote: Adopter une véritable Loi d'Orientation Agricole et abroger la loi Duplomb.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose d'abroger la loi Duplomb, qui assouplissait des contraintes environnementales agricoles, sans prendre position en termes généraux sur l'ensemble des normes.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7d62bf20fde59a599190e83b249f2bc0d0c535871157ffe0527eb58a6f05b5d4
 
 - question: agriculture-autoriser-nouvelles-techniques-genomiques
   value: -2
@@ -23,11 +26,14 @@
   quote: Interdire les " nouveaux OGM " (Nouvelles Techniques Génomiques ou NGT).
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose d'interdire les plantes issues des nouvelles techniques génomiques, soit le contraire explicite de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3009f5ba59f6accf7d4b0bad3378be358383ae575f5a748b1adf53e8b03fc5ad
 
 - question: agriculture-bio-restauration-collective-v2
   value: 1
@@ -37,11 +43,14 @@
   quote: Mobiliser la commande publique comme un levier de transformation en atteignant 100 % de bio dans la restauration collective d'ici 2040.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme vise 100 % de produits bio dans la restauration collective d'ici 2040, au-delà du seuil de 30 % des achats de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c6775158f54633dc5e23abc896d08955c53fbc740880f606c3fc46565ff5a768
 
 - question: agriculture-chalut-aires-protegees
   value: 2
@@ -51,11 +60,14 @@
   quote: Accélérer l'interdiction du chalutage de fond dans les Aires Maritimes Protégées.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme demande l'interdiction du chalutage de fond dans les aires marines protégées.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c7f17eafa968debc960bee15834f69765087b7e9d4d64d111f710e89c567cfb3
 
 - question: agriculture-derogations-neonicotinoides
   value: -2
@@ -65,11 +77,14 @@
   quote: Empêcher toute tentative de réintroduction des néonicotinoïdes.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme s'oppose à toute réintroduction des néonicotinoïdes, ce qui exclut les dérogations prévues par l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:906ec95f2b1ee03fa04b275cd3b28850d698d0b1ef9453af620d0f6e13803706
 
 - question: agriculture-encadrer-prix-terres
   value: 2
@@ -79,11 +94,14 @@
   quote: Encadrer systématiquement les prix de vente du foncier en rapport à la moyenne des prix sur la zone.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose d'encadrer systématiquement le prix de vente du foncier agricole, ce qui correspond à la mesure de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:20e6661668bcc22f7da32a09a965f53447699917f5033f4a5c680cf01a4bd9ae
 
 - question: agriculture-interdire-poules-cage
   value: 1
@@ -93,11 +111,14 @@
   quote: Interdire les fermes usines et l'élevage en cage.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme interdit tout élevage en cage, ce qui inclut les poules pondeuses. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:29efe68cb93802b719d3c8a4f0c5ac0c8451afdf337da5e28e18dca9cfeb53c5
 
 - question: agriculture-pesticides-moitie-2030
   value: 1
@@ -107,11 +128,14 @@
   quote: Planifier une sortie progressive des pesticides de synthèse et des engrais azotés à l'horizon 2050.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme prévoit une sortie progressive des pesticides de synthèse d'ici 2050, ce qui va dans le sens de l'énoncé sans reprendre l'objectif d'une réduction de moitié en 2030.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3e1476a92f6f5852df2536b33464009d5d5d3b457ba83e40a1821cf2104bd0bd
 
 - question: agriculture-plafonner-aides-pac
   value: 2
@@ -121,11 +145,14 @@
   quote: Fonder les subventions sur le nombre d'actifs plutôt qu'à l'hectare avec un plafonnement plus strict des aides aux grandes exploitations.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme demande un plafonnement plus strict des aides de la PAC aux grandes exploitations.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d1c811ae8a1bbe178a8dda805fc6408c19b6c7f9528a7d51caba876f5670f304
 
 - question: agriculture-prix-plancher-agricoles
   value: 2
@@ -135,11 +162,14 @@
   quote: Assurer une transparence et un juste partage de la valeur ajoutée en adoptant des prix planchers
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose explicitement l'adoption de prix planchers pour les productions agricoles.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8ce92f915c7cf02e7b89f7d5b34e93b7d22b6740099d2186f0e2d77a5d3da04f
 
 - question: agriculture-retenues-eau-irrigation
   value: -2
@@ -149,11 +179,14 @@
   quote: Décréter un moratoire sur tous les projets de méga- bassines.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme demande un moratoire sur les méga-bassines et conditionne les autres retenues à une réduction des prélèvements, soit l'inverse d'une facilitation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:79e48e0654c7678d9b3d5d5612a2b2709851cd6397053e83a3e376348e9206bc
 
 - question: defense-armes-ukraine
   value: 2
@@ -164,11 +197,14 @@
   quote: Fournir du matériel militaire, y compris de capacités de frappe à longue portée et des moyens de défense antiaérienne pour protéger le ciel ukrainien.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose de fournir du matériel militaire à l'Ukraine, y compris des capacités de frappe à longue portée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0b28f58af39cbd368f92388dd40ce7dc0ada69b460eab11395925802daeb6109
 
 - question: defense-cesser-ventes-armes-conflits
   value: 1
@@ -178,11 +214,14 @@
   quote: Interdire strictement les exportations d'armes vers des pays dont les interventions militaires violent le droit international humanitaire.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme interdit les ventes d'armes aux pays dont les interventions violent le droit humanitaire, version plus restreinte que l'arrêt pour tout État en conflit.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9fb93e784a542290d90ae2d428bb8549f47aa0bb742cc650974ca8a079e746ab
 
 - question: defense-controle-exportations-armes
   value: 1
@@ -192,11 +231,14 @@
   quote: en créant un Office de contrôle parlementaire doté de moyens propres et validant les exportations vers des pays tiers hors UE et OTAN
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme crée un office parlementaire validant les exportations d'armes, mais seulement vers les pays tiers hors UE et OTAN.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2f8b8927318b22e29a4c6403980dba4e3f6e42b87d25e1a5f42f9836cc3e8116
 
 - question: defense-defense-europeenne-emprunt
   value: 1
@@ -206,11 +248,14 @@
   quote: L'impôt et l'emprunt commun doivent être mobilisés.
   quoteSource: marine-tondelier-carnet-international-2026
   justification: Le carnet international associe l'emprunt commun et l'impôt au financement de l'effort de défense européen, sans faire de l'emprunt l'unique mode de financement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2a146d116b79bf971d6146051af9a1309b15179960b31ff0df628ac7ce7a3244
 
 - question: defense-dissuasion-protection-europe-v2
   value: 1
@@ -221,11 +266,14 @@
   quote: envisager l'extension de la garantie de sécurité nucléaire française à d'autres pays européens dans une optique de non- prolifération
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose seulement d'envisager l'extension de la garantie nucléaire française aux autres pays européens, sans s'engager fermement à étendre la doctrine, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4ca83be2c44c94e9d0d10f31f4c357983050bdd53b3675dc9dfb2bf88dd614f4
 
 - question: defense-priorite-depenses-sociales
   value: 1
@@ -235,11 +283,14 @@
   quote: On ne peut sacrifier l'hôpital public pour acheter des armes.
   quoteSource: marine-tondelier-carnet-international-2026
   justification: Le carnet refuse que l'effort de défense se fasse au détriment de la protection sociale, sans établir de hiérarchie budgétaire générale.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:209a905d891310698fb33c7138855b426e2f8f9dd954a7d8d83edbc56e40eafd
 
 - question: defense-reduire-budget-armees
   value: -1
@@ -249,11 +300,14 @@
   quote: Si l'objectif d'un accroissement significatif des ressources dédiés à l'effort de défense est souhaitable, il ne peut se faire au détriment de la transition écologique et de la protection sociale.
   quoteSource: marine-tondelier-carnet-international-2026
   justification: Le carnet juge souhaitable une hausse significative des moyens de défense, sous condition de préserver la protection sociale, ce qui s'oppose à une réduction.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5ce3dc2d93d6f9dda41359da0a4b24eb3dac8967cbd4ea89ce0bdec96fa18cd5
 
 - question: defense-traite-interdiction-armes-nucleaires
   value: 1
@@ -263,11 +317,14 @@
   quote: Rejoindre en parallèle le Traité sur l'Interdiction des Armes Nucléaires (TIAN) en tant que membre observateur, sans s'engager à un désarmement unilatéral.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose de rejoindre le traité comme membre observateur, ce qui va dans le sens de l'énoncé sans aller jusqu'à sa signature.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f32b18064d4368705b8f331eeb017938410b43f2c266fd72f5177a8159529b89
 
 - question: defense-troupes-ukraine-cessez-le-feu-v2
   value: 1
@@ -277,11 +334,14 @@
   quote: Des garanties de sécurité durables doivent être mises en place, en travaillant à son intégration dans l'Union Européenne et en déployant des troupes européennes, à ses frontières ou sur son territoire, dans une posture dissuasive.
   quoteSource: marine-tondelier-carnet-international-2026
   justification: Le carnet de doctrine prévoit le déploiement de troupes européennes en Ukraine ou à ses frontières comme garantie de sécurité dans le cadre d'une négociation, sans viser explicitement des militaires français ni un accord de cessez-le-feu, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ff76f69d824e9946f043cb27b13958f48ac6f72e2c58342704bf33946f1b7867
 
 - question: democratie-budget-participatif-communes
   value: 1
@@ -291,11 +351,14 @@
   quote: Développer des budgets participatifs sur le fonctionnement des collectivités territoriales.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme veut développer les budgets participatifs, sans les rendre obligatoires ni fixer de seuil de population.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8f364524f3af5f8b25dd2a76c9668f76363fab1cb690475128d3247d1b7e8b8f
 
 - question: democratie-conventions-citoyennes
   value: 1
@@ -305,11 +368,14 @@
   quote: Mieux prendre en compte les citoyen·nes à travers une convention citoyenne permanente au sein d'un CESE transformé.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme crée une convention citoyenne permanente, sans préciser qu'elle soit consultée avant chaque grande réforme.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2f9758c819f7dc50f0f95470b5119c576965924f5c5a48cc9e9383a985375f2a
 
 - question: democratie-petition-debat-parlement
   value: 2
@@ -319,11 +385,14 @@
   quote: Améliorer le droit d'interpellation par voie de pétition en rendant obligatoire un vote à l'Assemblée Nationale si 500 000 signatures dans 30 départements sont collectées.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme rend obligatoire un vote à l'Assemblée à partir de 500 000 signatures, seuil plus bas que celui de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4eaab3edfc579060c9dc5365523ddd8571b4274da4e6aebd3b05832fe86538a4
 
 - question: democratie-referendum-exceptionnel
   value: -1
@@ -333,11 +402,14 @@
   quote: Renforcer la démocratie directe par la mise en œuvre du Référendum d'Initiative Citoyenne (RIC) propositionnel ou abrogatif
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: En instaurant un référendum d'initiative citoyenne, le programme s'écarte d'un usage exceptionnel du référendum, sans se prononcer sur sa fréquence.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a719d4abc4b6ef5027575d681443b5a4cd3732643c64d7e38e5f1e14ca1a7c74
 
 - question: democratie-referendum-initiative-citoyenne
   value: 2
@@ -347,11 +419,14 @@
   quote: Renforcer la démocratie directe par la mise en œuvre du Référendum d'Initiative Citoyenne (RIC) propositionnel ou abrogatif
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose la mise en œuvre du référendum d'initiative citoyenne.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e2c8a41e7f9cfce292355d9b3d3eba6a4da4486af8d690c9f029ff2ab510757c
 
 - question: democratie-referendum-reserve-elus-v2
   value: -2
@@ -361,11 +436,14 @@
   quote: Renforcer la démocratie directe par la mise en œuvre du Référendum d'Initiative Citoyenne (RIC) propositionnel ou abrogatif
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le référendum d'initiative citoyenne proposé permet aux citoyens de déclencher eux-mêmes un référendum, ce qui contredit une compétence réservée au président de la République ou au Parlement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8db2ed717dfba891cb498e4bb6c15e13db2b695f8785789a723cee69417f81cb
 
 - question: democratie-supprimer-cese
   value: -1
@@ -375,11 +453,14 @@
   quote: Mieux prendre en compte les citoyen·nes à travers une convention citoyenne permanente au sein d'un CESE transformé.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme prévoit de transformer le CESE et non de le supprimer.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:526780ef7a6d0465e83b1721cf23c463bf32818a2182ee5eb3800000862935ad
 
 - question: democratie-vote-16-ans
   value: 2
@@ -389,11 +470,14 @@
   quote: Ouvrir le droit de vote à 16 ans avec une formation civique.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose explicitement le droit de vote à 16 ans.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2c12c5661542f330023769e9f28ad4904c0604489f780734e04067d596790164
 
 - question: democratie-vote-blanc-exprime
   value: 1
@@ -403,11 +487,14 @@
   quote: Reconnaître le vote blanc en attribuant le taux équivalent à des citoyen·nes tirés au sort sur les listes électorales pour les élections territoriales.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme reconnaît le vote blanc par un mécanisme de sièges tirés au sort aux élections territoriales, variante partielle de sa prise en compte dans les suffrages exprimés.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e4f0dabfffe686c8bcef4015922c5be7f786a0d171725ad0bc038b2accbcf5e4
 
 - question: economie-accords-libre-echange
   value: -1
@@ -418,11 +505,14 @@
   quote: Ne pas ratifier les accords européens en attente qui affectent le climat et la biodiversité notamment les traités avec le Canada (CETA) le Vietnam, Singapour, le Chili, le Mexique, le Mercosur, l'Indonésie et le Japon.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme refuse de ratifier les accords européens en attente qui affectent le climat et la biodiversité, mais admet de futurs traités assortis de clauses miroirs, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:77d51b2f6595cb2645b41e7f7f47c14a60f14f2ab68ec6700d03a7219af09b79
 
 - question: economie-aides-conditionnees-emploi
   value: 1
@@ -432,11 +522,14 @@
   quote: Prévoir des clauses de remboursement en cas de délocalisation.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme assortit les aides industrielles de clauses de remboursement en cas de délocalisation, version partielle d'un conditionnement au maintien de l'emploi.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d0987a758ff149cfa63b6730326138363fc31972a1f44b30d5827530cb35ef40
 
 - question: economie-controle-rachats-etrangers
   value: 2
@@ -446,11 +539,14 @@
   quote: Renforcer les outils juridiques comme le décret Montebourg permettant d'intervenir dans la reprise des entreprises.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme veut renforcer le décret Montebourg, outil de contrôle des investissements étrangers dans les entreprises françaises.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fb24518beaa1c088187e96cb2b01cfb1cf1419d468ac17faf4bc32ccbf076880
 
 - question: economie-eau-operateurs-publics
   value: 2
@@ -460,11 +556,14 @@
   quote: Rendre applicable le droit à l'eau potable en imposant aux collectivités territoriales l'adoption de régies publiques de l'eau
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme impose aux collectivités des régies publiques de l'eau, soit une distribution assurée uniquement par des opérateurs publics.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:962c10103ebb822532602cc23bafde12d00199fbc7e76398ba4bb7c3d5e3c266
 
 - question: economie-encadrer-marges-distribution
   value: 1
@@ -474,11 +573,14 @@
   quote: Envisager différentes alternatives afin de concilier la préservation des entreprises françaises et européennes et la protection des conditions de vie de la population (prix unique, encadrement des marges, limitation des augmentations…).
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme cite l'encadrement des marges parmi des options envisagées, sans l'arrêter comme mesure ferme.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5935f903e19025d06f78c153366be479d482edb7f1e9364b971259bca05a6285
 
 - question: economie-participations-etat-industrie
   value: 1
@@ -488,11 +590,14 @@
   quote: En cas de nécessité, passer sous gestion publique exceptionnelle.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Pour les entreprises industrielles stratégiques, le programme prévoit un passage sous gestion publique en cas de nécessité, sans prise de participation systématique.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7475c2a7fd595a12fa7b7c60abc139cedb7a31e80364e3914e99990cde9199db
 
 - question: economie-plafonnement-loyers-zones-tendues
   value: 1
@@ -502,11 +607,14 @@
   quote: Assurer le droit au logement par la généralisation, l'amélioration et la pérennisation de l'encadrement des loyers.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme généralise l'encadrement des loyers, au-delà des seules zones tendues et sans l'accord des élus locaux. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f80f228519213337f18c3324a860fc70046bdff8cc289fb9692cea6f4c2e17e1
 
 - question: economie-plafonner-prix-alimentaires
   value: 1
@@ -516,11 +624,14 @@
   quote: Envisager le blocage des prix sur certains produits alimentaires qui souffriraient d'une inflation anormale.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme envisage un blocage des prix alimentaires seulement en cas d'inflation anormale.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f655f52e9831d9e65934e8e161cbbb94ea85f09dff3eef4277060c9468704386
 
 - question: energie-accelerer-eolien-terrestre
   value: 1
@@ -530,11 +641,14 @@
   quote: Soutenir fiscalement et réglementairement ces entreprises de la fabrication des composants à la maintenance dans les secteurs stratégiques des parcs éoliens offshore et terrestre
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme soutient la filière de l'éolien terrestre et l'essor des renouvelables, sans formuler d'objectif explicite d'accélération des implantations.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a2830a5239ccb7f1124225b6b7b2d3e69856bf451f68c8e9cd78e9fadadfd358
 
 - question: energie-fonds-publics-renouvelables
   value: 1
@@ -544,11 +658,14 @@
   quote: Modifier les objectifs et les moyens financiers de la troisième Planification Pluriannuelle de l'Énergie (PPE3) pour que la part des ENR atteigne 44 % de la consommation finale brute d'électricité en 2030.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme réoriente les moyens de la PPE vers les renouvelables et met fin aux nouveaux programmes nucléaires, sans formuler de règle générale de priorité des fonds publics.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a944fd7764463c6df27f7c34bc072477eb2afc2a33db2af22e81b8812d233289
 
 - question: energie-nouveaux-reacteurs-au-dela-epr2
   value: -2
@@ -558,11 +675,14 @@
   quote: Mettre fin aux nouveaux programmes EPR-2 et SMR extrêmement dispendieux.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme met fin au programme EPR2 lui-même, ce qui exclut tout réacteur supplémentaire.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:28c55a7e7e3b29cceefcd424a9e58f7fd3d2bac52716dd2be52f47f4b6d32a12
 
 - question: energie-petits-reacteurs-modulaires
   value: -2
@@ -572,11 +692,14 @@
   quote: Mettre fin aux nouveaux programmes EPR-2 et SMR extrêmement dispendieux.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme met fin aux programmes de petits réacteurs modulaires (SMR).
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:28c55a7e7e3b29cceefcd424a9e58f7fd3d2bac52716dd2be52f47f4b6d32a12
 
 - question: energie-prolonger-reacteurs-60-ans
   value: 0
@@ -586,11 +709,14 @@
   quote: Conduire les études pour évaluer les possibilités de prolongation de certaines d'entre elles sous condition stricte de sûreté afin d'éviter l'effet falaise
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme planifie l'arrêt du parc mais envisage la prolongation de certains réacteurs sous condition de sûreté, position intermédiaire.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0dadbfdd26433901f6e58ed08673a8f4eea2f65a47212f2ac7a50c8227050129
 
 - question: energie-reduire-part-nucleaire
   value: 2
@@ -600,11 +726,14 @@
   quote: Planifier l'arrêt progressif du parc constitué de centrales vieillissantes dont la mise hors service doit être étalée sur une vingtaine d'années.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme planifie la sortie progressive du nucléaire, ce qui implique une réduction progressive de sa part.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ec5067c5131490845f3f432e4fd18fd164cd61880b8af5f6829ea65712f65d6d
 
 - question: energie-supprimer-aides-solaire-eolien
   value: -2
@@ -614,11 +743,14 @@
   quote: Proposer un prêt à taux zéro de la Caisse des Dépôts et Consignations pour les nouveaux projets individuels et collectifs à hauteur de 60 % des devis.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme ajoute des soutiens publics aux projets renouvelables, soit l'inverse d'une suppression des aides.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3a2409fc2f4df47213f06e856e880677e2789c2da3bb597f401774e64f00a8a4
 
 - question: energie-suspendre-nouvelles-eoliennes
   value: -1
@@ -628,11 +760,14 @@
   quote: Structurer et amplifier les filières françaises et européennes de production d'énergies renouvelables.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme veut amplifier les filières renouvelables dont l'éolien, ce qui s'oppose à une suspension, tout en excluant les parcs des zones protégées.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:307e01306cd291162fccbb1de861d04ad918132316ff270d3e259802415c4c07
 
 - question: environnement-assouplir-artificialisation
   value: -2
@@ -642,11 +777,14 @@
   quote: Renforcer la trajectoire de la Zéro Artificialisation Nette (ZAN) pour préserver les sols
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose de renforcer la trajectoire ZAN, soit le contraire d'un assouplissement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0461581c012874f0390f6f62eb11cd8e2f11267180c4893b1d06c295b6bf827e
 
 - question: environnement-calendrier-logements-mal-isoles
   value: 2
@@ -656,11 +794,14 @@
   quote: Maintenir l'interdiction de la remise en location des logements classés F en 2028 et E en 2034
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme maintient le calendrier d'interdiction de location des logements classés F et E.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:65b0e30d3acae75400b35fbb4f1ad9f0a2cdbc8c713ac4dc2f5a71c7fb483c81
 
 - question: environnement-chasse-dimanche
   value: -1
@@ -670,11 +811,14 @@
   quote: Adopter une journée sans chasse un jour par semaine et pendant des jours fériés et les vacances scolaires pour mieux partager l'accès à la nature.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme instaure une journée hebdomadaire sans chasse sans préciser qu'il s'agit du dimanche.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4d9582ddbad9c1c31b553b40cd6e85c4059636d1cd6e717a0d66f877dbf0c01c
 
 - question: environnement-ecocide-crime
   value: 1
@@ -684,11 +828,14 @@
   quote: Intégrer le crime d'écocide à son corpus pour juger les responsables des atteintes les plus graves
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme reconnaît le crime d'écocide au niveau d'une cour pénale internationale de l'environnement, et non dans le Code pénal français.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e0dc392ea117670665483e7fd2b5129677f270cd760d4f43fd0d49b97de67b84
 
 - question: environnement-exploitation-hydrocarbures
   value: -1
@@ -698,11 +845,14 @@
   quote: Soutenir la négociation d'un Traité de non-prolifération des énergies fossiles qui empêche l'expansion des exploitations
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme soutient un traité international empêchant l'expansion des exploitations fossiles, ce qui s'oppose à de nouveaux gisements sans viser explicitement le territoire français.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3c6b2257248b869a1cbfca1c4b592a7a39a43a41ebb9ba092d80f69098418ebe
 
 - question: environnement-fin-thermique-2035
   value: 2
@@ -712,11 +862,14 @@
   quote: Maintenir l'objectif de 100 % de véhicules zéro émission en 2035 pour les ventes de véhicules neufs.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme maintient l'objectif de ventes de véhicules neufs 100 % zéro émission en 2035.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3d08d5075ee7b91f91bde0ac9b2c019b941502d9f601d67c64e39317e012ee60
 
 - question: environnement-interdire-vols-interieurs
   value: 1
@@ -726,11 +879,14 @@
   quote: Interdire les vols intra-européens lorsqu'une alternative de moins de 4h30 en train existe.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme interdit les vols intra-européens dès qu'une alternative en train de moins de 4h30 existe, ce qui couvre et dépasse la mesure de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a6e1c8847ce0535fd5e95f96db4bf5c06d71969c036647e0db2783567235595e
 
 - question: environnement-limiter-recours-projets-v2
   value: -1
@@ -740,11 +896,14 @@
   quote: Redéployer des mécanismes de participa- tion du public (effet suspensif des référés, recours à la double juridiction…).
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme veut rétablir l'effet suspensif des référés et le double degré de juridiction en matière environnementale, ce qui va à l'encontre d'une limitation des recours sans viser spécifiquement les autorisations de projets industriels, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c7192a0de211f78b25108420b071f32f2ff36acd6557f4b27c3d0f817e62350e
 
 - question: environnement-pause-normes-europeennes
   value: -1
@@ -754,11 +913,14 @@
   quote: S'opposer à la dérégulation en cours au niveau européen, contenue dans les dispositifs dits " Omnibus ".
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme s'oppose aux textes européens de dérégulation environnementale, ce qui va contre une pause des normes sans viser exactement cette mesure.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d7cbfc3e16018c96b9f280f36fbf900bba361eecf6e8df45bf5aaf12f380da0a
 
 - question: environnement-plastique-usage-unique-2030
   value: 1
@@ -768,11 +930,14 @@
   quote: Sortir du plastique à usage unique en 2040 avec une trajectoire de réduction de la production et de la consommation.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme prévoit la sortie du plastique à usage unique en 2040, dix ans après l'échéance de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5b93a388284a182f037a4b1f37621775d3c5d4e74616483cf6fe51e2207a552b
 
 - question: environnement-publicite-vehicules-emetteurs
   value: 1
@@ -782,11 +947,14 @@
   quote: Interdire la publicité toxique pour les produits fossiles (aviation, voitures thermiques…)
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme interdit la publicité pour les produits fossiles, dont les voitures thermiques, ce qui couvre les véhicules les plus émetteurs. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:79bc877ab5c79f351998253c30103ec1200940688ad104b5db4b3be6c0d835f8
 
 - question: environnement-supprimer-zfe
   value: -1
@@ -796,11 +964,14 @@
   quote: Améliorer la qualité de l'air en modifiant les conditions des ZFE (Zones à Faibles Émissions).
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose de modifier les conditions des ZFE plutôt que de les supprimer.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:289b74d0e220a84993727ef033ad4ed1366ecf876036288a097fc20068c3e89c
 
 - question: environnement-taxe-carbone-importations
   value: 2
@@ -810,11 +981,14 @@
   quote: Étendre le périmètre et accélérer la mise en œuvre du Mécanisme d'ajustement carbone aux frontières (MACF).
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme veut étendre et accélérer le mécanisme d'ajustement carbone aux frontières, qui taxe les émissions des importations.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f9dfb0582776a3b3af6070ffb4fa0013bfac37ec4c096dfac6b52d84bb7c66a8
 
 - question: environnement-taxer-kerosene-vols-interieurs
   value: 1
@@ -824,11 +998,14 @@
   quote: Diminuer les niches fiscales fossiles en transformant les taux réduits sur les produits fossiles en aides forfaitaires (biocarburants, kérosène sur les vols intérieurs…).
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme supprime le taux réduit sur le kérosène des vols intérieurs en le transformant en aide forfaitaire, sans affirmer un alignement complet sur les autres carburants.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cb046afd19c8961e172e4b48580c4568c9b1bca0c1ecb2ed9bd946e38a1b5a5b
 
 - question: environnement-trajectoire-emissions-entreprises
   value: 1
@@ -838,11 +1015,14 @@
   quote: Subordonner les aides aux entreprises de plus de 250 salarié·es au respect de plans de transition.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme conditionne les aides aux grandes entreprises à des plans de transition, sans fixer de trajectoire d'émissions par la loi.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e72a0c2bab5937501b2c8e4cf46908d1e9b8046b08e922337205e17fdce72fff
 
 - question: fiscalite-baisse-prelevements-obligatoires
   value: -1
@@ -852,11 +1032,14 @@
   quote: C'est pourquoi nous proposons une stratégie alternative visant une croissance des recettes fiscales permettant de financer un haut niveau de services publics et les investissements nécessaires à la transition écologique.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme vise une croissance des recettes fiscales, ce qui s'oppose à une baisse des prélèvements, sans objectif chiffré en part de PIB.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7d2e87fd0a3821194b0afcaa4f16e12ea05af90ff26cb5a05011a8a5700ab6fe
 
 - question: fiscalite-capital-aligne-travail
   value: 1
@@ -866,11 +1049,14 @@
   quote: Taxer plus fortement le capital que le travail.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme veut taxer le capital plus fortement que le travail, ce qui va au-delà d'un simple alignement. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cc5363c297f246ddd131294258bc3630d02cf89fb62847b09bff3ef5e836ab99
 
 - question: fiscalite-csg-progressive-v2
   value: 2
@@ -880,11 +1066,14 @@
   quote: Supprimer le déficit de l'assurance-maladie sans pénaliser ni les soignant·es ni les malades en rendant progressive la Contribution Sociale Généralisée (CSG)
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose de rendre la CSG progressive, c'est-à-dire un taux qui augmente avec le revenu, soit exactement l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a2513cac6c2a3506bd496ad6f137ffab54f0184e162a9736195646d0ac41f0a1
 
 - question: fiscalite-exit-tax-conservation-15-ans
   value: 1
@@ -894,11 +1083,14 @@
   quote: Étendre les conditions de l'exit tax afin de maintenir une contribution fiscale des émigrés fiscaux établissant leur domicile fiscal hors de France.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme veut durcir l'exit tax sans préciser la durée de conservation de 15 ans, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a1827eb92a65b68607ba7cd7857f6f75f011cc1792411d7221155cf1de2936ce
 
 - question: fiscalite-hausse-taxe-transactions-financieres
   value: 2
@@ -908,11 +1100,14 @@
   quote: Augmenter la taxe sur les transactions financières à 0,7 %.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme relève le taux de la taxe sur les transactions financières.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:faab49b843dc8378c0d28090c4a50a3341905d37a0aed3253d492f0abe767110
 
 - question: fiscalite-heures-sup-sans-plafond
   value: -1
@@ -922,11 +1117,14 @@
   quote: Supprimer les exonérations de cotisations inutiles car supérieures à 1,6 smic ou concernant les heures supplémentaires.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme supprime les exonérations de cotisations sur les heures supplémentaires, ce qui va contre leur défiscalisation, sans viser l'impôt sur le revenu.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9eff07fa1b4bb857bbcf9783e647e64398d6862c4f1d0b75825329273ce426fd
 
 - question: fiscalite-impot-fortune-retabli
   value: 2
@@ -936,11 +1134,14 @@
   quote: Rétablir l'Impôt sur la Fortune (ISF) en lui ajoutant une composante climatique pour orienter le patrimoine vers des actifs verts.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose de rétablir l'ISF.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e2a800a57ce1966dfdf5ea49a208718ebeaaeb45979b39c275fd05450d6f57f3
 
 - question: fiscalite-impot-minimum-grandes-fortunes-v2
   value: 2
@@ -950,11 +1151,14 @@
   quote: Mettre en place une taxe Zucman de 2 % au-delà de 100 millions d'euros de patrimoine.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme reprend exactement le prélèvement minimal de 2 % sur les patrimoines de plus de 100 millions d'euros.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5e1e6a97c5f54ee4b6e38db36ba0a07ad0d570597366b60bbb8e202d71ce1734
 
 - question: fiscalite-reduire-allegements-cotisations
   value: 1
@@ -964,11 +1168,14 @@
   quote: Supprimer les exonérations de cotisations inutiles car supérieures à 1,6 smic ou concernant les heures supplémentaires.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme supprime les exonérations de cotisations au-delà de 1,6 smic et sur les heures supplémentaires, ce qui réduit explicitement les allègements accordés aux employeurs. Version partielle (au-delà d'un seuil de salaire) : 1, harmonisé entre candidats."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7b5c2ee3c876f8bbb597db999d6dffeefa22730c7b5739b75cf1d29e3d32dc60
 
 - question: fiscalite-reduire-credits-impot
   value: 1
@@ -978,11 +1185,14 @@
   quote: Plafonner le montant total des niches fiscales par foyer.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme plafonne les niches fiscales par foyer, sans objectif de réduction de moitié de leur montant total.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8bfa33e2c03d7396d3fb747a8bb878e6662171a71bda05713c36a4daf7504041
 
 - question: fiscalite-reduire-droits-succession
   value: -1
@@ -992,11 +1202,14 @@
   quote: Mettre en place un barème de taxation progressif unique en ajoutant deux tranches pour les ménages faisant partie du 1 % le plus riche au-delà de 4 millions d'euros
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme alourdit les droits de succession sur les plus grosses transmissions, sans se prononcer sur les transmissions familiales courantes.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2dab0803fab167286a429b50abe972b325156b8a86e216ad1caa44af6537e426
 
 - question: fiscalite-taxe-benefices-exceptionnels
   value: 1
@@ -1006,11 +1219,14 @@
   quote: Adopter une taxe exceptionnelle sur les superprofits de l'industrie pétrogazière et du commerce maritime.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme taxe les superprofits de deux secteurs seulement, version partielle de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d19ebcb7616f62c8c53586bd94c12f0a5fbbbb4bfbdbd87c33e0118f61a8fe5f
 
 - question: fiscalite-tranche-hauts-revenus
   value: 2
@@ -1020,11 +1236,14 @@
   quote: Créer une nouvelle tranche à 60 % au-delà de 250 000€ annuels.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme crée une tranche supplémentaire d'impôt sur le revenu pour les plus hauts revenus.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ebc2f8ca96e99dd530eb3aaedbf3bd073ef42c808a3adf2a124daffef1f5eb81
 
 - question: immigration-ame-soins-urgents
   value: -2
@@ -1034,11 +1253,14 @@
   quote: "Garantir les droits fondamentaux des personnes exilées : scolarisation de tous les enfants, accès à l'AME et PUMA, suppression des délais de carence"
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme garantit l'accès à l'AME et supprime les délais de carence, à l'opposé d'une limitation aux soins urgents.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:85d0f6804e7e2a74c4c3d0d10b919442f98848437390aaa426c5ee1856f67f39
 
 - question: immigration-asile-droit-travail
   value: 2
@@ -1049,11 +1271,14 @@
   quote: Automatiser le droit au travail dès la délivrance de l'attestation de demande d'asile sans délai et sans autorisation de travail.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme ouvre le droit au travail des demandeurs d'asile dès le dépôt de leur demande.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8574b568897c4b3a2e0c7e8da2147de3f0fed2c65c6d16ab9a37ec3f7f5f11e6
 
 - question: immigration-asile-examen-hors-europe-v2
   value: -2
@@ -1063,11 +1288,14 @@
   quote: Toutes les demandes d'asile déposées en Europe doivent faire l'objet d'un examen en Europe.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme exige que les demandes d'asile déposées en Europe y soient examinées, soit le contraire explicite d'un examen hors du territoire de l'Union.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a88a0a2152713d82b4a7a333ab6b75eaa84e7cee2b2967d67b97e798c45738d6
 
 - question: immigration-reduire-duree-naturalisation
   value: 1
@@ -1077,11 +1305,14 @@
   quote: Faciliter l'obtention de la nationalité française.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme veut faciliter l'accès à la nationalité sans préciser une réduction de la durée de résidence exigée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:956b889f6958d8100a7c9dee1a85f70346dbf78591ea9330dbe1f078c722c157
 
 - question: immigration-regroupement-familial-ressources
   value: -1
@@ -1091,11 +1322,14 @@
   quote: Rendre effectif le droit au regroupement familial par une révision des conditions d'octroi des titres de séjour en adoptant un renouvellement automatique et pluriannuel
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme veut faciliter le regroupement familial, ce qui s'oppose à un durcissement, sans viser explicitement les conditions de ressources.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fdeaad94d9226ea99bf2d58ede695f775e5d77360f549c1abdbfcb6bbb0fdf08
 
 - question: immigration-regularisation-cinq-ans
   value: 1
@@ -1105,11 +1339,14 @@
   quote: Régulariser les travailleur·ses, les étudiant·es et les parents d'enfants scolarisés sur la base de critères objectifs (durée de résidence, effectivité du lien familial, durée ou promesse d'activité professionnelle).
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme retient la durée de résidence comme critère de régularisation, sans fixer le seuil de cinq ans ni l'appliquer à toute personne sans titre.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:75fa4be63c6029998b66b8b97be0bae8f23c64e230ab771615c30c317ee797d8
 
 - question: immigration-regularisation-metiers-tension
   value: 1
@@ -1121,11 +1358,14 @@
   quote: Régulariser les travailleur·ses, les étudiant·es et les parents d'enfants scolarisés sur la base de critères objectifs (durée de résidence, effectivité du lien familial, durée ou promesse d'activité professionnelle).
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme régularise les travailleurs, les étudiants et les parents d'enfants scolarisés sur critères objectifs, ce qui inclut les travailleurs des métiers en tension. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7f2fbdc002b3f86223b81d057baae7eee3fbcc8eca8a623d7486d4d5f0fc320d
 
 - question: immigration-supprimer-droit-du-sol
   value: -2
@@ -1135,11 +1375,14 @@
   quote: Garantir l'application du droit du sol pour les enfants nés en France indépendamment de la situation des parents.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme garantit le droit du sol, soit le contraire de sa suppression.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:717dbfb1c2f37a303f1e63b1e9b5646b1a29d62c6c2cecf8070e37657b3ffb41
 
 - question: immigration-titre-sejour-longue-duree
   value: 1
@@ -1150,11 +1393,14 @@
   quote: Adopter une présomption d'accord pour le renouvellement des cartes de séjour de longue durée et des titres étudiants pour faciliter le maintien au travail et aux études.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme facilite le renouvellement des titres de longue durée et les 21 priorités demandent des titres pluriannuels automatiquement renouvelables, sans viser explicitement leur première obtention.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cc6b59fedaf1792b908f5bfd1ad6c84e3d7dd376111c1ee6f90a089d393a55a1
 
 - question: immigration-voies-legales-travail-ue
   value: 1
@@ -1164,11 +1410,14 @@
   quote: Créer des voies légales et sécurisées d'immigration par une révision du Pacte européen sur la migration et l'asile.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme demande des voies légales d'immigration au niveau européen, sans les cibler spécifiquement sur le travail.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a3072b3f243842e764a7065d0c9ad346e4755fb9f442f5f61ff1c53e1d6f0d18
 
 - question: immigration-vote-local-etrangers-v2
   value: 2
@@ -1178,11 +1427,14 @@
   quote: Étendre le droit de vote aux étranger·es extra-communautaires pour les élections locales (municipales, intercommunales, départementales et régionales) après cinq années de résidence en France.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme accorde le droit de vote aux élections locales aux étrangers non ressortissants de l'Union après cinq ans de résidence, soit exactement l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e2d4838f202405ca1b27abc2ce0ce27360dbdf41f696e0d5bca3c62754b3864a
 
 - question: institutions-adaptation-lois-regions
   value: 1
@@ -1192,11 +1444,14 @@
   quote: Défendre une transformation de notre République pour qu'elle soit fondée sur le principe du fédéralisme différencié.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme défend un fédéralisme différencié et un pouvoir réglementaire local, sans mentionner explicitement l'adaptation des lois par les régions.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:13ab465811e43c49b1fd216dadd5f3aeef1ec5d6dd2d59883fd2ce2c7f6d3164
 
 - question: institutions-autonomie-fiscale-collectivites
   value: 2
@@ -1206,11 +1461,14 @@
   quote: Faire de la France une République fortement décentralisée en confiant un pouvoir réglementaire et des leviers fiscaux autonomes aux collectivités territoriales.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme confie des leviers fiscaux autonomes aux collectivités.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0867c320de10def78eb2d97ad08380b629a61522a53736814cee0ef1ad8b01f0
 
 - question: institutions-competences-retour-etat-v2
   value: -2
@@ -1220,11 +1478,14 @@
   quote: Revenir sur le mouvement de recentralisation en cours.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme demande d'inverser la recentralisation en cours et d'élargir les compétences des collectivités, soit le contraire explicite d'un transfert de compétences vers l'État.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b8c5f6265da696b055908f27eeaa7abe1f7408735e152bad4c72bfc5b32a5e8a
 
 - question: institutions-investiture-premier-ministre
   value: 1
@@ -1234,11 +1495,14 @@
   quote: Organiser une audition préalable des ministres par les deux chambres du Parlement. La composition finale est confirmée par un vote.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme soumet la composition du gouvernement à un vote du Parlement, variante proche d'un vote de confiance au Premier ministre après sa nomination.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:659ff22532df19fdf05bd576bd9cf0f194d3847f08948841a7a03a5659c32524
 
 - question: institutions-maintenir-article-40
   value: -1
@@ -1248,11 +1512,14 @@
   quote: Renforcer le pouvoir d'initiative et le droit d'amendement en assouplissant les règles de la recevabilité financière (actuel article 40).
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme assouplit les règles de l'article 40 sans les supprimer, ce qui s'écarte partiellement du maintien de l'interdiction, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:65417c165ffda1f09233c78330a2341307e63a68c78ff621d57f40dfcba26555
 
 - question: institutions-mandat-presidentiel-sept-ans
   value: 2
@@ -1262,11 +1529,14 @@
   quote: Etablir un septennat unique.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose un mandat présidentiel unique de sept ans.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9749b40cbdf49cae6424c8351de0902647d0072e07753ef82026d7a2575b42cf
 
 - question: institutions-ordre-du-jour-parlement
   value: 2
@@ -1276,11 +1546,14 @@
   quote: Définir de manière autonome son ordre du jour.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme prévoit que le Parlement fixe de manière autonome son ordre du jour.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:782ebc7c2f3bb048032cdcd6ae196a65833a8cd248351c18d74aba26f3cd995d
 
 - question: institutions-pouvoirs-commissions-enquete
   value: 1
@@ -1290,11 +1563,14 @@
   quote: Mieux contrôler le gouvernement par le renforcement des commissions parlementaires permanentes et d'enquête.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme renforce les commissions d'enquête sans détailler un élargissement de leurs pouvoirs d'investigation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:37db13fb742220b7ce6f172dffa8db96b40a88ae129a4cf1e10a5da058cf4755
 
 - question: institutions-pouvoirs-prefet-renforces
   value: -1
@@ -1304,11 +1580,14 @@
   quote: Les préfets doivent faire appliquer la loi plutôt que d'intervenir directement sur certains projets locaux ou d'infrastructures au détriment des maires.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme veut limiter l'intervention des préfets dans les projets locaux, ce qui s'oppose à un renforcement de leurs pouvoirs.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:28fbfc8cf3e50e9ce775e0116a3adbe46e407161c2e2a7fbfefa9b49a3ede24d
 
 - question: institutions-proportionnelle-legislatives
   value: 2
@@ -1318,11 +1597,14 @@
   quote: Instaurer la proportionnelle intégrale sans prime majoritaire aux élections législatives
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose l'élection des députés à la proportionnelle intégrale.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:90b18a9940a9bc5ff858dfb015b725893fead219b0b94d2d4dbfdabae12c65e0
 
 - question: institutions-supprimer-49-3
   value: 2
@@ -1332,11 +1614,14 @@
   quote: Assurer que le Parlement dispose d'un meilleur contrôle de son ordre du jour et ne soit plus limité par les actuels articles 34 ou par l'article 49-3.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme veut que le Parlement ne soit plus contraint par l'article 49-3, ce qui revient à en supprimer l'usage.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:650694e9222f7f04a2cf67c7d5d53771c7a66db9ea0751fd8ed1b30f1a8811e8
 
 - question: institutions-supprimer-senat
   value: -2
@@ -1346,11 +1631,14 @@
   quote: Démocratiser le Sénat pour qu'il représente mieux les territoires sur une base régionale.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme maintient un Parlement bicaméral et réforme le Sénat au lieu de le supprimer.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:57570de139a7065893524d5c3cfe83af5c0552db905366c771755b5186837bbb
 
 - question: international-adhesion-ukraine-ue
   value: 2
@@ -1361,11 +1649,14 @@
   quote: Soutenir l'adhésion graduelle à l'Union Européenne en particulier pour l'Islande, les Etats des Balkans occidentaux, la Moldavie et l'Ukraine.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme soutient l'adhésion de l'Ukraine à l'Union européenne.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f2a88dd27f9dbcecb482ceab10e06e3df9623c39dabaeb3a5114f90e6d896058
 
 - question: international-aide-developpement-0-7
   value: 2
@@ -1376,11 +1667,14 @@
   quote: Retrouver une trajectoire correspondant à nos engagements internationaux (0,7 % du PNB) et améliorer la coordination européenne.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme reprend l'objectif de 0,7 % du revenu national pour l'aide au développement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5d3044b78264013bb3f268124c67ce0c88f133c03ba65a457a737006b4df0fc9
 
 - question: international-emprunt-commun-ue
   value: 2
@@ -1390,11 +1684,14 @@
   quote: Créer un emprunt commun pour des investissements de long terme
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose un emprunt commun européen pour financer des investissements.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:dab7c52ed212263fec786fecb016e67e1e83f15f16c827d264b4c73b10214649
 
 - question: international-impots-propres-ue
   value: 2
@@ -1404,11 +1701,14 @@
   quote: Augmenter les ressources fiscales propres dédiées au budget communautaire via un renforcement du mécanisme d'ajustement carbone aux frontières (MACF), une taxation des grandes entreprises technologiques
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme dote l'Union de nouvelles ressources fiscales propres.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:686aef6c9e9c182fe052f6a38d1c1cc9783a92e3ba02b13178604bed71f16167
 
 - question: international-initiative-parlement-europeen
   value: 2
@@ -1418,11 +1718,14 @@
   quote: Créer un droit d'initiative parlementaire.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose de donner au Parlement européen un droit d'initiative.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bdfc9bc8c2aa53dec88864b0e6b0ff53577e3b36367afdfea595f17b12fbee55
 
 - question: international-listes-transnationales
   value: 2
@@ -1432,11 +1735,14 @@
   quote: Élire le Parlement européen sur la base de listes transnationales.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose l'élection du Parlement européen sur listes transnationales.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9daa0ec1d398a1ae179ebe5b6ee1abfb9b529006939926520080a76993501917
 
 - question: international-majorite-qualifiee-ue
   value: 2
@@ -1446,11 +1752,14 @@
   quote: Remplacer les droits de veto nationaux par une majorité qualifiée en matière de protection des droits fondamentaux, de protection sociale et d'intégration fiscale européenne et la politique étrangère et de sécurité commune.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme étend la majorité qualifiée à plusieurs domaines aujourd'hui soumis à l'unanimité.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:33470f5a08c213bab3f260a00b2516f05d591d44215b872bf14cd7cc7a623021
 
 - question: international-renegocier-traites-competences
   value: -2
@@ -1460,11 +1769,14 @@
   quote: Partager plus de domaines de compétence entre les Etats et l'Union Européenne.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme veut un saut fédéral et davantage de compétences partagées avec l'Union, soit l'inverse d'un retour des compétences aux États.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:530090ba394d0326dd069a4723485f52e9687de4cab2ae403daab837348c7135
 
 - question: international-renforcer-sanctions-russie
   value: 2
@@ -1475,11 +1787,14 @@
   quote: Soutenir économiquement l'Ukraine en arrêtant immédiatement toute importation de gaz, d'uranium et d'engrais russe et biélorusse.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme arrête toutes les importations de gaz, d'uranium et d'engrais russes et vise les contournements des sanctions, ce qui renforce les sanctions.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:296e0417dcec8a223494dd28925f955f467219d4af422656c9639fb0ce3743cb
 
 - question: justice-accompagnement-emploi-detenus
   value: 1
@@ -1489,11 +1804,14 @@
   quote: Développer l'accompagnement des personnes pendant leur détention et après leur libération.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme développe l'accompagnement et le travail en détention, sans préciser un accompagnement vers l'emploi sur toute la détention.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d2a8c9f467437a5fa572aca721fc06905187db13b5cff73df9545d75bf23efc6
 
 - question: justice-arret-construction-prisons
   value: 2
@@ -1503,11 +1821,14 @@
   quote: Adopter un moratoire sur la construction de nouvelles places de prison en dehors de celles destinées à remplacer les prisons insalubres.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose un moratoire sur les nouvelles places de prison.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6f66ff1295e1328f72238378f03e2ca88397198a5504ebf273eed50a20c72723
 
 - question: justice-comparution-immediate-mineurs
   value: -1
@@ -1517,11 +1838,14 @@
   quote: Limiter au maximum les procédures de jugement rapide et de comparutions immédiates notamment pour les mineurs.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme veut limiter au maximum les comparutions immédiates, notamment pour les mineurs, sans les interdire explicitement, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:80b701dd2399b26983a691b9850dbe7b1e92f2b7497338de22c611ca8cae92d3
 
 - question: justice-imprescriptibilite-crimes-sexuels-mineurs
   value: 1
@@ -1532,11 +1856,14 @@
   quote: Inscrire dans la loi l'imprescriptibilité des crimes sur les mineurs.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme rend imprescriptibles tous les crimes commis sur les mineurs, ce qui inclut les crimes sexuels. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f2af08228ecb1f429b62c225288926929a89ce74429d97a9fc8bb476b580479f
 
 - question: justice-juridictions-mineurs-specialisees-v2
   value: 2
@@ -1546,11 +1873,14 @@
   quote: Conserver la double compétence civile et pénale du Juge des Enfants et des services de la Protection Judiciaire de la Jeunesse.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme conserve la compétence pénale du juge des enfants, donc une juridiction distincte de celle des majeurs pour juger les mineurs.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9a13bfd8dd149a819ebdf639066cba11de742124f01d39ae8300e131c4081191
 
 - question: justice-justice-restaurative-systematique
   value: 1
@@ -1560,11 +1890,14 @@
   quote: Développer le recours aux mécanismes de justice restaurative en s'assurant de la protection des victimes.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme développe la justice restaurative sans la rendre systématique.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6528c3d152f434d5cfad1eb601d456c287874f06ada5d9809f26a087c609e22e
 
 - question: justice-majorite-penale-16-ans
   value: -1
@@ -1574,11 +1907,14 @@
   quote: Porter l'âge de la responsabilité pénale à 14 ans, sans dérogation possible et en préservant l'excuse de minorité ainsi que le principe constitutionnel d'une justice adaptée aux enfants.
   quoteSource: marine-tondelier-livret-enfance-2026-09
   justification: Le livret enfance préserve l'excuse de minorité et une justice adaptée aux mineurs, ce qui s'oppose à un abaissement de la majorité pénale sans le viser explicitement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5671a7c017292c4857284df9c2605b9e9faf71724f5d7a09f21028c78f6b3f00
 
 - question: justice-plafonner-detenus-places
   value: 2
@@ -1588,11 +1924,14 @@
   quote: Limiter la surpopulation carcérale par un numerus clausus
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme instaure un numerus clausus limitant les détenus aux places disponibles.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:94e3a06f28eb092565460ad78f75dff68049d0b4d5a840e15bb1fdf6fc32a0a9
 
 - question: justice-tig-delits-sans-violence
   value: 1
@@ -1602,11 +1941,14 @@
   quote: Renforcer la possibilité d'effecteur des Travaux d'Intérêts Généraux en multipliant les partenariats avec les entreprises, les administrations et les associations.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme développe le travail d'intérêt général sans le préférer explicitement à la prison pour les délits non violents.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b4d0f899335feba435e20f2763734cc304c3852081a27ca2016c6924c4c8a394
 
 - question: justice-visites-familiales-prisons
   value: 2
@@ -1616,11 +1958,14 @@
   quote: Appliquer de façon effective la loi pénitentiaire par la mise en place d'unités de vie familiale dans l'ensemble des établissements.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme généralise les unités de vie familiale à toutes les prisons.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:44299a64119460beabc820a37400916f5bda3970f767788345f2a7aa64abac3b
 
 - question: numerique-alleger-moderation
   value: -2
@@ -1630,11 +1975,14 @@
   quote: Contraindre les plateformes et les réseaux sociaux à vraiment réguler et modérer les contenus négationnistes et racistes.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme renforce les obligations de modération des plateformes.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b55736b22c8faf0ca9b274e3cb1532cb4f85527ddfb4485dd056480aefaa35f7
 
 - question: numerique-assouplir-consentement-traceurs
   value: -1
@@ -1644,11 +1992,14 @@
   quote: Élargir le champ des données personnelles interdites au partage, à la revente et au ciblage publicitaire basé sur la surveillance comportementale.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme restreint le ciblage publicitaire, ce qui s'oppose à un assouplissement sans viser les règles de consentement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ef8249da6eefbf074832e86d377170cf4a1f5dbd9ed82c5895f40a3c98af9e17
 
 - question: numerique-assouplir-regles-ia
   value: -1
@@ -1658,11 +2009,14 @@
   quote: Améliorer la régulation des systèmes à haut risque et des modèles de grande taille
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme veut améliorer la régulation européenne des systèmes d'IA à haut risque et des grands modèles, ce qui va contre un assouplissement sans rejeter toute évolution des règles, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1a4fd5de011ff3959293d117cf20c00bb1b42682a20733161a2f257903d33097
 
 - question: numerique-donnees-sante-hebergeurs-europeens
   value: 1
@@ -1672,11 +2026,14 @@
   quote: Appliquer l'hébergement des données sensibles sur des data centers situés en France détenus et gérés par des acteurs européens.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme impose un hébergement européen pour les données sensibles, catégorie plus large où les données de santé ne sont pas nommées.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:253f539bfc1aab81348848156783f29eed501b29a6a56dd732573b1501cd0f42
 
 - question: numerique-faciliter-centres-donnees
   value: -2
@@ -1686,11 +2043,14 @@
   quote: Supprimer la possibilité de labelliser des data centers " projet d'intérêt national majeur " (PINM) les exonérant d'études d'impact.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme supprime le régime d'exception des centres de données et encadre leur implantation, à l'inverse d'une accélération.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c99a3348141f94404dc68b801c657d3002feb938c5a942d64809ed1f8ec92b96
 
 - question: numerique-ia-remuneration-auteurs
   value: 2
@@ -1700,11 +2060,14 @@
   quote: Rémunérer les œuvres protégées par le droit d'auteur qui ont été utilisées pour constituer les bases d'entraînement des IA.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme impose la rémunération des œuvres utilisées pour entraîner les IA.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:84ed5b0bf7cbd7d974c13211258a5a030d3672c687a40c7f0969cc1a015a6e9b
 
 - question: numerique-logiciels-libres-administration
   value: 2
@@ -1714,11 +2077,14 @@
   quote: Généraliser l'usage des logiciels libres et open source dans les administrations publiques
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme généralise les logiciels libres dans les administrations.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1b390177c3ccf3fb32e3af481b08ef04219ac1ba25fd63a2cb93f1bfe6d04b85
 
 - question: numerique-responsabilite-plateformes-limitee-v2
   value: -2
@@ -1728,11 +2094,14 @@
   quote: Étendre le statut d'éditeur à toutes les grandes plateformes pour les rendre responsables de l'ensemble du contenu qu'elles produisent.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme veut appliquer le statut d'éditeur aux grandes plateformes pour les rendre responsables de l'ensemble des contenus, soit le contraire d'une responsabilité limitée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:109fce1c5e2df7631099e739f725fd73c4ae02db9642c2b385cda138caa42e9c
 
 - question: numerique-taxe-plateformes
   value: 2
@@ -1742,11 +2111,14 @@
   quote: Relever la taxe sur les services numériques (TSN) de 3 à 5 %
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme relève la taxe sur le chiffre d'affaires numérique des grandes plateformes.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7ef4a6aa6233462310414e7671ea0e59915d7c29ee8b95e72d22a3791809ccfe
 
 - question: sante-centres-sante-publics
   value: 1
@@ -1756,11 +2128,14 @@
   quote: Créer 2 000 nouveaux centres de santé d'ici 2030, notamment dans les zones rurales et les quartiers prioritaires.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme crée 2 000 centres de santé sans préciser qu'ils soient publics ni répartis dans chaque département.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8d8ceed507e6cce6ac096df05602f1bbdc8697714ef497279b0a30ab6face6dd
 
 - question: sante-depassements-honoraires-libres
   value: -1
@@ -1770,11 +2145,14 @@
   quote: Encadrer les dépassements d'honoraires chez les spécialistes en limitant les dépassements d'honoraires à 50 % du tarif de la Sécurité Sociale
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme plafonne les dépassements d'honoraires à 50 % du tarif de la Sécurité sociale et les interdit pour la moitié des ménages les moins aisés, sans les supprimer, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0b75437bbfaea5e6602f2557f1ba1c6168392f572090348de8d9eba8a1f66130
 
 - question: sante-hausse-franchises-medicales
   value: -2
@@ -1784,11 +2162,14 @@
   quote: Supprimer les franchises.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme supprime les franchises médicales.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3b304400a5892cb4d2e1ee6ba0568986e9c26119fea8ae8c85e75d9951d82119
 
 - question: sante-mutuelles-part-accrue-v2
   value: -2
@@ -1798,11 +2179,14 @@
   quote: Concentrer la couverture par les mutuelles aux seuls soins optionnels.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme cantonne les complémentaires santé aux seuls soins optionnels, à l'opposé d'un transfert vers elles de dépenses remboursées par l'Assurance maladie.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a86034afe16d6975c37ed3999bcb5dc4c00f16c64fa3dabe433cad08482d2551
 
 - question: sante-production-publique-medicaments
   value: 2
@@ -1812,11 +2196,14 @@
   quote: Développer le pôle public du médicament en élargissant la production de l'établissement pharmaceutique de l'Agence générale des équipements et produits de santé (Ageps)
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme confie à un établissement public la production des médicaments majeurs en rupture d'approvisionnement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:45d47d70879153f7c0542e88fb5edf1ac832ec3b162b50188b0ac8e605336fcf
 
 - question: sante-regulation-installation-medecins
   value: 2
@@ -1826,11 +2213,14 @@
   quote: Réguler l'installation des médecins libéraux par une autorisation d'installation des médecins délivrée par l'Agence Régionale de Santé
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme soumet l'installation des médecins à autorisation hors zones sous-dotées.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:29f097168944f918a3be06931c2cb27b9eddacbcb39f2b82cd1d28a777a504f4
 
 - question: sante-taxer-boissons-sucrees
   value: 2
@@ -1840,11 +2230,14 @@
   quote: Augmenter d'un centime la taxe sur les boissons avec sucre ajouté pour l'affecter à la lutte contre la malnutrition infantile.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme augmente la taxe sur les boissons sucrées.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f007011c804591b4d31ddb476883263722c20bb8937c1cbe81fbbe919ed76e4c
 
 - question: securite-enquetes-policiers-independantes
   value: 2
@@ -1854,11 +2247,14 @@
   quote: Remplacer l'Inspection Générale de la Police Nationale (IGPN) et l'Inspection Générale de la Gendarmerie Nationale (IGGN) par un nouvel organisme indépendant rattaché à la Défenseure des droits.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme confie les enquêtes sur les forces de l'ordre à un organisme indépendant du ministère de l'Intérieur.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:591de631023850324d00d163b0ed72f0c4a0f5d2f9f4374364f2ba34ac63f7c7
 
 - question: securite-interdire-lbd-manifestations
   value: 2
@@ -1868,11 +2264,14 @@
   quote: Interdire les lanceurs de balles de défense (LBD40) et les grenades mutilantes.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme interdit les lanceurs de balles de défense.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e418c6a2e10648d5351fed87024230797887b175fdd882045857cdcd09c77792
 
 - question: securite-limiter-dissolution-associations
   value: 1
@@ -1882,11 +2281,14 @@
   quote: les mesures de surveillance en dehors d'un suivi judiciaire, ou encore la dissolution d'associations visant la défense de l'environnement
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme veut abroger la dissolution administrative des associations environnementales, version partielle d'une limitation générale de ce pouvoir.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1d58097d0326857c687162460be8e58ea0fdcfa858802d4708eb27fee71aafcc
 
 - question: securite-recepisse-controles-identite
   value: 2
@@ -1896,11 +2298,14 @@
   quote: Instaurer un récépissé attestant des motifs du contrôle.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme instaure un récépissé lors des contrôles d'identité.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:489a083edd57733ddb402b159338848ba4e4945916ab32ba87db96bab7d57ea2
 
 - question: securite-reconnaissance-faciale-police
   value: -2
@@ -1910,11 +2315,14 @@
   quote: Encadrer la vidéosurveillance et renforcer la présence humaine. Interdire la reconnaissance faciale
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme interdit la reconnaissance faciale.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9cb5a1f4a7258c602ccc0983acf4555e7ccc836e41901581315396a8a7fb2801
 
 - question: securite-restreindre-tirs-refus-obtemperer
   value: 2
@@ -1924,11 +2332,14 @@
   quote: Abroger les dispositions de la loi Cazeneuve sur l'ouverture du feu pour que cessent les morts pour refus d'obtempérer
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme abroge les règles de 2017 sur l'ouverture du feu pour restreindre les tirs lors des refus d'obtempérer.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fb7baf67bce358f3ed197227c8ff81186c30cd25e67b5441c04b2a9f0d6de912
 
 - question: securite-surveillance-antiterroriste-prolongee
   value: -1
@@ -1938,11 +2349,14 @@
   quote: Abroger les perquisitions administratives, les restrictions administratives à la liberté d'aller et venir, les mesures de surveillance en dehors d'un suivi judiciaire
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme abroge les mesures administratives de surveillance hors contrôle judiciaire, ce qui s'oppose à leur prolongation sans viser nommément l'antiterrorisme.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0efa6ce4e9d184b3da1e54df809e2dac0cfad134e68744e1840602617839c897
 
 - question: societe-aide-active-a-mourir
   value: 2
@@ -1952,11 +2366,14 @@
   quote: légaliser l'aide active à mourir en conservant l'équilibre des textes votés en 1re lecture
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme propose de légaliser l'aide active à mourir.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:59f8e25d849c91680dd98cf41ed5a4739d02516ae972d6ba689f3766bb5e23b0
 
 - question: societe-cannabis-legalisation
   value: 2
@@ -1966,11 +2383,14 @@
   quote: Légaliser et encadrer la production, la vente et la consommation de cannabis.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme légalise et encadre la consommation de cannabis.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cb2f4b0e549369c32c898ec5ec021376fd1151c97006c43320fe4bf9b94692bf
 
 - question: societe-conge-second-parent
   value: 2
@@ -1981,11 +2401,14 @@
   quote: Rendre obligatoire et aligner la durée du congé d'accueil de l'enfant entre la mère et le second parent avec 16 semaines rémunérées à 100 % du salaire mensuel de base.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme aligne la durée du congé du second parent sur celle de la mère.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a9a98def82196daf130c8f0d77f4691496b55200a84d9dc4d695667b366f9403
 
 - question: societe-salles-consommation-drogue-v2
   value: 1
@@ -1995,11 +2418,14 @@
   quote: Augmenter les moyens de la prévention autour des toxicomanies en particulier les " haltes soins addictions "
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme renforce les moyens des haltes soins addictions (salles de consommation supervisées) sans prévoir explicitement leur généralisation, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ac58e1d8b757a8a470e222aa5a24dfe7ecc2223ebefb14ddb0a45923412ab713
 
 - question: societe-signes-religieux-sorties-scolaires
   value: -1
@@ -2009,11 +2435,14 @@
   quote: La laïcité impose la neutralité au service public et à ses agent·es, pas à ses usagers ni aux habitant·es.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme limite l'obligation de neutralité aux agents publics, ce qui s'oppose à une interdiction visant les accompagnateurs sans les nommer.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:df87f224dc2006c8bc43c97b0f1704c5d8b28fe2297a3c864dabd7b78ea15b00
 
 - question: societe-signes-religieux-universite
   value: -2
@@ -2023,11 +2452,14 @@
   quote: La laïcité impose la neutralité au service public et à ses agent·es, pas à ses usagers ni aux habitant·es.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme affirme que la neutralité religieuse ne s'impose pas aux usagers du service public, dont les étudiants, soit l'inverse explicite d'une interdiction des signes religieux à l'université."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4da70bb88a27d54d32c814b14ac1d3118c87a99631e7e4d2a630578c21a9ed14
 
 - question: societe-simplifier-changement-sexe-etat-civil
   value: 2
@@ -2037,11 +2469,14 @@
   quote: Rendre le changement de mention de sexe à l'état civil libre, gratuit et simple, sans passer devant un juge.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme simplifie le changement de la mention du sexe à l'état civil.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d5851fc4ebc83ad4773c15e9daa3892b30e90cf61c5ee5198faca4259ed81139
 
 - question: transport-abandonner-nouvelles-lgv
   value: 1
@@ -2051,11 +2486,14 @@
   quote: Adopter un moratoire sur les grands projets inutiles et imposés comme le canal Seine-Nord Europe, l'autoroute A69, le TGV Lyon-Turin et les extensions d'aéroport.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme suspend le projet de TGV Lyon-Turin sans renoncer à toute nouvelle ligne à grande vitesse.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b1ae6cfcdbe11dc28b53b065ded771380b310bcbe34838e21693e5929b81875e
 
 - question: transport-abonnement-national-unique
   value: 2
@@ -2066,11 +2504,14 @@
   quote: par un ticket climat mensuel avec un tarif unique permettant de garantir des tarifs accessibles
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme crée un ticket climat mensuel à tarif unique pour l'ensemble des transports en commun hors TGV.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f7599091775b5f4d427b245f62af9f8db6ff7caf062eed38425706f900101cfd
 
 - question: transport-autoroutes-concedees-v2
   value: -2
@@ -2080,11 +2521,14 @@
   quote: Renationaliser progressi- vement les autoroutes afin d'investir dans les infrastructures de transport
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme renationalise les autoroutes, à l'opposé du maintien de leur exploitation en concession par des sociétés privées.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3a605dcaba8f8b4b520828c906597f343f0ad4de44de433ea06ac0e2c6359e7e
 
 - question: transport-baisser-taxe-billets-avion
   value: -2
@@ -2094,11 +2538,14 @@
   quote: Augmenter la fiscalité sur les billets d'avion (Taxe sur les Billets d'Avion ou TSBA et taux de TVA)
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme augmente la taxe sur les billets d'avion, à l'opposé de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0bfd408f14f8eb9dea587663b69854606e3d9f3772b6f426de7c116694dd2218
 
 - question: transport-concurrence-ferroviaire
   value: -2
@@ -2108,11 +2555,14 @@
   quote: Suspendre les obligations de mise en concurrence des compagnies ferroviaires.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme suspend la mise en concurrence ferroviaire, à l'opposé de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a719e504d66ae6b3a71b03f6cf5c47a19c226ea62cae64fcacb438bf568878b8
 
 - question: transport-gratuite-transports-urbains
   value: 1
@@ -2122,11 +2572,14 @@
   quote: des mesures de gratuité ciblées aux jeunes et aux ménages précaires pour l'ensemble des transports en commun hors TGV
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme prévoit une gratuité ciblée sur les jeunes et les ménages précaires, version partielle d'une gratuité générale.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b5ddbb624e414d44e555b259c88030c603c2fd6fa6711470df21f9d2ce61a5b0
 
 - question: transport-milliard-amenagements-cyclables
   value: 1
@@ -2136,11 +2589,14 @@
   quote: Doubler le kilométrage de voies cyclables continues en 3 ans pour atteindre 120 000 km en 2032
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme vise un doublement des voies cyclables sans chiffrer un budget annuel d'un milliard d'euros.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fd6a6bec516af128a6af25747c1063e20979a7784d187794e497fe3c945abbeb
 
 - question: transport-petites-lignes-maintenues
   value: 1
@@ -2150,11 +2606,14 @@
   quote: Régénérer et moderniser le réseau existant (réseau structurant et "petites " lignes desservant les territoires ruraux)
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme régénère les petites lignes sans préciser leur maintien quelle que soit leur fréquentation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fa1e8b4631445f82c3f26915e2963acb20d7a7c3bbfb69ce83d774578ed3878c
 
 - question: transport-taxe-kilometrique-poids-lourds
   value: 2
@@ -2164,11 +2623,14 @@
   quote: éco-redevance poids lourds sur le réseau routier non-concédé
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme prévoit une éco-redevance kilométrique des poids lourds sur le réseau routier non concédé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f2593eee84edcc4e9e3e555b543e7d4dee333b7c122e2e87b8ce4b4b47f968ed
 
 - question: transport-trains-de-nuit
   value: 2
@@ -2178,11 +2640,14 @@
   quote: Créer des lignes de train de nuit en particulier les transversales Bordeaux-Lyon ou Bordeaux-Nice.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme crée de nouvelles lignes de trains de nuit.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:33e31fe92f0307d707076f58673585f449ced7bad0cf0952193436d5faeb3424
 
 - question: transport-voitures-centres-villes-libres
   value: -1
@@ -2192,11 +2657,14 @@
   quote: Développer les Zones à Trafic Limité.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme développe les zones à trafic limité, ce qui restreint l'accès des voitures sans viser tous les centres-villes.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:96810498755761f5a5b9bc6b023be0fe782f3fdf2a33ae44b21f2b774b887f98
 
 - question: travail-durcir-indemnisation-chomage
   value: -2
@@ -2207,11 +2675,14 @@
   quote: Abroger les réformes régressives adoptées lors des deux derniers quinquennats notamment celle sur le calcul de l'Allocation de Retour à l'Emploi.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme abroge les durcissements de l'assurance chômage, à l'opposé de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1640107032fb49e36eef515dddd0cca537218038847fd83b825423a08f7808cb
 
 - question: travail-duree-travail-accord-entreprise
   value: -1
@@ -2222,11 +2693,14 @@
   quote: Rétablir le principe de faveur qui voit la loi primer sur la convention collective.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme rétablit la primauté de la loi sur les accords collectifs, ce qui s'oppose à une durée fixée par accord d'entreprise sans viser la durée du travail.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:355cca91033e00c63a1a43bedac9b4f38e6bb49923669996b78361d4e6482340
 
 - question: travail-elargir-penibilite-retraite
   value: 2
@@ -2237,11 +2711,14 @@
   quote: Réintroduire les 4 critères ouvrant le droit à une retraite anticipée qui ont été supprimés en 2017
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme réintroduit quatre critères de pénibilité ouvrant droit à une retraite anticipée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e5d370c791dc090d20c4cf13ed31e627594195ccd5498e4c63e852f3a36756f1
 
 - question: travail-indexation-salaires
   value: 1
@@ -2251,11 +2728,14 @@
   quote: Augmenter le SMIC et mettre en place une indexation des bas salaires sur l'inflation
   quoteSource: marine-tondelier-21-priorites-2026-04
   justification: Les 21 priorités prévoient une indexation des seuls bas salaires sur l'inflation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5cec46e852104c69f841851b98b71236a7b56a10b2417377ab11cec6b7820021
 
 - question: travail-plafonner-ecart-salaires
   value: 1
@@ -2266,11 +2746,14 @@
   quote: Réduire les écarts de rémunération pour atteindre un écart de 1 à 20 dans les entreprises entre le salaire de dirigeants et le salaire médian dans l'entreprise en conditionnant toute aide publique à cet objectif.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme vise un écart de 1 à 20 par la conditionnalité des aides publiques, sans plafond fixé par la loi.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f89b7feb551cb4a943bad0ec79cfafabe80e56bb51c625065316b88dadaf22a4
 
 - question: travail-plateformes-presomption-salariat
   value: 2
@@ -2281,11 +2764,14 @@
   quote: Transposer dans la loi française la directive européenne sur la présomption de salariat pour les travailleur·ses des plateformes.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme instaure une présomption de salariat pour les travailleurs des plateformes.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9fb4f14109b97ed41bf482aaa39f2b3040987e81b4a53b3f670b1e19e2182640
 
 - question: travail-retraite-62-ans
   value: 2
@@ -2295,11 +2781,14 @@
   quote: Abroger l'âge légal de départ à la retraite à 64 ans (réforme Borne) pour revenir immédiatement à un âge minimum à 62 ans
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme ramène immédiatement l'âge légal de départ à 62 ans.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:eec9555d2e6c7b03a2e20e8fa3150b92dff0a27d09c24ef2057fe8adb2dc9741
 
 - question: travail-retraite-au-dela-64-ans
   value: -2
@@ -2309,11 +2798,14 @@
   quote: Abroger l'âge légal de départ à la retraite à 64 ans (réforme Borne) pour revenir immédiatement à un âge minimum à 62 ans
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme abaisse l'âge légal à 62 ans, à l'opposé d'un report au-delà de 64 ans.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:986e23c0fe1a31f695357cbe0969dac31ebc2d0f52943961357c79313b67d9d4
 
 - question: travail-retraite-capitalisation
   value: -2
@@ -2323,11 +2815,14 @@
   quote: Refuser toute forme d'évolution vers une retraite par capitalisation
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme refuse toute évolution vers la capitalisation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2013efe962c03ee411059a55c8e7d17bd027290b29daa2048344cdb342b6a069
 
 - question: travail-salaries-conseils-administration
   value: 2
@@ -2338,11 +2833,14 @@
   quote: attribuant des postes de droit dans les Conseils d'administration ou de surveillance des entreprises (2 postes dans les entreprises de +250 salariés ; un tiers pour celles de +1000 ; la moitié celles +5000)
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme attribue au moins un tiers des sièges aux salariés dans les entreprises de plus de 1 000 salariés.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:da054b743e0d87320a0f9174b03edee0636811670305dde3f1873b1ebd0cb151
 
 - question: travail-semaine-32-heures
   value: 1
@@ -2353,11 +2851,14 @@
   quote: Passer aux 32 heures sans perte de salaire dans les métiers pénibles ou de nuit en y conditionnant les aides aux entreprises.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme limite le passage aux 32 heures aux métiers pénibles ou de nuit.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f0f634368cd8ca34aa58862d6237556f78942aff38ae90c28048d1017c9fec9c
 
 - question: travail-smic-au-dela-inflation
   value: 2
@@ -2368,11 +2869,14 @@
   quote: Passer le salaire minimum à 2000€ brut par mois dès 2027.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme porte le SMIC à 2 000 euros bruts dès 2027, hausse supérieure à l'inflation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f83a62c6eb068d3a5c4e00a5954dec65475e766dab968683bd57c23a1bc0dae2
 
 - question: travail-statut-fonction-publique-regalien
   value: -1
@@ -2382,8 +2886,11 @@
   quote: Adopter un plan de titularisation des agents publics embauchés sur des contrats de droit privé.
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: Le programme étend la titularisation des agents publics, ce qui s'oppose à un statut réservé au régalien sans le viser explicitement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5ec81dcbaa650e95c3855e6f0cb6293e4caae481bf206f4a59e4393a8e45b09e

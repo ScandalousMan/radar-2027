@@ -1,5 +1,5 @@
-# Positions de Jean-Luc Mélenchon (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
-# provenance manual), à relire par adrien avec pnpm data:review.
+# Positions de Jean-Luc Mélenchon (FR-016 à FR-022). Rédigées par claude (extraction en session,
+# provenance manual), relues par adrien le 2026-11-14 (pnpm data:review).
 
 - question: agriculture-autoriser-nouvelles-techniques-genomiques
   value: -2
@@ -9,11 +9,14 @@
   quote: Refuser les organismes génétiquement modifiés (OGM et nouvelles techniques génomiques)
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch1
   justification: Le programme refuse explicitement les nouvelles techniques génomiques, à l'inverse de l'autorisation de leur culture.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:751e4a80f717abfdf406adcc097dfa45833dd76ef2ead588f66eff701bbe1321
 
 - question: agriculture-bio-restauration-collective-v2
   value: 1
@@ -23,11 +26,14 @@
   quote: Porter l'alimentation dans la restauration collective et scolaire à 100 % biologique et locale
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
   justification: "Le programme vise 100 % d'alimentation biologique et locale dans la restauration collective, au-delà du minimum de 30 % des achats de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d0cbe36b2f4271f94f7c60c08fafcfc2756d755703a7a6584182ca3235005f41
 
 - question: agriculture-derogations-neonicotinoides
   value: -2
@@ -37,11 +43,14 @@
   quote: interdire immédiatement les plus dangereux (glyphosate, néonicotinoïdes)
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch1
   justification: Le programme demande l'interdiction immédiate des néonicotinoïdes, ce qui exclut toute dérogation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3cecbb586755cc53797b1b61e2ebcbf8df4fe9dd0bfb86a85f517bca3430b452
 
 - question: agriculture-interdire-glyphosate
   value: 2
@@ -51,11 +60,14 @@
   quote: interdire immédiatement les plus dangereux (glyphosate, néonicotinoïdes)
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch1
   justification: Le programme demande l'interdiction immédiate du glyphosate.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8b794d3f446dbb4733630519a48f159779bf82e6b829b386ff46fa83e3f2d996
 
 - question: agriculture-interdire-poules-cage
   value: 2
@@ -65,11 +77,14 @@
   quote: "Prohiber les pratiques cruelles : élevage de poules et de lapins en batterie"
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme prévoit de prohiber l'élevage de poules en batterie, c'est-à-dire en cage.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bd3d8538363a42781e2500340292b7df17db9f37c4e868bbc9426e4ae4800ba8
 
 - question: agriculture-pesticides-moitie-2030
   value: 1
@@ -79,11 +94,14 @@
   quote: Planifier la réduction progressive des doses d'engrais et de pesticides
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch1
   justification: Le programme planifie une réduction progressive des pesticides, sans fixer l'objectif chiffré d'une division par deux d'ici 2030.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b6961acafc4a24dcd4a6c4bae64513c480f01c8f4e5e528345e907b2259ce364
 
 - question: agriculture-prix-plancher-agricoles
   value: 2
@@ -93,11 +111,14 @@
   quote: Garantir des prix rémunérateurs aux producteurs en instaurant des prix planchers pour les agriculteurs
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme propose d'instaurer des prix planchers pour les agriculteurs.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d73107d0eeb8a4244146124d15cf197535f09492f48a6ed718e0622b1f22cbb3
 
 - question: agriculture-retenues-eau-irrigation
   value: -2
@@ -107,11 +128,14 @@
   quote: Sanctuariser la ressource en eau en instaurant un moratoire immédiat sur les méga-bassines
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch1
   justification: Le programme propose un moratoire immédiat sur les méga-bassines, mesure inverse d'une facilitation des retenues d'eau pour l'irrigation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f5b8bdde65d085d0a5bf3609b90e89f8f6d2f88905a0a7a64ad6bc67d53cdaa9
 
 - question: defense-cesser-ventes-armes-conflits
   value: 1
@@ -121,11 +145,14 @@
   quote: Refuser tout soutien aux guerres illégales, quels qu'en soient les belligérants, en interdisant l'accès aux infrastructures logistiques françaises et en stoppant toutes les exportations d'armement et de biens à double usage
   quoteSource: jean-luc-melenchon-aec-un-monde-ordonne-ch2
   justification: Le programme propose de cesser les exportations d'armement vers les belligérants de guerres illégales, version plus restreinte que l'arrêt des ventes à tout État engagé dans un conflit armé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5a7989f4082936a8b9c7c4a82868c9a5f0c17b60bcf2bd30f3e1a7d561feb75d
 
 - question: defense-controle-exportations-armes
   value: 1
@@ -135,11 +162,14 @@
   quote: Instaurer un contrôle parlementaire effectif des exportations d'armes
   quoteSource: jean-luc-melenchon-aec-un-monde-ordonne-ch2
   justification: Le programme propose un contrôle parlementaire effectif des exportations d'armes, sans préciser qu'il intervient avant chaque exportation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fa3f00e1c5710d87c6fbe2cb2fec877be14d1e44bedc9185b6176f3dc894ec63
 
 - question: defense-traite-interdiction-armes-nucleaires
   value: 1
@@ -149,11 +179,14 @@
   quote: participer comme observateur au traité sur l'interdiction des armes nucléaires (TIAN)
   quoteSource: jean-luc-melenchon-aec-un-monde-ordonne-ch2
   justification: Le programme propose de participer au traité comme observateur, démarche qui va dans le sens de l'énoncé sans aller jusqu'à sa signature.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1a4688c6ad236e311c9a260a207a12a5478e2832b1babc7de22921379c27e8b5
 
 - question: democratie-parrainages-elus-maintenus
   value: -2
@@ -163,11 +196,14 @@
   quote: Instaurer une procédure de parrainages citoyens pour l'élection présidentielle à la place des 500 parrainages d'élus
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
   justification: Le programme propose de remplacer les 500 parrainages d'élus par des parrainages citoyens.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:eb06463b1491c218550bb17794486b9c147d606074957738e889f08f6c37f010
 
 - question: democratie-petition-debat-parlement
   value: 2
@@ -177,11 +213,14 @@
   quote: Obliger l'Assemblée nationale à débattre des pétitions qui ont recueilli plus de 500 000 signatures
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
   justification: Le programme impose un débat à l'Assemblée nationale dès 500 000 signatures, seuil plus bas que le million de l'énoncé, sans préciser qu'il a lieu en séance.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:29bf5639891b5b628cf4183236be16c96f13e0e4acb14e1b8397f9e6c3014719
 
 - question: democratie-raccourcir-consultations-public
   value: -1
@@ -191,11 +230,14 @@
   quote: Revenir sur l'affaiblissement des normes environnementales et des mécanismes de participation publique décidés lors du précédent quinquennat
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch1
   justification: Le programme veut revenir sur l'affaiblissement des mécanismes de participation du public, sans viser spécifiquement la durée des consultations sur les projets d'aménagement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:312dacfd555e8523f17a6fac64219feef2ac9a349241f400f4715bea48a75259
 
 - question: democratie-referendum-exceptionnel
   value: -2
@@ -205,11 +247,14 @@
   quote: Rendre obligatoire le recours au référendum en cas de modification de la Constitution ou d'adoption d'un nouveau traité européen
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
   justification: Le programme rend le référendum obligatoire pour toute révision constitutionnelle et tout nouveau traité européen, en plus du référendum d'initiative citoyenne, ce qui est l'inverse d'un recours exceptionnel.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8f263d6ac67c06b39474dc3910fd0294336427a48b46878290b1ef817b951e1b
 
 - question: democratie-referendum-initiative-citoyenne
   value: 2
@@ -220,11 +265,14 @@
   quote: Instaurer le référendum d'initiative citoyenne (RIC), par lequel les citoyens qui réunissent suffisamment de signatures peuvent révoquer des élus, proposer ou abroger une loi et modifier la Constitution
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
   justification: Le programme propose d'instaurer un référendum d'initiative citoyenne déclenché par un nombre suffisant de signatures.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3d91cf4e5a1d1310920501fe3acb9abc14c38958d694d6ea02d568c0605d2698
 
 - question: democratie-referendum-reserve-elus-v2
   value: -2
@@ -234,11 +282,14 @@
   quote: Instaurer le référendum d'initiative citoyenne (RIC), par lequel les citoyens qui réunissent suffisamment de signatures peuvent révoquer des élus, proposer ou abroger une loi et modifier la Constitution
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
   justification: Avec le RIC, les citoyens pourraient déclencher eux-mêmes un référendum, ce qui retire au président et au Parlement l'exclusivité de ce déclenchement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:de23d1c2c93d2afba6752cb74bb53dec1fb907852b7de4c99f5d94f9961e424e
 
 - question: democratie-referendum-revocatoire
   value: 2
@@ -249,11 +300,14 @@
   quote: Instaurer le référendum d'initiative citoyenne (RIC), par lequel les citoyens qui réunissent suffisamment de signatures peuvent révoquer des élus
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
   justification: Le programme propose un référendum d'initiative citoyenne permettant de révoquer des élus en cours de mandat.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7da89e72490535803e128376e3cee039b871c275ad41782caa03f8275888bc96
 
 - question: democratie-revision-par-congres
   value: -2
@@ -263,11 +317,14 @@
   quote: Rendre obligatoire le recours au référendum en cas de modification de la Constitution ou d'adoption d'un nouveau traité européen
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
   justification: Le programme rend le référendum obligatoire pour toute modification de la Constitution, ce qui exclut une révision adoptée par le seul Congrès.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8f263d6ac67c06b39474dc3910fd0294336427a48b46878290b1ef817b951e1b
 
 - question: democratie-vote-16-ans
   value: 2
@@ -277,11 +334,14 @@
   quote: Donner le droit de vote à 16 ans
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
   justification: Le programme propose d'accorder le droit de vote dès 16 ans.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:380ea6dd9cacf57ea388fa7328c27e6252d9155b139c3faefa81694dc717fdb8
 
 - question: democratie-vote-blanc-exprime
   value: 2
@@ -291,11 +351,14 @@
   quote: Reconnaître le vote blanc, mettre en place le vote obligatoire et instaurer un seuil de votes exprimés pour valider une élection
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
   justification: Le programme propose de reconnaître le vote blanc, formule qui renvoie à sa prise en compte dans les suffrages, sans préciser explicitement le terme de suffrages exprimés.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4f5556a1dbb97b43eab9799571a80d941122b3b8294e708a0e84bdf962532a93
 
 - question: economie-accords-libre-echange
   value: -2
@@ -305,11 +368,14 @@
   quote: Refuser le libre-échange, instaurer un protectionnisme écologique et la coopération économique entre les États
   quoteSource: jean-luc-melenchon-aec-un-monde-ordonne-ch3
   justification: Le programme refuse le libre-échange et prévoit un droit de veto sur les accords de libre-échange, à l'inverse de la conclusion de nouveaux accords.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cd9e6a1b5f1a31360d18eb6343e197a8ce277e51561ce8ce2a86c30fdd5e8fcb
 
 - question: economie-aides-conditionnees-emploi
   value: 2
@@ -319,11 +385,14 @@
   quote: Interdire les licenciements boursiers et économiques par les entreprises qui versent des dividendes ou bénéficient des aides de l'État
   quoteSource: jean-luc-melenchon-aec-economie-ch3
   justification: Le programme interdit les licenciements économiques aux entreprises bénéficiant d'aides de l'État, ce qui lie les aides au maintien de l'emploi.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5a346fcdcf56feb5a2dad408dc4a6ce19b5c781a56cc35b023cdccfe7f253a61
 
 - question: economie-baisse-depense-publique
   value: -1
@@ -333,11 +402,14 @@
   quote: Ainsi, refuser les coupes budgétaires et proposer un autre chemin, ce n'est pas seulement le résultat d'une vision politique, c'est aussi le choix économique le plus rationnel.
   quoteSource: jean-luc-melenchon-comptes-publics-2027
   justification: Le document budgétaire refuse les coupes dans les dépenses et prévoit environ 80 milliards de dépenses nouvelles, sans se prononcer explicitement sur le ratio de dépense publique au PIB.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4b68a85236c5118b0d41dc5c46a4d006092587d3f229f7f5bb0e3b9fb6f101b4
 
 - question: economie-controle-rachats-etrangers
   value: 2
@@ -347,11 +419,14 @@
   quote: Renforcer le contrôle des investissements étrangers dans tous les secteurs présentant un caractère stratégique
   quoteSource: jean-luc-melenchon-aec-economie-ch3
   justification: Le programme propose de renforcer le contrôle des investissements étrangers dans les secteurs stratégiques.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d1a4cc2c98d4d1dc79bb82963a6bf86c5757ed48d8cb64a4252cbff34214398c
 
 - question: economie-eau-operateurs-publics
   value: 1
@@ -361,11 +436,14 @@
   quote: Organiser la gestion publique autour de régies locales d'eau potable et d'assainissement, ouvertes avec voix délibérative aux habitantes et habitants et aux salariés
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch1
   justification: Le programme confie l'eau potable à des régies publiques locales, sans exclure explicitement tout opérateur privé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9e69e195d52e70a8ff89e5b47b72a23e44af26b6b68a8965a9023496582b4d78
 
 - question: economie-encadrer-marges-distribution
   value: 2
@@ -375,11 +453,14 @@
   quote: en encadrant les marges des industries agroalimentaires et de la grande distribution
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme propose d'encadrer les marges de la grande distribution.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:422159c8b52d4ec210e9e5d5a2dc1c07989f614b59679e74df2b376a59690bf8
 
 - question: economie-etat-finance-usines
   value: 1
@@ -389,11 +470,14 @@
   quote: Engager un plan de reconstruction industrielle pour mettre fin à la dépendance de la France dans les domaines stratégiques (semi-conducteurs, médicaments, etc.)
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch2
   justification: Le programme prévoit un plan public de reconstruction industrielle dans les domaines stratégiques, sans préciser un financement direct de la construction d'usines.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9822dc2078f21c88abc99371aca3427a9d67a174fd58cbb82d78ce5130ebf065
 
 - question: economie-ouverture-dimanche-libre-v2
   value: -2
@@ -403,11 +487,14 @@
   quote: Remettre en cause les autorisations de travail le dimanche
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme veut remettre en cause les autorisations de travail le dimanche, à l'opposé d'une ouverture dominicale des commerces sans autorisation préalable.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a5d09b6694dadf70b04df039a957654bcb264f0ef0a2ab9c4f9bcd0ae2dcaa7d
 
 - question: economie-participations-etat-industrie
   value: 1
@@ -417,11 +504,14 @@
   quote: Produire en France l'acier décarboné dont nous avons besoin pour la bifurcation écologique, notamment en nationalisant ArcelorMittal France
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch2
   justification: "Le programme propose la nationalisation d'ArcelorMittal France, prise de contrôle totale plus large que des participations dans les entreprises stratégiques. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:77c250dfed1797a0b71492662e109930e3e15958f1b838ea347a7e6d048fc282
 
 - question: economie-plafonnement-loyers-zones-tendues
   value: 1
@@ -431,11 +521,14 @@
   quote: Geler les loyers le temps de déployer un encadrement des loyers partout sur le territoire et à la baisse dans les grandes villes
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch3
   justification: "Le programme veut encadrer les loyers partout sur le territoire, au-delà des seules zones tendues. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9a62d1a9651c81f511ba6ffcf49f2b60730a30e6dff3a5bf71a0fa98973261cd
 
 - question: economie-plafonner-prix-alimentaires
   value: 1
@@ -445,11 +538,14 @@
   quote: Plafonner le prix des produits alimentaires en fixant des coefficients multiplicateurs
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: "Le programme propose de plafonner le prix de tous les produits alimentaires, au-delà des seuls produits de première nécessité. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2dbe05cc84d7ac2732f92230827e4f7a63e1442eeed4a0733467d0cbf10c47f5
 
 - question: economie-prix-energie-reglementes
   value: 2
@@ -459,11 +555,14 @@
   quote: Remettre en place des tarifs réglementés de l'énergie, calculés à partir des coûts de production, pour les particuliers
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme propose de rétablir des tarifs réglementés de l'énergie pour les particuliers.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e7ce5a33bc2b2ca8ed48d20d8a1e90a44d0484f8a86ae90d2c65231a48a40fce
 
 - question: economie-reduire-nombre-fonctionnaires
   value: -1
@@ -473,11 +572,14 @@
   quote: Planifier des moyens pour la justice et recruter davantage de fonctionnaires
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
   justification: Le programme prévoit des recrutements de fonctionnaires dans plusieurs services publics (justice, éducation, santé), sans objectif global chiffré d'effectifs.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:94316a11601c07a761c916b1c3d95a5f09dc5744f7ba3c105f5562b299d5ea50
 
 - question: economie-regle-equilibre-constitution
   value: -1
@@ -487,11 +589,14 @@
   quote: La suspension pour tous des règles budgétaires des 3 % de déficit
   quoteSource: jean-luc-melenchon-aec-europe
   justification: Le programme demande la suspension des règles européennes de déficit, sans se prononcer explicitement sur une règle d'équilibre constitutionnelle.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2bd30f8890409d37b1cab58d2d20c9c4bb4cfc36f3640f072d86a76051aeb360
 
 - question: economie-supprimer-agences-etat
   value: 1
@@ -501,11 +606,14 @@
   quote: Supprimer l'Agence nationale de la recherche (ANR)
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch2
   justification: Le programme propose de supprimer certaines agences comme l'ANR et le Hcéres, tout en créant par ailleurs de nombreux organismes publics.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cd24d9309ce5c86d04ed2c9f911e2e0252edb2004adb967b778d774a8795a2a6
 
 - question: economie-vendre-participations-etat
   value: -2
@@ -515,11 +623,14 @@
   quote: Revenir sur les privatisations (aéroports, autoroutes, Française des jeux, etc.)
   quoteSource: jean-luc-melenchon-aec-economie-ch1
   justification: Le programme propose de revenir sur les privatisations, mesure inverse de la vente de participations de l'État.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f5d4dbb405627cfc4199008fadcb3a800f75a7ca93672702a7ab8e5f39da1134
 
 - question: energie-fonds-publics-renouvelables
   value: 1
@@ -529,11 +640,14 @@
   quote: "Planifier le passage à 100 % d'énergies renouvelables avec un double mot d'ordre : sobriété et efficacité énergétiques"
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme vise 100 % d'énergies renouvelables et l'arrêt du nouveau nucléaire, sans traiter explicitement de la répartition des fonds publics.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9f94119cd0c534dfd8a73f8d42412c2776f46540df63f0b3cec49cd80b49f663
 
 - question: energie-nouveaux-reacteurs-au-dela-epr2
   value: -2
@@ -543,11 +657,14 @@
   quote: Planifier la fermeture progressive des centrales nucléaires existantes en ne prolongeant pas au-delà de 60 ans leur durée de vie et arrêter le programme de nouveau nucléaire (EPR2)
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme propose d'arrêter le programme EPR2 lui-même, ce qui exclut tout réacteur supplémentaire.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4c6d9144a5ce75132b7bc7ffe15e0067ac83ed3d4ec77945dcb4a1c819518902
 
 - question: energie-petits-reacteurs-modulaires
   value: -1
@@ -557,11 +674,14 @@
   quote: Le nucléaire n'est pas non plus une solution d'avenir.
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme écarte le nucléaire comme solution d'avenir et arrête le nouveau nucléaire, sans mentionner explicitement les petits réacteurs modulaires.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:42ccd30c7ac620a8c0d886dd83edb9521ee4198a7639ace40e1b59d392f53a76
 
 - question: energie-prolonger-reacteurs-60-ans
   value: -2
@@ -571,11 +691,14 @@
   quote: Planifier la fermeture progressive des centrales nucléaires existantes en ne prolongeant pas au-delà de 60 ans leur durée de vie
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme exclut explicitement toute prolongation des réacteurs au-delà de 60 ans.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9606b465371fe6f4561d30537768376a2785ac0da75ff1edbb748eaace8c29cf
 
 - question: energie-reduire-part-nucleaire
   value: 2
@@ -585,11 +708,14 @@
   quote: Planifier la fermeture progressive des centrales nucléaires existantes en ne prolongeant pas au-delà de 60 ans leur durée de vie et arrêter le programme de nouveau nucléaire (EPR2)
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme planifie la fermeture progressive des centrales nucléaires et l'arrêt du nouveau nucléaire.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9347fcca2d415dfdf7bdb52c2fa60460ad8dfab9f24eefc2ccfec0b08447e894
 
 - question: energie-suspendre-nouvelles-eoliennes
   value: -1
@@ -599,11 +725,14 @@
   quote: Déployer l'éolien en mer, posé et flottant, pour atteindre au moins 45 gigawatts de puissance installée en 2050
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch5
   justification: "Le programme prévoit un déploiement massif de l'éolien en mer, ce qui s'oppose à une suspension des nouvelles éoliennes sans se prononcer sur l'éolien terrestre, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:355ca4ae84bb997c8efe4101e524b64b101cd51d905c162f61bf0dec8586861c
 
 - question: environnement-assouplir-artificialisation
   value: -1
@@ -613,25 +742,31 @@
   quote: Mettre en place un plan de protection généralisée du foncier agricole, forestier et naturel en vue de mettre en œuvre le " zéro artificialisation nette " (ZAN) des sols dans l'Hexagone
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme veut mettre en œuvre l'objectif de zéro artificialisation nette, ce qui va à l'encontre d'un assouplissement sans le rejeter en ces termes.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:20f26b0232fe73ea2d910b74ce8caf226929b51ff9dfcc1ebc2091dd54a9d44e
 
 - question: environnement-calendrier-logements-mal-isoles
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-bifurcation-ch3
   quote: Privilégier les rénovations complètes, interdire réellement la location des passoires thermiques
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
-  justification: Le programme demande d'interdire réellement la location des passoires thermiques, sans mentionner explicitement le calendrier prévu.
-  status: draft
+  justification: "Le programme demande d'interdire réellement la location des passoires thermiques, ce qui va contre tout report, mais le calendrier prévu n'est pas cité. Version voisine : 1 (arbitrage d'adrien du 2026-11-14)."
+  status: reviewed
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bc03132fbfc676da6694cd4ef5a9ce084b76c249f769d7b9b9d11e23b605e3d9
 
 - question: environnement-ecocide-crime
   value: 1
@@ -641,11 +776,14 @@
   quote: Reconnaître le crime d'écocide
   quoteSource: jean-luc-melenchon-aec-un-monde-ordonne-ch2
   justification: Le programme propose de reconnaître le crime d'écocide dans le cadre du droit international, sans préciser son inscription dans le Code pénal français.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d777309590b53a6c36830610705f5c0a102f56ceda65ab0a3f844c3fa64e5422
 
 - question: environnement-exploitation-hydrocarbures
   value: -1
@@ -655,11 +793,14 @@
   quote: Défendre un moratoire sur les forages en Méditerranée et sur l'extraction minière en eaux profondes
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch5
   justification: Le programme défend un moratoire sur les forages en Méditerranée et la sortie des énergies fossiles, sans viser explicitement tout nouveau gisement sur le territoire.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6b715a129c1f0b96d192e7b622727976145df69d5c0c5cf8f9cbf01e65b28a62
 
 - question: environnement-interdire-vols-interieurs
   value: 2
@@ -669,11 +810,14 @@
   quote: Supprimer les lignes aériennes intérieures quand l'alternative en train est inférieure à quatre heures
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme propose exactement de supprimer les vols intérieurs lorsqu'une alternative en train de moins de quatre heures existe.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:22f2e7a6279296acbdb2915d6c28ea62002f4cd34f8d616a66c2916de3cdeb0e
 
 - question: environnement-pause-normes-europeennes
   value: -1
@@ -683,11 +827,14 @@
   quote: "Ce principe nous permettra de refuser l'application : Des grands plans de dérégulation dits \" omnibus \", qui détruisent les rares progrès permis par le droit européen et mettent en danger les travailleurs, la santé et l'environnement"
   quoteSource: jean-luc-melenchon-aec-europe
   justification: Le programme refuse l'application des plans européens de dérégulation environnementale, position contraire à une pause des normes sans traiter explicitement de l'adoption de nouvelles normes.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:47c0c63363ad65fc1404fd8a80be56ff6418282358abcbafb340b6edace90dd2
 
 - question: environnement-plastique-usage-unique-2030
   value: 1
@@ -697,11 +844,14 @@
   quote: Interdire immédiatement et réellement les plastiques à usage unique
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: "Le programme propose d'interdire immédiatement tous les plastiques à usage unique, au-delà des seuls emballages. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4d8731ab380a4feb2f4fb87bb67fcf9e2c71d43306d0bf4e7c059333a5506797
 
 - question: environnement-publicite-vehicules-emetteurs
   value: 1
@@ -711,11 +861,14 @@
   quote: Proscrire, sur tous types de supports, la publicité des produits et des services les plus émetteurs de GES
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: "Le programme interdit la publicité pour tous les produits et services les plus émetteurs de gaz à effet de serre, au-delà des seuls véhicules. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:83b617020a24a7f37dc5fd80357fe64426da2986df5ad28b9c6d5bfcdb2bb921
 
 - question: environnement-supprimer-zfe
   value: 1
@@ -725,11 +878,14 @@
   quote: Décréter un moratoire sur les zones à faibles émissions (ZFE) dans leur conception actuelle
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme propose un moratoire sur les ZFE dans leur conception actuelle, et non leur suppression définitive.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a32f266c50b21d8b9ced6dda0bbde3462c9145300a71d244a9a99795442667de
 
 - question: environnement-taxe-carbone-importations
   value: 1
@@ -739,11 +895,14 @@
   quote: Instaurer des droits de douane sur des critères écologiques (émissions carbone, pollution, consommation d'eau)
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch2
   justification: "Le programme propose des droits de douane fondés sur plusieurs critères écologiques (émissions carbone, pollution, consommation d'eau). Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:78006be66de09027a84530750831c544bb65a6689a6118fdffff6d75d98c84f4
 
 - question: environnement-taxer-kerosene-vols-interieurs
   value: 1
@@ -753,11 +912,14 @@
   quote: Mettre fin aux niches fiscales sur le kérosène
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch2
   justification: Le programme veut mettre fin aux niches fiscales sur le kérosène, avec pour motif le commerce en ligne, sans viser spécifiquement les vols intérieurs.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8dff1c020db551a0d3dcfcc1257a1150e3bb1c0912766fd25a8170e83be70a94
 
 - question: environnement-trajectoire-emissions-entreprises
   value: 2
@@ -767,11 +929,14 @@
   quote: Obliger les entreprises à adopter une comptabilité carbone pour les émissions directes et indirectes de GES certifiée par un organisme public agréé
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch1
   justification: Le programme oblige les entreprises à une comptabilité carbone accompagnée d'une trajectoire de baisse de leurs émissions, en commençant par les plus polluantes puis selon leur taille.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fb227f85c2a9f1d632a49037dc2fff675f450e92eb3cff25bac80e68e964676f
 
 - question: fiscalite-baisse-prelevements-obligatoires
   value: -2
@@ -781,11 +946,14 @@
   quote: nous proposons d'augmenter d'un peu plus de 100 milliards d'euros les recettes fiscales pour l'année prochaine
   quoteSource: jean-luc-melenchon-comptes-publics-2027
   justification: Le document budgétaire propose d'augmenter les recettes fiscales d'environ 100 milliards d'euros, à l'inverse d'une baisse des prélèvements obligatoires.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7578118a5308ab4d7b3902b519b00290071b67947d5a6ae7a4956a74477154f2
 
 - question: fiscalite-capital-aligne-travail
   value: 2
@@ -795,11 +963,14 @@
   quote: Supprimer la flat tax et imposer les revenus du capital comme ceux du travail
   quoteSource: jean-luc-melenchon-aec-economie-ch2
   justification: Le programme propose d'imposer les revenus du capital comme ceux du travail.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2c8fd2514970b371a6155f38b1f750f924490e00a1e337ec3ec748f79e674768
 
 - question: fiscalite-csg-progressive-v2
   value: 1
@@ -809,11 +980,14 @@
   quote: Créer une cotisation sociale universelle pour financer la Sécurité sociale, fusionnant les différentes cotisations sociales actuelles et la contribution sociale généralisée (CSG), perçue uniquement et directement par les caisses de la Sécurité sociale, avec une part progressive selon les revenus
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme fond la CSG dans une cotisation sociale universelle comportant une part progressive selon les revenus, version voisine d'une CSG dont le taux augmente avec le revenu.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d06dee5e2883b8b4fa7f1f6234347964bb710c9cb875775f2ac2193a7c1faa85
 
 - question: fiscalite-exit-tax-conservation-15-ans
   value: 1
@@ -823,26 +997,32 @@
   quote: rétablir une exit tax renforcée pour lutter contre l'évasion fiscale
   quoteSource: jean-luc-melenchon-aec-economie-ch2
   justification: Le programme veut une exit tax renforcée, version voisine de l'énoncé sans la durée de conservation de 15 ans ni le seuil.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a3bc88079be34ac0fae93a02236bd48c7915489ff342e4f8a04f85747d32f37b
 
 - question: fiscalite-hausse-taxe-transactions-financieres
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - jean-luc-melenchon-comptes-publics-2027
     - jean-luc-melenchon-aec-economie-ch3
   quote: en augmentant les taxes sur les transactions financières (5 milliards d'euros)
   quoteSource: jean-luc-melenchon-comptes-publics-2027
-  justification: Le document budgétaire propose d'augmenter les taxes sur les transactions financières.
-  status: draft
+  justification: "Le document budgétaire chiffre une hausse des taxes sur les transactions financières (5 Md€) sans dire si elle passe par le taux ou par l'assiette. Version voisine d'une hausse du taux : 1, comme Asselineau (arbitrage d'adrien du 2026-11-14)."
+  status: reviewed
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:abfcaf87e1f50f721070a955948b3b9175e36298a6776c8e76b26b1b672ccfd1
 
 - question: fiscalite-impot-fortune-retabli
   value: 2
@@ -852,11 +1032,14 @@
   quote: Rétablir et renforcer l'impôt de solidarité sur la fortune (ISF)
   quoteSource: jean-luc-melenchon-aec-economie-ch2
   justification: Le programme propose de rétablir et renforcer l'ISF, qui inclut les actifs financiers.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:964c95d96c22a11ea55ca20da12110889a901c9f55ca5d4cdec27564a9ebede9
 
 - question: fiscalite-impot-minimum-grandes-fortunes-v2
   value: 2
@@ -866,11 +1049,14 @@
   quote: Introduire une garantie d'impôt de 2 % sur le patrimoine des centimillionaires
   quoteSource: jean-luc-melenchon-aec-economie-ch2
   justification: Le programme instaure une garantie d'impôt de 2 % sur le patrimoine des centimillionaires, soit le prélèvement minimal annuel de 2 % de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8aeea01bd2fc14fefea33c0e9096d0b4ec1097228e03f7b2067f173c8de54522
 
 - question: fiscalite-quotient-familial-credit-enfant
   value: 1
@@ -880,11 +1066,14 @@
   quote: Mettre fin au quotient conjugal, système patriarcal favorisant les inégalités salariales entre les femmes et les hommes Créer un crédit d'impôt par enfant pour toutes les familles
   quoteSource: jean-luc-melenchon-aec-economie-ch2
   justification: Le programme crée un crédit d'impôt par enfant pour toutes les familles et supprime le quotient conjugal, version voisine sans dire explicitement que ce crédit remplace la part enfant du quotient familial.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:66f5751c00573e9a7844f2c7b950c1df80d454e43408d46aa2a7094e63b12fec
 
 - question: fiscalite-reduire-allegements-cotisations
   value: 1
@@ -894,11 +1083,14 @@
   quote: Aussi pro- posons-nous d'interrompre cette subvention au-dessus de 2 SMIC, où les exonérations ne sont plus qu'un effet d'aubaine sans aucun effet sur l'emploi.
   quoteSource: jean-luc-melenchon-comptes-publics-2027
   justification: "Le chiffrage propose de supprimer les exonérations de cotisations au-dessus de 2 SMIC, ce qui réduit les allègements accordés aux employeurs. Version partielle (au-delà d'un seuil de salaire) : 1, harmonisé entre candidats."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:48f0da8178d4afcbff62d1b76ac0384e27e99dd53ccf8f7e9cbe0ce7d7da60ee
 
 - question: fiscalite-reduire-credits-impot
   value: 1
@@ -908,11 +1100,14 @@
   quote: rabotage et suppression des niches fiscales et sociales les plus injustes dont le coût a explosé (22 milliards d'euros en 2027)
   quoteSource: jean-luc-melenchon-comptes-publics-2027
   justification: Le document budgétaire prévoit de raboter et supprimer une partie des niches fiscales et sociales, sans objectif de division par deux de leur montant total.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9e84d7595ede71f5689053c31ab9f403010420c62650f090df0d5d91c3a85da3
 
 - question: fiscalite-reduire-droits-succession
   value: 0
@@ -922,11 +1117,14 @@
   quote: Exonérer de droits de succession les héritages inférieurs à 150 000 euros
   quoteSource: jean-luc-melenchon-aec-economie-ch2
   justification: Le programme exonère les petits héritages mais augmente les droits sur les plus hauts patrimoines, position intermédiaire face à une baisse générale pour les transmissions familiales.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:be0701a9831cde4ec09bfca87d937be088a9309c559f1287f3425dea71a8c90f
 
 - question: fiscalite-supprimer-impots-production
   value: -2
@@ -936,11 +1134,14 @@
   quote: réta- blissement de la CVAE sur les plus grandes entreprises (3 milliards)
   quoteSource: jean-luc-melenchon-comptes-publics-2027
   justification: Le document budgétaire prévoit de rétablir la CVAE, un impôt de production, sur les plus grandes entreprises, à l'inverse de la suppression des impôts de production.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8cf66c9dd9c685224e2edd92eb20858607443a9e65921e6c6206245ef6c5519f
 
 - question: fiscalite-taxe-benefices-exceptionnels
   value: 2
@@ -950,11 +1151,14 @@
   quote: Établir une taxe sur les superprofits de toutes les grandes entreprises, activée en cas de hausse soudaine de leurs bénéfices en période de crise
   quoteSource: jean-luc-melenchon-aec-economie-ch2
   justification: Le programme propose une taxe sur les superprofits des grandes entreprises.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:19b047cf30a252dfcd4e1aea72cc892f4b4437642e2400ddcb9a75f963c715eb
 
 - question: fiscalite-tranche-hauts-revenus
   value: 2
@@ -964,11 +1168,14 @@
   quote: Rendre l'impôt sur le revenu plus progressif avec un barème à 14 tranches contre 5 aujourd'hui
   quoteSource: jean-luc-melenchon-aec-economie-ch2
   justification: Le programme porte le barème de l'impôt sur le revenu à 14 tranches, ce qui ajoute des tranches pour les plus hauts revenus.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:91264e1b4092334e1a00a7e61a9e209dbe5c324c522a64808a2acb262617df6f
 
 - question: immigration-ame-soins-urgents
   value: -2
@@ -978,11 +1185,14 @@
   quote: Intégrer l'aide médicale d'État (AME) au régime général de la Sécurité sociale, abroger les restrictions d'accès instaurées en 2026 et renforcer sa couverture
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme veut abroger les restrictions de l'AME et renforcer sa couverture, à l'inverse d'une limitation aux soins urgents.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:551a34ec343deff38082e359293b3d2b674b2c344f2a2dc2a6bdc010a331c693
 
 - question: immigration-frais-etudiants-etrangers
   value: 2
@@ -992,11 +1202,14 @@
   quote: Instaurer la gratuité de l'enseignement supérieur, de la licence au doctorat, quelle que soit la nationalité des étudiants
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch2
   justification: Le programme prévoit la gratuité de l'enseignement supérieur quelle que soit la nationalité, donc les mêmes frais pour les étudiants étrangers que pour les Français.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e993d35b32eaf2dc1e257832e13c07996525726ccab7311b9886b0c6b20865a7
 
 - question: immigration-reduire-duree-naturalisation
   value: 1
@@ -1006,11 +1219,14 @@
   quote: faciliter l'accès à la nationalité française
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch4
   justification: Le programme veut faciliter l'accès à la nationalité française, sans mentionner la durée de résidence exigée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:af42de71112859c471a515ef665650f22f3e89a309dfb947c1479b3f0e93f607
 
 - question: immigration-regularisation-cinq-ans
   value: 1
@@ -1020,11 +1236,14 @@
   quote: Régulariser les travailleurs, étudiants, parents d'enfants scolarisés sans papiers
   quoteSource: jean-luc-melenchon-aec-un-monde-ordonne-ch3
   justification: Le programme propose de régulariser plusieurs catégories de sans-papiers, sans critère de durée de présence.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4b7dfb6d9cc0195c124fc003b55175715459c7959e283e775f509931fd9d4470
 
 - question: immigration-regularisation-metiers-tension
   value: 2
@@ -1034,11 +1253,14 @@
   quote: Régulariser les travailleurs, étudiants, parents d'enfants scolarisés sans papiers
   quoteSource: jean-luc-melenchon-aec-un-monde-ordonne-ch3
   justification: Le programme propose de régulariser les travailleurs sans papiers, ce qui inclut ceux des métiers en tension.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9b63fd7b013f341a3e4883492c3eb36ff2f3054b1d696351307702ec8bd502fe
 
 - question: immigration-supprimer-droit-du-sol
   value: -2
@@ -1048,11 +1270,14 @@
   quote: Garantir le droit du sol intégral à tous les enfants nés en France
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch4
   justification: Le programme garantit le droit du sol intégral, à l'inverse de sa suppression.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4e9132e7de6785fcb8437e3a4a4572fdf357325a6322728591725c813249c4b2
 
 - question: immigration-titre-sejour-longue-duree
   value: 2
@@ -1062,11 +1287,14 @@
   quote: Faciliter l'accès aux visas et instituer la carte de séjour de dix ans comme titre de séjour de référence
   quoteSource: jean-luc-melenchon-aec-un-monde-ordonne-ch3
   justification: Le programme fait de la carte de séjour de dix ans le titre de référence.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6915cec9252c3ff51e4ee0d0fd6a690a3cb5b0b399a0a68b713e39ea815198a5
 
 - question: immigration-visas-professions-qualifiees-v2
   value: 1
@@ -1076,11 +1304,14 @@
   quote: Faciliter l'accès aux visas
   quoteSource: jean-luc-melenchon-aec-un-monde-ordonne-ch3
   justification: "Le programme veut faciliter l'accès aux visas en général, sans viser spécifiquement les visas de travail des professions qualifiées. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1aee1a388a25042ded3bd9a6ebd77ac74b9177b952fc80aea3a6bb06cf223017
 
 - question: immigration-vote-local-etrangers-v2
   value: 2
@@ -1090,11 +1321,14 @@
   quote: Instituer le droit de vote des étrangers aux élections locales
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch4
   justification: Le programme institue le droit de vote des étrangers aux élections locales, ce qui couvre les résidents non européens visés par l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7aedd9395d1f7ed07da080b76cdfeba644f863f46eb8c5d02f42236df0d64f06
 
 - question: institutions-autonomie-corse-constitution-v2
   value: 1
@@ -1104,11 +1338,14 @@
   quote: Donner à la Corse le statut garanti par un nouvel article de la Constitution
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
   justification: Le programme veut un statut de la Corse garanti par un nouvel article de la Constitution, sans employer explicitement le mot « autonomie ».
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8ce88a89738a079c0272f35088ff2099c9820df9dde4895837f2818161cdee85
 
 - question: institutions-autonomie-fiscale-collectivites
   value: 1
@@ -1118,11 +1355,14 @@
   quote: Redonner des moyens aux communes en rétablissant une taxe d'habitation calculée selon un barème progressif
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch3
   justification: Le programme rétablit un impôt local propre aux communes, ce qui accroît leurs ressources fiscales sans viser explicitement l'autonomie fiscale.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b6b850566b7e2884a278f454a4c939316ac655d5554a2677f3c42a91216257e2
 
 - question: institutions-competences-retour-etat-v2
   value: 1
@@ -1132,11 +1372,14 @@
   quote: Recentraliser la protection de l'enfance
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
   justification: Le programme recentralise la protection de l'enfance, compétence départementale, ce qui est un transfert partiel de compétences vers l'État.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e198f6107d4fe2c0d0b8faa3dd65d2868c84bbf42d4e3ccf49bc424a71fdd409
 
 - question: institutions-fusions-communes-obligatoires
   value: -2
@@ -1146,11 +1389,14 @@
   quote: Refuser les fusions forcées de communes
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch3
   justification: Le programme refuse explicitement les fusions forcées de communes.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e0af17e265a3b5b239c468dcb00ca0b2d4259bfced46cef022edb1afd2338e8b
 
 - question: institutions-proportionnelle-legislatives
   value: 2
@@ -1160,11 +1406,14 @@
   quote: Élire l'Assemblée nationale au scrutin proportionnel
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
   justification: Le programme propose d'élire l'Assemblée nationale au scrutin proportionnel.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:78ad0158f1307dcdbae4d6e84e5027d567ee72c8cf3c962a9c1ba089a8b73747
 
 - question: institutions-supprimer-49-3
   value: 2
@@ -1174,11 +1423,14 @@
   quote: Abolir les procédures de " votes forcés " du Parlement comme l'article 49.3 de la Constitution de la Ve République
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
   justification: Le programme propose d'abolir les procédures de votes forcés comme l'article 49.3.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:041b02b7e651dd2541aa3dd46aa132bd9c7337a4a1c884c53ef46f635856e851
 
 - question: international-aide-developpement-0-7
   value: 2
@@ -1188,11 +1440,14 @@
   quote: Consacrer 0,7 % du revenu national brut à une aide publique au développement
   quoteSource: jean-luc-melenchon-aec-un-monde-ordonne-ch3
   justification: Le programme propose de consacrer 0,7 % du revenu national brut à l'aide publique au développement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c56fcbee11ee10833a7ba0318b12f769cab3bf4f0f09ae00d0db5cf63b1d2ea7
 
 - question: international-impots-propres-ue
   value: 2
@@ -1202,11 +1457,14 @@
   quote: L'introduction de protections douanières et d'un impôt sur les multinationales dans le prochain budget européen
   quoteSource: jean-luc-melenchon-aec-europe
   justification: Le programme propose d'introduire un impôt sur les multinationales dans le budget européen.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0c141c6cb09cc3290f65eca6a33428012a1e406da7811942ea82e5e716c42e8b
 
 - question: international-majorite-qualifiee-ue
   value: 1
@@ -1216,11 +1474,14 @@
   quote: La suppression du veto des paradis fiscaux européens en matière fiscale
   quoteSource: jean-luc-melenchon-aec-europe
   justification: Le programme veut supprimer l'unanimité en matière fiscale, extension limitée à ce domaine de la majorité qualifiée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:da334473d7ad9a2d76077204bcfbe88a1a0fe916fdcf788905a28ac334e3a9d3
 
 - question: international-primaute-loi-nationale-v2
   value: 2
@@ -1230,11 +1491,14 @@
   quote: elle appliquera, en revanche, sans aucune concession, le programme choisi démocratiquement par son peuple, même si cela n'est pas permis par les traités
   quoteSource: jean-luc-melenchon-aec-europe
   justification: Le programme appliquera le programme choisi par le peuple même lorsque les traités européens ne le permettent pas, donc la loi nationale contre la règle de l'Union.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:655028c8eb2caf70f1972236046a674c204478ca84e845f2fa2a311dd796e021
 
 - question: international-quitter-commandement-otan
   value: 2
@@ -1244,11 +1508,14 @@
   quote: Se retirer immédiatement du commandement intégré de l'OTAN
   quoteSource: jean-luc-melenchon-aec-un-monde-ordonne-ch2
   justification: Le programme propose de quitter immédiatement le commandement intégré de l'OTAN.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a7b048ee3f28102303145334cd77eff8ebbab99e2d566adc3c2f0fa0174403c9
 
 - question: international-referendum-traites-europeens
   value: 2
@@ -1259,11 +1526,14 @@
   quote: Rendre obligatoire le recours au référendum en cas de modification de la Constitution ou d'adoption d'un nouveau traité européen
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch1
   justification: Le programme rend obligatoire le référendum pour tout nouveau traité européen.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3e6f937e07b57b18a7db0e1175d34a93f811975160e61255515cae5f633cb405
 
 - question: international-renegocier-traites-competences
   value: 1
@@ -1273,11 +1543,14 @@
   quote: "Nous mettrons sur la table des propositions pour fonder de nouveaux traités : La souveraineté budgétaire des parlements nationaux"
   quoteSource: jean-luc-melenchon-aec-europe
   justification: Le programme propose de nouveaux traités rendant notamment la souveraineté budgétaire aux parlements nationaux, tout en demandant aussi davantage d'harmonisation européenne.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ef271982c3ccc8feb9df0ce5e8c53bca5499cbd363553e317bf1c0f51c0cc6d6
 
 - question: justice-accompagnement-emploi-detenus
   value: 1
@@ -1287,11 +1560,14 @@
   quote: assurer aux personnes détenues les moyens de se réinsérer dans notre société
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
   justification: Le programme veut assurer aux détenus les moyens de se réinsérer, sans mentionner un accompagnement vers l'emploi pendant toute la détention.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:dc8b1961bc6998f274c3956318be9ca03d94ae677eb7d88d66b6618cffb72856
 
 - question: justice-comparution-immediate-mineurs
   value: -1
@@ -1301,11 +1577,14 @@
   quote: Revenir sur toutes les mesures qui alignent la justice des mineurs sur celle des adultes
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
   justification: Le programme veut revenir sur l'alignement de la justice des mineurs sur celle des majeurs, sans citer la comparution immédiate.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f0bba2fe806fd89bd39165c86a7096587d0c8531f31fb9923a1d3c1a25b714c9
 
 - question: justice-juridictions-mineurs-specialisees-v2
   value: 2
@@ -1315,11 +1594,14 @@
   quote: Revenir sur toutes les mesures qui alignent la justice des mineurs sur celle des adultes, rétablir les principes de l'ordonnance de février 1945
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
   justification: Le programme veut rétablir les principes de l'ordonnance de 1945 et revenir sur l'alignement de la justice des mineurs sur celle des adultes, donc des juridictions distinctes.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b0fbdf091a0ffda7f94a08693a2987c39ae2a136646eb9f5d9f54f52784e790e
 
 - question: justice-majorite-penale-16-ans
   value: -1
@@ -1329,11 +1611,14 @@
   quote: Revenir sur toutes les mesures qui alignent la justice des mineurs sur celle des adultes
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
   justification: Le programme s'oppose à l'alignement de la justice des mineurs sur celle des adultes, sans évoquer explicitement l'âge de la majorité pénale.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f0bba2fe806fd89bd39165c86a7096587d0c8531f31fb9923a1d3c1a25b714c9
 
 - question: justice-plafonner-detenus-places
   value: 1
@@ -1343,11 +1628,14 @@
   quote: en finir avec la surpopulation carcérale par la mise en place d'un mécanisme contraignant de régulation carcérale
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
   justification: Le programme propose un mécanisme contraignant de régulation carcérale contre la surpopulation, sans préciser un plafond strict au nombre de places.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f5c78d2d407be1e62bfa2f06f0e6b9d9cbf558efa863dbcbcf617ef0175dd2f4
 
 - question: numerique-assouplir-consentement-traceurs
   value: -1
@@ -1357,11 +1645,14 @@
   quote: Ne pas faire du seul consentement des utilisateurs un fondement suffisant pour le traitement de leurs données
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch7
   justification: Le programme durcit l'encadrement de la collecte de données au-delà du seul consentement, sans viser spécifiquement les traceurs publicitaires.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f9bf27efd855513024a5aadb49d864b161c81b8a5721833d5b9300ba0f54813e
 
 - question: numerique-assouplir-regles-ia
   value: -1
@@ -1371,11 +1662,14 @@
   quote: Créer une autorité nationale de l'intelligence artificielle qui délivre aux systèmes d'IA définis comme à haut risque une autorisation de mise sur le marché
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch7
   justification: Le programme renforce l'encadrement de l'IA par une autorisation de mise sur le marché, sans se prononcer sur les règles européennes elles-mêmes.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d6e5177cba18131d4aeba40f5b285582975832e240ad81ebfb7f343569613287
 
 - question: numerique-chiffrement-messageries-v2
   value: 2
@@ -1385,11 +1679,14 @@
   quote: Constitutionnaliser le droit au chiffrement et à la sécurité des données et des communications, afin de se prémunir contre les moyens d'interception et de surveillance
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch7
   justification: Le programme veut constitutionnaliser le droit au chiffrement des communications pour se prémunir contre l'interception et la surveillance, donc contre l'accès des autorités aux messages chiffrés.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2f67044a76344a71c7dd376597f1c3d804483090fe2d7942a0a5ee5bfbd62d79
 
 - question: numerique-donnees-sante-hebergeurs-europeens
   value: 1
@@ -1399,11 +1696,14 @@
   quote: Garantir l'hébergement des données des services publics français et des entreprises essentielles sur des serveurs publics situés en France
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch7
   justification: Le programme impose un hébergement public en France des données des services publics, sans viser spécifiquement les données de santé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c70d26dd3bd56b8cc9c68dc60895eb6c954a9a8e3019e115930ae8c1e223335b
 
 - question: numerique-faciliter-centres-donnees
   value: -1
@@ -1413,11 +1713,14 @@
   quote: Décréter un moratoire sur l'installation de centres de données non souverains (sans aucune participation publique)
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch7
   justification: Le programme prévoit un moratoire sur les centres de données non souverains et une autorisation de construction, à l'opposé de procédures accélérées.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2dad9ddd2f6a07e6cf026f1e177a1ce49b0e571c925dd6df33fd580b33348572
 
 - question: numerique-ia-remuneration-auteurs
   value: 2
@@ -1427,11 +1730,14 @@
   quote: mettre en place des accords de rémunération équitables pour les créateurs dont l'œuvre est utilisée
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch3
   justification: Le programme prévoit la rémunération des créateurs dont les œuvres sont utilisées par les IA génératives.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8e889f8763ed4b7851fb05d937e96571a2507ea5227c605fa94132b67cbaa09f
 
 - question: numerique-logiciels-libres-administration
   value: 2
@@ -1441,11 +1747,14 @@
   quote: Généraliser l'usage des logiciels libres dans les administrations publiques et l'Éducation nationale
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch7
   justification: Le programme propose de généraliser les logiciels libres dans les administrations.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:05f0c7cd862e723f91c9a0d2408737cd74e0b493b9985411e175748a6adb3242
 
 - question: numerique-taxe-plateformes
   value: 2
@@ -1455,11 +1764,14 @@
   quote: le renforcement de la taxe Gafam (3,9 milliards)
   quoteSource: jean-luc-melenchon-comptes-publics-2027
   justification: Le document budgétaire prévoit de renforcer la taxe sur les grandes plateformes numériques assise sur leur activité en France.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c38d9e00be34e8390448eb86f632e06ba1b1275119154b3a0119d98567966a14
 
 - question: sante-assurance-sante-privee-option-v2
   value: -1
@@ -1469,11 +1781,14 @@
   quote: en intégrant les assurances maladie complémentaires dans la Sécurité sociale
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme intègre les complémentaires dans la Sécurité sociale, ce qui va à l'encontre d'une sortie de l'Assurance maladie vers un assureur privé, sans traiter explicitement cette possibilité.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:eee67f73f24f658dac2f4e2870fb0a7a42c9e75e8b09ba9da1c5c79cf1c9617c
 
 - question: sante-budget-hopital-inflation
   value: 1
@@ -1483,11 +1798,14 @@
   quote: Nous proposons une hausse globale de 3 milliards d'euros du budget des hôpitaux
   quoteSource: jean-luc-melenchon-comptes-publics-2027
   justification: Le document budgétaire prévoit une hausse de 3 milliards du budget des hôpitaux, sans règle annuelle d'évolution supérieure à l'inflation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5dc2e0138bc1d6f85f4d61cd8f7c1c685a7d20c26ca4ed984b7fd48ba3c01ed5
 
 - question: sante-centres-sante-publics
   value: 2
@@ -1497,11 +1815,14 @@
   quote: Mailler le territoire de centres de santé publics en exercice salarié
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
   justification: Le programme propose de mailler le territoire de centres de santé publics employant des médecins salariés.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:05fb05b47d83a8bc5817c628b9b40408d8e6818d2e29fe2e42ab5832ca834125
 
 - question: sante-depassements-honoraires-libres
   value: -2
@@ -1511,11 +1832,14 @@
   quote: Mettre fin aux dépassements d'honoraires dans le secteur conventionné
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme propose de mettre fin aux dépassements d'honoraires dans le secteur conventionné.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4c6554b9bc3ce9ea9532c4454798742559fdc2afcfba2ac3b36d56ae47d3eec0
 
 - question: sante-depenses-assurance-maladie-inflation
   value: -1
@@ -1525,11 +1849,14 @@
   quote: Remplacer l'objectif national des dépenses d'assurance maladie (ONDAM) par un objectif national des besoins d'assurance maladie (ONBAM)
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
   justification: Le programme remplace l'objectif de dépenses par un objectif fondé sur les besoins, ce qui s'oppose à un plafonnement sans évoquer l'inflation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:63c7de2d77e68004ab5e872b7193c0b8309b657f0e55e3b2125c33f359a18115
 
 - question: sante-derembourser-faible-service-rendu
   value: -1
@@ -1539,11 +1866,14 @@
   quote: en remboursant à 100 % les soins de santé prescrits
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme prévoit le remboursement intégral des soins prescrits, ce qui va à l'encontre de déremboursements sans viser spécifiquement les médicaments à faible service rendu.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e65c1a2435b44eed8d429733d8b22106e315517f70bfff8033b6e317dfabb1ce
 
 - question: sante-doubler-etudiants-medecine
   value: 1
@@ -1553,11 +1883,14 @@
   quote: Augmenter le nombre de places en faculté de médecine
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
   justification: Le programme veut augmenter le nombre de places en médecine, sans objectif de doublement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e1cddaf1512cef9b372a0e600df9ca02a253e173030e196a09bd297052d7a6c0
 
 - question: sante-hausse-franchises-medicales
   value: -2
@@ -1567,11 +1900,14 @@
   quote: Garantir le zéro reste à charge en supprimant les franchises médicales
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme supprime les franchises médicales, à l'inverse de leur augmentation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b5c69d9a45dd7197c130f8389f2497d3980b9c5f9e4f3719a61a998bc5cf3f58
 
 - question: sante-mutuelles-part-accrue-v2
   value: -2
@@ -1581,11 +1917,14 @@
   quote: en remboursant à 100 % les soins de santé prescrits et en intégrant les assurances maladie complémentaires dans la Sécurité sociale
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme rembourse à 100 % les soins prescrits et intègre les complémentaires dans la Sécurité sociale, à l'opposé d'un transfert de dépenses vers les complémentaires.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0eccf712212e58e57de4726c4491754cb2b688138e2c600399a29858e4a30e6e
 
 - question: sante-production-publique-medicaments
   value: 1
@@ -1595,11 +1934,14 @@
   quote: "Construire un pôle public du médicament qui devra : Assurer une relocalisation de la production de médicaments"
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
   justification: "Le programme crée un pôle public du médicament chargé de relocaliser la production de médicaments en général et de garantir une réserve de médicaments essentiels. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c323147ea482035d02d3173953359ede96f06fe7fa42cbeff498eacee33d2304
 
 - question: sante-psychologues-rembourses
   value: 1
@@ -1609,11 +1951,14 @@
   quote: Élargir le conventionnement de psychologues par la Sécurité sociale, au-delà de 12 séances par an et avec un remboursement à 100 %
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
   justification: Le programme rembourse à 100 % les psychologues au-delà de 12 séances par an, sans affirmer une absence totale de limite.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7b23613f419ee06d20b82cf5dacf813a67762b488d06704391af014f1d35ab1c
 
 - question: sante-reduire-indemnites-arret-maladie
   value: -2
@@ -1623,11 +1968,14 @@
   quote: Garantir le droit à l'arrêt maladie par l'indemnisation à 100 % du salaire
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme prévoit une indemnisation des arrêts maladie à 100 % du salaire, à l'inverse d'une réduction.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:10fb65c6c65019b6184795b228465627c2c28a91bb69cae3056718725783d946
 
 - question: sante-regulation-installation-medecins
   value: 2
@@ -1637,11 +1985,14 @@
   quote: Réguler l'installation des médecins
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
   justification: Le programme propose de réguler l'installation des médecins.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2a487bde036de1d4f5c4c10bba3c881ab10b8e6bf5018181b3c8ec92510884dc
 
 - question: securite-armer-polices-municipales
   value: -2
@@ -1651,11 +2002,14 @@
   quote: Intégrer progressivement les polices municipales dans une police de proximité républicaine, formée aux exigences du service public, sous l'autorité fonctionnelle des maires et l'autorité hiérarchique de l'État, sans armes létales
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
   justification: Le programme prévoit des polices municipales intégrées à une police de proximité sans armes létales.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:210928101503253e410cb12c85af69fc78d35916d21bb980640b9a2dbd980c76
 
 - question: securite-budget-vers-prevention
   value: 1
@@ -1665,11 +2019,14 @@
   quote: renforcer les logiques de prévention, notamment grâce à davantage de moyens humains (éducateurs spécialisés, éducateurs de rue, médiateurs)
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
   justification: Le programme renforce les moyens de prévention, sans préciser qu'ils sont pris sur le budget des forces de l'ordre.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a2531fcf67e3ace331644a3bd2e7e4eb4adaaf3ffdfb5248f4d4c37e24c00065
 
 - question: securite-enquetes-policiers-independantes
   value: 2
@@ -1679,11 +2036,14 @@
   quote: Supprimer l'Inspection générale de la police nationale (IGPN) et l'Inspection générale de la gendarmerie nationale (IGGN) et les remplacer par une autorité indépendante
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
   justification: Le programme remplace l'IGPN et l'IGGN par une autorité indépendante.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9deee1290cdeed1a3746d98a31b8e11b7fdb2d9cb844efbe912ef644c8dc1795
 
 - question: securite-interdire-lbd-manifestations
   value: 2
@@ -1693,11 +2053,14 @@
   quote: Interdire les pistolets à impulsion électrique (tasers), les grenades de désencerclement, les lanceurs de balles de défense (LBD) pour la police du quotidien ou la gestion des rassemblements
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
   justification: Le programme interdit les LBD pour la gestion des rassemblements, dont les manifestations.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:01a28a3af35ead6e4acaab6355ab33e14039d855f6b0294160eee73eb3876740
 
 - question: securite-interdire-plaquage-ventral
   value: 2
@@ -1707,11 +2070,14 @@
   quote: "Interdire les techniques d'immobilisation létales : plaquage ventral, pliage ventral, clé d'étranglement"
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
   justification: Le programme interdit explicitement le plaquage ventral aux forces de l'ordre.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7098adabf22f7552c7d3c1e0f87ae7245b25e0dab7dd4490f2358cdcb7dc9a69
 
 - question: securite-presomption-legitime-defense
   value: -2
@@ -1721,11 +2087,14 @@
   quote: refuser la loi dite " permis de tuer XXL " instaurant une présomption de légitime défense pour les policiers
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
   justification: Le programme refuse la loi instaurant une présomption de légitime défense pour les policiers.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0beb9ffd8a6223685d7113d5533f2547f388b35d9e4dd155f7fb083827cff95a
 
 - question: securite-recepisse-controles-identite
   value: 2
@@ -1735,11 +2104,14 @@
   quote: Mettre en place le récépissé de contrôle d'identité par les agents de police et la gendarmerie
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch4
   justification: Le programme propose le récépissé de contrôle d'identité.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c1f6d1a17d3552348264b1e184c18d5439038c678ef89390930c211ecd0db26c
 
 - question: securite-reconnaissance-faciale-police
   value: -2
@@ -1749,11 +2121,14 @@
   quote: Interdire la reconnaissance faciale
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
   justification: Le programme propose d'interdire la reconnaissance faciale dans les espaces publics.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ee9d03f5254a199a6144a0bd19c7459571fd208a50816cf0fad5e44611153645
 
 - question: securite-renseignement-autorisation-juge
   value: 1
@@ -1763,11 +2138,14 @@
   quote: Garantir le contrôle du juge judiciaire dans la lutte contre le terrorisme
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
   justification: Le programme garantit le contrôle du juge judiciaire dans la lutte antiterroriste, sans préciser une autorisation préalable des techniques de renseignement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ca613f9b17c8c531e5fb0898652ae1b98b3acc80a4bbe5dfb0102c063f49a216
 
 - question: securite-restreindre-tirs-refus-obtemperer
   value: 2
@@ -1777,11 +2155,14 @@
   quote: Abroger la loi dite " Cazeneuve " sur le refus d'obtempérer
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
   justification: Le programme abroge la loi Cazeneuve sur le refus d'obtempérer, qui a élargi l'usage des armes par les policiers.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:31029496deddcc209040b680017b0f7dfc6142351d2bebb2d0bd1280a4ec8f65
 
 - question: securite-supprimer-bac
   value: 2
@@ -1791,11 +2172,14 @@
   quote: Rétablir la police de proximité comme pilier du service public et démanteler les brigades anticriminalité (BAC) ainsi que les brigades de répression des actions violentes motorisées (BRAV-M)
   quoteSource: jean-luc-melenchon-aec-6e-republique-ch2
   justification: Le programme veut démanteler les brigades anticriminalité (BAC).
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:73431f8fd9a73398a5adab04eeab63609e38b231c5bc5e6b562f5d2f736cf155
 
 - question: securite-videosurveillance-algorithmique
   value: -1
@@ -1805,11 +2189,14 @@
   quote: "Interdire certains usages de l'IA et du \" big data \" qui vont à l'encontre des droits individuels et sociaux : identification biométrique"
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch7
   justification: Le programme interdit les dispositifs de surveillance biométrique et de police prédictive, sans viser nommément la vidéosurveillance algorithmique.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5ea8a12d650e1875fbd84fa0acfd86f20a2a1528458e578a46ea781750f3a712
 
 - question: societe-aide-active-a-mourir
   value: 1
@@ -1819,11 +2206,14 @@
   quote: Ajouter dans la Constitution le droit de mourir dans la dignité (y compris avec assistance)
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
   justification: "Le programme inscrit dans la Constitution le droit de mourir dans la dignité, y compris avec assistance, sans le limiter aux adultes atteints d'une maladie incurable. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3da5464fb34095233a04512d0b9ab79ad78b2883ba05bb49bf517c3a3bc0f5a4
 
 - question: societe-cannabis-legalisation
   value: 2
@@ -1833,11 +2223,14 @@
   quote: Légaliser et encadrer par un monopole d'État la consommation, la production et la vente de cannabis à des fins médicales et récréatives
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
   justification: Le programme propose de légaliser et d'encadrer la consommation de cannabis récréatif.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:359667e58901bbc1d1279ecb443626c2f2ab43ab78a0dede60b71da2490494ec
 
 - question: societe-conge-second-parent
   value: 2
@@ -1847,11 +2240,14 @@
   quote: Remplacer le congé paternité et le congé maternité actuels par un congé d'accueil de l'enfant, identique et obligatoire pour les deux parents, d'une durée de 20 semaines par parent
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch3
   justification: Le programme crée un congé identique pour les deux parents.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f87bee71f02eb6c4da1b77703321b00c3083e4f016802c282475e0ac9c404e1a
 
 - question: societe-education-sexualite-accord-parents
   value: -1
@@ -1861,11 +2257,14 @@
   quote: Fournir les moyens réels pour assurer à tous les élèves en collège et lycée les trois séances annuelles d'éducation à la vie affective, relationnelle et à la sexualité (EVARS) prévues par la loi
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch2
   justification: Le programme veut assurer ces séances à tous les élèves, ce qui s'oppose à une condition d'accord parental sans l'évoquer explicitement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8761060334f216ca84578f7ba7578f297fb5a0ee45b75bc2fe9d51a1536618db
 
 - question: societe-gpa-interdite-v2
   value: 2
@@ -1875,11 +2274,14 @@
   quote: refuser la gestation pour autrui (GPA)
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
   justification: Le programme refuse la gestation pour autrui, donc son interdiction en France.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6e2dea78d94d33948532ff017dde6746c3e528402afe561e8681e6044d811185
 
 - question: societe-salles-consommation-drogue-v2
   value: 2
@@ -1889,11 +2291,14 @@
   quote: Pérenniser et généraliser les salles de consommation à moindre risque sur l'ensemble du territoire
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch4
   justification: Le programme veut pérenniser et généraliser les salles de consommation à moindre risque sur tout le territoire.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5d05a1a2930f71a0068bad2131d12fcf8646501c06599613456b9c4b523d514f
 
 - question: societe-service-national-obligatoire
   value: 2
@@ -1903,11 +2308,14 @@
   quote: Nous proposons à la place un service citoyen obligatoire avant l'âge de 25 ans
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch2
   justification: Le programme propose un service citoyen obligatoire de neuf mois pour tous les jeunes.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:07aa5881ee60ea33e5bc539839e026d615310e320aac168fd465bc4fbcd34e00
 
 - question: societe-simplifier-changement-sexe-etat-civil
   value: 2
@@ -1917,11 +2325,14 @@
   quote: Déjudiciariser le changement de sexe à l'état civil en le rendant libre et gratuit devant un officier d'état civil
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
   justification: Le programme simplifie le changement de sexe à l'état civil en le déjudiciarisant.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:52380cf73c05fb88fec0d39d2e1058ddd87774b4996b9494fe9464a276b0b59a
 
 - question: societe-statut-beau-parent-v2
   value: 2
@@ -1931,11 +2342,14 @@
   quote: Reconnaître un statut de beau-parent sous condition de l'intérêt supérieur de l'enfant
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch2
   justification: Le programme veut reconnaître un statut de beau-parent, sous condition de l'intérêt supérieur de l'enfant.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9d6667fcf4ec049cf38fc103af03f64cead839ec3489133a183549df5e89cf3f
 
 - question: societe-uniforme-ecole-publique
   value: -2
@@ -1945,11 +2359,14 @@
   quote: Mettre fin à l'expérimentation de l'uniforme
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch2
   justification: Le programme met fin à l'expérimentation de l'uniforme, à l'inverse de son obligation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7343af140c6df3956d7968004e5b14d92a861b4923ae874d8d7794fcd00f94df
 
 - question: transport-autoroutes-concedees-v2
   value: -2
@@ -1960,11 +2377,14 @@
   quote: Renationaliser les autoroutes en revenant sur les hausses de prix passées
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme renationalise les autoroutes, à l'opposé de la poursuite de leur exploitation par des concessionnaires privés.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9f759e1ec549822361ef17d727c943b526adfb668dc0f5e884ef753251e45667
 
 - question: transport-concurrence-ferroviaire
   value: -2
@@ -1974,11 +2394,14 @@
   quote: Renationaliser la Société nationale des chemins de fer français (SNCF) et refuser la mise en concurrence des lignes de transport
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme refuse la mise en concurrence des lignes ferroviaires.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c8ca439c17d4aa5e9775d1798ee404d94cc83518568a2b17d137eaffee492107
 
 - question: transport-doubler-investissement-ferroviaire
   value: 1
@@ -1988,11 +2411,14 @@
   quote: Lancer des grands travaux de rénovation des voies ferrées et de réouverture des lignes et gares fermées ces trente dernières années
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme prévoit de grands travaux ferroviaires, sans objectif chiffré de doublement des investissements.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:88e0fac015047d9c41f4eabebe45fdd61fb24544bc18ad611e85631b6889d1ca
 
 - question: transport-milliard-amenagements-cyclables
   value: 1
@@ -2002,11 +2428,14 @@
   quote: Rétablir le plan Vélo supprimé par la Macronie et porter les investissements à la hauteur des besoins
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme rétablit le plan Vélo et augmente les investissements, sans montant annuel chiffré.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c2924eb87cad9c3d86160f30e52e6c841b28d4c09e3a317ba48600088ad40fd9
 
 - question: transport-petites-lignes-maintenues
   value: 2
@@ -2016,11 +2445,14 @@
   quote: Stopper la suppression des lignes ferroviaires du quotidien et en réouvrir
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme arrête la suppression des petites lignes et propose d'en rouvrir.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0798f4f4a9e3fecfd16f4f0397d1d189b9558262563ba8aa8ec7bce22446b553
 
 - question: transport-sncf-entreprise-publique-v2
   value: 2
@@ -2030,11 +2462,14 @@
   quote: Renationaliser la Société nationale des chemins de fer français (SNCF) et refuser la mise en concurrence des lignes de transport
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme veut renationaliser la SNCF, donc une détention intégralement publique.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:abaf26f75412a31d3a9762ab079326ac043d4562bea9f20096f7d14e23bf5b78
 
 - question: transport-subventionner-fret-ferroviaire
   value: 1
@@ -2044,11 +2479,14 @@
   quote: Développer massivement le fret ferroviaire, notamment le wagon isolé
   quoteSource: jean-luc-melenchon-aec-bifurcation-ch3
   justification: Le programme veut développer massivement le fret ferroviaire, sans évoquer explicitement de subvention.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:732a4f2650a5a6222ffbb7bccc9700e08f9cdc96fb86e41459d9ee5b272ed296
 
 - question: travail-augmenter-jours-carence
   value: -2
@@ -2058,11 +2496,14 @@
   quote: la suppression des jours de carence
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme supprime les jours de carence, à l'inverse de leur augmentation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fedcd7abfc687857fc4ff73e015aab920e7361f63d204902d63a077c542e4898
 
 - question: travail-durcir-indemnisation-chomage
   value: -2
@@ -2072,11 +2513,14 @@
   quote: Annuler les réformes Macron sur l'éligibilité et les méthodes de calcul du montant et de la durée de l'allocation
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme annule les durcissements de l'assurance chômage, mesure inverse de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b9c010b088891aaa69f845a2c48b7044199f1a14a6bcb5573a04a3805b32119f
 
 - question: travail-duree-travail-accord-entreprise
   value: -2
@@ -2086,11 +2530,14 @@
   quote: "rétablir le principe de faveur : un accord d'entreprise doit être plus favorable qu'un accord de branche, lui-même plus favorable que la loi"
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme rétablit le principe de faveur et la durée légale de 35 heures, ce qui exclut qu'un accord d'entreprise fixe une durée moins favorable.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9ded54a76a3f4222e5872e7302a726be8f080f865a0daf7321a8790ca05f7ac9
 
 - question: travail-elargir-penibilite-retraite
   value: 2
@@ -2100,11 +2547,14 @@
   quote: prendre en compte leur pénibilité en réinstaurant les facteurs de risques supprimés par Macron en 2017 et en créant de nouveaux critères liés aux contraintes émotionnelles fortes
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch3
   justification: Le programme rétablit les facteurs de pénibilité supprimés en 2017 et en crée de nouveaux.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3471a089b26e47903f2824b73a8318d4271182ccdd55a7b0c27a286cbf96bb13
 
 - question: travail-indexation-salaires
   value: 2
@@ -2114,11 +2564,14 @@
   quote: indexer les salaires sur l'inflation dans le privé comme dans la fonction publique
   quoteSource: jean-luc-melenchon-aec-economie-ch2
   justification: Le programme propose d'indexer les salaires sur l'inflation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:df41d1c595247b24d7ed1ba06118b33371f33f202a2254f6c49ec9af729a18ec
 
 - question: travail-limiter-licenciements-beneficiaires-v2
   value: 1
@@ -2128,11 +2581,14 @@
   quote: Interdire les licenciements boursiers et économiques par les entreprises qui versent des dividendes ou bénéficient des aides de l'État
   quoteSource: jean-luc-melenchon-aec-economie-ch3
   justification: "Le programme interdit les licenciements économiques aux seules entreprises qui versent des dividendes ou bénéficient d'aides de l'État : version partielle de l'énoncé, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:60038d234b2e30b660d6d25ae290c03c27772fba18af04d2972251a0b1bcfdd8
 
 - question: travail-plafond-prudhommes-maintenu-v2
   value: -1
@@ -2142,11 +2598,14 @@
   quote: "Abroger les ordonnances dites \" Pénicaud \" ainsi que la loi dite \" El Khomri \""
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme abroge les ordonnances Pénicaud, qui ont instauré le barème plafonnant les indemnités prud'homales, sans citer ce barème.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bdb0fbfb9e83274c69da0be99ee196f781c9476b27a48741ca0b5838401bcaf2
 
 - question: travail-plafonner-ecart-salaires
   value: 2
@@ -2156,11 +2615,14 @@
   quote: Fixer un salaire maximal autorisé pour limiter l'écart de 1 à 20 entre le salaire le plus bas et le salaire le plus haut dans une entreprise
   quoteSource: jean-luc-melenchon-aec-economie-ch2
   justification: Le programme plafonne l'écart de salaires de 1 à 20 dans une entreprise.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4cfe926abdcc48a9acb41306b7f760777da6fc0e846c2fe953a2f907dfbd0db5
 
 - question: travail-plateformes-presomption-salariat
   value: 2
@@ -2170,11 +2632,14 @@
   quote: Transposer dans le droit français la directive européenne sur la présomption de salariat empêchant les plateformes numériques (Uber, Deliveroo, etc.) d'avoir recours aux faux indépendants
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme instaure la présomption de salariat pour les travailleurs des plateformes.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:03db98228f71fd257ce8737a9ec893c152ac607f120daaccf4bc6c833b14bd2c
 
 - question: travail-retraite-62-ans
   value: 1
@@ -2185,11 +2650,14 @@
   quote: Abroger la réforme Macron passant l'âge de départ à la retraite à 64 ans, puis abaisser l'âge de départ jusqu'à restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: "Le programme ramène l'âge de départ sous 64 ans jusqu'à 60 ans, ce qui va au-delà d'un retour à 62 ans. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:caae46eeeb5bc722ad5b41cf61fa0275de756766779650ea1385cbd789a5dd32
 
 - question: travail-retraite-au-dela-64-ans
   value: -2
@@ -2199,11 +2667,14 @@
   quote: Abroger la réforme Macron passant l'âge de départ à la retraite à 64 ans, puis abaisser l'âge de départ jusqu'à restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme abaisse l'âge de départ, à l'inverse de son report au-delà de 64 ans.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:952eb93c1620a063e2b2ee72149a5addc9a46d0fb0009acf7ec1c295cdce6c76
 
 - question: travail-retraite-capitalisation
   value: -2
@@ -2213,11 +2684,14 @@
   quote: Supprimer les avantages fiscaux de la retraite par capitalisation pour financer le système par répartition
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme supprime les avantages de la capitalisation au profit de la répartition, mesure inverse de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5a3d00b9335944f9270d5bcd022b7bff4658f04170bf8d0449b3a2fdc2a15e66
 
 - question: travail-salaries-conseils-administration
   value: 2
@@ -2227,11 +2701,14 @@
   quote: Renforcer la représentation des salariés dans les instances de décision des grandes entreprises à hauteur d'un tiers au moins
   quoteSource: jean-luc-melenchon-aec-economie-ch1
   justification: Le programme fixe au moins un tiers de salariés dans les instances de décision des grandes entreprises.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5d493610d51f2f898275c7b5104658cb9e8f728287a8db8498cfeaffa8e875e8
 
 - question: travail-semaine-32-heures
   value: 1
@@ -2241,11 +2718,14 @@
   quote: passer aux 32 heures dans les métiers pénibles ou de nuit et favoriser leur généralisation par la négociation collective
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme instaure les 32 heures dans les métiers pénibles ou de nuit et favorise leur généralisation par la négociation, sans réduction de la durée légale pour tous.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c7ce33c5dfa7cc8df37ccc6dde7cb7826fc3a081ee166f3a5c449f38c73b4a87
 
 - question: travail-smic-au-dela-inflation
   value: 2
@@ -2255,11 +2735,14 @@
   quote: Porter immédiatement le SMIC mensuel à 1 700 euros net
   quoteSource: jean-luc-melenchon-aec-economie-ch2
   justification: Le programme porte immédiatement le SMIC à 1 700 euros net, hausse supérieure à l'inflation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:94babbd54e78db2993688bf726811cd27e0b1b54c9200f5c46fd9987aec3a7d6
 
 - question: travail-statut-fonction-publique-regalien
   value: -1
@@ -2269,8 +2752,11 @@
   quote: Titulariser les précaires des trois fonctions publiques
   quoteSource: jean-luc-melenchon-aec-securite-sociale-ch1
   justification: Le programme étend le statut de fonctionnaire aux précaires des trois fonctions publiques, ce qui s'oppose à sa restriction aux missions régaliennes sans l'évoquer explicitement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ea7e4a18c9662c14b20d3eb6472a44cef5dac7907c1065df28f173de64abaee4

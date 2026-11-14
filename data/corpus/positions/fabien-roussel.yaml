@@ -1,5 +1,5 @@
-# Positions de Fabien Roussel (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
-# provenance manual), à relire par adrien avec pnpm data:review.
+# Positions de Fabien Roussel (FR-016 à FR-022). Rédigées par claude (extraction en session,
+# provenance manual), relues par adrien le 2026-11-14 (pnpm data:review).
 
 - question: defense-budget-armees-3-pib
   value: -1
@@ -9,11 +9,14 @@
   quote: "refus de la course à l'arme- ment et du passage du budget de la défense à 5% du PIB"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune refuse le passage du budget de la défense à 5 % du PIB, ce qui va contre une hausse des crédits militaires, sans se prononcer sur le seuil de 3 %."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fded8b438a42dd53d9cb10d539c6c5ebf1732929a5bb1ce64212aca9d90ff36b
 
 - question: defense-cesser-ventes-armes-conflits
   value: 1
@@ -23,11 +26,14 @@
   quote: "en mettant un terme aux relations com- merciales et à la vente d'armes"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune demande de cesser la vente d'armes à Israël, sans étendre cette exigence à tous les États engagés dans un conflit armé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b1c5f6551521d49f46de44b2cc3a04f0241650452ea4d551596c16157e3e90a8
 
 - question: defense-defense-europeenne-emprunt
   value: -1
@@ -37,11 +43,14 @@
   quote: "Le PCF s'oppose aussi à la militarisation de l'UE, à la prolifération nucléaire en Europe et dans le monde, à l'européanisation de la force nucléaire française, aux pro- jets d'une armée européenne"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune s'oppose à la militarisation de l'UE et à une armée européenne, sans se prononcer sur un financement par emprunt européen."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2fefecdf331a23e83f75915e758a3ef30ffa1010eb257cef1e19ebd14806c3d8
 
 - question: defense-dissuasion-protection-europe-v2
   value: -1
@@ -51,11 +60,14 @@
   quote: "Le PCF s'oppose aussi à la militarisation de l'UE, à la prolifération nucléaire en Europe et dans le monde, à l'européanisation de la force nucléaire française"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune s'oppose à l'« européanisation » de la force nucléaire française, notion voisine mais pas identique à l'extension de la doctrine de dissuasion à la protection des partenaires européens, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f5d6ccc94f86d18f32e5d340195052a5e3fd67d9602ecdf0df43a082065371a4
 
 - question: defense-fermer-bases-afrique
   value: 2
@@ -65,11 +77,14 @@
   quote: "Le PCF défend le retrait des bases militaires"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "Dans le passage consacré au continent africain, la base commune défend explicitement le retrait des bases militaires françaises."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bd9752cc77e4f5401c1b6e28f131888b2db7e05af3cc30d65b3faffbcd5a25fa
 
 - question: defense-priorite-depenses-sociales
   value: 1
@@ -79,11 +94,14 @@
   quote: "l'école avant les dépenses d'armement, l'école avant les aides sans contrepartie"
   quoteSource: fabien-roussel-plan-jeunesse-2027-2032
   justification: "Le plan jeunesse fait passer les dépenses d'éducation avant les dépenses d'armement, ce qui concerne l'école et non l'ensemble des dépenses sociales."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:870c0ef7417614f304683583c446ddc78ed808467ccc3a0caa9fc8995a2356af
 
 - question: defense-reduire-budget-armees
   value: 1
@@ -93,11 +111,14 @@
   quote: "3,5 Md€ passent du budget de la défense à celui de l'école, une fois les 90 000 postes pourvus"
   quoteSource: fabien-roussel-plan-jeunesse-2027-2032
   justification: "Le plan jeunesse finance les postes d'enseignants en retirant 3,5 Md€ au budget de la défense, sans fixer d'objectif de baisse en proportion du PIB."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7913cfd55a14dd929ca169c2542920274747448ce0c47808d3edc708887ae125
 
 - question: defense-reduire-presence-etranger
   value: 1
@@ -107,11 +128,14 @@
   quote: "La moder- nisation et le développement des forces armées doivent être centrés sur la défense du territoire"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune recentre les forces armées sur la défense du territoire et s'oppose aux projections hors mandat de l'ONU, sans demander explicitement une réduction générale de la présence à l'étranger."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:999ba3940b01fc557f289775e8109a72c4d097309ff3ee82c86ad979bf3da06c
 
 - question: defense-second-porte-avions
   value: -1
@@ -121,11 +145,14 @@
   quote: "le PCF s'oppose à la construction du porteavions à propulsion nucléaire de nouvelle génération"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune s'oppose au porte-avions de nouvelle génération ; elle ne parle pas d'un second porte-avions, mais va nettement contre."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c7f9973b41dd0fcf0810487fea120704b70f3b80d547fd657bdc22187014e1ff
 
 - question: defense-traite-interdiction-armes-nucleaires
   value: 2
@@ -135,11 +162,14 @@
   quote: "La France doit prendre une initiative européenne pour inciter à signer et ratifier le Traité sur l'interdiction des armes nucléaires (TIAN)"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune demande explicitement que la France promeuve la signature et la ratification du traité sur l'interdiction des armes nucléaires."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:eeb75d9c70462a949bd090f99b85af4c7d038ac2c2e333b7c7e1c3b9eced49dc
 
 - question: democratie-conventions-citoyennes
   value: 1
@@ -149,11 +179,14 @@
   quote: "référendum d'initiative citoyenne encadré et droit de pétition effectif, convention citoyenne suivi d'un projet de loi débattu au Parlement"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune prévoit des conventions citoyennes suivies d'un projet de loi, sans préciser le tirage au sort ni leur consultation systématique avant les grandes réformes."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:69005ef4d27502a533e36f28b9b4fbec5fcb720ccf9e41a877e5c779cdea1373
 
 - question: democratie-petition-debat-parlement
   value: 1
@@ -163,11 +196,14 @@
   quote: "référendum d'initiative citoyenne encadré et droit de pétition effectif, convention citoyenne suivi d'un projet de loi débattu au Parlement"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune demande un droit de pétition effectif, sans fixer de seuil ni d'obligation de débat en séance."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:69005ef4d27502a533e36f28b9b4fbec5fcb720ccf9e41a877e5c779cdea1373
 
 - question: democratie-referendum-exceptionnel
   value: -1
@@ -177,11 +213,14 @@
   quote: "référendum d'initiative citoyenne encadré et droit de pétition effectif, convention citoyenne suivi d'un projet de loi débattu au Parlement"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune veut un référendum d'initiative citoyenne, ce qui va contre un recours au référendum qui resterait exceptionnel."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e3d3306b85e31b15e4f8d0a55eeb451b7731ca908fed4fd65ec13cadea9d5aa2
 
 - question: democratie-referendum-initiative-citoyenne
   value: 2
@@ -191,11 +230,14 @@
   quote: "référendum d'initiative citoyenne encadré et droit de pétition effectif"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune propose explicitement un référendum d'initiative citoyenne encadré."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:096b305d58df420140b7edf7002453c467c448f012725da62c661d52794be8ba
 
 - question: democratie-referendum-reserve-elus-v2
   value: -2
@@ -205,11 +247,14 @@
   quote: "référendum d'initiative citoyenne encadré et droit de pétition effectif"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune propose un référendum d'initiative citoyenne, ce qui retire au président et au Parlement le monopole du déclenchement d'un référendum national (déduction du RIC conservée par convention)."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:90b39a2ba81a264f3b3de7de4d96b6703a4f33557eabbc7bb41eddba408ac8e0
 
 - question: economie-accords-libre-echange
   value: -1
@@ -219,11 +264,14 @@
   quote: "une remise en cause des règles de fonctionnement et des traités de l'Union européenne libre-échangistes et déloyaux"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune remet en cause les traités européens libre-échangistes, ce qui va contre la conclusion de nouveaux accords sans s'y opposer explicitement."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e1c593ff2eec40b004953b8082d414a4c44fd72e208437483cc4e2862351c7b7
 
 - question: economie-aides-conditionnees-emploi
   value: 1
@@ -233,11 +281,14 @@
   quote: "L'argent public versé aux entreprises doit être conditionné et contrôlé"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune conditionne les aides publiques aux entreprises sans préciser que la condition porte sur le maintien de l'emploi en France."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:511bdfe902ba52b350e38d9b63fa20abc7bce5b6112f1e13f6e89c07b8af6479
 
 - question: economie-eau-operateurs-publics
   value: 1
@@ -247,11 +298,14 @@
   quote: "L'énergie et les res- sources naturelles comme l'eau sont des biens communs à extraire en priorité des marchés en les plaçant sous contrôle public."
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune veut extraire l'eau des marchés et la placer sous contrôle public, version voisine mais moins précise qu'une distribution assurée uniquement par des opérateurs publics, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6aab689ddec30b6acc191bcf4779948ae0934d84e9c364142370caf3714338b5
 
 - question: economie-edf-entierement-publique
   value: 1
@@ -261,11 +315,14 @@
   quote: "Il défend ainsi la constitution d'un pôle public de l'énergie constitué des grandes entreprises concernées (Edf, Engie, Total énergie)"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune intègre EDF dans un pôle public de l'énergie, sans préciser une détention à 100 % par l'État."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f1d58f0396dc88ddaf1ebce99b69d9880598d77d1c5759c83e4eb4f9fd702320
 
 - question: economie-participations-etat-industrie
   value: 1
@@ -275,11 +332,14 @@
   quote: "Dans cette optique, des nationalisations dans les secteurs prioritaires sont nécessaires"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune juge nécessaires des nationalisations dans les secteurs prioritaires, ce qui va au-delà de prises de participation. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4d76d9cdf8803e3088e548265d30fa8141635193b3e93ba4b584fde4cf69a35b
 
 - question: economie-prix-energie-reglementes
   value: 1
@@ -289,11 +349,14 @@
   quote: "Le secteur énergétique, stratégique pour le pays, est à extraire des logiques de concurrence pour abolir la précarité énergétique et pour la maîtrise des prix"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune veut sortir l'énergie de la concurrence pour maîtriser les prix, sans préciser une réglementation par l'État des prix payés par les ménages."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8bc86a5281a8696ea93828d49a7c3a8324eedb2cf46a65b8c61fb85f342c8618
 
 - question: economie-reduire-nombre-fonctionnaires
   value: -1
@@ -303,11 +366,14 @@
   quote: "90 000 postes d'enseignants seront créés, soit environ 13% de plus dans l'école publique"
   quoteSource: fabien-roussel-plan-jeunesse-2027-2032
   justification: "Le plan jeunesse crée 90 000 postes d'enseignants, ce qui va contre une baisse du nombre de fonctionnaires, sans porter sur l'ensemble de la fonction publique."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2770ecc5e3d35af7fdcfa7540d5711f0cd040710c1361dba5d3d03d22e24ddfd
 
 - question: energie-nouveaux-reacteurs-au-dela-epr2
   value: 1
@@ -317,11 +383,14 @@
   quote: "Notre plan climat articule bien nos propositions entre réindustrialisation et doublement de nos capacités de production d'électricité nucléaire"
   quoteSource: fabien-roussel-nouvelle-industrialisation-2025
   justification: "Le discours défend un doublement des capacités nucléaires, ce qui suppose d'autres réacteurs, sans mentionner explicitement des réacteurs au-delà des six EPR2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a15e8851fc5123f16b716db2cc7efb166bec6ac177c068dded993ba88ef8f211
 
 - question: energie-reduire-part-nucleaire
   value: -1
@@ -331,11 +400,14 @@
   quote: "Notre plan climat articule bien nos propositions entre réindustrialisation et doublement de nos capacités de production d'électricité nucléaire"
   quoteSource: fabien-roussel-nouvelle-industrialisation-2025
   justification: "Le discours défend un doublement des capacités nucléaires, ce qui va contre une réduction progressive de la part du nucléaire, sans se prononcer explicitement sur cette part."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cc9bf075cba80b40b77cf3b3ef19f402b2b6b2090ece3edb46c13ae83f9f95df
 
 - question: environnement-assouplir-artificialisation
   value: -1
@@ -345,11 +417,14 @@
   quote: "les communistes combat- tent l'artificialisation des sols"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune combat l'artificialisation des sols, ce qui va contre un assouplissement des objectifs, sans les mentionner explicitement."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:296309cdb245a8f4a602013fcbcd9c789d218770a938a4c4b68fff37bf5e0197
 
 - question: environnement-supprimer-zfe
   value: 1
@@ -359,11 +434,14 @@
   quote: "C'est aussi, par exemple, la production de petites voitures électriques citée hier par Jacques Baudrier et notre combat contre les ZFE"
   quoteSource: fabien-roussel-nouvelle-industrialisation-2025
   justification: "Le discours revendique un combat contre les zones à faibles émissions, sans demander explicitement leur suppression."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:85c7479c2a5e4f028bade5e100b3a93aa1f8bad9f22d88deb54cae8514a1cc11
 
 - question: fiscalite-impot-fortune-retabli
   value: 1
@@ -373,11 +451,14 @@
   quote: "il revendique l'imposition des grosses fortunes, la suppression des exonéra- tions fiscales dont bénéficient les grandes entreprises, la taxation des profits"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune revendique l'imposition des grosses fortunes, sans nommer le rétablissement d'un impôt sur la fortune incluant les actifs financiers."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bd3ff6739960a285391190eaab360ca2e3e06c211d40124ec2d12c78c9ff63ea
 
 - question: fiscalite-reduire-credits-impot
   value: 1
@@ -387,11 +468,14 @@
   quote: "il revendique l'imposition des grosses fortunes, la suppression des exonéra- tions fiscales dont bénéficient les grandes entreprises, la taxation des profits"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune demande la suppression des exonérations fiscales des grandes entreprises, ce qui ne porte pas sur l'ensemble des réductions et crédits d'impôt."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bd3ff6739960a285391190eaab360ca2e3e06c211d40124ec2d12c78c9ff63ea
 
 - question: immigration-asile-examen-hors-europe-v2
   value: -1
@@ -401,11 +485,14 @@
   quote: "Les communistes s'opposent à toutes réglementations visant à expulser et à enfermer des migrants dans des cen- tres de rétention quels qu'ils soient, notamment extraterritoriaux"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune s'oppose aux centres de rétention extraterritoriaux prévus par le pacte européen, mesure voisine mais distincte de l'examen des demandes d'asile hors de l'Union, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:354bc3214191b30a60127ab57dfb291764f188a3e15b6cf9454e410a675de6ad
 
 - question: immigration-regularisation-cinq-ans
   value: 1
@@ -415,11 +502,14 @@
   quote: "la régularisation des travailleuses et tra- vailleurs sans papiers comme des familles dont les enfants sont scolari- sés sur le sol français"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune prévoit la régularisation des travailleurs sans papiers et des familles d'enfants scolarisés, sans critère de durée de présence."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ca1a19eec5ed66ab932e880fee59eb378d237e8dca7f918cac56911337b789b4
 
 - question: immigration-regularisation-metiers-tension
   value: 2
@@ -429,11 +519,14 @@
   quote: "la régularisation des travailleuses et tra- vailleurs sans papiers comme des familles dont les enfants sont scolari- sés sur le sol français"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune prévoit la régularisation des travailleurs sans papiers en général, ce qui inclut ceux des métiers en tension."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:319a6d43bc3d0c3f64785e41351557f8d5361709ecfe112534236a914a8d6017
 
 - question: immigration-supprimer-droit-du-sol
   value: -2
@@ -443,11 +536,14 @@
   quote: "Ils refusent la stigmatisation de l'immigration au nom de l'insécu- rité, la remise en cause du droit du sol et du droit d'asile"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune refuse explicitement la remise en cause du droit du sol."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a16df187565e49dbc222e6a5694de37811620043a7234817172a0ac837869b88
 
 - question: immigration-vote-local-etrangers-v2
   value: 2
@@ -457,11 +553,14 @@
   quote: "Ils réaffirment également l'exigence du droit de vote et d'éligibilité des étran- gères et étrangers extracommunau- taires aux élections locales"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune réaffirme le droit de vote et d'éligibilité aux élections locales des étrangers extracommunautaires, c'est-à-dire non ressortissants de l'Union."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b0d83355664d12c6ee186abad3d9b6b613708e018074542bb7db12ab16498336
 
 - question: institutions-adaptation-lois-regions
   value: -1
@@ -471,11 +570,14 @@
   quote: "Une et indi- visible, la République ne peut être morcelée, au nom d'une fausse décentralisation, par un fédéralisme source de concurrences, de fractures et d'inégalités"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune refuse un fédéralisme qui morcellerait la République et rejette l'extension aux régions du modèle corse, sans viser explicitement un pouvoir d'adaptation des lois."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9cc3649a79d3a2c0a5fe893c18882a81a157e8acc8230ff9ab3f3e1af40f194b
 
 - question: institutions-autonomie-corse-constitution-v2
   value: -2
@@ -485,11 +587,14 @@
   quote: "le projet constitutionnel d'autonomie de la Corse est une atteinte grave aux principes et à la conception même de la nation et de la République"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune qualifie le projet constitutionnel d'autonomie de la Corse d'atteinte grave à la République, rejet explicite d'une reconnaissance constitutionnelle de cette autonomie."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b4e6ce22916bde4e39c0935e1e4f97b4ec4fed35d899a32613010479c661e66f
 
 - question: institutions-ordre-du-jour-parlement
   value: 2
@@ -499,11 +604,14 @@
   quote: "Le Parlement doit redevenir le cœur de la vie démocratique, avec des pouvoirs renforcés de contrôle et d'initiative, une véritable capacité d'évaluation et la maîtrise de son ordre du jour"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune demande explicitement que le Parlement ait la maîtrise de son ordre du jour."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5fd0a54912f794fd15d19cbc463d7fb6d2c4055a033239b213889d16acbea574
 
 - question: institutions-parlement-interventions-militaires
   value: 2
@@ -513,11 +621,14 @@
   quote: "Le PCF s'oppose aux forces de projec- tion militaire extérieures en dehors d'un mandat onusien et de l'approba- tion du Parlement français"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune conditionne explicitement toute projection militaire extérieure à l'approbation du Parlement."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9b26d8b67dcbafade5decccd2821846cbc2d0d19075610e158baf8fd49f6e8c0
 
 - question: institutions-proportionnelle-legislatives
   value: 2
@@ -527,11 +638,14 @@
   quote: "L'instauration d'une pro- portionnelle réelle, assurant à tous les courants une représentation corres- pondant à leur influence électorale, est indispensable"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune juge indispensable l'instauration d'une proportionnelle réelle."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cc41d6346da1e91a080140da5f7565e7ed51036ce849638f70f019e37a075a7b
 
 - question: international-primaute-loi-nationale-v2
   value: 1
@@ -541,11 +655,14 @@
   quote: "le PCF propose notamment de ne pas appliquer les directives européennes et de sortir du marché de l'énergie"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune propose de ne pas appliquer les directives européennes dans le domaine de l'énergie, version partielle du principe d'appliquer la loi nationale face à une règle de l'Union, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:98804d8fe3383edb103b7e8ebf7a5ec0c3fbd36ffb05811609a4e5182d432078
 
 - question: international-quitter-commandement-otan
   value: 1
@@ -555,11 +672,14 @@
   quote: "Par la sortie immédiate de l'OTAN, première étape vers sa dissolution"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune demande la sortie immédiate de l'OTAN, ce qui inclut et dépasse la sortie du commandement intégré. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:78650931c6d8ab7a53b82645871de64b2f7e87b6fccc17b92dcb6ac5aeee9560
 
 - question: international-renegocier-traites-competences
   value: 1
@@ -569,11 +689,14 @@
   quote: "Par la remise en cause des traités européens et de la logique capitaliste de la construction de l'UE dans la perspective de la construction d'une Europe de peuples et de nations libres, souverains et associés"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune remet en cause les traités européens au profit de nations souveraines, sans parler explicitement de renégociation des compétences."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fe294b4d622ff4e471ae85e3fe99d50d3e4171502651c3f44ce4ec757c4d5f77
 
 - question: justice-courtes-peines-alternatives
   value: 1
@@ -583,11 +706,14 @@
   quote: "Les peines aménagées doi- vent être favorisées pour les per- sonnes les moins dangereuses"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune favorise les peines aménagées pour les personnes les moins dangereuses, sans viser le remplacement des peines de moins d'un an."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3d6e45bbaa7e1a0d15ddea27889fc3a6112ade5eb33152fc5d31a0271bc1c810
 
 - question: justice-plafonner-detenus-places
   value: 1
@@ -597,11 +723,14 @@
   quote: "Il est aussi nécessaire d'en finir avec la surpopulation carcé- rale"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune veut en finir avec la surpopulation carcérale, sans proposer explicitement un plafonnement du nombre de détenus au nombre de places."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b23190ae9c58081784c0bdda0bc0dee8c7b74ca7738e4d8ebec51f3d65ea895d
 
 - question: numerique-logiciels-libres-administration
   value: 1
@@ -611,11 +740,14 @@
   quote: "il est urgent de constituer un pôle public du numé- rique fondé sur le logiciel libre"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune propose un pôle public du numérique fondé sur le logiciel libre, sans viser l'usage prioritaire du logiciel libre par les administrations."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:302bf6ca3feb4d00fd5aadfa4324c231da3b3f14f510bc3e2065f52b7428d834
 
 - question: sante-assurance-sante-privee-option-v2
   value: -1
@@ -625,11 +757,14 @@
   quote: "Son projet de baisse des cotisations sociales et de mise en place d'assurances privées vise à détruire la Sécurité sociale"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune dénonce la mise en place d'assurances privées comme une destruction de la Sécurité sociale, rejet voisin mais non explicite d'une sortie de l'Assurance maladie au profit d'une assurance privée, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4ed69fec4f5cc95b0d54af90dd54f755ac8c01043784f9a7ed2660b584bff376
 
 - question: sante-mutuelles-part-accrue-v2
   value: -2
@@ -639,11 +774,14 @@
   quote: "La Sécurité sociale doit répondre aux besoins humains et prendre en charge les soins à 100 %"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune veut une prise en charge des soins à 100 % par la Sécurité sociale, contraire explicite d'un transfert de dépenses vers les complémentaires santé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:566cddea96db93a799bfb8ab645c357a6875467a5bf8c5ee99d792367c13d4ee
 
 - question: sante-production-publique-medicaments
   value: 2
@@ -653,11 +791,14 @@
   quote: "Ce projet comporte la création d'un pôle public du médicament afin de réduire nos dépendances"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune propose explicitement un pôle public du médicament pour produire et réduire les dépendances."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b524afefc8c76a2e0cdd956be845faafb063511c24e354dd8d61ae55cfad1cc2
 
 - question: sante-psychologues-rembourses
   value: 1
@@ -667,11 +808,14 @@
   quote: "En intégrant pleine- ment la santé mentale à la Sécurité sociale"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune intègre pleinement la santé mentale à la Sécurité sociale, sans mentionner explicitement le remboursement illimité des consultations de psychologue."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e85be9e687e027cd765fdc3b9d6eee190062b4145c1feb2280edac8634eaaa76
 
 - question: securite-enquetes-policiers-independantes
   value: 1
@@ -681,11 +825,14 @@
   quote: "Par ailleurs, une institution indépendante doit per- mettre les recours contre tout abus"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "Dans le passage sur les forces de sécurité, la base commune prévoit une institution indépendante pour les recours contre les abus, sans lui confier explicitement les enquêtes visant des policiers."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0a6110a63720fdaabd241e5ec05fe2f4465bebbb2fb9d0b4833df2ddc9c1d108
 
 - question: securite-pouvoirs-polices-municipales
   value: -1
@@ -695,11 +842,14 @@
   quote: "La police municipale ne doit pas devenir le supplétif de la police nationale"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune refuse que la police municipale devienne le supplétif de la police nationale, sans viser explicitement ses pouvoirs d'enquête."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:963f9529fe0ca8fe188044220c8b37ed6c1a05139711bc5ccc6b61ec9a612c23
 
 - question: societe-gpa-interdite-v2
   value: 2
@@ -709,11 +859,14 @@
   quote: "le maintien de l'interdiction de la GPA"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune soutient explicitement le maintien de l'interdiction de la GPA."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:658b57216df18c0017e10c9afd41642805666cf4bce6a7f832ec8623a2a6a57f
 
 - question: transport-concurrence-ferroviaire
   value: -1
@@ -723,11 +876,14 @@
   quote: "L'avenir du ferro- viaire doit passer par le retour à une entreprise publique unique et intégrée"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune veut revenir à une entreprise ferroviaire publique unique, ce qui va contre l'ouverture à la concurrence sans la rejeter explicitement."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cb9828d92c2b1987fda626bc49a115afb8a48ec2de0c70cac69e854884629566
 
 - question: transport-gratuite-transports-urbains
   value: 1
@@ -737,11 +893,14 @@
   quote: "Nous inscrirons l'investisse- ment dans des transports publics gratuits, comme nous le faisons dans les communes et les agglomérations"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "Le discours de clôture inscrit au programme l'investissement dans des transports publics gratuits, sans préciser une gratuité généralisée de tous les réseaux urbains."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:12f5475e607928ff1d8f7917d88d6f987e68eb1d87e3b8c79eebe14f1a2db36c
 
 - question: transport-sncf-entreprise-publique-v2
   value: 2
@@ -751,11 +910,14 @@
   quote: "L'avenir du ferro- viaire doit passer par le retour à une entreprise publique unique et intégrée"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune demande le retour à une entreprise ferroviaire publique unique et intégrée, donc détenue intégralement par la puissance publique."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bec11b3021a2807b97669810fdf4b58b47be5a4a45a77a8ef0f6a5ad8478e393
 
 - question: transport-subventionner-fret-ferroviaire
   value: 1
@@ -765,11 +927,14 @@
   quote: "Les infrastructures portuaires, ferroviaires ont besoin d'investissements massifs pour favoriser le fret maritime, fluvial et ferroviaire pour faire reculer la part modale du routier"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune prévoit des investissements massifs pour favoriser le fret ferroviaire face à la route, sans parler de subvention directe du fret."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:839235e957a3a410f81f4c399475697ef4fadc156be4eeafe6676150977f90b4
 
 - question: travail-limiter-licenciements-beneficiaires-v2
   value: 2
@@ -779,11 +944,14 @@
   quote: "la proposition de loi présentée par Yannick Monnet pour interdire les licen- ciements boursiers"
   quoteSource: fabien-roussel-nouvelle-industrialisation-2025
   justification: "Le candidat soutient la proposition de loi visant à interdire les licenciements boursiers, c'est-à-dire décidés par des entreprises qui réalisent des bénéfices."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d65411c256c432011b8735231eef9acdcdf9aabf9094bf1245e71033eae6f850
 
 - question: travail-plateformes-presomption-salariat
   value: 1
@@ -793,11 +961,14 @@
   quote: "Nous serons à leurs côtés pour leur permettre d'avoir accès à un vrai contrat de travail"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "Le discours de clôture veut donner aux livreurs des plateformes un vrai contrat de travail, sans évoquer une présomption de salariat."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7902d30114a61fdb27ed7df4118edf7e489a83a76b44b86be36bee4ae4ff5d47
 
 - question: travail-retraite-62-ans
   value: 1
@@ -807,11 +978,14 @@
   quote: "garantissant une retraite de haut niveau, dès 60 ans à taux plein"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune garantit la retraite dès 60 ans à taux plein, ce qui va au-delà d'un retour à 62 ans. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2c20a4ea9e23a8da968de85646251cef47932b29d8cc679cc05636b32a9c34dc
 
 - question: travail-retraite-au-dela-64-ans
   value: -2
@@ -821,11 +995,14 @@
   quote: "garantissant une retraite de haut niveau, dès 60 ans à taux plein"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune garantit la retraite dès 60 ans à taux plein, à l'opposé d'un report au-delà de 64 ans."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:106f19b74c76d9e4d2d52eebdf2aa4f95ace6688d4815945e53e66b9a5fd4eed
 
 - question: travail-semaine-32-heures
   value: 1
@@ -835,11 +1012,14 @@
   quote: "combinée à une nouvelle étape de réduction du temps de travail"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune prévoit une nouvelle étape de réduction du temps de travail, sans fixer la durée de 32 heures."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:74651a01a673bdcf081e28a0f52faed13aca43d9b3aaafca9acf31638519f95f
 
 - question: travail-statut-fonction-publique-regalien
   value: -1
@@ -849,8 +1029,11 @@
   quote: "le renforce- ment du statut de la fonction publique"
   quoteSource: fabien-roussel-congres-2026-base-commune
   justification: "La base commune demande le renforcement du statut de la fonction publique, ce qui va contre sa restriction aux missions régaliennes."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:47c6400f795f9f75cc44c51e946159874c56d88c13a69e01989bd443e2e66c35

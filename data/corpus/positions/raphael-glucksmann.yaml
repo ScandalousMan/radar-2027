@@ -1,5 +1,5 @@
-# Positions de Raphaël Glucksmann (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
-# provenance manual), à relire par adrien avec pnpm data:review.
+# Positions de Raphaël Glucksmann (FR-016 à FR-022). Rédigées par claude (extraction en session,
+# provenance manual), relues par adrien le 2026-11-14 (pnpm data:review).
 
 - question: agriculture-bio-restauration-collective-v2
   value: 1
@@ -9,11 +9,14 @@
   quote: "Faire de la cantine le lieu d'accès universel à une alimentation saine, locale et bio"
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: "La plateforme veut faire de la cantine le lieu d'une alimentation saine, locale et bio, sans fixer de part minimale de 30 % des achats, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2ede23b73b9ca9e3cf230dcfeaa16c2f48b6962eb77a4944f9c9f8393f7903e7
 
 - question: agriculture-chalut-aires-protegees
   value: 1
@@ -23,11 +26,14 @@
   quote: faire en sorte que les aires marines protégées soient réellement protégées (chalutage)
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut protéger réellement les aires marines protégées en visant le chalutage, sans formuler explicitement une interdiction du chalut de fond.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:70557b314ab941ba2ebc3a779d9296b0815c9503998018cf8939372f9d92e45d
 
 - question: agriculture-derogations-neonicotinoides
   value: -2
@@ -37,11 +43,14 @@
   quote: Éliminer les produits chimiques dangereux en interdisant les pesticides les plus néfastes, glyphosate, néonicotinoïdes tueurs d'abeilles
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose d'interdire les néonicotinoïdes, ce qui est l'inverse de dérogations permettant leur usage.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cc8481223f08b1ebabada656d597c89388cdb4b657878f57ea48a8384a3d1820
 
 - question: agriculture-interdire-glyphosate
   value: 2
@@ -51,11 +60,14 @@
   quote: Éliminer les produits chimiques dangereux en interdisant les pesticides les plus néfastes, glyphosate, néonicotinoïdes tueurs d'abeilles
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose explicitement d'interdire le glyphosate.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:dbd9bb21f46cdcd14eda864b1a088bb2571a5ce343d8fb6ecceecb03be632d89
 
 - question: agriculture-interdire-poules-cage
   value: 1
@@ -65,11 +77,14 @@
   quote: porter au niveau européen la disparition par étape de l'élevage en cage
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut faire disparaître par étapes l'élevage en cage au niveau européen, sans interdiction nationale immédiate ni mention spécifique des poules pondeuses.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b9315057887f22890dc9edc55d49058c1a7caf40653cd592f18059d7aa79042a
 
 - question: agriculture-pesticides-moitie-2030
   value: 1
@@ -79,11 +94,14 @@
   quote: Réduire massivement les intrants chimiques et soutenir les alternatives durables
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut réduire massivement les intrants chimiques, sans objectif chiffré ni échéance 2030.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e4551d2acce903f793486a5e98bfc9353efc5a64472a076b0e3ffd49b5a330c7
 
 - question: agriculture-plafonner-aides-pac
   value: 2
@@ -93,11 +111,14 @@
   quote: en plafonnant les aides comme en Espagne pour rediriger les fonds vers les petites fermes
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose explicitement de plafonner les aides de la PAC.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ba0f04d72b61eb1e67c256436b8d96ed119638265e7ea9c37e35923aee0e3f16
 
 - question: agriculture-prix-plancher-agricoles
   value: 2
@@ -107,11 +128,14 @@
   quote: Garantir le revenu des agriculteurs par la mise en place de prix planchers rémunérateurs
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose explicitement des prix planchers pour garantir le revenu agricole.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0746dc2d263fd7baf79b64868dc167e5978048afbb796a97966880a47704fe12
 
 - question: agriculture-retenues-eau-irrigation
   value: -1
@@ -121,11 +145,14 @@
   quote: Refuser les méga-bassines au profit de solutions locales réfléchies avec les agriculteurs
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme refuse les méga-bassines, une catégorie de retenues d'eau, sans se prononcer sur l'ensemble des retenues pour l'irrigation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f9ee4b802e6cf2d6e91d45a19e92fa6dc912d0573c88dfbeca704dd06443cc96
 
 - question: defense-armes-ukraine
   value: 2
@@ -135,11 +162,14 @@
   quote: Augmenter drastiquement l'aide militaire à l'Ukraine qui est notre première ligne de défense
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose d'augmenter fortement l'aide militaire à l'Ukraine.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:999d4a216decab7e799d342aa7874f2491f57550cafdf5fc9b7e9b441a942c63
 
 - question: defense-defense-europeenne-emprunt
   value: 2
@@ -149,11 +179,14 @@
   quote: Oeuvrer à la mise en place rapide d'un fonds européen de défense de 500 milliards d'euros via un emprunt commun
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose un fonds européen de défense financé par un emprunt commun.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b1dd45b7f2855d6722faa188d2ed3914bc04195073ce43552070bee83d788500
 
 - question: defense-dissuasion-protection-europe-v2
   value: 2
@@ -163,11 +196,14 @@
   quote: "Proposer à nos partenaires de l'UE d'étendre la dissuasion nucléaire française aux autres pays de l'Union européenne"
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: "La plateforme propose d'étendre la dissuasion nucléaire française aux autres pays de l'Union européenne, la décision d'emploi restant française."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:839b948705a8603a08cd2c8fe786544f36ea0cb42b43a49659fe1f998ffaf01a
 
 - question: defense-doubler-reservistes
   value: 1
@@ -177,11 +213,14 @@
   quote: Augmenter drastiquement la réserve opérationnelle, la mettant au cœur de la défense nationale.
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut augmenter fortement la réserve opérationnelle, sans fixer d'objectif de doublement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5f37392acb3b7a85ea8f9c7d64120a557f5946916b638d94eeff94721a9228e3
 
 - question: democratie-conventions-citoyennes
   value: 1
@@ -191,11 +230,14 @@
   quote: généraliser des conventions citoyennes
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut généraliser les conventions citoyennes, sans préciser qu'elles seraient consultées avant chaque grande réforme.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7fb965e8fce4bd7f40c74841a8b5fd87ed051e33ff5d0fdfbce2b3d7b4c73143
 
 - question: democratie-referendum-initiative-citoyenne
   value: 1
@@ -205,11 +247,14 @@
   quote: Instaurer un droit d'initiative citoyenne, permettant de déclencher des séquences démocratiques avec des référendums à l'échelle locale et nationale
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose un droit d'initiative citoyenne pouvant déclencher des référendums nationaux, sans préciser le mécanisme de pétition ni de seuil.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4d43eebd58ad589b8d1fdef5548f856dffbf52fadcd38b69c498c1e16817818b
 
 - question: democratie-referendum-local-initiative
   value: 1
@@ -219,11 +264,14 @@
   quote: Instaurer un droit d'initiative citoyenne, permettant de déclencher des séquences démocratiques avec des référendums à l'échelle locale et nationale
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose un droit d'initiative citoyenne pouvant déclencher des référendums locaux, sans préciser le mécanisme de pétition.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4d43eebd58ad589b8d1fdef5548f856dffbf52fadcd38b69c498c1e16817818b
 
 - question: democratie-referendum-reserve-elus-v2
   value: -1
@@ -233,11 +281,14 @@
   quote: "Instaurer un droit d'initiative citoyenne, permettant de déclencher des séquences démocratiques avec des référendums à l'échelle locale et nationale"
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: "La plateforme veut que des citoyens puissent déclencher des référendums nationaux, ce qui s'oppose à un déclenchement réservé au président et au Parlement, mais les modalités restent imprécises, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1f191dfa1eef287b34e34e0a5408c6e8fb9e61cedd65230acd2da76a64584fe6
 
 - question: democratie-vote-16-ans
   value: 2
@@ -247,11 +298,14 @@
   quote: Ouvrir le droit de vote à 16 ans et pour les étrangers extra-communautaires aux élections locales
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose explicitement le droit de vote à 16 ans.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7ac6334969cd3c690c47ba76ad11a6ab845190af0a5abb0dfd7d213733bd0778
 
 - question: economie-accords-libre-echange
   value: -1
@@ -261,11 +315,14 @@
   quote: s'opposer aux traités comme le Mercosur qui placent nos éleveurs dans une situation injuste et intenable
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme s'oppose à des traités comme le Mercosur, sans rejeter en termes généraux tout nouvel accord de libre-échange.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d2320d13a98c435503688e1dca05c9ba103a6cecf24c05b9372166af0a56e5bb
 
 - question: economie-controle-rachats-etrangers
   value: 1
@@ -275,11 +332,14 @@
   quote: surveiller de près les investissements étrangers dans les secteurs stratégiques
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut surveiller de près les investissements étrangers dans les secteurs stratégiques, sans détailler un renforcement du contrôle des rachats.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a240071637e7e6dbb09c395f74e3ea4b93bf4baab84db190dd1797df6f957145
 
 - question: economie-plafonnement-loyers-zones-tendues
   value: 1
@@ -289,11 +349,14 @@
   quote: "Encadrer les loyers dans les zones en grande tension pour garantir l'accès au logement aux ménages modestes."
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: "La plateforme veut encadrer les loyers dans les zones en grande tension, sans dire que cet encadrement s'imposerait à toutes les zones tendues indépendamment des élus locaux, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:28a5d4957659db78b4c411392184f996aec62cf17f0c1bc3a21570457945d367
 
 - question: economie-plafonner-prix-alimentaires
   value: 1
@@ -303,11 +366,14 @@
   quote: Plafonner les prix des biens de première nécessité et des produits essentiels
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose de plafonner les prix des biens de première nécessité, mais seulement dans les Outre-mer.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:44c1d5d9325c5decf00b8585ded6611705ed330e447fe187ea133399c3c3db25
 
 - question: economie-prix-energie-reglementes
   value: 1
@@ -317,11 +383,14 @@
   quote: Fixer une partie de la facture des ménages, entreprises, industriels et collectivités sur le coût de production de notre électricité nucléaire et renouvelable
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut indexer une partie de la facture d'électricité sur les coûts de production, une régulation partielle limitée à l'électricité.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2dbea4a79f27a8044cd856125ae6f651377da6ff798e2478d7de75531906ad08
 
 - question: energie-reduire-part-nucleaire
   value: -1
@@ -331,11 +400,14 @@
   quote: Conforter le rôle du nucléaire, énergie pilotable et décarbonée, en assurant la sûreté des centrales existantes et la construction à temps de nouvelles unités
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut conforter le rôle du nucléaire et construire de nouvelles unités, sans se prononcer explicitement sur sa part dans le mix.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c29b27026c9d6f43a7c035689dc8b3f9ea2a89a70ff8030ac08a5a0568c6bbb1
 
 - question: energie-supprimer-aides-solaire-eolien
   value: -1
@@ -345,11 +417,14 @@
   quote: Lancer un grand plan d'investissement pluriannuel dans toutes les énergies renouvelables
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose un plan d'investissement dans toutes les énergies renouvelables, sans se prononcer explicitement sur les aides à la production solaire et éolienne.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6e7f9fc0b568a7023cf8337ff8f4268ad6be9f87ef975a219965958b30b75591
 
 - question: environnement-assouplir-artificialisation
   value: -2
@@ -359,11 +434,14 @@
   quote: Défendre résolument les objectifs du Zéro Artificialisation Nette des sols (ZAN)
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme défend explicitement les objectifs du ZAN, tout en voulant sortir d'une logique purement comptable dans leur application.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:41ea94faf9843dab6327d8209a2825c1ccfe4b00106a829d2703c97d9a039558
 
 - question: environnement-interdire-vols-interieurs
   value: 1
@@ -373,11 +451,14 @@
   quote: étendre l'interdiction des vols intérieurs avec alternative ferroviaire viable
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut étendre l'interdiction des vols intérieurs quand une alternative ferroviaire existe, sans fixer le seuil de quatre heures.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2190efbbedc906de3d689612697f992135062107bca8ed8b774dbe46a044e5c0
 
 - question: environnement-plastique-usage-unique-2030
   value: 2
@@ -387,11 +468,14 @@
   quote: fin des plastiques à usage unique d'ici 2030
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose la fin des plastiques à usage unique d'ici 2030.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:459ea95edbdbfd05287804646fbbb2a4feb055a51e387bbc298da3956abb8efe
 
 - question: environnement-taxer-kerosene-vols-interieurs
   value: 2
@@ -401,11 +485,14 @@
   quote: suppression des exonérations de TVA et de taxe sur le kérosène
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose de supprimer l'exonération de taxe sur le kérosène, ce qui inclut les vols intérieurs.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f5b19a47798344a52a48e0cefd7adb37d07064a4577511ca75f0e42a98d89d29
 
 - question: fiscalite-capital-aligne-travail
   value: 1
@@ -415,11 +502,14 @@
   quote: Rééquilibrage de la fiscalité entre le travail, le capital et l'héritage
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut rééquilibrer la fiscalité entre travail et capital, sans proposer explicitement un alignement des taux.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:28c7f905d6dfefe6dff79287b1aacafe756954ffcf557f736b35401f65ee0a25
 
 - question: fiscalite-impot-minimum-grandes-fortunes-v2
   value: 1
@@ -429,11 +519,14 @@
   quote: "Effort fiscal nouveau, ciblé sur les très hauts patrimoines et les grands groupes"
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: "La plateforme prévoit un effort fiscal nouveau sur les très hauts patrimoines, sans préciser de prélèvement minimal, de seuil ni de taux, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:29f8e3199044b9289ffc0283f0fe2a2a8378baa886eb549045c1790341f41811
 
 - question: fiscalite-reduire-credits-impot
   value: 1
@@ -443,11 +536,14 @@
   quote: Supprimer des niches fiscales inefficaces et inefficientes.
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut supprimer des niches fiscales jugées inefficaces, sans objectif de réduction de moitié.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:21e7355567a9dc7914f09c1341053a076f02b327b4520369cdf336be93918ca3
 
 - question: fiscalite-reduire-droits-succession
   value: -1
@@ -457,11 +553,14 @@
   quote: rééquilibrer la répartition de la taxation entre le travail, le capital, l'héritage et les retraites pour sortir de cette impasse injuste qui favorise les héritiers
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme juge que la fiscalité actuelle favorise les héritiers et veut la rééquilibrer, sans proposer explicitement de hausse des droits de succession.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f695820b511925a990ebd6d6e50d3d98560297e41c2e28a8995e8de34fed2c8e
 
 - question: fiscalite-taxe-benefices-exceptionnels
   value: 2
@@ -471,11 +570,14 @@
   quote: Mise en place d'un mécanisme automatique de taxation des superprofits des multinationales et des profiteurs de guerre.
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose explicitement une taxation automatique des superprofits.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3d093091c53dbcee9843e53a09098932c09de24db9ba239066cb33067db578cd
 
 - question: immigration-asile-droit-travail
   value: 2
@@ -485,11 +587,14 @@
   quote: ouvrir le droit au travail, sans autorisation spécifique, dès l'enregistrement de la demande d'asile
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose explicitement le droit au travail dès l'enregistrement de la demande d'asile.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:11832bf4a6b26479b68da06517e05fb27508eff6b4eee23486019f31548e79c7
 
 - question: immigration-asile-examen-hors-europe-v2
   value: -2
@@ -499,11 +604,14 @@
   quote: "refuser l'externalisation de nos politiques migratoires et d'asile"
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: "La plateforme refuse explicitement l'externalisation des politiques d'asile, donc l'examen des demandes dans des centres hors de l'Union européenne."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f2135d8f7aac5d1fd2a26bde64e22581415eb6af6676cc61d7e1f9de53ab479f
 
 - question: immigration-regularisation-metiers-tension
   value: 1
@@ -513,11 +621,14 @@
   quote: Faciliter les démarches de régularisation des travailleurs sans papiers
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut faciliter la régularisation des travailleurs sans papiers en général, sans en faire un droit ni viser les métiers en tension.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1d40550e76911c7ff28cd2fee033eeb963283202d146b9e769a77652892014d7
 
 - question: immigration-titre-sejour-longue-duree
   value: 1
@@ -527,11 +638,14 @@
   quote: Généraliser la carte de séjour pluriannuelle en en faisant le titre de séjour de référence.
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut faire de la carte pluriannuelle le titre de référence, une durée intermédiaire plutôt qu'un titre de longue durée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:18e0173cb4f9c4ad79b36883ccb53fc1bf0aaa910c37bac0dc3faa71ef9fa22e
 
 - question: immigration-voies-legales-travail-ue
   value: 2
@@ -541,11 +655,14 @@
   quote: Créer des voies légales et sécurisées d'immigration de travail et passer des accords bilatéraux (au niveau français ou européen)
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose de créer des voies légales d'immigration de travail, y compris au niveau européen.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3c50482d9824ce16952feb8ad54cca0b3c7af68c1828d75a16090d6619fdffd8
 
 - question: immigration-vote-local-etrangers-v2
   value: 2
@@ -555,11 +672,14 @@
   quote: "Ouvrir le droit de vote à 16 ans et pour les étrangers extra-communautaires aux élections locales"
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: "La plateforme propose explicitement le droit de vote des étrangers extra-communautaires aux élections locales."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7ac6334969cd3c690c47ba76ad11a6ab845190af0a5abb0dfd7d213733bd0778
 
 - question: institutions-autonomie-fiscale-collectivites
   value: 2
@@ -569,11 +689,14 @@
   quote: en renforçant le pouvoir d'imposition des collectivités
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose explicitement de renforcer le pouvoir d'imposition des collectivités.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:86a626da6460ccd366b8f6c1a23eaac05480e44992d52167c5efeb634b915e3d
 
 - question: institutions-investiture-premier-ministre
   value: 2
@@ -583,11 +706,14 @@
   quote: Investir le premier ministre par un vote de confiance de l'Assemblée nationale
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose explicitement l'investiture du Premier ministre par un vote de confiance de l'Assemblée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2536dd3e6e5dc446c2d20f4cc863403c5bf4165f55e2bea215710dba2f4b033f
 
 - question: institutions-maintenir-article-40
   value: -2
@@ -597,11 +723,14 @@
   quote: "renforcer le pouvoir d'initiative et d'amendement du Parlement (fin de l'article 40)"
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: "La plateforme propose explicitement la fin de l'article 40, qui empêche les parlementaires de créer ou d'aggraver une charge publique."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e475ee4918c4086553f44ca51408184364a222397f213be5289e714b02261a49
 
 - question: institutions-pouvoirs-commissions-enquete
   value: 2
@@ -611,11 +740,14 @@
   quote: "Renforcer le contrôle du Parlement sur l'action gouvernementale : transparence sur les décrets d'application, évaluation rigoureuse du budget, droit d'enquête élargi"
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose un droit d'enquête élargi pour le Parlement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9fed7c56ab7cb781fe6d09061fefc68801bfb2f74acb6ad2f98d77f08007b3c8
 
 - question: institutions-proportionnelle-legislatives
   value: 2
@@ -625,11 +757,14 @@
   quote: Instaurer immédiatement la proportionnelle, de préférence par circonscriptions régionales
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose explicitement le scrutin proportionnel pour les législatives.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fa512ec7b947476333633d05032e137d85bc3859be2a622be16ede1f56565e8e
 
 - question: institutions-supprimer-49-3
   value: 2
@@ -639,11 +774,14 @@
   quote: ce qui permettra de mettre fin au 49.3
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose une motion de censure constructive présentée comme mettant fin au 49.3.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5bd1608c6bebeec85a17cdec2407d6c726582bdbcbe1d6ebb185d2bcea3f578b
 
 - question: international-aide-developpement-0-7
   value: 2
@@ -653,11 +791,14 @@
   quote: atteindre progressivement 0,7 % du RNB dédié à l'aide publique au développement
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose une programmation pour atteindre progressivement 0,7 % du RNB d'aide au développement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f5feef473c98c08e52c32642f12560c832f244dbffd82843972258cc5fe17f55
 
 - question: international-emprunt-commun-ue
   value: 2
@@ -668,11 +809,14 @@
   quote: Oeuvrer à la mise en place rapide d'un fonds européen de défense de 500 milliards d'euros via un emprunt commun
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose un emprunt commun européen pour financer des investissements de défense ; le compte rendu de son livre évoque aussi un grand emprunt européen.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6df3efca8b7c11b016b731341992f0ba3994f89c4306a3a46c0c0477a3ec2ebc
 
 - question: international-impots-propres-ue
   value: 1
@@ -682,11 +826,14 @@
   quote: attribuer à l'Union des ressources propres nouvelles
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut de nouvelles ressources propres pour l'UE, sans préciser qu'il s'agirait d'impôts.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9e62bb41c645835135e80aa503d0f59d4e6f980466a0c985e446a0602ece7c6f
 
 - question: international-initiative-parlement-europeen
   value: 2
@@ -696,11 +843,14 @@
   quote: donnant le pouvoir d'initiative législative au Parlement européen
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose explicitement le droit d'initiative législative pour le Parlement européen.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9365b347be052df004dd2218e8309707f62f957f07f5a1fdd48f091ea9cfea58
 
 - question: international-majorite-qualifiee-ue
   value: 2
@@ -710,11 +860,14 @@
   quote: passant à la majorité qualifiée au Conseil européen
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose le passage à la majorité qualifiée au Conseil européen.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e9d0a035c1c751421db08713fc65aa33ef560da73b10fc873de754a633517fae
 
 - question: international-renforcer-sanctions-russie
   value: 1
@@ -724,11 +877,14 @@
   quote: Interdire immédiatement toute importation de gaz russe
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose d'interdire les importations de gaz russe, une mesure ciblée plutôt qu'un renforcement général des sanctions.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c613c7940442d9ea1fd3c2a253505da48250fbd67905fabc2ed185b46ff21969
 
 - question: justice-justice-restaurative-systematique
   value: 1
@@ -738,11 +894,14 @@
   quote: Déployer massivement la justice restaurative et les travaux d'intérêt général (TIG)
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut déployer massivement la justice restaurative, sans la rendre systématique.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d36db85889407f49d3a369c479ca08c15b14cf27fa9e27cb6a5543b9076e1d94
 
 - question: justice-tig-delits-sans-violence
   value: 1
@@ -752,11 +911,14 @@
   quote: délits mineurs et infractions du quotidien doivent pouvoir être traités localement grâce à la médiation, aux travaux d'intérêt général et aux sanctions pédagogiques
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut traiter les délits mineurs notamment par des TIG, sans poser de préférence générale du TIG sur la prison pour les délits sans violence.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a1e95bdb569bfce44341ffe65fca16436e4b06837f979c9905a0cea5f85d8e32
 
 - question: numerique-ia-remuneration-auteurs
   value: 1
@@ -766,11 +928,14 @@
   quote: développer la protection du droit d'auteur et des créateurs, notamment face aux défis posés par les plateformes d'intelligence artificielle générative
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut protéger le droit d'auteur face à l'IA générative, sans mentionner explicitement une rémunération pour l'entraînement des modèles.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3c657cb2caed13fe047400a167c38602af808794172e6f4f2f4192a2b6116326
 
 - question: numerique-logiciels-libres-administration
   value: 1
@@ -780,11 +945,14 @@
   quote: investir dans les alternatives numériques libres et européennes
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut investir dans les alternatives numériques libres et européennes, sans viser spécifiquement leur usage prioritaire par les administrations.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8e235392b7646fc4cd83410d0032ca52f3c321b5d34bb6c48614cf9ec28b668c
 
 - question: numerique-reseaux-sociaux-moins-15-ans
   value: 2
@@ -794,11 +962,14 @@
   quote: Interdire les réseaux sociaux pour les moins de 15 ans
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose explicitement d'interdire les réseaux sociaux aux moins de 15 ans.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4f875485789d2022c39e0ce7f842e980fc9c206e507c4340339940b69e449f56
 
 - question: numerique-taxe-plateformes
   value: 2
@@ -808,11 +979,14 @@
   quote: une hausse ciblée de la taxe GAFAM
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme prévoit une hausse de la taxe GAFAM, qui porte sur le chiffre d'affaires réalisé en France.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3437d11246d6ac26a18b71f98585cc5e122bada7549f848e392f9097b3aa6f15
 
 - question: sante-taxer-boissons-sucrees
   value: 2
@@ -822,11 +996,14 @@
   quote: taxer davantage les boissons trop sucrées
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose explicitement de taxer davantage les boissons sucrées.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d315db3af66bbc4e98b1eeb600fbebd7aed2aa6fb791b893502d8ccac5606ebf
 
 - question: securite-pouvoirs-polices-municipales
   value: -1
@@ -836,11 +1013,14 @@
   quote: Réaffirmer le rôle de la police municipale, centré sur la proximité et la prévention.
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut centrer la police municipale sur la proximité et la prévention, ce qui va à l'opposé d'un alignement de ses pouvoirs d'enquête sur la police nationale, sans rejet explicite.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7ba9bceca7c9ba7a465c485bcec3e7c3ae00f9bd81e3221379064d606b387e5e
 
 - question: securite-recepisse-controles-identite
   value: 2
@@ -850,11 +1030,14 @@
   quote: Généraliser les récépissés de contrôle d'identité.
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose explicitement de généraliser les récépissés de contrôle d'identité.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6130de97650c9d32435315229f19e087915b68e83475b387341ef37d5a38f6e2
 
 - question: societe-service-national-obligatoire
   value: 1
@@ -864,11 +1047,14 @@
   quote: Raphaël Glucksmann propose également d'instaurer un service civique obligatoire de dix mois pour toutes les jeunes Français
   quoteSource: raphael-glucksmann-livre-2026-lcp
   justification: "Selon le compte rendu de son livre, il propose un service civique obligatoire de dix mois pour tous les jeunes, la dimension militaire restant volontaire : version partielle d'un service national obligatoire, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:34b138b6f0dde6d845209cae2d9e5f23fef684ea4eaf71ae8ccd0b50a4870648
 
 - question: societe-simplifier-changement-sexe-etat-civil
   value: 1
@@ -878,11 +1064,14 @@
   quote: Respecter les identités et garantir le droit à l'autodétermination de genre
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: "La plateforme veut garantir l'autodétermination de genre, ce qui va au-delà d'une simple simplification de la procédure. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2ab8cc3f2a30aa250197c11c84d7b745208eb9b92068a22a52209f90b6d19d28
 
 - question: transport-abandonner-nouvelles-lgv
   value: -2
@@ -892,11 +1081,14 @@
   quote: Relancer les trains de nuit, accélérer les LGV et les liaisons prioritaires pour faire l'Europe du Rail.
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose d'accélérer les LGV, l'inverse de leur abandon.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1981f224e1a2cd4da2b7541655cb06ff64ce75b5d6121eef6bb06368e2988624
 
 - question: transport-abonnement-national-unique
   value: 1
@@ -906,11 +1098,14 @@
   quote: "Faire le Ticket climat : un titre de transport unique, à tarif fixe, abordable et valable à l'échelle nationale pour les transports du quotidien, d'abord réservé aux jeunes et aux publics précaires."
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose un titre national unique pour les transports du quotidien, d'abord réservé aux jeunes et aux publics précaires.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f49275fe5b69783bd119938adfaecc961f3f48f94164248581a9f9650923964b
 
 - question: transport-doubler-investissement-ferroviaire
   value: 1
@@ -920,11 +1115,14 @@
   quote: Lancer un Plan Rail national en lien avec les régions, en démultipliant les aides à SNCF Réseau
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut démultiplier les aides à SNCF Réseau, sans objectif de doublement sur le quinquennat.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e58b6bea4f6b3b383d97b426042070ce7c203c9f392adfbef9bd361047a791c4
 
 - question: transport-milliard-amenagements-cyclables
   value: 1
@@ -934,11 +1132,14 @@
   quote: Doubler les déplacements à vélo en 10 ans grâce à un plan de développement d'infrastructures cyclables sûres
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme prévoit un plan d'infrastructures cyclables, sans montant annuel.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d86d0b9e0b90f1a2cf399dff1cb4a40290a7bab6273d39a07d5df21bb45bea6a
 
 - question: transport-petites-lignes-maintenues
   value: 1
@@ -948,11 +1149,14 @@
   quote: développer les trains légers en zones rurales, relancer les Trains d'Équilibre du Territoire
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut développer la desserte ferroviaire rurale, sans s'engager explicitement sur le maintien des lignes peu fréquentées.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a7c97eae04e7ba7a732dbb577dbdf92ae65518e49fa6c7e514b2e662b1fd97c1
 
 - question: transport-subventionner-fret-ferroviaire
   value: 1
@@ -962,11 +1166,14 @@
   quote: Soutenir le fret ferroviaire en modernisant les lignes
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut soutenir le fret ferroviaire par la modernisation des lignes, sans subvention explicite à l'exploitation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c823d5b558832ee9c99851025fe1d1b417b3fac63018510401cf45b8933a2db2
 
 - question: transport-taxe-kilometrique-poids-lourds
   value: 1
@@ -976,11 +1183,14 @@
   quote: taxer les camions européens qui traversent nos territoires sans payer aujourd'hui la moindre taxe
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut taxer les camions européens en transit, sans préciser une taxe kilométrique sur tous les poids lourds.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:205826904f1328212ab850bb1412a090a90865ba5bb734c2884120f8b33346bf
 
 - question: transport-trains-de-nuit
   value: 1
@@ -990,11 +1200,14 @@
   quote: Relancer les trains de nuit, accélérer les LGV et les liaisons prioritaires pour faire l'Europe du Rail.
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut relancer les trains de nuit, sans préciser un financement de nouvelles lignes par l'État.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:19d9197289c598e98c6ffeb893ffbb30ab7582086b376cd7904e7aabf5b3eb2e
 
 - question: travail-durcir-indemnisation-chomage
   value: -2
@@ -1004,11 +1217,14 @@
   quote: Abroger la réforme Macron de l'assurance chômage, injuste et inefficace.
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose d'abroger la réforme de l'assurance chômage, l'inverse d'un durcissement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:91359917a93f963d4cbbee3071d9843af956b8e1b55b41d67d1edcc894365e28
 
 - question: travail-duree-travail-accord-entreprise
   value: -1
@@ -1018,11 +1234,14 @@
   quote: "Protéger les salariés : redonner la priorité aux accords de branches professionnelles par rapport aux accords d'entreprise."
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut redonner la priorité aux accords de branche sur les accords d'entreprise, sans viser explicitement la durée du travail.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5e71b499224ffb0dd82b8b9d3811a5ea84ce675b77930b42ef84d58665002f7b
 
 - question: travail-elargir-penibilite-retraite
   value: 1
@@ -1032,11 +1251,14 @@
   quote: mieux prendre en compte les carrières pénibles et les parcours hachés
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut mieux prendre en compte les carrières pénibles pour la retraite, sans parler explicitement d'élargir les critères.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f2c745c773d93fb09bd4197d6024ae9bc2e6bb5aaf89696096d4530befc1e69e
 
 - question: travail-indexation-salaires
   value: 1
@@ -1046,11 +1268,14 @@
   quote: indexant leur point d'indice sur l'inflation
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose d'indexer le point d'indice des fonctionnaires sur l'inflation, et non l'ensemble des salaires.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f66e5425d53c42fdf163fd0a9c30c43a69b36aa264b8e03c07950adb59df534c
 
 - question: travail-plafonner-ecart-salaires
   value: 1
@@ -1060,11 +1285,14 @@
   quote: Travailler à limiter les écarts de salaires dans une même entreprise
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut travailler à limiter les écarts de salaires dans une entreprise, sans plafond légal explicite.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8c5a0108d0f4090c34d905cfb7c65297e2b6b8d5765063d5a036f156443158b3
 
 - question: travail-retraite-62-ans
   value: 1
@@ -1074,11 +1302,14 @@
   quote: Abroger la réforme Macron de 2023.
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose d'abroger la réforme de 2023, qui avait porté l'âge légal à 64 ans, tout en voulant cesser la focalisation sur l'âge légal et faire travailler certains plus longtemps.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:98e9b4ed6b2dbd16e46284869672fee63d9d01ffa8d868a125941b162f7951ee
 
 - question: travail-salaries-conseils-administration
   value: 1
@@ -1088,11 +1319,14 @@
   quote: Intégrer davantage les représentants des salariés dans les conseils d'administration des entreprises, dès 100 salariés
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme veut davantage de représentants des salariés dans les conseils d'administration, sans fixer la part d'un tiers.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7d915df8837fce0dee616ca2980bc4732e390566880281c2c82bf8643b9e34a1
 
 - question: travail-smic-au-dela-inflation
   value: 2
@@ -1102,8 +1336,11 @@
   quote: Augmenter le SMIC à 1600 euros net dans les deux ans qui suivent notre accession au pouvoir.
   quoteSource: raphael-glucksmann-place-publique-acte-1
   justification: La plateforme propose de porter le SMIC à 1 600 euros net en deux ans, une hausse au-delà de l'inflation.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8d8cd8458c92e1ff5b533a17a123d2e94b2c32afd4f236172a0db3c0f0cb19df

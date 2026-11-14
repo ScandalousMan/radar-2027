@@ -1,5 +1,5 @@
-# Positions de David Lisnard (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
-# provenance manual), à relire par adrien avec pnpm data:review.
+# Positions de David Lisnard (FR-016 à FR-022). Rédigées par claude (extraction en session,
+# provenance manual), relues par adrien le 2026-11-14 (pnpm data:review).
 
 - question: democratie-champ-referendum-inchange
   value: -2
@@ -9,11 +9,14 @@
   quote: "L'article 11 sera libéré de ses limites thématiques : tout sujet pourra être soumis au pays - l'immigration, l'école, la justice, la dépense publique."
   quoteSource: david-lisnard-discours-bayeux-2026
   justification: "Le discours veut supprimer les limites thématiques de l'article 11 pour que tout sujet puisse être soumis à référendum, soit le contraire explicite du maintien du champ actuel."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:50860eb7fd20cb35889a778de9990d5c37a07914f399862106d4a4886ab66cab
 
 - question: democratie-referendum-initiative-citoyenne
   value: 2
@@ -23,11 +26,14 @@
   quote: "Le référendum d'initiative populaire sera vraiment institué et rendu praticable, avec un seuil de signatures atteignable et, au terme du délai, un vote garanti."
   quoteSource: david-lisnard-discours-bayeux-2026
   justification: "Le discours annonce l'institution d'un référendum d'initiative populaire déclenché par un seuil de signatures, ce qui correspond à la mesure de l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d603613235be43614759645c750b91ed713b58374ecf447fac286e259b3b6256
 
 - question: democratie-referendum-reserve-elus-v2
   value: -2
@@ -37,11 +43,14 @@
   quote: "Le référendum d'initiative populaire sera vraiment institué et rendu praticable, avec un seuil de signatures atteignable et, au terme du délai, un vote garanti."
   quoteSource: david-lisnard-discours-bayeux-2026
   justification: "Le discours prévoit un référendum déclenché par les citoyens avec vote garanti, ce qui retire au président et au Parlement l'exclusivité du déclenchement d'un référendum national."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d64fe12a7ee35e0e81b36eb6b87176debc833e5a2d2449ed272051805b61f4af
 
 - question: democratie-seuil-rip-maintenu-v2
   value: -1
@@ -51,11 +60,14 @@
   quote: "Le référendum d'initiative populaire sera vraiment institué et rendu praticable, avec un seuil de signatures atteignable et, au terme du délai, un vote garanti."
   quoteSource: david-lisnard-discours-bayeux-2026
   justification: "Le discours réclame un seuil de signatures « atteignable » pour le référendum d'initiative populaire, sans nommer le RIP ni chiffrer le seuil, d'où -1 plutôt que -2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1e4642a96924978843a33a0f6f76ebfa277e0d4368404e22055a0a7386b4ca88
 
 - question: economie-alleger-regles-entreprises
   value: 2
@@ -65,11 +77,14 @@
   quote: "diviser par deux les contraintes administratives imposées aux entreprises et aux citoyens."
   quoteSource: david-lisnard-programme-maitre-de-notre-destin
   justification: "Le programme fixe l'objectif de diviser par deux les contraintes administratives imposées aux entreprises, ce qui correspond à l'allègement de l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0d1786eb52bd3653ea1694667a47f38cb0738d2e21c61d3b7ce9a611b266bf24
 
 - question: economie-baisse-depense-publique
   value: 1
@@ -79,11 +94,14 @@
   quote: "Comme l'ont montré les exemples de la Suède et de l'Allemagne il est possible de les réduire de 8 points de PIB en 10 ans et de les maintenir en-deçà de 50%."
   quoteSource: david-lisnard-programme-maitre-de-notre-destin
   justification: "Le programme présente comme atteignable une baisse des dépenses publiques de 8 points de PIB en 10 ans, sans engagement chiffré sur la durée d'un quinquennat, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ba3a2bd889bbcf535eaa826034df4ef6ef560e4cf1613486ac4d1590d30eab87
 
 - question: economie-regle-equilibre-constitution
   value: 1
@@ -93,11 +111,14 @@
   quote: "la France doit désormais s'astreindre à une règle institutionnelle de limitation des déficits publics"
   quoteSource: david-lisnard-programme-maitre-de-notre-destin
   justification: "Le programme propose une « règle d'or » institutionnelle limitée aux dépenses de fonctionnement, sans préciser son inscription dans la Constitution, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9eac2d7e69f135f817990bb50eff6bd92f2424d7638b1d04355ef590eec62055
 
 - question: economie-supprimer-agences-etat
   value: 2
@@ -107,11 +128,14 @@
   quote: "Les agences redondantes seront supprimées."
   quoteSource: david-lisnard-discours-bayeux-2026
   justification: "Le discours annonce la suppression des agences redondantes de l'État, ce qui correspond à la mesure de l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7c32909f8781095ac0c289f4bbe466fa9f2706f9c4a2171272dfab926e05f84d
 
 - question: energie-fonds-publics-renouvelables
   value: -2
@@ -121,11 +145,14 @@
   quote: "Il faut mettre un terme à cette gabegie en faisant rentrer ces projets dans le droit commun et réinvestir les sommes ainsi économisées dans des projets d'avenir, en particulier les nouvelles technologies nucléaires"
   quoteSource: david-lisnard-programme-renouveau-civique
   justification: "Le programme propose de réorienter vers les nouvelles technologies nucléaires les sommes consacrées aux énergies renouvelables, soit la priorité inverse de celle de l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5f1b04dd9d2ca17f5b536c79da8048ee188a6b3e6a73a917c048b5bb7f86d401
 
 - question: energie-petits-reacteurs-modulaires
   value: 2
@@ -135,11 +162,14 @@
   quote: "construction d'EPR de nouvelle génération, déploiement de mini-réacteurs nucléaires"
   quoteSource: david-lisnard-programme-renouveau-civique
   justification: "Le programme prévoit le déploiement de mini-réacteurs nucléaires financé par les sommes réinvesties dans les nouvelles technologies nucléaires, ce qui correspond à la mesure de l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c7c87dd6ad77f2e32b7cbd635cd7626c610a3e224edf0fdef43c950b5dd2a4c9
 
 - question: energie-reduire-part-nucleaire
   value: -1
@@ -149,11 +179,14 @@
   quote: "Il est plus que temps de sortir de l'ambiguïté et de l'hypocrisie sur le nucléaire et affirmer sa priorité."
   quoteSource: david-lisnard-programme-renouveau-civique
   justification: "Le programme affirme la priorité du nucléaire dans la production d'énergie décarbonée sans se prononcer explicitement sur sa part dans le mix électrique, d'où -1 plutôt que -2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f6e24bd20cea1bdab89bd22b26674e6494badbaa3f3ed548694f8c174cf4e0be
 
 - question: energie-supprimer-aides-solaire-eolien
   value: 1
@@ -163,11 +196,14 @@
   quote: "Il faut mettre un terme à cette gabegie en faisant rentrer ces projets dans le droit commun"
   quoteSource: david-lisnard-programme-renouveau-civique
   justification: "Le programme veut faire rentrer dans le droit commun les projets renouvelables « dérogatoires aux prix du marché », ce qui revient à mettre fin à leur soutien tarifaire sans parler explicitement de suppression des aides, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3fb9fb599062a4c715b8ba118e6ce4eed9ad479d594411dedae8981adc312eea
 
 - question: fiscalite-baisse-prelevements-obligatoires
   value: 2
@@ -177,11 +213,14 @@
   quote: "l'objectif vital de baisse de la part des Prélèvements Obligatoires par rapport au PIB"
   quoteSource: david-lisnard-programme-nouvelle-ambition
   justification: "Le programme qualifie d'objectif vital la baisse de la part des prélèvements obligatoires dans le PIB, ce qui correspond à l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b795c7f870ce14a837de44148078753f0f6159c4a88df50a65e11ead0efe1303
 
 - question: fiscalite-quotient-familial-credit-enfant
   value: -1
@@ -191,11 +230,14 @@
   quote: "la France doit relancer sa politique familiale dans ses trois dimensions : des allocations financières, notamment par le déplafonnement du quotient familial"
   quoteSource: david-lisnard-programme-nouvelle-ambition
   justification: "Le programme veut déplafonner le quotient familial, ce qui le renforce au lieu de le remplacer par un crédit d'impôt uniforme par enfant, sans rejeter nommément ce remplacement, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d94e806191ccb71a9ae31cb2a1bd01dee7ff3ba1907feb456d0a992654783ef7
 
 - question: fiscalite-reduire-droits-succession
   value: 1
@@ -205,11 +247,14 @@
   quote: "L'allègement de la fiscalité des entreprises doit se poursuivre par la diminution des impôts de production à travers la suppression de plusieurs contributions (C3S, CVAE…) ainsi que la réforme des droits de succession sur les entreprises."
   quoteSource: david-lisnard-programme-nouvelle-ambition
   justification: "Le programme inscrit une réforme des droits de succession sur les entreprises dans l'allègement de leur fiscalité, sans viser l'ensemble des transmissions familiales ni chiffrer la baisse, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:47f16c756d6942874430805a725237de6896c56121a0bd50e9eb82dee77c831a
 
 - question: fiscalite-supprimer-impots-production
   value: 1
@@ -219,11 +264,14 @@
   quote: "soit au total une diminution de moitié des impôts de production, de 2% à 1% du PIB"
   quoteSource: david-lisnard-programme-nouvelle-ambition
   justification: "Le programme propose de diviser par deux les impôts de production en supprimant certaines contributions (C3S, CVAE), et non de les supprimer tous, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d14a39edd73a3f8e40bdfdc76d8bbb9928c9bdda51fb3dde8c58671c10227a98
 
 - question: immigration-ame-soins-urgents
   value: 2
@@ -233,11 +281,14 @@
   quote: "Supprimer l'Aide Médicale d'État (AME) et la remplacer par une aide d'urgence"
   quoteSource: david-lisnard-programme-immigration
   justification: "Le programme propose de remplacer l'AME par une aide d'urgence, ce qui correspond à la limitation aux soins urgents de l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:87924ffac1677b4a57f32cae1e9d345e3deba36fad29fea64e490eda06e50aa2
 
 - question: immigration-amende-sejour-irregulier
   value: 1
@@ -247,11 +298,14 @@
   quote: "Rétablir le délit de séjour irrégulier"
   quoteSource: david-lisnard-programme-immigration
   justification: "Le programme propose de rétablir le délit de séjour irrégulier sans préciser la peine encourue, d'où 1 plutôt que 2 face à une sanction par amende."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fb7d6c8d3bd6d2826647f2def4c68522a26e7768b8830a9ad1ab1c35e4ca6a9e
 
 - question: immigration-asile-examen-hors-europe-v2
   value: 1
@@ -261,11 +315,14 @@
   quote: "Traiter les demandes d'asiles au sein de nos consulats à l'étranger"
   quoteSource: david-lisnard-programme-immigration
   justification: "Le programme veut instruire les demandes d'asile dans les consulats à l'étranger, variante voisine de centres situés hors de l'Union européenne, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fc5e721abc8ccefd935c23e0634b7750e09ed4db6ea87620aeb7f8f1c4181f87
 
 - question: immigration-condamnes-perte-titre-sejour
   value: 1
@@ -275,11 +332,14 @@
   quote: "Expulser systématiquement les étrangers condamnés pour délits graves et les fichés S étrangers"
   quoteSource: david-lisnard-programme-immigration
   justification: "Le programme prévoit l'expulsion systématique des étrangers condamnés pour délits graves, ce qui est voisin mais ne vise pas toute peine de prison ferme, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7cdfd3b906c25eae1c225c4e940afb3fb2ee812256f293dd680ff5a2dfe7143c
 
 - question: immigration-plafond-annuel-admissions
   value: 1
@@ -289,11 +349,14 @@
   quote: "Pour l'immigration légale des quotas d'immigration doivent désormais être instaurés en fonction des stricts besoins économiques des secteurs \" sous tension \" limitativement définis."
   quoteSource: david-lisnard-programme-nouvelle-ambition
   justification: "Le programme propose des quotas d'immigration légale liés aux besoins économiques, sans préciser un plafond annuel global fixé par le Parlement, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e990bb13e0202f380a7c7cc97e555e5e56f66588029054fa87d9a5547d7064a0
 
 - question: immigration-prestations-duree-residence
   value: 2
@@ -303,11 +366,14 @@
   quote: "Conditionner les prestations sociales non contributives aux étrangers résidant régulièrement sur le territoire national depuis au moins cinq ans"
   quoteSource: david-lisnard-programme-immigration
   justification: "Le programme propose de réserver les prestations sociales non contributives aux étrangers résidant régulièrement en France depuis au moins cinq ans, ce qui correspond à l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1f2c49e05bd2994b0285636b7424f80df978c8453ad3ecb68a54107b1f59c645
 
 - question: immigration-regroupement-familial-ressources
   value: 2
@@ -317,11 +383,14 @@
   quote: "conditionner le regroupement familial à des critères de ressources et des tests d'intégration"
   quoteSource: david-lisnard-programme-immigration
   justification: "Le programme propose de conditionner le regroupement familial à des critères de ressources, ce qui correspond au durcissement de l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:12bd6837860bd830298fa6090d385f10c65b3deb66ceab807c7e218b96bb7193
 
 - question: immigration-regularisation-cinq-ans
   value: -1
@@ -331,11 +400,14 @@
   quote: "supprimer toute possibilité d'être régularisé après être entré clandestinement sur le territoire."
   quoteSource: david-lisnard-programme-nouvelle-ambition
   justification: "Le programme exclut toute régularisation des personnes entrées clandestinement, ce qui s'oppose à l'énoncé pour cette catégorie sans viser les autres étrangers sans titre, d'où -1 plutôt que -2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a33b4dfc2d3002292275ffef22d52c23b8e8acb1ad7b4de653578402bae0f516
 
 - question: immigration-regularisation-metiers-tension
   value: -1
@@ -345,11 +417,14 @@
   quote: "supprimer toute possibilité d'être régularisé après être entré clandestinement sur le territoire."
   quoteSource: david-lisnard-programme-nouvelle-ambition
   justification: "Le programme exclut toute régularisation des personnes entrées clandestinement, y compris par le travail, sans viser les autres étrangers sans titre, d'où -1 plutôt que -2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a33b4dfc2d3002292275ffef22d52c23b8e8acb1ad7b4de653578402bae0f516
 
 - question: immigration-supprimer-droit-du-sol
   value: 1
@@ -359,11 +434,14 @@
   quote: "Mettre fin à l'automaticité du droit du sol"
   quoteSource: david-lisnard-programme-immigration
   justification: "Le programme propose de mettre fin à l'automaticité du droit du sol, version partielle de sa suppression, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d20297231e094c26e092200c6e28b9e7b118a748b563312bb91a914b2649d325
 
 - question: institutions-autonomie-fiscale-collectivites
   value: 1
@@ -373,11 +451,14 @@
   quote: "Les recettes fiscales et autres ressources propres doivent redevenir \" une part déterminante de l'ensemble de leurs ressources \"."
   quoteSource: david-lisnard-programme-renouveau-civique
   justification: "Le programme veut que les ressources propres des collectivités redeviennent déterminantes, tout en envisageant un partage de recettes fiscales nationales plutôt qu'un pouvoir fiscal propre, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3209ea208b11105ad8e99402ecaf92531c0fa960ab4d364357bd75049e7da43c
 
 - question: institutions-competences-retour-etat-v2
   value: -2
@@ -387,11 +468,14 @@
   quote: "Le principe de base de la nouvelle décentralisation serait de transférer aux collectivités territoriales, outre l'essentiel des compétences aujourd'hui exercées par l'Etat"
   quoteSource: david-lisnard-programme-renouveau-civique
   justification: "Le programme veut transférer aux collectivités l'essentiel des compétences de l'État, soit le mouvement inverse d'un transfert de compétences des collectivités vers l'État."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e4ed188bbf0dedbee84bc9a1b8b9487e3891da3a9985165d1ee648e281bd4ab6
 
 - question: institutions-mandat-presidentiel-sept-ans
   value: 2
@@ -401,11 +485,14 @@
   quote: "Le septennat sera rétabli."
   quoteSource: david-lisnard-discours-bayeux-2026
   justification: "Le discours annonce le rétablissement du septennat, ce qui correspond à la mesure de l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0eddefd341401a5ee534b56b53dd25fe4a4da4e27e01cb1c33afbb1d9de5eac5
 
 - question: institutions-referendum-revision-constitution
   value: 2
@@ -415,11 +502,14 @@
   quote: "La Constitution doit pouvoir, à terme, être révisée directement par référendum : c'est la voie que de Gaulle a ouverte en 1962."
   quoteSource: david-lisnard-discours-bayeux-2026
   justification: "Le discours propose que la Constitution puisse être révisée directement par référendum, sur le modèle de 1962, ce qui correspond à l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e16b7f8d9b120e6053c2687d84b0905cfc1b3d76ec51b5eef4514ea26d9c8457
 
 - question: institutions-supprimer-senat
   value: -1
@@ -429,11 +519,14 @@
   quote: "Et le Sénat retrouvera une mission essentielle que l'on a laissé glisser vers la Cour des comptes et les juridictions : évaluer les politiques publiques."
   quoteSource: david-lisnard-discours-bayeux-2026
   justification: "Le discours assigne au Sénat une mission d'évaluation des politiques publiques, ce qui suppose son maintien sans rejet explicite de sa suppression, d'où -1 plutôt que -2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:10eeed0895e020c0e0b492d509b061bf541d7b0c8321f6cfe7539bd04cbf256e
 
 - question: international-arrets-cedh-derogation-v2
   value: 2
@@ -443,11 +536,14 @@
   quote: "Inscrire la primauté du droit national en matière migratoire dans la Constitution afin de rendre inapplicables les décisions de la CJUE et de la CEDH contraires à l'intérêt national"
   quoteSource: david-lisnard-programme-immigration
   justification: "Le programme veut rendre inapplicables les décisions de la CEDH contraires à l'intérêt national, c'est-à-dire pouvoir ne pas exécuter certains de ses arrêts."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:25528e4657f3b9c31568e899c7d0d28a132114a0918dc396d556da1b80e439e0
 
 - question: international-primaute-loi-nationale-v2
   value: 1
@@ -457,11 +553,14 @@
   quote: "Inscrire la primauté du droit national en matière migratoire dans la Constitution afin de rendre inapplicables les décisions de la CJUE et de la CEDH contraires à l'intérêt national"
   quoteSource: david-lisnard-programme-immigration
   justification: "Le programme affirme la primauté du droit national sur les décisions de la CJUE, mais en matière migratoire seulement, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:311b1fca94a21379752582331b99be8ebddb28e61fbbb294b939d8a5eb0a72a4
 
 - question: international-renegocier-traites-competences
   value: 1
@@ -471,11 +570,14 @@
   quote: "Il importe donc de redéfinir les compétences indispensables à la plus-value européenne, pour lesquelles l'Europe doit agir en pleine capacité et les compétences qui doivent rester de niveau national ou régional."
   quoteSource: david-lisnard-programme-maitre-de-notre-destin
   justification: "Le programme propose de redéfinir le partage des compétences entre l'Europe et les États, sans mentionner explicitement une renégociation des traités, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:38d41b5795838f2c9a6a8426acf6b0338745616dc61a93a5efad045f63c82ba6
 
 - question: justice-arret-construction-prisons
   value: -2
@@ -485,11 +587,14 @@
   quote: "par l'augmentation des places de prison"
   quoteSource: david-lisnard-programme-nouvelle-ambition
   justification: "Le programme prévoit d'augmenter le nombre de places de prison, soit la mesure inverse de l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:103ca934de3c77a856620ad121532dcfc660e2812f76b3156b12fa074e42b5ef
 
 - question: numerique-logiciels-libres-administration
   value: 1
@@ -499,11 +604,14 @@
   quote: "Il y aurait un paradoxe à reprendre le contrôle de notre Constitution, de nos lois et de nos frontières, pour livrer nos données et nos systèmes à des serveurs que nous ne maîtrisons pas."
   quoteSource: david-lisnard-discours-bayeux-2026
   justification: "Le discours refuse que l'intelligence artificielle publique repose sur des serveurs non maîtrisés, sans évoquer les logiciels libres ni un hébergement européen, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:26bd84421317cf4a3140f3b840d8d08f40f1f3c817c3e8853dd3396fdb4c63d4
 
 - question: securite-pouvoirs-polices-municipales
   value: 2
@@ -513,11 +621,14 @@
   quote: "l'attribution de la qualité d'officiers et d'agents de police judiciaire aux polices territoriales décentralisées."
   quoteSource: david-lisnard-programme-nouvelle-ambition
   justification: "Le programme attribue aux polices territoriales la qualité d'officiers et d'agents de police judiciaire, ce qui leur donne les pouvoirs d'enquête de la police nationale."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b1a9fbe83202b24b9dcb70c810883ed4d314a4a4fbbc595d6476eac2ddcb1cea
 
 - question: travail-retraite-62-ans
   value: -2
@@ -527,11 +638,14 @@
   quote: "la norme de l'âge légal de 65 ans est un impératif national urgent"
   quoteSource: david-lisnard-programme-nouvelle-ambition
   justification: "Le programme fixe l'âge légal à 65 ans, ce qui est contraire au retour à 62 ans."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c9c14561f20a11d6e169adff0fff33afb011292c9185d6d411609b591bbac7a6
 
 - question: travail-retraite-au-dela-64-ans
   value: 2
@@ -541,11 +655,14 @@
   quote: "la norme de l'âge légal de 65 ans est un impératif national urgent"
   quoteSource: david-lisnard-programme-nouvelle-ambition
   justification: "Le programme fixe l'âge légal de départ à 65 ans, au-delà de 64 ans."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a2c9bc1cdbb8ce4313ad502b546db1bdfa08d924f5756253667b7e94d86ee884
 
 - question: travail-retraite-capitalisation
   value: 2
@@ -555,11 +672,14 @@
   quote: "faire évoluer tous les autres régimes vers la capitalisation, à partir des cotisations obligatoires des salariés et des employeurs."
   quoteSource: david-lisnard-programme-nouvelle-ambition
   justification: "Le programme prévoit de faire évoluer vers la capitalisation tous les régimes au-delà d'un socle minimal par répartition, soit environ 40 % des retraites."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b1adfd3c74e669bcc4cec815a93b62c2fb8b82f63bd672b22a0177dfa9e756a1
 
 - question: travail-statut-fonction-publique-regalien
   value: 2
@@ -569,8 +689,11 @@
   quote: "réformer les trois fonctions publiques, pour développer une fonction publique de métier et systématiser le contrat dans les fonctions non-régaliennes"
   quoteSource: david-lisnard-programme-maitre-de-notre-destin
   justification: "Le programme propose de systématiser le contrat dans les fonctions non régaliennes, ce qui réserve de fait le statut aux missions régaliennes."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e2b9c7666a8f59da76f0314542da2b98922427ef237237dcaf50c6dae7174b55

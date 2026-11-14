@@ -1,5 +1,5 @@
-# Positions d'Anasse Kazib (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
-# provenance manual), à relire par adrien avec pnpm data:review.
+# Positions d'Anasse Kazib (FR-016 à FR-022). Rédigées par claude (extraction en session,
+# provenance manual), relues par adrien le 2026-11-14 (pnpm data:review).
 
 - question: defense-budget-armees-3-pib
   value: -2
@@ -10,11 +10,14 @@
   quote: Pas un euro pour la guerre, démantèlement de la machine de guerre française
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme refuse tout financement de la guerre et demande le démantèlement de l'appareil militaire, ce qui est l'inverse explicite d'une hausse du budget des armées, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2b32c553d59d808ccfb0409a6f79fd44c5323a6c4872c50f09a682c057893370
 
 - question: defense-cesser-ventes-armes-conflits
   value: 1
@@ -24,11 +27,14 @@
   quote: En démantelant l'industrie de l'armement et l'ensemble des marchands de morts, complices du génocide à Gaza
   quoteSource: anasse-kazib-edito-candidature-2026
   justification: Le texte de campagne propose de démanteler l'industrie de l'armement en la liant au conflit à Gaza, sans formuler une interdiction des ventes aux États en conflit, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ea76b8898893e841632fabf8277f8c4f84eb680f46edaeb675a56d046d913a86
 
 - question: defense-fermer-bases-afrique
   value: 2
@@ -38,11 +44,14 @@
   quote: En exigeant la fermeture de l'ensemble des bases militaires, le retrait de toutes les troupes françaises et la fin de toutes les opérations de l'armée à l'étranger
   quoteSource: anasse-kazib-edito-candidature-2026
   justification: Le texte de campagne demande la fermeture de l'ensemble des bases militaires françaises à l'étranger, ce qui inclut celles situées en Afrique, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ec948d91f5df1fc6752c89f29efeffc85ebaf2c62f47f716f1c07f56a7eb55cd
 
 - question: defense-priorite-depenses-sociales
   value: 1
@@ -52,11 +61,14 @@
   quote: L'argent de la guerre doit servir à financer massivement les services publics
   quoteSource: anasse-kazib-edito-candidature-2026
   justification: Le texte de campagne demande de réaffecter les crédits militaires aux services publics, et non explicitement aux dépenses sociales, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:72a922d64a24eb92bd3bed7138f6508f6ca0d259327c8f5962e4461644b32f9c
 
 - question: defense-reduire-budget-armees
   value: 1
@@ -67,11 +79,14 @@
   quote: Pas un euro pour la guerre, démantèlement de la machine de guerre française, 2ème exportateur d'armes mondial.
   quoteSource: anasse-kazib-programme-2027
   justification: "Le programme refuse tout financement de la guerre et propose le démantèlement de l'appareil militaire français, ce qui va au-delà d'une réduction du budget des armées. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e933d7c696093d70624b716900b5d5393d0bd0aae31015eaf5122dc941105aad
 
 - question: defense-reduire-presence-etranger
   value: 2
@@ -82,11 +97,14 @@
   quote: Retrait des troupes françaises à l'étranger.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme demande le retrait des troupes françaises stationnées à l'étranger, ce qui réduit explicitement la présence militaire extérieure, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:80ebf175c1219b8dc5303c93e58f5866f65af5f4b0bd622e5166f0f7461c67e3
 
 - question: democratie-referendum-revocatoire
   value: 1
@@ -96,11 +114,14 @@
   quote: Ses membres devraient être élus pour deux ans, révocables et payés au salaire médian
   quoteSource: anasse-kazib-edito-candidature-2026
   justification: Le texte de campagne prévoit des élus révocables pour la future assemblée unique, sans préciser que la révocation passe par un référendum des électeurs, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:32c2987ba147469f8bce06232ab53238020f08377b0d52b79e2a65e9fc5a38a7
 
 - question: economie-baisse-depense-publique
   value: -1
@@ -111,11 +132,14 @@
   quote: Investissements massifs dans les services publics, qui doivent être placés sous le contrôle des travailleur·ses.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme propose des investissements massifs dans les services publics, ce qui va dans le sens contraire d'une baisse de la dépense publique, sans se prononcer sur son niveau global rapporté au PIB, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cce3a64502936a65b857395e09ca6e4b787f56058e131bb9ecb35204ee0bfb02
 
 - question: economie-participations-etat-industrie
   value: 1
@@ -126,11 +150,14 @@
   quote: Expropriation des secteurs stratégiques (énergie, transports, banques, santé, …) et placement sous contrôle des travailleur·ses.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme propose d'exproprier les secteurs stratégiques et de les placer sous contrôle des travailleurs, ce qui diffère d'une prise de participations de l'État, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f6928f47cde355236e81a5b3667bc6c105589c6fc6ec8d79dcb2453583f51b7d
 
 - question: economie-plafonnement-loyers-zones-tendues
   value: 1
@@ -141,11 +168,14 @@
   quote: "Expropriation des logements vides, plafonnement et gel des loyers."
   quoteSource: anasse-kazib-programme-2027
   justification: "Le programme demande le plafonnement et le gel des loyers sans les limiter aux zones tendues ni les subordonner à la demande des élus locaux. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:00ebcb933912a2b763b844aa686a8d63c7586526e9f85ae825ed7218e4e56cd5
 
 - question: immigration-plafond-annuel-admissions
   value: -2
@@ -156,11 +186,14 @@
   quote: Régularisation de tous les sans-papiers, liberté de circulation et d'installation.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme demande la liberté de circulation et d'installation, ce qui est l'inverse explicite d'un plafond annuel d'admissions au séjour, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:00e1839753fe5d22d8c84ae5f6d66658bd749aa0d687c28a7442bdc6f86fd646
 
 - question: immigration-regularisation-cinq-ans
   value: 1
@@ -171,11 +204,14 @@
   quote: Régularisation de tous les sans-papiers, liberté de circulation et d'installation.
   quoteSource: anasse-kazib-programme-2027
   justification: "Le programme demande la régularisation de tous les sans-papiers, ce qui inclut ceux présents depuis plus de cinq ans. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a48887c441d4398de08060020c8d7ab8bde63f3a8d7f808d3a4b08aba7d1c1c3
 
 - question: immigration-regularisation-metiers-tension
   value: 1
@@ -186,11 +222,14 @@
   quote: Régularisation de tous les sans-papiers, liberté de circulation et d'installation.
   quoteSource: anasse-kazib-programme-2027
   justification: "Le programme demande la régularisation de tous les sans-papiers, ce qui inclut les travailleurs employés dans les métiers en tension. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a48887c441d4398de08060020c8d7ab8bde63f3a8d7f808d3a4b08aba7d1c1c3
 
 - question: institutions-supprimer-senat
   value: 2
@@ -201,11 +240,14 @@
   quote: Fin de la Ve République, du Sénat et de la figure présidentielle.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme demande explicitement la fin du Sénat, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5160de21add551c2718a78809996b7c73878a35f2b6e3b5b4b6b2818f5847a36
 
 - question: societe-service-national-obligatoire
   value: -2
@@ -216,11 +258,14 @@
   quote: Non au SNU et à la militarisation de nos écoles et de nos facs.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme rejette explicitement le service national universel, ce qui s'oppose à le rendre obligatoire, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:45cd621744f1af7586663ae4710656bafde9c4a5f26ac7a6309e859a72497699
 
 - question: societe-signes-religieux-sorties-scolaires
   value: -1
@@ -231,11 +276,14 @@
   quote: Abrogation de toutes les lois sécuritaires, racistes et islamophobes, à commencer par la loi de 2004.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme demande l'abrogation de la loi de 2004 sur les signes religieux à l'école, ce qui va dans le sens contraire d'une extension de l'interdiction aux accompagnateurs de sorties scolaires, sans viser ce cas précis, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a6638515e610f4be800793341ea4fb11664ebdf51df7085646ac77ee2688a0b0
 
 - question: societe-signes-religieux-universite
   value: -1
@@ -246,11 +294,14 @@
   quote: Abrogation de toutes les lois sécuritaires, racistes et islamophobes, à commencer par la loi de 2004.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme demande l'abrogation de la loi de 2004 sur les signes religieux à l'école, ce qui va dans le sens contraire d'une extension de l'interdiction à l'université, sans viser ce cas précis, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a6638515e610f4be800793341ea4fb11664ebdf51df7085646ac77ee2688a0b0
 
 - question: societe-simplifier-changement-sexe-etat-civil
   value: 1
@@ -261,11 +312,14 @@
   quote: Avortement, PMA, transitions libres et gratuits.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme demande que les transitions de genre soient libres et gratuites, sans mentionner explicitement la procédure de changement de sexe à l'état civil, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:93133fab8b177b326742e6e7fcaafb7fe3120ea3a119a6513f9955d9bde96f92
 
 - question: transport-gratuite-transports-urbains
   value: 2
@@ -275,11 +329,14 @@
   quote: qu'il s'agisse de la santé, de l'éducation ou des transports, qui devraient être gratuits
   quoteSource: anasse-kazib-edito-candidature-2026
   justification: Le texte de campagne demande la gratuité des transports publics, ce qui inclut les transports en commun urbains, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e1deb678ec6e6767bbc05dd7ced5330c264381b9fb0ec214e36b3fa46ef74833
 
 - question: travail-indexation-salaires
   value: 2
@@ -290,11 +347,14 @@
   quote: SMIC à 2000 € net, revalorisation de toutes les allocations, augmentation des salaires de 500 €, indexation sur l'inflation.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme demande l'indexation des salaires sur l'inflation, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8bae15d48c4c9f39db7fa5c67c024e1c07316565274e4e5ef3bb61c484d437e6
 
 - question: travail-limiter-licenciements-beneficiaires-v2
   value: 1
@@ -305,11 +365,14 @@
   quote: "Interdiction des licenciements."
   quoteSource: anasse-kazib-programme-2027
   justification: "Le programme demande l'interdiction de tous les licenciements, ce qui inclut et dépasse la limitation des licenciements économiques dans les entreprises qui réalisent des bénéfices. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d5359990128c38596d42f82305bc320ee41ffe4864a3fbd48f9d3abf0e6d30d1
 
 - question: travail-plateformes-presomption-salariat
   value: 1
@@ -320,11 +383,14 @@
   quote: Fin de la sous-traitance et CDI pour tous·tes.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme demande un CDI pour tous les travailleurs, sans viser explicitement les travailleurs des plateformes ni une présomption de salariat, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:93d2738cf124c0e727566d58ce0cbc5cf5693bfda274153b074f2f91dcabf465
 
 - question: travail-retraite-62-ans
   value: 1
@@ -335,11 +401,14 @@
   quote: Retraite à 60 ans et 55 ans pour les métiers pénibles, sans conditions d'annuité.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme demande la retraite à 60 ans, soit un abaissement plus important que le retour à 62 ans de l'énoncé, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fb11a8c82a6a9eb84b229249b80713cb10682d9ccebc1d14008767bf04e6909f
 
 - question: travail-retraite-au-dela-64-ans
   value: -2
@@ -350,11 +419,14 @@
   quote: Retraite à 60 ans et 55 ans pour les métiers pénibles, sans conditions d'annuité.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme demande la retraite à 60 ans, ce qui est l'inverse explicite d'un report au-delà de 64 ans, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3bffc68b7cd712bf1062afedc650a654d3311eb7f5fe3f98ad33241339b90b82
 
 - question: travail-semaine-32-heures
   value: 1
@@ -365,11 +437,14 @@
   quote: Répartition du travail pour une semaine de 28h sans baisse de salaire.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme propose une semaine de 28 heures, soit une réduction plus forte que les 32 heures de l'énoncé, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c78f29104fc8c3413737d4ab4b95c2f2ca625aabc1c26eabc0e12d1ec31bbe08
 
 - question: travail-smic-au-dela-inflation
   value: 2
@@ -380,8 +455,11 @@
   quote: SMIC à 2000 € net, revalorisation de toutes les allocations, augmentation des salaires de 500 €, indexation sur l'inflation.
   quoteSource: anasse-kazib-programme-2027
   justification: Le programme demande de porter le SMIC à 2000 euros net, soit une hausse nettement supérieure à l'inflation, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8bae15d48c4c9f39db7fa5c67c024e1c07316565274e4e5ef3bb61c484d437e6

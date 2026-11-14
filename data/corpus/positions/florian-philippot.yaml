@@ -1,5 +1,5 @@
-# Positions de Florian Philippot (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
-# provenance manual), à relire par adrien avec pnpm data:review.
+# Positions de Florian Philippot (FR-016 à FR-022). Rédigées par claude (extraction en session,
+# provenance manual), relues par adrien le 2026-11-14 (pnpm data:review).
 
 - question: agriculture-alleger-normes-agricoles
   value: 1
@@ -9,11 +9,14 @@
   quote: "Supprimer la PAC, ses normes absurdes (tel que le taux de jachère obligatoire) et ses contraintes administratives."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de supprimer les normes de la PAC, dont la jachère obligatoire, sans viser l'ensemble des normes environnementales imposées aux agriculteurs, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8f9fee32ac60823539497d5c0ab8ea21ac3484bca23770214cb4bf792176a290
 
 - question: agriculture-prix-plancher-agricoles
   value: 2
@@ -23,11 +26,14 @@
   quote: "Rétablir les prix planchers pour assurer un revenu décent pour nos agriculteurs."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose explicitement de rétablir des prix planchers agricoles, en le conditionnant à la sortie de l'UE."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a987159a6b853d2f945e9b6172605a6d2c8f0f1c2b2d70e33514c6e8cd669426
 
 - question: defense-armes-ukraine
   value: -1
@@ -37,11 +43,14 @@
   quote: "Cesser d'entretenir la guerre en Ukraine."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret demande de cesser d'entretenir la guerre en Ukraine, en citant les livraisons d'armes parmi les moyens de cet entretien, sans formuler de mesure portant spécifiquement sur les livraisons françaises, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:446c30100030590160a7b8213416bc4ff5859cd16259b5b833e76a040c762086
 
 - question: defense-defense-europeenne-emprunt
   value: -1
@@ -51,11 +60,14 @@
   quote: "Rejeter la création d'une armée européenne."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret rejette la création d'une armée européenne, sans se prononcer directement sur un financement par emprunt de l'UE, d'où -1 plutôt que -2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:62641b0918a7a7d6869afda2e9d64f7cce4d16a76218e12098968c3f180a3266
 
 - question: defense-dissuasion-protection-europe-v2
   value: -1
@@ -65,11 +77,14 @@
   quote: Les déclarations du président Macron se disant prêt à partager notre dissuasion avec l'Europe constituent une trahison sans précédent de nos intérêts nationaux.
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: Le livret qualifie de trahison le partage de la dissuasion avec l'Europe, refus voisin mais non identique d'une extension explicite de la doctrine à la protection des partenaires européens, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f98286c96ddd8da907fc27d2a7af67515d3bf6030d77cf7cc6a79f64d03bd514
 
 - question: democratie-champ-referendum-inchange
   value: -1
@@ -79,11 +94,14 @@
   quote: Créer le référendum d'initiative citoyenne (RIC) sur tout sujet et l'inscrire dans la Constitution.
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: Le livret propose un référendum d'initiative citoyenne sur tout sujet, ce qui étend le référendum à tous les domaines par un mécanisme nouveau plutôt que par l'élargissement du référendum législatif existant, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cc64757483e160a096b87263cf8bb57f0afc860a30d1fcc9ff3bc27604f46b51
 
 - question: democratie-referendum-exceptionnel
   value: -1
@@ -93,11 +111,14 @@
   quote: "Créer le référendum d'initiative citoyenne (RIC) sur tout sujet et l'inscrire dans la Constitution."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose un RIC sur tout sujet, ce qui va dans le sens contraire d'un recours exceptionnel au référendum, sans le dire explicitement, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cc64757483e160a096b87263cf8bb57f0afc860a30d1fcc9ff3bc27604f46b51
 
 - question: democratie-referendum-initiative-citoyenne
   value: 2
@@ -107,11 +128,14 @@
   quote: "Créer le référendum d'initiative citoyenne (RIC) sur tout sujet et l'inscrire dans la Constitution."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose explicitement de créer un RIC sur tout sujet inscrit dans la Constitution."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5296c337d6adef7e62b2eb268713eb57735b1fa68564ea31c02572f40032d076
 
 - question: democratie-referendum-reserve-elus-v2
   value: -2
@@ -121,11 +145,14 @@
   quote: Créer le référendum d'initiative citoyenne (RIC) sur tout sujet et l'inscrire dans la Constitution.
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: Le livret propose un RIC sur tout sujet, qui ouvrirait aux citoyens le déclenchement d'un référendum national, contrairement à une compétence réservée au président de la République ou au Parlement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4e00a44eae9fb5917a2df795736b58d4832e0e484ca3e3c69bfaf4eaf8daad36
 
 - question: democratie-revision-par-congres
   value: -2
@@ -135,11 +162,14 @@
   quote: 'Ne permettre la révision de la Constitution que par référendum et donc supprimer la procédure de révision par le " Congrès ".'
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: Le livret propose explicitement de supprimer la révision constitutionnelle par le Congrès au profit du seul référendum.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6fe1458d6d260995e3740e14f7ecffb6c8ca5dce3ae4a0b66b05b6a5f9256cbb
 
 - question: economie-accords-libre-echange
   value: -2
@@ -149,11 +179,14 @@
   quote: "Mettre fin aux accords de libre- échange, qui ruinent nos agriculteurs en les exposant à une concurrence déloyale avec le reste du monde."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de mettre fin aux accords de libre-échange, mesure contraire à la conclusion de nouveaux accords."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7709aede5c46b6a306c5a4f0630850ab6bb8362f7a8c572fd7966150ec695208
 
 - question: economie-alleger-regles-entreprises
   value: 1
@@ -163,11 +196,14 @@
   quote: "Soutenir les créateurs en France : artisans, TPE/PME, par une politique sociale et fiscale très avantageuse, par des outils d'incitation au maintien et au retour en France, par une simplification drastique et réelle des procédures administratives."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose une simplification drastique des procédures administratives pour les artisans et TPE/PME, sans viser l'ensemble des entreprises, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b8a2b1cd2726339bf895c0bc68f7891e5178d1a9ead5081df75454f714012566
 
 - question: economie-edf-entierement-publique
   value: 1
@@ -177,11 +213,14 @@
   quote: "Rétablir le monopole public national d'EDF."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de rétablir le monopole public d'EDF, sans se prononcer explicitement sur la détention intégrale de son capital par l'État, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d98bf9b94dbe1f0b1cceedcaf14155e09181aca9ab7e8231664998c8530680ae
 
 - question: economie-etat-finance-usines
   value: 1
@@ -191,11 +230,14 @@
   quote: "favoriser l'investissement industriel par la mise en place d'une Caisse Nationale pour l'Equipement et la Réindustrialisation (système public de Crédit Productif)"
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose un système public de crédit à l'investissement industriel, voisin mais distinct d'un financement direct de la construction d'usines par l'État, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3519967136c0f18f44f55f5377ae68219b270cc96aac36e46b66d7a972b6bc2d
 
 - question: economie-plafonner-prix-alimentaires
   value: 1
@@ -205,11 +247,14 @@
   quote: "encadrement plus strict des prix des produits de première nécessité"
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose un encadrement plus strict des prix des produits de première nécessité dans les Outre-mer uniquement, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:153e98d5e28d5990aed90082f214611722cb8ff6a0055206fb05b192cb0c9ac3
 
 - question: economie-prix-energie-reglementes
   value: 1
@@ -219,11 +264,14 @@
   quote: "Revenir à des règles nationales permettrait de faire baisser immédiatement le tarif des particuliers et des entreprises."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de quitter le marché européen de l'électricité pour revenir à des règles nationales de tarification, sans détailler une réglementation des prix de l'énergie par l'État, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d0429a1f34251410b0297a4a0bd758fdff0af6b9a5cc66700458dc37e51935ee
 
 - question: economie-supprimer-agences-etat
   value: 2
@@ -233,11 +281,14 @@
   quote: "Il faut supprimer les ARS (Agences régionales de santé)."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose explicitement la suppression d'agences de l'État, dont les ARS, ainsi que d'autres structures jugées inutiles."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bbe8d2fffec1554c07f0e5a814fea45e2633f8b1faae8113abb6e9cdc211ca96
 
 - question: energie-accelerer-eolien-terrestre
   value: -2
@@ -247,11 +298,14 @@
   quote: "En finir avec les éoliennes sur terre et en mer."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret demande d'en finir avec les éoliennes terrestres et maritimes, mesure contraire à une accélération de l'éolien terrestre."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f9ebf4ec34756b03d4823de793f8cdc50524ae6611796616ae222f1ce7e95c9d
 
 - question: energie-nouveaux-reacteurs-au-dela-epr2
   value: 1
@@ -261,11 +315,14 @@
   quote: "un plan d'investissement massif dans le nucléaire de nouvelle génération"
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose un plan d'investissement massif dans le nucléaire de nouvelle génération, sans chiffrer de réacteurs au-delà des six EPR2, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2e97f5388b15fb6e38a336e642391692766fd8037dd8bcffedbc01acbad47b06
 
 - question: energie-reduire-part-nucleaire
   value: -1
@@ -275,11 +332,14 @@
   quote: "Investir massivement dans le nucléaire et choisir notre mix énergétique."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose d'investir massivement dans le nucléaire et conteste l'objectif de baisse de sa part à 50 %, sans fixer explicitement de part cible, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e2dbdcd1c09600e5f4d4f213223585d54ed8ce4e12769b0b5560e051c6706ea5
 
 - question: energie-suspendre-nouvelles-eoliennes
   value: 2
@@ -289,11 +349,14 @@
   quote: "Il faut donc un moratoire total et définitif sur cette méthode de production d'électricité"
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose explicitement un moratoire total et définitif sur l'éolien, complété par un démantèlement des installations existantes."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:591f0f7d238369cc2f2232dba24efaef6dbc5b18162cd1da63a62fe67109ddd4
 
 - question: environnement-fin-thermique-2035
   value: -2
@@ -303,11 +366,14 @@
   quote: "Préserver la voiture thermique au-delà de 2035."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de préserver la voiture thermique au-delà de 2035, mesure contraire à l'interdiction de la vente des voitures thermiques neuves en 2035."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a69a6b99ff5655de81a581fa4262f0aaff7c73174f8f3d8c771ea67b2d09149a
 
 - question: fiscalite-reduire-droits-succession
   value: 1
@@ -317,11 +383,14 @@
   quote: "une moindre taxation des petits héritages"
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret retient comme principe une moindre taxation des petits héritages, sans viser l'ensemble des transmissions familiales, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:af0a353fac8ebcbebb8a3abdab53bac5e1c8bcd45457ab73f0d862f7d66f7a35
 
 - question: immigration-condamnes-perte-titre-sejour
   value: 1
@@ -331,11 +400,14 @@
   quote: "Construire les dizaines de milliers de places de prison qui manquent et expulser les prisonniers étrangers"
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose d'expulser les prisonniers étrangers, mesure voisine mais distincte du retrait du titre de séjour des étrangers condamnés, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9d5547eb621a391029a9b9b283ec463652de295c36e70842918f75c565662c6d
 
 - question: immigration-regularisation-cinq-ans
   value: -1
@@ -345,11 +417,14 @@
   quote: "Renvoyer les clandestins chez eux et appliquer les OQTF (Obligation de Quitter le Territoire)."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de renvoyer les étrangers en situation irrégulière dans leur pays, sans se prononcer explicitement sur leur régularisation après cinq ans de présence, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:75992aa9695402bb056ab5937b1727c499afea0b1e67d3516a0f1dbd22755c81
 
 - question: immigration-regularisation-metiers-tension
   value: -1
@@ -359,11 +434,14 @@
   quote: "Renvoyer les clandestins chez eux et appliquer les OQTF (Obligation de Quitter le Territoire)."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de renvoyer les étrangers en situation irrégulière dans leur pays, sans se prononcer explicitement sur la régularisation des travailleurs des métiers en tension, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:75992aa9695402bb056ab5937b1727c499afea0b1e67d3516a0f1dbd22755c81
 
 - question: immigration-visas-professions-qualifiees-v2
   value: -1
@@ -373,11 +451,14 @@
   quote: Mettre fin à l'immigration de travail et à la directive européenne des travailleurs détachés.
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: 'Le livret veut mettre fin à toute immigration de travail sans viser spécifiquement les visas des professions qualifiées. Mesure plus large que l''énoncé, dans le sens contraire : -1 par convention.'
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9c1a7626151c79579210fd1eedcc3074939adb9d703b22767560d75361282035
 
 - question: immigration-voies-legales-travail-ue
   value: -2
@@ -387,11 +468,14 @@
   quote: "Mettre fin à l'immigration de travail et à la directive européenne des travailleurs détachés."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de mettre fin à l'immigration de travail, mesure contraire à l'ouverture de voies légales d'immigration de travail."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0ddaedc926538c9e67174f43f7f2eb05e45837fdfd3e9d74b0f332da2ef2f6af
 
 - question: institutions-competences-retour-etat-v2
   value: 2
@@ -401,11 +485,14 @@
   quote: qui passe notamment par le retrait de cette compétence aux départements. L'État doit donc reprendre toute sa responsabilité dans la politique de la protection de l'enfance.
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: Le livret propose de retirer aux départements la compétence de l'aide sociale à l'enfance pour la confier à l'État, soit un transfert explicite de compétence à l'État.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bd16851cc3fe2d0dd8a13f1e79040c2c766c535aac3b886b50ae79b07a9354bf
 
 - question: institutions-referendum-revision-constitution
   value: 1
@@ -415,11 +502,14 @@
   quote: "Ne permettre la révision de la Constitution que par référendum et donc supprimer la procédure de révision par le \" Congrès \"."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose que toute révision de la Constitution passe par référendum, sans préciser que le président pourrait la soumettre directement, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7f11c13c0ec79b15bb84a98caa8278ce45167778d6ff3a14c6e8a6cb86a2b2fb
 
 - question: international-arrets-cedh-derogation-v2
   value: 1
@@ -429,11 +519,14 @@
   quote: Quitter la CEDH (Cour européenne des droits de l'homme).
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: 'Le livret propose de dénoncer la Convention et de quitter la CEDH, ce qui va au-delà de ne pas exécuter certains de ses arrêts. Mesure plus large que l''énoncé, dans le même sens : 1 par convention.'
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f927ee1812b2f5db81cb4ee853926235aa9d8a7a738d59eab2663e30a7af0f25
 
 - question: international-controles-frontieres-schengen
   value: 1
@@ -443,11 +536,14 @@
   quote: "Retrouver des frontières nationales en quittant l'espace Schengen et l'UE."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de quitter l'espace Schengen pour rétablir des contrôles permanents aux frontières nationales, ce qui va au-delà de la mesure de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:142b2b5e5212723de966804075698022de3ccb4b25376da3d4a41363e50a5217
 
 - question: international-quitter-commandement-otan
   value: 1
@@ -458,11 +554,14 @@
   quote: "Quitter l'OTAN est l'une des conditions de notre indépendance sur la scène internationale."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret et la déclaration de candidature proposent de quitter l'OTAN, ce qui inclut le commandement intégré et va au-delà de la mesure de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e318f77877bfa8cb5695578799154101b5ac5549f2449b685961c164a9317e59
 
 - question: international-reduire-contribution-ue
   value: 1
@@ -472,11 +571,14 @@
   quote: "Le Frexit signifie la fin de la contribution française à l'UE"
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret présente la fin de la contribution française au budget de l'UE, par la sortie de l'Union, comme une source d'économies, ce qui va au-delà d'une réduction. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6f19549266c97709edb93f79b7101b2d9ad9114be15269100bdab9616e97e4c3
 
 - question: international-referendum-maintien-ue
   value: 1
@@ -486,11 +588,14 @@
   quote: "déclencher un référendum constitutionnel"
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret cite le référendum constitutionnel comme l'une des trois voies possibles pour sortir de l'UE, à côté d'un vote du Congrès ou d'une nouvelle Constitution, sans en faire une obligation, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:15ec0283a95c34bb121ad4663b069377728ee6c816a25d329a48bc39000a9d5e
 
 - question: international-renegocier-traites-competences
   value: -2
@@ -500,11 +605,14 @@
   quote: "Une renégociation conviendrait pour une réforme à la marge des institu- tions européennes, ce qui n'est pas le sens d'un retour complet de notre sou- veraineté nationale."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret rejette explicitement la renégociation des traités au profit d'une sortie de l'UE, tout en partageant l'objectif d'un retour des compétences aux États."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bc0d571d8735b5f910fa6f345079e7d5a3327127c41d0ac538a71bb0241d146d
 
 - question: justice-arret-construction-prisons
   value: -2
@@ -514,11 +622,14 @@
   quote: "Construire les dizaines de milliers de places de prison qui manquent"
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de construire des dizaines de milliers de places de prison, mesure contraire à l'arrêt des constructions."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:906fb03e01e51b91147b51fa5cdfa3b8ebd7da84ce268c8930bdc9551bc9f895
 
 - question: justice-comparution-immediate-mineurs
   value: 1
@@ -528,11 +639,14 @@
   quote: "Chez les mineurs, juger et sanctionner doivent être concomitants pour que la sanction soit comprise et efficace sur le plan éducatif."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret demande que jugement et sanction des mineurs soient concomitants, ce qui va dans le sens d'un jugement rapide sans mentionner la comparution immédiate, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cb627ee5548639e04cbbe22fd5e9f83211b2008abea0e27498bc974352d4ed1a
 
 - question: justice-juridictions-mineurs-specialisees-v2
   value: -1
@@ -542,11 +656,14 @@
   quote: 'Les actes graves doivent être jugés comme tels : qui tue comme un adulte doit être jugé comme un adulte.'
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: Le livret veut que les mineurs auteurs d'actes graves soient jugés comme des adultes, sans se prononcer sur l'existence de juridictions distinctes pour les autres, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3c76c24cf76c7b64895958c8b2d4ae1b843bac33068239481a8430bbae2a35f7
 
 - question: justice-majorite-penale-16-ans
   value: 1
@@ -556,11 +673,14 @@
   quote: "Il faut également en finir avec l'excuse automatique de minorité."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de supprimer le caractère automatique de l'excuse de minorité, mesure voisine mais distincte d'un abaissement de la majorité pénale à 16 ans, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1fbe3c92d27c6bf5d5799a3352eb316fa5825a2c232fd6df45df9e9a9b545ade
 
 - question: justice-peines-minimales-recidive
   value: 2
@@ -570,11 +690,14 @@
   quote: "Il convient donc de réinstaurer les peines planchers et de généraliser les sanctions dès la première infraction."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose explicitement de réinstaurer les peines planchers."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1591040acd183e056c1199a7e4068c2428625770ca9240cdd4854d80bd91a5df
 
 - question: justice-sanction-financiere-parents
   value: 1
@@ -584,11 +707,14 @@
   quote: "Il est donc nécessaire de mettre les parents de mineurs récidivistes face à leurs responsabilités, en conditionnant les prestations sociales."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de conditionner les prestations sociales des parents de mineurs récidivistes, ce qui couvre une partie seulement des mineurs délinquants, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:16cae5caaac2907cc4fc0ec5da56efc50aab505e6568d691f056c6b5be13d7e7
 
 - question: justice-supprimer-reductions-automatiques
   value: 1
@@ -598,11 +724,14 @@
   quote: "Réformer la procédure pénale et les réductions automatiques de peine."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de réformer les réductions automatiques de peine, sans parler explicitement de les supprimer, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:68d1aebbfa9e0cbf6a66d6ebda3a74a9d9092403b591627ae078ad18d3fcb85a
 
 - question: numerique-alleger-moderation
   value: 1
@@ -612,11 +741,14 @@
   quote: "Les lois restreignant la liberté d'expression doivent être supprimées."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret demande la suppression des lois restreignant la liberté d'expression, dans un passage consacré au règlement DSA, sans viser explicitement les obligations de modération des réseaux sociaux, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:993ca70a27127efad9bee8bff3fa4bb6aebfa16f9cdf636c9cff573a0b7b8332
 
 - question: numerique-donnees-sante-hebergeurs-europeens
   value: 1
@@ -626,11 +758,14 @@
   quote: "Toutes les données stratégiques doivent être hébergées sur des serveurs publics ou contrôlés par l'ANSSI."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose d'héberger les données stratégiques de l'État, dont celles de santé, sur des serveurs publics ou contrôlés par l'ANSSI, ce qui est voisin mais distinct d'un hébergement par des entreprises européennes, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:06ab3133bb93e4fa692af6753c67932ca8b8420865caeb28fb9c4f5cc1c19b20
 
 - question: numerique-logiciels-libres-administration
   value: 2
@@ -640,11 +775,14 @@
   quote: "Le code source des outils publics doit être libre et auditable."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose que le code source des outils publics soit libre, avec une sortie programmée des GAFAM en trois ans, ce qui correspond à la mesure de l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ad8e24c2b697acd1ba8a80add251f74d7c2d77732f4a4c1d97c263eadb1bcd65
 
 - question: sante-centres-sante-publics
   value: 1
@@ -654,11 +792,14 @@
   quote: "Il est urgent de renforcer le maillage territorial en créant des centres de santé locaux dotés d'équipements modernes"
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de créer des centres de santé locaux, sans préciser qu'ils seraient publics ni qu'ils emploieraient des médecins salariés, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:45e680bae5c9e3b1d5db96bb4e1a4d1d3b420cb5d77969aff8af4e7854841b81
 
 - question: sante-derembourser-faible-service-rendu
   value: -1
@@ -668,11 +809,14 @@
   quote: "Les réformes récentes, exigées par la Commission européenne, visant à raboter les indemnités chômage, à fermer des lits à l'hôpital ou à arrêter le remboursement des médicaments pourront être supprimées."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret indique que les réformes ayant arrêté le remboursement de médicaments pourront être supprimées, formulation conditionnelle qui va dans le sens contraire du déremboursement, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8ce55d379787b402934b07ef4b1084efda1606940f01e2c8a0c72b24625aca5f
 
 - question: sante-ratios-soignants-patients
   value: 1
@@ -682,11 +826,14 @@
   quote: "Les effectifs hospitaliers doivent être redéployés en priorité vers les postes soignants, avec un ratio personnel/patients adapté aux besoins réels des services."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose un ratio personnel/patients adapté aux besoins des services, sans le faire fixer par la loi, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:94a8c7a7e97dfbc396f7dc3499eea1af04f5044d87fb57e7b7eb0d05e441ae24
 
 - question: societe-aide-active-a-mourir
   value: -1
@@ -696,11 +843,14 @@
   quote: "Refuser toute politique d'incitation à l'euthanasie, assumée ou déguisée, des personnes en situation de handicap."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret refuse toute incitation à l'euthanasie des personnes handicapées, sans se prononcer sur l'aide active à mourir pour l'ensemble des adultes atteints d'une maladie incurable, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3663a9473053d4a603109da717510687be615d207e491cee1d997e16cb8c9ba4
 
 - question: societe-instruction-famille-autorisation
   value: -2
@@ -710,11 +860,14 @@
   quote: "Revenir sur les restrictions instaurées par Emmanuel Macron contre la possibilité de \" faire l'école à la maison \"."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de revenir sur les restrictions de 2021 à l'instruction en famille, dont le régime d'autorisation préalable, mesure contraire à son maintien."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b58db9bffc3a3f805c20d8661d111bd16ef42a9644cec8c5149550a6d69d1039
 
 - question: transport-autoroutes-concedees-v2
   value: -2
@@ -724,11 +877,14 @@
   quote: Renationaliser les autoroutes.
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: Le livret propose de renationaliser les autoroutes, contraire explicite d'une exploitation confiée à des sociétés privées concessionnaires.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a8a9aea285f1cc173c6a8664c8d1ca728ec60719db2b6781a1b3fd86cc48b270
 
 - question: transport-concurrence-ferroviaire
   value: -2
@@ -738,11 +894,14 @@
   quote: "Rétablir les monopoles publics dans le rail et l'énergie."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de rétablir un monopole public dans le rail, mesure contraire à une ouverture accrue à la concurrence."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:637b853d1dd6727ada1b480be523a378bbc3eb5a20c784527d747cb3ed30b2e5
 
 - question: transport-sncf-entreprise-publique-v2
   value: 1
@@ -752,11 +911,14 @@
   quote: Rétablir les monopoles publics dans le rail et l'énergie.
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: Le livret propose de rétablir un monopole public dans le rail sans se prononcer explicitement sur la détention intégrale de la SNCF par des entités publiques, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:54964aa886f1dce69315f90d8266934ece5674f4ea3e2e979ddfebaddbe00aed
 
 - question: travail-durcir-indemnisation-chomage
   value: -1
@@ -766,11 +928,14 @@
   quote: "Les réformes récentes, exigées par la Commission européenne, visant à raboter les indemnités chômage, à fermer des lits à l'hôpital ou à arrêter le remboursement des médicaments pourront être supprimées."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret indique que les réformes ayant réduit les indemnités chômage pourront être supprimées, formulation conditionnelle qui va dans le sens contraire d'un durcissement, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8ce55d379787b402934b07ef4b1084efda1606940f01e2c8a0c72b24625aca5f
 
 - question: travail-retraite-62-ans
   value: 1
@@ -780,11 +945,14 @@
   quote: "Baisser l'âge de départ à la retraite."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de baisser l'âge de départ à la retraite si les Français le désirent, sans fixer d'âge cible, d'où 1 plutôt que 2."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ab4fde57969e72972de92ab6b6dda50c7ec2a5620e60006694d4ad80bd882a19
 
 - question: travail-retraite-au-dela-64-ans
   value: -2
@@ -794,8 +962,11 @@
   quote: "Baisser l'âge de départ à la retraite."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le livret propose de baisser l'âge de départ à la retraite, mesure contraire à son report au-delà de 64 ans."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b73a39252e9c2dafbc1b93725561a47e61e4fdc8183ed191a2ef28ff881ff92d
