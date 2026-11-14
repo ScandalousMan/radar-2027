@@ -264,7 +264,7 @@ exécutées par `/speckit-implement` ; elles conditionnent SC-002, SC-003, SC-00
 - [ ] T093 **(propriétaire)** Compléter `data/corpus/contributors.yaml` avec le compte GitHub du relecteur réel ; arbitrer la liste de `data/corpus/candidates.yaml` au regard de monvote2027.fr (T043)
 - [ ] T094 **(éditeur + relecteur)** Porter la banque `data/corpus/questions/*.yaml` à 250–300 énoncés actifs, ≥ 10 par thème, polarités 40–60 %, grille de neutralité cochée et `reviewer` distinct ; `pnpm data:validate` sans `THEME-EMPTY` ni `BANK-SIZE` (SC-002)
 - [ ] T095 **(éditeur)** Enregistrer les sources de chaque candidat (`pnpm data:source fetch …`) dans `data/corpus/sources/*.yaml` ; lancer `pnpm data:extract` par candidat sous plafond ; transformer les affirmations (`pnpm data:affirmation accept|reject`)
-- [ ] T096 **(relecteur)** Relire les positions (`pnpm data:review`) jusqu'à une couverture ≥ 60 % par candidat déclaré (rapport `data/reports/validation.md`) (SC-003)
+- [ ] T096 **(relecteur)** Relire les positions (`pnpm data:review`) ; couverture par candidat déclaré suivie dans `data/reports/validation.md` (objectif 60 %, non bloquant depuis l'amendement SC-003 du 2026-11-14)
 - [ ] T097 **(mainteneur)** Publier la version 1 (`pnpm data:publish --next`), vérifier `/methodologie` en prévisualisation Vercel, puis mener les échantillonnages SC-008 (20 positions, < 2 min) et SC-009 (personne extérieure, 90 % à ±1) et consigner les résultats dans `specs/002-corpus-ontologie-pipeline/quickstart.md`
 
 ---
