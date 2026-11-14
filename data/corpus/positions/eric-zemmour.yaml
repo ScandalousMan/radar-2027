@@ -1,5 +1,5 @@
-# Positions d'Éric Zemmour (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
-# provenance manual), à relire par adrien avec pnpm data:review.
+# Positions d'Éric Zemmour (FR-016 à FR-022). Rédigées par claude (extraction en session,
+# provenance manual), relues par adrien le 2026-11-14 (pnpm data:review).
 
 - question: agriculture-alleger-normes-agricoles
   value: 1
@@ -9,11 +9,14 @@
   quote: Je mettrai également fin à l'excès de normes et de contraintes, pour que les agriculteurs puissent produire mieux sans être pénalisés par la concurrence déloyale étrangère
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 annonce la fin de l'excès de normes et de contraintes pesant sur les agriculteurs, sans viser spécifiquement les normes environnementales, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e19d5cbe108ae5b8fa0bd44fd0d13e536991631461f807cb4ee9b6bf983be834
 
 - question: defense-budget-armees-3-pib
   value: 1
@@ -23,11 +26,14 @@
   quote: Augmenter annuellement le budget de la défense jusqu'à 70 milliards d'euros en 2030
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 prévoit de porter le budget de la défense à 70 milliards d'euros en 2030, une hausse nette qui n'est pas exprimée comme un objectif de 3 % du PIB, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:039ec7efa94bf7612d663f80bd4f7210ba3ed774d87434168f3e197ce117f45b
 
 - question: defense-defense-europeenne-emprunt
   value: -1
@@ -37,11 +43,14 @@
   quote: Cela veut dire prendre nos distances avec l'OTAN et cesser l'intégration européenne en matière de défense
   quoteSource: eric-zemmour-discours-programme-defense-2022
   justification: Le discours de 2022 demande de cesser l'intégration européenne en matière de défense, ce qui s'oppose à une défense européenne commune sans se prononcer sur son financement par emprunt, d'où -1 plutôt que -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6044f33cd151152e8b782b8bbe11f6ecd5f3594d7c6a0e396535e978932def42
 
 - question: defense-doubler-reservistes
   value: 1
@@ -51,11 +60,14 @@
   quote: Renforcer le rôle et les moyens de la réserve opérationnelle dans la défense du territoire
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 prévoit de renforcer le rôle et les moyens de la réserve opérationnelle, sans objectif chiffré de doublement des effectifs, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:34189b4a33bd70a9d2f88e443120185f8ac644d686286a471e0c8352c003f29a
 
 - question: defense-effectifs-armees-hausse
   value: 1
@@ -65,11 +77,14 @@
   quote: "Pour l'armée de Terre : porter la force opérationnelle terrestre à 100 000 hommes d'ici 2027"
   quoteSource: eric-zemmour-discours-programme-defense-2022
   justification: Le discours de 2022 prévoit de porter la force opérationnelle terrestre à 100 000 hommes d'ici 2027, une hausse qui ne concerne que l'armée de Terre, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:86c17f5acf68a30d089732853709c85f10dc34f7653e73952837c876810a9d3a
 
 - question: defense-fermer-bases-afrique
   value: -2
@@ -79,11 +94,14 @@
   quote: Revoir notre stratégie au Sahel et en Afrique en renforçant nos bases de réaction rapide dans la zone
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 prévoit de renforcer les bases militaires françaises en Afrique, soit l'inverse de leur fermeture, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:36c9fe74ab0ba2462fa861952d29648644d174c6537e803aed8d90ea2c459fa8
 
 - question: defense-priorite-depenses-sociales
   value: -1
@@ -93,11 +111,14 @@
   quote: nous dépensons trop dans la protection sociale et l'assistance, notamment avec un dévoiement complet de l'idée de solidarité nationale qui est en fait ouverte au monde entier, et trop peu dans la sphère régalienne (armées, police, gendarmerie, justice)
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 juge les dépenses sociales trop élevées et les dépenses régaliennes, dont les armées, insuffisantes, sans formuler une règle de priorité budgétaire, d'où -1 plutôt que -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ed571977cb289a439b9c4243f81367f6724bfb6dc3de15871ea26f5fb445f4bd
 
 - question: defense-reduire-budget-armees
   value: -2
@@ -107,11 +128,14 @@
   quote: Augmenter annuellement le budget de la défense jusqu'à 70 milliards d'euros en 2030
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 prévoit une hausse annuelle du budget de la défense jusqu'à 70 milliards d'euros en 2030, soit l'inverse d'une réduction, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e5efc08b258db0a32cd3410ccc49388b8b78e507eb00ce0673dd7141aa34b1c5
 
 - question: defense-reduire-presence-etranger
   value: -2
@@ -121,11 +145,14 @@
   quote: Muscler nos capacités de défense et d'intervention en doublant d'ici 2027 les forces prépositionnées en Outre-mer et à l'étranger
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 prévoit de doubler d'ici 2027 les forces prépositionnées à l'étranger, soit l'inverse d'une réduction de la présence militaire, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e7bde18f5aada90c5bb26ebe434e98da441a54738ff4f802c5b8aaf4b517c495
 
 - question: defense-renoncer-modernisation-dissuasion
   value: -2
@@ -135,11 +162,14 @@
   quote: Je sauvegarderai ces atouts en modernisant nos moyens de dissuasion
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 s'engage à moderniser les moyens de dissuasion, soit l'inverse d'un renoncement, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8f605b2ad08f0db55ff7d4a6da64d3c99b3ff5b116686372267c2835fb686c6a
 
 - question: defense-second-porte-avions
   value: 2
@@ -149,11 +179,14 @@
   quote: Posséder à terme deux porte-avions, vingt frégates, huit sous-marins nucléaires d'attaque et trois cents avions de chasse
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 prévoit explicitement de posséder à terme deux porte-avions, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ada43c4b59394b925dbe5b03b50f493803142f8a08718d48211f209e877fb0cb
 
 - question: democratie-referendum-exceptionnel
   value: -1
@@ -163,11 +196,14 @@
   quote: Favoriser l'usage du référendum afin de faire adopter directement par le peuple français les mesures les plus importantes qui intéressent la vie de la Nation
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 veut favoriser l'usage du référendum pour les mesures les plus importantes, ce qui va dans le sens contraire d'un recours exceptionnel sans en faire un mode habituel de décision, d'où -1 plutôt que -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:eb40012a7b7e6838808e8e19280397c9ff12b3d364d5a6c9e12d58b162438c15
 
 - question: democratie-revision-par-congres
   value: -2
@@ -177,11 +213,14 @@
   quote: Instaurer un référendum obligatoire pour toute proposition de révision de la Constitution
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 rend le référendum obligatoire pour toute révision de la Constitution, ce qui exclut une adoption par le Congrès sans référendum.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:30d6083acad01d8a504940936bac68629ef40b2f8a9874b0390509e18b9becf5
 
 - question: economie-accords-libre-echange
   value: -2
@@ -191,11 +230,14 @@
   quote: Opposer le veto de la France à toute négociation actuelle et future de traité de libre-échange pour défendre nos entreprises et nos agriculteurs
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 prévoit un veto de la France à toute négociation de traité de libre-échange, soit le rejet explicite de nouveaux accords, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e5b3b4eef355e998833e58e8c59d3625b5d2c4155105aa0eef38e45e768cf93b
 
 - question: economie-aides-conditionnees-emploi
   value: 1
@@ -205,11 +247,14 @@
   quote: Exiger le remboursement intégral des aides publiques reçues par les entreprises qui délocalisent
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 conditionne les aides publiques à l'absence de délocalisation par une obligation de remboursement, sans viser le maintien de l'emploi en général, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5ce82e2941d7cc9b4772d9b661e0ed874a5c2010211019aa5e254fa39c0f33d0
 
 - question: economie-alleger-regles-entreprises
   value: 1
@@ -219,11 +264,14 @@
   quote: Nous ferons de la France le pays européen où il est le plus facile de créer une entreprise d'intelligence artificielle. Suppression massive des réglementations européennes et françaises qui étouffent nos ingénieurs
   quoteSource: eric-zemmour-discours-port-marly-2026
   justification: Dans ce discours de 2026 cité par l'Institut Montaigne, il annonce une suppression massive des réglementations pour faciliter la création d'entreprises, présentée pour le secteur de l'intelligence artificielle, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:59829f8c4fd677f878589ba14518af764e0ca1d7e08ea56f195c4781c858ce8a
 
 - question: economie-assouplir-seuils-effectifs
   value: 1
@@ -233,11 +281,14 @@
   quote: Relever le seuil de 50 à 250 salariés pour l'obligation de consultation du Comité social et économique (CSE)
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: "Le programme de 2022 relève de 50 à 250 salariés le seuil d'une seule obligation, la consultation du CSE, en maintenant les autres obligations à 50 : assouplissement partiel des obligations liées aux seuils, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f711a7eaa00f29f8a38743b343717df14061bf7809e82fc1bb751e28fe966b05
 
 - question: economie-baisse-depense-publique
   value: 2
@@ -247,11 +298,14 @@
   quote: L'argent magique n'existe pas et l'esprit de responsabilité impose de réduire simultanément les prélèvements obligatoires et la dépense publique
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 s'engage explicitement à réduire la dépense publique, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4613720381d510fba60c77471acd50eff9b1a518bd6a664c33555b80783956e6
 
 - question: economie-controle-rachats-etrangers
   value: 2
@@ -261,11 +315,14 @@
   quote: Protéger nos entreprises stratégiques en créant un comité dédié chargé de contrôler tous les investisse- ments étrangers
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose un comité chargé de contrôler tous les investissements étrangers pour protéger les entreprises stratégiques, soit un contrôle renforcé, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e1de88691b3cb5de2eb5ad8b6fbe5455d47684dba00d34a8726ecdc360500e20
 
 - question: economie-edf-entierement-publique
   value: 1
@@ -275,11 +332,14 @@
   quote: Mettre fin au projet Hercule visant au démantèlement d'EDF et garantir l'intégrité de ce fleuron national
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 s'oppose au démantèlement d'EDF et veut garantir son intégrité, sans préciser qu'elle doit être entièrement détenue par l'État, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:051931de5e67cc5e1570890d90d4cf69c3c37402cc0b3dd34960faa7f28ed9a9
 
 - question: economie-participations-etat-industrie
   value: 2
@@ -289,11 +349,14 @@
   quote: Faire de l'Agence des Participations de l'État un véritable fonds souverain qui investira en priorité dans les entreprises stratégiques françaises
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 prévoit que l'État investisse via un fonds souverain dans les entreprises stratégiques françaises, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f0eada4383d4da0833882165214a88f414c1b87574ec117954344be5b381be10
 
 - question: economie-prix-energie-reglementes
   value: 1
@@ -303,11 +366,14 @@
   quote: en remplaçant le dispositif ARENH, qui oblige EDF à vendre un quart de son électricité nucléaire à ses concurrents à un prix ne permettant pas de couvrir tous ses coûts, par un nouveau tarif régulé pour l'électricité nucléaire
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose un tarif régulé pour l'électricité nucléaire, ce qui ne couvre qu'une partie des prix de l'énergie des ménages, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0e2ae473b8ef2c891e6cca0395ff170221811dc8b65fd51743d2c8f927b9c219
 
 - question: economie-supprimer-agences-etat
   value: 1
@@ -317,11 +383,14 @@
   quote: Supprimer les ARS, organismes purement comptables et technocratiques, et transférer leurs missions aux préfets
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de supprimer les agences régionales de santé, soit une catégorie d'agences de l'État seulement, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1e81bb213c5769b19b17c857a487231629738ce0d7ac1142d75c2db08e929bc3
 
 - question: energie-accelerer-eolien-terrestre
   value: -2
@@ -331,11 +400,14 @@
   quote: Mettre fin à tous les projets d'éoliennes actuels et futurs, sur terre comme sur mer
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de mettre fin à tous les projets d'éoliennes, y compris terrestres, soit l'inverse d'une accélération, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:64a4a7262d2cfdd9c9a9c260efa3f77084e95aca97193f829781d6ae4275932b
 
 - question: energie-nouveaux-reacteurs-au-dela-epr2
   value: 2
@@ -345,11 +417,14 @@
   quote: lançant un programme de construction d'au moins 14 nouveaux réacteurs nucléaires EPR2 à horizon 2050
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 prévoit au moins 14 nouveaux réacteurs EPR2, soit au-delà des six prévus, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ffe79f094d2308657613c761daa26a5475a985745f0f4733a3dae8823e3f656b
 
 - question: energie-petits-reacteurs-modulaires
   value: 2
@@ -359,11 +434,14 @@
   quote: Soutenir le développement des réacteurs de petite taille SMR (Small Modular Reactors) afin de disposer d'un modèle prêt à construire d'ici la fin du quinquennat
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose explicitement de soutenir le développement des petits réacteurs modulaires, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:51583386e608ad5d671be3aa9660c97a5883ec7f5cccbf8dd148c7fc2b87682b
 
 - question: energie-prolonger-reacteurs-60-ans
   value: 1
@@ -373,11 +451,14 @@
   quote: allonger la durée de vie du parc existant à 60 ans au moins
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 prévoit d'allonger la durée de vie des réacteurs à 60 ans au moins, sans viser explicitement une prolongation au-delà de 60 ans, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4253aa5da33bec4df37ba45fad49ffff8ff510b8c8ea0cecd14333b771e71424
 
 - question: energie-reduire-part-nucleaire
   value: -2
@@ -387,11 +468,14 @@
   quote: Supprimer l'objectif de réduire à 50 % la part du nucléaire dans notre mix électrique en 2035
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de supprimer l'objectif de réduction de la part du nucléaire, soit le rejet explicite de l'énoncé, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b8602eb11cd75dc03d5d7017d62f8f2883c42b1611d1d48b9ac3d6f060d874e9
 
 - question: energie-supprimer-aides-solaire-eolien
   value: 1
@@ -401,11 +485,14 @@
   quote: Rediriger le soutien public à l'éolien vers la géothermie, le bois-énergie, les réseaux de chaleur ou les pompes à chaleur
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de retirer le soutien public à l'éolien pour le rediriger vers d'autres filières, sans viser le solaire, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:add4112dd7a16b90538967bb8baefa54083a0a7be239ec5270a503e9b1b76b5e
 
 - question: energie-suspendre-nouvelles-eoliennes
   value: 1
@@ -415,11 +502,14 @@
   quote: Mettre fin à tous les projets d'éoliennes actuels et futurs, sur terre comme sur mer
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: "Le programme de 2022 propose de mettre fin à tous les projets d'éoliennes actuels et futurs, ce qui va jusqu'à l'arrêt de toute nouvelle installation. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a7ae276c5d6c933287a9814cdc8a51d5ad1257d7541827244fd5d4880dc8e4d2
 
 - question: environnement-supprimer-zfe
   value: 2
@@ -429,11 +519,14 @@
   quote: Ne pas empêcher des millions de Français de circuler dans leur propre agglomération en mettant fin à toute interdiction pour certains véhicules de circuler en ville (ZFE-m, Zones à faibles Émissions mobilité)
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose explicitement de mettre fin aux zones à faibles émissions, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d90835af8b13c049b50bcbf5a89fe73201d019f82273ab804a6a771871b08071
 
 - question: environnement-taxe-carbone-importations
   value: 2
@@ -443,11 +536,14 @@
   quote: Pénaliser les importations de produits qui ne respectent pas nos normes environnementales en exigeant la mise en place rapide au niveau européen de la taxe carbone aux frontières
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 demande la mise en place rapide d'une taxe carbone aux frontières sur les importations, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e4fef708452944dad5714c68657b1f7cc8759f4fc611e407e2325e805c2edbbf
 
 - question: fiscalite-baisse-cotisations-salaries
   value: 1
@@ -457,11 +553,14 @@
   quote: en permettant de toucher l'équivalent d'un 13ème mois par la baisse de la Contribution Sociale Généralisée (CSG) s'appliquant de manière dégressive pour tous les salaires allant du SMIC à 2 000 euros
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de baisser la CSG sur les salaires du SMIC à 2 000 euros, un prélèvement social sur les salariés autre que les cotisations et limité à ces salaires, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:518abd7acb02ca06119c350fdc5cf2ef96f25301ac6eb593376fdbf88d63a8b0
 
 - question: fiscalite-baisse-impot-societes
   value: 1
@@ -471,11 +570,14 @@
   quote: Baisser le taux d'impôt sur les sociétés à 15 % pour les petites et moyennes entreprises, artisans, commerçants et agriculteurs jusqu'à 300 000 euros de bénéfices
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose d'abaisser le taux de l'impôt sur les sociétés à 15 % pour les PME jusqu'à 300 000 euros de bénéfices, et non pour toutes les entreprises, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4d3055915dca0deab941eec5bdb30dba6ced750e49ed20d51f7671bb400df358
 
 - question: fiscalite-baisse-ir-tranches-intermediaires
   value: 1
@@ -485,11 +587,14 @@
   quote: La baisse des impôts pesant sur les travailleurs modestes, sur les classes moyennes comme sur les entreprises qui produisent en France est indispensable
   quoteSource: eric-zemmour-priorites
   justification: La plateforme de 2022 demande une baisse des impôts pesant sur les classes moyennes, sans préciser qu'il s'agit de l'impôt sur le revenu, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c40eb093a3b1a01ecacd8ed7a7bb6b5caf1d32b5d7af6de8636585fa4abbd8a8
 
 - question: fiscalite-baisse-prelevements-obligatoires
   value: 2
@@ -499,11 +604,14 @@
   quote: Dès 2022, je mettrai donc la France sur le chemin d'un cycle vertueux où la baisse des dépenses publiques permettra la baisse des prélèvements obligatoires
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 s'engage explicitement à baisser les prélèvements obligatoires, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7637fb65a517f9e9c10436863adc540b20114ea3b138b060f47bd2f32c5b51cc
 
 - question: fiscalite-csg-progressive-v2
   value: 1
@@ -513,11 +621,14 @@
   quote: par la baisse de la Contribution Sociale Généralisée (CSG) s'appliquant de manière dégressive pour tous les salaires allant du SMIC à 2 000 euros
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose une baisse dégressive de la CSG sur les salaires du SMIC à 2 000 euros, ce qui rend le taux croissant avec le revenu sur cette seule tranche, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9d77badeafaeef791e7fe36557a4e97cee5c12509902aa7ee216e9ec3fba70c3
 
 - question: fiscalite-heures-sup-sans-plafond
   value: 2
@@ -527,11 +638,14 @@
   quote: en exonérant totalement d'impôts et de charges sociales les heures supplémentaires
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose d'exonérer totalement d'impôts les heures supplémentaires, sans plafond, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:440346db17f99cd94be0fb3a05e4514e5a5413483ee2d165c57d4105b794d4db
 
 - question: fiscalite-quotient-familial-credit-enfant
   value: -1
@@ -541,11 +655,14 @@
   quote: Doubler le plafond du quotient familial de 1 592 à 3 000 euros
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de renforcer le quotient familial en doublant son plafond, ce qui va à l'inverse de son remplacement par un crédit d'impôt uniforme sans le rejeter explicitement, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:08a619eff3c02030e21f019212a5060339ae48a59e6e269283e5e2dcae962b7a
 
 - question: fiscalite-reduire-droits-succession
   value: 2
@@ -555,11 +672,14 @@
   quote: Exonérer 95 % des familles françaises de droits de succession en mettant en place une franchise de 200 000 euros par enfant au décès de leurs parents
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose une franchise de 200 000 euros par enfant sur les successions, soit une réduction explicite des droits sur les transmissions familiales, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ece3ddfad08eb5cdf6e9b3dd171380a7ecc6182ecb23c327c6826f92b11b96a9
 
 - question: fiscalite-supprimer-ifi
   value: 1
@@ -569,11 +689,14 @@
   quote: favoriser l'enracinement en sortant la résidence principale du calcul de l'Impôt sur la Fortune Immobilière
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose d'exclure la résidence principale de l'impôt sur la fortune immobilière, ce qui l'allège sans le supprimer, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8d66ce6ffa52c354f82d5f018da9964a029208abfb8895bcbbafff2ff27e5745
 
 - question: fiscalite-supprimer-impots-production
   value: 1
@@ -583,11 +706,14 @@
   quote: Baisser massivement les impôts de production à hauteur de 30 milliards d'euros supplémentaires par an, en supprimant en priorité la Contribution Sociale de Solidarité des Sociétés (C3S), la Cotisation sur la Valeur Ajoutée des Entreprises (CVAE)
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose une baisse massive des impôts de production en supprimant en priorité plusieurs d'entre eux, sans annoncer la suppression de tous, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d4b7eae24d4afdab9c2bdac836642c2a62b5732947134b93360ed8e610210bce
 
 - question: immigration-ame-soins-urgents
   value: 2
@@ -597,11 +723,14 @@
   quote: Supprimer les soins gratuits pour les étrangers clandestins (Aide Médicale de l'État) pour ne conserver qu'une aide médicale d'urgence
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de remplacer l'aide médicale d'État par une aide médicale d'urgence, ce qui correspond à l'énoncé, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d59a515ac48bd274f2c3e2d2309c8a768ee70ffbc3f575173599a6a0f5e8b92d
 
 - question: immigration-amende-sejour-irregulier
   value: 1
@@ -611,11 +740,14 @@
   quote: réinstaurer le délit de séjour irrégulier supprimé en 2012 afin de pouvoir juridiquement sanctionner et renvoyer dans leur pays tout étranger entré illégalement sur le territoire
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: "Le programme de 2022 propose de rétablir le délit de séjour irrégulier pour pouvoir le sanctionner pénalement, sans préciser que la peine serait une amende : version voisine de l'énoncé, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:37d22f586ec206de184d2d0c4fb8b6302f9d78385d772d093e1aa48a7df6f216
 
 - question: immigration-asile-examen-hors-europe-v2
   value: 1
@@ -625,11 +757,14 @@
   quote: exiger que les demandes d'asile soient déposées en dehors du territoire national, dans nos consulats
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 exige que les demandes d'asile soient déposées hors du territoire national, dans les consulats, et non examinées dans des centres situés hors de l'Union européenne, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d66bc99a119787e99b3b83065f45f57e437da20bd1f9fe9d26e75b64c5af7e1b
 
 - question: immigration-asile-examen-sans-transfert
   value: -1
@@ -639,11 +774,14 @@
   quote: exiger que les demandes d'asile soient déposées en dehors du territoire national, dans nos consulats
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: 'Le programme de 2022 veut que les demandes d''asile ne soient plus déposées en France mais dans les consulats, ce qui exclut un examen en France sans viser les règles de transfert européennes. Mesure plus large que l''énoncé, dans le sens contraire : -1 par convention.'
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:537c88fb85fc687e9d85beb04a142ac90af3f1b0ef676173ad9d0803fb6bf197
 
 - question: immigration-condamnes-perte-titre-sejour
   value: 1
@@ -653,11 +791,14 @@
   quote: Il faut renvoyer tous les délinquants étrangers, même ceux qui ne sont pas en prison
   quoteSource: eric-zemmour-bfmtv-candidature-afp-2026
   justification: "Dans cet entretien de septembre 2026 rapporté par l'AFP, il demande le renvoi de tous les délinquants étrangers, ce qui implique la perte du droit au séjour et va au-delà de l'énoncé ; le programme de 2022 prévoyait déjà leur expulsion dès la condamnation. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1113a20cda9e3138b4cba3392ce5ad15457e452563b7543d9d59c53c9bfeaeed
 
 - question: immigration-frais-etudiants-etrangers
   value: -2
@@ -667,11 +808,14 @@
   quote: Augmenter sensiblement les droits d'inscription pour les étudiants étrangers car l'enseignement supérieur public est financé par les impôts des Français
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose d'augmenter les droits d'inscription des étudiants étrangers, soit l'inverse d'un alignement sur ceux des étudiants français, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:807ad9a8b6a636db79b53ffb93857b733146ff45742201fdd1666381a6bda5c2
 
 - question: immigration-prestations-duree-residence
   value: 1
@@ -681,11 +825,14 @@
   quote: Supprimer les aides sociales non-contributives (allocations familiales, aides au logement, RSA, minimum vieillesse…) pour les étrangers extra-européens
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de supprimer les prestations non contributives pour les étrangers extra-européens, une restriction plus forte et différente d'une condition de cinq ans de résidence, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7c617cf51bc66bdeaaea5fb09408fa5811e85b6f85403856db5ae20cbf0ed1ce
 
 - question: immigration-reduire-duree-naturalisation
   value: -2
@@ -695,11 +842,14 @@
   quote: Durcir les conditions de naturalisation, en augmentant la durée minimale de résidence en France de 5 à 10 ans
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de porter la durée de résidence exigée de 5 à 10 ans, soit l'inverse d'une réduction, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ccace972f7e68a34ec27f5665ecd2ed23514b2f5f9947afedb7a4b03fa553c60
 
 - question: immigration-regroupement-familial-ressources
   value: 1
@@ -709,11 +859,14 @@
   quote: Supprimer le droit au regroupement familial et tous les droits automatiques liés à l'immigration familiale
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de supprimer le regroupement familial, une mesure plus radicale que des conditions de ressources plus strictes, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a88bae6c32263deb856d9fedcff56dd22e906ca821d678c426a40f6aa61fb077
 
 - question: immigration-regularisation-cinq-ans
   value: -2
@@ -723,11 +876,14 @@
   quote: Interdire définitivement la régularisation de tout étranger entré illégalement sur le territoire français
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose d'interdire toute régularisation des étrangers entrés illégalement, quelle que soit leur durée de présence, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5b8dd00882a50bd84790456c709c1d25c119cc5665d5e17ef3a06b68513f9b7c
 
 - question: immigration-regularisation-metiers-tension
   value: -2
@@ -737,11 +893,14 @@
   quote: Interdire définitivement la régularisation de tout étranger entré illégalement sur le territoire français
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose d'interdire toute régularisation des étrangers entrés illégalement, y compris ceux employés dans des métiers en tension, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5b8dd00882a50bd84790456c709c1d25c119cc5665d5e17ef3a06b68513f9b7c
 
 - question: immigration-supprimer-droit-du-sol
   value: 2
@@ -751,11 +910,14 @@
   quote: Supprimer le droit du sol, ainsi un enfant dont les deux parents sont étrangers ne pourra devenir français qu'après naturalisation, sans aucune automaticité
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose explicitement de supprimer le droit du sol, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8e1747f18ecb503c3233695738715a5426cd71b44abe319488713923b755d95f
 
 - question: immigration-titre-sejour-longue-duree
   value: -1
@@ -765,11 +927,14 @@
   quote: Mettre fin au renouvellement quasi-systématique des titres de séjour afin de pouvoir évaluer de manière régulière la pertinence de la présence de chaque étranger sur le sol français
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 veut rendre le renouvellement des titres de séjour moins systématique, ce qui va dans le sens contraire sans viser explicitement les titres de longue durée, d'où -1 plutôt que -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f41748bbe8ec966047608fc8e6e6f64d6e2c8977a762ebc43e8beb973c286a01
 
 - question: institutions-competences-retour-etat-v2
   value: 2
@@ -779,11 +944,14 @@
   quote: Réaffirmer le rôle premier des communes et de l'État en redistribuant à leur profit certaines compétences des intercommunalités, des départements et des régions
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de redistribuer au profit de l'État et des communes certaines compétences des collectivités, ce qui correspond à l'énoncé, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a3eaf4be1e0e19c2e94b80016eecad870a86851f880824fa462e8a5aec626dec
 
 - question: international-adhesion-ukraine-ue
   value: -2
@@ -793,11 +961,14 @@
   quote: Refuser tout nouvel élargissement et demander à mettre définitivement fin au processus d'adhésion de la Turquie
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 refuse tout nouvel élargissement de l'Union européenne, ce qui exclut l'adhésion de l'Ukraine sans la nommer, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cf2edf05102189ba426d7f931818281723e2b38956ab8c0f334ddf754f396c59
 
 - question: international-aide-developpement-0-7
   value: -2
@@ -807,11 +978,14 @@
   quote: Réduction de moitié de l'aide publique au développement
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 prévoit de réduire de moitié l'aide publique au développement, soit l'inverse d'une hausse à 0,7 % du revenu national brut, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3ff737ccbf114879f7a097c5d9c83c09966c0cd42b410a24bee2c826236a502b
 
 - question: international-primaute-loi-nationale-v2
   value: 2
@@ -821,11 +995,14 @@
   quote: Instaurer la supériorité des nouvelles lois nationales sur tout texte international antérieur et sur tout acte dérivé qui en résulte en modifiant l'article 55 de la Constitution
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de faire prévaloir les nouvelles lois nationales sur les traités antérieurs et le droit dérivé, dont celui de l'Union européenne, ce qui correspond à l'énoncé, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3fd4f365d9475b5e1de2dee576f8e50c92650ef2dde088fe65b0f3cf7eaa74ba
 
 - question: international-quitter-commandement-otan
   value: 2
@@ -835,11 +1012,14 @@
   quote: Sortir du commandement militaire intégré de l'OTAN pour retrouver une voix indépendante, tout en demeurant au sein de l'Alliance atlantique
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose explicitement de quitter le commandement militaire intégré de l'OTAN, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fefe9a83913a88e2c3fe2959486597054925a3c2dc53b995cec5137ae8ce22d0
 
 - question: international-referendum-traites-europeens
   value: 2
@@ -849,11 +1029,14 @@
   quote: Instaurer un référendum obligatoire pour toute proposition de révision de la Constitution, ratification de traité européen ou élargissement de l'Union européenne
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose un référendum obligatoire pour toute ratification de traité européen, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:39faeb46ed9e0a1db805108726cdeb5b389843bfd5ef483702cfe55b4a851f27
 
 - question: international-renegocier-traites-competences
   value: 1
@@ -863,11 +1046,14 @@
   quote: je demanderai la renégociation des règles européennes en matière d'immigration pour redonner aux États le contrôle de leurs frontières
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 demande une renégociation des règles européennes pour rendre aux États la maîtrise de l'immigration, sans viser une renégociation générale des compétences, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:62f9b5a8024e1c779ca537856b59e1e06d7db59507e9fc62254a7dc9ae5fdb59
 
 - question: justice-arret-construction-prisons
   value: -2
@@ -877,11 +1063,14 @@
   quote: Construire 10 000 places de prison supplémentaires sur le mandat en simplifiant le processus administratif
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 prévoit 10 000 places de prison supplémentaires, soit l'inverse d'un arrêt des constructions, d'où -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:78d19354ce2e18fbbf49f23fa639d9b815fb8c155e239035bf1ea45830e994cf
 
 - question: justice-courtes-peines-alternatives
   value: -1
@@ -891,11 +1080,14 @@
   quote: Appliquer réellement les condamnations en mettant fin aux aménagements de peine
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 veut mettre fin aux aménagements de peine, ce qui va dans le sens contraire du remplacement des courtes peines sans viser ces peines en particulier, d'où -1 plutôt que -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3dba008f56da6e2344e8a6d4404dabdb2243d6087d8ea278d9ba6e6afb24d2cf
 
 - question: justice-juridictions-mineurs-specialisees-v2
   value: -1
@@ -905,11 +1097,14 @@
   quote: abaissant l'âge de la majorité pénale de 18 à 16 ans pour responsabiliser les mineurs
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 abaisse la majorité pénale à 16 ans, ce qui ferait juger les 16-17 ans comme des majeurs sans remettre en cause des juridictions distinctes pour les plus jeunes, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:705c74d149ab213c8d65aa1320578064fc56aac702de2b556deee203612e495f
 
 - question: justice-majorite-penale-16-ans
   value: 2
@@ -919,11 +1114,14 @@
   quote: abaissant l'âge de la majorité pénale de 18 à 16 ans pour responsabiliser les mineurs
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose explicitement d'abaisser la majorité pénale à 16 ans, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:725012ce040a8ef7edc977856dcdef723fc42d99551f5c3daf5981860712c394
 
 - question: justice-peines-minimales-recidive
   value: 1
@@ -933,11 +1131,14 @@
   quote: Obliger les juges à sanctionner tous les délinquants et criminels en introduisant des peines planchers pour tous les crimes et délits
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: "Le programme de 2022 propose des peines planchers pour tous les crimes et délits, ce qui inclut les récidivistes et va au-delà de l'énoncé. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:71d91bf0576c6c3b2c5ef0ed661f23094b6dfea46bfaf11747771ac3fdc1785d
 
 - question: justice-perpetuite-reelle-etendue
   value: 1
@@ -947,11 +1148,14 @@
   quote: Mettre hors d'état de nuire les criminels les plus dangereux et les terroristes en rétablissant une peine de perpétuité réelle non-compressible
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose une perpétuité réelle pour les criminels les plus dangereux et les terroristes, sans préciser la liste des crimes concernés, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e16bb212fcab46de9a270605255de67d883f3fc0774b57cbc3002669fb758d8b
 
 - question: justice-sanction-financiere-parents
   value: 2
@@ -961,11 +1165,14 @@
   quote: supprimant les aides sociales des parents de mineurs délinquants récidivistes pour responsabiliser les familles
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de supprimer les aides sociales des parents de mineurs délinquants récidivistes, soit une sanction financière des parents, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:70a9e3f68f5516daf6c1a05b18b2fa743a421ee772c04d6b76f13a96e534a276
 
 - question: justice-supprimer-reductions-automatiques
   value: 1
@@ -975,11 +1182,14 @@
   quote: Appliquer réellement les condamnations en mettant fin aux aménagements de peine
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 veut mettre fin aux aménagements de peine, ce qui va dans le sens de l'énoncé sans viser nommément les réductions automatiques de peine, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a8260bf840fd2285d05c217d38d8348638858d7332734a5b8d89120470e1e2fb
 
 - question: numerique-assouplir-regles-ia
   value: 1
@@ -989,11 +1199,14 @@
   quote: Nous ferons de la France le pays européen où il est le plus facile de créer une entreprise d'intelligence artificielle. Suppression massive des réglementations européennes et françaises qui étouffent nos ingénieurs
   quoteSource: eric-zemmour-discours-port-marly-2026
   justification: Dans ce discours de 2026 cité par l'Institut Montaigne, il annonce une suppression massive des réglementations européennes pour les entreprises d'intelligence artificielle, sans nommer le règlement européen sur l'IA, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:59829f8c4fd677f878589ba14518af764e0ca1d7e08ea56f195c4781c858ce8a
 
 - question: numerique-donnees-sante-hebergeurs-europeens
   value: 1
@@ -1003,11 +1216,14 @@
   quote: Imposer par la loi que les données sensibles des Français ainsi que les données stratégiques de l'État et du secteur privé soient hébergées et sécurisées en France sur des solutions souveraines
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 impose l'hébergement en France des données sensibles des Français, ce qui va dans le sens de l'énoncé sans viser nommément les données de santé, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:36d27c5960f24d8b89bd2f537c5a2f745a73530a8e16063ecb411f7f9fff2699
 
 - question: numerique-reseaux-sociaux-moins-15-ans
   value: -1
@@ -1017,11 +1233,14 @@
   quote: La France, la France, elle, vient de voter l'interdiction des réseaux sociaux aux moins de 15 ans, prétendument pour protéger les enfants, mais en réalité pour installer le principe qu'un État peut décider qui a le droit de parler.
   quoteSource: eric-zemmour-discours-port-marly-2026
   justification: Dans ce discours de 2026 cité entre guillemets par l'Institut Montaigne, il conteste l'interdiction des réseaux sociaux aux moins de 15 ans qui vient d'être votée, sans proposer explicitement son abrogation, d'où -1 plutôt que -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:dcdb1c20929090a56d635192f1b7409116c85a85705353731cdbf09995984937
 
 - question: sante-centres-sante-publics
   value: 1
@@ -1031,11 +1250,14 @@
   quote: Recruter 1 000 médecins salariés par l'État sur 5 ans pour soigner dans les déserts médicaux
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 prévoit des médecins salariés par l'État dans les déserts médicaux, sans prévoir de centres de santé publics dans chaque département, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fa871d6d1469851815e7f9c538f5f56e89241b716a998d4f85ae555c75024d37
 
 - question: sante-doubler-etudiants-medecine
   value: 2
@@ -1045,11 +1267,14 @@
   quote: Doubler les capacités de formation des médecins et des professionnels de santé en 5 ans
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de doubler les capacités de formation des médecins, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:51dc041f984d59a0097e51f937383390cc04bdd47453c99f653327934ea43aec
 
 - question: securite-armer-polices-municipales
   value: 2
@@ -1059,11 +1284,14 @@
   quote: Ramener la paix dans nos villes en généralisant progressivement l'armement obligatoire des polices municipales
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de généraliser l'armement obligatoire des polices municipales, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ffaf30a61c51da70b2a91a55d5873be4b282b50a25ece755ae14d47ffaa2f76c
 
 - question: securite-presomption-legitime-defense
   value: 2
@@ -1073,11 +1301,14 @@
   quote: Accorder aux policiers et aux gendarmes une présomption de légitime défense en cas d'usage de leurs armes
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose explicitement une présomption de légitime défense pour les policiers et gendarmes, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0671b67a3d0cfa1b7d0a100ac0368701cd6965bc8000326e9c49bd161a7d2a37
 
 - question: societe-gpa-interdite-v2
   value: 2
@@ -1087,11 +1318,14 @@
   quote: Interdire réellement la gestation pour autrui (GPA) en réprimant judiciairement le recours aux GPA à l'étranger
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 veut interdire réellement la GPA, y compris en réprimant le recours à l'étranger, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3bc05baa807fa59ec87804ba9339705623ecde13fd3ce856315d8b036f683f9c
 
 - question: societe-interdire-ecriture-inclusive
   value: 1
@@ -1101,11 +1335,14 @@
   quote: Faire scrupuleusement respecter l'interdiction de l'écriture inclusive jusque dans l'enseignement supérieur
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 soutient l'interdiction de l'écriture inclusive dans l'enseignement, sans viser les documents administratifs, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8c365576d46ae102e45f0233e97fe5f01818471ca48478dc4ef8458fc167062c
 
 - question: societe-signes-religieux-sorties-scolaires
   value: 1
@@ -1115,11 +1352,14 @@
   quote: Interdire le port du voile islamique dans l'espace public, afin de faire respecter le principe de discrétion de la pratique religieuse
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose d'interdire le voile islamique dans tout l'espace public, ce qui inclut les accompagnatrices de sorties scolaires mais ne vise qu'un signe religieux, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7128cb57416a291ab1ade7b0e97a3ed0523bcdd7983afb2db02ae3f0d1cbf197
 
 - question: societe-signes-religieux-universite
   value: 1
@@ -1129,11 +1369,14 @@
   quote: Interdire le port du voile islamique dans l'espace public, afin de faire respecter le principe de discrétion de la pratique religieuse
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose d'interdire le voile islamique dans tout l'espace public, ce qui inclut l'université mais ne vise qu'un signe religieux, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7128cb57416a291ab1ade7b0e97a3ed0523bcdd7983afb2db02ae3f0d1cbf197
 
 - question: societe-uniforme-ecole-publique
   value: 1
@@ -1143,11 +1386,14 @@
   quote: Lutter contre le harcèlement scolaire, le communautarisme et les inégalités sociales en rendant le port de la blouse obligatoire à l'école primaire
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose la blouse obligatoire à l'école primaire seulement, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:606d910cbdbc24c005e991cd4b0bab83d503d075ae1cfe1f295fdbf8ad4ef437
 
 - question: transport-petites-lignes-maintenues
   value: 1
@@ -1157,11 +1403,14 @@
   quote: "Refaire des lignes de trains \" de proximité \" la priorité budgétaire de la SNCF"
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 fait des lignes ferroviaires de proximité une priorité budgétaire, sans s'engager sur le maintien des lignes peu fréquentées, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4e26b0fd43faa09cbf86395df6008a29486526084d8b3d59548cf09730b6f0ee
 
 - question: transport-routes-90-kmh
   value: 2
@@ -1171,11 +1420,14 @@
   quote: Restaurer la limitation de vitesse de 90 km/h sur les routes nationales et départementales
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de rétablir le 90 km/h sur les routes nationales et départementales, d'où 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a5337bb55520e1666dc58fccee0fcf10b489d031540ec7d6dc519592090d7e30
 
 - question: transport-supprimer-controle-technique-motos-v2
   value: 1
@@ -1185,11 +1437,14 @@
   quote: Allonger la durée de validité du contrôle technique à 3 ans au lieu de 2 ans et ne pas l'élargir aux deux- roues
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 refusait d'étendre le contrôle technique aux deux-roues, alors inexistant, sans proposer de supprimer un contrôle périodique en place, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a1b1522fabf0f601c6e616f6e5c073fbe854525044a116bbda17cc19993dac55
 
 - question: transport-voitures-centres-villes-libres
   value: 1
@@ -1199,11 +1454,14 @@
   quote: Ne pas empêcher des millions de Français de circuler dans leur propre agglomération en mettant fin à toute interdiction pour certains véhicules de circuler en ville (ZFE-m, Zones à faibles Émissions mobilité)
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 veut supprimer les restrictions de circulation visant certains véhicules en ville, sans se prononcer sur l'accès des voitures aux centres-villes en général, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6faa2a7b0103711793d3399338d1d7019442065e943d310758c18c45b4b73a9b
 
 - question: travail-augmenter-jours-carence
   value: 1
@@ -1213,11 +1471,14 @@
   quote: Restaurer l'égalité entre fonctionnaires et salariés du secteur privé en revenant aux trois jours de carence pour les arrêts maladie des agents de la fonction publique
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 propose de porter à trois les jours de carence des seuls agents publics, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7ecd6ff0a1e331354e9c63cfd45fd07f86fe639195f886a52e4ea8e1e4f94ccd
 
 - question: travail-retraite-62-ans
   value: -2
@@ -1227,8 +1488,11 @@
   quote: Porter à 64 ans l'âge légal de départ à la retraite à horizon 2030
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: Le programme de 2022 proposait de porter l'âge légal à 64 ans, soit l'inverse d'un retour à 62 ans, d'où -2 ; aucune source de 2026 ne revient sur ce point.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a55d8eed98e3e2f66e8ac0a99f28cd82ee98446b2be8b2324a6a93b05605339c

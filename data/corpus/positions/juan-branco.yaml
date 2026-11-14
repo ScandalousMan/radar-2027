@@ -1,5 +1,5 @@
-# Positions de Juan Branco (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
-# provenance manual), à relire par adrien avec pnpm data:review.
+# Positions de Juan Branco (FR-016 à FR-022). Rédigées par claude (extraction en session,
+# provenance manual), relues par adrien le 2026-11-14 (pnpm data:review).
 
 - question: agriculture-autoriser-nouvelles-techniques-genomiques
   value: -1
@@ -9,11 +9,14 @@
   quote: Encadrement radical des New Genomic Techniques (NGT)
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit un encadrement strict des nouvelles techniques génomiques, sans en demander explicitement l'interdiction, d'où -1 plutôt que -2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c798de537f6fdc6fca0f8139f85d1f6b2f6d1433570d96cc7f42f83320d6151d
 
 - question: agriculture-encadrer-prix-terres
   value: 1
@@ -23,11 +26,14 @@
   quote: Contrôle étatique de l'ensemble des transactions portant sur des terres et immeubles agricoles, avec un renforcement des réquisitions et préemptions.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit un contrôle de l'État sur toutes les transactions de terres agricoles, sans mentionner explicitement l'encadrement de leur prix, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fb3c4b8b914d1c782a7c0781330296fb5b45e4d761b872f7857ec3cf464d8cc5
 
 - question: agriculture-interdire-poules-cage
   value: 1
@@ -37,11 +43,14 @@
   quote: Interdiction progressive des élevages en cage et de l'élevage laitier intensif.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme prévoit l'interdiction progressive de tous les élevages en cage, ce qui inclut les poules pondeuses. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1d4c0b30f167cf583bed74e6466e6eb626c32d0c69eaf319c0fa0553cc1e96bf
 
 - question: agriculture-pesticides-moitie-2030
   value: 1
@@ -51,11 +60,14 @@
   quote: Interdiction à horizon quinquennal des pesticides CMR de catégorie 1et perturbateurs endocriniens identifiés, et réduction des CMR de catégorie 2.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit l'interdiction en cinq ans de certaines catégories de pesticides et la réduction d'autres, sans objectif global de réduction de moitié ni échéance 2030, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6ed9598b34dc385a341931573ba2d0203a0bcd158d18378b8f9ecd4ad442e785
 
 - question: agriculture-plafonner-aides-pac
   value: 2
@@ -65,11 +77,14 @@
   quote: plafonnement des aides par exploitation à 70K par actif, avec dégressivité
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit un plafonnement des aides agricoles par exploitation, dans un cadre de la PAC qu'il propose de rendre extra-communautaire.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b12fa69d2d3529379e84c38a1ce58238c3dacb867b9c4f41de22374278faa171
 
 - question: agriculture-prix-plancher-agricoles
   value: 2
@@ -79,11 +94,14 @@
   quote: Rétablissement des prix planchers garantis et prix minimum d'entrée.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose explicitement des prix planchers garantis pour les productions agricoles.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:74b71d77c211554bb6ad57173cdb5bc57bd95e04e52fbdf84b013037ee93cfff
 
 - question: defense-armes-ukraine
   value: -2
@@ -93,11 +111,14 @@
   quote: Arrêt des livraisons d'armes à l'Ukraine.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose l'arrêt des livraisons d'armes à l'Ukraine, soit le contraire de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a10c6c0f72ec2e5e63a72f947f61533558c98bf06798526ab649ef5321f48189
 
 - question: defense-doubler-reservistes
   value: 1
@@ -107,11 +128,14 @@
   quote: Ce service d'État abondera des corps de réserve civils et militaires obligatoires.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit des corps de réserve obligatoires alimentés par un service d'État universel, sans chiffrer un doublement des réservistes opérationnels, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8561d6c07ef31e2ac90a2516f840d2d7067e0131f6d8564c1386ad9fd21f8c3c
 
 - question: defense-renoncer-modernisation-dissuasion
   value: -1
@@ -121,11 +145,14 @@
   quote: Développements de vecteurs hypersoniques à statoréacteurs mixtes en remplacement des M51.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit de remplacer les missiles M51 de la dissuasion par de nouveaux vecteurs, ce qui revient à la moderniser, sans que le texte mentionne la dissuasion nucléaire en tant que telle, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:21a4fa9bb441a7eae579096050e79e8bd9fcf18fec090e686ebfdd71fbec9f23
 
 - question: democratie-assemblees-tirees-consultatives-v2
   value: -1
@@ -135,11 +162,14 @@
   quote: "des intercommunalités, remplacées par des assemblées composées au tiers d'élus et aux deux tiers de citoyens tirés au sort"
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme confie à des assemblées aux deux tiers tirées au sort les compétences des intercommunalités, donc un rôle décisionnel, sans se prononcer sur toutes les assemblées tirées au sort, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:125f89b29def6f50233be2ee224e6edf47bb261583f15590c0e77b4232ee138f
 
 - question: democratie-chambre-tiree-au-sort
   value: 1
@@ -150,11 +180,14 @@
   quote: "Concernant la chambre haute : fonctionnement \"à l'athénienne\" avec un tirage au sort des 200 représentants tous les vingt-quatre mois."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme présente, parmi trois options de réorganisation du Parlement, une chambre haute entièrement tirée au sort à côté d'une chambre élue, d'où 1 (option parmi d'autres).
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:096d0352a9b765d766aab7c154959cbd995f2b34286aa0abb61c91abc39aad08
 
 - question: democratie-champ-referendum-inchange
   value: -1
@@ -164,11 +197,14 @@
   quote: "Création d'un RIC en toutes matières."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme ouvre le référendum d'initiative citoyenne à toutes les matières, soit l'extension du référendum à tous les domaines que l'énoncé refuse. Déduit d'un RIC en toutes matières, et non de l'article 11 lui-même : -1, harmonisé avec les autres candidats."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ff37d731eb421c398ac97b0033904137fc12b534912e3de379e891d9f7b890af
 
 - question: democratie-parrainages-elus-maintenus
   value: -2
@@ -178,11 +214,14 @@
   quote: Remplacement du système actuel de parrainages à l'élection présidentielle par 50.000 parrainages citoyens avec mise en place de quotas territoriaux et soutien de 150 maires comme garantie de représentativité territoriale.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose de remplacer les 500 parrainages d'élus par des parrainages citoyens et le soutien de 150 maires.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ee1c6121b9aa86b881829349ee8b7f7f68f12b19b3f32da5f4e9689fa1abed07
 
 - question: democratie-referendum-exceptionnel
   value: -1
@@ -192,11 +231,14 @@
   quote: Création d'un RIC en toutes matières.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose un référendum d'initiative citoyenne en toutes matières, ce qui va à l'encontre d'un recours exceptionnel au référendum, sans le dire explicitement, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ff37d731eb421c398ac97b0033904137fc12b534912e3de379e891d9f7b890af
 
 - question: democratie-referendum-initiative-citoyenne
   value: 2
@@ -207,11 +249,14 @@
   quote: Création d'un RIC en toutes matières.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose la création d'un référendum d'initiative citoyenne en toutes matières, ce que confirme la déclaration de candidature.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:19c7572ca4b0035b2568fff0bc606ffd00f882da44021098c1fdbdf8ac020234
 
 - question: democratie-referendum-local-initiative
   value: 1
@@ -221,11 +266,14 @@
   quote: sous contrôle de référendums d'initiative locaux permettant d'instaurer un dialogue des légitimités
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme mentionne des référendums d'initiative locaux, sans préciser leur déclenchement par pétition des habitants d'une commune, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:63099325d0f0377bd9e6ccc55d8579e4b3394930bc100b7d70f100be413d75f5
 
 - question: democratie-referendum-reserve-elus-v2
   value: -2
@@ -235,11 +283,14 @@
   quote: "Création d'un RIC en toutes matières."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme crée un référendum d'initiative citoyenne en toutes matières, ce qui retire au président et au Parlement le monopole du déclenchement d'un référendum national."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0e3bc702c9b1fc99534315fde8166832b9ba9fe9258651d3fca6881d9659ec32
 
 - question: democratie-referendum-revocatoire
   value: 2
@@ -250,11 +301,14 @@
   quote: Instauration du principe de mandat révocable, et de la possibilité permanente de transformer le mandat représentatif en mandat impératif
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose le mandat révocable par référendum, ce que confirme la déclaration de candidature (mandats révocatoires).
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:240aeaff4964b144936f9bc04b5223819e98f693b8a8de8721da0a9db4c91e9a
 
 - question: democratie-supprimer-cese
   value: 1
@@ -265,11 +319,14 @@
   quote: Création d'une chambre haute absorbant le Sénat et le Conseil Économique, Social et Environnemental (CESE)
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit, dans l'une de ses trois options, l'absorption du CESE par une nouvelle chambre haute, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cfed03552dbbd053d72f938660b7bad804f2504920b1485b6afc1189f34ddff6
 
 - question: democratie-vote-blanc-exprime
   value: 2
@@ -279,11 +336,14 @@
   quote: prise en compte du vote nul et blanc (réduisant proportionnellement le financement public et rendant caduque le mandat électoral en cas de majorité de vote blanc)
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose la prise en compte du vote blanc, avec des effets sur le financement public et la validité du mandat.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fc1f7ed3f8a742650a2f46e93175fb732159fcb08ff1fa195c4bb85d7e56d43e
 
 - question: economie-accords-libre-echange
   value: -2
@@ -293,11 +353,14 @@
   quote: Blocage de négociations de traités de libre-échange.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose de bloquer la négociation des traités de libre-échange, soit le contraire de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b7ac07c27b9b6015d4baaf1a9221a517651460fddfa95596184f8b7b280dfa8b
 
 - question: economie-alleger-regles-entreprises
   value: 1
@@ -307,11 +370,14 @@
   quote: Abrogation de tous les dispositifs normatifs créant une contrainte excessive sur les collectivités, petites et moyennes entreprises.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit d'abroger les normes jugées excessives pour les petites et moyennes entreprises, sans viser l'ensemble des règles de création et de gestion des entreprises, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2a31145cc28fa66ad0d8deb636ce53e9cade2df7c81069d91823970752e8185b
 
 - question: economie-baisse-depense-publique
   value: 2
@@ -321,11 +387,14 @@
   quote: Baisse des prélèvements obligatoires et des dépenses publiques
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme inscrit la baisse des dépenses publiques parmi ses priorités.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e768050a9465ac8a226e75f6782757d7cf433fd605a97db9889072f15aca2fb3
 
 - question: economie-eau-operateurs-publics
   value: 2
@@ -335,11 +404,14 @@
   quote: "Renationalisation des entreprises de distribution de l'eau."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme propose de renationaliser les entreprises de distribution de l'eau, ce qui confie celle-ci à des opérateurs publics."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e81fd20a5437e2d7ba38c20821f7c77f4da33b657dc0a288a77232e629e3b3c6
 
 - question: economie-etat-finance-usines
   value: 2
@@ -349,11 +421,14 @@
   quote: Financement de scieries, fabriques de meubles et papeteries nationales.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit le financement par l'État d'unités de production nationales dans des filières qu'il désigne.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6838dfb70843bebb2c36e5ddd2f2b180ce0274bf84c033a3e114ff7379d50f41
 
 - question: economie-participations-etat-industrie
   value: 1
@@ -363,11 +438,14 @@
   quote: Mise en place d'un pôle public de l'armement et fin de la privatisation des industries d'armement et des missions de défense nationale, avec reprise en main des conseils d'administration de Dassault, Thalès, Airbus, etc.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme crée un pôle public de l'armement, reprend en main les conseils d'administration de Dassault, Thales et Airbus et nationalise progressivement MBDA. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:23d82463c55f4ee9985e6e2f83350ded2853a8b840af3c6037b5a40ae29e52af
 
 - question: economie-prix-energie-reglementes
   value: 1
@@ -377,11 +455,14 @@
   quote: Modulation des tarifs énergétiques selon le niveau de consommation, et octroi d'un minima vital forfaitaire.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit des tarifs énergétiques modulés et un minimum vital forfaitaire, ce qui suppose une fixation publique des prix sans le dire explicitement, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1fa160b99537c3407899e945a9f1d67b53f595866eef1d1708f23c76c12745ee
 
 - question: economie-supprimer-agences-etat
   value: 2
@@ -392,11 +473,14 @@
   quote: suppression de l'ANCT, CNDS, DRAJES, CESER
   quoteSource: juan-branco-le-projet-2027
   justification: Le programme propose la suppression nommée de plusieurs agences et organismes publics, ainsi que la fusion de nombreux opérateurs de l'État.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bef697e87e4e5852c3730ec789e13c6909b157e5f40f44f7eb807dd0688a26bf
 
 - question: economie-vendre-participations-etat
   value: -2
@@ -406,11 +490,14 @@
   quote: Interdiction de cession de patrimoine public, y compris de privatisations, hors référendum.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose d'interdire toute cession de patrimoine public et toute privatisation hors référendum, soit le contraire de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4c032a7f917a04cbf33231b49b15daeef0662413421cf7ef1a201dc0cd83ab46
 
 - question: energie-nouveaux-reacteurs-au-dela-epr2
   value: 2
@@ -420,11 +507,14 @@
   quote: Construction de 14 EPR 2, développement d'une filière intégrée RNR-NA.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit quatorze EPR2, soit davantage que les six prévus, et une filière de réacteurs à neutrons rapides.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0ede4b4ad38b2497adfbeee0b3a701ab65a7652b2976fbbb2eef61118ee3ecb0
 
 - question: energie-petits-reacteurs-modulaires
   value: 1
@@ -434,11 +524,14 @@
   quote: Fin de la politique de privatisation des projets SMR, orientation vers AMR.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose de ne plus confier les petits réacteurs modulaires au privé et de s'orienter vers les réacteurs modulaires avancés, sans mentionner explicitement un financement public, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7aaa8dd0cd94b4cd296e9589f199e04b0731d8401546c6dffd3d06c8ff391b58
 
 - question: energie-reduire-part-nucleaire
   value: -1
@@ -448,11 +541,14 @@
   quote: Construction de 14 EPR 2, développement d'une filière intégrée RNR-NA.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme prévoit la construction de quatorze EPR2 et d'une filière de réacteurs à neutrons rapides, ce qui va contre une réduction de la part du nucléaire sans fixer d'objectif de part, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0b8df93beb116e73fc30b8bd88eb03bd8c79c26833c0983477d6346d2306b60b
 
 - question: energie-supprimer-aides-solaire-eolien
   value: -1
@@ -462,11 +558,14 @@
   quote: Conditionnalisation des aides au développement des énergies alternatives à des critères de fabrication locale.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme maintient les aides aux énergies renouvelables en les conditionnant à une fabrication locale, plutôt que de les supprimer, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8230c4fd5e4d4b77d2e4c19f107104bb7c6967460975c5af5feda20f7ccc9d90
 
 - question: environnement-assouplir-artificialisation
   value: -2
@@ -476,11 +575,14 @@
   quote: Plan d'arrêt et de reconversion des sols artificialisés durcissant les ZAN
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose de durcir les objectifs de zéro artificialisation nette, soit le contraire d'un assouplissement.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:eb486d7622cab6107ee70b9dcf3929ced2a99f4a874150f4cb5888e702733a6f
 
 - question: environnement-gazole-non-routier-agriculteurs
   value: -1
@@ -490,11 +592,14 @@
   quote: Plafonnement des aides au GNR et sur les serres chauffées au gaz.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit de plafonner les aides au gazole non routier, sans les supprimer, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e9968aff1bc95e00da5fed4e4593d5b080d38ea8c6bf85e6441efe330f8b29c5
 
 - question: environnement-limiter-recours-projets-v2
   value: 1
@@ -504,11 +609,14 @@
   quote: "Création d'un guichet unique pour la création de sites industriels, avec un délai d'étude maximal de six mois avant approbation ou rejet ; et un délai maximal de trois mois concernant le traitement de tout recours."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme plafonne à trois mois le traitement des recours contre les sites industriels, version voisine qui encadre les recours sans en restreindre explicitement les possibilités, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e8e6ba1e1ca9ae8fcb3c3a128e972f0afbddd88d9a372481b09f0f9d1a7a1cd6
 
 - question: environnement-plastique-usage-unique-2030
   value: 1
@@ -518,11 +626,14 @@
   quote: Interdiction des contenants en plastique aux fins de consommation et création de consignes pour les contenants liquides.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose d'interdire les contenants en plastique de consommation, sans échéance fixée à 2030, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:473ba0efe0fdd1ba95d5c85ca0e94a1bdaf1860aeaaa9f8f05a8a9b255dca2a1
 
 - question: environnement-supprimer-zfe
   value: 2
@@ -532,11 +643,14 @@
   quote: Abolition des Zones à Faibles Émissions.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose explicitement la suppression des zones à faibles émissions.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:860f2fea87adf0b9e10dc0aed3717a4b18a967e78d9d32abcb4018f2bdd319d2
 
 - question: environnement-taxe-carbone-importations
   value: 1
@@ -546,11 +660,14 @@
   quote: Création d'une TCI, taxe à l'importation sur tout pays utilisant plus de 200mwH de charbon, proportionnel au taux d'emploi du charbon dans la consommation énergétique totale
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit une taxe sur les importations liée à l'usage du charbon par le pays d'origine, et non aux émissions des produits importés, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6a8dc70e9609c446b5ebd3f21b69c490bea7421140d598fed84e66cb7e75807d
 
 - question: environnement-taxer-kerosene-vols-interieurs
   value: 2
@@ -560,11 +677,14 @@
   quote: Fin de l'exemption de TICPE sur les vols intérieurs.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose de mettre fin à l'exonération de taxe sur le carburant des vols intérieurs.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:74c02cc7d6d27b566c294033bf3692222a2a98ddbabac532d5357848e751d346
 
 - question: fiscalite-baisse-cotisations-salaries
   value: 1
@@ -574,11 +694,14 @@
   quote: Réduction des cotisations sociales sur les salaires financée par l'adoption d'une TVA sociale sur les bien non-essentiels
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit une baisse des cotisations sur les salaires sans préciser qu'elle porte sur la part salariale, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:febef922a3b135826d81937415e86ed0b74e56373da4e3af9f92c5ea688642ce
 
 - question: fiscalite-baisse-prelevements-obligatoires
   value: 2
@@ -588,11 +711,14 @@
   quote: Baisse des prélèvements obligatoires et des dépenses publiques
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme inscrit la baisse des prélèvements obligatoires parmi ses priorités.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e768050a9465ac8a226e75f6782757d7cf433fd605a97db9889072f15aca2fb3
 
 - question: fiscalite-hausse-taxe-transactions-financieres
   value: 1
@@ -602,11 +728,14 @@
   quote: Mise en œuvre d'une taxe sur les transactions financières.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit une taxe sur les transactions financières sans mentionner le relèvement du taux de la taxe existante, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9ff304c28aa7245b6a98e6dfbd14d0a9b730df461f798def065d4aab64c0d2f1
 
 - question: fiscalite-impot-fortune-retabli
   value: 2
@@ -616,11 +745,14 @@
   quote: Rétablissement de l'ISF avec un mécanisme de précompte sur les droits de succession.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose explicitement le rétablissement de l'ISF.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6ea89733f88ca4929b8f62c8ce66e04cbc6f85e7cf9d89bf6f7504209710b971
 
 - question: fiscalite-impot-minimum-grandes-fortunes-v2
   value: 1
@@ -630,11 +762,14 @@
   quote: "Rétablissement de l'ISF avec un mécanisme de précompte sur les droits de succession."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme rétablit l'ISF, qui taxe chaque année les grands patrimoines sans seuil de 100 millions ni taux minimal de 2 %. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5da85a4d4a04ea29d9d6e5a9e9c334d8d6e9e882bd2d7bd6eba3a201b9710faa
 
 - question: fiscalite-reduire-credits-impot
   value: 1
@@ -644,11 +779,14 @@
   quote: Augmentation de 30% de la recherche et développement, à travers notamment le doublement du budget du CNRS et l'augmentation des budgets universitaires, financés par la suppression du CIR.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme supprime le crédit d'impôt recherche, sans objectif global de réduction de moitié de l'ensemble des crédits et réductions d'impôt, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:57a8949dcabb2f515d5fad7a35031c7e3fd3ff923db2d9078490012686bcccdb
 
 - question: fiscalite-reduire-droits-succession
   value: 1
@@ -658,11 +796,14 @@
   quote: Fin des DMTG pour 90% des foyers fiscaux.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme supprime les droits de succession pour 90 % des foyers mais les rend confiscatoires pour les plus gros héritages, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c507c484a234bc7848133aba09e78a2f07c863630cc4d176076bbb0a1c3ab31e
 
 - question: fiscalite-tranche-hauts-revenus
   value: 1
@@ -672,11 +813,14 @@
   quote: une baisse des prélèvements obligatoires moyens sur l'ensemble de la population à l'exception du dernier décile, faisant l'objet d'une imposition effective renforcée
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit une imposition renforcée du dernier décile, sans préciser la création d'une tranche d'impôt supplémentaire, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:00f66e8a5609475f27364e9cc3714f592067665d85b6f7dc1204c73c03251812
 
 - question: immigration-amende-sejour-irregulier
   value: 1
@@ -686,11 +830,14 @@
   quote: systématisation des TIG pour infraction au séjour
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit de sanctionner l'infraction au séjour par des travaux d'intérêt général et non par une amende, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1b07e42a710fa820f6a489be770c549aa73045a8f71d2165423f37f335d855d5
 
 - question: immigration-asile-examen-hors-europe-v2
   value: 1
@@ -700,11 +847,14 @@
   quote: "Conditionnalisation du regroupement familial et déconcentration du traitement de l'asile au niveau consulaire."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme déplace le traitement de l'asile vers les consulats, donc hors du territoire national, sans parler de centres situés hors de l'Union européenne, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5de558d23b2704c3e7a1ec7db8ede44010f2700de5ca560c79883851d421de2f
 
 - question: immigration-regroupement-familial-ressources
   value: 1
@@ -714,11 +864,14 @@
   quote: Conditionnalisation du regroupement familial et déconcentration du traitement de l'asile au niveau consulaire.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit de conditionner le regroupement familial, sans préciser de conditions de ressources, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5de558d23b2704c3e7a1ec7db8ede44010f2700de5ca560c79883851d421de2f
 
 - question: immigration-visas-professions-qualifiees-v2
   value: 1
@@ -728,11 +881,14 @@
   quote: "Développement d'une politique d'attractivité en faveur des individus à haut niveau de qualification"
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme prévoit une politique d'attractivité envers les personnes très qualifiées, sans viser explicitement l'assouplissement des conditions de délivrance des visas de travail, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:378714fab083d03ad616862804549c6b24c985111b9b42c9a4ffa4600a5b4184
 
 - question: institutions-competences-retour-etat-v2
   value: 2
@@ -743,11 +899,14 @@
   quote: "reconcentrer une grande partie de politiques déléguées en un foisonnement d'agences, institutions et collectivités décentralisées"
   quoteSource: juan-branco-le-projet-2027
   justification: "Le programme propose que l'État reconcentre une grande partie des politiques aujourd'hui déléguées notamment aux collectivités décentralisées."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bf68ca01d76d95be73feb27894ab533b8f1d3715311796eb3e3246bb8abc5bd9
 
 - question: institutions-mandat-presidentiel-sept-ans
   value: 2
@@ -757,11 +916,14 @@
   quote: Changement de la durée du mandat présidentiel (7 ans), avec limitation de trois mandats.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose explicitement un mandat présidentiel de sept ans.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6809dabfcd856e1998c68768bcc02c6b3bde496b26723cb3ee40bbd77d2294de
 
 - question: institutions-proportionnelle-legislatives
   value: 1
@@ -772,11 +934,14 @@
   quote: élection à scrutin proportionnel sur listes à un tour pour 200 députés, au scrutin uninominal à un tour pour 101 députés sur les circonscriptions départementales
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme présente, dans l'une de ses options, un scrutin mixte où une partie seulement des députés est élue à la proportionnelle, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:79c8b74e20c73d94a30f9f48fcd26fccd2adf7784be71a9a3d1e3e1f8f6aa575
 
 - question: institutions-referendum-revision-constitution
   value: 1
@@ -786,11 +951,14 @@
   quote: Référendum fondé sur l'article 11 de la Constitution proposant la convocation d'une assemblée constituante
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit de soumettre directement au référendum des changements constitutionnels sur le fondement de l'article 11, sans se prononcer sur la procédure de révision en général, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:79ff0abde7ee1ad3e1ed9c6d053331568a7edf163a177d651c071602f67d76d3
 
 - question: institutions-supprimer-49-3
   value: 2
@@ -800,11 +968,14 @@
   quote: Abrogation des articles 49.3 et assimilés de la Constitution.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose explicitement l'abrogation de l'article 49.3.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:11c17e8793e78539d21243919056cc5ec35b509b029fb438fe835bf9afd7fb64
 
 - question: international-aide-developpement-0-7
   value: -1
@@ -814,11 +985,14 @@
   quote: réduction de l'aide au développement multilatérale aux chantiers prioritaires et transformation des autres crédits en crédits de coopération
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme réduit l'aide multilatérale au développement en la transformant en crédits de coopération, sans se prononcer sur l'objectif de 0,7 %, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:739f3a4a0c01880582b374fca5e6842b9b2afc24498f03f8ba3d261a4fc630fc
 
 - question: international-referendum-maintien-ue
   value: 2
@@ -828,11 +1002,14 @@
   quote: Référendums sur l'appartenance à l'Union Européenne et à l'euro
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose explicitement un référendum sur l'appartenance de la France à l'Union européenne.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ef3160d62922a919d72f9a495fe43afd1bb18891cd175f070ca5974f1febf05c
 
 - question: justice-arret-construction-prisons
   value: -1
@@ -842,11 +1019,14 @@
   quote: adoption d'un plan pénitentiaire avec des cellules collectives (6 à 12 personnes)
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit un plan pénitentiaire, ce qui va dans le sens contraire d'un arrêt des constructions sans le dire explicitement, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cc236809eff2559a5beb9e6634598f20ae20dedbcb7b0ff3e6c1a3ccb1ae6ad7
 
 - question: justice-courtes-peines-alternatives
   value: -2
@@ -856,11 +1036,14 @@
   quote: "Fin du modèle Badinter : peines réelles, exécution des peines courtes"
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose l'exécution des peines courtes, soit le contraire de leur remplacement par des peines alternatives.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4ddf375142b9270d67141582cf67e5da999e72846daf173d9d21eba32f4da7a0
 
 - question: justice-imprescriptibilite-crimes-sexuels-mineurs
   value: -1
@@ -870,11 +1053,14 @@
   quote: Retour de la prescription délictuelle à 3 ans et criminelle à 10 ans.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose une prescription criminelle générale de dix ans, sans mentionner les crimes sexuels sur mineurs, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:aeff9060e238465b7d5a4424fe5f2f5ba04fc486f7ce0d857d8aa2f3b568ae60
 
 - question: numerique-algorithmes-publics
   value: 1
@@ -884,11 +1070,14 @@
   quote: Obligation de transparence concernant les algorithmes des réseaux sociaux.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit une obligation de transparence sur les algorithmes des réseaux sociaux, sans préciser leur publication, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7c00cf108b1c8f2aa3e40976e557049a925048cdba375738d02836483ac2d95c
 
 - question: numerique-ia-remuneration-auteurs
   value: 1
@@ -898,11 +1087,14 @@
   quote: Offensive juridique et commerciale visant à obtenir la compensation du pillage des données Françaises aux fins de constitution de LLM
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme vise une compensation pour l'usage des données françaises par les modèles de langage, sans parler de rémunération des auteurs, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:42962bde4de32353a5800ad60d98080f9e5b939dc59d4ea92d1d7d91ac8a412b
 
 - question: numerique-logiciels-libres-administration
   value: 2
@@ -912,11 +1104,14 @@
   quote: Imposition de logiciels libres et fonctionnement en source ouverte pour l'Administration.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose explicitement d'imposer les logiciels libres à l'administration.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0d7921631a061aed1268a4ff4f70dcc34a8ca92d583b60e2d7d0579dfe01b818
 
 - question: sante-assurance-sante-privee-option-v2
   value: -1
@@ -926,11 +1121,14 @@
   quote: "financé notamment par la suppression des complémentaires et mutuelles privées"
   quoteSource: juan-branco-le-projet-2027
   justification: "Le programme veut un service public de santé universel et la suppression des assurances santé privées, ce qui exclut de quitter l'Assurance maladie pour un assureur privé sans que la question soit posée explicitement, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:496513127c77b554e2e1d9efea3d38bb0c3f0ba0c7db1b0a20431bad6343bf96
 
 - question: sante-centres-sante-publics
   value: 2
@@ -940,11 +1138,14 @@
   quote: en une politique unique, dirigée par des centres de santé départementaux dotés d'antennes, accompagnés d'obligations d'exercice en zones sous-dotées, d'une régulation de l'installation décennale, et la création d'un corps de médecins généralistes et ambulatoires d'État
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit des centres de santé départementaux et un corps de médecins d'État.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:606623eed5d657a945f6a08a216aa51cb2d1270687094fe177cbbfa42d8bbbac
 
 - question: sante-depassements-honoraires-libres
   value: -2
@@ -955,11 +1156,14 @@
   quote: la fin des dépassements d'honoraires
   quoteSource: juan-branco-le-projet-2027
   justification: Le programme propose la fin des dépassements d'honoraires, soit le contraire de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:34784e4d0ca91d9f63a061d29dde18ee57841ce82e98ea6a5469feca4b2b87d2
 
 - question: sante-hausse-franchises-medicales
   value: -2
@@ -969,11 +1173,14 @@
   quote: remplaçant tous les forfaits hospitaliers, tickets modérateurs, franchises, fixant une limite annuelle à la prise en charge par l'assuré des frais de santé, corrélatif au revenu et au patrimoine
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose de remplacer les franchises médicales par un plafond annuel lié au revenu, soit le contraire d'une hausse des franchises.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9a9d9aa5a32796b7572193831a37efc36ee3cfcbcfdf5765417b04a1db339b40
 
 - question: sante-jeunes-medecins-zones-sous-dotees
   value: 1
@@ -983,11 +1190,14 @@
   quote: accompagnés d'obligations d'exercice en zones sous-dotées
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit des obligations d'exercice en zones sous-dotées, sans préciser qu'elles visent les jeunes médecins pendant deux ans, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:10e5e466c9cfa8cf693014462445f6d4dc500180a31bab80c2da3a45d167ac5a
 
 - question: sante-mutuelles-part-accrue-v2
   value: -2
@@ -998,11 +1208,14 @@
   quote: "financé notamment par la suppression des complémentaires et mutuelles privées"
   quoteSource: juan-branco-le-projet-2027
   justification: "Le programme veut supprimer les complémentaires et mutuelles privées au profit d'un service public de santé, soit le contraire d'une part accrue des complémentaires."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c4fa89878bbb4e0059b3a4efeb5b3091dd74e36dee4317b7f946ec591622119e
 
 - question: sante-production-publique-medicaments
   value: 1
@@ -1012,11 +1225,14 @@
   quote: Création d'une industrie pharmaceutique publique
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme propose une industrie pharmaceutique publique, ce qui va au-delà d'une production publique en cas de défaut de l'offre privée. Mesure plus large que l'énoncé, dans le même sens : 1 par convention."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9e37defcd07a88e36704cbf198362f889ed5a15c6c86be48d63ed221080c1082
 
 - question: sante-psychologues-rembourses
   value: 1
@@ -1026,25 +1242,31 @@
   quote: Remboursement intégral des consultations chez le psychologue
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme propose le remboursement intégral des consultations chez le psychologue, sans préciser l'absence de limite du nombre de séances : version voisine, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-12
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5e989756fd5fa5a0e9e86b02a2803d9f6e7ce68dd88fb8011b9d91807f3132d5
 
 - question: sante-regulation-installation-medecins
-  value: 2
+  value: 1
   evidence: programme
   sources:
     - juan-branco-la-voie-programme-2027
   quote: d'une régulation de l'installation décennale
   quoteSource: juan-branco-la-voie-programme-2027
-  justification: Le programme propose une régulation de l'installation des médecins, couplée à des obligations d'exercice en zones sous-dotées.
-  status: draft
+  justification: "Le programme propose une régulation de l'installation des médecins, couplée à des obligations d'exercice en zones sous-dotées, sans nommer les zones bien dotées. Version voisine : 1 (arbitrage d'adrien du 2026-11-14)."
+  status: reviewed
   provenance:
     kind: manual
   author: claude
-  authoredAt: 2026-11-09
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a1db67747f82c32e6264c1532ee7de6764571542c33ddd5256ebda841790ed5c
 
 - question: sante-taxer-boissons-sucrees
   value: 1
@@ -1054,11 +1276,14 @@
   quote: Surtaxation et abaissement des limites maximales pour la teneur en sel, en sucre et en acides gras saturés dans les aliments ultra-transformés.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit une surtaxe sur les aliments ultra-transformés trop sucrés, sans viser spécifiquement les boissons sucrées, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:de4728bdd6fa1c9f561de32021dee558a4a34ebff410af5179f31a734dc3d195
 
 - question: securite-enquetes-policiers-independantes
   value: 1
@@ -1068,11 +1293,14 @@
   quote: Création d'un nouveau corps d'inspection indépendant des forces de l'ordre.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose une inspection indépendante des forces de l'ordre, sans préciser son indépendance vis-à-vis du ministère de l'Intérieur, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:75b76a33dce5390e993e9efd10cb19b1c51854dd974c57a4ef1e039b8317bf2e
 
 - question: securite-interdire-lbd-manifestations
   value: 1
@@ -1082,11 +1310,14 @@
   quote: Abandon des outils de maintien de l'ordre " intermédiaires "
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose l'abandon des armes intermédiaires de maintien de l'ordre, sans nommer les lanceurs de balles de défense, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:24eb3290e84c5ccbbc29f8d4d3f54f641ff314da18c0b62abd132f73ac984d6a
 
 - question: securite-recepisse-controles-identite
   value: 2
@@ -1096,11 +1327,14 @@
   quote: Création d'un récépissé d'un contrôle d'identité
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose explicitement un récépissé de contrôle d'identité.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f0164a50e1a39175207143dcaa5ba84cf45f0ee7df4728b8fa437e786ea9c9be
 
 - question: securite-supprimer-bac
   value: 2
@@ -1110,11 +1344,14 @@
   quote: "Suppression des brigades anticriminalité (BAC) au profit d'une police de proximité."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme propose explicitement de supprimer les BAC au profit d'une police de proximité."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f773014ee20d08cb0ea09966a6ec8279ac05652b340f2ebe26fd49bcf66ca3ed
 
 - question: societe-instruction-famille-autorisation
   value: -1
@@ -1124,11 +1361,14 @@
   quote: Simplification des conditions de l'instruction en famille.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose de simplifier les conditions de l'instruction en famille, sans mentionner explicitement la suppression de l'autorisation préalable, d'où -1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a4acebd879abc50436a17aa73dd3d0d5c360c9255fda5b3e12552a52eb6f091e
 
 - question: transport-autoroutes-concedees-v2
   value: -2
@@ -1138,11 +1378,14 @@
   quote: "Expropriation des compagnies d'autoroutes."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme propose d'exproprier les sociétés d'autoroutes, soit le contraire de la poursuite des concessions privées."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b98d3cf0c8eececc293c3f31bec77dfb84522549a6379f6ba1684037121477ce
 
 - question: transport-concurrence-ferroviaire
   value: -2
@@ -1152,11 +1395,14 @@
   quote: Fin de la concurrence dans le ferroviaire
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose la fin de la concurrence dans le ferroviaire, soit le contraire de l'énoncé.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:19175eb8d50fc9053e97b0b01eb7642910c3f142a49a3ec8ec09445e7f3839f8
 
 - question: transport-petites-lignes-maintenues
   value: 1
@@ -1166,11 +1412,14 @@
   quote: lancement d'un grand plan d'investissement dans les lignes secondaires, notamment des 4000 kilomètres de lignes menacées d'effondrement
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit d'investir dans les lignes secondaires menacées, sans se prononcer sur celles qui sont peu fréquentées, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:aec62fe73d4599bd813916095ac67fd6bb545cf6ba62fdcec831e107416752a5
 
 - question: transport-routes-90-kmh
   value: 1
@@ -1180,11 +1429,14 @@
   quote: fin des limitations de vitesse sur les tronçons non-accidentogènes
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme propose de supprimer les limitations de vitesse sur les tronçons non accidentogènes, mesure voisine qui ne porte pas sur un relèvement à 90 km/h, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:871b5e402783ddf4f651aa2f0441ac222701d08c7af60cd5e0c63a94b8271fd5
 
 - question: transport-subventionner-fret-ferroviaire
   value: 1
@@ -1194,11 +1446,14 @@
   quote: Grand plan d'investissement dans le ferroutage et le cabotage pour réduire les émissions liées au transport routier
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit un plan d'investissement dans le ferroutage, sans parler de subvention du fret ferroviaire en général, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0adc489d604c42e24e573f720ca447d3011b0eae195241c2a04738426b7dfef3
 
 - question: transport-supprimer-controle-technique-motos-v2
   value: 1
@@ -1208,11 +1463,14 @@
   quote: "Limitation des contrôles techniques aux points essentiels."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Le programme veut limiter les contrôles techniques aux points essentiels, sans les supprimer ni viser spécifiquement les deux-roues, version partielle dans le même sens, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ddf1fabd0d580f86ed8d767522974b406c51b9b91a91bfb6727490c0d272a9d3
 
 - question: transport-taxe-kilometrique-poids-lourds
   value: 1
@@ -1222,11 +1480,14 @@
   quote: Mise en place d'une redevance poids lourds internationaux.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit une redevance limitée aux poids lourds internationaux, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:00dc64be02baac4640e431ddfc58069ebf8ad29a0339040441fb0ba9843e4645
 
 - question: travail-durcir-indemnisation-chomage
   value: 1
@@ -1236,11 +1497,14 @@
   quote: Dégressivité des allocations chômage à partir de la première année
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit la dégressivité des allocations chômage mais aussi l'ouverture de droits en cas de démission, d'où 1 plutôt que 2.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:90184f89c227a59a3e789b9c4dce82221489f4473daf140cfbd000dbfb338278
 
 - question: travail-salaries-conseils-administration
   value: 1
@@ -1250,11 +1514,14 @@
   quote: Loi de participation et de représentation obligatoire des salariés au sein des conseils d'administration.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit une représentation obligatoire des salariés dans les conseils d'administration, sans fixer la proportion d'un tiers, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:13c2ae3f662793704bbdf52b6cd896ee5cb9c326585d4c537a3789c0f3cb7ac0
 
 - question: travail-smic-au-dela-inflation
   value: 1
@@ -1264,11 +1531,14 @@
   quote: Déconcentration du SMIC, avec réhaussement du seuil minimal national à 1500 euros net.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit de relever le seuil national du SMIC à 1 500 euros net, sans référence explicite à l'inflation, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a6befd09bea666e4e737d5f7faee3957ac8164af5b3fb7df70c61d3fc1372cfa
 
 - question: travail-smic-regional
   value: 1
@@ -1278,8 +1548,11 @@
   quote: Déconcentration du SMIC, avec réhaussement du seuil minimal national à 1500 euros net.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme prévoit une déconcentration du SMIC au-dessus d'un seuil national, sans préciser une variation par région, d'où 1.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a6befd09bea666e4e737d5f7faee3957ac8164af5b3fb7df70c61d3fc1372cfa

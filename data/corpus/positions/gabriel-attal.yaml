@@ -1,5 +1,5 @@
-# Positions de Gabriel Attal (FR-016 à FR-022). Brouillons rédigés par claude (extraction en session,
-# provenance manual), à relire par adrien avec pnpm data:review.
+# Positions de Gabriel Attal (FR-016 à FR-022). Rédigées par claude (extraction en session,
+# provenance manual), relues par adrien le 2026-11-14 (pnpm data:review).
 
 - question: agriculture-autoriser-nouvelles-techniques-genomiques
   value: 1
@@ -9,11 +9,14 @@
   quote: "nous ne participerons à aucune des guerres idéologiques, qu'elles viennent de la droite contre le bio ou les renouvelables, ou de la gauche contre le nucléaire ou les nouvelles techniques génomiques demandées par les agriculteurs"
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance refuse de s'opposer aux nouvelles techniques génomiques demandées par les agriculteurs, sans proposer explicitement d'en autoriser la culture, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:53e95adb30c2dd3a2c6f6d3a75e2ab035d29201cf165dfd6e9f2acd801fc5191
 
 - question: agriculture-pesticides-moitie-2030
   value: 1
@@ -23,11 +26,14 @@
   quote: "Ces contrats de transition agricole tripartites (agriculteurs-industriels-distributeurs) couvrent bien-être animal, réduction de 50 % des pesticides d'ici 2030"
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance inscrit une réduction de 50 % des pesticides d'ici 2030 dans des contrats de transition agricole, sans en faire une obligation générale, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b130cf1c905b62a23e65bc90aff753dc757123aa14d84373bae2b9082b466458
 
 - question: defense-armes-ukraine
   value: 1
@@ -37,11 +43,14 @@
   quote: "Nous allons continuer sans relâche à soutenir l'Ukraine."
   quoteSource: gabriel-attal-programme-frontieres
   justification: "Le programme prévoit de continuer à soutenir l'Ukraine sans mentionner explicitement une hausse des livraisons d'armes, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f9ee04d9c7951a62e7100655628ccbf75b8f6884a00997d3c266857601c2b641
 
 - question: defense-reduire-budget-armees
   value: -2
@@ -51,11 +60,14 @@
   quote: "nous devons continuer à augmenter les moyens de notre défense"
   quoteSource: gabriel-attal-programme-frontieres
   justification: "Le programme prévoit d'augmenter les moyens de la défense et d'amplifier le réarmement, soit le contraire d'une réduction du budget des armées."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b8b3d1fe50d9b3768698a4042de9bd011253c0217502fa89130304c778a24925
 
 - question: democratie-assemblees-tirees-consultatives-v2
   value: -1
@@ -65,11 +77,14 @@
   quote: "convention de 150 jeunes tirés au sort, âgés de 16 à 25 ans, pour les associer directement aux décisions. \" Non pas pour consulter. Mais pour décider."
   quoteSource: gabriel-attal-meeting-lyon-2026
   justification: "Le candidat annonce une convention de jeunes tirés au sort chargée de décider et non de consulter, ce qui s'oppose à un rôle seulement consultatif, mais pour une seule convention, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:22b2a23ec8d65390e9172077d1ea9fa1ba3276c3c8641a572998f72cffb3b5c9
 
 - question: democratie-conventions-citoyennes
   value: 1
@@ -79,11 +94,14 @@
   quote: "la création d'une convention réunissant 150 jeunes tirés au sort, âgés de 16 à 25 ans"
   quoteSource: gabriel-attal-meeting-lyon-2026
   justification: "Le candidat annonce une convention de 150 jeunes tirés au sort associée aux décisions qui concernent la jeunesse, version partielle de conventions citoyennes consultées avant les grandes réformes, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c7d4f345a0f288ba05e564a21a45c5bcc357de67927b6f6cc374d47f303d32ea
 
 - question: democratie-raccourcir-consultations-public
   value: 1
@@ -93,11 +111,14 @@
   quote: "L'enquête publique et le recours contentieux seraient regroupés en un seul bloc procédural, avec un délai plafond de 24 mois pour le solaire et 36 mois pour l'éolien"
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance propose de regrouper enquête publique et recours sous un délai plafond pour les projets solaires et éoliens uniquement, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cad4395ea8feae161104453e492b57b121f85f830a6853c8600da8ac83d96f55
 
 - question: economie-alleger-regles-entreprises
   value: 2
@@ -107,11 +128,14 @@
   quote: "Il souhaite également réduire d'un quart la charge administrative des entreprises"
   quoteSource: gabriel-attal-vision-economique-2026
   justification: "Le candidat propose de réduire d'un quart la charge administrative des entreprises, ce qui correspond à l'allègement des règles visé par l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:26f094d0a94046bb5caaebc0811315bea3d9139df187ea6de746a31b322670ff
 
 - question: economie-baisse-depense-publique
   value: 1
@@ -121,11 +145,14 @@
   quote: "150 milliards d'euros d'économies sur le quinquennat, dont deux tiers sur les dépenses sociales"
   quoteSource: gabriel-attal-lettre-finances-publiques
   justification: "Le candidat propose 150 milliards d'euros d'économies sur le quinquennat, sans formuler l'objectif en part du PIB, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2bc8be42ee1b0b15c0a583c90aac51b300c6d9b696a33ed1ffd24120ffea6092
 
 - question: economie-controle-rachats-etrangers
   value: 1
@@ -135,11 +162,14 @@
   quote: "un contrôle strict des investissements chinois dans nos infrastructures les plus sensibles"
   quoteSource: gabriel-attal-programme-frontieres
   justification: "Le programme prévoit un contrôle strict des investissements chinois dans les infrastructures sensibles, version limitée d'un renforcement du contrôle des rachats étrangers, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cc2da6a8b7353eac44f95a8abb200c570a02aaa27e4c05f7784ebd61340e5ca6
 
 - question: economie-participations-etat-industrie
   value: 2
@@ -149,11 +179,14 @@
   quote: "L'État pourrait concentrer ses commandes publiques sur des entreprises stratégiques afin de favoriser l'émergence de champions européens, entrer au capital de certaines entreprises clés"
   quoteSource: gabriel-attal-vision-economique-2026
   justification: "Le candidat prévoit que l'État entre au capital d'entreprises clés des filières stratégiques ; la plateforme Renaissance privilégie aussi les prises de participation aux subventions."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2893201048734d0e75c8398bb3010c57aeb7ef04d48877f08ca445501cdef51c
 
 - question: economie-reduire-nombre-fonctionnaires
   value: 2
@@ -163,11 +196,14 @@
   quote: "La suppression de 100 000 postes de fonctionnaires, grâce à un plan de départs volontaires avec prime"
   quoteSource: gabriel-attal-lettre-finances-publiques
   justification: "Le candidat propose la suppression de 100 000 postes de fonctionnaires, ce qui correspond à l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5b223d04b2dc9006561f00f259ffa1144c0bea8525ca1ab06498730bd961f15f
 
 - question: economie-regle-equilibre-constitution
   value: 2
@@ -177,11 +213,14 @@
   quote: "l'inscription d'une règle d'or budgétaire dans la Constitution"
   quoteSource: gabriel-attal-vision-economique-2026
   justification: "Le candidat propose d'inscrire une règle d'or budgétaire dans la Constitution, ce qui correspond à l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d4bfb3f26122d17a9896af2509437ec8b131c075e7c757633f9c9a1f2fca9a3c
 
 - question: economie-supprimer-agences-etat
   value: 1
@@ -191,11 +230,14 @@
   quote: "Une revue des entités de régulation sera menée et certaines pourront être supprimées si elles ne répondent pas à nos objectifs de simplification"
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance envisage de supprimer certaines entités de régulation après revue, sans engagement ferme sur les agences et opérateurs, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4045aa01dc42017cdf149fd832712eda157774b5e952ee0d3ab4b0571b1e4fb3
 
 - question: energie-accelerer-eolien-terrestre
   value: 1
@@ -205,11 +247,14 @@
   quote: "avec un délai plafond de 24 mois pour le solaire et 36 mois pour l'éolien"
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance propose d'accélérer l'instruction des projets éoliens par un délai plafond, sans objectif spécifique d'implantation terrestre, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:adf32b36bc6f45c6405047f50335de84c7f71b04a63dcbcaa52cb478f008a490
 
 - question: energie-nouveaux-reacteurs-au-dela-epr2
   value: 2
@@ -219,11 +264,14 @@
   quote: "l'accélération du programme de 14 réacteurs EPR2"
   quoteSource: gabriel-attal-vision-economique-2026
   justification: "Le candidat défend un programme de 14 réacteurs EPR2, soit au-delà des six prévus."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1dc3a5cc407006a7ac74959320029bdb043f0b16f0d3d0be44ce9b763907d7c7
 
 - question: energie-petits-reacteurs-modulaires
   value: 2
@@ -233,11 +281,14 @@
   quote: "lancerons un plan d'accélération \"SMR 2030\" pour mettre les SMR en production industrielle dès 2030"
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance propose un plan public d'accélération des petits réacteurs modulaires, ce qui correspond à l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3b38dfa98299b62f8aa2160dac24214008e95d123d3d243bd041ebdc5a7d9d80
 
 - question: energie-suspendre-nouvelles-eoliennes
   value: -1
@@ -247,11 +298,14 @@
   quote: "nous soutiendrons la capacité solaire et réhausserons l'objectif d'éolien offshore"
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance propose de relever l'objectif d'éolien en mer, ce qui va à l'encontre d'une suspension, sans viser l'éolien terrestre, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:67629ad2cc5e3396b41dc7278547ce2468317fa861ac43dba08f31b0e494f133
 
 - question: environnement-limiter-recours-projets-v2
   value: 1
@@ -261,11 +315,14 @@
   quote: "L'enquête publique et le recours contentieux seraient regroupés en un seul bloc procédural, avec un délai plafond de 24 mois pour le solaire et 36 mois pour l'éolien."
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance enserre le recours contentieux contre les projets solaires et éoliens dans un bloc procédural à délai plafond, version partielle qui borne les recours sans en restreindre explicitement l'accès, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:dc2f1af78904bc95ae4726cb4cfdc4a0490f2a120d43192c86450487996893d5
 
 - question: environnement-supprimer-taxe-carbone
   value: -1
@@ -275,11 +332,14 @@
   quote: "La seconde consisterait à rendre plus progressive la taxe carbone, en fonction des revenus et des lieux de vie."
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance propose de refonder la taxe carbone plutôt que de la supprimer, sous forme de pistes à explorer, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fb16df572fae04c10be9babbdaa6890b7c9d52dd70d629119d28a7aba3e9eef7
 
 - question: environnement-supprimer-zfe
   value: -2
@@ -289,11 +349,14 @@
   quote: "nous avons choisi de nous opposer à la sup- pression des ZFE"
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance s'oppose explicitement à la suppression des ZFE et propose de les rétablir pour les collectivités volontaires."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d374eec909170e4942c24f20ee9ffcbba3ad2b581bcb8e2150e858f9b763ae4b
 
 - question: environnement-taxe-carbone-importations
   value: 2
@@ -303,11 +366,14 @@
   quote: "Nous proposons de transformer le mécanisme d'ajustement carbone aux frontières en véritable \"bouclier industriel\" écologique."
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance propose d'étendre le mécanisme d'ajustement carbone aux frontières, qui taxe les émissions des importations."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d71d884bd52792190936b2bac1fa3674b76468f0f1b26a483fd9c91c1bc4a37e
 
 - question: fiscalite-baisse-cotisations-salaries
   value: 2
@@ -317,11 +383,14 @@
   quote: "en réduisant les charges salariales pour faire monter le salaire net"
   quoteSource: gabriel-attal-programme-travail-salaires
   justification: "Le programme propose de réduire les charges salariales pour augmenter le salaire net, ce qui correspond à l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8dee98e2ad992e4c95cf67143fd12cafd2a2b64428ab5bac6899af118107281a
 
 - question: fiscalite-reduire-droits-succession
   value: 1
@@ -331,11 +400,14 @@
   quote: "une transmission facilitée du patrimoine entre générations"
   quoteSource: gabriel-attal-meeting-lyon-2026
   justification: "Le candidat défend une transmission facilitée du patrimoine entre générations sans préciser une baisse des droits de succession, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c71d51012d10b531d174dbeed20ab592e7848ebe28a3ca38b767b7a4426ba78a
 
 - question: fiscalite-supprimer-impots-production
   value: 1
@@ -345,11 +417,14 @@
   quote: "Le \"bouclier fiscal productif\" ramènera les impôts de production sous les 3% de la valeur ajoutée d'une entreprise"
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance propose de baisser les impôts de production, pas de les supprimer, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6880835d008aeee517254cf85281ce77ca26eca67234f1bad044574f1e83133d
 
 - question: immigration-asile-droit-travail
   value: 0
@@ -359,11 +434,14 @@
   quote: "Suppression du délai d'autorisation de travail (aujourd'hui 6 mois) pour les demandeurs d'asile de pays à très forte présomption de l'asile, allongement de ce délai pour les pays sûrs."
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance supprime le délai pour certains demandeurs d'asile et l'allonge pour d'autres, position intermédiaire, d'où 0."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b4930b182d4877692fec3245220e0a2d7bd4f06b39b8b7fd484c2b132a2fe836
 
 - question: immigration-plafond-annuel-admissions
   value: 1
@@ -373,11 +451,14 @@
   quote: "définiront avec l'Etat des orientations et quotas qui seront soumises au vote du Parlement"
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance prévoit des quotas d'immigration de travail votés par le Parlement, version partielle d'un plafond annuel global, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a89c40d903f71a43f4f4194b04e89857591bb6216042e9f96b6ee7f5180bf027
 
 - question: immigration-regroupement-familial-ressources
   value: 2
@@ -387,11 +468,14 @@
   quote: "Durcir les règles du regroupement familial : allongement du délai de présence du conjoint de 18 à 24 mois, renforcement des conditions de maîtrise du français pour les membres de la famille à l'étranger, des conditions de logement et de ressources pour le membre en France."
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance propose de renforcer les conditions de ressources du regroupement familial."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e7f098f60f45a46c4b86f8bba02bd4dcf843957a05c86e579f92e650ca4c72e5
 
 - question: immigration-supprimer-droit-du-sol
   value: -2
@@ -401,11 +485,14 @@
   quote: "Nous refusons la suppression du droit du sol sur le territoire hexagonal."
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance refuse explicitement la suppression du droit du sol, limitée au territoire hexagonal."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cc878be270a739dc89990bd3901d99bb6c738e153c413e2c82611241e94a8f21
 
 - question: immigration-visas-professions-qualifiees-v2
   value: 1
@@ -416,11 +503,14 @@
   quote: "où l'on accueille les compétences, les talents dont nous avons besoin sur la base d'un système à points comme au Canada"
   quoteSource: gabriel-attal-programme-frontieres
   justification: "Le programme veut accueillir les compétences et talents dont la France a besoin par un système à points, dans le sens d'un accès facilité des travailleurs qualifiés, sans viser explicitement l'assouplissement des visas de travail, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-11
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5bb8405de7b57208bb6bf09c7918c1e7125c017b5421db4d04ae0934e4838715
 
 - question: international-emprunt-commun-ue
   value: 2
@@ -430,11 +520,14 @@
   quote: "Ce renforcement du soutien à l'innovation pourra être financé par de la dette européenne et par une taxe Gafa européenne."
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance propose de financer l'innovation par de la dette européenne, ce qui correspond à l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ee06f3ac2004c65bf7afda937ef3b7f8bb5902454b9e93e5c5f4f467c2da09de
 
 - question: international-impots-propres-ue
   value: 1
@@ -444,11 +537,14 @@
   quote: "Ce renforcement du soutien à l'innovation pourra être financé par de la dette européenne et par une taxe Gafa européenne."
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance propose une taxe européenne sur les grandes plateformes, un impôt européen précis plutôt que de nouveaux impôts propres en général, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:75213610d45dc9da3a19c0da2e36b5b23e103b92356a05c45bc932675d3059fa
 
 - question: justice-accompagnement-emploi-detenus
   value: 1
@@ -458,11 +554,14 @@
   quote: "Un accompagnement systématique sera mis en place dans les 3 à 6 mois précédant la fin de la peine, notamment en lien avec France Travail"
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance prévoit un accompagnement vers l'emploi dans les derniers mois de détention, pas pendant toute la détention, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7a37dd7f66eeb01c0147dfe5ff221c4ce9ab59b8c9f722b2d87dc969df1c2a70
 
 - question: justice-arret-construction-prisons
   value: -2
@@ -472,11 +571,14 @@
   quote: "Une loi d'urgence pour la construction de prisons et de centres de rétention administrative (CRA)"
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance propose une loi d'urgence pour construire des prisons, soit le contraire de l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:59136790f3f0304a20aab28ce5494263fdd28824ab1ba765f473fb17f242fd5b
 
 - question: justice-courtes-peines-alternatives
   value: -1
@@ -486,11 +588,14 @@
   quote: "Nous devons aussi permettre que toutes sortes de peines puissent être prononcées et exécutées rapidement, y compris des peines courtes."
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance veut que les peines courtes puissent être prononcées et exécutées, tout en développant les peines alternatives, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e9e3f88ad6a02627d785c0b0e55076bc03bc33ddcf51d578427b130c2bd4803a
 
 - question: justice-justice-restaurative-systematique
   value: 1
@@ -500,11 +605,14 @@
   quote: "Multiplier les démarches de justice restaurative"
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance propose de multiplier la justice restaurative sans la rendre systématique, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4a0b08b40bf7fc057dbdb6adecafd0732ce0240e73dd4b461b98451daa97273b
 
 - question: justice-peines-minimales-recidive
   value: 1
@@ -514,11 +622,14 @@
   quote: "Des seuils minimaux seront établis pour ces peines"
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance propose des seuils minimaux de peine pour toutes les infractions, sans viser spécifiquement les récidivistes, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1ee2dba86ea7a588945b4aecbdb394c4af129613fd43a7963b0bf3d5f83f43c7
 
 - question: justice-supprimer-reductions-automatiques
   value: 1
@@ -528,11 +639,14 @@
   quote: "Suppression des aménagements de peine automatiques (libération sous contrainte) pour les multirécidivistes"
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance supprime les aménagements de peine automatiques pour les seuls multirécidivistes, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7a4ba4bc4b34596daf20a91896668833228004ddac3b5848b77aad85fdc85557
 
 - question: justice-tig-delits-sans-violence
   value: 1
@@ -542,11 +656,14 @@
   quote: "nous proposons de renforcer l'usage des TIG"
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance propose de renforcer l'usage des travaux d'intérêt général, sans les préférer explicitement à la prison pour les délits sans violence, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:91b93e318fa5905674c3f15604b92674ee6c10b0c6578fba14cbbf9b46182781
 
 - question: numerique-logiciels-libres-administration
   value: 1
@@ -556,11 +673,14 @@
   quote: "la préférence européenne dans les marchés publics et le soutien aux acteurs souverains comme Mistral"
   quoteSource: gabriel-attal-programme-intelligence-artificielle
   justification: "Le programme prévoit une préférence européenne dans les marchés publics de l'IA, version voisine d'une priorité aux logiciels libres ou hébergés en Europe, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c72e32cf3663c20b7577a44871b6b2d014e4358e7b32d5966bd476aa34cbc118
 
 - question: numerique-reseaux-sociaux-moins-15-ans
   value: 2
@@ -570,11 +690,14 @@
   quote: "nous irons au bout de leur interdiction pour les moins de 15 ans"
   quoteSource: gabriel-attal-programme-education
   justification: "Le programme prévoit l'interdiction des réseaux sociaux aux moins de 15 ans, ce qui correspond à l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6b06952b6430793cf90337d33e7145d36286f1a3d48d7cb435e589a521848ed2
 
 - question: numerique-taxe-plateformes
   value: 1
@@ -584,11 +707,14 @@
   quote: "Ce renforcement du soutien à l'innovation pourra être financé par de la dette européenne et par une taxe Gafa européenne."
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance propose une taxe sur les grandes plateformes à l'échelle européenne plutôt qu'un impôt national sur le chiffre d'affaires réalisé en France, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:75213610d45dc9da3a19c0da2e36b5b23e103b92356a05c45bc932675d3059fa
 
 - question: securite-armer-polices-municipales
   value: 1
@@ -598,11 +724,14 @@
   quote: "Rendre obligatoire l'armement des polices municipales avec un niveau d'équipement minimal qui dépendra de la taille de la commune."
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance rend l'armement des polices municipales obligatoire, avec une dérogation possible sur délibération du conseil municipal, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:70cae05c31c73c6ebd1df7c6f6aaaf39bad3891749f09de7d7aff833894ec0f1
 
 - question: securite-interdire-drones-manifestations
   value: -1
@@ -612,11 +741,14 @@
   quote: "L'usage des drones est un outil déterminant pour nos forces de l'ordre, notamment pour le maintien de l'ordre."
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance veut élargir l'usage des drones par les forces de l'ordre, notamment pour le maintien de l'ordre, sans viser explicitement les manifestations, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b0c493d1e857141969f3b8ecf3a3d78b964e6fe59ab5029a1c03ee782eb12782
 
 - question: securite-limiter-dissolution-associations
   value: -1
@@ -626,11 +758,14 @@
   quote: "La procédure actuelle de dissolution des associations est particulièrement lente et passe par un décret en conseil des ministres. Nous souhaitons qu'elle puisse être plus rapide"
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance veut accélérer la dissolution des associations, ce qui va dans le sens contraire d'une limitation, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:de1ebe74bc428a2850a5093e7c11a5512be0d1b2a55b891a27fe1899ab5729d7
 
 - question: securite-pouvoirs-polices-municipales
   value: 1
@@ -640,11 +775,14 @@
   quote: "Nous proposons que les directeurs de police municipale, sous l'autorité des procureurs et des maires, aient désormais le statut d'officier de police judiciaire"
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance étend les compétences judiciaires des polices municipales sans les aligner entièrement sur la police nationale, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:24b07d984e03ca97f94454aa0fc0718955a85c37373a2bbca864fca9e4d0d5a9
 
 - question: securite-videosurveillance-algorithmique
   value: 1
@@ -654,11 +792,14 @@
   quote: "nous proposons de prolonger et d'étendre le champ de cette expérimentation"
   quoteSource: gabriel-attal-renaissance-regalien
   justification: "La plateforme Renaissance propose de prolonger et d'étendre l'expérimentation de la vidéoprotection algorithmique, sans autorisation permanente, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:33a315095d3f67eae18c4b8b636c5bd20f1511e27306cf4cf8ee6a93e7b326d9
 
 - question: transport-abonnement-national-unique
   value: 1
@@ -668,11 +809,14 @@
   quote: "Généraliser le titre unique de transport à l'échelle régionale"
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance propose un titre unique de transport à l'échelle régionale, pas nationale, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:866c101fdab3c300c50c7420c4dd170c019e06b26926471321fa62514d4766d8
 
 - question: travail-durcir-indemnisation-chomage
   value: 1
@@ -682,11 +826,14 @@
   quote: "je porte une réforme de l'assurance chômage qui incite au travail"
   quoteSource: gabriel-attal-programme-travail-salaires
   justification: "Le programme propose une réforme de l'assurance chômage plus incitative au travail, sans en détailler le durcissement, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c71018c19dc8646ccb54ca59ef5370708dd3aaa108a79bcd216223acc0ee7eaa
 
 - question: travail-duree-travail-accord-entreprise
   value: 1
@@ -696,11 +843,14 @@
   quote: "donner ensuite plus de liberté au dialogue social pour fixer l'organisation du travail"
   quoteSource: gabriel-attal-programme-travail-salaires
   justification: "Le programme veut laisser davantage le dialogue social fixer l'organisation du travail, sans mentionner la durée légale au-delà de 35 heures, d'où 1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a7f82a2a2277d21e954d96ea73d2f9833e9b3719cf2d170589d5365c7a38be51
 
 - question: travail-retraite-au-dela-64-ans
   value: -1
@@ -710,11 +860,14 @@
   quote: "l'enjeu ne sera plus l'âge de départ à la retraite, mais la durée de cotisation"
   quoteSource: gabriel-attal-programme-travail-salaires
   justification: "Le programme écarte l'âge de départ comme levier au profit de la durée de cotisation, sans rejeter explicitement un report au-delà de 64 ans, d'où -1."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9c0677b90c0129f201731677c076a68bc9a0ecde3a8f36a3895b1ce1961cc463
 
 - question: travail-retraite-capitalisation
   value: 2
@@ -725,8 +878,11 @@
   quote: "Il faut que nous complétions notre système par répartition via une couche de retraites par investissement."
   quoteSource: gabriel-attal-renaissance-nouvelle-donne
   justification: "La plateforme Renaissance propose d'ajouter une part de retraite par capitalisation au système par répartition ; le candidat défend aussi le développement de la capitalisation."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:36a41ccfdc2b832561c437e87bd5d4ad34561caff9d6eafc12b3d48be3558d3c

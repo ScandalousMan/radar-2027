@@ -1,6 +1,6 @@
 # Revue externe des positions — partie 3, arbitrage du 2026-11-14
 
-**Statut : plan validé par adrien et appliqué le 2026-11-14.** Les positions modifiées restent en brouillon (`draft`), à relire avec `pnpm data:review`.
+**Statut : plan validé par adrien et appliqué le 2026-11-14. Les 11 arbitrages humains ont été tranchés par adrien le même jour, selon les recommandations : 3 valeurs passent à 1, 8 restent inchangées.** Les positions modifiées restent en brouillon (`draft`), à relire avec `pnpm data:review`.
 
 Le retour couvre la **partie 3** du dossier `2026-11-11-revue-positions-externe/` : Mélenchon (P0523 à P0685) et Branco (P0686 à P0776), soit 254 positions. Le relecteur a contesté **80 positions** : 57 suppressions, 12 changements de valeur et 11 points signalés (FLAG).
 
@@ -30,7 +30,7 @@ Chaque constat a été vérifié sur le texte de la source en cache, en lisant l
 | Changements de valeur retenus | 10 |
 | Suppression retenue | 1 |
 | Suppressions écartées mais valeur ajustée | 2 |
-| Arbitrages humains (FLAG) | 11 |
+| Arbitrages humains (FLAG), tranchés par adrien | 11 (3 valeurs passées à 1, 8 gardées) |
 | Contestations écartées | 56 |
 
 Après application : 1 092 positions au lieu de 1 093 (une suppression), 12 valeurs modifiées. Le détail des contrôles figure en fin de document.
@@ -53,23 +53,23 @@ Après application : 1 092 positions au lieu de 1 093 (une suppression), 12 vale
 | P0717 | P0715 | juan-branco | energie-reduire-part-nucleaire | DELETE | −2 | suppr. | Passer à −1 | Suppression écartée : 14 EPR2 vont contre une réduction de la part du nucléaire. Mais aucun objectif de part n'est donné : -1, comme Philippe (P0121) et Roussel (P0270). |
 | P0758 | P0756 | juan-branco | sante-psychologues-rembourses | DELETE | 2 | suppr. | Passer à 1 | Suppression écartée : le remboursement « intégral » vaut pour le taux, pas forcément pour le nombre de séances. Version voisine, 1, comme Roussel (P0294). |
 
-## Arbitrages humains en attente (11)
+## Arbitrages humains (11), tranchés par adrien le 2026-11-14
 
-Ces positions ne seront pas modifiées. La recommandation est indicative ; la décision revient au relecteur humain.
+adrien a validé les 11 recommandations. Trois positions passent à 1 (P0565, P0580 et P0757 actuelles) ; leur justification est réécrite et `authoredAt` passe au 2026-11-14. Les huit autres restent strictement inchangées. La colonne « Opération prévue » garde le plan d'origine ; la décision figure dans la colonne « Décision ».
 
-| Réf. dossier | Réf. actuelle | Candidat | Énoncé | Verdict | Actuel | Proposé | Opération prévue | Motif |
-|---|---|---|---|---|---|---|---|---|
-| P0543 | P0541 | jean-luc-melenchon | democratie-vote-blanc-exprime | FLAG | 2 | — | Garder en `draft`, arbitrage humain | Recommandation : garder 2. « Reconnaître le vote blanc », à côté d'un seuil de votes exprimés, désigne d'ordinaire son décompte parmi les suffrages exprimés (il est déjà décompté à part depuis 2014). |
-| P0567 | P0565 | jean-luc-melenchon | environnement-calendrier-logements-mal-isoles | FLAG | 2 | — | Garder en `draft`, arbitrage humain | Recommandation : passer à 1. « Interdire réellement » la location des passoires thermiques va contre tout report, mais le calendrier n'est pas cité ; 1 serait cohérent avec les autres versions voisines. |
-| P0582 | P0580 | jean-luc-melenchon | fiscalite-hausse-taxe-transactions-financieres | FLAG | 2 | — | Garder en `draft`, arbitrage humain | Recommandation : passer à 1. Le document chiffre une hausse des taxes sur les transactions financières (5 Md€) sans dire si elle passe par le taux ou par l'assiette ; Asselineau (élargissement d'assiette) est à 1. |
-| P0619 | P0617 | jean-luc-melenchon | numerique-assouplir-consentement-traceurs | FLAG | −1 | — | Garder en `draft`, arbitrage humain | Recommandation : garder -1. Refuser que le seul consentement suffise à fonder la collecte de données durcit l'encadrement : sens contraire d'un assouplissement, les traceurs n'étant pas nommés. |
-| P0650 | P0648 | jean-luc-melenchon | securite-restreindre-tirs-refus-obtemperer | FLAG | 2 | — | Garder en `draft`, arbitrage humain | Recommandation : garder 2. La justification rappelle que la loi Cazeneuve (2017) a élargi l'usage des armes lors des refus d'obtempérer ; l'abroger restreint ces règles. Ce lien vient de la justification, pas de l'extrait. |
-| P0684 | P0682 | jean-luc-melenchon | travail-smic-au-dela-inflation | FLAG | 2 | — | Garder en `draft`, arbitrage humain | Recommandation : garder 2. Porter « immédiatement » le SMIC à 1 700 € net, contre environ 1 440 € en 2026, fait environ +18 %, puis l'indexer sur l'inflation ; Glucksmann (1 600 € net) est à 2. |
-| P0696 | P0694 | juan-branco | democratie-chambre-tiree-au-sort | FLAG | 1 | — | Garder en `draft`, arbitrage humain | Recommandation : garder 1. La chambre haute tirée au sort n'est qu'une des trois options de réorganisation, ce que la valeur 1 reflète déjà. |
-| P0704 | P0702 | juan-branco | democratie-supprimer-cese | FLAG | 1 | — | Garder en `draft`, arbitrage humain | Recommandation : garder 1. L'absorption du CESE dans une chambre haute n'est qu'une des trois options, ce que la valeur 1 reflète déjà. |
-| P0747 | P0745 | juan-branco | justice-imprescriptibilite-crimes-sexuels-mineurs | FLAG | −1 | — | Garder en `draft`, arbitrage humain | Recommandation : garder -1. Un retour général à dix ans de prescription criminelle, sans exception mentionnée, va contre l'imprescriptibilité. |
-| P0759 | P0757 | juan-branco | sante-regulation-installation-medecins | FLAG | 2 | — | Garder en `draft`, arbitrage humain | Recommandation : passer à 1. « Régulation de l'installation » est accolée à des obligations d'exercice en zones sous-dotées, mais les zones bien dotées ne sont pas nommées ; Tondelier, qui les vise explicitement, est à 2. |
-| P0775 | P0773 | juan-branco | travail-smic-au-dela-inflation | FLAG | 1 | — | Garder en `draft`, arbitrage humain | Recommandation : garder 1. 1 500 € net, contre environ 1 440 € en 2026, fait environ +4 % : hausse ponctuelle modérée, sans règle de revalorisation. |
+| Réf. dossier | Réf. actuelle | Candidat | Énoncé | Verdict | Actuel | Proposé | Opération prévue | Motif | Décision |
+|---|---|---|---|---|---|---|---|---|---|
+| P0543 | P0541 | jean-luc-melenchon | democratie-vote-blanc-exprime | FLAG | 2 | — | Garder en `draft`, arbitrage humain | Recommandation : garder 2. « Reconnaître le vote blanc », à côté d'un seuil de votes exprimés, désigne d'ordinaire son décompte parmi les suffrages exprimés (il est déjà décompté à part depuis 2014). | Garder (inchangée) |
+| P0567 | P0565 | jean-luc-melenchon | environnement-calendrier-logements-mal-isoles | FLAG | 2 | — | Garder en `draft`, arbitrage humain | Recommandation : passer à 1. « Interdire réellement » la location des passoires thermiques va contre tout report, mais le calendrier n'est pas cité ; 1 serait cohérent avec les autres versions voisines. | Passer à 1 (appliqué) |
+| P0582 | P0580 | jean-luc-melenchon | fiscalite-hausse-taxe-transactions-financieres | FLAG | 2 | — | Garder en `draft`, arbitrage humain | Recommandation : passer à 1. Le document chiffre une hausse des taxes sur les transactions financières (5 Md€) sans dire si elle passe par le taux ou par l'assiette ; Asselineau (élargissement d'assiette) est à 1. | Passer à 1 (appliqué) |
+| P0619 | P0617 | jean-luc-melenchon | numerique-assouplir-consentement-traceurs | FLAG | −1 | — | Garder en `draft`, arbitrage humain | Recommandation : garder -1. Refuser que le seul consentement suffise à fonder la collecte de données durcit l'encadrement : sens contraire d'un assouplissement, les traceurs n'étant pas nommés. | Garder (inchangée) |
+| P0650 | P0648 | jean-luc-melenchon | securite-restreindre-tirs-refus-obtemperer | FLAG | 2 | — | Garder en `draft`, arbitrage humain | Recommandation : garder 2. La justification rappelle que la loi Cazeneuve (2017) a élargi l'usage des armes lors des refus d'obtempérer ; l'abroger restreint ces règles. Ce lien vient de la justification, pas de l'extrait. | Garder (inchangée) |
+| P0684 | P0682 | jean-luc-melenchon | travail-smic-au-dela-inflation | FLAG | 2 | — | Garder en `draft`, arbitrage humain | Recommandation : garder 2. Porter « immédiatement » le SMIC à 1 700 € net, contre environ 1 440 € en 2026, fait environ +18 %, puis l'indexer sur l'inflation ; Glucksmann (1 600 € net) est à 2. | Garder (inchangée) |
+| P0696 | P0694 | juan-branco | democratie-chambre-tiree-au-sort | FLAG | 1 | — | Garder en `draft`, arbitrage humain | Recommandation : garder 1. La chambre haute tirée au sort n'est qu'une des trois options de réorganisation, ce que la valeur 1 reflète déjà. | Garder (inchangée) |
+| P0704 | P0702 | juan-branco | democratie-supprimer-cese | FLAG | 1 | — | Garder en `draft`, arbitrage humain | Recommandation : garder 1. L'absorption du CESE dans une chambre haute n'est qu'une des trois options, ce que la valeur 1 reflète déjà. | Garder (inchangée) |
+| P0747 | P0745 | juan-branco | justice-imprescriptibilite-crimes-sexuels-mineurs | FLAG | −1 | — | Garder en `draft`, arbitrage humain | Recommandation : garder -1. Un retour général à dix ans de prescription criminelle, sans exception mentionnée, va contre l'imprescriptibilité. | Garder (inchangée) |
+| P0759 | P0757 | juan-branco | sante-regulation-installation-medecins | FLAG | 2 | — | Garder en `draft`, arbitrage humain | Recommandation : passer à 1. « Régulation de l'installation » est accolée à des obligations d'exercice en zones sous-dotées, mais les zones bien dotées ne sont pas nommées ; Tondelier, qui les vise explicitement, est à 2. | Passer à 1 (appliqué) |
+| P0775 | P0773 | juan-branco | travail-smic-au-dela-inflation | FLAG | 1 | — | Garder en `draft`, arbitrage humain | Recommandation : garder 1. 1 500 € net, contre environ 1 440 € en 2026, fait environ +4 % : hausse ponctuelle modérée, sans règle de revalorisation. | Garder (inchangée) |
 
 ## Contestations écartées (56)
 
@@ -160,5 +160,24 @@ Ces positions ne seront pas modifiées. La recommandation est indicative ; la d�
 | `pnpm data:validate` (schéma, sources, citations, références) | 0 violation | 0 violation, 0 avertissement |
 | `pnpm test` | 959 réussis, 1 ignoré | 959 réussis, 1 ignoré |
 
-Chaque constat du rapport a été traité selon le tableau ci-dessus : 13 corrections appliquées, 11 FLAG conservés pour arbitrage humain, 56 rejets motivés. Le retour brut du relecteur est versé au dossier de revue (`revue-adverse-partie-3-2026-11-14.json`).
+Chaque constat du rapport a été traité selon le tableau ci-dessus : 13 corrections appliquées, 11 FLAG tranchés par adrien (3 valeurs passées à 1, 8 gardées), 56 rejets motivés. Le retour brut du relecteur est versé au dossier de revue (`revue-adverse-partie-3-2026-11-14.json`).
 
+
+## Après les arbitrages humains (2026-11-14)
+
+| Contrôle | Résultat |
+|---|---|
+| Positions du corpus | 1 092, inchangé |
+| Positions modifiées par les arbitrages | 3 (P0565 et P0580 de Mélenchon, P0757 de Branco), conformes aux décisions ; champs `value`, `justification`, `authoredAt` uniquement |
+| Positions FLAG gardées | 8, strictement inchangées |
+| `pnpm data:validate` | 0 violation, 0 avertissement |
+
+## Relecture de l'ensemble du corpus (2026-11-14)
+
+Les cinq parties de la revue externe étant arbitrées, adrien a validé toutes les positions. Les 1 092 positions des 18 candidats passent de `draft` à `reviewed`, avec `reviewer: adrien`, `reviewedAt: 2026-11-14` et le `reviewedHash` que calcule `pnpm data:review` (empreinte de la valeur, des sources et de la citation). Les règles de `data:review` ont été appliquées en une seule passe : aucune position n'a adrien pour auteur et les règles de position donnent 0 violation. Les fichiers gardent leur mise en forme ; seul leur commentaire d'en-tête change, puisqu'il annonçait une relecture à venir.
+
+| Contrôle | Résultat |
+|---|---|
+| Positions `reviewed` / `draft` / `contested` | 1 092 / 0 / 0 |
+| `pnpm data:validate` | 0 violation, 0 avertissement |
+| `pnpm test` | 959 réussis, 1 ignoré |
