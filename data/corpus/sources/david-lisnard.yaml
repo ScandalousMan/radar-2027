@@ -64,3 +64,223 @@
   candidates:
     - david-lisnard
   contentHash: sha256:69ef0bf0d668d73fc8229368a28e387e3bb54d5e7e5f9e7a8c381a3d5a670787
+- id: david-lisnard-programme-2027-securite-nouvelle-energie
+  url: https://www.unenouvelleenergie.fr/notre-programme/securite/
+  title: "Programme 2027 : sécurité (Nouvelle Énergie)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:050d3db7fae90da36dcf18a7de7bcb2c39b709fd787c55dc6e09bc94b1e002ea
+- id: david-lisnard-programme-2027-sante-nouvelle-energie
+  url: https://www.unenouvelleenergie.fr/notre-programme/sante/
+  title: "Programme 2027 : santé (Nouvelle Énergie)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:f4721fae122ccb65b8c387e22779c8736970f7d22eea41ee0f06f0894c640320
+- id: david-lisnard-programme-2027-agriculture-nouvelle-energie
+  url: https://www.unenouvelleenergie.fr/notre-programme/agriculture/
+  title: "Programme 2027 : agriculture (Nouvelle Énergie)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:03e85b588233605e3a47e41d5203a0bc4b4f30ef671d48d4c588d6229e496e52
+- id: david-lisnard-carnet-thematique-agriculture-nouvelle-energie-pdf
+  url: https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/AGRICULTURE.pdf
+  title: Carnet thématique Agriculture (Nouvelle Énergie, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-06
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:97234e9736f6b9f805b3c5b13bc9b8eb0cb88556b7df7eefda83c4a2c3e6f191
+- id: david-lisnard-livret-sante-nouvelle-energie-pdf
+  url: https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/05/Livret-Sante-Nouvelle-Energie.pdf
+  title: Livret Santé (Nouvelle Énergie, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-05
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:5bd09edf5104ad73ee04988775d928733b6cdd17ecc2ed317fb086750fdbdd28
+- id: david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
+  url: https://www.unenouvelleenergie.fr/api/media/file/Nouvelle_energie_Livre_noir_pages_20_24_inversees.pdf
+  title: Le livre noir de la bureaucratie (Nouvelle Énergie, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:3aaac7e62d2fb2f77adb07ab5d18b31f122e1e6b6a73e31906dc20586c57d1eb
+- id: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-baisser-les-impots-c
+  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-baisser-les-impots/
+  title: "Nouvelle Énergie, FAQ : Quel candidat veut baisser les impôts ? (citations datées de David Lisnard)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:75054887f4eb4606daadf99c764e68c87c94ce564897f00a7222cdb358ad751d
+- id: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-baisser-les-charges
+  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-baisser-les-charges-des-entreprises/
+  title: "Nouvelle Énergie, FAQ : Quel candidat veut baisser les charges des entreprises ? (citations datées de David Lisnard)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:7905fd1e14ae473c62e90c2195292a6527aeea8ffb527e78157fe3ec29c1d572
+- id: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-reformer-l-assurance
+  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-reformer-l-assurance-chomage/
+  title: "Nouvelle Énergie, FAQ : Quel candidat veut réformer l'assurance chômage ? (citations datées de David Lisnard)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:7431c4e432efaf1bb5614043d9284ba4a89a59d96541d55e88839ae2cdcc0e18
+- id: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-reduire-le-nombre-de
+  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-reduire-le-nombre-de-fonctionnaires/
+  title: "Nouvelle Énergie, FAQ : Quel candidat veut réduire le nombre de fonctionnaires ? (citations datées de David Lisnard)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:13f43d4f3896239ebc446923a0b78c8d8eae59e0193d89ac9c5dce001a8c4512
+- id: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-supprimer-les-zones
+  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-supprimer-les-zones-a-faibles-emissions-zfe/
+  title: "Nouvelle Énergie, FAQ : Quel candidat veut supprimer les zones à faibles émissions (ZFE) ? (citations datées de David Lisnard)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:a3663d12986da5fe3e190d062d3cfc620fad40325079df5c388591d591545215
+- id: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-renforcer-l-armee-ci
+  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-renforcer-l-armee/
+  title: "Nouvelle Énergie, FAQ : Quel candidat veut renforcer l'armée ? (citations datées de David Lisnard)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:c3fab46c2707b0dc5e7e9f645e13946b30eb3b924b90a6876b10a2a247c9b251
+- id: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-rendre-les-parents-r
+  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-rendre-les-parents-responsables-des-delits-de-leurs-enfants/
+  title: "Nouvelle Énergie, FAQ : Quel candidat veut rendre les parents responsables des délits de leurs enfants ? (citations datées de David Lisnard)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:b8978b84a8da7d33692599dd87c2007de1fcb1557abe6a47b0761cffbb5c05a2
+- id: david-lisnard-nouvelle-energie-faq-quel-candidat-propose-de-redonner-des-m
+  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-propose-de-redonner-des-moyens-aux-forces-de-l-ordre/
+  title: "Nouvelle Énergie, FAQ : Quel candidat propose de redonner des moyens aux forces de l'ordre ? (citations datées de David Lisnard)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:e84f4b23923d934dc4bd1ac6e8f3411e1f5354defb93b7e2f7914282b323c6e4
+- id: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-que-les-peines-soien
+  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-que-les-peines-soient-reellement-executees/
+  title: "Nouvelle Énergie, FAQ : Quel candidat veut que les peines soient réellement exécutées ? (citations datées de David Lisnard)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:f1d0be28c6a5f34fec1c68ea7e1e44572a3dcc90af3e1d30fa9ab413d74503e4
+- id: david-lisnard-nouvelle-energie-faq-comment-david-lisnard-compte-t-il-lutte
+  url: https://www.unenouvelleenergie.fr/questions/comment-david-lisnard-compte-t-il-lutter-contre-les-deserts-medicaux/
+  title: "Nouvelle Énergie, FAQ : Comment David Lisnard compte-t-il lutter contre les déserts médicaux ? (citations datées de David Lisnard)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:6016c9bd454bb73b80329fe6f1b9f2751bd200dce13f3012b593de6758e57024
+- id: david-lisnard-nouvelle-energie-faq-quel-candidat-veut-reindustrialiser-la
+  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-reindustrialiser-la-france/
+  title: "Nouvelle Énergie, FAQ : Quel candidat veut réindustrialiser la France ? (citations datées de David Lisnard)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:a88d9855557e3461c1eb3a66787a2fcfc38eb7d334254c5ae2bbb285b3809f07
+- id: david-lisnard-tribune-reseaux-sociaux-l-interdiction-est-le-dernier-refuge
+  url: https://www.unenouvelleenergie.fr/reseaux-sociaux-linterdiction-est-le-dernier-refuge-de-limpuissance-publique/
+  title: "Tribune : « Réseaux sociaux : l'interdiction est le dernier refuge de l'impuissance publique » (Nouvelle Énergie)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:2c7c068c177a1b0a3b1ec56be99ebeee1425c52ce8710a188eb9a5c478d82a5d
+- id: david-lisnard-dissuasion-nucleaire-ce-que-le-discours-du-president-de-la-r
+  url: https://www.unenouvelleenergie.fr/dissuasion-nucleaire-ce-que-le-discours-du-president-de-la-republique-dit-et-ce-quil-ne-dit-pas/
+  title: "Dissuasion nucléaire : ce que le discours du président de la République dit et ce qu'il ne dit pas (Nouvelle Énergie)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:bbb7e6618f6afa6c8a4965ffda097cd826900303a189a192e57c5795b667a890
+- id: david-lisnard-david-lisnard-se-confie-sans-detour-sur-sa-foi-aleteia-repri
+  url: https://fr.aleteia.org/2025/01/18/david-lisnard-se-confie-sans-detour-sur-sa-foi/
+  title: David Lisnard se confie sans détour sur sa foi (Aleteia, reprise de l'entretien au Point)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-01-18
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - david-lisnard
+  contentHash: sha256:714afc09650755a4bc0bcba50156ac9e8c36de8cc6d402b120bd2416af05a7de

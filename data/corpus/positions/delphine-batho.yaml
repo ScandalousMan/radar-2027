@@ -170,3 +170,153 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:c1219694cffa8848cf32019df8cf338af8a471e696d05e94d2092f9a0357921a
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+
+- question: agriculture-interdire-glyphosate
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-proposition-de-resolution-europeenne-n-1671-visant-au-non-re
+  quote: 'Demande au Gouvernement de se mobiliser diplomatiquement auprès des États membres de l''Union et de la Commission européenne afin que le glyphosate soit interdit dans l''Union européenne et qu''un plan de sortie soit mis en œuvre'
+  quoteSource: delphine-batho-proposition-de-resolution-europeenne-n-1671-visant-au-non-re
+  justification: 'La résolution dont la candidate est première signataire demande l''interdiction du glyphosate dans l''Union européenne avec un plan de sortie, mesure plus large que l''interdiction en France, d''où 1.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: sante-regulation-installation-medecins
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-delphine-batho-en-actes-ses-combats-et-resultats-delphinebat
+  quote: 'Loi régulant l''installation des médecins (dont l''adoption définitive est bloquée par le Sénat).'
+  quoteSource: delphine-batho-delphine-batho-en-actes-ses-combats-et-resultats-delphinebat
+  justification: 'La candidate range parmi ses actes la loi régulant l''installation des médecins sans préciser les zones concernées, d''où 1 plutôt que 2.'
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: environnement-interdire-vols-interieurs
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  quote: 'L''article 6 prévoit l''arrêt des liaisons aériennes domestiques facilement substituables par un voyage inférieur ou égal à 4 heures en train et l''arrêt de la création ou de l''extension d''infrastructures aéroportuaires.'
+  quoteSource: delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  justification: 'La proposition de loi dont la candidate est première signataire (2021) arrête les liaisons aériennes remplaçables par un trajet en train de quatre heures au plus, soit exactement l''énoncé, d''où 2.'
+  old: true
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: environnement-fin-thermique-2035
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  quote: 'l''accélération de la fin de vente des voitures thermiques, prévue en 2030 et non 2040.'
+  quoteSource: delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  justification: 'Le texte (2021) veut avancer la fin de vente des voitures thermiques à 2030 au lieu de 2040, soit une échéance plus stricte que 2035, d''où 1.'
+  old: true
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: environnement-publicite-vehicules-emetteurs
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  quote: 'est interdite toute publicité portant sur des produits et services à fort impact négatif sur l''environnement, effectuée par tous moyens et sur tous supports'
+  quoteSource: delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  justification: 'Le texte (2021) interdit progressivement la publicité des produits à fort impact environnemental, dont les véhicules particuliers émettant des gaz à effet de serre, mesure plus large que l''énoncé, d''où 1.'
+  old: true
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: transport-doubler-investissement-ferroviaire
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  quote: 'L''article 7 prévoit la mise en œuvre d''un plan d''investissement ferroviaire de 3 milliards d''euros par an sur dix ans'
+  quoteSource: delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  justification: 'Le texte (2021) ajoute 3 milliards d''euros par an d''investissement ferroviaire, sans chiffrer un doublement, d''où 1.'
+  old: true
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: transport-trains-de-nuit
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  quote: '150 millions d''euros supplémentaires par an pour reconstituer un parc de matériel roulant de nuit et permettre le développement d''un véritable réseau de trains de nuit en France et vers l''étranger'
+  quoteSource: delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  justification: 'Le texte (2021) finance un parc de matériel et un réseau de trains de nuit, sans viser précisément l''ouverture de lignes nouvelles, d''où 1.'
+  old: true
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: transport-subventionner-fret-ferroviaire
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  quote: '1,5 milliard d''euros supplémentaires par an pour la relance du fret ferroviaire répartis entre l''exploitation, la régénération, le développement du réseau et le soutien à l''activité'
+  quoteSource: delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  justification: 'Le texte (2021) affecte 1,5 milliard d''euros par an à la relance du fret ferroviaire, y compris le soutien à l''activité, sans parler explicitement de concurrence avec la route, d''où 1.'
+  old: true
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: transport-petites-lignes-maintenues
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  quote: '700 millions d''euros supplémentaires par an pour assurer la régénération des lignes de desserte fine du territoire'
+  quoteSource: delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  justification: 'Le texte (2021) finance la régénération des lignes de desserte fine, ce qui suppose leur maintien, sans mention de leur faible fréquentation, d''où 1.'
+  old: true
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: environnement-assouplir-artificialisation
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  quote: 'L''article 16 instaure un moratoire sur l''implantation des grandes surfaces et des nouveaux entrepôts logistiques destinés aux opérateurs du commerce en ligne, pour lutter contre l''artificialisation des sols et protéger le commerce de proximité d''une concurrence déloyale.'
+  quoteSource: delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  justification: 'Le texte (2021) instaure un moratoire sur les grandes surfaces et entrepôts pour lutter contre l''artificialisation, à l''opposé d''un assouplissement mais sur un champ limité, d''où -1.'
+  old: true
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14

@@ -75,3 +75,80 @@
   candidates:
     - francois-ruffin
   contentHash: sha256:5f833a57ef97f05f63befd4e344471dfdbc3c33a349d96b957d5b263825b5026
+- id: francois-ruffin-cahier-de-campagne-temps-libre-et-loisirs-ruffin-2027-pdf
+  url: https://nouspresident.fr/wp-content/uploads/2026/09/Debout-Livret-Campagne-Loisirs-vdef-Web-1.pdf
+  title: "Cahier de campagne : temps libre et loisirs (Ruffin 2027, PDF)"
+  kind: programme
+  publishedAt:
+    date: 2026-09
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:94d2ecf253bd062464d0cc785120a8b682204692d71f4fa8928a0b71d8eee0bf
+- id: francois-ruffin-cahier-de-campagne-exception-agriculturelle-francaise-ruffin
+  url: https://nouspresident.fr/wp-content/uploads/2026/10/Debout-Livret-Campagne-Agriculture-vWeb.pdf
+  title: "Cahier de campagne : exception agriculturelle française (Ruffin 2027, PDF)"
+  kind: programme
+  publishedAt:
+    date: 2026-10
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:1ee7a59a80dea24c9c5ae81fe6196e6c938a24b5e91d54b8868538cbf1e1d1dc
+- id: francois-ruffin-cahier-de-campagne-logement-ruffin-2027-pdf
+  url: https://nouspresident.fr/wp-content/uploads/2026/09/CC_Logement.pdf
+  title: "Cahier de campagne : logement (Ruffin 2027, PDF)"
+  kind: programme
+  publishedAt:
+    date: 2026-09
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:dcdbc4527d210f56bbf8f39213493a9fad702189be99d369efab9a6ebb42474e
+- id: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  url: https://nouspresident.fr/wp-content/uploads/2026/10/Debout-Livret-Campagne-8-Education.pdf
+  title: "Cahier de campagne n° 8 : éducation (Ruffin 2027, PDF)"
+  kind: programme
+  publishedAt:
+    date: 2026-10
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:457913540916d6e6054ebcb938af98368e7c97d5403294c9bef8058d84389de3
+- id: francois-ruffin-cahier-de-campagne-n-9-democratie-en-continu-etats-generaux
+  url: https://nouspresident.fr/wp-content/uploads/2026/11/Debout-Livret-Campagne-9-Democratie-vWeb.pdf
+  title: "Cahier de campagne n° 9 : démocratie en continu, états généraux (Ruffin 2027, PDF)"
+  kind: programme
+  publishedAt:
+    date: 2026-11
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:6e5544bce9a17b28e519f5fdef90cefdb68066f91ebe3e0f50c93f3588cc05a6
+- id: francois-ruffin-pour-une-declaration-d-independance-la-doctrine-ruffin-sur-l
+  url: https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/
+  title: "Pour une déclaration d'indépendance : la doctrine Ruffin sur l'Europe (Le Grand Continent, tribune signée)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-02-25
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:16d9eeda71023863113162f9f32b71d132415094e8474ff6ae7c62fca30d6959
+- id: francois-ruffin-pourquoi-le-medef-veut-3-9-millions-de-travailleurs-immigres
+  url: https://francoisruffin.fr/pourquoi-le-medef-veut-39-millions-de-travailleurs-immigres/
+  title: Pourquoi le Medef veut 3,9 millions de travailleurs immigrés (francoisruffin.fr)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-04-29
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:7ee563d846c4fddeb1e13f37287d074351aca6e7c3ab04d3b2327a75c5a17c3c

@@ -886,3 +886,130 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:36a41ccfdc2b832561c437e87bd5d4ad34561caff9d6eafc12b3d48be3558d3c
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: agriculture-prix-plancher-agricoles
+  value: 2
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-prix-planchers-agricoles
+  quote: "Il propose des prix planchers indexés sur les coûts de production dans les filières structurantes du lait, de la viande et des céréales."
+  quoteSource: gabriel-attal-mesure-prix-planchers-agricoles
+  justification: "Le programme propose explicitement des prix planchers indexés sur les coûts de production pour le lait, la viande et les céréales, ce qui correspond à l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: defense-dissuasion-protection-europe-v2
+  value: 1
+  evidence: programme
+  sources:
+    - gabriel-attal-programme-frontieres
+  quote: "Notre dissuasion nucléaire doit être un outil de puissance, à travers notamment la doctrine de dissuasion nucléaire avancée proposée par le président de la République."
+  quoteSource: gabriel-attal-programme-frontieres
+  justification: "Le texte se rallie à la doctrine de dissuasion avancée du président sans en détailler le contenu ni parler explicitement de la protection des partenaires européens, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: justice-comparution-immediate-mineurs
+  value: 1
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-comparution-immediate-mineurs
+  quote: "Gabriel Attal veut instaurer la comparution immédiate pour les mineurs récidivistes, en menant à son terme la loi sur la justice des mineurs interrompue par la dissolution de 2024."
+  quoteSource: gabriel-attal-mesure-comparution-immediate-mineurs
+  justification: "La mesure vise les seuls mineurs récidivistes et ne fixe pas de seuil de 16 ans, plus étroite que l'énoncé, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: justice-imprescriptibilite-crimes-sexuels-mineurs
+  value: 2
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-imprescriptibilite-crimes-sexuels-mineurs
+  quote: "Gabriel Attal veut rendre imprescriptibles les crimes sexuels commis sur les mineurs."
+  quoteSource: gabriel-attal-mesure-imprescriptibilite-crimes-sexuels-mineurs
+  justification: "Le candidat propose explicitement l'imprescriptibilité des crimes sexuels commis sur des mineurs."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: justice-perpetuite-reelle-etendue
+  value: 2
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-perpetuite-reelle-predateurs
+  quote: "Gabriel Attal veut instaurer la perpétuité réelle pour les auteurs de viols en série et les prédateurs sexuels les plus dangereux."
+  quoteSource: gabriel-attal-mesure-perpetuite-reelle-predateurs
+  justification: "Le programme étend la perpétuité réelle à de nouvelles catégories de crimes (viols en série, prédateurs sexuels dangereux)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: justice-sanction-financiere-parents
+  value: 1
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-tu-casses-tu-repares
+  quote: "Même le parent qui n'a pas la garde de l'enfant est solidaire financièrement des dégâts causés."
+  quoteSource: gabriel-attal-mesure-tu-casses-tu-repares
+  justification: "Le programme rend les parents financièrement solidaires des dégradations commises par leurs enfants, ce qui relève de la réparation du dommage plus que d'une sanction au sens strict, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: numerique-assouplir-regles-ia
+  value: 2
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-politique-ia-europeenne-commune
+  quote: "Il demande aussi une révision en profondeur de l'AI Act, qui freine nos entreprises face à leurs concurrentes américaines et chinoises."
+  quoteSource: gabriel-attal-mesure-politique-ia-europeenne-commune
+  justification: "Le candidat demande une révision en profondeur du règlement européen sur l'IA au motif qu'il freine les entreprises, ce qui correspond à un assouplissement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-baisse-impot-societes
+  value: -2
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-loi-de-stabilite-fiscale
+  quote: "Le taux de l'impôt sur les sociétés reste à 25 %."
+  quoteSource: gabriel-attal-mesure-loi-de-stabilite-fiscale
+  justification: "Le programme maintient explicitement le taux de l'IS à 25 % après la baisse de 2017-2022, et écarte donc un nouvel abaissement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-baisse-prelevements-obligatoires
+  value: 1
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-aucune-hausse-impots
+  quote: "Il veut au contraire revenir sur plusieurs taxes décidées depuis la dissolution et poursuivre la baisse des impôts de production."
+  quoteSource: gabriel-attal-mesure-aucune-hausse-impots
+  justification: "Aucune hausse d'impôt et suppression de taxes récentes et d'impôts de production vont dans le sens d'une baisse, mais aucun objectif global de baisse du taux de prélèvements n'est fixé, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14

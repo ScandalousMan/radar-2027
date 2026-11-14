@@ -824,3 +824,174 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:118e1cc2bbfbaea9dede0966f9311e12bf00bbc34cf1ea6b0cd2128b25df583c
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: defense-renoncer-modernisation-dissuasion
+  value: -2
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-defense-edouardphilippe-fr
+  quote: "Une dissuasion nucléaire modernisée."
+  quoteSource: edouard-philippe-programme-defense-edouardphilippe-fr
+  justification: "Le programme défense retient explicitement une dissuasion nucléaire modernisée parmi ses propositions phares, ce qui rejette le renoncement à la moderniser."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-reduire-budget-armees
+  value: -1
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-defense-edouardphilippe-fr
+  quote: "La loi actuelle épaissit nos armées sans les étendre : il veut aller plus loin, avec plus de réservistes, plus de volontaires, plus de drones, plus de munitions et plus de navires."
+  quoteSource: edouard-philippe-programme-defense-edouardphilippe-fr
+  justification: "Le programme veut une nouvelle loi de programmation militaire allant plus loin que l'actuelle, ce qui est incompatible avec une baisse du budget en proportion du PIB ; aucun chiffre ni mot « budget » n'est toutefois donné, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-faciliter-centres-donnees
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-intelligence-artificielle-edouardphilippe-fr
+  quote: "raccordements facilités, des permis accélérés et des normes supprimées pour faciliter l'installation d'infrastructures numériques"
+  quoteSource: edouard-philippe-programme-intelligence-artificielle-edouardphilippe-fr
+  justification: "Les « zones d'accélération de l'IA » accélèrent les procédures d'implantation d'infrastructures numériques ; la mesure est formulée pour les infrastructures numériques en général, plus large que les seuls centres de données."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-baisse-ir-tranches-intermediaires
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-famille-edouardphilippe-fr
+  quote: "Édouard Philippe veut supprimer l'impôt sur le revenu des ménages des classes moyennes, du 4e au 6e décile et au début du 7e."
+  quoteSource: edouard-philippe-programme-famille-edouardphilippe-fr
+  justification: "Baisse de l'impôt sur le revenu pour des ménages de classes moyennes, mais limitée aux foyers ayant un enfant de moins de trois ans : soutien partiel à l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-regularisation-metiers-tension
+  value: -1
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-immigration-edouardphilippe-fr
+  quote: "Pour répondre aux besoins de main-d'œuvre, il préfère une voie claire et assumée : des quotas pour choisir notre immigration économique."
+  quoteSource: edouard-philippe-programme-immigration-edouardphilippe-fr
+  justification: "Face aux besoins de main-d'œuvre, le programme privilégie des quotas plutôt que la régularisation ; le rejet des métiers en tension n'est pas nommé expressément."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-regularisation-cinq-ans
+  value: -1
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-immigration-edouardphilippe-fr
+  quote: "Pas de régularisation massive."
+  quoteSource: edouard-philippe-programme-immigration-edouardphilippe-fr
+  justification: "Le programme exclut la régularisation massive de sans-papiers ; le critère de cinq ans de présence n'est pas évoqué, d'où un rejet partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: justice-arret-construction-prisons
+  value: -2
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-justice-edouardphilippe-fr
+  quote: "Une loi d'accélération de la construction de prisons."
+  quoteSource: edouard-philippe-programme-justice-edouardphilippe-fr
+  justification: "Le programme propose d'accélérer la construction de prisons, à l'opposé de l'arrêt de la construction de nouvelles places."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-telephone-interdit-lycees
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-ecole-edouardphilippe-fr
+  quote: "Édouard Philippe veut interdire strictement le téléphone portable à l'école primaire, au collège et au lycée."
+  quoteSource: edouard-philippe-programme-ecole-edouardphilippe-fr
+  justification: "Le programme interdit strictement le portable au lycée, ce qui correspond à l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-responsabilite-plateformes-limitee-v2
+  value: -1
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-intelligence-artificielle-edouardphilippe-fr
+  quote: "renforcer la responsabilité pénale des plateformes face aux contenus pédopornographiques générés par l'IA"
+  quoteSource: edouard-philippe-programme-intelligence-artificielle-edouardphilippe-fr
+  justification: "Le programme veut renforcer, et non limiter, la responsabilité pénale des plateformes, mais seulement pour les contenus pédopornographiques générés par l'IA : rejet partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-alleger-moderation
+  value: -1
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-intelligence-artificielle-edouardphilippe-fr
+  quote: "augmenter les amendes pour les plateformes qui ne modèrent pas correctement les contenus"
+  quoteSource: edouard-philippe-programme-intelligence-artificielle-edouardphilippe-fr
+  justification: "Le programme durcit les sanctions pour défaut de modération, à l'opposé d'un allègement des obligations ; la mesure est présentée à propos des contenus illicites générés par l'IA."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-reduire-indemnites-arret-maladie
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-travail-edouardphilippe-fr
+  quote: "Édouard Philippe veut instaurer trois jours de carence pour tout le monde, dans le privé comme dans le public"
+  quoteSource: edouard-philippe-programme-travail-edouardphilippe-fr
+  justification: "Trois jours de carence pour tous réduisent l'indemnisation des arrêts maladie, mais le programme ne parle pas du montant des indemnités journalières : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: securite-videosurveillance-algorithmique
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-securite-edouardphilippe-fr
+  quote: "L'utilisation de la vidéoprotection avec intelligence artificielle pour identifier les casseurs et les criminels."
+  quoteSource: edouard-philippe-programme-securite-edouardphilippe-fr
+  justification: "Le programme retient la vidéoprotection assistée par IA comme proposition phare, sans limite de durée mentionnée pour cet usage."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: securite-pouvoirs-polices-municipales
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - edouard-philippe-france-2-les-4-verites-policiers-municipaux-compte-rendu-edo
+  quote: "Il souhaite leur donner davantage de pouvoir d'intervention et de sanction."
+  quoteSource: edouard-philippe-france-2-les-4-verites-policiers-municipaux-compte-rendu-edo
+  justification: "Il veut élargir les pouvoirs des policiers municipaux (intervention, sanction), mais la source ne mentionne pas des pouvoirs d'enquête équivalents à ceux de la police nationale : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14

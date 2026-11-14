@@ -1037,3 +1037,718 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:47c6400f795f9f75cc44c51e946159874c56d88c13a69e01989bd443e2e66c35
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: agriculture-pesticides-moitie-2030
+  value: 1
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-agricole-presidentielle-2022-pacte-agricole-d-aven
+  quote: "Nous mettrons en place un plan de sortie des usages des pesticides de synthèse et de réduction de notre dépendance aux intrants en 2030"
+  quoteSource: fabien-roussel-programme-agricole-presidentielle-2022-pacte-agricole-d-aven
+  justification: "Le programme agricole 2022 annonce un plan de sortie des pesticides de synthèse en 2030, mesure plus large que la réduction de moitié."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: agriculture-prix-plancher-agricoles
+  value: 2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-agricole-presidentielle-2022-pacte-agricole-d-aven
+  quote: "Cette conférence entérinera des indi- cateurs de coûts de production, des prix de référence par type de production et un prix plancher, en amont des négociations commerciales."
+  quoteSource: fabien-roussel-programme-agricole-presidentielle-2022-pacte-agricole-d-aven
+  justification: "Le programme agricole prévoit un prix plancher par production fixé en conférence avant les négociations commerciales."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: agriculture-plafonner-aides-pac
+  value: 2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-agricole-presidentielle-2022-pacte-agricole-d-aven
+  quote: "en instau- rant une dégressivité et un plafonnement à 150 000 euros par exploitation"
+  quoteSource: fabien-roussel-programme-agricole-presidentielle-2022-pacte-agricole-d-aven
+  justification: "Le programme agricole prévoit un plafonnement des aides de la PAC à 150 000 euros par exploitation, avec dégressivité."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: agriculture-bio-restauration-collective-v2
+  value: 1
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-agricole-presidentielle-2022-pacte-agricole-d-aven
+  quote: "Les collectivités bénéficiaires du fonds s'engageront à assurer par convention les débouchés à nos productions nationales, en agriculture biologique et sous signe de qualité et d'origine (AB, IGP, AOP, label rouge) dans les repas servis."
+  quoteSource: fabien-roussel-programme-agricole-presidentielle-2022-pacte-agricole-d-aven
+  justification: "Le programme conditionne le fonds alimentaire à des débouchés bio et sous signes de qualité dans la restauration collective, sans fixer le seuil de 30 %."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: agriculture-derogations-neonicotinoides
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - fabien-roussel-lettre-de-fabien-roussel-au-premier-ministre-sur-la-loi-dupl
+  quote: "Comment pouvez-vous accepter que la France continue d'importer des produits traités à l'acétamipride quand, ce pesticide est désormais interdit dans notre pays ?"
+  quoteSource: fabien-roussel-lettre-de-fabien-roussel-au-premier-ministre-sur-la-loi-dupl
+  justification: "Dans sa lettre, Roussel s'appuie sur l'interdiction de l'acétamipride en France pour demander de bloquer les importations traitées, sans proposer de dérogation pour les agriculteurs."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: defense-renoncer-modernisation-dissuasion
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-paix-et-defense-nation
+  quote: "Nous ne sommes pas favorables à un désarmement unilatéral de la France. Cela im- plique d'entretenir l'outil, uniquement pour maintenir son objectif de dissuasion, et par conséquent, d'investir."
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-paix-et-defense-nation
+  justification: "Le cahier PCF refuse le désarmement unilatéral et demande d'entretenir l'outil et d'investir, sans mentionner explicitement sa modernisation."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: democratie-vote-16-ans
+  value: -1
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Plutôt que de vouloir abaisser l'âge de la majorité ci- vique à 16 ans, c'est à ce scandale qu'il faut prioritairement mettre fin."
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme écarte l'abaissement de la majorité civique à 16 ans au profit d'un statut social jusqu'à 25 ans, sans en faire une opposition de principe."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: institutions-supprimer-49-3
+  value: 2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "L'article 49-3 de la Constitution, qui permet à l'exécutif de s'affranchir des délibérations des Assemblées, sera abrogé"
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme 2022 prévoit l'abrogation de l'article 49-3."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: institutions-maintenir-article-40
+  value: -2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "sera abrogé, de même que l'article 40 qui rend irrecevable toute proposition des parlemen- taires visant à proposer des augmentations du budget de l'État"
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme prévoit l'abrogation de l'article 40, donc l'inverse de son maintien."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: institutions-investiture-premier-ministre
+  value: 2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "C'est à l'Assemblée natio- nale qu'il appartiendra d'investir le Premier ministre et le gouvernement, et c'est devant lui que ces derniers seront responsables."
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme confie à l'Assemblée l'investiture du Premier ministre et du gouvernement, ce qui couvre un vote de confiance après la nomination."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: securite-recepisse-controles-identite
+  value: 2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Les contrôles au faciès seront combattus, grâce à la mise en place du récépissé justifiant qu'une personne a déjà été contrôlée."
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme prévoit explicitement la mise en place d'un récépissé de contrôle."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: justice-arret-construction-prisons
+  value: 1
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Les alternatives à l'incarcération, plutôt que la construc- tion de nouvelles prisons, a fortiori financées par des partenariats publics/privés (PPP), seront développées"
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme préfère les alternatives à l'incarcération à la construction de nouvelles prisons, sans prévoir un arrêt formel de toute construction."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: travail-smic-au-dela-inflation
+  value: 1
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Le smic horaire sera augmenté pour atteindre rapide- ment 1 500 euros net par mois (soit 1 923 euros brut)."
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme prévoit une forte hausse du SMIC, mesure plus large qu'une revalorisation au-delà de l'inflation."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: travail-durcir-indemnisation-chomage
+  value: -2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Les demandeuses et demandeurs d'emploi retrouveront leurs droits attaqués sous les précédents quinquennats, sur le délai d'ouverture des droits comme sur le niveau de l'allocation."
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme rétablit les droits à l'assurance chômage et abroge la loi Borne, ce qui rejette leur durcissement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: travail-retraite-capitalisation
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-securite-sociale-pcf-p
+  quote: "La capitalisation \" système cannibale \". Ce système ouvrirait de nouveaux débouchés aux fonds de pensions"
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-securite-sociale-pcf-p
+  justification: "Le cahier PCF sur la Sécurité sociale rejette explicitement la capitalisation."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: travail-elargir-penibilite-retraite
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-securite-sociale-pcf-p
+  quote: "Les carrières longues et la pénibilité doivent être pris en compte pour l'âge de départ à la retraite"
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-securite-sociale-pcf-p
+  justification: "Le cahier demande la prise en compte de la pénibilité pour l'âge de départ, sans détailler un élargissement des critères actuels."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: travail-salaries-conseils-administration
+  value: 1
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "la présence accrue d'administrateurs et d'administratrices salarié·e·s dans les conseils d'administration pourra influer sur les choix stratégiques"
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme veut davantage d'administrateurs salariés, sans fixer le seuil du tiers des sièges."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: sante-hausse-franchises-medicales
+  value: -2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Les franchises médicales et les participations forfai- taires seront supprimées."
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme supprime les franchises médicales au lieu de les augmenter."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: sante-regulation-installation-medecins
+  value: 2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "dans les zones denses, un·e médecin ne devra s'installer que si un·e autre part à la retraite (conven- tionnement sélectif à l'installation)"
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme régule l'installation des médecins dans les zones denses par un conventionnement sélectif."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: sante-depassements-honoraires-libres
+  value: -2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Les dépassements d'honoraires devront disparaître et le retour à un secteur conventionnel unique sera négocié."
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme veut faire disparaître les dépassements d'honoraires."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: sante-doubler-etudiants-medecine
+  value: 1
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "12 000 places d'étudiant·e·s en médecine seront ou- vertes par an (au lieu des 8 000 actuelles)."
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme porte les places en médecine de 8 000 à 12 000 par an, soit une hausse de moitié et non un doublement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: sante-centres-sante-publics
+  value: 1
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Les centres de santé seront massivement développés."
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme développe massivement les centres de santé, sans préciser un centre public par département ni les médecins salariés."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: sante-depenses-assurance-maladie-inflation
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-securite-sociale-pcf-p
+  quote: "La limitation a priori des financements par le mécanisme de l'ONDAM (Objectif National des Dépenses d'Assurance Maladie) voté par le parlement chaque année avec le PLFSS étrangle à la fois le service public hospitalier et les soins de premier recours"
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-securite-sociale-pcf-p
+  justification: "Le cahier critique toute limitation a priori des dépenses d'assurance maladie par l'ONDAM et réclame des financements supplémentaires."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: sante-budget-hopital-inflation
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-securite-sociale-pcf-p
+  quote: "Pour répondre aux besoins, des financements supplémentaires sont nécessaires"
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-securite-sociale-pcf-p
+  justification: "Le cahier juge nécessaires des financements supplémentaires après avoir dénoncé l'étranglement de l'hôpital par l'ONDAM, sans chiffrer une hausse annuelle au-delà de l'inflation."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-tranche-hauts-revenus
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - fabien-roussel-entretien-de-fabien-roussel-dans-l-humanite-repris-par-pcf-6
+  quote: "nous appelons à davantage de tranches d'imposition pour un impôt plus juste. Que les classes moyennes paient moins et que les riches payent plus."
+  quoteSource: fabien-roussel-entretien-de-fabien-roussel-dans-l-humanite-repris-par-pcf-6
+  justification: "Roussel appelle à davantage de tranches d'imposition pour que les riches paient plus, ce qui recouvre une tranche supplémentaire pour les plus hauts revenus."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-baisse-ir-tranches-intermediaires
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - fabien-roussel-entretien-de-fabien-roussel-dans-l-humanite-repris-par-pcf-6
+  quote: "Que les classes moyennes paient moins et que les riches payent plus."
+  quoteSource: fabien-roussel-entretien-de-fabien-roussel-dans-l-humanite-repris-par-pcf-6
+  justification: "Roussel veut que les classes moyennes paient moins d'impôt via davantage de tranches d'imposition."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-supprimer-ifi
+  value: -2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "L'impôt sur la fortune sera rétabli, son taux et sa progressivité seront accentués"
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme rétablit et alourdit l'ISF, à l'opposé d'une suppression de l'IFI."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-taxe-benefices-exceptionnels
+  value: 2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Une contribution exceptionnelle sera en outre instaurée sur les profits des grands groupes et des compagnies d'assurances, pour le financement des dépenses liées à la Covid-19."
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme institue une contribution exceptionnelle sur les profits des grands groupes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-hausse-taxe-transactions-financieres
+  value: 2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "La taxation européenne des transactions sur le marché des changes et sur les marchés de titres financiers et de leurs produits dérivés sera renforcée"
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme renforce la taxation des transactions financières."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-reduire-allegements-cotisations
+  value: 2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "mettre fin aux exonérations de cotisations sociales et autres niches fiscales qui minent les recettes publiques et tirent vers le bas les salaires et l'emploi"
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme veut mettre fin aux exonérations de cotisations sociales."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-baisse-tva
+  value: 1
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Les impôts indirects, tels que la TVA et la taxe intérieure de consommation sur les produits énergétiques, seront réduits"
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme réduit la TVA, sans préciser qu'il s'agit du taux normal."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: fiscalite-capital-aligne-travail
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  quote: "un régime fiscal nettement plus favorable au travail qu'au capital"
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  justification: "Le cahier veut taxer davantage le capital que le travail, mesure plus large qu'un simple alignement des taux."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: economie-plafonnement-loyers-zones-tendues
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-logement-pcf-pdf
+  quote: "Nous voulons pérenniser cet encadrement des loyers, et le mettre en place sur toutes les zones tendues."
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-logement-pcf-pdf
+  justification: "Le cahier Logement généralise l'encadrement des loyers à toutes les zones tendues."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: economie-vendre-participations-etat
+  value: -1
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Il sera engagé une réappropriation publique et sociale de la SNCF, d'EDF, d'Engie, de La Poste et de France Telecom"
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme étend la propriété publique, y compris sur des groupes cotés, sans traiter explicitement de la vente de participations."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: economie-encadrer-marges-distribution
+  value: 1
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-agricole-presidentielle-2022-pacte-agricole-d-aven
+  quote: "Encadrement des marges, garantie des prix et des revenus,"
+  quoteSource: fabien-roussel-programme-agricole-presidentielle-2022-pacte-agricole-d-aven
+  justification: "Le programme agricole demande l'encadrement des marges, sans préciser la loi ni la seule grande distribution."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: transport-petites-lignes-maintenues
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  quote: "notre programme défend, dans le même temps, les petites lignes capillaires, lignes de vie, indispensables au quotidien de millions de personnes"
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  justification: "Le cahier Mobilités défend explicitement les petites lignes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: transport-trains-de-nuit
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  quote: "L'État doit amplifier la relance des TER, Intercités et des trains de nuit"
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  justification: "Le cahier demande à l'État de relancer les trains de nuit, sans préciser le financement de nouvelles lignes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: transport-autoroutes-concedees-v2
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  quote: "Nous rappelons dans ce cadre notre volonté de nationaliser les autoroutes, dont la privatisation a constitué un scandaleux hold-up."
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  justification: "Le cahier veut nationaliser les autoroutes, à l'opposé de la poursuite des concessions privées."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: transport-abandonner-nouvelles-lgv
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  quote: "Le développement de la grande vitesse ferroviaire devra également se poursuivre pour concurrencer le secteur aérien et routier."
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  justification: "Le cahier veut poursuivre le développement de la grande vitesse ferroviaire."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: environnement-taxer-kerosene-vols-interieurs
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  quote: "Les avan- tages fiscaux injustifiés doivent être aussi supprimés, en particulier l'absence de taxa- tion sur le kérosène, aberration économique et écologique."
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  justification: "Le cahier veut taxer le kérosène aérien, mesure plus large que les seuls vols intérieurs."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: transport-baisser-taxe-billets-avion
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  quote: "augmen- ter les taxes pour les usagers réguliers en la rendant progressive en fonction du nombre de voyages"
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-mobilites-pcf-pdf
+  justification: "Le cahier veut augmenter la taxe pour les usagers réguliers de l'avion, à l'inverse d'une baisse générale, avec une attention aux liaisons ultramarines."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: energie-prolonger-reacteurs-60-ans
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-document-pcf-energie-en-4-pages-pcf-pdf-commission-energie
+  quote: "Le PCF est pour une relance du nucléaire en prolongeant la majorité du parc de réac- teurs existants au-delà de 60 ans"
+  quoteSource: fabien-roussel-document-pcf-energie-en-4-pages-pcf-pdf-commission-energie
+  justification: "Le document PCF veut prolonger la majorité des réacteurs au-delà de 60 ans."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: energie-petits-reacteurs-modulaires
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-document-pcf-energie-en-4-pages-pcf-pdf-commission-energie
+  quote: "en construisant 20 réacteurs EPR2 et 12 réacteurs modulaires (SMR NUWARD) d'ici 2050"
+  quoteSource: fabien-roussel-document-pcf-energie-en-4-pages-pcf-pdf-commission-energie
+  justification: "Le document PCF prévoit de construire 12 SMR, sans préciser le mode de financement par l'État."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: energie-accelerer-eolien-terrestre
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-document-pcf-energie-en-4-pages-pcf-pdf-commission-energie
+  quote: "Le PCF préconise de développer massivement les énergies renouvelables (éolien, so- laire, hydraulique permettant également la gestion de l'eau, biomasse, cogénération permettant également le traitement des déchets)"
+  quoteSource: fabien-roussel-document-pcf-energie-en-4-pages-pcf-pdf-commission-energie
+  justification: "Le document PCF veut développer massivement l'éolien parmi les renouvelables, sans distinguer le terrestre."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: energie-suspendre-nouvelles-eoliennes
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-document-pcf-energie-en-4-pages-pcf-pdf-commission-energie
+  quote: "Le PCF préconise de développer massivement les énergies renouvelables (éolien, so- laire, hydraulique permettant également la gestion de l'eau, biomasse, cogénération permettant également le traitement des déchets)"
+  quoteSource: fabien-roussel-document-pcf-energie-en-4-pages-pcf-pdf-commission-energie
+  justification: "Le document PCF veut développer massivement l'éolien, ce qui exclut une suspension."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: environnement-calendrier-logements-mal-isoles
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-logement-pcf-pdf
+  quote: "Ne nous trompons pas de combat : les intentions et l'objectif de cette loi sont néces- saires."
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-logement-pcf-pdf
+  justification: "Le cahier juge nécessaires l'objectif et les intentions de la loi interdisant la location des passoires thermiques, sans traiter spécifiquement le calendrier."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: societe-conge-second-parent
+  value: 1
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Les deux parents se verront garantir un congé parental s'alignant sur la durée actuelle du congé maternité."
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme aligne le congé parental des deux parents sur la durée du congé maternité, sans parler spécifiquement du congé de naissance."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: societe-simplifier-changement-sexe-etat-civil
+  value: 2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Le changement d'état-civil sera libre et gratuit"
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme rend le changement d'état civil libre et gratuit."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: numerique-alleger-moderation
+  value: -1
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Les plateformes numériques seront contraintes de coo- pérer avec la justice et de supprimer les contenus vio- lents, haineux et discriminatoires."
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme impose aux plateformes de supprimer les contenus haineux, ce qui s'oppose à un allègement de leurs obligations de modération."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: international-aide-developpement-0-7
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-cahiers-thematiques-des-jours-heureux-paix-et-defense-nation
+  quote: "Il convient de respecter l'objectif de 0,7 % du PIB et par conséquent de s'opposer aux baisses budgétaires prévues"
+  quoteSource: fabien-roussel-cahiers-thematiques-des-jours-heureux-paix-et-defense-nation
+  justification: "Le cahier PCF demande de respecter l'objectif de 0,7 % (exprimé en PIB et non en revenu national brut)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+
+- question: immigration-asile-examen-sans-transfert
+  value: 2
+  evidence: programme
+  sources:
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Elle dénon- cera les accords du Touquet et de Dublin, et exigera la redéfinition des missions de Frontex."
+  quoteSource: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  justification: "Le programme dénonce les accords de Dublin, qui fondent le transfert vers l'État européen responsable."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14

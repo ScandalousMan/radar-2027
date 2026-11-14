@@ -820,3 +820,148 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:bacb151b5e526cd76b194a69146aa85711ab996f0f22ca9c74c502628e24cd27
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: democratie-conventions-citoyennes
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-n-9-democratie-en-continu-etats-generaux
+  quote: "Ce Parlement, il faut le compléter par des États généraux, sur le modèle des conventions citoyennes, avec tirage au sort des participants, sur tous les grands sujets et défis pour la France"
+  quoteSource: francois-ruffin-cahier-de-campagne-n-9-democratie-en-continu-etats-generaux
+  justification: "Le cahier propose des États généraux tirés au sort sur les grands sujets, sur le modèle des conventions citoyennes, avec pouvoir de suite : mesure plus large que la simple consultation avant réforme."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: democratie-assemblees-tirees-consultatives-v2
+  value: -2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-n-9-democratie-en-continu-etats-generaux
+  quote: "POUR LA CRÉATION DES ÉTATS GÉNÉRAUX AVEC UN RÉEL POUVOIR DÉCISIONNAIRE."
+  quoteSource: francois-ruffin-cahier-de-campagne-n-9-democratie-en-continu-etats-generaux
+  justification: "Le cahier veut des assemblées tirées au sort dotées d'un « réel pouvoir décisionnaire », et non d'un rôle seulement consultatif ; il oppose ses États généraux aux conventions « incantatoires »."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: democratie-champ-referendum-inchange
+  value: -2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-n-9-democratie-en-continu-etats-generaux
+  quote: "Nous ferons un RIC législatif pour proposer des lois, un RIC abrogatif pour supprimer des lois injustes, un RIC constitutionnel pour changer nos institutions."
+  quoteSource: francois-ruffin-cahier-de-campagne-n-9-democratie-en-continu-etats-generaux
+  justification: "Le RIC législatif et abrogatif porte sur la loi en général : le champ du référendum est étendu, ce qui rejette son maintien dans les sujets actuels."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: democratie-seuil-rip-maintenu-v2
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-n-9-democratie-en-continu-etats-generaux
+  quote: "Une pétition recueille 1 million de signataires."
+  quoteSource: francois-ruffin-cahier-de-campagne-n-9-democratie-en-continu-etats-generaux
+  justification: "Le cahier remplace le dispositif par un RIC déclenché à un million de signataires, soit un seuil très inférieur au dixième du corps électoral ; mécanisme différent du RIP, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-autoroutes-concedees-v2
+  value: -2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-temps-libre-et-loisirs-ruffin-2027-pdf
+  quote: "Nous baisserons les tarifs des péages grâce à la reprise en main des autoroutes (fin des concessions, tarification publique)."
+  quoteSource: francois-ruffin-cahier-de-campagne-temps-libre-et-loisirs-ruffin-2027-pdf
+  justification: "Le cahier prévoit explicitement la fin des concessions autoroutières et une tarification publique, ce qui rejette la poursuite de l'exploitation privée sous concession."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-plafonnement-loyers-zones-tendues
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-logement-ruffin-2027-pdf
+  quote: "3 / En plus d'étendre cet encadrement des loyers à l'ensemble des agglomérations, nous proposons de le généraliser à l'ensemble du territoire."
+  quoteSource: francois-ruffin-cahier-de-campagne-logement-ruffin-2027-pdf
+  justification: "Le cahier étend l'encadrement des loyers à toutes les agglomérations puis à tout le territoire : mesure plus large que les seules zones tendues."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-encadrer-marges-distribution
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-exception-agriculturelle-francaise-ruffin
+  quote: "nous imposerons plus de transparence voire d'encadrement des marges pour éviter les abus"
+  quoteSource: francois-ruffin-cahier-de-campagne-exception-agriculturelle-francaise-ruffin
+  justification: "Le cahier envisage un encadrement des marges (« voire ») dans la chaîne alimentaire face aux centrales d'achat : soutien nuancé à l'encadrement des marges de la grande distribution."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-majorite-qualifiee-ue
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - francois-ruffin-pour-une-declaration-d-independance-la-doctrine-ruffin-sur-l
+  quote: "La France doit s'y opposer avec fermeté : la diplomatie et la défense relèvent des États et doivent le rester."
+  quoteSource: francois-ruffin-pour-une-declaration-d-independance-la-doctrine-ruffin-sur-l
+  justification: "Ruffin refuse le passage à la majorité qualifiée pour la politique étrangère et la défense ; le texte ne traite pas des autres domaines, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-dissuasion-protection-europe-v2
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - francois-ruffin-pour-une-declaration-d-independance-la-doctrine-ruffin-sur-l
+  quote: "Elle doit entraîner avec elle, des alliés pour bâtir, en Europe, notre propre sécurité, notre propre dissuasion."
+  quoteSource: francois-ruffin-pour-une-declaration-d-independance-la-doctrine-ruffin-sur-l
+  justification: "Ruffin veut bâtir avec des alliés européens une dissuasion propre à l'Europe, menée par la France seule puissance nucléaire de l'Union ; l'extension explicite de la doctrine n'est pas formulée en ces termes, d'où +1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-regularisation-metiers-tension
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - francois-ruffin-pourquoi-le-medef-veut-3-9-millions-de-travailleurs-immigres
+  quote: "Des Français et des étrangers sur notre sol, avec ou sans papiers."
+  quoteSource: francois-ruffin-pourquoi-le-medef-veut-3-9-millions-de-travailleurs-immigres
+  justification: "Ruffin demande la régularisation des immigrés déjà présents et au travail (« tous les habitants doivent pouvoir travailler »), mesure plus large que les seuls métiers en tension."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-voies-legales-travail-ue
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - francois-ruffin-pourquoi-le-medef-veut-3-9-millions-de-travailleurs-immigres
+  quote: "En revanche, nous refusons une immigration de travailleurs, notamment pour les services."
+  quoteSource: francois-ruffin-pourquoi-le-medef-veut-3-9-millions-de-travailleurs-immigres
+  justification: "Ruffin refuse l'immigration de travail, notamment dans les services, ce qui rejette l'ouverture de voies légales supplémentaires pour le travail."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14

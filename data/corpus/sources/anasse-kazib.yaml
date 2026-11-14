@@ -42,3 +42,14 @@
   candidates:
     - anasse-kazib
   contentHash: sha256:ff3d2cb89c605adc23337fe8d9ee646b1ac1a5718f56ffddd53027c9724924f3
+- id: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  url: https://anasse2027.fr/programme/programme-2022.pdf
+  title: Programme 2022 d'Anasse Kazib et Révolution Permanente (anasse2027.fr, PDF)
+  kind: programme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - anasse-kazib
+  contentHash: sha256:6e1a8d86db1cd8a2313d32996ad059a6fd39468a1ec59f5c478b452c27ade0a9
