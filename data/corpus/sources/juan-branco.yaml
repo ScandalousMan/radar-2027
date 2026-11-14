@@ -31,3 +31,14 @@
   candidates:
     - juan-branco
   contentHash: sha256:00878d04de584b1274e5080f181f5a6a7f71056af0d0da54924cc6dcfc02d5c6
+- id: juan-branco-entretien-avec-juan-branco-cela-risque-de-tres-mal-se-finir
+  url: https://aurores.org/entretien-avec-juan-branco-cela-risque-de-tres-mal-se-finir/
+  title: "Entretien avec Juan Branco : « cela risque de très mal se finir » (Aurores, entretien pour Literatournaïa gazeta)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-01-25
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - juan-branco
+  contentHash: sha256:97b7d5e9448973c71b2a98be0733b3c92069e4041bfcf50722fecafb8bc76d9d

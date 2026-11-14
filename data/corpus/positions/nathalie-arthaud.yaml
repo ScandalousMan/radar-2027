@@ -122,3 +122,565 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:55799ec3fcc74e959a25cefb5600852567245472204df5c09c6475cfa0f17313
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: travail-retraite-62-ans
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2024-12-09
+  quote: "Car l'intérêt général ne serait-il pas d'abroger la retraite à 64 ans et que les anciens, épuisés par le travail, laissent la place aux jeunes ?"
+  quoteSource: nathalie-arthaud-editorial-2024-12-09
+  justification: "L'éditorial demande l'abrogation de la retraite à 64 ans, ce qui revient à rétablir l'âge légal de 62 ans."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-retraite-au-dela-64-ans
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - nathalie-arthaud-brochure-fete-2026
+  quote: "supprimer des jours fériés ; monnayer la 5e semaine de congés en versant une prime ; reculer encore l'âge de départ à la retraite"
+  quoteSource: nathalie-arthaud-brochure-fete-2026
+  justification: "La brochure range le recul supplémentaire de l'âge de la retraite parmi les exigences de la bourgeoisie qu'elle combat, d'où un rejet net."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-augmenter-jours-carence
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - nathalie-arthaud-brochure-fete-2026
+  quote: "restreindre les arrêts-maladie en ajoutant de nouveaux jours de carence ou en limitant la durée du premier arrêt"
+  quoteSource: nathalie-arthaud-brochure-fete-2026
+  justification: "L'ajout de jours de carence figure dans le « programme exigé par la bourgeoisie » que la brochure dénonce explicitement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-durcir-indemnisation-chomage
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - nathalie-arthaud-brochure-fete-2026
+  quote: "Ils veulent baisser les salaires, les pensions et les allocations, réduire les indemnités des chômeurs, rembourser encore moins les soins et les médicaments…"
+  quoteSource: nathalie-arthaud-brochure-fete-2026
+  justification: "La brochure dénonce la volonté de réduire les indemnités des chômeurs, soit un rejet explicite du durcissement de l'indemnisation."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-mutuelles-part-accrue-v2
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - nathalie-arthaud-brochure-fete-2026
+  quote: "Ils veulent baisser les salaires, les pensions et les allocations, réduire les indemnités des chômeurs, rembourser encore moins les soins et les médicaments…"
+  quoteSource: nathalie-arthaud-brochure-fete-2026
+  justification: "La brochure combat la baisse des remboursements des soins, ce qui s'oppose à un transfert de dépenses de l'Assurance maladie vers les complémentaires ; les mutuelles ne sont pas nommées, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-derembourser-faible-service-rendu
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2026-09-21
+  quote: "Il veut bloquer le salaire des fonctionnaires, moins rembourser les médicaments, geler les APL"
+  quoteSource: nathalie-arthaud-editorial-2026-09-21
+  justification: "L'éditorial range la baisse du remboursement des médicaments parmi les attaques du gouvernement ; il ne vise pas spécifiquement les médicaments à service médical rendu faible, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-prestations-duree-residence
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2026-09-21
+  quote: "geler les APL et les supprimer pour les étrangers qui n'auront pas plusieurs années de résidence en France. Les travailleurs étrangers auraient donc le droit de se casser le dos sur les chantiers"
+  quoteSource: nathalie-arthaud-editorial-2026-09-21
+  justification: "L'éditorial dénonce la suppression des APL pour les étrangers sans plusieurs années de résidence, soit une condition de durée de résidence pour une prestation non contributive."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-hausse-franchises-medicales
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2025-10-20
+  quote: "Guerre enfin contre les malades qui devront contribuer pour 7 milliards d'euros. Il y aura ainsi le doublement et l'extension des franchises médicales qui pourront s'élever à 350 euros par an."
+  quoteSource: nathalie-arthaud-editorial-2025-10-20
+  justification: "L'éditorial présente le doublement des franchises médicales comme une « guerre contre les malades », rejet explicite de leur hausse."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-reduire-indemnites-arret-maladie
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2025-07-07
+  quote: "l'État s'en prend aux malades. Réduction des indemnités journalières, limitation des arrêts maladie, sortie du dispositif ALD pour les malades « en rémission »"
+  quoteSource: nathalie-arthaud-editorial-2025-07-07
+  justification: "L'éditorial dénonce la réduction des indemnités journalières comme une attaque de l'État contre les malades."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-reduire-allegements-cotisations
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2025-07-07
+  quote: "excluant de supprimer les 70 à 80 milliards d'exonérations de cotisations sociales concédées chaque année aux patrons, l'État s'en prend aux malades."
+  quoteSource: nathalie-arthaud-editorial-2025-07-07
+  justification: "L'éditorial reproche à l'État de refuser de supprimer les exonérations de cotisations patronales, soit un soutien explicite à leur réduction."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-reduire-droits-succession
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2025-07-07
+  quote: "Ce n'est pas le Pacte Dutreil qui permet aux patrons, y compris le richissime Bernard Arnault, d'échapper à l'impôt sur la succession."
+  quoteSource: nathalie-arthaud-editorial-2025-07-07
+  justification: "L'éditorial critique le pacte Dutreil, régime de faveur pour les transmissions familiales d'entreprises, sans se prononcer sur l'ensemble des droits de succession, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-budget-armees-3-pib
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2025-07-07
+  quote: "La France est donc censée porter son budget militaire annuel à 120 milliards d'euros, soit plus du double de celui d'aujourd'hui. C'est pour dégager ces fonds que des coupes sont faites dans la santé et tous les services utiles à la population"
+  quoteSource: nathalie-arthaud-editorial-2025-07-07
+  justification: "L'éditorial dénonce l'objectif de hausse du budget militaire en pourcentage du PIB, financé par des coupes sociales ; il rejette toute hausse, a fortiori jusqu'à 3 % du PIB."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-impot-fortune-retabli
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2024-10-14
+  quote: "Prétendant améliorer « l'attractivité du pays », comme disait Macron, le gouvernement a supprimé l'impôt sur la fortune."
+  quoteSource: nathalie-arthaud-editorial-2024-10-14
+  justification: "L'éditorial range la suppression de l'ISF parmi les cadeaux faits à la bourgeoisie, sans formuler explicitement son rétablissement, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-baisse-impot-societes
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2024-10-14
+  quote: "Il a baissé l'impôt sur le capital et celui sur les bénéfices. Au final, un boulanger a un taux d'imposition plus élevé que celui d'un actionnaire riche à millions !"
+  quoteSource: nathalie-arthaud-editorial-2024-10-14
+  justification: "L'éditorial dénonce la baisse de l'impôt sur les bénéfices des sociétés comme un cadeau à la bourgeoisie à l'origine de la dette."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-capital-aligne-travail
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2024-10-14
+  quote: "Il a baissé l'impôt sur le capital et celui sur les bénéfices. Au final, un boulanger a un taux d'imposition plus élevé que celui d'un actionnaire riche à millions !"
+  quoteSource: nathalie-arthaud-editorial-2024-10-14
+  justification: "L'éditorial dénonce une imposition des revenus du capital plus faible que celle des revenus du travail, sans proposer explicitement l'alignement des taux, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-impot-minimum-grandes-fortunes-v2
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2025-09-15
+  quote: "Cela concernerait 1800 personnes qui seraient taxées à 2 % et cela ne les rendrait pas moins riches, car leur fortune progresse de 8 % chaque année. Ce serait tout de même le minimum du minimum."
+  quoteSource: nathalie-arthaud-editorial-2025-09-15
+  justification: "L'éditorial défend la taxe Zucman de 2 % au-delà de 100 millions contre ses détracteurs tout en la jugeant « dérisoire », soutien nuancé, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: agriculture-retenues-eau-irrigation
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2026-07-20
+  quote: "Ces retenues artificielles ne sont une solution que pour la minorité d'agriculteurs qui irriguent et peuvent s'y raccorder, et elles aggravent l'état général de sécheresse pour tous les autres"
+  quoteSource: nathalie-arthaud-editorial-2026-07-20
+  justification: "L'éditorial condamne le doublement des méga-bassines prévu par la loi d'urgence agricole, rejet explicite de la facilitation des retenues d'eau."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: agriculture-derogations-neonicotinoides
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2026-07-20
+  quote: "Outre la possibilité de réutiliser des pesticides interdits, notamment dans les champs de betteraves, cette loi prévoit le doublement des méga-bassines d'ici 2035."
+  quoteSource: nathalie-arthaud-editorial-2026-07-20
+  justification: "L'éditorial range la réautorisation de pesticides interdits sur les betteraves dans la « politique destructrice de l'environnement » ; les néonicotinoïdes ne sont pas nommés, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-trajectoire-emissions-entreprises
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2026-07-20
+  quote: "À l'heure où il faudrait forcer les multinationales les plus polluantes à mettre des moyens dans leur transition énergétique, les gouvernants font marche arrière."
+  quoteSource: nathalie-arthaud-editorial-2026-07-20
+  justification: "L'éditorial veut contraindre les multinationales polluantes à financer leur transition, sans parler d'une trajectoire légale de réduction des émissions, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-pause-normes-europeennes
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2026-07-20
+  quote: "Des tractations sont aussi en cours au sein de l'Union européenne, cette fois sous pression des industriels qui demandent un assouplissement de leurs objectifs de réduction des émissions de gaz à effet de serre."
+  quoteSource: nathalie-arthaud-editorial-2026-07-20
+  justification: "L'éditorial critique l'assouplissement des objectifs climatiques européens réclamé par les industriels, ce qui s'oppose à une pause des normes ; la pause elle-même n'est pas évoquée, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-baisse-tva
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2026-03-30
+  quote: "C'est l'impôt le plus injuste car il fait payer la même chose aux riches et aux pauvres, et il mériterait de disparaître."
+  quoteSource: nathalie-arthaud-editorial-2026-03-30
+  justification: "L'éditorial souhaite la disparition de la TVA, à condition que la bourgeoisie compense le manque à gagner : mesure plus large et conditionnelle, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-limiter-licenciements-beneficiaires-v2
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2025-05-05
+  quote: "Ce combat commence en se donnant les objectifs qu'exige la situation : interdiction des licenciements sous peine de réquisition !"
+  quoteSource: nathalie-arthaud-editorial-2025-05-05
+  justification: "L'éditorial réclame l'interdiction de tous les licenciements, mesure plus large que la limitation visant les entreprises bénéficiaires, d'où 1 selon la convention."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-reduire-nombre-fonctionnaires
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2026-08-24
+  quote: "supprimer 1,5 million de postes de fonctionnaires, c'est-à-dire d'agents territoriaux, de pompiers, d'enseignants, d'hospitaliers…"
+  quoteSource: nathalie-arthaud-editorial-2026-08-24
+  justification: "L'éditorial range la suppression de postes de fonctionnaires dans le « programme exigé par la bourgeoisie » qu'il combat."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-reduire-budget-armees
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2026-08-24
+  quote: "Pour faire des économies, il n'est jamais question de réduire le budget de l'armée, d'annuler les commandes de Rafale"
+  quoteSource: nathalie-arthaud-editorial-2026-08-24
+  justification: "L'éditorial reproche au gouvernement de ne jamais envisager de réduire le budget de l'armée ; le soutien à la baisse est implicite et ne parle pas de part du PIB, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-baisse-depense-publique
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2026-08-24
+  quote: "réduire de 100 milliards d'euros le budget de l'État ; réduire toujours plus les impôts et les cotisations des entreprises…"
+  quoteSource: nathalie-arthaud-editorial-2026-08-24
+  justification: "L'éditorial dénonce la coupe de 100 milliards dans le budget de l'État réclamée par le Medef, tout en voulant supprimer les aides aux entreprises, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-baisse-prelevements-obligatoires
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-editorial-2026-08-24
+  quote: "réduire de 100 milliards d'euros le budget de l'État ; réduire toujours plus les impôts et les cotisations des entreprises…"
+  quoteSource: nathalie-arthaud-editorial-2026-08-24
+  justification: "L'éditorial dénonce la baisse des impôts et cotisations des entreprises réclamée par le Medef ; il ne s'oppose pas à toute baisse de prélèvements (il veut supprimer la TVA), d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-priorite-depenses-sociales
+  value: 2
+  evidence: programme
+  sources:
+    - nathalie-arthaud-circulaire-europeennes-2024
+  quote: "Ils recrutent pour l'armée et passent des milliards de commandes en armement. Ainsi, nous manquons de médecins, de lits d'hôpi- taux et d'enseignants, mais nous aurons des missiles, des chars et des avions de combat à profusion !"
+  quoteSource: nathalie-arthaud-circulaire-europeennes-2024
+  justification: "La profession de foi oppose les dépenses d'armement au manque de médecins et d'enseignants, soutien explicite à la priorité des dépenses sociales."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-armes-ukraine
+  value: -2
+  evidence: programme
+  sources:
+    - nathalie-arthaud-depliant-europeennes-2024
+  quote: "En fournissant des armes à Zelensky, ils mènent une guerre par procuration pour affaiblir leur rival russe avec la peau des Ukrainiens."
+  quoteSource: nathalie-arthaud-depliant-europeennes-2024
+  justification: "Le dépliant dénonce les livraisons d'armes à l'Ukraine comme une guerre par procuration, rejet explicite."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: societe-uniforme-ecole-publique
+  value: -2
+  evidence: programme
+  sources:
+    - nathalie-arthaud-depliant-europeennes-2024
+  quote: "Les appels à l'unité nationale, les discours sur les vertus de l'uniforme à l'école, visent à nous embri- gader derrière ceux qui nous exploitent tous les jours."
+  quoteSource: nathalie-arthaud-depliant-europeennes-2024
+  justification: "Le dépliant dénonce l'uniforme à l'école comme un moyen d'embrigadement, rejet explicite."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-plafond-annuel-admissions
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - nathalie-arthaud-brochure-fete-2026
+  quote: "Régularisation de tous les sans-papiers, liberté de circulation et d'installation pour chaque être humain de cette planète !"
+  quoteSource: nathalie-arthaud-brochure-fete-2026
+  justification: "La brochure réclame la liberté d'installation pour tous, incompatible avec un plafond annuel d'admissions au séjour ; le plafond n'est pas évoqué, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-controles-frontieres-schengen
+  value: -1
+  evidence: programme
+  sources:
+    - nathalie-arthaud-depliant-europeennes-2024
+  quote: "À BAS L'EUROPE FORTERESSE ! PAS DE FRONTIÈRES ENTRE LES TRAVAILLEURS !"
+  quoteSource: nathalie-arthaud-depliant-europeennes-2024
+  justification: "Le dépliant réclame qu'il n'y ait « pas de frontières entre les travailleurs » et la liberté de circulation pour tous, ce qui s'oppose aux contrôles aux frontières ; les frontières intérieures de Schengen ne sont pas évoquées, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-voies-legales-travail-ue
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - nathalie-arthaud-brochure-fete-2026
+  quote: "Comme si ceux qui prennent tous les risques pour tenter de trouver un travail quelque part pour nourrir leur famille étaient des voleurs."
+  quoteSource: nathalie-arthaud-brochure-fete-2026
+  justification: "La brochure fustige l'opposition de François Ruffin à « l'immigration pour le travail » et défend la liberté d'installation, mesure plus large que l'ouverture de voies légales par l'UE, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-titre-sejour-longue-duree
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - nathalie-arthaud-brochure-fete-2026
+  quote: "À force de réduire les possibilités de renouvellement de titres de séjour, des dizaines de milliers de travailleurs, qui étaient en règle, se retrouvent sans papiers et perdent leur travail."
+  quoteSource: nathalie-arthaud-brochure-fete-2026
+  justification: "La brochure dénonce la restriction des renouvellements de titres de séjour, ce qui va dans le sens d'un accès facilité aux titres durables, sans les mentionner, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: societe-aide-active-a-mourir
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-lettre-admd-2021
+  quote: "Je suis pour que la loi permette le suicide assisté c'est-à-dire l'euthanasie pour les personnes en phase avancée ou terminale, à condition qu'elle comporte le maximum de garde-fous"
+  quoteSource: nathalie-arthaud-lettre-admd-2021
+  justification: "Dans sa lettre à l'ADMD, la candidate se déclare favorable à la légalisation du suicide assisté et de l'euthanasie avec garde-fous."
+  old: true
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: securite-interdire-lbd-manifestations
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-reponse-amnesty-2022
+  quote: "le droit de manifester sans risquer de perdre un œil ou une main"
+  quoteSource: nathalie-arthaud-reponse-amnesty-2022
+  justification: "Elle soutient la demande d'Amnesty de pouvoir manifester sans risque de mutilation, ce qui vise les armes comme le LBD sans en réclamer explicitement l'interdiction, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-cesser-ventes-armes-conflits
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-reponse-amnesty-2022
+  quote: "J'affirme ma position contre la production et la vente d'armes, une position que mes camarades défendent aussi dans les entreprises concernées."
+  quoteSource: nathalie-arthaud-reponse-amnesty-2022
+  justification: "Elle s'oppose à toute vente d'armes, mesure plus large que l'arrêt des ventes aux États en conflit, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: energie-supprimer-aides-solaire-eolien
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-reponse-sortir-nucleaire-2022
+  quote: "Ces énergies servent de prétexte à des subventions sans fin, une aubaine pour les fabricants et les installateurs."
+  quoteSource: nathalie-arthaud-reponse-sortir-nucleaire-2022
+  justification: "Elle critique les subventions aux énergies renouvelables comme une aubaine pour les industriels, sans demander explicitement leur suppression, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-gratuite-transports-urbains
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-reponse-tdie-2022
+  quote: "instaurer la gratuité des transports en commun"
+  quoteSource: nathalie-arthaud-reponse-tdie-2022
+  justification: "Dans sa réponse à TDIE, la candidate inscrit la gratuité des transports en commun parmi les mesures que les travailleurs pourront imposer."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-concurrence-ferroviaire
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-reponse-tdie-2022
+  quote: "L'ouverture à la concurrence des transports collectifs de voyageurs, pas plus que dans d'autres services publics comme l'énergie, la santé ou les maisons de retraites, ne se traduira par une baisse des tarifs."
+  quoteSource: nathalie-arthaud-reponse-tdie-2022
+  justification: "La réponse rejette l'ouverture à la concurrence du transport de voyageurs, accusée d'accélérer l'abandon des lignes non rentables."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-petites-lignes-maintenues
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-reponse-tdie-2022
+  quote: "Faute d'entretien, près d'un tiers du réseau ferré est menacé de disparition, des prétendues \"petites lignes\" pourtant vitales pour les habitants et l'avenir des régions concernées."
+  quoteSource: nathalie-arthaud-reponse-tdie-2022
+  justification: "La réponse qualifie les petites lignes de « vitales » et dénonce leur abandon jugé non rentable, soutien explicite à leur maintien."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-autoroutes-concedees-v2
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-reponse-tdie-2022
+  quote: "Ainsi, l'exploitation des autoroutes, construites par l'argent public, a été totalement privatisée en 2005, permettant aux groupes comme Vinci, Eiffage, d'encaisser 40 milliards de dividendes depuis cette date."
+  quoteSource: nathalie-arthaud-reponse-tdie-2022
+  justification: "La réponse dénonce la privatisation de l'exploitation des autoroutes au profit de Vinci et Eiffage, sans dire explicitement ce qui doit remplacer les concessions, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-doubler-investissement-ferroviaire
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-reponse-tdie-2022
+  quote: "Plutôt que d'investir massivement dans la construction et la régénération du réseau, la SNCF, sous l'injonction des gouvernements successifs remplace les trains par des bus"
+  quoteSource: nathalie-arthaud-reponse-tdie-2022
+  justification: "La réponse appelle à investir massivement dans le réseau ferré, sans chiffrer de doublement, d'où 1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-etat-finance-usines
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - nathalie-arthaud-brochure-presidentielle-2022
+  quote: "à l'État de financer leurs investissements et leur recherche. Une telle politique ne servirait qu'à justifier de nouvelles aides publiques allant grossir les profits privés."
+  quoteSource: nathalie-arthaud-brochure-presidentielle-2022
+  justification: "La brochure rejette le financement public des investissements industriels au nom de la réindustrialisation, vu comme une aide aux profits privés ; le cas d'usines construites par l'État n'est pas traité, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14

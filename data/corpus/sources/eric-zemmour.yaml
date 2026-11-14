@@ -97,3 +97,58 @@
   candidates:
     - eric-zemmour
   contentHash: sha256:26b73b9ad7109cbd574c08af989ec5ad607e7dd6a183e6af097fddcac687cd3a
+- id: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  url: https://ojim.fr/wp-content/uploads/2024/06/Programme-Reconque%CC%82te-Europe%CC%81ennes-2024.pdf
+  title: Notre projet pour l'Europe des nations et de la civilisation — programme de Reconquête aux européennes 2024 (PDF hébergé par l'OJIM)
+  kind: programme
+  publishedAt:
+    date: 2024-05
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:b72b513ea997d9609f39c8b58b17e612ab2873a4dbeee647a97257d008fb5ec5
+- id: eric-zemmour-nos-priorites-pour-les-francais-ericzemmour-fr-campagne-2027
+  url: https://www.ericzemmour.fr/priorites#depenser-moins
+  title: Nos priorités pour les Français (ericzemmour.fr, campagne 2027 ; page mise à jour, version consultée le 2026-11-14)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:0b5aaab24b0d96b8ded62859e2edcc894e541ace854a8ab929954c0331a5e8a5
+- id: eric-zemmour-petition-non-a-la-nouvelle-taxe-sur-les-carburants-reconquet
+  url: https://www.stop-hausse-carburant.fr/
+  title: Pétition « NON à la nouvelle taxe sur les carburants ! » (Reconquête!, stop-hausse-carburant.fr ; non datée, 2026 d'après le texte)
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:e74da8e1fb5ace1d79c5199d1bdb371d4cd246dd5487483ac8a18d0442a8b80e
+- id: eric-zemmour-eric-zemmour-je-delierai-les-mains-de-l-etat-pour-qu-il-puis
+  url: https://acteurspublics.fr/articles/eric-zemmour-je-delierai-les-mains-de-letat-pour-quil-puisse-enfin-remplir-son-role/
+  title: "Éric Zemmour : « Je délierai les mains de l'État pour qu'il puisse enfin remplir son rôle » (Acteurs Publics, entretien Cercle de la réforme de l'État)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2022-03-07
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:6c579198807512bd21547ada81e7184eb626a65f4fe6e1a176bfc71e64b909fc
+- id: eric-zemmour-eric-zemmour-dans-la-france-en-face-cnews-europe-1-ce-qu-il
+  url: https://www.europe1.fr/politique/en-direct-immigration-pouvoir-dachat-narcotrafic-ce-quil-faut-retenir-de-linterview-deric-zemmour-dans-la-france-en-face-936419
+  title: "Éric Zemmour dans « La France en face » (CNews/Europe 1) : ce qu'il faut retenir (Europe 1, direct du 19 mai 2026)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-19
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:adeafad50e75841d99050cb4e504f58db3794ce75ed26348662075abdc6f1306

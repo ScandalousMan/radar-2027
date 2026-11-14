@@ -1496,3 +1496,382 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:a55d8eed98e3e2f66e8ac0a99f28cd82ee98446b2be8b2324a6a93b05605339c
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: agriculture-retenues-eau-irrigation
+  value: 2
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "construction de bassines et de retenues collinaires"
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme européen de 2024 de Reconquête (parti présidé par Zemmour) prévoit explicitement la construction de bassines et de retenues collinaires, soit une mesure qui facilite les retenues d'eau pour l'irrigation."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: agriculture-pesticides-moitie-2030
+  value: -1
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "Stopper les décisions d'interdiction des produits phytosanitaires sans études d'impact économique et sans alternative fiable et supprimer le plan Ecophyto."
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme demande de supprimer le plan Ecophyto et de stopper les interdictions sans alternative fiable, ce qui s'oppose à une baisse imposée de moitié ; l'objectif chiffré de 2030 n'est pas cité, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-majorite-qualifiee-ue
+  value: -2
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "REFUS DE TOUT IMPÔT EUROPÉEN et du super-État fédéral, préservation du droit de véto de la France."
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme européen de 2024 érige la préservation du droit de véto de la France en combat prioritaire, ce qui exclut d'étendre la majorité qualifiée."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-impots-propres-ue
+  value: -2
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "Refuser tout impôt européen et notamment les \" ressources propres \" aboutissant à créer une fiscalité européenne qui s'ajoute à la fiscalité nationale."
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme refuse explicitement tout impôt européen, y compris les ressources propres : rejet net de l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-reduire-contribution-ue
+  value: 2
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "Diminuer de 20% la contribution annuelle de la France au budget de l'UE avec un plafond à 20 milliards d'euros par an."
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme chiffre une baisse de 20 % de la contribution française au budget de l'UE : soutien explicite."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-initiative-parlement-europeen
+  value: -2
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "Rendre l'initiative législative au Conseil (les gouvernements des États membres) qui doit disposer de l'exclusivité de l'initiative législative pour mettre en œuvre les coopérations européennes."
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme réserve l'initiative législative au seul Conseil, ce qui exclut de la donner au Parlement européen ; le Parlement n'est pas cité nommément dans la phrase."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-controles-frontieres-schengen
+  value: 1
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "Frontière nationale avec le rétablissement de nos frontières et la fin de la libre circulation pour les extra-Européens."
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme veut rétablir les frontières nationales et mettre fin à la libre circulation Schengen, mais pour les seuls extra-Européens, d'où un soutien partiel (+1)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-dissuasion-protection-europe-v2
+  value: -1
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "Refuser la création d'une armée européenne, tout partage de la dissuasion nucléaire française et de notre siège au Conseil de sécurité de l'ONU, souhaités par Emmanuel Macron."
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme refuse tout partage de la dissuasion nucléaire française ; l'énoncé (extension explicite à la protection des partenaires) n'est pas mentionné tel quel, d'où -1 plutôt que -2."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-fin-thermique-2035
+  value: -2
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "Supprimer l'interdiction de la vente de véhicules thermiques à l'horizon 2035"
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme demande explicitement la suppression de l'interdiction de 2035 : rejet net."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-pause-normes-europeennes
+  value: 1
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "Abroger toutes les directives et règlements du Pacte vert"
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme va plus loin qu'une pause : il veut abroger tout le Pacte vert, ce qui couvre le fait de cesser d'adopter de nouvelles normes environnementales (+1, mesure plus large)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-calendrier-logements-mal-isoles
+  value: -1
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "Supprimer la directive sur la performance énergétique des bâtiments qui risque d'exclure 7 millions de logements du marché de la location"
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme veut supprimer la directive européenne sur la performance énergétique des bâtiments à cause du risque d'exclusion de la location ; elle ne vise pas le calendrier français lui-même, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-exploitation-hydrocarbures
+  value: 1
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "Relancer le débat autour de l'exploration des ressources en gaz de schiste afin de réduire la dépendance gazière de la France et de l'Europe avec les États-Unis."
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme veut relancer le débat sur l'exploration du gaz de schiste, ce qui va dans le sens d'une autorisation sans l'engager fermement (+1)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-logiciels-libres-administration
+  value: 1
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "Viser la souveraineté hardware/software pour les institutions et certains secteurs stratégiques européenne (matériel informatique et cloud européen pour les institutions"
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme vise du matériel et du cloud européens pour les institutions ; l'objectif d'hébergement européen est partiel et ne mentionne pas les logiciels libres (+1)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-subventionner-fret-ferroviaire
+  value: 1
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "Financer un grand plan européen pour le fret ferroviaire et fluvial dans le cadre du mécanisme d'interconnexion européen"
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme prévoit un financement européen du fret ferroviaire, soit un soutien public au fret ; il s'agit d'un plan européen et non d'une subvention de l'État pour concurrencer la route (+1)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-arrets-cedh-derogation-v2
+  value: 1
+  evidence: programme
+  sources:
+    - eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  quote: "Quitter la CEDH, modifier la réglementation européenne sur le non-refoulement pour autoriser l'éloignement, aux frontières extérieures, des migrants qui n'ont pas demandé l'asile dans une ambassade ou ont traversé plusieurs pays sûrs."
+  quoteSource: eric-zemmour-notre-projet-pour-l-europe-des-nations-et-de-la-civilisation
+  justification: "Le programme propose de quitter la CEDH, mesure plus large que l'inexécution de certains arrêts (+1) ; cadre européen de 2024."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-impot-fortune-retabli
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-nos-priorites-pour-les-francais-ericzemmour-fr-campagne-2027
+  quote: "10 % de hausse de revenus pour tous les actifs avec la suppression de la CSG, 40 centimes de baisse de taxes sur les carburants, la fin des droits de succession et de l'impôt sur la fortune."
+  quoteSource: eric-zemmour-nos-priorites-pour-les-francais-ericzemmour-fr-campagne-2027
+  justification: "La page de campagne 2027 annonce la fin de l'impôt sur la fortune, à l'opposé de son rétablissement élargi aux actifs financiers."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-voies-legales-travail-ue
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-nos-priorites-pour-les-francais-ericzemmour-fr-campagne-2027
+  quote: "Arrêter l'immigration légale et illégale en reprenant le contrôle de nos frontières."
+  quoteSource: eric-zemmour-nos-priorites-pour-les-francais-ericzemmour-fr-campagne-2027
+  justification: "La priorité n° 1 de 2027 est d'arrêter l'immigration légale, ce qui s'oppose à l'ouverture de voies légales supplémentaires, y compris au niveau de l'UE."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-visas-professions-qualifiees-v2
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-nos-priorites-pour-les-francais-ericzemmour-fr-campagne-2027
+  quote: "Arrêter l'immigration légale et illégale en reprenant le contrôle de nos frontières."
+  quoteSource: eric-zemmour-nos-priorites-pour-les-francais-ericzemmour-fr-campagne-2027
+  justification: "Arrêter l'immigration légale s'oppose à un assouplissement des visas de travail ; la phrase ne vise pas spécifiquement les professions qualifiées, d'où -1."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-supprimer-taxe-carbone
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - eric-zemmour-eric-zemmour-dans-la-france-en-face-cnews-europe-1-ce-qu-il
+  quote: "propose de baisser d'un tiers l'accise"
+  quoteSource: eric-zemmour-eric-zemmour-dans-la-france-en-face-cnews-europe-1-ce-qu-il
+  justification: "En mai 2026 il propose de baisser d'un tiers l'accise sur les carburants (la composante carbone en fait partie), mais pas de supprimer la taxe carbone en tant que telle (+1)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-retraite-capitalisation
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - eric-zemmour-eric-zemmour-dans-la-france-en-face-cnews-europe-1-ce-qu-il
+  quote: "Il faut aussi injecter, dans notre système de répartition une partie de capitalisation."
+  quoteSource: eric-zemmour-eric-zemmour-dans-la-france-en-face-cnews-europe-1-ce-qu-il
+  justification: "Zemmour demande en 2026 d'injecter une part de capitalisation dans le système de retraite : soutien explicite."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-retraite-au-dela-64-ans
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - eric-zemmour-eric-zemmour-dans-la-france-en-face-cnews-europe-1-ce-qu-il
+  quote: "augmenter la durée de travail et donc le fait de partir plus tard à la retraite"
+  quoteSource: eric-zemmour-eric-zemmour-dans-la-france-en-face-cnews-europe-1-ce-qu-il
+  justification: "En 2026 il dit qu'il faudra partir plus tard (durée de cotisation de 44 à 46 ans) ; l'âge légal au-delà de 64 ans n'est pas précisé (+1)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-reduire-allegements-cotisations
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - eric-zemmour-eric-zemmour-dans-la-france-en-face-cnews-europe-1-ce-qu-il
+  quote: "il faut baisser également les charges sociales"
+  quoteSource: eric-zemmour-eric-zemmour-dans-la-france-en-face-cnews-europe-1-ce-qu-il
+  justification: "Il veut baisser les charges sociales, ce qui va à l'inverse d'une réduction des allègements de cotisations employeur ; le texte ne mentionne pas les allègements existants (-1)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: justice-liberation-conditionnelle-deux-tiers
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+  quote: "Appliquer réellement les condamnations en mettant fin aux aménagements de peine"
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: "Le programme de 2022 supprime tous les aménagements de peine, mesure plus large que de réserver la libération conditionnelle aux deux tiers de la peine (+1)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: justice-comparution-immediate-mineurs
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+  quote: "abaissant l'âge de la majorité pénale de 18 à 16 ans pour responsabiliser les mineurs"
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: "Le programme abaisse la majorité pénale à 16 ans, ce qui rendrait les mineurs de plus de 16 ans justiciables comme des adultes (mesure plus large, +1) ; la comparution immédiate n'est pas citée."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: securite-restreindre-tirs-refus-obtemperer
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+  quote: "Accorder aux policiers et aux gendarmes une présomption de légitime défense en cas d'usage de leurs armes"
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: "Le programme élargit la protection des policiers qui utilisent leurs armes, à l'inverse d'une restriction ; les refus d'obtempérer ne sont pas cités."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: institutions-referendum-revision-constitution
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+  quote: "Instaurer un référendum obligatoire pour toute proposition de révision de la Constitution, ratification de traité européen ou élargissement de l'Union européenne"
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: "Le programme rend le référendum obligatoire pour toute révision constitutionnelle, ce qui revient à soumettre directement la révision au peuple ; il ne parle pas de l'initiative du président (+1)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-chasse-dimanche
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+  quote: "Sanctuariser la pratique de la chasse et de la pêche comme des éléments constitutifs de notre patrimoine culturel"
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: "Le programme veut sanctuariser la chasse, sans mention explicite du dimanche (+1)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-chiffrement-messageries-v2
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - eric-zemmour-discours-port-marly-2026
+  quote: "la Commission européenne prépare ce qu'ils appellent 'chat control'. Un projet qui obligerait à scanner toutes les conversations privées de tous les Européens en permanence."
+  quoteSource: eric-zemmour-discours-port-marly-2026
+  justification: "Dans son discours de septembre 2026, il dénonce le projet de scan des conversations privées ; la source est un compte rendu qui cite ses propos et ne mentionne pas le chiffrement de bout en bout (+1)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-statut-fonction-publique-regalien
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - eric-zemmour-eric-zemmour-je-delierai-les-mains-de-l-etat-pour-qu-il-puis
+  quote: "Je ne souhaite pas modifier l'équilibre actuel"
+  quoteSource: eric-zemmour-eric-zemmour-je-delierai-les-mains-de-l-etat-pour-qu-il-puis
+  justification: "En 2022 il refuse de modifier l'équilibre entre fonctionnaires et contractuels, ce qui ne va pas dans le sens d'une réduction du statut aux missions régaliennes ; la question du statut n'est pas posée telle quelle (-1)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14

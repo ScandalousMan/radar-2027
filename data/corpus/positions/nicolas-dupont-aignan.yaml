@@ -204,3 +204,1370 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:0ea8853f0326f119a0d440966bd89e5e7043df11d8db34822a8e61e8a53062d8
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: agriculture-prix-plancher-agricoles
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-agriculture
+  quote: "Ces prix garantis seront rétablis sur quelques grandes productions agricoles (lait, viande, céréales) assortis de quotas de production."
+  quoteSource: nicolas-dupont-aignan-projet-agriculture
+  justification: "Le projet rétablit des prix garantis sur les principales productions (lait, viande, céréales), ce qui correspond aux prix plancher de l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: agriculture-alleger-normes-agricoles
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-agriculture
+  quote: "Revenir à une politique agricole nationale, échappant aux délires bureaucratiques de la Commission de Bruxelles et simplifiant les procédures (fin du pacte vert européen, des quotas de jachères, etc…)."
+  quoteSource: nicolas-dupont-aignan-projet-agriculture
+  justification: "Le projet veut simplifier les règles imposées aux agriculteurs et mettre fin au pacte vert et aux jachères obligatoires, soit un allègement explicite des normes environnementales."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: agriculture-origine-viandes-restaurants-v2
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-agriculture
+  quote: "Exiger l’étiquetage obligatoire du pays d’origine des produits"
+  quoteSource: nicolas-dupont-aignan-projet-agriculture
+  justification: "Le projet exige l'étiquetage obligatoire de l'origine des produits en général, sans viser expressément les viandes servies au restaurant : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: agriculture-encadrer-prix-terres
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-agriculture
+  quote: "Empêcher l’accaparement des terres et la spéculation par des fonds d’investissement notamment étranger en modifiant la législation des SAFER."
+  quoteSource: nicolas-dupont-aignan-projet-agriculture
+  justification: "Le projet veut freiner la spéculation sur les terres par la législation des SAFER, sans parler d'un encadrement des prix par l'État : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-gazole-non-routier-agriculteurs
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-agriculture
+  quote: "Rétablir et garantir les avantages fiscaux du gazole non-routier."
+  quoteSource: nicolas-dupont-aignan-projet-agriculture
+  justification: "Le projet veut rétablir et garantir l'avantage fiscal du gazole non routier, comme le demande l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-budget-armees-3-pib
+  value: -1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-defense
+  quote: "nous nous engageons à augmenter notre budget de défense pour atteindre le chiffre raisonnable de 2,5% du PIB"
+  quoteSource: nicolas-dupont-aignan-projet-defense
+  justification: "Le projet relève le budget de la défense mais vise 2,5 % du PIB, en dessous des 3 % de l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-reduire-budget-armees
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-defense
+  quote: "nous nous engageons à augmenter notre budget de défense pour atteindre le chiffre raisonnable de 2,5% du PIB"
+  quoteSource: nicolas-dupont-aignan-projet-defense
+  justification: "Le projet veut augmenter le budget de la défense jusqu'à 2,5 % du PIB, à l'inverse d'une réduction."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-quitter-commandement-otan
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-defense
+  quote: "Sortir du commandement intégré de l’OTAN pour regagner notre indépendance militaire et stratégique"
+  quoteSource: nicolas-dupont-aignan-projet-defense
+  justification: "Le projet prévoit explicitement de sortir du commandement intégré de l'OTAN."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-second-porte-avions
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-defense
+  quote: "Accélérer le programme de remplacement du porte avion Charles de Gaulle en prévoyant la construction de deux portes avions"
+  quoteSource: nicolas-dupont-aignan-projet-defense
+  justification: "Le projet prévoit de construire deux porte-avions pour garantir une présence permanente à la mer."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-renoncer-modernisation-dissuasion
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-defense
+  quote: "Sacraliser le territoire français et protéger notre peuple en renforçant notre dissuasion nucléaire"
+  quoteSource: nicolas-dupont-aignan-projet-defense
+  justification: "Le projet veut renforcer la dissuasion nucléaire (et poursuivre la recherche qui la rend crédible), à l'inverse d'un renoncement à la moderniser."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-doubler-reservistes
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-defense
+  quote: "Transformer la réserve opérationnelle en une véritable garde nationale de 100 000 réservistes."
+  quoteSource: nicolas-dupont-aignan-projet-defense
+  justification: "Le projet fixe un objectif de 100 000 réservistes opérationnels, ce qui suppose une forte hausse, sans parler explicitement de doublement : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: societe-service-national-obligatoire
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-defense
+  quote: "Instaurer un service national civique obligatoire de trois mois avec option militaire d’une année"
+  quoteSource: nicolas-dupont-aignan-projet-defense
+  justification: "Le projet institue un service national obligatoire de trois mois pour tous les jeunes de 18 ans."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-participations-etat-industrie
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-defense
+  quote: "Renforcer la place de l’État dans les grands groupes de défense"
+  quoteSource: nicolas-dupont-aignan-projet-defense
+  justification: "Le projet veut renforcer la place de l'État au capital des grands groupes de défense, secteur stratégique, sans généraliser à toute l'industrie : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: defense-armes-ukraine
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Mettre fin aux aides à l’Ukraine (7 milliards d’euros par an en comptant les aides de la France et la quote-part des aides de l’UE dues par la France)."
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet veut mettre fin à toute aide à l'Ukraine, ce qui exclut de lui livrer davantage d'armes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-renforcer-sanctions-russie
+  value: -1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-affaires-etrangeres
+  quote: "Réussir la paix en Ukraine et relancer un partenariat avec la Russie tant nos intérêts sont communs et nos atouts sont complémentaires"
+  quoteSource: nicolas-dupont-aignan-projet-affaires-etrangeres
+  justification: "Le projet veut relancer un partenariat avec la Russie, orientation contraire à un renforcement des sanctions, sans se prononcer sur les sanctions elles-mêmes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-medicaments-grandes-surfaces
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-sante
+  quote: "Refuser la vente en grandes surfaces des médicaments, protégeant le rôle de conseil indispensable des pharmaciens."
+  quoteSource: nicolas-dupont-aignan-projet-sante
+  justification: "Le projet refuse explicitement la vente de médicaments en grande surface."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-derembourser-faible-service-rendu
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-sante
+  quote: "Passer en revue l’ensemble du portefeuille de médicaments pour supprimer le remboursement de tous les médicaments aux bénéfices douteux ou inexistants"
+  quoteSource: nicolas-dupont-aignan-projet-sante
+  justification: "Le projet veut dérembourser les médicaments au bénéfice douteux ou nul, ce qui correspond au service médical rendu faible."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-jeunes-medecins-zones-sous-dotees
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-sante
+  quote: "Créer, afin de mettre fin aux déserts médicaux, une bourse pour les étudiants en médecine en échange de laquelle ils s’engageront à s’installer dans une zone sous-dotée pendant leurs 5 premières années."
+  quoteSource: nicolas-dupont-aignan-projet-sante
+  justification: "Le projet lie une installation en zone sous-dotée à une bourse acceptée par l'étudiant, et non à une obligation générale : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-doubler-etudiants-medecine
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-sante
+  quote: "Augmenter le nombre de places dans les études de médecine afin d’atteindre 12 000 praticiens par an"
+  quoteSource: nicolas-dupont-aignan-projet-sante
+  justification: "Le projet augmente le nombre de places en médecine (12 000 par an) sans aller jusqu'à un doublement : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-mutuelles-part-accrue-v2
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-sante
+  quote: "un chacun pour soi que l’on essaye de faire accepter aux Français en imposant une part croissante de la prise en charge par les mutuelles"
+  quoteSource: nicolas-dupont-aignan-projet-sante
+  justification: "Le projet dénonce explicitement le transfert croissant de la prise en charge vers les mutuelles."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-assurance-sante-privee-option-v2
+  value: -1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-sante
+  quote: "Profondément attachés au caractère public et universel de l’Assurance maladie"
+  quoteSource: nicolas-dupont-aignan-projet-sante
+  justification: "L'attachement au caractère public et universel de l'Assurance maladie s'oppose à la sortie vers une assurance privée, sans que le projet traite cette option explicitement."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-production-publique-medicaments
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-sante
+  quote: "seront complétés par l’accroissement des capacités de production de médicaments la pharmacie centrale des Armées"
+  quoteSource: nicolas-dupont-aignan-projet-sante
+  justification: "Le projet veut accroître la production publique de médicaments par la pharmacie centrale des Armées, en complément de l'industrie : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-budget-hopital-inflation
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-sante
+  quote: "Fixer une progression raisonnable de l’ONDAM capable d’absorber les nouveaux besoins au regard du vieillissement de la population sans étrangler l’hôpital"
+  quoteSource: nicolas-dupont-aignan-projet-sante
+  justification: "Le projet veut une progression des dépenses de santé qui couvre les nouveaux besoins sans étrangler l'hôpital, sans fixer de règle par rapport à l'inflation : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: sante-depenses-assurance-maladie-inflation
+  value: -1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-sante
+  quote: "Fixer une progression raisonnable de l’ONDAM capable d’absorber les nouveaux besoins au regard du vieillissement de la population sans étrangler l’hôpital"
+  quoteSource: nicolas-dupont-aignan-projet-sante
+  justification: "Le projet veut que l'ONDAM absorbe les besoins nouveaux liés au vieillissement, ce qui s'accorde mal avec un plafonnement à l'inflation."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-ame-soins-urgents
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-sante
+  quote: "Supprimer l’aide médicale d’État (AME) et la remplacer par une aide médicale exceptionnelle et provisoire qui ne concernerait que les urgences sanitaires et les maladies contagieuses"
+  quoteSource: nicolas-dupont-aignan-projet-sante
+  justification: "Le projet remplace l'AME par une aide limitée aux urgences et aux maladies contagieuses."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: justice-majorite-penale-16-ans
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-justice
+  quote: "Baisser la majorité pénale à 16 ans."
+  quoteSource: nicolas-dupont-aignan-projet-justice
+  justification: "Mesure identique à l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: justice-courtes-peines-alternatives
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-justice
+  quote: "Abroger la loi du 23 mars 2019 de laxisme judiciaire, qui exonère de passage en prison toute peine de prison ferme inférieure à 1 an."
+  quoteSource: nicolas-dupont-aignan-projet-justice
+  justification: "Le projet veut abroger la loi qui remplace les courtes peines par des peines hors les murs, à l'inverse de l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: justice-perpetuite-reelle-etendue
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-justice
+  quote: "Instaurer une peine de perpétuité réelle et non modifiable"
+  quoteSource: nicolas-dupont-aignan-projet-justice
+  justification: "Le projet veut instaurer une perpétuité réelle non modifiable, sans préciser à quels crimes elle s'appliquerait : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: justice-sanction-financiere-parents
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-justice
+  quote: "Suspendre les aides sociales des familles de mineurs délinquants"
+  quoteSource: nicolas-dupont-aignan-projet-justice
+  justification: "Le projet prévoit de suspendre les aides sociales des familles de mineurs délinquants, sanction financière des parents."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: justice-peines-minimales-recidive
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-profession-de-foi-2022
+  quote: "peines planchers pour les récidivistes et les agresseurs de policiers, gendarmes et pompiers."
+  quoteSource: nicolas-dupont-aignan-profession-de-foi-2022
+  justification: "La profession de foi de 2022 promet des peines planchers pour les récidivistes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-amende-sejour-irregulier
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-justice
+  quote: "Rétablir le délit de séjour irrégulier sur le sol national (supprimé par la loi Valls du 31 décembre 2012) avec peine d’emprisonnement à la clé"
+  quoteSource: nicolas-dupont-aignan-projet-justice
+  justification: "Le projet veut pénaliser le séjour irrégulier, mais par l'emprisonnement plutôt que par une amende : accord sur le principe, mesure différente."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: justice-detenus-frais-incarceration
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-securite-integral
+  quote: "Faire contribuer les détenus au coût de leur incarcération"
+  quoteSource: nicolas-dupont-aignan-projet-securite-integral
+  justification: "Le projet prévoit une contribution des détenus à leurs frais de détention (jusqu'à 25 % de leur rémunération)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: securite-presomption-legitime-defense
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-securite-integral
+  quote: "Instaurer une présomption de légitime défense pour permettre aux policiers de se défendre contre des agresseurs."
+  quoteSource: nicolas-dupont-aignan-projet-securite-integral
+  justification: "Mesure identique à l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: securite-supprimer-bac
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-securite-integral
+  quote: "Renforcer les BAC en appui des brigades de roulement"
+  quoteSource: nicolas-dupont-aignan-projet-securite-integral
+  justification: "Le projet veut renforcer les BAC, à l'inverse de leur suppression."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: securite-hausse-effectifs-police
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-securite-integral
+  quote: "10 000 policiers et gendarmes supplémentaires nets en 5 ans."
+  quoteSource: nicolas-dupont-aignan-projet-securite-integral
+  justification: "Le projet augmente les effectifs de 10 000 policiers et gendarmes, sans les rapporter aux effectifs totaux ; la hausse paraît inférieure aux 10 % de l'énoncé : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: securite-pouvoirs-polices-municipales
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-securite-integral
+  quote: "Élargir le champ d’action des polices municipales de façon à accroître leur efficacité et à être parfaitement interopérable avec les forces de la police nationale."
+  quoteSource: nicolas-dupont-aignan-projet-securite-integral
+  justification: "Le projet élargit le champ d'action des polices municipales sans leur donner explicitement les mêmes pouvoirs d'enquête que la police nationale : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: securite-couvre-feu-mineurs
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-securite-integral
+  quote: "contrôle et application de l’obligation et de la responsabilité parentales, couvre-feu pour mineurs"
+  quoteSource: nicolas-dupont-aignan-projet-securite-integral
+  justification: "Le projet cite le couvre-feu pour mineurs parmi les outils de police administrative à revitaliser, sans préciser que les maires en décident : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-reduire-duree-naturalisation
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-immigration-integral
+  quote: "Exigeant 10 ans de résidence en France comme minimum pour évaluer l’assimilation réelle."
+  quoteSource: nicolas-dupont-aignan-projet-immigration-integral
+  justification: "Le projet porte à 10 ans la durée de résidence exigée, à l'inverse d'une réduction."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-vote-local-etrangers-v2
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-immigration-integral
+  quote: "Limiter le droit de vote aux seules personnes ayant la nationalité française"
+  quoteSource: nicolas-dupont-aignan-projet-immigration-integral
+  justification: "Le projet réserve le droit de vote aux Français, ce qui exclut le vote local des étrangers."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-regularisation-metiers-tension
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-immigration-integral
+  quote: "supprimer la régularisation pour les étrangers en situation irrégulière"
+  quoteSource: nicolas-dupont-aignan-projet-immigration-integral
+  justification: "Le projet supprime toute régularisation des étrangers en situation irrégulière, y compris donc dans les métiers en tension."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-regularisation-cinq-ans
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-immigration-integral
+  quote: "supprimer la régularisation pour les étrangers en situation irrégulière"
+  quoteSource: nicolas-dupont-aignan-projet-immigration-integral
+  justification: "Le projet supprime toute régularisation des étrangers en situation irrégulière, quelle que soit leur durée de présence."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-asile-examen-hors-europe-v2
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-immigration-integral
+  quote: "Les migrants en difficulté seront secourus en mer puis ramenés à leur point d’embarquement, où leur demande d’asile sera examinée."
+  quoteSource: nicolas-dupont-aignan-projet-immigration-integral
+  justification: "Le projet fait examiner les demandes d'asile au point d'embarquement, donc hors du territoire européen, sans parler de centres dédiés : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: immigration-voies-legales-travail-ue
+  value: -1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-immigration-integral
+  quote: "Conditionner l’immigration économique au taux de chômage : si le chômage est élevé, cette immigration doit rester exceptionnelle."
+  quoteSource: nicolas-dupont-aignan-projet-immigration-integral
+  justification: "Le projet restreint l'immigration de travail selon le chômage, à rebours d'une ouverture de nouvelles voies légales, sans viser l'échelon européen."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: societe-signes-religieux-universite
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-enseignement-superieur
+  quote: "Etendre l’interdiction du port de signes religieux ostentatoires, déjà en vigueur dans l’Éducation Na-tionale, à l’Éducation Supérieure"
+  quoteSource: nicolas-dupont-aignan-projet-enseignement-superieur
+  justification: "Le projet étend à l'enseignement supérieur l'interdiction des signes religieux ostentatoires applicable aux élèves."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: societe-interdire-ecriture-inclusive
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-enseignement-superieur
+  quote: "Interdire l’écriture inclusive dans tout document administratif"
+  quoteSource: nicolas-dupont-aignan-projet-enseignement-superieur
+  justification: "Mesure identique à l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-prix-energie-reglementes
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Fixant un tarif réglementé national (un tarif de 11 centimes d’euro/ kWh, soit 110 € le MWh, sera garanti contractuellement)."
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet fixe un tarif réglementé national de l'électricité (et un monopole public du gaz), soit des prix de l'énergie réglementés par l'État."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-controle-rachats-etrangers
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Élargir le décret \" Montebourg \" à tous les secteurs et établir un système d’actions préférentielles pour protéger nos entreprises stratégiques des prises de contrôle étrangères."
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet étend à tous les secteurs le contrôle des investissements étrangers."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-supprimer-agences-etat
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Supprimer progressivement les agences d’État : ADEME, ARS…"
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet supprime progressivement des agences de l'État."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-alleger-regles-entreprises
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Diviser par 2 l’ensemble des normes administratives qui entravent la bonne marche des entreprises"
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet veut diviser par deux les normes pesant sur les entreprises."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-accords-libre-echange
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Déployer un protectionnisme intelligent et renégocier tous les accords de libre-échange à l’occasion de la sortie de l’UE."
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet prône le protectionnisme, la renégociation des accords existants et la sortie de l'UE, à l'opposé de nouveaux accords conclus par l'Union."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-baisse-depense-publique
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Sur les 1 700 milliards d’euros formant la dépense publique, il est possible d’économiser 40 milliards par an au terme de 5 ans, soit un peu plus de 2 %."
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet prévoit 40 milliards d'économies annuelles sur la dépense publique, sans objectif exprimé en part du PIB : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-etat-finance-usines
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Créer un grand fonds d’investissement et de relocalisation doté de 4 milliards d’euros par an et piloté par la Caisse des dépôts et consignations"
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet crée un fonds public d'investissement productif et de relocalisation, sans parler explicitement de financer directement des usines : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: economie-edf-entierement-publique
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-environnement-energie-integral
+  quote: "Maintenir l’actionnariat public d’EDF (l’électricité et l’énergie sont des biens stratégiques de la nation)"
+  quoteSource: nicolas-dupont-aignan-projet-environnement-energie-integral
+  justification: "Le projet maintient l'actionnariat public d'EDF sans préciser qu'il doit rester intégral : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-reduire-droits-succession
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Supprimer les droits de succession sur la résidence principale et sur les 100 premiers hectares de terres agricoles"
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet supprime ou réduit les droits sur les transmissions familiales (résidence principale, terres, entreprises, donations)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-supprimer-impots-production
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Baisser les impôts de production"
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet baisse les impôts de production sans aller jusqu'à leur suppression : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-baisse-cotisations-salaries
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Augmenter le SMIC à 1600 euros net (98 euros supplémentaires par mois) en compensant cette hausse par une baisse proportionnelle des cotisations salariales"
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet baisse les cotisations salariales, mais de façon ciblée sur les bas salaires (et les heures supplémentaires) : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-smic-au-dela-inflation
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Augmenter le SMIC à 1600 euros net (98 euros supplémentaires par mois)"
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet relève le SMIC net au-delà de l'inflation, mais par une baisse des cotisations plutôt que par une hausse du SMIC brut : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-baisse-impot-societes
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "baisser le taux d’IS de 1 % pour 5 % d’actionnariat salarié supplémentaire, dans une limite de 10 points de baisse d’IS"
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet baisse le taux d'IS sous condition d'actionnariat salarié, non de façon générale : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-salaries-conseils-administration
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Nous favoriserons la cogestion en réduisant l’impôt sur les sociétés pour toute entreprise qui attribuera un pourcentage des sièges aux salariés, avec voix délibérative"
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet encourage les sièges de salariés dans les instances de décision par une incitation fiscale, sans obligation ni seuil d'un tiers : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-retraite-capitalisation
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "À 60 ans, le bénéficiaire disposerait ainsi d’un socle de retraite par capitalisation, qui viendrait en complément de la retraite par répartition."
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet crée un socle de retraite par capitalisation (fonds public) en complément de la répartition."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-taxe-plateformes
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Imposant le bénéfice consolidé des multinationales au prorata du chiffre d’affaires réalisé dans le pays"
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet impose les multinationales en fonction du chiffre d'affaires réalisé en France, mais sur leur bénéfice et sans viser les seules plateformes : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: energie-supprimer-aides-solaire-eolien
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Supprimer les aides de l’État à l’installation des éoliennes et des panneaux solaires en annulant le décret sur la PPE3"
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Mesure identique à l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: energie-petits-reacteurs-modulaires
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-economie-integral
+  quote: "Les programmes de construction des EPR2 et de déploiement des petits réacteurs modulaires français pour remplacer nos centrales en fin de vie seront accélérés."
+  quoteSource: nicolas-dupont-aignan-projet-economie-integral
+  justification: "Le projet accélère le déploiement des petits réacteurs modulaires dans une planification d'État, sans parler explicitement de financement public : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: energie-reduire-part-nucleaire
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-environnement-energie-integral
+  quote: "Abandonner l’objectif de 50% de nucléaire dans la production électrique en 2035, maintenir le nucléaire à 70% de la production d’électricité minimum."
+  quoteSource: nicolas-dupont-aignan-projet-environnement-energie-integral
+  justification: "Le projet rejette la baisse de la part du nucléaire et veut la maintenir à au moins 70 %."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: energie-fonds-publics-renouvelables
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-environnement-energie-integral
+  quote: "redéployer les 4 milliards gâchés dans le solaire et l’éolien sur des filières d’avenir"
+  quoteSource: nicolas-dupont-aignan-projet-environnement-energie-integral
+  justification: "Le projet retire les fonds publics du solaire et de l'éolien pour les réaffecter notamment au nucléaire, à l'inverse de l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: energie-suspendre-nouvelles-eoliennes
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-equilibre-territoire
+  quote: "Stopper les projets éoliens qui produisent une énergie intermittente pour un coût faramineux"
+  quoteSource: nicolas-dupont-aignan-projet-equilibre-territoire
+  justification: "Le projet veut stopper les projets éoliens."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: energie-accelerer-eolien-terrestre
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-equilibre-territoire
+  quote: "Stopper les projets éoliens qui produisent une énergie intermittente pour un coût faramineux"
+  quoteSource: nicolas-dupont-aignan-projet-equilibre-territoire
+  justification: "Le projet veut stopper les projets éoliens, à l'inverse d'une accélération."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-supprimer-zfe
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-automobilistes
+  quote: "Acter la suppression définitive des zones à faibles émissions."
+  quoteSource: nicolas-dupont-aignan-projet-automobilistes
+  justification: "Mesure identique à l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-calendrier-logements-mal-isoles
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-logement
+  quote: "Abandonner l’interdiction de location de logements sur la base du DPE"
+  quoteSource: nicolas-dupont-aignan-projet-logement
+  justification: "Le projet abandonne l'interdiction de louer les logements mal classés au DPE."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: environnement-assouplir-artificialisation
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-logement
+  quote: "Réformer intégralement la loi Climat et Résilience pour mettre fin à l’objectif de Zéro Artificialisation Nette (ZAN)"
+  quoteSource: nicolas-dupont-aignan-projet-logement
+  justification: "Le projet met fin à l'objectif ZAN, ce qui va au moins jusqu'à l'assouplissement demandé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: fiscalite-quotient-familial-credit-enfant
+  value: -1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-famille
+  quote: "En revalorisant le quotient familial à 3 000 € par demi-part."
+  quoteSource: nicolas-dupont-aignan-projet-famille
+  justification: "Le projet veut revaloriser le quotient familial, ce qui suppose de le conserver plutôt que de le remplacer par un crédit d'impôt."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: societe-gpa-interdite-v2
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-famille
+  quote: "Refuser catégoriquement la gestation pour autrui (GPA)."
+  quoteSource: nicolas-dupont-aignan-projet-famille
+  justification: "Le projet refuse catégoriquement la GPA."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: societe-aide-active-a-mourir
+  value: -1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-famille
+  quote: "Debout la France rappelle son attachement à la protection de la vie, de la conception à la mort naturelle"
+  quoteSource: nicolas-dupont-aignan-projet-famille
+  justification: "L'attachement à la vie « jusqu'à la mort naturelle », dans le passage sur la fin de vie, s'oppose à l'aide active à mourir sans la nommer."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: societe-uniforme-ecole-publique
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-education
+  quote: "Uniforme obligatoire, niveau de langage minimum et vouvoiement."
+  quoteSource: nicolas-dupont-aignan-projet-education
+  justification: "Le projet rend l'uniforme obligatoire dans les établissements scolaires."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-telephone-interdit-lycees
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-education
+  quote: "Interdiction de l’usage des objets connectés dans l’enceinte des établissements."
+  quoteSource: nicolas-dupont-aignan-projet-education
+  justification: "Le projet interdit les objets connectés, donc le téléphone, dans l'enceinte des établissements scolaires, lycées compris."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: societe-signes-religieux-sorties-scolaires
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-education
+  quote: "Interdiction du port de signes religieux démonstratifs pour tous."
+  quoteSource: nicolas-dupont-aignan-projet-education
+  justification: "Le projet interdit les signes religieux démonstratifs « pour tous » dans les établissements, sans viser expressément les accompagnateurs de sorties : soutien probable mais indirect."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-retraite-au-dela-64-ans
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-retraites
+  quote: "nous ne reculerons pas l’âge de la retraite et n’allongerons pas la durée de cotisation"
+  quoteSource: nicolas-dupont-aignan-projet-retraites
+  justification: "Le projet refuse tout recul de l'âge de départ."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-retraite-62-ans
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-retraites
+  quote: "Nous maintiendrons l’âge minimum de départ à la retraite et la durée de cotisations actuelle (issue de la réforme de 2010)."
+  quoteSource: nicolas-dupont-aignan-projet-retraites
+  justification: "Le projet retient les paramètres de la réforme de 2010, soit 62 ans ; mais il parle de « maintenir » (texte antérieur à la réforme de 2023) plutôt que de revenir à 62 ans : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: travail-elargir-penibilite-retraite
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-retraites
+  quote: "Mieux prendre en compte la pénibilité du travail pour tous les travailleurs du privé et du public ainsi que les situations de handicap."
+  quoteSource: nicolas-dupont-aignan-projet-retraites
+  justification: "Le projet veut mieux prendre en compte la pénibilité, sans préciser l'élargissement des critères de départ anticipé : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-routes-90-kmh
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-automobilistes
+  quote: "Revenir aux 90 km/h sur les routes départementales"
+  quoteSource: nicolas-dupont-aignan-projet-automobilistes
+  justification: "Mesure identique à l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-autoroutes-concedees-v2
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-automobilistes
+  quote: "Renationaliser les autoroutes (qui réalisent des bénéfices de l’ordre de 4 milliards d’euros par an)"
+  quoteSource: nicolas-dupont-aignan-projet-automobilistes
+  justification: "Le projet renationalise les autoroutes, à l'inverse du maintien des concessions privées."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-taxe-kilometrique-poids-lourds
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-automobilistes
+  quote: "financer l’entretien du réseau par une taxe sur les camions étrangers empruntant le réseau autoroutier français"
+  quoteSource: nicolas-dupont-aignan-projet-automobilistes
+  justification: "Le projet taxe les poids lourds étrangers sur les autoroutes, sans taxe kilométrique générale : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-supprimer-controle-technique-motos-v2
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-automobilistes
+  quote: "Alléger l’obligation du contrôle technique."
+  quoteSource: nicolas-dupont-aignan-projet-automobilistes
+  justification: "Le projet allège l'obligation de contrôle technique sans la supprimer explicitement pour les deux-roues : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-voitures-centres-villes-libres
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-automobilistes
+  quote: "Défendre la liberté de circulation partout sur le territoire"
+  quoteSource: nicolas-dupont-aignan-projet-automobilistes
+  justification: "Le projet défend la liberté de circulation automobile partout (et supprime les ZFE), sans parler expressément des centres-villes : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-concurrence-ferroviaire
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-equilibre-territoire
+  quote: "supprimer l’ouverture à une concurrence faussée qui empêche toute péréquation tarifaire"
+  quoteSource: nicolas-dupont-aignan-projet-equilibre-territoire
+  justification: "Le projet veut supprimer l'ouverture du rail à la concurrence."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: transport-petites-lignes-maintenues
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-equilibre-territoire
+  quote: "Maintenir et rénover le réseau ferroviaire traditionnel qui irrigue l’ensemble de nos territoires et supprimer l’ouverture à une concurrence faussée qui empêche toute péréquation tarifaire et menace, à terme, les lignes non rentables."
+  quoteSource: nicolas-dupont-aignan-projet-equilibre-territoire
+  justification: "Le projet veut maintenir le réseau traditionnel et protéger les lignes non rentables."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: institutions-fusions-communes-obligatoires
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-equilibre-territoire
+  quote: "Permettre sur la seule base du volontariat la fusion des communes"
+  quoteSource: nicolas-dupont-aignan-projet-equilibre-territoire
+  justification: "Le projet réserve la fusion des communes au volontariat, à l'inverse de fusions obligatoires."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: institutions-autonomie-fiscale-collectivites
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-equilibre-territoire
+  quote: "Revoir la fiscalité locale pour rétablir l’autonomie et la responsabilité financière des collectivités"
+  quoteSource: nicolas-dupont-aignan-projet-equilibre-territoire
+  justification: "Le projet veut rétablir l'autonomie financière et fiscale des collectivités."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: institutions-autonomie-corse-constitution-v2
+  value: -1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-equilibre-territoire
+  quote: "Mettre un terme non seulement à la dérive de création de collectivités à statut particulier qui mine, à terme, le caractère unitaire du pays"
+  quoteSource: nicolas-dupont-aignan-projet-equilibre-territoire
+  justification: "Le projet refuse de nouveaux statuts particuliers au nom de l'unité de la République, ce qui s'oppose à une autonomie constitutionnelle de la Corse sans la nommer."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: institutions-competences-retour-etat-v2
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-equilibre-territoire
+  quote: "Supprimer les grandes régions désincarnées et les conseils régionaux. Leurs compétences seront réparties entre les départements et l’État."
+  quoteSource: nicolas-dupont-aignan-projet-equilibre-territoire
+  justification: "Le projet transfère une partie des compétences régionales à l'État (le reste aux départements) : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: democratie-vote-blanc-exprime
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie-integral
+  quote: "Prendre en compte le vote blanc dans les résultats des élections pour respecter le sentiment populaire."
+  quoteSource: nicolas-dupont-aignan-projet-democratie-integral
+  justification: "Le projet compte le vote blanc dans les résultats, au point de faire reporter le scrutin s'il est majoritaire."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: democratie-referendum-revocatoire
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie-integral
+  quote: "Revenir au septennat avec la possibilité d’un référendum révocatoire d’initiative citoyenne à mi-mandat"
+  quoteSource: nicolas-dupont-aignan-projet-democratie-integral
+  justification: "Le projet crée un référendum révocatoire d'initiative citoyenne."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: institutions-mandat-presidentiel-sept-ans
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie-integral
+  quote: "Revenir au septennat avec la possibilité d’un référendum révocatoire d’initiative citoyenne à mi-mandat"
+  quoteSource: nicolas-dupont-aignan-projet-democratie-integral
+  justification: "Le projet revient au septennat."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: democratie-supprimer-cese
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie-integral
+  quote: "Supprimer le Conseil économique, social et environnemental (CESE)."
+  quoteSource: nicolas-dupont-aignan-projet-democratie-integral
+  justification: "Mesure identique à l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: institutions-reduire-nombre-parlementaires
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie-integral
+  quote: "Diminuer le nombre de parlementaires et réduire leurs indemnités de 25 %"
+  quoteSource: nicolas-dupont-aignan-projet-democratie-integral
+  justification: "Le projet réduit le nombre de députés (500) et de sénateurs (300)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: institutions-supprimer-senat
+  value: -1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie-integral
+  quote: "Passer de 348 à 300 sénateurs."
+  quoteSource: nicolas-dupont-aignan-projet-democratie-integral
+  justification: "Le projet réduit le nombre de sénateurs, ce qui suppose de conserver le Sénat."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: democratie-revision-par-congres
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie-integral
+  quote: "Rendre le référendum obligatoire pour toute modification affectant la Constitution, l’indépendance nationale ou l’intégrité du territoire."
+  quoteSource: nicolas-dupont-aignan-projet-democratie-integral
+  justification: "Le projet rend le référendum obligatoire pour toute révision constitutionnelle, ce qui exclut l'adoption par le Congrès."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: democratie-champ-referendum-inchange
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie-integral
+  quote: "Les Français pourront soumettre au référendum une modification de la loi ou de la Constitution dès qu’un million d’inscrits sur les listes électorales soutiendra leur pétition."
+  quoteSource: nicolas-dupont-aignan-projet-democratie-integral
+  justification: "Le RIC proposé ouvre le référendum à toute modification de la loi, donc au-delà du champ actuel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: democratie-seuil-rip-maintenu-v2
+  value: -1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie-integral
+  quote: "Les Français pourront soumettre au référendum une modification de la loi ou de la Constitution dès qu’un million d’inscrits sur les listes électorales soutiendra leur pétition."
+  quoteSource: nicolas-dupont-aignan-projet-democratie-integral
+  justification: "Le RIC proposé se déclenche à un million de signatures, seuil bien plus bas qu'un dixième des inscrits ; le projet ne parle pas du RIP lui-même."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-referendum-traites-europeens
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-democratie-integral
+  quote: "Rendre le référendum obligatoire pour toute modification affectant la Constitution, l’indépendance nationale ou l’intégrité du territoire."
+  quoteSource: nicolas-dupont-aignan-projet-democratie-integral
+  justification: "Le référendum obligatoire pour tout ce qui touche à l'indépendance nationale couvre les traités européens transférant des compétences, sans les nommer : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: international-reduire-contribution-ue
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-europe-integral
+  quote: "Supprimer la contribution nette de la France et la réattribuer à des secteurs clés de notre pays"
+  quoteSource: nicolas-dupont-aignan-projet-europe-integral
+  justification: "Le projet supprime la contribution nette de la France au budget de l'UE."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-alleger-moderation
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-europe-integral
+  quote: "Supprimer le \" Digital Services Act \" et l’ensemble des mesures liberticides imposées par la Commission européenne (réseaux sociaux, presse, lanceurs d’alerte)."
+  quoteSource: nicolas-dupont-aignan-projet-europe-integral
+  justification: "Le projet supprime le DSA, qui porte les obligations de modération des réseaux sociaux."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-anonymat-en-ligne
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-europe-integral
+  quote: "Rétablir l’anonymat et l’interdiction du stockage des données comme libertés fondamentales."
+  quoteSource: nicolas-dupont-aignan-projet-europe-integral
+  justification: "Le projet érige l'anonymat en liberté fondamentale dans son volet numérique, sans viser expressément les réseaux sociaux : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-logiciels-libres-administration
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-intelligence-artificielle
+  quote: "Recréer un écosystème de logiciels sous licences gratuites et maîtrises d’œuvre étatiques françaises"
+  quoteSource: nicolas-dupont-aignan-projet-intelligence-artificielle
+  justification: "Le projet veut des logiciels sous licences gratuites et sous maîtrise d'œuvre française, d'abord pour les administrations ; il ne parle ni de logiciels libres au sens strict ni d'hébergement européen : soutien partiel."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+- question: numerique-donnees-publiques-entrainement-ia
+  value: -1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-intelligence-artificielle
+  quote: "Revoir la culture de l’Open source et de l’Open data de nos laboratoires et de l’État"
+  quoteSource: nicolas-dupont-aignan-projet-intelligence-artificielle
+  justification: "Le projet veut revenir sur l'ouverture des données publiques, jugée profitable à des acteurs étrangers, à rebours d'une utilisation libre pour entraîner des IA."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
