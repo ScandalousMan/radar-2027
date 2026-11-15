@@ -3,7 +3,7 @@
 // et chaque erreur Zod devient une violation `SCHEMA` désignant `<fichier>:<chemin>`.
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { basename, join, relative } from 'node:path';
-import { parse, stringify } from 'yaml';
+import { isMap, isSeq, parse, parseDocument, stringify, type Document, type YAMLMap } from 'yaml';
 import type { z } from 'zod';
 import {
   CandidateSchema,
@@ -140,6 +140,21 @@ export function loadCorpus(corpusDir: string): LoadedCorpus {
 /** Écrit un YAML stable pour des diffs lisibles : ordre des clés conservé, 2 espaces, pas de repli. */
 export function writeYaml(file: string, value: unknown): void {
   writeFileSync(file, stringify(value, { indent: 2, lineWidth: 0, aliasDuplicateObjects: false }), 'utf8');
+}
+
+/**
+ * Modifie sur place les éléments (mappings) d'un fichier YAML liste en conservant commentaires,
+ * guillemets et lignes vides : seules les clés touchées par `edit` changent dans le texte.
+ * `edit` renvoie `true` s'il a modifié l'élément ; le fichier n'est réécrit que dans ce cas.
+ */
+export function editYamlListItems(file: string, edit: (item: YAMLMap<unknown, unknown>) => boolean): boolean {
+  const doc: Document = parseDocument(readFileSync(file, 'utf8'));
+  if (doc.errors.length > 0) throw doc.errors[0];
+  if (!isSeq(doc.contents)) throw new Error(`${file} : liste YAML attendue.`);
+  let changed = false;
+  for (const item of doc.contents.items) if (isMap(item) && edit(item)) changed = true;
+  if (changed) writeFileSync(file, doc.toString({ lineWidth: 0 }), 'utf8');
+  return changed;
 }
 
 /** Toutes les questions du corpus, tous fichiers confondus, avec leur fichier. */

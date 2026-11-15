@@ -3,7 +3,7 @@ import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { MAX_VERSIONS } from '@/core/dataset';
 import { fail, info, parseCli, resolvePaths, runCli, today, usage, warn, type DataPaths } from './lib/cli';
-import { allPositions, readYamlRaw, writeYaml } from './lib/corpus';
+import { allPositions, editYamlListItems } from './lib/corpus';
 import { isScaleValue, sourceIndex } from './lib/positions';
 import { buildDetail, buildMain, serialize } from './lib/publish/build';
 import { diffAgainstCurrent } from './lib/publish/diff';
@@ -101,20 +101,20 @@ export async function publish(paths: DataPaths, opts: PublishOptions = {}): Prom
   const nowActive = new Set(main.questions.map((q) => q.id));
   for (const [theme] of corpus.questions) {
     const file = join(paths.corpusDir, 'questions', `${theme}.yaml`);
-    const raw = readYamlRaw(file) as Record<string, unknown>[];
-    let changed = false;
-    for (const q of raw) {
-      const id = String(q.id);
-      if (nowActive.has(id) && q.introducedIn === undefined) {
-        q.introducedIn = version;
+    // Édition sur le document YAML : commentaires de relecture et mise en forme conservés.
+    editYamlListItems(file, (q) => {
+      const id = String(q.get('id'));
+      let changed = false;
+      if (nowActive.has(id) && !q.has('introducedIn')) {
+        q.set('introducedIn', version);
         changed = true;
       }
-      if (previous.has(id) && !nowActive.has(id) && q.retiredIn === undefined) {
-        q.retiredIn = version;
+      if (previous.has(id) && !nowActive.has(id) && !q.has('retiredIn')) {
+        q.set('retiredIn', version);
         changed = true;
       }
-    }
-    if (changed) writeYaml(file, raw);
+      return changed;
+    });
   }
   return { kind: 'published', version, differences, files, warnings };
 }
