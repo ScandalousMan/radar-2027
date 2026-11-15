@@ -1,6 +1,6 @@
 # Banque de questions, thème principal « education » (spec 006, FR-001 à FR-009).
-# Brouillons (draft) rédigés par `claude` à partir des mesures des candidats (dossier
-# data/campagnes/education/enonces.md) ; activation après relecture par adrien et grille de
+# Rédigés par `claude` à partir des mesures des candidats (dossier
+# data/campagnes/education/enonces.md) ; relus et validés par adrien le 2026-11-15, grille de
 # neutralité cochée. Chaque question porte la dimension de l'axe composite (règle AXIS-DIM).
 
 # Dimension « choix », sous-thème « privé sous contrat ». Motivé par : M126, M115, M306, M058.
@@ -11,8 +11,16 @@
     - education
   dimension: choix
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 
 # Dimension « choix », sous-thème « privé sous contrat ». Motivé par : M127, M289, M172, M030, M123.
 # Accord attendu : François Ruffin M127 ; Raphaël Glucksmann M289 ; Jean-Luc Mélenchon M172 ; Marine Tondelier M030. Désaccord attendu : David Lisnard M123.
@@ -22,8 +30,16 @@
     - education
   dimension: choix
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 
 # Dimension « choix », sous-thème « carte scolaire ». Motivé par : M114, M122, M200, M273.
 # Accord attendu : David Lisnard M114 ; David Lisnard M122. Désaccord attendu : Jean-Luc Mélenchon M200 ; Raphaël Glucksmann M273.
@@ -33,8 +49,16 @@
     - education
   dimension: choix
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 
 # Dimension « choix », sous-thème « enseignement supérieur et sélection ». Motivé par : M173, M297, M247, M051, M238, M024, M073.
 # Accord attendu : Jean-Luc Mélenchon M173 ; Fabien Roussel M297 ; Anasse Kazib M247 ; Marine Tondelier M051. Désaccord attendu : Gabriel Attal M238 ; Édouard Philippe M024 ; Bruno Retailleau M073.
@@ -44,8 +68,16 @@
     - education
   dimension: choix
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 
 # Dimension « moyens », sous-thème « postes et effectifs ». Motivé par : M232, M314, M288, M135, M266, M092, M068.
 # Accord attendu : Gabriel Attal M232 ; Fabien Roussel M314 ; Raphaël Glucksmann M288 ; François Ruffin M135 ; Marine Le Pen M266. Désaccord attendu : Bruno Retailleau M092 ; Bruno Retailleau M068.
@@ -55,8 +87,16 @@
     - education
   dimension: moyens
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 
 # Dimension « moyens », sous-thème « rémunération des enseignants ». Motivé par : M001, M049, M148, M299, M125, M067.
 # Accord attendu : Édouard Philippe M001 ; Marine Tondelier M049 ; Nicolas Dupont-Aignan M148 ; Fabien Roussel M299 ; David Lisnard M125. Désaccord attendu : Bruno Retailleau M067.
@@ -66,8 +106,16 @@
     - education
   dimension: moyens
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 
 # Dimension « moyens », sous-thème « rémunération des enseignants ». Motivé par : M311, M253, M125, M321.
 # Accord attendu : Fabien Roussel M311 ; Marine Le Pen M253. Désaccord attendu : David Lisnard M125 ; Éric Zemmour M321.
@@ -77,8 +125,16 @@
     - education
   dimension: moyens
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 
 # Dimension « moyens », sous-thème « enseignement supérieur et frais d'inscription ». Motivé par : M088, M023, M199.
 # Accord attendu : Bruno Retailleau M088 ; Édouard Philippe M023. Désaccord attendu : Jean-Luc Mélenchon M199.
@@ -88,8 +144,16 @@
     - education
   dimension: moyens
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 
 # Dimension « pedagogie », sous-thème « examens ». Motivé par : M145, M124, M329, M236.
 # Accord attendu : Nicolas Dupont-Aignan M145 ; David Lisnard M124 ; Éric Zemmour M329. Désaccord attendu : Gabriel Attal M236.
@@ -99,8 +163,16 @@
     - education
   dimension: pedagogie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 
 # Dimension « pedagogie », sous-thème « collège ». Motivé par : M234, M070, M146, M316, M032, M175, M141.
 # Accord attendu : Gabriel Attal M234 ; Bruno Retailleau M070 ; Nicolas Dupont-Aignan M146 ; Éric Zemmour M316. Désaccord attendu : Marine Tondelier M032 ; Jean-Luc Mélenchon M175 ; François Ruffin M141.
@@ -110,8 +182,16 @@
     - education
   dimension: pedagogie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 
 # Dimension « pedagogie », sous-thème « collège et orientation ». Motivé par : M090, M202, M327, M251, M141.
 # Accord attendu : Bruno Retailleau M090 ; Florian Philippot M202 ; Éric Zemmour M327 ; Marine Le Pen M251. Désaccord attendu : François Ruffin M141.
@@ -121,8 +201,16 @@
     - education
   dimension: pedagogie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 
 # Dimension « pedagogie », sous-thème « autorité et vie scolaire ». Motivé par : M143, M208, M258, M174, M016.
 # Accord attendu : Nicolas Dupont-Aignan M143 ; Florian Philippot M208 ; Marine Le Pen M258. Désaccord attendu : Jean-Luc Mélenchon M174 ; Édouard Philippe M016.
@@ -132,8 +220,16 @@
     - education
   dimension: pedagogie
   polarity: "-"
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true
 
 # Dimension « pedagogie », sous-thème « évaluation ». Motivé par : M129, M095, M168, M097.
 # Accord attendu : François Ruffin M129. Désaccord attendu : Bruno Retailleau M095 ; Nicolas Dupont-Aignan M168 ; François Asselineau M097.
@@ -143,5 +239,13 @@
     - education
   dimension: pedagogie
   polarity: +
-  status: draft
+  status: active
   author: claude
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  neutralityChecklist:
+    no-loaded-term: true
+    no-presupposition: true
+    no-person-or-party: true
+    single-claim: true
+    both-ends-defensible: true

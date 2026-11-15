@@ -348,7 +348,7 @@ Mesures tirées des sources du journal `sources.md` (sources nouvelles et source
 - Motivé par : M126, M115, M306, M058
 - Accord attendu : David Lisnard (M126) ; David Lisnard (M115)
 - Désaccord attendu : Fabien Roussel (M306) ; Juan Branco (M058)
-- Revue adverse (sonnet, 2026-11-15) : garder ; texte retouché (formulation proposée) ; Mélenchon (malus) retiré des désaccords, ce n'est pas un refus net · Relecture adrien : à faire
+- Revue adverse (sonnet, 2026-11-15) : garder ; texte retouché (formulation proposée) ; Mélenchon (malus) retiré des désaccords, ce n'est pas un refus net · Relecture adrien (2026-11-15) : validé tel quel, axe et dimensions compris
 
 ### education-prive-financement-mixite
 
@@ -357,7 +357,7 @@ Mesures tirées des sources du journal `sources.md` (sources nouvelles et source
 - Motivé par : M127, M289, M172, M030, M123
 - Accord attendu : François Ruffin (M127) ; Raphaël Glucksmann (M289) ; Jean-Luc Mélenchon (M172) ; Marine Tondelier (M030)
 - Désaccord attendu : David Lisnard (M123)
-- Revue adverse (sonnet, 2026-11-15) : reformuler : « dépendre » était indéterminé ; Retailleau et Zemmour retirés des désaccords (la règle 80-20 ne porte pas sur la mixité) ; seul Lisnard en désaccord sourcé · Relecture adrien : à faire
+- Revue adverse (sonnet, 2026-11-15) : reformuler : « dépendre » était indéterminé ; Retailleau et Zemmour retirés des désaccords (la règle 80-20 ne porte pas sur la mixité) ; seul Lisnard en désaccord sourcé · Relecture adrien (2026-11-15) : validé tel quel, axe et dimensions compris
 
 ### education-carte-scolaire-suppression
 
@@ -366,7 +366,7 @@ Mesures tirées des sources du journal `sources.md` (sources nouvelles et source
 - Motivé par : M114, M122, M200, M273
 - Accord attendu : David Lisnard (M114) ; David Lisnard (M122)
 - Désaccord attendu : Jean-Luc Mélenchon (M200) ; Raphaël Glucksmann (M273)
-- Revue adverse (sonnet, 2026-11-15) : garder ; désaccord Mélenchon (« nouvelle version de la carte scolaire ») ajouté, Branco (refonte) retiré · Relecture adrien : à faire
+- Revue adverse (sonnet, 2026-11-15) : garder ; désaccord Mélenchon (« nouvelle version de la carte scolaire ») ajouté, Branco (refonte) retiré · Relecture adrien (2026-11-15) : validé tel quel, axe et dimensions compris
 
 ### education-universite-sans-selection
 
@@ -375,7 +375,7 @@ Mesures tirées des sources du journal `sources.md` (sources nouvelles et source
 - Motivé par : M173, M297, M247, M051, M238, M024, M073
 - Accord attendu : Jean-Luc Mélenchon (M173) ; Fabien Roussel (M297) ; Anasse Kazib (M247) ; Marine Tondelier (M051)
 - Désaccord attendu : Gabriel Attal (M238) ; Édouard Philippe (M024) ; Bruno Retailleau (M073)
-- Revue adverse (sonnet, 2026-11-15) : garder ; Lisnard (paragraphe ambigu) et Le Pen (transparence des critères) retirés des désaccords ; réserve : le « choix » de l'étudiant est ici du côté + · Relecture adrien : à faire
+- Revue adverse (sonnet, 2026-11-15) : garder ; Lisnard (paragraphe ambigu) et Le Pen (transparence des critères) retirés des désaccords ; réserve : le « choix » de l'étudiant est ici du côté + · Relecture adrien (2026-11-15) : validé tel quel, axe et dimensions compris
 
 ### education-postes-baisse-demographique
 
@@ -384,7 +384,7 @@ Mesures tirées des sources du journal `sources.md` (sources nouvelles et source
 - Motivé par : M232, M314, M288, M135, M266, M092, M068
 - Accord attendu : Gabriel Attal (M232) ; Fabien Roussel (M314) ; Raphaël Glucksmann (M288) ; François Ruffin (M135) ; Marine Le Pen (M266)
 - Désaccord attendu : Bruno Retailleau (M092) ; Bruno Retailleau (M068)
-- Revue adverse (sonnet, 2026-11-15) : reformuler : l'ancienne version combinait deux propositions ; Le Pen 2022 (compensation par la fin du collège unique) retirée ; risque de quasi-consensus à vérifier en T038 · Relecture adrien : à faire
+- Revue adverse (sonnet, 2026-11-15) : reformuler : l'ancienne version combinait deux propositions ; Le Pen 2022 (compensation par la fin du collège unique) retirée ; risque de quasi-consensus à vérifier en T038 · Relecture adrien (2026-11-15) : validé tel quel, axe et dimensions compris
 
 ### education-salaires-enseignants-15-pourcent
 
@@ -393,7 +393,7 @@ Mesures tirées des sources du journal `sources.md` (sources nouvelles et source
 - Motivé par : M001, M049, M148, M299, M125, M067
 - Accord attendu : Édouard Philippe (M001) ; Marine Tondelier (M049) ; Nicolas Dupont-Aignan (M148) ; Fabien Roussel (M299) ; David Lisnard (M125)
 - Désaccord attendu : Bruno Retailleau (M067)
-- Revue adverse (sonnet, 2026-11-15) : reformuler (« l'ensemble des enseignants ») ; désaccord de Retailleau déduit par calcul (135 € nets en début de carrière), à confirmer en relecture ; discrimination faible · Relecture adrien : à faire
+- Revue adverse (sonnet, 2026-11-15) : reformuler (« l'ensemble des enseignants ») ; désaccord de Retailleau déduit par calcul (135 € nets en début de carrière), à confirmer en relecture ; discrimination faible · Relecture adrien (2026-11-15) : validé tel quel, axe et dimensions compris
 
 ### education-revalorisation-identique-pour-tous
 
@@ -402,7 +402,7 @@ Mesures tirées des sources du journal `sources.md` (sources nouvelles et source
 - Motivé par : M311, M253, M125, M321
 - Accord attendu : Fabien Roussel (M311) ; Marine Le Pen (M253)
 - Désaccord attendu : David Lisnard (M125) ; Éric Zemmour (M321)
-- Revue adverse (sonnet, 2026-11-15) : reformuler : l'ancienne version portait trois propositions et « mérite » seul était connoté ; Glucksmann retiré des accords (ne dit pas que la hausse est uniforme) ; dimension « moyens » discutable · Relecture adrien : à faire
+- Revue adverse (sonnet, 2026-11-15) : reformuler : l'ancienne version portait trois propositions et « mérite » seul était connoté ; Glucksmann retiré des accords (ne dit pas que la hausse est uniforme) ; dimension « moyens » discutable · Relecture adrien (2026-11-15) : validé tel quel, axe et dimensions compris
 
 ### education-frais-inscription-etudiants-etrangers
 
@@ -411,7 +411,7 @@ Mesures tirées des sources du journal `sources.md` (sources nouvelles et source
 - Motivé par : M088, M023, M199
 - Accord attendu : Bruno Retailleau (M088) ; Édouard Philippe (M023)
 - Désaccord attendu : Jean-Luc Mélenchon (M199)
-- Revue adverse (sonnet, 2026-11-15) : garder ; texte précisé (comparaison avec les étudiants européens) ; lien avec l'école faible, dimension moyens retenue · Relecture adrien : à faire
+- Revue adverse (sonnet, 2026-11-15) : garder ; texte précisé (comparaison avec les étudiants européens) ; lien avec l'école faible, dimension moyens retenue · Relecture adrien (2026-11-15) : validé tel quel, axe et dimensions compris
 
 ### education-examen-entree-college
 
@@ -420,7 +420,7 @@ Mesures tirées des sources du journal `sources.md` (sources nouvelles et source
 - Motivé par : M145, M124, M329, M236
 - Accord attendu : Nicolas Dupont-Aignan (M145) ; David Lisnard (M124) ; Éric Zemmour (M329)
 - Désaccord attendu : Gabriel Attal (M236)
-- Revue adverse (sonnet, 2026-11-15) : garder ; Ruffin retiré des désaccords (il vise le brevet, pas l'entrée en 6e) ; Attal, désaccord explicite · Relecture adrien : à faire
+- Revue adverse (sonnet, 2026-11-15) : garder ; Ruffin retiré des désaccords (il vise le brevet, pas l'entrée en 6e) ; Attal, désaccord explicite · Relecture adrien (2026-11-15) : validé tel quel, axe et dimensions compris
 
 ### education-groupes-de-niveau-college
 
@@ -429,7 +429,7 @@ Mesures tirées des sources du journal `sources.md` (sources nouvelles et source
 - Motivé par : M234, M070, M146, M316, M032, M175, M141
 - Accord attendu : Gabriel Attal (M234) ; Bruno Retailleau (M070) ; Nicolas Dupont-Aignan (M146) ; Éric Zemmour (M316)
 - Désaccord attendu : Marine Tondelier (M032) ; Jean-Luc Mélenchon (M175) ; François Ruffin (M141)
-- Revue adverse (sonnet, 2026-11-15) : garder ; très discriminant · Relecture adrien : à faire
+- Revue adverse (sonnet, 2026-11-15) : garder ; très discriminant · Relecture adrien (2026-11-15) : validé tel quel, axe et dimensions compris
 
 ### education-orientation-professionnelle-avant-fin-college
 
@@ -438,7 +438,7 @@ Mesures tirées des sources du journal `sources.md` (sources nouvelles et source
 - Motivé par : M090, M202, M327, M251, M141
 - Accord attendu : Bruno Retailleau (M090) ; Florian Philippot (M202) ; Éric Zemmour (M327) ; Marine Le Pen (M251)
 - Désaccord attendu : François Ruffin (M141)
-- Revue adverse (sonnet, 2026-11-15) : reformuler : « dès 14 ans » ne valait que pour Retailleau et Philippot ; désaccord Ruffin (refus du tri précoce, fin du collège unique) · Relecture adrien : à faire
+- Revue adverse (sonnet, 2026-11-15) : reformuler : « dès 14 ans » ne valait que pour Retailleau et Philippot ; désaccord Ruffin (refus du tri précoce, fin du collège unique) · Relecture adrien (2026-11-15) : validé tel quel, axe et dimensions compris
 
 ### education-uniforme-obligatoire
 
@@ -447,7 +447,7 @@ Mesures tirées des sources du journal `sources.md` (sources nouvelles et source
 - Motivé par : M143, M208, M258, M174, M016
 - Accord attendu : Nicolas Dupont-Aignan (M143) ; Florian Philippot (M208) ; Marine Le Pen (M258)
 - Désaccord attendu : Jean-Luc Mélenchon (M174) ; Édouard Philippe (M016)
-- Revue adverse (sonnet, 2026-11-15) : garder ; Zemmour retiré des accords (blouse au primaire seulement) · Relecture adrien : à faire
+- Revue adverse (sonnet, 2026-11-15) : garder ; Zemmour retiré des accords (blouse au primaire seulement) · Relecture adrien (2026-11-15) : validé tel quel, axe et dimensions compris
 
 ### education-notes-evaluation-alternative
 
@@ -456,11 +456,11 @@ Mesures tirées des sources du journal `sources.md` (sources nouvelles et source
 - Motivé par : M129, M095, M168, M097
 - Accord attendu : François Ruffin (M129)
 - Désaccord attendu : Bruno Retailleau (M095) ; Nicolas Dupont-Aignan (M168) ; François Asselineau (M097)
-- Revue adverse (sonnet, 2026-11-15) : garder avec réserve (un seul accord, Ruffin) ; Zemmour remplacé par Dupont-Aignan et Asselineau en désaccord · Relecture adrien : à faire
+- Revue adverse (sonnet, 2026-11-15) : garder avec réserve (un seul accord, Ruffin) ; Zemmour remplacé par Dupont-Aignan et Asselineau en désaccord · Relecture adrien (2026-11-15) : validé tel quel, axe et dimensions compris
 
 ## Bilan
 
-Bilan provisoire (après revue adverse, avant relecture par adrien) :
+Bilan (énoncés actifs après relecture par adrien, 2026-11-15) :
 
 | Dimension | Fiches | + | − |
 |---|---|---|---|
