@@ -17,6 +17,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-referendum-exceptionnel
@@ -34,6 +35,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: democratie-conventions-citoyennes
   text: Des conventions citoyennes tirées au sort doivent être consultées avant les grandes réformes.
   themes:
@@ -49,6 +51,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (democratie-assemblees-tirees-consultatives) : Les assemblées citoyennes tirées au sort doivent conserver un rôle uniquement consultatif.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
@@ -67,6 +70,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: democratie-vote-blanc-exprime
   text: Le vote blanc doit être pris en compte dans les suffrages exprimés.
   themes:
@@ -82,6 +86,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (democratie-referendum-reserve-elus) : La décision de convoquer un référendum doit rester réservée au président de la République et au Parlement.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
@@ -101,6 +106,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: democratie-referendum-local-initiative
   text: Les habitants d'une commune doivent pouvoir imposer l'organisation d'un référendum local par une pétition.
   themes:
@@ -116,6 +122,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-budget-participatif-communes
@@ -133,6 +140,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: democratie-referendum-revocatoire
   text: Les électeurs doivent pouvoir révoquer un élu en cours de mandat par référendum.
   themes:
@@ -148,6 +156,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: democratie-vote-16-ans
   text: Le droit de vote doit être accordé dès 16 ans.
   themes:
@@ -163,6 +172,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: democratie-petition-debat-parlement
   text: Une pétition signée par un million de personnes doit obligatoirement être débattue en séance au Parlement.
   themes:
@@ -178,6 +188,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: democratie-chambre-tiree-au-sort
   text: Des citoyens tirés au sort doivent siéger dans une chambre du Parlement aux côtés des élus.
   themes:
@@ -194,6 +205,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: democratie-supprimer-cese
   text: Le Conseil économique, social et environnemental doit être supprimé.
   themes:
@@ -210,6 +222,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (democratie-seuil-rip-maintenu) : Le référendum d'initiative partagée doit continuer d'exiger le soutien d'un dixième des électeurs inscrits.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
@@ -228,6 +241,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-parrainages-elus-maintenus
@@ -245,6 +259,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: democratie-raccourcir-consultations-public
@@ -262,6 +277,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: democratie-supprimer-cndp
   text: La Commission nationale du débat public doit être supprimée.
   themes:
@@ -277,6 +293,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Texte v4 (revue adverse n° 1) : Le référendum doit rester limité aux sujets actuels : institutions, réformes économiques, sociales ou environnementales, services publics et certains traités.
@@ -297,6 +314,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Retiré par la revue corrective du 2026-11-11 : democratie-cours-criminelles-sans-jury (REJECT_OFF_AXIS, voir data/relectures/2026-11-11-revue-corrective.md).
 # Il remplaçait democratie-quorum-referendum (retiré par la revue n° 2).
 # Texte retiré : Les crimes punis de 15 ou 20 ans de réclusion doivent continuer à être jugés par des magistrats sans jury populaire, dans les cours criminelles départementales.
@@ -319,3 +337,4 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1

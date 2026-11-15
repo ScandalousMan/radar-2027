@@ -17,6 +17,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: defense-reduire-presence-etranger
   text: La France doit réduire sa présence militaire à l'étranger.
   themes:
@@ -33,6 +34,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: defense-armes-ukraine
   text: La France doit livrer davantage d'armes à l'Ukraine.
   themes:
@@ -49,6 +51,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: defense-renoncer-modernisation-dissuasion
   text: La France doit renoncer à moderniser sa dissuasion nucléaire.
   themes:
@@ -64,6 +67,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: defense-defense-europeenne-emprunt
   text: Une défense européenne commune doit être financée par un emprunt de l'Union européenne.
   themes:
@@ -79,6 +83,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : CHANGE_AXIS.
 # Affectation proposée, à confirmer : thème institutions, polarité +.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
@@ -97,6 +102,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: defense-effectifs-armees-hausse
   text: Les effectifs des armées doivent augmenter d'au moins 10 % d'ici 2030.
   themes:
@@ -112,6 +118,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (defense-dissuasion-protection-europe) : La dissuasion nucléaire française doit couvrir explicitement la protection des autres pays européens.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
@@ -131,6 +138,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: defense-second-porte-avions
   text: La France doit se doter d'un second porte-avions.
   themes:
@@ -146,6 +154,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (defense-troupes-ukraine-cessez-le-feu) : La France doit être prête à déployer des troupes en Ukraine pour garantir un cessez-le-feu.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
@@ -165,6 +174,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: defense-doubler-reservistes
   text: Le nombre de réservistes opérationnels des armées doit être doublé.
   themes:
@@ -180,6 +190,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: defense-livret-a-industrie-defense
@@ -198,6 +209,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: defense-traite-interdiction-armes-nucleaires
   text: La France doit signer le traité sur l'interdiction des armes nucléaires.
   themes:
@@ -214,6 +226,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: defense-cesser-ventes-armes-conflits
   text: La France doit cesser de vendre des armes aux États engagés dans un conflit armé.
   themes:
@@ -230,6 +243,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: defense-reduire-budget-armees
   text: Le budget des armées doit être réduit en proportion du PIB.
   themes:
@@ -245,6 +259,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: defense-fermer-bases-afrique
   text: La France doit fermer ses bases militaires en Afrique.
   themes:
@@ -261,6 +276,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: defense-priorite-depenses-sociales
   text: Les dépenses sociales doivent passer avant les dépenses militaires dans le budget de l'État.
   themes:
@@ -276,3 +292,4 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
