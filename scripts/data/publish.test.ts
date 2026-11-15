@@ -41,6 +41,24 @@ describe('data:publish', () => {
     await expect(publish(paths, { next: true, date: '2026-11-11' })).rejects.toThrow(/Rien à publier/);
   });
 
+  it('conserve commentaires, guillemets et lignes vides des fichiers de questions : seules les lignes introducedIn sont ajoutées', async () => {
+    const paths = await tempFixture();
+    const file = join(paths.corpusDir, 'questions', 'economie.yaml');
+    const original = (await readFile(file, 'utf8'))
+      .replace('- id: economie-q01', '# En-tête de traçabilité.\n\n# Relecture du 2026-11-10 : validé.\n- id: economie-q01')
+      .replace('  text: Énoncé de test numéro 1 du thème Économie.', '  text: "Énoncé de test numéro 1 du thème Économie."')
+      .replace('- id: economie-q02', '\n# Texte d’origine : ancien énoncé.\n- id: economie-q02');
+    await writeFile(file, original);
+
+    await publish(paths, { next: true, date: '2026-11-10' });
+    const after = await readFile(file, 'utf8');
+    // Retirer les lignes ajoutées redonne exactement le fichier d'origine.
+    expect(after.split('\n').filter((l) => l !== '  introducedIn: 1').join('\n')).toBe(original);
+    expect(after).toContain('# Relecture du 2026-11-10 : validé.\n- id: economie-q01');
+    expect(after).toContain('  introducedIn: 1\n\n# Texte d’origine : ancien énoncé.\n- id: economie-q02');
+    expect(parse(after).every((q: { introducedIn?: number }) => q.introducedIn === 1)).toBe(true);
+  });
+
   it('un octet modifié dans une version publiée ⇒ PUB-IMMUTABLE', async () => {
     const paths = await tempFixture();
     await publish(paths, { next: true, date: '2026-11-10' });

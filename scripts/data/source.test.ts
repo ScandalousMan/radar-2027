@@ -3,7 +3,7 @@ import { cp, mkdtemp, readFile, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { parse } from 'yaml';
+import { parse, stringify } from 'yaml';
 import { resolvePaths } from './lib/cli';
 import { addSource, checkSources, precisionOf, slugify, type FetchLike } from './source';
 
@@ -88,6 +88,27 @@ describe('data:source', () => {
     expect(list[0].unreachableSince).toBe('2026-11-08');
     const again = await checkSources(paths, { online: true }, fakeFetch(200));
     expect(again.recovered).toHaveLength(3);
+  });
+
+  it('fetch puis check : commentaires, guillemets et fin de fichier conservés, seules les lignes nouvelles apparaissent', async () => {
+    const paths = await tempFixture();
+    const file = join(paths.corpusDir, 'sources', 'martin.yaml');
+    const original = `# En-tête de traçabilité.\n\n${(await readFile(file, 'utf8'))
+      .replace('  title: Entretien de candidature', '  title: "Entretien de candidature" # titre exact')
+      .trimEnd()}\n\n`;
+    await writeFile(file, original);
+
+    const txt = join(paths.rootDir, 'texte.txt');
+    await writeFile(txt, 'Texte de la tribune suffisamment long pour être conservé.');
+    await addSource(paths, { url: 'https://exemple.fr/martin/tribune', candidates: ['martin'], kind: 'declaration_vote', title: 'Tribune', published: '2026-10', fromFile: txt, now: new Date('2026-11-08T10:00:00Z') });
+    const afterFetch = await readFile(file, 'utf8');
+    // Nouvel élément ajouté à la fin, mis en forme comme avant (stringify) ; le reste du texte est intact.
+    expect(afterFetch).toBe(`${original.trimEnd()}\n${stringify([parse(afterFetch).at(-1)], { lineWidth: 0 }).trimEnd()}\n\n`);
+
+    await checkSources(paths, { online: true, now: new Date('2026-11-09T00:00:00Z') }, fakeFetch(404));
+    const afterCheck = await readFile(file, 'utf8');
+    expect(afterCheck.split('\n').filter((l) => l !== '  unreachableSince: 2026-11-09').join('\n')).toBe(afterFetch);
+    expect(parse(afterCheck).every((s: { unreachableSince?: string }) => s.unreachableSince === '2026-11-09')).toBe(true);
   });
 
   it('check : détecte un texte de cache modifié', async () => {

@@ -3,7 +3,7 @@ import { existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { readCached, writeCached } from './lib/cache';
 import { fail, info, parseCli, resolvePaths, runCli, today, usage, warn, type DataPaths } from './lib/cli';
-import { allSources, loadCorpus, readYamlRaw, writeYaml } from './lib/corpus';
+import { allSources, appendYamlListItem, editYamlListItems, loadCorpus, readYamlRaw, setYamlKeys } from './lib/corpus';
 import { textFromBuffer } from './lib/extract-text';
 import { EvidenceKindSchema, ID_PATTERN, type EvidenceKind } from './lib/schema';
 import { normalize, sha256 } from './lib/text';
@@ -89,7 +89,6 @@ export async function addSource(paths: DataPaths, opts: AddSourceOptions, fetchI
   const fileName = opts.candidates.length === 1 ? `${opts.candidates[0]}.yaml` : 'commun.yaml';
   mkdirSync(join(paths.corpusDir, 'sources'), { recursive: true });
   const file = join(paths.corpusDir, 'sources', fileName);
-  const list = readList(file);
   const entry = {
     id,
     url: opts.url,
@@ -100,8 +99,7 @@ export async function addSource(paths: DataPaths, opts: AddSourceOptions, fetchI
     candidates: opts.candidates,
     contentHash,
   };
-  list.push(entry);
-  writeYaml(file, list);
+  appendYamlListItem(file, entry);
   return { id, file, contentHash, characters: normalized.length };
 }
 
@@ -131,9 +129,8 @@ export async function checkSources(
   const dir = join(paths.corpusDir, 'sources');
   for (const [name] of corpus.sources) {
     const file = join(dir, `${name}.yaml`);
-    const list = readList(file);
-    let changed = false;
-    for (const entry of list) {
+    const newlyUnreachable = new Set<string>();
+    for (const entry of readList(file)) {
       const url = String(entry.url ?? '');
       let ok = false;
       try {
@@ -145,15 +142,18 @@ export async function checkSources(
       }
       if (!ok) {
         result.unreachable.push(String(entry.id));
-        if (!entry.unreachableSince) {
-          entry.unreachableSince = today(opts.now);
-          changed = true;
-        }
+        if (!entry.unreachableSince) newlyUnreachable.add(String(entry.id));
       } else if (entry.unreachableSince) {
         result.recovered.push(String(entry.id));
       }
     }
-    if (changed) writeYaml(file, list);
+    // Édition sur le document YAML : commentaires et mise en forme du fichier conservés.
+    if (newlyUnreachable.size > 0)
+      editYamlListItems(file, (entry) => {
+        if (!newlyUnreachable.has(String(entry.get('id')))) return false;
+        setYamlKeys(entry, { unreachableSince: today(opts.now) });
+        return true;
+      });
   }
   return result;
 }
