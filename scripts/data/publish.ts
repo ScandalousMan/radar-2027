@@ -3,7 +3,7 @@ import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { MAX_VERSIONS } from '@/core/dataset';
 import { fail, info, parseCli, resolvePaths, runCli, today, usage, warn, type DataPaths } from './lib/cli';
-import { allPositions, editYamlListItems } from './lib/corpus';
+import { allPositions, editYamlListItems, setYamlKeys } from './lib/corpus';
 import { isScaleValue, sourceIndex } from './lib/positions';
 import { buildDetail, buildMain, serialize } from './lib/publish/build';
 import { diffAgainstCurrent } from './lib/publish/diff';
@@ -106,11 +106,11 @@ export async function publish(paths: DataPaths, opts: PublishOptions = {}): Prom
       const id = String(q.get('id'));
       let changed = false;
       if (nowActive.has(id) && !q.has('introducedIn')) {
-        q.set('introducedIn', version);
+        setYamlKeys(q, { introducedIn: version });
         changed = true;
       }
       if (previous.has(id) && !nowActive.has(id) && !q.has('retiredIn')) {
-        q.set('retiredIn', version);
+        setYamlKeys(q, { retiredIn: version });
         changed = true;
       }
       return changed;

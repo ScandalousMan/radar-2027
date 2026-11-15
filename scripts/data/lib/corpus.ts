@@ -3,7 +3,7 @@
 // et chaque erreur Zod devient une violation `SCHEMA` désignant `<fichier>:<chemin>`.
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { basename, join, relative } from 'node:path';
-import { isMap, isSeq, parse, parseDocument, stringify, type Document, type YAMLMap } from 'yaml';
+import { isMap, isScalar, isSeq, parse, parseDocument, stringify, type Document, type YAMLMap } from 'yaml';
 import type { z } from 'zod';
 import {
   CandidateSchema,
@@ -144,17 +144,33 @@ export function writeYaml(file: string, value: unknown): void {
 
 /**
  * Modifie sur place les éléments (mappings) d'un fichier YAML liste en conservant commentaires,
- * guillemets et lignes vides : seules les clés touchées par `edit` changent dans le texte.
+ * guillemets, lignes vides et fin de fichier : seules les clés touchées par `edit` changent dans le texte.
  * `edit` renvoie `true` s'il a modifié l'élément ; le fichier n'est réécrit que dans ce cas.
  */
 export function editYamlListItems(file: string, edit: (item: YAMLMap<unknown, unknown>) => boolean): boolean {
-  const doc: Document = parseDocument(readFileSync(file, 'utf8'));
+  const text = readFileSync(file, 'utf8');
+  const doc: Document = parseDocument(text);
   if (doc.errors.length > 0) throw doc.errors[0];
   if (!isSeq(doc.contents)) throw new Error(`${file} : liste YAML attendue.`);
   let changed = false;
   for (const item of doc.contents.items) if (isMap(item) && edit(item)) changed = true;
-  if (changed) writeFileSync(file, doc.toString({ lineWidth: 0 }), 'utf8');
+  if (changed) {
+    const tail = /\s*$/.exec(text)?.[0] ?? '';
+    writeFileSync(file, doc.toString({ lineWidth: 0 }).replace(/\s*$/, '') + tail, 'utf8');
+  }
   return changed;
+}
+
+/**
+ * Affecte des clés scalaires d'un élément YAML : valeur remplacée en place si la clé existe
+ * (commentaire de ligne conservé), clé ajoutée en fin d'élément sinon (comme `Object.assign`).
+ */
+export function setYamlKeys(item: YAMLMap<unknown, unknown>, values: Record<string, string | number | boolean>): void {
+  for (const [key, value] of Object.entries(values)) {
+    const node = item.get(key, true);
+    if (isScalar(node)) node.value = value;
+    else item.set(key, value);
+  }
 }
 
 /** Toutes les questions du corpus, tous fichiers confondus, avec leur fichier. */
