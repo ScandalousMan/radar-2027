@@ -17,6 +17,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: transport-concurrence-ferroviaire
   text: Le transport ferroviaire de voyageurs doit être davantage ouvert à la concurrence.
   themes:
@@ -32,6 +33,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: transport-gratuite-transports-urbains
   text: Les transports en commun urbains doivent être gratuits pour les usagers.
   themes:
@@ -47,6 +49,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: transport-routes-90-kmh
   text: La limitation de vitesse sur les routes secondaires doit être relevée à 90 km/h partout.
   themes:
@@ -62,6 +65,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: transport-taxe-kilometrique-poids-lourds
   text: Les poids lourds doivent payer une taxe kilométrique sur le réseau routier.
   themes:
@@ -77,6 +81,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (transport-autoroutes-concedees) : Les autoroutes doivent rester concédées à des sociétés privées.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
@@ -95,6 +100,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: transport-trains-de-nuit
   text: L'État doit financer l'ouverture de nouvelles lignes de trains de nuit.
   themes:
@@ -110,6 +116,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-petites-lignes-maintenues
@@ -127,6 +134,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: transport-subventionner-fret-ferroviaire
   text: L'État doit subventionner le fret ferroviaire pour qu'il puisse concurrencer le transport routier.
   themes:
@@ -142,6 +150,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: transport-milliard-amenagements-cyclables
   text: L'État doit consacrer au moins un milliard d'euros par an aux aménagements cyclables.
   themes:
@@ -157,6 +166,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-abonnement-national-unique
@@ -174,6 +184,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (transport-sncf-entreprise-publique) : La SNCF doit rester une entreprise entièrement publique.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
@@ -193,6 +204,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: transport-baisser-taxe-billets-avion
   text: La taxe sur les billets d'avion doit être réduite.
   themes:
@@ -209,6 +221,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: transport-voitures-centres-villes-libres
@@ -226,6 +239,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: transport-abandonner-nouvelles-lgv
   text: La construction de nouvelles lignes à grande vitesse doit être abandonnée.
   themes:
@@ -241,6 +255,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: transport-supprimer-subventions-aeroports
   text: Les subventions publiques aux aéroports régionaux doivent être supprimées.
   themes:
@@ -256,6 +271,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (transport-supprimer-controle-technique-motos) : Le contrôle technique des deux-roues motorisés doit être supprimé.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
@@ -274,3 +290,4 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1

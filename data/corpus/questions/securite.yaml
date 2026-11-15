@@ -18,6 +18,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : OUT_OF_SCOPE.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-recepisse-controles-identite
@@ -35,6 +36,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: securite-hausse-effectifs-police
   text: Les effectifs de police et de gendarmerie doivent augmenter d'au moins 10 % sur le quinquennat.
   themes:
@@ -50,6 +52,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: securite-interdire-lbd-manifestations
   text: L'usage des lanceurs de balles de défense doit être interdit lors des manifestations.
   themes:
@@ -65,6 +68,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: securite-pouvoirs-polices-municipales
   text: Les polices municipales doivent recevoir les mêmes pouvoirs d'enquête que la police nationale.
   themes:
@@ -80,6 +84,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-budget-vers-prevention
@@ -97,6 +102,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: securite-videosurveillance-algorithmique
   text: La vidéosurveillance algorithmique doit être autorisée de façon permanente dans l'espace public.
   themes:
@@ -113,6 +119,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: securite-presomption-legitime-defense
   text: Les policiers doivent bénéficier d'une présomption de légitime défense lorsqu'ils font usage de leur arme.
   themes:
@@ -129,6 +136,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: securite-couvre-feu-mineurs
   text: Les maires doivent pouvoir instaurer un couvre-feu nocturne pour les mineurs.
   themes:
@@ -144,6 +152,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: securite-armer-polices-municipales
   text: Les policiers municipaux doivent être armés dans toutes les communes.
   themes:
@@ -159,6 +168,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: securite-surveillance-antiterroriste-prolongee
   text: Les mesures individuelles de surveillance antiterroriste doivent pouvoir durer plus d'un an.
   themes:
@@ -174,6 +184,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : OUT_OF_SCOPE.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-enquetes-policiers-independantes
@@ -192,6 +203,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: securite-restreindre-tirs-refus-obtemperer
   text: Les règles d'usage des armes à feu par les policiers lors des refus d'obtempérer doivent être restreintes.
   themes:
@@ -207,6 +219,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-renseignement-autorisation-juge
@@ -225,6 +238,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : hors axe (exclu du score tant que non arbitré). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : OUT_OF_SCOPE.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-limiter-dissolution-associations
@@ -242,6 +256,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: securite-interdire-drones-manifestations
   text: L'usage de drones par la police pour surveiller les manifestations doit être interdit.
   themes:
@@ -257,6 +272,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : NEEDS_HUMAN_ARBITRATION.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: securite-manifestations-sans-declaration
@@ -275,6 +291,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Texte v4 (revue adverse n° 1) : Les contrôles d'identité que la police peut effectuer à titre préventif, quel que soit le comportement de la personne, doivent être supprimés.
@@ -295,6 +312,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Texte v4 (revue adverse n° 1) : Il doit être interdit aux forces de l'ordre de maintenir une personne à plat ventre en appuyant sur son dos.
@@ -314,6 +332,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Nouvel énoncé FR-012 (2026-11-11, après la revue adverse externe n° 2 et 3 tours de relecture indépendante) : validé par adrien le 2026-11-11 (activation de toute la banque).
 # Détail, droit au 11/11/2026 et preuves : data/relectures/2026-11-11-revue-adverse-2.md
 # Remplace securite-dissoudre-brav-m (retiré, voir le rapport).
@@ -333,3 +352,4 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
