@@ -218,3 +218,14 @@
   candidates:
     - marine-le-pen
   contentHash: sha256:7816e0f258f1fefcbbc82f6b916e757ea30017dcfcf43c7eae01edc451b994af
+- id: marine-le-pen-discours-orleans-2026-10
+  url: https://marinelepen.com/actualites/discours-de-marine-le-pen-a-orleans
+  title: Discours de Marine Le Pen à Orléans
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-25
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:2d7f12b878ac7612c4c11cbc627e6a118da73beedf4b11b276da38f4ab41009b

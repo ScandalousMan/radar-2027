@@ -119,3 +119,14 @@
   candidates:
     - raphael-glucksmann
   contentHash: sha256:76d55bc0c685292a438f5aaec1b4fda73fbfaa061601d99635a83d8e19c239c0
+- id: raphael-glucksmann-franceinfo-services-publics-education
+  url: https://www.youtube.com/watch?v=lxUYRSdmSQw&t=8434s
+  title: Entretien franceinfo « Nos services publics », passage de Raphaël Glucksmann (02:20:34–02:31:09)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-12
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - raphael-glucksmann
+  contentHash: sha256:b95295a5d37ecde4616e745249c8caaa40e168f67de4b5879a0b9553e38ef26f

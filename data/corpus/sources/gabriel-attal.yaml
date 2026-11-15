@@ -229,3 +229,14 @@
   candidates:
     - gabriel-attal
   contentHash: sha256:5a27f8dc855faeaed3fdb348f9f6cb79239530aaae9d1db70bc4ede658092a5d
+- id: gabriel-attal-franceinfo-services-publics-education
+  url: https://www.youtube.com/watch?v=lxUYRSdmSQw&t=1098s
+  title: Entretien franceinfo « Nos services publics », passage de Gabriel Attal (00:18:18–00:36:23)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-12
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:b7f949057956d5e1581342a07f1580bffbcdecc145f5067eb0f70c4abb9634de

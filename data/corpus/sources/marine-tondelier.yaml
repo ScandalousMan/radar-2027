@@ -97,3 +97,14 @@
   candidates:
     - marine-tondelier
   contentHash: sha256:e75d892036024b564bdf096116d599c8a0cd137f5e69ae4ce804c6933d393422
+- id: marine-tondelier-dossier-presse-rentree-2026
+  url: https://lesecologistes.fr/document/6gMGZGdo5Fliov7rcvUda5/dossierpresse-rentree.pdf
+  title: "Dossier de presse de rentrée « Éducation nationale : état d'urgence pédagogique, état d'urgence écologique » (Les Écologistes)"
+  kind: programme
+  publishedAt:
+    date: 2026-08-31
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - marine-tondelier
+  contentHash: sha256:47fd936628a876a43bae236882737464fcd55d3e7f59b8f2245851c251b89c89

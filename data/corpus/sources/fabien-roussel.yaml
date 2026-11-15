@@ -163,3 +163,25 @@
   candidates:
     - fabien-roussel
   contentHash: sha256:ad90e07e5a3ede4f5495ad65ba6cabe4f5bf3af748b96fe9f8dc72215323dab4
+- id: fabien-roussel-lettre-personnels-ecole-2026-08
+  url: https://www.pcf.fr/lettre_de_fabien_roussel_celles_et_ceux_qui_font_vivre_lecole
+  title: Lettre de Fabien Roussel à celles et ceux qui font vivre l'école (PCF)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-08-28
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:59459de0106cf24da68c19b26733beed4fccc343d1f77fc1b5de79dcd9ee1135
+- id: fabien-roussel-franceinfo-services-publics-education
+  url: https://www.youtube.com/watch?v=lxUYRSdmSQw&t=5364s
+  title: Entretien franceinfo « Nos services publics », passage de Fabien Roussel (01:29:24–01:39:00)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-12
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:27dcec91d7dccb64ff4a4fe588cea5514446ec1d56f2f5f927a42a827b03e7a6

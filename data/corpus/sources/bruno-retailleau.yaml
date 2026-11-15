@@ -317,3 +317,14 @@
   candidates:
     - bruno-retailleau
   contentHash: sha256:beb1b5c52b822c89a144e27870c0b584088dfcd453d637dddd894540ee369632
+- id: bruno-retailleau-franceinfo-services-publics-education
+  url: https://www.youtube.com/watch?v=lxUYRSdmSQw&t=15217s
+  title: Entretien franceinfo « Nos services publics », passage de Bruno Retailleau (04:13:37–04:23:54)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-12
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:48bbb2d2e150513a690e0c6093f08793e94325b238e7164104e05c320edd3260

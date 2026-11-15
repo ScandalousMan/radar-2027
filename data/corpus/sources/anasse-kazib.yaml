@@ -53,3 +53,14 @@
   candidates:
     - anasse-kazib
   contentHash: sha256:6e1a8d86db1cd8a2313d32996ad059a6fd39468a1ec59f5c478b452c27ade0a9
+- id: anasse-kazib-conference-sociale-2026-11
+  url: https://www.revolutionpermanente.fr/La-conference-sociale-ne-distribuera-que-des-miettes-Anasse-Kazib-appelle-a-durcir-la-mobilisation
+  title: "« La conférence sociale ne distribuera que des miettes ! » : Anasse Kazib appelle à durcir la mobilisation (Révolution Permanente)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-06
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - anasse-kazib
+  contentHash: sha256:f1e8c42f28fb6a07d62247df6d0835e0374559d059590bb8df5bc4c873d625d7
