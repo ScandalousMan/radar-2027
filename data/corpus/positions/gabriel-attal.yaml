@@ -886,3 +886,157 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:36a41ccfdc2b832561c437e87bd5d4ad34561caff9d6eafc12b3d48be3558d3c
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: agriculture-prix-plancher-agricoles
+  value: 2
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-prix-planchers-agricoles
+  quote: "Il propose des prix planchers indexés sur les coûts de production dans les filières structurantes du lait, de la viande et des céréales."
+  quoteSource: gabriel-attal-mesure-prix-planchers-agricoles
+  justification: "Le programme propose explicitement des prix planchers indexés sur les coûts de production pour le lait, la viande et les céréales, ce qui correspond à l'énoncé."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f169c63bf1d37f11d03670349fac6415e0d27e3aa19dba2158cab6b0e285aed9
+
+- question: defense-dissuasion-protection-europe-v2
+  value: 1
+  evidence: programme
+  sources:
+    - gabriel-attal-programme-frontieres
+  quote: "Notre dissuasion nucléaire doit être un outil de puissance, à travers notamment la doctrine de dissuasion nucléaire avancée proposée par le président de la République."
+  quoteSource: gabriel-attal-programme-frontieres
+  justification: "Le texte se rallie à la doctrine de dissuasion avancée du président sans en détailler le contenu ni parler explicitement de la protection des partenaires européens, d'où 1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:04f98b7d1fc0311e61b7ee53d359824b89f88aa07f628206ee44006f2c5237ef
+
+- question: justice-comparution-immediate-mineurs
+  value: 1
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-comparution-immediate-mineurs
+  quote: "Gabriel Attal veut instaurer la comparution immédiate pour les mineurs récidivistes, en menant à son terme la loi sur la justice des mineurs interrompue par la dissolution de 2024."
+  quoteSource: gabriel-attal-mesure-comparution-immediate-mineurs
+  justification: "La mesure vise les seuls mineurs récidivistes et ne fixe pas de seuil de 16 ans, plus étroite que l'énoncé, d'où 1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f167d1db7768a2d781ab13cb7ea35a7ba046982e995c01f62042905b35357c66
+
+- question: justice-imprescriptibilite-crimes-sexuels-mineurs
+  value: 2
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-imprescriptibilite-crimes-sexuels-mineurs
+  quote: "Gabriel Attal veut rendre imprescriptibles les crimes sexuels commis sur les mineurs."
+  quoteSource: gabriel-attal-mesure-imprescriptibilite-crimes-sexuels-mineurs
+  justification: "Le candidat propose explicitement l'imprescriptibilité des crimes sexuels commis sur des mineurs."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:22c324d1c3a384060b44f3e1adea733e70c293cf87bf7b6844aa2820a288bee8
+
+- question: justice-perpetuite-reelle-etendue
+  value: 2
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-perpetuite-reelle-predateurs
+  quote: "Gabriel Attal veut instaurer la perpétuité réelle pour les auteurs de viols en série et les prédateurs sexuels les plus dangereux."
+  quoteSource: gabriel-attal-mesure-perpetuite-reelle-predateurs
+  justification: "Le programme étend la perpétuité réelle à de nouvelles catégories de crimes (viols en série, prédateurs sexuels dangereux)."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3686358f7cf729f1f302647d609dcaca1f98fc6a58270ac4b14680bac2b47c38
+
+- question: justice-sanction-financiere-parents
+  value: 1
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-tu-casses-tu-repares
+  quote: "Même le parent qui n'a pas la garde de l'enfant est solidaire financièrement des dégâts causés."
+  quoteSource: gabriel-attal-mesure-tu-casses-tu-repares
+  justification: "Le programme rend les parents financièrement solidaires des dégradations commises par leurs enfants, ce qui relève de la réparation du dommage plus que d'une sanction au sens strict, d'où 1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:56a8f4b159005422fa34cf911266286a1901b2ba91c74490d5e7c44408dbe386
+
+- question: numerique-assouplir-regles-ia
+  value: 2
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-politique-ia-europeenne-commune
+  quote: "Il demande aussi une révision en profondeur de l'AI Act, qui freine nos entreprises face à leurs concurrentes américaines et chinoises."
+  quoteSource: gabriel-attal-mesure-politique-ia-europeenne-commune
+  justification: "Le candidat demande une révision en profondeur du règlement européen sur l'IA au motif qu'il freine les entreprises, ce qui correspond à un assouplissement."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6c393400b9cb2936083d233e47422805051f9d3586b0abb7414a18bfc1cf848c
+
+- question: fiscalite-baisse-impot-societes
+  value: -2
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-loi-de-stabilite-fiscale
+  quote: "Le taux de l'impôt sur les sociétés reste à 25 %."
+  quoteSource: gabriel-attal-mesure-loi-de-stabilite-fiscale
+  justification: "Le programme maintient explicitement le taux de l'IS à 25 % après la baisse de 2017-2022, et écarte donc un nouvel abaissement."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e618b71f208b223b82f5dfd0176f0afa54f0c490dafbe128b8859fbb00ec57cc
+
+- question: fiscalite-baisse-prelevements-obligatoires
+  value: 1
+  evidence: programme
+  sources:
+    - gabriel-attal-mesure-aucune-hausse-impots
+  quote: "Il veut au contraire revenir sur plusieurs taxes décidées depuis la dissolution et poursuivre la baisse des impôts de production."
+  quoteSource: gabriel-attal-mesure-aucune-hausse-impots
+  justification: "Aucune hausse d'impôt et suppression de taxes récentes et d'impôts de production vont dans le sens d'une baisse, mais aucun objectif global de baisse du taux de prélèvements n'est fixé, d'où 1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:237b2534914ed43c9596b4fe7019fd237d0270f6ab0cc873ad58ba3b162f0fa0

@@ -130,3 +130,36 @@
   candidates:
     - delphine-batho
   contentHash: sha256:fafae03421749eb7cea96eef945a42721ec47982e5bc010e70598dba62e7b98c
+- id: delphine-batho-proposition-de-resolution-europeenne-n-1671-visant-au-non-re
+  url: https://www.assemblee-nationale.fr/dyn/16/textes/l16b1671_proposition-resolution-europeenne.pdf
+  title: Proposition de résolution européenne n° 1671 visant au non-renouvellement de l'autorisation du glyphosate dans l'Union européenne (Assemblée nationale)
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-09-20
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - delphine-batho
+  contentHash: sha256:c0a5053f3d5c05914eb5aedd104d7a70ce6f3e204de314716c7684a95bb72df1
+- id: delphine-batho-proposition-de-loi-n-4022-pour-une-vraie-loi-climat-assemble
+  url: https://www.assemblee-nationale.fr/dyn/15/textes/l15b4022_proposition-loi.pdf
+  title: Proposition de loi n° 4022 pour une vraie loi climat (Assemblée nationale)
+  kind: declaration_vote
+  publishedAt:
+    date: 2021-03-23
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - delphine-batho
+  contentHash: sha256:ef68e8131b308d2b9221ef59c4e32a3255313d2b3d5bb7478d39d0dab3815e30
+- id: delphine-batho-delphine-batho-en-actes-ses-combats-et-resultats-delphinebat
+  url: https://delphinebatho.fr/delphine-batho-en-actes/
+  title: "Delphine Batho en actes : ses combats et résultats (delphinebatho.fr)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-12
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - delphine-batho
+  contentHash: sha256:10db1830981f7bc2e2228080858e29d484e932a139fcce7fd60afb39d2f31691

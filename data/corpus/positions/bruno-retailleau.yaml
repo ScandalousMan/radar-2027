@@ -527,3 +527,516 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:579f2904d890923f0687733d8980ceab5d4c3e54b8357578b5bcc34f60fa9cdd
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+
+- question: agriculture-pesticides-moitie-2030
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-nos-propositions-pour-la-france-rearmer-notre-agriculture-le
+  quote: 'd''abandonner les trajectoires arbitraires, telles que l''objectif uniforme de réduction de 50 % fixé par la stratégie Ecophyto 2030, au profit d''une logique d''autorisation au cas par cas'
+  quoteSource: bruno-retailleau-nos-propositions-pour-la-france-rearmer-notre-agriculture-le
+  justification: 'Le livret propose d''abandonner explicitement l''objectif uniforme de réduction de 50 % d''Ecophyto 2030 au profit d''autorisations au cas par cas : il rejette l''énoncé.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:28b92b49a5421efb19fedcee0e1dfdfd4313387761aca0a530f745efa49a0603
+
+- question: agriculture-autoriser-nouvelles-techniques-genomiques
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-nos-propositions-pour-la-france-rearmer-notre-agriculture-le
+  quote: 'les nouvelles techniques génomiques (NGT) seront pleinement intégrées à la stratégie agricole française. Elles constituent un levier majeur de productivité'
+  quoteSource: bruno-retailleau-nos-propositions-pour-la-france-rearmer-notre-agriculture-le
+  justification: 'Le livret intègre pleinement les NGT à la stratégie agricole et les présente comme un levier majeur ; soutien explicite à leur usage en agriculture.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4bb240fc0ef47741ac28dfd0ede5594b17f225707daacf10f68bdff1b62cef19
+
+- question: agriculture-derogations-neonicotinoides
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-nos-propositions-pour-la-france-rearmer-notre-agriculture-le
+  quote: 'Nous autoriserons de nouveau l''usage de certains néonicotinoïdes, dont l''acétamipride, selon un principe clair'
+  quoteSource: bruno-retailleau-nos-propositions-pour-la-france-rearmer-notre-agriculture-le
+  justification: 'Le livret propose de réautoriser certains néonicotinoïdes (acétamipride), mesure plus large qu''un régime de dérogations ; soutien nuancé à l''énoncé.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c2372dec544064ad4bfd3ba8e8b72acb9bcd747fb69afdb23272359c8a5ef2ed
+
+- question: agriculture-alleger-normes-agricoles
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-nos-propositions-pour-la-france-rearmer-notre-agriculture-le
+  quote: '1 € de coût pour l''agriculture devra être compensé par 1 € de normes supprimé.'
+  quoteSource: bruno-retailleau-nos-propositions-pour-la-france-rearmer-notre-agriculture-le
+  justification: "La citation est une règle de compensation (1 € de normes supprimé pour 1 € de coût d'une norme nouvelle, à titre exceptionnel) : elle vise la neutralité plus qu'un allègement net explicite. (valeur révisée en relecture)"
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:35982976cd707caffd81e2f65665e8e3fee0cefeaedbc2b3b8c43ad5b40c1787
+
+- question: agriculture-moins-controles-exploitations
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-nos-propositions-pour-la-france-rearmer-notre-agriculture-le
+  quote: 'Nous établirons explicitement une présomption de bonne foi pour les agriculteurs. Les contrôles seront ciblés, proportionnés et fondés sur une analyse de risque objectivée.'
+  quoteSource: bruno-retailleau-nos-propositions-pour-la-france-rearmer-notre-agriculture-le
+  justification: 'Le livret promet des contrôles ciblés et proportionnés et une présomption de bonne foi ; la fréquence n''est pas chiffrée, d''où un soutien nuancé.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bf4df2866a1bcd9135d67ceb0f1502900db4e2e2c1bf1de6cb2187129719326b
+
+- question: energie-fonds-publics-renouvelables
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-face-au-rechauffement-climatique-adapter-la-franc
+  quote: 'Cessons d''engloutir des milliards dans le vent, qui gonflent la facture du consommateur. Relançons l''atome'
+  quoteSource: bruno-retailleau-retailleau-face-au-rechauffement-climatique-adapter-la-franc
+  justification: 'La tribune demande d''arrêter les financements publics de l''éolien et de relancer le nucléaire : il rejette la priorité aux renouvelables sur le nucléaire.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ed865a192f02c659fef813f3338f7e77b126ed0892dce21a821e984f3e75fa18
+
+- question: environnement-assouplir-artificialisation
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-nos-propositions-pour-la-france-logement-les-republicains-pd
+  quote: 'Nous supprimerons le ZAN.'
+  quoteSource: bruno-retailleau-nos-propositions-pour-la-france-logement-les-republicains-pd
+  justification: 'Le livret logement propose de supprimer le ZAN, mesure plus large qu''un simple assouplissement des objectifs d''artificialisation.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9724607287f92ffbddafd7a16f07deaca9b721b284cb562a69d18068e8d533f1
+
+- question: environnement-calendrier-logements-mal-isoles
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-nos-propositions-pour-la-france-logement-les-republicains-pd
+  quote: 'Nous mettrons fin aux interdictions de louer fondées sur le DPE'
+  quoteSource: bruno-retailleau-nos-propositions-pour-la-france-logement-les-republicains-pd
+  justification: 'Le livret propose de supprimer les interdictions de louer liées au DPE, donc de ne pas appliquer le calendrier prévu.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0dbdbe3794db04b4b65e8827b4524631a93ba479473034843421b504ed2199f0
+
+- question: economie-plafonnement-loyers-zones-tendues
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-nos-propositions-pour-la-france-logement-les-republicains-pd
+  quote: 'Nous supprimerons l''encadrement des loyers'
+  quoteSource: bruno-retailleau-nos-propositions-pour-la-france-logement-les-republicains-pd
+  justification: 'Le livret propose de supprimer l''encadrement des loyers, il rejette son extension obligatoire aux zones tendues.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8c375fedf8c924bd15e24f5fa57443df369ebdffe5553d65a71751328f2077bb
+
+- question: economie-reduire-nombre-fonctionnaires
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-je-serai-la-surprise-de-cette-election-republicai
+  quote: 'Je ne remplacerai pas tous les fonctionnaires qui partiront à la retraite. Il y a une économie à faire d''à peu près 250 000 postes.'
+  quoteSource: bruno-retailleau-retailleau-je-serai-la-surprise-de-cette-election-republicai
+  justification: 'Il annonce explicitement une baisse du nombre de postes de fonctionnaires (environ 250 000) par non-remplacement des départs.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9ffe6536db5c756634e065d05f9a2fde796ccaaf3771c1f65e2d5c6235e33deb
+
+- question: economie-supprimer-agences-etat
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-produire-en-france-la-meilleure-des-solutions-eco
+  quote: 'supprimer l''OFB et quantité d''agences qui nuisent au développement agricole français'
+  quoteSource: bruno-retailleau-retailleau-produire-en-france-la-meilleure-des-solutions-eco
+  justification: 'Il propose de supprimer l''OFB et de nombreuses agences, mais dans le champ agricole seulement : soutien explicite mais limité à une partie des agences.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f0514c87023fe8353b285f9466b4324fdb609c6cb244e71e81d30fde17726dc6
+
+- question: economie-baisse-depense-publique
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-les-pressions-ne-marchent-pas-avec-moi-republicai
+  quote: 'Seul un mandat du peuple permettra de réaliser les 150 milliards d''euros d''économies que je propose.'
+  quoteSource: bruno-retailleau-retailleau-les-pressions-ne-marchent-pas-avec-moi-republicai
+  justification: 'Il propose 150 milliards d''euros d''économies sans hausse d''impôts ; la formulation en proportion du PIB n''est pas explicite, d''où +1.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7035bfc57b5836167814725d8367525d076cb28ced1431af45eabff894851eba
+
+- question: travail-duree-travail-accord-entreprise
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-travail-35-heures-salaires-retraites-republicains
+  quote: 'Je propose que l''organisation du temps de travail soit laissée à la négociation collective dans chaque entreprise ou chaque branche, en arrêtant de se référer à une durée hebdomadaire de 35 heures.'
+  quoteSource: bruno-retailleau-retailleau-travail-35-heures-salaires-retraites-republicains
+  justification: 'Il propose de laisser le temps de travail à la négociation d''entreprise ou de branche sans référence aux 35 heures, ce qui permet de fixer une durée supérieure.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fb25234c9a4f8f6a21e9e87be1832d108f479aa85b8894a28895f839d8fe8588
+
+- question: travail-retraite-au-dela-64-ans
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-travail-35-heures-salaires-retraites-republicains
+  quote: 'nous ne ferons pas l''économie de partir un peu plus tard à la retraite, en prenant en compte, évidemment, la pénibilité des métiers'
+  quoteSource: bruno-retailleau-retailleau-travail-35-heures-salaires-retraites-republicains
+  justification: 'Il annonce qu''il faudra partir un peu plus tard à la retraite, sans chiffrer l''âge légal ni écrire explicitement « au-delà de 64 ans » : soutien nuancé.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:47797428072fc6e10ebab7bf4831b7c9b274901e6245ddea8ea05af9cf26b8e3
+
+- question: travail-retraite-62-ans
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-je-serai-la-surprise-de-cette-election-republicai
+  quote: 'Jamais je n''aurais pu voter un budget où l''on abandonne la réforme des retraites.'
+  quoteSource: bruno-retailleau-retailleau-je-serai-la-surprise-de-cette-election-republicai
+  justification: 'Il rejette l''abandon de la réforme des retraites de 2023 ; il ne se prononce pas explicitement sur 62 ans, d''où -1.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:49bc9f75ab2221a220d630b987c89ea88f865bf17d7fe062048e847c598fa0e8
+
+- question: societe-signes-religieux-universite
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-les-pressions-ne-marchent-pas-avec-moi-republicai
+  quote: 'Je suis contre le voile, qui est un marqueur utilisé par les islamistes, mais je propose de l''interdire là où nous pouvons réellement le faire : dans les compétitions sportives, lors des sorties scolaires, à l''université publique.'
+  quoteSource: bruno-retailleau-retailleau-les-pressions-ne-marchent-pas-avec-moi-republicai
+  justification: 'Il propose d''interdire le voile à l''université publique ; mesure limitée au voile et non à tous les signes religieux ostensibles : soutien partiel.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6bfc3c86f40f678dded438fb979119ae71af4c8333bcd4d0e61336ba2f481664
+
+- question: defense-armes-ukraine
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-proposition-de-resolution-exprimant-le-soutien-du-senat-a-l
+  quote: 'à poursuivre et à renforcer en particulier les livraisons d''armes à l''Ukraine, dans les domaines identifiés comme les plus nécessaires par les autorités ukrainiennes'
+  quoteSource: bruno-retailleau-proposition-de-resolution-exprimant-le-soutien-du-senat-a-l
+  justification: 'Cosignataire (2e signataire) d''une résolution du Sénat invitant le gouvernement à renforcer les livraisons d''armes à l''Ukraine (déc. 2022).'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d72d99bc795806e989bd11cba53a39bc8a1fc4e2bab46e473852fbdb20ebab7e
+
+- question: international-renforcer-sanctions-russie
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-proposition-de-resolution-exprimant-le-soutien-du-senat-a-l
+  quote: 'à renforcer le régime des sanctions à l''encontre de la Fédération de Russie'
+  quoteSource: bruno-retailleau-proposition-de-resolution-exprimant-le-soutien-du-senat-a-l
+  justification: 'Cosignataire d''une résolution du Sénat invitant le gouvernement à œuvrer à l''UE pour renforcer le régime de sanctions contre la Russie (déc. 2022).'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4b40cb0743cd94eb2baf7282beb0b7e76cbe66e56cc25b68484894e8cce54603
+
+- question: defense-dissuasion-protection-europe-v2
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-la-dissuasion-nucleaire-francaise-ne-se-partage-p
+  quote: 'la dissuasion nucléaire française ne se partage pas, ne se concerte pas, ne s''élargit pas.'
+  quoteSource: bruno-retailleau-retailleau-la-dissuasion-nucleaire-francaise-ne-se-partage-p
+  justification: 'Il rejette tout élargissement de la doctrine de dissuasion, y compris vers la protection de partenaires européens, au nom de l''incertitude stratégique.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:0a009c642df08e761201459747954491c9d9a384a519704f1912e1f147590728
+
+- question: defense-renoncer-modernisation-dissuasion
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-la-dissuasion-nucleaire-francaise-ne-se-partage-p
+  quote: 'Sur le plan militaire, cela passe par la nécessité de maintenir et moderniser une dissuasion autonome'
+  quoteSource: bruno-retailleau-retailleau-la-dissuasion-nucleaire-francaise-ne-se-partage-p
+  justification: 'Il demande explicitement de maintenir et moderniser la dissuasion autonome : il rejette l''énoncé.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1a018fedb5f0ce9683252c74907ca2f599a95e4287c6f632d68b3b1ce929742c
+
+- question: defense-reduire-budget-armees
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-l-unite-nationale-premiere-de-nos-armes-republica
+  quote: 'une loi de programmation militaire comportant cette fois une trajectoire budgétaire sincère et sanctuarisée, pour atteindre 100 milliards d''euros à la fin du quinquennat'
+  quoteSource: bruno-retailleau-retailleau-l-unite-nationale-premiere-de-nos-armes-republica
+  justification: 'Il propose de porter le budget des armées à 100 milliards d''euros en fin de quinquennat, soit une hausse nette : il rejette toute réduction.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e2a344fe524ef1b92ba9decd0e5a4ffd6c076eb8fed150ddc0d65d030db170b9
+
+- question: immigration-plafond-annuel-admissions
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-ppl-constitutionnelle-relative-a-la-souverainete-de-la-franc
+  quote: 'La loi fixe chaque année le nombre maximum d''autorisations d''entrées en vue de séjourner en France et d''autorisations de premier séjour en France délivrées à des ressortissants étrangers.'
+  quoteSource: bruno-retailleau-ppl-constitutionnelle-relative-a-la-souverainete-de-la-franc
+  justification: 'Premier signataire d''une proposition de loi constitutionnelle faisant fixer chaque année par la loi un plafond d''autorisations d''entrée et de premier séjour.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4acd01db6c30a181c630932ed8ce64a836d62690db509505955d1bdbf14d3a69
+
+- question: immigration-condamnes-perte-titre-sejour
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-ppl-constitutionnelle-relative-a-la-souverainete-de-la-franc
+  quote: 'Tout ressortissant étranger qui représente une menace pour la sécurité publique ou qui a été condamné à une peine d''emprisonnement est éloigné du territoire national.'
+  quoteSource: bruno-retailleau-ppl-constitutionnelle-relative-a-la-souverainete-de-la-franc
+  justification: 'Éloignement de tout étranger condamné à une peine d''emprisonnement (pas seulement ferme), ce qui emporte la perte du droit au séjour : mesure plus large que l''énoncé.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:73b912d55203d127c073553ce593e6572e639d4164d9ccd42d23872d4690fe4c
+
+- question: immigration-asile-examen-hors-europe-v2
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-ppl-constitutionnelle-relative-a-la-souverainete-de-la-franc
+  quote: 'Les demandes d''asile sont présentées et instruites dans les représentations diplomatiques ou les postes consulaires de la France, ou à la frontière.'
+  quoteSource: bruno-retailleau-ppl-constitutionnelle-relative-a-la-souverainete-de-la-franc
+  justification: 'Instruction des demandes d''asile dans les consulats ou à la frontière et accords avec d''autres États : proche de l''énoncé mais sans centres hors UE explicitement nommés.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:c81c5bdeb3f332fc4d041346bb3fd5d2a9255928c7449320b96f0473e098b920
+
+- question: immigration-amende-sejour-irregulier
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-ppl-pour-reprendre-le-controle-de-la-politique-d-immigration
+  quote: 'Est puni de 3 750 euros d''amende le fait pour tout étranger âgé de plus de dix-huit ans de séjourner en France au-delà de la durée autorisée par son visa ou en méconnaissance de l''article L. 411-1.'
+  quoteSource: bruno-retailleau-ppl-pour-reprendre-le-controle-de-la-politique-d-immigration
+  justification: 'Cosignataire (2e signataire) d''une proposition de loi instaurant une amende de 3 750 euros pour séjour irrégulier.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:fe898798828adfcde3974094b53d5a1d76ac33c5ba060ecf34aa224f852c5c26
+
+- question: immigration-frais-etudiants-etrangers
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-ppl-pour-reprendre-le-controle-de-la-politique-d-immigration
+  quote: 'qui sont majorés pour les étrangers non ressortissants de l''Union européenne'
+  quoteSource: bruno-retailleau-ppl-pour-reprendre-le-controle-de-la-politique-d-immigration
+  justification: 'La proposition de loi (article 9) majore les frais d''inscription des étudiants extra-européens, au rebours d''un alignement sur les frais des étudiants français.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b550c1e9480b9c27329b485c7f9ea8dbb5bec423e35999817e20b1f5cb407976
+
+- question: immigration-regularisation-metiers-tension
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
+  quote: 'On nous explique qu''il faudrait régulariser parce que certains secteurs manquent de main-d''œuvre. Mais on peut former des Français, comme on peut former des étrangers déjà présents légalement sur notre territoire.'
+  quoteSource: bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
+  justification: 'Il rejette explicitement la régularisation justifiée par les secteurs en tension.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:52be28a072b9e898abf24fbc3cb09e7404330af3c8e365cb1ec11a560c35f474
+
+- question: immigration-regularisation-cinq-ans
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
+  quote: 'l''idée de régulariser des clandestins qui ont fraudé nos lois est une capitulation.'
+  quoteSource: bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
+  justification: "Rejet général de la régularisation, mais dans le même passage il défend « ma circulaire sur les régularisations », qui maintient une régularisation au cas par cas ; aucun critère d'ancienneté discuté, d'où -1 et non -2. (valeur révisée en relecture)"
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:aa297a4aa2a4138a8412ee6a239b1ff690a70fcd1f70fdd2a46b2a2544916aa9
+
+- question: numerique-assouplir-regles-ia
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-nos-propositions-pour-la-france-l-ia-au-service-des-francais
+  quote: 'nous instaurerons un régime expérimental de dérogation, pour une durée de trois ans, du RGPD et de l''AI Act lorsqu''ils entravent directement des projets de recherche, de test ou d''innovation à fort enjeu stratégique.'
+  quoteSource: bruno-retailleau-nos-propositions-pour-la-france-l-ia-au-service-des-francais
+  justification: 'Le livret propose une dérogation expérimentale de trois ans à l''AI Act pour des projets stratégiques, sans demander un assouplissement général : soutien partiel.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b788109a44026796987157c75eade8fc3c23779d8693bd0592fe15083442e1b5
+
+- question: numerique-faciliter-centres-donnees
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-nos-propositions-pour-la-france-l-ia-au-service-des-francais
+  quote: 'autorisera des dérogations ciblées et encadrées au droit commun - RGPD, AI Act, droit de la concurrence, code de la commande publique, urbanisme pour les data centers et capacités de calcul'
+  quoteSource: bruno-retailleau-nos-propositions-pour-la-france-l-ia-au-service-des-francais
+  justification: 'Le livret prévoit des dérogations d''urbanisme pour les data centers et accélérera leur implantation ; la notion de procédures accélérées n''est pas détaillée.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e9997ba06a677ec4997a35e69b1aeae5816a1e4cda976d274c724c44c53ba0d9
+

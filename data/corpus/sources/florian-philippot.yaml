@@ -31,3 +31,58 @@
   candidates:
     - florian-philippot
   contentHash: sha256:5964525a388d0af88a9b5b7f1c26ca477334443c69ec6aa106cc26c4574b28bd
+- id: florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  url: https://www.politique-animaux.fr/sites/www.politique-animaux.fr/fichiers/prises-de-positions/pieces-jointes/programme2022.pdf
+  title: Libérons la France, projet présidentiel 2022 de Florian Philippot (PDF)
+  kind: programme
+  publishedAt:
+    date: "2022"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - florian-philippot
+  contentHash: sha256:82fb9b37a12cbeebb8db6d546abd06f48d90599f3f580650fb6e47f668ee50d7
+- id: florian-philippot-charte-des-patriotes-les-patriotes-fr
+  url: https://les-patriotes.fr/notre-charte-des-patriotes/
+  title: Charte des Patriotes (les-patriotes.fr)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-14
+  candidates:
+    - florian-philippot
+  contentHash: sha256:4f91c72bfcb08d50c196b7098c29680456b92764c46c27bf3480d021e427256a
+- id: florian-philippot-plan-d-urgence-energetique-en-8-points-les-patriotes-fr
+  url: https://les-patriotes.fr/pour-ladoption-immediate-dun-plan-durgence-energetique-en-france-en-8-points/
+  title: Plan d'urgence énergétique en 8 points (les-patriotes.fr)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-03-20
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - florian-philippot
+  contentHash: sha256:6f53c42e4a09ba3dfe335ee3c18a0f725e012bf85dacc8e6cf8ff2dbf8b85eff
+- id: florian-philippot-entretien-avec-florian-philippot-entrevue
+  url: https://entrevue.fr/interviews/entrevue-florian-philippot-depuis-le-debut-je-suis-pro-francais-et-pro-paix/
+  title: Entretien avec Florian Philippot (Entrevue)
+  kind: declaration_vote
+  publishedAt:
+    date: 2024-06
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - florian-philippot
+  contentHash: sha256:289b5453a0cdde7263e3597ec0d3daa54911b07fbc8715f496b110ce22322fa7
+- id: florian-philippot-florian-philippot-invite-politique-de-franceinfo
+  url: https://www.franceinfo.fr/replay-magazine/franceinfo/l-invite-politique/il-vaut-mieux-etre-patrick-bruel-qu-un-gilet-jaune-deplore-florian-philippot-president-des-patriotes_8020166.html
+  title: Florian Philippot, invité politique de franceinfo
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-06-11
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - florian-philippot
+  contentHash: sha256:95fe7ec2cfa301c5f144aed383f28d0fa5d6c3dd20fd808043219ae1d1882660

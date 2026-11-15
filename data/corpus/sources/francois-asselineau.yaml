@@ -31,3 +31,25 @@
   candidates:
     - francois-asselineau
   contentHash: sha256:9b2c5fb0ae9994f19f7124c9efbdd251024f8a14809ca11f8e448d9c11c00412
+- id: francois-asselineau-reponse-de-francois-asselineau-au-questionnaire-de-the-shift
+  url: https://theshiftproject.org/app/uploads/2025/02/Reponse-de-Francois-ASSELINEAU-a-The-Shift-Project.pdf
+  title: Réponse de François Asselineau au questionnaire de The Shift Project (PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: 2022-01-30
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - francois-asselineau
+  contentHash: sha256:f4a85b5fcf6d27f89b12693a84f1fbdc76ec27174453efa660d059df862331f0
+- id: francois-asselineau-le-programme-de-francois-asselineau-pour-les-retraites-commu
+  url: https://upr.fr/communiques-de-presse/le-programme-de-francois-asselineau-pour-les-retraites/
+  title: Le programme de François Asselineau pour les retraites (communiqué UPR)
+  kind: programme
+  publishedAt:
+    date: 2021-06-09
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - francois-asselineau
+  contentHash: sha256:eb7ba468faf93e453acb9a30eeb3e7cd39481355bdcde72a111774605398ce19
