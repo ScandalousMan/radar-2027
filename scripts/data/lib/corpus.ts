@@ -142,23 +142,49 @@ export function writeYaml(file: string, value: unknown): void {
   writeFileSync(file, stringify(value, { indent: 2, lineWidth: 0, aliasDuplicateObjects: false }), 'utf8');
 }
 
+/** Réécrit un document YAML en gardant la fin de fichier d'origine (ligne vide finale, absence de saut de ligne). */
+function writeYamlDocument(file: string, doc: Document, original: string): void {
+  const tail = /\s*$/.exec(original)?.[0] ?? '';
+  writeFileSync(file, doc.toString({ lineWidth: 0 }).replace(/\s*$/, '') + tail, 'utf8');
+}
+
+function parseYamlList(file: string): { text: string; doc: Document } {
+  const text = readFileSync(file, 'utf8');
+  const doc: Document = parseDocument(text);
+  if (doc.errors.length > 0) throw doc.errors[0];
+  if (doc.contents !== null && !isSeq(doc.contents)) throw new Error(`${file} : liste YAML attendue.`);
+  return { text, doc };
+}
+
 /**
  * Modifie sur place les éléments (mappings) d'un fichier YAML liste en conservant commentaires,
  * guillemets, lignes vides et fin de fichier : seules les clés touchées par `edit` changent dans le texte.
  * `edit` renvoie `true` s'il a modifié l'élément ; le fichier n'est réécrit que dans ce cas.
  */
 export function editYamlListItems(file: string, edit: (item: YAMLMap<unknown, unknown>) => boolean): boolean {
-  const text = readFileSync(file, 'utf8');
-  const doc: Document = parseDocument(text);
-  if (doc.errors.length > 0) throw doc.errors[0];
-  if (!isSeq(doc.contents)) throw new Error(`${file} : liste YAML attendue.`);
+  const { text, doc } = parseYamlList(file);
   let changed = false;
-  for (const item of doc.contents.items) if (isMap(item) && edit(item)) changed = true;
-  if (changed) {
-    const tail = /\s*$/.exec(text)?.[0] ?? '';
-    writeFileSync(file, doc.toString({ lineWidth: 0 }).replace(/\s*$/, '') + tail, 'utf8');
-  }
+  if (isSeq(doc.contents)) for (const item of doc.contents.items) if (isMap(item) && edit(item)) changed = true;
+  if (changed) writeYamlDocument(file, doc, text);
   return changed;
+}
+
+/**
+ * Ajoute un élément en fin de fichier YAML liste sans toucher au reste du texte
+ * (commentaires et mise en forme conservés) ; crée le fichier s'il est absent ou vide.
+ */
+export function appendYamlListItem(file: string, value: Record<string, unknown>): void {
+  if (!existsSync(file)) {
+    writeYaml(file, [value]);
+    return;
+  }
+  const { text, doc } = parseYamlList(file);
+  if (!isSeq(doc.contents)) {
+    writeYaml(file, [value]);
+    return;
+  }
+  doc.contents.items.push(doc.createNode(value, { aliasDuplicateObjects: false }));
+  writeYamlDocument(file, doc, text.trim() === '' ? '\n' : text);
 }
 
 /**
