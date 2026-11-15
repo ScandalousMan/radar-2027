@@ -493,3 +493,14 @@
   candidates:
     - jean-luc-melenchon
   contentHash: sha256:1098c0d3c2480cfd89773780871ab1f86d102aa66b715b738b89058e6f3c039c
+- id: jean-luc-melenchon-franceinfo-services-publics-education
+  url: https://www.youtube.com/watch?v=lxUYRSdmSQw&t=26154s
+  title: Entretien franceinfo « Nos services publics », passage de Jean-Luc Mélenchon (07:15:54–07:33:53)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-12
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:b3c1b03e9cf7127bf04b7251264bc11716f672df2f2b35f4973323a452a01fcf

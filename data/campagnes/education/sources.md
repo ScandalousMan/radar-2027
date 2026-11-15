@@ -9,8 +9,8 @@ Vidéo franceinfo « Nos services publics » (`lxUYRSdmSQw`, diffusée le 12 nov
 
 | Origine | URL | Décision | Source / motif |
 |---|---|---|---|
-| ChatGPT | https://www.youtube.com/watch?v=lxUYRSdmSQw&t=22339s | en attente | passage 06:12:19 à transcrire (voie silencieuse à trouver) |
-| ChatGPT | https://www.dailymotion.com/video/xbpdk16 | en attente | extrait BFM, transcription à obtenir |
+| ChatGPT | https://www.youtube.com/watch?v=lxUYRSdmSQw&t=22291s | retenue | `edouard-philippe-franceinfo-services-publics-education` (06:11:31–06:27:46 ; transcription automatique, à confirmer à l'écoute) |
+| ChatGPT | https://www.dailymotion.com/video/xbpdk16 | en attente | extrait BFM de 107 s ; Dailymotion ne fournit pas de sous-titres : transcription à demander à adrien (sujet, rythmes scolaires, déjà couvert par l'entretien franceinfo) |
 
 Conclusion : à faire.
 
@@ -19,9 +19,9 @@ Conclusion : à faire.
 | Origine | URL | Décision | Source / motif |
 |---|---|---|---|
 | ChatGPT | https://lesecologistes.fr/document/6gMGZGdo5Fliov7rcvUda5/dossierpresse-rentree.pdf | retenue | `marine-tondelier-dossier-presse-rentree-2026` : PDF lié depuis la page Cloudflare, récupéré via Wayback (instantané du 2026-10-02) ; signé Marine Tondelier, secrétaire nationale ; « 15% en 5 ans » présent |
-| agent | https://www.youtube.com/watch?v=lxUYRSdmSQw (15h10) | en attente | passage de Marine Tondelier dans l'émission franceinfo, absent de la réponse ChatGPT ; peu d'occurrences éducation, à vérifier |
-| ChatGPT | https://www.youtube.com/watch?v=1WaKtpggqG4 | en attente | transcription à obtenir |
-| ChatGPT | https://www.youtube.com/watch?v=F6XumBLtjyA | en attente | transcription à obtenir |
+| agent | https://www.youtube.com/watch?v=lxUYRSdmSQw (15h10) | écartée | sans mesure : aucun passage consacré à l'éducation dans son entretien ; mentions incidentes (rénovation du bâti scolaire, médecine scolaire) couvertes par le dossier de presse et l'entretien BFMTV |
+| ChatGPT | https://www.youtube.com/watch?v=1WaKtpggqG4&t=286s | retenue | `marine-tondelier-bfmtv-2026-10-14` (BFMTV, 14 octobre 2026, 04:46–16:15 : Parcoursup, AESH en catégorie B, bâti scolaire, privé ; le passage cité à 00:08:30 existe ; transcription automatique, à confirmer à l'écoute) |
+| ChatGPT | https://www.youtube.com/watch?v=F6XumBLtjyA&t=43s | retenue | `marine-tondelier-les-4v-2026-10` (00:43–03:06 : suppression de Parcoursup dès cette année, plus de professeurs mieux rémunérés ; le passage existe malgré le titre de la vidéo) |
 
 Conclusion : à faire.
 
@@ -39,8 +39,8 @@ Conclusion : à faire.
 | Origine | URL | Décision | Source / motif |
 |---|---|---|---|
 | ChatGPT | https://www.lutte-ouvriere.org/portail/brochures/meeting-26-septembre-2026-discours-nathalie-arthaud-197446.html | écartée | sans mesure : constats (« salles de classe invivables », « classes surchargées ») sans engagement éducatif précis |
-| ChatGPT | https://www.youtube.com/watch?v=1XFZCweX4Hg | en attente | réunion publique à Saint-Quentin (titre corrigé), transcription à obtenir |
-| ChatGPT | https://www.youtube.com/watch?v=Sa1W6lgDy0g | en attente | transcription à obtenir |
+| ChatGPT | https://www.youtube.com/watch?v=1XFZCweX4Hg | retenue | `nathalie-arthaud-saint-quentin-2026-10` (réunion publique, pas une interview : titre corrigé ; 00:00–06:24 ; citation « un prof devant chaque classe, pour qu'il y ait des groupes plus petits » retrouvée à 05:12) |
+| ChatGPT | https://www.youtube.com/watch?v=Sa1W6lgDy0g&t=463s | retenue | `nathalie-arthaud-bfmtv-mouvement-lyceen-2026-10` (07:43–09:11 : soutien à chacune des revendications lycéennes, remplaçants, infirmières ; « Plus d'infirmières » est un constat, pas une demande ; transcription automatique) |
 
 Conclusion : à faire.
 
@@ -88,7 +88,7 @@ Conclusion : à faire.
 
 | Origine | URL | Décision | Source / motif |
 |---|---|---|---|
-| ChatGPT | https://www.dailymotion.com/video/xbqmk46 | en attente | extrait BFM, transcription à obtenir |
+| ChatGPT | https://www.dailymotion.com/video/xbqmk46 | en attente | extrait BFM de 86 s ; pas de sous-titres Dailymotion : transcription à demander à adrien |
 
 Conclusion : à faire.
 
@@ -97,7 +97,7 @@ Conclusion : à faire.
 | Origine | URL | Décision | Source / motif |
 |---|---|---|---|
 | ChatGPT | https://melenchon2027.fr/programme/plans-thematiques/esr/ | retenue | `jean-luc-melenchon-plan-esr` (page non datée : 2026 ; citation « nous abrogerons Parcoursup » vérifiée) |
-| ChatGPT | https://www.youtube.com/watch?v=lxUYRSdmSQw&t=26372s | en attente | passage 07:19:32 à transcrire |
+| ChatGPT | https://www.youtube.com/watch?v=lxUYRSdmSQw&t=26154s | retenue | `jean-luc-melenchon-franceinfo-services-publics-education` (07:15:54–07:33:53 : bac pro en 4 ans, rémunération dès 16 ans, fin de Parcoursup, petite enfance ; transcription automatique, à confirmer à l'écoute) |
 
 Conclusion : à faire.
 
@@ -137,7 +137,7 @@ Conclusion : à faire.
 | Origine | URL | Décision | Source / motif |
 |---|---|---|---|
 | ChatGPT | https://www.youtube.com/watch?v=lxUYRSdmSQw&t=8434s | retenue | `raphael-glucksmann-franceinfo-services-publics-education` (02:20:34–02:31:09 ; transcription automatique, à confirmer à l'écoute) |
-| ChatGPT | https://www.youtube.com/watch?v=XAaIJdP-1vo | en attente | 3e débat de la primaire de la gauche Choisir 2027, publié par le PS (titre corrigé) ; transcription à obtenir |
+| ChatGPT | https://www.youtube.com/watch?v=XAaIJdP-1vo | écartée | non attribuable (FR-013a) de façon sûre : débat à plusieurs voix (3e débat de la primaire de la gauche, publié par le PS, pas BFMTV), sous-titres sans indication d'orateur, Raphaël Glucksmann jamais nommé dans la séquence éducation (00:48:36–01:12:45) ; positions couvertes par l'entretien franceinfo |
 
 Conclusion : à faire.
 
@@ -155,6 +155,6 @@ Conclusion : à faire.
 | Origine | URL | Décision | Source / motif |
 |---|---|---|---|
 | ChatGPT | https://www.youtube.com/watch?v=lxUYRSdmSQw&t=13193s | retenue | `eric-zemmour-franceinfo-services-publics-education` (03:39:53–03:46:58 ; transcription automatique, à confirmer à l'écoute) |
-| ChatGPT | https://www.youtube.com/watch?v=Ax-VfNPXjKw | en attente | CNews, transcription à obtenir |
+| ChatGPT | https://www.youtube.com/watch?v=Ax-VfNPXjKw&t=372s | retenue | `eric-zemmour-cnews-niveau-scolaire-2026-10` (CNews, publiée le 13 octobre 2026 ; 06:12–16:59 : méthodes traditionnelles, examens d'entrée en 6e et en seconde, orientation dès la 4e, fin de l'accord Lang-Cloupet ; transcription automatique) |
 
 Conclusion : à faire.

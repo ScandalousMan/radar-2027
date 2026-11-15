@@ -163,3 +163,14 @@
   candidates:
     - eric-zemmour
   contentHash: sha256:b200ddbd73f164f1c394603a8adebf92529ee3896811e8fae2f5062cb8c808ec
+- id: eric-zemmour-cnews-niveau-scolaire-2026-10
+  url: https://www.youtube.com/watch?v=Ax-VfNPXjKw&t=372s
+  title: "Éric Zemmour sur CNews : « la chute du niveau scolaire me hante », passage sur l'école (06:12–16:59)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-13
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - eric-zemmour
+  contentHash: sha256:ad9d8dc8f14df43127c7479ab61ac6dfba8c7274e177ddf50690331af764ef67

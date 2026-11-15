@@ -240,3 +240,14 @@
   candidates:
     - edouard-philippe
   contentHash: sha256:89ec8cef715cef69f1a30b68b9dff046f316036d73919f9a592bf94d6d210cfe
+- id: edouard-philippe-franceinfo-services-publics-education
+  url: https://www.youtube.com/watch?v=lxUYRSdmSQw&t=22291s
+  title: Entretien franceinfo « Nos services publics », passage de Édouard Philippe (06:11:31–06:27:46)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-12
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:ac7a67f731a5e1cb3a2f715e567807971e15b627910898898c4adb5035f22608

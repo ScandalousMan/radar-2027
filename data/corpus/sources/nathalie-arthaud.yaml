@@ -240,3 +240,25 @@
   candidates:
     - nathalie-arthaud
   contentHash: sha256:64b8892e0e36ece17fc1e7445f2c1ed040534410e61ebabb439b74be283f3cd7
+- id: nathalie-arthaud-saint-quentin-2026-10
+  url: https://www.youtube.com/watch?v=1XFZCweX4Hg
+  title: "Nathalie Arthaud à Saint-Quentin, réunion publique : passage sur le mouvement lycéen et l'éducation (00:00–06:24)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-16
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:c463dfd59161b0afabddf591b2c46eb18d76efdca7a41e22fd68f1b11570c644
+- id: nathalie-arthaud-bfmtv-mouvement-lyceen-2026-10
+  url: https://www.youtube.com/watch?v=Sa1W6lgDy0g&t=463s
+  title: "Nathalie Arthaud sur BFMTV, mouvement lycéen : passage sur les revendications (07:43–09:11)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-03
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - nathalie-arthaud
+  contentHash: sha256:cb18b808e930cc001e8ce9f13973bf8b452e86cd478686e8a9c47d7aee6abb0d
