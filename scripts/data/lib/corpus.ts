@@ -3,7 +3,7 @@
 // et chaque erreur Zod devient une violation `SCHEMA` désignant `<fichier>:<chemin>`.
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { basename, join, relative } from 'node:path';
-import { parse, stringify } from 'yaml';
+import { isMap, isScalar, isSeq, parse, parseDocument, stringify, type Document, type YAMLMap } from 'yaml';
 import type { z } from 'zod';
 import {
   CandidateSchema,
@@ -140,6 +140,63 @@ export function loadCorpus(corpusDir: string): LoadedCorpus {
 /** Écrit un YAML stable pour des diffs lisibles : ordre des clés conservé, 2 espaces, pas de repli. */
 export function writeYaml(file: string, value: unknown): void {
   writeFileSync(file, stringify(value, { indent: 2, lineWidth: 0, aliasDuplicateObjects: false }), 'utf8');
+}
+
+/** Réécrit un document YAML en gardant la fin de fichier d'origine (ligne vide finale, absence de saut de ligne). */
+function writeYamlDocument(file: string, doc: Document, original: string): void {
+  const tail = /\s*$/.exec(original)?.[0] ?? '';
+  writeFileSync(file, doc.toString({ lineWidth: 0 }).replace(/\s*$/, '') + tail, 'utf8');
+}
+
+function parseYamlList(file: string): { text: string; doc: Document } {
+  const text = readFileSync(file, 'utf8');
+  const doc: Document = parseDocument(text);
+  if (doc.errors.length > 0) throw doc.errors[0];
+  if (doc.contents !== null && !isSeq(doc.contents)) throw new Error(`${file} : liste YAML attendue.`);
+  return { text, doc };
+}
+
+/**
+ * Modifie sur place les éléments (mappings) d'un fichier YAML liste en conservant commentaires,
+ * guillemets, lignes vides et fin de fichier : seules les clés touchées par `edit` changent dans le texte.
+ * `edit` renvoie `true` s'il a modifié l'élément ; le fichier n'est réécrit que dans ce cas.
+ */
+export function editYamlListItems(file: string, edit: (item: YAMLMap<unknown, unknown>) => boolean): boolean {
+  const { text, doc } = parseYamlList(file);
+  let changed = false;
+  if (isSeq(doc.contents)) for (const item of doc.contents.items) if (isMap(item) && edit(item)) changed = true;
+  if (changed) writeYamlDocument(file, doc, text);
+  return changed;
+}
+
+/**
+ * Ajoute un élément en fin de fichier YAML liste sans toucher au reste du texte
+ * (commentaires et mise en forme conservés) ; crée le fichier s'il est absent ou vide.
+ */
+export function appendYamlListItem(file: string, value: Record<string, unknown>): void {
+  if (!existsSync(file)) {
+    writeYaml(file, [value]);
+    return;
+  }
+  const { text, doc } = parseYamlList(file);
+  if (!isSeq(doc.contents)) {
+    writeYaml(file, [value]);
+    return;
+  }
+  doc.contents.items.push(doc.createNode(value, { aliasDuplicateObjects: false }));
+  writeYamlDocument(file, doc, text.trim() === '' ? '\n' : text);
+}
+
+/**
+ * Affecte des clés scalaires d'un élément YAML : valeur remplacée en place si la clé existe
+ * (commentaire de ligne conservé), clé ajoutée en fin d'élément sinon (comme `Object.assign`).
+ */
+export function setYamlKeys(item: YAMLMap<unknown, unknown>, values: Record<string, string | number | boolean>): void {
+  for (const [key, value] of Object.entries(values)) {
+    const node = item.get(key, true);
+    if (isScalar(node)) node.value = value;
+    else item.set(key, value);
+  }
 }
 
 /** Toutes les questions du corpus, tous fichiers confondus, avec leur fichier. */

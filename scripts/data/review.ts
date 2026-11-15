@@ -3,7 +3,7 @@
 import { join } from 'node:path';
 import { fail, info, parseCli, resolvePaths, runCli, today, usage, type DataPaths } from './lib/cli';
 import { buildContext } from './lib/context';
-import { positionId, readYamlRaw, writeYaml } from './lib/corpus';
+import { editYamlListItems, positionId, setYamlKeys } from './lib/corpus';
 import { positionHash } from './lib/positions';
 import { POSITION_RULES, runRules } from './lib/rules';
 
@@ -36,11 +36,15 @@ export function reviewPosition(paths: DataPaths, opts: ReviewOptions): { status:
   if (blocking.length > 0) fail(`Relecture refusée pour ${id} :\n${blocking.map((v) => `  ✗ ${v.rule} ${v.entity.id} : ${v.message}`).join('\n')}`);
 
   const file = join(paths.corpusDir, 'positions', `${opts.candidate}.yaml`);
-  const raw = readYamlRaw(file) as Record<string, unknown>[];
-  const entry = raw.find((p) => p.question === opts.question);
-  if (!entry) fail(`Position introuvable dans ${file}.`);
-  Object.assign(entry, { status, reviewer: opts.by, reviewedAt, reviewedHash });
-  writeYaml(file, raw);
+  // Édition sur le document YAML : commentaires et mise en forme du fichier conservés.
+  let found = false;
+  editYamlListItems(file, (entry) => {
+    if (found || entry.get('question') !== opts.question) return false;
+    found = true;
+    setYamlKeys(entry, { status, reviewer: opts.by, reviewedAt, reviewedHash });
+    return true;
+  });
+  if (!found) fail(`Position introuvable dans ${file}.`);
   return { status, file };
 }
 

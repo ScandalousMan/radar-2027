@@ -47,6 +47,30 @@ describe('data:review', () => {
     expect((await validate(paths)).violations.map((v) => [v.rule, v.entity.id])).toEqual([['FR-019', 'dupont/economie-q03']]);
   });
 
+  it('conserve commentaires, guillemets, lignes vides et fin de fichier : seuls le statut et les clés de relecture changent', async () => {
+    const paths = await tempFixture();
+    const file = join(paths.corpusDir, 'positions', 'dupont.yaml');
+    const original = `${(await readFile(file, 'utf8'))
+      .replace(/^/, '# En-tête de traçabilité.\n\n')
+      .replace('- question: economie-q03', '# Source vérifiée le 2026-11-08.\n- question: economie-q03')
+      .replace('  quote: Programme 2027.', '  quote: "Programme 2027."')
+      .replace('  justification: Brouillon non relu.\n  status: draft', '  justification: Brouillon non relu.\n  status: draft # à relire')
+      .trimEnd()}\n\n`;
+    await writeFile(file, original);
+
+    reviewPosition(paths, { candidate: 'dupont', question: 'economie-q03', by: 'relecteur-1', date: '2026-11-10' });
+    const entry = (await readPositions(paths)).find((p) => p.question === 'economie-q03')!;
+    expect(entry).toMatchObject({ status: 'reviewed', quote: 'Programme 2027.' });
+    // Statut remplacé en place (commentaire de ligne gardé) ; clés de relecture ajoutées en fin d'élément ; rien d'autre ne bouge.
+    const expected = original
+      .replace('  status: draft # à relire', '  status: reviewed # à relire')
+      .replace(
+        '  authoredAt: 2026-11-08\n- question: sante-q01',
+        `  authoredAt: 2026-11-08\n  reviewer: relecteur-1\n  reviewedAt: 2026-11-10\n  reviewedHash: ${String(entry.reviewedHash)}\n- question: sante-q01`,
+      );
+    expect(await readFile(file, 'utf8')).toBe(expected);
+  });
+
   it('refuse une position dont la citation est introuvable', async () => {
     const paths = await tempFixture();
     const file = join(paths.corpusDir, 'positions', 'dupont.yaml');

@@ -1,9 +1,9 @@
 // @vitest-environment node
-import { cp, mkdtemp, readFile } from 'node:fs/promises';
+import { cp, mkdtemp, readFile, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { parse } from 'yaml';
+import { parse, stringify } from 'yaml';
 import { acceptAffirmation, listAffirmations, rejectAffirmation } from './affirmation';
 import { resolvePaths } from './lib/cli';
 import { loadCorpus } from './lib/corpus';
@@ -73,6 +73,20 @@ describe('data:affirmation', () => {
     expect((await validate(paths)).violations).toEqual([]);
     expect(() => reviewPosition(paths, { candidate: 'dupont', question: 'sante-q03', by: 'adrien' })).toThrow(/ne peut pas être l'auteur/);
     expect(() => acceptAffirmation(paths, { id: verified.id, by: 'adrien' })).toThrow(/déjà acceptée/);
+  });
+
+  it('accept ajoute la position en fin de fichier sans toucher aux commentaires ni à la mise en forme', async () => {
+    const { paths, verified } = await setup();
+    const file = join(paths.corpusDir, 'positions', 'dupont.yaml');
+    const original = `# En-tête de traçabilité.\n\n${(await readFile(file, 'utf8'))
+      .replace('  quote: Programme 2027.', '  quote: "Programme 2027." # titre seul')
+      .trimEnd()}\n`;
+    await writeFile(file, original);
+
+    acceptAffirmation(paths, { id: verified.id, by: 'adrien', now: new Date('2026-11-09T00:00:00Z') });
+    const after = await readFile(file, 'utf8');
+    expect(after).toBe(`${original}${stringify([parse(after).at(-1)], { lineWidth: 0 })}`);
+    expect(parse(after).at(-1)).toMatchObject({ question: 'sante-q03', status: 'draft' });
   });
 
   it('accept refuse un couple déjà présent ; reject trace le motif', async () => {

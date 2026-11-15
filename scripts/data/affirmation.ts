@@ -2,7 +2,7 @@
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fail, info, parseCli, resolvePaths, runCli, today, usage, type DataPaths } from './lib/cli';
-import { loadCorpus, positionId, readYamlRaw, writeYaml } from './lib/corpus';
+import { appendYamlListItem, loadCorpus, positionId, readYamlRaw } from './lib/corpus';
 import { isScaleValue, sourceIndex } from './lib/positions';
 import { AffirmationsFileSchema, EvidenceKindSchema, RunSchema, type Affirmation } from './lib/schema';
 
@@ -67,7 +67,7 @@ export function acceptAffirmation(paths: DataPaths, opts: AcceptOptions): { posi
   const runFile = join(paths.extractionsDir, 'runs', `${a.run}.json`);
   const model = existsSync(runFile) ? RunSchema.parse(JSON.parse(readFileSync(runFile, 'utf8'))).model : 'inconnu';
   const at = today(opts.now);
-  positions.push({
+  appendYamlListItem(posFile, {
     question,
     value,
     evidence: evidence.data,
@@ -80,7 +80,6 @@ export function acceptAffirmation(paths: DataPaths, opts: AcceptOptions): { posi
     author: opts.by,
     authoredAt: at,
   });
-  writeYaml(posFile, positions);
   found.list[found.list.indexOf(a)] = { ...a, state: 'accepted', decision: { by: opts.by, at, position: id } };
   save(found.file, found.list);
   return { position: id };
