@@ -86,3 +86,223 @@
   candidates:
     - nicolas-dupont-aignan
   contentHash: sha256:877021f36a8150b497bded14da1ceeec64321d2d069f2fa5a0dd5b415592393c
+- id: nicolas-dupont-aignan-projet-defense
+  url: https://www.debout-la-france.fr/projet/defense/
+  title: "Projet : défense nationale (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-10-08
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:c573c9a57c40165e46fdf89bd93b5f0b8dd382ebef871e831764481db10d8098
+- id: nicolas-dupont-aignan-projet-agriculture
+  url: https://www.debout-la-france.fr/projet/agriculture/
+  title: "Projet : agriculture (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-02-16
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:a95ef3ad568a7f5f2fcacf64bf168e054eafe409c94e2a9c87346040ec703759
+- id: nicolas-dupont-aignan-projet-sante
+  url: https://www.debout-la-france.fr/projet/sante/
+  title: "Projet : santé (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2024-02-05
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:42d6a40c5e89b0186a877db0e089e221f324ed43da9dc10aa4b744a197100e01
+- id: nicolas-dupont-aignan-projet-justice
+  url: https://www.debout-la-france.fr/projet/justice/
+  title: "Projet : justice (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-10-12
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:576128e8bd81c2dd14c5f5838a7e4ed8144d63f703efdd3ed422877b84e8226b
+- id: nicolas-dupont-aignan-projet-affaires-etrangeres
+  url: https://www.debout-la-france.fr/projet/affaires-etrangeres/
+  title: "Projet : affaires étrangères (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-03
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:7d0033f78e4cf6ee060467363af379be24853b954b0987b64bcd4738f8f9960f
+- id: nicolas-dupont-aignan-projet-retraites
+  url: https://www.debout-la-france.fr/projet/retraites/
+  title: "Projet : retraites (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2024-02-05
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:92e8642fe2947894c53dfbaf57f99855a79f05a2e96d107f42a0bbe5961c6cbf
+- id: nicolas-dupont-aignan-projet-automobilistes
+  url: https://www.debout-la-france.fr/projet/transport-automobilistes/
+  title: "Projet : automobilistes et motards (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-10-15
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:8409f3cdeb7f4c51fb56471d92ec4230c517de36abd4debf7b82eaf0d79fe3a9
+- id: nicolas-dupont-aignan-projet-famille
+  url: https://www.debout-la-france.fr/projet/famille/
+  title: "Projet : famille (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-06-09
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:20b287a9d6206446f92df118034b282f6da8be946aae4609ef3334f417f599d8
+- id: nicolas-dupont-aignan-projet-education
+  url: https://www.debout-la-france.fr/projet/instruction-publique/
+  title: "Projet : éducation (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-10-12
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:cd746db638bccbcf880f2f0355f89457cb14a6324f4daa81e535270a15a7f25a
+- id: nicolas-dupont-aignan-projet-enseignement-superieur
+  url: https://www.debout-la-france.fr/projet/enseignement-superieur/
+  title: "Projet : enseignement supérieur (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2024-02-05
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:50691ba38d310e99a393cc10437fac48709357c86c856a7c9b91fc4456b182ec
+- id: nicolas-dupont-aignan-projet-equilibre-territoire
+  url: https://www.debout-la-france.fr/projet/equilibre-territoire-monde-rural/
+  title: "Projet : équilibre du territoire (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-02-16
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:0a50255ed437c1be91b7d0557c4e91e3800d24ca3883e0efd7b847f02263222b
+- id: nicolas-dupont-aignan-projet-logement
+  url: https://www.debout-la-france.fr/projet/logement/
+  title: "Projet : logement (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-09-30
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:6640bb58067fa76f2d26ddf0d9d47315374e9fc2158dba799b67ff2b237db309
+- id: nicolas-dupont-aignan-projet-intelligence-artificielle
+  url: https://www.debout-la-france.fr/projet/intelligence-artificielle/
+  title: "Projet : intelligence artificielle (Debout la France)"
+  kind: programme
+  publishedAt:
+    date: 2026-10-12
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:7474519851d02ca67fd2647a6f034fc156fcd820a24aef8ef66ec1f2f5f5d244
+- id: nicolas-dupont-aignan-projet-economie-integral
+  url: https://www.debout-la-france.fr/wp-json/wp/v2/dt_portfolio/54514
+  title: "Projet : économie, texte intégral avec les 30 mesures (Debout la France, API du site)"
+  kind: programme
+  publishedAt:
+    date: 2026-11-13
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:1794357bcd4f79819dd83a23b83b3c8c532d7a537de6d5c37d222fb1c379bdab
+- id: nicolas-dupont-aignan-projet-securite-integral
+  url: https://www.debout-la-france.fr/wp-json/wp/v2/dt_portfolio/65935
+  title: "Projet : sécurité, texte intégral avec les 30 mesures (Debout la France, API du site)"
+  kind: programme
+  publishedAt:
+    date: 2026-02-16
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:c14d03fb5a9bafbc05d83195926f999330443e8aff8d3133461814ff9f1694c9
+- id: nicolas-dupont-aignan-projet-environnement-energie-integral
+  url: https://www.debout-la-france.fr/wp-json/wp/v2/dt_portfolio/54512
+  title: "Projet : environnement et énergie, texte intégral avec les mesures (Debout la France, API du site)"
+  kind: programme
+  publishedAt:
+    date: 2025-10-29
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:c5e9aea85c81aae4dd416ce4bd92b43caf534d87eb881e9f5bf4e7b7ce11bb05
+- id: nicolas-dupont-aignan-projet-immigration-integral
+  url: https://www.debout-la-france.fr/wp-json/wp/v2/dt_portfolio/54498
+  title: "Projet : immigration et assimilation, texte intégral avec les 27 mesures (Debout la France, API du site)"
+  kind: programme
+  publishedAt:
+    date: 2026-03-03
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:91573f48f524ad9aaf2d01390bca45740472e93c1c09dd18c39b509b3e733757
+- id: nicolas-dupont-aignan-projet-democratie-integral
+  url: https://www.debout-la-france.fr/wp-json/wp/v2/dt_portfolio/54518
+  title: "Projet : refonder et moraliser notre démocratie, texte intégral avec les 15 mesures (Debout la France, API du site)"
+  kind: programme
+  publishedAt:
+    date: 2026-06-09
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:a6073d50094e6b29bf3ecf8c894e280f134caec782c29fc3c665affd0409ab29
+- id: nicolas-dupont-aignan-projet-europe-integral
+  url: https://www.debout-la-france.fr/wp-json/wp/v2/dt_portfolio/52497
+  title: "Projet : affaires européennes, texte intégral avec les mesures (Debout la France, API du site)"
+  kind: programme
+  publishedAt:
+    date: 2026-10-05
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:0d2e5064b67f80d6bc96f1c9f97a09c59ddbc142435f952c257325de9f1d178e
+- id: nicolas-dupont-aignan-profession-de-foi-2022
+  url: https://www.macommune.info/wp-content/uploads/2022/04/candidat-02-nicolas-dupont-aignan-declaration-accessible.pdf
+  title: Profession de foi présidentielle 2022 de Nicolas Dupont-Aignan (version accessible, PDF)
+  kind: programme
+  publishedAt:
+    date: 2022-04
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - nicolas-dupont-aignan
+  contentHash: sha256:c951db2e392ceceeeea7fa638a1532d3e915a598b19f6a216bd13b64e6c1c5fd

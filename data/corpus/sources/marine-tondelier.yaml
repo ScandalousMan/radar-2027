@@ -75,3 +75,25 @@
   candidates:
     - marine-tondelier
   contentHash: sha256:190a6b57ee641ad67f6dbd6c72a3c286fd3a7cec51e9060e5ed172141fde6163
+- id: marine-tondelier-carnet-de-doctrine-numerique-technodiversites-reprendre-la-m
+  url: https://marinetondelier.fr/s/Carnet-numerique.pdf
+  title: "Carnet de doctrine numérique : technodiversités, reprendre la main sur le numérique (campagne de Marine Tondelier, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-07
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-tondelier
+  contentHash: sha256:100db864d81fcedfd252d113b3887b4194f435b078f97dcadb12e2a0d940aa45
+- id: marine-tondelier-livret-thematique-lutter-contre-la-solitude-30-propositions
+  url: https://marinetondelier.fr/s/Livret-solitude.pdf
+  title: "Livret thématique : lutter contre la solitude, 30 propositions pour une écologie du lien (campagne de Marine Tondelier, PDF)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-05
+    precision: month
+  accessedAt: 2026-11-14
+  candidates:
+    - marine-tondelier
+  contentHash: sha256:e75d892036024b564bdf096116d599c8a0cd137f5e69ae4ce804c6933d393422
