@@ -1,4 +1,5 @@
 // Liste ordonnée des règles (ordre du tableau de contracts/corpus-files.md).
+import { AXIS_DIM } from './AXIS-DIM';
 import { FR_003 } from './FR-003';
 import { FR_004 } from './FR-004';
 import { FR_005 } from './FR-005';
@@ -33,6 +34,7 @@ export const RULES: Rule[] = [
   FR_010,
   FR_011,
   FR_012,
+  AXIS_DIM,
   FR_013,
   FR_014,
   FR_015,

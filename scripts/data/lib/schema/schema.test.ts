@@ -109,3 +109,35 @@ describe('schémas du corpus (contracts/corpus-files.md)', () => {
     expect(g.thresholds).toMatchObject({ polarityMin: 0.4, minQuestionsPerTheme: 10, oldSourceBefore: '2022-01-01', mainBudgetBytes: 307200 });
   });
 });
+
+// Spec 006 (contracts/corpus-delta.md) : axe à dimensions.
+describe('dimensions du thème et dimension de la question (006)', () => {
+  const dim = (id: string) => ({ id, label: `Dimension ${id}`, negative: 'Moins', positive: 'Plus' });
+  const theme = themes[0];
+
+  it('acceptent 2 ou 3 dimensions', () => {
+    expect(ThemeSchema.safeParse({ ...theme, dimensions: [dim('a'), dim('b')] }).error).toBeUndefined();
+    expect(ThemeSchema.safeParse({ ...theme, dimensions: [dim('a'), dim('b'), dim('c')] }).error).toBeUndefined();
+  });
+
+  it('refusent une seule dimension', () => {
+    expect(ThemeSchema.safeParse({ ...theme, dimensions: [dim('a')] }).success).toBe(false);
+  });
+
+  it('refusent des identifiants de dimension en double', () => {
+    expect(ThemeSchema.safeParse({ ...theme, dimensions: [dim('a'), dim('a')] }).success).toBe(false);
+  });
+
+  it('refusent une clé inconnue dans une dimension', () => {
+    expect(ThemeSchema.safeParse({ ...theme, dimensions: [{ ...dim('a'), couleur: 'rouge' }, dim('b')] }).success).toBe(false);
+  });
+
+  it('refusent un libellé de plus de 60 caractères', () => {
+    expect(ThemeSchema.safeParse({ ...theme, dimensions: [{ ...dim('a'), label: 'x'.repeat(61) }, dim('b')] }).success).toBe(false);
+  });
+
+  it('acceptent une question avec ou sans dimension', () => {
+    expect(QuestionSchema.safeParse({ ...questions[0], dimension: 'choix' }).error).toBeUndefined();
+    expect(QuestionSchema.safeParse(questions[0]).error).toBeUndefined();
+  });
+});
