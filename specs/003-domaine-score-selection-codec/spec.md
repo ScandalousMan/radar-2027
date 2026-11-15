@@ -227,7 +227,7 @@ identiques à ceux obtenus avec la première version seule.
 - Les planchers de quota font déborder `N` (mode court dès `T = 21`, voir FR-021) : erreur de
   configuration de la banque, refusée par le calcul des quotas ; à ajouter comme règle de
   validation de la 002 (suivi) afin qu'une telle version ne soit jamais publiée. Impossible
-  avec les 16 thèmes actuels.
+  avec le nombre de thèmes de la version de banque courante (18 en version 2, spec 006).
 - Mode court et question rattachée à deux thèmes non prioritaires : elle compte une seule fois
   dans le pseudo-thème « autres thèmes » (FR-013), alors qu'en mode complet elle compterait dans
   chacun des deux thèmes.
