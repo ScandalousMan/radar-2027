@@ -1040,7 +1040,7 @@
   reviewedAt: 2026-11-14
   reviewedHash: sha256:e9997ba06a677ec4997a35e69b1aeae5816a1e4cda976d274c724c44c53ba0d9
 
-# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
 - question: education-groupes-de-niveau-college
   value: 2
   evidence: livre_plateforme
@@ -1066,11 +1066,14 @@
   quote: "l'on ne montera dans la classe supérieure qu'après les avoir acquis, jamais par le seul effet de l'âge. Des étapes franchies, donc, et non enjambées, et l'examen d'entrée en sixième en sera le premier rendez-vous de vérité."
   quoteSource: bruno-retailleau-lr-livret-education
   justification: "Le livret crée un examen d'entrée en sixième et refuse le passage automatique ; il présente surtout cet examen comme l'outil d'affectation dans les groupes de niveau, sans dire explicitement qu'un échec empêche l'entrée au collège."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:9296aac6056140e6871d3cdbde7f6d1a73f7b86d43c2c88cef29b288e3b599c6
 
 - question: education-notes-evaluation-alternative
   value: -2
@@ -1114,11 +1117,14 @@
   quote: "C'est pourquoi nous mettrons fin à la règle non écrite du \" 80-20 \", qui, depuis quarante ans, étouffe un enseignement de plus en plus plébiscité en bornant à 20 % les moyens publics qui lui sont accordés."
   quoteSource: bruno-retailleau-lr-livret-education
   justification: "Le livret supprime le plafond de 20 % des moyens publics accordés au privé sous contrat au nom de la liberté de choix des familles, sans poser explicitement le principe d'un financement qui suit l'élève."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:7c95acefe44a4adceb1de11704c6502fc5d6afb1dda5121148fed023d64243f9
 
 - question: education-postes-baisse-demographique
   value: -2
@@ -1129,11 +1135,14 @@
   quote: "Ce recul, qui n'a rien d'une bonne nouvelle pour la Nation, permettra néanmoins à taux d'encadrement constant de libérer plus de 3 milliards d'euros par an en fin de quinquennat, pour financer intégralement cette revalorisation sans un euro d'impôt nouveau."
   quoteSource: bruno-retailleau-lr-livret-education
   justification: "Le livret garde un taux d'encadrement constant malgré 1,7 million d'élèves en moins, ce qui réduit le nombre de postes, et affecte l'économie aux salaires ; sur franceinfo (à 04:19:54, transcription automatique), il dit financer sa revalorisation par la chute démographique."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:6d35df4f8f76cd76a02baf9747b9f59350ac41aa844f5057d317d289393a4f57
 
 - question: education-salaires-enseignants-15-pourcent
   value: -1

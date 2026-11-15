@@ -1277,7 +1277,7 @@
   reviewedAt: 2026-11-14
   reviewedHash: sha256:77d9e7f1c194da2b60bea90d09a68928cb730b15fed9af715d81a9c7e272ebf9
 
-# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
 - question: education-financement-suit-choix-familles
   value: 2
   evidence: programme
@@ -1341,11 +1341,14 @@
   quote: "Supprimer Parcoursup et le remplacer par un système d'affectation fondé sur les résultats scolaires objectifs. Rétablir le libre accès à l'université pour toute filière non contingentée."
   quoteSource: david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
   justification: "Le livre noir rétablit le libre accès à l'université pour les filières non contingentées, mais remplace Parcoursup par une affectation fondée sur les résultats scolaires : position intermédiaire explicite."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:671ab2822c174dbbe6fbb258380f8ead31d6730a4160dfb2b246ed82d3b6cc1a
 
 - question: education-salaires-enseignants-15-pourcent
   value: 1
@@ -1407,8 +1410,11 @@
   quote: "Enfin, la limite d'âge pour l'apprentissage sera revue à la baisse."
   quoteSource: david-lisnard-programme-nouvelle-ambition
   justification: "Le programme économique abaisse l'âge d'entrée en apprentissage, ce qui ouvre cette voie plus tôt sans préciser si c'est avant la fin du collège."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:52de10356b4dae7aa0f815a0c99ebf4887a85537b5f75963452c8fe792c624c6

@@ -967,7 +967,7 @@
   reviewedAt: 2026-11-14
   reviewedHash: sha256:ca67bbdcfec3d0511e7963cb45ca73eb86f94204ce536116cd3a0db5c834c370
 
-# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
 - question: education-prive-financement-mixite
   value: 2
   evidence: programme
@@ -993,11 +993,14 @@
   quote: "Adosser à chaque révision de carte scolaire un diagnostic mixité obligatoire."
   quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
   justification: "Le cahier Éducation veut réviser la carte scolaire au service de la mixité, ce qui suppose son maintien ; il ne se prononce pas explicitement sur sa suppression."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:6eef33def92e176415e6bd24bd6589d1b2676ccfcd9986a74ef2cb978bcf4cab
 
 - question: education-universite-sans-selection
   value: -1
@@ -1008,11 +1011,14 @@
   quote: "Modifier le système de sélection et classement des élèves par les établissements. Ceux-ci devront tous publier dans le détail leur méthodologie de sélection, algorithmes compris."
   quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
   justification: "Le cahier Éducation remplace Parcoursup mais conserve une sélection par les établissements, rendue transparente. Sa tribune du 22 octobre 2026 réclame la « fin de Parcoursup » sans se prononcer sur la sélection."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:d5947e1ad6f50417c3b788ffc20a7e7e31f7bffa34a8b3dcd28f3b05d9f16a1d
 
 - question: education-postes-baisse-demographique
   value: 2
@@ -1091,11 +1097,14 @@
   quote: "La droite et l'extrême droite souhaitent accentuer la ségrégation scolaire en triant les élèves par niveau au plus tôt (groupes de niveau, fin du collège unique, brevet couperet) plutôt que de faire progresser les élèves en difficulté. Ce choix politique est inacceptable"
   quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
   justification: "Le cahier Éducation rejette la fin du collège unique et veut achever ce projet, sans viser explicitement l'orientation vers l'apprentissage avant la fin du collège."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:10de18831b6e779182db22f66ae072b39cfad257b3a1956147a0b69bd9822214
 
 - question: education-notes-evaluation-alternative
   value: 2

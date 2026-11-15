@@ -1309,7 +1309,7 @@
   reviewedAt: 2026-11-14
   reviewedHash: sha256:6a527aeb70124656ec84206e558d118afb8036c975e6cabbbf25391d3ecfedb1
 
-# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
 - question: education-orientation-professionnelle-avant-fin-college
   value: 2
   evidence: livre_plateforme
@@ -1336,22 +1336,11 @@
   quote: "Port de l'uniforme obligatoire."
   quoteSource: florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
   justification: "Le projet présidentiel 2022 rend l'uniforme obligatoire ; il le reprend dans un entretien de juin 2024. Le projet 2026 ne revient pas sur ce point."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
-
-- question: education-salaires-enseignants-15-pourcent
-  value: 1
-  evidence: livre_plateforme
-  sources:
-    - florian-philippot-projet-pour-la-france-2026
-  quote: "Leur formation doit être recentrée sur la maîtrise des savoirs disciplinaires, leur autorité pleinement reconnue et leur carrière revalorisée, notamment sur le plan salarial."
-  quoteSource: florian-philippot-projet-pour-la-france-2026
-  justification: "Le projet 2026 prévoit une revalorisation salariale des enseignants, sans en chiffrer l'ampleur."
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:704f9b218a35e11288cf19ede6aa255a9d678b3401bb4547c54073e0a7b66daf

@@ -3083,7 +3083,7 @@
   reviewedAt: 2026-11-14
   reviewedHash: sha256:a4e8ead77459e439651c411ce71b6da1e6f6548ac41ae985bddb5769ebf35f8e
 
-# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
 - question: education-financement-suit-choix-familles
   value: -1
   evidence: programme
@@ -3093,11 +3093,14 @@
   quote: "Abolir les privilèges de l'enseignement privé en interdisant les subventions d'investissement facultatives des collectivités et en abrogeant la loi dite \" Carle \""
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch2
   justification: "L'Avenir en commun veut abroger la loi Carle, qui organise la participation des communes à la scolarité d'élèves inscrits dans le privé hors de leur territoire, et restreindre les financements du privé. Il ne se prononce pas directement sur le principe de l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:e98fbffff848975776715b80d686073e90b7a0f5c18171e1a5890d7fb9cd87f8
 
 - question: education-prive-financement-mixite
   value: 2
@@ -3195,11 +3198,14 @@
   quote: "Mettre fin au \" pacte enseignant \""
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch2
   justification: "L'Avenir en commun supprime le pacte enseignant, qui rémunère des missions supplémentaires, et revalorise le point d'indice et les grilles : une hausse générale plutôt que des primes."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:8e8f01725aeff8628187ab6a916c1a09dffc6e61a6f3709a808e977ae2d5d506
 
 - question: education-frais-inscription-etudiants-etrangers
   value: -2
@@ -3220,18 +3226,21 @@
   reviewedHash: sha256:6870a60d2854834ff9b6553fad734f0595e9e2fe8433f64e4a55f89a1d72d62c
 
 - question: education-groupes-de-niveau-college
-  value: -1
+  value: -2
   evidence: programme
   sources:
     - jean-luc-melenchon-aec-gout-du-futur-ch2
   quote: "Abroger le \" choc des savoirs \""
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch2
-  justification: "L'Avenir en commun abroge la réforme du « choc des savoirs », qui a introduit des groupes en français et en mathématiques au collège ; la mesure est plus large que l'énoncé."
-  status: draft
+  justification: "L'Avenir en commun abroge la réforme du « choc des savoirs », qui a introduit des groupes de niveau en français et en mathématiques au collège : opposition directe à l'énoncé."
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:b42630a5bedbdcb8ef405c85b26e0a4553a78242e94583e9ec0b02136b952d2d
 
 - question: education-uniforme-obligatoire
   value: -2

@@ -1821,7 +1821,7 @@
   reviewedAt: 2026-11-14
   reviewedHash: sha256:ccc3d3a65f883a145d720b31fb62ea1bffa607d3500f7160b6dc8d54fa6907fb
 
-# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
 - question: education-postes-baisse-demographique
   value: 2
   evidence: livre_plateforme
@@ -1850,11 +1850,14 @@
   quote: "Je non je précise 10 % tout de suite et à terme 30 % d'accord"
   quoteSource: fabien-roussel-franceinfo-services-publics-education
   justification: "Sur franceinfo (à 01:31:16 ; transcription automatique, à confirmer à l'écoute), il promet une hausse du point d'indice de 10 % tout de suite et de 30 % à terme, sans calendrier pour le quinquennat ; le programme 2022 prévoyait 30 % pour les enseignants, d'où plutôt d'accord."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:af5e70c37c753d195fe81b4c34366d9e63b5311bf9796a8c3adf5ffed1c64acc
 
 - question: education-revalorisation-identique-pour-tous
   value: 2
@@ -1864,11 +1867,14 @@
   quote: "reconnaissance. Donc je revalorise euh le point d'indice tout de suite par une hausse de 10 % du point d'indice."
   quoteSource: fabien-roussel-franceinfo-services-publics-education
   justification: "Sur franceinfo (à 01:30:56 ; transcription automatique, à confirmer à l'écoute), il revalorise le point d'indice, hausse générale, après avoir rejeté (à 01:30:33) le « travailler plus pour gagner plus » demandé aux enseignants."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:817201df1a6e8475027beede85a96d2b75eb8571b840c1ad8b2e1297028f6339
 
 - question: education-prive-financement-mixite
   value: 0
@@ -1879,11 +1885,14 @@
   quote: "Est-ce que vous baissez les aides de l'État sur les écoles sous contrat notamment ? pas forcément. En revanche, je demanderai à l'école privée"
   quoteSource: fabien-roussel-franceinfo-services-publics-education
   justification: "Sur franceinfo (à 01:35:55 ; transcription automatique, à confirmer à l'écoute, question de la journaliste incluse), il ne s'engage pas à baisser les aides au privé mais exigera de la mixité sociale ; la base commune du congrès PCF (juillet 2026) visait la fin de ce financement, la source la plus récente est retenue."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:67fb16ea35027d31d0c6e40881e7623a343e21a850fae6116a5d5cfefc0c24ef
 
 - question: education-universite-sans-selection
   value: 2

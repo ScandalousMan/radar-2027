@@ -1867,7 +1867,7 @@
   reviewedAt: 2026-11-14
   reviewedHash: sha256:a35d10b239b37d160259deb106c98a7d0407a96fa19e21702559f18584eb9836
 
-# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
 - question: education-examen-entree-college
   value: 2
   evidence: livre_plateforme
@@ -1878,11 +1878,14 @@
   quote: "étages. C'est-à-dire vous rentrez en 6e, vous devez passer un examen et si vous n'avez pas le niveau, vous savez aujourd'hui la moitié des élèves français ne lit pas correctement."
   quoteSource: eric-zemmour-cnews-niveau-scolaire-2026-10
   justification: "Sur CNews (à 00:11:48 ; transcription automatique, à confirmer à l'écoute), il veut un examen d'entrée en sixième et ajoute que les élèves sans le niveau « n'ont rien à voir en 6e »."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:5c28d3185c7564c3311fbea76fc35e5feedd9afafd5b05ec6ff6e438bc0554f8
 
 - question: education-groupes-de-niveau-college
   value: 1
@@ -1912,11 +1915,14 @@
   quote: "Je mets une orientation à partir de la 4e vers"
   quoteSource: eric-zemmour-franceinfo-services-publics-education
   justification: "Sur franceinfo (à 03:42:16 ; transcription automatique, à confirmer à l'écoute), il propose une orientation vers l'enseignement professionnel dès la quatrième ; sa profession de foi 2022 prévoyait une voie professionnelle dès 14 ans."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:92270de028435dc971217aa7a435f5ecf0a8e6acbfc3f8c28fcef454dd7a8842
 
 - question: education-universite-sans-selection
   value: -2
@@ -1927,11 +1933,14 @@
   quote: "devraient euh d'ailleurs qui subiront un numérus claus. Par exemple, moi je je suis favorable à un numérus claus non pas pour la médecine mais pour la sociologie, vous voyez ? Parce que"
   quoteSource: eric-zemmour-cnews-niveau-scolaire-2026-10
   justification: "Sur CNews (à 00:12:31 ; transcription automatique, à confirmer à l'écoute), il défend des numerus clausus dans des filières universitaires ; son programme 2022 prévoyait des numerus clausus ciblés."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:85bc0427dda803164f5763689769750d7d840730914b420c4c64b633f029eb0a
 
 - question: education-revalorisation-identique-pour-tous
   value: -1
@@ -1941,11 +1950,14 @@
   quote: "Revaloriser les salaires des enseignants en accélérant la progression des carrières et en attribuant des Primes d'Excellence Professorale fondées sur la qualité de la transmission du savoir"
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: "Le programme 2022 revalorise les enseignants par des carrières accélérées et des primes d'excellence liées à l'inspection plutôt que par une hausse générale ; il ne rejette pas explicitement cette dernière, d'où plutôt pas d'accord."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:05d6e92baeec48fd58c6a8470349fade638fc819b63e70835d845eb4ebb5e232
 
 - question: education-uniforme-obligatoire
   value: 1
@@ -1972,22 +1984,11 @@
   quote: "Augmenter sensiblement les droits d'inscription pour les étudiants étrangers car l'enseignement supérieur public est financé par les impôts des Français"
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: "Le programme 2022 augmente les droits d'inscription des étudiants étrangers, sans distinguer l'Union européenne, d'où plutôt d'accord."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
-
-- question: education-financement-suit-choix-familles
-  value: 1
-  evidence: declaration_vote
-  sources:
-    - eric-zemmour-cnews-niveau-scolaire-2026-10
-  quote: "de laisser librement l'école privée se développer si les si les parents veulent mettre à l'école privée."
-  quoteSource: eric-zemmour-cnews-niveau-scolaire-2026-10
-  justification: "Sur CNews (à 00:16:00 ; transcription automatique, à confirmer à l'écoute), il veut rompre la répartition 80/20 entre public et privé sous contrat pour laisser le privé se développer selon le choix des parents ; le financement n'est pas évoqué explicitement, d'où plutôt d'accord."
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:4586073cd9c18741f6b953755714006063dd3a3378d73f27b37b6c5991b3b786

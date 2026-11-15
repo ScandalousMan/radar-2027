@@ -1743,7 +1743,7 @@
   reviewedAt: 2026-11-14
   reviewedHash: sha256:17d1ea7840200a4e9bfbcb95c9a6019d82011feadaa73fc5e20f9687a2a9f386
 
-# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
 - question: education-salaires-enseignants-15-pourcent
   value: 2
   evidence: programme
@@ -1786,11 +1786,14 @@
   quote: "Organiser des classes de niveau tout en garantissant leur porosité."
   quoteSource: nicolas-dupont-aignan-projet-education
   justification: "Le projet Éducation organise des classes de niveau au collège, avec des passerelles, sans les limiter au français et aux mathématiques : mesure plus large que l'énoncé."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:4edbc82c02f4757c05f67c0f2c6eb2379a94a68ee7c89d5edd10a40d7720b313
 
 - question: education-uniforme-obligatoire
   value: 2
