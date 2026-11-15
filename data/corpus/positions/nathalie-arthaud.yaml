@@ -621,3 +621,18 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:dbc0fe11ae3fb99b67632ecafb43992b6b3b8b2205cf0299488756212f8bba9b
+
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+- question: education-postes-baisse-demographique
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - nathalie-arthaud-saint-quentin-2026-10
+  quote: "c'est juste de bagarrer pour qu'il y ait un prof devant chaque classe, pour qu'il y ait des groupes plus petits et qu'on donne la priorité à l'éducation."
+  quoteSource: nathalie-arthaud-saint-quentin-2026-10
+  justification: "À Saint-Quentin (à 00:05:12, sous-titres de la vidéo, à confirmer à l'écoute), elle réclame un professeur devant chaque classe et des groupes plus petits, ce qui suppose au moins de garder les postes ; la baisse démographique n'est pas évoquée."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15

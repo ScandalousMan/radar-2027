@@ -1040,3 +1040,133 @@
   reviewedAt: 2026-11-14
   reviewedHash: sha256:e9997ba06a677ec4997a35e69b1aeae5816a1e4cda976d274c724c44c53ba0d9
 
+
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+- question: education-groupes-de-niveau-college
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+  quote: "un examen d'entrée en sixième déterminera l'affectation du nouveau collégien dans des groupes de niveau"
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: "Le livret propose de répartir les collégiens en groupes de niveau dès l'entrée en sixième, après un examen ; ces groupes ne sont pas limités au français et aux mathématiques."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-examen-entree-college
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+  quote: "l'on ne montera dans la classe supérieure qu'après les avoir acquis, jamais par le seul effet de l'âge. Des étapes franchies, donc, et non enjambées, et l'examen d'entrée en sixième en sera le premier rendez-vous de vérité."
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: "Le livret crée un examen d'entrée en sixième et refuse le passage automatique ; il présente surtout cet examen comme l'outil d'affectation dans les groupes de niveau, sans dire explicitement qu'un échec empêche l'entrée au collège."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-notes-evaluation-alternative
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+  quote: "Ce sera le retour de la note chiffrée, claire et lisible, pour que chacun sache où il en est et que les parents ne soient plus tenus à l'écart par des codes de couleurs."
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: "Le livret veut rétablir la note chiffrée à la place des codes de couleurs, soit l'inverse d'un abandon progressif des notes."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-universite-sans-selection
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+  quote: "Les universités seront autorisées à choisir leurs étudiants sur des critères transparents et selon leurs capacités d'accueil."
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: "Le livret autorise les universités à sélectionner leurs étudiants et fait de Parcoursup un outil de sélection."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-financement-suit-choix-familles
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+  quote: "C'est pourquoi nous mettrons fin à la règle non écrite du \" 80-20 \", qui, depuis quarante ans, étouffe un enseignement de plus en plus plébiscité en bornant à 20 % les moyens publics qui lui sont accordés."
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: "Le livret supprime le plafond de 20 % des moyens publics accordés au privé sous contrat au nom de la liberté de choix des familles, sans poser explicitement le principe d'un financement qui suit l'élève."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-postes-baisse-demographique
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+    - bruno-retailleau-franceinfo-services-publics-education
+  quote: "Ce recul, qui n'a rien d'une bonne nouvelle pour la Nation, permettra néanmoins à taux d'encadrement constant de libérer plus de 3 milliards d'euros par an en fin de quinquennat, pour financer intégralement cette revalorisation sans un euro d'impôt nouveau."
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: "Le livret garde un taux d'encadrement constant malgré 1,7 million d'élèves en moins, ce qui réduit le nombre de postes, et affecte l'économie aux salaires ; sur franceinfo (à 04:19:54, transcription automatique), il dit financer sa revalorisation par la chute démographique."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-salaires-enseignants-15-pourcent
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+  quote: "Nous alignerons ainsi intégralement le début de carrière sur la moyenne européenne, soit 135 euros nets de plus chaque mois, et nous comblerons au moins la moitié de l'écart au cœur de la carrière, soit environ 300 euros nets supplémentaires par mois."
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: "Le livret chiffre une hausse ciblée sur le début et le milieu de carrière (135 et 300 euros nets par mois), et non une hausse d'au moins 15 % pour l'ensemble des enseignants."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-frais-inscription-etudiants-etrangers
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-ppl-pour-reprendre-le-controle-de-la-politique-d-immigration
+    - bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
+  quote: "qui sont majorés pour les étrangers non ressortissants de l'Union européenne"
+  quoteSource: bruno-retailleau-ppl-pour-reprendre-le-controle-de-la-politique-d-immigration
+  justification: "La proposition de loi inscrit dans le code de l'éducation des droits d'inscription majorés pour les étudiants non européens ; en entretien, il veut aussi supprimer leur exonération automatique."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-orientation-professionnelle-avant-fin-college
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - bruno-retailleau-lr-livret-education
+    - bruno-retailleau-franceinfo-services-publics-education
+  quote: "L'apprentissage sera ouvert dès la classe de quatrième, à quatorze ans, des passerelles seront créées entre les voies générale, technologique, professionnelle et l'apprentissage"
+  quoteSource: bruno-retailleau-lr-livret-education
+  justification: "Le livret ouvre l'apprentissage dès la quatrième, à 14 ans, donc avant la fin du collège ; il le redit sur franceinfo (préapprentissage à 14 ans)."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15

@@ -1659,3 +1659,46 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:d80c7812a6eab992816366b9a1395b0678673d795f1c0ceadb96862448fcbf4b
+
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+- question: education-financement-suit-choix-familles
+  value: -2
+  evidence: programme
+  sources:
+    - juan-branco-la-voie-programme-2027
+  quote: "Démantèlement des petits cours privés et de toute aide publique, toute défiscalisation, tout appui d'État ou communal à des institutions privées."
+  quoteSource: juan-branco-la-voie-programme-2027
+  justification: "Le programme supprime toute aide publique aux établissements privés, ce qui exclut un financement public qui suivrait l'élève dans le privé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-carte-scolaire-suppression
+  value: -1
+  evidence: programme
+  sources:
+    - juan-branco-la-voie-programme-2027
+  quote: "Refonte de la carte scolaire et absorption du parc scolaire privé, fin du système issue de \" l'école libre \"."
+  quoteSource: juan-branco-la-voie-programme-2027
+  justification: "Le programme refond la carte scolaire et y intègre le privé, ce qui la maintient au lieu de la supprimer ; le contenu de la refonte n'est pas détaillé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-examen-entree-college
+  value: 1
+  evidence: programme
+  sources:
+    - juan-branco-la-voie-programme-2027
+  quote: "Création d'un examen d'entrée national en sixième."
+  quoteSource: juan-branco-la-voie-programme-2027
+  justification: "Le programme crée un examen national d'entrée en sixième, sans préciser les conséquences d'un échec."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15

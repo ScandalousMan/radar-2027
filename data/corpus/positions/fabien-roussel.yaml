@@ -1820,3 +1820,80 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:ccc3d3a65f883a145d720b31fb62ea1bffa607d3500f7160b6dc8d54fa6907fb
+
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+- question: education-postes-baisse-demographique
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-lettre-personnels-ecole-2026-08
+    - fabien-roussel-franceinfo-services-publics-education
+    - fabien-roussel-plan-jeunesse-2027-2032
+  quote: "La baisse démographique, à ce titre, ne doit pas être utilisée pour faire des économies. Au contraire.Nous avons besoin de plus d'enseignants pour faire reculer les inégalités"
+  quoteSource: fabien-roussel-lettre-personnels-ecole-2026-08
+  justification: "Sa lettre aux personnels refuse que la baisse démographique serve à faire des économies et demande plus d'enseignants ; le plan Jeunesse et l'entretien franceinfo vont dans le même sens."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-salaires-enseignants-15-pourcent
+  value: 1
+  evidence: programme
+  sources:
+    - fabien-roussel-franceinfo-services-publics-education
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Je non je précise 10 % tout de suite et à terme 30 % d'accord"
+  quoteSource: fabien-roussel-franceinfo-services-publics-education
+  justification: "Sur franceinfo (à 01:31:16 ; transcription automatique, à confirmer à l'écoute), il promet une hausse du point d'indice de 10 % tout de suite et de 30 % à terme, sans calendrier pour le quinquennat ; le programme 2022 prévoyait 30 % pour les enseignants, d'où plutôt d'accord."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-revalorisation-identique-pour-tous
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - fabien-roussel-franceinfo-services-publics-education
+  quote: "reconnaissance. Donc je revalorise euh le point d'indice tout de suite par une hausse de 10 % du point d'indice."
+  quoteSource: fabien-roussel-franceinfo-services-publics-education
+  justification: "Sur franceinfo (à 01:30:56 ; transcription automatique, à confirmer à l'écoute), il revalorise le point d'indice, hausse générale, après avoir rejeté (à 01:30:33) le « travailler plus pour gagner plus » demandé aux enseignants."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-prive-financement-mixite
+  value: 0
+  evidence: livre_plateforme
+  sources:
+    - fabien-roussel-franceinfo-services-publics-education
+    - fabien-roussel-congres-2026-base-commune
+  quote: "Est-ce que vous baissez les aides de l'État sur les écoles sous contrat notamment ? pas forcément. En revanche, je demanderai à l'école privée"
+  quoteSource: fabien-roussel-franceinfo-services-publics-education
+  justification: "Sur franceinfo (à 01:35:55 ; transcription automatique, à confirmer à l'écoute, question de la journaliste incluse), il ne s'engage pas à baisser les aides au privé mais exigera de la mixité sociale ; la base commune du congrès PCF (juillet 2026) visait la fin de ce financement, la source la plus récente est retenue."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-universite-sans-selection
+  value: 2
+  evidence: programme
+  sources:
+    - fabien-roussel-plan-jeunesse-2027-2032
+    - fabien-roussel-franceinfo-services-publics-education
+    - fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  quote: "Parcoursup et MonMaster seront supprimés et la sélection à l'entrée de l'université prendra fin."
+  quoteSource: fabien-roussel-plan-jeunesse-2027-2032
+  justification: "Le plan Jeunesse supprime Parcoursup et met fin à la sélection à l'entrée de l'université, une place étant garantie à chaque bachelier."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15

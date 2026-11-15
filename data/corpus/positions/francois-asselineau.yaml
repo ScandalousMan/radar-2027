@@ -1158,3 +1158,32 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:48af6693f10319ea55d55cf5fb2fe82ad073c1bdb45027b9113e002d84494788
+
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+- question: education-salaires-enseignants-15-pourcent
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Dans le secteur public, c'est l'échelle des rémunérations et, en priorité, celle des fonctionnaires de terrain (personnel hospitalier, policiers et gendarmes, militaires, enseignants) qui sera revue pour s'aligner sur cette augmentation générale du pouvoir d'achat."
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme 2022 aligne la grille des fonctionnaires de terrain, dont les enseignants, sur la hausse du SMIC de 24 % prévue sur le quinquennat. La mesure est plus large que l'énoncé et ne chiffre pas la hausse propre aux enseignants."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-notes-evaluation-alternative
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Nous renouerons avec le rapport de transmission professeur-élève, le principe de la notation et du classement."
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Le programme 2022 veut rétablir le principe de la notation et du classement, à l'inverse d'un remplacement des notes. La mesure est générale et ne vise pas précisément les notes sur 20 au primaire et au collège."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15

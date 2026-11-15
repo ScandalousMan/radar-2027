@@ -1276,3 +1276,121 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:77d9e7f1c194da2b60bea90d09a68928cb730b15fed9af715d81a9c7e272ebf9
+
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+- question: education-financement-suit-choix-familles
+  value: 2
+  evidence: programme
+  sources:
+    - david-lisnard-entretien-jdnews-2026-10
+    - david-lisnard-programme-education
+    - david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
+  quote: "Les parents choisiront où ils inscriront leur enfant et le financement public suivra ce choix, que l'établissement soit privé ou public."
+  quoteSource: david-lisnard-entretien-jdnews-2026-10
+  justification: "Dans son entretien d'octobre 2026, il annonce que le financement public suivra le choix d'établissement des parents, public ou privé. Son programme prévoit un chèque-éducation et son livre noir une allocation scolaire qui suit l'élève."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-prive-financement-mixite
+  value: -1
+  evidence: programme
+  sources:
+    - david-lisnard-programme-education
+  quote: "L'enseignement privé n'est pas le problème. Il est souvent la réponse à une école publique disqualifiée. Plutôt que de lui imposer une \" mixité sociale \" arbitraire, il faut élever le niveau général de l'enseignement, partout."
+  quoteSource: david-lisnard-programme-education
+  justification: "Le programme refuse d'imposer une mixité sociale à l'enseignement privé, sans viser explicitement la modulation de son financement public."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-carte-scolaire-suppression
+  value: 2
+  evidence: programme
+  sources:
+    - david-lisnard-programme-education
+    - david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
+    - david-lisnard-programme-renouveau-civique
+  quote: "Il faut abroger la carte scolaire qui enferme les familles dans leur quartier, souvent contre leur gré, et laisse aux plus aisés le monopole de l'évitement."
+  quoteSource: david-lisnard-programme-education
+  justification: "Le programme demande l'abrogation de la carte scolaire ; le livre noir prévoit sa suppression sur trois ans."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-universite-sans-selection
+  value: 0
+  evidence: livre_plateforme
+  sources:
+    - david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
+  quote: "Supprimer Parcoursup et le remplacer par un système d'affectation fondé sur les résultats scolaires objectifs. Rétablir le libre accès à l'université pour toute filière non contingentée."
+  quoteSource: david-lisnard-le-livre-noir-de-la-bureaucratie-nouvelle-energie-pdf
+  justification: "Le livre noir rétablit le libre accès à l'université pour les filières non contingentées, mais remplace Parcoursup par une affectation fondée sur les résultats scolaires : position intermédiaire explicite."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-salaires-enseignants-15-pourcent
+  value: 1
+  evidence: programme
+  sources:
+    - david-lisnard-programme-education
+  quote: "Nous proposons une augmentation de 20 % des rémunérations en cinq ans, conditionnée à une réorganisation profonde : autonomie accrue, présence renforcée dans l'établissement, formation continue obligatoire, évaluation régulière."
+  quoteSource: david-lisnard-programme-education
+  justification: "Le programme prévoit une hausse de 20 % en cinq ans, mais conditionnée à une réorganisation du métier, ce qui ne la garantit pas sans condition à l'ensemble des enseignants."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-revalorisation-identique-pour-tous
+  value: -1
+  evidence: programme
+  sources:
+    - david-lisnard-programme-renouveau-civique
+    - david-lisnard-programme-education
+  quote: "En parallèle d'une véritable revalorisation financière du métier d'enseignant, en contrepartie de travail ou formation complémentaires"
+  quoteSource: david-lisnard-programme-renouveau-civique
+  justification: "Le programme lie la revalorisation à des contreparties (travail ou formation supplémentaires), et le programme Éducation la conditionne à une réorganisation, plutôt qu'à une hausse générale sans condition."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-examen-entree-college
+  value: 2
+  evidence: programme
+  sources:
+    - david-lisnard-programme-education
+  quote: "Nous proposons l'instauration d'un certificat de fin de primaire, dont la validation conditionnera l'entrée au collège."
+  quoteSource: david-lisnard-programme-education
+  justification: "Le programme fait de la validation d'un certificat de fin de primaire la condition d'entrée au collège."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-orientation-professionnelle-avant-fin-college
+  value: 1
+  evidence: programme
+  sources:
+    - david-lisnard-programme-nouvelle-ambition
+  quote: "Enfin, la limite d'âge pour l'apprentissage sera revue à la baisse."
+  quoteSource: david-lisnard-programme-nouvelle-ambition
+  justification: "Le programme économique abaisse l'âge d'entrée en apprentissage, ce qui ouvre cette voie plus tôt sans préciser si c'est avant la fin du collège."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15

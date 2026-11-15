@@ -970,3 +970,62 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:6273528016376012f0044a61f5812a51494e25c9ae7bbd481c95eb5b118bd66f
+
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
+- question: education-salaires-enseignants-15-pourcent
+  value: 1
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-ecole-edouardphilippe-fr
+  quote: "Augmenter de 20 % en moyenne le salaire des enseignants pendant le quinquennat."
+  quoteSource: edouard-philippe-programme-ecole-edouardphilippe-fr
+  justification: "Le programme prévoit une hausse de 20 % en moyenne sur le quinquennat, surtout en milieu de carrière ; une moyenne ne garantit pas au moins 15 % à chaque enseignant."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-universite-sans-selection
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - edouard-philippe-franceinfo-services-publics-education
+  quote: "il y a un niveau nécessaire et minimum qui n'est pas nécessairement le niveau qu'on obtient au bac et il faut donc sélectionner à l'entrée des"
+  quoteSource: edouard-philippe-franceinfo-services-publics-education
+  justification: "Sur franceinfo (à 06:14:24, transcription automatique, à confirmer à l'écoute), il défend une sélection à l'entrée des filières universitaires et refuse l'inscription sans sélection."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-frais-inscription-etudiants-etrangers
+  value: 2
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-immigration-edouardphilippe-fr
+    - edouard-philippe-priorites-surete
+  quote: "Il propose de vérifier qu'ils ont réellement les moyens de financer leurs études et d'appliquer vraiment la hausse des droits d'inscription prévue pour les étudiants venus hors d'Europe."
+  quoteSource: edouard-philippe-programme-immigration-edouardphilippe-fr
+  justification: "Le programme veut appliquer réellement la hausse des droits d'inscription prévue pour les étudiants non européens."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+
+- question: education-uniforme-obligatoire
+  value: -1
+  evidence: programme
+  sources:
+    - edouard-philippe-programme-ecole-edouardphilippe-fr
+    - edouard-philippe-franceinfo-services-publics-education
+  quote: "Édouard Philippe veut laisser ce choix à chaque établissement. Les chefs d'établissement auront la liberté d'imposer l'uniforme"
+  quoteSource: edouard-philippe-programme-ecole-edouardphilippe-fr
+  justification: "Le programme refuse une obligation nationale et laisse chaque établissement libre d'imposer ou non l'uniforme, qu'il dit vouloir favoriser lorsqu'une école le choisit."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
