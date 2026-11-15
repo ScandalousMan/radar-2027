@@ -2894,3 +2894,142 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:5ec81dcbaa650e95c3855e6f0cb6293e4caae481bf206f4a59e4393a8e45b09e
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+
+- question: democratie-champ-referendum-inchange
+  value: -1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: "Renforcer la démocratie directe par la mise en œuvre du Référendum d'Initiative Citoyenne (RIC) propositionnel ou abrogatif - sous condition d'un contrôle de constitutionnalité préalable."
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: 'Un RIC propositionnel ou abrogatif ouvre le référendum aux lois en général, au-delà des sujets actuels ; position déduite du RIC (admise par convention), sans mention explicite de tous les domaines, d''où -1.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:f21b9591bd0e9a5b1580a8bfa878c1aeab555816b827ccdcd38135459f4dad66
+
+- question: defense-reduire-presence-etranger
+  value: 1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: "Notre modèle d'armée doit aussi sortir d'une logique expéditionnaire héritée de la période post-coloniale et accélérer le pivot vers la défense continentale et la protection des territoires ultramarins."
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: 'Sortir de la logique expéditionnaire au profit de la défense continentale va dans le sens d''une moindre présence militaire à l''étranger, sans mesure chiffrée ni retrait explicite.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:37ce4150522c2bef11cc69318f6313293a374f42ccef52bce70bbb4d11dfb7d5
+
+- question: fiscalite-baisse-impot-societes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-tondelier-livret-travail-2026-11
+  quote: "Soutenir les TPE et PME ainsi que les associations par des dispositifs de soutien ciblés, stables et proportionnés, comme un ajustement à la baisse du taux réduit de l'impôt sur les sociétés et de la taxe sur les salaires."
+  quoteSource: marine-tondelier-livret-travail-2026-11
+  justification: 'Le livret baisse seulement le taux réduit de l''impôt sur les sociétés applicable aux petites entreprises, soutien partiel à l''énoncé.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:dca1f76821f46df04e4636c929bdd28de6116f82b4ceb9d6c761f20bd72055a7
+
+- question: agriculture-interdire-glyphosate
+  value: 1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: "Planifier une sortie progressive des pesticides de synthèse et des engrais azotés à l'horizon 2050."
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: 'Le glyphosate est un pesticide de synthèse : le programme prévoit d''en sortir, mais progressivement et à l''horizon 2050, et non par une interdiction immédiate.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3e1476a92f6f5852df2536b33464009d5d5d3b457ba83e40a1821cf2104bd0bd
+
+- question: numerique-scission-grandes-plateformes
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-tondelier-carnet-de-doctrine-numerique-technodiversites-reprendre-la-m
+  quote: "Le premier relève du droit de la concurrence, qu'il faut appliquer avec une fermeté inédite, jusqu'au démantèlement lorsqu'une position dominante dégénère en rente."
+  quoteSource: marine-tondelier-carnet-de-doctrine-numerique-technodiversites-reprendre-la-m
+  justification: 'Le carnet soutient le démantèlement des entreprises en position dominante, sans préciser que ce pouvoir revient à l''Union européenne.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:1f00ab137d51ce6d04ae2b969ac215fe6395c9fe39d723edf415000c57d3bc94
+
+- question: numerique-chiffrement-messageries-v2
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-tondelier-carnet-de-doctrine-numerique-technodiversites-reprendre-la-m
+  quote: "elle doit imposer l'interopérabilité, les normes ouvertes et le chiffrement de bout en bout. Les deux premières rendent aux usagers la liberté de changer de service sans renoncer à leurs données ; le troisième protège leurs communications de toute interception."
+  quoteSource: marine-tondelier-carnet-de-doctrine-numerique-technodiversites-reprendre-la-m
+  justification: 'Le carnet défend le chiffrement de bout en bout contre toute interception, sans se prononcer explicitement sur un accès des autorités publiques au contenu.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:96460de7d403ac1efdb2e8c317083e078795a8a2208fa7f87980ad4e4bb3e695
+
+- question: sante-ratios-soignants-patients
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - marine-tondelier-livret-thematique-lutter-contre-la-solitude-30-propositions
+  quote: "Instaurer un ratio de personnel dans tous les métiers du \"Care\", c'est-à-dire dans tous les métiers qui prennent soin des gens (médical, social, éducation)."
+  quoteSource: marine-tondelier-livret-thematique-lutter-contre-la-solitude-30-propositions
+  justification: 'Le livret instaure des ratios de personnel dans tous les métiers du soin, mesure plus large que l''énoncé qui ne vise que les hôpitaux et la loi.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:039b26b532fde2dce3096f960a1bfabe1ac016e60be98674189fb3535006d787
+
+- question: economie-prix-energie-reglementes
+  value: 1
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+  quote: "Refondre le tarif bleu. Réduire la part fixe de l'abonnement et développer une tarification progressive."
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: 'Le programme conserve et réforme le tarif bleu, tarif réglementé de l''électricité, sans se prononcer sur le gaz ni sur l''ensemble des prix de l''énergie.'
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8eae1a0d8bfac58f78130c231a9d41fcbc3e922c84d10c37aedfa0c958ec9c73
+
