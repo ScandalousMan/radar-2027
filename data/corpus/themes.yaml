@@ -144,3 +144,24 @@
     positive: Priorité aux énergies renouvelables et à la réduction de la consommation
   order: 16
   status: active
+- id: education
+  label: Éducation
+  description: École, de la maternelle au lycée, enseignants, voie professionnelle, enseignement supérieur et recherche.
+  axis:
+    negative: École plus différenciée et plus exigeante, avec plus de choix pour les familles et une dépense publique maîtrisée
+    positive: École plus commune et plus inclusive, avec plus de moyens publics et de liberté pédagogique
+  dimensions:
+    - id: choix
+      label: Choix et école commune
+      negative: Différenciation et liberté de choix des familles
+      positive: École publique commune
+    - id: moyens
+      label: Moyens publics
+      negative: Maîtrise de la dépense publique d'éducation
+      positive: Moyens publics accrus
+    - id: pedagogie
+      label: Autorité et pédagogie
+      negative: Autorité, fondamentaux et discipline
+      positive: Autonomie de l'élève et diversité des pédagogies
+  order: 17
+  status: active
