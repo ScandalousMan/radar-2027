@@ -10,7 +10,7 @@ Spécification : [specs/002-corpus-ontologie-pipeline](../specs/002-corpus-ontol
 ```text
 data/
 ├── corpus/                              # source de vérité, YAML relu en pull request
-│   ├── themes.yaml                      # 16 thèmes, ordre canonique, axes factuels
+│   ├── themes.yaml                      # 18 thèmes, ordre canonique, axes factuels (dimensions facultatives)
 │   ├── contributors.yaml                # identifiants courts des contributeurs (jamais publiés)
 │   ├── candidates.yaml                  # candidats déclarés ou retirés, avec source de statut
 │   ├── governance.yaml                  # critères d'inclusion, grille de neutralité, niveaux, seuils
@@ -18,6 +18,7 @@ data/
 │   ├── sources/<candidate-id>.yaml      # sources propres à un candidat
 │   ├── sources/commun.yaml              # sources partagées par plusieurs candidats
 │   └── positions/<candidate-id>.yaml    # positions d'un candidat, une par question au plus
+├── campagnes/<theme-id>/                # journaux de campagne : sources.md (recherche), enonces.md (rédaction)
 ├── extractions/                         # provenance de l'extraction assistée (JSON généré, relu)
 │   ├── runs/<run-id>.json               # journal d'une exécution : modèle, consignes, coût
 │   ├── affirmations/<candidate-id>.json # affirmations extraites, avec état et décision
@@ -32,6 +33,16 @@ Le **texte des sources** n'est pas versionné : il vit dans le cache local `.cac
 (ou `RADAR_SOURCE_CACHE_DIR`), un fichier `<empreinte>.txt` par source. Seule l'empreinte
 SHA-256 du texte normalisé est commitée (`contentHash`). Sans cache (CI), la validation signale
 `CACHE-MISSING` au lieu de vérifier les citations ; la publication exige le cache.
+
+## Axe à dimensions (spec 006)
+
+Un thème peut déclarer un axe composite : clé facultative `dimensions` (au moins 2, chacune
+`id`, `label` ≤ 60 caractères, `negative`, `positive`). Ses questions portent alors la clé
+`dimension`. Ni l'une ni l'autre n'est publiée. La règle `AXIS-DIM` vérifie qu'une question
+porte une dimension connue de son thème principal (obligatoire si elle est active), que chaque
+dimension compte au moins 3 questions actives et que le thème compte au moins autant de
+questions actives que le quota maximal d'un thème prioritaire en mode complet (13 pour
+18 thèmes). Le thème `education` est le premier à l'utiliser.
 
 ## Gouvernance (FR-041)
 

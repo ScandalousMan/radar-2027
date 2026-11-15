@@ -49,6 +49,7 @@ export default defineConfig([
     'test-results/**',
     'coverage/**',
     'next-env.d.ts',
+    '.cache/**',
   ]),
 
   ...nextCoreWebVitals,

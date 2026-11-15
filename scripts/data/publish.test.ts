@@ -6,7 +6,10 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { parse, stringify } from 'yaml';
 import { CandidateDetailSchema, MainDatasetSchema, VersionRegistrySchema } from '@/core/dataset';
+import { openCache } from './lib/cache';
 import { resolvePaths } from './lib/cli';
+import { loadCorpus } from './lib/corpus';
+import { buildDetail, buildMain, serialize } from './lib/publish/build';
 import { publish } from './publish';
 import { validate } from './validate';
 
@@ -103,5 +106,22 @@ describe('data:publish', () => {
     const entry = (n: number) => ({ number: n, publishedAt: '2026-11-10', questionCount: 1, candidateCount: 1, mainHash: `sha256:${'a'.repeat(64)}`, detailHashes: {} });
     await writeFile(join(paths.publishedDir, 'versions.json'), JSON.stringify({ current: 256, versions: Array.from({ length: 256 }, (_, i) => entry(i + 1)) }));
     await expect(publish(paths, { next: true })).rejects.toThrow();
+  });
+});
+
+describe('projection publiée (006 contracts/corpus-delta.md)', () => {
+  it('ni dimensions ni dimension dans main.json et les fichiers de détail', () => {
+    const root = join(process.cwd(), 'data', 'fixtures', 'minimal');
+    const { corpus } = loadCorpus(join(root, 'corpus'));
+    corpus.themes[0]!.dimensions = [
+      { id: 'choix', label: 'Choix', negative: 'a', positive: 'b' },
+      { id: 'moyens', label: 'Moyens', negative: 'c', positive: 'd' },
+    ];
+    for (const q of corpus.questions.get(corpus.themes[0]!.id)!) q.dimension = 'choix';
+    const options = { version: 1, publishedAt: '2026-11-15', cache: openCache(join(root, 'cache')) };
+    const main = serialize(buildMain(corpus, options));
+    expect(main).toContain(`"${corpus.themes[0]!.id}"`);
+    expect(main).not.toMatch(/"dimensions?"/);
+    for (const c of corpus.candidates) expect(serialize(buildDetail(corpus, c.id, options))).not.toMatch(/"dimensions?"/);
   });
 });

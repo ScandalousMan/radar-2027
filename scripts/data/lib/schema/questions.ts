@@ -6,6 +6,8 @@ export const QuestionSchema = z.strictObject({
   id: IdSchema,
   text: z.string().min(1),
   themes: z.array(IdSchema).min(1),
+  /** Dimension du thème principal (spec 006 FR-002a, règle AXIS-DIM) ; jamais publiée. */
+  dimension: IdSchema.optional(),
   polarity: PolaritySchema,
   status: z.enum(['draft', 'active', 'retired']),
   author: IdSchema,
