@@ -1,4 +1,32 @@
 {
-  "current": 0,
-  "versions": []
+  "current": 1,
+  "versions": [
+    {
+      "number": 1,
+      "publishedAt": "2026-11-15",
+      "questionCount": 297,
+      "candidateCount": 18,
+      "mainHash": "sha256:5ecee1fedd4e4aae413285e9f907d241987dd52630673e95cca29d28a8a24812",
+      "detailHashes": {
+        "edouard-philippe": "sha256:3604a7e04323eb4d13690ffcdc0c0ff39399cda258dc6879cc206e8fb265ff9d",
+        "marine-tondelier": "sha256:7a18664764c261c2a3ac05a67b86d1f2717021c9caa3904522e5887bfc3e900b",
+        "delphine-batho": "sha256:330524237836bce919d5b322e93a466bdc9ffb19f416f92e7602a770d393b394",
+        "nathalie-arthaud": "sha256:002b01e1705bc04b6a3db4fdf1960313ed51f50c9e879a5950238a008ace1ca5",
+        "juan-branco": "sha256:a130cdf120075b333a575840d6046738b96200e855b1b296666b7bcbfbabfa29",
+        "bruno-retailleau": "sha256:0739741c93086554e6567ef5e44c154f2c65f9a1fc6c7043dc5c2ae0a018f125",
+        "francois-asselineau": "sha256:31d522d922bc436b11d411de77128b8a5ee4375bbdb1ee6e737842f92126e9b6",
+        "david-lisnard": "sha256:47a8edee8f1b08621dd961774da89fc174aea18be5cf7c3029bcbe3c3db45f4d",
+        "francois-ruffin": "sha256:dddb2ff7f6048141f90ead50ce670c92b5070595c6863ab1d31bffd567d551d2",
+        "nicolas-dupont-aignan": "sha256:45299b5e637553bde764b44c60c720215aad53d1aea26ef5120688e5723e5cbc",
+        "jean-luc-melenchon": "sha256:3a4a5ddebfe547dce12ffaa2fedc5081d6ec30ad10ad8bac637b6e214fdc5407",
+        "florian-philippot": "sha256:960295a405f1d0dcb9dc70762143d6479035b521d0591b0216c84fc512d8a5ed",
+        "gabriel-attal": "sha256:b04a1f57f1b1b30406c1caa0458b825382d565139bd82c67b5e436b743010633",
+        "anasse-kazib": "sha256:08a0498ad4a7cd325c91cc94710a85fef1fbfb998fb1aed3ae06ff6c1e677eb0",
+        "marine-le-pen": "sha256:60fdc5e37295ad1821aa253da93ae3da181f1f1b5e68a48be53552aab69ec454",
+        "raphael-glucksmann": "sha256:8455be470c97cb5eda611d0cd66ae268b896eac4c52157e6cbec4302cdae2902",
+        "fabien-roussel": "sha256:65435207dac0c9171454111dce55a658cd928169de17b00d2703be2d4cb1cdc8",
+        "eric-zemmour": "sha256:0561e6282d531bb01f6a9ca814ac1f762b9f64eb3de412df7ad95f4b02c9af1a"
+      }
+    }
+  ]
 }

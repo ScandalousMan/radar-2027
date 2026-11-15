@@ -17,6 +17,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: numerique-assouplir-regles-ia
   text: Les règles européennes encadrant l'intelligence artificielle doivent être assouplies.
   themes:
@@ -32,6 +33,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: numerique-taxe-plateformes
   text: Les grandes plateformes numériques doivent payer un impôt sur le chiffre d'affaires réalisé en France.
   themes:
@@ -48,6 +50,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: numerique-anonymat-en-ligne
   text: L'anonymat en ligne doit être préservé sur les réseaux sociaux.
   themes:
@@ -63,6 +66,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : NEEDS_HUMAN_ARBITRATION.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: numerique-logiciels-libres-administration
@@ -80,6 +84,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (numerique-chiffrement-messageries) : Le chiffrement des messageries privées doit rester hors d'atteinte des autorités.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
@@ -99,6 +104,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: numerique-algorithmes-publics
   text: Les plateformes doivent rendre publics les algorithmes qui hiérarchisent les contenus.
   themes:
@@ -114,6 +120,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: numerique-telephone-interdit-lycees
@@ -132,6 +139,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: numerique-donnees-sante-hebergeurs-europeens
@@ -150,6 +158,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: numerique-scission-grandes-plateformes
   text: L'Union européenne doit pouvoir imposer la scission des grandes plateformes numériques en position dominante.
   themes:
@@ -166,6 +175,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: numerique-ia-remuneration-auteurs
   text: Les entreprises d'intelligence artificielle doivent rémunérer les auteurs dont les œuvres servent à entraîner leurs modèles.
   themes:
@@ -181,6 +191,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: numerique-faciliter-centres-donnees
   text: L'implantation de centres de données doit bénéficier de procédures administratives accélérées.
   themes:
@@ -197,6 +208,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: numerique-alleger-moderation
   text: Les obligations de modération imposées aux réseaux sociaux doivent être allégées.
   themes:
@@ -212,6 +224,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: numerique-assouplir-consentement-traceurs
   text: Les règles de consentement aux traceurs publicitaires sur internet doivent être assouplies.
   themes:
@@ -227,6 +240,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: numerique-rgpd-petites-entreprises
   text: Les petites entreprises doivent être exemptées d'une partie des obligations du règlement sur la protection des données.
   themes:
@@ -243,6 +257,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (numerique-responsabilite-plateformes-limitee) : La responsabilité des plateformes pour les contenus publiés par leurs utilisateurs doit rester limitée.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
@@ -261,6 +276,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: numerique-donnees-publiques-entrainement-ia
   text: Les entreprises doivent pouvoir utiliser librement les données publiques pour entraîner des modèles d'intelligence artificielle.
   themes:
@@ -276,3 +292,4 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1

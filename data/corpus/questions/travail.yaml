@@ -17,6 +17,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: travail-durcir-indemnisation-chomage
   text: Les règles d'indemnisation du chômage doivent être durcies.
   themes:
@@ -32,6 +33,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: travail-smic-au-dela-inflation
   text: Le SMIC doit être augmenté au-delà de l'inflation.
   themes:
@@ -48,6 +50,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: travail-duree-travail-accord-entreprise
   text: La durée légale du travail doit pouvoir être fixée par accord d'entreprise au-delà de 35 heures.
   themes:
@@ -63,6 +66,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (travail-limiter-licenciements-beneficiaires) : Les entreprises bénéficiaires doivent être limitées dans leur recours aux licenciements économiques.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
@@ -81,6 +85,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Texte d'origine (travail-plafond-prudhommes-maintenu) : Le plafond des indemnités prud'homales en cas de licenciement abusif doit être maintenu.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
@@ -99,6 +104,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: travail-semaine-32-heures
   text: La durée légale du travail doit être réduite à 32 heures par semaine.
   themes:
@@ -114,6 +120,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: travail-indexation-salaires
   text: Les salaires doivent être indexés automatiquement sur l'inflation.
   themes:
@@ -130,6 +137,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-plafonner-ecart-salaires
@@ -147,6 +155,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : SEMANTIC_DRIFT ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-salaries-conseils-administration
@@ -165,6 +174,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: travail-elargir-penibilite-retraite
   text: Les critères de pénibilité ouvrant droit à un départ anticipé à la retraite doivent être élargis.
   themes:
@@ -180,6 +190,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL_WITH_MINOR_CLARIFICATION ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-plateformes-presomption-salariat
@@ -198,6 +209,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: travail-retraite-au-dela-64-ans
   text: L'âge légal de départ à la retraite doit être porté au-delà de 64 ans.
   themes:
@@ -213,6 +225,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: travail-retraite-capitalisation
   text: Une part des retraites doit être financée par capitalisation.
   themes:
@@ -228,6 +241,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 - id: travail-augmenter-jours-carence
   text: Le nombre de jours de carence en cas d'arrêt maladie doit être augmenté.
   themes:
@@ -244,6 +258,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : arbitrage humain requis. Proposition de la 1re relecture : FAITHFUL ; axe : NEEDS_HUMAN_ARBITRATION.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-smic-regional
@@ -261,6 +276,7 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
 # Seconde passe du 2026-11-10 : validé par adrien le 2026-11-11 (activation de toute la banque). Proposition de la 1re relecture : FAITHFUL ; axe : VALID_AXIS_AND_POLARITY.
 # Détail : data/relectures/2026-11-10-seconde-passe.md
 - id: travail-statut-fonction-publique-regalien
@@ -278,3 +294,4 @@
     no-person-or-party: true
     single-claim: true
     both-ends-defensible: true
+  introducedIn: 1
