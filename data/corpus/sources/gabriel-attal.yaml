@@ -130,3 +130,102 @@
   candidates:
     - gabriel-attal
   contentHash: sha256:ff46c7199e248c93c0889250956f65c28b086a7137d19cea6afdb3de88cf97d9
+- id: gabriel-attal-mesure-prix-planchers-agricoles
+  url: https://attalpresident.fr/programme/mesures/prix-planchers-agricoles
+  title: "Mesure : des prix planchers indexés sur les coûts de production (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-06-04
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:cbf11af64f8d344d7706a8c8a62fa5cdee1154d7ed86f64d888b63163025c970
+- id: gabriel-attal-mesure-comparution-immediate-mineurs
+  url: https://attalpresident.fr/programme/mesures/comparution-immediate-mineurs
+  title: "Mesure : instaurer la comparution immédiate pour les mineurs (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-06-10
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:fbbc49a2b8f80a57d3cde5c873966564c9d3ccd71d8a339aa4956fda4e83094e
+- id: gabriel-attal-mesure-imprescriptibilite-crimes-sexuels-mineurs
+  url: https://attalpresident.fr/programme/mesures/imprescriptibilite-crimes-sexuels-mineurs
+  title: "Mesure : rendre imprescriptibles les crimes sexuels sur mineurs (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-06-12
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:c05f4322bd84ad2100a1fb7b5f749501c948803e266da5dcb147ba2719e1a487
+- id: gabriel-attal-mesure-perpetuite-reelle-predateurs
+  url: https://attalpresident.fr/programme/mesures/perpetuite-reelle-predateurs
+  title: "Mesure : perpétuité réelle pour les prédateurs sexuels en série (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-06-12
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:a18cee4083b9cdbdc0a67049711e7a173782ffbb60932ce6c7fe5a1a3a72805d
+- id: gabriel-attal-mesure-tu-casses-tu-repares
+  url: https://attalpresident.fr/programme/mesures/tu-casses-tu-repares
+  title: "Mesure : punir systématiquement les dégradations, même par des mineurs (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-06-01
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:4e11be6f56d4af309ef96ff2e8a781a03a71149eff37ed8634d3fc460322db4d
+- id: gabriel-attal-mesure-journee-referendaire-annuelle
+  url: https://attalpresident.fr/programme/mesures/journee-referendaire-annuelle
+  title: "Mesure : une journée référendaire par an (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-08-02
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:152fcc8744717f9b9f888d28904d4539c3ac0bad36b24785af9bda7a6ad58ea1
+- id: gabriel-attal-mesure-politique-ia-europeenne-commune
+  url: https://attalpresident.fr/programme/mesures/politique-ia-europeenne-commune
+  title: "Mesure : politique européenne commune de l'intelligence artificielle (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-06-19
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:4811962c821445d6ec6e4bcde14f4cde3789f2f8396b1ed11dbd51a291614871
+- id: gabriel-attal-mesure-loi-de-stabilite-fiscale
+  url: https://attalpresident.fr/programme/mesures/loi-de-stabilite-fiscale
+  title: "Mesure : loi de programmation économique, fiscale et énergétique sur dix ans (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-08-27
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:8813f2406a8e9628fb8239d6647f94c647835e25138336c90c7125d0b6524e09
+- id: gabriel-attal-mesure-aucune-hausse-impots
+  url: https://attalpresident.fr/programme/mesures/aucune-hausse-impots
+  title: "Mesure : aucune hausse d'impôts pendant 5 ans (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-07-03
+    precision: day
+  accessedAt: 2026-11-14
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:5a27f8dc855faeaed3fdb348f9f6cb79239530aaae9d1db70bc4ede658092a5d

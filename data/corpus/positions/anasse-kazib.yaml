@@ -463,3 +463,485 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:8bae15d48c4c9f39db7fa5c67c024e1c07316565274e4e5ef3bb61c484d437e6
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: immigration-vote-local-etrangers-v2
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "l'instauration du droit de vote à toutes les élections pour toutes et tous les immigrés"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme réclame le droit de vote à toutes les élections pour tous les immigrés, mesure plus large que le vote local des étrangers non européens."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:aebcb1d973e11aeaf822f60022769e2361bb32614a386cb6107cbf1412eadfff
+- question: immigration-ame-soins-urgents
+  value: -2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "la gratuité des soins et médicaments pour toute personne se trouvant sur le territoire"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme demande la gratuité des soins pour toute personne présente sur le territoire, ce qui exclut de limiter l'aide aux soins urgents."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ce1642a485d31c3bb281d01e9421ffe7f6f21a24c111007762dfe7ed8aeeb893
+- question: immigration-prestations-duree-residence
+  value: -1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "Pleins droits de citoyenneté et droits sociaux pour les immigrés et les réfugiés"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Simple intertitre réclamant les pleins droits sociaux, sans traiter de condition de durée de résidence : rejet implicite, -1. (valeur révisée en relecture)"
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4458d4fdc53083a693b0ddf8bff9d9143d55e795dfc35ca918e7a990b0c7dd98
+- question: international-controles-frontieres-schengen
+  value: -2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "nous défendons l'ouverture des frontières, la liberté de circulation et le droit à s'installer, ici, pour toutes celles et ceux qui le souhaitent"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme défend l'ouverture des frontières et la liberté de circulation, à l'opposé du rétablissement durable de contrôles aux frontières intérieures."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8b540adbfc3b68a037352d8aff2106a3df3e5f35a82324f415b1e13d9fe6844c
+- question: securite-hausse-effectifs-police
+  value: -1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "Les annonces de Macron de doubler le nombre de policiers dans les dix prochaines années et de durcir la réponse pénale montrent bien que le renforcement du système répressif sont consubstantiels à l'avancée du néolibéralisme"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme critique l'annonce d'un doublement des effectifs de police comme un renforcement du système répressif et réclame la dissolution des corps spéciaux ; rejet net mais non chiffré, d'où -1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a9d572cdc1a4f6db15d978d4a3b460595fc8fad5c38cdc120c5af3decb523f83
+- question: securite-interdire-lbd-manifestations
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "l'interdiction de toutes les armes dites non-létales utilisées contre les manifestations"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme réclame l'interdiction de toutes les armes dites non létales contre les manifestations, ce qui inclut les lanceurs de balles de défense."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ea07b29280af5eaa585f77521e3970787e1f84b4a83610f0d14c91605addb186
+- question: securite-reconnaissance-faciale-police
+  value: -2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "le retrait total des lois \" sécurité globale \" et de responsabilité pénale qui cèdent à des revendications historiques des \" syndicats \" de police : reconnaissance faciale, drones"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme exige le retrait de lois qui introduisent la reconnaissance faciale et les drones et dénonce ces outils comme renforçant l'impunité policière."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:84ebfcb60274f19a035aff03495201c8949a8d082c832855e83ca27995f4d290
+- question: securite-interdire-drones-manifestations
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "le retrait total des lois \" sécurité globale \" et de responsabilité pénale qui cèdent à des revendications historiques des \" syndicats \" de police : reconnaissance faciale, drones"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme demande le retrait des lois qui autorisent les drones et dénonce ces outils ; rejet des drones sans mention explicite des manifestations, d'où +1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:42e8a1880af40a2900f84a59b0784ae9af986a79cf343caee99d070c8cee8480
+- question: securite-supprimer-bac
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "nous revendiquons la dissolution immédiate des corps spéciaux (BAC, BRAV, CRS, gendarmerie, etc.)"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme réclame la dissolution immédiate des corps spéciaux et cite explicitement la BAC."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9d7a25a3cfc6b23c79dbe37d1a0391f56fac5d0245565729fed50fa6dc783a85
+- question: societe-cannabis-legalisation
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "il faut légaliser, sous contrôle de l'État et avec un suivi médical, lorsque cela l'exige, l'ensemble des substances stupéfiantes et addictives, à commencer par le cannabis"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme demande de légaliser sous contrôle de l'État l'ensemble des substances, à commencer par le cannabis."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:bfee18455cc648231ff43f8b6c5a5b336609395390652f29e269f2bea835d064
+- question: travail-durcir-indemnisation-chomage
+  value: -2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "Nous nous opposons radicalement à toute réduction des prestations allouées aux chômeurs"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme s'oppose à toute réduction des prestations aux chômeurs, donc à un durcissement des règles d'indemnisation."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3f79f3fa67f59999f23d2ad696c70016d45d5ddb87d5d5f7136c07d2967aa847
+- question: travail-elargir-penibilite-retraite
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "nous voulons des critères collectifs et de classe : par métier, par entreprise, par établissement (industrie, services, éducation…), service ou atelier"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme rejette une pénibilité réduite et réclame des critères collectifs par métier, avec départ à 55 ans pour les métiers pénibles ; élargissement explicite."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d93883fabb552a8230e815005b6e1fcad705b3a984e166f03e116264111ba1c9
+- question: economie-edf-entierement-publique
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+  quote: "Expropriation des secteurs stratégiques (énergie, transports, banques, santé, …) et placement sous contrôle des travailleur·ses."
+  quoteSource: anasse-kazib-programme-2027
+  justification: "Le programme veut exproprier le secteur de l'énergie pour le placer sous contrôle des travailleurs ; mesure plus large que le maintien d'EDF dans le giron de l'État, d'où +1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2b71a4ef7da7ab6ad45a6a18c8d293f3bb3ddec6176844b5b1a21602382b8d45
+- question: transport-sncf-entreprise-publique-v2
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+  quote: "Expropriation des secteurs stratégiques (énergie, transports, banques, santé, …) et placement sous contrôle des travailleur·ses."
+  quoteSource: anasse-kazib-programme-2027
+  justification: "Le programme veut exproprier le secteur des transports et le placer sous contrôle des travailleurs ; mesure plus large que la détention publique de la SNCF, d'où +1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:2b71a4ef7da7ab6ad45a6a18c8d293f3bb3ddec6176844b5b1a21602382b8d45
+- question: fiscalite-impot-fortune-retabli
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "Rétablissement de l'impôt sur les grandes fortunes."
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Rétablissement explicite de l'impôt sur les grandes fortunes, dont l'assiette historique (IGF/ISF) incluait les actifs financiers : soutien explicite. (valeur révisée en relecture)"
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3fc349ca65ad27470abf1157fd788d2ef9fa7524ceb945e015c0ef50a7c77173
+- question: fiscalite-baisse-tva
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "nous exigeons la suppression immédiate de la TVA, l'impôt indirect le plus injuste"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme exige la suppression de la TVA, mesure plus large qu'une baisse du taux normal, d'où +1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:e4dffb2c6397f6ece7e1bc3282cf838c068e175131009a0d0bbd989a09f3c00f
+- question: fiscalite-capital-aligne-travail
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "une forte augmentation de la progressivité de l'impôt, jusqu'à 100% sur les revenus du capital au-dessus de 260.000 euros"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme taxe lourdement les revenus du capital élevés, au-delà d'un simple alignement sur le travail ; soutien partiel dans le même sens, d'où +1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:84d3afc738762cc18b039d0744946bf447872c3d02dbca5162a9cd617699de3b
+- question: fiscalite-baisse-impot-societes
+  value: -2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "la majoration de l'impôt sur les sociétés à 50% minimum"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme demande de relever l'impôt sur les sociétés à 50 % minimum, à l'opposé d'une baisse."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:3f66a4af7a204fdf924d68de7f47514d86ceefaa9c2f72816f88cc089f03c7a5
+- question: economie-prix-energie-reglementes
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "Gel ou remise des loyers et des factures d'eau, gaz et électricité pour les plus précaires"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme réclame un gel ou une remise des factures d'énergie pour les plus précaires ; intervention de l'État sur les prix limitée aux précaires, d'où +1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:abda6b4903c975f29fd724ac0c3b0c1dcca5f887b2d58e984c6d0ee7cd843818
+- question: economie-plafonner-prix-alimentaires
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "exiger de l'État un gel des prix pour tous les produits de première nécessité, y compris des loyers"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme demande un gel des prix des produits de première nécessité par l'État ; un gel n'est pas un plafond formel, d'où +1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d57622bf28e7320968e9a8dfad6720907b29aee5af46cfe90424d5f754906f5c
+- question: economie-aides-conditionnees-emploi
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "Récupération de l'argent public offert aux entreprises qui licencient."
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme demande de récupérer l'argent public versé aux entreprises qui licencient, ce qui revient à lier les aides à l'emploi ; soutien partiel, d'où +1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5e4dd85c6b603eb481cf09a114ee08d504cd60d9c024b137a69f10b470fc599a
+- question: economie-vendre-participations-etat
+  value: -1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "Il s'agit, au contraire, de nationaliser toutes les entreprises qui ferment ou licencient ainsi que l'industrie et les services essentiels sans indemnité ni rachat"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme veut au contraire nationaliser l'industrie et les services essentiels ; rejet d'une cession de participations déduit d'une mesure inverse explicite, d'où -1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:13300de519fcf19b7465ca54fd2df0534f76a110e1c814aa1736debe6e9c19cb
+- question: economie-ouverture-dimanche-libre-v2
+  value: -2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "Interdiction du travail de nuit, des horaires décalés et du travail du dimanche dans les secteurs non essentiels"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme demande l'interdiction du travail du dimanche dans les secteurs non essentiels, ce qui rejette l'ouverture libre des commerces."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:05d933488d2375ac49738de861e391c0f94486b3b5987a8a1f14b9b0ec48ab2e
+- question: sante-production-publique-medicaments
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "nous exigeons la nationalisation sans indemnité ni rachat et la démocratisation immédiates de l'industrie pharmaceutique"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme exige la nationalisation de toute l'industrie pharmaceutique, mesure plus large que la production publique des seuls médicaments essentiels, d'où +1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8039ec1a588f0098b17c384b87283a67a409a8fb79f52d6b7eb6f1c1cbdf40b9
+- question: sante-mutuelles-part-accrue-v2
+  value: -2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "sur la base de la nationalisation de toutes les mutuelles et leur intégration à la Sécu"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme veut intégrer les mutuelles à la Sécurité sociale et rembourser intégralement les soins, à l'opposé d'un transfert de charge vers les complémentaires."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:33ecb340df642fea9fc56847bfd81d1ccd0ea97bd7ccd2dec72f1ad9a470d81e
+- question: sante-hausse-franchises-medicales
+  value: -2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "garantissant un remboursement intégral des soins pour tous celles et ceux qui résident sur le territoire"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme demande le remboursement intégral des soins, ce qui exclut toute franchise payée par les patients."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:aec10b93511e9329f4f70abd8a386147e284b2a5fa5c1b38c615e25d2cf06751
+- question: sante-derembourser-faible-service-rendu
+  value: -1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "le déremboursement de certains médicaments, l'absence ou le mauvais remboursement de certains soins (lunettes, soins dentaires, etc.) sont un poids conséquent dans le budget des familles. C'est une aberration."
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme juge aberrant le déremboursement de certains médicaments, sans traiter spécifiquement du critère du service médical rendu, d'où -1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4c44d31d1ed34e275ba80feb7f3abaf606450549118c5c33650425fe80853032
+- question: democratie-vote-16-ans
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "au suffrage universel direct par l'ensemble du corps électoral, dès seize ans"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme prévoit que l'assemblée unique soit élue par un corps électoral votant dès seize ans."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:23e4225105070755bbf82ae41fdcda160052c459c4bb9c22dada13432571641d
+- question: defense-effectifs-armees-hausse
+  value: -1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+  quote: "Pas un euro pour la guerre, démantèlement de la machine de guerre française, 2ème exportateur d'armes mondial."
+  quoteSource: anasse-kazib-programme-2027
+  justification: "Le programme rejette tout financement militaire et réclame le démantèlement de la machine de guerre ; rejet de la hausse des effectifs déduit sans chiffre, d'où -1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:8da37b7d5333ce6bebddf8f43472925b2cfe600b4da48a5a2023f31c874907a1
+- question: energie-reduire-part-nucleaire
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "Une transition pour sortir du nucléaire ne saurait se faire sans s'attaquer aux patrons du secteur"
+  quoteSource: anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  justification: "Le programme envisage une transition pour sortir du nucléaire, mesure plus large qu'une réduction progressive de sa part, d'où +1."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a50021ff7dc15b25fe47073c10a6dfce1174f72072db1800babbbf427a37f1e5

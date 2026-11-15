@@ -970,3 +970,341 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:b73a39252e9c2dafbc1b93725561a47e61e4fdc8183ed191a2ef28ff881ff92d
+
+# Campagne de couverture n° 2 (2026-11-14), brouillons de claude.
+- question: institutions-proportionnelle-legislatives
+  value: 2
+  evidence: programme
+  sources:
+    - florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  quote: "Proportionnelle intégrale à toutes les élections."
+  quoteSource: florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  justification: "Le projet 2022 réclame la proportionnelle intégrale à toutes les élections, ce qui inclut les législatives."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:75394d63fc37fc446dc9a598fa84e35c23fb60bfe281cb0e8f477ebf9449dbd0
+- question: institutions-reduire-nombre-parlementaires
+  value: 2
+  evidence: programme
+  sources:
+    - florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  quote: "Réduction du nombre de parlementaires et sanction réelle de l'absentéisme"
+  quoteSource: florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  justification: "Le projet 2022 prévoit expressément de réduire le nombre de parlementaires."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4a53d964bf94c4e34c89d4b5df8f306e80cd39b0aa0c534a6d187edb087432ac
+- question: societe-uniforme-ecole-publique
+  value: 2
+  evidence: programme
+  sources:
+    - florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  quote: "Port de l'uniforme obligatoire."
+  quoteSource: florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  justification: "Mesure listée au chapitre École du projet 2022 : l'uniforme obligatoire."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5e4996b03e466e3391826df1f57f215586e65c7fd6ec34c7e67bbe09b41bb77d
+- question: societe-interdire-ecriture-inclusive
+  value: 1
+  evidence: programme
+  sources:
+    - florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  quote: "Interdiction de l'écriture inclusive."
+  quoteSource: florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  justification: "Interdiction affirmée sans préciser le périmètre (listée au chapitre École) ; l'énoncé vise les documents administratifs, d'où un soutien partiel."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4375fda55e8eadff9972c82fa495ac095ee31a476d32f49d1a912dbc037b297e
+- question: securite-reconnaissance-faciale-police
+  value: -2
+  evidence: programme
+  sources:
+    - florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  quote: "Interdiction en population générale de tout usage de système de reconnaissance faciale."
+  quoteSource: florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  justification: "Le projet 2022 interdit tout usage de la reconnaissance faciale en population générale, donc son autorisation en temps réel dans l'espace public pour la police."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:7ffa825e45c924509e0a900a0a59c2c18ff1aa44fc253b38ec9f27051996a181
+- question: defense-second-porte-avions
+  value: 1
+  evidence: programme
+  sources:
+    - florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  quote: "Construction de 2 nouveaux porte-avions nucléaires."
+  quoteSource: florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  justification: "Le projet 2022 prévoit deux nouveaux porte-avions, mesure plus large que l'énoncé (un second porte-avions)."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d414afbc0b4694fd3ee436f847f5a3fe79ff1d9aff0721174e9a6797c0466f1d
+- question: defense-budget-armees-3-pib
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - florian-philippot-charte-des-patriotes-les-patriotes-fr
+  quote: "Il faut consacrer immédiatement 3 % de notre PIB au budget de la Défense et tendre vers les 4 %"
+  quoteSource: florian-philippot-charte-des-patriotes-les-patriotes-fr
+  justification: "La charte demande 3 % du PIB pour la Défense immédiatement, voire davantage ensuite."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a99279872367a0687724159455641edfbe807f0a1fe53eb864ccd3042fb844a9
+- question: economie-participations-etat-industrie
+  value: 1
+  evidence: programme
+  sources:
+    - florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  quote: "Consolidation de notre industrie militaire, si besoin par des nationalisations."
+  quoteSource: florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  justification: "Soutien à l'intervention de l'État au capital d'industries de défense (nationalisation si besoin), mesure sectorielle et plus large que des participations."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5f0feb96c3b4add4e17d449a294acf734b3f67c4bea2bbe3dbb36e597f31878b
+- question: immigration-regroupement-familial-ressources
+  value: 1
+  evidence: programme
+  sources:
+    - florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  quote: "Fin du regroupement familial, par la sortie de la CEDH et de l'Union européenne."
+  quoteSource: florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  justification: "Le projet 2022 vise la suppression du regroupement familial, mesure plus large que le durcissement des conditions de ressources."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cf390b57c9a3b7627b8daa2b5452f663ff4dcc702958ed86edc27587584721a6
+- question: institutions-supprimer-senat
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - florian-philippot-charte-des-patriotes-les-patriotes-fr
+  quote: "réduction du nombre d'élus rémunérés, suppression du Sénat, des Conseils économiques, sociaux et environnementaux, des Conseils régionaux"
+  quoteSource: florian-philippot-charte-des-patriotes-les-patriotes-fr
+  justification: "La charte prévoit expressément la suppression du Sénat."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:489e26f56ed2bc0102ddbf3ac8029cdcef3ace19c325fdcbc68d3099f1d478d5
+- question: democratie-supprimer-cese
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - florian-philippot-charte-des-patriotes-les-patriotes-fr
+  quote: "réduction du nombre d'élus rémunérés, suppression du Sénat, des Conseils économiques, sociaux et environnementaux, des Conseils régionaux"
+  quoteSource: florian-philippot-charte-des-patriotes-les-patriotes-fr
+  justification: "La charte prévoit la suppression des conseils économiques, sociaux et environnementaux, formule plurielle sans viser nommément le CESE national, d'où un soutien partiel."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:713cb814001755379e71bebb0704229f4e87e816afbab69496d5c80b9dd2aef0
+- question: immigration-ame-soins-urgents
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - florian-philippot-charte-des-patriotes-les-patriotes-fr
+  quote: "L'AME doit être supprimée et remplacée par un dispositif de prise en charge des urgences vitales et des risques épidémiques."
+  quoteSource: florian-philippot-charte-des-patriotes-les-patriotes-fr
+  justification: "La charte remplace l'AME par une prise en charge limitée aux urgences vitales et aux risques épidémiques, ce qui correspond à l'énoncé."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:9c58f80511ec1518058db24cdef9a2acd6e808c476ee2b09d377aa13d873f0c9
+- question: international-aide-developpement-0-7
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - florian-philippot-charte-des-patriotes-les-patriotes-fr
+  quote: "Elle doit tendre à y employer 0,7 % de son PIB."
+  quoteSource: florian-philippot-charte-des-patriotes-les-patriotes-fr
+  justification: "La charte fixe un objectif de 0,7 % du PIB pour la coopération et le développement, formulé comme une tendance et sur une base PIB (non RNB)."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:a0cca4371da4cd4dd336e2171026abb8c1c037faf718134032e9c6d9dd4cb90f
+- question: fiscalite-impot-fortune-retabli
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - florian-philippot-charte-des-patriotes-les-patriotes-fr
+  quote: "ils allégeront l'impôt des classes moyennes et l'augmenteront pour les plus riches, notamment par le rétablissement de l'ISF."
+  quoteSource: florian-philippot-charte-des-patriotes-les-patriotes-fr
+  justification: "La charte promet le rétablissement de l'ISF, impôt couvrant les actifs financiers."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:4cbdab25d3170423d4984597d9a652326a5e9d79194313e35900a67e4e2c544b
+- question: fiscalite-baisse-tva
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - florian-philippot-charte-des-patriotes-les-patriotes-fr
+  quote: "Le retour de la croissance économique se traduira par une baisse de la TVA."
+  quoteSource: florian-philippot-charte-des-patriotes-les-patriotes-fr
+  justification: "Baisse de la TVA annoncée, mais conditionnée au retour de la croissance et sans précision sur le taux normal."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:ce45f6f2237231418067fe86066a973c9595f5adc63d0dbc69be1d06f495d8fa
+- question: immigration-supprimer-droit-du-sol
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - florian-philippot-charte-des-patriotes-les-patriotes-fr
+  quote: "La citoyenneté s'acquiert par filiation ou par naturalisation au mérite."
+  quoteSource: florian-philippot-charte-des-patriotes-les-patriotes-fr
+  justification: "La charte ne reconnaît que la filiation et la naturalisation, ce qui exclut l'acquisition par la naissance en France ; la formule ne mentionne pas explicitement le droit du sol."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:d37bc04205549dc37fefba128d3962564548fceea776bb6df539f24dc8750907
+- question: international-primaute-loi-nationale-v2
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - florian-philippot-charte-des-patriotes-les-patriotes-fr
+  quote: "Aucune disposition juridique et aucune juridiction ne doivent être supérieures à la Constitution de la République et à la loi votée selon les dispositions de celle-ci."
+  quoteSource: florian-philippot-charte-des-patriotes-les-patriotes-fr
+  justification: "La charte refuse toute supériorité du droit extérieur sur la Constitution et la loi nationale."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:b81a1ae369bda108696f383fde98e8e59885e61db1dda9bf31bfbcfc8a365c1e
+- question: environnement-exploitation-hydrocarbures
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - florian-philippot-plan-d-urgence-energetique-en-8-points-les-patriotes-fr
+  quote: "Lancement de l'exploitation d'hydrocarbures en France"
+  quoteSource: florian-philippot-plan-d-urgence-energetique-en-8-points-les-patriotes-fr
+  justification: "Le plan d'urgence demande de lancer l'exploitation d'hydrocarbures en France (Guyane, Mayotte, hydrogène blanc en Lorraine)."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:cc64d1af44b31bc17b9e7f3cf9df0b52c28af7b32cec3c946e57238bde6bd1ef
+- question: international-renforcer-sanctions-russie
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - florian-philippot-entretien-avec-florian-philippot-entrevue
+  quote: "La seule solution est d'ouvrir les négociations de paix, d'arrêter les sanctions contre la Russie et de discuter avec elle"
+  quoteSource: florian-philippot-entretien-avec-florian-philippot-entrevue
+  justification: "Philippot demande d'arrêter les sanctions contre la Russie, l'inverse de leur renforcement."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:dda5e3ac3693cbfb3db5b75ad8c442254554bf10ba32429386eba9c76a9a5e04
+- question: societe-gpa-interdite-v2
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - florian-philippot-entretien-avec-florian-philippot-entrevue
+  quote: "Je suis contre la GPA. Je pense que c'est une marchandisation du corps des femmes."
+  quoteSource: florian-philippot-entretien-avec-florian-philippot-entrevue
+  justification: "Opposition nette à la GPA, sans mention explicite d'une interdiction légale."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:5262dac0f4ab40a9f163419e471668fcf67bd02a1d45e4da246cbecbd4ac2222
+- question: democratie-parrainages-elus-maintenus
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - florian-philippot-florian-philippot-invite-politique-de-franceinfo
+  quote: "J'aimerais qu'on passe au parrainage citoyen, que ce soit 150 000 Français sur les listes électorales qui choisissent leur candidat à l'élection présidentielle"
+  quoteSource: florian-philippot-florian-philippot-invite-politique-de-franceinfo
+  justification: "Philippot souhaite remplacer les 500 parrainages d'élus par un parrainage citoyen, tout en précisant que la loi actuelle s'applique pour l'instant."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-14
+  reviewer: adrien
+  reviewedAt: 2026-11-14
+  reviewedHash: sha256:6a527aeb70124656ec84206e558d118afb8036c975e6cabbbf25391d3ecfedb1
