@@ -1040,7 +1040,6 @@
   reviewedAt: 2026-11-14
   reviewedHash: sha256:e9997ba06a677ec4997a35e69b1aeae5816a1e4cda976d274c724c44c53ba0d9
 
-
 # Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
 - question: education-groupes-de-niveau-college
   value: 2
@@ -1050,11 +1049,14 @@
   quote: "un examen d'entrée en sixième déterminera l'affectation du nouveau collégien dans des groupes de niveau"
   quoteSource: bruno-retailleau-lr-livret-education
   justification: "Le livret propose de répartir les collégiens en groupes de niveau dès l'entrée en sixième, après un examen ; ces groupes ne sont pas limités au français et aux mathématiques."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:a901f9a18b25d53bb2cdd005ea42d3e8216738e8be8f4aec60353f4f0ae9d42b
 
 - question: education-examen-entree-college
   value: 1
@@ -1078,11 +1080,14 @@
   quote: "Ce sera le retour de la note chiffrée, claire et lisible, pour que chacun sache où il en est et que les parents ne soient plus tenus à l'écart par des codes de couleurs."
   quoteSource: bruno-retailleau-lr-livret-education
   justification: "Le livret veut rétablir la note chiffrée à la place des codes de couleurs, soit l'inverse d'un abandon progressif des notes."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:6f3d3e33eabbb412599e02a3fa43fe88cd597f32ea517a133405a8047f883dda
 
 - question: education-universite-sans-selection
   value: -2
@@ -1092,11 +1097,14 @@
   quote: "Les universités seront autorisées à choisir leurs étudiants sur des critères transparents et selon leurs capacités d'accueil."
   quoteSource: bruno-retailleau-lr-livret-education
   justification: "Le livret autorise les universités à sélectionner leurs étudiants et fait de Parcoursup un outil de sélection."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:855e16054d7b02227798f6f3b01735740ac74c8197d8599f562b548741de11c6
 
 - question: education-financement-suit-choix-familles
   value: 1
@@ -1135,11 +1143,14 @@
   quote: "Nous alignerons ainsi intégralement le début de carrière sur la moyenne européenne, soit 135 euros nets de plus chaque mois, et nous comblerons au moins la moitié de l'écart au cœur de la carrière, soit environ 300 euros nets supplémentaires par mois."
   quoteSource: bruno-retailleau-lr-livret-education
   justification: "Le livret chiffre une hausse ciblée sur le début et le milieu de carrière (135 et 300 euros nets par mois), et non une hausse d'au moins 15 % pour l'ensemble des enseignants."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:5e72950b37912f1d532c5162bee49c541f184502518468232fe864c561ca71e4
 
 - question: education-frais-inscription-etudiants-etrangers
   value: 2
@@ -1150,11 +1161,14 @@
   quote: "qui sont majorés pour les étrangers non ressortissants de l'Union européenne"
   quoteSource: bruno-retailleau-ppl-pour-reprendre-le-controle-de-la-politique-d-immigration
   justification: "La proposition de loi inscrit dans le code de l'éducation des droits d'inscription majorés pour les étudiants non européens ; en entretien, il veut aussi supprimer leur exonération automatique."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:b23f527d34626f96d3bd38fdbe9e26c9394e551e867b6c757ced95e4412edaa7
 
 - question: education-orientation-professionnelle-avant-fin-college
   value: 2
@@ -1165,8 +1179,11 @@
   quote: "L'apprentissage sera ouvert dès la classe de quatrième, à quatorze ans, des passerelles seront créées entre les voies générale, technologique, professionnelle et l'apprentissage"
   quoteSource: bruno-retailleau-lr-livret-education
   justification: "Le livret ouvre l'apprentissage dès la quatrième, à 14 ans, donc avant la fin du collège ; il le redit sur franceinfo (préapprentissage à 14 ans)."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:68f615c7e033882353019093b8c12725ff986ef9d0141fbb652710b07d61f9ca

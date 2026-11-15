@@ -1893,11 +1893,14 @@
   quote: "Mettre un terme au collège unique en instituant des classes de niveaux, tout en conservant des passerelles entre les diverses filières et les divers niveaux, afin de constituer des groupes homogènes"
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: "Le programme 2022 institue des classes de niveau au collège, mesure plus large que des groupes en français et en mathématiques, d'où plutôt d'accord."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:2226b0fe4fbb5484c9d2953c91d4392dd9ac7643b33f24fa3944add10135dc6f
 
 - question: education-orientation-professionnelle-avant-fin-college
   value: 2
@@ -1952,11 +1955,14 @@
   quote: "Lutter contre le harcèlement scolaire, le communautarisme et les inégalités sociales en rendant le port de la blouse obligatoire à l'école primaire"
   quoteSource: eric-zemmour-programme-2022-pdf
   justification: "Le programme 2022 rend la blouse obligatoire à l'école primaire, sans viser le collège : mesure partielle, d'où plutôt d'accord."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:606d910cbdbc24c005e991cd4b0bab83d503d075ae1cfe1f295fdbf8ad4ef437
 
 - question: education-frais-inscription-etudiants-etrangers
   value: 1

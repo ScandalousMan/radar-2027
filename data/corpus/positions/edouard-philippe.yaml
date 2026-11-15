@@ -1009,11 +1009,14 @@
   quote: "Il propose de vérifier qu'ils ont réellement les moyens de financer leurs études et d'appliquer vraiment la hausse des droits d'inscription prévue pour les étudiants venus hors d'Europe."
   quoteSource: edouard-philippe-programme-immigration-edouardphilippe-fr
   justification: "Le programme veut appliquer réellement la hausse des droits d'inscription prévue pour les étudiants non européens."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:ac8c4bb737c5a4239b9750fdeb1cc540e5699b543d5a4fdbb5d3adccfc6c6ec0
 
 - question: education-uniforme-obligatoire
   value: -1

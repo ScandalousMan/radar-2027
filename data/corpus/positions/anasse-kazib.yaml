@@ -956,11 +956,14 @@
   quote: "La fin de la sélection à l'université et de Parcoursup dès 2027"
   quoteSource: anasse-kazib-conference-sociale-2026-11
   justification: "Il revendique la fin de la sélection à l'université et de Parcoursup ; son programme 2022 demandait déjà l'abrogation des réformes de sélection."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:b45b459dcaa0c02d56335c546d9ca0ab75ab3c6d0352f6fb3605fb7371e7f206
 
 - question: education-postes-baisse-demographique
   value: 1
@@ -971,11 +974,14 @@
   quote: "L'embauche massive de professeurs, d'AESH, d'ATSEM, d'AED, de psychologues, de médecins, etc."
   quoteSource: anasse-kazib-conference-sociale-2026-11
   justification: "Il demande l'embauche massive de professeurs, ce qui exclut des suppressions de postes, sans se prononcer sur la baisse démographique : mesure plus large que l'énoncé, d'où plutôt d'accord."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:dd7e844fd32db558dbba8478cd40f2ebe2a6395cb33e8f7368dc80e72ac1d7e0
 
 - question: education-salaires-enseignants-15-pourcent
   value: 1

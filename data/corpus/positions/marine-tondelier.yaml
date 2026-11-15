@@ -3033,7 +3033,6 @@
   reviewedAt: 2026-11-14
   reviewedHash: sha256:8eae1a0d8bfac58f78130c231a9d41fcbc3e922c84d10c37aedfa0c958ec9c73
 
-
 # Thème Éducation (spec 006) : positions extraites le 2026-11-15, brouillons à relire.
 - question: education-salaires-enseignants-15-pourcent
   value: 2
@@ -3045,11 +3044,14 @@
   quote: "Réhabiliter les métiers de l'Education nationale en augmentant les salaires des enseignant·es de 15% en 5 ans en plus de l'inflation."
   quoteSource: marine-tondelier-dossier-presse-rentree-2026
   justification: "Le dossier de rentrée prévoit une hausse de 15 % des salaires des enseignants en cinq ans, en plus de l'inflation."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:b7ebd675e41e9b5e268ebe24d9440dcfdd8a106922162d827084747329beeddc
 
 - question: education-groupes-de-niveau-college
   value: -2
@@ -3060,11 +3062,14 @@
   quote: "Abroger le \"choc des savoirs\" (groupes de niveaux en sixième et cinquième)."
   quoteSource: marine-tondelier-dossier-presse-rentree-2026
   justification: "Le dossier de rentrée veut abroger les groupes de niveaux de sixième et de cinquième, qu'il qualifie de tri social."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:65284f202d7f8d7912cc3638a2a9daecc2ad62efa6c0a824c6e1eef62d09773a
 
 - question: education-prive-financement-mixite
   value: 1
@@ -3105,11 +3110,14 @@
   quote: "La diminution des effectifs démographiques est l'occasion de diminuer radicalement le nombre d'élèves par classe. Mais cela ne suffira pas. Il faut également augmenter les enseignant·es et le personnel éducatif"
   quoteSource: marine-tondelier-programme-ecologistes-2026
   justification: "Le programme utilise la baisse démographique pour réduire les effectifs par classe et veut en plus augmenter le nombre d'enseignants."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:8a7b3cd864b3cfeb71e7086e81ca6b6d7b45f1539d4811d6fc4bd8fae2f0a0dc
 
 - question: education-universite-sans-selection
   value: 2

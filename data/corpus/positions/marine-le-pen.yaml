@@ -1680,11 +1680,14 @@
   quote: "vérification du niveau à l'issue du primaire qui débouche sur des classes de niveau dès le début du collège"
   quoteSource: marine-le-pen-programme-2022
   justification: "Le programme 2022 prévoit des classes de niveau dès l'entrée au collège, mesure plus large que des groupes en français et en mathématiques, d'où plutôt d'accord."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:c0a394fb55b8060a86593aa8861cebb0f03a74247baeec7e24a566a8b7a33f1c
 
 - question: education-uniforme-obligatoire
   value: 2
@@ -1694,11 +1697,14 @@
   quote: "Rétablir l'autorité de l'institution sco- laire par l'instauration d'un uniforme au primaire et au collège tout en sanction- nant les absences et les incivilités."
   quoteSource: marine-le-pen-22-mesures-2022
   justification: "Les 22 mesures de 2022 prévoient un uniforme au primaire et au collège."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:3c8fe558a650398fbab7d195c437cf5531228e1cf70acc6e6d0861f4491127b1
 
 - question: education-salaires-enseignants-15-pourcent
   value: 2
@@ -1722,11 +1728,14 @@
   quote: "Pendant mes cinq ans de mandat, une revalorisation de 3 % par an sera appliquée à la grille indiciaire des enseignants, tous niveaux confondus."
   quoteSource: marine-le-pen-programme-2022
   justification: "Le programme 2022 revalorise la grille indiciaire de tous les enseignants, soit une hausse générale ; il n'écarte pas explicitement les primes, d'où plutôt d'accord."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:838f0f678e13a4d4442d1887ac299886d88817ea0d417f99f4a7b6d7f6fc1c35
 
 - question: education-postes-baisse-demographique
   value: 1
@@ -1751,11 +1760,14 @@
   quote: "Les universités décideront si elles accordent plus d'importance à la note au baccalauréat ou si elles mettent dans ses critères le livret scolaire"
   quoteSource: marine-le-pen-objectif-elysee-cnews-2026-10
   justification: "Pour remplacer Parcoursup, elle laisse les universités fixer leurs critères d'admission (note du bac ou livret scolaire), ce qui maintient un tri à l'entrée, d'où plutôt pas d'accord."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:d9e6043743bc727a5622d19b415dbe15aac990da5a14e4e96ebcc31c18d34985
 
 - question: education-frais-inscription-etudiants-etrangers
   value: 1

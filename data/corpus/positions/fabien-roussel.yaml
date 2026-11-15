@@ -1832,11 +1832,14 @@
   quote: "La baisse démographique, à ce titre, ne doit pas être utilisée pour faire des économies. Au contraire.Nous avons besoin de plus d'enseignants pour faire reculer les inégalités"
   quoteSource: fabien-roussel-lettre-personnels-ecole-2026-08
   justification: "Sa lettre aux personnels refuse que la baisse démographique serve à faire des économies et demande plus d'enseignants ; le plan Jeunesse et l'entretien franceinfo vont dans le même sens."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:ad1dec8837dff159b976d7f47690f56fa952687b1a2b99269bdd8efdfe5f6f57
 
 - question: education-salaires-enseignants-15-pourcent
   value: 1
@@ -1892,8 +1895,11 @@
   quote: "Parcoursup et MonMaster seront supprimés et la sélection à l'entrée de l'université prendra fin."
   quoteSource: fabien-roussel-plan-jeunesse-2027-2032
   justification: "Le plan Jeunesse supprime Parcoursup et met fin à la sélection à l'entrée de l'université, une place étant garantie à chaque bachelier."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:0ba5de755b7e650d9e56de51bd24f8cc53e7022c002d5e16c8229e6cff414993

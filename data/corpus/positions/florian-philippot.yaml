@@ -1318,11 +1318,14 @@
   quote: "Il faut rompre avec le dogme du collège unique, qui nivelle par le bas, pour proposer dès 14 ans des parcours différenciés, y compris vers l'apprentissage."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le projet 2026 propose des parcours différenciés dès 14 ans, y compris vers l'apprentissage, donc avant la fin du collège."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:9f6fd9fec412921221b15139f434c72e21d644c0eab0a26c623ef23a32131b39
 
 - question: education-uniforme-obligatoire
   value: 2

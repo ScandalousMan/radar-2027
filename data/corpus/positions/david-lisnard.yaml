@@ -1288,11 +1288,14 @@
   quote: "Les parents choisiront où ils inscriront leur enfant et le financement public suivra ce choix, que l'établissement soit privé ou public."
   quoteSource: david-lisnard-entretien-jdnews-2026-10
   justification: "Dans son entretien d'octobre 2026, il annonce que le financement public suivra le choix d'établissement des parents, public ou privé. Son programme prévoit un chèque-éducation et son livre noir une allocation scolaire qui suit l'élève."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:556291db42e8c8475b286b5a8fc78583787f20508a3173e3ffce2bb4cbb2898b
 
 - question: education-prive-financement-mixite
   value: -1
@@ -1302,11 +1305,14 @@
   quote: "L'enseignement privé n'est pas le problème. Il est souvent la réponse à une école publique disqualifiée. Plutôt que de lui imposer une \" mixité sociale \" arbitraire, il faut élever le niveau général de l'enseignement, partout."
   quoteSource: david-lisnard-programme-education
   justification: "Le programme refuse d'imposer une mixité sociale à l'enseignement privé, sans viser explicitement la modulation de son financement public."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:4a8f84a9d55c136f46a503c21e5e167b71fc2160f759e45e8f94e508cdfd8b31
 
 - question: education-carte-scolaire-suppression
   value: 2
@@ -1318,11 +1324,14 @@
   quote: "Il faut abroger la carte scolaire qui enferme les familles dans leur quartier, souvent contre leur gré, et laisse aux plus aisés le monopole de l'évitement."
   quoteSource: david-lisnard-programme-education
   justification: "Le programme demande l'abrogation de la carte scolaire ; le livre noir prévoit sa suppression sur trois ans."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:de0204670b10ad10eca9f9de58ef9389e7622a91d9a4c01f7cf30c43f57c9124
 
 - question: education-universite-sans-selection
   value: 0
@@ -1346,11 +1355,14 @@
   quote: "Nous proposons une augmentation de 20 % des rémunérations en cinq ans, conditionnée à une réorganisation profonde : autonomie accrue, présence renforcée dans l'établissement, formation continue obligatoire, évaluation régulière."
   quoteSource: david-lisnard-programme-education
   justification: "Le programme prévoit une hausse de 20 % en cinq ans, mais conditionnée à une réorganisation du métier, ce qui ne la garantit pas sans condition à l'ensemble des enseignants."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:feea46ff30e75ff8702c3f490466eaed59ac6a20583b06b278c942fd0badd210
 
 - question: education-revalorisation-identique-pour-tous
   value: -1
@@ -1361,11 +1373,14 @@
   quote: "En parallèle d'une véritable revalorisation financière du métier d'enseignant, en contrepartie de travail ou formation complémentaires"
   quoteSource: david-lisnard-programme-renouveau-civique
   justification: "Le programme lie la revalorisation à des contreparties (travail ou formation supplémentaires), et le programme Éducation la conditionne à une réorganisation, plutôt qu'à une hausse générale sans condition."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:d80e33ed99b70c2b4ed4277b8cd848b2353b5d9720a222dd58f659b79c182712
 
 - question: education-examen-entree-college
   value: 2
@@ -1375,11 +1390,14 @@
   quote: "Nous proposons l'instauration d'un certificat de fin de primaire, dont la validation conditionnera l'entrée au collège."
   quoteSource: david-lisnard-programme-education
   justification: "Le programme fait de la validation d'un certificat de fin de primaire la condition d'entrée au collège."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:b895d218be9ab546789d9e3c69adcde665e1c5dc4add318d7d8888e7031b32b0
 
 - question: education-orientation-professionnelle-avant-fin-college
   value: 1

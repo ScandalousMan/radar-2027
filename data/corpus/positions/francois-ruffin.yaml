@@ -976,11 +976,14 @@
   quote: "Moduler les dotations publiques aux établissements privés en fonction de la mixité sociale : tout établissement sous contrat dont le taux d'élèves favorisés ou celui d'élèves boursiers s'écarte de la moyenne du territoire verra ses subventions réduites en proportion."
   quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
   justification: "Le cahier Éducation réduit les subventions des établissements privés sous contrat dont la composition sociale s'écarte de la moyenne du territoire."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:bdc6b43ab2dc42cd5948d778651d4b6168fcf2635bccd60b84adbe17054cf57a
 
 - question: education-carte-scolaire-suppression
   value: -1
@@ -1020,11 +1023,14 @@
   quote: "La baisse démographique ne doit pas servir de prétexte pour fermer des écoles et supprimer des postes."
   quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
   justification: "Le cahier Éducation refuse de supprimer des postes au motif de la baisse démographique ; sa tribune demande qu'aucun poste d'enseignant ne soit supprimé dans le prochain budget."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:1248ae66be59e3369f1c17bdbe319b4f7e7a4d24be6b215f4fe3940fd0b8f9d7
 
 - question: education-salaires-enseignants-15-pourcent
   value: 1
@@ -1034,11 +1040,14 @@
   quote: "Mettre en place un grand plan de revalorisation des salaires. La rémunération des enseignants français est inférieure de 20% en début de carrière et jusqu'à 30% en milieu de parcours par rapport aux pays comparables."
   quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
   justification: "Le cahier Éducation annonce un grand plan de revalorisation des salaires des enseignants, sans en chiffrer l'ampleur."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:4e4cb19041180f54c34bc9e69eb523c9fe78379b75823e4ff844d7094df20f7c
 
 - question: education-revalorisation-identique-pour-tous
   value: 2
@@ -1048,11 +1057,14 @@
   quote: "La revalorisation portera sur une hausse pérenne de la grille indiciaire, hors de toute logique de pacte ou de contreparties, en ciblant en priorité le milieu de carrière."
   quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
   justification: "Le cahier Éducation revalorise la grille indiciaire, hors pacte et sans contreparties, plutôt que par des primes liées aux missions."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:d82236c2b9e8527030333d484447aa5a3d313905b96d1e9db5d027d39adc305e
 
 - question: education-groupes-de-niveau-college
   value: -2
@@ -1062,11 +1074,14 @@
   quote: "La droite et l'extrême droite souhaitent accentuer la ségrégation scolaire en triant les élèves par niveau au plus tôt (groupes de niveau, fin du collège unique, brevet couperet) plutôt que de faire progresser les élèves en difficulté. Ce choix politique est inacceptable"
   quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
   justification: "Le cahier Éducation juge « inacceptable » le tri des élèves par niveau, groupes de niveau compris."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:a63a6b5ce71d9db49ad3300a77f47867c6588de39260b6c6332348e546d69e4c
 
 - question: education-orientation-professionnelle-avant-fin-college
   value: -1
@@ -1090,8 +1105,11 @@
   quote: "Réduire progressivement la part des notes sur 20 au profit de méthodes d'évaluation alternatives, en particulier en primaire et au collège : évaluation par compétences, par les pairs, auto-évaluation, etc."
   quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
   justification: "Le cahier Éducation propose de réduire progressivement les notes sur 20 au profit d'évaluations alternatives, en particulier au primaire et au collège."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:787faab5e05fb34e94824c151cd70710e006f8b547b78dd2b3dc816296960795

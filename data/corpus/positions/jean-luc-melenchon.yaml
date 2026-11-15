@@ -3107,11 +3107,14 @@
   quote: "Appliquer un malus au financement public des établissements privés sous contrat contribuant à la ségrégation socio-scolaire"
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch2
   justification: "L'Avenir en commun réduit le financement public des établissements privés sous contrat qui contribuent à la ségrégation socio-scolaire."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:2c2974cedaa4ab59d6f7f0f3e4b41c271be2ead92ecc1ebb0fe516b03469bd9f
 
 - question: education-carte-scolaire-suppression
   value: -2
@@ -3121,11 +3124,14 @@
   quote: "Instaurer une nouvelle version de la carte scolaire pour lutter contre la ségrégation socio-scolaire"
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch2
   justification: "L'Avenir en commun maintient une carte scolaire, refondée contre la ségrégation, au lieu de la supprimer."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:65e7ed8c1bc877df1ab630f1c7fbcdd6863782208af1a508c2575321dc8d89bc
 
 - question: education-universite-sans-selection
   value: 2
@@ -3137,11 +3143,14 @@
   quote: "Garantir à tous les bacheliers l'accès sans sélection à la formation de leur choix en démantelant le système Parcoursup"
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch2
   justification: "L'Avenir en commun garantit à tout bachelier l'accès sans sélection à la formation de son choix ; le plan ESR prévoit l'abrogation de Parcoursup et 250 000 places supplémentaires."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:d7e49c817ca811a327ab8705731352e85906ccddf4b78c48db34e8928116e171
 
 - question: education-postes-baisse-demographique
   value: 1
@@ -3152,11 +3161,14 @@
   quote: "Nous propo- sons donc d'ouvrir 10 000 postes pour l'année prochaine, ce qui an- nule les suppressions de postes d'Emmanuel Macron depuis 2017"
   quoteSource: jean-luc-melenchon-comptes-publics-2027
   justification: "Le chiffrage prévoit 10 000 postes dès la première année et L'Avenir en commun une baisse des effectifs par classe, ce qui va au-delà du maintien des postes sans évoquer la baisse démographique."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:1ecf1d0a873179ac6aa56292562c31ac1311c588cfd53b484b1d08683e9f4d7f
 
 - question: education-salaires-enseignants-15-pourcent
   value: 1
@@ -3166,11 +3178,14 @@
   quote: "Rattraper le gel du point d'indice depuis 2010 et revaloriser les grilles salariales en engageant une négociation avec les organisations syndicales"
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch2
   justification: "L'Avenir en commun prévoit de rattraper le gel du point d'indice depuis 2010 et de revaloriser les grilles, sans chiffrer la hausse."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:ee38e80d916eea7c15a716ae76f3023f3625e56c25c1ef86cdbec3d36c21df91
 
 - question: education-revalorisation-identique-pour-tous
   value: 2
@@ -3195,11 +3210,14 @@
   quote: "Instaurer la gratuité de l'enseignement supérieur, de la licence au doctorat, en supprimant également la contribution à la vie étudiante et de campus (CVEC), et en abrogeant l'augmentation des frais d'inscription décidée par Macron pour les étudiant·es étranger·es extracommunautaires"
   quoteSource: jean-luc-melenchon-plan-esr
   justification: "Le plan ESR abroge la hausse des frais d'inscription des étudiants extracommunautaires ; L'Avenir en commun prévoit la gratuité du supérieur quelle que soit la nationalité."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:6870a60d2854834ff9b6553fad734f0595e9e2fe8433f64e4a55f89a1d72d62c
 
 - question: education-groupes-de-niveau-college
   value: -1
@@ -3223,8 +3241,11 @@
   quote: "Mettre fin à l'expérimentation de l'uniforme"
   quoteSource: jean-luc-melenchon-aec-gout-du-futur-ch2
   justification: "L'Avenir en commun met fin à l'expérimentation de l'uniforme à l'école."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:7343af140c6df3956d7968004e5b14d92a861b4923ae874d8d7794fcd00f94df
