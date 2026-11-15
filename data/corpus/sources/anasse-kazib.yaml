@@ -64,3 +64,14 @@
   candidates:
     - anasse-kazib
   contentHash: sha256:f1e8c42f28fb6a07d62247df6d0835e0374559d059590bb8df5bc4c873d625d7
+- id: anasse-kazib-entretien-reporterre-2026-11
+  url: https://reporterre.net/Anasse-Kazib-Avec-la-greve-on-touche-le-grand-patronat-au-portefeuille
+  title: "« Avec la grève, on touche le grand patronat au portefeuille » : entretien d'Anasse Kazib à Reporterre"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-04
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - anasse-kazib
+  contentHash: sha256:6b3c72adf0ca3c0d8b116d8fdb55d789d7b5b6b1dc9208fd8bdfeb07442d33f9
