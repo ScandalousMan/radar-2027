@@ -130,12 +130,12 @@
 
 **Independent Test**: le test de rejeu des 20 liens v1 passe avant et après la publication ; `versions.json` désigne la version 2 ; la page Méthodologie de la version 2 montre 18 thèmes.
 
-- [ ] T040 [US4] Sur la branche `006-publication-v2` créée depuis `main` (PR de données fusionnée), **avant toute publication**, construire `src/lib/results/replay-v1.fixture.json` : 20 fragments de partage v1 (modes complet et court, combinaisons variées de 3 à 5 thèmes, réponses variées dont « sans avis ») produits avec l'encodeur du codec existant sur la banque `public/data/versions/1`, chacun avec son résultat attendu (classement, scores globaux et par thème) calculé avec le chemin de résultats actuel ; documenter dans le fichier la date et la méthode de génération
-- [ ] T041 [US4] Écrire `src/lib/results/replay-v1.test.ts` (R8) : charger chaque fragment de `src/lib/results/replay-v1.fixture.json` depuis le disque par le chemin de rejeu réel (choix de la version par l'en-tête du fragment, chargement via `src/lib/results/load.ts` pointé sur `public/data/versions/`) et comparer au résultat attendu ; lancer `pnpm vitest run src/lib/results </dev/null` : vert avant publication (dépend de T040)
-- [ ] T042 [US4] Lancer `pnpm data:publish --dry-run` : vérifier dans le diff 18 thèmes, les énoncés Éducation ajoutés avec `introducedIn: 2`, aucun retrait d'énoncé v1, budgets `PUB-BUDGET` respectés (`main.json` ≤ 300 Kio, chaque fichier de détail ≤ 150 Kio) et absence des clés `dimensions`/`dimension` dans la projection
-- [ ] T043 [US4] Lancer `pnpm data:publish` : `public/data/versions/2/` créé, `public/data/versions.json` désigne la version 2 comme courante, fichiers de `public/data/versions/1/` inchangés (`git diff --stat public/data/versions/1` vide, `PUB-IMMUTABLE`) ; vérifier que les commentaires YAML des questions et positions sont conservés (dépend de T042)
-- [ ] T044 [US4] Relancer `pnpm vitest run src/lib/results </dev/null` après publication : les 20 liens v1 donnent des résultats identiques (SC-006) (dépend de T041, T043)
-- [ ] T045 [US4] Vérifier la page Méthodologie (`src/app/methodologie/page.tsx` lit la version courante) avec `pnpm build && pnpm start:static` dans le navigateur intégré : 18 thèmes dans l'ordre canonique, Éducation en dernier avec sa description et son axe ; capture d'écran comme preuve
+- [X] T040 [US4] Sur la branche `006-publication-v2` créée depuis `main` (PR de données fusionnée), **avant toute publication**, construire `src/lib/results/replay-v1.fixture.json` : 20 fragments de partage v1 (modes complet et court, combinaisons variées de 3 à 5 thèmes, réponses variées dont « sans avis ») produits avec l'encodeur du codec existant sur la banque `public/data/versions/1`, chacun avec son résultat attendu (classement, scores globaux et par thème) calculé avec le chemin de résultats actuel ; documenter dans le fichier la date et la méthode de génération
+- [X] T041 [US4] Écrire `src/lib/results/replay-v1.test.ts` (R8) : charger chaque fragment de `src/lib/results/replay-v1.fixture.json` depuis le disque par le chemin de rejeu réel (choix de la version par l'en-tête du fragment, chargement via `src/lib/results/load.ts` pointé sur `public/data/versions/`) et comparer au résultat attendu ; lancer `pnpm vitest run src/lib/results </dev/null` : vert avant publication (dépend de T040)
+- [X] T042 [US4] Lancer `pnpm data:publish --dry-run` : vérifier dans le diff 18 thèmes, les énoncés Éducation ajoutés avec `introducedIn: 2`, aucun retrait d'énoncé v1, budgets `PUB-BUDGET` respectés (`main.json` ≤ 300 Kio, chaque fichier de détail ≤ 150 Kio) et absence des clés `dimensions`/`dimension` dans la projection
+- [X] T043 [US4] Lancer `pnpm data:publish` : `public/data/versions/2/` créé, `public/data/versions.json` désigne la version 2 comme courante, fichiers de `public/data/versions/1/` inchangés (`git diff --stat public/data/versions/1` vide, `PUB-IMMUTABLE`) ; vérifier que les commentaires YAML des questions et positions sont conservés (dépend de T042)
+- [X] T044 [US4] Relancer `pnpm vitest run src/lib/results </dev/null` après publication : les 20 liens v1 donnent des résultats identiques (SC-006) (dépend de T041, T043)
+- [X] T045 [US4] Vérifier la page Méthodologie (`src/app/methodologie/page.tsx` lit la version courante) avec `pnpm build && pnpm start:static` dans le navigateur intégré : 18 thèmes dans l'ordre canonique, Éducation en dernier avec sa description et son axe ; capture d'écran comme preuve
 
 **Checkpoint**: version 2 publiée localement ; liens v1 stables.
 
@@ -147,9 +147,9 @@
 
 **Independent Test**: questionnaire complet avec Éducation + deux thèmes : 12 ou 13 énoncés Éducation ; résultats avec score Éducation (ou « — ») et couverture « x sur y » ; Éducation dans les sujets clés de la fiche candidat.
 
-- [ ] T046 [P] [US1] Écrire `src/lib/results/bank-v2-quotas.test.ts` (SC-007) : charger la banque `public/data/versions/2` depuis le disque, vérifier 18 thèmes avec `education` en dernier, puis pour toutes les combinaisons de 3 à 5 sujets prioritaires parmi 18 (12 444 combinaisons) et les deux modes, que la sélection de `src/core/selection` respecte les quotas de `computeQuotas` sans débordement ; vérifier en particulier qu'Éducation prioritaire en mode complet avec 3 sujets reçoit 12 ou 13 énoncés et qu'en mode court non prioritaire elle entre dans l'agrégat « autres thèmes » ; lancer avec `</dev/null` (garder la durée raisonnable : < 30 s)
-- [ ] T047 [US1] Parcours dans le navigateur intégré sur `pnpm build && pnpm start:static` (quickstart §6) : (1) Éducation est le dernier thème du choix des sujets, avec sa description, et se sélectionne ; (2) Éducation + deux thèmes en mode complet → compter 12 ou 13 énoncés Éducation ; (3) résultats : score Éducation (ou « — ») et couverture « x positions connues sur y » par candidat, comparaison et détail par question ; fiche candidat avec Éducation parmi les sujets clés ; (4) ouvrir un lien v1 de `src/lib/results/replay-v1.fixture.json` : mêmes résultats, 17 thèmes ; (5) lancer un nouveau questionnaire : version 2 ; captures d'écran à l'appui (dépend de T043)
-- [ ] T048 [US1] Si T047 révèle un affichage incorrect lié au nombre de thèmes (débordement de liste, libellé tronqué), corriger le composant concerné dans `src/components/` avec sa story Storybook, sinon consigner « aucun changement d'interface » dans la description de la PR de publication
+- [X] T046 [P] [US1] Écrire `src/lib/results/bank-v2-quotas.test.ts` (SC-007) : charger la banque `public/data/versions/2` depuis le disque, vérifier 18 thèmes avec `education` en dernier, puis pour toutes les combinaisons de 3 à 5 sujets prioritaires parmi 18 (12 444 combinaisons) et les deux modes, que la sélection de `src/core/selection` respecte les quotas de `computeQuotas` sans débordement ; vérifier en particulier qu'Éducation prioritaire en mode complet avec 3 sujets reçoit 12 ou 13 énoncés et qu'en mode court non prioritaire elle entre dans l'agrégat « autres thèmes » ; lancer avec `</dev/null` (garder la durée raisonnable : < 30 s)
+- [X] T047 [US1] Parcours dans le navigateur intégré sur `pnpm build && pnpm start:static` (quickstart §6) : (1) Éducation est le dernier thème du choix des sujets, avec sa description, et se sélectionne ; (2) Éducation + deux thèmes en mode complet → compter 12 ou 13 énoncés Éducation ; (3) résultats : score Éducation (ou « — ») et couverture « x positions connues sur y » par candidat, comparaison et détail par question ; fiche candidat avec Éducation parmi les sujets clés ; (4) ouvrir un lien v1 de `src/lib/results/replay-v1.fixture.json` : mêmes résultats, 17 thèmes ; (5) lancer un nouveau questionnaire : version 2 ; captures d'écran à l'appui (dépend de T043)
+- [X] T048 [US1] Si T047 révèle un affichage incorrect lié au nombre de thèmes (débordement de liste, libellé tronqué), corriger le composant concerné dans `src/components/` avec sa story Storybook, sinon consigner « aucun changement d'interface » dans la description de la PR de publication
 
 **Checkpoint**: la valeur visible (choisir Éducation et obtenir un score) est démontrée sur la version 2.
 
@@ -157,10 +157,10 @@
 
 ## Phase 8: Polish & Cross-Cutting Concerns
 
-- [ ] T049 Lancer `pnpm verify` (lint, types, validation, tests, Storybook, build, e2e) sur `006-publication-v2` et corriger jusqu'au vert
-- [ ] T050 Committer la publication (« data(publication): version 2 du jeu de données (18 thèmes) »), pousser `006-publication-v2`, ouvrir la PR de publication vers `main` (description : effectifs v2, SC-001 à SC-007 avec leur preuve, captures de T045 et T047), lier la PR avec les outils ccd_pr et suivre la CI
-- [ ] T051 [P] Consigner en fin de ce fichier `specs/006-theme-education/tasks.md` une section « Écarts » : décisions prises en cours de route (sources écartées notables, énoncés écartés, SC-004 atteint ou non et pourquoi, corrections de transcriptions), et cocher les tâches faites
-- [ ] T052 [P] Mettre à jour la mémoire du projet (fichier `project-radar-2027-spec-006-education.md` du répertoire mémoire) : état d'avancement, numéros de PR, restes éventuels
+- [X] T049 Lancer `pnpm verify` (lint, types, validation, tests, Storybook, build, e2e) sur `006-publication-v2` et corriger jusqu'au vert
+- [X] T050 Committer la publication (« data(publication): version 2 du jeu de données (18 thèmes) »), pousser `006-publication-v2`, ouvrir la PR de publication vers `main` (description : effectifs v2, SC-001 à SC-007 avec leur preuve, captures de T045 et T047), lier la PR avec les outils ccd_pr et suivre la CI
+- [X] T051 [P] Consigner en fin de ce fichier `specs/006-theme-education/tasks.md` une section « Écarts » : décisions prises en cours de route (sources écartées notables, énoncés écartés, SC-004 atteint ou non et pourquoi, corrections de transcriptions), et cocher les tâches faites
+- [X] T052 [P] Mettre à jour la mémoire du projet (fichier `project-radar-2027-spec-006-education.md` du répertoire mémoire) : état d'avancement, numéros de PR, restes éventuels
 
 ---
 
@@ -252,3 +252,25 @@ Couverture minimale acceptable pour publier (FR-015, SC-003 de la 002 option A) 
 - Aucune citation ni métadonnée proposée par ChatGPT ou par un sous-agent n'entre au corpus sans contrôle dans le texte téléchargé (FR-010).
 - Les énoncés existants des autres thèmes ne sont ni modifiés ni déplacés (002 FR-011).
 - `src/core` reste inchangé (Principe III) ; seule la règle `AXIS-DIM` appelle `computeQuotas`.
+
+---
+
+## Écarts
+
+Décisions prises en cours de route (T051, 2026-11-16).
+
+### Campagne de données (Phases 3 à 5, PR #22)
+
+- **Sources écartées notables** : le détail figure dans `data/campagnes/education/sources.md`. Les principales familles : pages sans mesure (constats, griefs du mouvement lycéen, critiques de Parcoursup sans proposition : Batho, Arthaud, Asselineau), sources non attribuables au sens de FR-013a (table ronde UPR qu'Asselineau anime sans prendre position, agrégateurs et comparateurs comme votons-2027.fr ou elyseescope.com), programme UPR 2027 non publié (seul le programme 2022, déjà au corpus, existe), extrait BFM de Philippe sur Dailymotion laissé en attente faute de sous-titres (sujet déjà couvert par l'entretien franceinfo).
+- **Énoncés écartés** : 8 (liste et motifs dans le bilan de `data/campagnes/education/enonces.md`) : 3 par la revue adverse (liberté pédagogique des établissements, épreuves finales du bac, recrutement massif d'enseignants) et 5 faute de mesure de désaccord dans les sources (FR-008 : recrutement par les chefs d'établissement, AESH fonctionnaires, bac pro en quatre ans, téléphone interdit, exclusion des élèves violents). Périmètre FR-005 non couvert faute de mesures opposées : petite enfance, laïcité, écrans, instruction en famille, école inclusive, éducation prioritaire.
+- **Énoncés non discriminants (T038)** : aucun ; les 13 énoncés ont au moins une position relue de chaque côté. À surveiller : `education-salaires-enseignants-15-pourcent` (10 contre 1) et `education-postes-baisse-demographique` (9 contre 1).
+- **SC-004 atteint** : 16 candidats sur 18 ont au moins deux positions Éducation relues (cible 12). Les deux exceptions : Nathalie Arthaud (une position, sa seule source retenue est un passage BFMTV sur le mouvement lycéen) et Delphine Batho (aucune : toutes ses pages éducation sont des constats sans mesure).
+- **Relecture d'adrien** : 91 positions relues ; une valeur corrigée (Mélenchon, groupes de niveau, −1 → −2) ; deux positions supprimées faute de mesure explicite (Zemmour, financement qui suit l'élève ; Philippot, salaires) ; les 11 citations tirées d'une transcription automatique ont été acceptées sans écoute.
+
+### Publication (Phases 6 à 8)
+
+- **Fixture de rejeu (T040)** : générée par un script versionné, `scripts/results/replay-v1-fixture.ts` (graine fixe, refuse de tourner si la version courante n'est pas 1), plutôt qu'à la main. Le résultat attendu est un instantané (`src/lib/results/replay-snapshot.ts`) des rangs, bandes, scores global, prioritaire, pondéré et par thème en rationnels exacts, et des couvertures ; il exclut `priorVersion`, qui passe légitimement à vrai après la publication (le test le vérifie à part). Le cas 20 est entièrement « sans avis » (aucun candidat classé).
+- **Typage** : le générateur passe par le chemin de résultats du navigateur (`loadResults`, `fetch`) ; `scripts/results` relève donc du `tsconfig.json` racine (DOM) et est exclu de `tsconfig.scripts.json`.
+- **Publication (T043)** : `pnpm data:publish` refuse sans `--next` quand le contenu a changé ; la version 2 a été créée par `pnpm data:publish --next`. La seule modification de corpus est l'ajout de `introducedIn: 2` aux 13 énoncés Éducation, commentaires YAML conservés. `introducedIn` ne figure pas dans la projection publiée (comme pour les énoncés v1). `public/data/versions/1/` est inchangé.
+- **Quotas (T046)** : un énoncé retenu crédite tous ses thèmes (003 FR-022) ; le test vérifie donc que chaque thème atteint son quota dès le premier passage, et non le nombre d'énoncés ancrés par thème. Énergie n'a que 12 énoncés (déjà le cas en v1) : dans 136 sélections sur 24 888 (mode complet, Énergie prioritaire avec un quota de 13), son quota ne peut être atteint et le second passage complète la sélection (003 FR-023). Éducation (13 énoncés) atteint toujours son quota de 12 ou 13.
+- **Interface (T048)** : aucun changement d'interface ; la liste des 18 sujets reste lisible sur ordinateur et à 375 px de large, sans défilement horizontal.
