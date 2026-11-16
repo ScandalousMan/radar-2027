@@ -218,3 +218,36 @@
   candidates:
     - marine-le-pen
   contentHash: sha256:7816e0f258f1fefcbbc82f6b916e757ea30017dcfcf43c7eae01edc451b994af
+- id: marine-le-pen-discours-orleans-2026-10
+  url: https://marinelepen.com/actualites/discours-de-marine-le-pen-a-orleans
+  title: Discours de Marine Le Pen à Orléans
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-25
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:2d7f12b878ac7612c4c11cbc627e6a118da73beedf4b11b276da38f4ab41009b
+- id: marine-le-pen-objectif-elysee-cnews-2026-10
+  url: https://www.cnews.fr/france/2026-10-15/parcoursup-aides-pour-les-transports-que-propose-concretement-marine-le-pen-en
+  title: "Objectif Élysée 2027 (CNEWS/Europe 1) : propositions de Marine Le Pen pour la jeunesse, Parcoursup (CNEWS)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-15
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:9b88c34f69a9375f5e13d09a06e428f802182c3539af05979cfe9085b600a0d3
+- id: marine-le-pen-objectif-elysee-europe1-2026-10
+  url: https://europe1.fr/politique/en-direct-objectif-elysee-2027-blocus-des-lycees-marine-le-pen-veut-exclure-les-eleves-responsables-de-degradations-1151948
+  title: "Objectif Élysée 2027 : Marine Le Pen veut exclure les élèves responsables de dégradations (direct Europe 1)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-15
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - marine-le-pen
+  contentHash: sha256:c4293c1cde02fc67a25c9a4f056974ceeac1096e40bc6a2bc90981bd13fb0608

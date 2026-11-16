@@ -945,3 +945,58 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:a50021ff7dc15b25fe47073c10a6dfce1174f72072db1800babbbf427a37f1e5
+
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
+- question: education-universite-sans-selection
+  value: 2
+  evidence: programme
+  sources:
+    - anasse-kazib-conference-sociale-2026-11
+    - anasse-kazib-programme-2022-d-anasse-kazib-et-revolution-permanente-anass
+  quote: "La fin de la sélection à l'université et de Parcoursup dès 2027"
+  quoteSource: anasse-kazib-conference-sociale-2026-11
+  justification: "Il revendique la fin de la sélection à l'université et de Parcoursup ; son programme 2022 demandait déjà l'abrogation des réformes de sélection."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:b45b459dcaa0c02d56335c546d9ca0ab75ab3c6d0352f6fb3605fb7371e7f206
+
+- question: education-postes-baisse-demographique
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - anasse-kazib-conference-sociale-2026-11
+    - anasse-kazib-entretien-reporterre-2026-11
+  quote: "L'embauche massive de professeurs, d'AESH, d'ATSEM, d'AED, de psychologues, de médecins, etc."
+  quoteSource: anasse-kazib-conference-sociale-2026-11
+  justification: "Il demande l'embauche massive de professeurs, ce qui exclut des suppressions de postes, sans se prononcer sur la baisse démographique : mesure plus large que l'énoncé, d'où plutôt d'accord."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:dd7e844fd32db558dbba8478cd40f2ebe2a6395cb33e8f7368dc80e72ac1d7e0
+
+- question: education-salaires-enseignants-15-pourcent
+  value: 1
+  evidence: programme
+  sources:
+    - anasse-kazib-programme-2027
+    - anasse-kazib-depliant-2027
+  quote: "SMIC à 2000 € net, revalorisation de toutes les allocations, augmentation des salaires de 500 €, indexation sur l'inflation."
+  quoteSource: anasse-kazib-programme-2027
+  justification: "Le programme prévoit une hausse de 500 euros de tous les salaires, enseignants compris, soit plus de 15 % pour la plupart d'entre eux ; mesure générale et non propre aux enseignants, d'où plutôt d'accord."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:a5e0ccfa77be0437245bb691b271b58ef87d75b66cead3f7ce3eefb2ffbfb579

@@ -966,3 +966,159 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:ca67bbdcfec3d0511e7963cb45ca73eb86f94204ce536116cd3a0db5c834c370
+
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
+- question: education-prive-financement-mixite
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  quote: "Moduler les dotations publiques aux établissements privés en fonction de la mixité sociale : tout établissement sous contrat dont le taux d'élèves favorisés ou celui d'élèves boursiers s'écarte de la moyenne du territoire verra ses subventions réduites en proportion."
+  quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  justification: "Le cahier Éducation réduit les subventions des établissements privés sous contrat dont la composition sociale s'écarte de la moyenne du territoire."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:bdc6b43ab2dc42cd5948d778651d4b6168fcf2635bccd60b84adbe17054cf57a
+
+- question: education-carte-scolaire-suppression
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  quote: "Adosser à chaque révision de carte scolaire un diagnostic mixité obligatoire."
+  quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  justification: "Le cahier Éducation veut réviser la carte scolaire au service de la mixité, ce qui suppose son maintien ; il ne se prononce pas explicitement sur sa suppression."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:6eef33def92e176415e6bd24bd6589d1b2676ccfcd9986a74ef2cb978bcf4cab
+
+- question: education-universite-sans-selection
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+    - francois-ruffin-tribune-convergence-pourrissements
+  quote: "Modifier le système de sélection et classement des élèves par les établissements. Ceux-ci devront tous publier dans le détail leur méthodologie de sélection, algorithmes compris."
+  quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  justification: "Le cahier Éducation remplace Parcoursup mais conserve une sélection par les établissements, rendue transparente. Sa tribune du 22 octobre 2026 réclame la « fin de Parcoursup » sans se prononcer sur la sélection."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:d5947e1ad6f50417c3b788ffc20a7e7e31f7bffa34a8b3dcd28f3b05d9f16a1d
+
+- question: education-postes-baisse-demographique
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+    - francois-ruffin-tribune-convergence-pourrissements
+  quote: "La baisse démographique ne doit pas servir de prétexte pour fermer des écoles et supprimer des postes."
+  quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  justification: "Le cahier Éducation refuse de supprimer des postes au motif de la baisse démographique ; sa tribune demande qu'aucun poste d'enseignant ne soit supprimé dans le prochain budget."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:1248ae66be59e3369f1c17bdbe319b4f7e7a4d24be6b215f4fe3940fd0b8f9d7
+
+- question: education-salaires-enseignants-15-pourcent
+  value: 1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  quote: "Mettre en place un grand plan de revalorisation des salaires. La rémunération des enseignants français est inférieure de 20% en début de carrière et jusqu'à 30% en milieu de parcours par rapport aux pays comparables."
+  quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  justification: "Le cahier Éducation annonce un grand plan de revalorisation des salaires des enseignants, sans en chiffrer l'ampleur."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:4e4cb19041180f54c34bc9e69eb523c9fe78379b75823e4ff844d7094df20f7c
+
+- question: education-revalorisation-identique-pour-tous
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  quote: "La revalorisation portera sur une hausse pérenne de la grille indiciaire, hors de toute logique de pacte ou de contreparties, en ciblant en priorité le milieu de carrière."
+  quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  justification: "Le cahier Éducation revalorise la grille indiciaire, hors pacte et sans contreparties, plutôt que par des primes liées aux missions."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:d82236c2b9e8527030333d484447aa5a3d313905b96d1e9db5d027d39adc305e
+
+- question: education-groupes-de-niveau-college
+  value: -2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  quote: "La droite et l'extrême droite souhaitent accentuer la ségrégation scolaire en triant les élèves par niveau au plus tôt (groupes de niveau, fin du collège unique, brevet couperet) plutôt que de faire progresser les élèves en difficulté. Ce choix politique est inacceptable"
+  quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  justification: "Le cahier Éducation juge « inacceptable » le tri des élèves par niveau, groupes de niveau compris."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:a63a6b5ce71d9db49ad3300a77f47867c6588de39260b6c6332348e546d69e4c
+
+- question: education-orientation-professionnelle-avant-fin-college
+  value: -1
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  quote: "La droite et l'extrême droite souhaitent accentuer la ségrégation scolaire en triant les élèves par niveau au plus tôt (groupes de niveau, fin du collège unique, brevet couperet) plutôt que de faire progresser les élèves en difficulté. Ce choix politique est inacceptable"
+  quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  justification: "Le cahier Éducation rejette la fin du collège unique et veut achever ce projet, sans viser explicitement l'orientation vers l'apprentissage avant la fin du collège."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:10de18831b6e779182db22f66ae072b39cfad257b3a1956147a0b69bd9822214
+
+- question: education-notes-evaluation-alternative
+  value: 2
+  evidence: programme
+  sources:
+    - francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  quote: "Réduire progressivement la part des notes sur 20 au profit de méthodes d'évaluation alternatives, en particulier en primaire et au collège : évaluation par compétences, par les pairs, auto-évaluation, etc."
+  quoteSource: francois-ruffin-cahier-de-campagne-n-8-education-ruffin-2027-pdf
+  justification: "Le cahier Éducation propose de réduire progressivement les notes sur 20 au profit d'évaluations alternatives, en particulier au primaire et au collège."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:787faab5e05fb34e94824c151cd70710e006f8b547b78dd2b3dc816296960795

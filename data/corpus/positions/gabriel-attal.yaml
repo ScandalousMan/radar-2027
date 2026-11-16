@@ -1040,3 +1040,94 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:237b2534914ed43c9596b4fe7019fd237d0270f6ab0cc873ad58ba3b162f0fa0
+
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
+- question: education-postes-baisse-demographique
+  value: 2
+  evidence: programme
+  sources:
+    - gabriel-attal-franceinfo-services-publics-education
+    - gabriel-attal-meeting-lyon-2026
+    - gabriel-attal-programme-education
+  quote: "Pas de poste supprimé. Qu'est-ce que ça veut dire ? Bah, ça veut dire qu'en réalité, il y aura un meilleur encadrement pour les il y aura plus d'enseignants euh qui en avaient euh jusqu'à maintenant parce qu'au lieu de"
+  quoteSource: gabriel-attal-franceinfo-services-publics-education
+  justification: "Sur franceinfo (à 00:20:55 ; transcription automatique, à confirmer à l'écoute), il refuse de supprimer des postes malgré la baisse du nombre d'élèves ; le compte rendu du meeting de Lyon parle du maintien du nombre de postes de professeurs."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:3084b8c89b5686c6ba032e0ec58f9a86411cb263f052a8bea6c20eac255a7ef4
+
+- question: education-revalorisation-identique-pour-tous
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - gabriel-attal-meeting-lyon-2026
+    - gabriel-attal-franceinfo-services-publics-education
+  quote: "d'augmenter le salaire des enseignants de 200 à 500 euros net par mois"
+  quoteSource: gabriel-attal-meeting-lyon-2026
+  justification: "Il propose une hausse de 200 à 500 euros net par mois pour les enseignants, modulée selon le moment de la carrière et non selon le mérite ; il ne se prononce pas explicitement sur les primes, d'où plutôt d'accord."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:394ecac24f6ddd6e93a70f5b89f79909d21f6dd0e5c8cee6ea6960d68e5d8e03
+
+- question: education-examen-entree-college
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - gabriel-attal-franceinfo-services-publics-education
+    - gabriel-attal-meeting-lyon-2026
+  quote: "Mais pas du tout. Enfin ça vous pourriez dire ça si mon projet c'était de dire on fait passer un certificat d'étude à la fin de la CM2 et si les élèves ne l'ont pas, ils peuvent pas rentrer au collège."
+  quoteSource: gabriel-attal-franceinfo-services-publics-education
+  justification: "Sur franceinfo (à 00:28:47 ; transcription automatique, à confirmer à l'écoute), il refuse que l'échec au certificat d'études empêche l'entrée au collège ; les élèves qui échouent passeraient toutefois par une année passerelle, d'où plutôt pas d'accord."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:72f762965a3bc25da48cab4ae343922268da4d22c4a713805a84e67cf8bc9bc2
+
+- question: education-groupes-de-niveau-college
+  value: 2
+  evidence: programme
+  sources:
+    - gabriel-attal-franceinfo-services-publics-education
+    - gabriel-attal-programme-education
+  quote: "Donc oui, sur des matières fondamentales comme le français et les mathématiques, je considère qu'il faut une organisation où vous avez les élèves les plus en"
+  quoteSource: gabriel-attal-franceinfo-services-publics-education
+  justification: "Sur franceinfo (à 00:26:09 ; transcription automatique, à confirmer à l'écoute), il défend des groupes par niveau en français et en mathématiques ; sa page programme promet de rétablir les mesures du Choc des savoirs."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:db30463dda3189d503d8562218ac0c7edfed762fe4faa951bb2b341466518906
+
+- question: education-universite-sans-selection
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - gabriel-attal-franceinfo-services-publics-education
+  quote: "Pour moi, il faut maintenir un processus de sélection."
+  quoteSource: gabriel-attal-franceinfo-services-publics-education
+  justification: "Sur franceinfo (à 00:35:40 ; transcription automatique, à confirmer à l'écoute), il défend le maintien d'une sélection à l'entrée de l'université."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:44c6aa6ddab9dae63ba8daedd5c2b9a543a406584d8594190c59130792bf0006

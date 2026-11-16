@@ -1742,3 +1742,89 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:17d1ea7840200a4e9bfbcb95c9a6019d82011feadaa73fc5e20f9687a2a9f386
+
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
+- question: education-salaires-enseignants-15-pourcent
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-education
+  quote: "Augmenter de 15 % en 4 ans les salaires nets des professeurs."
+  quoteSource: nicolas-dupont-aignan-projet-education
+  justification: "Le projet Éducation prévoit une hausse de 15 % des salaires nets des professeurs en quatre ans."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:c7d160bcad08fef7d83baee2fe75765b61362fb0a1eefdf77d0ec54e8b0c8704
+
+- question: education-examen-entree-college
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-education
+  quote: "Organiser, à la sortie du primaire, un examen sur le modèle du certificat d'études, dont les résultats conditionneront l'entrée au collège."
+  quoteSource: nicolas-dupont-aignan-projet-education
+  justification: "Le projet Éducation conditionne l'entrée au collège aux résultats d'un examen de fin de primaire."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:4b43035e78d3cc3d9fc3057aa3f1e58bd5e4a6ab0c2252cad2d79a2275171558
+
+- question: education-groupes-de-niveau-college
+  value: 1
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-education
+  quote: "Organiser des classes de niveau tout en garantissant leur porosité."
+  quoteSource: nicolas-dupont-aignan-projet-education
+  justification: "Le projet Éducation organise des classes de niveau au collège, avec des passerelles, sans les limiter au français et aux mathématiques : mesure plus large que l'énoncé."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:4edbc82c02f4757c05f67c0f2c6eb2379a94a68ee7c89d5edd10a40d7720b313
+
+- question: education-uniforme-obligatoire
+  value: 2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-education
+  quote: "Uniforme obligatoire, niveau de langage minimum et vouvoiement."
+  quoteSource: nicolas-dupont-aignan-projet-education
+  justification: "Le projet Éducation rend l'uniforme obligatoire dans les établissements scolaires."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:7089ad838e6a0f397fd1fa43f8866588512fb76ab041eb775b096a8b39de6ffc
+
+- question: education-notes-evaluation-alternative
+  value: -2
+  evidence: programme
+  sources:
+    - nicolas-dupont-aignan-projet-education
+  quote: "Rétablir à tous les niveaux des notes chiffrées claires et explicites"
+  quoteSource: nicolas-dupont-aignan-projet-education
+  justification: "Le projet Éducation veut rétablir des notes chiffrées à tous les niveaux, à l'inverse de leur remplacement par d'autres formes d'évaluation."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:64a4581b48347d442b1da46f14408f053aba8823759d0f02e0b6e82805bc8383

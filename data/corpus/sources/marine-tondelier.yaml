@@ -97,3 +97,36 @@
   candidates:
     - marine-tondelier
   contentHash: sha256:e75d892036024b564bdf096116d599c8a0cd137f5e69ae4ce804c6933d393422
+- id: marine-tondelier-dossier-presse-rentree-2026
+  url: https://lesecologistes.fr/document/6gMGZGdo5Fliov7rcvUda5/dossierpresse-rentree.pdf
+  title: "Dossier de presse de rentrée « Éducation nationale : état d'urgence pédagogique, état d'urgence écologique » (Les Écologistes)"
+  kind: programme
+  publishedAt:
+    date: 2026-08-31
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - marine-tondelier
+  contentHash: sha256:47fd936628a876a43bae236882737464fcd55d3e7f59b8f2245851c251b89c89
+- id: marine-tondelier-bfmtv-2026-10-14
+  url: https://www.youtube.com/watch?v=1WaKtpggqG4&t=286s
+  title: "Marine Tondelier sur BFMTV (14 octobre 2026) : passage sur le mouvement lycéen, Parcoursup et l'école (04:46–16:15)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-14
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - marine-tondelier
+  contentHash: sha256:ef4355262abc7962651373f39f3e631c04b7d159864d5a8a75f20df9ccccf44b
+- id: marine-tondelier-les-4v-2026-10
+  url: https://www.youtube.com/watch?v=F6XumBLtjyA&t=43s
+  title: "Marine Tondelier dans « Les 4V » : passage sur le mouvement lycéen et Parcoursup (00:43–03:06)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-26
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - marine-tondelier
+  contentHash: sha256:3c2f2ff6046f9c728d024afb57c72737c201c1804a862734c81577c91dec874a

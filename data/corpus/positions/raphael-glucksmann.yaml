@@ -1714,3 +1714,74 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:74d92706627483a7c96e931a9a2cd7f8ea044476b431034cf656d588096b6888
+
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
+- question: education-prive-financement-mixite
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - raphael-glucksmann-franceinfo-services-publics-education
+  quote: "conditionnalité. Il y a 10 milliards d'euros qui vont au privé. Alors et bien il faut pas les supprimer, il faut imposer une conditionnalité de mixité sociale."
+  quoteSource: raphael-glucksmann-franceinfo-services-publics-education
+  justification: "Sur franceinfo (à 02:26:09 ; transcription automatique, à confirmer à l'écoute), il veut conditionner les subventions du privé sous contrat à un effort de mixité sociale, sans se référer aux établissements publics voisins, d'où plutôt d'accord."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:be2d452e34db722cf5e044d4bcc806b818a786430385aee95fce408c686231f8
+
+- question: education-carte-scolaire-suppression
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-place-publique-acte-1
+  quote: "Intégrer les établissements privés sous contrat à la carte scolaire pour garantir une répartition équitable des élèves et renforcer la mixité sociale."
+  quoteSource: raphael-glucksmann-place-publique-acte-1
+  justification: "La plateforme Place publique veut étendre la carte scolaire aux établissements privés sous contrat, à l'opposé de sa suppression."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:ad4bc9f110d3caab27daabdad1af9ba77c51944f8281160ce15090342e06c67a
+
+- question: education-postes-baisse-demographique
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - raphael-glucksmann-franceinfo-services-publics-education
+    - raphael-glucksmann-fiscalite-ecole-immigration-ce-que-propose-raphael-glucksman
+  quote: "faire faut faire des choix com ensuite pour la baisse démographique pour la baisse démographique et bien ce que ça doit produire c'est la baisse du"
+  quoteSource: raphael-glucksmann-franceinfo-services-publics-education
+  justification: "Sur franceinfo (à 02:25:05 ; transcription automatique, à confirmer à l'écoute), il veut que la baisse démographique serve à réduire le nombre d'élèves par classe, ce qui suppose de garder les postes sans le dire explicitement, d'où plutôt d'accord."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:03f4c4f3febc92572185bdd620fbec570b0a0ba4e4a637fcf9ef6a55397e3a3b
+
+- question: education-revalorisation-identique-pour-tous
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - raphael-glucksmann-franceinfo-services-publics-education
+    - raphael-glucksmann-place-publique-acte-1
+  quote: "généralisé et donc votre augmentation sera de 25 %. C'est 10 % minimum pour l'ensemble des enseignants et il ne s'agit pas d'un projet utopique, c'est simplement rattraper le retard accumulé."
+  quoteSource: raphael-glucksmann-franceinfo-services-publics-education
+  justification: "Sur franceinfo (à 02:24:38 ; transcription automatique, à confirmer à l'écoute), il propose une hausse d'au moins 10 % pour tous les enseignants, modulée selon le niveau et la carrière et non selon le mérite ; il ne se prononce pas sur les primes, d'où plutôt d'accord."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:c665698d1c59910a219fbe084a86eda5ca6d72c85d23932403e556228680b59d

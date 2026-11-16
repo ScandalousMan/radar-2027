@@ -163,3 +163,14 @@
   candidates:
     - delphine-batho
   contentHash: sha256:10db1830981f7bc2e2228080858e29d484e932a139fcce7fd60afb39d2f31691
+- id: delphine-batho-proteger-ecole
+  url: https://www.delphinebatho.fr/proteger-lecole-se-decide-maintenant/
+  title: « Protéger l'école se décide maintenant » (site de campagne de Delphine Batho)
+  kind: programme
+  publishedAt:
+    date: 2026-09-01
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - delphine-batho
+  contentHash: sha256:83a1160a1d42024deb1236d1e7c749374d07703c45ca9fe4b23e12a038e40e9e

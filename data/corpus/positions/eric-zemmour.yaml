@@ -1866,3 +1866,129 @@
   reviewer: adrien
   reviewedAt: 2026-11-14
   reviewedHash: sha256:a35d10b239b37d160259deb106c98a7d0407a96fa19e21702559f18584eb9836
+
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
+- question: education-examen-entree-college
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-cnews-niveau-scolaire-2026-10
+    - eric-zemmour-nos-priorites-pour-les-francais-ericzemmour-fr-campagne-2027
+    - eric-zemmour-programme-2022-pdf
+  quote: "étages. C'est-à-dire vous rentrez en 6e, vous devez passer un examen et si vous n'avez pas le niveau, vous savez aujourd'hui la moitié des élèves français ne lit pas correctement."
+  quoteSource: eric-zemmour-cnews-niveau-scolaire-2026-10
+  justification: "Sur CNews (à 00:11:48 ; transcription automatique, à confirmer à l'écoute), il veut un examen d'entrée en sixième et ajoute que les élèves sans le niveau « n'ont rien à voir en 6e »."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:5c28d3185c7564c3311fbea76fc35e5feedd9afafd5b05ec6ff6e438bc0554f8
+
+- question: education-groupes-de-niveau-college
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+    - eric-zemmour-profession-de-foi-2022
+  quote: "Mettre un terme au collège unique en instituant des classes de niveaux, tout en conservant des passerelles entre les diverses filières et les divers niveaux, afin de constituer des groupes homogènes"
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: "Le programme 2022 institue des classes de niveau au collège, mesure plus large que des groupes en français et en mathématiques, d'où plutôt d'accord."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:2226b0fe4fbb5484c9d2953c91d4392dd9ac7643b33f24fa3944add10135dc6f
+
+- question: education-orientation-professionnelle-avant-fin-college
+  value: 2
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-franceinfo-services-publics-education
+    - eric-zemmour-cnews-niveau-scolaire-2026-10
+    - eric-zemmour-profession-de-foi-2022
+  quote: "Je mets une orientation à partir de la 4e vers"
+  quoteSource: eric-zemmour-franceinfo-services-publics-education
+  justification: "Sur franceinfo (à 03:42:16 ; transcription automatique, à confirmer à l'écoute), il propose une orientation vers l'enseignement professionnel dès la quatrième ; sa profession de foi 2022 prévoyait une voie professionnelle dès 14 ans."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:92270de028435dc971217aa7a435f5ecf0a8e6acbfc3f8c28fcef454dd7a8842
+
+- question: education-universite-sans-selection
+  value: -2
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-cnews-niveau-scolaire-2026-10
+    - eric-zemmour-programme-2022-pdf
+  quote: "devraient euh d'ailleurs qui subiront un numérus claus. Par exemple, moi je je suis favorable à un numérus claus non pas pour la médecine mais pour la sociologie, vous voyez ? Parce que"
+  quoteSource: eric-zemmour-cnews-niveau-scolaire-2026-10
+  justification: "Sur CNews (à 00:12:31 ; transcription automatique, à confirmer à l'écoute), il défend des numerus clausus dans des filières universitaires ; son programme 2022 prévoyait des numerus clausus ciblés."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:85bc0427dda803164f5763689769750d7d840730914b420c4c64b633f029eb0a
+
+- question: education-revalorisation-identique-pour-tous
+  value: -1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+  quote: "Revaloriser les salaires des enseignants en accélérant la progression des carrières et en attribuant des Primes d'Excellence Professorale fondées sur la qualité de la transmission du savoir"
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: "Le programme 2022 revalorise les enseignants par des carrières accélérées et des primes d'excellence liées à l'inspection plutôt que par une hausse générale ; il ne rejette pas explicitement cette dernière, d'où plutôt pas d'accord."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:05d6e92baeec48fd58c6a8470349fade638fc819b63e70835d845eb4ebb5e232
+
+- question: education-uniforme-obligatoire
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+  quote: "Lutter contre le harcèlement scolaire, le communautarisme et les inégalités sociales en rendant le port de la blouse obligatoire à l'école primaire"
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: "Le programme 2022 rend la blouse obligatoire à l'école primaire, sans viser le collège : mesure partielle, d'où plutôt d'accord."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:606d910cbdbc24c005e991cd4b0bab83d503d075ae1cfe1f295fdbf8ad4ef437
+
+- question: education-frais-inscription-etudiants-etrangers
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - eric-zemmour-programme-2022-pdf
+  quote: "Augmenter sensiblement les droits d'inscription pour les étudiants étrangers car l'enseignement supérieur public est financé par les impôts des Français"
+  quoteSource: eric-zemmour-programme-2022-pdf
+  justification: "Le programme 2022 augmente les droits d'inscription des étudiants étrangers, sans distinguer l'Union européenne, d'où plutôt d'accord."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:4586073cd9c18741f6b953755714006063dd3a3378d73f27b37b6c5991b3b786

@@ -482,3 +482,25 @@
   candidates:
     - jean-luc-melenchon
   contentHash: sha256:dad7944d10fb87f5de538384d37bd45a29f1316738ca4a93668680409c206f65
+- id: jean-luc-melenchon-plan-esr
+  url: https://melenchon2027.fr/programme/plans-thematiques/esr/
+  title: Plan thématique Enseignement supérieur et recherche (Mélenchon 2027)
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-15
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:1098c0d3c2480cfd89773780871ab1f86d102aa66b715b738b89058e6f3c039c
+- id: jean-luc-melenchon-franceinfo-services-publics-education
+  url: https://www.youtube.com/watch?v=lxUYRSdmSQw&t=26154s
+  title: Entretien franceinfo « Nos services publics », passage de Jean-Luc Mélenchon (07:15:54–07:33:53)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-12
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - jean-luc-melenchon
+  contentHash: sha256:b3c1b03e9cf7127bf04b7251264bc11716f672df2f2b35f4973323a452a01fcf

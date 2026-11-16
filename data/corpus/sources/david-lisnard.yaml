@@ -251,3 +251,25 @@
   candidates:
     - david-lisnard
   contentHash: sha256:714afc09650755a4bc0bcba50156ac9e8c36de8cc6d402b120bd2416af05a7de
+- id: david-lisnard-programme-education
+  url: https://www.unenouvelleenergie.fr/notre-programme/education/
+  title: "Programme 2027 : Éducation (Nouvelle Énergie)"
+  kind: programme
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-15
+  candidates:
+    - david-lisnard
+  contentHash: sha256:99090dc379ddb464851dea9f6f387dfe61fcff13d6b4fcd03adb950aabfef271
+- id: david-lisnard-entretien-jdnews-2026-10
+  url: https://www.unenouvelleenergie.fr/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan/
+  title: « Redresser la France ne se résume pas à un slogan », entretien au JDNews (Nouvelle Énergie)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-15
+    precision: day
+  accessedAt: 2026-11-15
+  candidates:
+    - david-lisnard
+  contentHash: sha256:dbb3a1060f1d1043dba2dd5b0aa31d245c96ef912216a7351174846642c336f0

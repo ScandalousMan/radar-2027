@@ -45,6 +45,6 @@ thresholds:
   mainBudgetBytes: 307200
   detailBudgetBytes: 153600
   bankMin: 250
-  bankMax: 300
+  bankMax: 320
 
 reportIssueUrl: https://github.com/ScandalousMan/radar-2027/issues/new?title={title}&labels=donnees

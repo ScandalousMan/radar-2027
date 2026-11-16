@@ -3033,3 +3033,130 @@
   reviewedAt: 2026-11-14
   reviewedHash: sha256:8eae1a0d8bfac58f78130c231a9d41fcbc3e922c84d10c37aedfa0c958ec9c73
 
+# Thème Éducation (spec 006) : positions extraites le 2026-11-15 par claude, relues par adrien le même jour.
+- question: education-salaires-enseignants-15-pourcent
+  value: 2
+  evidence: programme
+  sources:
+    - marine-tondelier-dossier-presse-rentree-2026
+    - marine-tondelier-programme-ecologistes-2026
+    - marine-tondelier-21-priorites-2026-04
+  quote: "Réhabiliter les métiers de l'Education nationale en augmentant les salaires des enseignant·es de 15% en 5 ans en plus de l'inflation."
+  quoteSource: marine-tondelier-dossier-presse-rentree-2026
+  justification: "Le dossier de rentrée prévoit une hausse de 15 % des salaires des enseignants en cinq ans, en plus de l'inflation."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:b7ebd675e41e9b5e268ebe24d9440dcfdd8a106922162d827084747329beeddc
+
+- question: education-groupes-de-niveau-college
+  value: -2
+  evidence: programme
+  sources:
+    - marine-tondelier-dossier-presse-rentree-2026
+    - marine-tondelier-programme-ecologistes-2026
+  quote: "Abroger le \"choc des savoirs\" (groupes de niveaux en sixième et cinquième)."
+  quoteSource: marine-tondelier-dossier-presse-rentree-2026
+  justification: "Le dossier de rentrée veut abroger les groupes de niveaux de sixième et de cinquième, qu'il qualifie de tri social."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:65284f202d7f8d7912cc3638a2a9daecc2ad62efa6c0a824c6e1eef62d09773a
+
+- question: education-prive-financement-mixite
+  value: 1
+  evidence: programme
+  sources:
+    - marine-tondelier-dossier-presse-rentree-2026
+    - marine-tondelier-programme-ecologistes-2026
+  quote: "Réviser la loi Debré de 1959 pour diminuer la part de financement public à 50%, et le conditionner à des obligations de mixité sociale et d'inclusion scolaire."
+  quoteSource: marine-tondelier-dossier-presse-rentree-2026
+  justification: "Le dossier de rentrée conditionne le financement public du privé à des obligations de mixité sociale, mais le réduit aussi pour tous les établissements, ce qui va au-delà de l'énoncé."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:002bd911639d70d1d54d277c91a8957e053499818e2abac1990762d4c204030d
+
+- question: education-financement-suit-choix-familles
+  value: -2
+  evidence: programme
+  sources:
+    - marine-tondelier-dossier-presse-rentree-2026
+    - marine-tondelier-programme-ecologistes-2026
+  quote: "Réviser la loi Debré de 1959 pour diminuer la part de financement public à 50%, et le conditionner à des obligations de mixité sociale et d'inclusion scolaire."
+  quoteSource: marine-tondelier-dossier-presse-rentree-2026
+  justification: "Le dossier de rentrée veut réduire de moitié la part de financement public du privé sous contrat, ce qui rompt avec un financement qui suivrait l'élève quel que soit l'établissement choisi."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:ebfecc6b1825c38cde9cfba7c4d861d21441f9bc8f1b340c21c71bf4a15c9b05
+
+- question: education-postes-baisse-demographique
+  value: 2
+  evidence: programme
+  sources:
+    - marine-tondelier-programme-ecologistes-2026
+    - marine-tondelier-les-4v-2026-10
+  quote: "La diminution des effectifs démographiques est l'occasion de diminuer radicalement le nombre d'élèves par classe. Mais cela ne suffira pas. Il faut également augmenter les enseignant·es et le personnel éducatif"
+  quoteSource: marine-tondelier-programme-ecologistes-2026
+  justification: "Le programme utilise la baisse démographique pour réduire les effectifs par classe et veut en plus augmenter le nombre d'enseignants."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:8a7b3cd864b3cfeb71e7086e81ca6b6d7b45f1539d4811d6fc4bd8fae2f0a0dc
+
+- question: education-universite-sans-selection
+  value: 2
+  evidence: programme
+  sources:
+    - marine-tondelier-bfmtv-2026-10-14
+    - marine-tondelier-programme-ecologistes-2026
+    - marine-tondelier-les-4v-2026-10
+  quote: "Mais c'est pour ça qu'en fait moi je propose de revenir à comme c'était à l'époque voilà et je pense que c'était beaucoup plus juste"
+  quoteSource: marine-tondelier-bfmtv-2026-10-14
+  justification: "Sur BFMTV (à 00:11:40, transcription automatique, à confirmer à l'écoute), elle propose de revenir à l'époque où l'on pouvait s'inscrire à la fac sans sélection ; le programme remplace Parcoursup par une plateforme sans lettre de motivation."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:a4dd8f86e9073ad1eb14c1e6270af97ae28efaf94218e275cfc2df4aa67e0936
+
+- question: education-uniforme-obligatoire
+  value: -1
+  evidence: programme
+  sources:
+    - marine-tondelier-dossier-presse-rentree-2026
+  quote: "que le RN propose d'établir l'autorité de l'institution scolaire par l'instauration d'un uniforme au primaire et au collège, nous faisons un autre choix"
+  quoteSource: marine-tondelier-dossier-presse-rentree-2026
+  justification: "Le dossier de rentrée écarte l'uniforme au primaire et au collège proposé par d'autres partis et lui oppose un autre modèle d'école, sans formuler d'interdiction."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-15
+  reviewer: adrien
+  reviewedAt: 2026-11-15
+  reviewedHash: sha256:f3876ed2a11bbcada315775e1a9c69e80829cb94cb8b8a8a9f976bfaa8161619
