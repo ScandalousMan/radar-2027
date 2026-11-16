@@ -45,7 +45,7 @@ export function snapshotBoard(board: Scoreboard): BoardSnapshot {
 /** `fetch` lisant `public/` sur le disque : `/data/…` ⇒ `<root>/public/data/…`, 404 sinon. */
 export function diskFetcher(root: string): typeof fetch {
   const publicDir = path.join(root, 'public');
-  return (async (input: RequestInfo | URL) => {
+  return (async (input: Parameters<typeof fetch>[0]) => {
     const url = String(input);
     if (!/^\/data\/[a-z0-9/.-]+\.json$/.test(url) || url.includes('..')) return new Response('', { status: 404 });
     try {
