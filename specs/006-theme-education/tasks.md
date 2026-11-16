@@ -158,9 +158,9 @@
 ## Phase 8: Polish & Cross-Cutting Concerns
 
 - [X] T049 Lancer `pnpm verify` (lint, types, validation, tests, Storybook, build, e2e) sur `006-publication-v2` et corriger jusqu'au vert
-- [ ] T050 Committer la publication (« data(publication): version 2 du jeu de données (18 thèmes) »), pousser `006-publication-v2`, ouvrir la PR de publication vers `main` (description : effectifs v2, SC-001 à SC-007 avec leur preuve, captures de T045 et T047), lier la PR avec les outils ccd_pr et suivre la CI
-- [ ] T051 [P] Consigner en fin de ce fichier `specs/006-theme-education/tasks.md` une section « Écarts » : décisions prises en cours de route (sources écartées notables, énoncés écartés, SC-004 atteint ou non et pourquoi, corrections de transcriptions), et cocher les tâches faites
-- [ ] T052 [P] Mettre à jour la mémoire du projet (fichier `project-radar-2027-spec-006-education.md` du répertoire mémoire) : état d'avancement, numéros de PR, restes éventuels
+- [X] T050 Committer la publication (« data(publication): version 2 du jeu de données (18 thèmes) »), pousser `006-publication-v2`, ouvrir la PR de publication vers `main` (description : effectifs v2, SC-001 à SC-007 avec leur preuve, captures de T045 et T047), lier la PR avec les outils ccd_pr et suivre la CI
+- [X] T051 [P] Consigner en fin de ce fichier `specs/006-theme-education/tasks.md` une section « Écarts » : décisions prises en cours de route (sources écartées notables, énoncés écartés, SC-004 atteint ou non et pourquoi, corrections de transcriptions), et cocher les tâches faites
+- [X] T052 [P] Mettre à jour la mémoire du projet (fichier `project-radar-2027-spec-006-education.md` du répertoire mémoire) : état d'avancement, numéros de PR, restes éventuels
 
 ---
 
