@@ -79,7 +79,7 @@
 - [X] T017 [US3] Proposer l'enjeu des 310 questions actives (et des retirées) : lire chaque fichier `data/corpus/questions/*.yaml`, regrouper selon 007 FR-002 et la convention de data-model § 1, et écrire la table id → enjeu dans un script à usage unique, `scripts/data/oneoff/2026-11-21-subjects.ts`. Ce script insère `subject:` après le bloc `themes:` par transformation textuelle, qui préserve commentaires et mise en forme ; il est vérifié par un diff limité aux lignes ajoutées.
 - [X] T018 [US3] Rédiger `data/relectures/2026-11-21-enjeux.md` (data-model § 6) : enjeux partagés avec énoncés côte à côte, cas limites laissés séparés avec leur motif, table de couverture par thème (questions actives, enjeux distincts, `maxPriorityQuota`).
 - [X] T019 [US3] Lancer `pnpm data:validate` : aucune erreur ; consigner les avertissements SUBJECT dans le dossier ; commiter l'étiquetage « à relire ».
-- [ ] T020 [US3] Relecture d'adrien : appliquer ses corrections au corpus et au dossier, puis inscrire « validé par adrien le <date> » dans le dossier. **Tâche bloquante du propriétaire** : la publication (T025) ne démarre qu'après.
+- [X] T020 [US3] Relecture d'adrien : appliquer ses corrections au corpus et au dossier, puis inscrire « validé par adrien le <date> » dans le dossier. **Tâche bloquante du propriétaire** : la publication (T025) ne démarre qu'après.
 
 **Checkpoint**: corpus étiqueté et validé.
 
