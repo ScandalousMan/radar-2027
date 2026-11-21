@@ -10,9 +10,9 @@
 
 ## Phase 1: Setup — figer les liens v2 (bloquant, AVANT tout changement du cœur)
 
-- [ ] T001 Généraliser `scripts/results/replay-v1-fixture.ts` en `scripts/results/replay-fixture.ts` avec `--version <n>`, une garde « version courante = n », la sortie `src/lib/results/replay-v<n>.fixture.json` et une graine propre à chaque version. Le contenu de `replay-v1.fixture.json` ne doit pas changer (régénération vérifiée identique, ou fichier laissé tel quel).
-- [ ] T002 Produire `src/lib/results/replay-v2.fixture.json` (20 cas : deux modes, 3 à 5 thèmes, palettes avec « sans avis ») sur la v2 courante, avec le code de `main`.
-- [ ] T003 Paramétrer le test de rejeu : `src/lib/results/replay-v1.test.ts` devient `src/lib/results/replay.test.ts`, qui couvre les fixtures v1 (17 thèmes) et v2 (18 thèmes). Le lancer vert, puis commiter T001 à T003 ensemble.
+- [X] T001 Généraliser `scripts/results/replay-v1-fixture.ts` en `scripts/results/replay-fixture.ts` avec `--version <n>`, une garde « version courante = n », la sortie `src/lib/results/replay-v<n>.fixture.json` et une graine propre à chaque version. Le contenu de `replay-v1.fixture.json` ne doit pas changer (régénération vérifiée identique, ou fichier laissé tel quel).
+- [X] T002 Produire `src/lib/results/replay-v2.fixture.json` (20 cas : deux modes, 3 à 5 thèmes, palettes avec « sans avis ») sur la v2 courante, avec le code de `main`.
+- [X] T003 Paramétrer le test de rejeu : `src/lib/results/replay-v1.test.ts` devient `src/lib/results/replay.test.ts`, qui couvre les fixtures v1 (17 thèmes) et v2 (18 thèmes). Le lancer vert, puis commiter T001 à T003 ensemble.
 
 **Checkpoint**: les liens v1 et v2 sont figés avec le code actuel.
 
