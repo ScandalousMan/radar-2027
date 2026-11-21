@@ -24,6 +24,21 @@ describe('buildMain (US3 scénario 1, FR-036 à FR-038)', () => {
     expect(main.themes.map((t) => t.order)).toEqual([0, 1, 2]);
   });
 
+  it('007 : forme règles 2, enjeu sur chaque question', () => {
+    const ctx = minimalContext();
+    const main = buildMain(ctx.corpus, opts(ctx));
+    expect(main.selectionRules).toBe(2);
+    expect(main.questions.every((q) => typeof q.subject === 'string' && q.subject.length > 0)).toBe(true);
+    expect(main.questions.find((q) => q.id === 'economie-q01')!.subject).toBe('enjeu-economie-q01');
+    expect(Object.keys(main).slice(0, 3)).toEqual(['version', 'publishedAt', 'selectionRules']);
+  });
+
+  it('007 : refuse une question active sans enjeu', () => {
+    const ctx = minimalContext();
+    delete ctx.corpus.questions.get('economie')![0]!.subject;
+    expect(() => buildMain(ctx.corpus, opts(ctx))).toThrow(/enjeu manquant/);
+  });
+
   it('aucun contributeur, citation ni justification dans main', () => {
     const ctx = minimalContext();
     const text = serialize(buildMain(ctx.corpus, opts(ctx)));

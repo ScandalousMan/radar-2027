@@ -5,7 +5,7 @@ import { expect, test } from '@playwright/test';
 type Messages = {
   methodology: { title: string; rules: { title: string }; neutrality: { title: string }; inclusion: { title: string }; noVersion: string; report: { cta: string } };
 };
-type Main = { themes: { label: string }[]; candidates: { id: string; name: string }[] };
+type Main = { selectionRules?: number; themes: { label: string }[]; candidates: { id: string; name: string }[] };
 
 const fr = JSON.parse(readFileSync(join(__dirname, '../src/i18n/messages/fr.json'), 'utf8')) as Messages;
 const registry = JSON.parse(readFileSync(join(__dirname, '../public/data/versions.json'), 'utf8')) as { current: number };
@@ -42,6 +42,15 @@ test.describe('page Méthodologie (FR-042 à FR-045, SC-007)', () => {
     await expect(section).toContainText('très aligné');
     await expect(section).toContainText(/Économie 62\s%.*score global 62\s%.*couverture 75\s%/);
     await expect(section).toContainText(/Score pondéré 70\s%, score sur les sujets clés 50\s%, score global 50\s%/);
+  });
+
+  test('choix des questions : une question par enjeu, plancher par thème (007)', async ({ page }) => {
+    test.skip(main?.selectionRules !== 2, 'la version courante suit les règles de sélection 1');
+    await page.goto('/methodologie');
+    const section = page.locator('#choix-questions');
+    await expect(section.getByRole('heading', { level: 2, name: 'Choix des questions' })).toBeVisible();
+    await expect(section).toContainText('jamais deux questions du même enjeu');
+    await expect(section).toContainText('au moins 1 question en mode court et 3 questions en mode complet');
   });
 
   test('accessible depuis le pied de page', async ({ page }) => {

@@ -336,6 +336,13 @@ identiques à ceux obtenus avec la première version seule.
 - **FR-024**: Le système DOIT attribuer à chaque question retenue un thème d'ancrage : le thème
   au titre duquel elle a été retenue au premier passage, ou, pour une question du second
   passage, le premier de ses thèmes dans l'ordre de rotation (FR-025).
+
+  > **Note du 2026-11-21 (spec 007)** : ces trois exigences restent la référence des versions
+  > 1 et 2, qui ne déclarent pas `selectionRules`. Les versions qui déclarent
+  > `selectionRules: 2` (à partir de la version 3) suivent les règles de
+  > [`specs/007-selection-equilibree`](../007-selection-equilibree/spec.md) (FR-008 à FR-012) :
+  > une seule question par enjeu, quotas appliqués au thème d'ancrage, second passage par tours.
+  > Le texte de FR-022 à FR-024 n'est pas modifié.
 - **FR-025**: Le système DOIT ordonner la présentation en tourniquet sur les thèmes d'ancrage :
   ordre de rotation = thèmes prioritaires dans l'ordre canonique puis autres thèmes dans l'ordre
   canonique ; à chaque tour, chaque thème ayant encore des questions livre sa question suivante

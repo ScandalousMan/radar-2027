@@ -187,6 +187,12 @@
       "draft": "Une position non relue, contestée ou sans source n’est jamais publiée : elle compte comme inconnue.",
       "versioned": "Les données sont publiées par versions numérotées qui ne changent plus une fois publiées ; un lien de résultat se rejoue toujours sur sa propre version."
     },
+    "selection": {
+      "title": "Choix des questions",
+      "subject": "Chaque question porte sur un enjeu précis, par exemple l’âge légal de départ à la retraite. Un questionnaire ne contient jamais deux questions du même enjeu, même quand elles relèvent de thèmes différents.",
+      "coverage": "Chaque thème reçoit au moins {short, plural, one {# question} other {# questions}} en mode court et {full, plural, one {# question} other {# questions}} en mode complet, que vous l’ayez choisi comme sujet clé ou non, tant qu’il compte assez d’enjeux différents.",
+      "priorities": "Les sujets clés que vous choisissez reçoivent davantage de questions, sans retirer aux autres thèmes leur part minimale. Dans un thème, les questions retenues sont celles qui départagent le mieux les candidats."
+    },
     "evidenceLevels": {
       "title": "Niveaux de preuve"
     },
