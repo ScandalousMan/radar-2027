@@ -6,6 +6,7 @@
   text: Les investissements dans le réseau ferroviaire doivent être doublés sur le quinquennat.
   themes:
     - transport
+  subject: transport-doubler-investissement-ferroviaire
   polarity: +
   status: active
   author: claude
@@ -22,6 +23,7 @@
   text: Le transport ferroviaire de voyageurs doit être davantage ouvert à la concurrence.
   themes:
     - transport
+  subject: transport-concurrence-ferroviaire
   polarity: "-"
   status: active
   author: claude
@@ -38,6 +40,7 @@
   text: Les transports en commun urbains doivent être gratuits pour les usagers.
   themes:
     - transport
+  subject: transport-gratuite-transports-urbains
   polarity: +
   status: active
   author: claude
@@ -54,6 +57,7 @@
   text: La limitation de vitesse sur les routes secondaires doit être relevée à 90 km/h partout.
   themes:
     - transport
+  subject: transport-routes-90-kmh
   polarity: "-"
   status: active
   author: claude
@@ -70,6 +74,7 @@
   text: Les poids lourds doivent payer une taxe kilométrique sur le réseau routier.
   themes:
     - transport
+  subject: transport-taxe-kilometrique-poids-lourds
   polarity: +
   status: active
   author: claude
@@ -89,6 +94,7 @@
   text: "L'exploitation des autoroutes doit continuer à être confiée à des sociétés privées dans le cadre de concessions."
   themes:
     - transport
+  subject: transport-autoroutes-concedees-v2
   polarity: "-"
   status: active
   author: claude
@@ -105,6 +111,7 @@
   text: L'État doit financer l'ouverture de nouvelles lignes de trains de nuit.
   themes:
     - transport
+  subject: transport-trains-de-nuit
   polarity: +
   status: active
   author: claude
@@ -123,6 +130,7 @@
   text: "Les petites lignes ferroviaires doivent être maintenues même lorsqu'elles sont peu fréquentées."
   themes:
     - transport
+  subject: transport-petites-lignes-maintenues
   polarity: +
   status: active
   author: claude
@@ -139,6 +147,7 @@
   text: L'État doit subventionner le fret ferroviaire pour qu'il puisse concurrencer le transport routier.
   themes:
     - transport
+  subject: transport-subventionner-fret-ferroviaire
   polarity: +
   status: active
   author: claude
@@ -155,6 +164,7 @@
   text: L'État doit consacrer au moins un milliard d'euros par an aux aménagements cyclables.
   themes:
     - transport
+  subject: transport-milliard-amenagements-cyclables
   polarity: +
   status: active
   author: claude
@@ -173,6 +183,7 @@
   text: "Un abonnement national unique donnant accès aux trains régionaux et aux transports urbains doit être créé."
   themes:
     - transport
+  subject: transport-abonnement-national-unique
   polarity: +
   status: active
   author: claude
@@ -193,6 +204,7 @@
   themes:
     - transport
     - economie
+  subject: transport-sncf-entreprise-publique-v2
   polarity: +
   status: active
   author: claude
@@ -210,6 +222,7 @@
   themes:
     - transport
     - fiscalite
+  subject: transport-baisser-taxe-billets-avion
   polarity: "-"
   status: active
   author: claude
@@ -228,6 +241,7 @@
   text: "L'accès des voitures aux centres-villes doit rester libre."
   themes:
     - transport
+  subject: transport-voitures-centres-villes-libres
   polarity: "-"
   status: active
   author: claude
@@ -244,6 +258,7 @@
   text: La construction de nouvelles lignes à grande vitesse doit être abandonnée.
   themes:
     - transport
+  subject: transport-abandonner-nouvelles-lgv
   polarity: "-"
   status: active
   author: claude
@@ -260,6 +275,7 @@
   text: Les subventions publiques aux aéroports régionaux doivent être supprimées.
   themes:
     - transport
+  subject: transport-supprimer-subventions-aeroports
   polarity: "-"
   status: active
   author: claude
@@ -279,6 +295,7 @@
   text: "Le contrôle technique périodique obligatoire des deux-roues motorisés doit être supprimé."
   themes:
     - transport
+  subject: transport-supprimer-controle-technique-motos-v2
   polarity: "-"
   status: active
   author: claude

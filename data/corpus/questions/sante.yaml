@@ -8,6 +8,7 @@
   text: "L'installation des médecins doit être régulée dans les zones déjà bien dotées."
   themes:
     - sante
+  subject: sante-regulation-installation-medecins
   polarity: +
   status: active
   author: claude
@@ -24,6 +25,7 @@
   text: Les médecins doivent rester libres de pratiquer des dépassements d'honoraires.
   themes:
     - sante
+  subject: sante-depassements-honoraires-libres
   polarity: "-"
   status: active
   author: claude
@@ -40,6 +42,7 @@
   text: Le budget de l'hôpital public doit augmenter plus vite que l'inflation chaque année.
   themes:
     - sante
+  subject: sante-budget-hopital-inflation
   polarity: +
   status: active
   author: claude
@@ -56,6 +59,7 @@
   text: Les franchises médicales payées par les patients doivent être augmentées.
   themes:
     - sante
+  subject: sante-hausse-franchises-medicales
   polarity: "-"
   status: active
   author: claude
@@ -73,6 +77,7 @@
   themes:
     - sante
     - economie
+  subject: sante-production-publique-medicaments
   polarity: +
   status: active
   author: claude
@@ -92,6 +97,7 @@
   text: "Les complémentaires santé doivent prendre en charge une part plus importante des dépenses actuellement remboursées par l'Assurance maladie."
   themes:
     - sante
+  subject: sante-mutuelles-part-accrue-v2
   polarity: "-"
   status: active
   author: claude
@@ -110,6 +116,7 @@
   text: "Les jeunes médecins doivent exercer au moins deux ans dans une zone sous-dotée à la fin de leurs études."
   themes:
     - sante
+  subject: sante-jeunes-medecins-zones-sous-dotees
   polarity: +
   status: active
   author: claude
@@ -127,6 +134,7 @@
   themes:
     - sante
     - travail
+  subject: sante-ratios-soignants-patients
   polarity: +
   status: active
   author: claude
@@ -145,6 +153,7 @@
   text: "Le nombre d'étudiants admis en deuxième année de médecine doit être doublé."
   themes:
     - sante
+  subject: sante-doubler-etudiants-medecine
   polarity: +
   status: active
   author: claude
@@ -163,6 +172,7 @@
   text: "Les consultations chez un psychologue doivent être remboursées sans limite de nombre."
   themes:
     - sante
+  subject: sante-psychologues-rembourses
   polarity: +
   status: active
   author: claude
@@ -180,6 +190,7 @@
   themes:
     - sante
     - fiscalite
+  subject: sante-taxer-boissons-sucrees
   polarity: +
   status: active
   author: claude
@@ -196,6 +207,7 @@
   text: Chaque département doit disposer de centres de santé publics employant des médecins salariés.
   themes:
     - sante
+  subject: sante-centres-sante-publics
   polarity: +
   status: active
   author: claude
@@ -212,6 +224,7 @@
   text: La croissance des dépenses de l'Assurance maladie doit être limitée à l'inflation.
   themes:
     - sante
+  subject: sante-depenses-assurance-maladie-inflation
   polarity: "-"
   status: active
   author: claude
@@ -229,6 +242,7 @@
   themes:
     - sante
     - economie
+  subject: sante-medicaments-grandes-surfaces
   polarity: "-"
   status: active
   author: claude
@@ -246,6 +260,7 @@
   themes:
     - sante
     - travail
+  subject: arret-maladie-indemnisation
   polarity: "-"
   status: active
   author: claude
@@ -265,6 +280,7 @@
   text: "Les assurés doivent pouvoir quitter l'Assurance maladie obligatoire au profit d'une assurance santé privée."
   themes:
     - sante
+  subject: sante-assurance-sante-privee-option-v2
   polarity: "-"
   status: active
   author: claude
@@ -281,6 +297,7 @@
   text: Les médicaments dont le service médical rendu est jugé faible doivent être déremboursés.
   themes:
     - sante
+  subject: sante-derembourser-faible-service-rendu
   polarity: "-"
   status: active
   author: claude

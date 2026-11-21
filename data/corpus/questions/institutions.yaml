@@ -6,6 +6,7 @@
   text: Le recours à l'article 49.3 de la Constitution doit être supprimé.
   themes:
     - institutions
+  subject: institutions-supprimer-49-3
   polarity: +
   status: active
   author: claude
@@ -22,6 +23,7 @@
   text: Le préfet doit disposer de pouvoirs renforcés sur les collectivités locales.
   themes:
     - institutions
+  subject: institutions-pouvoirs-prefet-renforces
   polarity: "-"
   status: active
   author: claude
@@ -38,6 +40,7 @@
   text: Les régions doivent obtenir un pouvoir d'adaptation des lois à leur territoire.
   themes:
     - institutions
+  subject: institutions-adaptation-lois-regions
   polarity: +
   status: active
   author: claude
@@ -56,6 +59,7 @@
   text: "Le mandat présidentiel doit être porté à sept ans."
   themes:
     - institutions
+  subject: institutions-mandat-presidentiel-sept-ans
   polarity: "-"
   status: active
   author: claude
@@ -73,6 +77,7 @@
   themes:
     - institutions
     - defense
+  subject: institutions-parlement-interventions-militaires
   polarity: +
   status: active
   author: claude
@@ -91,6 +96,7 @@
   text: "Le nombre de communes doit être réduit par des fusions obligatoires."
   themes:
     - institutions
+  subject: institutions-fusions-communes-obligatoires
   polarity: "-"
   status: active
   author: claude
@@ -108,6 +114,7 @@
   themes:
     - institutions
     - democratie
+  subject: institutions-proportionnelle-legislatives
   polarity: +
   status: active
   author: claude
@@ -125,6 +132,7 @@
   themes:
     - institutions
     - fiscalite
+  subject: institutions-autonomie-fiscale-collectivites
   polarity: +
   status: active
   author: claude
@@ -144,6 +152,7 @@
   text: "La Constitution doit reconnaître un statut d'autonomie pour la Corse."
   themes:
     - institutions
+  subject: institutions-autonomie-corse-constitution-v2
   polarity: +
   status: active
   author: claude
@@ -160,6 +169,7 @@
   text: Les commissions d'enquête parlementaires doivent disposer de pouvoirs d'investigation élargis.
   themes:
     - institutions
+  subject: institutions-pouvoirs-commissions-enquete
   polarity: +
   status: active
   author: claude
@@ -176,6 +186,7 @@
   text: Le Parlement doit fixer seul son ordre du jour, sans priorité accordée au gouvernement.
   themes:
     - institutions
+  subject: institutions-ordre-du-jour-parlement
   polarity: +
   status: active
   author: claude
@@ -192,6 +203,7 @@
   text: Le Premier ministre doit obtenir un vote de confiance de l'Assemblée nationale après sa nomination.
   themes:
     - institutions
+  subject: institutions-investiture-premier-ministre
   polarity: +
   status: active
   author: claude
@@ -210,6 +222,7 @@
   text: "Le nombre de députés et de sénateurs doit être réduit."
   themes:
     - institutions
+  subject: institutions-reduire-nombre-parlementaires
   polarity: "-"
   status: active
   author: claude
@@ -228,6 +241,7 @@
   text: "Le Sénat doit être supprimé."
   themes:
     - institutions
+  subject: institutions-supprimer-senat
   polarity: "-"
   status: active
   author: claude
@@ -247,6 +261,7 @@
   text: "Certaines compétences actuellement exercées par les collectivités territoriales doivent être transférées à l'État."
   themes:
     - institutions
+  subject: institutions-competences-retour-etat-v2
   polarity: "-"
   status: active
   author: claude
@@ -263,6 +278,7 @@
   text: Le gouvernement doit pouvoir légiférer plus largement par ordonnances.
   themes:
     - institutions
+  subject: institutions-ordonnances-elargies
   polarity: "-"
   status: active
   author: claude
@@ -280,6 +296,7 @@
   themes:
     - institutions
     - democratie
+  subject: revision-constitution-procedure
   polarity: "-"
   status: active
   author: claude
@@ -303,6 +320,7 @@
   text: "Les députés et sénateurs doivent rester empêchés de proposer une mesure qui crée ou augmente une charge pour les finances publiques."
   themes:
     - institutions
+  subject: institutions-maintenir-article-40
   polarity: "-"
   status: active
   author: claude

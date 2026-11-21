@@ -7,6 +7,7 @@
   themes:
     - securite
     - numerique
+  subject: securite-reconnaissance-faciale-police
   polarity: +
   status: active
   author: claude
@@ -25,6 +26,7 @@
   text: "Les contrôles d'identité doivent donner lieu à la remise d'un récépissé."
   themes:
     - securite
+  subject: securite-recepisse-controles-identite
   polarity: "-"
   status: active
   author: claude
@@ -41,6 +43,7 @@
   text: Les effectifs de police et de gendarmerie doivent augmenter d'au moins 10 % sur le quinquennat.
   themes:
     - securite
+  subject: securite-hausse-effectifs-police
   polarity: +
   status: active
   author: claude
@@ -57,6 +60,7 @@
   text: L'usage des lanceurs de balles de défense doit être interdit lors des manifestations.
   themes:
     - securite
+  subject: securite-interdire-lbd-manifestations
   polarity: "-"
   status: active
   author: claude
@@ -73,6 +77,7 @@
   text: Les polices municipales doivent recevoir les mêmes pouvoirs d'enquête que la police nationale.
   themes:
     - securite
+  subject: securite-pouvoirs-polices-municipales
   polarity: +
   status: active
   author: claude
@@ -91,6 +96,7 @@
   text: "Une partie du budget des forces de l'ordre doit être réorientée vers la prévention de la délinquance."
   themes:
     - securite
+  subject: securite-budget-vers-prevention
   polarity: "-"
   status: active
   author: claude
@@ -108,6 +114,7 @@
   themes:
     - securite
     - numerique
+  subject: securite-videosurveillance-algorithmique
   polarity: +
   status: active
   author: claude
@@ -125,6 +132,7 @@
   themes:
     - securite
     - justice
+  subject: police-usage-arme
   polarity: +
   status: active
   author: claude
@@ -141,6 +149,7 @@
   text: Les maires doivent pouvoir instaurer un couvre-feu nocturne pour les mineurs.
   themes:
     - securite
+  subject: securite-couvre-feu-mineurs
   polarity: +
   status: active
   author: claude
@@ -157,6 +166,7 @@
   text: Les policiers municipaux doivent être armés dans toutes les communes.
   themes:
     - securite
+  subject: securite-armer-polices-municipales
   polarity: +
   status: active
   author: claude
@@ -173,6 +183,7 @@
   text: Les mesures individuelles de surveillance antiterroriste doivent pouvoir durer plus d'un an.
   themes:
     - securite
+  subject: securite-surveillance-antiterroriste-prolongee
   polarity: +
   status: active
   author: claude
@@ -192,6 +203,7 @@
   themes:
     - securite
     - justice
+  subject: securite-enquetes-policiers-independantes
   polarity: "-"
   status: active
   author: claude
@@ -208,6 +220,7 @@
   text: Les règles d'usage des armes à feu par les policiers lors des refus d'obtempérer doivent être restreintes.
   themes:
     - securite
+  subject: police-usage-arme
   polarity: "-"
   status: active
   author: claude
@@ -227,6 +240,7 @@
   themes:
     - securite
     - numerique
+  subject: securite-renseignement-autorisation-juge
   polarity: "-"
   status: active
   author: claude
@@ -245,6 +259,7 @@
   text: "Le pouvoir du gouvernement de dissoudre des associations par décret doit être limité."
   themes:
     - securite
+  subject: securite-limiter-dissolution-associations
   polarity: "-"
   status: active
   author: claude
@@ -261,6 +276,7 @@
   text: L'usage de drones par la police pour surveiller les manifestations doit être interdit.
   themes:
     - securite
+  subject: securite-interdire-drones-manifestations
   polarity: "-"
   status: active
   author: claude
@@ -280,6 +296,7 @@
   themes:
     - securite
     - democratie
+  subject: securite-manifestations-sans-declaration
   polarity: "-"
   status: active
   author: claude
@@ -301,6 +318,7 @@
   text: "Les contrôles d'identité que la police peut faire sans soupçon ni réquisition du procureur, pour prévenir un trouble à l'ordre public, doivent être supprimés."
   themes:
     - securite
+  subject: securite-supprimer-controles-preventifs
   polarity: "-"
   status: active
   author: claude
@@ -321,6 +339,7 @@
   text: "Il doit être interdit aux forces de l'ordre d'immobiliser une personne au sol, à plat ventre, en exerçant une pression sur son dos ou son thorax."
   themes:
     - securite
+  subject: securite-interdire-plaquage-ventral
   polarity: "-"
   status: active
   author: claude
@@ -341,6 +360,7 @@
   text: "Les brigades anticriminalité (BAC) de la police nationale doivent être supprimées."
   themes:
     - securite
+  subject: securite-supprimer-bac
   polarity: "-"
   status: active
   author: claude

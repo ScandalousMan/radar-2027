@@ -69,16 +69,16 @@
 
 **Independent Test**: `pnpm data:validate` sans erreur SUBJECT ; le dossier de relecture est complet.
 
-- [ ] T015 [P] [US3] Implémenter la règle `scripts/data/lib/rules/SUBJECT.ts` (research R4, data-model § 5) :
+- [X] T015 [P] [US3] Implémenter la règle `scripts/data/lib/rules/SUBJECT.ts` (research R4, data-model § 5) :
   - erreur pour une question active sans enjeu ;
   - avertissement pour un thème dont les enjeux distincts sont inférieurs à `maxPriorityQuota` (importé de `AXIS-DIM.ts`) ;
   - avertissement par enjeu partagé.
 
   L'enregistrer dans `scripts/data/lib/rules/index.ts`, avec ses tests dans `scripts/data/lib/rules/SUBJECT.test.ts` et la fixture `data/fixtures/violations/SUBJECT/` (calquée sur `data/fixtures/violations/AXIS-DIM/`).
-- [ ] T016 [P] [US3] Étiqueter `data/fixtures/minimal/` (enjeu sur chaque question) pour que les tests du pipeline restent verts.
-- [ ] T017 [US3] Proposer l'enjeu des 310 questions actives (et des retirées) : lire chaque fichier `data/corpus/questions/*.yaml`, regrouper selon 007 FR-002 et la convention de data-model § 1, et écrire la table id → enjeu dans un script à usage unique, `scripts/data/oneoff/2026-11-21-subjects.ts`. Ce script insère `subject:` après le bloc `themes:` par transformation textuelle, qui préserve commentaires et mise en forme ; il est vérifié par un diff limité aux lignes ajoutées.
-- [ ] T018 [US3] Rédiger `data/relectures/2026-11-21-enjeux.md` (data-model § 6) : enjeux partagés avec énoncés côte à côte, cas limites laissés séparés avec leur motif, table de couverture par thème (questions actives, enjeux distincts, `maxPriorityQuota`).
-- [ ] T019 [US3] Lancer `pnpm data:validate` : aucune erreur ; consigner les avertissements SUBJECT dans le dossier ; commiter l'étiquetage « à relire ».
+- [X] T016 [P] [US3] Étiqueter `data/fixtures/minimal/` (enjeu sur chaque question) pour que les tests du pipeline restent verts.
+- [X] T017 [US3] Proposer l'enjeu des 310 questions actives (et des retirées) : lire chaque fichier `data/corpus/questions/*.yaml`, regrouper selon 007 FR-002 et la convention de data-model § 1, et écrire la table id → enjeu dans un script à usage unique, `scripts/data/oneoff/2026-11-21-subjects.ts`. Ce script insère `subject:` après le bloc `themes:` par transformation textuelle, qui préserve commentaires et mise en forme ; il est vérifié par un diff limité aux lignes ajoutées.
+- [X] T018 [US3] Rédiger `data/relectures/2026-11-21-enjeux.md` (data-model § 6) : enjeux partagés avec énoncés côte à côte, cas limites laissés séparés avec leur motif, table de couverture par thème (questions actives, enjeux distincts, `maxPriorityQuota`).
+- [X] T019 [US3] Lancer `pnpm data:validate` : aucune erreur ; consigner les avertissements SUBJECT dans le dossier ; commiter l'étiquetage « à relire ».
 - [ ] T020 [US3] Relecture d'adrien : appliquer ses corrections au corpus et au dossier, puis inscrire « validé par adrien le <date> » dans le dossier. **Tâche bloquante du propriétaire** : la publication (T025) ne démarre qu'après.
 
 **Checkpoint**: corpus étiqueté et validé.

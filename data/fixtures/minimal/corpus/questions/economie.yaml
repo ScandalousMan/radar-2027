@@ -2,6 +2,7 @@
   text: Énoncé de test numéro 1 du thème Économie.
   themes:
     - economie
+  subject: enjeu-economie-q01
   polarity: +
   status: active
   author: adrien
@@ -17,6 +18,7 @@
   text: Énoncé de test numéro 2 du thème Économie.
   themes:
     - economie
+  subject: enjeu-economie-q02
   polarity: "-"
   status: active
   author: adrien
@@ -32,6 +34,7 @@
   text: Énoncé de test numéro 3 du thème Économie.
   themes:
     - economie
+  subject: enjeu-economie-q03
   polarity: +
   status: active
   author: adrien
@@ -47,6 +50,7 @@
   text: Énoncé de test numéro 4 du thème Économie.
   themes:
     - economie
+  subject: enjeu-economie-q04
   polarity: "-"
   status: active
   author: adrien
@@ -62,6 +66,7 @@
   text: Énoncé de test numéro 5 du thème Économie.
   themes:
     - economie
+  subject: enjeu-economie-q05
   polarity: +
   status: active
   author: adrien
@@ -77,6 +82,7 @@
   text: Énoncé de test numéro 6 du thème Économie.
   themes:
     - economie
+  subject: enjeu-economie-q06
   polarity: "-"
   status: active
   author: adrien
@@ -92,6 +98,7 @@
   text: Énoncé de test numéro 7 du thème Économie.
   themes:
     - economie
+  subject: enjeu-economie-q07
   polarity: +
   status: active
   author: adrien
@@ -107,6 +114,7 @@
   text: Énoncé de test numéro 8 du thème Économie.
   themes:
     - economie
+  subject: enjeu-economie-q08
   polarity: "-"
   status: active
   author: adrien
@@ -122,6 +130,7 @@
   text: Énoncé de test numéro 9 du thème Économie.
   themes:
     - economie
+  subject: enjeu-economie-q09
   polarity: +
   status: active
   author: adrien
@@ -137,6 +146,7 @@
   text: Énoncé de test numéro 10 du thème Économie.
   themes:
     - economie
+  subject: enjeu-economie-q10
   polarity: "-"
   status: active
   author: adrien

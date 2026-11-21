@@ -6,6 +6,7 @@
   text: Les demandeurs d'asile doivent être autorisés à travailler dès le dépôt de leur demande.
   themes:
     - immigration
+  subject: immigration-asile-droit-travail
   polarity: +
   status: active
   author: claude
@@ -22,6 +23,7 @@
   text: Le regroupement familial doit être soumis à des conditions de ressources plus strictes.
   themes:
     - immigration
+  subject: immigration-regroupement-familial-ressources
   polarity: "-"
   status: active
   author: claude
@@ -41,6 +43,7 @@
   themes:
     - immigration
     - travail
+  subject: regularisation-sans-papiers
   polarity: +
   status: active
   author: claude
@@ -57,6 +60,7 @@
   text: Le droit du sol doit être supprimé pour l'acquisition de la nationalité française.
   themes:
     - immigration
+  subject: immigration-supprimer-droit-du-sol
   polarity: "-"
   status: active
   author: claude
@@ -77,6 +81,7 @@
   themes:
     - immigration
     - democratie
+  subject: immigration-vote-local-etrangers-v2
   polarity: +
   status: active
   author: claude
@@ -94,6 +99,7 @@
   themes:
     - immigration
     - sante
+  subject: immigration-ame-soins-urgents
   polarity: "-"
   status: active
   author: claude
@@ -112,6 +118,7 @@
   text: "Les étrangers en situation régulière doivent obtenir plus facilement un titre de séjour de longue durée."
   themes:
     - immigration
+  subject: immigration-titre-sejour-longue-duree
   polarity: +
   status: active
   author: claude
@@ -130,6 +137,7 @@
   text: "La durée de résidence exigée pour demander la naturalisation doit être réduite."
   themes:
     - immigration
+  subject: immigration-reduire-duree-naturalisation
   polarity: +
   status: active
   author: claude
@@ -147,6 +155,7 @@
   themes:
     - immigration
     - international
+  subject: immigration-voies-legales-travail-ue
   polarity: +
   status: active
   author: claude
@@ -163,6 +172,7 @@
   text: Les étudiants étrangers hors Union européenne doivent payer les mêmes frais d'inscription que les étudiants français.
   themes:
     - immigration
+  subject: frais-inscription-etudiants-etrangers
   polarity: +
   status: active
   author: claude
@@ -181,6 +191,7 @@
   text: "Les étrangers sans titre de séjour présents en France depuis plus de cinq ans doivent pouvoir être régularisés."
   themes:
     - immigration
+  subject: regularisation-sans-papiers
   polarity: +
   status: active
   author: claude
@@ -201,6 +212,7 @@
   themes:
     - immigration
     - travail
+  subject: immigration-visas-professions-qualifiees-v2
   polarity: +
   status: active
   author: claude
@@ -217,6 +229,7 @@
   text: Le Parlement doit fixer chaque année un plafond du nombre d'étrangers admis au séjour.
   themes:
     - immigration
+  subject: immigration-plafond-annuel-admissions
   polarity: "-"
   status: active
   author: claude
@@ -233,6 +246,7 @@
   text: L'accès des étrangers aux prestations sociales non contributives doit être soumis à cinq ans de résidence.
   themes:
     - immigration
+  subject: immigration-prestations-duree-residence
   polarity: "-"
   status: active
   author: claude
@@ -252,6 +266,7 @@
   themes:
     - immigration
     - justice
+  subject: immigration-condamnes-perte-titre-sejour
   polarity: "-"
   status: active
   author: claude
@@ -272,6 +287,7 @@
   themes:
     - immigration
     - international
+  subject: immigration-asile-examen-hors-europe-v2
   polarity: "-"
   status: active
   author: claude
@@ -289,6 +305,7 @@
   themes:
     - immigration
     - justice
+  subject: immigration-amende-sejour-irregulier
   polarity: "-"
   status: active
   author: claude
@@ -311,6 +328,7 @@
   text: "Un demandeur d'asile présent en France doit pouvoir y faire examiner sa demande, au lieu d'être renvoyé vers le pays européen responsable selon les règles de l'Union."
   themes:
     - immigration
+  subject: immigration-asile-examen-sans-transfert
   polarity: "+"
   status: active
   author: claude

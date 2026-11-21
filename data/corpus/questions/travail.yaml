@@ -6,6 +6,7 @@
   text: L'âge légal de départ à la retraite doit être ramené à 62 ans.
   themes:
     - travail
+  subject: retraite-age-legal
   polarity: +
   status: active
   author: claude
@@ -22,6 +23,7 @@
   text: Les règles d'indemnisation du chômage doivent être durcies.
   themes:
     - travail
+  subject: travail-durcir-indemnisation-chomage
   polarity: "-"
   status: active
   author: claude
@@ -39,6 +41,7 @@
   themes:
     - travail
     - economie
+  subject: travail-smic-au-dela-inflation
   polarity: +
   status: active
   author: claude
@@ -55,6 +58,7 @@
   text: La durée légale du travail doit pouvoir être fixée par accord d'entreprise au-delà de 35 heures.
   themes:
     - travail
+  subject: duree-legale-travail
   polarity: "-"
   status: active
   author: claude
@@ -74,6 +78,7 @@
   text: "Les entreprises qui réalisent des bénéfices doivent être limitées dans leur recours aux licenciements économiques."
   themes:
     - travail
+  subject: travail-limiter-licenciements-beneficiaires-v2
   polarity: +
   status: active
   author: claude
@@ -93,6 +98,7 @@
   text: "Le barème légal plafonnant les indemnités accordées par les prud'hommes en cas de licenciement sans cause réelle et sérieuse doit être maintenu."
   themes:
     - travail
+  subject: travail-plafond-prudhommes-maintenu-v2
   polarity: "-"
   status: active
   author: claude
@@ -109,6 +115,7 @@
   text: La durée légale du travail doit être réduite à 32 heures par semaine.
   themes:
     - travail
+  subject: duree-legale-travail
   polarity: +
   status: active
   author: claude
@@ -126,6 +133,7 @@
   themes:
     - travail
     - economie
+  subject: travail-indexation-salaires
   polarity: +
   status: active
   author: claude
@@ -144,6 +152,7 @@
   text: "L'écart entre les salaires les plus élevés et les plus bas d'une même entreprise doit être plafonné par la loi."
   themes:
     - travail
+  subject: travail-plafonner-ecart-salaires
   polarity: +
   status: active
   author: claude
@@ -163,6 +172,7 @@
   themes:
     - travail
     - economie
+  subject: travail-salaries-conseils-administration
   polarity: +
   status: active
   author: claude
@@ -179,6 +189,7 @@
   text: Les critères de pénibilité ouvrant droit à un départ anticipé à la retraite doivent être élargis.
   themes:
     - travail
+  subject: travail-elargir-penibilite-retraite
   polarity: +
   status: active
   author: claude
@@ -198,6 +209,7 @@
   themes:
     - travail
     - numerique
+  subject: travail-plateformes-presomption-salariat
   polarity: +
   status: active
   author: claude
@@ -214,6 +226,7 @@
   text: L'âge légal de départ à la retraite doit être porté au-delà de 64 ans.
   themes:
     - travail
+  subject: retraite-age-legal
   polarity: "-"
   status: active
   author: claude
@@ -230,6 +243,7 @@
   text: Une part des retraites doit être financée par capitalisation.
   themes:
     - travail
+  subject: travail-retraite-capitalisation
   polarity: "-"
   status: active
   author: claude
@@ -247,6 +261,7 @@
   themes:
     - travail
     - sante
+  subject: arret-maladie-indemnisation
   polarity: "-"
   status: active
   author: claude
@@ -265,6 +280,7 @@
   text: "Le SMIC doit pouvoir varier selon les régions."
   themes:
     - travail
+  subject: travail-smic-regional
   polarity: "-"
   status: active
   author: claude
@@ -283,6 +299,7 @@
   text: "Le statut de fonctionnaire doit être réservé aux missions régaliennes de l'État."
   themes:
     - travail
+  subject: travail-statut-fonction-publique-regalien
   polarity: "-"
   status: active
   author: claude
