@@ -24,7 +24,7 @@
 - [ ] T005 Étendre `src/core/dataset/schema.ts` : `selectionRules: z.literal(2).optional()`, `subject: Id.optional()` sur les questions, et un raffinement qui exige l'enjeu sur toutes les questions en règles 2, l'interdit sans `selectionRules` et refuse la forme mixte. Ajouter les cas dans `src/core/dataset/schema.test.ts` : v1 et v2 réelles valides, forme règles 2 valide, mixte refusée, `selectionRules: 3` refusé.
 - [ ] T006 [P] Ajouter `minimalMainDatasetV2()` (règles 2, enjeux) dans `src/core/dataset/fixture.ts`, avec au moins deux questions de même enjeu sur des thèmes différents.
 - [ ] T007 Étendre `src/core/bank/bank.ts` : `BankVersion.selectionRules: 1 | 2`, `BankQuestion.subject: string | null`, les codes `unknown-selection-rules` et `missing-subject`, et la lecture dans `bankFromDataset`. Tests dans `src/core/bank/bank.test.ts`. Mettre à jour `src/core/bank/fixtures.ts` et toute construction manuelle de `BankVersion` (`grep -rn "positions: new Map" src scripts`) avec `selectionRules: 1` et `subject: null`.
-- [ ] T008 [P] Étendre `scripts/data/lib/schema/questions.ts` (`subject: IdSchema.optional()`) et `scripts/data/lib/bank.ts` (`bankFromCorpus` : recopie `subject ?? null`, `selectionRules: 2`) ; ajouter les cas dans `scripts/data/lib/schema/schema.test.ts`.
+- [ ] T008 Étendre `scripts/data/lib/schema/questions.ts` (`subject: IdSchema.optional()`) et `scripts/data/lib/bank.ts` (`bankFromCorpus` : recopie `subject ?? null`, `selectionRules: 2`) ; ajouter les cas dans `scripts/data/lib/schema/schema.test.ts`.
 
 **Checkpoint**: `pnpm typecheck` est vert ; les tests 003 et le rejeu v1/v2 sont inchangés et verts.
 
@@ -97,6 +97,7 @@
 - [ ] T024 [US4] Ajouter dans `specs/003-domaine-score-selection-codec/spec.md` une note datée sous FR-022, qui renvoie à 007 pour les versions `selectionRules: 2` (FR-019) ; documenter `subject` et SUBJECT dans `data/README.md`.
 - [ ] T025 [US4] Après T020 : lancer `pnpm data:publish --next --dry-run`, puis `pnpm data:publish --next`. Contrôler que `public/data/versions/3/main.json` contient `selectionRules: 2`, l'enjeu sur 100 % des questions, des discriminants et positions identiques à la v2 (comparaison par script), et que PUB-IMMUTABLE est vert.
 - [ ] T026 [US4] Relancer `src/lib/results/replay.test.ts` : v1 et v2 identiques (SC-006).
+- [ ] T026a [US4] Écrire le test de reprise d'un questionnaire en cours de v2 vers v3 (US4 scénario 3) à côté de `src/lib/questionnaire/from-result.ts` : les réponses aux questions toujours présentes sont conservées, les nouvelles questions sont non répondues, et la longueur égale la sélection v3.
 
 **Checkpoint**: v3 publiée localement, liens anciens intacts.
 
@@ -105,7 +106,7 @@
 ## Phase 6: Polish & vérifications transverses
 
 - [ ] T027 Écrire l'audit exhaustif `src/core/selection/balanced.audit.test.ts` : les 12 444 combinaisons × 2 modes sur la dernière version règles 2 publiée, contrôlant SC-001 à SC-004 (sauté si aucune). Mesurer le temps et le renommer en `*.perf.test.ts` s'il dépasse 10 s.
-- [ ] T028 Parcours réel dans le navigateur intégré (quickstart § 6) : mode court Société + Travail + Éducation, une question par paire, 18 thèmes présents ; lien v2 de la fixture identique ; section Méthodologie visible ; capture partagée.
+- [ ] T028 Parcours réel dans le navigateur intégré (quickstart § 6) : mode court Société + Travail + Éducation, une question par paire, 18 thèmes présents ; lien v2 de la fixture identique ; questionnaire v2 en cours repris sur v3 avec ses réponses ; section Méthodologie visible ; capture partagée.
 - [ ] T029 Lancer `pnpm verify` (lint, typecheck, data:validate, tests, Storybook, build, e2e) et corriger.
 - [ ] T030 Pousser la branche rebasée sur `main` et ouvrir ou mettre à jour la PR (citer `specs/007-selection-equilibree`, cocher les principes I à VII) ; consigner les écarts éventuels en fin de ce fichier.
 
@@ -115,6 +116,7 @@
 
 - **Phase 1** (T001 à T003) précède tout le reste. T011 capture les règles 1 avant T012 et T013.
 - **Phase 2** dépend de la phase 1 ; T005 dépend de T004, T007 de T004 et T005, T008 de T007 (types de banque).
+- **T026a** dépend de T025 (banque v3 publiée).
 - **Phase 3** dépend de la phase 2. Les tests T009 à T011 s'écrivent avant T012 ; T014 vient après T013.
 - **Phase 4** : T015 et T016 dépendent de T008 ; T017 à T019 sont séquentielles ; T020 attend adrien.
 - **Phase 5** : T021, T022, T023 et T024 dépendent de la phase 2 et peuvent avancer pendant que T020 attend ; T025 dépend de T020 et T021 ; T026 dépend de T025.
@@ -122,7 +124,7 @@
 
 ## Parallel Opportunities
 
-- Phase 2 : T004, T006 et T008 sur des fichiers distincts.
+- Phase 2 : T004 et T006 sur des fichiers distincts.
 - Phase 3 : T009 et T010 dans le même fichier de test, à écrire ensemble ; T011 en parallèle.
 - Phases 4 et 5 : T015, T016, T022, T023 et T024 en parallèle pendant la relecture d'adrien.
 
