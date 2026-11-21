@@ -11,7 +11,7 @@ est réexportée par [`index.ts`](index.ts) (`@/core`) et décrite dans
 | [`types.ts`](types.ts) | `Mode`, `Answer`, `ResultState`, motifs typés, constantes (`N`, planchers, poids, seuils) | 003 |
 | [`ratio.ts`](ratio.ts) | rationnels exacts en BigInt, troncatures en pourcentage | 003 |
 | [`bank/`](bank) | vue « version de banque » d'un `main.json` (`bankFromDataset`), sujets prioritaires | 003 |
-| [`selection/`](selection) | quotas, remplissage glouton, tourniquet : `selectQuestions` | 003 |
+| [`selection/`](selection) | quotas, remplissage glouton (règles 1) ou par enjeu et par ancrage (règles 2), tourniquet : `selectQuestions` | 003, 007 |
 | [`score/`](score) | concordance, scores de thème, `P`, `W`, couverture, plafond `G = min(W, P)`, bandes, classement : `scoreCandidates` ; exemples A et B | 003 |
 | [`codec/`](codec) | fragment `#1.<charge>` ↔ état : base64url, 3 bits par réponse, CRC-8, motifs de rejet ; fragments de référence | 003 |
 
@@ -64,3 +64,11 @@ Conformément au principe III de la [constitution](../../.specify/memory/constit
 La frontière est imposée par la règle `no-restricted-imports` de `eslint.config.mjs`, appliquée
 à `src/core/**`. Un import interdit fait échouer `pnpm lint` en désignant la ligne fautive.
 Le test `src/lib/core-boundary.test.ts` vérifie que cette règle reste active.
+
+## Règles de sélection versionnées (007)
+
+`selectQuestions` choisit son remplissage d'après `bank.selectionRules`, déclaré par le `main.json`
+de la version : absent ou `1` (versions 1 et 2) = règles de 003, inchangées bit pour bit ;
+`2` (à partir de la version 3) = `fillQuotasBySubject` : une seule question par enjeu
+(`subject`), les quotas s'appliquent au seul thème d'ancrage, le reliquat se répartit par tours
+d'une question par thème. Toute autre valeur est refusée (`unknown-selection-rules`).

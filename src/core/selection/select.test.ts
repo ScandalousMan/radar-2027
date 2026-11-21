@@ -109,3 +109,20 @@ describe('selectQuestions (US2)', () => {
     expect(() => selectQuestions(bank, 'moyen' as never, ['t00', 't01', 't02'])).toThrow(StateError);
   });
 });
+
+describe('règles 1 inchangées (007 T011)', () => {
+  it('v1 et v2 réelles : mêmes listes qu’avant 007 (empreinte, 50 combinaisons × 2 modes)', async () => {
+    const { createHash } = await import('node:crypto');
+    const { readFileSync } = await import('node:fs');
+    const snapshot = JSON.parse(readFileSync('src/core/selection/rules1.snapshot.json', 'utf8')) as Record<string, { mode: 'full' | 'short'; priorities: string[]; hash: string }[]>;
+    for (const v of [1, 2]) {
+      const real = bankFromDataset(JSON.parse(readFileSync(`public/data/versions/${v}/main.json`, 'utf8')) as MainDataset);
+      expect(real.selectionRules).toBe(1);
+      expect(snapshot[`v${v}`]).toHaveLength(100);
+      for (const c of snapshot[`v${v}`]!) {
+        const ids = selectQuestions(real, c.mode, c.priorities).items.map((x) => x.question.id).join(',');
+        expect(createHash('sha256').update(ids).digest('hex').slice(0, 16)).toBe(c.hash);
+      }
+    }
+  });
+});

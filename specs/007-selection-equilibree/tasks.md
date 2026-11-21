@@ -38,12 +38,12 @@
 
 ### Tests
 
-- [ ] T009 [P] [US1] Écrire les propriétés fast-check sur des banques générées (2 à 20 thèmes, 1 ou 2 thèmes par question, enjeux partagés aléatoires, `D_q` aléatoires) dans `src/core/selection/fill-subject.test.ts` :
+- [X] T009 [P] [US1] Écrire les propriétés fast-check sur des banques générées (2 à 20 thèmes, 1 ou 2 thèmes par question, enjeux partagés aléatoires, `D_q` aléatoires) dans `src/core/selection/fill-subject.test.ts` :
   - aucune paire d'items de même enjeu ;
   - `|items| = min(N, enjeux distincts)` ;
   - `anchorThemeIndex ∈ themeIndices` ;
   - déterminisme.
-- [ ] T010 [P] [US2] Ajouter dans `src/core/selection/fill-subject.test.ts` les propriétés de couverture :
+- [X] T010 [P] [US2] Ajouter dans `src/core/selection/fill-subject.test.ts` les propriétés de couverture :
   - avec des enjeux tous distincts et des thèmes assez fournis, le nombre d'ancrées par thème égale exactement son quota ;
   - chaque thème qui a au moins une question éligible en a au moins `min(plancher, éligibles)` ;
   - une question à deux thèmes ne compte que pour son ancrage.
@@ -51,13 +51,13 @@
   Ajouter aussi les cas d'exemple :
   - deux questions de même enjeu sur deux thèmes : la plus discriminante est retenue, l'autre thème en prend une autre ;
   - un thème épuisé : le reliquat est réparti une question par thème et par tour, dans l'ordre de rotation.
-- [ ] T011 [US1] Écrire le test de non-régression des règles 1 dans `src/core/selection/select.test.ts` : sur les banques v1 et v2 réelles, `selectQuestions` donne la même liste qu'une capture prise avant la modification (empreinte des ids par combinaison, sur un échantillon déterministe de 50 combinaisons × 2 modes, enregistré dans `src/core/selection/rules1.snapshot.json`, généré avec le code de T003).
+- [X] T011 [US1] Écrire le test de non-régression des règles 1 dans `src/core/selection/select.test.ts` : sur les banques v1 et v2 réelles, `selectQuestions` donne la même liste qu'une capture prise avant la modification (empreinte des ids par combinaison, sur un échantillon déterministe de 50 combinaisons × 2 modes, enregistré dans `src/core/selection/rules1.snapshot.json`, généré avec le code de T003).
 
 ### Implémentation
 
-- [ ] T012 [US1] Implémenter `fillQuotasBySubject(bank, quotas, priorityIndices, target)` dans `src/core/selection/fill-subject.ts` selon 007 FR-008 à FR-011 et research R3. Réutiliser `byDiscriminant`, `questionsByTheme` et `rotationOrder` de `fill.ts`. Commentaire d'en-tête avec renvoi aux exigences.
-- [ ] T013 [US1] Brancher `selectQuestions` sur `bank.selectionRules` dans `src/core/selection/select.ts`, exporter `fillQuotasBySubject` dans `src/core/selection/index.ts` et `src/core/index.ts`, et documenter les règles versionnées dans `src/core/README.md`.
-- [ ] T014 [US2] Ajouter le cas de référence dans `src/core/selection/fill-subject.test.ts` : banque v2 réelle, enjeux posés en mémoire pour les trois paires du constat (uniforme, retraite, signes religieux) et enjeu égal à l'id pour les autres questions, `selectionRules: 2`. Vérifier qu'en mode court, avec Éducation + Fiscalité + Immigration, Fiscalité a 4 ancrées et les 18 thèmes au moins 1 ; et qu'avec Société + Travail + Éducation, il n'y a qu'une question par paire.
+- [X] T012 [US1] Implémenter `fillQuotasBySubject(bank, quotas, priorityIndices, target)` dans `src/core/selection/fill-subject.ts` selon 007 FR-008 à FR-011 et research R3. Réutiliser `byDiscriminant`, `questionsByTheme` et `rotationOrder` de `fill.ts`. Commentaire d'en-tête avec renvoi aux exigences.
+- [X] T013 [US1] Brancher `selectQuestions` sur `bank.selectionRules` dans `src/core/selection/select.ts`, exporter `fillQuotasBySubject` dans `src/core/selection/index.ts` et `src/core/index.ts`, et documenter les règles versionnées dans `src/core/README.md`.
+- [X] T014 [US2] Ajouter le cas de référence dans `src/core/selection/fill-subject.test.ts` : banque v2 réelle, enjeux posés en mémoire pour les trois paires du constat (uniforme, retraite, signes religieux) et enjeu égal à l'id pour les autres questions, `selectionRules: 2`. Vérifier qu'en mode court, avec Éducation + Fiscalité + Immigration, Fiscalité a 4 ancrées et les 18 thèmes au moins 1 ; et qu'avec Société + Travail + Éducation, il n'y a qu'une question par paire.
 
 **Checkpoint**: tous les tests du cœur sont verts ; règles 1 identiques ; MVP du moteur prêt.
 

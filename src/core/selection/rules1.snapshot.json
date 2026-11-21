@@ -1,0 +1,2002 @@
+{
+ "v1": [
+  {
+   "mode": "full",
+   "priorities": [
+    "fiscalite",
+    "justice",
+    "securite"
+   ],
+   "hash": "7fb0534c06cfe1c2"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "fiscalite",
+    "justice",
+    "securite"
+   ],
+   "hash": "ee52898ceb349325"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "defense",
+    "democratie",
+    "environnement"
+   ],
+   "hash": "f6f7e166ae87b333"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "defense",
+    "democratie",
+    "environnement"
+   ],
+   "hash": "913405de64751540"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "democratie",
+    "energie",
+    "institutions",
+    "transport"
+   ],
+   "hash": "76ff72fb6fb16623"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "democratie",
+    "energie",
+    "institutions",
+    "transport"
+   ],
+   "hash": "7b80cc5c709dac79"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "international",
+    "travail"
+   ],
+   "hash": "50c6a0751b2a62c9"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "international",
+    "travail"
+   ],
+   "hash": "e57482f3a245fdc6"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "economie",
+    "environnement",
+    "fiscalite"
+   ],
+   "hash": "c2642cbac4dca78d"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "economie",
+    "environnement",
+    "fiscalite"
+   ],
+   "hash": "ef1e7aae8aafa45f"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "environnement",
+    "immigration",
+    "sante",
+    "securite"
+   ],
+   "hash": "598d6020e606b87d"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "environnement",
+    "immigration",
+    "sante",
+    "securite"
+   ],
+   "hash": "dc38df1ee143e8aa"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "international",
+    "securite",
+    "societe"
+   ],
+   "hash": "919d13512d9f5cfb"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "international",
+    "securite",
+    "societe"
+   ],
+   "hash": "6fc8b645fd2db225"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "energie",
+    "international",
+    "sante"
+   ],
+   "hash": "e209ca61c5734b7b"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "energie",
+    "international",
+    "sante"
+   ],
+   "hash": "7ac0e84dc281efa3"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "immigration",
+    "international",
+    "justice",
+    "societe",
+    "transport"
+   ],
+   "hash": "47f973f1bef20e8f"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "immigration",
+    "international",
+    "justice",
+    "societe",
+    "transport"
+   ],
+   "hash": "33986016fa284a1c"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "environnement",
+    "sante"
+   ],
+   "hash": "3ecef29a167d759c"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "environnement",
+    "sante"
+   ],
+   "hash": "1200befc7904dad4"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "energie",
+    "immigration",
+    "transport",
+    "travail"
+   ],
+   "hash": "2d7f70c6e5db1cd7"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "energie",
+    "immigration",
+    "transport",
+    "travail"
+   ],
+   "hash": "086730dc5b38d706"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "fiscalite",
+    "international",
+    "justice",
+    "transport"
+   ],
+   "hash": "274f8ca523c6a1e0"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "fiscalite",
+    "international",
+    "justice",
+    "transport"
+   ],
+   "hash": "c4e39ad8a78a2a69"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "fiscalite",
+    "securite"
+   ],
+   "hash": "fdf1c08d9fcd2ad2"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "fiscalite",
+    "securite"
+   ],
+   "hash": "fc540f613c513377"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "democratie",
+    "transport",
+    "travail"
+   ],
+   "hash": "f41e993c3a8d2f7b"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "democratie",
+    "transport",
+    "travail"
+   ],
+   "hash": "a3d57d2d36de08b5"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "international",
+    "securite",
+    "societe",
+    "transport"
+   ],
+   "hash": "cc736c0946b4c839"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "international",
+    "securite",
+    "societe",
+    "transport"
+   ],
+   "hash": "ce804a3286ece33f"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "fiscalite",
+    "immigration",
+    "securite"
+   ],
+   "hash": "caf2943decea6556"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "fiscalite",
+    "immigration",
+    "securite"
+   ],
+   "hash": "76fa457fced8cbd5"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "economie",
+    "immigration",
+    "transport"
+   ],
+   "hash": "94cfce460e594508"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "economie",
+    "immigration",
+    "transport"
+   ],
+   "hash": "76ba0bffd240028b"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "environnement",
+    "immigration",
+    "institutions",
+    "transport"
+   ],
+   "hash": "20f1e2731ab6316e"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "environnement",
+    "immigration",
+    "institutions",
+    "transport"
+   ],
+   "hash": "f5a10c94d0d9ee71"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "sante",
+    "societe"
+   ],
+   "hash": "7652be8cd66a8a61"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "sante",
+    "societe"
+   ],
+   "hash": "ff350056ef53282e"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "fiscalite",
+    "immigration",
+    "institutions"
+   ],
+   "hash": "4fd601a278240b74"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "fiscalite",
+    "immigration",
+    "institutions"
+   ],
+   "hash": "7d181c96b47c3ee2"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "democratie",
+    "numerique",
+    "sante",
+    "travail"
+   ],
+   "hash": "ea8714a81ce4181f"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "democratie",
+    "numerique",
+    "sante",
+    "travail"
+   ],
+   "hash": "c294e001015586f1"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "environnement",
+    "fiscalite"
+   ],
+   "hash": "741d9f85f7fe0e77"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "environnement",
+    "fiscalite"
+   ],
+   "hash": "b13774f1291b4072"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "institutions",
+    "international",
+    "travail"
+   ],
+   "hash": "f571f7cea99684f0"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "institutions",
+    "international",
+    "travail"
+   ],
+   "hash": "433b9ff6aac34071"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "democratie",
+    "economie",
+    "justice",
+    "transport"
+   ],
+   "hash": "a7da583ffd5d9964"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "democratie",
+    "economie",
+    "justice",
+    "transport"
+   ],
+   "hash": "20ea938c295be4e0"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "environnement",
+    "societe"
+   ],
+   "hash": "059b11f844be7c9d"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "environnement",
+    "societe"
+   ],
+   "hash": "0eeb19f9796cdcd4"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "immigration",
+    "securite",
+    "societe"
+   ],
+   "hash": "322179c80c14baa8"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "immigration",
+    "securite",
+    "societe"
+   ],
+   "hash": "4c49ac57c5dc4d70"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "economie",
+    "energie",
+    "environnement",
+    "transport"
+   ],
+   "hash": "b567391ba8ffd65e"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "economie",
+    "energie",
+    "environnement",
+    "transport"
+   ],
+   "hash": "d7861512328e37b5"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "environnement",
+    "fiscalite",
+    "international"
+   ],
+   "hash": "6b10af660ec5fb74"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "environnement",
+    "fiscalite",
+    "international"
+   ],
+   "hash": "466b68236dab42f4"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "numerique",
+    "securite",
+    "travail"
+   ],
+   "hash": "fce5bd65e93ab074"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "numerique",
+    "securite",
+    "travail"
+   ],
+   "hash": "6b957aece43b2621"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "economie",
+    "energie",
+    "fiscalite",
+    "sante"
+   ],
+   "hash": "a87c1c516cbc3895"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "economie",
+    "energie",
+    "fiscalite",
+    "sante"
+   ],
+   "hash": "4422bce6af324969"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "immigration",
+    "international"
+   ],
+   "hash": "dbcda394342de84e"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "immigration",
+    "international"
+   ],
+   "hash": "91be2d4457d044ca"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "energie",
+    "environnement",
+    "numerique"
+   ],
+   "hash": "a8d333bc666d6185"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "energie",
+    "environnement",
+    "numerique"
+   ],
+   "hash": "a73c3af2e10306fd"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "environnement",
+    "justice",
+    "securite",
+    "transport"
+   ],
+   "hash": "bd8d8f4879dc1170"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "environnement",
+    "justice",
+    "securite",
+    "transport"
+   ],
+   "hash": "abc1542975e0ff74"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "energie",
+    "fiscalite",
+    "justice"
+   ],
+   "hash": "ab3a33303963e99b"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "energie",
+    "fiscalite",
+    "justice"
+   ],
+   "hash": "3ea8b7ea21008b68"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "fiscalite",
+    "institutions",
+    "international",
+    "securite"
+   ],
+   "hash": "d20532cfe886fe05"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "fiscalite",
+    "institutions",
+    "international",
+    "securite"
+   ],
+   "hash": "4367f360414819d0"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "energie",
+    "environnement",
+    "international",
+    "securite",
+    "transport"
+   ],
+   "hash": "817f008d618cc636"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "energie",
+    "environnement",
+    "international",
+    "securite",
+    "transport"
+   ],
+   "hash": "8b69f6021853f9eb"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "environnement",
+    "transport"
+   ],
+   "hash": "74f1149134103958"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "environnement",
+    "transport"
+   ],
+   "hash": "10b5c98a409c6ceb"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "economie",
+    "fiscalite",
+    "securite"
+   ],
+   "hash": "ec4eaeaa95c81e46"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "economie",
+    "fiscalite",
+    "securite"
+   ],
+   "hash": "e481711cb908ff0e"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "institutions",
+    "justice",
+    "securite",
+    "societe"
+   ],
+   "hash": "92cb8140fa0db18e"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "institutions",
+    "justice",
+    "securite",
+    "societe"
+   ],
+   "hash": "743299c4e9af8708"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "energie",
+    "sante",
+    "societe"
+   ],
+   "hash": "fc8d36aab45990f6"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "energie",
+    "sante",
+    "societe"
+   ],
+   "hash": "80b0b5020dbb5308"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "fiscalite",
+    "institutions",
+    "transport"
+   ],
+   "hash": "b40de08408ddff9e"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "fiscalite",
+    "institutions",
+    "transport"
+   ],
+   "hash": "eea6d0723833a819"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "energie",
+    "fiscalite",
+    "sante",
+    "securite",
+    "transport"
+   ],
+   "hash": "71c0b8f7d4f32388"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "energie",
+    "fiscalite",
+    "sante",
+    "securite",
+    "transport"
+   ],
+   "hash": "aaac3fdfc88b6d21"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "sante",
+    "societe"
+   ],
+   "hash": "e11557ec5f9ff509"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "sante",
+    "societe"
+   ],
+   "hash": "dfdf77141a364415"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "democratie",
+    "justice",
+    "numerique"
+   ],
+   "hash": "a23cd7858e56a52c"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "democratie",
+    "justice",
+    "numerique"
+   ],
+   "hash": "26feca1527314b74"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "immigration",
+    "justice",
+    "numerique",
+    "securite"
+   ],
+   "hash": "d21e53f8676df30e"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "immigration",
+    "justice",
+    "numerique",
+    "securite"
+   ],
+   "hash": "32d95dade69f9321"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "sante",
+    "societe",
+    "transport"
+   ],
+   "hash": "f5e1448f59bae9e7"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "sante",
+    "societe",
+    "transport"
+   ],
+   "hash": "4515462ec404da2f"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "economie",
+    "immigration",
+    "transport"
+   ],
+   "hash": "1e609b18e2bb21b4"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "economie",
+    "immigration",
+    "transport"
+   ],
+   "hash": "83e24cc46ad11193"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "economie",
+    "international",
+    "societe",
+    "travail"
+   ],
+   "hash": "8048c7e827d04e96"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "economie",
+    "international",
+    "societe",
+    "travail"
+   ],
+   "hash": "0ca8faca72b9ba57"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "economie",
+    "justice"
+   ],
+   "hash": "88a696a7b94d8984"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "economie",
+    "justice"
+   ],
+   "hash": "c259be4601e8cd2f"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "economie",
+    "environnement",
+    "international"
+   ],
+   "hash": "91c8d91ee1965436"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "economie",
+    "environnement",
+    "international"
+   ],
+   "hash": "71102a679be7823c"
+  }
+ ],
+ "v2": [
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "fiscalite",
+    "securite"
+   ],
+   "hash": "17c72b772690271d"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "fiscalite",
+    "securite"
+   ],
+   "hash": "6f3820f612445abe"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "economie",
+    "numerique",
+    "travail"
+   ],
+   "hash": "96e134db6256ebaa"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "economie",
+    "numerique",
+    "travail"
+   ],
+   "hash": "007e59c861d49762"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "environnement",
+    "fiscalite",
+    "justice",
+    "securite"
+   ],
+   "hash": "4adf5755ef55decc"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "environnement",
+    "fiscalite",
+    "justice",
+    "securite"
+   ],
+   "hash": "c30b32ffe3cedb28"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "democratie",
+    "energie"
+   ],
+   "hash": "44115ab606b6f04c"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "democratie",
+    "energie"
+   ],
+   "hash": "23166dab7bf8e6e0"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "institutions",
+    "international",
+    "sante",
+    "transport"
+   ],
+   "hash": "b569ecdb9080217a"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "institutions",
+    "international",
+    "sante",
+    "transport"
+   ],
+   "hash": "0e1fc5880af844b0"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "education",
+    "justice",
+    "securite",
+    "societe"
+   ],
+   "hash": "b26fe818730c1a77"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "education",
+    "justice",
+    "securite",
+    "societe"
+   ],
+   "hash": "ff7b5a79ea7c880f"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "defense",
+    "environnement"
+   ],
+   "hash": "88e1ff20a873da67"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "defense",
+    "environnement"
+   ],
+   "hash": "8f5809aea0823318"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "economie",
+    "justice",
+    "sante"
+   ],
+   "hash": "0b3069bfc1cd345b"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "economie",
+    "justice",
+    "sante"
+   ],
+   "hash": "f999f9b344faf991"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "democratie",
+    "environnement",
+    "transport",
+    "travail"
+   ],
+   "hash": "fcc19d578cde6703"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "democratie",
+    "environnement",
+    "transport",
+    "travail"
+   ],
+   "hash": "0a610171210c7c60"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "numerique",
+    "sante",
+    "transport"
+   ],
+   "hash": "ff87f9059081d784"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "numerique",
+    "sante",
+    "transport"
+   ],
+   "hash": "332d52480732116a"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "justice",
+    "numerique",
+    "societe"
+   ],
+   "hash": "e6db02f98dd4073e"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "justice",
+    "numerique",
+    "societe"
+   ],
+   "hash": "329ee04d12a7ba1b"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "energie",
+    "immigration",
+    "justice",
+    "securite"
+   ],
+   "hash": "3744d7ddee5e3df8"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "energie",
+    "immigration",
+    "justice",
+    "securite"
+   ],
+   "hash": "5966455e21e2cdba"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "economie",
+    "securite"
+   ],
+   "hash": "71dd94f58ddeb448"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "economie",
+    "securite"
+   ],
+   "hash": "a30da7049d36713d"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "environnement",
+    "justice",
+    "societe"
+   ],
+   "hash": "25f66d50b6f9567c"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "environnement",
+    "justice",
+    "societe"
+   ],
+   "hash": "de932a625519ffcd"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "fiscalite",
+    "international",
+    "numerique",
+    "sante",
+    "societe"
+   ],
+   "hash": "e1a723d0d5dd84b6"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "fiscalite",
+    "international",
+    "numerique",
+    "sante",
+    "societe"
+   ],
+   "hash": "f05bc5fd7507fd7a"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "institutions",
+    "travail"
+   ],
+   "hash": "d207e0f96e489683"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "institutions",
+    "travail"
+   ],
+   "hash": "17f47143c886e6d6"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "numerique",
+    "societe",
+    "travail"
+   ],
+   "hash": "1ce10b47400fb0f7"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "numerique",
+    "societe",
+    "travail"
+   ],
+   "hash": "e172b38816fab2df"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "education",
+    "energie",
+    "international",
+    "societe"
+   ],
+   "hash": "9eecbf4eb43eee37"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "education",
+    "energie",
+    "international",
+    "societe"
+   ],
+   "hash": "1aa3cab3e6bb5e35"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "energie",
+    "securite"
+   ],
+   "hash": "76a37a4a3db21ce3"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "energie",
+    "securite"
+   ],
+   "hash": "1b8fbf7d947d0e6c"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "democratie",
+    "fiscalite",
+    "institutions"
+   ],
+   "hash": "71ac20779bd1a4f9"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "democratie",
+    "fiscalite",
+    "institutions"
+   ],
+   "hash": "febd035c7506f6b3"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "education",
+    "energie",
+    "fiscalite",
+    "institutions",
+    "sante"
+   ],
+   "hash": "839bcb4aeb89605d"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "education",
+    "energie",
+    "fiscalite",
+    "institutions",
+    "sante"
+   ],
+   "hash": "ad08c68dfd5ec030"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "energie",
+    "institutions",
+    "travail"
+   ],
+   "hash": "7a5d324dbd1f4f81"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "energie",
+    "institutions",
+    "travail"
+   ],
+   "hash": "7924aaf5421a3ab3"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "economie",
+    "institutions",
+    "transport"
+   ],
+   "hash": "4194e06bb04ec3eb"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "economie",
+    "institutions",
+    "transport"
+   ],
+   "hash": "eb8790f599b14ecc"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "international",
+    "numerique",
+    "securite",
+    "transport"
+   ],
+   "hash": "5f42cd1c472402f6"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "international",
+    "numerique",
+    "securite",
+    "transport"
+   ],
+   "hash": "87ebd0a93034196e"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "sante",
+    "travail"
+   ],
+   "hash": "cc86b3abc9f85b6a"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "sante",
+    "travail"
+   ],
+   "hash": "a806290df30b6bef"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "economie",
+    "environnement",
+    "immigration"
+   ],
+   "hash": "0df51e74ca3012b4"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "economie",
+    "environnement",
+    "immigration"
+   ],
+   "hash": "46d17e12f485cf6e"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "environnement",
+    "fiscalite",
+    "sante",
+    "securite",
+    "transport"
+   ],
+   "hash": "a9245b45e9c2310d"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "environnement",
+    "fiscalite",
+    "sante",
+    "securite",
+    "transport"
+   ],
+   "hash": "91654e9ca1cec0b4"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "environnement",
+    "numerique"
+   ],
+   "hash": "29f554919a86aafc"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "environnement",
+    "numerique"
+   ],
+   "hash": "736c493287ea36c6"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "agriculture",
+    "energie",
+    "environnement",
+    "fiscalite"
+   ],
+   "hash": "88976f15025a3021"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "agriculture",
+    "energie",
+    "environnement",
+    "fiscalite"
+   ],
+   "hash": "8bb56795e2e558a7"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "fiscalite",
+    "institutions",
+    "international",
+    "justice",
+    "sante"
+   ],
+   "hash": "449c83378c83613d"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "fiscalite",
+    "institutions",
+    "international",
+    "justice",
+    "sante"
+   ],
+   "hash": "fd0fc4b3ff14ff57"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "immigration",
+    "travail"
+   ],
+   "hash": "70cec7aa62fa14eb"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "immigration",
+    "travail"
+   ],
+   "hash": "1e6abca261265bf2"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "education",
+    "fiscalite",
+    "justice",
+    "transport"
+   ],
+   "hash": "0c17abc30b5c90f0"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "education",
+    "fiscalite",
+    "justice",
+    "transport"
+   ],
+   "hash": "43c7b6afae4bc6a4"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "energie",
+    "numerique",
+    "securite",
+    "travail"
+   ],
+   "hash": "1fde9c40bfb2117f"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "energie",
+    "numerique",
+    "securite",
+    "travail"
+   ],
+   "hash": "2693929a9cfa3d93"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "institutions",
+    "societe",
+    "transport"
+   ],
+   "hash": "8208e4032363526b"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "institutions",
+    "societe",
+    "transport"
+   ],
+   "hash": "b6087c0a74d40deb"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "defense",
+    "justice",
+    "sante",
+    "travail"
+   ],
+   "hash": "534b789a7acb7b65"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "defense",
+    "justice",
+    "sante",
+    "travail"
+   ],
+   "hash": "6b37528ece8c2087"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "education",
+    "environnement",
+    "immigration",
+    "international",
+    "societe"
+   ],
+   "hash": "1f627a3c07f4e569"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "education",
+    "environnement",
+    "immigration",
+    "international",
+    "societe"
+   ],
+   "hash": "d884df8edc3f7cd2"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "energie",
+    "societe"
+   ],
+   "hash": "4c06fbd6a6625c85"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "energie",
+    "societe"
+   ],
+   "hash": "d6f5101e19361c74"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "immigration",
+    "institutions",
+    "international"
+   ],
+   "hash": "8fd1c7dc298d81ed"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "immigration",
+    "institutions",
+    "international"
+   ],
+   "hash": "9bb0e2f1d3c78450"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "education",
+    "energie",
+    "fiscalite",
+    "immigration",
+    "institutions"
+   ],
+   "hash": "0d9e34f17d876608"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "education",
+    "energie",
+    "fiscalite",
+    "immigration",
+    "institutions"
+   ],
+   "hash": "2d740c825c59affd"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "institutions",
+    "societe",
+    "transport"
+   ],
+   "hash": "8208e4032363526b"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "institutions",
+    "societe",
+    "transport"
+   ],
+   "hash": "b6087c0a74d40deb"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "economie",
+    "immigration",
+    "securite"
+   ],
+   "hash": "e6570d11caa36806"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "economie",
+    "immigration",
+    "securite"
+   ],
+   "hash": "30ab6c1eb8034629"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "immigration",
+    "institutions",
+    "international",
+    "justice",
+    "numerique"
+   ],
+   "hash": "4a36dbeaf3917159"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "immigration",
+    "institutions",
+    "international",
+    "justice",
+    "numerique"
+   ],
+   "hash": "2646ed70abc2b54d"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "environnement",
+    "societe",
+    "travail"
+   ],
+   "hash": "c9c87fe3b2f57a2a"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "environnement",
+    "societe",
+    "travail"
+   ],
+   "hash": "9515d2db7cca594a"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "education",
+    "securite",
+    "travail"
+   ],
+   "hash": "f0b657910c873e21"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "education",
+    "securite",
+    "travail"
+   ],
+   "hash": "5997794b9059961d"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "economie",
+    "environnement",
+    "institutions",
+    "justice",
+    "securite"
+   ],
+   "hash": "51492efc62c372e0"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "economie",
+    "environnement",
+    "institutions",
+    "justice",
+    "securite"
+   ],
+   "hash": "3cb4f6f55137ca3e"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "environnement",
+    "numerique",
+    "transport"
+   ],
+   "hash": "b8b33d77b4c2f1dd"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "environnement",
+    "numerique",
+    "transport"
+   ],
+   "hash": "6fbd8f599c8a5dfe"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "energie",
+    "international",
+    "justice",
+    "travail"
+   ],
+   "hash": "577890d71c3228cb"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "energie",
+    "international",
+    "justice",
+    "travail"
+   ],
+   "hash": "5ed751e1d2cbb047"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "democratie",
+    "education",
+    "fiscalite",
+    "immigration",
+    "international"
+   ],
+   "hash": "91f4e734788c0234"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "democratie",
+    "education",
+    "fiscalite",
+    "immigration",
+    "international"
+   ],
+   "hash": "de0d5505ea269243"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "education",
+    "energie",
+    "environnement"
+   ],
+   "hash": "eb3653b833987eb0"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "education",
+    "energie",
+    "environnement"
+   ],
+   "hash": "d2f745eca49830ca"
+  },
+  {
+   "mode": "full",
+   "priorities": [
+    "environnement",
+    "fiscalite",
+    "numerique",
+    "travail"
+   ],
+   "hash": "6210a6baa165b5a0"
+  },
+  {
+   "mode": "short",
+   "priorities": [
+    "environnement",
+    "fiscalite",
+    "numerique",
+    "travail"
+   ],
+   "hash": "47ae3ac9a7822985"
+  }
+ ]
+}
