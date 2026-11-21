@@ -97,7 +97,7 @@
 - [X] T024 [US4] Ajouter dans `specs/003-domaine-score-selection-codec/spec.md` une note datée sous FR-022, qui renvoie à 007 pour les versions `selectionRules: 2` (FR-019) ; documenter `subject` et SUBJECT dans `data/README.md`.
 - [ ] T025 [US4] Après T020 : lancer `pnpm data:publish --next --dry-run`, puis `pnpm data:publish --next`. Contrôler que `public/data/versions/3/main.json` contient `selectionRules: 2`, l'enjeu sur 100 % des questions, des discriminants et positions identiques à la v2 (comparaison par script), et que PUB-IMMUTABLE est vert.
 - [ ] T026 [US4] Relancer `src/lib/results/replay.test.ts` : v1 et v2 identiques (SC-006).
-- [ ] T026a [US4] Écrire le test de reprise d'un questionnaire en cours de v2 vers v3 (US4 scénario 3) à côté de `src/lib/questionnaire/from-result.ts` : les réponses aux questions toujours présentes sont conservées, les nouvelles questions sont non répondues, et la longueur égale la sélection v3.
+- [X] T026a [US4] Écrire le test de reprise d'un questionnaire en cours de v2 vers v3 (US4 scénario 3) à côté de `src/lib/questionnaire/from-result.ts` : les réponses aux questions toujours présentes sont conservées, les nouvelles questions sont non répondues, et la longueur égale la sélection v3.
 
 **Checkpoint**: v3 publiée localement, liens anciens intacts.
 
@@ -105,7 +105,7 @@
 
 ## Phase 6: Polish & vérifications transverses
 
-- [ ] T027 Écrire l'audit exhaustif `src/core/selection/balanced.audit.test.ts` : les 12 444 combinaisons × 2 modes sur la dernière version règles 2 publiée, contrôlant SC-001 à SC-004 (sauté si aucune). Mesurer le temps et le renommer en `*.perf.test.ts` s'il dépasse 10 s.
+- [X] T027 Écrire l'audit exhaustif `src/core/selection/balanced.audit.test.ts` : les 12 444 combinaisons × 2 modes sur la dernière version règles 2 publiée, contrôlant SC-001 à SC-004 (sauté si aucune). Mesurer le temps et le renommer en `*.perf.test.ts` s'il dépasse 10 s.
 - [ ] T028 Parcours réel dans le navigateur intégré (quickstart § 6) : mode court Société + Travail + Éducation, une question par paire, 18 thèmes présents ; lien v2 de la fixture identique ; questionnaire v2 en cours repris sur v3 avec ses réponses ; section Méthodologie visible ; capture partagée.
 - [ ] T029 Lancer `pnpm verify` (lint, typecheck, data:validate, tests, Storybook, build, e2e) et corriger.
 - [ ] T030 Pousser la branche rebasée sur `main` et ouvrir ou mettre à jour la PR (citer `specs/007-selection-equilibree`, cocher les principes I à VII) ; consigner les écarts éventuels en fin de ce fichier.
