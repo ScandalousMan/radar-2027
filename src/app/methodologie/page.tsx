@@ -99,8 +99,8 @@ export default async function MethodologyPage() {
       ) : (
         <>
           {main.selectionRules === 2 && (
-            <section aria-labelledby="choix-questions" id="choix-questions" className={SECTION}>
-              <h2 id="choix-questions" className={H2}>
+            <section aria-labelledby="choix-questions-titre" id="choix-questions" className={SECTION}>
+              <h2 id="choix-questions-titre" className={H2}>
                 {t('selection.title')}
               </h2>
               <p>{t('selection.subject')}</p>

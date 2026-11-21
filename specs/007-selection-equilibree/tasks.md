@@ -95,8 +95,8 @@
 - [X] T022 [P] [US4] Ajouter la section « Choix des questions » dans `src/app/methodologie/page.tsx`, affichée si la version courante déclare `selectionRules: 2`, avec les textes `methodology.selection.{title,subject,coverage,priorities}` dans `src/i18n/messages/fr.json`. Ajouter un test de page si la page en a un (`grep -rn methodologie src --include=*.test.tsx`).
 - [X] T023 [P] [US4] Mettre la banque fictive des e2e `e2e/fixtures/published.ts` en règles 2 (enjeux) si nécessaire, et vérifier la section dans `e2e/methodology.spec.ts`.
 - [X] T024 [US4] Ajouter dans `specs/003-domaine-score-selection-codec/spec.md` une note datée sous FR-022, qui renvoie à 007 pour les versions `selectionRules: 2` (FR-019) ; documenter `subject` et SUBJECT dans `data/README.md`.
-- [ ] T025 [US4] Après T020 : lancer `pnpm data:publish --next --dry-run`, puis `pnpm data:publish --next`. Contrôler que `public/data/versions/3/main.json` contient `selectionRules: 2`, l'enjeu sur 100 % des questions, des discriminants et positions identiques à la v2 (comparaison par script), et que PUB-IMMUTABLE est vert.
-- [ ] T026 [US4] Relancer `src/lib/results/replay.test.ts` : v1 et v2 identiques (SC-006).
+- [X] T025 [US4] Après T020 : lancer `pnpm data:publish --next --dry-run`, puis `pnpm data:publish --next`. Contrôler que `public/data/versions/3/main.json` contient `selectionRules: 2`, l'enjeu sur 100 % des questions, des discriminants et positions identiques à la v2 (comparaison par script), et que PUB-IMMUTABLE est vert.
+- [X] T026 [US4] Relancer `src/lib/results/replay.test.ts` : v1 et v2 identiques (SC-006).
 - [X] T026a [US4] Écrire le test de reprise d'un questionnaire en cours de v2 vers v3 (US4 scénario 3) à côté de `src/lib/questionnaire/from-result.ts` : les réponses aux questions toujours présentes sont conservées, les nouvelles questions sont non répondues, et la longueur égale la sélection v3.
 
 **Checkpoint**: v3 publiée localement, liens anciens intacts.
@@ -106,9 +106,9 @@
 ## Phase 6: Polish & vérifications transverses
 
 - [X] T027 Écrire l'audit exhaustif `src/core/selection/balanced.audit.test.ts` : les 12 444 combinaisons × 2 modes sur la dernière version règles 2 publiée, contrôlant SC-001 à SC-004 (sauté si aucune). Mesurer le temps et le renommer en `*.perf.test.ts` s'il dépasse 10 s.
-- [ ] T028 Parcours réel dans le navigateur intégré (quickstart § 6) : mode court Société + Travail + Éducation, une question par paire, 18 thèmes présents ; lien v2 de la fixture identique ; questionnaire v2 en cours repris sur v3 avec ses réponses ; section Méthodologie visible ; capture partagée.
-- [ ] T029 Lancer `pnpm verify` (lint, typecheck, data:validate, tests, Storybook, build, e2e) et corriger.
-- [ ] T030 Pousser la branche rebasée sur `main` et ouvrir ou mettre à jour la PR (citer `specs/007-selection-equilibree`, cocher les principes I à VII) ; consigner les écarts éventuels en fin de ce fichier.
+- [X] T028 Parcours réel dans le navigateur intégré (quickstart § 6) : mode court Société + Travail + Éducation, une question par paire, 18 thèmes présents ; lien v2 de la fixture identique ; questionnaire v2 en cours repris sur v3 avec ses réponses ; section Méthodologie visible ; capture partagée.
+- [X] T029 Lancer `pnpm verify` (lint, typecheck, data:validate, tests, Storybook, build, e2e) et corriger.
+- [X] T030 Pousser la branche rebasée sur `main` et ouvrir ou mettre à jour la PR (citer `specs/007-selection-equilibree`, cocher les principes I à VII) ; consigner les écarts éventuels en fin de ce fichier.
 
 ---
 
@@ -133,3 +133,12 @@
 1. **MVP moteur** (phases 1 à 3) : les règles 2 sont prouvées par propriétés et par le cas de référence, sans rien changer en production.
 2. **Données** (phase 4) : étiquetage, dossier, puis relecture par adrien.
 3. **Mise en service** (phases 5 et 6) : publication v3, audit, parcours réel, `pnpm verify`, PR.
+
+## Écarts et notes de mise en œuvre
+
+- **T023** : la banque fictive des e2e (`e2e/fixtures/published.ts`) n'a pas été passée en règles 2, ce n'était pas nécessaire ; `e2e/methodology.spec.ts` vérifie la section « Choix des questions » sur le vrai jeu publié (sautée si la version courante est en règles 1).
+- **T026a** : le test de reprise v2 vers v3 utilise des banques en mémoire (`from-result.test.ts`), indépendamment de la publication.
+- **T027** : l'audit exhaustif (12 444 combinaisons × 2 modes) tient en environ 1,3 s ; il n'a pas été renommé en `*.perf.test.ts`. Il tourne sur la v3 publiée.
+- **T028** : parcours réel dans le navigateur intégré (mode court, Société + Travail + Éducation) : 25 questions, une seule sur l'uniforme, une sur l'âge légal de la retraite, une sur les signes religieux ; section Méthodologie visible. La présence des 18 thèmes est établie par l'audit (SC-002), pas relue à l'écran.
+- **T020** : enjeux validés par adrien le 2026-11-21 sans correction.
+- **Éducation et Énergie** : 11 enjeux distincts pour un quota maximal de 13 (avertissement SUBJECT) ; le second passage compense.
