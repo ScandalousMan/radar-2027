@@ -27,3 +27,18 @@ export function minimalMainDataset(): MainDataset {
     },
   };
 }
+
+/** Jeu minimal en règles 2 (007) : deux questions de même enjeu sur des thèmes différents, plus une troisième. */
+export function minimalMainDatasetV2(): MainDataset {
+  const base = minimalMainDataset();
+  return {
+    ...base,
+    selectionRules: 2,
+    questions: [
+      { id: 'economie-a', text: 'Énoncé A.', themes: ['economie'], polarity: '+', discriminant: 1, subject: 'impot-revenu' },
+      { id: 'sante-b', text: 'Énoncé B.', themes: ['sante', 'economie'], polarity: '-', discriminant: 0.5, subject: 'impot-revenu' },
+      { id: 'sante-c', text: 'Énoncé C.', themes: ['sante'], polarity: '+', discriminant: 0.8, subject: 'hopital-moyens' },
+    ],
+    positions: { dupont: [[-1, 'p'], null, [1, 'l']], martin: [null, null, null] },
+  };
+}

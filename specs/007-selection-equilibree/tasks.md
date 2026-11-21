@@ -20,11 +20,11 @@
 
 ## Phase 2: Foundational — format des données et vue de banque
 
-- [ ] T004 [P] Étendre `src/core/dataset/types.ts` : `MainDataset.selectionRules?: 2`, `PublishedQuestion.subject?: string`.
-- [ ] T005 Étendre `src/core/dataset/schema.ts` : `selectionRules: z.literal(2).optional()`, `subject: Id.optional()` sur les questions, et un raffinement qui exige l'enjeu sur toutes les questions en règles 2, l'interdit sans `selectionRules` et refuse la forme mixte. Ajouter les cas dans `src/core/dataset/schema.test.ts` : v1 et v2 réelles valides, forme règles 2 valide, mixte refusée, `selectionRules: 3` refusé.
-- [ ] T006 [P] Ajouter `minimalMainDatasetV2()` (règles 2, enjeux) dans `src/core/dataset/fixture.ts`, avec au moins deux questions de même enjeu sur des thèmes différents.
-- [ ] T007 Étendre `src/core/bank/bank.ts` : `BankVersion.selectionRules: 1 | 2`, `BankQuestion.subject: string | null`, les codes `unknown-selection-rules` et `missing-subject`, et la lecture dans `bankFromDataset`. Tests dans `src/core/bank/bank.test.ts`. Mettre à jour `src/core/bank/fixtures.ts` et toute construction manuelle de `BankVersion` (`grep -rn "positions: new Map" src scripts`) avec `selectionRules: 1` et `subject: null`.
-- [ ] T008 Étendre `scripts/data/lib/schema/questions.ts` (`subject: IdSchema.optional()`) et `scripts/data/lib/bank.ts` (`bankFromCorpus` : recopie `subject ?? null`, `selectionRules: 2`) ; ajouter les cas dans `scripts/data/lib/schema/schema.test.ts`.
+- [X] T004 [P] Étendre `src/core/dataset/types.ts` : `MainDataset.selectionRules?: 2`, `PublishedQuestion.subject?: string`.
+- [X] T005 Étendre `src/core/dataset/schema.ts` : `selectionRules: z.literal(2).optional()`, `subject: Id.optional()` sur les questions, et un raffinement qui exige l'enjeu sur toutes les questions en règles 2, l'interdit sans `selectionRules` et refuse la forme mixte. Ajouter les cas dans `src/core/dataset/schema.test.ts` : v1 et v2 réelles valides, forme règles 2 valide, mixte refusée, `selectionRules: 3` refusé.
+- [X] T006 [P] Ajouter `minimalMainDatasetV2()` (règles 2, enjeux) dans `src/core/dataset/fixture.ts`, avec au moins deux questions de même enjeu sur des thèmes différents.
+- [X] T007 Étendre `src/core/bank/bank.ts` : `BankVersion.selectionRules: 1 | 2`, `BankQuestion.subject: string | null`, les codes `unknown-selection-rules` et `missing-subject`, et la lecture dans `bankFromDataset`. Tests dans `src/core/bank/bank.test.ts`. Mettre à jour `src/core/bank/fixtures.ts` et toute construction manuelle de `BankVersion` (`grep -rn "positions: new Map" src scripts`) avec `selectionRules: 1` et `subject: null`.
+- [X] T008 Étendre `scripts/data/lib/schema/questions.ts` (`subject: IdSchema.optional()`) et `scripts/data/lib/bank.ts` (`bankFromCorpus` : recopie `subject ?? null`, `selectionRules: 2`) ; ajouter les cas dans `scripts/data/lib/schema/schema.test.ts`.
 
 **Checkpoint**: `pnpm typecheck` est vert ; les tests 003 et le rejeu v1/v2 sont inchangés et verts.
 

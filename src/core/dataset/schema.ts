@@ -35,6 +35,7 @@ export const MainDatasetSchema: z.ZodType<MainDataset> = z
   .strictObject({
     version: z.int().min(1).max(MAX_VERSIONS),
     publishedAt: Day,
+    selectionRules: z.literal(2).optional(),
     themes: z
       .array(
         z.strictObject({
@@ -63,6 +64,7 @@ export const MainDatasetSchema: z.ZodType<MainDataset> = z
         themes: z.array(Id).min(1).max(2),
         polarity: z.enum(['+', '-']),
         discriminant: z.number().min(0).max(2),
+        subject: Id.optional(),
       }),
     ),
     positions: z.record(Id, z.array(PositionCell)),
@@ -79,6 +81,9 @@ export const MainDatasetSchema: z.ZodType<MainDataset> = z
     }
     const themeIds = new Set(ds.themes.map((t) => t.id));
     ds.questions.forEach((q, i) => {
+      // 007 : forme cohérente, jamais mixte (contrat published-dataset-delta).
+      if (ds.selectionRules === 2 && q.subject === undefined) ctx.addIssue({ code: 'custom', path: ['questions', i, 'subject'], message: 'enjeu absent (selectionRules 2)' });
+      if (ds.selectionRules === undefined && q.subject !== undefined) ctx.addIssue({ code: 'custom', path: ['questions', i, 'subject'], message: 'enjeu sans selectionRules 2' });
       for (const t of q.themes) if (!themeIds.has(t)) ctx.addIssue({ code: 'custom', path: ['questions', i, 'themes'], message: `thème inconnu ${t}` });
     });
     const candidateIds = new Set(ds.candidates.map((c) => c.id));

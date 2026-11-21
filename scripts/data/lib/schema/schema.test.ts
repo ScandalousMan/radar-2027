@@ -140,4 +140,10 @@ describe('dimensions du thème et dimension de la question (006)', () => {
     expect(QuestionSchema.safeParse({ ...questions[0], dimension: 'choix' }).error).toBeUndefined();
     expect(QuestionSchema.safeParse(questions[0]).error).toBeUndefined();
   });
+
+  it('acceptent une question avec ou sans enjeu, et refusent un enjeu mal formé (007)', () => {
+    expect(QuestionSchema.safeParse({ ...questions[0], subject: 'salaire-minimum' }).error).toBeUndefined();
+    expect(QuestionSchema.safeParse(questions[0]).error).toBeUndefined();
+    expect(QuestionSchema.safeParse({ ...questions[0], subject: 'Salaire minimum' }).success).toBe(false);
+  });
 });

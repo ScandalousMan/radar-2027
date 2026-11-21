@@ -14,6 +14,8 @@ export type BankQuestion = {
   readonly themeIndices: readonly number[];
   /** Pouvoir discriminant `D_q` figé par la 002, dans [0, 2] (FR-020). */
   readonly discriminant: number;
+  /** Enjeu (007) ; `null` pour les règles 1, qui l'ignorent. */
+  readonly subject: string | null;
   /** Rang dans `BankVersion.questions` (et donc dans chaque ligne de `positions`). */
   readonly index: number;
 };
@@ -23,6 +25,8 @@ export type BankCandidate = { readonly id: string; readonly name: string; readon
 export type BankVersion = {
   readonly version: number;
   readonly publishedAt: string;
+  /** Règles de sélection : 1 = 003 (v1, v2), 2 = par enjeu et par ancrage (007). */
+  readonly selectionRules: 1 | 2;
   readonly themes: readonly BankTheme[];
   readonly themeIndexById: ReadonlyMap<string, number>;
   readonly questions: readonly BankQuestion[];
@@ -32,7 +36,7 @@ export type BankVersion = {
   readonly positions: ReadonlyMap<string, readonly PositionCell[]>;
 };
 
-export type BankErrorCode = 'too-many-themes' | 'duplicate-theme' | 'bad-theme-ref' | 'misaligned-positions' | 'too-many-themes-for-quotas';
+export type BankErrorCode = 'too-many-themes' | 'duplicate-theme' | 'bad-theme-ref' | 'misaligned-positions' | 'too-many-themes-for-quotas' | 'unknown-selection-rules' | 'missing-subject';
 
 /** Version de banque incompatible avec les invariants du domaine (erreur de configuration). */
 export class BankError extends Error {
@@ -47,6 +51,8 @@ export class BankError extends Error {
 
 /** Construit la vue d'une version ; lève `BankError` si un invariant de la 002 est violé. */
 export function bankFromDataset(ds: MainDataset): BankVersion {
+  const selectionRules = (ds.selectionRules ?? 1) as number;
+  if (selectionRules !== 1 && selectionRules !== 2) throw new BankError('unknown-selection-rules', String(selectionRules));
   if (ds.themes.length > MAX_THEMES) throw new BankError('too-many-themes', `${ds.themes.length} > ${MAX_THEMES}`);
   const themeIndexById = new Map<string, number>();
   const themes = ds.themes.map((t, index): BankTheme => {
@@ -64,7 +70,8 @@ export function bankFromDataset(ds: MainDataset): BankVersion {
       return i;
     });
     if (new Set(themeIndices).size !== themeIndices.length) throw new BankError('bad-theme-ref', `${q.id} : thème en double`);
-    const question: BankQuestion = { id: q.id, text: q.text, themeIndices, discriminant: q.discriminant, index };
+    if (selectionRules === 2 && q.subject === undefined) throw new BankError('missing-subject', q.id);
+    const question: BankQuestion = { id: q.id, text: q.text, themeIndices, discriminant: q.discriminant, subject: selectionRules === 2 ? (q.subject ?? null) : null, index };
     questionById.set(q.id, question);
     return question;
   });
@@ -77,7 +84,7 @@ export function bankFromDataset(ds: MainDataset): BankVersion {
     return { id: c.id, name: c.name, party: c.party };
   });
 
-  return { version: ds.version, publishedAt: ds.publishedAt, themes, themeIndexById, questions, questionById, candidates, positions };
+  return { version: ds.version, publishedAt: ds.publishedAt, selectionRules: selectionRules as 1 | 2, themes, themeIndexById, questions, questionById, candidates, positions };
 }
 
 /** Indices canoniques croissants de sujets prioritaires valides (3 à 5, distincts, connus). */

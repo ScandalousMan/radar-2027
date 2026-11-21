@@ -1,6 +1,6 @@
 // @vitest-environment node
 import { describe, expect, it } from 'vitest';
-import { minimalMainDataset } from '../dataset/fixture';
+import { minimalMainDataset, minimalMainDatasetV2 } from '../dataset/fixture';
 import type { MainDataset } from '../dataset';
 import { StateError } from '../types';
 import { BankError, bankFromDataset, normalizePriorities } from './bank';
@@ -28,6 +28,24 @@ describe('bankFromDataset', () => {
     expect(bank.questionById.get('sante-b')?.index).toBe(1);
     expect(bank.positions.get('dupont')).toEqual([[-1, 'p'], null]);
     expect(bank.candidates.map((c) => c.id)).toEqual(['dupont', 'martin']);
+  });
+
+  it('expose les règles et l’enjeu (007)', () => {
+    const v1 = bankFromDataset(minimalMainDataset());
+    expect(v1.selectionRules).toBe(1);
+    expect(v1.questions.every((q) => q.subject === null)).toBe(true);
+    const v2 = bankFromDataset(minimalMainDatasetV2());
+    expect(v2.selectionRules).toBe(2);
+    expect(v2.questions.map((q) => q.subject)).toEqual(['impot-revenu', 'impot-revenu', 'hopital-moyens']);
+  });
+
+  it('refuse des règles inconnues et un enjeu manquant en règles 2', () => {
+    const unknown = minimalMainDatasetV2();
+    (unknown as { selectionRules: number }).selectionRules = 3;
+    expect(codeOf(() => bankFromDataset(unknown))).toBe('unknown-selection-rules');
+    const missing = minimalMainDatasetV2();
+    delete missing.questions[2]!.subject;
+    expect(codeOf(() => bankFromDataset(missing))).toBe('missing-subject');
   });
 
   const mutate = (f: (ds: MainDataset) => void) => {

@@ -18,9 +18,9 @@ export function bankFromCorpus(corpus: Corpus): BankVersion {
   for (const q of all) {
     const themeIndices = q.themes.map((id) => themeIndexById.get(id)).filter((i): i is number => i !== undefined);
     if (themeIndexById.get(q.themes[0]!) === undefined) continue;
-    const question: BankQuestion = { id: q.id, text: q.text, themeIndices, discriminant: 0, index: questions.length };
+    const question: BankQuestion = { id: q.id, text: q.text, themeIndices, discriminant: 0, subject: q.subject ?? null, index: questions.length };
     questions.push(question);
     questionById.set(q.id, question);
   }
-  return { version: 0, publishedAt: '', themes, themeIndexById, questions, questionById, candidates: [], positions: new Map() };
+  return { version: 0, publishedAt: '', selectionRules: 2, themes, themeIndexById, questions, questionById, candidates: [], positions: new Map() };
 }

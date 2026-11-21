@@ -1,6 +1,6 @@
 // @vitest-environment node
 import { describe, expect, it } from 'vitest';
-import { minimalMainDataset } from './fixture';
+import { minimalMainDataset, minimalMainDatasetV2 } from './fixture';
 import { CandidateDetailSchema, MainDatasetSchema, VersionRegistrySchema } from './schema';
 import type { MainDataset } from './types';
 
@@ -24,6 +24,31 @@ describe('MainDatasetSchema', () => {
     const ds = minimalMainDataset();
     mutate(ds);
     expect(ok(ds)).toBe(false);
+  });
+});
+
+describe('MainDatasetSchema, règles de sélection 2 (007)', () => {
+  it('accepte la forme règles 2', () => {
+    expect(MainDatasetSchema.safeParse(minimalMainDatasetV2()).error).toBeUndefined();
+  });
+
+  it.each<[string, (ds: MainDataset) => void]>([
+    ['règles 3', (ds) => void ((ds as { selectionRules: number }).selectionRules = 3)],
+    ['règles 2 avec une question sans enjeu', (ds) => void delete ds.questions[1]!.subject],
+    ['forme mixte : enjeu sans selectionRules', (ds) => void delete ds.selectionRules],
+    ['enjeu mal formé', (ds) => void (ds.questions[0]!.subject = 'Impôt Revenu')],
+  ])('rejette : %s', (_, mutate) => {
+    const ds = minimalMainDatasetV2();
+    mutate(ds);
+    expect(ok(ds)).toBe(false);
+  });
+
+  it('accepte les versions 1 et 2 réelles', async () => {
+    const { readFileSync } = await import('node:fs');
+    for (const v of [1, 2]) {
+      const ds = JSON.parse(readFileSync(`public/data/versions/${v}/main.json`, 'utf8'));
+      expect(MainDatasetSchema.safeParse(ds).error).toBeUndefined();
+    }
   });
 });
 
