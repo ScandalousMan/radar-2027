@@ -6,6 +6,7 @@
   text: Des peines minimales doivent être rétablies pour les récidivistes.
   themes:
     - justice
+  subject: justice-peines-minimales-recidive
   polarity: +
   status: active
   author: claude
@@ -22,6 +23,7 @@
   text: Les peines de prison de moins d'un an doivent être remplacées par des peines alternatives.
   themes:
     - justice
+  subject: peines-alternatives-prison
   polarity: "-"
   status: active
   author: claude
@@ -38,6 +40,7 @@
   text: La majorité pénale doit être abaissée à 16 ans.
   themes:
     - justice
+  subject: justice-majorite-penale-16-ans
   polarity: +
   status: active
   author: claude
@@ -54,6 +57,7 @@
   text: La construction de nouvelles places de prison doit être arrêtée.
   themes:
     - justice
+  subject: justice-arret-construction-prisons
   polarity: "-"
   status: active
   author: claude
@@ -70,6 +74,7 @@
   text: Les réductions automatiques de peine doivent être supprimées.
   themes:
     - justice
+  subject: justice-supprimer-reductions-automatiques
   polarity: +
   status: active
   author: claude
@@ -89,6 +94,7 @@
   themes:
     - justice
     - travail
+  subject: justice-accompagnement-emploi-detenus
   polarity: "-"
   status: active
   author: claude
@@ -105,6 +111,7 @@
   text: La réclusion à perpétuité sans possibilité de libération doit s'appliquer à davantage de crimes.
   themes:
     - justice
+  subject: justice-perpetuite-reelle-etendue
   polarity: +
   status: active
   author: claude
@@ -121,6 +128,7 @@
   text: Les mineurs de plus de 16 ans doivent pouvoir être jugés en comparution immédiate.
   themes:
     - justice
+  subject: justice-comparution-immediate-mineurs
   polarity: +
   status: active
   author: claude
@@ -139,6 +147,7 @@
   text: "Les détenus doivent participer financièrement à leurs frais d'incarcération."
   themes:
     - justice
+  subject: justice-detenus-frais-incarceration
   polarity: +
   status: active
   author: claude
@@ -155,6 +164,7 @@
   text: La libération conditionnelle doit être réservée aux détenus ayant purgé au moins les deux tiers de leur peine.
   themes:
     - justice
+  subject: justice-liberation-conditionnelle-deux-tiers
   polarity: +
   status: active
   author: claude
@@ -173,6 +183,7 @@
   text: "Les crimes sexuels commis sur des mineurs doivent être imprescriptibles."
   themes:
     - justice
+  subject: justice-imprescriptibilite-crimes-sexuels-mineurs
   polarity: +
   status: active
   author: claude
@@ -192,6 +203,7 @@
   themes:
     - justice
     - societe
+  subject: justice-sanction-financiere-parents
   polarity: +
   status: active
   author: claude
@@ -208,6 +220,7 @@
   text: Le nombre de détenus doit être plafonné au nombre de places de prison disponibles.
   themes:
     - justice
+  subject: justice-plafonner-detenus-places
   polarity: "-"
   status: active
   author: claude
@@ -224,6 +237,7 @@
   text: Le travail d'intérêt général doit être préféré à la prison pour les délits commis sans violence.
   themes:
     - justice
+  subject: peines-alternatives-prison
   polarity: "-"
   status: active
   author: claude
@@ -240,6 +254,7 @@
   text: La justice restaurative doit être proposée systématiquement aux victimes et aux auteurs d'infractions.
   themes:
     - justice
+  subject: justice-justice-restaurative-systematique
   polarity: "-"
   status: active
   author: claude
@@ -259,6 +274,7 @@
   text: "Les mineurs doivent être jugés par des juridictions distinctes de celles des majeurs."
   themes:
     - justice
+  subject: justice-juridictions-mineurs-specialisees-v2
   polarity: "-"
   status: active
   author: claude
@@ -277,6 +293,7 @@
   text: "Toutes les prisons doivent permettre des visites familiales prolongées sans surveillance directe."
   themes:
     - justice
+  subject: justice-visites-familiales-prisons
   polarity: "-"
   status: active
   author: claude

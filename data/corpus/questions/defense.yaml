@@ -6,6 +6,7 @@
   text: Le budget des armées doit atteindre 3 % du PIB.
   themes:
     - defense
+  subject: defense-budget-armees
   polarity: +
   status: active
   author: claude
@@ -23,6 +24,7 @@
   themes:
     - defense
     - international
+  subject: defense-presence-militaire-etranger
   polarity: "-"
   status: active
   author: claude
@@ -40,6 +42,7 @@
   themes:
     - defense
     - international
+  subject: defense-armes-ukraine
   polarity: +
   status: active
   author: claude
@@ -56,6 +59,7 @@
   text: La France doit renoncer à moderniser sa dissuasion nucléaire.
   themes:
     - defense
+  subject: defense-renoncer-modernisation-dissuasion
   polarity: "-"
   status: active
   author: claude
@@ -72,6 +76,7 @@
   text: Une défense européenne commune doit être financée par un emprunt de l'Union européenne.
   themes:
     - defense
+  subject: defense-defense-europeenne-emprunt
   polarity: +
   status: active
   author: claude
@@ -91,6 +96,7 @@
   text: "Les exportations d'armes françaises doivent être soumises à un contrôle parlementaire préalable."
   themes:
     - defense
+  subject: defense-exportations-armes
   polarity: "-"
   status: active
   author: claude
@@ -107,6 +113,7 @@
   text: Les effectifs des armées doivent augmenter d'au moins 10 % d'ici 2030.
   themes:
     - defense
+  subject: defense-effectifs-armees-hausse
   polarity: +
   status: active
   author: claude
@@ -127,6 +134,7 @@
   themes:
     - defense
     - international
+  subject: defense-dissuasion-protection-europe-v2
   polarity: +
   status: active
   author: claude
@@ -143,6 +151,7 @@
   text: La France doit se doter d'un second porte-avions.
   themes:
     - defense
+  subject: defense-second-porte-avions
   polarity: +
   status: active
   author: claude
@@ -163,6 +172,7 @@
   themes:
     - defense
     - international
+  subject: defense-troupes-ukraine-cessez-le-feu-v2
   polarity: +
   status: active
   author: claude
@@ -179,6 +189,7 @@
   text: Le nombre de réservistes opérationnels des armées doit être doublé.
   themes:
     - defense
+  subject: defense-doubler-reservistes
   polarity: +
   status: active
   author: claude
@@ -198,6 +209,7 @@
   themes:
     - defense
     - economie
+  subject: defense-livret-a-industrie-defense
   polarity: +
   status: active
   author: claude
@@ -215,6 +227,7 @@
   themes:
     - defense
     - international
+  subject: defense-traite-interdiction-armes-nucleaires
   polarity: "-"
   status: active
   author: claude
@@ -232,6 +245,7 @@
   themes:
     - defense
     - international
+  subject: defense-exportations-armes
   polarity: "-"
   status: active
   author: claude
@@ -248,6 +262,7 @@
   text: Le budget des armées doit être réduit en proportion du PIB.
   themes:
     - defense
+  subject: defense-budget-armees
   polarity: "-"
   status: active
   author: claude
@@ -265,6 +280,7 @@
   themes:
     - defense
     - international
+  subject: defense-presence-militaire-etranger
   polarity: "-"
   status: active
   author: claude
@@ -281,6 +297,7 @@
   text: Les dépenses sociales doivent passer avant les dépenses militaires dans le budget de l'État.
   themes:
     - defense
+  subject: defense-priorite-depenses-sociales
   polarity: "-"
   status: active
   author: claude

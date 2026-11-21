@@ -44,6 +44,18 @@ dimension compte au moins 3 questions actives et que le thème compte au moins a
 questions actives que le quota maximal d'un thème prioritaire en mode complet (13 pour
 18 thèmes). Le thème `education` est le premier à l'utiliser.
 
+## Enjeu des questions (spec 007)
+
+Chaque question active porte un `subject` (identifiant kebab-case, juste après `themes:`) :
+l'enjeu, commun à toutes les questions qui portent sur le même dispositif, la même règle ou le
+même paramètre de politique publique (`retraite-age-legal` pour « 62 ans » et « au-delà de
+64 ans »). Une question seule prend son propre identifiant. Un questionnaire ne contient jamais
+deux questions du même enjeu (règles de sélection 2). L'enjeu est publié dans `main.json` à
+partir de la version 3, avec `selectionRules: 2`, mais jamais affiché. La règle `SUBJECT`
+signale en erreur une question active sans enjeu et, en avertissement, chaque enjeu partagé et
+chaque thème dont les enjeux distincts sont sous le quota maximal d'un thème prioritaire. Les
+regroupements sont relus par adrien dans `data/relectures/2026-11-21-enjeux.md`.
+
 ## Gouvernance (FR-041)
 
 - Toute modification du corpus passe par une **pull request de données, distincte des pull

@@ -6,6 +6,7 @@
   text: L'accès aux réseaux sociaux doit être interdit aux moins de 15 ans.
   themes:
     - numerique
+  subject: numerique-reseaux-sociaux-moins-15-ans
   polarity: +
   status: active
   author: claude
@@ -22,6 +23,7 @@
   text: Les règles européennes encadrant l'intelligence artificielle doivent être assouplies.
   themes:
     - numerique
+  subject: numerique-assouplir-regles-ia
   polarity: "-"
   status: active
   author: claude
@@ -39,6 +41,7 @@
   themes:
     - numerique
     - fiscalite
+  subject: numerique-taxe-plateformes
   polarity: +
   status: active
   author: claude
@@ -55,6 +58,7 @@
   text: L'anonymat en ligne doit être préservé sur les réseaux sociaux.
   themes:
     - numerique
+  subject: numerique-anonymat-en-ligne
   polarity: "-"
   status: active
   author: claude
@@ -73,6 +77,7 @@
   text: "Les administrations doivent utiliser en priorité des logiciels libres ou hébergés en Europe."
   themes:
     - numerique
+  subject: numerique-logiciels-libres-administration
   polarity: +
   status: active
   author: claude
@@ -93,6 +98,7 @@
   themes:
     - numerique
     - securite
+  subject: numerique-chiffrement-messageries-v2
   polarity: "-"
   status: active
   author: claude
@@ -109,6 +115,7 @@
   text: Les plateformes doivent rendre publics les algorithmes qui hiérarchisent les contenus.
   themes:
     - numerique
+  subject: numerique-algorithmes-publics
   polarity: +
   status: active
   author: claude
@@ -128,6 +135,7 @@
   themes:
     - numerique
     - societe
+  subject: numerique-telephone-interdit-lycees
   polarity: +
   status: active
   author: claude
@@ -147,6 +155,7 @@
   themes:
     - numerique
     - sante
+  subject: numerique-donnees-sante-hebergeurs-europeens
   polarity: +
   status: active
   author: claude
@@ -164,6 +173,7 @@
   themes:
     - numerique
     - economie
+  subject: numerique-scission-grandes-plateformes
   polarity: +
   status: active
   author: claude
@@ -180,6 +190,7 @@
   text: Les entreprises d'intelligence artificielle doivent rémunérer les auteurs dont les œuvres servent à entraîner leurs modèles.
   themes:
     - numerique
+  subject: numerique-ia-remuneration-auteurs
   polarity: +
   status: active
   author: claude
@@ -197,6 +208,7 @@
   themes:
     - numerique
     - environnement
+  subject: centres-donnees-implantation
   polarity: "-"
   status: active
   author: claude
@@ -213,6 +225,7 @@
   text: Les obligations de modération imposées aux réseaux sociaux doivent être allégées.
   themes:
     - numerique
+  subject: numerique-alleger-moderation
   polarity: "-"
   status: active
   author: claude
@@ -229,6 +242,7 @@
   text: Les règles de consentement aux traceurs publicitaires sur internet doivent être assouplies.
   themes:
     - numerique
+  subject: numerique-assouplir-consentement-traceurs
   polarity: "-"
   status: active
   author: claude
@@ -246,6 +260,7 @@
   themes:
     - numerique
     - economie
+  subject: numerique-rgpd-petites-entreprises
   polarity: "-"
   status: active
   author: claude
@@ -265,6 +280,7 @@
   text: "La responsabilité juridique des plateformes pour les contenus publiés par leurs utilisateurs doit être limitée."
   themes:
     - numerique
+  subject: numerique-responsabilite-plateformes-limitee-v2
   polarity: "-"
   status: active
   author: claude
@@ -281,6 +297,7 @@
   text: Les entreprises doivent pouvoir utiliser librement les données publiques pour entraîner des modèles d'intelligence artificielle.
   themes:
     - numerique
+  subject: numerique-donnees-publiques-entrainement-ia
   polarity: "-"
   status: active
   author: claude

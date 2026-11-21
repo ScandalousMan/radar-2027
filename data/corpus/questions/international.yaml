@@ -6,6 +6,7 @@
   text: La France doit accepter que davantage de décisions soient prises à la majorité qualifiée au sein de l'Union européenne.
   themes:
     - international
+  subject: international-majorite-qualifiee-ue
   polarity: +
   status: active
   author: claude
@@ -26,6 +27,7 @@
   themes:
     - international
     - institutions
+  subject: international-primaute-loi-nationale-v2
   polarity: "-"
   status: active
   author: claude
@@ -42,6 +44,7 @@
   text: L'aide publique au développement doit atteindre 0,7 % du revenu national brut.
   themes:
     - international
+  subject: international-aide-developpement-0-7
   polarity: +
   status: active
   author: claude
@@ -59,6 +62,7 @@
   themes:
     - international
     - defense
+  subject: international-quitter-commandement-otan
   polarity: "-"
   status: active
   author: claude
@@ -75,6 +79,7 @@
   text: L'Union européenne doit pouvoir emprunter en commun pour financer des investissements.
   themes:
     - international
+  subject: international-emprunt-commun-ue
   polarity: +
   status: active
   author: claude
@@ -91,6 +96,7 @@
   text: La contribution de la France au budget de l'Union européenne doit être réduite.
   themes:
     - international
+  subject: international-reduire-contribution-ue
   polarity: "-"
   status: active
   author: claude
@@ -109,6 +115,7 @@
   text: "L'Ukraine doit pouvoir adhérer à l'Union européenne."
   themes:
     - international
+  subject: international-adhesion-ukraine-ue
   polarity: +
   status: active
   author: claude
@@ -126,6 +133,7 @@
   themes:
     - international
     - democratie
+  subject: international-listes-transnationales
   polarity: +
   status: active
   author: claude
@@ -143,6 +151,7 @@
   themes:
     - international
     - fiscalite
+  subject: international-impots-propres-ue
   polarity: +
   status: active
   author: claude
@@ -160,6 +169,7 @@
   themes:
     - international
     - defense
+  subject: international-casques-bleus
   polarity: +
   status: active
   author: claude
@@ -177,6 +187,7 @@
   themes:
     - international
     - institutions
+  subject: international-initiative-parlement-europeen
   polarity: +
   status: active
   author: claude
@@ -194,6 +205,7 @@
   themes:
     - international
     - democratie
+  subject: international-referendum-traites-europeens
   polarity: "-"
   status: active
   author: claude
@@ -211,6 +223,7 @@
   themes:
     - international
     - democratie
+  subject: international-referendum-maintien-ue
   polarity: "-"
   status: active
   author: claude
@@ -227,6 +240,7 @@
   text: Les traités européens doivent être renégociés pour rendre des compétences aux États.
   themes:
     - international
+  subject: international-renegocier-traites-competences
   polarity: "-"
   status: active
   author: claude
@@ -244,6 +258,7 @@
   themes:
     - international
     - immigration
+  subject: international-controles-frontieres-schengen
   polarity: "-"
   status: active
   author: claude
@@ -260,6 +275,7 @@
   text: L'Union européenne doit renforcer ses sanctions contre la Russie.
   themes:
     - international
+  subject: international-renforcer-sanctions-russie
   polarity: +
   status: active
   author: claude
@@ -280,6 +296,7 @@
   themes:
     - international
     - justice
+  subject: international-arrets-cedh-derogation-v2
   polarity: "-"
   status: active
   author: claude

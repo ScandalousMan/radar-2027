@@ -6,6 +6,7 @@
   text: Un référendum d'initiative citoyenne doit pouvoir être déclenché par une pétition signée par un nombre fixé d'électeurs.
   themes:
     - democratie
+  subject: referendum-declenchement-national
   polarity: +
   status: active
   author: claude
@@ -24,6 +25,7 @@
   text: "Le recours au référendum doit rester exceptionnel."
   themes:
     - democratie
+  subject: democratie-referendum-exceptionnel
   polarity: "-"
   status: active
   author: claude
@@ -40,6 +42,7 @@
   text: Des conventions citoyennes tirées au sort doivent être consultées avant les grandes réformes.
   themes:
     - democratie
+  subject: assemblees-citoyennes-tirage-au-sort
   polarity: +
   status: active
   author: claude
@@ -59,6 +62,7 @@
   text: "Les assemblées citoyennes tirées au sort doivent avoir un rôle consultatif et non décisionnel."
   themes:
     - democratie
+  subject: assemblees-citoyennes-tirage-au-sort
   polarity: "-"
   status: active
   author: claude
@@ -75,6 +79,7 @@
   text: Le vote blanc doit être pris en compte dans les suffrages exprimés.
   themes:
     - democratie
+  subject: democratie-vote-blanc-exprime
   polarity: +
   status: active
   author: claude
@@ -95,6 +100,7 @@
   themes:
     - democratie
     - institutions
+  subject: referendum-declenchement-national
   polarity: "-"
   status: active
   author: claude
@@ -111,6 +117,7 @@
   text: Les habitants d'une commune doivent pouvoir imposer l'organisation d'un référendum local par une pétition.
   themes:
     - democratie
+  subject: democratie-referendum-local-initiative
   polarity: +
   status: active
   author: claude
@@ -129,6 +136,7 @@
   text: "Chaque commune de plus de 10 000 habitants doit consacrer une part de son budget à des projets choisis par les habitants."
   themes:
     - democratie
+  subject: democratie-budget-participatif-communes
   polarity: +
   status: active
   author: claude
@@ -145,6 +153,7 @@
   text: Les électeurs doivent pouvoir révoquer un élu en cours de mandat par référendum.
   themes:
     - democratie
+  subject: democratie-referendum-revocatoire
   polarity: +
   status: active
   author: claude
@@ -161,6 +170,7 @@
   text: Le droit de vote doit être accordé dès 16 ans.
   themes:
     - democratie
+  subject: democratie-vote-16-ans
   polarity: +
   status: active
   author: claude
@@ -177,6 +187,7 @@
   text: Une pétition signée par un million de personnes doit obligatoirement être débattue en séance au Parlement.
   themes:
     - democratie
+  subject: democratie-petition-debat-parlement
   polarity: +
   status: active
   author: claude
@@ -194,6 +205,7 @@
   themes:
     - democratie
     - institutions
+  subject: democratie-chambre-tiree-au-sort
   polarity: +
   status: active
   author: claude
@@ -211,6 +223,7 @@
   themes:
     - democratie
     - institutions
+  subject: democratie-supprimer-cese
   polarity: "-"
   status: active
   author: claude
@@ -230,6 +243,7 @@
   text: "Le seuil de soutien d'un dixième des électeurs inscrits doit être maintenu pour déclencher un référendum d'initiative partagée."
   themes:
     - democratie
+  subject: referendum-declenchement-national
   polarity: "-"
   status: active
   author: claude
@@ -248,6 +262,7 @@
   text: "Les candidats à l'élection présidentielle doivent continuer à recueillir 500 parrainages d'élus."
   themes:
     - democratie
+  subject: democratie-parrainages-elus-maintenus
   polarity: "-"
   status: active
   author: claude
@@ -266,6 +281,7 @@
   text: "Les procédures de consultation du public sur les projets d'aménagement doivent être raccourcies."
   themes:
     - democratie
+  subject: democratie-raccourcir-consultations-public
   polarity: "-"
   status: active
   author: claude
@@ -282,6 +298,7 @@
   text: La Commission nationale du débat public doit être supprimée.
   themes:
     - democratie
+  subject: democratie-supprimer-cndp
   polarity: "-"
   status: active
   author: claude
@@ -303,6 +320,7 @@
   text: "Le référendum sur un texte de loi doit rester limité à ses sujets actuels (notamment institutions, politique économique, sociale ou environnementale), sans être étendu à tous les domaines de la loi."
   themes:
     - democratie
+  subject: democratie-champ-referendum-inchange
   polarity: "-"
   status: active
   author: claude
@@ -326,6 +344,7 @@
   text: "Une révision de la Constitution doit pouvoir continuer à être adoptée par le Parlement réuni en Congrès, sans référendum."
   themes:
     - democratie
+  subject: revision-constitution-procedure
   polarity: "-"
   status: active
   author: claude

@@ -21,6 +21,7 @@ import { PUB_BUDGET } from './PUB-BUDGET';
 import { PUB_IMMUTABLE } from './PUB-IMMUTABLE';
 import { REF_EXISTS } from './REF-EXISTS';
 import { SCALE } from './SCALE';
+import { SUBJECT } from './SUBJECT';
 import type { Rule, RuleContext, Violation, Warning } from './types';
 
 export const RULES: Rule[] = [
@@ -35,6 +36,7 @@ export const RULES: Rule[] = [
   FR_011,
   FR_012,
   AXIS_DIM,
+  SUBJECT,
   FR_013,
   FR_014,
   FR_015,

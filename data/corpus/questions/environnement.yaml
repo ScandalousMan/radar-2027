@@ -7,6 +7,7 @@
   themes:
     - environnement
     - transport
+  subject: environnement-fin-thermique-2035
   polarity: +
   status: active
   author: claude
@@ -24,6 +25,7 @@
   themes:
     - environnement
     - fiscalite
+  subject: environnement-supprimer-taxe-carbone
   polarity: "-"
   status: active
   author: claude
@@ -41,6 +43,7 @@
   themes:
     - environnement
     - transport
+  subject: environnement-interdire-vols-interieurs
   polarity: +
   status: active
   author: claude
@@ -57,6 +60,7 @@
   text: Les objectifs de réduction de l'artificialisation des sols doivent être assouplis.
   themes:
     - environnement
+  subject: environnement-assouplir-artificialisation
   polarity: "-"
   status: active
   author: claude
@@ -73,6 +77,7 @@
   text: Les entreprises doivent payer une taxe sur les émissions de gaz à effet de serre de leurs importations.
   themes:
     - environnement
+  subject: environnement-taxe-carbone-importations
   polarity: +
   status: active
   author: claude
@@ -90,6 +95,7 @@
   themes:
     - environnement
     - transport
+  subject: environnement-supprimer-zfe
   polarity: "-"
   status: active
   author: claude
@@ -108,6 +114,7 @@
   text: "L'interdiction de louer les logements les moins bien isolés doit être appliquée selon le calendrier prévu."
   themes:
     - environnement
+  subject: environnement-calendrier-logements-mal-isoles
   polarity: +
   status: active
   author: claude
@@ -125,6 +132,7 @@
   themes:
     - environnement
     - fiscalite
+  subject: environnement-taxer-kerosene-vols-interieurs
   polarity: +
   status: active
   author: claude
@@ -142,6 +150,7 @@
   themes:
     - environnement
     - justice
+  subject: environnement-ecocide-crime
   polarity: +
   status: active
   author: claude
@@ -158,6 +167,7 @@
   text: La publicité pour les véhicules les plus émetteurs de CO2 doit être interdite.
   themes:
     - environnement
+  subject: environnement-publicite-vehicules-emetteurs
   polarity: +
   status: active
   author: claude
@@ -174,6 +184,7 @@
   text: Les emballages en plastique à usage unique doivent être interdits d'ici 2030.
   themes:
     - environnement
+  subject: environnement-plastique-usage-unique-2030
   polarity: +
   status: active
   author: claude
@@ -190,6 +201,7 @@
   text: Les grandes entreprises doivent être tenues de réduire leurs émissions selon une trajectoire fixée par la loi.
   themes:
     - environnement
+  subject: environnement-trajectoire-emissions-entreprises
   polarity: +
   status: active
   author: claude
@@ -207,6 +219,7 @@
   themes:
     - environnement
     - international
+  subject: environnement-pause-normes-europeennes
   polarity: "-"
   status: active
   author: claude
@@ -225,6 +238,7 @@
   text: "La chasse doit rester autorisée le dimanche."
   themes:
     - environnement
+  subject: environnement-chasse-dimanche
   polarity: "-"
   status: active
   author: claude
@@ -245,6 +259,7 @@
   themes:
     - environnement
     - agriculture
+  subject: environnement-gazole-non-routier-agriculteurs
   polarity: "-"
   status: active
   author: claude
@@ -265,6 +280,7 @@
   themes:
     - environnement
     - economie
+  subject: environnement-limiter-recours-projets-v2
   polarity: "-"
   status: active
   author: claude
@@ -281,6 +297,7 @@
   text: L'exploitation de nouveaux gisements d'hydrocarbures doit être autorisée sur le territoire français.
   themes:
     - environnement
+  subject: environnement-exploitation-hydrocarbures
   polarity: "-"
   status: active
   author: claude
@@ -302,6 +319,7 @@
   text: "Un projet industriel ou d'aménagement doit pouvoir obtenir plus facilement une dérogation à l'interdiction de détruire des espèces protégées."
   themes:
     - environnement
+  subject: environnement-faciliter-derogation-especes
   polarity: "-"
   status: active
   author: claude

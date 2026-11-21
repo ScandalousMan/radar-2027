@@ -7,6 +7,7 @@
   text: La part du nucléaire dans la production d'électricité doit être progressivement réduite.
   themes:
     - energie
+  subject: energie-reduire-part-nucleaire
   polarity: +
   status: active
   author: claude
@@ -23,6 +24,7 @@
   text: La France doit construire de nouveaux réacteurs nucléaires au-delà des six EPR2 prévus.
   themes:
     - energie
+  subject: energie-nouveaux-reacteurs-au-dela-epr2
   polarity: "-"
   status: active
   author: claude
@@ -39,6 +41,7 @@
   text: L'implantation d'éoliennes terrestres doit être accélérée.
   themes:
     - energie
+  subject: eolien-implantation
   polarity: +
   status: active
   author: claude
@@ -56,6 +59,7 @@
   themes:
     - energie
     - environnement
+  subject: eolien-implantation
   polarity: "-"
   status: active
   author: claude
@@ -72,6 +76,7 @@
   text: Les panneaux solaires doivent être obligatoires sur les toits de tous les bâtiments neufs.
   themes:
     - energie
+  subject: energie-solaire-toits-batiments-neufs
   polarity: +
   status: active
   author: claude
@@ -88,6 +93,7 @@
   text: Les réacteurs nucléaires existants doivent être prolongés au-delà de 60 ans lorsque l'autorité de sûreté l'autorise.
   themes:
     - energie
+  subject: energie-prolonger-reacteurs-60-ans
   polarity: "-"
   status: active
   author: claude
@@ -105,6 +111,7 @@
   themes:
     - energie
     - environnement
+  subject: energie-consommation-moitie-2050
   polarity: +
   status: active
   author: claude
@@ -122,6 +129,7 @@
   themes:
     - energie
     - economie
+  subject: energie-petits-reacteurs-modulaires
   polarity: "-"
   status: active
   author: claude
@@ -141,6 +149,7 @@
   themes:
     - energie
     - numerique
+  subject: centres-donnees-implantation
   polarity: +
   status: active
   author: claude
@@ -157,6 +166,7 @@
   text: Les aides publiques à la production d'électricité solaire et éolienne doivent être supprimées.
   themes:
     - energie
+  subject: energie-supprimer-aides-solaire-eolien
   polarity: "-"
   status: active
   author: claude
@@ -173,6 +183,7 @@
   text: Les fonds publics consacrés à l'énergie doivent aller en priorité aux énergies renouvelables plutôt qu'au nucléaire.
   themes:
     - energie
+  subject: energie-fonds-publics-renouvelables
   polarity: +
   status: active
   author: claude
@@ -190,6 +201,7 @@
   themes:
     - energie
     - numerique
+  subject: energie-centres-donnees-pres-centrales
   polarity: "-"
   status: active
   author: claude

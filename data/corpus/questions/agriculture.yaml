@@ -7,6 +7,7 @@
   themes:
     - agriculture
     - environnement
+  subject: agriculture-pesticides-moitie-2030
   polarity: +
   status: active
   author: claude
@@ -23,6 +24,7 @@
   text: Les normes environnementales imposées aux agriculteurs français doivent être allégées.
   themes:
     - agriculture
+  subject: agriculture-alleger-normes-agricoles
   polarity: "-"
   status: active
   author: claude
@@ -41,6 +43,7 @@
   text: "Des prix plancher garantis doivent être fixés pour les principales productions agricoles."
   themes:
     - agriculture
+  subject: agriculture-prix-plancher-agricoles
   polarity: +
   status: active
   author: claude
@@ -57,6 +60,7 @@
   text: La construction de retenues d'eau pour l'irrigation doit être facilitée.
   themes:
     - agriculture
+  subject: agriculture-retenues-eau-irrigation
   polarity: "-"
   status: active
   author: claude
@@ -76,6 +80,7 @@
   text: "Les produits issus de l'agriculture biologique doivent représenter au moins 30 % des achats alimentaires de la restauration collective publique."
   themes:
     - agriculture
+  subject: agriculture-bio-restauration-collective-v2
   polarity: +
   status: active
   author: claude
@@ -92,6 +97,7 @@
   text: Les exploitations agricoles doivent pouvoir s'agrandir sans autorisation administrative.
   themes:
     - agriculture
+  subject: agriculture-agrandissement-sans-autorisation
   polarity: "-"
   status: active
   author: claude
@@ -111,6 +117,7 @@
   text: "Les restaurants doivent indiquer l'origine des viandes utilisées dans les plats qu'ils servent."
   themes:
     - agriculture
+  subject: agriculture-origine-viandes-restaurants-v2
   polarity: +
   status: active
   author: claude
@@ -128,6 +135,7 @@
   themes:
     - agriculture
     - environnement
+  subject: agriculture-interdire-glyphosate
   polarity: +
   status: active
   author: claude
@@ -144,6 +152,7 @@
   text: Le prix de vente des terres agricoles doit être encadré par l'État.
   themes:
     - agriculture
+  subject: agriculture-encadrer-prix-terres
   polarity: +
   status: active
   author: claude
@@ -160,6 +169,7 @@
   text: Les aides de la politique agricole commune versées à une même exploitation doivent être plafonnées.
   themes:
     - agriculture
+  subject: agriculture-plafonner-aides-pac
   polarity: +
   status: active
   author: claude
@@ -176,6 +186,7 @@
   text: L'élevage de poules pondeuses en cage doit être interdit.
   themes:
     - agriculture
+  subject: agriculture-interdire-poules-cage
   polarity: +
   status: active
   author: claude
@@ -195,6 +206,7 @@
   themes:
     - agriculture
     - environnement
+  subject: agriculture-chalut-aires-protegees
   polarity: +
   status: active
   author: claude
@@ -213,6 +225,7 @@
   text: "La culture de plantes issues des nouvelles techniques génomiques doit être autorisée en France."
   themes:
     - agriculture
+  subject: agriculture-autoriser-nouvelles-techniques-genomiques
   polarity: "-"
   status: active
   author: claude
@@ -230,6 +243,7 @@
   themes:
     - agriculture
     - environnement
+  subject: agriculture-derogations-neonicotinoides
   polarity: "-"
   status: active
   author: claude
@@ -246,6 +260,7 @@
   text: Les contrôles administratifs dans les exploitations agricoles doivent être moins fréquents.
   themes:
     - agriculture
+  subject: agriculture-moins-controles-exploitations
   polarity: "-"
   status: active
   author: claude
@@ -266,6 +281,7 @@
   themes:
     - agriculture
     - environnement
+  subject: agriculture-tirs-loups-sans-autorisation-v2
   polarity: "-"
   status: active
   author: claude
@@ -284,6 +300,7 @@
   text: "Les agriculteurs doivent pouvoir curer les fossés et les cours d'eau sans autorisation préalable."
   themes:
     - agriculture
+  subject: agriculture-curage-fosses-sans-autorisation
   polarity: "-"
   status: active
   author: claude

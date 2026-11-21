@@ -9,6 +9,7 @@
   themes:
     - societe
     - sante
+  subject: societe-aide-active-a-mourir
   polarity: +
   status: active
   author: claude
@@ -28,6 +29,7 @@
   text: "La gestation pour autrui doit être interdite en France."
   themes:
     - societe
+  subject: societe-gpa-interdite-v2
   polarity: "-"
   status: active
   author: claude
@@ -44,6 +46,7 @@
   text: La consommation de cannabis par les adultes doit être légalisée et encadrée.
   themes:
     - societe
+  subject: societe-cannabis-legalisation
   polarity: +
   status: active
   author: claude
@@ -60,6 +63,7 @@
   text: Le port de signes religieux doit être interdit aux accompagnateurs de sorties scolaires.
   themes:
     - societe
+  subject: signes-religieux-interdiction
   polarity: "-"
   status: active
   author: claude
@@ -77,6 +81,7 @@
   themes:
     - societe
     - travail
+  subject: societe-conge-second-parent
   polarity: +
   status: active
   author: claude
@@ -93,6 +98,7 @@
   text: Le service national doit devenir obligatoire pour tous les jeunes.
   themes:
     - societe
+  subject: societe-service-national-obligatoire
   polarity: "-"
   status: active
   author: claude
@@ -109,6 +115,7 @@
   text: La procédure de changement de la mention du sexe à l'état civil doit être simplifiée.
   themes:
     - societe
+  subject: societe-simplifier-changement-sexe-etat-civil
   polarity: +
   status: active
   author: claude
@@ -125,6 +132,7 @@
   text: Les couples non mariés doivent bénéficier des mêmes droits de succession que les couples mariés.
   themes:
     - societe
+  subject: societe-succession-couples-non-maries
   polarity: +
   status: active
   author: claude
@@ -142,6 +150,7 @@
   themes:
     - societe
     - sante
+  subject: societe-pma-post-mortem
   polarity: +
   status: active
   author: claude
@@ -162,6 +171,7 @@
   themes:
     - societe
     - sante
+  subject: societe-salles-consommation-drogue-v2
   polarity: +
   status: active
   author: claude
@@ -181,6 +191,7 @@
   text: "Un beau-parent doit pouvoir obtenir un statut juridique lui donnant des droits à l'égard de l'enfant de son conjoint."
   themes:
     - societe
+  subject: societe-statut-beau-parent-v2
   polarity: +
   status: active
   author: claude
@@ -199,6 +210,7 @@
   text: "Les jeux de casino en ligne doivent être légalisés et encadrés."
   themes:
     - societe
+  subject: societe-casinos-en-ligne
   polarity: +
   status: active
   author: claude
@@ -215,6 +227,7 @@
   text: Le port d'une tenue uniforme doit être obligatoire à l'école publique.
   themes:
     - societe
+  subject: uniforme-ecole
   polarity: "-"
   status: active
   author: claude
@@ -233,6 +246,7 @@
   text: "Le port de signes religieux ostensibles doit être interdit aux étudiants à l'université."
   themes:
     - societe
+  subject: signes-religieux-interdiction
   polarity: "-"
   status: active
   author: claude
@@ -251,6 +265,7 @@
   text: "L'écriture inclusive doit être interdite dans les documents administratifs."
   themes:
     - societe
+  subject: societe-interdire-ecriture-inclusive
   polarity: "-"
   status: active
   author: claude
@@ -267,6 +282,7 @@
   text: Les séances d'éducation à la sexualité à l'école doivent être soumises à l'accord des parents.
   themes:
     - societe
+  subject: societe-education-sexualite-accord-parents
   polarity: "-"
   status: active
   author: claude
@@ -283,6 +299,7 @@
   text: L'instruction en famille doit rester soumise à une autorisation préalable.
   themes:
     - societe
+  subject: societe-instruction-famille-autorisation
   polarity: "-"
   status: active
   author: claude

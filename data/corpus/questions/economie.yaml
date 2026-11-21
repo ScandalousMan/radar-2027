@@ -8,6 +8,7 @@
   text: "L'État doit prendre des participations dans les entreprises industrielles jugées stratégiques."
   themes:
     - economie
+  subject: participations-etat
   polarity: +
   status: active
   author: claude
@@ -24,6 +25,7 @@
   text: Les règles encadrant la création et la gestion des entreprises doivent être allégées.
   themes:
     - economie
+  subject: economie-alleger-regles-entreprises
   polarity: "-"
   status: active
   author: claude
@@ -41,6 +43,7 @@
   themes:
     - economie
     - environnement
+  subject: economie-prix-energie-reglementes
   polarity: +
   status: active
   author: claude
@@ -57,6 +60,7 @@
   text: La dépense publique doit baisser en proportion du PIB au cours du prochain quinquennat.
   themes:
     - economie
+  subject: economie-baisse-depense-publique
   polarity: "-"
   status: active
   author: claude
@@ -76,6 +80,7 @@
   themes:
     - economie
     - travail
+  subject: economie-aides-conditionnees-emploi
   polarity: +
   status: active
   author: claude
@@ -95,6 +100,7 @@
   text: "Les commerces doivent pouvoir ouvrir le dimanche sans autorisation préalable."
   themes:
     - economie
+  subject: economie-ouverture-dimanche-libre-v2
   polarity: "-"
   status: active
   author: claude
@@ -111,6 +117,7 @@
   text: EDF doit rester une entreprise entièrement détenue par l'État.
   themes:
     - economie
+  subject: economie-edf-entierement-publique
   polarity: +
   status: active
   author: claude
@@ -127,6 +134,7 @@
   text: Le contrôle de l'État sur le rachat d'entreprises françaises par des investisseurs étrangers doit être renforcé.
   themes:
     - economie
+  subject: economie-controle-rachats-etrangers
   polarity: +
   status: active
   author: claude
@@ -145,6 +153,7 @@
   text: "Les prix des produits alimentaires de première nécessité doivent être plafonnés par l'État."
   themes:
     - economie
+  subject: economie-plafonner-prix-alimentaires
   polarity: +
   status: active
   author: claude
@@ -164,6 +173,7 @@
   themes:
     - economie
     - agriculture
+  subject: economie-encadrer-marges-distribution
   polarity: +
   status: active
   author: claude
@@ -182,6 +192,7 @@
   text: "L'État doit financer directement la construction d'usines dans les secteurs qu'il juge prioritaires."
   themes:
     - economie
+  subject: economie-etat-finance-usines
   polarity: +
   status: active
   author: claude
@@ -198,6 +209,7 @@
   text: L'État doit vendre une partie de ses participations dans les entreprises cotées en bourse.
   themes:
     - economie
+  subject: participations-etat
   polarity: "-"
   status: active
   author: claude
@@ -217,6 +229,7 @@
   themes:
     - economie
     - institutions
+  subject: economie-regle-equilibre-constitution
   polarity: "-"
   status: active
   author: claude
@@ -233,6 +246,7 @@
   text: Le nombre de fonctionnaires doit diminuer au cours du prochain quinquennat.
   themes:
     - economie
+  subject: economie-reduire-nombre-fonctionnaires
   polarity: "-"
   status: active
   author: claude
@@ -249,6 +263,7 @@
   text: Une partie des agences et opérateurs de l'État doit être supprimée.
   themes:
     - economie
+  subject: economie-supprimer-agences-etat
   polarity: "-"
   status: active
   author: claude
@@ -266,6 +281,7 @@
   themes:
     - economie
     - international
+  subject: economie-accords-libre-echange
   polarity: "-"
   status: active
   author: claude
@@ -283,6 +299,7 @@
   themes:
     - economie
     - travail
+  subject: economie-assouplir-seuils-effectifs
   polarity: "-"
   status: active
   author: claude
@@ -302,6 +319,7 @@
   text: "La distribution de l'eau potable doit être assurée uniquement par des opérateurs publics."
   themes:
     - economie
+  subject: economie-eau-operateurs-publics
   polarity: "+"
   status: active
   author: claude
@@ -323,6 +341,7 @@
   text: "Le plafonnement du niveau des loyers doit être obligatoire dans toutes les zones où le logement manque (zones tendues), même si les élus locaux ne le demandent pas."
   themes:
     - economie
+  subject: economie-plafonnement-loyers-zones-tendues
   polarity: "+"
   status: active
   author: claude

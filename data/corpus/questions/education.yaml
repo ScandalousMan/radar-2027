@@ -9,6 +9,7 @@
   text: Le financement public de l'école doit suivre l'élève, que sa famille choisisse un établissement public ou un établissement privé sous contrat.
   themes:
     - education
+  subject: ecole-privee-financement-public
   dimension: choix
   polarity: "-"
   status: active
@@ -29,6 +30,7 @@
   text: Le financement public d'une école privée sous contrat doit être réduit lorsque sa mixité sociale est inférieure à celle des établissements publics voisins.
   themes:
     - education
+  subject: ecole-privee-financement-public
   dimension: choix
   polarity: +
   status: active
@@ -49,6 +51,7 @@
   text: La carte scolaire, qui affecte chaque élève à un établissement selon son domicile, doit être supprimée.
   themes:
     - education
+  subject: education-carte-scolaire-suppression
   dimension: choix
   polarity: "-"
   status: active
@@ -69,6 +72,7 @@
   text: Tout bachelier doit pouvoir s'inscrire à l'université dans la formation de son choix, sans sélection.
   themes:
     - education
+  subject: education-universite-sans-selection
   dimension: choix
   polarity: +
   status: active
@@ -89,6 +93,7 @@
   text: Le nombre de postes d'enseignants doit être maintenu malgré la baisse du nombre d'élèves.
   themes:
     - education
+  subject: education-postes-baisse-demographique
   dimension: moyens
   polarity: +
   status: active
@@ -109,6 +114,7 @@
   text: Le salaire de l'ensemble des enseignants doit augmenter d'au moins 15 % au cours du prochain quinquennat.
   themes:
     - education
+  subject: enseignants-remuneration
   dimension: moyens
   polarity: +
   status: active
@@ -129,6 +135,7 @@
   text: La revalorisation du salaire des enseignants doit prendre la forme d'une hausse générale plutôt que de primes liées au mérite ou aux missions.
   themes:
     - education
+  subject: enseignants-remuneration
   dimension: moyens
   polarity: +
   status: active
@@ -149,6 +156,7 @@
   text: Les étudiants venus de pays hors de l'Union européenne doivent payer à l'université des droits d'inscription plus élevés que les étudiants européens.
   themes:
     - education
+  subject: frais-inscription-etudiants-etrangers
   dimension: moyens
   polarity: "-"
   status: active
@@ -169,6 +177,7 @@
   text: La réussite à un examen en fin de primaire doit conditionner l'entrée au collège.
   themes:
     - education
+  subject: education-examen-entree-college
   dimension: pedagogie
   polarity: "-"
   status: active
@@ -189,6 +198,7 @@
   text: Au collège, les élèves doivent être répartis en groupes de niveau en français et en mathématiques.
   themes:
     - education
+  subject: education-groupes-de-niveau-college
   dimension: pedagogie
   polarity: "-"
   status: active
@@ -209,6 +219,7 @@
   text: Les élèves doivent pouvoir être orientés vers l'apprentissage ou une voie professionnelle avant la fin du collège.
   themes:
     - education
+  subject: education-orientation-professionnelle-avant-fin-college
   dimension: pedagogie
   polarity: "-"
   status: active
@@ -229,6 +240,7 @@
   text: Le port d'un uniforme doit être obligatoire à l'école primaire et au collège.
   themes:
     - education
+  subject: uniforme-ecole
   dimension: pedagogie
   polarity: "-"
   status: active
@@ -249,6 +261,7 @@
   text: Au primaire et au collège, les notes sur 20 doivent progressivement laisser place à d'autres formes d'évaluation.
   themes:
     - education
+  subject: education-notes-evaluation-alternative
   dimension: pedagogie
   polarity: +
   status: active

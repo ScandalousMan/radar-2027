@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getFormatter, getTranslations } from 'next-intl/server';
-import { BANDS, COVERAGE_THRESHOLD, EXAMPLE_A, EXAMPLE_B, MIN_THEME_QUESTIONS, PRIORITY_WEIGHT } from '@/core';
+import { BANDS, COVERAGE_THRESHOLD, EXAMPLE_A, EXAMPLE_B, MIN_THEME_QUESTIONS, PRIORITY_WEIGHT, QUOTA_FLOOR } from '@/core';
 import { loadCurrentMain } from '@/lib/dataset';
 import { AGREEMENT_LEVELS } from '@/lib/results/types';
 import { parseDay } from '@/lib/published-date';
@@ -98,6 +98,17 @@ export default async function MethodologyPage() {
         <p className="text-fg-muted">{t('noVersion')}</p>
       ) : (
         <>
+          {main.selectionRules === 2 && (
+            <section aria-labelledby="choix-questions-titre" id="choix-questions" className={SECTION}>
+              <h2 id="choix-questions-titre" className={H2}>
+                {t('selection.title')}
+              </h2>
+              <p>{t('selection.subject')}</p>
+              <p>{t('selection.coverage', { short: QUOTA_FLOOR.short, full: QUOTA_FLOOR.full })}</p>
+              <p>{t('selection.priorities')}</p>
+            </section>
+          )}
+
           <section aria-labelledby="niveaux" className={SECTION}>
             <h2 id="niveaux" className={H2}>
               {t('evidenceLevels.title')}

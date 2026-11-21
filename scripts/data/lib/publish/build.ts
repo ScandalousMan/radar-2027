@@ -59,9 +59,13 @@ export function buildMain(corpus: Corpus, options: BuildOptions): MainDataset {
     });
   }
 
+  // 007 : toute nouvelle version suit les règles de sélection 2 ; SUBJECT garantit l'enjeu en amont.
+  for (const q of questions) if (q.subject === undefined) throw new Error(`${q.id} : enjeu manquant (règle SUBJECT)`);
+
   const main: MainDataset = {
     version: options.version,
     publishedAt: options.publishedAt,
+    selectionRules: 2,
     themes: [...corpus.themes]
       .filter((t) => t.status === 'active')
       .sort((a, b) => a.order - b.order)
@@ -72,7 +76,7 @@ export function buildMain(corpus: Corpus, options: BuildOptions): MainDataset {
     withdrawn: corpus.candidates
       .filter((c) => c.status === 'withdrawn')
       .map((c) => ({ id: c.id, name: c.name, withdrawnAt: c.statusChangedAt ?? c.history.at(-1)?.at ?? options.publishedAt, criterion: c.statusCriterion ?? c.history.at(-1)?.criterion ?? '' })),
-    questions: questions.map((q) => ({ id: q.id, text: q.text, themes: [...q.themes], polarity: q.polarity, discriminant: round4(discriminantOf(q.id)) })),
+    questions: questions.map((q) => ({ id: q.id, text: q.text, themes: [...q.themes], polarity: q.polarity, discriminant: round4(discriminantOf(q.id)), subject: q.subject! })),
     positions,
     governance: {
       inclusionCriteria: governance.inclusionCriteria.map((c) => ({ ...c })),

@@ -3,6 +3,7 @@
   themes:
     - environnement
     - economie
+  subject: enjeu-environnement-q01
   polarity: +
   status: active
   author: adrien
@@ -18,6 +19,7 @@
   text: Énoncé de test numéro 2 du thème Environnement.
   themes:
     - environnement
+  subject: enjeu-environnement-q02
   polarity: "-"
   status: active
   author: adrien
@@ -33,6 +35,7 @@
   text: Énoncé de test numéro 3 du thème Environnement.
   themes:
     - environnement
+  subject: enjeu-environnement-q03
   polarity: +
   status: active
   author: adrien
@@ -48,6 +51,7 @@
   text: Énoncé de test numéro 4 du thème Environnement.
   themes:
     - environnement
+  subject: enjeu-environnement-q04
   polarity: "-"
   status: active
   author: adrien
@@ -63,6 +67,7 @@
   text: Énoncé de test numéro 5 du thème Environnement.
   themes:
     - environnement
+  subject: enjeu-environnement-q05
   polarity: +
   status: active
   author: adrien
@@ -78,6 +83,7 @@
   text: Énoncé de test numéro 6 du thème Environnement.
   themes:
     - environnement
+  subject: enjeu-environnement-q06
   polarity: "-"
   status: active
   author: adrien
@@ -93,6 +99,7 @@
   text: Énoncé de test numéro 7 du thème Environnement.
   themes:
     - environnement
+  subject: enjeu-environnement-q07
   polarity: +
   status: active
   author: adrien
@@ -108,6 +115,7 @@
   text: Énoncé de test numéro 8 du thème Environnement.
   themes:
     - environnement
+  subject: enjeu-environnement-q08
   polarity: "-"
   status: active
   author: adrien
@@ -123,6 +131,7 @@
   text: Énoncé de test numéro 9 du thème Environnement.
   themes:
     - environnement
+  subject: enjeu-environnement-q09
   polarity: +
   status: active
   author: adrien
@@ -138,6 +147,7 @@
   text: Énoncé de test numéro 10 du thème Environnement.
   themes:
     - environnement
+  subject: enjeu-environnement-q10
   polarity: "-"
   status: active
   author: adrien

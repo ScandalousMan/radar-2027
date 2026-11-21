@@ -87,6 +87,35 @@ describe('carryOver (version antérieure)', () => {
   });
 });
 
+describe('carryOver : v2 (règles 1) vers v3 (règles 2), spec 007 US4 scénario 3', () => {
+  /** Version 3 : mêmes questions que la v2 synthétique, enjeu partagé entre deux questions de thèmes différents, et une question ajoutée. */
+  function v3(): MainDataset {
+    const d = syntheticDataset({ version: 2, publishedAt: '2026-11-15' });
+    const questions = d.questions.map((q) => ({ ...q, subject: q.id === 't04-q01' ? 't01-q01' : q.id }));
+    return { ...d, version: 3, publishedAt: '2026-11-22', selectionRules: 2 as const, questions };
+  }
+
+  it('réponses conservées pour les questions toujours présentes, nouvelles non répondues, longueur = sélection v3', () => {
+    const linkBank = testBank(1).bank;
+    const current = questionnaireBankFrom(v3());
+    expect(current.bank.selectionRules).toBe(2);
+    const state = stateOf(full);
+    const result = carryOver(state, linkBank, current, NOW);
+    expect(result.kind).toBe('draft');
+    if (result.kind !== 'draft') return;
+    const { draft } = result;
+    expect(draft.bankVersion).toBe(3);
+    const previous = new Map(selectQuestions(linkBank, 'short', PRIORITIES).items.map((it, i) => [it.question.id, state.answers[i]]));
+    const items = selectQuestions(current.bank, 'short', draft.priorities).items;
+    expect(draft.answers).toHaveLength(items.length);
+    expect(items).toHaveLength(25);
+    items.forEach((it, i) => expect(draft.answers[i]).toBe(previous.get(it.question.id) ?? 'unanswered'));
+    expect(draft.answers.some((a) => a === 'unanswered')).toBe(true);
+    expect(draft.answers.some((a) => a !== 'unanswered')).toBe(true);
+    expect(new Set(items.map((it) => it.question.subject)).size).toBe(items.length);
+  });
+});
+
 describe('needsConfirmation (data-model § 9)', () => {
   const draft = testDraft({ answers: full });
 

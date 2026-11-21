@@ -3,6 +3,7 @@
 import { priorityIndicesOf, type BankVersion } from '../bank';
 import { MODES, StateError, TARGET_COUNT, type Mode } from '../types';
 import { fillQuotas, rotationOrder } from './fill';
+import { fillQuotasBySubject } from './fill-subject';
 import { roundRobin } from './order';
 import { computeQuotas } from './quotas';
 import type { Selection } from './types';
@@ -11,7 +12,9 @@ export function selectQuestions(bank: BankVersion, mode: Mode, priorities: reado
   if (!MODES.includes(mode)) throw new StateError('bad-mode', String(mode));
   const priorityIndices = priorityIndicesOf(bank, priorities);
   const quotas = computeQuotas(bank, mode, priorityIndices);
-  const picked = fillQuotas(bank, quotas, priorityIndices, TARGET_COUNT[mode]);
+  // Règles versionnées avec la donnée (007 R1) : 1 = 003 inchangées, 2 = par enjeu et par ancrage.
+  const fill = bank.selectionRules === 2 ? fillQuotasBySubject : fillQuotas;
+  const picked = fill(bank, quotas, priorityIndices, TARGET_COUNT[mode]);
   const items = roundRobin(picked, rotationOrder(bank.themes.length, priorityIndices));
   return { mode, priorityIndices, quotas, items };
 }

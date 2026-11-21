@@ -8,6 +8,8 @@ export const QuestionSchema = z.strictObject({
   themes: z.array(IdSchema).min(1),
   /** Dimension du thème principal (spec 006 FR-002a, règle AXIS-DIM) ; jamais publiée. */
   dimension: IdSchema.optional(),
+  /** Enjeu (spec 007 FR-001, règle SUBJECT) : commun aux questions d'un même enjeu ; publié dans `main.json`. */
+  subject: IdSchema.optional(),
   polarity: PolaritySchema,
   status: z.enum(['draft', 'active', 'retired']),
   author: IdSchema,
