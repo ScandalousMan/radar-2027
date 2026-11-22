@@ -10,6 +10,7 @@ pnpm data:publish [--next] [--dry-run] [--date <YYYY-MM-DD>] [--corpus <dossier>
 
 - Calcule la banque active (R4) et émet `selectionRules: 3`, `minQuestionCoverage` et `coverage`.
 - `--min-coverage <k>` : refus (code 1) si `k` est plus petit que le minimum calculé, ou si le total dépasse 120.
+- Refus (code 1) si aucun `k` ne laisse au plus 120 questions une fois les compléments de plancher ajoutés : le message nomme les thèmes complétés et le total au plus grand `k` utile (R4 étape 4).
 - Écrit `data/reports/couverture-v<n>.{md,json}`, y compris en `--dry-run`.
 - Sortie console : `k`, les nombres de questions actives et en réserve, un avertissement par thème complété, les classés min/médiane/max par mode, et un avertissement si SC-001 ou SC-002 n'est pas atteint (sans échec).
 - Inchangé : comparaison avec la version courante, `--next` obligatoire si le contenu change, immutabilité, budgets.
@@ -67,8 +68,9 @@ Ne s'exécute que si `data/corpus/glossaire.yaml` existe.
 | Aucune source ; URL invalide | erreur |
 | `reviewed` sans `reviewedBy`/`reviewedAt`, ou `reviewedBy = author` ; `author`/`reviewedBy` inconnu de `contributors.yaml` | erreur |
 | `public/data/glossary.json` présent et désynchronisé (hors `updatedAt`) | erreur |
-| Terme `reviewed` absent de tout énoncé de question `active` (repérage R10) | avertissement |
-| Hôte d'une source hors `institutionalDomains` | avertissement |
+| Aucune source du terme dont l'hôte est dans `institutionalDomains` | erreur |
+| Terme `reviewed` absent de l'énoncé de toute question `active` du corpus (repérage R10 ; pas la banque active d'une version) | avertissement |
+| Source supplémentaire dont l'hôte est hors `institutionalDomains` | avertissement |
 
 Fixtures : `data/fixtures/violations/GLOSS/` (définition trop longue et conflit de forme) ; `data/fixtures/minimal/corpus/glossaire.yaml` (deux termes valides).
 

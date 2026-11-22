@@ -64,6 +64,15 @@ export function missingForThreshold(bank: BankVersion, selection: Selection, can
 
 Utilisé par le rapport de couverture (R5), par `data:gaps` (R6) et par l'audit exhaustif v5 (SC-001, SC-002). La règle de classement est celle de `scoreCandidate` (003 FR-008), et un test croise les deux sur la banque v5.
 
+Propriétés (fast-check, banques et sélections générées ; principe III) :
+
+1. `c ∈ rankedCandidates(bank, S)` ⇔ `missingForThreshold(bank, S, c) = 0`.
+2. Monotonie : rendre connue une position inconnue d'un candidat sur une question de `S` ne retire aucun candidat de `rankedCandidates` et ne fait jamais croître `missingForThreshold`.
+3. `missingForThreshold` est le plus petit nombre de positions à rendre connues dans `S` pour atteindre le seuil.
+4. Déterminisme, et résultat indépendant de l'ordre des questions de `S`.
+
+Couverture dans `bankFromDataset` : pour toute banque générée, `BankQuestion.coverage` = nombre de cases non `null` (neutre 0 compris) de la colonne, quelles que soient les règles.
+
 ## Hors périmètre
 
 Score, quotas, ordre de présentation, codec, `LINK_FORMAT_VERSION` : inchangés (FR-004).

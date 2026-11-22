@@ -10,7 +10,7 @@ Les entités de 002, 003, 007 et 008 restent inchangées sauf mention contraire.
 |---|---|
 | `c_q` | Nombre de candidats **déclarés** dont la position sur `q` est connue : valeur −2 à +2, relue, sourcée, citation retrouvée (`isKnown`, 002). « Neutre » (0) compte, « inconnue » ne compte pas. |
 | Calcul au corpus | `knownMatrix` (scripts) sur les questions `active`. |
-| Calcul au jeu publié | nombre de cases non nulles de la colonne `q` dans `positions` (tous les candidats de `candidates`). |
+| Calcul au jeu publié | nombre de cases non `null` (neutre 0 compris) de la colonne `q` dans `positions` (tous les candidats de `candidates`). |
 | Invariant (règles 3) | `questions[i].coverage` publié = calcul au jeu publié ; sinon `BankError('coverage-mismatch')` et refus du schéma. |
 
 ## 2. Version de banque (étendue)
@@ -83,7 +83,7 @@ Le `.md` regroupe les lignes par mission (candidat × thème), avec le gain cumu
 | Champ | Type | Règle |
 |---|---|---|
 | `aggregatorDomains` | liste de noms d'hôte | au moins `candidatspresidentielles2027.fr`, `monvote2027.fr` ; correspondance sur l'hôte ou un sous-domaine |
-| `institutionalDomains` | liste de noms d'hôte, `*.` admis en préfixe | avertissement `GLOSS` hors liste |
+| `institutionalDomains` | liste de noms d'hôte, `*.` admis en préfixe | erreur `GLOSS` si aucune source du terme n'est dans la liste ; avertissement pour chaque source supplémentaire hors liste |
 
 Preuve 008 (`data/recherche/preuves/*.yaml`), champ ajouté :
 
@@ -103,7 +103,7 @@ Liste YAML ; en-tête de commentaire conservé ; ajout en fin de liste.
 | `label` | texte | oui | forme canonique affichée (« aide médicale de l'État ») |
 | `forms` | texte[] (≥ 1) | oui | formes reconnues dans les énoncés, dont le libellé s'il y figure tel quel ; uniques après normalisation (R10), entre tous les termes |
 | `definition` | texte | oui | 1 à 280 caractères ; factuelle, neutre, sans candidat ni parti (FR-014, relu) |
-| `sources` | `{ url, title, publisher, accessedAt }`[] (≥ 1) | oui | référence juridique ou institutionnelle ; hôte hors `institutionalDomains` → avertissement |
+| `sources` | `{ url, title, publisher, accessedAt }`[] (≥ 1) | oui | au moins une source dont l'hôte est dans `institutionalDomains` (sinon erreur) ; source supplémentaire hors liste → avertissement |
 | `status` | `draft` \| `reviewed` | oui | seuls les `reviewed` sont publiés |
 | `author` | id de `contributors.yaml` | oui | `claude` pour l'inventaire initial |
 | `reviewedBy`, `reviewedAt` | id, date | si `reviewed` | `reviewedBy ≠ author` |

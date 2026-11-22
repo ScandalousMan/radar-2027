@@ -108,7 +108,7 @@ Attendu :
 - propriétés du repérage vertes ;
 - `GLOSS` échoue sur sa fixture, en nommant le terme ;
 - `--check` vert après `pnpm data:glossary` ;
-- les 7 scénarios e2e de [defined-term-ui.md](contracts/defined-term-ui.md#e2e--e2eglossaryspects) sont verts.
+- les 8 scénarios e2e (7 joués par Playwright, le n° 7 par les stories) de [defined-term-ui.md](contracts/defined-term-ui.md#e2e--e2eglossaryspects) sont verts.
 
 Storybook (`pnpm storybook`, panneau Accessibility) : `DefinedTerm`, avec ses stories ouverte, longue et 320 px, ne montre aucune violation.
 

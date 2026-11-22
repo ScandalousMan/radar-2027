@@ -41,7 +41,7 @@ type DefinedTermProps = {
 | Fermeture (FR-017) | nouveau clic, toucher ou touche sur le terme ; `pointerdown` extérieur ; bouton Fermer ; Échap ; sortie du focus ; 200 ms après la sortie du pointeur (si non fixée) ; démontage |
 | Focus | Échap ou Fermer depuis la bulle → focus au terme ; ordre de tabulation : terme, puis contenu de la bulle |
 | Contenu (FR-018) | libellé (titre), définition, source(s) en lien (nouvel onglet, `rel="noopener"`), lien « Voir le glossaire », bouton Fermer |
-| Géométrie (FR-018) | `popover="manual"` ; sous le terme, sinon au-dessus ; recadrée dans la fenêtre avec une gouttière de 16 px ; largeur `min(20rem, 100vw − 32px)` ; défilement interne au-delà de `min(50vh, 18rem)` ; aucun défilement horizontal à 320 px |
+| Géométrie (FR-018) | `popover="manual"` ; sous le terme, sinon au-dessus ; recadrée dans la fenêtre avec la gouttière de page ; largeur `min(20rem, 100vw − 2 × gouttière)` ; défilement interne au-delà de `min(50vh, 18rem)` ; gouttière, dimensions et délais en tokens (`--defined-term-*`, R9), lus par le calcul JS ; aucun défilement horizontal à 320 px |
 | Assistance (FR-019) | `aria-expanded`, `aria-controls` ; `aria-describedby` vers « terme défini » (masqué) ; bulle `role="dialog"` non modale, `aria-labelledby` = libellé |
 | Unicité (FR-019) | une seule bulle ouverte dans un `DefinedTermGroup` |
 | Neutralité d'état (FR-018) | aucun appel au store du questionnaire, à l'historique ou à l'URL ; aucun `preventDefault` sur les gestes extérieurs |
@@ -60,7 +60,7 @@ Rend `annotate(text)` : texte brut et `DefinedTerm`. Avec `glossary` à `null`, 
 
 - `QuestionCard` : `statement` rendu par `AnnotatedText` dans le `h2`, qui garde `tabIndex={-1}` et son focus programmatique. La carte a pour clé l'identifiant de la question, ce qui ferme la bulle au changement de question.
 - `QuestionDetail` (résultats) : `text` rendu par `AnnotatedText` dans le `h4`.
-- Le glossaire est récupéré une fois par le client (`src/lib/glossary/load.ts`), en parallèle du jeu de données, et partagé par un contexte.
+- Le glossaire est récupéré une fois par le client (`src/lib/glossary/load.ts`), en parallèle du jeu de données, et partagé par un contexte (`src/lib/glossary/GlossaryProvider.tsx`). La lecture au build de la page `/glossaire` vit à part, dans `src/lib/glossary/load.server.ts`, seul module qui importe `node:fs`.
 
 ## Page `/glossaire`
 
@@ -78,3 +78,4 @@ Rend `annotate(text)` : texte brut et `DefinedTerm`. Avec `glossary` à `null`, 
 5. Passage à la question suivante, bulle ouverte : aucune bulle visible.
 6. `/glossaire` : termes triés, ancre atteignable depuis la bulle.
 7. Accessibilité automatique (SC-006) : couverte par l'addon a11y de Storybook (tests Vitest des stories `DefinedTerm` et `QuestionCard` avec terme, bulle ouverte et fermée, en bureau et à 320 px). Aucune dépendance axe n'est ajoutée à Playwright (principe VII).
+8. Lien de résultats d'une version antérieure rejoué (FR-021) : un terme de l'énoncé est signalé dans le détail des réponses, et le classement est identique à celui obtenu sans glossaire (même fragment, glossaire indisponible).

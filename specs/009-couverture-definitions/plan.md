@@ -82,7 +82,7 @@ src/lib/results/replay-v4.fixture.json     # NOUVEAU, idem
 src/lib/results/replay.test.ts             # paramétré v1 à v4
 
 src/core/dataset/types.ts                  # selectionRules?: 2 | 3, minQuestionCoverage?, PublishedQuestion.coverage?
-src/core/dataset/schema.ts                 # raffinements : coverage ⇔ selectionRules 3, coverage = cases non nulles
+src/core/dataset/schema.ts                 # raffinements : coverage ⇔ selectionRules 3, coverage = cases non `null` (neutre 0 compris)
 src/core/bank/bank.ts                      # selectionRules 1|2|3, BankQuestion.coverage, minQuestionCoverage
 src/core/selection/fill.ts                 # byCoverage (comparateur)
 src/core/selection/fill-subject.ts         # comparateur en paramètre (règles 2 : byDiscriminant, règles 3 : byCoverage)
@@ -121,7 +121,9 @@ scripts/data/lib/rules/GLOSS.ts            # NOUVEAU (+ test, + fixtures)
 scripts/data/glossary.ts                   # NOUVEAU : pnpm data:glossary → public/data/glossary.json
 src/core/dataset/glossary.ts               # type + schéma Zod de glossary.json (partagé site/scripts)
 src/lib/glossary/annotate.ts               # NOUVEAU : repérage pur (+ tests de propriétés)
-src/lib/glossary/load.ts                   # lecture au build (page) et fetch client (questionnaire, résultats)
+src/lib/glossary/load.server.ts            # lecture au build (node:fs, page /glossaire uniquement)
+src/lib/glossary/load.ts                   # fetch client (questionnaire, résultats), sans node:fs
+src/lib/glossary/GlossaryProvider.tsx      # contexte React client (index compilé, table des termes)
 src/ui/DefinedTerm/                        # NOUVEAU : DefinedTerm.tsx, stories, test, index.ts
 src/ui/AnnotatedText/                      # NOUVEAU : rend un énoncé avec ses DefinedTerm
 src/ui/QuestionCard/QuestionCard.tsx       # statement → AnnotatedText

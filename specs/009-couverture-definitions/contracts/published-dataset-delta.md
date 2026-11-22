@@ -14,7 +14,7 @@ Champs ajoutés ou modifiés :
   "questions": [
     { "id": "…", "text": "…", "themes": ["securite"], "polarity": "+",
       "discriminant": 0.8123, "subject": "…",
-      "coverage": 9 }               // présent ⇔ selectionRules = 3 ; = cases non nulles de la colonne
+      "coverage": 9 }               // présent ⇔ selectionRules = 3 ; = cases non `null` de la colonne (neutre 0 compris)
   ],
   "candidates": [ { "id": "…", "coverage": 0.71 } ]   // calculée sur la banque active (inchangé dans la forme)
   // themes, withdrawn, positions, governance : inchangés dans la forme
@@ -25,7 +25,7 @@ Le schéma `MainDatasetSchema` refuse :
 
 - `selectionRules: 3` sans `minQuestionCoverage`, ou avec une question sans `coverage` ou sans `subject` ;
 - `minQuestionCoverage` ou `coverage` présents hors règles 3 ;
-- `coverage` différente du nombre de cases non nulles de la colonne ;
+- `coverage` différente du nombre de cases non `null` (neutre 0 compris) de la colonne ;
 - en règles 3, plus de 120 questions.
 
 Les versions 1 à 4 sont inchangées, octet pour octet (PUB-IMMUTABLE), et toujours acceptées par le schéma.
