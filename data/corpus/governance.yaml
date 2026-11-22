@@ -57,3 +57,21 @@ aggregatorDomains:
   - wikipedia.org
 
 reportIssueUrl: https://github.com/ScandalousMan/radar-2027/issues/new?title={title}&labels=donnees
+
+# Domaines institutionnels ou juridiques reconnus comme source des définitions du glossaire
+# (spec 009, règle GLOSS) : au moins une source de chaque terme doit en relever. Non publiés.
+# Une institution absente de la liste s'y ajoute par revue de code.
+institutionalDomains:
+  - legifrance.gouv.fr
+  - service-public.fr
+  - vie-publique.fr
+  - "*.gouv.fr"
+  - conseil-constitutionnel.fr
+  - conseil-etat.fr
+  - assemblee-nationale.fr
+  - senat.fr
+  - insee.fr
+  - europa.eu
+  - ameli.fr
+  - courdecassation.fr
+  - ccomptes.fr

@@ -7,7 +7,8 @@ export const PUB_IMMUTABLE: Rule = {
     if (!published) return [];
     const out: Violation[] = [];
     const { registry, files } = published;
-    const expected = new Set<string>(['versions.json']);
+    // `glossary.json` (009, R11) est publié hors versions et peut changer sans nouvelle version.
+    const expected = new Set<string>(['versions.json', 'glossary.json']);
     registry.versions.forEach((v, i) => {
       const id = `version ${v.number}`;
       if (v.number !== i + 1) out.push(violation('PUB-IMMUTABLE', 'version', id, `numéro ${v.number} attendu ${i + 1}`));

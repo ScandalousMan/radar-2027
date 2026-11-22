@@ -8,6 +8,7 @@ import type { z } from 'zod';
 import {
   CandidateSchema,
   ContributorSchema,
+  GlossaryEntrySchema,
   GovernanceFileSchema,
   PositionSchema,
   QuestionSchema,
@@ -134,6 +135,9 @@ export function loadCorpus(corpusDir: string): LoadedCorpus {
     sources: group('sources', SourceSchema),
     positions: group('positions', PositionSchema, keepOutOfScalePosition),
   };
+  // Glossaire (spec 009) : facultatif ; chaque terme est validé séparément (violations SCHEMA).
+  const glossaryFile = join(corpusDir, 'glossaire.yaml');
+  if (existsSync(glossaryFile)) corpus.glossary = loadList(glossaryFile, 'glossaire.yaml', GlossaryEntrySchema, violations);
   return { corpus, violations };
 }
 

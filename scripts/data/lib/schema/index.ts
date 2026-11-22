@@ -9,9 +9,11 @@ export * from './positions';
 export * from './affirmations';
 export * from './runs';
 export * from './costs';
+export * from './glossary';
 
 import type { Candidate } from './candidates';
 import type { Contributor } from './contributors';
+import type { GlossaryEntry } from './glossary';
 import type { GovernanceFile } from './governance';
 import type { Position } from './positions';
 import type { Question } from './questions';
@@ -31,5 +33,7 @@ export type Corpus = {
   sources: Map<string, Source[]>;
   /** Fichier `positions/<candidat>.yaml` → positions. */
   positions: Map<string, Position[]>;
+  /** Termes de `glossaire.yaml` (spec 009) ; absent si le fichier n'existe pas (aucune vérification GLOSS). */
+  glossary?: GlossaryEntry[];
 };
 export * from './research';

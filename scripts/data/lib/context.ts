@@ -5,6 +5,7 @@ import { MainDatasetSchema, VersionRegistrySchema, type MainDataset, type Versio
 import { hasCache, openCache } from './cache';
 import type { DataPaths } from './cli';
 import { loadCorpus } from './corpus';
+import { GLOSSARY_FILE_NAME } from './glossary';
 import { loadResearch } from './research';
 import { AffirmationsFileSchema, DEFAULT_THRESHOLDS, type Affirmation } from './schema';
 import { sha256 } from './text';
@@ -102,5 +103,7 @@ export function buildContext(paths: DataPaths, options: ContextOptions = {}): { 
     thresholds: corpus.governance?.thresholds ?? DEFAULT_THRESHOLDS,
     research,
   };
+  const glossaryFile = join(paths.publishedDir, GLOSSARY_FILE_NAME);
+  if (existsSync(glossaryFile)) ctx.publishedGlossary = readFileSync(glossaryFile, 'utf8');
   return { ctx, loadViolations };
 }
