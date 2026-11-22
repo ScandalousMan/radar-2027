@@ -3,4 +3,242 @@
 # Historique des statuts ordonné par date ; ajout en fin de liste seulement, aucune suppression.
 # Format : specs/008-recherche-sources-politiques/contracts/research-files.md
 
-[]
+- id: bruno-retailleau
+  name: Bruno Retailleau
+  party: Les Républicains
+  aliases: [B. Retailleau]
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-02-12, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - bruno-retailleau-candidature-001
+      note: >-
+        Candidature annoncée par l'intéressé le 12 février 2026 dans une allocution diffusée sur
+        les réseaux sociaux ; date reprise de statusChangedAt de data/corpus/candidates.yaml et
+        appuyée sur la source de statut déjà enregistrée (statusSource).
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+- id: marine-tondelier
+  name: Marine Tondelier
+  party: Les Écologistes
+  aliases: [M. Tondelier]
+  statuses:
+    - status: DECLARED
+      at: { date: 2025-10-22, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - marine-tondelier-candidature-001
+      note: >-
+        Candidature annoncée par l'intéressée le 22 octobre 2025 dans un entretien au Nouvel Obs,
+        rapporté le jour même par Brut ; date reprise de statusChangedAt de
+        data/corpus/candidates.yaml et appuyée sur la source de statut déjà enregistrée
+        (statusSource). Selon Brut, la candidature devait passer par une désignation de son parti
+        et une primaire de la gauche, dont l'issue n'a pas été vérifiée dans cette mission.
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+- id: edouard-philippe
+  name: Édouard Philippe
+  party: Horizons
+  aliases: [Edouard Philippe, É. Philippe]
+  statuses:
+    - status: DECLARED
+      at: { date: 2024-09-03, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - edouard-philippe-candidature-001
+      note: >-
+        Candidature annoncée par l'intéressé dans un entretien au Point publié le 3 septembre 2024,
+        rapporté le même jour par France 3 Normandie ; date reprise de statusChangedAt de
+        data/corpus/candidates.yaml et appuyée sur la source de statut déjà enregistrée
+        (statusSource).
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+- id: gabriel-attal
+  name: Gabriel Attal
+  party: Renaissance
+  aliases: [G. Attal]
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-05-22, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - gabriel-attal-candidature-001
+      note: >-
+        Candidature officialisée par l'intéressé le 22 mai 2026 lors d'un déplacement à
+        Mur-de-Barrez (Aveyron), selon LCP (avec AFP) ; date reprise de statusChangedAt de
+        data/corpus/candidates.yaml et appuyée sur la source de statut déjà enregistrée
+        (statusSource), qui ne reproduit pas la phrase d'annonce (preuve en paraphrase).
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: delphine-batho
+  name: Delphine Batho
+  party: Génération Écologie
+  statuses:
+    - status: DECLARED
+      at: { date: 2025-11-25, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - delphine-batho-candidature-001
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: nathalie-arthaud
+  name: Nathalie Arthaud
+  party: Lutte ouvrière
+  statuses:
+    - status: DECLARED
+      at: { date: 2025-12-08, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - nathalie-arthaud-candidature-001
+      note: "Candidature décidée par le congrès de Lutte ouvrière et annoncée par l'intéressée."
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: juan-branco
+  name: Juan Branco
+  party: Les Ruches
+  statuses:
+    - status: DECLARED
+      at: { date: 2025-12-19, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - juan-branco-candidature-001
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: francois-asselineau
+  name: François Asselineau
+  party: Union populaire républicaine
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-03-21, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - francois-asselineau-candidature-001
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: david-lisnard
+  name: David Lisnard
+  party: Nouvelle Énergie
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-03-31, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - david-lisnard-candidature-001
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: francois-ruffin
+  name: François Ruffin
+  party: Debout !
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-04-10, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - francois-ruffin-candidature-001
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: nicolas-dupont-aignan
+  name: Nicolas Dupont-Aignan
+  party: Debout la France
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-04-23, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - nicolas-dupont-aignan-candidature-001
+      note: "Première annonce rapportée le 8 mars 2025 devant ses militants (non prouvée ici) ; date publiée retenue : officialisation du 23 avril 2026."
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: jean-luc-melenchon
+  name: Jean-Luc Mélenchon
+  party: La France insoumise
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-05-03, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - jean-luc-melenchon-candidature-001
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: florian-philippot
+  name: Florian Philippot
+  party: Les Patriotes
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-05-09, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - florian-philippot-candidature-001
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: anasse-kazib
+  name: Anasse Kazib
+  party: Révolution permanente
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-06-01, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - anasse-kazib-candidature-001
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: marine-le-pen
+  name: Marine Le Pen
+  party: Rassemblement national
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-07-07, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - marine-le-pen-candidature-001
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: raphael-glucksmann
+  name: Raphaël Glucksmann
+  party: Place publique
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-08-23, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - raphael-glucksmann-candidature-001
+      note: "Participation annoncée à la primaire sociale-démocrate d'octobre 2026 ; issue de la primaire non vérifiée par cet amorçage (aucune recherche web)."
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: fabien-roussel
+  name: Fabien Roussel
+  party: Parti communiste français
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-09-06, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - fabien-roussel-candidature-001
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: eric-zemmour
+  name: Éric Zemmour
+  party: Reconquête
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-09-17, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - eric-zemmour-candidature-001
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

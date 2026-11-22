@@ -251,3 +251,14 @@
   candidates:
     - edouard-philippe
   contentHash: sha256:ac7a67f731a5e1cb3a2f715e567807971e15b627910898898c4adb5035f22608
+- id: edouard-philippe-mayotte-pour-edouard-philippe-l-urgence-est-de-fermer-les-va
+  url: https://lcp.fr/actualites/mayotte-pour-edouard-philippe-l-urgence-est-de-fermer-les-vannes-de-l-immigration-440519
+  title: "Mayotte : pour Edouard Philippe, « l'urgence est de fermer les vannes de l'immigration » (LCP)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-08-20
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - edouard-philippe
+  contentHash: sha256:b954b7b58005f7963fa7771a9fc55615d04d07308f27784b7b4dbe2e6ef10dd7

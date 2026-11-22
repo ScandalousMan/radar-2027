@@ -2,4 +2,64 @@
 # L'agent ne crée que des signalements « open » ; seul un humain les passe à « resolved ».
 # Format : specs/008-recherche-sources-politiques/contracts/research-files.md
 
-[]
+- id: sig-2026-11-22-retailleau-plafond-annuel-actualite
+  kind: POSITION_REVIEW
+  raisedAt: 2026-11-22
+  journal: 2026-11-22-audit-retailleau-immigration
+  personality: bruno-retailleau
+  position: { candidate: bruno-retailleau, question: immigration-plafond-annuel-admissions }
+  evidence: [bruno-retailleau-immigration-010]
+  reason: >-
+    Citation exacte (PPL constitutionnelle n° 646 rect., art. 6, Sénat, 25 mai 2023 :
+    « La loi fixe chaque année le nombre maximum d'autorisations d'entrées en vue de séjourner en
+    France et d'autorisations de premier séjour en France délivrées à des ressortissants
+    étrangers. »), mais trois points à arbitrer pour la valeur +2 : (1) actualité, texte de 2023
+    sans propos de moins de douze mois retrouvé sur un plafond annuel (seule une paraphrase de 2019
+    va dans le même sens), alors que le texte aurait été retiré par le groupe LR en décembre 2023
+    selon Public Sénat ; (2) attribution, texte collectif d'une centaine de sénateurs dont il est
+    premier signataire, non déclaration personnelle ; (3) portée, le dernier alinéa exclut « les
+    personnes qui demandent l'asile » et les ressortissants UE, EEE et suisses, ce qui est plus
+    étroit que l'énoncé. URL : https://www.senat.fr/leg/ppl22-646.html
+  state: open
+- id: sig-2026-11-22-retailleau-metiers-tension-circulaire
+  kind: POSITION_REVIEW
+  raisedAt: 2026-11-22
+  journal: 2026-11-22-audit-retailleau-immigration
+  personality: bruno-retailleau
+  position: { candidate: bruno-retailleau, question: immigration-regularisation-metiers-tension }
+  evidence: [bruno-retailleau-immigration-011]
+  reason: >-
+    Position relue à -2 sur la citation exacte du JDD (31 mai 2026) « On nous explique qu'il
+    faudrait régulariser parce que certains secteurs manquent de main-d'œuvre. Mais on peut former
+    des Français, comme on peut former des étrangers déjà présents légalement sur notre
+    territoire. » (https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/).
+    Nuance documentée : sa circulaire du 23 janvier 2025, qu'il défend dans le même entretien
+    (« le gouvernement veut détricoter ma circulaire sur les régularisations »), maintient la
+    régularisation par le travail dans les métiers en tension (art. L. 435-4 du CESEDA) et, selon
+    Maire-info, « le ministre appelle les préfets à privilégier autant que possible la nouvelle »
+    voie (https://www.maire-info.com/immigration/ce-que-contient-la-circulaire-retailleau-sur-la-regularisation-des-etrangers-en-situation-irreguliere-article-29333).
+    En 2023, le groupe LR du Sénat qu'il présidait avait aussi consenti à une régularisation au cas
+    par cas (article 4 bis). Soutien qualifié à la possibilité, en acte ministériel (2025), contre
+    rejet de principe en campagne (2026) : -2 (désaccord total) ou -1 est à arbitrer.
+  state: open
+- id: sig-2026-11-22-attal-droit-du-sol-mayotte
+  kind: POSITION_REVIEW
+  raisedAt: 2026-11-22
+  journal: 2026-11-22-thematique-droit-du-sol
+  personality: gabriel-attal
+  position: { candidate: gabriel-attal, question: immigration-supprimer-droit-du-sol }
+  evidence: [gabriel-attal-immigration-001, gabriel-attal-immigration-002]
+  reason: >-
+    Position relue à -2 sur la seule citation du document collectif de Renaissance (« Nous refusons
+    la suppression du droit du sol sur le territoire hexagonal. »), dont la portée est limitée à
+    l'Hexagone et qui est une position de parti (gabriel-attal-immigration-002, qualifiée
+    QUALIFIED_OPPOSITION). Or Gabriel Attal a personnellement voté « pour » l'ensemble de la
+    proposition de loi visant à renforcer les conditions d'accès à la nationalité française à
+    Mayotte (scrutin public n° 738, 6 février 2025, liste « Ensemble pour la République (95
+    membres) Pour : 18 M. Gabriel Attal… », gabriel-attal-immigration-001, QUALIFIED_SUPPORT), qui
+    restreint le droit du sol à Mayotte sans le supprimer. À arbitrer : la valeur -2 (désaccord
+    total) reste-t-elle justifiée, ou faut-il -1 au vu de la limite « hexagonal » et du vote
+    mahorais, comme la position d'Édouard Philippe a été relue à +1 pour une mesure limitée à
+    Mayotte ? Aucun propos personnel récent d'Attal sur le droit du sol n'a été trouvé. URL :
+    https://www.assemblee-nationale.fr/dyn/17/scrutins/738
+  state: open

@@ -1,0 +1,239 @@
+# Journal de mission (spec 008, FR-029). Audit adversarial de trois positions relues de Bruno
+# Retailleau (immigration). Aucune position n'est modifiée : les écarts vont en signalements.
+id: 2026-11-22-audit-retailleau-immigration
+mode: ADVERSARIAL_AUDIT
+author: claude
+model: opus
+request: >-
+  Audit adversarial (validation d'installation T038, sans enrichissement global, sans commit, sans
+  modification des positions) de trois positions relues de Bruno Retailleau dans
+  data/corpus/positions/bruno-retailleau.yaml : immigration-supprimer-droit-du-sol,
+  immigration-plafond-annuel-admissions, immigration-regularisation-metiers-tension. Pour chacune,
+  rouvrir d'abord la source citée (registre, texte en cache, page en ligne) et relire la citation
+  dans son contexte avant de lire la valeur et la justification ; vérifier ensuite exactitude,
+  attribution, actualité et interprétation au regard de l'énoncé exact de la question. Tout écart
+  donne un signalement open (QUOTE_DISCREPANCY ou POSITION_REVIEW) avec le passage exact en cause.
+startedAt: 2026-11-22
+completedAt: 2026-11-22
+state: completed
+scope:
+  personalities: [bruno-retailleau]
+  themes: [immigration]
+  questions:
+    - immigration-supprimer-droit-du-sol
+    - immigration-plafond-annuel-admissions
+    - immigration-regularisation-metiers-tension
+queries:
+  - at: 2026-11-22
+    query: "lecture préalable : questions/immigration.yaml (trois énoncés), champ quoteSource seul des trois positions, sources/bruno-retailleau.yaml, preuves/bruno-retailleau.yaml (10 preuves), signalements.yaml (vide), personnalites.yaml, journaux 2026-11-22-bruno-retailleau-immigration(-relance)"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-22
+    query: "lecture intégrale des trois textes en cache (.cache/sources/35d76fba….txt, 95ae17ed….txt, fd13b876….txt) avant lecture des valeurs et justifications"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-22
+    query: "https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/"
+    category: PARTY_SITE
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.senat.fr/leg/ppl22-646.html"
+    category: SENAT
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/"
+    category: PARTY_SITE
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "circulaire Retailleau 23 janvier 2025 admission exceptionnelle au séjour métiers en tension sept ans"
+    category: GOVERNMENT
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau quotas immigration \"chaque année\" Parlement plafond 2026"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau \"droit du sol\" 2026 supprimer référendum"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.publicsenat.fr/actualites/politique/immigration-le-groupe-lr-du-senat-retire-sa-proposition-de-loi-constitutionnelle-faute-de-majorite"
+    category: HISTORICAL_ARCHIVES
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.leclubdesjuristes.com/en-bref/presidentielle-2027-bruno-retailleau-veut-supprimer-le-droit-du-sol-par-referendum-17273/"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.legifrance.gouv.fr/circulaire/id/45584 (fiche) puis PDF de la circulaire"
+    category: GOVERNMENT
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.maire-info.com/immigration/ce-que-contient-la-circulaire-retailleau-sur-la-regularisation-des-etrangers-en-situation-irreguliere-article-29333"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.vie-publique.fr/discours/297414-bruno-retailleau-astrid-panosyan-bouvet-17022025-immigration"
+    category: GOVERNMENT
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "Retailleau \"métiers en tension\" régularisation \"au cas par cas\" Sénat 2023 article 4 bis"
+    category: PARLIAMENTARY_ARCHIVES
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.publicsenat.fr/actualites/politique/immigration-ce-qui-va-changer-avec-la-nouvelle-circulaire-de-fermete-de-bruno-retailleau"
+    category: NATIONAL_MEDIA
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.publicsenat.fr/actualites/politique/loi-immigration-le-senat-durcit-les-conditions-de-regularisation-dans-les-metiers-en-tension"
+    category: HISTORICAL_ARCHIVES
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.publicsenat.fr/actualites/politique/retailleau-lr-sur-l-immigration-macron-doit-agir-au-lieu-de-faire-des-clins-d-oeil"
+    category: HISTORICAL_ARCHIVES
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "Retailleau programme 2027 immigration quotas \"votés par le Parlement\" OR \"plafond\" titres de séjour"
+    category: CAMPAIGN_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:republicains.fr Retailleau quotas immigration 2026"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau \"régularisation\" \"métiers en tension\" 2026 circulaire détricoter"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "recherche plein texte des doublons : « ppl22-646 », « nombre maximum d'autorisations », « circulaire », « L435-4 », « maire-info » dans data/recherche et data/corpus"
+    category: EXISTING_CORPUS
+    tool: grep
+categoriesExplored:
+  - EXISTING_CORPUS
+  - PARTY_SITE
+  - SENAT
+  - GOVERNMENT
+  - NATIONAL_MEDIA
+  - HISTORICAL_ARCHIVES
+  - SPECIALIZED_PUBLICATIONS
+  - PARLIAMENTARY_ARCHIVES
+  - CAMPAIGN_SITE
+categoriesNotExplored:
+  - category: SOCIAL_MEDIA
+    reason: Publications sous authentification, non contournée (FR-049).
+  - category: TV_RADIO_DEBATES
+    reason: >-
+      Intervention du 8 septembre 2026 sur le droit du sol (CNews / Europe 1 selon des reprises
+      secondaires) non retrouvée en enregistrement ou transcription ; audit borné aux sources citées.
+  - category: ORIGINAL_VIDEOS
+    reason: Aucune transcription publiée recherchée dans cet audit borné.
+  - category: PRESS_AGENCIES
+    reason: Dépêche AFP du 8 septembre 2026 vue seulement en extrait de moteur de recherche (reprise boursedirect), non ouverte.
+  - category: FACT_CHECKING
+    reason: Non exploré dans cet audit.
+exhaustive: false
+sourcesConsulted:
+  - url: https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/
+    title: « En France, la seule cour suprême, c'est le peuple » (entretien au Figaro reproduit par Les Républicains, 2 septembre 2026)
+    outcome: retained
+    reason: Source de la position droit du sol ; page en ligne relue, passage identique au cache.
+    source: bruno-retailleau-figaro-constitution-2026-09
+  - url: https://www.senat.fr/leg/ppl22-646.html
+    title: PPL constitutionnelle n° 646 rect. relative à la souveraineté de la France, à la nationalité, à l'immigration et à l'asile (Sénat, 25 mai 2023)
+    outcome: retained
+    reason: Source de la position plafond annuel ; article 6 relu en ligne, identique au cache ; support de la preuve immigration-010.
+    source: bruno-retailleau-ppl-constitutionnelle-relative-a-la-souverainete-de-la-franc
+  - url: https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/
+    title: « Ma candidature ira jusqu'au bout » (entretien au JDD reproduit par Les Républicains, 31 mai 2026)
+    outcome: retained
+    reason: Source de la position métiers en tension ; passage relu en ligne, identique au cache.
+    source: bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
+  - url: https://www.maire-info.com/immigration/ce-que-contient-la-circulaire-retailleau-sur-la-regularisation-des-etrangers-en-situation-irreguliere-article-29333
+    title: Ce que contient la circulaire Retailleau sur la régularisation des étrangers en situation irrégulière (Maire-info, 27 janvier 2025)
+    outcome: retained
+    reason: Description détaillée de la circulaire du 23 janvier 2025 ; support de la preuve immigration-011.
+    source: bruno-retailleau-ce-que-contient-la-circulaire-retailleau-sur-la-regularisati
+  - url: https://www.legifrance.gouv.fr/circulaire/id/45584
+    title: Circulaire du 23 janvier 2025 sur l'admission exceptionnelle au séjour (NOR INTK2435521J, Légifrance)
+    outcome: inaccessible
+    reason: >-
+      Fiche lue (résumé, signataire « Ministre d'Etat, Ministre de l'intérieur », date du
+      23/01/2025) mais le PDF intégral n'a pas pu être récupéré automatiquement (page HTML renvoyée
+      à la place du fichier) ; aucun contournement tenté.
+  - url: https://www.vie-publique.fr/discours/297414-bruno-retailleau-astrid-panosyan-bouvet-17022025-immigration
+    title: Déclaration de Bruno Retailleau et Astrid Panosyan-Bouvet du 17 février 2025 sur l'immigration (vie-publique.fr)
+    outcome: inaccessible
+    reason: Page vide à la récupération automatique ; contenu non lu, aucune affirmation tirée de ce document.
+  - url: https://www.publicsenat.fr/actualites/politique/immigration-le-groupe-lr-du-senat-retire-sa-proposition-de-loi-constitutionnelle-faute-de-majorite
+    title: "Immigration : le groupe LR du Sénat retire sa proposition de loi constitutionnelle faute de majorité (Public Sénat, 11 décembre 2023)"
+    outcome: rejected
+    reason: >-
+      Contexte sur le sort de la PPL constitutionnelle (retrait après suppression en commission des
+      articles 2 et 3) cité dans la preuve immigration-010 ; l'article ne donne pas le numéro du
+      texte ni le sort de l'article 6, et ne cite pas l'intéressé : non enregistré.
+  - url: https://www.leclubdesjuristes.com/en-bref/presidentielle-2027-bruno-retailleau-veut-supprimer-le-droit-du-sol-par-referendum-17273/
+    title: "Présidentielle 2027 : Bruno Retailleau veut supprimer le droit du sol par référendum (Le Club des juristes, 9 septembre 2026)"
+    outcome: rejected
+    reason: >-
+      Paraphrase sans citation de l'intéressé ; confirme le sens et l'actualité de la position
+      droit du sol (annonce du 8 septembre 2026) sans réserve ni restriction géographique, mais ne
+      reproduit pas la même citation : pas de corroboration formelle, aucune preuve ajoutée.
+  - url: https://www.publicsenat.fr/actualites/politique/immigration-ce-qui-va-changer-avec-la-nouvelle-circulaire-de-fermete-de-bruno-retailleau
+    title: Immigration, ce qui va changer avec la nouvelle circulaire de fermeté de Bruno Retailleau (Public Sénat, 24 janvier 2025)
+    outcome: rejected
+    reason: Contexte (seuil de sept ans, propos sur la « fermeté ») ; ne traite pas de l'article L. 435-4, Maire-info retenu à sa place.
+  - url: https://www.publicsenat.fr/actualites/politique/loi-immigration-le-senat-durcit-les-conditions-de-regularisation-dans-les-metiers-en-tension
+    title: "Loi immigration : le Sénat durcit les conditions de régularisation dans les métiers en tension (Public Sénat, 9 novembre 2023)"
+    outcome: rejected
+    reason: >-
+      Compromis LR-centristes (article 4 bis, régularisation au cas par cas) attribué aux groupes,
+      sans citation ni vote nominatif de l'intéressé : position de groupe, non enregistrée comme
+      preuve personnelle ; mentionnée dans le signalement métiers en tension.
+  - url: https://www.publicsenat.fr/actualites/politique/retailleau-lr-sur-l-immigration-macron-doit-agir-au-lieu-de-faire-des-clins-d-oeil
+    title: "Retailleau (LR) : sur l'immigration, Macron doit agir au lieu de faire « des clins d'oeil » à droite (Public Sénat, 17 septembre 2019)"
+    outcome: rejected
+    reason: >-
+      Propos rapporté au style indirect (2019) sur des quotas fixés chaque année par le Parlement :
+      indique une constance ancienne, mais historique et non textuel ; non enregistré.
+evidenceAdded:
+  - bruno-retailleau-immigration-010
+  - bruno-retailleau-immigration-011
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided:
+  - evidence: bruno-retailleau-immigration-006
+    note: >-
+      La phrase « l'idée de régulariser des clandestins qui ont fraudé nos lois est une
+      capitulation » (JDD, 31 mai 2026) est déjà citation de positions publiées ; aucune preuve
+      n'est créée pour les citations des trois positions auditées (vérifiées, non dupliquées).
+verified:
+  - "immigration-supprimer-droit-du-sol : « abolir le droit du sol » retrouvé mot pour mot (cache et page en ligne), dans « Expulser tous ceux qui n'ont rien à faire en France, supprimer le droit au mariage pour les OQTF, abolir le droit du sol et revenir à l'assimilation pour qu'il n'y ait plus de naturalisations automatiques. » ; propos personnel, 2 septembre 2026."
+  - "immigration-plafond-annuel-admissions : « La loi fixe chaque année le nombre maximum d'autorisations d'entrées en vue de séjourner en France et d'autorisations de premier séjour en France délivrées à des ressortissants étrangers. » retrouvé mot pour mot (article 6, art. 34-2, PPL n° 646 rect., 25 mai 2023)."
+  - "immigration-regularisation-metiers-tension : « On nous explique qu'il faudrait régulariser parce que certains secteurs manquent de main-d'œuvre. Mais on peut former des Français, comme on peut former des étrangers déjà présents légalement sur notre territoire. » retrouvé mot pour mot (JDD, 31 mai 2026)."
+toVerify:
+  - "Texte intégral de la circulaire du 23 janvier 2025 (Légifrance, NOR INTK2435521J) : confirmer dans l'original la consigne de privilégier l'article L. 435-4, connue ici par Maire-info."
+  - "Sort de l'article 6 de la PPL n° 646 lors de l'examen en commission (décembre 2023) : dossier législatif du Sénat non ouvert."
+  - "Intervention du 8 septembre 2026 sur le droit du sol : enregistrement original non retrouvé."
+contradictions: []
+gaps:
+  - kind: HISTORICAL_ONLY
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-plafond-annuel-admissions
+    evidence: [bruno-retailleau-immigration-010]
+    note: >-
+      Seuls un texte de 2023 (PPL n° 646) et une paraphrase de 2019 documentent un plafond annuel
+      fixé par la loi ; les requêtes 2026 (site du parti, programme, presse) ne ramènent aucun
+      propos de moins de douze mois sur ce point (les quotas évoqués en 2026 visent les étudiants,
+      par filière).
+  - kind: PRIMARY_INACCESSIBLE
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-regularisation-metiers-tension
+    evidence: [bruno-retailleau-immigration-011]
+    note: >-
+      Le PDF de la circulaire du 23 janvier 2025 n'a pas pu être récupéré ; son contenu est connu
+      par un média spécialisé (Maire-info).
+signals:
+  - sig-2026-11-22-retailleau-plafond-annuel-actualite
+  - sig-2026-11-22-retailleau-metiers-tension-circulaire

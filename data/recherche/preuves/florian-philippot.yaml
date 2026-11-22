@@ -1,0 +1,27 @@
+# Preuves de Florian Philippot (spec 008). Corpus de recherche : jamais publié, jamais scoré.
+
+- id: florian-philippot-candidature-001
+  personality: florian-philippot
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  journal: 2026-11-22-amorcage-registre
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Je suis candidat à la présidentielle"
+  speaker: Florian Philippot
+  context: "Annonce faite sur France 2 le 9 mai 2026, rapportée par franceinfo ; il se dit prêt à se retirer au profit d'une candidature souverainiste plus rassembleuse."
+  verificationNotes: "Amorçage du registre (T048) : preuve construite sur la source de statut déjà enregistrée (statusSource) et sur son texte en cache, sans recherche web. Citation retrouvée mot pour mot dans le texte en cache."
+  source: florian-philippot-declaration-candidature
+  publisher: "franceinfo"
+  locator: { kind: passage, value: "premier paragraphe" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: "Article de presse rapportant l’annonce de l’intéressé·e ; source primaire (enregistrement, publication personnelle) non ouverte pendant l’amorçage."
+  statedAt: { date: 2026-05-09, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

@@ -240,3 +240,14 @@
   candidates:
     - gabriel-attal
   contentHash: sha256:b7f949057956d5e1581342a07f1580bffbcdecc145f5067eb0f70c4abb9634de
+- id: gabriel-attal-an-scrutin-738-nationalite-mayotte
+  url: https://questions.assemblee-nationale.fr/dyn/17/scrutins/738
+  title: Analyse du scrutin public n° 738, ensemble de la proposition de loi Mayotte, nationalité (Assemblée nationale, texte de la page)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-02-06
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:e7517e4e9c38f5853c2c8c8bd0b4423f549ebc93de4e1161a9bc3d29c2152917

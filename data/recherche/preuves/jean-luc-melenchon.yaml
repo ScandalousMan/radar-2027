@@ -1,0 +1,27 @@
+# Preuves de Jean-Luc Mélenchon (spec 008). Corpus de recherche : jamais publié, jamais scoré.
+
+- id: jean-luc-melenchon-candidature-001
+  personality: jean-luc-melenchon
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  journal: 2026-11-22-amorcage-registre
+  quoteStatus: PARAPHRASE
+  paraphrase: "Déclare sur TF1 être candidat à l'élection présidentielle de 2027, avec une équipe, un programme et un candidat unique pour La France insoumise."
+  speaker: Jean-Luc Mélenchon
+  context: "Entretien à TF1 du 3 mai 2026 rapporté en anglais par France 24 ; la citation n'existe qu'en traduction anglaise dans le texte en cache, elle n'est donc pas reprise comme citation (FR-020)."
+  verificationNotes: "Amorçage du registre (T048) : preuve construite sur la source de statut déjà enregistrée (statusSource) et sur son texte en cache, sans recherche web. Aucune citation d’annonce exploitable dans le texte en cache : paraphrase."
+  source: jean-luc-melenchon-declaration-candidature
+  publisher: "France 24 (en anglais)"
+  locator: { kind: passage, value: "deuxième paragraphe" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: "Article de presse rapportant l’annonce de l’intéressé·e ; source primaire (enregistrement, publication personnelle) non ouverte pendant l’amorçage."
+  statedAt: { date: 2026-05-03, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

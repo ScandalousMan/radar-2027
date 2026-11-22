@@ -1,0 +1,27 @@
+# Preuves de Nathalie Arthaud (spec 008). Corpus de recherche : jamais publié, jamais scoré.
+
+- id: nathalie-arthaud-candidature-001
+  personality: nathalie-arthaud
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  journal: 2026-11-22-amorcage-registre
+  quoteStatus: VERIFIED_QUOTE
+  quote: "nous avons voté que je serai candidate pour Lutte ouvrière lors de cette présidentielle"
+  speaker: Nathalie Arthaud
+  context: "Conférence de presse du 8 décembre 2025 à Paris, après le congrès de Lutte ouvrière, rapportée par une dépêche AFP."
+  verificationNotes: "Amorçage du registre (T048) : preuve construite sur la source de statut déjà enregistrée (statusSource) et sur son texte en cache, sans recherche web. Citation retrouvée mot pour mot dans le texte en cache."
+  source: nathalie-arthaud-declaration-candidature
+  publisher: "ici (France Bleu), dépêche AFP"
+  locator: { kind: passage, value: "quatrième paragraphe" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: "Article de presse rapportant l’annonce de l’intéressé·e ; source primaire (enregistrement, publication personnelle) non ouverte pendant l’amorçage."
+  statedAt: { date: 2025-12-08, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

@@ -1,0 +1,27 @@
+# Preuves de David Lisnard (spec 008). Corpus de recherche : jamais publié, jamais scoré.
+
+- id: david-lisnard-candidature-001
+  personality: david-lisnard
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  journal: 2026-11-22-amorcage-registre
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Je suis candidat"
+  speaker: David Lisnard
+  context: "Journal de 20 heures de France 2, 31 mars 2026, rapporté par LCP le lendemain ; annonce faite en même temps que son départ des Républicains."
+  verificationNotes: "Amorçage du registre (T048) : preuve construite sur la source de statut déjà enregistrée (statusSource) et sur son texte en cache, sans recherche web. Citation retrouvée mot pour mot dans le texte en cache."
+  source: david-lisnard-declaration-candidature
+  publisher: "LCP"
+  locator: { kind: passage, value: "troisième paragraphe" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: "Article de presse rapportant l’annonce de l’intéressé·e ; source primaire (enregistrement, publication personnelle) non ouverte pendant l’amorçage."
+  statedAt: { date: 2026-03-31, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

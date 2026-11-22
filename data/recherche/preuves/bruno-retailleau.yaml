@@ -1,0 +1,628 @@
+# Preuves de Bruno Retailleau (spec 008). Corpus de recherche : jamais publié, jamais scoré.
+# Une preuve documente un propos, un document ou un acte ; elle n'évalue pas le candidat et ne
+# modifie aucune position. Ajout en fin de liste seulement, aucune suppression.
+# Journal de la première passe : data/recherche/journaux/2026-11-22-bruno-retailleau-immigration.yaml
+
+- id: bruno-retailleau-candidature-001
+  personality: bruno-retailleau
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "J'ai pris la décision d'être candidat à l'élection présidentielle"
+  speaker: Bruno Retailleau
+  context: >-
+    Allocution de déclaration de candidature du 12 février 2026, diffusée sur les réseaux sociaux
+    et rapportée le jour même par Public Sénat, qui reproduit la phrase d'annonce.
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot (deux fois) dans le texte en cache de la source de statut déjà
+    enregistrée. Le média est secondaire : l'enregistrement original de l'allocution n'a pas été
+    consulté, seule sa reproduction écrite.
+  source: bruno-retailleau-declaration-candidature
+  publisher: Public Sénat
+  locator: { kind: passage, value: "paragraphe d'annonce : « C'est fait. Bruno Retailleau déclare officiellement sa candidature »" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: précampagne présidentielle 2027
+  rationale:
+    sourceQuality: >-
+      Média national établi reproduisant la phrase de l'allocution ; l'enregistrement original
+      n'a pas été ouvert, la source reste donc secondaire.
+    attribution: >-
+      Propos tenus par l'intéressé lui-même dans sa propre allocution, sans condition ni réserve :
+      une déclaration, pas une rumeur d'entourage.
+  statedAt: { date: 2026-02-12, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-bruno-retailleau-immigration
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: bruno-retailleau-immigration-001
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: immigration
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Dire la vérité, c'est dire que l'immigration n'est pas une chance."
+  speaker: Bruno Retailleau
+  context: >-
+    Même allocution de déclaration de candidature : énoncé de la ligne générale du candidat sur
+    l'immigration, avant toute mesure précise.
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache. Elle est suivie, dans la même citation,
+    de « Parce qu'au-delà d'un certain nombre, une société multiculturelle devient toujours une
+    société multiconflictuelle. » : aucune réserve ni condition n'y est attachée.
+  source: bruno-retailleau-declaration-candidature
+  publisher: Public Sénat
+  locator: { kind: passage, value: "« L'engagement que je prends, c'est de toujours vous dire la vérité » (suite de l'allocution)" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: précampagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      Preuve rattachée au thème sans question : aucun énoncé de la banque immigration ne porte sur
+      l'appréciation générale du phénomène migratoire. Elle ne vaut donc, à elle seule, réponse à
+      aucune question du thème.
+  statedAt: { date: 2026-02-12, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-bruno-retailleau-immigration
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: bruno-retailleau-immigration-002
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: immigration
+  question: immigration-prestations-duree-residence
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Je veux conditionner l'accès aux aides sociales, pour les étrangers, à cinq ans de résidence légale et de travail."
+  speaker: Bruno Retailleau
+  context: >-
+    Entretien au Journal du dimanche publié le 31 mai 2026 et reproduit intégralement par Les
+    Républicains ; réponse à la question « Jusqu'où faut-il durcir les règles en matière
+    d'immigration ? ». La phrase suivante est : « Une aide n'est pas un dû, surtout lorsque l'on
+    n'a pas cotisé. »
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache de la source. Page du site du parti
+    reproduisant l'entretien ; le JDD d'origine n'a pas été ouvert.
+  source: bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
+  publisher: Le Journal du dimanche (texte reproduit par Les Républicains)
+  locator: { kind: passage, value: "réponse à « Jusqu'où faut-il durcir les règles en matière d'immigration ? »" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: précampagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      L'énoncé porte sur « les prestations sociales non contributives » soumises à « cinq ans de
+      résidence » ; le propos reprend bien le seuil de cinq ans, mais parle d'« aides sociales »
+      sans délimiter le caractère non contributif, et y ajoute une condition de travail absente de
+      l'énoncé. Soutien plus large et plus exigeant que l'énoncé, donc qualifié et non explicite.
+    temporalRelevance: >-
+      Propos de mai 2026, moins de douze mois avant la vérification. La même exigence de cinq ans
+      de résidence pour les étrangers non ressortissants de l'Union européenne figurait déjà dans
+      la proposition de loi n° 677 du Sénat (1er juin 2023) qu'il a cosignée
+      (https://www.senat.fr/leg/ppl22-677.html), ce qui indique une position constante et non un
+      propos isolé.
+  statedAt: { date: 2026-05-31, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-bruno-retailleau-immigration
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: bruno-retailleau-immigration-003
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: immigration
+  question: immigration-frais-etudiants-etrangers
+  qualification: QUALIFIED_OPPOSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "il n'y aura plus de passe-droit : plus d'exonération automatique des frais d'inscription pour les étudiants extra-européens"
+  speaker: Bruno Retailleau
+  context: >-
+    Même entretien du 31 mai 2026, réponse à « Vous proposez de réduire l'immigration légale.
+    Concrètement, par où commencer ? ». La phrase est introduite par « Si je suis élu président de
+    la République » et suivie de « Ils devront justifier de ressources suffisantes ».
+  verificationNotes: >-
+    Fragment retrouvé mot pour mot dans le texte en cache ; la citation commence au milieu de la
+    phrase d'origine, dont le début (« Si je suis élu président de la République, ») est restitué
+    dans le contexte plutôt qu'ajouté silencieusement à la citation.
+  source: bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
+  publisher: Le Journal du dimanche (texte reproduit par Les Républicains)
+  locator: { kind: passage, value: "réponse sur les étudiants étrangers (« deux tiers d'entre eux ne valident pas leur licence en trois ans »)" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: précampagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      L'énoncé demande des frais d'inscription identiques pour les étudiants extra-européens et
+      les étudiants français. Le propos vise la suppression de l'exonération automatique de la
+      majoration applicable aux extra-européens, c'est-à-dire des frais supérieurs à ceux des
+      étudiants français : c'est une opposition à l'énoncé. Elle est qualifiée et non explicite,
+      car le propos parle du mécanisme d'exonération et non du niveau comparé des frais, et la
+      conclusion suppose de savoir que les frais extra-européens sont majorés par principe.
+  statedAt: { date: 2026-05-31, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-bruno-retailleau-immigration
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: bruno-retailleau-immigration-004
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: immigration
+  question: immigration-regroupement-familial-ressources
+  qualification: NO_DIRECT_EVIDENCE
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Sur le regroupement familial, il faudra changer le droit européen, et donc revoir la directive européenne."
+  speaker: Bruno Retailleau
+  context: >-
+    Même entretien du 31 mai 2026 : le regroupement familial est cité parmi les quatre motifs
+    d'entrée sur lesquels il veut « agir sur chaque levier », sans indication de condition de
+    ressources.
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache. Aucune mention de ressources, de seuil
+    ni de montant dans la réponse ; la suite porte sur le règlement retour et l'influence française
+    en Europe.
+  source: bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
+  publisher: Le Journal du dimanche (texte reproduit par Les Républicains)
+  locator: { kind: passage, value: "réponse sur les motifs d'entrée (« l'asile, les étudiants étrangers, le regroupement familial et le travail »)" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: précampagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      Propos sur le regroupement familial, mais sans lien direct avec l'énoncé, qui porte sur des
+      conditions de ressources plus strictes : l'instrument annoncé est la révision de la directive
+      européenne, aucune condition de ressources n'est évoquée. Preuve enregistrée pour documenter
+      ce qu'elle ne démontre pas, et éviter de lire dans ce propos un soutien à l'énoncé.
+  statedAt: { date: 2026-05-31, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-bruno-retailleau-immigration
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: bruno-retailleau-immigration-005
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: immigration
+  question: immigration-regroupement-familial-ressources
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "L'étranger justifie de ressources stables, régulières et suffisantes"
+  speaker: Bruno Retailleau
+  context: >-
+    Proposition de loi n° 677 déposée au Sénat le 1er juin 2023, « pour reprendre le contrôle de la
+    politique d'immigration, d'intégration et d'asile ». L'article 4 complète l'article L. 423-1 du
+    CESEDA (titre de séjour du conjoint de Français) par des conditions de ressources, de logement
+    et d'assurance maladie. L'article 3 confie par ailleurs au maire la vérification sur place des
+    conditions de logement et de ressources des demandes de regroupement familial.
+  verificationNotes: >-
+    Texte retrouvé mot pour mot dans le texte en cache du dossier législatif du Sénat. Le document
+    est un dépôt : il ne dit rien de son examen ni de son sort, et le texte consulté n'en porte
+    aucune mention.
+  source: bruno-retailleau-ppl-pour-reprendre-le-controle-de-la-politique-d-immigration
+  publisher: Sénat
+  locator: { kind: article, value: "article 4 (nouveaux 4° à 6° de l'art. L. 423-1 du CESEDA)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: MEDIUM
+  actionScope: >-
+    Cosignature, en deuxième position après François-Noël Buffet, d'une proposition de loi
+    sénatoriale collective (plus de quatre-vingts signataires) déposée le 1er juin 2023 ; portée de
+    l'acte : dépôt d'un texte, antérieur à toute discussion en séance. L'acte établit qu'il a
+    soutenu ce dispositif par sa signature, non qu'il en a personnellement rédigé ou défendu chaque
+    article.
+  temporalRelevance: DATED
+  period: travaux sénatoriaux 2023, avant son entrée au gouvernement
+  rationale:
+    sourceQuality: >-
+      Texte législatif publié par le Sénat : source primaire, ouverte et lue dans son contexte
+      (titre, liste des signataires, articles 3 et 4).
+    attribution: >-
+      Acte individuel documenté (signature), mais sur un texte collectif dont il n'est pas le
+      premier signataire : la confiance reste moyenne quant à la paternité du détail du dispositif.
+    interpretation: >-
+      L'énoncé demande des conditions de ressources plus strictes pour le regroupement familial.
+      Le texte signé durcit effectivement le contrôle des ressources pour l'admission au séjour
+      familial, mais par deux dispositifs distincts de l'énoncé : une condition de ressources
+      nouvelle pour le conjoint de Français (art. L. 423-1, qui n'est pas la procédure de
+      regroupement familial proprement dite) et le renforcement de la vérification des conditions
+      déjà exigées pour le regroupement familial. Aucun seuil de ressources n'est relevé. Soutien
+      qualifié, donc, et non explicite.
+    temporalRelevance: >-
+      Texte de 2023, plus de douze mois avant la vérification, et aucune confirmation récente
+      portant spécifiquement sur les ressources : il n'est pas présenté comme la position actuelle.
+  statedAt: { date: 2023-06-01, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-bruno-retailleau-immigration
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: bruno-retailleau-immigration-006
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: immigration
+  question: immigration-regularisation-cinq-ans
+  qualification: QUALIFIED_OPPOSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Les régularisations massives sont une fausse générosité et un vrai appel d'air."
+  speaker: Bruno Retailleau
+  context: >-
+    Entretien au Journal du dimanche publié le 2 août 2026 et reproduit intégralement par Les
+    Républicains, à propos des événements de Ceuta et de la régularisation décidée en Espagne.
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache. Le propos vise explicitement les
+    régularisations massives décidées en Espagne, pas un dispositif français daté ou chiffré.
+  source: bruno-retailleau-jdd-schengen-2026-08
+  publisher: Le Journal du dimanche (texte reproduit par Les Républicains)
+  locator: { kind: passage, value: "première réponse, sur la responsabilité de Pedro Sánchez à Ceuta" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: précampagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      L'énoncé porte sur la régularisation des étrangers sans titre de séjour présents en France
+      depuis plus de cinq ans. Le propos rejette la régularisation massive par principe (« fausse
+      générosité », « appel d'air »), mais ne discute ni le critère d'ancienneté de cinq ans ni le
+      cas français : opposition partielle quant à la portée de l'énoncé, donc qualifiée.
+  statedAt: { date: 2026-08-02, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-bruno-retailleau-immigration
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: bruno-retailleau-immigration-007
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: immigration
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Je propose de revenir à l'inspiration première du système Schengen, avec une libre circulation pour les Européens, mais pas pour les extra-Européens."
+  speaker: Bruno Retailleau
+  context: >-
+    Même entretien du 2 août 2026, réponse sur le fédéralisme et la politique migratoire
+    européenne ; il y défend une « double membrane » (frontières extérieures protégées et
+    politique migratoire nationale) et demande des « visas territorialisés comme règle de droit
+    commun ».
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache. Proposition énoncée au présent, sans
+    condition ni échéance.
+  source: bruno-retailleau-jdd-schengen-2026-08
+  publisher: Le Journal du dimanche (texte reproduit par Les Républicains)
+  locator: { kind: passage, value: "réponse « Je ne suis pas du tout fédéraliste. Je prône une double membrane »" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: précampagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      Preuve rattachée au thème sans question : aucun énoncé de la banque immigration ne porte sur
+      la libre circulation dans l'espace Schengen ni sur la territorialisation des visas. Elle ne
+      répond donc à aucune question en l'état, et notamment pas à l'énoncé sur l'assouplissement
+      des visas de travail des professions qualifiées, qui traite d'un autre dispositif.
+  statedAt: { date: 2026-08-02, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-bruno-retailleau-immigration
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: bruno-retailleau-immigration-008
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: immigration
+  question: immigration-ame-soins-urgents
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: PARAPHRASE
+  paraphrase: >-
+    Selon franceinfo, qui rapporte sans le citer mot pour mot un propos tenu sur TF1 le 23
+    septembre 2024, Bruno Retailleau, alors ministre de l'Intérieur, voulait supprimer l'aide
+    médicale d'État et la remplacer par une aide d'urgence pour les étrangers, en utilisant son
+    pouvoir réglementaire pour limiter les soins gratuits aux étrangers en situation irrégulière.
+  speaker: Bruno Retailleau
+  context: >-
+    Article de franceinfo du 24 septembre 2024 consacré aux réactions politiques à cette
+    annonce ; l'article rapporte l'intention du ministre et cite longuement ses contradicteurs,
+    mais aucune phrase de lui n'y figure entre guillemets.
+  verificationNotes: >-
+    Aucune citation directe de l'intéressé dans l'article : la preuve est donc une paraphrase, sans
+    guillemets, et l'émission d'origine (TF1, 23 septembre 2024) n'a pas été consultée. Le passage
+    de référence du texte en cache est « Réduire l'Aide médicale d'État à une aide d'urgence pour
+    les étrangers, c'est la volonté du nouveau ministre de l'Intérieur Bruno Retailleau. »
+  source: bruno-retailleau-suppression-de-l-aide-medicale-d-etat-la-proposition-de-brun
+  publisher: franceinfo
+  locator: { kind: paragraph, value: "1er paragraphe du corps de l'article" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: MEDIUM
+  temporalRelevance: HISTORICAL
+  period: ministère de l'Intérieur, septembre 2024
+  rationale:
+    sourceQuality: >-
+      Média national établi, mais qui rapporte le propos au lieu de le reproduire : secondaire pour
+      cet usage, et la source primaire (émission de TF1) n'a pas été ouverte.
+    quote: >-
+      Reformulation assumée comme telle : rien n'est mis entre guillemets, aucune phrase n'étant
+      attribuée textuellement à l'intéressé dans l'article.
+    attribution: >-
+      Intention annoncée par l'intéressé lui-même sur un plateau de télévision, rapportée par un
+      tiers : attribution personnelle, mais confiance moyenne faute d'accès à l'original.
+    interpretation: >-
+      L'énoncé demande que l'aide médicale d'État soit limitée aux soins urgents. L'intention
+      rapportée va dans ce sens, mais par un instrument différent : supprimer l'AME et la remplacer
+      par une aide d'urgence, par voie réglementaire. Soutien qualifié, donc.
+    temporalRelevance: >-
+      Propos de septembre 2024, tenus comme ministre de l'Intérieur et non comme candidat ; aucune
+      reprise récente n'a été vérifiée. À ne pas présenter comme sa position actuelle.
+  statedAt: { date: 2024-09-23, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-bruno-retailleau-immigration
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: bruno-retailleau-immigration-009
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: immigration
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "je demande la suspension de la libre circulation des personnes avec l'Espagne au sein de l'Union européenne."
+  speaker: Bruno Retailleau
+  context: >-
+    Communiqué de presse du 31 juillet 2026, signé « Bruno Retailleau, Président des
+    Républicains », en réaction aux événements de Ceuta et à la régularisation décidée en Espagne.
+    La phrase est introduite par « Face à la gravité de la situation, » ; le communiqué demande
+    aussi le rétablissement du contrôle aux frontières avec l'Espagne et que les visas
+    territorialisés « deviennent la règle et non plus l'exception ».
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache du PDF officiel (une page). Ce communiqué
+    avait été noté inaccessible par le journal 2026-11-22-bruno-retailleau-immigration (adresse du
+    PDF non établie) ; il a été localisé sous /wp-content/uploads/2026/08/. Propos distinct de la
+    preuve immigration-007 (entretien du 2 août 2026 sur la réservation de Schengen aux
+    Européens) et de immigration-006 (régularisations massives) : autre document, autre
+    formulation, autre demande (suspension ciblée sur l'Espagne).
+  source: bruno-retailleau-la-libre-circulation-des-personnes-en-europe-doit-etre-suspe
+  publisher: Les Républicains
+  locator: { kind: paragraph, value: "2" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: précampagne présidentielle 2027
+  rationale:
+    sourceQuality: >-
+      Communiqué publié par le parti qu'il préside, signé de son nom et rédigé à la première
+      personne : source primaire ouverte et lue intégralement.
+    interpretation: >-
+      Preuve rattachée au thème sans question : aucun énoncé de la banque immigration ne porte sur
+      la libre circulation dans l'espace Schengen. Elle ne vaut réponse à aucune question,
+      notamment pas à immigration-regularisation-cinq-ans (la critique vise la régularisation
+      espagnole, pas un dispositif français).
+  statedAt: { date: 2026-07-31, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-bruno-retailleau-immigration-relance
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: bruno-retailleau-immigration-010
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: immigration
+  question: immigration-plafond-annuel-admissions
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "La loi fixe chaque année le nombre maximum d'autorisations d'entrées en vue de séjourner en France et d'autorisations de premier séjour en France délivrées à des ressortissants étrangers."
+  speaker: Bruno Retailleau
+  context: >-
+    Article 6 (nouvel article 34-2 de la Constitution) de la proposition de loi constitutionnelle
+    n° 646 rect., déposée au Sénat le 25 mai 2023 par Bruno Retailleau, premier signataire, et une
+    centaine de sénateurs du groupe LR. L'alinéa suivant permet au Gouvernement de répartir ce
+    nombre « par catégorie d'autorisation et par nationalité », rend tout principe et tout traité
+    inopposables à la loi, et le dernier alinéa exclut les ressortissants de l'Union européenne, de
+    l'Espace économique européen et de la Suisse, ainsi que « les personnes qui demandent l'asile ».
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache et sur la page en ligne du Sénat, relue le
+    2026-11-22 avec l'ensemble de l'article 6 et la liste des signataires. La page ne dit rien du
+    sort du texte. Public Sénat (11 décembre 2023) rapporte que le groupe LR a retiré « sa
+    proposition de loi constitutionnelle » sur l'immigration après la suppression en commission de
+    ses articles 2 et 3, sans donner de numéro ni évoquer l'article 6 ; l'identification avec le
+    n° 646 (dont les articles 2 et 3 portent bien sur le référendum et le droit européen) est une
+    interprétation, non vérifiée dans le dossier législatif.
+  source: bruno-retailleau-ppl-constitutionnelle-relative-a-la-souverainete-de-la-franc
+  publisher: Sénat
+  locator: { kind: article, value: "article 6 (art. 34-2 de la Constitution), premier alinéa" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: HIGH
+  actionScope: >-
+    Dépôt, comme premier signataire, de la proposition de loi constitutionnelle n° 646 rect. (Sénat,
+    session 2022-2023, 25 mai 2023), texte collectif cosigné par une centaine de sénateurs LR ;
+    portée de l'acte : dépôt, antérieur à toute discussion en séance, texte ensuite retiré selon la
+    presse (décembre 2023). L'acte établit le soutien au dispositif à cette date, non une position
+    réaffirmée depuis.
+  temporalRelevance: DATED
+  period: travaux sénatoriaux 2023, président du groupe LR au Sénat
+  rationale:
+    attribution: >-
+      Premier signataire et président du groupe auteur : la paternité politique du texte est
+      établie (confiance élevée), mais il s'agit d'un texte collectif et non d'une déclaration
+      personnelle.
+    interpretation: >-
+      L'énoncé : « Le Parlement doit fixer chaque année un plafond du nombre d'étrangers admis au
+      séjour. » Le texte fait bien fixer chaque année par la loi un nombre maximum d'autorisations
+      de premier séjour (et d'entrée), ce qui correspond à l'instrument et à la fréquence. Il est
+      toutefois plus étroit que l'énoncé quant à la portée : il exclut les demandeurs d'asile et les
+      ressortissants UE, EEE et suisses, et le passage par la loi peut aussi relever du référendum
+      dans l'économie du texte. Soutien qualifié, et non explicite.
+    temporalRelevance: >-
+      Texte de mai 2023, plus de douze mois avant la vérification. Un propos de 2019 rapporté au
+      style indirect par Public Sénat va dans le même sens (constance ancienne), mais aucune
+      déclaration de moins de douze mois sur un plafond annuel n'a été trouvée : les entretiens de
+      2026 lus (Figaro du 2 septembre, JDD du 31 mai) parlent de référendum sur l'immigration et de
+      quotas d'étudiants par filière, pas d'un plafond annuel voté par le Parlement.
+  statedAt: { date: 2023-05-25, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-audit-retailleau-immigration
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: bruno-retailleau-immigration-011
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: immigration
+  question: immigration-regularisation-metiers-tension
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: PARAPHRASE
+  paraphrase: >-
+    Selon Maire-info, la circulaire du 23 janvier 2025 signée par Bruno Retailleau, alors ministre
+    de l'Intérieur, maintient la régularisation par le travail prévue par l'article L. 435-4 du
+    CESEDA (titre d'un an pour un étranger en situation irrégulière ayant travaillé au moins douze
+    mois sur deux ans dans un métier ou une zone en tension, sans automaticité), et demande aux
+    préfets de privilégier autant que possible cette voie parmi les admissions exceptionnelles,
+    lesquelles doivent rester « exceptionnelles ».
+  speaker: Bruno Retailleau
+  context: >-
+    Circulaire du ministre de l'Intérieur du 23 janvier 2025 sur l'admission exceptionnelle au
+    séjour (NOR INTK2435521J), qui abroge la circulaire Valls de 2012, durcit les critères (sept ans
+    de présence au lieu de cinq, exigence linguistique) et applique l'article L. 435-4 créé par la
+    loi du 26 janvier 2024. Le passage de référence du texte en cache est « Entre ces deux
+    procédures, le ministre appelle les préfets à privilégier autant que possible la nouvelle. »
+    Le 31 mai 2026, l'intéressé défend « ma circulaire sur les régularisations » face au
+    gouvernement qui veut la « détricoter » (entretien au JDD).
+  verificationNotes: >-
+    Paraphrase d'un média spécialisé ; la circulaire elle-même n'a pas été lue : la fiche
+    Légifrance (signataire, date, résumé « la voie de l'admission exceptionnelle au séjour (AES)
+    n'est pas la voie normale d'immigration et d'accès au séjour ») a été ouverte, mais le PDF n'a
+    pas pu être récupéré automatiquement. Aucune phrase de la circulaire n'est donc présentée
+    entre guillemets comme authentifiée.
+  source: bruno-retailleau-ce-que-contient-la-circulaire-retailleau-sur-la-regularisati
+  publisher: Maire-info
+  locator: { kind: passage, value: "intertitre « Privilégier les métiers en tension »" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_ACTION
+  attributionConfidence: MEDIUM
+  actionScope: >-
+    Signature, comme ministre de l'Intérieur, d'une circulaire d'instructions aux préfets
+    (23 janvier 2025) appliquant une loi déjà en vigueur (art. L. 435-4 du CESEDA, loi du
+    26 janvier 2024, expérimental jusqu'au 31 décembre 2026). Acte ministériel et non déclaration de
+    campagne : il établit qu'il a maintenu et orienté cette voie de régularisation, non qu'il
+    souhaite la conserver dans son programme présidentiel.
+  temporalRelevance: DATED
+  period: ministère de l'Intérieur, janvier 2025
+  rationale:
+    sourceQuality: >-
+      Média spécialisé des collectivités qui décrit la circulaire en détail ; secondaire pour cet
+      usage, la source primaire (texte de la circulaire) n'ayant pas été ouverte.
+    attribution: >-
+      Acte signé par l'intéressé et revendiqué en 2026 comme « ma circulaire » : attribution
+      personnelle. Confiance moyenne parce que la circulaire applique une loi votée et relève de la
+      fonction ministérielle (FR-022 : n'en déduire aucune motivation individuelle).
+    interpretation: >-
+      L'énoncé : « Les travailleurs sans titre de séjour employés dans des métiers en tension
+      doivent pouvoir être régularisés. » La circulaire maintient précisément cette possibilité,
+      au cas par cas et sous conditions, et la désigne comme voie à privilégier : c'est un soutien
+      à la possibilité, mais étroit (discrétionnaire, exceptionnel, conditions durcies). Soutien
+      qualifié. Il ne contredit pas frontalement le rejet, en 2026, de la régularisation comme
+      réponse générale aux pénuries de main-d'œuvre, mais il nuance une opposition totale.
+    temporalRelevance: >-
+      Acte de janvier 2025, plus de douze mois avant la vérification ; la défense de « ma
+      circulaire » en mai 2026 ne précise pas si le volet L. 435-4 est conservé dans son projet.
+  statedAt: { date: 2025-01-23, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-audit-retailleau-immigration
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: bruno-retailleau-immigration-012
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: immigration
+  question: immigration-regularisation-cinq-ans
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: PARAPHRASE
+  paraphrase: >-
+    Selon Maire-info, la circulaire du 23 janvier 2025 signée par Bruno Retailleau, alors ministre
+    de l'Intérieur, exige désormais pour l'admission exceptionnelle au séjour une durée de présence
+    d'au moins sept ans sur le territoire français pour apprécier l'intégration de la personne, là
+    où la circulaire Valls de 2012 retenait cinq ans ; la régularisation y reste une mesure
+    exceptionnelle et discrétionnaire.
+  speaker: Bruno Retailleau
+  context: >-
+    Circulaire du ministre de l'Intérieur du 23 janvier 2025 sur l'admission exceptionnelle au
+    séjour (NOR INTK2435521J), qui abroge la circulaire Valls du 28 novembre 2012. Passage de
+    référence du texte en cache, sous l'intertitre « Sept ans au lieu de cinq » : « Il est désormais
+    exigé " une durée de présence d'au moins sept ans " sur le territoire français pour juger de
+    l'intégration de la personne, quand la circulaire Valls évoquait cinq ans. » Le 31 mai 2026,
+    l'intéressé défend « ma circulaire sur les régularisations » (entretien au JDD).
+  verificationNotes: >-
+    Paraphrase d'un média spécialisé, passage retrouvé dans le texte en cache de la source déjà
+    enregistrée. La circulaire elle-même n'a pas été lue : la page Légifrance (circulaire/id/45584)
+    renvoie une page de vérification anti-robot, non contournée, et le discours du 17 février 2025
+    sur vie-publique.fr est revenu vide. Le fragment « une durée de présence d'au moins sept ans »,
+    cité entre guillemets par Maire-info, n'est donc pas présenté comme authentifié. Même source que
+    immigration-011, mais autre passage et autre question.
+  source: bruno-retailleau-ce-que-contient-la-circulaire-retailleau-sur-la-regularisati
+  publisher: Maire-info
+  locator: { kind: passage, value: "intertitre « Sept ans au lieu de cinq »" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_ACTION
+  attributionConfidence: MEDIUM
+  actionScope: >-
+    Signature, comme ministre de l'Intérieur, d'une circulaire d'instructions aux préfets
+    (23 janvier 2025) sur l'admission exceptionnelle au séjour (art. L. 435-1 et suivants du
+    CESEDA) : la durée de présence de référence passe de cinq à sept ans. Acte ministériel sans
+    valeur de loi, appréciation au cas par cas par le préfet ; il établit le seuil qu'il a fixé
+    comme ministre, non un engagement de son programme présidentiel.
+  temporalRelevance: DATED
+  period: ministère de l'Intérieur, janvier 2025
+  rationale:
+    sourceQuality: >-
+      Média spécialisé des collectivités décrivant la circulaire en détail ; secondaire pour cet
+      usage, la source primaire (texte de la circulaire) n'ayant pas pu être ouverte.
+    attribution: >-
+      Acte signé par l'intéressé et revendiqué en mai 2026 comme « ma circulaire » ; confiance
+      moyenne parce qu'il s'agit d'un acte de fonction ministérielle (FR-022 : aucune motivation
+      individuelle n'en est déduite).
+    interpretation: >-
+      L'énoncé : « Les étrangers sans titre de séjour présents en France depuis plus de cinq ans
+      doivent pouvoir être régularisés. » La circulaire écarte précisément le seuil de cinq ans au
+      profit de sept ans, et fait de la régularisation une exception : opposition au critère de
+      l'énoncé. Elle maintient toutefois une possibilité de régularisation au-delà de sept ans,
+      au cas par cas : l'opposition est donc partielle, d'où QUALIFIED_OPPOSITION.
+    temporalRelevance: >-
+      Acte de janvier 2025, plus de douze mois avant la vérification ; la défense de « ma
+      circulaire » en mai 2026 ne précise pas si le seuil de sept ans figure dans son projet.
+  statedAt: { date: 2025-01-23, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-comparaison-regularisation-retailleau-tondelier
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
