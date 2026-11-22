@@ -50,8 +50,9 @@ describe('buildMain (US3 scénario 1, FR-036 à FR-038)', () => {
 
   it('aucun contributeur, citation ni justification dans main', () => {
     const ctx = minimalContext();
+    ctx.corpus.governance!.aggregatorDomains = ['monvote2027.fr'];
     const text = serialize(buildMain(ctx.corpus, opts(ctx)));
-    for (const forbidden of ['author', 'reviewer', 'quote', 'justification', 'adrien', 'relecteur-1', 'thresholds']) expect(text).not.toContain(forbidden);
+    for (const forbidden of ['author', 'reviewer', 'quote', 'justification', 'adrien', 'relecteur-1', 'thresholds', 'aggregatorDomains', 'monvote2027']) expect(text).not.toContain(forbidden);
   });
 
   it('candidat retiré : absent des candidats, présent dans withdrawn ; candidat sans position : couverture 0', () => {

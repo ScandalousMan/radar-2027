@@ -109,10 +109,10 @@ describe('data:publish', () => {
     const dry = await publish(paths, { dryRun: true, date: '2026-11-10' });
     expect(dry.activeBank.k).toBe(1);
     expect(dry.report.version).toBe(1);
-    expect(existsSync(join(paths.reportsDir, 'couverture-v1.json'))).toBe(true);
-    expect(await readFile(join(paths.reportsDir, 'couverture-v1.md'), 'utf8')).toMatch(/^# Rapport de couverture — version 1/);
+    expect(existsSync(join(paths.reportsDir, 'fixtures', 'couverture-v1.json'))).toBe(true);
+    expect(await readFile(join(paths.reportsDir, 'fixtures', 'couverture-v1.md'), 'utf8')).toMatch(/^# Rapport de couverture — version 1/);
     expect(existsSync(join(paths.publishedDir, 'versions', '1'))).toBe(false);
-    const report = await json(join(paths.reportsDir, 'couverture-v1.json'));
+    const report = await json(join(paths.reportsDir, 'fixtures', 'couverture-v1.json'));
     expect(report.minQuestionCoverage).toBe(1);
     expect(report.themes).toHaveLength(3);
   });

@@ -1,5 +1,6 @@
 # Gouvernance du corpus (FR-005, FR-006, FR-009, FR-044, FR-045).
-# Publiée telle quelle sur la page Méthodologie, à l'exception de `thresholds`, réservé à la validation.
+# Publiée telle quelle sur la page Méthodologie, à l'exception de `thresholds` et `aggregatorDomains`,
+# réservés à la validation.
 
 inclusionCriteria:
   - id: declaration-publique-personnelle
@@ -46,5 +47,13 @@ thresholds:
   detailBudgetBytes: 153600
   bankMin: 250
   bankMax: 320
+
+# Agrégateurs (spec 009, règle SRC-AGGREGATOR) : sites qui rassemblent les positions des candidats.
+# Ils servent de pistes de recherche (champ `lead` d'une preuve), jamais de source d'une position ou
+# d'une preuve. La correspondance porte sur le nom d'hôte exact ou l'un de ses sous-domaines.
+aggregatorDomains:
+  - candidatspresidentielles2027.fr
+  - monvote2027.fr
+  - wikipedia.org
 
 reportIssueUrl: https://github.com/ScandalousMan/radar-2027/issues/new?title={title}&labels=donnees

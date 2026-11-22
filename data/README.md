@@ -107,6 +107,26 @@ renseignées.
   passe en premier), `minQuestionCoverage: k` et la couverture `coverage` de chaque question. Une
   question mise en réserve ne reçoit pas `retiredIn`.
 
+## Campagne ciblée et agrégateurs (spec 009)
+
+- **`pnpm data:gaps`** liste les positions manquantes (candidats déclarés × questions `active` sans
+  position connue) dans `data/reports/trous/<date>.{json,md}` (versionnés). Le gain d'une position
+  est la somme, sur les sélections simulées de la prochaine banque active (816 combinaisons de
+  3 thèmes × 2 modes, répondant qui répond à tout) où elle figure et où le candidat n'est pas
+  classé, de 1 / (positions qui lui manquent pour atteindre 60 %). Une question de réserve à qui il
+  manque une position pour entrer dans la banque est simulée promue ; les autres valent 0. Un
+  couple consigné en lacune `NOT_FOUND` ou `NO_PERSONAL_POSITION` (avec `question`) par un journal
+  de recherche est marqué « déjà cherché » et relégué en fin de liste. Options : `--candidate`,
+  `--theme` (répétables), `--limit` (lignes du `.md`), `--min-coverage`, `--date`.
+- **Agrégateurs** : `governance.yaml` déclare `aggregatorDomains` (non publié). La règle
+  `SRC-AGGREGATOR` refuse toute source du registre et toute `unregisteredSource` d'une preuve dont
+  l'hôte est l'un de ces domaines ou un sous-domaine. Une preuve peut citer la piste qui a mené à
+  la source primaire dans son champ facultatif `lead: { url, title }`, jamais contrôlé ni publié.
+- **Circuit de campagne** : liste `data:gaps` → missions candidat × thème confiées au sous-agent
+  `french-political-source-researcher` (preuves et lacunes dans `data/recherche/`) → positions
+  `draft` transcrites en session par l'agent depuis les preuves primaires (jamais `data:extract`)
+  → relecture par le propriétaire (`pnpm data:review`) → publication. PR de données distincte.
+
 ## Gouvernance (FR-041)
 
 - Toute modification du corpus passe par une **pull request de données, distincte des pull
@@ -132,6 +152,7 @@ Détail des options et des codes de sortie :
 | `pnpm data:affirmation list\|accept\|reject` | transforme les affirmations extraites en positions `draft`, ou les rejette |
 | `pnpm data:review <candidat> <question> --by <id>` | relit une position (`draft` → `reviewed`) |
 | `pnpm data:publish [--next] [--dry-run] [--min-coverage <k>]` | construit une nouvelle version immuable sous `public/data/` (banque active) et le rapport `data/reports/couverture-v<n>` |
+| `pnpm data:gaps [--limit <n>]` | classe les positions manquantes par gain attendu, écrit `data/reports/trous/<date>.{md,json}` |
 | `pnpm data:costs` | affiche le cumul des coûts d'extraction |
 
 Toutes acceptent les chemins par défaut du dépôt ; `pnpm data:validate --corpus <dossier>`

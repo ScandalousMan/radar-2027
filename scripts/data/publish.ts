@@ -3,7 +3,7 @@
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { MAX_VERSIONS } from '@/core/dataset';
-import { fail, info, parseCli, resolvePaths, runCli, today, usage, warn, type DataPaths } from './lib/cli';
+import { fail, info, parseCli, resolvePaths, runCli, today, usage, versionedReportsDir, warn, type DataPaths } from './lib/cli';
 import { allPositions, editYamlListItems, setYamlKeys } from './lib/corpus';
 import { isScaleValue, sourceIndex } from './lib/positions';
 import { ActiveBankError, computeActiveBank, type ActiveBank } from './lib/publish/active-bank';
@@ -74,7 +74,7 @@ export async function publish(paths: DataPaths, opts: PublishOptions = {}): Prom
     warnings: activeBank.warnings,
   });
   const labels = new Map<string, string>([...corpus.themes.map((t) => [t.id, t.label] as const), ...corpus.candidates.map((c) => [c.id, c.name] as const)]);
-  const reportFiles = writeCoverageReport(paths.reportsDir, coverageReport, labels);
+  const reportFiles = writeCoverageReport(versionedReportsDir(paths), coverageReport, labels);
   const coverageSummary: CoverageSummary = { activeBank, report: coverageReport, reportFiles };
 
   const details = main.candidates.map((c) => ({ id: c.id, text: serialize(buildDetail(corpus, c.id, build)) }));

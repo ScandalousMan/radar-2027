@@ -370,6 +370,13 @@ describe('schémas du corpus de preuves (spec 008)', () => {
     expect(SignalSchema.safeParse({ ...signals[0], resolution: { ...signals[0].resolution, extra: 1 } }).success).toBe(false);
   });
 
+  it('009 : lead facultatif { url, title } strict sur une preuve', () => {
+    const lead = { url: 'https://candidatspresidentielles2027.fr/dupont', title: 'Fiche agrégateur' };
+    expect(EvidenceSchema.safeParse({ ...evidenceItems[0], lead }).success).toBe(true);
+    expect(EvidenceSchema.safeParse({ ...evidenceItems[0], lead: { ...lead, extra: 1 } }).success).toBe(false);
+    expect(EvidenceSchema.safeParse({ ...evidenceItems[0], lead: { url: 'pas une url', title: 'x' } }).success).toBe(false);
+  });
+
   it('statedAt : unknown ou date avec précision, jamais une autre chaîne', () => {
     expect(EvidenceSchema.safeParse({ ...evidenceItems[1], statedAt: 'inconnue' }).success).toBe(false);
     expect(EvidenceSchema.safeParse({ ...evidenceItems[1], statedAt: { date: 2026, precision: 'year' } }).success).toBe(true);

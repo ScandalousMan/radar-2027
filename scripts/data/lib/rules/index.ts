@@ -28,6 +28,7 @@ import { RECH_SIGNAL } from './RECH-SIGNAL';
 import { RECH_STATUS } from './RECH-STATUS';
 import { REF_EXISTS } from './REF-EXISTS';
 import { SCALE } from './SCALE';
+import { SRC_AGGREGATOR } from './SRC-AGGREGATOR';
 import { SUBJECT } from './SUBJECT';
 import type { Rule, RuleContext, Violation, Warning } from './types';
 
@@ -61,6 +62,8 @@ export const RULES: Rule[] = [
   RECH_JOURNAL,
   RECH_STATUS,
   RECH_SIGNAL,
+  // Spec 009 : agrégateurs jamais cités comme source.
+  SRC_AGGREGATOR,
   PUB_IMMUTABLE,
   PUB_BUDGET,
 ];

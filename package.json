@@ -28,6 +28,7 @@
     "data:review": "tsx scripts/data/review.ts",
     "data:publish": "tsx scripts/data/publish.ts",
     "data:costs": "tsx scripts/data/costs.ts",
+    "data:gaps": "tsx scripts/data/gaps.ts",
     "verify": "pnpm lint && pnpm typecheck && pnpm data:validate && pnpm test && pnpm storybook:build && pnpm build && pnpm e2e"
   },
   "dependencies": {
