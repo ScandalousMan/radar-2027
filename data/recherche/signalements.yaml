@@ -21,7 +21,7 @@
     personnes qui demandent l'asile » et les ressortissants UE, EEE et suisses, ce qui est plus
     étroit que l'énoncé. URL : https://www.senat.fr/leg/ppl22-646.html
   state: resolved
-  resolution: { at: 2026-11-22, by: adrien, decision: "Valeur ramenée de +2 à +1 (texte collectif de 2023, sans propos récent, portée plus étroite que l'énoncé). Position corrigée par la PR de données #NN." }
+  resolution: { at: 2026-11-22, by: adrien, decision: "Valeur ramenée de +2 à +1 (texte collectif de 2023, sans propos récent, portée plus étroite que l'énoncé). Position corrigée par la PR de données #27." }
 
 - id: sig-2026-11-22-retailleau-metiers-tension-circulaire
   kind: POSITION_REVIEW
@@ -44,7 +44,7 @@
     par cas (article 4 bis). Soutien qualifié à la possibilité, en acte ministériel (2025), contre
     rejet de principe en campagne (2026) : -2 (désaccord total) ou -1 est à arbitrer.
   state: resolved
-  resolution: { at: 2026-11-22, by: adrien, decision: "Valeur ramenée de -2 à -1 (refus en campagne nuancé par sa circulaire de 2025 qu'il défend). Position corrigée par la PR de données #NN." }
+  resolution: { at: 2026-11-22, by: adrien, decision: "Valeur ramenée de -2 à -1 (refus en campagne nuancé par sa circulaire de 2025 qu'il défend). Position corrigée par la PR de données #27." }
 
 - id: sig-2026-11-22-attal-droit-du-sol-mayotte
   kind: POSITION_REVIEW
@@ -67,4 +67,4 @@
     Mayotte ? Aucun propos personnel récent d'Attal sur le droit du sol n'a été trouvé. URL :
     https://www.assemblee-nationale.fr/dyn/17/scrutins/738
   state: resolved
-  resolution: { at: 2026-11-22, by: adrien, decision: "Valeur ramenée de -2 à -1 (refus limité à l'Hexagone et vote pour la restriction à Mayotte, comme Philippe à +1). Position corrigée par la PR de données #NN." }
+  resolution: { at: 2026-11-22, by: adrien, decision: "Valeur ramenée de -2 à -1 (refus limité à l'Hexagone et vote pour la restriction à Mayotte, comme Philippe à +1). Position corrigée par la PR de données #27." }
