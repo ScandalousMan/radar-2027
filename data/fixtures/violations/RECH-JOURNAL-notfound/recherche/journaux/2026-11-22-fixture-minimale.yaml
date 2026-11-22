@@ -1,0 +1,42 @@
+# Journal de mission (fixture minimale, spec 008).
+id: 2026-11-22-fixture-minimale
+mode: PERSONALITY
+author: adrien
+request: Constituer une fixture minimale conforme du corpus de preuves.
+startedAt: 2026-11-22
+completedAt: 2026-11-22
+state: completed
+scope:
+  personalities: [dupont, martin, jean-exemple]
+  themes: [economie, sante]
+  questions: [economie-q01]
+queries:
+  - { at: 2026-11-22, query: '"Jeanne Dupont" SMIC programme', category: CAMPAIGN_SITE, tool: web_search }
+  - { at: 2026-11-22, query: 'Dupont candidature corpus existant', category: EXISTING_CORPUS }
+categoriesExplored: [EXISTING_CORPUS, CAMPAIGN_SITE]
+categoriesNotExplored:
+  - { category: SOCIAL_MEDIA, reason: comptes non consultables sans authentification }
+exhaustive: false
+sourcesConsulted:
+  - { url: https://exemple.fr/dupont/programme-2027, title: Programme présidentiel 2027, outcome: retained, source: dupont-programme-2027 }
+  - { url: https://exemple.fr/quotidien/tribune-dupont, title: Tribune de Jeanne Dupont sur l'hôpital, outcome: inaccessible, reason: paywall }
+evidenceAdded:
+  - dupont-candidature-001
+  - dupont-economie-001
+  - dupont-sante-001
+  - dupont-sante-002
+  - martin-candidature-001
+  - jean-exemple-candidature-001
+verified: [Citation dupont-economie-001 retrouvée page 3 du programme.]
+toVerify: [Tribune dupont-sante-002 inaccessible.]
+gaps:
+  - kind: PRIMARY_INACCESSIBLE
+    personality: dupont
+    theme: sante
+    evidence: [dupont-sante-002]
+    note: Tribune réservée aux abonnés ; aucune reprise intégrale trouvée.
+  - kind: NOT_FOUND
+    personality: martin
+    theme: sante
+    note: Aucune déclaration de Paul Martin sur la santé trouvée.
+signals: [sig-2026-11-22-dupont-smic]

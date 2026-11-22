@@ -19,12 +19,13 @@ data/
 │   ├── sources/commun.yaml              # sources partagées par plusieurs candidats
 │   └── positions/<candidate-id>.yaml    # positions d'un candidat, une par question au plus
 ├── campagnes/<theme-id>/                # journaux de campagne : sources.md (recherche), enonces.md (rédaction)
+├── recherche/                           # corpus de preuves de la recherche (spec 008), jamais publié ni scoré
 ├── extractions/                         # provenance de l'extraction assistée (JSON généré, relu)
 │   ├── runs/<run-id>.json               # journal d'une exécution : modèle, consignes, coût
 │   ├── affirmations/<candidate-id>.json # affirmations extraites, avec état et décision
 │   └── costs.json                       # cumul des coûts par modèle et par candidat
 ├── fixtures/
-│   ├── minimal/                         # corpus conforme de test (corpus/, cache/, published/)
+│   ├── minimal/                         # corpus conforme de test (corpus/, cache/, published/, recherche/)
 │   └── violations/<code>/               # un corpus fautif par règle de validation (SC-001)
 └── reports/                             # rapports de validation locaux, ignorés par git
 ```
@@ -55,6 +56,27 @@ partir de la version 3, avec `selectionRules: 2`, mais jamais affiché. La règl
 signale en erreur une question active sans enjeu et, en avertissement, chaque enjeu partagé et
 chaque thème dont les enjeux distincts sont sous le quota maximal d'un thème prioritaire. Les
 regroupements sont relus par adrien dans `data/relectures/2026-11-21-enjeux.md`.
+
+## Corpus de recherche (spec 008)
+
+`data/recherche/` rassemble les **preuves** recueillies par le sous-agent
+`french-political-source-researcher` (ou par le skill `french-political-source-research` utilisé
+seul) : registre des personnalités suivies avec l'historique daté de leurs huit statuts de
+candidature, preuves qualifiées par personnalité, journaux de mission et comptes rendus en
+13 rubriques, signalements pour revue humaine.
+
+- **Preuve ≠ position.** Une preuve documente ce qu'une personnalité a dit, signé ou voté, avec sa
+  source, sa localisation, son attribution et ses dates. Une position (`corpus/positions/`) est une
+  évaluation relue, publiée et scorée. La recherche ne modifie jamais une position, une question,
+  un thème ni la liste des candidats : elle produit des **signalements** (`signalements.yaml`) qu'un
+  humain traite, le cas échéant par une pull request de données distincte.
+- **Jamais publié.** `data:publish` et le site ne lisent pas ce dossier. Les sources des preuves
+  restent dans le registre commun `corpus/sources/` (enregistrées par `pnpm data:source fetch`) ;
+  une source peut y viser une personnalité du registre de recherche absente de `candidates.yaml`.
+- **Contrôlé.** `pnpm data:validate` applique les règles `RECH-*` (identifiants, renvois, statuts,
+  format des preuves, citations retrouvées dans le cache, journaux, signalements).
+
+Rôle des fichiers et règles d'écriture : [`recherche/README.md`](recherche/README.md).
 
 ## Gouvernance (FR-041)
 

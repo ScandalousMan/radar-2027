@@ -47,7 +47,8 @@ export function levenshtein(a: string, b: string): number {
   return prev[b.length]!;
 }
 
-function words(text: string): string[] {
+/** Mots d'un énoncé, sans accents, casse ni ponctuation (base de `sameWords`). */
+export function words(text: string): string[] {
   return normalize(text)
     .normalize('NFD')
     .replace(/\p{Mn}/gu, '')

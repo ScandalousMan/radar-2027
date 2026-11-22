@@ -1,0 +1,25 @@
+# Preuves de Jean Exemple (fixture minimale, spec 008) : personnalité hors liste publiée.
+
+- id: jean-exemple-candidature-001
+  personality: jean-exemple
+  kind: CANDIDACY
+  candidacyStatus: REPORTED_UNCONFIRMED
+  journal: 2026-11-22-fixture-minimale
+  quoteStatus: SOURCE_INACCESSIBLE
+  speaker: Hebdomadaire exemple
+  context: Article prêtant à Jean Exemple l'intention de se présenter, sans propos de l'intéressé.
+  unregisteredSource:
+    url: https://exemple.fr/hebdo/jean-exemple-2027
+    title: Jean Exemple songerait à 2027
+    publisher: Hebdomadaire exemple
+    reason: article réservé aux abonnés, non contourné
+  publisher: Hebdomadaire exemple
+  sourceQuality: D_UNVERIFIED_OR_INACCESSIBLE
+  attribution: THIRD_PARTY_ATTRIBUTION
+  attributionConfidence: LOW
+  temporalRelevance: CURRENT
+  statedAt: { date: 2026-09, precision: month }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

@@ -1,0 +1,22 @@
+- id: dupont-programme-2027
+  url: https://exemple.fr/dupont/programme-2027
+  title: Programme présidentiel 2027
+  kind: programme
+  publishedAt:
+    date: 2026-10
+    precision: month
+  accessedAt: 2026-11-07
+  candidates:
+    - dupont
+  contentHash: sha256:e7b60efd322103d49ec2cc0fca9fb189337a2667aa3f20d6c35fca43f8bad10b
+- id: dupont-declaration-candidature
+  url: https://exemple.fr/dupont/declaration
+  title: Déclaration de candidature
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-12
+    precision: day
+  accessedAt: 2026-11-07
+  candidates:
+    - dupont
+  contentHash: sha256:47826f50fef82973128cd0b475c7a756f5cce702b034ef4d92be92abe4615cc2

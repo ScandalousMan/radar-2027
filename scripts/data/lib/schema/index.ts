@@ -32,3 +32,4 @@ export type Corpus = {
   /** Fichier `positions/<candidat>.yaml` → positions. */
   positions: Map<string, Position[]>;
 };
+export * from './research';

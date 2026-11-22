@@ -1,0 +1,40 @@
+# Fixture minimale du corpus de preuves (spec 008) : les deux candidats de la fixture et une
+# personnalité hors liste dont la candidature n'est rapportée que par un tiers.
+
+- id: dupont
+  name: Jeanne Dupont
+  party: Parti A
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-09-12, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - dupont-candidature-001
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: martin
+  name: Paul Martin
+  party: Sans étiquette
+  statuses:
+    - status: DECLARED
+      at: { date: 2026-10-03, precision: day }
+      observedAt: 2026-11-22
+      evidence:
+        - martin-candidature-001
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: jean-exemple
+  name: Jean Exemple
+  party: Parti B
+  aliases: [J. Exemple]
+  statuses:
+    - status: REPORTED_UNCONFIRMED
+      at: { date: 2026-09, precision: month }
+      observedAt: 2026-11-22
+      evidence:
+        - jean-exemple-candidature-001
+      note: Candidature prêtée par un hebdomadaire, non confirmée par l'intéressé.
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

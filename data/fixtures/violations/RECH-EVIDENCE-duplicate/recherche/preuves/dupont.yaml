@@ -1,0 +1,98 @@
+# Preuves de Jeanne Dupont (fixture minimale, spec 008).
+
+- id: dupont-candidature-001
+  personality: dupont
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  journal: 2026-11-22-fixture-minimale
+  quoteStatus: VERIFIED_QUOTE
+  quote: J'annonce aujourd'hui ma candidature à l'élection présidentielle de 2027.
+  speaker: Jeanne Dupont
+  transcript: official
+  context: Déclaration de candidature publiée par l'intéressée.
+  source: dupont-declaration-candidature
+  publisher: Site de Jeanne Dupont
+  locator: { kind: passage, value: deuxième phrase }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  statedAt: { date: 2026-09-12, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: dupont-economie-001
+  personality: dupont
+  kind: POSITION
+  theme: economie
+  question: economie-q01
+  qualification: EXPLICIT_SUPPORT
+  candidacyStatus: DECLARED
+  journal: 2026-11-22-fixture-minimale
+  quoteStatus: VERIFIED_QUOTE
+  quote: Nous revaloriserons le SMIC de 10 % dès l'été 2027.
+  speaker: Jeanne Dupont
+  context: Programme présidentiel, chapitre consacré aux salaires.
+  source: dupont-programme-2027
+  publisher: Parti A
+  locator: { kind: page, value: "3" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    interpretation: Hausse chiffrée et datée du salaire minimum, conforme à l'énoncé de la question.
+  statedAt: { date: 2026-10, precision: month }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: dupont-sante-001
+  personality: dupont
+  kind: POSITION
+  theme: sante
+  journal: 2026-11-22-fixture-minimale
+  quoteStatus: PARAPHRASE
+  paraphrase: Souhaite ouvrir davantage l'hôpital au secteur privé.
+  speaker: Jeanne Dupont
+  context: Dernière phrase de la déclaration de candidature.
+  source: dupont-declaration-candidature
+  publisher: Site de Jeanne Dupont
+  locator: { kind: passage, value: dernière phrase }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  statedAt: { date: 2026-09-12, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: dupont-sante-002
+  personality: dupont
+  kind: POSITION
+  theme: sante
+  journal: 2026-11-22-fixture-minimale
+  quoteStatus: SOURCE_INACCESSIBLE
+  speaker: Jeanne Dupont
+  context: Tribune signalée par une revue de presse ; article réservé aux abonnés.
+  unregisteredSource:
+    url: https://exemple.fr/quotidien/tribune-dupont
+    title: Tribune de Jeanne Dupont sur l'hôpital
+    publisher: Quotidien exemple
+    reason: page derrière un paywall, non contournée
+  publisher: Quotidien exemple
+  sourceQuality: D_UNVERIFIED_OR_INACCESSIBLE
+  attribution: UNKNOWN_ATTRIBUTION
+  attributionConfidence: UNCONFIRMED
+  temporalRelevance: UNDETERMINED
+  statedAt: unknown
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

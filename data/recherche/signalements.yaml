@@ -1,0 +1,5 @@
+# Demandes de revue humaine (spec 008, FR-012, FR-033, FR-036, FR-044). Ne modifient rien.
+# L'agent ne crée que des signalements « open » ; seul un humain les passe à « resolved ».
+# Format : specs/008-recherche-sources-politiques/contracts/research-files.md
+
+[]
