@@ -1,6 +1,7 @@
 // @vitest-environment node
 import { describe, expect, it } from 'vitest';
-import { minimalMainDataset, minimalMainDatasetV2 } from '../dataset/fixture';
+import fc from 'fast-check';
+import { minimalMainDataset, minimalMainDatasetV2, minimalMainDatasetV3 } from '../dataset/fixture';
 import type { MainDataset } from '../dataset';
 import { StateError } from '../types';
 import { BankError, bankFromDataset, normalizePriorities } from './bank';
@@ -41,7 +42,7 @@ describe('bankFromDataset', () => {
 
   it('refuse des règles inconnues et un enjeu manquant en règles 2', () => {
     const unknown = minimalMainDatasetV2();
-    (unknown as { selectionRules: number }).selectionRules = 3;
+    (unknown as { selectionRules: number }).selectionRules = 4;
     expect(codeOf(() => bankFromDataset(unknown))).toBe('unknown-selection-rules');
     const missing = minimalMainDatasetV2();
     delete missing.questions[2]!.subject;
@@ -69,6 +70,64 @@ describe('bankFromDataset', () => {
     expect(codeOf(mutate((ds) => (ds.questions[0]!.themes = ['inconnu'])))).toBe('bad-theme-ref');
     expect(codeOf(mutate((ds) => (ds.questions[0]!.themes = ['economie', 'economie'])))).toBe('bad-theme-ref');
     expect(codeOf(mutate((ds) => (ds.positions['dupont'] = [null])))).toBe('misaligned-positions');
+  });
+});
+
+describe('bankFromDataset, couverture (009 R3)', () => {
+  it('dérive la couverture pour les règles 1 et 2, sans minimum', () => {
+    expect(bankFromDataset(minimalMainDataset()).questions.map((q) => q.coverage)).toEqual([1, 0]);
+    const v2 = bankFromDataset(minimalMainDatasetV2());
+    expect(v2.questions.map((q) => q.coverage)).toEqual([1, 0, 1]);
+    expect(v2.minQuestionCoverage).toBeNull();
+  });
+
+  it('accepte les règles 3 et expose le minimum', () => {
+    const v3 = bankFromDataset(minimalMainDatasetV3());
+    expect(v3.selectionRules).toBe(3);
+    expect(v3.minQuestionCoverage).toBe(1);
+    expect(v3.questions.map((q) => [q.subject, q.coverage])).toEqual([
+      ['impot-revenu', 1],
+      ['impot-revenu', 0],
+      ['hopital-moyens', 1],
+    ]);
+  });
+
+  it('lève coverage-mismatch si la couverture publiée diffère', () => {
+    const ds = minimalMainDatasetV3();
+    ds.questions[2]!.coverage = 2;
+    expect(codeOf(() => bankFromDataset(ds))).toBe('coverage-mismatch');
+    const absent = minimalMainDatasetV3();
+    delete absent.questions[0]!.coverage;
+    expect(codeOf(() => bankFromDataset(absent))).toBe('coverage-mismatch');
+  });
+
+  it('exige l’enjeu en règles 3', () => {
+    const ds = minimalMainDatasetV3();
+    delete ds.questions[0]!.subject;
+    expect(codeOf(() => bankFromDataset(ds))).toBe('missing-subject');
+  });
+
+  it('propriété : couverture = cases non null de la colonne, neutre 0 compris, quelles que soient les règles', () => {
+    const cell = fc.oneof(fc.constant(null), fc.tuple(fc.constantFrom(-2, -1, 0, 1, 2), fc.constantFrom('p', 'l', 'd')));
+    fc.assert(
+      fc.property(fc.integer({ min: 1, max: 6 }), fc.integer({ min: 0, max: 5 }), fc.constantFrom(1, 2, 3), fc.array(cell, { minLength: 36, maxLength: 36 }), (nq, nc, rules, cells) => {
+        const base = minimalMainDataset();
+        const questions = Array.from({ length: nq }, (_, i) => ({ id: `q${i}`, text: 'É.', themes: ['economie'], polarity: '+' as const, discriminant: 0, subject: rules === 1 ? undefined : `s${i}` }));
+        const candidates = Array.from({ length: nc }, (_, k) => ({ id: `c${k}`, name: 'N', party: 'P', status: 'declared' as const, coverage: 0 }));
+        const positions = Object.fromEntries(candidates.map((c, k) => [c.id, questions.map((_, i) => cells[k * 6 + i] as MainDataset['positions'][string][number])]));
+        const expected = questions.map((_, i) => candidates.filter((c) => positions[c.id]![i] !== null).length);
+        const ds: MainDataset = {
+          ...base,
+          ...(rules === 1 ? {} : { selectionRules: rules as 2 | 3 }),
+          ...(rules === 3 ? { minQuestionCoverage: 1 } : {}),
+          questions: questions.map((q, i) => ({ ...q, ...(rules === 3 ? { coverage: expected[i]! } : {}) })),
+          candidates,
+          positions,
+        };
+        expect(bankFromDataset(ds).questions.map((q) => q.coverage)).toEqual(expected);
+      }),
+      { numRuns: 200 },
+    );
   });
 });
 

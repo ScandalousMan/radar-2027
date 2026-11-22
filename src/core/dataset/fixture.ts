@@ -42,3 +42,14 @@ export function minimalMainDatasetV2(): MainDataset {
     positions: { dupont: [[-1, 'p'], null, [1, 'l']], martin: [null, null, null] },
   };
 }
+
+/** Jeu minimal en règles 3 (009) : forme règles 2 plus `minQuestionCoverage` et `coverage` (cases non `null`). */
+export function minimalMainDatasetV3(): MainDataset {
+  const base = minimalMainDatasetV2();
+  return {
+    ...base,
+    selectionRules: 3,
+    minQuestionCoverage: 1,
+    questions: base.questions.map((q, i) => ({ ...q, coverage: Object.values(base.positions).filter((row) => row[i] != null).length })),
+  };
+}

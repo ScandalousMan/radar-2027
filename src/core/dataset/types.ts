@@ -79,16 +79,20 @@ export type PublishedQuestion = {
   polarity: Polarity;
   /** Pouvoir discriminant FR-034, arrondi à 4 décimales. */
   discriminant: number;
-  /** Enjeu (007 FR-001) : deux questions du même enjeu ne figurent jamais dans la même liste. Présent si `selectionRules` vaut 2. */
+  /** Enjeu (007 FR-001) : deux questions du même enjeu ne figurent jamais dans la même liste. Présent si `selectionRules` vaut 2 ou 3. */
   subject?: string;
+  /** Couverture (009 FR-001) : nombre de cases non `null` de la colonne dans `positions`. Présente si et seulement si `selectionRules` vaut 3. */
+  coverage?: number;
 };
 
 /** `public/data/versions/<n>/main.json`. */
 export type MainDataset = {
   version: number;
   publishedAt: string;
-  /** Règles de sélection (007) : absent = règles de 003 (v1, v2), `2` = sélection par enjeu et par ancrage. */
-  selectionRules?: 2;
+  /** Règles de sélection : absent = règles de 003 (v1, v2), `2` = par enjeu et par ancrage (007), `3` = par couverture (009). */
+  selectionRules?: 2 | 3;
+  /** Minimum de couverture `k` de la banque active (009 R4). Présent si et seulement si `selectionRules` vaut 3. */
+  minQuestionCoverage?: number;
   themes: PublishedTheme[];
   candidates: PublishedCandidate[];
   withdrawn: WithdrawnCandidate[];

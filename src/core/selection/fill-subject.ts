@@ -2,17 +2,19 @@
 // Renvois : FR-008 (une question n'est éligible que si son enjeu est libre), FR-009 et FR-010
 // (une question ne crédite que son thème d'ancrage, les quotas s'appliquent à l'ancrage),
 // FR-011 (second passage par tours d'une question par thème), FR-012 (déterminisme, N ou épuisement).
-// Pur et déterministe : lit `themeIndices`, `discriminant`, `subject` et `id` des questions.
+// Règles 3 (009 R1) : même algorithme, seul l'ordre de préférence dans un thème change (`byCoverage`).
+// Pur et déterministe : lit `themeIndices`, `discriminant`, `coverage`, `subject` et `id` des questions.
 import type { BankQuestion, BankVersion } from '../bank';
-import { questionsByTheme, rotationOrder, type Picked } from './fill';
+import { byDiscriminant, questionsByTheme, rotationOrder, type Picked, type QuestionComparator } from './fill';
 
 export function fillQuotasBySubject(
   bank: BankVersion,
   quotas: readonly number[],
   priorityIndices: readonly number[],
   target: number,
+  compare: QuestionComparator = byDiscriminant,
 ): readonly Picked[] {
-  const byTheme = questionsByTheme(bank);
+  const byTheme = questionsByTheme(bank, compare);
   const rotation = rotationOrder(bank.themes.length, priorityIndices);
   const selected = new Set<string>();
   const usedSubjects = new Set<string>();

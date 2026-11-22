@@ -11,11 +11,18 @@ export function byDiscriminant(a: BankQuestion, b: BankQuestion): number {
   return b.discriminant - a.discriminant || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
 }
 
-/** Questions de chaque thème, triées par préférence. */
-export function questionsByTheme(bank: BankVersion): readonly (readonly BankQuestion[])[] {
+/** Ordre de préférence des règles 3 (009 FR-002, R1) : couverture décroissante, puis `byDiscriminant`. */
+export function byCoverage(a: BankQuestion, b: BankQuestion): number {
+  return b.coverage - a.coverage || byDiscriminant(a, b);
+}
+
+export type QuestionComparator = (a: BankQuestion, b: BankQuestion) => number;
+
+/** Questions de chaque thème, triées par préférence (`byDiscriminant` par défaut, règles 1 et 2). */
+export function questionsByTheme(bank: BankVersion, compare: QuestionComparator = byDiscriminant): readonly (readonly BankQuestion[])[] {
   const lists: BankQuestion[][] = bank.themes.map(() => []);
   for (const q of bank.questions) for (const t of q.themeIndices) lists[t]!.push(q);
-  for (const list of lists) list.sort(byDiscriminant);
+  for (const list of lists) list.sort(compare);
   return lists;
 }
 
