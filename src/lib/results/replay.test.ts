@@ -1,8 +1,8 @@
 // @vitest-environment node
-// SC-006, FR-013 (006), R8 : les liens de partage v1 et v2, figés avant la publication de la
+// SC-006, FR-013 (006), R8 ; SC-003 (009) : les liens de partage v1 à v4, figés avant la publication de la
 // version suivante, sont rejoués par le chemin réel (`loadResults` : version choisie par
 // l'en-tête du fragment, jeu lu dans `public/data/versions/` sur le disque) et donnent le même
-// résultat. Les règles de sélection de 007 ne doivent jamais les modifier.
+// résultat. Les règles de sélection de 007 et 009 ne doivent jamais les modifier.
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { afterEach, describe, expect, it } from 'vitest';
@@ -19,6 +19,8 @@ const fetcher = diskFetcher(ROOT);
 const VERSIONS = [
   { version: 1, themes: 17 },
   { version: 2, themes: 18 },
+  { version: 3, themes: 18 },
+  { version: 4, themes: 18 },
 ] as const;
 
 afterEach(() => clearDatasetCache());
