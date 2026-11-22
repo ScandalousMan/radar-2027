@@ -424,5 +424,22 @@
       "body": "Vérifiez votre connexion puis réessayez. Aucun résultat n’est affiché tant que les données ne sont pas disponibles.",
       "retry": "Réessayer"
     }
+  },
+  "glossary": {
+    "definedTerm": "terme défini",
+    "close": "Fermer",
+    "seeGlossary": "Voir le glossaire",
+    "source": "Source",
+    "sources": "Sources",
+    "newTab": "(nouvel onglet)",
+    "page": {
+      "title": "Glossaire",
+      "description": "Définitions des termes techniques employés dans les questions, avec leurs sources institutionnelles.",
+      "intro": "Ces définitions sont factuelles et neutres. Chacune est sourcée auprès d’une institution et relue avant publication. Elles ne modifient ni les questions, ni le calcul des résultats.",
+      "empty": "Aucun terme publié pour le moment.",
+      "sources": "Sources",
+      "updatedAt": "Mis à jour le {date}"
+    },
+    "methodologyLink": "Consulter le glossaire des termes techniques"
   }
 }

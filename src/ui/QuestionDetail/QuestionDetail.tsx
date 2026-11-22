@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { AnnotatedText } from '../AnnotatedText';
 import { EvidenceBadge, type EvidenceLevel } from '../EvidenceBadge';
 
 export type ScaleValue = -2 | -1 | 0 | 1 | 2;
@@ -39,7 +40,9 @@ export function QuestionDetail({ text, themes, answer, position, agreement, evid
     <article className={['flex flex-col gap-3 rounded-md border border-border bg-surface p-4', className].filter(Boolean).join(' ')}>
       <div className="flex flex-col gap-1">
         <p className="text-xs text-fg-muted">{themes.join(' · ')}</p>
-        <h4 className="font-medium break-words">{text}</h4>
+        <h4 className="font-medium break-words">
+          <AnnotatedText text={text} />
+        </h4>
       </div>
       <dl className="grid grid-cols-1 gap-x-4 gap-y-1 text-sm sm:grid-cols-[auto_1fr]">
         <dt className="text-fg-muted">{t('yourAnswer')}</dt>

@@ -2,6 +2,7 @@ import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { createRef } from 'react';
 import { describe, expect, it, vi } from 'vitest';
+import { GlossaryProvider } from '@/lib/glossary/GlossaryProvider';
 import { fr, norm, renderWithIntl } from '@/lib/test-utils';
 import { QuestionCard } from './QuestionCard';
 
@@ -53,6 +54,27 @@ describe('QuestionCard', () => {
   it('aide affichée seulement si fournie', () => {
     setup({ hint: fr.questionnaire.questions.hint });
     expect(screen.getByText(norm(fr.questionnaire.questions.hint))).toBeInTheDocument();
+  });
+
+  it('terme défini : bulle ouverte sans réponse enregistrée, titre toujours focalisable (009)', async () => {
+    const onChange = vi.fn();
+    const onCommit = vi.fn();
+    const headingRef = createRef<HTMLHeadingElement>();
+    const statement = 'Faut-il restreindre le droit du sol ?';
+    renderWithIntl(
+      <GlossaryProvider glossary={{ updatedAt: '2026-11-22', terms: [{ id: 'droit-du-sol', label: 'droit du sol', forms: ['droit du sol'], definition: 'Définition.', sources: [{ url: 'https://www.vie-publique.fr/', title: 'Nationalité', publisher: 'Vie-publique.fr' }] }] }}>
+        <QuestionCard position={0} total={25} statement={statement} themes={THEMES} value={null} onChange={onChange} onCommit={onCommit} headingRef={headingRef} />
+      </GlossaryProvider>,
+    );
+    const heading = screen.getByRole('heading', { level: 2, name: statement });
+    expect(heading).toHaveAttribute('tabindex', '-1');
+    await userEvent.click(screen.getByRole('button', { name: 'droit du sol' }));
+    expect(screen.getByRole('dialog', { name: 'droit du sol' })).toBeInTheDocument();
+    await userEvent.keyboard('{Escape}');
+    expect(screen.queryByRole('dialog')).toBeNull();
+    expect(onChange).not.toHaveBeenCalled();
+    expect(onCommit).not.toHaveBeenCalled();
+    expect(screen.getAllByRole('radio').every((r) => !(r as HTMLInputElement).checked)).toBe(true);
   });
 
   it('désactivée : aucune réponse', async () => {

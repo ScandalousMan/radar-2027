@@ -103,6 +103,16 @@
 :root {
   --focus-ring-width: 2px;
   --focus-ring-offset: 2px;
+
+  /* Termes définis (009, R9) : bulle de définition, lus aussi par le positionnement JS. */
+  --defined-term-gutter: 1rem;                    /* gouttière de page (16 px) */
+  --defined-term-offset: 0.25rem;                 /* écart entre le terme et la bulle */
+  --defined-term-max-width: 20rem;                /* largeur maximale de la bulle */
+  --defined-term-max-height: min(50vh, 18rem);    /* au-delà : défilement interne */
+  --defined-term-open-delay: 300ms;               /* survol à la souris avant ouverture */
+  --defined-term-close-delay: 200ms;              /* sortie du pointeur avant fermeture */
+  --defined-term-underline-thickness: 1px;        /* soulignement pointillé du terme */
+  --defined-term-underline-offset: 0.2em;
 }
 
 /* Apparence sombre : seules les couleurs et les ombres changent. */
