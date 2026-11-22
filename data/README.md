@@ -17,7 +17,8 @@ data/
 │   ├── questions/<theme-id>.yaml        # questions dont ce thème est le thème principal
 │   ├── sources/<candidate-id>.yaml      # sources propres à un candidat
 │   ├── sources/commun.yaml              # sources partagées par plusieurs candidats
-│   └── positions/<candidate-id>.yaml    # positions d'un candidat, une par question au plus
+│   ├── positions/<candidate-id>.yaml    # positions d'un candidat, une par question au plus
+│   └── glossaire.yaml                   # termes définis des énoncés (spec 009), relus avant publication
 ├── campagnes/<theme-id>/                # journaux de campagne : sources.md (recherche), enonces.md (rédaction)
 ├── recherche/                           # corpus de preuves de la recherche (spec 008), jamais publié ni scoré
 ├── extractions/                         # provenance de l'extraction assistée (JSON généré, relu)
@@ -127,6 +128,32 @@ renseignées.
   `draft` transcrites en session par l'agent depuis les preuves primaires (jamais `data:extract`)
   → relecture par le propriétaire (`pnpm data:review`) → publication. PR de données distincte.
 
+## Glossaire (spec 009)
+
+`corpus/glossaire.yaml` définit les termes techniques des énoncés (sigles, dispositifs, procédures,
+notions juridiques). Le site les signale dans les questions et le détail des résultats : la
+première occurrence de chaque terme ouvre une bulle de définition, et la page `/glossaire` les
+rassemble. Le glossaire n'a aucun effet sur la sélection, le score ni le lien de résultat.
+
+- **Un terme** : `id`, `label`, `forms` (formes telles qu'elles figurent dans les énoncés ; la
+  première lettre est comparée sans casse, apostrophes et espaces insécables normalisées),
+  `definition` (au plus 280 caractères, factuelle et neutre, sans candidat ni parti), `sources`
+  (`url`, `title`, `publisher`, `accessedAt`), `status` (`draft` ou `reviewed`), `author`,
+  `reviewedBy`, `reviewedAt`, `note` (jamais publiée).
+- **Sources institutionnelles** : au moins une source de chaque terme doit relever d'un domaine de
+  `institutionalDomains` (`governance.yaml`, non publié ; `*.` admis en préfixe, sous-domaines
+  compris). Une institution manquante s'ajoute à la liste par revue de code.
+- **Contrôle** : la règle `GLOSS` de `pnpm data:validate` refuse les identifiants ou formes en
+  double, les définitions vides ou trop longues, les URL invalides, l'absence de source
+  institutionnelle, la relecture par l'auteur et un `public/data/glossary.json` qui ne suit plus le
+  corpus ; elle avertit pour un terme relu absent des énoncés actifs et pour une source
+  supplémentaire hors des domaines institutionnels.
+- **Circuit** : l'agent propose les termes en `draft` avec un dossier `data/relectures/<date>-glossaire.md`
+  (termes retenus et écartés, avec leur motif) ; le propriétaire les relit et les passe en
+  `reviewed` ; `pnpm data:glossary` écrit alors `public/data/glossary.json` (termes relus, ordre
+  alphabétique, au plus 30 Kio). Ce fichier est **hors versions** : le corriger n'impose pas de
+  nouvelle version de banque. `pnpm data:glossary --check` vérifie qu'il suit le corpus.
+
 ## Gouvernance (FR-041)
 
 - Toute modification du corpus passe par une **pull request de données, distincte des pull
@@ -154,6 +181,7 @@ Détail des options et des codes de sortie :
 | `pnpm data:publish [--next] [--dry-run] [--min-coverage <k>]` | construit une nouvelle version immuable sous `public/data/` (banque active) et le rapport `data/reports/couverture-v<n>` |
 | `pnpm data:gaps [--limit <n>]` | classe les positions manquantes par gain attendu, écrit `data/reports/trous/<date>.{md,json}` |
 | `pnpm data:costs` | affiche le cumul des coûts d'extraction |
+| `pnpm data:glossary [--check]` | publie le glossaire relu dans `public/data/glossary.json` (hors versions) ; `--check` vérifie qu'il suit le corpus |
 
 Toutes acceptent les chemins par défaut du dépôt ; `pnpm data:validate --corpus <dossier>`
 accepte aussi un dossier de fixture (`corpus/`, `cache/`, `published/`).
