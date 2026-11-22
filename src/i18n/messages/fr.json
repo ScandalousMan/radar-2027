@@ -197,8 +197,8 @@
       "title": "Questions renseignées en priorité",
       "priorities": "Les sujets clés que vous choisissez reçoivent davantage de questions, sans retirer aux autres thèmes leur part minimale. Dans un thème, les questions retenues sont d’abord celles pour lesquelles la position du plus grand nombre de candidats est connue, puis celles qui départagent le mieux les candidats.",
       "why": "Un candidat n’est classé que si sa position est connue pour au moins {threshold} % des questions auxquelles vous répondez. Privilégier les questions renseignées permet de comparer vos réponses au plus grand nombre de candidats, avec la même règle pour tous.",
-      "bank": "Cette version retient {count, plural, one {# question} other {# questions}} : celles dont la position est connue pour au moins {k, plural, one {# candidat} other {# candidats}}, complétées au besoin pour que chaque thème garde au moins {floor} enjeux différents. Les autres questions restent en réserve et reviendront dès que leurs positions seront documentées.",
-      "aggregators": "Les sites qui rassemblent les programmes des candidats servent seulement de pistes de recherche : chaque position publiée cite une source primaire, jamais un tel site."
+      "bank": "Cette version retient {count, plural, one {# question} other {# questions}} : celles dont la position est connue pour au moins {k, plural, one {# candidat} other {# candidats}}, complétées au besoin pour que chaque thème garde au moins {floor} enjeux différents. Les autres questions restent en réserve et reviendront dès que leurs positions seront documentées.",
+      "aggregators": "Les sites qui rassemblent les programmes des candidats servent seulement de pistes de recherche : chaque position publiée cite une source primaire, jamais un tel site."
     },
     "evidenceLevels": {
       "title": "Niveaux de preuve"
