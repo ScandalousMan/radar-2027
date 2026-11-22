@@ -45,7 +45,8 @@ function* combinations(n: number, sizes: readonly number[]): Generator<number[]>
 const bank = latestRules2();
 
 describe.skipIf(bank === null)('audit exhaustif des règles 2 (SC-001 à SC-004)', () => {
-  it('12 444 combinaisons × 2 modes', () => {
+  // ~2 s seul, mais dépasse les 5 s par défaut sous la charge parallèle de pnpm verify.
+  it('12 444 combinaisons × 2 modes', { timeout: 120_000 }, () => {
     const b = bank!;
     expect(b.themes).toHaveLength(18);
     let combos = 0;
