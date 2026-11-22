@@ -1,5 +1,5 @@
 {
-  "current": 3,
+  "current": 4,
   "versions": [
     {
       "number": 1,
@@ -80,6 +80,33 @@
         "raphael-glucksmann": "sha256:7f33ba365a484699536a7ffee4988a60125ea417d0747956d69414529edfc64d",
         "fabien-roussel": "sha256:7a980f2728970b23fb1d54e1cfcb7726938844b754cafae231cd6a873a4a1719",
         "eric-zemmour": "sha256:e28898fa1cef51ffdceeba120fa0d4877ee02de13eda297ed31629470443fab6"
+      }
+    },
+    {
+      "number": 4,
+      "publishedAt": "2026-11-22",
+      "questionCount": 310,
+      "candidateCount": 18,
+      "mainHash": "sha256:c23610e1182b1f1abcdc16edc108215d0b6e3b0c4447950499500d8160ac3848",
+      "detailHashes": {
+        "edouard-philippe": "sha256:85967202d631f157d0beea8ff738e2c75d81c801c9f96a2bc51b91d30798f103",
+        "marine-tondelier": "sha256:e54956ef2ade4a4943be45a5a669e57f9c4931c3043e9d53aa3f99a52b1e3e40",
+        "delphine-batho": "sha256:c695b9f351a4c2ec841dc732bbefa137e58d4bb426dca40bbe1ff461854c21c8",
+        "nathalie-arthaud": "sha256:8eb0f98e743e87f18cc5ad245629f5da35b214f5b0a82ca84159e990ef1eeb2f",
+        "juan-branco": "sha256:584ab2073104cabed387d0133234dc156317d440953d9d3651122d89ddba5317",
+        "bruno-retailleau": "sha256:5d4800699476b514541019598b4d481a8dfa49a696c5f8c7a3ff73406226366f",
+        "francois-asselineau": "sha256:ff153a85d1eec95df6d26d3f9c23ebd4dd2d12ff6db39b77370dd3072a27b5ad",
+        "david-lisnard": "sha256:418a909204a18ac706ffdbf24191af39ff46a03e231e01597d1a86c3701168e5",
+        "francois-ruffin": "sha256:f5739ee562de70d0c15f6ec62535d3cc29e6a9a556721b26f03e6da596dc46c3",
+        "nicolas-dupont-aignan": "sha256:fe90b9ef29db2da476acb1d8c2a1f1893a3dfb4cdba6a4bd848602b13ad3c950",
+        "jean-luc-melenchon": "sha256:5760e80f9698c296948c20e56c977819d62e11d001966d0e903ced05f9671b02",
+        "florian-philippot": "sha256:d33a66854a5ce11c134ee4dc0a0266ca2b2f0980985767c7389862876bd3602a",
+        "gabriel-attal": "sha256:5cae79dc0ad9ca47ca075a252716826f1c0a4f37a85a5f3c0900e9944bcfb792",
+        "anasse-kazib": "sha256:27278662148a64307855b26f74b3709f6db1bc7d5ced150dec208828cd224351",
+        "marine-le-pen": "sha256:ace7028d9fdba0dbe29ba7e0b28428987aa07ba83ad1487cbc4c968723dbe455",
+        "raphael-glucksmann": "sha256:1031b7a4c1a4bf2a34cac67fc4836db24614e27301c6e7f16083755fc7415d9f",
+        "fabien-roussel": "sha256:0b21eaf3eb0dd811be2206361c3585a15fad842f188822e0a7dcaf0dbd070b5a",
+        "eric-zemmour": "sha256:eb66e9444671c449c98d488bf94c7bc04705aab556a809b38c9474dc47309907"
       }
     }
   ]
