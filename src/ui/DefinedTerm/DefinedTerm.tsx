@@ -184,6 +184,8 @@ export function DefinedTerm({ children, term, glossaryHref }: DefinedTermProps) 
   };
 
   return (
+    // Le conteneur écoute seulement la sortie du focus du terme et de sa bulle (fermeture, FR-017).
+    // eslint-disable-next-line jsx-a11y/no-static-element-interactions
     <span ref={wrapperRef} onBlur={onBlur}>
       <button
         ref={buttonRef}
@@ -203,7 +205,6 @@ export function DefinedTerm({ children, term, glossaryHref }: DefinedTermProps) 
       </span>
       {open ? (
         // La bulle reçoit le focus au clic (tabIndex -1) pour que la sortie du focus ne la ferme pas.
-        // eslint-disable-next-line jsx-a11y/no-static-element-interactions
         <span
           ref={bubbleRef}
           id={bubbleId}
@@ -231,7 +232,7 @@ export function DefinedTerm({ children, term, glossaryHref }: DefinedTermProps) 
                       {source.title}
                       <span className="sr-only"> {t('newTab')}</span>
                     </a>
-                    {` (${source.publisher})`}
+                    {' '}({source.publisher})
                   </span>
                 ))}
               </span>

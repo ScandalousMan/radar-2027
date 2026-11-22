@@ -46,7 +46,7 @@ const openBubble: Story['play'] = async ({ canvasElement }) => {
 
 export const Ferme: Story = { name: 'Fermé' };
 
-export const Ouvert: Story = { name: 'Ouvert', play: openBubble };
+export const Ouvert: Story = { play: openBubble };
 
 export const DefinitionLongue: Story = { name: 'Définition longue', args: { term: LONG }, play: openBubble };
 

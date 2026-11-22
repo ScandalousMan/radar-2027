@@ -103,6 +103,35 @@ export async function servePublished(page: Page, { current = 1 }: { current?: nu
   });
 }
 
+/**
+ * Glossaire fictif (009) : le terme « énoncé » figure dans chaque question de la banque fictive
+ * (« Énoncé 1-1. »…), ce qui donne une question contenant un terme défini à chaque étape.
+ */
+export const GLOSSARY = {
+  updatedAt: '2026-11-22',
+  terms: [
+    {
+      id: 'enonce',
+      label: 'énoncé',
+      forms: ['énoncé'],
+      definition: 'Terme fictif des tests : la formulation d’une question soumise au répondant, sur laquelle il indique son degré d’accord.',
+      sources: [{ url: 'https://exemple.invalid/glossaire/enonce', title: 'Source fictive', publisher: 'Exemple' }],
+    },
+    {
+      id: 'arbitrage',
+      label: 'arbitrage',
+      forms: ['arbitrage'],
+      definition: 'Second terme fictif, absent des énoncés de la banque fictive, pour vérifier l’ordre alphabétique de la page Glossaire.',
+      sources: [{ url: 'https://exemple.invalid/glossaire/arbitrage', title: 'Source fictive', publisher: 'Exemple' }],
+    },
+  ],
+};
+
+/** Sert le glossaire fictif ; `null` : glossaire indisponible (404). */
+export async function serveGlossary(page: Page, glossary: typeof GLOSSARY | null = GLOSSARY) {
+  await page.route('**/data/glossary.json', (route) => (glossary ? route.fulfill({ json: glossary }) : route.fulfill({ status: 404, body: '' })));
+}
+
 /** Lien `/resultats#1.…` d'un état, encodé avec la banque de sa version. */
 export function linkFor(state: ResultState): string {
   return `/resultats${encodeFragment(state, bankOf(state.bankVersion))}`;
