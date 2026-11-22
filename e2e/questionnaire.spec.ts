@@ -477,3 +477,23 @@ test.describe('accessibilité', () => {
   // composant du parcours, exécutées avec l'addon a11y bloquant dans les projets Vitest
   // `storybook` et `storybook-sombre` (ConfirmDialog ouvert, QuestionCard, ModeChoice, …).
 });
+
+test.describe('009 — banque en règles de sélection 3', () => {
+  test('mode court : la sélection suit la couverture, lien décodable avec la version 3', async ({ page }) => {
+    await page.unrouteAll();
+    await servePublished(page, { current: 3 });
+    await startQuestionnaire(page, 'short', FOUR);
+    const seen: string[] = [];
+    for (let i = 0; i < 25; i++) {
+      await expect(progress(page, i + 1, 25)).toBeVisible();
+      seen.push((await page.getByRole('heading', { level: 2 }).textContent())!);
+      await option(page, cycle(i)).click();
+    }
+    await expect(page.getByRole('heading', { level: 1, name: msg('questionnaire.end.title') })).toBeVisible();
+    expect(seen).toEqual(expectedSelection('short', FOUR, 3).items.map((item) => item.question.text));
+    const href = await page.getByRole('link', { name: msg('questionnaire.end.results') }).getAttribute('href');
+    const decoded = decodeFragment(href!.split('#')[1]!, bankOf(3));
+    expect(decoded.ok && decoded.value.bankVersion).toBe(3);
+    expect(decoded.ok && decoded.value.answers).toEqual(Array.from({ length: 25 }, (_, i) => cycle(i)));
+  });
+});

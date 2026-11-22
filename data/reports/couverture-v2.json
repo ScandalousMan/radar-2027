@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "generatedAt": "2026-11-12",
+  "minQuestionCoverage": 1,
+  "maxActiveQuestions": 120,
+  "themes": [
+    {
+      "id": "economie",
+      "active": 3,
+      "reserve": 8,
+      "subjects": 3,
+      "completed": true
+    },
+    {
+      "id": "sante",
+      "active": 3,
+      "reserve": 7,
+      "subjects": 3,
+      "completed": true
+    },
+    {
+      "id": "environnement",
+      "active": 3,
+      "reserve": 7,
+      "subjects": 3,
+      "completed": true
+    }
+  ],
+  "warnings": [
+    {
+      "theme": "economie",
+      "subjects": 3,
+      "message": "Thème economie complété : 2 enjeu(x) à k = 1, 1 question(s) ajoutée(s) sous le minimum pour atteindre 3 enjeux."
+    },
+    {
+      "theme": "sante",
+      "subjects": 3,
+      "message": "Thème sante complété : 0 enjeu(x) à k = 1, 3 question(s) ajoutée(s) sous le minimum pour atteindre 3 enjeux."
+    },
+    {
+      "theme": "environnement",
+      "subjects": 3,
+      "message": "Thème environnement complété : 1 enjeu(x) à k = 1, 2 question(s) ajoutée(s) sous le minimum pour atteindre 3 enjeux."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "dupont",
+      "coverage": 0.222
+    },
+    {
+      "id": "martin",
+      "coverage": 0.111
+    }
+  ],
+  "ranked": {
+    "short": {
+      "min": 0,
+      "median": 0,
+      "max": 0
+    },
+    "full": {
+      "min": 0,
+      "median": 0,
+      "max": 0
+    },
+    "byTriple": [
+      {
+        "priorities": [
+          "economie",
+          "sante",
+          "environnement"
+        ],
+        "short": 0,
+        "full": 0
+      }
+    ]
+  },
+  "successCriteria": {
+    "sc001": false,
+    "sc002": false
+  }
+}

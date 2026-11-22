@@ -25,4 +25,8 @@ next-env.d.ts
 
 # Pipeline de données (fonctionnalité 002) : cache des textes de sources et rapports locaux
 .cache/
-data/reports/
+data/reports/*
+# 009 : rapports de couverture des versions publiées et listes de trous de la campagne, versionnés
+!data/reports/couverture-v*.json
+!data/reports/couverture-v*.md
+!data/reports/trous/

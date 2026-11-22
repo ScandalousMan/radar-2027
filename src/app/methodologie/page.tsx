@@ -98,14 +98,25 @@ export default async function MethodologyPage() {
         <p className="text-fg-muted">{t('noVersion')}</p>
       ) : (
         <>
-          {main.selectionRules === 2 && (
+          {main.selectionRules !== undefined && (
             <section aria-labelledby="choix-questions-titre" id="choix-questions" className={SECTION}>
               <h2 id="choix-questions-titre" className={H2}>
                 {t('selection.title')}
               </h2>
               <p>{t('selection.subject')}</p>
               <p>{t('selection.coverage', { short: QUOTA_FLOOR.short, full: QUOTA_FLOOR.full })}</p>
-              <p>{t('selection.priorities')}</p>
+              <p>{main.selectionRules === 3 ? t('coverage.priorities') : t('selection.priorities')}</p>
+            </section>
+          )}
+
+          {main.selectionRules === 3 && main.minQuestionCoverage !== undefined && (
+            <section aria-labelledby="couverture-titre" id="couverture" className={SECTION}>
+              <h2 id="couverture-titre" className={H2}>
+                {t('coverage.title')}
+              </h2>
+              <p>{t('coverage.why', { threshold: COVERAGE_THRESHOLD })}</p>
+              <p data-testid="coverage-bank">{t('coverage.bank', { count: main.questions.length, k: main.minQuestionCoverage, floor: QUOTA_FLOOR.full })}</p>
+              <p>{t('coverage.aggregators')}</p>
             </section>
           )}
 

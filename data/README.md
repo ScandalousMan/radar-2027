@@ -78,6 +78,35 @@ candidature, preuves qualifiées par personnalité, journaux de mission et compt
 
 Rôle des fichiers et règles d'écriture : [`recherche/README.md`](recherche/README.md).
 
+## Banque active et réserve (spec 009)
+
+À partir de la version 5, `pnpm data:publish` ne publie pas toutes les questions `active` du corpus,
+mais la **banque active** : les questions renseignées pour le plus de candidats. Les autres forment
+la **réserve** ; elles restent `active` dans le corpus, sans aucun changement (énoncé, enjeu,
+positions), et reviennent d'elles-mêmes à une publication ultérieure dès qu'elles sont assez
+renseignées.
+
+- **Couverture d'une question** (`c_q`) : nombre de candidats déclarés dont la position est connue
+  (relue, sourcée, citation retrouvée ; une position neutre compte, une inconnue non).
+- **Minimum `k`** : la publication retient le plus petit `k` tel que les questions de couverture
+  `≥ k`, complétées si besoin, ne dépassent pas **120** questions (`MAX_ACTIVE_QUESTIONS`).
+- **Compléments** : un thème dont les questions retenues, rattachées par leur thème principal,
+  couvrent moins de 3 enjeux distincts est complété par ses questions les mieux couvertes (puis
+  les plus discriminantes), un enjeu nouveau à la fois, jusqu'à 3 enjeux ou épuisement. Chaque thème
+  complété produit un avertissement. Si aucun `k` ne tient sous 120 après compléments, la
+  publication échoue et la décision revient au propriétaire.
+- **Forcer `k`** : `pnpm data:publish --min-coverage <k>` impose un `k` plus grand que le minimum
+  calculé (jamais plus petit, jamais plus de 120 questions).
+- **Rapport** : chaque publication, y compris `--dry-run`, écrit
+  `data/reports/couverture-v<n>.{md,json}` (versionné) : questions actives et en réserve par thème,
+  couverture des candidats, nombre de candidats classés pour un répondant qui répond à tout, au
+  minimum, à la médiane et au maximum sur les 12 444 combinaisons de 3 à 5 thèmes, et atteinte de
+  SC-001 et SC-002. Sous ces seuils, la publication avertit sans échouer : le rapport est soumis au
+  propriétaire avant de publier.
+- La version publiée déclare `selectionRules: 3` (dans chaque thème, la question la mieux couverte
+  passe en premier), `minQuestionCoverage: k` et la couverture `coverage` de chaque question. Une
+  question mise en réserve ne reçoit pas `retiredIn`.
+
 ## Gouvernance (FR-041)
 
 - Toute modification du corpus passe par une **pull request de données, distincte des pull
@@ -102,7 +131,7 @@ Détail des options et des codes de sortie :
 | `pnpm data:extract --candidate <id>` | extraction assistée sous plafond de coût (clé d'API locale) |
 | `pnpm data:affirmation list\|accept\|reject` | transforme les affirmations extraites en positions `draft`, ou les rejette |
 | `pnpm data:review <candidat> <question> --by <id>` | relit une position (`draft` → `reviewed`) |
-| `pnpm data:publish [--next] [--dry-run]` | construit une nouvelle version immuable sous `public/data/` |
+| `pnpm data:publish [--next] [--dry-run] [--min-coverage <k>]` | construit une nouvelle version immuable sous `public/data/` (banque active) et le rapport `data/reports/couverture-v<n>` |
 | `pnpm data:costs` | affiche le cumul des coûts d'extraction |
 
 Toutes acceptent les chemins par défaut du dépôt ; `pnpm data:validate --corpus <dossier>`
