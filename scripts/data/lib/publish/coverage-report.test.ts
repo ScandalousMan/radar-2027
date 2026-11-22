@@ -59,8 +59,11 @@ describe('buildCoverageReport', () => {
   });
 
   it('refuse une version hors règles 3', () => {
-    const { selectionRules: _r, minQuestionCoverage: _k, ...rest } = main;
-    expect(() => buildCoverageReport({ main: { ...rest, questions: rest.questions.map(({ coverage: _c, ...q }) => q) }, generatedAt: 'x', reserve: [], completed: [], warnings: [] })).toThrow(/règles 3/);
+    const rules2 = structuredClone(main);
+    delete rules2.minQuestionCoverage;
+    rules2.selectionRules = 2;
+    for (const q of rules2.questions) delete q.coverage;
+    expect(() => buildCoverageReport({ main: rules2, generatedAt: 'x', reserve: [], completed: [], warnings: [] })).toThrow(/règles 3/);
   });
 });
 
