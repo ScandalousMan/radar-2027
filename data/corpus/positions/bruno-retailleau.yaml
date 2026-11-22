@@ -888,21 +888,21 @@
   reviewedHash: sha256:e2a344fe524ef1b92ba9decd0e5a4ffd6c076eb8fed150ddc0d65d030db170b9
 
 - question: immigration-plafond-annuel-admissions
-  value: 2
+  value: 1
   evidence: declaration_vote
   sources:
     - bruno-retailleau-ppl-constitutionnelle-relative-a-la-souverainete-de-la-franc
   quote: 'La loi fixe chaque année le nombre maximum d''autorisations d''entrées en vue de séjourner en France et d''autorisations de premier séjour en France délivrées à des ressortissants étrangers.'
   quoteSource: bruno-retailleau-ppl-constitutionnelle-relative-a-la-souverainete-de-la-franc
-  justification: 'Premier signataire d''une proposition de loi constitutionnelle faisant fixer chaque année par la loi un plafond d''autorisations d''entrée et de premier séjour.'
+  justification: 'Premier signataire d''une proposition de loi constitutionnelle (2023) faisant fixer chaque année par la loi un plafond d''autorisations d''entrée et de premier séjour ; texte collectif, ancien, sans propos récent retrouvé, et qui exclut les demandeurs d''asile et les ressortissants européens, d''où 1 et non 2. (valeur révisée sur signalement sig-2026-11-22-retailleau-plafond-annuel-actualite)'
   status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
   reviewer: adrien
-  reviewedAt: 2026-11-14
-  reviewedHash: sha256:4acd01db6c30a181c630932ed8ce64a836d62690db509505955d1bdbf14d3a69
+  reviewedAt: 2026-11-22
+  reviewedHash: sha256:bb8aa66499977a112c2e9ae5f1af30e493fbef3098d5af2a217bee0f28f03640
 
 - question: immigration-condamnes-perte-titre-sejour
   value: 1
@@ -973,21 +973,21 @@
   reviewedHash: sha256:b550c1e9480b9c27329b485c7f9ea8dbb5bec423e35999817e20b1f5cb407976
 
 - question: immigration-regularisation-metiers-tension
-  value: -2
+  value: -1
   evidence: declaration_vote
   sources:
     - bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
   quote: 'On nous explique qu''il faudrait régulariser parce que certains secteurs manquent de main-d''œuvre. Mais on peut former des Français, comme on peut former des étrangers déjà présents légalement sur notre territoire.'
   quoteSource: bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
-  justification: 'Il rejette explicitement la régularisation justifiée par les secteurs en tension.'
+  justification: 'Il rejette en campagne la régularisation justifiée par les secteurs en tension, mais défend dans le même entretien sa circulaire du 23 janvier 2025, qui maintient la régularisation par le travail dans les métiers en tension, d''où -1 et non -2. (valeur révisée sur signalement sig-2026-11-22-retailleau-metiers-tension-circulaire)'
   status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-14
   reviewer: adrien
-  reviewedAt: 2026-11-14
-  reviewedHash: sha256:52be28a072b9e898abf24fbc3cb09e7404330af3c8e365cb1ec11a560c35f474
+  reviewedAt: 2026-11-22
+  reviewedHash: sha256:631549042a819e2b5f85e20d098c188fe172737ec39fd6ae61350b13b50c00a6
 
 - question: immigration-regularisation-cinq-ans
   value: -1

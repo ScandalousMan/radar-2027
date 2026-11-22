@@ -478,21 +478,21 @@
   reviewedHash: sha256:e7f098f60f45a46c4b86f8bba02bd4dcf843957a05c86e579f92e650ca4c72e5
 
 - question: immigration-supprimer-droit-du-sol
-  value: -2
+  value: -1
   evidence: livre_plateforme
   sources:
     - gabriel-attal-renaissance-regalien
   quote: "Nous refusons la suppression du droit du sol sur le territoire hexagonal."
   quoteSource: gabriel-attal-renaissance-regalien
-  justification: "La plateforme Renaissance refuse explicitement la suppression du droit du sol, limitée au territoire hexagonal."
+  justification: "La plateforme Renaissance refuse la suppression du droit du sol, mais seulement sur le territoire hexagonal, et Gabriel Attal a voté pour la restriction du droit du sol à Mayotte (scrutin n° 738, 6 février 2025), d'où -1 et non -2. (valeur révisée sur signalement sig-2026-11-22-attal-droit-du-sol-mayotte)"
   status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-09
   reviewer: adrien
-  reviewedAt: 2026-11-14
-  reviewedHash: sha256:cc878be270a739dc89990bd3901d99bb6c738e153c413e2c82611241e94a8f21
+  reviewedAt: 2026-11-22
+  reviewedHash: sha256:be2d1849078ea0d452bcc33f4c1201d4d2cd1313b20b35876d93cf052c96a6c1
 
 - question: immigration-visas-professions-qualifiees-v2
   value: 1
