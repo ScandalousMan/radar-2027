@@ -27,7 +27,7 @@ export function readYamlRaw(file: string): unknown {
   return parse(readFileSync(file, 'utf8'));
 }
 
-function readYaml(file: string, label: string, violations: Violation[]): unknown {
+export function readYaml(file: string, label: string, violations: Violation[]): unknown {
   try {
     return readYamlRaw(file) ?? null;
   } catch (error) {
@@ -36,13 +36,13 @@ function readYaml(file: string, label: string, violations: Violation[]): unknown
   }
 }
 
-function pushIssues(error: z.ZodError, label: string, prefix: string, violations: Violation[]): void {
+export function pushIssues(error: z.ZodError, label: string, prefix: string, violations: Violation[]): void {
   for (const issue of error.issues) {
     violations.push(violation('SCHEMA', 'file', `${label}:${prefix}${issuePath(issue.path)}`, issue.message));
   }
 }
 
-function loadList<T>(file: string, label: string, schema: z.ZodType<T>, violations: Violation[], onInvalid?: (raw: unknown, error: z.ZodError) => T | null): T[] {
+export function loadList<T>(file: string, label: string, schema: z.ZodType<T>, violations: Violation[], onInvalid?: (raw: unknown, error: z.ZodError) => T | null): T[] {
   const raw = readYaml(file, label, violations);
   if (raw === undefined || raw === null) return [];
   if (!Array.isArray(raw)) {

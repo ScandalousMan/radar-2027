@@ -13,6 +13,7 @@ describe('resolvePaths', () => {
       publishedDir: '/depot/public/data',
       cacheDir: '/depot/.cache/sources',
       extractionsDir: '/depot/data/extractions',
+      researchDir: '/depot/data/recherche',
       fixture: false,
     });
   });
@@ -29,6 +30,7 @@ describe('resolvePaths', () => {
       corpusDir: join(dir, 'corpus'),
       publishedDir: join(dir, 'published'),
       cacheDir: join(dir, 'cache'),
+      researchDir: join(dir, 'recherche'),
       fixture: true,
     });
   });
@@ -38,6 +40,7 @@ describe('resolvePaths', () => {
     const p = resolvePaths({ corpus: dir }, {}, '/depot');
     expect(p.corpusDir).toBe(dir);
     expect(p.publishedDir).toBe('/depot/public/data');
+    expect(p.researchDir).toBe('/depot/data/recherche');
   });
 });
 

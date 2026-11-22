@@ -19,6 +19,13 @@ import { FR_020 } from './FR-020';
 import { ID_UNIQUE } from './ID-UNIQUE';
 import { PUB_BUDGET } from './PUB-BUDGET';
 import { PUB_IMMUTABLE } from './PUB-IMMUTABLE';
+import { RECH_EVIDENCE } from './RECH-EVIDENCE';
+import { RECH_ID } from './RECH-ID';
+import { RECH_JOURNAL } from './RECH-JOURNAL';
+import { RECH_QUOTE } from './RECH-QUOTE';
+import { RECH_REF } from './RECH-REF';
+import { RECH_SIGNAL } from './RECH-SIGNAL';
+import { RECH_STATUS } from './RECH-STATUS';
 import { REF_EXISTS } from './REF-EXISTS';
 import { SCALE } from './SCALE';
 import { SUBJECT } from './SUBJECT';
@@ -46,6 +53,14 @@ export const RULES: Rule[] = [
   FR_019,
   FR_020,
   SCALE,
+  // Corpus de preuves de la recherche (spec 008) : muettes si data/recherche/ est absent.
+  RECH_ID,
+  RECH_REF,
+  RECH_EVIDENCE,
+  RECH_QUOTE,
+  RECH_JOURNAL,
+  RECH_STATUS,
+  RECH_SIGNAL,
   PUB_IMMUTABLE,
   PUB_BUDGET,
 ];

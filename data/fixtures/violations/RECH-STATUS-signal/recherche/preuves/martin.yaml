@@ -1,0 +1,46 @@
+# Preuves de Paul Martin (fixture minimale, spec 008).
+
+- id: martin-candidature-001
+  personality: martin
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  journal: 2026-11-22-fixture-minimale
+  quoteStatus: VERIFIED_QUOTE
+  quote: Oui, je suis candidat à l'élection présidentielle.
+  speaker: Paul Martin
+  transcript: manual
+  context: Entretien de candidature, réponse à la première question.
+  source: martin-declaration-candidature
+  publisher: Média exemple
+  locator: { kind: timestamp, value: "00:01:10" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  statedAt: { date: 2026-10-03, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: martin-candidature-002
+  personality: martin
+  kind: CANDIDACY
+  candidacyStatus: WITHDRAWN
+  journal: 2026-11-22-fixture-minimale
+  quoteStatus: PARAPHRASE
+  paraphrase: Annonce le retrait de sa candidature.
+  speaker: Paul Martin
+  context: Communiqué de retrait (fixture).
+  source: martin-declaration-candidature
+  publisher: Média exemple
+  locator: { kind: passage, value: fin de l'entretien }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  statedAt: { date: 2026-10-03, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

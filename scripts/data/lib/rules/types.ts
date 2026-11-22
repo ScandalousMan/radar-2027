@@ -1,10 +1,10 @@
 // Types partagés des règles de validation (research.md R4, contracts/corpus-files.md).
 import type { MainDataset, VersionRegistry } from '@/core/dataset';
-import type { Affirmation, Corpus, Thresholds } from '../schema';
+import type { Affirmation, Corpus, Research, Thresholds } from '../schema';
 
 export type Severity = 'error' | 'warning';
 
-export type EntityKind = 'file' | 'theme' | 'contributor' | 'candidate' | 'question' | 'source' | 'position' | 'criterion' | 'version' | 'bank';
+export type EntityKind = 'file' | 'theme' | 'contributor' | 'candidate' | 'question' | 'source' | 'position' | 'criterion' | 'version' | 'bank' | 'personality' | 'evidence' | 'journal' | 'signal';
 
 /** Une faute désigne toujours l'identifiant de l'élément fautif. */
 export type Violation = {
@@ -44,6 +44,8 @@ export type RuleContext = {
   published?: PublishedView;
   extractions?: ExtractionsView;
   thresholds: Thresholds;
+  /** Corpus de preuves `data/recherche/` (spec 008) ; absent ⇒ les règles `RECH-*` ne contrôlent rien. */
+  research?: Research;
 };
 
 export type Rule = { code: string; run: (ctx: RuleContext) => Violation[] };

@@ -5,6 +5,7 @@ import { MainDatasetSchema, VersionRegistrySchema, type MainDataset, type Versio
 import { hasCache, openCache } from './cache';
 import type { DataPaths } from './cli';
 import { loadCorpus } from './corpus';
+import { loadResearch } from './research';
 import { AffirmationsFileSchema, DEFAULT_THRESHOLDS, type Affirmation } from './schema';
 import { sha256 } from './text';
 import { violation, warning, type ExtractionsView, type PublishedView, type RuleContext, type Violation } from './rules/types';
@@ -84,6 +85,12 @@ export function buildContext(paths: DataPaths, options: ContextOptions = {}): { 
   const loadViolations = [...violations];
   const published = readPublished(paths.publishedDir, loadViolations);
   const extractions = readExtractions(paths.extractionsDir, loadViolations);
+  let research: RuleContext['research'];
+  if (existsSync(paths.researchDir)) {
+    const loaded = loadResearch(paths.researchDir);
+    research = loaded.research;
+    loadViolations.push(...loaded.violations);
+  }
   const cacheAvailable = !options.noCache && hasCache(paths.cacheDir);
   if (!cacheAvailable)
     loadViolations.push(warning('CACHE-MISSING', 'file', 'cache', `cache des sources absent (${relative(process.cwd(), paths.cacheDir) || paths.cacheDir}) : citations et empreintes non vérifiées`));
@@ -93,6 +100,7 @@ export function buildContext(paths: DataPaths, options: ContextOptions = {}): { 
     published,
     extractions,
     thresholds: corpus.governance?.thresholds ?? DEFAULT_THRESHOLDS,
+    research,
   };
   return { ctx, loadViolations };
 }

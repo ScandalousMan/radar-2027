@@ -60,6 +60,8 @@ export type DataPaths = {
   cacheDir: string;
   extractionsDir: string;
   reportsDir: string;
+  /** Corpus de preuves de la recherche (spec 008) : `data/recherche` ou `<fixture>/recherche`. */
+  researchDir: string;
   /** `true` si les chemins désignent un dossier de fixture (`corpus/`, `published/`, `cache/`). */
   fixture: boolean;
 };
@@ -69,8 +71,9 @@ export type DataPaths = {
  * - sans `corpus` : dossiers du dépôt (`data/corpus`, `public/data`, `RADAR_SOURCE_CACHE_DIR`
  *   ou `.cache/sources`, `data/extractions`, `data/reports`) ;
  * - `corpus` désignant un dossier de fixture (qui contient `corpus/`) : `corpus/`,
- *   `published/`, `cache/`, `extractions/` de ce dossier (rapports dans `data/reports`) ;
- * - `corpus` désignant directement un dossier de corpus : ce dossier, le reste par défaut.
+ *   `published/`, `cache/`, `extractions/`, `recherche/` de ce dossier (rapports dans `data/reports`) ;
+ * - `corpus` désignant directement un dossier de corpus : ce dossier, le reste par défaut
+ *   (`data/recherche` du dépôt compris).
  */
 export function resolvePaths(
   options: { corpus?: string } = {},
@@ -85,6 +88,7 @@ export function resolvePaths(
     cacheDir: repoCache,
     extractionsDir: join(cwd, 'data', 'extractions'),
     reportsDir: join(cwd, 'data', 'reports'),
+    researchDir: join(cwd, 'data', 'recherche'),
     fixture: false,
   };
   if (!options.corpus) return repo;
@@ -100,6 +104,7 @@ export function resolvePaths(
       extractionsDir: join(dir, 'extractions'),
       // Les rapports restent dans le dépôt (ignorés par git), jamais dans la fixture.
       reportsDir: repo.reportsDir,
+      researchDir: join(dir, 'recherche'),
       fixture: true,
     };
   }

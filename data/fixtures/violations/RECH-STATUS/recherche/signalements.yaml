@@ -1,0 +1,20 @@
+# Demandes de revue humaine (fixture minimale, spec 008). Ne modifient rien.
+
+- id: sig-2026-11-22-dupont-smic
+  kind: POSITION_REVIEW
+  raisedAt: 2026-11-22
+  journal: 2026-11-22-fixture-minimale
+  personality: dupont
+  position: { candidate: dupont, question: economie-q01 }
+  evidence: [dupont-economie-001]
+  reason: "Le programme dit « Nous revaloriserons le SMIC de 10 % dès l'été 2027. » : vérifier qu'une hausse ponctuelle justifie la valeur relue."
+  state: open
+
+- id: sig-2026-11-22-jean-exemple-statut
+  kind: CANDIDATE_STATUS
+  raisedAt: 2026-11-22
+  journal: 2026-11-22-fixture-minimale
+  personality: jean-exemple
+  evidence: [jean-exemple-candidature-001]
+  reason: Personnalité hors liste publiée enregistrée comme déclarée.
+  state: open

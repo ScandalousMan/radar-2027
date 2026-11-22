@@ -1,15 +1,18 @@
 // REF-EXISTS : tout thème, question, candidat, source ou contributeur référencé existe.
 // (Les critères de gouvernance sont vérifiés par FR-005.)
+// Spec 008 (R4) : le champ `candidates` d'une source accepte aussi une personnalité du registre de
+// recherche (`data/recherche/personnalites.yaml`) ; les positions restent limitées à `candidates.yaml`.
 import { allPositions, allQuestions, allSources, positionId } from '../corpus';
 import { violation, type Rule, type Violation } from './types';
 
 export const REF_EXISTS: Rule = {
   code: 'REF-EXISTS',
-  run({ corpus }) {
+  run({ corpus, research }) {
     const out: Violation[] = [];
     const themes = new Set(corpus.themes.map((t) => t.id));
     const contributors = new Set(corpus.contributors.map((c) => c.id));
     const candidates = new Set(corpus.candidates.map((c) => c.id));
+    const sourceSubjects = new Set([...candidates, ...(research?.personalities.map((p) => p.id) ?? [])]);
     const questions = new Set(allQuestions(corpus).map(({ question }) => question.id));
     const sources = new Set(allSources(corpus).map(({ source }) => source.id));
     const missing = (kind: Parameters<typeof violation>[1], id: string, what: string, ref: string) =>
@@ -25,7 +28,7 @@ export const REF_EXISTS: Rule = {
       for (const h of c.history) if (!sources.has(h.source)) missing('candidate', c.id, 'source d’historique', h.source);
     }
     for (const { source: s } of allSources(corpus)) {
-      for (const c of s.candidates) if (!candidates.has(c)) missing('source', s.id, 'candidat', c);
+      for (const c of s.candidates) if (!sourceSubjects.has(c)) missing('source', s.id, 'candidat ou personnalité suivie', c);
     }
     for (const candidate of corpus.positions.keys()) {
       if (!candidates.has(candidate)) missing('candidate', candidate, 'candidat (fichier positions)', `positions/${candidate}.yaml`);
