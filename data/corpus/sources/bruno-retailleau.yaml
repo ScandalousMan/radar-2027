@@ -328,3 +328,36 @@
   candidates:
     - bruno-retailleau
   contentHash: sha256:48bbb2d2e150513a690e0c6093f08793e94325b238e7164104e05c320edd3260
+- id: bruno-retailleau-suppression-de-l-aide-medicale-d-etat-la-proposition-de-brun
+  url: https://www.franceinfo.fr/sante/suppression-de-l-aide-medicale-d-etat-la-proposition-de-bruno-retailleau-divise-jusqu-au-sein-de-la-majorite-gouvernementale_6799522.html
+  title: "Suppression de l'Aide médicale d'État : la proposition de Bruno Retailleau divise jusqu'au sein de la majorité gouvernementale (franceinfo)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2024-09-24
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:949303f6280c1f9f77c1701e31de928bacbc1d08d56d07d451728bc45ecb4e5d
+- id: bruno-retailleau-la-libre-circulation-des-personnes-en-europe-doit-etre-suspe
+  url: https://republicains.fr/wp-content/uploads/2026/08/CP_BR_31_07_26.pdf
+  title: La libre-circulation des personnes en Europe doit être suspendue pour l'Espagne (communiqué de Bruno Retailleau, PDF, Les Républicains)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-07-31
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:e05414607b3576a006a8e115acba129cc89acef5abc0694e72bd5523afcaa66e
+- id: bruno-retailleau-ce-que-contient-la-circulaire-retailleau-sur-la-regularisati
+  url: https://www.maire-info.com/immigration/ce-que-contient-la-circulaire-retailleau-sur-la-regularisation-des-etrangers-en-situation-irreguliere-article-29333
+  title: Ce que contient la circulaire Retailleau sur la régularisation des étrangers en situation irrégulière (Maire-info)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-01-27
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:94641140c109cd145367a1cee62931c67be335ef3a67634ed1c11a9c81f90cbc

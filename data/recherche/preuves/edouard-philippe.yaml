@@ -1,0 +1,147 @@
+# Preuves d'Édouard Philippe (spec 008). Corpus de recherche : jamais publié, jamais scoré.
+# Une preuve documente un propos, un document ou un acte ; elle n'évalue pas le candidat et ne
+# modifie aucune position. Ajout en fin de liste seulement, aucune suppression.
+# Journal de la première passe : data/recherche/journaux/2026-11-22-thematique-droit-du-sol.yaml
+
+- id: edouard-philippe-candidature-001
+  personality: edouard-philippe
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Je serai candidat à la prochaine élection présidentielle"
+  speaker: Édouard Philippe
+  context: >-
+    Entretien d'Édouard Philippe à l'hebdomadaire Le Point publié le mardi 3 septembre 2024,
+    rapporté le même jour par France 3 Normandie, qui reproduit la phrase d'annonce entre
+    guillemets et ajoute « Ce que je proposerai sera massif. Les Français décideront ».
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot (une occurrence) dans le texte en cache de la source de statut
+    déjà enregistrée. Le média est secondaire : l'entretien original au Point n'a pas été consulté,
+    seule sa reprise par France 3.
+  source: edouard-philippe-declaration-candidature
+  publisher: France 3 Normandie (franceinfo)
+  locator: { kind: paragraph, value: "1" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: précampagne présidentielle 2027
+  rationale:
+    sourceQuality: >-
+      Média régional de service public établi reproduisant la phrase de l'entretien ; l'original
+      (Le Point) n'a pas été ouvert, la source reste donc secondaire.
+    attribution: >-
+      Propos à la première personne, au futur de l'indicatif, sans condition : une déclaration, pas
+      une rumeur d'entourage.
+    temporalRelevance: >-
+      Propos de septembre 2024, plus de douze mois avant la vérification, sans corroboration
+      récente de la même phrase : DATED. Indices non retenus comme corroboration : LCP (20 août
+      2026) le présente comme « candidat Horizons à l'élection présidentielle de 2027 », et LCP
+      (22 mai 2026) rappelle qu'il « a annoncé sa candidature dès septembre 2024 ».
+  statedAt: { date: 2024-09-03, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-thematique-droit-du-sol
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: edouard-philippe-immigration-001
+  personality: edouard-philippe
+  kind: POSITION
+  theme: immigration
+  question: immigration-supprimer-droit-du-sol
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Suspendre le droit du sol à Mayotte."
+  speaker: Édouard Philippe
+  context: >-
+    Page « Pour une France plus sûre » du site de campagne « Avec Édouard 2027 », liste des mesures
+    sur l'immigration. La mesure suit « Suspendre, pour la durée du quinquennat, l'enregistrement
+    des demandes d'asile dans les départements d'outre-mer en état de saturation migratoire, à
+    Mayotte et en Guyane. » La page ne contient aucune autre mention du droit du sol, ni pour
+    l'Hexagone ni pour les autres outre-mer.
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot (une occurrence) dans le texte en cache de la source déjà
+    enregistrée (la même phrase sert de citation à la position publiée ; la preuve documente le
+    document, elle ne double aucune preuve existante). Page non rouverte en ligne dans cette
+    mission.
+  source: edouard-philippe-priorites-surete
+  publisher: Avec Édouard 2027 (edouardphilippe.fr)
+  locator: { kind: passage, value: "mesures immigration, après la suspension des demandes d'asile à Mayotte et en Guyane" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: >-
+      Document de campagne publié sur le site du candidat, ouvert dans le texte en cache.
+    attribution: >-
+      Site de campagne personnel du candidat (« Avec Édouard 2027 ») : document officiellement
+      publié par lui, et non position du parti Horizons.
+    interpretation: >-
+      L'énoncé : « Le droit du sol doit être supprimé pour l'acquisition de la nationalité
+      française. » La mesure va dans le même sens mais elle est plus étroite sur deux dimensions :
+      géographie (Mayotte seule, aucune mesure pour le reste du territoire) et force (suspension,
+      non suppression). Soutien partiel, d'où QUALIFIED_SUPPORT ; rien n'établit, à l'inverse, une
+      opposition à la suppression sur le reste du territoire.
+    temporalRelevance: >-
+      Page datée de juillet 2026 au registre, moins de douze mois avant la vérification, et
+      corroborée dans le même sens par l'entretien du 20 août 2026 (edouard-philippe-immigration-002).
+  statedAt: { date: 2026-07, precision: month }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-thematique-droit-du-sol
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: edouard-philippe-immigration-002
+  personality: edouard-philippe
+  kind: POSITION
+  theme: immigration
+  question: immigration-supprimer-droit-du-sol
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: UNVERIFIED_QUOTE
+  quote: "il faut aller encore plus loin et le suspendre totalement pendant plusieurs années"
+  speaker: Édouard Philippe
+  context: >-
+    Entretien d'Édouard Philippe au quotidien France Mayotte Matin publié le jeudi 20 août 2026, à
+    la veille de son déplacement à Mayotte, rapporté par LCP (avec AFP). Le fragment est introduit
+    par le journaliste : « Alors que le droit du sol a déjà été restreint à Mayotte par une loi de
+    2025, Edouard Philippe juge qu'… » ; le pronom « le » renvoie au droit du sol à Mayotte. La
+    phrase suivante élargit : « je propose un moratoire total sur les voies d'accès à l'immigration
+    à Mayotte pour toute la durée du quinquennat ».
+  verificationNotes: >-
+    Fragment retrouvé mot pour mot dans le texte en cache de l'article LCP. L'entretien original
+    (France Mayotte Matin) n'a pas été ouvert : la citation est rapportée, fragmentaire et
+    introduite par le journaliste, d'où UNVERIFIED_QUOTE. franceinfo (21 août 2026, avec AFP)
+    mentionne aussi « droit du sol » parmi les mesures « suspendus », sans citation directe :
+    reprise de la même dépêche, non corroboration indépendante.
+  source: edouard-philippe-mayotte-pour-edouard-philippe-l-urgence-est-de-fermer-les-va
+  publisher: LCP (avec AFP)
+  locator: { kind: paragraph, value: "intertitre « C'est absurde, hypocrite et dangereux », premier paragraphe" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: >-
+      Média parlementaire établi rapportant un entretien publié ailleurs : secondaire.
+    quote: >-
+      Fragment entre guillemets dans une phrase du journaliste ; original non consulté.
+    attribution: >-
+      Propos personnels rapportés d'un entretien nominatif ; confiance MEDIUM faute d'avoir lu
+      l'entretien original.
+    interpretation: >-
+      Même sens que l'énoncé, mais limité à Mayotte et à une suspension « pendant plusieurs
+      années », non une suppression définitive sur tout le territoire : QUALIFIED_SUPPORT. Le
+      propos durcit la mesure du programme (« totalement ») sans l'étendre géographiquement.
+  statedAt: { date: 2026-08-20, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-thematique-droit-du-sol
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

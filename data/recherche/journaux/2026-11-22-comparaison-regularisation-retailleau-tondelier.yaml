@@ -1,0 +1,251 @@
+# Journal de mission (spec 008, FR-029). Comparaison à critères de preuve identiques, validation
+# d'installation (T040). Requêtes et sources effectivement consultées.
+id: 2026-11-22-comparaison-regularisation-retailleau-tondelier
+mode: COMPARISON
+author: claude
+model: opus
+request: >-
+  Comparer Bruno Retailleau (bruno-retailleau) et Marine Tondelier (marine-tondelier) sur la seule
+  question immigration-regularisation-cinq-ans, à critères de preuve identiques (mêmes catégories
+  de sources, mêmes types de requêtes, mêmes seuils de qualification), avec un tableau des lacunes
+  par personnalité. Validation d'installation (T040) : pas d'enrichissement global, pas de commit,
+  aucune modification des positions ni de la liste des candidats. Créer l'entrée de Marine
+  Tondelier au registre avec son statut publié, appuyé par une preuve CANDIDACY sur sa source de
+  statut ; chercher les doublons avant tout ajout pour Bruno Retailleau (12 preuves existantes).
+startedAt: 2026-11-22
+completedAt: 2026-11-22
+state: completed
+scope:
+  personalities: [bruno-retailleau, marine-tondelier]
+  themes: [immigration]
+  questions: [immigration-regularisation-cinq-ans]
+queries:
+  - at: 2026-11-22
+    query: "lecture préalable : questions/immigration.yaml (énoncé, polarité +), candidates.yaml (statuts des deux), positions des deux candidats sur la question (-1 et +1, reviewed), sources/bruno-retailleau.yaml, sources/marine-tondelier.yaml, personnalites.yaml, preuves/bruno-retailleau.yaml (12 preuves), signalements.yaml (2 ouverts), trois journaux du 2026-11-22"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-22
+    query: "recherche plein texte dans le cache des sources enregistrées des deux candidats : « régularis », « sans-papiers », « sans papiers », « sept ans », « cinq ans »"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-22
+    query: "\"Tondelier\" régularisation sans-papiers \"cinq ans\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "\"Retailleau\" régularisation sans-papiers \"cinq ans\" présence"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.vie-publique.fr/discours/297414-bruno-retailleau-astrid-panosyan-bouvet-17022025-immigration"
+    category: GOVERNMENT
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "circulaire 23 janvier 2025 admission exceptionnelle au séjour texte intégral \"sept ans\" interieur.gouv.fr OR legifrance"
+    category: GOVERNMENT
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.legifrance.gouv.fr/circulaire/id/45584"
+    category: GOVERNMENT
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "INTK2435521J circulaire pdf"
+    category: GOVERNMENT
+    tool: web_search
+  - at: 2026-11-22
+    query: "Marine Tondelier régulariser sans-papiers entretien 2026"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:lesecologistes.fr régularisation sans-papiers"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:marinetondelier.fr régularisation"
+    category: CAMPAIGN_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:republicains.fr Retailleau régularisation clandestins circulaire"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau entretien circulaire Valls régularisations \"sept ans\""
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:vie-publique.fr Tondelier régularisation sans-papiers"
+    category: GOVERNMENT
+    tool: web_search
+  - at: 2026-11-22
+    query: "Tondelier Espagne régularisation massive réaction 2026"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Bruno Retailleau site de campagne 2027 programme immigration régularisation"
+    category: CAMPAIGN_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "recherche plein texte des doublons : « capitulation », « fausse générosité », « sept ans », « Régulariser les travailleur », « maire-info », « 21-priorites », « livret-travail » dans data/recherche et data/corpus/positions"
+    category: EXISTING_CORPUS
+    tool: grep
+categoriesExplored: [EXISTING_CORPUS, NATIONAL_MEDIA, GOVERNMENT, FULL_INTERVIEWS, PARTY_SITE, CAMPAIGN_SITE]
+categoriesNotExplored:
+  - category: SENAT
+    reason: >-
+      Écart justifié : Marine Tondelier n'a jamais été parlementaire, la catégorie n'est donc pas
+      symétrique ; pour Bruno Retailleau, les PPL sénatoriales n° 646 et n° 677 sont déjà au corpus
+      et n'ont pas été rouvertes, pour garder les mêmes catégories pour les deux.
+  - category: ASSEMBLEE_NATIONALE
+    reason: Ni l'un ni l'autre n'est député ; non exploré pour les deux.
+  - category: SOCIAL_MEDIA
+    reason: Publications sous authentification, non contournée (FR-049), pour les deux.
+  - category: TV_RADIO_DEBATES
+    reason: Mission bornée ; aucune émission ni transcription consultée, pour les deux.
+  - category: ORIGINAL_VIDEOS
+    reason: Mission bornée ; aucune vidéo consultée, pour les deux.
+  - category: PRESS_AGENCIES
+    reason: Mission bornée ; non exploré pour les deux.
+  - category: FACT_CHECKING
+    reason: Mission bornée ; non exploré pour les deux.
+  - category: HISTORICAL_ARCHIVES
+    reason: Mission bornée ; programmes et propos antérieurs à 2025 non recherchés, pour les deux.
+  - category: REGIONAL_MEDIA
+    reason: Mission bornée ; non exploré pour les deux.
+exhaustive: false
+sourcesConsulted:
+  - url: https://www.brut.media/fr/articles/france/politique/marine-tondelier-la-patronne-des-ecologistes-officiellement-candidate-a-la-presidentielle-de-2027
+    title: Marine Tondelier officiellement candidate à la présidentielle de 2027 (Brut), texte en cache
+    outcome: retained
+    source: marine-tondelier-declaration-candidature
+  - url: https://marinetondelier.fr/s/livret-travail.pdf
+    title: "Livret thématique : travailler mieux (campagne de Marine Tondelier, PDF), texte en cache"
+    outcome: retained
+    source: marine-tondelier-livret-travail-2026-11
+  - url: https://marinetondelier.fr/blog/21-priorites-gouverner-ensemble-demain
+    title: 21 priorités communes qui devraient pouvoir nous rassembler (site de Marine Tondelier), texte en cache
+    outcome: retained
+    source: marine-tondelier-21-priorites-2026-04
+  - url: https://web.archive.org/web/20260825202751if_/https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf
+    title: Programme des Écologistes (juillet 2026), texte en cache
+    outcome: rejected
+    reason: >-
+      Passage « Régulariser les travailleur·ses, les étudiant·es et les parents d'enfants
+      scolarisés… » déjà citation de la position publiée de marine-tondelier sur la question :
+      aucune preuve créée, par symétrie avec le traitement de la citation publiée de Bruno
+      Retailleau (doublon évité).
+    source: marine-tondelier-programme-ecologistes-2026
+  - url: https://www.maire-info.com/immigration/ce-que-contient-la-circulaire-retailleau-sur-la-regularisation-des-etrangers-en-situation-irreguliere-article-29333
+    title: Ce que contient la circulaire Retailleau sur la régularisation des étrangers en situation irrégulière (Maire-info), texte en cache
+    outcome: retained
+    source: bruno-retailleau-ce-que-contient-la-circulaire-retailleau-sur-la-regularisati
+  - url: https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/
+    title: "Retailleau : ma candidature ira jusqu'au bout (republicains.fr), texte en cache"
+    outcome: rejected
+    reason: >-
+      « l'idée de régulariser des clandestins qui ont fraudé nos lois est une capitulation » est
+      déjà citation de la position publiée ; aucune preuve créée (même décision que les journaux
+      précédents).
+    source: bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
+  - url: https://www.legifrance.gouv.fr/circulaire/id/45584
+    title: Circulaire du 23 janvier 2025 sur l'admission exceptionnelle au séjour (Légifrance)
+    outcome: inaccessible
+    reason: Page de vérification anti-robot (contrôle d'accès), non contournée (FR-049).
+  - url: https://www.vie-publique.fr/discours/297414-bruno-retailleau-astrid-panosyan-bouvet-17022025-immigration
+    title: Déclaration de Bruno Retailleau et Astrid Panosyan-Bouvet sur l'immigration, 17 février 2025 (vie-publique.fr)
+    outcome: inaccessible
+    reason: Contenu vide à la récupération automatique (outil et requête HTTP) ; non lu.
+  - url: https://www.publicsenat.fr/actualites/politique/immigration-ce-qui-va-changer-avec-la-nouvelle-circulaire-de-fermete-de-bruno-retailleau
+    title: "Immigration : ce qui va changer avec la nouvelle circulaire de fermeté de Bruno Retailleau (Public Sénat)"
+    outcome: rejected
+    reason: Vu en extrait de moteur de recherche seulement ; même fait (cinq à sept ans) que Maire-info, non ouvert.
+  - url: https://votons-2027.fr/candidats/tondelier/programme/immigration
+    title: Immigration, présidentielle 2027 (Votons 2027, fiche Tondelier)
+    outcome: rejected
+    reason: Agrégateur, piste seulement ; jamais preuve.
+  - url: https://votons-2027.fr/candidats/retailleau/programme/immigration
+    title: Immigration, présidentielle 2027 (Votons 2027, fiche Retailleau)
+    outcome: rejected
+    reason: Agrégateur, piste seulement ; jamais preuve.
+evidenceAdded:
+  - bruno-retailleau-immigration-012
+  - marine-tondelier-candidature-001
+  - marine-tondelier-immigration-001
+  - marine-tondelier-immigration-002
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided:
+  - evidence: bruno-retailleau-immigration-006
+    note: >-
+      Seule preuve existante sur la question (JDD, 2 août 2026, « régularisations massives ») ;
+      aucune des sources consultées ne reprend cette phrase : ni doublon ni corroboration.
+      immigration-012 porte sur un autre document (circulaire de janvier 2025) et un autre fait.
+  - evidence: bruno-retailleau-immigration-011
+    note: >-
+      Même source (Maire-info) que immigration-012, mais autre passage (« Privilégier les métiers en
+      tension » contre « Sept ans au lieu de cinq ») et autre question : preuve distincte, non
+      doublon.
+  - evidence: marine-tondelier-immigration-001
+    note: >-
+      Le programme des Écologistes (juillet 2026) porte une formulation proche, déjà citation de la
+      position publiée : pas de preuve créée sur ce passage ; le livret de campagne, document
+      personnel distinct, fait l'objet d'immigration-001.
+verified:
+  - "marine-tondelier-candidature-001 : « Cette interview est ma déclaration officielle de candidature à l'élection présidentielle » retrouvée mot pour mot (deux occurrences) dans le cache de la source de statut ; statut DECLARED au 2025-10-22, conforme à la liste publiée (declared, statusChangedAt 2025-10-22)."
+  - "marine-tondelier-immigration-001 : citation retrouvée mot pour mot dans le cache du livret « Travailler mieux » (novembre 2026)."
+  - "marine-tondelier-immigration-002 : citation retrouvée mot pour mot dans le cache du billet du 17 avril 2026."
+  - "bruno-retailleau-immigration-012 : passage « Il est désormais exigé \" une durée de présence d'au moins sept ans \" sur le territoire français pour juger de l'intégration de la personne, quand la circulaire Valls évoquait cinq ans. » retrouvé dans le cache Maire-info ; preuve en paraphrase."
+toVerify:
+  - "Texte intégral de la circulaire du 23 janvier 2025 (Légifrance, NOR INTK2435521J) : confirmer dans l'original le seuil de sept ans et son caractère indicatif."
+  - "Programme présidentiel 2027 de Bruno Retailleau : le maintien du seuil de sept ans, ou une autre règle, n'est documenté par aucune source ouverte."
+  - "Marine Tondelier : issue de la désignation par son parti et de la primaire de la gauche annoncées par Brut, non vérifiée dans cette mission."
+  - "Marine Tondelier : aucun propos personnel (entretien, débat) sur un seuil d'ancienneté de présence n'a été trouvé ; les documents ne fixent pas de durée."
+contradictions: []
+gaps:
+  - kind: NO_PERSONAL_POSITION
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-regularisation-cinq-ans
+    evidence: [bruno-retailleau-immigration-006, bruno-retailleau-immigration-012]
+    note: >-
+      Aucun propos de campagne ne porte sur le critère de cinq ans : immigration-006 vise les
+      régularisations massives (Espagne) et immigration-012 un acte ministériel de 2025 connu par
+      une source secondaire. Requêtes presse, gouvernement, parti, entretiens et campagne.
+  - kind: PRIMARY_INACCESSIBLE
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-regularisation-cinq-ans
+    evidence: [bruno-retailleau-immigration-012]
+    note: >-
+      Circulaire du 23 janvier 2025 sur Légifrance derrière une page anti-robot ; discours du
+      17 février 2025 sur vie-publique.fr vide à la récupération.
+  - kind: NO_PERSONAL_POSITION
+    personality: marine-tondelier
+    theme: immigration
+    question: immigration-regularisation-cinq-ans
+    evidence: [marine-tondelier-immigration-001, marine-tondelier-immigration-002]
+    note: >-
+      Documents de campagne seulement (livret, billet) ; aucune déclaration orale ni aucun seuil
+      chiffré de durée de résidence trouvé. Requêtes presse, gouvernement, parti, entretiens et
+      campagne.
+  - kind: NO_OPPOSING_EVIDENCE
+    personality: marine-tondelier
+    theme: immigration
+    question: immigration-regularisation-cinq-ans
+    note: >-
+      Aucune preuve dans le sens opposé à l'énoncé (restriction, seuil supérieur à cinq ans) trouvée
+      dans les catégories explorées.
+  - kind: NO_OPPOSING_EVIDENCE
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-regularisation-cinq-ans
+    note: >-
+      Aucun soutien au seuil de cinq ans trouvé ; seule nuance documentée, le maintien d'une
+      régularisation au cas par cas au-delà de sept ans (immigration-012).
+  - kind: CANDIDACY_UNCERTAIN
+    personality: marine-tondelier
+    evidence: [marine-tondelier-candidature-001]
+    note: >-
+      Déclaration d'octobre 2025 (plus de douze mois) annoncée par Brut comme devant passer par une
+      désignation du parti et une primaire de la gauche ; l'issue de ces étapes n'a pas été
+      recherchée dans cette mission (hors périmètre). Statut publié declared conservé.
+signals: []

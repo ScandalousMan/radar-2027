@@ -1,0 +1,27 @@
+# Preuves de Nicolas Dupont-Aignan (spec 008). Corpus de recherche : jamais publié, jamais scoré.
+
+- id: nicolas-dupont-aignan-candidature-001
+  personality: nicolas-dupont-aignan
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  journal: 2026-11-22-amorcage-registre
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Je serai candidat en 2027 pour offrir aux Français un sursaut gaulliste !"
+  speaker: Nicolas Dupont-Aignan
+  context: "Message publié sur son compte X le 23 avril 2026 et reproduit par info.fr ; l'article rappelle une première annonce devant ses militants le 8 mars 2025."
+  verificationNotes: "Amorçage du registre (T048) : preuve construite sur la source de statut déjà enregistrée (statusSource) et sur son texte en cache, sans recherche web. Citation retrouvée mot pour mot dans le texte en cache."
+  source: nicolas-dupont-aignan-declaration-candidature
+  publisher: "info.fr (message X reproduit)"
+  locator: { kind: passage, value: "message X du 23 avril 2026 reproduit dans l'article" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: "Message X de l’intéressé reproduit dans un article de presse ; le compte n’a pas été consulté directement."
+  statedAt: { date: 2026-04-23, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

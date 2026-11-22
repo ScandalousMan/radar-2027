@@ -1,0 +1,140 @@
+# Preuves de Marine Tondelier (spec 008). Corpus de recherche : jamais publié, jamais scoré.
+# Une preuve documente un propos, un document ou un acte ; elle n'évalue pas la candidate et ne
+# modifie aucune position. Ajout en fin de liste seulement, aucune suppression.
+# Journal de la première passe : data/recherche/journaux/2026-11-22-comparaison-regularisation-retailleau-tondelier.yaml
+
+- id: marine-tondelier-candidature-001
+  personality: marine-tondelier
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Cette interview est ma déclaration officielle de candidature à l'élection présidentielle"
+  speaker: Marine Tondelier
+  context: >-
+    Entretien au Nouvel Obs publié le 22 octobre 2025, rapporté le jour même par Brut, qui en
+    reproduit la phrase d'annonce. Brut précise que la candidature « passera par une désignation
+    officielle de son parti début décembre, et une primaire de la gauche en préparation ».
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot (deux fois) dans le texte en cache de la source de statut déjà
+    enregistrée. Le média est secondaire : l'entretien original au Nouvel Obs n'a pas été consulté,
+    seule sa reprise par Brut.
+  source: marine-tondelier-declaration-candidature
+  publisher: Brut
+  locator: { kind: paragraph, value: "1" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: précampagne présidentielle 2027
+  rationale:
+    sourceQuality: >-
+      Média national établi reproduisant la phrase de l'entretien ; l'entretien original n'a pas été
+      ouvert, la source reste donc secondaire.
+    attribution: >-
+      Propos tenus par l'intéressée elle-même, à la première personne, sans condition : une
+      déclaration, pas une rumeur d'entourage. Les étapes de désignation mentionnées par Brut sont
+      une procédure annoncée, non une réserve de sa part.
+    temporalRelevance: >-
+      Propos d'octobre 2025, un peu plus de douze mois avant la vérification, sans corroboration
+      récente de la même déclaration : DATED. Indice non retenu comme corroboration : le livret
+      thématique « Travailler mieux » est publié en novembre 2026 sous l'intitulé « Campagne de
+      Marine Tondelier » (source marine-tondelier-livret-travail-2026-11), ce qui suggère une
+      campagne en cours sans reprendre la phrase de déclaration.
+  statedAt: { date: 2025-10-22, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-comparaison-regularisation-retailleau-tondelier
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: marine-tondelier-immigration-001
+  personality: marine-tondelier
+  kind: POSITION
+  theme: immigration
+  question: immigration-regularisation-cinq-ans
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Régulariser les travailleur·ses sur la base de critères objectifs (durée de résidence, effectivité du lien familial, durée ou promesse d'activité professionnelle)."
+  speaker: Marine Tondelier
+  context: >-
+    Livret thématique « Travailler mieux » de la campagne de Marine Tondelier (novembre 2026),
+    partie des mesures, section 4 « Lutter contre toutes les discriminations au travail ». La
+    mesure est suivie de « Automatiser le droit au travail dès la délivrance de l'attestation de
+    demande d'asile sans délai et sans autorisation de travail. »
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot (une occurrence) dans le texte en cache du PDF. Formulation proche
+    de celle du programme des Écologistes (juillet 2026), qui vise en plus « les étudiant·es et les
+    parents d'enfants scolarisés » : autre document, autre auteur (parti), donc preuve distincte et
+    non corroboration de la même citation.
+  source: marine-tondelier-livret-travail-2026-11
+  publisher: Campagne de Marine Tondelier (marinetondelier.fr)
+  locator: { kind: passage, value: "section 4 « Lutter contre toutes les discriminations au travail », mesure « Régulariser les travailleur·ses »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: >-
+      Document de campagne publié sur le site de la candidate, ouvert et lu dans le texte en cache.
+    attribution: >-
+      Livret intitulé « Campagne de Marine Tondelier », publié sur son site : document officiellement
+      publié par la candidate, et non simple position du parti.
+    interpretation: >-
+      L'énoncé : « Les étrangers sans titre de séjour présents en France depuis plus de cinq ans
+      doivent pouvoir être régularisés. » La mesure soutient la régularisation et retient la durée
+      de résidence comme critère objectif, mais elle vise les travailleurs, ne fixe aucun seuil
+      (ni cinq ans ni autre) et combine ce critère avec le lien familial et l'activité
+      professionnelle : soutien dans le même sens, plus étroit quant à la population et moins
+      précis quant au seuil, d'où QUALIFIED_SUPPORT.
+  statedAt: { date: 2026-11, precision: month }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-comparaison-regularisation-retailleau-tondelier
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: marine-tondelier-immigration-002
+  personality: marine-tondelier
+  kind: POSITION
+  theme: immigration
+  question: immigration-regularisation-cinq-ans
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Régulariser les travailleurs et les travailleuses sans papiers et accorder des titres de séjours pluriannuels automatiquement renouvelables"
+  speaker: Marine Tondelier
+  context: >-
+    Billet « 21 priorités communes qui devraient pouvoir nous rassembler » publié le 17 avril 2026
+    sur le site de Marine Tondelier, présenté comme les priorités que « Les Écologistes » proposent
+    à la gauche pour 2027 ; la mesure est l'une des 21 priorités énumérées.
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot (une occurrence) dans le texte en cache. La liste ne comporte
+    aucun critère de durée de présence. Le texte parle au nom des Écologistes (« Les Écologistes en
+    sont convaincus ») : voir l'attribution.
+  source: marine-tondelier-21-priorites-2026-04
+  publisher: Site de Marine Tondelier (marinetondelier.fr)
+  locator: { kind: passage, value: "liste des 21 priorités, entre « bâtir une société inclusive avec les personnes en situation de handicap » et « Fonder une 6ème République »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: précampagne présidentielle 2027
+  rationale:
+    sourceQuality: Billet publié sur le site personnel de la candidate, ouvert et lu dans le texte en cache.
+    attribution: >-
+      Publié sur son site personnel, donc document qu'elle publie, mais rédigé au nom des
+      Écologistes, parti dont elle a pris la tête en décembre 2022 selon Brut : confiance moyenne sur le caractère
+      personnel de la position (une position de parti n'est pas automatiquement celle de chacun de
+      ses membres).
+    interpretation: >-
+      Soutien à la régularisation des travailleurs sans papiers, sans critère de durée de présence :
+      même sens que l'énoncé mais population plus étroite (les travailleurs) et seuil de cinq ans
+      ni évoqué ni écarté, d'où QUALIFIED_SUPPORT.
+  statedAt: { date: 2026-04-17, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-comparaison-regularisation-retailleau-tondelier
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

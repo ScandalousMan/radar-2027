@@ -1,0 +1,27 @@
+# Preuves de François Ruffin (spec 008). Corpus de recherche : jamais publié, jamais scoré.
+
+- id: francois-ruffin-candidature-001
+  personality: francois-ruffin
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  journal: 2026-11-22-amorcage-registre
+  quoteStatus: PARAPHRASE
+  paraphrase: "Officialise sa candidature à l'élection présidentielle de 2027 et tient à Lyon son premier événement de campagne."
+  speaker: François Ruffin
+  context: "Article de Lyon Mag du 10 avril 2026 ; aucune phrase d'annonce citée entre guillemets dans le texte en cache."
+  verificationNotes: "Amorçage du registre (T048) : preuve construite sur la source de statut déjà enregistrée (statusSource) et sur son texte en cache, sans recherche web. Aucune citation d’annonce exploitable dans le texte en cache : paraphrase."
+  source: francois-ruffin-declaration-candidature
+  publisher: "Lyon Mag"
+  locator: { kind: passage, value: "premier paragraphe" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: "Article de presse rapportant l’annonce de l’intéressé·e ; source primaire (enregistrement, publication personnelle) non ouverte pendant l’amorçage."
+  statedAt: { date: 2026-04-10, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

@@ -1,0 +1,150 @@
+# Journal de mission (spec 008, FR-029). Relance à l'identique du test d'installation, pour
+# vérifier l'absence de doublons (SC-008). Requêtes et sources effectivement consultées.
+id: 2026-11-22-bruno-retailleau-immigration-relance
+mode: PERSONALITY
+author: claude
+model: opus
+request: >-
+  Relance à l'identique de la mission 2026-11-22-bruno-retailleau-immigration (positions de Bruno
+  Retailleau sur l'immigration, test d'installation, sans enrichissement global ni commit) : relire
+  le corpus existant, relancer au moins cinq requêtes représentatives des passes déjà faites sur au
+  moins trois catégories, chercher les doublons avant tout ajout, n'ajouter une preuve que si elle
+  est réellement nouvelle, et transformer en corroboration toute source confirmant une citation
+  existante.
+startedAt: 2026-11-22
+completedAt: 2026-11-22
+state: completed
+scope:
+  personalities: [bruno-retailleau]
+  themes: [immigration]
+  questions:
+    - immigration-prestations-duree-residence
+    - immigration-regroupement-familial-ressources
+    - immigration-regularisation-cinq-ans
+    - immigration-titre-sejour-longue-duree
+queries:
+  - at: 2026-11-22
+    query: "lecture préalable : journal 2026-11-22-bruno-retailleau-immigration (yaml), preuves/bruno-retailleau.yaml (9 preuves), signalements.yaml (vide), sources/bruno-retailleau.yaml, positions/bruno-retailleau.yaml (questions immigration)"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-22
+    query: "\"Retailleau\" immigration \"regroupement familial\" proposition"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "\"Retailleau\" \"conditionner l'accès aux aides sociales\" \"cinq ans de résidence légale\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:republicains.fr actualites 2026 Retailleau immigration"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:senat.fr Retailleau immigration carte de résident proposition de loi"
+    category: SENAT
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau \"régularisations massives\" \"fausse générosité\" \"appel d'air\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://republicains.fr/wp-content/uploads/2026/08/CP_BR_31_07_26.pdf"
+    category: PARTY_SITE
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "recherche plein texte des doublons : « suspension de la libre circulation », « CP_BR_31_07_26 », « formidable appel », « fausse générosité » dans data/"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-22
+    query: "\"Une aide n'est pas un dû, surtout lorsque l'on n'a pas cotisé\" Retailleau"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau \"libre circulation pour les Européens, mais pas pour les extra-Européens\""
+    category: FULL_INTERVIEWS
+    tool: web_search
+categoriesExplored: [EXISTING_CORPUS, NATIONAL_MEDIA, PARTY_SITE, SENAT, FULL_INTERVIEWS]
+categoriesNotExplored:
+  - category: SOCIAL_MEDIA
+    reason: Publications sous authentification, non contournée (FR-049) ; même limite que la mission d'origine.
+  - category: ORIGINAL_VIDEOS
+    reason: Mission courte de relance ; aucune transcription publiée recherchée.
+  - category: TV_RADIO_DEBATES
+    reason: Mission courte de relance ; l'entretien TF1 de 2024 et celui de franceinfo de novembre 2026 restent non consultés.
+  - category: GOVERNMENT
+    reason: Hors du périmètre court de la relance (actes ministériels 2024-2025 non ouverts).
+  - category: FACT_CHECKING
+    reason: Non exploré dans cette relance.
+  - category: HISTORICAL_ARCHIVES
+    reason: Non exploré dans cette relance.
+  - category: PARLIAMENTARY_ARCHIVES
+    reason: Comptes rendus de séance et scrutins non consultés.
+  - category: PRESS_AGENCIES
+    reason: Non exploré dans cette relance.
+exhaustive: false
+sourcesConsulted:
+  - url: https://republicains.fr/wp-content/uploads/2026/08/CP_BR_31_07_26.pdf
+    title: La libre-circulation des personnes en Europe doit être suspendue pour l'Espagne (communiqué du 31 juillet 2026, PDF)
+    outcome: retained
+    source: bruno-retailleau-la-libre-circulation-des-personnes-en-europe-doit-etre-suspe
+  - url: https://www.senat.fr/leg/ppl22-677.html
+    title: PPL n° 677 pour reprendre le contrôle de la politique d'immigration, d'intégration et d'asile (Sénat)
+    outcome: rejected
+    reason: >-
+      Source déjà enregistrée et déjà support de la preuve immigration-005 ; ressortie par les
+      requêtes Sénat et regroupement familial. Aucune nouvelle preuve (doublon évité).
+    source: bruno-retailleau-ppl-pour-reprendre-le-controle-de-la-politique-d-immigration
+  - url: https://www.elyseescope.com/questions/bruno-retailleau-plan-pour-conditionner-les-aides-sociales-aux-etrangers
+    title: Bruno Retailleau et les aides sociales aux étrangers (ÉlyséeScope)
+    outcome: rejected
+    reason: >-
+      Site agrégateur peu sourcé, vu seulement en extrait de moteur de recherche : piste, jamais
+      preuve ni corroboration de immigration-002.
+  - url: https://www.algerie360.com/regularisation-massive-en-espagne-retailleau-veut-suspendre-la-libre-circulation-dans-lespace-schengen
+    title: "Régularisation massive en Espagne : Retailleau veut suspendre la libre circulation dans l'espace Schengen (algerie360)"
+    outcome: rejected
+    reason: >-
+      Reprise secondaire vue en extrait seulement ; la source primaire (communiqué du 31 juillet
+      2026) a été ouverte à la place.
+evidenceAdded:
+  - bruno-retailleau-immigration-009
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided:
+  - evidence: bruno-retailleau-immigration-005
+    note: >-
+      La PPL n° 677 (senat.fr/leg/ppl22-677.html) ressort des requêtes regroupement familial et
+      Sénat ; même source et même passage que la preuve existante : rien n'est ajouté.
+  - evidence: bruno-retailleau-immigration-002
+    note: >-
+      La requête sur la citation exacte des cinq ans de résidence ne ramène que des reprises
+      d'agrégateurs non vérifiables ; aucune nouvelle preuve ni corroboration de la phrase du
+      31 mai 2026.
+  - evidence: bruno-retailleau-immigration-006
+    note: >-
+      Le communiqué du 31 juillet 2026 dénonce aussi l'« appel d'air » de la régularisation
+      espagnole ; la proximité avec la phrase du JDD du 2 août 2026 a été examinée : texte, date et
+      document différents, donc pas un doublon et pas une corroboration de la même citation. Le
+      communiqué n'a pas été rattaché à immigration-regularisation-cinq-ans pour ne pas répéter la
+      lecture déjà portée par immigration-006.
+  - evidence: bruno-retailleau-immigration-007
+    note: >-
+      La phrase « libre circulation pour les Européens, mais pas pour les extra-Européens » n'est
+      retrouvée dans aucune autre source accessible ; la preuve existante reste inchangée, sans
+      corroboration.
+verified:
+  - "immigration-009 : « je demande la suspension de la libre circulation des personnes avec l'Espagne au sein de l'Union européenne. » retrouvée mot pour mot dans le texte en cache du communiqué (PDF d'une page, signé Bruno Retailleau)."
+  - "Le communiqué du 31 juillet 2026, noté inaccessible par la mission d'origine, est désormais localisé et lu intégralement."
+toVerify:
+  - "Propos de 2025 sur la circulaire de régularisation (« Méfions-nous de la fausse générosité », vu en extrait sur publicsenat.fr) : original non ouvert dans cette relance, à traiter dans une passe ultérieure sur immigration-regularisation-cinq-ans."
+  - "Restent ouverts les points de la mission d'origine : AME (TF1 2024, franceinfo nov. 2026), PPL n° 677 et carte de résident."
+contradictions: []
+gaps:
+  - kind: NO_PERSONAL_POSITION
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-titre-sejour-longue-duree
+    note: >-
+      La requête Sénat sur la carte de résident ne ramène aucun propos personnel ; la piste PPL
+      n° 677 reste non contrôlée dans cette relance.
+signals: []

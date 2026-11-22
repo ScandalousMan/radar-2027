@@ -1,0 +1,77 @@
+# Journal de mission (spec 008, FR-029) : amorçage du registre avec les candidats publiés (T048).
+id: 2026-11-22-amorcage-registre
+mode: GLOBAL_ENRICHMENT
+author: claude
+model: opus
+request: >-
+  Amorcer le registre des personnalités avec les 18 candidats publiés, sans recherche web, à partir
+  des données déjà présentes (candidates.yaml, sources de statut et leur texte en cache) ; les 4
+  candidats déjà enregistrés par les missions de test du 2026-11-22 sont conservés tels quels
+  (tâche T048, accord d'adrien du 2026-11-22).
+startedAt: 2026-11-22
+completedAt: 2026-11-22
+state: completed
+scope:
+  personalities: [delphine-batho, nathalie-arthaud, juan-branco, francois-asselineau, david-lisnard, francois-ruffin, nicolas-dupont-aignan, jean-luc-melenchon, florian-philippot, anasse-kazib, marine-le-pen, raphael-glucksmann, fabien-roussel, eric-zemmour]
+  themes: []
+  questions: []
+queries:
+  - { at: 2026-11-22, query: "lecture de data/corpus/candidates.yaml (statut, date, statusSource, historique)", category: EXISTING_CORPUS, tool: Read }
+  - { at: 2026-11-22, query: "lecture des sources de statut dans data/corpus/sources/", category: EXISTING_CORPUS, tool: Read }
+  - { at: 2026-11-22, query: "recherche des phrases d'annonce (candidat, candidature, présidentielle) dans les textes en cache .cache/sources/", category: EXISTING_CORPUS, tool: Grep }
+  - { at: 2026-11-22, query: "lecture de data/recherche/personnalites.yaml et des preuves existantes (doublons)", category: EXISTING_CORPUS, tool: Read }
+categoriesExplored: [EXISTING_CORPUS]
+categoriesNotExplored:
+  - { category: PERSONAL_SITE, reason: "amorçage sans recherche web (T048, FR-052)" }
+  - { category: CAMPAIGN_SITE, reason: "amorçage sans recherche web (T048, FR-052)" }
+  - { category: ORIGINAL_VIDEOS, reason: "amorçage sans recherche web : les annonces télévisées n'ont pas été visionnées" }
+  - { category: SOCIAL_MEDIA, reason: "amorçage sans recherche web (T048, FR-052)" }
+  - { category: NATIONAL_MEDIA, reason: "seules les sources déjà enregistrées ont été relues ; aucune nouvelle recherche" }
+exhaustive: false
+sourcesConsulted:
+  - { url: "https://www.linfodurable.fr/lex-ministre-delphine-batho-candidate-la-presidentielle-pour-conjurer-la-rikikisation-de-lecologie", title: "Delphine Batho candidate à la présidentielle (L'Info Durable / AFP)", outcome: retained, source: delphine-batho-declaration-candidature }
+  - { url: "https://www.ici.fr/auvergne-rhone-alpes/drome-26/presidentielle-2027-nathalie-arthaud-annonce-sa-candidature-pour-lutte-ouvriere-8888318", title: "Nathalie Arthaud annonce sa candidature pour Lutte ouvrière (ICI)", outcome: retained, source: nathalie-arthaud-declaration-candidature }
+  - { url: "https://www.sudradio.fr/sud-radio/lavocat-juan-branco-candidat-a-la-presidentielle", title: "L'avocat Juan Branco candidat à la présidentielle (Sud Radio)", outcome: retained, source: juan-branco-declaration-candidature }
+  - { url: "https://upr.fr/militantisme/19-ans-de-lupr-francois-asselineau-lance-sa-campagne-presidentielle-2027-et-nomme-marc-parigot-directeur-de-campagne/", title: "19 ans de l'UPR : François Asselineau lance sa campagne présidentielle 2027 (UPR)", outcome: retained, source: francois-asselineau-declaration-candidature }
+  - { url: "https://lcp.fr/actualites/je-suis-candidat-david-lisnard-quitte-lr-et-relance-le-debat-sur-une-primaire-a-droite", title: "David Lisnard : « Je suis candidat » (LCP)", outcome: retained, source: david-lisnard-declaration-candidature }
+  - { url: "https://www.lyonmag.com/article/151368/presidentielle-2027-francois-ruffin-candidat-son-premier-meeting-entretien-d-embauche-programme-a-lyon", title: "François Ruffin candidat, premier meeting à Lyon (LyonMag)", outcome: retained, source: francois-ruffin-declaration-candidature }
+  - { url: "https://info.fr/yerres-dupont-aignan-candidature-presidentielle-2027-sursaut-gaulliste/", title: "Nicolas Dupont-Aignan candidat en 2027 (info.fr)", outcome: retained, source: nicolas-dupont-aignan-declaration-candidature }
+  - { url: "https://www.france24.com/en/france/20260503-lfi-s-m%C3%A9lenchon-to-stand-in-2027-french-presidential-election", title: "Jean-Luc Mélenchon candidat à la présidentielle 2027 (France 24)", outcome: retained, source: jean-luc-melenchon-declaration-candidature }
+  - { url: "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-le-souverainiste-florian-philippot-annonce-sa-candidature-a-l-elysee_7993346.html", title: "Florian Philippot annonce sa candidature à l'Élysée (franceinfo)", outcome: retained, source: florian-philippot-declaration-candidature }
+  - { url: "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-le-cheminot-anasse-kazib-annonce-sa-candidature_8040020.html", title: "Anasse Kazib annonce sa candidature (franceinfo)", outcome: retained, source: anasse-kazib-declaration-candidature }
+  - { url: "https://lcp.fr/actualites/ce-soir-je-suis-candidate-a-l-election-presidentielle-annonce-marine-le-pen-438886", title: "Marine Le Pen : « Ce soir, je suis candidate à l'élection présidentielle » (LCP)", outcome: retained, source: marine-le-pen-declaration-candidature }
+  - { url: "https://lcp.fr/actualites/presidentielle-2027-raphael-glucksmann-officialise-sa-candidature-et-participera-a-la", title: "Raphaël Glucksmann officialise sa candidature (LCP)", outcome: retained, source: raphael-glucksmann-declaration-candidature }
+  - { url: "https://www.franceinfo.fr/elections/presidentielle/le-communiste-fabien-roussel-officialise-sa-candidature-a-l-election-presidentielle-de-2027-pour-defendre-un-projet-de-rupture_8179856.html", title: "Fabien Roussel officialise sa candidature à l'élection présidentielle de 2027 (franceinfo)", outcome: retained, source: fabien-roussel-declaration-candidature }
+  - { url: "https://lcp.fr/actualites/presidentielle-2027-eric-zemmour-officialise-sa-candidature-441871", title: "Éric Zemmour officialise sa candidature (LCP)", outcome: retained, source: eric-zemmour-declaration-candidature }
+evidenceAdded:
+  - delphine-batho-candidature-001
+  - nathalie-arthaud-candidature-001
+  - juan-branco-candidature-001
+  - francois-asselineau-candidature-001
+  - david-lisnard-candidature-001
+  - francois-ruffin-candidature-001
+  - nicolas-dupont-aignan-candidature-001
+  - jean-luc-melenchon-candidature-001
+  - florian-philippot-candidature-001
+  - anasse-kazib-candidature-001
+  - marine-le-pen-candidature-001
+  - raphael-glucksmann-candidature-001
+  - fabien-roussel-candidature-001
+  - eric-zemmour-candidature-001
+verified:
+  - "Neuf citations d'annonce retrouvées mot pour mot dans le texte en cache de leur source de statut."
+  - "Statut DECLARED et date de chaque candidat identiques à data/corpus/candidates.yaml."
+toVerify:
+  - "Cinq annonces enregistrées en paraphrase (juan-branco, francois-asselineau, francois-ruffin, jean-luc-melenchon, fabien-roussel) : citation primaire à rechercher."
+  - "Issue de la primaire sociale-démocrate d'octobre 2026 pour raphael-glucksmann."
+  - "Première annonce de nicolas-dupont-aignan le 8 mars 2025, rapportée par info.fr, non prouvée."
+gaps:
+  - kind: CANDIDACY_UNCERTAIN
+    personality: raphael-glucksmann
+    evidence: [raphael-glucksmann-candidature-001]
+    note: "Candidature annoncée le 23 août 2026 sous réserve de la primaire sociale-démocrate d'octobre 2026, dont l'issue n'a pas été vérifiée par cet amorçage."
+  - kind: REPORTED_UNVERIFIABLE
+    personality: jean-luc-melenchon
+    evidence: [jean-luc-melenchon-candidature-001]
+    note: "Annonce disponible seulement en traduction anglaise dans la source enregistrée (France 24) ; la formulation française d'origine reste à retrouver."
+signals: []

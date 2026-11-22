@@ -1,0 +1,267 @@
+# Journal de mission (spec 008, FR-029). Recherche thématique sur une question, validation
+# d'installation (T041). Requêtes et sources effectivement consultées.
+id: 2026-11-22-thematique-droit-du-sol
+mode: THEMATIC
+author: claude
+model: opus
+request: >-
+  Recherche thématique limitée à la question immigration-supprimer-droit-du-sol (« Le droit du sol
+  doit être supprimé pour l'acquisition de la nationalité française. », polarité -) et à deux
+  personnalités publiées, Édouard Philippe (edouard-philippe) et Gabriel Attal (gabriel-attal).
+  Chercher des preuves dans les deux sens de l'énoncé (soutien à la suppression et opposition, ou
+  restriction partielle comme à Mayotte), consigner des requêtes des deux sens pour chaque
+  personnalité. Créer leur entrée au registre avec leur statut publié, appuyé par une preuve
+  CANDIDACY sur leur source de statut (VERIFIED_QUOTE seulement si retrouvée mot pour mot dans le
+  cache). Mission bornée (1 à 3 preuves par personnalité). Validation d'installation (T041) : pas
+  d'enrichissement global, pas de commit, aucune modification des questions, thèmes, positions ni
+  de la liste des candidats.
+startedAt: 2026-11-22
+completedAt: 2026-11-22
+state: completed
+scope:
+  personalities: [edouard-philippe, gabriel-attal]
+  themes: [immigration]
+  questions: [immigration-supprimer-droit-du-sol]
+queries:
+  - at: 2026-11-22
+    query: "lecture préalable : candidates.yaml (statuts et statusSource des deux), questions/immigration.yaml (énoncé, polarité -), positions des deux sur la question (+1 et -2, reviewed), sources/edouard-philippe.yaml et sources/gabriel-attal.yaml, personnalites.yaml, preuves/, signalements.yaml, journaux du 2026-11-22"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-22
+    query: "recherche de doublons et plein texte : « droit du sol », « Philippe », « Attal » dans data/recherche ; « droit du sol » et « candidat » dans le cache des sources de statut et des sources de position des deux"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-22
+    query: "\"Édouard Philippe\" \"droit du sol\" supprimer"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Édouard Philippe droit du sol Mayotte proposition de loi Horizons"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.franceinfo.fr/politique/edouard-philippe/edouard-philippe-fait-sa-rentree-politique-a-mayotte-et-promet-de-mettre-fin-a-l-appel-d-air-de-l-immigration_8156786.html"
+    category: PRESS_AGENCIES
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://lcp.fr/actualites/mayotte-pour-edouard-philippe-l-urgence-est-de-fermer-les-vannes-de-l-immigration-440519"
+    category: FULL_INTERVIEWS
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "\"Gabriel Attal\" \"droit du sol\" suppression"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Gabriel Attal droit du sol Mayotte vote Assemblée 2025"
+    category: ASSEMBLEE_NATIONALE
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://questions.assemblee-nationale.fr/dyn/17/scrutins/698"
+    category: ASSEMBLEE_NATIONALE
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.assemblee-nationale.fr/dyn/17/amendements/0864/AN/87.pdf"
+    category: ASSEMBLEE_NATIONALE
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://datan.fr/votes/legislature-17/vote_738"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.assemblee-nationale.fr/dyn/17/scrutins/738 (outil, puis requête HTTP du code HTML de la page)"
+    category: ASSEMBLEE_NATIONALE
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "Attal \"droit du sol\" \"je suis attaché\" OR \"pas toucher\" OR \"ne remettrai\" nationalité 2026"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Gabriel Attal réagit Retailleau référendum suppression droit du sol septembre 2026"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Édouard Philippe \"droit du sol\" Bardella Retailleau réaction national \"pas favorable\" 2026"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.publicsenat.fr/actualites/politique/droit-du-sol-le-gouvernement-relance-le-debat-sur-limmigration-en-ordre-disperse"
+    category: NATIONAL_MEDIA
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "\"Attal\" \"droit du sol\" Darmanin Mayotte février 2025 réaction \"débat\""
+    category: REGIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "\"Philippe\" \"droit du sol\" Le Havre entretien \"Mayotte\" \"pas sur l'ensemble\" OR \"en métropole\" OR \"hexagone\""
+    category: REGIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.vie-publique.fr/loi/297235-droit-du-sol-mayotte-proposition-de-loi-acces-la-nationalite-francaise"
+    category: GOVERNMENT
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://lcp.fr/actualites/mayotte-l-assemblee-durcit-la-restriction-du-droit-du-sol-au-terme-de-debats-houleux"
+    category: NATIONAL_MEDIA
+    tool: web_fetch
+categoriesExplored: [EXISTING_CORPUS, NATIONAL_MEDIA, PRESS_AGENCIES, FULL_INTERVIEWS, ASSEMBLEE_NATIONALE, SPECIALIZED_PUBLICATIONS, REGIONAL_MEDIA, GOVERNMENT]
+categoriesNotExplored:
+  - category: SOCIAL_MEDIA
+    reason: Publications sous authentification, non contournée (FR-049), pour les deux.
+  - category: TV_RADIO_DEBATES
+    reason: Mission bornée ; aucune émission ni transcription consultée, pour les deux.
+  - category: ORIGINAL_VIDEOS
+    reason: Mission bornée ; aucune vidéo consultée (déplacement de Mayotte, annonce de Mur-de-Barrez).
+  - category: PARTY_SITE
+    reason: Mission bornée ; horizonsleparti.fr et parti-renaissance.fr non interrogés (le document Renaissance déjà enregistré a été relu dans le cache).
+  - category: CAMPAIGN_SITE
+    reason: >-
+      Pages de campagne déjà enregistrées relues dans le cache (EXISTING_CORPUS) ; aucune requête
+      nouvelle sur edouardphilippe.fr ni attalpresident.fr.
+  - category: HISTORICAL_ARCHIVES
+    reason: >-
+      Mission bornée ; propos antérieurs à 2024 non recherchés (notamment Édouard Philippe Premier
+      ministre lors du débat sur la politique migratoire du 7 octobre 2019, repéré en résultat de
+      recherche et non ouvert).
+  - category: FACT_CHECKING
+    reason: Mission bornée ; non exploré pour les deux.
+  - category: SENAT
+    reason: Aucun des deux n'est sénateur ; dossier sénatorial de la loi Mayotte non ouvert.
+exhaustive: false
+sourcesConsulted:
+  - url: https://france3-regions.franceinfo.fr/normandie/seine-maritime/havre/je-serai-candidat-a-la-prochaine-election-presidentielle-edouard-philippe-l-ancien-premier-ministre-et-maire-du-havre-officialise-sa-candidature-3026366.html
+    title: Édouard Philippe officialise sa candidature à la présidentielle (France 3), texte en cache
+    outcome: retained
+    source: edouard-philippe-declaration-candidature
+  - url: https://lcp.fr/actualites/presidentielle-2027-gabriel-attal-officialise-sa-candidature-436721
+    title: Gabriel Attal officialise sa candidature (LCP), texte en cache
+    outcome: retained
+    source: gabriel-attal-declaration-candidature
+  - url: https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure
+    title: Pour une France plus sûre (Avec Édouard 2027), texte en cache
+    outcome: retained
+    source: edouard-philippe-priorites-surete
+  - url: https://lcp.fr/actualites/mayotte-pour-edouard-philippe-l-urgence-est-de-fermer-les-vannes-de-l-immigration-440519
+    title: "Mayotte : pour Edouard Philippe, « l'urgence est de fermer les vannes de l'immigration » (LCP, 20 août 2026)"
+    outcome: retained
+    source: edouard-philippe-mayotte-pour-edouard-philippe-l-urgence-est-de-fermer-les-va
+  - url: https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf
+    title: Une République ferme, une France apaisée (Renaissance, PDF), texte en cache
+    outcome: retained
+    source: gabriel-attal-renaissance-regalien
+  - url: https://questions.assemblee-nationale.fr/dyn/17/scrutins/738
+    title: Analyse du scrutin public n° 738 (Assemblée nationale), texte extrait du code HTML de la page
+    outcome: retained
+    source: gabriel-attal-an-scrutin-738-nationalite-mayotte
+  - url: https://www.assemblee-nationale.fr/dyn/17/scrutins/738
+    title: Analyse du scrutin public n° 738 (Assemblée nationale), récupération automatique
+    outcome: rejected
+    reason: >-
+      Enregistrée (gabriel-attal-scrutin-public-n-738-sur-l-ensemble-de-la-proposition-de-loi) mais
+      le texte récupéré se limite à l'en-tête de la page (401 caractères, sans listes de votes) ;
+      remplacée par l'enregistrement du texte de la page à partir de son code HTML. Non utilisée
+      comme preuve. Source retirée du registre par adrien lors de la PR de données (2026-11-22).
+  - url: https://questions.assemblee-nationale.fr/dyn/17/scrutins/698
+    title: Analyse du scrutin public n° 698 (amendement n° 87 de M. Ciotti), Assemblée nationale
+    outcome: rejected
+    reason: >-
+      Attal dans la liste « Contre » d'un amendement de rédaction globale rejeté, dont le contenu
+      n'a pas pu être lu : signification du vote non établie, aucune preuve créée (FR-026).
+  - url: https://www.assemblee-nationale.fr/dyn/17/amendements/0864/AN/87.pdf
+    title: Amendement n° 87 (Assemblée nationale, PDF)
+    outcome: inaccessible
+    reason: Flux PDF compressé non lisible par l'outil ; contenu non lu.
+  - url: https://datan.fr/votes/legislature-17/vote_738
+    title: "Datan : vote n° 738, proposition de loi renforçant les conditions d'accès à la nationalité française à Mayotte"
+    outcome: rejected
+    reason: Base de données tierce, piste seulement ; vote vérifié sur la page officielle de l'Assemblée.
+  - url: https://www.franceinfo.fr/politique/edouard-philippe/edouard-philippe-fait-sa-rentree-politique-a-mayotte-et-promet-de-mettre-fin-a-l-appel-d-air-de-l-immigration_8156786.html
+    title: En visite à Mayotte, Edouard Philippe souhaite mettre fin à l'« appel d'air » de l'immigration (franceinfo avec AFP, 21 août 2026)
+    outcome: rejected
+    reason: >-
+      Mentionne le droit du sol « suspendu » sans citation directe ; reprise de la même dépêche AFP
+      que LCP, non corroboration indépendante.
+  - url: https://lcp.fr/actualites/mayotte-l-assemblee-durcit-la-restriction-du-droit-du-sol-au-terme-de-debats-houleux
+    title: "Mayotte : l'Assemblée durcit la restriction du droit du sol au terme de débats houleux (LCP, 6 février 2025)"
+    outcome: rejected
+    reason: Contexte du texte voté (conditions de résidence), ne mentionne pas Attal ; utilisé en contexte seulement.
+  - url: https://www.publicsenat.fr/actualites/politique/droit-du-sol-le-gouvernement-relance-le-debat-sur-limmigration-en-ordre-disperse
+    title: "Droit du sol : le gouvernement relance le débat sur l'immigration en ordre disperse (Public Sénat, 7 février 2025)"
+    outcome: rejected
+    reason: Ne mentionne ni Gabriel Attal ni Édouard Philippe.
+  - url: https://www.vie-publique.fr/loi/297235-droit-du-sol-mayotte-proposition-de-loi-acces-la-nationalite-francaise
+    title: Droit du sol à Mayotte, loi du 12 mai 2025 (vie-publique.fr)
+    outcome: inaccessible
+    reason: Contenu vide à la récupération automatique ; non lu.
+  - url: https://www.elyseescope.com/le-radar/edouard-philippe-programme-immigration-2027
+    title: Fiche thématique Édouard Philippe immigration (ÉlyséeScope)
+    outcome: rejected
+    reason: >-
+      Agrégateur vu en extrait de moteur de recherche (droit du sol « Maintenu » pour Philippe) ;
+      piste seulement, jamais preuve, non ouvert.
+evidenceAdded:
+  - edouard-philippe-candidature-001
+  - edouard-philippe-immigration-001
+  - edouard-philippe-immigration-002
+  - gabriel-attal-candidature-001
+  - gabriel-attal-immigration-001
+  - gabriel-attal-immigration-002
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided:
+  - evidence: edouard-philippe-immigration-001
+    note: >-
+      Aucune preuve existante sur les deux personnalités (fichiers créés). La phrase « Suspendre le
+      droit du sol à Mayotte. » est la citation de la position publiée : la preuve documente la
+      même source sans dupliquer de preuve. La reprise de franceinfo (même dépêche AFP que LCP) n'a
+      pas été comptée comme corroboration de immigration-002.
+  - evidence: gabriel-attal-immigration-002
+    note: >-
+      Citation identique à celle de la position publiée ; aucune preuve existante ne la porte.
+verified:
+  - "edouard-philippe-candidature-001 : « Je serai candidat à la prochaine élection présidentielle » retrouvé mot pour mot dans le cache de la source de statut ; statut DECLARED au 2024-09-03, conforme à la liste publiée."
+  - "gabriel-attal-candidature-001 : annonce du 22 mai 2026 décrite par la source de statut, sans phrase d'annonce entre guillemets (paraphrase) ; statut DECLARED au 2026-05-22, conforme à la liste publiée."
+  - "edouard-philippe-immigration-001 : « Suspendre le droit du sol à Mayotte. » retrouvé mot pour mot dans le cache de la page de campagne."
+  - "gabriel-attal-immigration-001 : « M. Gabriel Attal » dans la liste « Pour : 18 » du groupe EPR, scrutin n° 738 (texte de la page officielle)."
+  - "gabriel-attal-immigration-002 : « Nous refusons la suppression du droit du sol sur le territoire hexagonal. C'est un intangible dans notre parti. » retrouvé mot pour mot dans le cache du PDF Renaissance."
+toVerify:
+  - "Entretien d'Édouard Philippe à France Mayotte Matin (20 août 2026) : retrouver l'original pour confirmer le fragment « il faut aller encore plus loin et le suspendre totalement pendant plusieurs années » et son contexte."
+  - "Édouard Philippe : position sur le droit du sol hors de Mayotte (Hexagone) ; seule une fiche d'agrégateur l'affirme « maintenu »."
+  - "Gabriel Attal : propos personnel sur le droit du sol (national ou Mayotte), notamment après l'annonce de Bruno Retailleau du 8 septembre 2026 ; aucun trouvé."
+  - "Scrutin n° 698 (amendement n° 87 de M. Ciotti) : lire l'amendement pour établir la signification du vote « contre » de Gabriel Attal."
+contradictions: []
+gaps:
+  - kind: NO_OPPOSING_EVIDENCE
+    personality: edouard-philippe
+    theme: immigration
+    question: immigration-supprimer-droit-du-sol
+    evidence: [edouard-philippe-immigration-001, edouard-philippe-immigration-002]
+    note: >-
+      Requêtes dans le sens de l'opposition (« Philippe » « droit du sol » avec « hexagone »,
+      « métropole », « pas favorable », réaction à Bardella et Retailleau) : aucun propos primaire
+      refusant la suppression nationale trouvé ; seule une fiche d'agrégateur (non preuve).
+      L'absence de mesure nationale dans le programme ne vaut ni opposition ni soutien.
+  - kind: NO_PERSONAL_POSITION
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-supprimer-droit-du-sol
+    evidence: [gabriel-attal-immigration-001, gabriel-attal-immigration-002]
+    note: >-
+      Aucune déclaration personnelle sur le droit du sol trouvée, dans aucun des deux sens
+      (requêtes presse sur « Attal » « droit du sol », réaction à Retailleau, débat Darmanin de
+      février 2025) ; seuls un vote nominatif (2025) et un document du parti (2025).
+  - kind: PARTY_POSITION_ONLY
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-supprimer-droit-du-sol
+    evidence: [gabriel-attal-immigration-002]
+    note: >-
+      Dans le sens de l'opposition, seule la position de Renaissance (document collectif de mai
+      2025, limité à l'Hexagone) a été trouvée.
+  - kind: REPORTED_UNVERIFIABLE
+    personality: edouard-philippe
+    theme: immigration
+    question: immigration-supprimer-droit-du-sol
+    evidence: [edouard-philippe-immigration-002]
+    note: Entretien original (France Mayotte Matin) non consulté ; citation connue par LCP avec AFP.
+signals:
+  - sig-2026-11-22-attal-droit-du-sol-mayotte

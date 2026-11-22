@@ -1,0 +1,160 @@
+# Preuves de Gabriel Attal (spec 008). Corpus de recherche : jamais publié, jamais scoré.
+# Une preuve documente un propos, un document ou un acte ; elle n'évalue pas le candidat et ne
+# modifie aucune position. Ajout en fin de liste seulement, aucune suppression.
+# Journal de la première passe : data/recherche/journaux/2026-11-22-thematique-droit-du-sol.yaml
+
+- id: gabriel-attal-candidature-001
+  personality: gabriel-attal
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  quoteStatus: PARAPHRASE
+  paraphrase: >-
+    Selon LCP (avec AFP), Gabriel Attal a officialisé sa candidature à l'élection présidentielle de
+    2027 le vendredi 22 mai 2026, depuis le village de Mur-de-Barrez (Aveyron), en annonçant
+    publiquement son intention de concourir, en conclusion d'un débat citoyen.
+  speaker: Gabriel Attal
+  context: >-
+    Article de LCP du 22 mai 2026 (Raphaël Marchal, avec AFP). Les seuls propos d'Attal reproduits
+    entre guillemets portent sur son « ambition » (la « promesse de l'élévation »), pas sur
+    l'annonce elle-même.
+  verificationNotes: >-
+    Le texte en cache de la source de statut ne contient aucune phrase d'annonce entre guillemets :
+    la preuve est donc une paraphrase de l'article, sans champ citation. Enregistrement original du
+    déplacement non recherché.
+  source: gabriel-attal-declaration-candidature
+  publisher: LCP (avec AFP)
+  locator: { kind: paragraph, value: "1-2" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: >-
+      Média parlementaire établi, avec dépêche AFP ; propos d'annonce non reproduits, source
+      secondaire.
+    quote: >-
+      Aucune phrase d'annonce entre guillemets dans la source : paraphrase.
+    attribution: >-
+      L'article décrit une annonce publique faite par l'intéressé lui-même (« a annoncé publiquement
+      son intention de concourir »), non une candidature prêtée par l'entourage.
+    temporalRelevance: >-
+      Annonce du 22 mai 2026, moins de douze mois avant la vérification.
+  statedAt: { date: 2026-05-22, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-thematique-droit-du-sol
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: gabriel-attal-immigration-001
+  personality: gabriel-attal
+  kind: POSITION
+  theme: immigration
+  question: immigration-supprimer-droit-du-sol
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: PARAPHRASE
+  paraphrase: >-
+    Gabriel Attal, député du groupe Ensemble pour la République, figure parmi les 18 députés de son
+    groupe ayant voté pour l'ensemble de la proposition de loi visant à renforcer les conditions
+    d'accès à la nationalité française à Mayotte, adoptée en première lecture par l'Assemblée
+    nationale le 6 février 2025 (162 pour, 93 contre, 3 abstentions).
+  speaker: Gabriel Attal
+  context: >-
+    Proposition de loi du groupe Droite républicaine (rapporteur Philippe Gosselin) restreignant le
+    droit du sol à Mayotte. Selon LCP (6 février 2025), la version initiale exigeait que les deux
+    parents résident à Mayotte de façon régulière et ininterrompue depuis au moins un an (contre un
+    seul parent et trois mois auparavant) ; un amendement adopté en séance a porté la durée à trois
+    ans, contre l'avis du Gouvernement et du rapporteur. Le texte ne concerne que Mayotte. Sur le
+    scrutin n° 698 du même jour (amendement n° 87 de M. Ciotti, rédaction globale de l'article
+    unique, rejeté), Attal figure dans la liste « Contre » ; le contenu de cet amendement n'a pas pu
+    être lu (PDF illisible), aucune conclusion n'en est tirée.
+  verificationNotes: >-
+    Nom « M. Gabriel Attal » retrouvé en tête de la liste « Pour : 18 » du groupe Ensemble pour la
+    République dans le texte de la page officielle du scrutin n° 738, enregistré à partir du code
+    HTML de la page (la récupération automatique de l'URL principale ne restituait que l'en-tête de
+    la page, source gabriel-attal-scrutin-public-n-738-sur-l-ensemble-de-la-proposition-de-loi,
+    non utilisée). Contenu du texte voté connu par LCP (secondaire), texte adopté non ouvert.
+  source: gabriel-attal-an-scrutin-738-nationalite-mayotte
+  publisher: Assemblée nationale
+  locator: { kind: passage, value: "Ensemble pour la République (95 membres), Pour : 18" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: HIGH
+  actionScope: >-
+    Vote individuel nominatif « pour » au scrutin public n° 738 sur l'ensemble de la proposition de
+    loi visant à renforcer les conditions d'accès à la nationalité française à Mayotte, première
+    lecture, Assemblée nationale, deuxième séance du 6 février 2025 ; texte adopté. Seuls 18 des
+    95 membres du groupe EPR ont voté pour. Le vote établit son soutien à ce texte à cette date,
+    non l'adhésion à l'argumentaire des auteurs ni à une suppression du droit du sol.
+  temporalRelevance: DATED
+  period: 17e législature, président du groupe EPR à l'Assemblée, février 2025
+  rationale:
+    sourceQuality: >-
+      Page officielle de l'Assemblée nationale (analyse du scrutin), primaire ; texte de la page lu
+      dans son intégralité.
+    attribution: >-
+      Vote nominatif personnel, non vote de groupe : le groupe s'est divisé (18 pour sur 95).
+    interpretation: >-
+      L'énoncé vise la suppression du droit du sol pour l'acquisition de la nationalité. Le texte
+      voté ne le supprime pas : il en durcit les conditions (résidence régulière des parents) et à
+      Mayotte seulement. Le vote va dans le sens d'une restriction partielle, beaucoup plus étroite
+      que l'énoncé (portée géographique, instrument : condition et non suppression) : au plus
+      QUALIFIED_SUPPORT, et en aucun cas un soutien à la suppression nationale. Il nuance la
+      position publiée sans la contredire frontalement.
+    temporalRelevance: >-
+      Vote de février 2025, plus de douze mois avant la vérification, sans propos récent retrouvé
+      sur Mayotte : DATED.
+  statedAt: { date: 2025-02-06, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-thematique-droit-du-sol
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+
+- id: gabriel-attal-immigration-002
+  personality: gabriel-attal
+  kind: POSITION
+  theme: immigration
+  question: immigration-supprimer-droit-du-sol
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Nous refusons la suppression du droit du sol sur le territoire hexagonal. C'est un intangible dans notre parti."
+  speaker: Renaissance
+  context: >-
+    Restitution des conventions thématiques de Renaissance « Une République ferme, une France
+    apaisée » (26 mai 2025), partie immigration. Plus haut, le même document évoque « le droit du
+    sol auquel nous sommes attachés ». Gabriel Attal est secrétaire général de Renaissance (LCP,
+    22 mai 2026), mais le document est collectif.
+  verificationNotes: >-
+    Phrases retrouvées mot pour mot (une occurrence) dans le texte en cache du PDF déjà enregistré ;
+    la première sert de citation à la position publiée de gabriel-attal, aucune preuve existante ne
+    la porte. Page non rouverte en ligne dans cette mission.
+  source: gabriel-attal-renaissance-regalien
+  publisher: Renaissance (doc.parti.re)
+  locator: { kind: passage, value: "partie immigration, fin de l'introduction, avant « 03 Le travail, condition de l'immigration »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PARTY_POSITION
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: conventions thématiques de Renaissance, 2025
+  rationale:
+    sourceQuality: >-
+      Document officiel du parti, primaire pour la position du parti.
+    attribution: >-
+      Texte collectif à la première personne du pluriel (« dans notre parti ») : position de
+      Renaissance, non déclaration personnelle de Gabriel Attal, même s'il en est le secrétaire
+      général.
+    interpretation: >-
+      Opposition explicite à la suppression du droit du sol, mais limitée au « territoire
+      hexagonal » : le document laisse ouverte la question des outre-mer (dont Mayotte). Opposition
+      partielle à l'énoncé, d'où QUALIFIED_OPPOSITION.
+    temporalRelevance: >-
+      Document de mai 2025, plus de douze mois avant la vérification, sans corroboration récente :
+      DATED.
+  statedAt: { date: 2025-05-26, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-thematique-droit-du-sol
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

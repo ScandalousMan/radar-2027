@@ -1,0 +1,27 @@
+# Preuves de Juan Branco (spec 008). Corpus de recherche : jamais publié, jamais scoré.
+
+- id: juan-branco-candidature-001
+  personality: juan-branco
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  journal: 2026-11-22-amorcage-registre
+  quoteStatus: PARAPHRASE
+  paraphrase: "Annonce qu'il se présente à l'élection présidentielle de 2027, avec un projet de souveraineté nationale et populaire."
+  speaker: Juan Branco
+  context: "Article de Sud Radio du 19 décembre 2025 consacré à sa candidature ; aucune phrase d'annonce citée entre guillemets dans le texte en cache."
+  verificationNotes: "Amorçage du registre (T048) : preuve construite sur la source de statut déjà enregistrée (statusSource) et sur son texte en cache, sans recherche web. Aucune citation d’annonce exploitable dans le texte en cache : paraphrase."
+  source: juan-branco-declaration-candidature
+  publisher: "Sud Radio"
+  locator: { kind: passage, value: "chapeau et premier paragraphe" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: "Article de presse rapportant l’annonce de l’intéressé·e ; source primaire (enregistrement, publication personnelle) non ouverte pendant l’amorçage."
+  statedAt: { date: 2025-12-19, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

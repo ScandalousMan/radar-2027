@@ -1,0 +1,27 @@
+# Preuves de Delphine Batho (spec 008). Corpus de recherche : jamais publié, jamais scoré.
+
+- id: delphine-batho-candidature-001
+  personality: delphine-batho
+  kind: CANDIDACY
+  candidacyStatus: DECLARED
+  journal: 2026-11-22-amorcage-registre
+  quoteStatus: VERIFIED_QUOTE
+  quote: "J'ai décidé de me porter candidate à l'élection présidentielle"
+  speaker: Delphine Batho
+  context: "Entretien à L'Obs mis en ligne le 25 novembre 2025, cité par une dépêche AFP reprise par L'info durable."
+  verificationNotes: "Amorçage du registre (T048) : preuve construite sur la source de statut déjà enregistrée (statusSource) et sur son texte en cache, sans recherche web. Citation retrouvée mot pour mot dans le texte en cache."
+  source: delphine-batho-declaration-candidature
+  publisher: "L'info durable (dépêche AFP)"
+  locator: { kind: passage, value: "deuxième paragraphe" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: "Article de presse rapportant l’annonce de l’intéressé·e ; source primaire (enregistrement, publication personnelle) non ouverte pendant l’amorçage."
+  statedAt: { date: 2025-11-25, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

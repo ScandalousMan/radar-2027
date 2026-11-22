@@ -1,0 +1,310 @@
+# Journal de mission (spec 008, FR-029). Requêtes et sources effectivement consultées.
+# Test d'installation du sous-agent de recherche : périmètre volontairement borné.
+id: 2026-11-22-bruno-retailleau-immigration
+mode: PERSONALITY
+author: claude
+model: opus
+request: >-
+  Test d'installation, strictement borné au thème immigration : créer l'entrée bruno-retailleau du
+  registre des personnalités avec le statut DECLARED à la date statusChangedAt de
+  data/corpus/candidates.yaml, appuyée sur une preuve CANDIDACY d'attribution personnelle ; puis
+  recueillir de l'ordre de quatre à huit preuves solides sur l'immigration, rattachées aux questions
+  du thème quand c'est justifié, les questions non couvertes allant en lacunes. Aucun enrichissement
+  global, aucun autre thème, aucune autre personnalité, aucun commit.
+startedAt: 2026-11-22
+completedAt: 2026-11-22
+state: completed
+scope:
+  personalities: [bruno-retailleau]
+  themes: [immigration]
+  questions:
+    - immigration-prestations-duree-residence
+    - immigration-frais-etudiants-etrangers
+    - immigration-regroupement-familial-ressources
+    - immigration-regularisation-cinq-ans
+    - immigration-ame-soins-urgents
+    - immigration-asile-droit-travail
+    - immigration-vote-local-etrangers-v2
+    - immigration-titre-sejour-longue-duree
+    - immigration-reduire-duree-naturalisation
+    - immigration-voies-legales-travail-ue
+    - immigration-visas-professions-qualifiees-v2
+    - immigration-asile-examen-sans-transfert
+queries:
+  - at: 2026-11-22
+    query: "lecture préalable du corpus : candidates.yaml, themes.yaml, questions/immigration.yaml, positions/bruno-retailleau.yaml, sources/bruno-retailleau.yaml, data/recherche/*"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-22
+    query: "relecture des textes en cache des sources déjà enregistrées (déclaration de candidature, entretiens JDD, PPL n° 646 et n° 677)"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-22
+    query: "\"Retailleau\" immigration \"regroupement familial\" proposition"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "republicains.fr \"Nos propositions pour la France\" immigration livret"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:republicains.fr actualites 2026 Retailleau immigration"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://republicains.fr/nos-idees/"
+    category: PARTY_SITE
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://republicains.fr/categories/actualites/immigration/"
+    category: PARTY_SITE
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://republicains.fr/actualites/2026/06/16/discussion-sans-filtre-avec-francois-lenglet/"
+    category: FULL_INTERVIEWS
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://republicains.fr/actualites/2026/07/31/la-libre-circulation-des-personnes-en-europe-doit-etre-suspendue-pour-lespagne/"
+    category: PARTY_SITE
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://republicains.fr/actualites/2026/06/08/reglement-retour-proteger-les-francais/"
+    category: PARTY_SITE
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "Bruno Retailleau 2026 \"aide médicale d'État\" AME supprimer déclaration"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau \"aide médicale d'État\" \"soins urgents\" limiter déclaration citation"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.franceinfo.fr/sante/suppression-de-l-aide-medicale-d-etat-la-proposition-de-bruno-retailleau-divise-jusqu-au-sein-de-la-majorite-gouvernementale_6799522.html"
+    category: NATIONAL_MEDIA
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "Retailleau \"droit de vote\" étrangers élections locales position"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau \"demandeurs d'asile\" \"droit de travailler\" OR \"autorisation de travail\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:senat.fr Retailleau immigration naturalisation carte de résident proposition de loi"
+    category: SENAT
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau 2026 \"immigration légale\" quotas \"titre de séjour\" entretien intégral vidéo"
+    category: FULL_INTERVIEWS
+    tool: web_search
+categoriesExplored: [EXISTING_CORPUS, NATIONAL_MEDIA, PARTY_SITE, FULL_INTERVIEWS, SENAT]
+categoriesNotExplored:
+  - category: SOCIAL_MEDIA
+    reason: >-
+      L'allocution de candidature du 12 février 2026 a été diffusée sur les réseaux sociaux ;
+      ces publications ne sont pas consultables sans authentification, non contournée (FR-049).
+  - category: ORIGINAL_VIDEOS
+    reason: >-
+      Aucune transcription publiée n'a été trouvée pour les séquences audiovisuelles repérées ;
+      l'agent n'écoute pas l'audio et ne transcrit donc rien lui-même.
+  - category: TV_RADIO_DEBATES
+    reason: >-
+      Même raison : l'entretien TF1 du 23 septembre 2024 et l'entretien franceinfo du 12 novembre
+      2026 n'ont pas de transcription accessible sur le segment immigration.
+  - category: SPEECHES_PRESS_CONFERENCES
+    reason: Hors du temps borné de ce test d'installation.
+  - category: PERSONAL_SITE
+    reason: Aucun site personnel de campagne distinct du site du parti n'a été identifié dans ce temps borné.
+  - category: GOVERNMENT
+    reason: >-
+      Les actes de son passage au ministère de l'Intérieur (circulaires, décrets) n'ont pas été
+      ouverts : hors du périmètre borné, à traiter dans une passe ultérieure.
+  - category: ASSEMBLEE_NATIONALE
+    reason: Parlementaire au Sénat et non à l'Assemblée nationale ; aucune activité personnelle attendue.
+  - category: FACT_CHECKING
+    reason: Non exploré faute de temps dans ce test ; passe G (contradictions) incomplète.
+  - category: HISTORICAL_ARCHIVES
+    reason: Non exploré ; les propos antérieurs à 2023 n'ont pas été recherchés.
+  - category: REGIONAL_MEDIA
+    reason: Non exploré dans ce test d'installation.
+  - category: PRESS_AGENCIES
+    reason: Non exploré dans ce test d'installation.
+  - category: SPECIALIZED_PUBLICATIONS
+    reason: Non exploré dans ce test d'installation.
+  - category: ACADEMIC
+    reason: Non exploré ; aucune contextualisation universitaire n'était nécessaire aux preuves retenues.
+  - category: EUROPEAN_PARLIAMENT
+    reason: "Non concerné : l'intéressé n'est pas député européen."
+  - category: PARLIAMENTARY_ARCHIVES
+    reason: >-
+      Seuls deux textes sénatoriaux déjà enregistrés ont été relus ; les comptes rendus de séance
+      et les scrutins publics n'ont pas été consultés.
+  - category: CAMPAIGN_SITE
+    reason: Aucun site de campagne distinct du site du parti n'a été identifié.
+exhaustive: false
+sourcesConsulted:
+  - url: https://www.publicsenat.fr/actualites/politique/je-suis-pret-bruno-retailleau-se-declare-candidat-a-lelection-presidentielle-2027
+    title: Bruno Retailleau se déclare candidat à l'élection présidentielle 2027 (Public Sénat)
+    outcome: retained
+    source: bruno-retailleau-declaration-candidature
+  - url: https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/
+    title: "Retailleau : ma candidature ira jusqu'au bout (entretien au JDD reproduit par republicains.fr)"
+    outcome: retained
+    source: bruno-retailleau-retailleau-ma-candidature-ira-jusqu-au-bout-republicains-fr
+  - url: https://republicains.fr/actualites/2026/08/02/lespace-schengen-doit-etre-reserve-aux-europeens/
+    title: « L'espace Schengen doit être réservé aux Européens ! » (entretien au JDD reproduit par republicains.fr)
+    outcome: retained
+    source: bruno-retailleau-jdd-schengen-2026-08
+  - url: https://www.senat.fr/leg/ppl22-677.html
+    title: PPL n° 677 pour reprendre le contrôle de la politique d'immigration, d'intégration et d'asile (Sénat)
+    outcome: retained
+    source: bruno-retailleau-ppl-pour-reprendre-le-controle-de-la-politique-d-immigration
+  - url: https://www.franceinfo.fr/sante/suppression-de-l-aide-medicale-d-etat-la-proposition-de-bruno-retailleau-divise-jusqu-au-sein-de-la-majorite-gouvernementale_6799522.html
+    title: "Suppression de l'Aide médicale d'État : la proposition de Bruno Retailleau divise jusqu'au sein de la majorité gouvernementale (franceinfo)"
+    outcome: retained
+    source: bruno-retailleau-suppression-de-l-aide-medicale-d-etat-la-proposition-de-brun
+  - url: https://www.senat.fr/leg/ppl22-646.html
+    title: PPL constitutionnelle n° 646 relative à la souveraineté de la France, à la nationalité, à l'immigration et à l'asile (Sénat)
+    outcome: rejected
+    reason: >-
+      Texte relu intégralement dans le cache ; ses articles 6, 7 et 8 étayent déjà des positions
+      publiées (plafond annuel, éloignement des condamnés, examen de l'asile hors du territoire).
+      Aucune preuve ajoutée pour ne pas dupliquer ce que le corpus documente déjà.
+    source: bruno-retailleau-ppl-constitutionnelle-relative-a-la-souverainete-de-la-franc
+  - url: https://republicains.fr/nos-idees/
+    title: Nos idées (Les Républicains)
+    outcome: rejected
+    reason: Aucun livret thématique consacré à l'immigration ou à la nationalité n'y est publié à ce jour.
+  - url: https://republicains.fr/categories/actualites/immigration/
+    title: Archives de la catégorie « Immigration » (Les Républicains)
+    outcome: rejected
+    reason: Page d'index utilisée comme piste de recherche ; elle ne contient aucun propos citable.
+  - url: https://republicains.fr/actualites/2026/06/16/discussion-sans-filtre-avec-francois-lenglet/
+    title: « Il faut faire repartir les migrants illégaux, pas les répartir » (republicains.fr)
+    outcome: rejected
+    reason: >-
+      Page ouverte puis écartée : les propos sont ceux de François-Xavier Bellamy, pas de Bruno
+      Retailleau. Ils ne peuvent lui être attribués (FR-021).
+  - url: https://republicains.fr/actualites/2026/07/31/la-libre-circulation-des-personnes-en-europe-doit-etre-suspendue-pour-lespagne/
+    title: « La libre-circulation des personnes en Europe doit être suspendue pour l'Espagne » (communiqué, republicains.fr)
+    outcome: inaccessible
+    reason: >-
+      La page ne porte que le titre du communiqué ; le texte est dans un PDF joint
+      (CP_BR_31_07_26.pdf) dont l'adresse exacte n'a pas pu être établie (404 sur l'adresse
+      présumée). Rien n'a donc été cité de ce communiqué.
+  - url: https://republicains.fr/actualites/2026/06/08/reglement-retour-proteger-les-francais/
+    title: "« Règlement retour : protéger les Français » (republicains.fr)"
+    outcome: rejected
+    reason: >-
+      Page ouverte : aucun propos attribuable mot pour mot à Bruno Retailleau n'a pu en être tiré
+      (titres et extraits seulement).
+evidenceAdded:
+  - bruno-retailleau-candidature-001
+  - bruno-retailleau-immigration-001
+  - bruno-retailleau-immigration-002
+  - bruno-retailleau-immigration-003
+  - bruno-retailleau-immigration-004
+  - bruno-retailleau-immigration-005
+  - bruno-retailleau-immigration-006
+  - bruno-retailleau-immigration-007
+  - bruno-retailleau-immigration-008
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided: []
+verified:
+  - "Les huit citations VERIFIED_QUOTE ont été retrouvées mot pour mot dans le texte en cache de leur source (recherche littérale, une occurrence chacune)."
+  - "candidature-001 : « J'ai pris la décision d'être candidat à l'élection présidentielle » — déclaration personnelle, sans condition : statut DECLARED au 2026-02-12, conforme à la liste publiée (declared, statusChangedAt 2026-02-12)."
+  - "immigration-005 : la PPL n° 677 est présentée « Par MM. François-Noël BUFFET, Bruno RETAILLEAU, … » : il en est le deuxième signataire, et non l'auteur unique ; c'est ce que dit actionScope."
+  - "La phrase « l'idée de régulariser des clandestins qui ont fraudé nos lois est une capitulation » et le passage sur les métiers en tension, lus dans l'entretien du 31 mai 2026, sont déjà les citations des positions publiées immigration-regularisation-cinq-ans et immigration-regularisation-metiers-tension : aucune preuve n'a été créée pour éviter un doublon avec le corpus publié."
+toVerify:
+  - "immigration-008 (AME) : propos tenus sur TF1 le 23 septembre 2024 ; l'émission n'a pas été consultée et aucune citation mot pour mot n'existe dans l'article. À reprendre sur l'enregistrement original ou sur une reprise intégrale."
+  - "Position actuelle sur l'aide médicale d'État : un entretien franceinfo du 12 novembre 2026 est signalé comme abordant l'AME, le regroupement familial et l'asile ; faute de transcription du segment immigration, rien n'en a été retenu."
+  - "Communiqué du 31 juillet 2026 sur la suspension de la libre circulation pour l'Espagne : PDF non localisé."
+  - "Piste repérée mais non vérifiée dans le texte en cache : la PPL n° 677 modifierait les conditions de délivrance de la carte de résident (durée de résidence exigée). À contrôler avant toute preuve rattachée à immigration-titre-sejour-longue-duree."
+contradictions: []
+gaps:
+  - kind: NO_OPPOSING_EVIDENCE
+    personality: bruno-retailleau
+    theme: immigration
+    note: >-
+      Aucun propos allant dans le sens d'un assouplissement des conditions d'entrée ou de séjour
+      n'a été trouvé dans les sources ouvertes ; les passes réalisées n'ont pas couvert les archives
+      antérieures à 2023 ni le fact-checking, la recherche en sens contraire reste donc incomplète.
+  - kind: PRIMARY_INACCESSIBLE
+    personality: bruno-retailleau
+    theme: immigration
+    evidence: [bruno-retailleau-candidature-001, bruno-retailleau-immigration-001, bruno-retailleau-immigration-008]
+    note: >-
+      Trois preuves reposent sur des reproductions écrites : l'allocution du 12 février 2026
+      (diffusion sur les réseaux sociaux, non consultable sans authentification) et l'entretien TF1
+      du 23 septembre 2024 (non consulté, aucune transcription trouvée).
+  - kind: REPORTED_UNVERIFIABLE
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-ame-soins-urgents
+    evidence: [bruno-retailleau-immigration-008]
+    note: >-
+      L'article de franceinfo ne contient aucune phrase de l'intéressé entre guillemets : la preuve
+      est une paraphrase, jamais présentée comme une citation.
+  - kind: HISTORICAL_ONLY
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-ame-soins-urgents
+    evidence: [bruno-retailleau-immigration-008]
+    note: >-
+      La seule trace trouvée sur l'aide médicale d'État date de septembre 2024 et de sa fonction de
+      ministre de l'Intérieur ; rien n'établit qu'il porte encore cette mesure comme candidat.
+  - kind: NO_PERSONAL_POSITION
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-asile-droit-travail
+    note: >-
+      Aucune prise de position personnelle sur l'accès au travail des demandeurs d'asile dès le
+      dépôt de la demande : la recherche ne ramène que l'état du droit et sa circulaire de 2025 sur
+      la régularisation, qui porte sur un autre sujet.
+  - kind: NO_PERSONAL_POSITION
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-vote-local-etrangers-v2
+    note: >-
+      Aucun propos personnel trouvé sur le droit de vote des étrangers aux élections locales. Les
+      synthèses de moteur de recherche sur ce point se contredisaient et n'ont donc rien étayé ;
+      aucune n'a été retenue comme preuve.
+  - kind: NO_PERSONAL_POSITION
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-titre-sejour-longue-duree
+    note: >-
+      Aucun propos personnel vérifié ; une piste existe dans la PPL n° 677 (conditions de
+      délivrance de la carte de résident), non contrôlée dans le texte en cache faute de temps.
+  - kind: NO_PERSONAL_POSITION
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-reduire-duree-naturalisation
+    note: >-
+      Aucun propos personnel vérifié sur la durée de résidence exigée pour demander la
+      naturalisation ; la PPL constitutionnelle n° 646 traite de l'assimilation, pas de la durée.
+  - kind: NO_PERSONAL_POSITION
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-voies-legales-travail-ue
+    note: Aucun propos personnel trouvé sur l'ouverture de voies d'immigration légale de travail par l'Union européenne.
+  - kind: NO_PERSONAL_POSITION
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-visas-professions-qualifiees-v2
+    note: >-
+      Aucun propos personnel sur les conditions de délivrance des visas de travail aux professions
+      qualifiées. Les propos trouvés portent sur les visas territorialisés et sur le
+      conditionnement des visas à la coopération des pays d'origine : autres dispositifs.
+  - kind: NO_PERSONAL_POSITION
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-asile-examen-sans-transfert
+    note: >-
+      Aucun propos personnel sur le transfert des demandeurs d'asile vers l'État européen
+      responsable. La PPL constitutionnelle n° 646 traite de l'examen des demandes hors du
+      territoire, ce qui est un autre sujet que les règles de responsabilité de l'Union.
+signals: []
