@@ -211,10 +211,10 @@ description: "Liste des tâches — 009 Couverture des candidats et définitions
 
 ## Phase 9: Polish & Cross-Cutting Concerns
 
-- [ ] T066 [P] Compléter `data/README.md` avec le glossaire (`glossaire.yaml`, `institutionalDomains`, `data:glossary`, circuit de relecture) et vérifier la cohérence de la page Méthodologie avec la version affichée.
-- [ ] T067 [P] Dérouler [quickstart.md](./quickstart.md) A à G et corriger tout écart (commande, chemin, chiffre attendu) dans le quickstart ou le code.
+- [X] T066 [P] Compléter `data/README.md` avec le glossaire (`glossaire.yaml`, `institutionalDomains`, `data:glossary`, circuit de relecture) et vérifier la cohérence de la page Méthodologie avec la version affichée.
+- [X] T067 [P] Dérouler [quickstart.md](./quickstart.md) A à G et corriger tout écart (commande, chemin, chiffre attendu) dans le quickstart ou le code.
 - [ ] T068 Lancer `pnpm verify` sur chaque branche avant sa PR, et `pnpm data:validate` sur le corpus final ; noter le nombre de tests et d'avertissements par rapport à T001.
-- [ ] T069 Ajouter en fin de ce fichier une section « Écarts constatés à l'implémentation » qui liste les écarts entre spec, plan et réalisation (valeurs de `k`, chiffres SC-001/SC-002 obtenus, termes écartés), comme pour 008.
+- [X] T069 Ajouter en fin de ce fichier une section « Écarts constatés à l'implémentation » qui liste les écarts entre spec, plan et réalisation (valeurs de `k`, chiffres SC-001/SC-002 obtenus, termes écartés), comme pour 008.
 
 ---
 
@@ -304,3 +304,26 @@ puis T050 annotate.ts et T052 DefinedTerm.tsx en parallèle, T053 stories après
 - [P] = fichiers différents, aucune dépendance sur une tâche inachevée.
 - Committer après chaque tâche ou groupe logique ; T002 dans un commit seul.
 - Les étapes réservées à adrien sont la relecture des positions (`data:review`), la validation des définitions et les décisions sur le rapport sous les seuils ; tout le reste, vérifications au navigateur comprises, est fait par l'agent.
+
+---
+
+## Écarts constatés à l'implémentation (2026-11-22 → 2026-11-23)
+
+### Récit A — couverture (PR #30, données PR #32)
+
+- **`rankedCandidates`** (T016) : en plus du seuil de 60 %, un candidat n'est classé que si au moins un thème prioritaire compte 2 positions connues dans la sélection, comme dans `scoreCandidate` (003 FR-005). Le contrat ne citait que la couverture ; sans cette condition, 25 combinaisons sur 1 632 divergeaient du classement réel sur la v4. `missingForThreshold` vaut donc `max(manque de couverture, manque du meilleur thème prioritaire)`, et `Infinity` si aucun thème prioritaire n'a 2 questions dans la sélection.
+- **`retiredIn`** : `data:publish` ne le pose plus sur une question mise en réserve (elle reste `active` au corpus, FR-007) ; seulement sur une question sortie du corpus actif. `introducedIn` n'est posé qu'à la première publication dans la banque active.
+- **Rapports** : `data/reports/` était ignoré par git ; des exceptions versionnent `couverture-v<n>.{md,json}` et `trous/`. Les rapports produits depuis une fixture vont dans `data/reports/fixtures/` (ignoré), pour qu'un test n'écrase jamais le rapport d'une version réelle.
+- **`data:gaps --min-coverage`** : option ajoutée (non prévue) pour simuler une publication à `k` forcé ; elle sert aussi aux tests de la réserve non promouvable.
+- **Valeur de `k` et taille de la banque** : sur le corpus de la v4, `k = 7`, 101 questions actives, 209 en réserve, compléments pour Société, Santé, Sécurité et Institutions (R4 prévoyait « environ 100 »). Après le retrait de François Ruffin (17 candidats déclarés) : `k = 7`, 93 questions.
+- **SC-001 / SC-002** (dry-run, positions relues seulement) : court min 7 / méd. 10 / max 13, complet 5 / 5 / 5 ; après le retrait de Ruffin, court 6 / 10 / 13, complet 4 / 5 / 6. Aucun des deux critères n'est atteint. En mode complet, une banque d'environ 100 questions est presque entièrement sélectionnée : seuls les candidats couverts à plus de 60 % sur toute la banque sont classés, d'où un plafond que seule la campagne peut lever. Publication v5 (T042–T046) en attente de la relecture et de la décision d'adrien.
+- **Gain des questions promouvables** : souvent nul, car la question promue (couverture `k − 1`) passe en dernier dans son thème avec `byCoverage` et n'est presque jamais sélectionnée. C'est la conséquence directe de R6.
+- **Campagne, lot 1** : 4 missions menées (Lisnard × économie, Roussel × immigration, Retailleau × économie, Branco × immigration) ; la mission Ruffin × justice a été abandonnée après son retrait (21 novembre 2026, `candidates.yaml` mis à jour). 13 positions `draft`, dont 8 pour Roussel issues de cosignatures d'amendements de groupe (2023), point soumis à adrien. Les missions ont tourné en parallèle avec interdiction d'écrire `signalements.yaml` et `personnalites.yaml` (sauf la mission de statut Ruffin).
+- **Quickstart D** : `data:validate --corpus` doit viser le dossier de la fixture, pas son sous-dossier `corpus/` (corrigé).
+
+### Récit B — définitions (PR #31)
+
+- 36 termes en `draft` (objectif ≥ 20), aucun `reviewed` ; publication de `glossary.json` (suite de T064) et T065 après la relecture d'adrien.
+- `GLOSS` importe le repérage depuis `src/lib/glossary/annotate.ts` (premier import de `src/lib` par `scripts/data`, prévu par le plan).
+- `PUB-IMMUTABLE` admet `public/data/glossary.json` hors registre ; `PUB-BUDGET` le borne à 30 Kio ; la carte de question a pour clé l'identifiant de la question.
+- Tant que `glossary.json` n'est pas publié, le questionnaire et les résultats reçoivent un 404 sur ce fichier et s'affichent sans repère.

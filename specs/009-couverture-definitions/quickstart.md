@@ -50,8 +50,10 @@ pnpm vitest run scripts/data/lib/rules/SRC-AGGREGATOR.test.ts scripts/data/lib/g
 ```
 
 ```bash
-pnpm data:validate --corpus data/fixtures/violations/SRC-AGGREGATOR/corpus
+pnpm data:validate --corpus data/fixtures/violations/SRC-AGGREGATOR
 ```
+
+(Le dossier de la fixture, pas son sous-dossier `corpus/` : sinon le cache et les versions publiées du dépôt sont lus avec le corpus de la fixture, et des centaines de violations sans rapport s'ajoutent.)
 
 Attendu : une erreur `SRC-AGGREGATOR` qui nomme le domaine (code de sortie 1).
 
@@ -67,7 +69,7 @@ Campagne (agent) : confier la mission 1 au sous-agent `french-political-source-r
 - chaque preuve cite une source primaire (`lead` éventuel vers l'agrégateur) ;
 - les absences sont des lacunes `NOT_FOUND` avec `question`.
 
-L'agent transcrit les preuves en positions `draft`. Relancer `pnpm data:gaps` : les couples traités sortent de la liste ou passent en « déjà cherché ». Les positions `draft` restent hors de `data:publish --dry-run` jusqu'à la relecture (`pnpm data:review`).
+L'agent transcrit les preuves en positions `draft`. Relancer `pnpm data:gaps` : les couples consignés en lacune passent en « déjà cherché » ; les couples transcrits en `draft` ne sortent de la liste qu'une fois la position relue (une position `draft` n'est pas « connue »). Les positions `draft` restent hors de `data:publish --dry-run` jusqu'à la relecture (`pnpm data:review`).
 
 ## E. Publication v5 et critères de succès
 
