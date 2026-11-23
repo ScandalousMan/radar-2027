@@ -1,0 +1,278 @@
+# Journal de mission (spec 008, FR-029 ; mission issue de data:gaps, spec 009, §13 bis du skill).
+# Requêtes et sources effectivement consultées. Mission interrompue par une limite d'usage le
+# 2026-11-22, reprise et terminée le 2026-11-23.
+id: 2026-11-22-campagne-lisnard-economie
+mode: PERSONALITY
+author: claude
+model: opus
+request: >-
+  Mission issue de data:gaps (spec 009), mode PERSONALITY : David Lisnard × thème economie, sept
+  questions dans l'ordre (accords de libre-échange, participations de l'État dans l'industrie, prix
+  réglementés de l'énergie, contrôle des rachats étrangers, EDF entièrement publique, aides
+  conditionnées à l'emploi, plafonnement des loyers en zones tendues). Pour chacune, chercher une
+  prise de position personnelle en source primaire, ouvrir l'original, enregistrer la source par
+  data:source fetch et écrire une preuve qualifiée ; agrégateurs en piste seulement ; sinon
+  consigner une lacune avec la question. Ne rien écrire dans positions/, signalements.yaml ni
+  personnalites.yaml (missions parallèles) ; pas de commit.
+startedAt: 2026-11-22
+completedAt: 2026-11-23
+state: completed
+scope:
+  personalities: [david-lisnard]
+  themes: [economie]
+  questions:
+    - economie-accords-libre-echange
+    - economie-participations-etat-industrie
+    - economie-prix-energie-reglementes
+    - economie-controle-rachats-etrangers
+    - economie-edf-entierement-publique
+    - economie-aides-conditionnees-emploi
+    - economie-plafonnement-loyers-zones-tendues
+queries:
+  - at: 2026-11-22
+    query: "lecture préalable : candidates.yaml (david-lisnard), questions/economie.yaml (7 énoncés et polarités), positions/david-lisnard.yaml (aucune position sur les 7 questions), sources/david-lisnard.yaml (25 sources), preuves/david-lisnard.yaml (1 preuve CANDIDACY), personnalites.yaml, signalements.yaml, journal 2026-11-22-amorcage-registre"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-22
+    query: "recherche plein texte dans les textes en cache des 25 sources de David Lisnard : libre-échange, Mercosur, EDF, ARENH, tarifs réglementés, participations, actionnaire, étrangers, rachat, loyers, conditionn, aides publiques, nationalis, privatis"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-22
+    query: "David Lisnard Mercosur libre-échange"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "\"Lisnard\" \"libre-échange\" tribune"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:unenouvelleenergie.fr libre-échange"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "Lisnard Mercosur \"n'est pas signable\""
+    category: TV_RADIO_DEBATES
+    tool: web_search
+  - at: 2026-11-22
+    query: "David Lisnard accord Mercosur agriculteurs 2026"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "David Lisnard protectionnisme \"préférence européenne\" libre-échange entretien"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-22
+    query: "lecture du fac-similé La Lettre du Made in France, 7 mai 2026 (institutmolinari.org)"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "David Lisnard \"encadrement des loyers\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "David Lisnard EDF ARENH prix électricité marché européen"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "David Lisnard \"aides aux entreprises\" 157 milliards suppression"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "index des questions de unenouvelleenergie.fr/questions/ puis lecture de sept pages FAQ (subventions, réindustrialisation, privatisations, nucléaire, Union européenne, liberté économique, entreprises)"
+    category: CAMPAIGN_SITE
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "David Lisnard rachat entreprise française étranger \"contrôle des investissements étrangers\" OR \"investisseurs étrangers\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Lisnard Doliprane Opella américain rachat Sanofi réaction"
+    category: HISTORICAL_ARCHIVES
+    tool: web_search
+  - at: 2026-11-22
+    query: "Lisnard \"tarifs réglementés\" électricité"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_search
+  - at: 2026-11-22
+    query: "lecture des pages programme unenouvelleenergie.fr/notre-programme/ (index) et des textes en cache des axes 1 à 3 (énergie, logement, Europe)"
+    category: CAMPAIGN_SITE
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "Lisnard nationalisation EDF"
+    category: HISTORICAL_ARCHIVES
+    tool: web_search
+  - at: 2026-11-22
+    query: "David Lisnard Mercosur X tweet \"Mercosur\""
+    category: SOCIAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Lisnard logement loyers propriétaires \"loi Climat\" location Cannes plafonnement"
+    category: REGIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Lisnard Figaro logement entretien DPE \"7 millions\" logements marché locatif unenouvelleenergie"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-22
+    query: "\"Lisnard\" \"encadrement des loyers\" OR \"contrôle des loyers\" OR \"blocage des loyers\""
+    category: NATIONAL_MEDIA
+    tool: web_search_extended
+  - at: 2026-11-22
+    query: "discours David Lisnard congrès des maires 2023 logement loyers"
+    category: SPEECHES_PRESS_CONFERENCES
+    tool: web_search
+  - at: 2026-11-22
+    query: "Lisnard \"aides publiques\" entreprises contreparties emploi délocalisation conditionner"
+    category: ASSEMBLEE_NATIONALE
+    tool: web_search
+  - at: 2026-11-23
+    query: "\"Lisnard\" \"prix de l'électricité\" ménages marché européen sortir tribune 2026"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-23
+    query: "Lisnard \"État actionnaire\" OR \"participations de l'État\" OR \"APE\" privatiser entreprises publiques"
+    category: GOVERNMENT
+    tool: web_search
+categoriesExplored:
+  - EXISTING_CORPUS
+  - NATIONAL_MEDIA
+  - PARTY_SITE
+  - CAMPAIGN_SITE
+  - TV_RADIO_DEBATES
+  - FULL_INTERVIEWS
+  - SPECIALIZED_PUBLICATIONS
+  - HISTORICAL_ARCHIVES
+  - SOCIAL_MEDIA
+  - REGIONAL_MEDIA
+  - SPEECHES_PRESS_CONFERENCES
+  - ASSEMBLEE_NATIONALE
+  - GOVERNMENT
+categoriesNotExplored:
+  - category: ORIGINAL_VIDEOS
+    reason: Vidéos YouTube de meetings liées par la FAQ non transcrites ni écoutées dans cette mission.
+  - category: SENAT
+    reason: David Lisnard n'est pas parlementaire ; aucune activité sénatoriale à consulter.
+  - category: EUROPEAN_PARLIAMENT
+    reason: Sans objet pour une personnalité sans mandat européen.
+  - category: PRESS_AGENCIES
+    reason: Dépêches AFP accessibles seulement par reprises ; non consultées spécifiquement.
+exhaustive: false
+sourcesConsulted:
+  - url: https://www.institutmolinari.org/wp-content/uploads/2026/05/2026-05-07-LA-LETTRE-DU-MADE-IN-FRANCE.pdf
+    title: "David Lisnard : « la réindustrialisation est une priorité nationale » (La Lettre du Made in France, 7 mai 2026)"
+    outcome: retained
+    source: david-lisnard-entretien-lettre-made-in-france-2026-05
+  - url: https://www.unenouvelleenergie.fr/questions/quel-candidat-defend-la-liberte-economique/
+    title: "Nouvelle Énergie, FAQ : Quel candidat défend la liberté économique ?"
+    outcome: retained
+    source: david-lisnard-nouvelle-energie-faq-liberte-economique
+  - url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-supprimer-les-subventions-aux-entreprises/
+    title: "Nouvelle Énergie, FAQ : Quel candidat veut supprimer les subventions aux entreprises ?"
+    outcome: retained
+    source: david-lisnard-nouvelle-energie-faq-subventions-entreprises
+  - url: https://www.europe1.fr/node/877738
+    title: Entretien de David Lisnard sur Europe 1-CNews (accord UE-Mercosur)
+    outcome: inaccessible
+    reason: HTTP 403 à l'outil de lecture ; contenu connu par extrait de moteur seulement (preuve economie-003, qualité D).
+  - url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-reindustrialiser-la-france/
+    title: "Nouvelle Énergie, FAQ : Quel candidat veut réindustrialiser la France ?"
+    outcome: rejected
+    reason: Paraphrase de l'entretien du 7 mai 2026, déjà retenu en source primaire ; rien sur les sept énoncés au-delà.
+  - url: https://www.unenouvelleenergie.fr/questions/david-lisnard-veut-il-privatiser-les-services-publics/
+    title: "Nouvelle Énergie, FAQ : David Lisnard veut-il privatiser les services publics ?"
+    outcome: rejected
+    reason: Privatisations ciblées (audiovisuel public) ; rien sur EDF ni sur les participations industrielles.
+  - url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-construire-de-nouveaux-reacteurs-nucleaires/
+    title: "Nouvelle Énergie, FAQ : Quel candidat veut construire de nouveaux réacteurs nucléaires ?"
+    outcome: rejected
+    reason: Programme nucléaire (EPR, prolongation) ; rien sur la propriété d'EDF ni sur les tarifs réglementés.
+  - url: https://www.unenouvelleenergie.fr/questions/que-pense-david-lisnard-de-l-union-europeenne/
+    title: "Nouvelle Énergie, FAQ : Que pense David Lisnard de l'Union européenne ?"
+    outcome: rejected
+    reason: Institutions, souveraineté, asile ; rien sur les accords commerciaux.
+  - url: https://edito.seloger.com/actualites/presidentielles/presidentielles-focus-propositions-de-david-lisnard-logement-article
+    title: "Présidentielles : focus sur les propositions de David Lisnard pour le logement (SeLoger, 19 novembre 2026)"
+    outcome: rejected
+    reason: Article secondaire sans citation directe ; n'aborde pas l'encadrement des loyers.
+  - url: https://www.ffbatiment.fr/revues-guides/bam/79-juin-2025/liberer-acte-construire-entretien-avec-david-lisnard-maire-cannes
+    title: "Libérer l'acte de construire : entretien avec David Lisnard (FFB, juin 2025)"
+    outcome: inaccessible
+    reason: HTTP 500 à la lecture.
+  - url: https://www.colocnow.com/blog/lisnard-immobilier-cannes-politique-logement-marche/
+    title: "Lisnard Immobilier : ce que le maire de Cannes change… (blog colocnow)"
+    outcome: rejected
+    reason: Blog commercial affirmant son opposition à l'encadrement des loyers sans citation ni source vérifiable (renvoi vague au congrès de l'AMF de novembre 2023) ; piste non confirmée.
+  - url: https://www.amf.asso.fr/documents-congres-maires-2023-face-la-crise-du-logement-etat-promet-outils-moyens-aux-maires/42046
+    title: "Congrès des maires 2023 : face à la crise du logement (AMF)"
+    outcome: rejected
+    reason: Vu en extrait seulement ; compte rendu institutionnel de l'AMF, sans propos de Lisnard sur l'encadrement des loyers dans l'extrait.
+evidenceAdded:
+  - david-lisnard-economie-001
+  - david-lisnard-economie-002
+  - david-lisnard-economie-003
+  - david-lisnard-economie-004
+  - david-lisnard-economie-005
+  - david-lisnard-economie-006
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided: []
+verified:
+  - "economie-001, economie-004, economie-005 : passages relus dans le fac-similé (page 2, colonne de droite) et retrouvés mot pour mot dans le texte en cache de la transcription."
+toVerify:
+  - "economie-002 : ouvrir le livre « Ainsi va la France » pour la page et la date du texte cité."
+  - "economie-003 : lire l'entretien Europe 1-CNews (date, phrase exacte) par un accès ordinaire."
+  - "economie-006 : écouter le meeting de Saint-Raphaël (3 juillet 2026) pour confirmer la phrase et son horodatage."
+contradictions: []
+gaps:
+  - kind: PRIMARY_INACCESSIBLE
+    personality: david-lisnard
+    theme: economie
+    question: economie-accords-libre-echange
+    evidence: [david-lisnard-economie-003]
+    note: Entretien Europe 1-CNews sur le Mercosur refusé à l'outil de lecture (403) ; date et formulation exactes non établies.
+  - kind: NOT_FOUND
+    personality: david-lisnard
+    theme: economie
+    question: economie-prix-energie-reglementes
+    note: >-
+      Requêtes « tarifs réglementés », « ARENH », « prix de l'électricité » et marché européen,
+      lecture des pages programme (énergie) et des FAQ nucléaire et réindustrialisation, et de
+      l'entretien du 7 mai 2026 (il y déplore la hausse du prix de l'électricité aux entreprises) :
+      aucun propos sur la réglementation des prix de l'énergie pour les ménages.
+  - kind: NOT_FOUND
+    personality: david-lisnard
+    theme: economie
+    question: economie-controle-rachats-etrangers
+    evidence: [david-lisnard-economie-005]
+    note: >-
+      Requêtes contrôle des investissements étrangers, rachats, Doliprane/Opella, et lecture de
+      l'entretien du 7 mai 2026 : seul un propos général sur la protection des capacités
+      industrielles stratégiques (economie-005, NO_DIRECT_EVIDENCE) ; rien sur le contrôle des
+      rachats.
+  - kind: NOT_FOUND
+    personality: david-lisnard
+    theme: economie
+    question: economie-edf-entierement-publique
+    note: >-
+      Requêtes nationalisation d'EDF, ARENH, État actionnaire, privatisations ; lecture des FAQ
+      privatisations et nucléaire et du programme : aucun propos sur la détention du capital d'EDF.
+  - kind: NOT_FOUND
+    personality: david-lisnard
+    theme: economie
+    question: economie-aides-conditionnees-emploi
+    evidence: [david-lisnard-economie-006]
+    note: >-
+      Requêtes aides aux entreprises, contreparties, conditionnalité, et lecture des FAQ subventions
+      et charges : il veut supprimer les aides compensatoires (economie-006, NO_DIRECT_EVIDENCE),
+      sans rien dire de leur conditionnement au maintien de l'emploi.
+  - kind: NOT_FOUND
+    personality: david-lisnard
+    theme: economie
+    question: economie-plafonnement-loyers-zones-tendues
+    note: >-
+      Requêtes encadrement, contrôle et blocage des loyers, logement à Cannes, entretien Figaro
+      logement, congrès de l'AMF 2023 ; lecture du programme (logement : suppression de l'article 55
+      de la loi SRU, « libérer le marché du logement ») et d'un article SeLoger : aucun propos
+      personnel vérifiable sur le plafonnement des loyers. Un blog commercial affirme son
+      opposition sans source : piste non confirmée.
+signals: []

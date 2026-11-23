@@ -361,3 +361,25 @@
   candidates:
     - bruno-retailleau
   contentHash: sha256:94641140c109cd145367a1cee62931c67be335ef3a67634ed1c11a9c81f90cbc
+- id: bruno-retailleau-senat-cri-2024-03-21-ceta
+  url: https://www.senat.fr/seances/s202403/s20240321/s20240321_mono.html
+  title: Sénat, compte rendu intégral de la séance du 21 mars 2024 (accord économique et commercial global UE-Canada)
+  kind: declaration_vote
+  publishedAt:
+    date: 2024-03-21
+    precision: day
+  accessedAt: 2026-11-23
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:a133735a1feed3fe87ba0fcf79fb0d40a4fc0235793b339a2b96106cf6231653
+- id: bruno-retailleau-publicsenat-stx-2017-05
+  url: https://www.publicsenat.fr/actualites/politique/stx-france-retailleau-lr-appelle-a-ce-que-l-etat-rouvre-le-dossier-61156
+  title: "STX France : Retailleau (LR) appelle à ce que « l'Etat rouvre le dossier » (Public Sénat)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2017-05-29
+    precision: day
+  accessedAt: 2026-11-23
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:df22cd04b33892b6489eada6f7f146f5496b00660bd5afd4828093d551fa401a

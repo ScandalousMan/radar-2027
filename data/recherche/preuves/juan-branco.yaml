@@ -25,3 +25,61 @@
   verifiedAt: 2026-11-22
   createdAt: 2026-11-22
   updatedAt: 2026-11-22
+- id: juan-branco-immigration-001
+  personality: juan-branco
+  kind: POSITION
+  theme: immigration
+  question: immigration-regularisation-metiers-tension
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Mise en place de critères objectivables d'intégration concernant les étrangers, accompagnée d'obligations de service à la nation, dans le cadre des régularisations de personnes dénuées de titres de séjour."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, partie « Les réformes », volet Intérieur : liste de mesures sur l'immigration (regroupement familial, asile, rétention, contentieux)."
+  verificationNotes: "Phrase retrouvée mot pour mot dans le texte en cache du PDF du programme (source déjà enregistrée) ; la page ruches.org/le-projet, rouverte le 2026-11-22, renvoie au même PDF et reprend la mesure. Aucune mention des métiers en tension ni du travail dans la mesure."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "Les réformes, volet Intérieur, mesure « Mise en place de critères objectivables d'intégration » (fin de la p. 21, avant le saut de page 22)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat sous son projet présidentiel ; document de campagne personnel du candidat."
+    interpretation: "La mesure suppose des régularisations de personnes sans titre de séjour et les encadre par des critères d'intégration et des obligations de service à la nation : soutien au principe de régularisation, sous conditions, sans viser spécifiquement les travailleurs des métiers en tension ; soutien plus large par la population visée mais conditionné, donc qualifié."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-branco-immigration
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22
+- id: juan-branco-immigration-002
+  personality: juan-branco
+  kind: POSITION
+  theme: immigration
+  question: immigration-titre-sejour-longue-duree
+  qualification: QUALIFIED_OPPOSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Systématisation des obligations de suivi des demandeurs d'asile, avec conditionnalisation du maintien du statut et des droits afférents à des examens spécifiques en ce qui concerne les exilés de deuxième niveau, et réactualisation quinquennale du titre asilaire pour ces derniers."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9), volet Intérieur, suite de la mesure « Création d'un système d'asile de deux niveaux (premier niveau lié à la qualité individuelle, préservant l'ensemble des prérogatives actuelles ; deuxième niveau lié à l'origine géographique) »."
+  verificationNotes: "Phrase retrouvée mot pour mot dans le texte en cache du PDF du programme. Elle ne vise que les bénéficiaires de l'asile dits « de deuxième niveau » ; le premier niveau conserve « l'ensemble des prérogatives actuelles »."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "Les réformes, volet Intérieur, mesure « Création d'un système d'asile de deux niveaux » (p. 22)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat sous son projet présidentiel."
+    interpretation: "Le maintien du statut est conditionné et le titre asilaire réexaminé tous les cinq ans pour une catégorie d'étrangers en situation régulière (exilés de deuxième niveau) : sens contraire à un accès facilité au séjour de longue durée, mais sur une population restreinte (une partie des bénéficiaires de l'asile) et sans propos sur les autres étrangers réguliers, donc opposition partielle."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-branco-immigration
+  createdAt: 2026-11-22
+  updatedAt: 2026-11-22

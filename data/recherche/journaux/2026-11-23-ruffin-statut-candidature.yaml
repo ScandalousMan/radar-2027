@@ -1,0 +1,158 @@
+# Journal de mission (spec 008, FR-029). Vérification du statut de candidature de François Ruffin
+# après l'annonce de son retrait. Requêtes et sources effectivement consultées.
+id: 2026-11-23-ruffin-statut-candidature
+mode: PERSONALITY
+author: claude
+model: opus
+request: >-
+  Mission de statut de candidature (mode PERSONALITY, kind CANDIDACY) sur François Ruffin
+  (francois-ruffin, publié declared depuis le 2026-04-10). Le propriétaire indique qu'il a annoncé
+  ne finalement pas se présenter à la présidentielle de 2027. Vérifier en source primaire
+  (déclaration publique, personnelle et datée), noter la date exacte et s'il s'agit d'un renoncement
+  simple ou d'un désistement au profit d'une autre candidature. Si confirmé : enregistrer la source
+  (identifiant du type francois-ruffin-renoncement-candidature), ajouter une preuve CANDIDACY
+  VERIFIED_QUOTE et le statut en fin d'historique dans personnalites.yaml ; ne modifier ni
+  candidates.yaml, ni positions/, ni signalements.yaml (missions parallèles) : proposer le
+  signalement CANDIDATE_STATUS dans le compte rendu.
+startedAt: 2026-11-23
+completedAt: 2026-11-23
+state: completed
+scope:
+  personalities: [francois-ruffin]
+  themes: []
+  questions: []
+queries:
+  - at: 2026-11-23
+    query: "lecture préalable : personnalites.yaml (entrée francois-ruffin, statut DECLARED du 2026-04-10), candidates.yaml (declared, statusSource francois-ruffin-declaration-candidature), preuves/francois-ruffin.yaml (candidature-001), sources/francois-ruffin.yaml (14 sources, aucune sur un retrait), liste des journaux"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-23
+    query: "François Ruffin renonce candidature présidentielle 2027"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-23
+    query: "Ruffin \"ne serai pas candidat\" présidentielle novembre 2026"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-23
+    query: "François Ruffin retire candidature soutien primaire gauche"
+    category: PRESS_AGENCIES
+    tool: web_search
+  - at: 2026-11-23
+    query: "Ruffin \"renonce\" 2027 Élysée désistement"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-23
+    query: "https://www.ouest-france.fr/elections/presidentielle/presidentielle-2027-francois-ruffin-retire-sa-candidature-2e91a6fc-e5cd-11f1-bd4e-6f30b8f49e21"
+    category: REGIONAL_MEDIA
+    tool: web_fetch
+  - at: 2026-11-23
+    query: "https://fr.news.yahoo.com/sport/francois-ruffin-retire-candidature-a-181352223.html"
+    category: PRESS_AGENCIES
+    tool: web_fetch
+  - at: 2026-11-23
+    query: "https://francoisruffin.fr/ (dernières publications)"
+    category: PERSONAL_SITE
+    tool: web_fetch
+  - at: 2026-11-23
+    query: "\"Ruffin\" \"rôle de témoignage\" \"deux gauches irréconciliables\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-23
+    query: "https://francoisruffin.fr/presidentielle-2027-face-au-risque-du-pire-je-retire-ma-candidature/ (page et code HTML)"
+    category: PERSONAL_SITE
+    tool: web_fetch
+  - at: 2026-11-23
+    query: "https://www.youtube.com/watch?v=I7yZcMRwLAQ (métadonnées : titre, chaîne, date, durée, description, pistes de sous-titres)"
+    category: ORIGINAL_VIDEOS
+    tool: curl
+  - at: 2026-11-23
+    query: "https://www.rtbf.be/article/france-ma-campagne-est-dans-une-impasse-francois-ruffin-retire-sa-candidature-pour-la-presidentielle-11819128"
+    category: NATIONAL_MEDIA
+    tool: web_fetch
+  - at: 2026-11-23
+    query: "https://debout.fr/ (communiqué du parti)"
+    category: PARTY_SITE
+    tool: web_fetch
+  - at: 2026-11-23
+    query: "Ruffin communiqué retrait candidature \"à vocation majoritaire\" \"bon courage et bonne campagne\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-23
+    query: "https://t.me/s/francoisruffin (canal Telegram public, messages du 10 au 22 novembre 2026) ; essais infructueux sur t.me/s/francois_ruffin, FrancoisRuffin80, debout_officiel"
+    category: SOCIAL_MEDIA
+    tool: curl
+  - at: 2026-11-23
+    query: "https://t.me/francoisruffin/4336?embed=1 (message de retrait : auteur, badge, horodatage, texte, image)"
+    category: SOCIAL_MEDIA
+    tool: curl
+categoriesExplored: [EXISTING_CORPUS, NATIONAL_MEDIA, PRESS_AGENCIES, REGIONAL_MEDIA, PERSONAL_SITE, PARTY_SITE, ORIGINAL_VIDEOS, SOCIAL_MEDIA]
+categoriesNotExplored:
+  - category: TV_RADIO_DEBATES
+    reason: >-
+      Entretien BFMTV du 2026-11-22 (21 h) repéré sur Telegram et republié sur YouTube, non
+      retranscrit : seuls des sous-titres automatiques existent, non utilisables comme citation
+      vérifiée ; la preuve repose sur le message écrit.
+  - category: FULL_INTERVIEWS
+    reason: Même entretien ; aucune transcription officielle ou manuelle disponible.
+  - category: ASSEMBLEE_NATIONALE
+    reason: Sans objet pour un statut de candidature.
+  - category: HISTORICAL_ARCHIVES
+    reason: Mission bornée au retrait ; la date de la déclaration (2026-01-26 selon la presse, 2026-04-10 au registre) n'a pas été réexaminée.
+exhaustive: false
+sourcesConsulted:
+  - url: https://t.me/francoisruffin/4336
+    title: "Face au risque du pire, je retire ma candidature à l'élection présidentielle. (canal Telegram certifié de François Ruffin, 2026-11-21 17:01 UTC)"
+    outcome: retained
+    source: francois-ruffin-renoncement-candidature
+  - url: https://t.me/s/francoisruffin
+    title: Canal Telegram public de François Ruffin, messages n° 4326 à 4345
+    outcome: rejected
+    reason: >-
+      Utilisé pour le contexte et la concordance (messages n° 4338, 4339, 4340, 4341 du 2026-11-22,
+      extraits de l'entretien BFMTV) ; non enregistré, la preuve repose sur le message n° 4336.
+  - url: https://francoisruffin.fr/presidentielle-2027-face-au-risque-du-pire-je-retire-ma-candidature/
+    title: "Présidentielle 2027 : Face au risque du pire, je retire ma candidature (francoisruffin.fr, 2026-11-22)"
+    outcome: rejected
+    reason: Corps de l'article limité à l'intégration de la vidéo YouTube ; aucun texte écrit à citer. Concordance de titre et de date seulement.
+  - url: https://www.youtube.com/watch?v=I7yZcMRwLAQ
+    title: "Présidentielle 2027 : Face au risque du pire, je retire ma candidature (chaîne YouTube FRANÇOIS RUFFIN, 2026-11-22, 31 min 40 s)"
+    outcome: rejected
+    reason: Sous-titres automatiques seulement (jamais VERIFIED_QUOTE) ; métadonnées utilisées comme concordance.
+  - url: https://www.rtbf.be/article/france-ma-campagne-est-dans-une-impasse-francois-ruffin-retire-sa-candidature-pour-la-presidentielle-11819128
+    title: "France : ma campagne est dans 'une impasse', François Ruffin retire sa candidature pour la présidentielle (RTBF, 2026-11-21)"
+    outcome: rejected
+    reason: Source secondaire (communiqué cité sans lien) ; utilisée pour le contexte et pour confirmer l'absence de soutien nommé.
+  - url: https://fr.news.yahoo.com/sport/francois-ruffin-retire-candidature-a-181352223.html
+    title: François Ruffin retire sa candidature à la présidentielle 2027 face à « l'impasse » à gauche (Yahoo Actualités, 2026-11-21)
+    outcome: rejected
+    reason: Source secondaire ; confirme la date du 21 novembre et l'absence de soutien « du moins pour le moment ».
+  - url: https://www.ouest-france.fr/elections/presidentielle/presidentielle-2027-francois-ruffin-retire-sa-candidature-2e91a6fc-e5cd-11f1-bd4e-6f30b8f49e21
+    title: "Présidentielle : François Ruffin retire sa candidature et souhaite « bonne campagne » aux « candidats de gauche » (Ouest-France)"
+    outcome: inaccessible
+    reason: HTTP 403 à la récupération ; non lu.
+  - url: https://debout.fr/
+    title: Debout! (page d'accueil du parti)
+    outcome: rejected
+    reason: Aucun communiqué daté sur le retrait.
+  - url: https://francoisruffin.fr/
+    title: François Ruffin, site personnel (dernières publications)
+    outcome: rejected
+    reason: Piste vers l'article du 2026-11-22 seulement.
+evidenceAdded: [francois-ruffin-candidature-002]
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided: []
+verified: [francois-ruffin-candidature-002]
+toVerify: []
+contradictions: []
+gaps:
+  - kind: PRIMARY_INACCESSIBLE
+    personality: francois-ruffin
+    evidence: [francois-ruffin-candidature-002]
+    note: >-
+      Le communiqué écrit complet cité par la presse du 2026-11-21 (« les appareils ont rejeté cette
+      grande primaire… », « bon courage et bonne campagne ») n'a pas été retrouvé en source primaire
+      lisible : image illisible dans l'aperçu Telegram, compte X sous authentification non contourné.
+      Le message Telegram de retrait suffit à établir le statut.
+signals: []

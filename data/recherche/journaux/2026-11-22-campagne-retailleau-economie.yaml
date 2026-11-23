@@ -1,0 +1,346 @@
+# Journal de mission (spec 008, FR-029 ; mission issue de data:gaps, spec 009, §13 bis du skill).
+# Requêtes et sources effectivement consultées. Mission interrompue par une limite d'usage le
+# 2026-11-22, reprise et terminée le 2026-11-23.
+id: 2026-11-22-campagne-retailleau-economie
+mode: PERSONALITY
+author: claude
+model: opus
+request: >-
+  Mission issue de data:gaps (campagne de couverture 009), mode PERSONALITY : Bruno Retailleau,
+  thème economie, six questions dans l'ordre (economie-accords-libre-echange,
+  economie-participations-etat-industrie, economie-prix-energie-reglementes,
+  economie-controle-rachats-etrangers, economie-edf-entierement-publique,
+  economie-aides-conditionnees-emploi). Pour chacune, chercher une prise de position personnelle en
+  source primaire, l'enregistrer et écrire une preuve qualifiée, ou consigner une lacune avec
+  question (NOT_FOUND ou NO_PERSONAL_POSITION). Agrégateurs en piste seulement ; aucune déduction
+  depuis la position de LR ; aucune écriture dans positions/, signalements.yaml ni
+  personnalites.yaml (missions parallèles) ; pas de commit.
+startedAt: 2026-11-22
+completedAt: 2026-11-23
+state: completed
+scope:
+  personalities: [bruno-retailleau]
+  themes: [economie]
+  questions:
+    - economie-accords-libre-echange
+    - economie-participations-etat-industrie
+    - economie-prix-energie-reglementes
+    - economie-controle-rachats-etrangers
+    - economie-edf-entierement-publique
+    - economie-aides-conditionnees-emploi
+queries:
+  - at: 2026-11-22
+    query: "lecture préalable : questions/economie.yaml (six énoncés et polarités), positions/bruno-retailleau.yaml (aucune position sur les six questions), preuves/bruno-retailleau.yaml (13 preuves, aucune en économie), sources/bruno-retailleau.yaml, journaux Retailleau antérieurs"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-22
+    query: "recherche plein texte dans le texte en cache des 32 sources Retailleau : Mercosur, libre-échange, EDF, tarif réglementé, ARENH, rachat, participations, conditionn, aides aux entreprises"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-22
+    query: "Bruno Retailleau Mercosur accord libre-échange"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau EDF nationalisation privatisation \"EDF\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau \"tarif réglementé\" électricité ménages"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.publicsenat.fr/actualites/politique/mercosur-un-accord-destructeur-et-une-capitulation-environnementale-denonce-bruno"
+    category: TV_RADIO_DEBATES
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.brut.media/fr/articles/retailleau-previent-si-macron-vote-pour-le-mercosur-il-prend-le-risque-dune-censure-du-gouvernement"
+    category: NATIONAL_MEDIA
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "Retailleau \"libre-échange\" \"pas contre\" Mercosur \"injuste\" entretien 2026"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:republicains.fr Retailleau Mercosur"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.europe1.fr/node/875297"
+    category: NATIONAL_MEDIA
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "\"favorable au libre-échange\" Retailleau Mercosur \"injuste\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau conférence de presse programme économique 14 septembre 2026 Mercosur"
+    category: SPEECHES_PRESS_CONFERENCES
+    tool: web_search
+  - at: 2026-11-22
+    query: "\"Retailleau\" \"accords de libre-échange\" réciprocité clauses miroirs 2026"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:senat.fr Retailleau Mercosur proposition de résolution 34-1 accord commercial"
+    category: SENAT
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau Mercosur \"injuste et dépassé\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.publicsenat.fr/actualites/politique/rejet-du-ceta-par-le-senat-un-message-envoye-a-la-commission-europeenne-se-felicite-bruno-retailleau"
+    category: NATIONAL_MEDIA
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "site:senat.fr scrutin 21 mars 2024 CETA ratification accord économique et commercial global Canada"
+    category: SENAT
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.senat.fr/seances/s202403/s20240321/s20240321_mono.html (compte rendu intégral, recherche des interventions de M. Retailleau)"
+    category: SENAT
+    tool: curl
+  - at: 2026-11-22
+    query: "Retailleau Mercosur \"risque d'une censure\" janvier 2026 programme économique libre-échange"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau \"État actionnaire\" OR \"État stratège\" participations entreprises stratégiques industrie"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Retailleau rachat entreprises françaises étrangers contrôle investissements étrangers protéger fleurons"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.publicsenat.fr/actualites/politique/stx-france-retailleau-lr-appelle-a-ce-que-l-etat-rouvre-le-dossier-61156"
+    category: HISTORICAL_ARCHIVES
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.publicsenat.fr/actualites/non-classe/stx-france-retailleau-souhaite-que-salaries-et-sous-traitants-rentrent-au-capital"
+    category: TV_RADIO_DEBATES
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "Retailleau Doliprane Opella rachat américain réaction"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Bruno Retailleau 2026 \"souveraineté industrielle\" entretien industrie rachat étranger \"décret\""
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:senat.fr proposition de loi protéger le groupe EDF d'un démembrement scrutin public Sénat 2023"
+    category: SENAT
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.senat.fr/seances/s202401/s20240124/s20240124005.html à …009.html (débat EDF du 24 janvier 2024, recherche de M. Retailleau)"
+    category: SENAT
+    tool: curl
+  - at: 2026-11-22
+    query: "Retailleau facture d'électricité 2026 EDF prix nucléaire \"électricité\" proposition candidat entretien"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:republicains.fr Retailleau électricité facture prix EDF"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "recherche plein texte dans le texte en cache des entretiens 2026 déjà enregistrés (les pressions ne marchent pas avec moi, produire en France, 2027 élection de la dernière chance…) : électricité, énergie, EDF, tarif"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-22
+    query: "https://www.publicsenat.fr/actualites/politique/essence-energie-logement-travail-bruno-retailleau-promet-daugmenter-le-pouvoir-dachat-des-francais-sans-un-euro-de-dette-en-plus"
+    category: SPEECHES_PRESS_CONFERENCES
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.publicsenat.fr/actualites/politique/marche-europeen-de-lelectricite-sortie-ou-reforme-les-paradoxes-de-la-normalisation-du-rn"
+    category: SOCIAL_MEDIA
+    tool: web_fetch
+  - at: 2026-11-23
+    query: "\"Retailleau\" \"bouclier tarifaire\" électricité gaz ménages"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-23
+    query: "Retailleau aides publiques entreprises contreparties emploi délocalisation conditionner"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-23
+    query: "\"Retailleau\" ArcelorMittal OR Michelin OR Auchan aides publiques \"rembourser\" licenciements"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-23
+    query: "recherche plein texte dans les livrets LR « produire plus » et « facture d'électricité » (cache) : tarifs réglementés, capital d'EDF, participations de l'État, investissements étrangers, aides publiques, accords commerciaux"
+    category: PARTY_SITE
+    tool: grep
+  - at: 2026-11-23
+    query: "Retailleau privatisation ADP Aéroports de Paris Sénat 2019 \"Retailleau\" bijoux de famille"
+    category: PARLIAMENTARY_ARCHIVES
+    tool: web_search
+  - at: 2026-11-23
+    query: "\"Retailleau\" EDF \"Hercule\" OR \"démantèlement\" OR \"renationalisation\" Sénat"
+    category: SENAT
+    tool: web_search
+  - at: 2026-11-23
+    query: "https://www.publicsenat.fr/article/parlementaire/pas-de-nationalisation-le-texte-contre-un-demembrement-d-edf-a-ete-denature-au"
+    category: NATIONAL_MEDIA
+    tool: web_fetch
+categoriesExplored:
+  - EXISTING_CORPUS
+  - NATIONAL_MEDIA
+  - TV_RADIO_DEBATES
+  - FULL_INTERVIEWS
+  - PARTY_SITE
+  - SPEECHES_PRESS_CONFERENCES
+  - SPECIALIZED_PUBLICATIONS
+  - SENAT
+  - HISTORICAL_ARCHIVES
+  - SOCIAL_MEDIA
+  - PARLIAMENTARY_ARCHIVES
+categoriesNotExplored:
+  - category: SOCIAL_MEDIA
+    reason: >-
+      Seule une reprise par Public Sénat d'un message sur X a été lue ; le compte X lui-même est
+      sous authentification, non contournée (FR-049).
+  - category: ORIGINAL_VIDEOS
+    reason: Aucune vidéo ni transcription d'entretien 2026 sur l'énergie ou l'industrie n'a été trouvée ou ouverte.
+  - category: GOVERNMENT
+    reason: Actes de l'intéressé comme ministre de l'Intérieur (2024-2025) hors sujet économique ; non consultés.
+  - category: ASSEMBLEE_NATIONALE
+    reason: Le vote de 1994 sur l'accord de Marrakech, rappelé par l'intéressé, n'a pas été vérifié dans les archives de l'Assemblée.
+  - category: PRESS_AGENCIES
+    reason: Dépêches AFP lues seulement via leurs reprises (Public Sénat, Brut).
+  - category: FACT_CHECKING
+    reason: Non exploré.
+  - category: REGIONAL_MEDIA
+    reason: Non exploré (presse vendéenne et ligérienne pour le dossier STX notamment).
+exhaustive: false
+sourcesConsulted:
+  - url: https://www.senat.fr/seances/s202403/s20240321/s20240321_mono.html
+    title: Sénat, compte rendu intégral de la séance du 21 mars 2024 (CETA)
+    outcome: retained
+    source: bruno-retailleau-senat-cri-2024-03-21-ceta
+  - url: https://www.publicsenat.fr/actualites/politique/stx-france-retailleau-lr-appelle-a-ce-que-l-etat-rouvre-le-dossier-61156
+    title: STX France, Retailleau (LR) appelle à ce que « l'Etat rouvre le dossier » (Public Sénat, 29 mai 2017)
+    outcome: retained
+    source: bruno-retailleau-publicsenat-stx-2017-05
+  - url: https://www.publicsenat.fr/actualites/politique/rejet-du-ceta-par-le-senat-un-message-envoye-a-la-commission-europeenne-se-felicite-bruno-retailleau
+    title: Rejet du CETA par le Sénat, « Un message envoyé à la Commission européenne » (Public Sénat, 21 mars 2024)
+    outcome: rejected
+    reason: >-
+      Propos rapportés le jour même, contexte non précisé ; le compte rendu officiel de la séance
+      (source primaire) a été préféré. Contient « Oui au libre-échange, mais pas pour supprimer
+      nos éleveurs », non retrouvé dans le compte rendu (sans doute un propos hors hémicycle).
+  - url: https://www.publicsenat.fr/actualites/politique/mercosur-un-accord-destructeur-et-une-capitulation-environnementale-denonce-bruno
+    title: Mercosur, un accord « destructeur » et une « capitulation environnementale » (Public Sénat, 4 juillet 2019)
+    outcome: rejected
+    reason: Propos de 2019 sur un accord précis, antérieurs et moins directs que le compte rendu de 2024 ; non enregistré.
+  - url: https://www.brut.media/fr/articles/retailleau-previent-si-macron-vote-pour-le-mercosur-il-prend-le-risque-dune-censure-du-gouvernement
+    title: Retailleau prévient, si Macron vote pour le Mercosur, « il prend le risque d'une censure » (Brut)
+    outcome: rejected
+    reason: >-
+      Corps de l'article non rendu sans JavaScript ; seul le chapeau (dépêche, « mercredi »,
+      conférence de presse) est lisible ; date affichée incohérente avec le vote du Conseil de
+      janvier 2026. Cité en contexte seulement.
+  - url: https://www.europe1.fr/node/875297
+    title: Article Europe 1 sur Retailleau et le Mercosur (« favorable au libre-échange », vu en extrait de moteur)
+    outcome: inaccessible
+    reason: HTTP 403 (blocage des clients automatisés), non contourné ; l'extrait de moteur n'est pas une preuve.
+  - url: https://www.publicsenat.fr/actualites/non-classe/stx-france-retailleau-souhaite-que-salaries-et-sous-traitants-rentrent-au-capital
+    title: STX France, Retailleau souhaite que salariés et sous-traitants « rentrent au capital » (Public Sénat, 28 juillet 2017)
+    outcome: rejected
+    reason: Porte sur l'actionnariat des salariés et sous-traitants, pas sur une participation de l'État.
+  - url: https://www.publicsenat.fr/actualites/politique/essence-energie-logement-travail-bruno-retailleau-promet-daugmenter-le-pouvoir-dachat-des-francais-sans-un-euro-de-dette-en-plus
+    title: Essence, énergie, logement, travail, Bruno Retailleau promet d'augmenter le pouvoir d'achat (Public Sénat, 15 septembre 2026)
+    outcome: rejected
+    reason: Aucune déclaration sur la réglementation des prix de l'énergie, EDF ou les aides aux entreprises.
+  - url: https://www.publicsenat.fr/actualites/politique/marche-europeen-de-lelectricite-sortie-ou-reforme-les-paradoxes-de-la-normalisation-du-rn
+    title: Marché européen de l'électricité, sortie ou réforme (Public Sénat, 23 avril 2026)
+    outcome: rejected
+    reason: >-
+      Message sur X (« une fausse piste qui ne ferait pas baisser les prix ») contre la sortie du
+      marché européen proposée par le RN ; ne porte pas sur la réglementation des prix par
+      l'État ; original sur X non consulté.
+  - url: https://www.publicsenat.fr/article/parlementaire/pas-de-nationalisation-le-texte-contre-un-demembrement-d-edf-a-ete-denature-au
+    title: Le texte contre un « démembrement d'EDF » adopté au Sénat (Public Sénat, avril 2023)
+    outcome: rejected
+    reason: Position du rapporteur et du groupe LR au Sénat ; M. Retailleau n'y est ni cité ni intervenant.
+evidenceAdded:
+  - bruno-retailleau-economie-001
+  - bruno-retailleau-economie-002
+  - bruno-retailleau-economie-003
+  - bruno-retailleau-economie-004
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided: []
+verified:
+  - "economie-001 : « Nous voulons le libre-échange, mais vous savez très bien qu'une épée de Damoclès pèse sur nos éleveurs : nous ne l'acceptons pas. » retrouvée mot pour mot dans le compte rendu intégral du Sénat (cache)."
+  - "economie-002 : phrase sur le refus de voter l'accord de Marrakech en 1994 retrouvée mot pour mot dans le même compte rendu."
+  - "economie-003 et economie-004 : fragments de la déclaration à l'AFP du 29 mai 2017 retrouvés mot pour mot dans l'article de Public Sénat (cache)."
+toVerify:
+  - "Vote nominatif de M. Retailleau au scrutin public n° 159 du Sénat (21 mars 2024, article 1er du projet de loi CETA) : non ouvert."
+  - "Article Europe 1 (« On est favorable au libre-échange, mais le traité Mercosur est injuste et dépassé ») : inaccessible (403), date inconnue ; à rouvrir par un humain."
+  - "Vote de M. Retailleau, député, sur l'accord de Marrakech (1994) : non vérifié dans les archives de l'Assemblée nationale."
+contradictions: []
+gaps:
+  - kind: HISTORICAL_ONLY
+    personality: bruno-retailleau
+    theme: economie
+    question: economie-participations-etat-industrie
+    evidence: [bruno-retailleau-economie-004]
+    note: >-
+      Seul un propos de 2017 sur un dossier unique (préemption de STX France évoquée comme
+      option) a été trouvé ; aucune déclaration récente sur les participations de l'État dans
+      l'industrie stratégique.
+  - kind: NOT_FOUND
+    personality: bruno-retailleau
+    theme: economie
+    question: economie-prix-energie-reglementes
+    note: >-
+      Requêtes sur le tarif réglementé, le bouclier tarifaire, la facture d'électricité 2026, le
+      site du parti, la conférence de presse du 15 septembre 2026 et le message sur X d'avril 2026
+      (catégories NATIONAL_MEDIA, PARTY_SITE, SPEECHES_PRESS_CONFERENCES, SOCIAL_MEDIA,
+      EXISTING_CORPUS) : propos sur la baisse de la facture (fin des subventions aux
+      renouvelables, restitution de deux mois de facture, rejet de la sortie du marché européen),
+      mais aucun sur la réglementation des prix de l'énergie des ménages par l'État.
+  - kind: HISTORICAL_ONLY
+    personality: bruno-retailleau
+    theme: economie
+    question: economie-controle-rachats-etrangers
+    evidence: [bruno-retailleau-economie-003]
+    note: >-
+      Seule la déclaration de 2017 sur STX France a été trouvée ; aucune déclaration récente sur
+      le contrôle des investissements étrangers (Doliprane 2024 et 2026 cherchés sans résultat).
+  - kind: NO_PERSONAL_POSITION
+    personality: bruno-retailleau
+    theme: economie
+    question: economie-edf-entierement-publique
+    note: >-
+      Seule une position collective a été trouvée : le groupe LR du Sénat a voté en avril 2023 un
+      texte visant à garantir la détention publique d'EDF tout en refusant la nationalisation
+      formelle (rapporteur Gérard Longuet) ; M. Retailleau n'y est ni cité ni intervenant, et
+      aucune déclaration personnelle sur le capital d'EDF n'a été trouvée (requêtes EDF,
+      nationalisation, Hercule, démembrement, débats Sénat 2023-2024). Rien n'en est déduit.
+  - kind: NOT_FOUND
+    personality: bruno-retailleau
+    theme: economie
+    question: economie-aides-conditionnees-emploi
+    note: >-
+      Requêtes sur les contreparties en emploi des aides publiques, les remboursements après plans
+      sociaux (ArcelorMittal, Michelin, Auchan) et les livrets LR (catégories NATIONAL_MEDIA,
+      PARTY_SITE, EXISTING_CORPUS) : aucun propos de M. Retailleau sur le conditionnement des
+      aides au maintien de l'emploi en France. Le livret LR « produire plus » écarte une
+      réduction massive des aides aux entreprises sans parler de conditionnalité ; c'est un
+      document du parti, non retenu.
+  - kind: REPORTED_UNVERIFIABLE
+    personality: bruno-retailleau
+    theme: economie
+    question: economie-accords-libre-echange
+    evidence: [bruno-retailleau-economie-001]
+    note: >-
+      Aucun propos récent (moins de douze mois) lu en source primaire sur le libre-échange en
+      général. La formule rapportée par Europe 1 (« favorable au libre-échange » mais traité
+      Mercosur « injuste et dépassé ») n'est connue que par un extrait de moteur, la page
+      renvoyant une erreur 403 ; l'avertissement de censure sur le Mercosur (janvier 2026) n'est
+      lisible que dans le chapeau d'une dépêche reprise par Brut.
+signals: []

@@ -25,3 +25,509 @@
   verifiedAt: 2026-11-22
   createdAt: 2026-11-22
   updatedAt: 2026-11-22
+
+- id: fabien-roussel-immigration-001
+  personality: fabien-roussel
+  kind: POSITION
+  theme: immigration
+  question: immigration-ame-soins-urgents
+  qualification: EXPLICIT_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Les auteurs de cet amendement s'opposent à cet article qui supprime l'AME (aide médicale d'Etat)"
+  speaker: Fabien Roussel
+  context: >-
+    Amendement de suppression CL1155 de l'article 1er I du projet de loi « Pour contrôler
+    l'immigration, améliorer l'intégration » (texte n° 1855 transmis par le Sénat), examiné en
+    commission des lois de l'Assemblée nationale le 23 novembre 2023. L'article 1er I, ajouté par le
+    Sénat, remplaçait l'AME par une « aide médicale d'urgence » (AMU) ; l'exposé sommaire la juge
+    « inhumaine, dangereuse et inapplicable ». Amendement adopté.
+  verificationNotes: >-
+    PDF officiel de l'Assemblée nationale ouvert ; « M. Roussel » figure parmi les 22 signataires du
+    groupe GDR (seul député de ce nom dans le groupe en 2023, Fabien Roussel, Nord). Passage retrouvé
+    mot pour mot dans le texte en cache.
+  source: fabien-roussel-amendement-cl1155-loi-immigration-2023
+  publisher: Assemblée nationale
+  locator: { kind: amendment, value: "CL1155, exposé sommaire, 1er paragraphe" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: MEDIUM
+  actionScope: >-
+    Cosignature (18e sur 22, groupe GDR, première signataire Mme Faucillon) d'un amendement de
+    suppression de l'article 1er I du projet de loi immigration n° 1855, commission des lois, première
+    lecture à l'Assemblée nationale, 23 novembre 2023 ; résultat : adopté. L'acte établit le soutien
+    à la suppression de l'article par sa signature, non qu'il a personnellement rédigé l'exposé.
+  temporalRelevance: DATED
+  period: mandat de député (XVIe législature), débat sur la loi immigration de 2023
+  rationale:
+    attribution: >-
+      Acte individuel nominatif, mais sur un amendement collectif de groupe : confiance moyenne sur
+      l'adhésion personnelle à l'argumentaire.
+    interpretation: >-
+      L'énoncé veut limiter l'AME aux soins urgents ; l'article visé faisait précisément cela (AMU
+      restreinte). Demander sa suppression est une opposition explicite à l'énoncé.
+    temporalRelevance: >-
+      Acte de novembre 2023, sans corroboration personnelle récente retrouvée pendant la mission.
+  statedAt: { date: 2023-11-23, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-roussel-immigration
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: fabien-roussel-immigration-002
+  personality: fabien-roussel
+  kind: POSITION
+  theme: immigration
+  question: immigration-regroupement-familial-ressources
+  qualification: EXPLICIT_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Les auteurs de cet amendement souhaitent la suppression de cet article qui durcit les conditions d'accès au regroupement familial"
+  speaker: Fabien Roussel
+  context: >-
+    Amendement de suppression CL1144 de l'article 1er B du texte n° 1855 (commission des lois,
+    23 novembre 2023). L'article ajoutait notamment le mot « régulières » à la condition de ressources
+    (art. L. 434-7 du CESEDA) et excluait les aides au logement des ressources prises en compte ;
+    l'exposé s'oppose explicitement à ces deux points, ainsi qu'au relèvement de l'âge et de la durée
+    de séjour. Amendement rejeté.
+  verificationNotes: >-
+    PDF officiel ouvert ; texte de l'article 1er B vérifié dans le texte n° 1855 (PDF de l'Assemblée).
+    Passage retrouvé mot pour mot dans le texte en cache.
+  source: fabien-roussel-amendement-cl1144-loi-immigration-2023
+  publisher: Assemblée nationale
+  locator: { kind: amendment, value: "CL1144, exposé sommaire, 1er paragraphe" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: MEDIUM
+  actionScope: >-
+    Cosignature (groupe GDR) d'un amendement de suppression de l'article 1er B du projet de loi
+    immigration n° 1855, commission des lois, première lecture, 23 novembre 2023 ; résultat : rejeté.
+  temporalRelevance: DATED
+  period: mandat de député (XVIe législature), débat sur la loi immigration de 2023
+  rationale:
+    interpretation: >-
+      L'article visé rendait plus strictes les conditions de ressources du regroupement familial
+      (ressources « régulières », exclusion des APL) ; l'exposé s'y oppose point par point.
+      Opposition explicite à l'énoncé.
+    temporalRelevance: Acte de 2023, sans corroboration personnelle récente.
+  statedAt: { date: 2023-11-23, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-roussel-immigration
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: fabien-roussel-immigration-003
+  personality: fabien-roussel
+  kind: POSITION
+  theme: immigration
+  question: immigration-condamnes-perte-titre-sejour
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Cet article vise ainsi à renforcer la double peine qui consiste à condamner puis à expulser un étranger qui a commis un délit ou un crime"
+  speaker: Fabien Roussel
+  context: >-
+    Amendement de suppression CL1181 de l'article 9 du texte n° 1855 (commission des lois,
+    23 novembre 2023), qui levait les protections contre l'expulsion des étrangers « protégés »
+    condamnés pour des crimes ou délits punis d'au moins trois ans d'emprisonnement (l'exposé parle
+    de cinq ans). Amendement rejeté.
+  verificationNotes: >-
+    PDF officiel ouvert ; texte de l'article 9 vérifié dans le texte n° 1855. Écart relevé entre
+    l'exposé (« cinq ans ou plus ») et le texte transmis (« trois ans ou plus ») : l'exposé est cité
+    tel quel. Passage retrouvé mot pour mot dans le texte en cache.
+  source: fabien-roussel-amendement-cl1181-loi-immigration-2023
+  publisher: Assemblée nationale
+  locator: { kind: amendment, value: "CL1181, exposé sommaire, 3e paragraphe" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: MEDIUM
+  actionScope: >-
+    Cosignature (groupe GDR) d'un amendement de suppression de l'article 9 du projet de loi
+    immigration n° 1855 (expulsion des étrangers protégés condamnés), commission des lois, première
+    lecture, 23 novembre 2023 ; résultat : rejeté.
+  temporalRelevance: DATED
+  period: mandat de député (XVIe législature), débat sur la loi immigration de 2023
+  rationale:
+    interpretation: >-
+      L'énoncé vise la perte du titre de séjour pour toute peine de prison ferme ; l'acte porte sur
+      un instrument voisin mais distinct (expulsion des étrangers protégés condamnés au-delà d'un
+      seuil de peine encourue) et refuse la « double peine ». Opposition, mais partielle au regard de
+      l'instrument et du seuil : qualifiée.
+    temporalRelevance: Acte de 2023, sans corroboration personnelle récente.
+  statedAt: { date: 2023-11-23, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-roussel-immigration
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: fabien-roussel-immigration-004
+  personality: fabien-roussel
+  kind: POSITION
+  theme: immigration
+  question: immigration-condamnes-perte-titre-sejour
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Ils fustigent un dispositif de sanction qui confond objectif de protection de l'ordre public et lutte contre l'immigration irrégulière"
+  speaker: Fabien Roussel
+  context: >-
+    Amendement de suppression CL1148 de l'article 1er EB du texte n° 1855 (commission des lois,
+    23 novembre 2023), qui permettait de refuser ou de retirer une carte de séjour temporaire ou
+    pluriannuelle à l'étranger ayant commis certains faits pénalement réprimés (faux, trafic de
+    stupéfiants, traite, violences contre des élus ou agents publics…). Amendement rejeté.
+  verificationNotes: >-
+    PDF officiel ouvert ; texte de l'article 1er EB vérifié dans le texte n° 1855. Passage retrouvé mot
+    pour mot dans le texte en cache.
+  source: fabien-roussel-amendement-cl1148-loi-immigration-2023
+  publisher: Assemblée nationale
+  locator: { kind: amendment, value: "CL1148, exposé sommaire, 2e paragraphe" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: MEDIUM
+  actionScope: >-
+    Cosignature (groupe GDR) d'un amendement de suppression de l'article 1er EB du projet de loi
+    immigration n° 1855 (refus et retrait de cartes de séjour), commission des lois, première
+    lecture, 23 novembre 2023 ; résultat : rejeté.
+  temporalRelevance: DATED
+  period: mandat de député (XVIe législature), débat sur la loi immigration de 2023
+  rationale:
+    interpretation: >-
+      L'article visé permettait le retrait du titre pour la commission de certaines infractions,
+      sans exiger une condamnation à de la prison ferme ; l'énoncé est plus large (toute peine
+      ferme) et automatique. L'acte s'oppose au retrait de titre pour motif pénal dans ce cadre :
+      opposition qualifiée.
+    temporalRelevance: Acte de 2023, sans corroboration personnelle récente.
+  statedAt: { date: 2023-11-23, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-roussel-immigration
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: fabien-roussel-immigration-005
+  personality: fabien-roussel
+  kind: POSITION
+  theme: immigration
+  question: immigration-prestations-duree-residence
+  qualification: EXPLICIT_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Les auteurs de cet amendement s'opposent à cet article qui conditionne l'ouverture des droits aux prestations sociales non contributives"
+  speaker: Fabien Roussel
+  context: >-
+    Amendement de suppression CL1159 de l'article 1er N du texte n° 1855 (commission des lois,
+    23 novembre 2023), qui subordonnait allocations familiales, PCH, APL et DALO à cinq ans de
+    résidence pour les étrangers non ressortissants de l'Union. L'exposé poursuit : « à 5 années de
+    résidence stable et régulière ». Amendement adopté.
+  verificationNotes: >-
+    PDF officiel ouvert ; texte de l'article 1er N vérifié dans le texte n° 1855. Passage retrouvé mot
+    pour mot dans le texte en cache.
+  source: fabien-roussel-amendement-cl1159-loi-immigration-2023
+  publisher: Assemblée nationale
+  locator: { kind: amendment, value: "CL1159, exposé sommaire, 1er paragraphe" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: MEDIUM
+  actionScope: >-
+    Cosignature (groupe GDR) d'un amendement de suppression de l'article 1er N du projet de loi
+    immigration n° 1855, commission des lois, première lecture, 23 novembre 2023 ; résultat : adopté.
+  temporalRelevance: DATED
+  period: mandat de député (XVIe législature), débat sur la loi immigration de 2023
+  rationale:
+    interpretation: >-
+      Même instrument, même seuil (cinq ans) et même champ (prestations non contributives) que
+      l'énoncé : opposition explicite.
+    temporalRelevance: Acte de 2023, sans corroboration personnelle récente.
+  statedAt: { date: 2023-11-23, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-roussel-immigration
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: fabien-roussel-immigration-006
+  personality: fabien-roussel
+  kind: POSITION
+  theme: immigration
+  question: immigration-voies-legales-travail-ue
+  qualification: NO_DIRECT_EVIDENCE
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Des voies légales et sécurisées devront être ouvertes pour les migrant·e·s, en respect du droit international"
+  speaker: Fabien Roussel
+  context: >-
+    Titre de la proposition 162 du programme présidentiel 2022 « La France des Jours heureux ». La
+    suite vise les personnes « fuyant la guerre, les dictatures ou les dérèglements climatiques »,
+    l'accueil des réfugiés (Ofpra, Ofii), la dénonciation des accords du Touquet et de Dublin et la
+    ratification de la convention de l'ONU de 1990 sur les travailleurs migrants.
+  verificationNotes: >-
+    Passage relu dans le texte en cache du programme (source déjà enregistrée). Piste également
+    vue sur votons-2027.fr, non retenue comme source.
+  source: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  publisher: Fabien Roussel, campagne présidentielle 2022
+  locator: { kind: passage, value: "proposition 162" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: campagne présidentielle 2022
+  lead:
+    url: https://votons-2027.fr/candidats/roussel/programme/immigration
+    title: "Immigration · présidentielle 2027 (votons-2027.fr)"
+  rationale:
+    interpretation: >-
+      Les voies légales proposées concernent l'asile et les migrations contraintes, à l'échelle
+      française et du droit international, pas l'immigration de travail ouverte par l'Union
+      européenne : aucun lien direct avec l'énoncé.
+    temporalRelevance: Programme de la campagne 2022, cycle électoral révolu.
+  statedAt: { date: 2022-01, precision: month }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-roussel-immigration
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: fabien-roussel-immigration-007
+  personality: fabien-roussel
+  kind: POSITION
+  theme: immigration
+  question: immigration-amende-sejour-irregulier
+  qualification: EXPLICIT_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Les auteurs de cet amendement s'opposent à cet article qui rétablit le délit de séjour irrégulier"
+  speaker: Fabien Roussel
+  context: >-
+    Amendement de suppression CL1157 de l'article 1er L du texte n° 1855 (commission des lois,
+    23 novembre 2023). L'article punissait de 3 750 euros d'amende le séjour irrégulier (art.
+    L. 822-1 A nouveau du CESEDA), avec une peine complémentaire de trois ans d'interdiction du
+    territoire. Amendement « non soutenu » en commission (aucun signataire présent pour le défendre).
+  verificationNotes: >-
+    PDF officiel ouvert ; texte de l'article 1er L vérifié dans le texte n° 1855. Passage retrouvé mot
+    pour mot dans le texte en cache.
+  source: fabien-roussel-amendement-cl1157-loi-immigration-2023
+  publisher: Assemblée nationale
+  locator: { kind: amendment, value: "CL1157, exposé sommaire, 1er paragraphe" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: MEDIUM
+  actionScope: >-
+    Cosignature (groupe GDR) d'un amendement de suppression de l'article 1er L du projet de loi
+    immigration n° 1855, commission des lois, première lecture, 23 novembre 2023 ; sort : non
+    soutenu (dépôt sans défense en séance de commission).
+  temporalRelevance: DATED
+  period: mandat de député (XVIe législature), débat sur la loi immigration de 2023
+  rationale:
+    attribution: >-
+      Dépôt cosigné, mais amendement non soutenu : l'acte établit la signature, pas une défense
+      orale ; confiance moyenne.
+    interpretation: >-
+      L'article visé sanctionnait précisément le séjour irrégulier par une amende ; l'exposé s'y
+      oppose et refuse la « pénalisation croissante du droit des étrangers ». Opposition explicite.
+    temporalRelevance: Acte de 2023, sans corroboration personnelle récente.
+  statedAt: { date: 2023-11-23, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-roussel-immigration
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: fabien-roussel-immigration-008
+  personality: fabien-roussel
+  kind: POSITION
+  theme: immigration
+  question: immigration-plafond-annuel-admissions
+  qualification: EXPLICIT_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Ils réfutent cette vision populiste anti-immigration et s'opposent ainsi à l'instauration de quotas en matière migratoire"
+  speaker: Fabien Roussel
+  context: >-
+    Amendement de suppression CL1143 de l'article 1er A du texte n° 1855 (commission des lois,
+    23 novembre 2023). L'article prévoyait un débat annuel au Parlement, à l'issue duquel « le
+    Parlement détermine, pour les trois années à venir, le nombre des étrangers admis à s'installer
+    durablement en France » par catégorie, hors asile. Amendement rejeté.
+  verificationNotes: >-
+    PDF officiel ouvert ; texte de l'article 1er A vérifié dans le texte n° 1855. Passage retrouvé mot
+    pour mot dans le texte en cache.
+  source: fabien-roussel-amendement-cl1143-loi-immigration-2023
+  publisher: Assemblée nationale
+  locator: { kind: amendment, value: "CL1143, exposé sommaire, 1er paragraphe" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: MEDIUM
+  actionScope: >-
+    Cosignature (groupe GDR) d'un amendement de suppression de l'article 1er A du projet de loi
+    immigration n° 1855 (quotas fixés par le Parlement), commission des lois, première lecture,
+    23 novembre 2023 ; résultat : rejeté.
+  temporalRelevance: DATED
+  period: mandat de député (XVIe législature), débat sur la loi immigration de 2023
+  rationale:
+    interpretation: >-
+      L'article visé confiait au Parlement, après un débat annuel, la fixation du nombre d'étrangers
+      admis (sur trois ans, par catégorie) : c'est l'instrument de l'énoncé, à la périodicité près.
+      L'exposé refuse explicitement les quotas migratoires : opposition explicite.
+    temporalRelevance: Acte de 2023 ; voir aussi fabien-roussel-immigration-009 (2022), même sens.
+  statedAt: { date: 2023-11-23, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-roussel-immigration
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: fabien-roussel-immigration-009
+  personality: fabien-roussel
+  kind: POSITION
+  theme: immigration
+  question: immigration-plafond-annuel-admissions
+  qualification: QUALIFIED_OPPOSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Il faut arrêter d'hystériser le sujet. La loi française organise par secteur, une immigration en fonction des besoins dans des filières d'activité."
+  speaker: Fabien Roussel
+  context: >-
+    Matinale « Bonjour chez vous » de Public Sénat, spéciale présidentielle 2022. Réponse à la
+    proposition de quotas d'immigration de Valérie Pécresse, dont il estime « qu'ils existent déjà » ;
+    il ajoute : « Il y a des visas avec autorisation de travail qui sont accordés après étude du
+    ministère du travail ».
+  verificationNotes: >-
+    Article de Public Sénat (média diffuseur de l'émission) ouvert ; citation retrouvée mot pour mot
+    dans le texte en cache. Vidéo intégrale de l'émission non consultée : extrait choisi par la
+    rédaction.
+  source: fabien-roussel-public-senat-immigration-2022
+  publisher: Public Sénat
+  locator: { kind: paragraph, value: "dernier paragraphe" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: campagne présidentielle 2022
+  rationale:
+    sourceQuality: >-
+      Article du média diffuseur reprenant des extraits de l'entretien, non la transcription
+      intégrale : secondaire fiable.
+    interpretation: >-
+      Il rejette la proposition de quotas comme inutile (« ils existent déjà ») et dramatisée,
+      en lui opposant le système sectoriel existant ; ce n'est pas une opposition de principe
+      argumentée au plafond voté par le Parlement : opposition qualifiée.
+    temporalRelevance: Propos de la campagne 2022, cycle électoral révolu.
+  statedAt: { date: 2022-02-02, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-roussel-immigration
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: fabien-roussel-immigration-010
+  personality: fabien-roussel
+  kind: POSITION
+  theme: immigration
+  question: immigration-titre-sejour-longue-duree
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "limiter à trois renouvellements la CST entravera davantage l'accès aux cartes pluriannuelles"
+  speaker: Fabien Roussel
+  context: >-
+    Amendement de suppression CL1161 de l'article 1er bis du texte n° 1855 (commission des lois,
+    23 novembre 2023), qui interdisait plus de trois renouvellements consécutifs d'une carte de
+    séjour temporaire de même mention. L'exposé souligne que beaucoup de titulaires n'accèdent pas
+    à la carte pluriannuelle alors qu'ils en remplissent les conditions. Amendement adopté.
+  verificationNotes: >-
+    PDF officiel ouvert ; texte de l'article 1er bis vérifié dans le texte n° 1855. Passage retrouvé
+    mot pour mot dans le texte en cache.
+  source: fabien-roussel-amendement-cl1161-loi-immigration-2023
+  publisher: Assemblée nationale
+  locator: { kind: amendment, value: "CL1161, exposé sommaire" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: MEDIUM
+  actionScope: >-
+    Cosignature (groupe GDR) d'un amendement de suppression de l'article 1er bis du projet de loi
+    immigration n° 1855, commission des lois, première lecture, 23 novembre 2023 ; résultat : adopté.
+  temporalRelevance: DATED
+  period: mandat de député (XVIe législature), débat sur la loi immigration de 2023
+  rationale:
+    interpretation: >-
+      L'acte s'oppose à une restriction et défend l'accès aux titres pluriannuels (deux à quatre
+      ans) ; il ne propose pas de faciliter la carte de résident ni n'avance de mesure nouvelle.
+      Soutien qualifié, plus étroit que l'énoncé.
+    temporalRelevance: Acte de 2023, sans corroboration personnelle récente.
+  statedAt: { date: 2023-11-23, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-roussel-immigration
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: fabien-roussel-immigration-011
+  personality: fabien-roussel
+  kind: POSITION
+  theme: immigration
+  question: immigration-visas-professions-qualifiees-v2
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Ils proposent ici d'abaisser à trois mois l'occupation d'un emploi dans un établissement public ou privé à but non lucratif de santé, social ou médico-social"
+  speaker: Fabien Roussel
+  context: >-
+    Amendement CL1177 à l'article 7 du texte n° 1855 (commission des lois, 23 novembre 2023), qui
+    créait la carte pluriannuelle « talent – professions médicales et de la pharmacie ». L'amendement
+    élargit l'accès à cette carte aux praticiens à diplôme hors UE (Padhue) occupant un emploi de
+    santé depuis au moins trois mois. Amendement rejeté.
+  verificationNotes: >-
+    PDF officiel ouvert ; passage retrouvé mot pour mot dans le texte en cache.
+  source: fabien-roussel-amendement-cl1177-loi-immigration-2023
+  publisher: Assemblée nationale
+  locator: { kind: amendment, value: "CL1177, exposé sommaire, dernier paragraphe" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: MEDIUM
+  actionScope: >-
+    Cosignature (groupe GDR) d'un amendement de rédaction à l'article 7 du projet de loi immigration
+    n° 1855 (carte talent professions médicales), commission des lois, première lecture,
+    23 novembre 2023 ; résultat : rejeté.
+  temporalRelevance: DATED
+  period: mandat de député (XVIe législature), débat sur la loi immigration de 2023
+  rationale:
+    interpretation: >-
+      Assouplissement du titre de séjour d'une profession qualifiée (médecins, pharmaciens…) déjà
+      présente en France, et non des visas de travail en général : soutien qualifié, plus étroit que
+      l'énoncé. À mettre en regard de l'amendement CL1173 (même groupe) qui récuse la « doctrine
+      d'une immigration choisie » par liste de métiers.
+    temporalRelevance: Acte de 2023, sans corroboration personnelle récente.
+  statedAt: { date: 2023-11-23, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-roussel-immigration
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: fabien-roussel-immigration-012
+  personality: fabien-roussel
+  kind: POSITION
+  theme: immigration
+  question: immigration-visas-professions-qualifiees-v2
+  qualification: NO_DIRECT_EVIDENCE
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Il y a des visas avec autorisation de travail qui sont accordés après étude du ministère du travail"
+  speaker: Fabien Roussel
+  context: >-
+    Matinale « Bonjour chez vous » de Public Sénat, spéciale présidentielle 2022 ; réponse sur les
+    quotas proposés par Valérie Pécresse (voir fabien-roussel-immigration-009).
+  verificationNotes: >-
+    Citation retrouvée mot pour mot dans le texte en cache de l'article de Public Sénat ; vidéo
+    intégrale non consultée.
+  source: fabien-roussel-public-senat-immigration-2022
+  publisher: Public Sénat
+  locator: { kind: paragraph, value: "dernier paragraphe" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: campagne présidentielle 2022
+  rationale:
+    interpretation: >-
+      Description du dispositif existant, sans proposition de l'assouplir ou de le durcir, ni
+      mention des professions qualifiées : aucun lien direct avec l'énoncé.
+    temporalRelevance: Propos de la campagne 2022.
+  statedAt: { date: 2022-02-02, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-22
+  journal: 2026-11-22-campagne-roussel-immigration
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23

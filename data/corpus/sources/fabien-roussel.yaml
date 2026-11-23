@@ -185,3 +185,113 @@
   candidates:
     - fabien-roussel
   contentHash: sha256:27dcec91d7dccb64ff4a4fe588cea5514446ec1d56f2f5f927a42a827b03e7a6
+- id: fabien-roussel-amendement-cl1143-loi-immigration-2023
+  url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1143.pdf
+  title: Amendement CL1143 au projet de loi immigration n° 1855, article 1er A, quotas migratoires (Assemblée nationale, commission des lois, GDR)
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-11-23
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:081070eb25f49c3f71dde544406a0d0f6fbac4e504fa630848ab8caade547f69
+- id: fabien-roussel-amendement-cl1144-loi-immigration-2023
+  url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1144.pdf
+  title: Amendement CL1144 au projet de loi immigration n° 1855, article 1er B, regroupement familial (Assemblée nationale, commission des lois, GDR)
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-11-23
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:421915bed15345f54d045e7331567d855561362341a49cce19f42881123d5ee9
+- id: fabien-roussel-amendement-cl1148-loi-immigration-2023
+  url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1148.pdf
+  title: Amendement CL1148 au projet de loi immigration n° 1855, article 1er EB, refus et retrait de cartes de séjour (Assemblée nationale, commission des lois, GDR)
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-11-23
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:e8d233bab4af634b7022c7e8bc0e6d0aefdffb9560b7ac47ecdc55580c74a88e
+- id: fabien-roussel-amendement-cl1155-loi-immigration-2023
+  url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1155.pdf
+  title: Amendement CL1155 au projet de loi immigration n° 1855, article 1er I, suppression de l'AME (Assemblée nationale, commission des lois, GDR)
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-11-23
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:4b596832fbe99a1d31e52c77f0b772899a1df13f83e1fee5c12ff052aaca842c
+- id: fabien-roussel-amendement-cl1157-loi-immigration-2023
+  url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1157.pdf
+  title: Amendement CL1157 au projet de loi immigration n° 1855, article 1er L, délit de séjour irrégulier (Assemblée nationale, commission des lois, GDR)
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-11-23
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:6457689540c0920c06af9c2cd9c0b5b41160f38f92e56804cdf41ab8387b7585
+- id: fabien-roussel-amendement-cl1159-loi-immigration-2023
+  url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1159.pdf
+  title: Amendement CL1159 au projet de loi immigration n° 1855, article 1er N, prestations sociales et cinq ans de résidence (Assemblée nationale, commission des lois, GDR)
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-11-23
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:0630748ced7f84c48cc66fff727c7d0bf934153b3f61cb378a891ba5bdda50c9
+- id: fabien-roussel-amendement-cl1161-loi-immigration-2023
+  url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1161.pdf
+  title: Amendement CL1161 au projet de loi immigration n° 1855, article 1er bis, renouvellements de carte de séjour temporaire (Assemblée nationale, commission des lois, GDR)
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-11-23
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:acd05ea6aa7a0f0058171cbda97837721aa24678add28e4b9d2a320ade6a1997
+- id: fabien-roussel-amendement-cl1177-loi-immigration-2023
+  url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1177.pdf
+  title: Amendement CL1177 au projet de loi immigration n° 1855, article 7, carte talent professions médicales (Padhue) (Assemblée nationale, commission des lois, GDR)
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-11-23
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:757220d9797d86865049ecbb291ee6549ede3ddd3c7d9d06894bee14163c127a
+- id: fabien-roussel-amendement-cl1181-loi-immigration-2023
+  url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1181.pdf
+  title: Amendement CL1181 au projet de loi immigration n° 1855, article 9, expulsion des étrangers protégés condamnés (Assemblée nationale, commission des lois, GDR)
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-11-23
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:9b0c5fdfc38814e93faeb791e00e517d507e6f23d36cedab6f44d1437b698843
+- id: fabien-roussel-public-senat-immigration-2022
+  url: https://www.publicsenat.fr/actualites/politique/immigration-fabien-roussel-propose-la-regularisation-de-tous-les-travailleurs-sans
+  title: "Immigration : Fabien Roussel propose la régularisation de tous les travailleurs sans papiers (Public Sénat, matinale Bonjour chez vous)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2022-02-02
+    precision: day
+  accessedAt: 2026-11-22
+  candidates:
+    - fabien-roussel
+  contentHash: sha256:da16fa5f845c72e6179714b6a2d97bede18e594718c4c3f815f647e7278c0923

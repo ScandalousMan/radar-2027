@@ -1,0 +1,273 @@
+# Journal de mission (spec 008, FR-029 ; mission issue de data:gaps, spec 009 §13 bis).
+# Requêtes et sources effectivement consultées. Mission interrompue par une limite d'usage puis reprise le 2026-11-23.
+id: 2026-11-22-campagne-roussel-immigration
+mode: PERSONALITY
+author: claude
+model: opus
+request: >-
+  Mission issue de data:gaps (spec 009), mode PERSONALITY : chercher, pour Fabien Roussel et le thème
+  immigration, une prise de position personnelle en source primaire (programme, livre, discours,
+  entretien, tribune signée, vote) sur neuf questions, dans l'ordre : immigration-ame-soins-urgents,
+  immigration-regroupement-familial-ressources, immigration-condamnes-perte-titre-sejour,
+  immigration-prestations-duree-residence, immigration-voies-legales-travail-ue,
+  immigration-amende-sejour-irregulier, immigration-plafond-annuel-admissions,
+  immigration-titre-sejour-longue-duree, immigration-visas-professions-qualifiees-v2 ; enregistrer
+  les sources par data:source fetch, écrire des preuves qualifiées, consigner les absences ; ne rien
+  déduire du PCF ; ne pas écrire dans positions/, signalements.yaml ni personnalites.yaml (missions
+  parallèles) ; pas de commit.
+startedAt: 2026-11-22
+completedAt: 2026-11-23
+state: completed
+scope:
+  personalities: [fabien-roussel]
+  themes: [immigration]
+  questions:
+    - immigration-ame-soins-urgents
+    - immigration-regroupement-familial-ressources
+    - immigration-condamnes-perte-titre-sejour
+    - immigration-prestations-duree-residence
+    - immigration-voies-legales-travail-ue
+    - immigration-amende-sejour-irregulier
+    - immigration-plafond-annuel-admissions
+    - immigration-titre-sejour-longue-duree
+    - immigration-visas-professions-qualifiees-v2
+queries:
+  - at: 2026-11-22
+    query: "lecture préalable : preuves/fabien-roussel.yaml (1 preuve), personnalites.yaml (entrée fabien-roussel), questions/immigration.yaml (9 énoncés et polarités), positions/fabien-roussel.yaml (aucune position sur les 9 questions), sources/fabien-roussel.yaml (17 sources) et leurs textes en cache, journaux précédents"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-22
+    query: "recherche plein texte dans les textes en cache des 17 sources Roussel : AME, aide médicale, regroupement familial, titre de séjour, migrant, immigr, sans-papiers, visa, quota, prestations"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-22
+    query: "Fabien Roussel aide médicale d'État AME"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Fabien Roussel étrangers délinquants expulsion titre de séjour"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Fabien Roussel regroupement familial immigration entretien"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.publicsenat.fr/actualites/politique/immigration-fabien-roussel-propose-la-regularisation-de-tous-les-travailleurs-sans"
+    category: TV_RADIO_DEBATES
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.europe1.fr/politique/fabien-roussel-appelle-a-un-consensus-republicain-sur-limmigration-4185550"
+    category: TV_RADIO_DEBATES
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "amendement Jumel Lecoq Roussel Wulfranc suppression aide médicale d'urgence article projet de loi immigration 2023"
+    category: ASSEMBLEE_NATIONALE
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1155.pdf"
+    category: ASSEMBLEE_NATIONALE
+    tool: curl
+  - at: 2026-11-22
+    query: "assemblee-nationale.fr amendement 1855 CION_LOIS Faucillon Roussel supprimer article 1er A quotas plafond nombre d'étrangers admis"
+    category: ASSEMBLEE_NATIONALE
+    tool: web_search
+  - at: 2026-11-22
+    query: "parcours des amendements CL1130 à CL1185 du texte n° 1855 (commission des lois, 23 novembre 2023) et repérage de ceux signés par « M. Roussel »"
+    category: ASSEMBLEE_NATIONALE
+    tool: curl
+  - at: 2026-11-22
+    query: "https://www.assemblee-nationale.fr/dyn/16/textes/l16b1855_projet-loi.pdf (texte des articles 1er A, 1er B, 1er EB, 1er L, 1er N, 1er bis, 9)"
+    category: PARLIAMENTARY_ARCHIVES
+    tool: curl
+  - at: 2026-11-22
+    query: "Fabien Roussel immigration \"expulser\" délinquants étrangers interview 2025"
+    category: TV_RADIO_DEBATES
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:fabienroussel2027.fr immigration"
+    category: CAMPAIGN_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "Fabien Roussel juin 2026 immigration débat sans tabou BFMTV"
+    category: TV_RADIO_DEBATES
+    tool: web_search
+  - at: 2026-11-22
+    query: "\"Roussel\" immigration 2026 pcf.fr rapport conseil national immigration"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "texte en cache du congrès 2026 (discours de clôture et base commune) : recherche des passages immigration"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-22
+    query: "https://assets.nationbuilder.com/pcf/pages/40715/attachments/original/1778503668/Interv_FR_090526.pdf (intervention de Fabien Roussel au conseil national du 9 mai 2026)"
+    category: SPEECHES_PRESS_CONFERENCES
+    tool: curl
+  - at: 2026-11-22
+    query: "\"Roussel\" \"renforcer les frontières\" immigration députés insoumis"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Fabien Roussel \"AME\" \"santé publique\" déclaration loi immigration décembre 2023"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Fabien Roussel \"immigration de travail\" Union européenne voies légales migration économique"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Fabien Roussel médecins étrangers Padhue titre de séjour visa \"talent\""
+    category: ASSEMBLEE_NATIONALE
+    tool: web_search
+  - at: 2026-11-23
+    query: "recherche plein texte des doublons dans data/ : « 1855/CION_LOIS », URL Public Sénat, fragments des citations retenues"
+    category: EXISTING_CORPUS
+    tool: grep
+categoriesExplored:
+  - EXISTING_CORPUS
+  - NATIONAL_MEDIA
+  - FULL_INTERVIEWS
+  - TV_RADIO_DEBATES
+  - ASSEMBLEE_NATIONALE
+  - PARLIAMENTARY_ARCHIVES
+  - CAMPAIGN_SITE
+  - PARTY_SITE
+  - SPEECHES_PRESS_CONFERENCES
+categoriesNotExplored:
+  - category: SOCIAL_MEDIA
+    reason: Publications sous authentification (X, Facebook), non contournée (FR-049).
+  - category: ORIGINAL_VIDEOS
+    reason: Vidéos intégrales (Public Sénat 2022, BFMTV 14 juin 2026) non transcrites ; l'agent n'écoute pas l'audio.
+  - category: EUROPEAN_PARLIAMENT
+    reason: Fabien Roussel n'a pas siégé au Parlement européen.
+  - category: SENAT
+    reason: Fabien Roussel n'a pas siégé au Sénat ; les articles visés venaient du Sénat mais ses actes sont à l'Assemblée.
+  - category: FACT_CHECKING
+    reason: Non exploré faute de temps après l'interruption pour limite d'usage.
+  - category: HISTORICAL_ARCHIVES
+    reason: Amendements de séance publique (texte n° 1943, décembre 2023) et scrutin final du 19 décembre 2023 non parcourus.
+exhaustive: false
+sourcesConsulted:
+  - url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1143.pdf
+    title: Amendement CL1143 (article 1er A, quotas)
+    outcome: retained
+    source: fabien-roussel-amendement-cl1143-loi-immigration-2023
+  - url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1144.pdf
+    title: Amendement CL1144 (article 1er B, regroupement familial)
+    outcome: retained
+    source: fabien-roussel-amendement-cl1144-loi-immigration-2023
+  - url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1148.pdf
+    title: Amendement CL1148 (article 1er EB, refus et retrait de cartes de séjour)
+    outcome: retained
+    source: fabien-roussel-amendement-cl1148-loi-immigration-2023
+  - url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1155.pdf
+    title: Amendement CL1155 (article 1er I, AME)
+    outcome: retained
+    source: fabien-roussel-amendement-cl1155-loi-immigration-2023
+  - url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1157.pdf
+    title: Amendement CL1157 (article 1er L, délit de séjour irrégulier)
+    outcome: retained
+    source: fabien-roussel-amendement-cl1157-loi-immigration-2023
+  - url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1159.pdf
+    title: Amendement CL1159 (article 1er N, prestations et cinq ans de résidence)
+    outcome: retained
+    source: fabien-roussel-amendement-cl1159-loi-immigration-2023
+  - url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1161.pdf
+    title: Amendement CL1161 (article 1er bis, renouvellements de CST)
+    outcome: retained
+    source: fabien-roussel-amendement-cl1161-loi-immigration-2023
+  - url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1177.pdf
+    title: Amendement CL1177 (article 7, carte talent Padhue)
+    outcome: retained
+    source: fabien-roussel-amendement-cl1177-loi-immigration-2023
+  - url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1181.pdf
+    title: Amendement CL1181 (article 9, expulsion des étrangers protégés condamnés)
+    outcome: retained
+    source: fabien-roussel-amendement-cl1181-loi-immigration-2023
+  - url: https://www.publicsenat.fr/actualites/politique/immigration-fabien-roussel-propose-la-regularisation-de-tous-les-travailleurs-sans
+    title: "Immigration : Fabien Roussel propose la régularisation de tous les travailleurs sans papiers (Public Sénat, 2 février 2022)"
+    outcome: retained
+    source: fabien-roussel-public-senat-immigration-2022
+  - url: https://xn--ambitionsant2022-mqb.fhf.fr/medias/exe-la-france-des-jours-heureux-livre-stc-compressed-6232177c5af32228446743.pdf
+    title: Programme présidentiel 2022 « La France des Jours heureux » (déjà enregistré)
+    outcome: retained
+    source: fabien-roussel-programme-presidentielle-2022-la-france-des-jours-heureux-fa
+  - url: https://www.assemblee-nationale.fr/dyn/16/textes/l16b1855_projet-loi.pdf
+    title: Projet de loi n° 1855 transmis par le Sénat (lecture du texte des articles visés)
+    outcome: rejected
+    reason: Texte consulté pour lire les articles visés par les amendements ; ce n'est pas un acte de Fabien Roussel.
+  - url: https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1173.pdf
+    title: Amendement CL1173 (article 4 ter, métiers en tension)
+    outcome: rejected
+    reason: Lu ; cité en contexte de la preuve 011, sans lien direct avec les énoncés de la mission.
+  - url: https://www.europe1.fr/politique/fabien-roussel-appelle-a-un-consensus-republicain-sur-limmigration-4185550
+    title: Fabien Roussel appelle à un « consensus républicain » sur l'immigration (Europe 1)
+    outcome: inaccessible
+    reason: HTTP 403 à l'ouverture ; non contourné.
+  - url: https://www.europe1.fr/politique/immigration-fabien-roussel-veut-renforcer-les-frontieres-des-deputes-insoumis-agaces-4200352
+    title: Immigration, Fabien Roussel veut renforcer les frontières (Europe 1)
+    outcome: inaccessible
+    reason: Domaine renvoyant HTTP 403 ; non ouvert, extrait de moteur seulement.
+  - url: https://assets.nationbuilder.com/pcf/pages/40715/attachments/original/1778503668/Interv_FR_090526.pdf
+    title: Intervention de Fabien Roussel au conseil national du 9 mai 2026
+    outcome: rejected
+    reason: Lu ; aucun passage sur l'immigration.
+  - url: https://votons-2027.fr/candidats/roussel/programme/immigration
+    title: "Immigration · présidentielle 2027 (votons-2027.fr)"
+    outcome: rejected
+    reason: Agrégateur ; piste seulement (champ lead de la preuve 006), renvoie au programme 2022.
+  - url: https://www.elyseescope.com/candidat/fabien-roussel/immigration
+    title: Que propose Fabien Roussel sur Immigration ? (ÉlyséeScope)
+    outcome: rejected
+    reason: Agrégateur à synthèses non sourcées ; piste BFMTV du 14 juin 2026 non confirmée en source primaire.
+evidenceAdded:
+  - fabien-roussel-immigration-001
+  - fabien-roussel-immigration-002
+  - fabien-roussel-immigration-003
+  - fabien-roussel-immigration-004
+  - fabien-roussel-immigration-005
+  - fabien-roussel-immigration-006
+  - fabien-roussel-immigration-007
+  - fabien-roussel-immigration-008
+  - fabien-roussel-immigration-009
+  - fabien-roussel-immigration-010
+  - fabien-roussel-immigration-011
+  - fabien-roussel-immigration-012
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided: []
+verified:
+  - fabien-roussel-immigration-001
+  - fabien-roussel-immigration-002
+  - fabien-roussel-immigration-003
+  - fabien-roussel-immigration-004
+  - fabien-roussel-immigration-005
+  - fabien-roussel-immigration-006
+  - fabien-roussel-immigration-007
+  - fabien-roussel-immigration-008
+  - fabien-roussel-immigration-009
+  - fabien-roussel-immigration-010
+  - fabien-roussel-immigration-011
+  - fabien-roussel-immigration-012
+toVerify: []
+contradictions: []
+gaps:
+  - kind: NOT_FOUND
+    personality: fabien-roussel
+    theme: immigration
+    question: immigration-voies-legales-travail-ue
+    evidence: [fabien-roussel-immigration-006]
+    note: >-
+      Aucune prise de position personnelle sur l'ouverture par l'Union européenne de voies légales
+      d'immigration de travail, après recherches presse, entretiens, site de campagne 2027,
+      Assemblée nationale et programme 2022 ; seules des voies légales pour l'asile (programme 2022)
+      ont été trouvées.
+  - kind: HISTORICAL_ONLY
+    personality: fabien-roussel
+    theme: immigration
+    note: >-
+      Toutes les preuves trouvées datent de 2022 (campagne) ou de novembre 2023 (amendements de
+      député) ; aucune déclaration de la campagne 2027 sur ces neuf questions n'a été retrouvée en
+      source primaire.
+signals: []

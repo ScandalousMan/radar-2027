@@ -104,15 +104,19 @@
 - id: francois-ruffin
   name: François Ruffin
   party: Debout !
-  status: declared
-  statusChangedAt: 2026-04-10
-  statusSource: francois-ruffin-declaration-candidature
-  statusCriterion: declaration-publique-personnelle
+  status: withdrawn
+  statusChangedAt: 2026-11-21
+  statusSource: francois-ruffin-renoncement-candidature
+  statusCriterion: renoncement-public
   history:
     - status: declared
       at: 2026-04-10
       source: francois-ruffin-declaration-candidature
       criterion: declaration-publique-personnelle
+    - status: withdrawn
+      at: 2026-11-21
+      source: francois-ruffin-renoncement-candidature
+      criterion: renoncement-public
 - id: nicolas-dupont-aignan
   name: Nicolas Dupont-Aignan
   party: Debout la France

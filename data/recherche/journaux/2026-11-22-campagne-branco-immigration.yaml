@@ -1,0 +1,256 @@
+# Journal de mission (spec 008, FR-029 ; mission issue de data:gaps, spec 009 §13 bis).
+# Requêtes et sources effectivement consultées pour Juan Branco sur le thème immigration.
+id: 2026-11-22-campagne-branco-immigration
+mode: PERSONALITY
+author: claude
+model: opus
+request: >-
+  Mission issue de data:gaps (spec 009), mode PERSONALITY, personnalité juan-branco, thème
+  immigration, neuf questions dans l'ordre : immigration-regularisation-metiers-tension,
+  immigration-supprimer-droit-du-sol, immigration-ame-soins-urgents,
+  immigration-vote-local-etrangers-v2, immigration-condamnes-perte-titre-sejour,
+  immigration-prestations-duree-residence, immigration-voies-legales-travail-ue,
+  immigration-plafond-annuel-admissions, immigration-titre-sejour-longue-duree. Chercher pour
+  chacune une prise de position personnelle en source primaire, ouvrir l'original, enregistrer
+  une preuve qualifiée ou une lacune avec question. Agrégateurs en piste seulement. Ne rien écrire
+  dans data/corpus/positions/, signalements.yaml ni personnalites.yaml (missions parallèles) :
+  signalements éventuels mentionnés dans le compte rendu. Ni commit ni changement de branche.
+startedAt: 2026-11-22
+completedAt: 2026-11-22
+state: completed
+scope:
+  personalities: [juan-branco]
+  themes: [immigration]
+  questions:
+    - immigration-regularisation-metiers-tension
+    - immigration-supprimer-droit-du-sol
+    - immigration-ame-soins-urgents
+    - immigration-vote-local-etrangers-v2
+    - immigration-condamnes-perte-titre-sejour
+    - immigration-prestations-duree-residence
+    - immigration-voies-legales-travail-ue
+    - immigration-plafond-annuel-admissions
+    - immigration-titre-sejour-longue-duree
+queries:
+  - at: 2026-11-22
+    query: "lecture préalable : candidates.yaml (juan-branco, statusSource), questions/immigration.yaml (énoncés et polarités des neuf questions), positions/juan-branco.yaml (quatre positions immigration relues, aucune sur les neuf questions), sources/juan-branco.yaml, personnalites.yaml, preuves/juan-branco.yaml (une preuve CANDIDACY), journaux du 2026-11-22"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-22
+    query: "plein texte dans le cache du PDF « La Voie » v9 et de ruches.org/le-projet : immigr, étranger, séjour, régularis, droit du sol, nationalité, naturalis, médicale, AME, vote, quota, plafond, prestations, minima sociaux, RSA, résident, expulsion, double peine, interdiction du territoire, frontière, titre asilaire ; cache de l'entretien Aurores et de la source de statut Sud Radio"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-22
+    query: "Juan Branco immigration régularisation sans-papiers"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "\"Juan Branco\" \"droit du sol\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "\"Juan Branco\" \"aide médicale d'État\" OR AME"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Juan Branco immigration entretien 2026 programme Les Ruches migrants"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://votons-2027.fr/candidats/branco/programme/immigration"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "\"Branco\" \"sans-papiers\" avocat Juan tweet OR entretien"
+    category: SOCIAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Juan Branco immigration position interview \"immigration\" présidentielle 2027 candidat (recherche étendue)"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-22
+    query: "site:ruches.org immigration"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://monvote2027.fr/candidat/branco"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "https://www.thinkerview.com/juan-branco-sans-filtre-avant-les-presidentielles/"
+    category: ORIGINAL_VIDEOS
+    tool: web_fetch
+  - at: 2026-11-22
+    query: "Juan Branco \"immigration\" \"Le Media\" OR \"Sud Radio\" OR \"Frontières\" entretien migrants extrême droite"
+    category: TV_RADIO_DEBATES
+    tool: web_search
+  - at: 2026-11-22
+    query: "Juan Branco régularisation \"métiers en tension\""
+    category: PRESS_AGENCIES
+    tool: web_search
+  - at: 2026-11-22
+    query: "\"Juan Branco\" \"vote des étrangers\" OR \"préférence nationale\" OR \"double peine\" OR \"quotas migratoires\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "Juan Branco X migrants Méditerranée immigration déclaration 2026"
+    category: SOCIAL_MEDIA
+    tool: web_search
+  - at: 2026-11-22
+    query: "aurores.org Juan Branco immigration étrangers"
+    category: PERSONAL_SITE
+    tool: web_search
+  - at: 2026-11-22
+    query: "Juan Branco livre \"immigration\" Crépuscule OR \"Coup d'État\" OR \"Treize pas\" étrangers position"
+    category: HISTORICAL_ARCHIVES
+    tool: web_search
+  - at: 2026-11-22
+    query: "https://ruches.org/le-projet (lien vers le PDF, mesures immigration)"
+    category: CAMPAIGN_SITE
+    tool: web_fetch
+categoriesExplored: [EXISTING_CORPUS, NATIONAL_MEDIA, PRESS_AGENCIES, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, SOCIAL_MEDIA, PARTY_SITE, ORIGINAL_VIDEOS, TV_RADIO_DEBATES, PERSONAL_SITE, HISTORICAL_ARCHIVES, CAMPAIGN_SITE]
+categoriesNotExplored:
+  - category: ASSEMBLEE_NATIONALE
+    reason: Juan Branco n'est pas et n'a pas été député ; aucune activité parlementaire à rechercher.
+  - category: SENAT
+    reason: Juan Branco n'est pas sénateur.
+  - category: EUROPEAN_PARLIAMENT
+    reason: Juan Branco n'est pas député européen.
+  - category: GOVERNMENT
+    reason: Aucune fonction gouvernementale.
+  - category: FACT_CHECKING
+    reason: Mission bornée ; non exploré.
+  - category: REGIONAL_MEDIA
+    reason: Mission bornée ; non exploré.
+  - category: ACADEMIC
+    reason: Mission bornée ; travaux universitaires de l'intéressé (droit international pénal) non consultés.
+exhaustive: false
+sourcesConsulted:
+  - url: https://media.ruches.org/projet-1784217879253.pdf
+    title: "La Voie : pour sauver le peuple français (« Le Projet » version 9, Les Ruches, PDF), texte en cache"
+    outcome: retained
+    source: juan-branco-la-voie-programme-2027
+  - url: https://ruches.org/le-projet
+    title: "Le Projet 2027 : programme en 6 piliers (Les Ruches), page rouverte le 2026-11-22"
+    outcome: rejected
+    reason: >-
+      Page de présentation qui renvoie au même PDF (/projet-1784217879253.pdf) et reprend les mêmes
+      mesures ; le texte en cache de l'enregistrement juan-branco-le-projet-2027 ne contient pas le
+      volet immigration. La preuve s'appuie sur le PDF.
+  - url: https://aurores.org/entretien-avec-juan-branco-cela-risque-de-tres-mal-se-finir/
+    title: "Entretien avec Juan Branco : « cela risque de très mal se finir » (Aurores), texte en cache"
+    outcome: rejected
+    reason: Aucun propos sur les neuf questions (seule mention d'une « offensive identitaire ou religieuse extérieure », sans lien avec les énoncés).
+  - url: https://www.sudradio.fr/sud-radio/lavocat-juan-branco-candidat-a-la-presidentielle
+    title: L'avocat Juan Branco candidat à la présidentielle (Sud Radio), texte en cache
+    outcome: rejected
+    reason: Source de statut ; aucun propos sur l'immigration.
+  - url: https://votons-2027.fr/candidats/branco/programme/immigration
+    title: Programme de Juan Branco (Ruches) sur l'immigration (Votons 2027)
+    outcome: rejected
+    reason: >-
+      Agrégateur de programmes (hors liste aggregatorDomains mais de même nature), piste seulement :
+      toutes ses mesures renvoient à ruches.org/le-projet, déjà lu ; aucune mesure supplémentaire.
+  - url: https://monvote2027.fr/candidat/branco
+    title: "Juan Branco : programme et positions (MonVote2027)"
+    outcome: rejected
+    reason: >-
+      Domaine d'agrégateur déclaré (aggregatorDomains), piste seulement : affiche « Plutôt contre »
+      sur la fin du droit du sol, la suppression de l'AME et le délai de cinq ans pour les aides
+      sociales, sans aucune source citée ; position inconnue sur le vote des étrangers. Aucune
+      source primaire retrouvée derrière ces mentions ; non repris.
+  - url: https://www.thinkerview.com/juan-branco-sans-filtre-avant-les-presidentielles/
+    title: "Juan Branco sans filtre ? Avant les présidentielles (Thinkerview, 13 mai 2025)"
+    outcome: rejected
+    reason: >-
+      Page sans transcription ni chapitrage ; vidéo de plusieurs heures (https://www.youtube.com/watch?v=OJORL8TtRoc)
+      non écoutée, aucune transcription disponible : contenu sur l'immigration non établi.
+  - url: https://presidentielle-france.fr/candidats/juan-branco/
+    title: "Juan Branco : programme 2027, positions et parcours (presidentielle-france.fr)"
+    outcome: rejected
+    reason: >-
+      Agrégateur vu en extrait de moteur de recherche seulement, non ouvert ; les comparateurs vus en
+      extrait se contredisent (réduction de l'immigration légale / ouverture des frontières) et
+      prêtent sans source une opposition à la restriction du droit du sol et un soutien à la
+      régularisation des métiers en tension. Piste seulement.
+evidenceAdded:
+  - juan-branco-immigration-001
+  - juan-branco-immigration-002
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided:
+  - evidence: juan-branco-immigration-001
+    note: >-
+      Recherche plein texte de « critères objectivables » et « titre asilaire » dans
+      data/recherche/preuves et data/corpus/positions : aucune occurrence ; les quatre positions
+      immigration existantes (même PDF) portent d'autres phrases et d'autres questions.
+verified:
+  - "juan-branco-immigration-001 : « Mise en place de critères objectivables d'intégration concernant les étrangers, accompagnée d'obligations de service à la nation, dans le cadre des régularisations de personnes dénuées de titres de séjour. » retrouvé mot pour mot (1 occurrence) dans le cache du PDF."
+  - "juan-branco-immigration-002 : « … et réactualisation quinquennale du titre asilaire pour ces derniers. » retrouvé mot pour mot (1 occurrence) dans le cache du PDF."
+toVerify:
+  - "Entretien Thinkerview du 13 mai 2025 (et « Légitime colère ? ») : écouter ou obtenir une transcription pour repérer d'éventuels propos sur l'immigration."
+  - "Comptes de réseaux sociaux de Juan Branco (X, Telegram) : non consultés directement (authentification) ; propos éventuels sur le droit du sol, l'AME ou les régularisations."
+  - "Origine des mentions « Plutôt contre » de MonVote2027 sur le droit du sol, l'AME et le délai de cinq ans pour les prestations : aucune source affichée."
+contradictions: []
+gaps:
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: immigration
+    question: immigration-supprimer-droit-du-sol
+    note: >-
+      19 requêtes sur 12 catégories (dont « "Juan Branco" "droit du sol" », programme et site du
+      mouvement, entretiens, réseaux sociaux par moteur, livres) : aucune occurrence de « droit du
+      sol », « nationalité » ni « naturalisation » dans le PDF du programme ; aucun propos primaire.
+      Seul un agrégateur (MonVote2027) affiche une position, sans source.
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: immigration
+    question: immigration-ame-soins-urgents
+    note: >-
+      Même recherche, dont « "Juan Branco" "aide médicale d'État" OR AME » : aucune mention de l'AME
+      dans le programme (volet santé lu par plein texte) ni dans les sources ouvertes. Seul un
+      agrégateur affiche une position, sans source.
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: immigration
+    question: immigration-vote-local-etrangers-v2
+    note: >-
+      Même recherche, dont « "Juan Branco" "vote des étrangers" » : le programme ne traite le vote
+      qu'au titre des citoyens (vote obligatoire, inscription automatique, RIC) sans mention des
+      résidents étrangers. Aucun propos primaire.
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: immigration
+    question: immigration-condamnes-perte-titre-sejour
+    note: >-
+      Même recherche, dont « "double peine" » : le programme prévoit des TIG pour infraction au
+      séjour et une réduction des temps de rétention, sans rien sur le retrait du titre des
+      étrangers condamnés ; aucune occurrence d'« expulsion » (hors services de renseignement) ni
+      d'« interdiction du territoire ».
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: immigration
+    question: immigration-prestations-duree-residence
+    note: >-
+      Même recherche, dont « "préférence nationale" » : le programme prévoit la déconditionnalisation
+      du RSA et l'attribution automatique des minima sociaux sans aucune mention de nationalité ou de
+      durée de résidence ; aucun propos sur un délai pour les étrangers. Seul un agrégateur affiche
+      une position, sans source.
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: immigration
+    question: immigration-voies-legales-travail-ue
+    note: >-
+      Même recherche : le programme prévoit une « politique d'attractivité en faveur des individus à
+      haut niveau de qualification » de portée nationale (déjà transcrite pour
+      immigration-visas-professions-qualifiees-v2) et un référendum sur l'appartenance à l'UE, mais
+      rien sur des voies légales de travail ouvertes par l'Union européenne.
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: immigration
+    question: immigration-plafond-annuel-admissions
+    note: >-
+      Même recherche, dont « "quotas migratoires" » : aucune occurrence de plafond ou quota migratoire
+      dans le programme (les « quotas » cités portent sur les parrainages, les boursiers et la pêche).
+      Un comparateur vu en extrait lui prête un refus des plafonds, sans source ; non retenu.
+signals: []

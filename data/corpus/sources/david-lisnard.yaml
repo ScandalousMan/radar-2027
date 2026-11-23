@@ -273,3 +273,36 @@
   candidates:
     - david-lisnard
   contentHash: sha256:dbb3a1060f1d1043dba2dd5b0aa31d245c96ef912216a7351174846642c336f0
+- id: david-lisnard-entretien-lettre-made-in-france-2026-05
+  url: https://www.institutmolinari.org/wp-content/uploads/2026/05/2026-05-07-LA-LETTRE-DU-MADE-IN-FRANCE.pdf
+  title: "David Lisnard : « la réindustrialisation est une priorité nationale » (La Lettre du Made in France, 7 mai 2026, fac-similé Institut Molinari)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-07
+    precision: day
+  accessedAt: 2026-11-23
+  candidates:
+    - david-lisnard
+  contentHash: sha256:dbd030ce771e5eeb88b865a4324497882eaa0f791e5583f397ac02549b58f9af
+- id: david-lisnard-nouvelle-energie-faq-liberte-economique
+  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-defend-la-liberte-economique/
+  title: "Nouvelle Énergie, FAQ : Quel candidat défend la liberté économique ? (citations datées de David Lisnard)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-23
+  candidates:
+    - david-lisnard
+  contentHash: sha256:725f099bc2f64af54e36b0865fb1fc44da8c0c8dbeaa9f39694b97b724df3160
+- id: david-lisnard-nouvelle-energie-faq-subventions-entreprises
+  url: https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-supprimer-les-subventions-aux-entreprises/
+  title: "Nouvelle Énergie, FAQ : Quel candidat veut supprimer les subventions aux entreprises ? (citations datées de David Lisnard)"
+  kind: declaration_vote
+  publishedAt:
+    date: "2026"
+    precision: year
+  accessedAt: 2026-11-23
+  candidates:
+    - david-lisnard
+  contentHash: sha256:419c2057e586a25f9b64235792e0ea85ffc08282414c75df54e074b5a38c6e95

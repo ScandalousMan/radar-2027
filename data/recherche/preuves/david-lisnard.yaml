@@ -25,3 +25,237 @@
   verifiedAt: 2026-11-22
   createdAt: 2026-11-22
   updatedAt: 2026-11-22
+- id: david-lisnard-economie-001
+  personality: david-lisnard
+  kind: POSITION
+  theme: economie
+  question: economie-accords-libre-echange
+  qualification: CONDITIONAL_POSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "La France exige de ses industriels et agriculteurs le respect des normes sociales, environnementales et sanitaires les plus strictes au monde, et laisse entrer librement des produits qui ne les respectent pas. Cela s'appelle une asymétrie de concurrence, pas du libre-échange."
+  speaker: David Lisnard
+  context: >-
+    Entretien écrit exclusif accordé à La Lettre du Made in France (7 mai 2026), réponse à la
+    question « Comment inciter durablement les consommateurs et les entreprises à favoriser le Made
+    in France, sans tomber dans le protectionnisme ? ». La réponse commence par une critique du
+    protectionnisme (il « enchérit les prix ») puis ajoute qu'il ne faut pas être naïfs et que l'on a
+    trop longtemps confondu libre-échange et désarmement unilatéral ; le passage cité suit.
+  verificationNotes: >-
+    Passage lu dans le fac-similé PDF de la newsletter publié par l'Institut Molinari (page 2,
+    colonne de droite). Texte OCR remis dans l'ordre des colonnes (transcription enregistrée avec
+    --from-file) ; la phrase citée ne contient ni coupure de ligne ni erreur d'OCR. Citation
+    retrouvée mot pour mot dans le texte en cache.
+  source: david-lisnard-entretien-lettre-made-in-france-2026-05
+  publisher: La Lettre du Made in France (fac-similé Institut Molinari)
+  locator: { kind: passage, value: "page 2, colonne de droite, réponse sur le Made in France et le protectionnisme" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: "Entretien écrit reproduit intégralement en fac-similé des pages d'origine (p. 3-4) : source primaire pour les propos de l'intéressé."
+    interpretation: >-
+      L'énoncé demande que l'UE conclue davantage d'accords de libre-échange. Lisnard ne rejette
+      pas le libre-échange (il critique le protectionnisme dans la même réponse) mais refuse les
+      échanges sans réciprocité des normes, qu'il ne tient pas pour du libre-échange. Soutien
+      subordonné à une condition de réciprocité, sans engagement à multiplier les accords :
+      CONDITIONAL_POSITION.
+  statedAt: { date: 2026-05-07, precision: day }
+  researchedAt: 2026-11-23
+  verifiedAt: 2026-11-23
+  journal: 2026-11-22-campagne-lisnard-economie
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+- id: david-lisnard-economie-002
+  personality: david-lisnard
+  kind: POSITION
+  theme: economie
+  question: economie-accords-libre-echange
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: UNVERIFIED_QUOTE
+  quote: "des règles communes et des accords commerciaux équilibrés"
+  speaker: David Lisnard
+  context: >-
+    Fragment de son livre « Ainsi va la France », cité par la FAQ de son parti : il défend
+    « l'échange libre », reproche au protectionnisme de confondre réciprocité et fermeture des
+    frontières et veut combattre le dumping par des règles communes et des accords commerciaux
+    équilibrés.
+  verificationNotes: >-
+    Fragment retrouvé mot pour mot dans la page FAQ (texte en cache), mais le livre lui-même n'a pas
+    été ouvert : ni page ni date du texte d'origine. Citation laissée non vérifiée tant que le livre
+    n'est pas consulté.
+  source: david-lisnard-nouvelle-energie-faq-liberte-economique
+  publisher: Nouvelle Énergie
+  locator: { kind: passage, value: "rubrique « Libre-échange ou protectionnisme ? »" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: MEDIUM
+  temporalRelevance: UNDETERMINED
+  rationale:
+    sourceQuality: "Page de son parti qui rapporte un fragment de son livre ; le livre (source primaire) n'a pas été ouvert."
+    attribution: "Livre signé par l'intéressé, mais connu ici par une citation de seconde main : confiance moyenne."
+    interpretation: >-
+      Soutien à des accords commerciaux « équilibrés », plus étroit que l'énoncé (davantage
+      d'accords, sans condition) : QUALIFIED_SUPPORT.
+    temporalRelevance: "Date du texte du livre non indiquée par la FAQ : statedAt inconnu."
+  statedAt: unknown
+  researchedAt: 2026-11-23
+  verifiedAt: 2026-11-23
+  journal: 2026-11-22-campagne-lisnard-economie
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+- id: david-lisnard-economie-003
+  personality: david-lisnard
+  kind: POSITION
+  theme: economie
+  question: economie-accords-libre-echange
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: SOURCE_INACCESSIBLE
+  paraphrase: >-
+    Dans un entretien à Europe 1 et CNews, alors président de l'Association des maires de France,
+    il aurait jugé l'accord UE-Mercosur non signable en l'état, en reliant ce refus aux
+    surtranspositions françaises imposées aux éleveurs.
+  speaker: David Lisnard
+  context: >-
+    Entretien Europe 1-CNews, à la veille d'une réunion ministérielle à Bruxelles sur la colère
+    agricole ; date exacte non établie (période de sa présidence de l'AMF).
+  verificationNotes: >-
+    Contenu connu seulement par l'extrait du moteur de recherche ; la page d'Europe 1 renvoie une
+    erreur 403 à l'outil de lecture. Aucune citation n'est reprise entre guillemets.
+  unregisteredSource:
+    url: https://www.europe1.fr/node/877738
+    title: Entretien de David Lisnard sur Europe 1-CNews (accord UE-Mercosur)
+    publisher: Europe 1
+    reason: page refusée à l'outil de lecture (HTTP 403), non contournée
+  publisher: Europe 1
+  sourceQuality: D_UNVERIFIED_OR_INACCESSIBLE
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: LOW
+  temporalRelevance: UNDETERMINED
+  rationale:
+    interpretation: >-
+      Opposition à un accord précis en l'état, non à la conclusion d'accords en général : opposition
+      partielle à l'énoncé, cohérente avec la condition de réciprocité de economie-001.
+    temporalRelevance: "Date de l'entretien non établie."
+  statedAt: unknown
+  researchedAt: 2026-11-23
+  verifiedAt: 2026-11-23
+  journal: 2026-11-22-campagne-lisnard-economie
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+- id: david-lisnard-economie-004
+  personality: david-lisnard
+  kind: POSITION
+  theme: economie
+  question: economie-participations-etat-industrie
+  qualification: QUALIFIED_OPPOSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Nous ne défendons ni la planification colbertiste ni la politique des champions désignés"
+  speaker: David Lisnard
+  context: >-
+    Même entretien (7 mai 2026), réponse à « Comment conciliez-vous votre attachement au libéralisme
+    économique avec la défense d'une politique industrielle souveraine ? ». Il ajoute que le bilan de
+    cette politique « parle de lui-même » (Alstom, Péchiney, STX) et qu'une politique de souveraineté
+    garantit à l'État les moyens d'agir en cas de défaillance systémique. Plus haut, il écrit que
+    l'État n'a pas à se substituer au marché ni à désigner des champions par décret (phrase non
+    citée ici à cause d'une erreur d'OCR).
+  verificationNotes: >-
+    Passage lu dans le fac-similé (page 2, colonne de droite) ; citation retrouvée mot pour mot dans
+    le texte en cache.
+  source: david-lisnard-entretien-lettre-made-in-france-2026-05
+  publisher: La Lettre du Made in France (fac-similé Institut Molinari)
+  locator: { kind: passage, value: "page 2, colonne de droite, réponse sur libéralisme et politique industrielle souveraine" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      L'énoncé porte sur l'instrument « prises de participation de l'État » dans des entreprises
+      industrielles stratégiques. Lisnard rejette la politique des champions désignés par l'État et
+      la planification, sans parler explicitement de participations au capital, et réserve à l'État
+      un rôle en cas de défaillance systémique : opposition avec réserve, QUALIFIED_OPPOSITION.
+  statedAt: { date: 2026-05-07, precision: day }
+  researchedAt: 2026-11-23
+  verifiedAt: 2026-11-23
+  journal: 2026-11-22-campagne-lisnard-economie
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+- id: david-lisnard-economie-005
+  personality: david-lisnard
+  kind: POSITION
+  theme: economie
+  question: economie-controle-rachats-etrangers
+  qualification: NO_DIRECT_EVIDENCE
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Il suppose un État régalien fort, qui ne dirige pas l'économie mais protège nos approvisionnements et nos capacités industrielles stratégiques."
+  speaker: David Lisnard
+  context: >-
+    Même entretien (7 mai 2026), même réponse sur libéralisme et souveraineté industrielle : le
+    libéralisme « suppose » un État régalien fort. Il cite plus loin la cession d'Alstom à General
+    Electric parmi les échecs d'une politique de champions, en l'imputant à une procédure antitrust
+    mal anticipée.
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache (page 2, colonne de droite)."
+  source: david-lisnard-entretien-lettre-made-in-france-2026-05
+  publisher: La Lettre du Made in France (fac-similé Institut Molinari)
+  locator: { kind: passage, value: "page 2, colonne de droite, début de la réponse sur libéralisme et politique industrielle souveraine" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      Protéger les capacités industrielles stratégiques est un objectif voisin, mais aucun instrument
+      n'est nommé (contrôle des investissements étrangers, autorisation préalable, seuils) et rien ne
+      dit qu'il faut renforcer le contrôle existant : NO_DIRECT_EVIDENCE.
+  statedAt: { date: 2026-05-07, precision: day }
+  researchedAt: 2026-11-23
+  verifiedAt: 2026-11-23
+  journal: 2026-11-22-campagne-lisnard-economie
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+- id: david-lisnard-economie-006
+  personality: david-lisnard
+  kind: POSITION
+  theme: economie
+  question: economie-aides-conditionnees-emploi
+  qualification: NO_DIRECT_EVIDENCE
+  candidacyStatus: DECLARED
+  quoteStatus: UNVERIFIED_QUOTE
+  quote: "nous cesserons de subventionner les entreprises pour compenser les charges"
+  speaker: David Lisnard
+  context: >-
+    Propos du grand meeting de Saint-Raphaël (3 juillet 2026), cités par la FAQ de son parti : il
+    propose de remplacer les subventions qui compensent des charges par une baisse directe de la
+    fiscalité et des charges.
+  verificationNotes: >-
+    Fragment retrouvé mot pour mot dans la page FAQ (texte en cache). La page renvoie à deux vidéos
+    YouTube horodatées (watch?v=f3-ZBwDk9a8&t=4232 et watch?v=mTXT5_TP2v8&t=2420) dont aucune
+    transcription n'a été ouverte ; la correspondance entre lien et propos n'est pas établie.
+    Citation à confirmer à l'écoute.
+  source: david-lisnard-nouvelle-energie-faq-subventions-entreprises
+  publisher: Nouvelle Énergie
+  locator: { kind: passage, value: "rubrique « Ce que David Lisnard a dit »" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: "Page de son parti qui rapporte un fragment de meeting ; enregistrement original non écouté."
+    interpretation: >-
+      Il veut supprimer les aides compensatoires, pas les conditionner : le maintien de l'emploi en
+      France comme condition des aides n'est pas abordé. Aucun lien direct avec l'énoncé :
+      NO_DIRECT_EVIDENCE.
+  statedAt: { date: 2026-07-03, precision: day }
+  researchedAt: 2026-11-23
+  verifiedAt: 2026-11-23
+  journal: 2026-11-22-campagne-lisnard-economie
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
