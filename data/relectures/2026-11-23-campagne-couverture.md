@@ -7,6 +7,8 @@
 
 Quatre missions candidat × thème menées à terme, choisies parmi celles de plus fort gain dans `data/reports/trous/` (une par candidat pour éviter les écritures concurrentes) : David Lisnard × Économie, Fabien Roussel × Immigration, Bruno Retailleau × Économie, Juan Branco × Immigration. La mission François Ruffin × Justice a été abandonnée : il a retiré sa candidature le 21 novembre 2026 (section 3).
 
+**Décisions déjà prises** : cosignatures d’amendements de Roussel retenues comme positions, valeurs −2 conservées (adrien, 2026-11-23).
+
 **Comment relire** : pour chaque position, valider la valeur ou indiquer la valeur corrigée (ou « inconnue »). Les positions validées passent en `reviewed` par `pnpm data:review <candidat> <question> --by adrien`. Seules les positions relues entrent dans une publication.
 
 ## 1. Positions proposées (13, statut `draft`)
@@ -73,7 +75,7 @@ Quatre missions candidat × thème menées à terme, choisies parmi celles de pl
 - **Citation** : « Les auteurs de cet amendement s'opposent à cet article qui supprime l'AME (aide médicale d'Etat) »
 - **Source** : [Amendement CL1155 au projet de loi immigration n° 1855, article 1er I, suppression de l'AME (Assemblée nationale, commission des lois, GDR)](https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1155.pdf) (`fabien-roussel-amendement-cl1155-loi-immigration-2023`, declaration_vote, 2023-11-23)
 - **Justification** : Amendement de suppression cosigné en 2023 contre l'article qui remplaçait l'aide médicale d'État par une aide limitée aux urgences ; position de groupe, datée.
-- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023) : à décider si une cosignature de groupe vaut position personnelle, et si −2 doit être atténué en −1 (ancienneté, caractère collectif).
+- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023). **Décision d’adrien (2026-11-23)** : la cosignature vaut position personnelle et les valeurs −2 sont conservées.
 
 - [ ] valeur validée  · valeur corrigée : ____
 
@@ -83,7 +85,7 @@ Quatre missions candidat × thème menées à terme, choisies parmi celles de pl
 - **Citation** : « Les auteurs de cet amendement souhaitent la suppression de cet article qui durcit les conditions d'accès au regroupement familial »
 - **Source** : [Amendement CL1144 au projet de loi immigration n° 1855, article 1er B, regroupement familial (Assemblée nationale, commission des lois, GDR)](https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1144.pdf) (`fabien-roussel-amendement-cl1144-loi-immigration-2023`, declaration_vote, 2023-11-23)
 - **Justification** : Amendement de suppression cosigné en 2023 contre le durcissement des conditions de ressources du regroupement familial ; position de groupe, datée.
-- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023) : à décider si une cosignature de groupe vaut position personnelle, et si −2 doit être atténué en −1 (ancienneté, caractère collectif).
+- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023). **Décision d’adrien (2026-11-23)** : la cosignature vaut position personnelle et les valeurs −2 sont conservées.
 
 - [ ] valeur validée  · valeur corrigée : ____
 
@@ -93,7 +95,7 @@ Quatre missions candidat × thème menées à terme, choisies parmi celles de pl
 - **Citation** : « Ils fustigent un dispositif de sanction qui confond objectif de protection de l'ordre public et lutte contre l'immigration irrégulière »
 - **Source** : [Amendement CL1148 au projet de loi immigration n° 1855, article 1er EB, refus et retrait de cartes de séjour (Assemblée nationale, commission des lois, GDR)](https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1148.pdf) (`fabien-roussel-amendement-cl1148-loi-immigration-2023`, declaration_vote, 2023-11-23)
 - **Justification** : Amendement cosigné en 2023 contre le refus et le retrait de titres pour motif d'ordre public, sans viser précisément le cas d'une peine de prison ferme ; position de groupe, datée.
-- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023) : à décider si une cosignature de groupe vaut position personnelle, et si −2 doit être atténué en −1 (ancienneté, caractère collectif).
+- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023). **Décision d’adrien (2026-11-23)** : la cosignature vaut position personnelle et les valeurs −2 sont conservées.
 
 - [ ] valeur validée  · valeur corrigée : ____
 
@@ -103,7 +105,7 @@ Quatre missions candidat × thème menées à terme, choisies parmi celles de pl
 - **Citation** : « Les auteurs de cet amendement s'opposent à cet article qui conditionne l'ouverture des droits aux prestations sociales non contributives »
 - **Source** : [Amendement CL1159 au projet de loi immigration n° 1855, article 1er N, prestations sociales et cinq ans de résidence (Assemblée nationale, commission des lois, GDR)](https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1159.pdf) (`fabien-roussel-amendement-cl1159-loi-immigration-2023`, declaration_vote, 2023-11-23)
 - **Justification** : Amendement de suppression cosigné en 2023 contre la condition de cinq ans de résidence pour les prestations non contributives ; position de groupe, datée.
-- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023) : à décider si une cosignature de groupe vaut position personnelle, et si −2 doit être atténué en −1 (ancienneté, caractère collectif).
+- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023). **Décision d’adrien (2026-11-23)** : la cosignature vaut position personnelle et les valeurs −2 sont conservées.
 
 - [ ] valeur validée  · valeur corrigée : ____
 
@@ -113,7 +115,7 @@ Quatre missions candidat × thème menées à terme, choisies parmi celles de pl
 - **Citation** : « Les auteurs de cet amendement s'opposent à cet article qui rétablit le délit de séjour irrégulier »
 - **Source** : [Amendement CL1157 au projet de loi immigration n° 1855, article 1er L, délit de séjour irrégulier (Assemblée nationale, commission des lois, GDR)](https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1157.pdf) (`fabien-roussel-amendement-cl1157-loi-immigration-2023`, declaration_vote, 2023-11-23)
 - **Justification** : Amendement de suppression cosigné en 2023 contre le rétablissement du délit de séjour irrégulier puni d'amende ; position de groupe, datée.
-- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023) : à décider si une cosignature de groupe vaut position personnelle, et si −2 doit être atténué en −1 (ancienneté, caractère collectif).
+- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023). **Décision d’adrien (2026-11-23)** : la cosignature vaut position personnelle et les valeurs −2 sont conservées.
 
 - [ ] valeur validée  · valeur corrigée : ____
 
@@ -123,7 +125,7 @@ Quatre missions candidat × thème menées à terme, choisies parmi celles de pl
 - **Citation** : « Ils réfutent cette vision populiste anti-immigration et s'opposent ainsi à l'instauration de quotas en matière migratoire »
 - **Source** : [Amendement CL1143 au projet de loi immigration n° 1855, article 1er A, quotas migratoires (Assemblée nationale, commission des lois, GDR)](https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1143.pdf) (`fabien-roussel-amendement-cl1143-loi-immigration-2023`, declaration_vote, 2023-11-23)
 - **Justification** : Amendement de suppression cosigné en 2023 contre la fixation par le Parlement du nombre d'étrangers admis chaque année ; position de groupe, datée.
-- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023) : à décider si une cosignature de groupe vaut position personnelle, et si −2 doit être atténué en −1 (ancienneté, caractère collectif).
+- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023). **Décision d’adrien (2026-11-23)** : la cosignature vaut position personnelle et les valeurs −2 sont conservées.
 
 - [ ] valeur validée  · valeur corrigée : ____
 
@@ -133,7 +135,7 @@ Quatre missions candidat × thème menées à terme, choisies parmi celles de pl
 - **Citation** : « limiter à trois renouvellements la CST entravera davantage l'accès aux cartes pluriannuelles »
 - **Source** : [Amendement CL1161 au projet de loi immigration n° 1855, article 1er bis, renouvellements de carte de séjour temporaire (Assemblée nationale, commission des lois, GDR)](https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1161.pdf) (`fabien-roussel-amendement-cl1161-loi-immigration-2023`, declaration_vote, 2023-11-23)
 - **Justification** : Amendement cosigné en 2023 contre la limitation des renouvellements de la carte de séjour temporaire, au nom de l'accès aux cartes pluriannuelles ; position de groupe, datée.
-- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023) : à décider si une cosignature de groupe vaut position personnelle, et si −2 doit être atténué en −1 (ancienneté, caractère collectif).
+- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023). **Décision d’adrien (2026-11-23)** : la cosignature vaut position personnelle et les valeurs −2 sont conservées.
 
 - [ ] valeur validée  · valeur corrigée : ____
 
@@ -143,7 +145,7 @@ Quatre missions candidat × thème menées à terme, choisies parmi celles de pl
 - **Citation** : « Ils proposent ici d'abaisser à trois mois l'occupation d'un emploi dans un établissement public ou privé à but non lucratif de santé, social ou médico-social »
 - **Source** : [Amendement CL1177 au projet de loi immigration n° 1855, article 7, carte talent professions médicales (Padhue) (Assemblée nationale, commission des lois, GDR)](https://www.assemblee-nationale.fr/dyn/16/amendements/1855/CION_LOIS/CL1177.pdf) (`fabien-roussel-amendement-cl1177-loi-immigration-2023`, declaration_vote, 2023-11-23)
 - **Justification** : Amendement cosigné en 2023 pour abaisser la durée d'emploi exigée des médecins diplômés hors UE, assouplissement limité à ces professions ; position de groupe, datée.
-- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023) : à décider si une cosignature de groupe vaut position personnelle, et si −2 doit être atténué en −1 (ancienneté, caractère collectif).
+- **Point d’attention** : Cosignature d’un amendement du groupe GDR en commission des lois (projet de loi immigration n° 1855, 23 novembre 2023). **Décision d’adrien (2026-11-23)** : la cosignature vaut position personnelle et les valeurs −2 sont conservées.
 
 - [ ] valeur validée  · valeur corrigée : ____
 
