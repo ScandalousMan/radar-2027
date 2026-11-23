@@ -1,7 +1,8 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useCallback, useContext, useEffect, useId, useLayoutEffect, useRef, useState, type FocusEvent, type PointerEvent } from 'react';
+import { createPortal } from 'react-dom';
+import { useCallback, useContext, useEffect, useId, useLayoutEffect, useRef, useState, useSyncExternalStore, type FocusEvent, type PointerEvent } from 'react';
 import { DefinedTermGroupContext } from './DefinedTermGroup';
 
 export type DefinedTermSource = { url: string; title: string; publisher: string };
@@ -15,6 +16,8 @@ export type DefinedTermProps = {
   /** Lien vers l'entrée du glossaire, par exemple `/glossaire#aide-medicale-etat`. */
   glossaryHref: string;
 };
+
+const noSubscription = () => () => {};
 
 /** Valeur calculée d'un token (`--defined-term-*`), convertie en pixels ou en millisecondes ; 0 si illisible. */
 function readToken(name: string, unit: 'length' | 'time'): number {
@@ -45,6 +48,12 @@ export function DefinedTerm({ children, term, glossaryHref }: DefinedTermProps) 
   const descriptionId = `${instance}-description`;
   const group = useContext(DefinedTermGroupContext);
   const [localOpen, setLocalOpen] = useState(false);
+  // Vrai côté client seulement (le portail exige document.body ; rien au rendu statique).
+  const mounted = useSyncExternalStore(
+    noSubscription,
+    () => true,
+    () => false,
+  );
   const open = group ? group.openKey === instance : localOpen;
 
   const wrapperRef = useRef<HTMLSpanElement>(null);
@@ -200,9 +209,8 @@ export function DefinedTerm({ children, term, glossaryHref }: DefinedTermProps) 
       >
         {children}
       </button>
-      <span id={descriptionId} hidden>
-        {t('definedTerm')}
-      </span>
+      {/* Description « terme défini » hors de l'énoncé (portail) : le nom accessible du titre reste l'énoncé seul. */}
+      {mounted ? createPortal(<span id={descriptionId} hidden>{t('definedTerm')}</span>, document.body) : null}
       {open ? (
         // La bulle reçoit le focus au clic (tabIndex -1) pour que la sortie du focus ne la ferme pas.
         <span
