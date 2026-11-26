@@ -1924,11 +1924,14 @@
   quote: Les auteurs de cet amendement s'opposent à cet article qui supprime l'AME (aide médicale d'Etat)
   quoteSource: fabien-roussel-amendement-cl1155-loi-immigration-2023
   justification: Amendement de suppression cosigné en 2023 contre l'article qui remplaçait l'aide médicale d'État par une aide limitée aux urgences ; position de groupe, datée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-23
+  reviewer: adrien
+  reviewedAt: 2026-11-26
+  reviewedHash: sha256:718adee3e3cf1003720d23275ea3497d1af93dc33d2df48f0d2fdd25afa85e1f
 
 - question: immigration-regroupement-familial-ressources
   value: -2
@@ -1938,11 +1941,14 @@
   quote: Les auteurs de cet amendement souhaitent la suppression de cet article qui durcit les conditions d'accès au regroupement familial
   quoteSource: fabien-roussel-amendement-cl1144-loi-immigration-2023
   justification: Amendement de suppression cosigné en 2023 contre le durcissement des conditions de ressources du regroupement familial ; position de groupe, datée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-23
+  reviewer: adrien
+  reviewedAt: 2026-11-26
+  reviewedHash: sha256:1a567667421a91e07d487ec821b88e61218def8d1db1a057bf3f3f461ae512f2
 
 - question: immigration-condamnes-perte-titre-sejour
   value: -1
@@ -1952,11 +1958,14 @@
   quote: Ils fustigent un dispositif de sanction qui confond objectif de protection de l'ordre public et lutte contre l'immigration irrégulière
   quoteSource: fabien-roussel-amendement-cl1148-loi-immigration-2023
   justification: Amendement cosigné en 2023 contre le refus et le retrait de titres pour motif d'ordre public, sans viser précisément le cas d'une peine de prison ferme ; position de groupe, datée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-23
+  reviewer: adrien
+  reviewedAt: 2026-11-26
+  reviewedHash: sha256:fc138bda806a37ee6ff44f8b49159395af19e25db80a1e61122d1f8463d084e9
 
 - question: immigration-prestations-duree-residence
   value: -2
@@ -1966,11 +1975,14 @@
   quote: Les auteurs de cet amendement s'opposent à cet article qui conditionne l'ouverture des droits aux prestations sociales non contributives
   quoteSource: fabien-roussel-amendement-cl1159-loi-immigration-2023
   justification: Amendement de suppression cosigné en 2023 contre la condition de cinq ans de résidence pour les prestations non contributives ; position de groupe, datée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-23
+  reviewer: adrien
+  reviewedAt: 2026-11-26
+  reviewedHash: sha256:2d16ca8e9c6cf98a94ad5f048bd48478cac5766762fb62fbf709fd80a0eca0ed
 
 - question: immigration-amende-sejour-irregulier
   value: -2
@@ -1980,11 +1992,14 @@
   quote: Les auteurs de cet amendement s'opposent à cet article qui rétablit le délit de séjour irrégulier
   quoteSource: fabien-roussel-amendement-cl1157-loi-immigration-2023
   justification: Amendement de suppression cosigné en 2023 contre le rétablissement du délit de séjour irrégulier puni d'amende ; position de groupe, datée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-23
+  reviewer: adrien
+  reviewedAt: 2026-11-26
+  reviewedHash: sha256:00c04cc6e3c99cf302ad1ac79a4e28a21bd333be32100e1bfd9b7a657f4bd3ac
 
 - question: immigration-plafond-annuel-admissions
   value: -2
@@ -1994,11 +2009,14 @@
   quote: Ils réfutent cette vision populiste anti-immigration et s'opposent ainsi à l'instauration de quotas en matière migratoire
   quoteSource: fabien-roussel-amendement-cl1143-loi-immigration-2023
   justification: Amendement de suppression cosigné en 2023 contre la fixation par le Parlement du nombre d'étrangers admis chaque année ; position de groupe, datée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-23
+  reviewer: adrien
+  reviewedAt: 2026-11-26
+  reviewedHash: sha256:8e08c2ebdd95c923616f22fd829bb4cb3125bf6370d3cb53c99c3794eb84f0ef
 
 - question: immigration-titre-sejour-longue-duree
   value: 1
@@ -2008,11 +2026,14 @@
   quote: limiter à trois renouvellements la CST entravera davantage l'accès aux cartes pluriannuelles
   quoteSource: fabien-roussel-amendement-cl1161-loi-immigration-2023
   justification: Amendement cosigné en 2023 contre la limitation des renouvellements de la carte de séjour temporaire, au nom de l'accès aux cartes pluriannuelles ; position de groupe, datée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-23
+  reviewer: adrien
+  reviewedAt: 2026-11-26
+  reviewedHash: sha256:d5c1ca13ba9653d125ee9e357e6f5af1b02f3b38f8207709066a14a9a9393ba4
 
 - question: immigration-visas-professions-qualifiees-v2
   value: 1
@@ -2022,8 +2043,11 @@
   quote: Ils proposent ici d'abaisser à trois mois l'occupation d'un emploi dans un établissement public ou privé à but non lucratif de santé, social ou médico-social
   quoteSource: fabien-roussel-amendement-cl1177-loi-immigration-2023
   justification: Amendement cosigné en 2023 pour abaisser la durée d'emploi exigée des médecins diplômés hors UE, assouplissement limité à ces professions ; position de groupe, datée.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-23
+  reviewer: adrien
+  reviewedAt: 2026-11-26
+  reviewedHash: sha256:63a9829ee6e1f808019af3bf3c007848070d24ef28f18d980f4723d910a3708b

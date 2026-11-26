@@ -1723,11 +1723,14 @@
   quote: Mise en place de critères objectivables d'intégration concernant les étrangers, accompagnée d'obligations de service à la nation, dans le cadre des régularisations de personnes dénuées de titres de séjour.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme encadre la régularisation des personnes sans titre de séjour par des critères d'intégration et un service à la nation, sans la lier au travail ni aux métiers en tension.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-23
+  reviewer: adrien
+  reviewedAt: 2026-11-26
+  reviewedHash: sha256:d781cb90e9b1ff963b8e63117fc962ebdd74b94729dd65de5bff1cec4168e09f
 
 - question: immigration-titre-sejour-longue-duree
   value: -1
@@ -1737,8 +1740,11 @@
   quote: Systématisation des obligations de suivi des demandeurs d'asile, avec conditionnalisation du maintien du statut et des droits afférents à des examens spécifiques en ce qui concerne les exilés de deuxième niveau, et réactualisation quinquennale du titre asilaire pour ces derniers.
   quoteSource: juan-branco-la-voie-programme-2027
   justification: Le programme soumet le titre des réfugiés dits de deuxième niveau à un réexamen tous les cinq ans, ce qui rend le séjour long moins stable pour une partie des étrangers, sans viser les autres titres.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-23
+  reviewer: adrien
+  reviewedAt: 2026-11-26
+  reviewedHash: sha256:080c33fa75767e1346ae4b871b9939883a3c9f7932efd0067c71c30593a7d6e7
