@@ -1,0 +1,38 @@
+# Fixture de violation GLOSS : définition de plus de 280 caractères (theme-economie) et conflit
+# de forme entre deux termes (« thème Santé » déclarée par theme-sante et par sante-bis).
+- id: theme-economie
+  label: thème Économie
+  forms:
+    - thème Économie
+  definition: Terme fictif dont la définition dépasse volontairement la limite de deux cent quatre-vingts caractères fixée par la règle GLOSS, pour vérifier que la validation refuse le terme et désigne son identifiant ; une définition de glossaire doit rester courte, factuelle et neutre, lisible d'un coup d'œil dans la bulle de définition.
+  sources:
+    - url: https://www.vie-publique.fr/fiches/exemple-economie
+      title: Fiche fictive
+      publisher: Vie-publique.fr
+      accessedAt: 2026-11-22
+  status: draft
+  author: adrien
+- id: theme-sante
+  label: thème Santé
+  forms:
+    - thème Santé
+  definition: Terme fictif de la fixture.
+  sources:
+    - url: https://www.legifrance.gouv.fr/exemple-sante
+      title: Texte fictif
+      publisher: Légifrance
+      accessedAt: 2026-11-22
+  status: draft
+  author: adrien
+- id: sante-bis
+  label: Thème santé
+  forms:
+    - Thème Santé
+  definition: Terme fictif en conflit de forme avec theme-sante.
+  sources:
+    - url: https://www.service-public.fr/exemple
+      title: Fiche fictive
+      publisher: Service-Public.fr
+      accessedAt: 2026-11-22
+  status: draft
+  author: adrien

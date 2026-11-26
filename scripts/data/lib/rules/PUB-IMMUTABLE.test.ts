@@ -29,4 +29,9 @@ describe('PUB-IMMUTABLE', () => {
     ctx.published!.files.set('versions/2/main.json', { bytes: 1, hash: H('d') });
     expect(ids(PUB_IMMUTABLE, ctx)).toEqual(['version 1', 'version 1', 'versions/2/main.json']);
   });
+  it('glossary.json, publié hors versions (009), n’est pas un fichier hors registre', () => {
+    const ctx = withVersion();
+    ctx.published!.files.set('glossary.json', { bytes: 100, hash: H('e') });
+    expect(ids(PUB_IMMUTABLE, ctx)).toEqual([]);
+  });
 });

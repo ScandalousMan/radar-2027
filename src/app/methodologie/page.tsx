@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { getFormatter, getTranslations } from 'next-intl/server';
 import { BANDS, COVERAGE_THRESHOLD, EXAMPLE_A, EXAMPLE_B, MIN_THEME_QUESTIONS, PRIORITY_WEIGHT, QUOTA_FLOOR } from '@/core';
 import { loadCurrentMain } from '@/lib/dataset';
@@ -25,6 +26,7 @@ const SECTION = 'flex flex-col gap-4';
 export default async function MethodologyPage() {
   const t = await getTranslations('methodology');
   const tResults = await getTranslations('results');
+  const tGlossary = await getTranslations('glossary');
   const format = await getFormatter();
   const main = loadCurrentMain();
   const day = (d: string) => format.dateTime(parseDay(d), { day: 'numeric', month: 'long', year: 'numeric' });
@@ -46,6 +48,11 @@ export default async function MethodologyPage() {
           <li>{t('rules.draft')}</li>
           <li>{t('rules.versioned')}</li>
         </ul>
+        <p>
+          <Link href="/glossaire" className="rounded-sm text-accent underline underline-offset-4">
+            {tGlossary('methodologyLink')}
+          </Link>
+        </p>
       </section>
 
       <section aria-labelledby="calcul-titre" id="calcul" className={SECTION}>

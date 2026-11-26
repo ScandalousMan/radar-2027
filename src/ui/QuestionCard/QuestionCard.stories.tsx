@@ -1,6 +1,7 @@
-import type { Meta, StoryObj } from '@storybook/nextjs-vite';
+import type { Decorator, Meta, StoryObj } from '@storybook/nextjs-vite';
 import { useState } from 'react';
-import { fn } from 'storybook/test';
+import { expect, fn, userEvent, within } from 'storybook/test';
+import { GlossaryProvider } from '@/lib/glossary/GlossaryProvider';
 import { QuestionCard, type QuestionCardProps } from './QuestionCard';
 
 function Controlled(props: QuestionCardProps) {
@@ -67,4 +68,46 @@ export const Etroit320: Story = {
       { id: 'economie', label: 'Économie et emploi', priority: false },
     ],
   },
+};
+
+const GLOSSARY = {
+  updatedAt: '2026-11-22',
+  terms: [
+    {
+      id: 'aide-medicale-etat',
+      label: "aide médicale de l'État",
+      forms: ["aide médicale de l'État", 'AME'],
+      definition:
+        'Dispositif qui prend en charge les frais de santé des étrangers en situation irrégulière résidant en France depuis plus de trois mois, sous conditions de ressources.',
+      sources: [{ url: 'https://www.service-public.fr/particuliers/vosdroits/F3079', title: 'Aide médicale de l’État (AME)', publisher: 'Service-Public.fr' }],
+    },
+  ],
+};
+
+const withGlossary: Decorator = (Story) => (
+  <GlossaryProvider glossary={GLOSSARY}>
+    <Story />
+  </GlossaryProvider>
+);
+
+const openTerm: Story['play'] = async ({ canvasElement }) => {
+  await userEvent.click(within(canvasElement).getByRole('button', { name: 'aide médicale de l’État' }));
+  await expect(within(canvasElement.ownerDocument.body).getByRole('dialog')).toBeVisible();
+};
+
+const termStatement = 'Il faut supprimer l’aide médicale de l’État et la remplacer par une aide limitée aux soins urgents.';
+
+export const AvecTermeDefini: Story = { name: 'Avec terme défini', decorators: [withGlossary], args: { statement: termStatement } };
+export const AvecTermeDefiniOuvert: Story = {
+  name: 'Avec terme défini, bulle ouverte',
+  decorators: [withGlossary],
+  args: { statement: termStatement },
+  play: openTerm,
+};
+export const AvecTermeDefiniEtroit: Story = {
+  name: 'Avec terme défini, 320 px',
+  decorators: [withGlossary],
+  globals: { viewport: { value: 'mobile320', isRotated: false } },
+  args: { statement: termStatement },
+  play: openTerm,
 };

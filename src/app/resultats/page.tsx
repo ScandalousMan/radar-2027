@@ -4,6 +4,7 @@
 // lu côté client par `ResultsApp`.
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
+import { GlossaryProvider } from '@/lib/glossary/GlossaryProvider';
 import { ResultsApp } from './ResultsApp';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -16,5 +17,10 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function ResultsPage() {
-  return <ResultsApp />;
+  // Glossaire récupéré côté client en parallèle du jeu de données (009, FR-021 : sans effet sur le résultat).
+  return (
+    <GlossaryProvider>
+      <ResultsApp />
+    </GlossaryProvider>
+  );
 }

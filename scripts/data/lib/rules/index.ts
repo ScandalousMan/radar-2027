@@ -16,6 +16,7 @@ import { FR_017 } from './FR-017';
 import { FR_018 } from './FR-018';
 import { FR_019 } from './FR-019';
 import { FR_020 } from './FR-020';
+import { GLOSS } from './GLOSS';
 import { ID_UNIQUE } from './ID-UNIQUE';
 import { PUB_BUDGET } from './PUB-BUDGET';
 import { PUB_IMMUTABLE } from './PUB-IMMUTABLE';
@@ -64,6 +65,8 @@ export const RULES: Rule[] = [
   RECH_SIGNAL,
   // Spec 009 : agrégateurs jamais cités comme source.
   SRC_AGGREGATOR,
+  // Glossaire (spec 009) : muette si data/corpus/glossaire.yaml est absent.
+  GLOSS,
   PUB_IMMUTABLE,
   PUB_BUDGET,
 ];

@@ -1,5 +1,6 @@
 import { screen } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
+import { GlossaryProvider } from '@/lib/glossary/GlossaryProvider';
 import { fr, renderWithIntl } from '@/lib/test-utils';
 import { QuestionDetail, type QuestionDetailProps } from './QuestionDetail';
 
@@ -54,5 +55,14 @@ describe('QuestionDetail', () => {
     expect(screen.getByText(fr.results.agreement.close)).toBeInTheDocument();
     rerender(<QuestionDetail {...base} detailState="error" />);
     expect(screen.getByText(L.error)).toBeInTheDocument();
+  });
+
+  it('signale un terme défini dans l’énoncé (009)', () => {
+    renderWithIntl(
+      <GlossaryProvider glossary={{ updatedAt: '2026-11-22', terms: [{ id: 'smic', label: 'salaire minimum', forms: ['salaire minimum'], definition: 'Définition.', sources: [{ url: 'https://www.service-public.fr/', title: 'Smic', publisher: 'Service-Public.fr' }] }] }}>
+        <QuestionDetail {...base} />
+      </GlossaryProvider>,
+    );
+    expect(screen.getByRole('heading', { level: 4, name: base.text })).toContainElement(screen.getByRole('button', { name: 'salaire minimum' }));
   });
 });
