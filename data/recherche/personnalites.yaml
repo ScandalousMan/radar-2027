@@ -142,8 +142,14 @@
       observedAt: 2026-11-22
       evidence:
         - francois-ruffin-candidature-001
+    - status: WITHDRAWN
+      at: { date: 2026-11-21, precision: day }
+      observedAt: 2026-11-23
+      evidence:
+        - francois-ruffin-candidature-002
+      note: "Renoncement simple annoncé sur son canal Telegram (« je retire ma candidature à l'élection présidentielle ») ; aucun désistement au profit d'une candidature nommée."
   createdAt: 2026-11-22
-  updatedAt: 2026-11-22
+  updatedAt: 2026-11-23
 
 - id: nicolas-dupont-aignan
   name: Nicolas Dupont-Aignan

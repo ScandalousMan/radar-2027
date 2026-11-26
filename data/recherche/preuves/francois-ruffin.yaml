@@ -25,3 +25,50 @@
   verifiedAt: 2026-11-22
   createdAt: 2026-11-22
   updatedAt: 2026-11-22
+
+- id: francois-ruffin-candidature-002
+  personality: francois-ruffin
+  kind: CANDIDACY
+  candidacyStatus: WITHDRAWN
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Face au risque du pire, je retire ma candidature à l'élection présidentielle."
+  speaker: François Ruffin
+  context: >-
+    Message publié sur le canal Telegram public et certifié de François Ruffin (message n° 4336,
+    2026-11-21T17:01:59 UTC), accompagné d'une image (vraisemblablement le communiqué) illisible dans
+    l'aperçu public. Annonce de retrait de sa candidature à l'élection présidentielle de 2027, faute de
+    « grande primaire » de la gauche selon les comptes rendus de presse du même jour. Aucun soutien à
+    une autre candidature n'est exprimé.
+  verificationNotes: >-
+    Message relu le 2026-11-23 sur la page publique t.me/francoisruffin/4336 (affichage intégré) :
+    auteur « François Ruffin » (badge certifié), date et texte relevés depuis le code de la page ;
+    texte enregistré avec --from-file car la récupération automatique renvoyait un texte vide.
+    Authenticité du canal : il relaie les publications du compte X Francois_Ruffin et de la chaîne
+    YouTube @francois_ruffin. Concordance : vidéo « Présidentielle 2027 : Face au risque du pire, je
+    retire ma candidature » publiée le 2026-11-22 sur sa chaîne YouTube (youtu.be/I7yZcMRwLAQ, entretien
+    de 31 min, sous-titres automatiques seulement, non retranscrite) et article de même titre sur
+    francoisruffin.fr (2026-11-22, corps limité à l'intégration de la vidéo). Messages Telegram
+    suivants du 2026-11-22 (n° 4338, 4340, 4341) : « Le retrait de ma candidature est une évidence. »,
+    souhait de « bon courage et bonne chance » à « tous les candidats de gauche encore en lice » sans en
+    nommer aucun, et « Pour 2027, le moment venu, je prendrai mes responsabilités. Mais je ne prendrai
+    pas cette décision seul. » (consultation annoncée de ses soutiens). Le communiqué écrit cité par la
+    presse (RTBF, L'essentiel, Yahoo/AFP du 2026-11-21) n'a pas été retrouvé en source primaire lisible
+    (compte X sous authentification, non contourné).
+  source: francois-ruffin-renoncement-candidature
+  publisher: "Telegram (canal François Ruffin)"
+  locator: { kind: passage, value: "message n° 4336, texte intégral" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: "Publication directe de l'intéressé sur son canal public certifié, ouverte et relue ; texte intégral du message enregistré."
+    attribution: "Canal certifié au nom de François Ruffin, première personne, cohérent avec sa chaîne YouTube et son site personnel publiés le lendemain."
+    interpretation: "Renoncement simple (WITHDRAWN) après la déclaration du 2026-04-10 : aucun désistement au profit d'une candidature nommée ; il souhaite bonne chance aux candidats de gauche en lice et renvoie à plus tard, après consultation de ses soutiens, sa décision « pour 2027 »."
+  statedAt: { date: 2026-11-21, precision: day }
+  researchedAt: 2026-11-23
+  verifiedAt: 2026-11-23
+  journal: 2026-11-23-ruffin-statut-candidature
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23

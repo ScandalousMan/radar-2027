@@ -1196,3 +1196,20 @@
   reviewer: adrien
   reviewedAt: 2026-11-15
   reviewedHash: sha256:68f615c7e033882353019093b8c12725ff986ef9d0141fbb652710b07d61f9ca
+
+# Campagne de couverture 009, lot 1 : brouillons rédigés par claude le 2026-11-23 depuis les preuves
+# primaires de data/recherche (journal 2026-11-22-campagne-*), à relire par adrien.
+
+- question: economie-accords-libre-echange
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-senat-cri-2024-03-21-ceta
+  quote: "Nous voulons le libre-échange, mais vous savez très bien qu'une épée de Damoclès pèse sur nos éleveurs : nous ne l'acceptons pas."
+  quoteSource: bruno-retailleau-senat-cri-2024-03-21-ceta
+  justification: Au Sénat, il se dit favorable au libre-échange mais refuse le CETA au nom des éleveurs, ce qui va contre la conclusion de nouveaux accords en l'état, sans rejeter le principe.
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-23

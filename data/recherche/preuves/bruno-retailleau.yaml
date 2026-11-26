@@ -626,3 +626,172 @@
   journal: 2026-11-22-comparaison-regularisation-retailleau-tondelier
   createdAt: 2026-11-22
   updatedAt: 2026-11-22
+
+# Mission 2026-11-22-campagne-retailleau-economie (data:gaps, spec 009) : thème économie.
+
+- id: bruno-retailleau-economie-001
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: economie
+  question: economie-accords-libre-echange
+  qualification: CONDITIONAL_POSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Nous voulons le libre-échange, mais vous savez très bien qu'une épée de Damoclès pèse sur nos éleveurs : nous ne l'acceptons pas."
+  speaker: Bruno Retailleau
+  context: >-
+    Explication de vote sur l'ensemble du projet de loi autorisant la ratification du CETA
+    (accord UE-Canada), séance du Sénat du 21 mars 2024, en qualité de président du groupe Les
+    Républicains. Juste avant : « Enfin, il y a le libre-échange. Cet accord est daté,
+    définitivement. Aujourd'hui, on parle de souveraineté. » Le Sénat a rejeté l'article 1er
+    autorisant la ratification (scrutin public n° 159).
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le compte rendu intégral officiel du Sénat (texte en
+    cache). Le vote nominatif de l'intéressé au scrutin n° 159 n'a pas été ouvert : aucune
+    preuve de vote individuel n'est enregistrée.
+  source: bruno-retailleau-senat-cri-2024-03-21-ceta
+  publisher: Sénat
+  locator: { kind: passage, value: "Vote sur l'ensemble, explication de vote de M. Bruno Retailleau (« Je dirai un mot de conclusion… »)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: mandat de sénateur, président du groupe LR (2024)
+  rationale:
+    attribution: >-
+      Propos tenus personnellement en séance ; le « nous » désigne son groupe, dont il est le
+      président et l'orateur, mais la déclaration est la sienne, à la tribune, et non un
+      communiqué collectif.
+    interpretation: >-
+      L'énoncé demande que l'UE conclue davantage d'accords de libre-échange. Le propos affirme
+      vouloir le libre-échange en principe, mais refuse l'accord soumis au vote, jugé « daté », tant
+      qu'il menace les éleveurs ; la même séance le voit demander la clôture et voter contre la
+      ratification. Soutien de principe subordonné à la protection des filières agricoles, avec
+      opposition aux accords concrets (CETA) : position conditionnelle, ni soutien ni opposition
+      explicite à l'énoncé.
+    temporalRelevance: >-
+      Propos de mars 2024, plus de douze mois avant la vérification. Une dépêche reprise par Brut
+      (janvier 2026, non enregistrée) le montre opposé à l'accord UE-Mercosur, ce qui va dans le
+      même sens sur un accord précis mais ne corrobore pas le principe général.
+  statedAt: { date: 2024-03-21, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-23
+  journal: 2026-11-22-campagne-retailleau-economie
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: bruno-retailleau-economie-002
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: economie
+  quoteStatus: VERIFIED_QUOTE
+  quote: "En 1994 – j'étais alors député –, j'avais refusé de voter l'accord de Marrakech instituant l'Organisation mondiale du commerce (OMC), car j'estimais que cet accord conduirait à la désindustrialisation."
+  speaker: Bruno Retailleau
+  context: >-
+    Même séance du Sénat (21 mars 2024, CETA), explication de vote sur la motion de renvoi en
+    commission, en réponse au ministre du commerce extérieur. Il ajoute : « Les accords de
+    libre-échange relèvent certes de la compétence exclusive de l'Union européenne, mes chers
+    collègues, mais aujourd'hui, le monde a changé ! La notion de souveraineté a pris de
+    l'importance. »
+  verificationNotes: Phrase retrouvée mot pour mot dans le compte rendu intégral officiel (texte en cache).
+  source: bruno-retailleau-senat-cri-2024-03-21-ceta
+  publisher: Sénat
+  locator: { kind: passage, value: "Motion de renvoi en commission, explication de vote de M. Bruno Retailleau" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: mandat de sénateur (2024), rappel d'un vote de 1994
+  rationale:
+    interpretation: >-
+      Preuve rattachée au thème sans question : elle rappelle un vote personnel de 1994 contre un
+      accord commercial multilatéral et sa motivation, sans se prononcer sur la conclusion de
+      nouveaux accords par l'UE. Le vote de 1994 lui-même n'a pas été vérifié dans les archives
+      de l'Assemblée nationale.
+  statedAt: { date: 2024-03-21, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-23
+  journal: 2026-11-22-campagne-retailleau-economie
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: bruno-retailleau-economie-003
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: economie
+  question: economie-controle-rachats-etrangers
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "L'Etat doit tout mettre en oeuvre pour que nos emplois et nos activités stratégiques ne passent sous la bannière d'un autre pays, partenaire mais néanmoins concurrent"
+  speaker: Bruno Retailleau
+  context: >-
+    Déclaration à l'AFP du 29 mai 2017, alors président de la région Pays de la Loire, sur le
+    rachat de 66,66 % de STX France (chantiers navals de Saint-Nazaire) par l'italien
+    Fincantieri ; il demande que « l'Etat rouvre le dossier » et souhaite que Fincantieri
+    n'obtienne pas la majorité du capital.
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache de l'article de Public Sénat reprenant
+    la dépêche AFP ; la dépêche d'origine et la lettre au président de la République n'ont pas
+    été consultées.
+  source: bruno-retailleau-publicsenat-stx-2017-05
+  publisher: Public Sénat (dépêche AFP)
+  locator: { kind: passage, value: "« a déclaré à l'AFP M. Retailleau », juste après l'appel à ce que « l'Etat rouvre le dossier »" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: président du conseil régional des Pays de la Loire (2017)
+  rationale:
+    sourceQuality: Média national établi reprenant une déclaration faite à l'AFP ; source secondaire.
+    interpretation: >-
+      L'énoncé porte sur un renforcement général du contrôle de l'État sur les rachats par des
+      investisseurs étrangers. Le propos demande une intervention de l'État contre une prise de
+      contrôle étrangère, mais pour un dossier unique (STX France) et sans réclamer de
+      changement du cadre juridique de contrôle : soutien plus étroit que l'énoncé.
+    temporalRelevance: >-
+      Propos de 2017 tenus dans une autre fonction (exécutif régional) et sur un dossier clos ;
+      aucune déclaration récente sur le contrôle des investissements étrangers n'a été trouvée.
+  statedAt: { date: 2017-05-29, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-23
+  journal: 2026-11-22-campagne-retailleau-economie
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23
+
+- id: bruno-retailleau-economie-004
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: economie
+  question: economie-participations-etat-industrie
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "une solution plus radicale, que l'Etat préempte l'accord, disposant de 60 jours depuis la signature"
+  speaker: Bruno Retailleau
+  context: >-
+    Même déclaration du 29 mai 2017 sur STX France. La phrase complète rapportée est : il
+    souhaite que « Fincantieri n'obtienne pas la majorité du capital en deçà de 50%, ou, une
+    solution plus radicale, que l'Etat préempte l'accord ». L'État détenait alors 33,3 % du
+    capital.
+  verificationNotes: Fragment retrouvé mot pour mot dans le texte en cache (article Public Sénat reprenant l'AFP).
+  source: bruno-retailleau-publicsenat-stx-2017-05
+  publisher: Public Sénat (dépêche AFP)
+  locator: { kind: passage, value: "« Le président de la région des Pays de la Loire souhaite que… »" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: président du conseil régional des Pays de la Loire (2017)
+  rationale:
+    interpretation: >-
+      L'énoncé demande que l'État prenne des participations dans les entreprises industrielles
+      jugées stratégiques. La préemption évoquée reviendrait à ce que l'État acquière la
+      participation cédée dans un chantier naval stratégique ; mais elle est présentée comme une
+      alternative (« ou ») à une simple limitation de Fincantieri sous 50 %, pour un seul
+      dossier : option envisagée, non doctrine générale. Soutien partiel et plus étroit que
+      l'énoncé.
+    temporalRelevance: Propos de 2017 dans une fonction régionale, sans corroboration récente.
+  statedAt: { date: 2017-05-29, precision: day }
+  researchedAt: 2026-11-22
+  verifiedAt: 2026-11-23
+  journal: 2026-11-22-campagne-retailleau-economie
+  createdAt: 2026-11-23
+  updatedAt: 2026-11-23

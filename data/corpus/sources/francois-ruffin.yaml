@@ -152,3 +152,14 @@
   candidates:
     - francois-ruffin
   contentHash: sha256:7ee563d846c4fddeb1e13f37287d074351aca6e7c3ab04d3b2327a75c5a17c3c
+- id: francois-ruffin-renoncement-candidature
+  url: https://t.me/francoisruffin/4336
+  title: Face au risque du pire, je retire ma candidature (canal Telegram de François Ruffin)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-21
+    precision: day
+  accessedAt: 2026-11-23
+  candidates:
+    - francois-ruffin
+  contentHash: sha256:13a7b3ee74e3c8af0400d040299274f8e9502dad17e8f75fd83f3252eb107325
