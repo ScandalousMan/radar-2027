@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { useId, type Ref } from 'react';
+import { AnnotatedText } from '@/ui/AnnotatedText';
 import { LikertChoice, type LikertAnswer } from '@/ui/LikertChoice';
 
 export type QuestionCardTheme = { id: string; label: string; priority: boolean };
@@ -64,7 +65,7 @@ export function QuestionCard({ position, statement, themes, value, onChange, onC
           ))}
         </ul>
         <h2 id={statementId} ref={headingRef} tabIndex={-1} className="rounded-sm text-2xl font-semibold tracking-tight break-words outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-focus">
-          {statement}
+          <AnnotatedText text={statement} />
         </h2>
         {hint ? <p className="text-sm text-fg-muted">{hint}</p> : null}
       </div>

@@ -4,6 +4,7 @@
 // contient donc ni thème ni question.
 import { useTranslations } from 'next-intl';
 import type { ReactNode } from 'react';
+import { GlossaryProvider } from '@/lib/glossary/GlossaryProvider';
 import { QuestionnaireProvider, useQuestionnaire } from '@/lib/questionnaire/store';
 import { Button } from '@/ui/Button';
 import { Notice } from '@/ui/Notice';
@@ -36,7 +37,9 @@ function LoadGate({ children }: { children: ReactNode }) {
 export default function QuestionnaireLayout({ children }: { children: ReactNode }) {
   return (
     <QuestionnaireProvider>
-      <LoadGate>{children}</LoadGate>
+      <GlossaryProvider>
+        <LoadGate>{children}</LoadGate>
+      </GlossaryProvider>
     </QuestionnaireProvider>
   );
 }

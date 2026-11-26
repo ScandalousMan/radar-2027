@@ -23,6 +23,11 @@ export const GovernanceFileSchema = z.strictObject({
   /** Domaines d'agrégateurs (009 R8) : jamais cités comme source (règle SRC-AGGREGATOR), seulement comme pistes ; non publié. */
   aggregatorDomains: z.array(z.string().regex(/^[a-z0-9-]+(\.[a-z0-9-]+)+$/)).optional(),
   reportIssueUrl: z.url().refine((u) => u.includes('{title}'), { message: 'reportIssueUrl doit contenir {title}' }),
+  /**
+   * Domaines institutionnels ou juridiques des sources du glossaire (spec 009, R12) : noms
+   * d'hôte, sous-domaines compris, `*.` admis en préfixe. Non publiés. Absent : contrôle ignoré.
+   */
+  institutionalDomains: z.array(z.string().regex(/^(\*\.)?[a-z0-9-]+(\.[a-z0-9-]+)+$/, { message: 'nom d’hôte attendu (préfixe *. admis)' })).optional(),
 });
 
 export type Thresholds = z.infer<typeof ThresholdsSchema>;

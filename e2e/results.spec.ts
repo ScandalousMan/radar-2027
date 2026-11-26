@@ -549,12 +549,12 @@ test.describe('Transversal', () => {
     expect(urls.length).toBeGreaterThan(0);
     for (const raw of urls) {
       const url = new URL(raw);
-      expect(url.origin, raw).toBe('http://localhost:3000');
+      expect(url.origin, raw).toBe(new URL(page.url()).origin);
       // Seul paramètre admis : l'identifiant de cache des navigations du routeur Next ; aucun sur les données.
       expect([...url.searchParams.keys()].filter((k) => k !== '_rsc'), raw).toEqual([]);
       if (url.pathname.startsWith('/data/')) expect(url.search, raw).toBe('');
       expect(raw.includes(payload.slice(0, 12)), raw).toBe(false);
-      expect(/^\/(_next\/|__next\.|data\/versions\.json$|data\/versions\/\d+\/main\.json$|data\/versions\/\d+\/candidates\/[a-z0-9-]+\.json$|resultats(\/|\.|$)|methodologie|questionnaire|a-propos|favicon|$)/.test(url.pathname), url.pathname).toBe(true);
+      expect(/^\/(_next\/|__next\.|data\/versions\.json$|data\/glossary\.json$|data\/versions\/\d+\/main\.json$|data\/versions\/\d+\/candidates\/[a-z0-9-]+\.json$|resultats(\/|\.|$)|methodologie|questionnaire|a-propos|favicon|$)/.test(url.pathname), url.pathname).toBe(true);
     }
   });
 

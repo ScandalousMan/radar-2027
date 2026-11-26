@@ -48,3 +48,9 @@ thresholds:
   bankMax: 300
 
 reportIssueUrl: https://github.com/ScandalousMan/radar-2027/issues/new?title={title}&labels=donnees
+
+institutionalDomains:
+  - legifrance.gouv.fr
+  - service-public.fr
+  - vie-publique.fr
+  - "*.gouv.fr"

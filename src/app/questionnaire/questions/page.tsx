@@ -79,7 +79,7 @@ function Questions({ draft }: { draft: Draft }) {
         {progress}
       </p>
       <QuestionCard
-        key={position}
+        key={item.question.id}
         position={position}
         total={total}
         statement={item.question.text}

@@ -1,7 +1,7 @@
 // @vitest-environment node
 import { parse } from 'yaml';
 import { describe, expect, it } from 'vitest';
-import { GovernanceFileSchema, PositionSchema, QuestionSchema, SourceSchema, ThemeSchema } from './index';
+import { GlossaryEntrySchema, GovernanceFileSchema, PositionSchema, QuestionSchema, SourceSchema, ThemeSchema } from './index';
 
 const H = `sha256:${'3f1a'.repeat(16)}`;
 
@@ -384,5 +384,28 @@ describe('schémas du corpus de preuves (spec 008)', () => {
 
   it('personnalité sans statut refusée', () => {
     expect(PersonalitySchema.safeParse({ ...personalities[0], statuses: [] }).success).toBe(false);
+  });
+});
+
+// Spec 009 : glossaire et domaines institutionnels.
+describe('glossaire (spec 009)', () => {
+  const governance = { inclusionCriteria: [], neutralityChecklist: [], evidenceLevels: [], reportIssueUrl: 'https://github.com/x/y/issues/new?title={title}' };
+
+  it('gouvernance : institutionalDomains facultatif, préfixe *. admis', () => {
+    expect(GovernanceFileSchema.parse(governance).institutionalDomains).toBeUndefined();
+    expect(GovernanceFileSchema.parse({ ...governance, institutionalDomains: ['service-public.fr', '*.gouv.fr'] }).institutionalDomains).toEqual(['service-public.fr', '*.gouv.fr']);
+    expect(GovernanceFileSchema.safeParse({ ...governance, institutionalDomains: ['https://service-public.fr'] }).success).toBe(false);
+  });
+
+  const entry = { id: 'droit-du-sol', label: 'droit du sol', forms: ['droit du sol'], definition: 'Définition.', sources: [{ url: 'https://www.vie-publique.fr/', title: 'T', publisher: 'P', accessedAt: '2026-11-22' }], status: 'draft', author: 'claude' };
+
+  it('terme en brouillon accepté, date de consultation lue par le paquet yaml', () => {
+    expect(GlossaryEntrySchema.safeParse(entry).success).toBe(true);
+    expect(GlossaryEntrySchema.parse(parse('id: x\nlabel: x\nforms: [x]\ndefinition: d\nsources: [{ url: "https://a.fr", title: t, publisher: p, accessedAt: 2026-11-22 }]\nstatus: draft\nauthor: claude\n')).sources[0]!.accessedAt).toBe('2026-11-22');
+  });
+
+  it('clé inconnue ou statut inconnu refusés', () => {
+    expect(GlossaryEntrySchema.safeParse({ ...entry, extra: 1 }).success).toBe(false);
+    expect(GlossaryEntrySchema.safeParse({ ...entry, status: 'contested' }).success).toBe(false);
   });
 });

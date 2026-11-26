@@ -4,7 +4,7 @@ import type { Affirmation, Corpus, Research, Thresholds } from '../schema';
 
 export type Severity = 'error' | 'warning';
 
-export type EntityKind = 'file' | 'theme' | 'contributor' | 'candidate' | 'question' | 'source' | 'position' | 'criterion' | 'version' | 'bank' | 'personality' | 'evidence' | 'journal' | 'signal';
+export type EntityKind = 'file' | 'theme' | 'contributor' | 'candidate' | 'question' | 'source' | 'position' | 'criterion' | 'version' | 'bank' | 'personality' | 'evidence' | 'journal' | 'signal' | 'term';
 
 /** Une faute désigne toujours l'identifiant de l'élément fautif. */
 export type Violation = {
@@ -46,6 +46,8 @@ export type RuleContext = {
   thresholds: Thresholds;
   /** Corpus de preuves `data/recherche/` (spec 008) ; absent ⇒ les règles `RECH-*` ne contrôlent rien. */
   research?: Research;
+  /** Texte de `public/data/glossary.json` s'il existe (spec 009) : la règle GLOSS vérifie qu'il suit le corpus. */
+  publishedGlossary?: string;
 };
 
 export type Rule = { code: string; run: (ctx: RuleContext) => Violation[] };

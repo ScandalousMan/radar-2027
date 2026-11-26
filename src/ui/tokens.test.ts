@@ -79,4 +79,17 @@ describe('tokens.css', () => {
       expect(ratio, `${fg} sur ${bg} (${theme}) = ${ratio.toFixed(2)}:1`).toBeGreaterThanOrEqual(threshold);
     });
   });
+
+  it('déclare les tokens de la bulle de définition (009, R9)', () => {
+    const root = /:root\s*\{([^}]*)\}/.exec(css)?.[1] ?? '';
+    const value = (name: string) => new RegExp(`${name}:\\s*([^;]+);`).exec(root)?.[1]?.trim();
+    expect(value('--defined-term-gutter')).toBe('1rem');
+    expect(value('--defined-term-max-width')).toBe('20rem');
+    expect(value('--defined-term-max-height')).toBe('min(50vh, 18rem)');
+    expect(value('--defined-term-open-delay')).toBe('300ms');
+    expect(value('--defined-term-close-delay')).toBe('200ms');
+    expect(value('--defined-term-offset')).toMatch(/^[\d.]+rem$/);
+    expect(value('--defined-term-underline-thickness')).toMatch(/^[\d.]+px$/);
+    expect(value('--defined-term-underline-offset')).toMatch(/^[\d.]+em$/);
+  });
 });
