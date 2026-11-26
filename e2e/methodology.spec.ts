@@ -5,7 +5,7 @@ import { expect, test } from '@playwright/test';
 type Messages = {
   methodology: { title: string; rules: { title: string }; neutrality: { title: string }; inclusion: { title: string }; noVersion: string; report: { cta: string } };
 };
-type Main = { selectionRules?: number; themes: { label: string }[]; candidates: { id: string; name: string }[] };
+type Main = { selectionRules?: number; minQuestionCoverage?: number; questions: unknown[]; themes: { label: string }[]; candidates: { id: string; name: string }[] };
 
 const fr = JSON.parse(readFileSync(join(__dirname, '../src/i18n/messages/fr.json'), 'utf8')) as Messages;
 const registry = JSON.parse(readFileSync(join(__dirname, '../public/data/versions.json'), 'utf8')) as { current: number };
@@ -44,8 +44,19 @@ test.describe('page Méthodologie (FR-042 à FR-045, SC-007)', () => {
     await expect(section).toContainText(/Score pondéré 70\s%, score sur les sujets clés 50\s%, score global 50\s%/);
   });
 
+  test('couverture : questions renseignées en priorité, minimum k de la banque active (009)', async ({ page }) => {
+    test.skip(main?.selectionRules !== 3, 'la version courante ne suit pas les règles de sélection 3');
+    await page.goto('/methodologie');
+    const section = page.locator('#couverture');
+    await expect(section.getByRole('heading', { level: 2, name: 'Questions renseignées en priorité' })).toBeVisible();
+    await expect(section.getByTestId('coverage-bank')).toContainText(`Cette version retient ${main!.questions.length} questions`);
+    await expect(section.getByTestId('coverage-bank')).toContainText(`au moins ${main!.minQuestionCoverage} candidat`);
+    await expect(section).toContainText('pistes de recherche');
+    await expect(page.locator('#choix-questions')).toContainText('celles pour lesquelles la position du plus grand nombre de candidats est connue');
+  });
+
   test('choix des questions : une question par enjeu, plancher par thème (007)', async ({ page }) => {
-    test.skip(main?.selectionRules !== 2, 'la version courante suit les règles de sélection 1');
+    test.skip(main?.selectionRules === undefined, 'la version courante suit les règles de sélection 1');
     await page.goto('/methodologie');
     const section = page.locator('#choix-questions');
     await expect(section.getByRole('heading', { level: 2, name: 'Choix des questions' })).toBeVisible();

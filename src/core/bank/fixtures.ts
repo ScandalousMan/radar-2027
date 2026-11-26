@@ -73,6 +73,26 @@ export function syntheticDataset({ themes = 16, perTheme = 20, version = 1, cand
   };
 }
 
+/**
+ * Jeu synthétique en règles 3 (009) : enjeu = identifiant, couverture publiée calculée sur les
+ * positions, minimum `k` donné (2 par défaut).
+ */
+export function syntheticDatasetRules3(options: SyntheticOptions & { minQuestionCoverage?: number } = {}): MainDataset {
+  const { minQuestionCoverage = 2, ...rest } = options;
+  const ds = syntheticDataset(rest);
+  return {
+    ...ds,
+    selectionRules: 3,
+    minQuestionCoverage,
+    questions: ds.questions.map((q, i) => ({ ...q, subject: q.id, coverage: ds.candidates.filter((c) => ds.positions[c.id]![i] !== null).length })),
+  };
+}
+
+/** Banque synthétique en règles 3 (009). */
+export function syntheticBankRules3(options: SyntheticOptions & { minQuestionCoverage?: number } = {}): BankVersion {
+  return bankFromDataset(syntheticDatasetRules3(options));
+}
+
 /** Banque synthétique : `T` thèmes de `perTheme` questions, `D_q = 2 − MM/perTheme`. */
 export function syntheticBank(options: SyntheticOptions = {}): BankVersion {
   return bankFromDataset(syntheticDataset(options));

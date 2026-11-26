@@ -111,6 +111,14 @@ export function resolvePaths(
   return { ...repo, corpusDir: dir };
 }
 
+/**
+ * Dossier des rapports versionnés (009 : couverture, trous). Pour une fixture, un sous-dossier
+ * `fixtures/` ignoré par git, pour qu'un test n'écrase jamais le rapport d'une version réelle.
+ */
+export function versionedReportsDir(paths: DataPaths): string {
+  return paths.fixture ? join(paths.reportsDir, 'fixtures') : paths.reportsDir;
+}
+
 /** Exécute une commande et traduit ses erreurs en code de sortie. */
 export async function runCli(main: () => Promise<number | void>): Promise<void> {
   try {

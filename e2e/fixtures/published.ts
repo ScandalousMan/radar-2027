@@ -1,7 +1,8 @@
 // Banque fictive servie aux tests e2e par interception de route (R6 de la 004, R11 de la 005) :
 // rien de fictif n'est publié sous public/data. Même jeu que les tests du domaine (16 thèmes ×
 // 20 questions). Version 2 (005) : le candidat c21 ne se présente plus, c22 est ajouté et la
-// position de c05 sur t04-q02 change ; fichiers de détail par candidat générés.
+// position de c05 sur t04-q02 change ; fichiers de détail par candidat générés. Version 3 (009) :
+// mêmes données que la version 2, en règles de sélection 3 (enjeu = identifiant, couverture publiée).
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Page } from '@playwright/test';
@@ -13,7 +14,10 @@ import { scoreCandidates } from '../../src/core/score/score';
 import { selectQuestions } from '../../src/core/selection/select';
 import type { Mode, ResultState } from '../../src/core/types';
 
-export const PUBLISHED_AT: Record<number, string> = { 1: '2026-11-08', 2: '2026-11-15' };
+export const PUBLISHED_AT: Record<number, string> = { 1: '2026-11-08', 2: '2026-11-15', 3: '2026-11-22' };
+
+/** Minimum de couverture déclaré par la version fictive en règles 3. */
+export const MIN_COVERAGE_V3 = 15;
 
 export const WITHDRAWN_IN_V2 = 'c21';
 export const ADDED_IN_V2 = 'c22';
@@ -28,7 +32,19 @@ export function dataset(version = 1): MainDataset {
   const changed = base.questions.findIndex((q) => q.id === 't04-q02');
   positions['c05'] = base.positions['c05']!.map((cell, i) => (i === changed ? ([2, 'p'] as const) : cell));
   const candidates = [...base.candidates.filter((c) => c.id !== WITHDRAWN_IN_V2), { id: ADDED_IN_V2, name: ADDED_IN_V2, party: 'Parti', status: 'declared' as const, coverage: 0 }];
-  return { ...base, candidates, withdrawn: [{ id: WITHDRAWN_IN_V2, name: WITHDRAWN_IN_V2, withdrawnAt: '2026-11-14', criterion: 'declaration' }], positions };
+  const v2: MainDataset = { ...base, candidates, withdrawn: [{ id: WITHDRAWN_IN_V2, name: WITHDRAWN_IN_V2, withdrawnAt: '2026-11-14', criterion: 'declaration' }], positions };
+  if (version < 3) return v2;
+  // Version ≥ 3 : règles de sélection 3 (009), banque active de 7 questions par thème (112 ≤ 120),
+  // couverture = cases non `null` de la colonne.
+  const kept = v2.questions.map((q, i) => ({ q, i })).filter(({ q }) => Number(q.id.slice(-2)) < 7);
+  const rows = Object.fromEntries(Object.entries(positions).map(([c, row]) => [c, kept.map(({ i }) => row[i] ?? null)]));
+  return {
+    ...v2,
+    selectionRules: 3,
+    minQuestionCoverage: MIN_COVERAGE_V3,
+    questions: kept.map(({ q }, j) => ({ ...q, subject: q.id, coverage: v2.candidates.filter((c) => rows[c.id]![j] !== null).length })),
+    positions: rows,
+  };
 }
 
 export const bankOf = (version = 1) => bankFromDataset(dataset(version));

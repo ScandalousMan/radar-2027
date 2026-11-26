@@ -179,6 +179,8 @@ export const EvidenceSchema = z.strictObject({
   verificationNotes: z.string().optional(),
   source: IdSchema.optional(),
   unregisteredSource: UnregisteredSourceSchema.optional(),
+  /** Piste qui a mené à la source primaire (009 R8) ; peut être un agrégateur, jamais une source. */
+  lead: z.strictObject({ url: z.url(), title: z.string().min(1) }).optional(),
   publisher: z.string().min(1),
   locator: LocatorSchema.optional(),
   sourceQuality: SourceQualitySchema,

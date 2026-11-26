@@ -59,7 +59,10 @@ describe('data:publish', () => {
     expect(after.split('\n').filter((l) => l !== '  introducedIn: 1').join('\n')).toBe(original);
     expect(after).toContain('# Relecture du 2026-11-10 : validé.\n- id: economie-q01');
     expect(after).toContain('  introducedIn: 1\n\n# Texte d’origine : ancien énoncé.\n- id: economie-q02');
-    expect(parse(after).every((q: { introducedIn?: number }) => q.introducedIn === 1)).toBe(true);
+    // 009 : seules les questions de la banque active reçoivent introducedIn.
+    const main = await json(join(paths.publishedDir, 'versions', '1', 'main.json'));
+    const published = new Set(main.questions.map((q: { id: string }) => q.id));
+    for (const q of parse(after) as { id: string; introducedIn?: number }[]) expect(q.introducedIn).toBe(published.has(q.id) ? 1 : undefined);
   });
 
   it('un octet modifié dans une version publiée ⇒ PUB-IMMUTABLE', async () => {
@@ -73,17 +76,25 @@ describe('data:publish', () => {
   it('nouvelle version après retrait d’une question : retiredIn posé, refus d’écrasement', async () => {
     const paths = await tempFixture();
     await publish(paths, { next: true, date: '2026-11-10' });
+    const v1 = await json(join(paths.publishedDir, 'versions', '1', 'main.json'));
     const file = join(paths.corpusDir, 'questions', 'economie.yaml');
     const qs = parse(await readFile(file, 'utf8'));
+    // Question publiée en v1 sans position connue (complément de plancher) : on la retire du corpus.
+    const retiredIdx = qs.findIndex((q: { id: string }) => q.id !== 'economie-q01' && q.id !== 'economie-q02' && v1.questions.some((p: { id: string }) => p.id === q.id));
+    // Question publiée en v1 qui passera en réserve : aucune, la fixture n'en a pas ; une question absente reste sans retiredIn.
+    const unpublishedIdx = qs.findIndex((q: { id: string }) => !v1.questions.some((p: { id: string }) => p.id === q.id));
     qs.push({ ...qs[9], id: 'economie-q11', polarity: '-', text: 'Énoncé de test numéro 11 du thème Économie.', introducedIn: undefined });
     qs.push({ ...qs[0], id: 'economie-q12', polarity: '+', text: 'Énoncé de test numéro 12 du thème Économie.', introducedIn: undefined });
-    qs[9].status = 'retired';
+    qs[retiredIdx].status = 'retired';
     await writeFile(file, stringify(qs));
     const r = await publish(paths, { next: true, date: '2026-11-12' });
     expect(r.version).toBe(2);
     const after = parse(await readFile(file, 'utf8'));
-    expect(after[9].retiredIn).toBe(2);
-    expect(after.find((q: { id: string }) => q.id === 'economie-q11').introducedIn).toBe(2);
+    expect(after[retiredIdx].retiredIn).toBe(2);
+    expect(after[unpublishedIdx].retiredIn).toBeUndefined();
+    const v2 = await json(join(paths.publishedDir, 'versions', '2', 'main.json'));
+    for (const q of after as { id: string; introducedIn?: number }[])
+      if (v2.questions.some((p: { id: string }) => p.id === q.id) && !v1.questions.some((p: { id: string }) => p.id === q.id)) expect(q.introducedIn).toBe(2);
 
     // Le dossier de la version suivante existe déjà ⇒ refus.
     const { mkdir } = await import('node:fs/promises');
@@ -91,6 +102,26 @@ describe('data:publish', () => {
     qs[8].status = 'draft';
     await writeFile(file, stringify(parse(await readFile(file, 'utf8')).map((q: { id: string; status: string }) => (q.id === 'economie-q12' ? { ...q, status: 'draft' } : q))));
     await expect(publish(paths, { next: true, date: '2026-11-13' })).rejects.toThrow();
+  });
+
+  it('009 : --dry-run écrit le rapport de couverture et n’écrit rien sous public/data', async () => {
+    const paths = await tempFixture();
+    const dry = await publish(paths, { dryRun: true, date: '2026-11-10' });
+    expect(dry.activeBank.k).toBe(1);
+    expect(dry.report.version).toBe(1);
+    expect(existsSync(join(paths.reportsDir, 'fixtures', 'couverture-v1.json'))).toBe(true);
+    expect(await readFile(join(paths.reportsDir, 'fixtures', 'couverture-v1.md'), 'utf8')).toMatch(/^# Rapport de couverture — version 1/);
+    expect(existsSync(join(paths.publishedDir, 'versions', '1'))).toBe(false);
+    const report = await json(join(paths.reportsDir, 'fixtures', 'couverture-v1.json'));
+    expect(report.minQuestionCoverage).toBe(1);
+    expect(report.themes).toHaveLength(3);
+  });
+
+  it('009 : --min-coverage sous le minimum calculé refusé ; au-dessus accepté', async () => {
+    const paths = await tempFixture();
+    await expect(publish(paths, { dryRun: true, minCoverage: 0 })).rejects.toThrow(/min-coverage 0 refusé/);
+    const dry = await publish(paths, { dryRun: true, minCoverage: 2, date: '2026-11-10' });
+    expect(dry.activeBank.k).toBe(2);
   });
 
   it('refuse sans cache ou avec un texte manquant', async () => {

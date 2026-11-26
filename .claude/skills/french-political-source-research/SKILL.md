@@ -156,7 +156,10 @@ Règles :
 - Un **extrait de moteur de recherche n'est jamais une preuve**. Toujours **ouvrir l'original**
   et lire le passage dans son contexte.
 - Wikipédia, agrégateurs de citations, captures d'écran non sourcées, forums : pistes seulement,
-  jamais preuve.
+  jamais preuve. Les domaines d'agrégateurs déclarés dans `data/corpus/governance.yaml`
+  (`aggregatorDomains` : `candidatspresidentielles2027.fr`, `monvote2027.fr`, `wikipedia.org`) sont
+  **refusés par la validation** comme source du registre ou `unregisteredSource` d'une preuve
+  (règle `SRC-AGGREGATOR`) ; on les consigne seulement en piste (champ `lead`, §13 bis).
 - Source primaire inaccessible : documenter la limitation (dans la preuve et le journal) et
   qualifier la source secondaire utilisée (FR-016).
 - **Paywall, authentification, contrôle d'accès : jamais contournés** (FR-049). La preuve est
@@ -410,6 +413,28 @@ Toute lacune est inscrite dans `gaps` du journal (`kind`, `personality`, `theme`
 **3 catégories explorées** dans le journal (seuil contrôlé par la validation), sur plusieurs
 passes du §6. La `note` décrit les recherches, **jamais une position supposée**. `NOT_FOUND` n'est
 jamais une preuve et ne vaut ni neutralité ni opposition.
+
+## 13 bis. Mission issue de `data:gaps` (spec 009)
+
+`pnpm data:gaps` classe les positions manquantes (candidat × question) par gain attendu et les
+regroupe en **missions candidat × thème** dans `data/reports/trous/<date>.md`. Pour une telle
+mission :
+
+1. **Lire les lignes de la mission** : identifiants de questions, statut de banque (`active`,
+   `reserve-promotable`, `reserve`), couvertures. Traiter les questions dans l'ordre de la liste.
+2. **Chercher en sources primaires** (§5, §6) une prise de position **personnelle** du candidat
+   sur chaque question : programme, livre, discours, entretien, vote. Ouvrir et lire l'original.
+3. **Agrégateur = piste seulement.** Si une piste vient d'un agrégateur (domaines de
+   `aggregatorDomains`), remonter à la source primaire et consigner la piste dans le champ `lead`
+   de la preuve (`lead: { url, title }`) ; jamais en `source` ni en `unregisteredSource`.
+   Dans le journal, l'agrégateur figure dans `sourcesConsulted` avec `outcome: rejected`.
+4. **Absence documentée** : consigner une lacune dans `gaps` du journal, **avec `question`** :
+   `NOT_FOUND` après au moins 5 requêtes sur 3 catégories (§13), ou `NO_PERSONAL_POSITION` si seule
+   une position collective existe. `data:gaps` relègue alors ce couple en « déjà cherché ».
+5. **Ne jamais déduire** une position du parti, d'un soutien, d'un allié ou d'une position
+   collective (`PARTY_POSITION_ONLY` au besoin). Aucune position n'est écrite par la mission :
+   `data/corpus/positions/` reste intouché (contrat 008) ; l'agent principal transcrit ensuite les
+   preuves `VERIFIED_QUOTE` de qualité primaire en positions `draft`, relues par le propriétaire.
 
 ## 14. Enregistrement pas à pas (FR-039 à FR-045)
 

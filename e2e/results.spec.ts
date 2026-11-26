@@ -607,3 +607,16 @@ test.describe('Transversal', () => {
     await expect(page.getByRole('list', { name: msg('results.candidate.themes') }).getByText(/sujet clé/).first()).toBeVisible();
   });
 });
+
+test.describe('009 — banque en règles de sélection 3', () => {
+  test('lien v3 : classement identique à celui du cœur ; lien v2 rejoué inchangé', async ({ page }) => {
+    await page.unrouteAll();
+    await servePublished(page, { current: 3 });
+    const state = stateFor('short', FOUR, cycle, 3);
+    await openResults(page, state);
+    await expectBoard(page, state);
+    const older = stateFor('short', FOUR, cycle, 2);
+    await openResults(page, older);
+    await expectBoard(page, older, 3);
+  });
+});

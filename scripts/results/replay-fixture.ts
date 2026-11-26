@@ -3,7 +3,9 @@
 // chacun avec son résultat attendu calculé par le chemin de résultats réel (`loadResults`).
 // À lancer AVANT toute publication de version suivante ; refuse de tourner si la version
 // courante n'est pas n. Chaque version a sa graine (v1 : 20271116, inchangée).
-// Usage : pnpm tsx scripts/results/replay-fixture.ts --version <n>
+// Usage : pnpm tsx scripts/results/replay-fixture.ts --version <n> [--allow-older]
+// --allow-older lève la garde « version courante = n » : valable seulement si le code de
+// sélection est celui qui a servi à publier la version n.
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { bankFromDataset, encodeFragment, selectQuestions, type Answer, type MainDataset, type Mode, type ResultState } from '@/core';
@@ -46,7 +48,11 @@ async function main() {
   const version = versionArg();
   const OUT = path.join(ROOT, `src/lib/results/replay-v${version}.fixture.json`);
   const registry = JSON.parse(await readFile(path.join(ROOT, 'public/data/versions.json'), 'utf8')) as { current: number };
-  if (registry.current !== version) throw new Error(`version courante ${registry.current} : la fixture v${version} doit être produite avant la publication de la version ${version + 1}`);
+  const allowOlder = process.argv.includes('--allow-older');
+  if (allowOlder && registry.current !== version) {
+    console.warn(`--allow-older : fixture v${version} produite alors que la version courante est ${registry.current}. Valable seulement si le code de sélection est celui qui a servi à publier la v${version}.`);
+  }
+  if (!allowOlder && registry.current !== version) throw new Error(`version courante ${registry.current} : la fixture v${version} doit être produite avant la publication de la version ${version + 1}`);
   const dataset = JSON.parse(await readFile(path.join(ROOT, `public/data/versions/${version}/main.json`), 'utf8')) as MainDataset;
   const bank = bankFromDataset(dataset);
   const ids = bank.themes.map((t) => t.id);

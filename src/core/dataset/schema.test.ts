@@ -1,6 +1,6 @@
 // @vitest-environment node
 import { describe, expect, it } from 'vitest';
-import { minimalMainDataset, minimalMainDatasetV2 } from './fixture';
+import { minimalMainDataset, minimalMainDatasetV2, minimalMainDatasetV3 } from './fixture';
 import { CandidateDetailSchema, MainDatasetSchema, VersionRegistrySchema } from './schema';
 import type { MainDataset } from './types';
 
@@ -33,7 +33,10 @@ describe('MainDatasetSchema, règles de sélection 2 (007)', () => {
   });
 
   it.each<[string, (ds: MainDataset) => void]>([
-    ['règles 3', (ds) => void ((ds as { selectionRules: number }).selectionRules = 3)],
+    ['règles 4', (ds) => void ((ds as { selectionRules: number }).selectionRules = 4)],
+    ['règles 3 sans minQuestionCoverage ni couverture', (ds) => void ((ds as { selectionRules: number }).selectionRules = 3)],
+    ['couverture hors règles 3', (ds) => void (ds.questions[0]!.coverage = 1)],
+    ['minQuestionCoverage hors règles 3', (ds) => void (ds.minQuestionCoverage = 1)],
     ['règles 2 avec une question sans enjeu', (ds) => void delete ds.questions[1]!.subject],
     ['forme mixte : enjeu sans selectionRules', (ds) => void delete ds.selectionRules],
     ['enjeu mal formé', (ds) => void (ds.questions[0]!.subject = 'Impôt Revenu')],
@@ -43,12 +46,51 @@ describe('MainDatasetSchema, règles de sélection 2 (007)', () => {
     expect(ok(ds)).toBe(false);
   });
 
-  it('accepte les versions 1 et 2 réelles', async () => {
+  it('accepte les versions 1 à 4 réelles', async () => {
     const { readFileSync } = await import('node:fs');
-    for (const v of [1, 2]) {
+    for (const v of [1, 2, 3, 4]) {
       const ds = JSON.parse(readFileSync(`public/data/versions/${v}/main.json`, 'utf8'));
       expect(MainDatasetSchema.safeParse(ds).error).toBeUndefined();
     }
+  });
+});
+
+describe('MainDatasetSchema, règles de sélection 3 (009)', () => {
+  it('accepte la forme règles 3', () => {
+    expect(MainDatasetSchema.safeParse(minimalMainDatasetV3()).error).toBeUndefined();
+  });
+
+  it('compte une position neutre (0) dans la couverture', () => {
+    const ds = minimalMainDatasetV3();
+    ds.positions['martin']![2] = [0, 'd'];
+    ds.questions[2]!.coverage = 2;
+    expect(MainDatasetSchema.safeParse(ds).error).toBeUndefined();
+  });
+
+  it.each<[string, (ds: MainDataset) => void]>([
+    ['règles 3 sans minQuestionCoverage', (ds) => void delete ds.minQuestionCoverage],
+    ['minQuestionCoverage nul', (ds) => void (ds.minQuestionCoverage = 0)],
+    ['question sans couverture', (ds) => void delete ds.questions[1]!.coverage],
+    ['question sans enjeu', (ds) => void delete ds.questions[1]!.subject],
+    ['couverture incohérente', (ds) => void (ds.questions[0]!.coverage = 2)],
+    [
+      'couverture qui omet une position neutre',
+      (ds) => {
+        ds.positions['martin']![2] = [0, 'd'];
+      },
+    ],
+    [
+      '121 questions',
+      (ds) => {
+        const extra = Array.from({ length: 118 }, (_, i) => ({ id: `zz-${String(i).padStart(3, '0')}`, text: 'Énoncé.', themes: ['sante'], polarity: '+' as const, discriminant: 0, subject: `s${i}`, coverage: 0 }));
+        ds.questions.push(...extra);
+        for (const id of Object.keys(ds.positions)) ds.positions[id]!.push(...extra.map(() => null));
+      },
+    ],
+  ])('rejette : %s', (_, mutate) => {
+    const ds = minimalMainDatasetV3();
+    mutate(ds);
+    expect(ok(ds)).toBe(false);
   });
 });
 

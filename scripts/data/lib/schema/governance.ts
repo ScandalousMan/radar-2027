@@ -20,6 +20,8 @@ export const GovernanceFileSchema = z.strictObject({
   neutralityChecklist: z.array(z.strictObject({ id: IdSchema, text: z.string().min(1) })),
   evidenceLevels: z.array(z.strictObject({ id: EvidenceKindSchema, label: z.string().min(1), definition: z.string().min(1) })),
   thresholds: ThresholdsSchema.prefault({}),
+  /** Domaines d'agrégateurs (009 R8) : jamais cités comme source (règle SRC-AGGREGATOR), seulement comme pistes ; non publié. */
+  aggregatorDomains: z.array(z.string().regex(/^[a-z0-9-]+(\.[a-z0-9-]+)+$/)).optional(),
   reportIssueUrl: z.url().refine((u) => u.includes('{title}'), { message: 'reportIssueUrl doit contenir {title}' }),
 });
 

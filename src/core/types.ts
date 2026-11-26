@@ -57,6 +57,9 @@ export const TARGET_COUNT: Readonly<Record<Mode, number>> = { full: 100, short: 
 /** Plancher de quota par thème (FR-021). */
 export const QUOTA_FLOOR: Readonly<Record<Mode, number>> = { full: 3, short: 1 };
 
+/** Plafond de la banque active publiée en règles 3 (009 FR-005). */
+export const MAX_ACTIVE_QUESTIONS = 120;
+
 /** Poids d'un thème prioritaire et d'un autre thème (FR-006, FR-021). */
 export const PRIORITY_WEIGHT = 3;
 export const OTHER_WEIGHT = 1;

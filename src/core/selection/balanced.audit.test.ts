@@ -1,7 +1,7 @@
 // @vitest-environment node
 // Audit exhaustif des critères de succès de 007 (SC-001 à SC-004, R8) sur la dernière version
-// publiée qui déclare `selectionRules: 2` : les 12 444 combinaisons de 3 à 5 thèmes prioritaires
-// parmi 18, dans les deux modes. Sauté tant qu'aucune version publiée ne déclare les règles 2.
+// publiée en règles 2, épinglé sur la v4 (009 T004) pour rester valide après la v5 en règles 3 :
+// les 12 444 combinaisons de 3 à 5 thèmes prioritaires parmi 18, dans les deux modes.
 import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { describe, expect, it } from 'vitest';
@@ -13,15 +13,13 @@ import { selectQuestions } from './select';
 
 const ROOT = process.cwd();
 
-function latestRules2(): BankVersion | null {
-  const registry = JSON.parse(readFileSync(path.join(ROOT, 'public/data/versions.json'), 'utf8')) as { current: number };
-  for (let v = registry.current; v >= 1; v--) {
-    const file = path.join(ROOT, `public/data/versions/${v}/main.json`);
-    if (!existsSync(file)) continue;
-    const ds = JSON.parse(readFileSync(file, 'utf8')) as MainDataset;
-    if (ds.selectionRules === 2) return bankFromDataset(ds);
-  }
-  return null;
+/** Dernière version publiée en règles 2 (007). */
+const RULES2_VERSION = 4;
+
+function loadVersion(v: number): BankVersion | null {
+  const file = path.join(ROOT, `public/data/versions/${v}/main.json`);
+  if (!existsSync(file)) return null;
+  return bankFromDataset(JSON.parse(readFileSync(file, 'utf8')) as MainDataset);
 }
 
 function* combinations(n: number, sizes: readonly number[]): Generator<number[]> {
@@ -42,12 +40,13 @@ function* combinations(n: number, sizes: readonly number[]): Generator<number[]>
   }
 }
 
-const bank = latestRules2();
+const bank = loadVersion(RULES2_VERSION);
 
 describe.skipIf(bank === null)('audit exhaustif des règles 2 (SC-001 à SC-004)', () => {
   // ~2 s seul, mais dépasse les 5 s par défaut sous la charge parallèle de pnpm verify.
   it('12 444 combinaisons × 2 modes', { timeout: 120_000 }, () => {
     const b = bank!;
+    expect(b.selectionRules).toBe(2);
     expect(b.themes).toHaveLength(18);
     let combos = 0;
     for (const prio of combinations(b.themes.length, [3, 4, 5])) {
