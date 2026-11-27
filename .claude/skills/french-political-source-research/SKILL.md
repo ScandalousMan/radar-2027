@@ -11,8 +11,9 @@ description: >-
 
 # Recherche de sources politiques françaises (présidentielle 2027)
 
-Ce skill contient **toute** la méthodologie obligatoire. Il est préchargé par le sous-agent
-`french-political-source-researcher` et peut être sélectionné seul (`/french-political-source-research`)
+Ce skill contient **toute** la méthodologie obligatoire. Il est préchargé par les sous-agents
+`french-political-source-researcher` et `french-political-research-orchestrator`, et peut
+être sélectionné seul (`/french-political-source-research`)
 dans une session ordinaire : les règles sont les mêmes dans les deux cas. Les numéros entre
 parenthèses (FR-0xx) renvoient à `specs/008-recherche-sources-politiques/spec.md`.
 
@@ -69,8 +70,8 @@ Thèmes et questions : uniquement ceux de `data/corpus/themes.yaml` et `data/cor
 1. **Lire la demande** et identifier le **mode** (§3) et le **périmètre** : personnalités, thèmes,
    questions, par leurs identifiants. En cas d'ambiguïté sur le périmètre, le dire dans le journal.
 2. **Ouvrir le journal** `data/recherche/journaux/<YYYY-MM-DD-slug>.yaml` (`author: claude`,
-   `model: opus` pour le sous-agent, `request` = demande reformulée fidèlement, `state`
-   provisoire). Toute requête effectivement lancée y est consignée au fil de l'eau (FR-029).
+   `model` = modèle ayant réellement mené la mission, `sonnet` pour le chercheur, `request` =
+   demande reformulée fidèlement, `state` provisoire). Toute requête effectivement lancée y est consignée au fil de l'eau (FR-029).
 3. **Lire le corpus existant avant toute recherche web** (FR-034) :
    - `data/corpus/candidates.yaml` (liste publiée, statuts, sources de statut) ;
    - `data/corpus/questions/<thème>.yaml` (énoncés exacts, polarités, état) ;
@@ -553,7 +554,7 @@ fausse est requalifiée (`UNVERIFIED_QUOTE`, `UNCONFIRMED`…), jamais supprimé
 ```
 
 **4. Journal** (`journaux/<journal-id>.yaml`, un objet) : `id`, `mode`, `author: claude`,
-`model: opus`, `request`, `startedAt`, `completedAt`, `state` (`completed` ou `interrupted` avec
+`model` (modèle ayant mené la mission), `request`, `startedAt`, `completedAt`, `state` (`completed` ou `interrupted` avec
 `interruption`), `scope` (`personalities`, `themes`, `questions`), `queries` (`at`, `query`,
 `category`, `tool`), `categoriesExplored`, `categoriesNotExplored` (`category`, `reason`),
 `exhaustive`, `sourcesConsulted` (`url`, `title`, `outcome` : `retained` avec `source`, `rejected`

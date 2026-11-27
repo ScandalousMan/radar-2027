@@ -2,6 +2,12 @@
 
 **Spec** : FR-001 à FR-006, FR-013 à FR-050 · **Décisions** : [../research.md](../research.md) R1, R2, R8
 
+> **Amendement du 2026-11-27** (demande d'adrien) : le chercheur passe à `model: sonnet`,
+> `effort: medium`, `disallowedTools: Agent, Workflow`, et un second agent,
+> `french-political-research-orchestrator` (`model: opus`, `effort: high`), planifie et contrôle les
+> missions larges avec le même skill. Les en-têtes ci-dessous et SC-010 sont à lire avec ce
+> changement ; les fichiers de `.claude/agents/` font foi.
+
 ## Fichiers
 
 | Fichier | Action |

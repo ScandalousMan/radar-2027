@@ -35,7 +35,9 @@ reprend celui de `data/corpus/candidates.yaml` quand elle y figure ; sinon `pren
 ## Outils
 
 - Méthodologie complète : skill [`french-political-source-research`](../../.claude/skills/french-political-source-research/SKILL.md),
-  préchargé par le sous-agent [`french-political-source-researcher`](../../.claude/agents/french-political-source-researcher.md).
+  préchargé par le sous-agent [`french-political-source-researcher`](../../.claude/agents/french-political-source-researcher.md)
+  (Sonnet, exécution) et par [`french-political-research-orchestrator`](../../.claude/agents/french-political-research-orchestrator.md)
+  (Opus, missions larges : plan, délégation, contrôle, synthèse).
 - Format des fichiers et exemples : [`contracts/research-files.md`](../../specs/008-recherche-sources-politiques/contracts/research-files.md).
 - Champs et listes fermées : [`data-model.md`](../../specs/008-recherche-sources-politiques/data-model.md).
 - Contrôle : `pnpm data:validate` (règles `RECH-ID`, `RECH-REF`, `RECH-STATUS`, `RECH-EVIDENCE`,
