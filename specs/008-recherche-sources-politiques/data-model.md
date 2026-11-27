@@ -159,7 +159,7 @@ d'historique.
 | `id` | Id | oui | égal au nom du fichier |
 | `mode` | enum | oui | `PERSONALITY`, `COMPARISON`, `THEMATIC`, `GLOBAL_ENRICHMENT`, `ADVERSARIAL_AUDIT` (FR-047) |
 | `author` | Id | oui | contributeur (`contributors.yaml`), `claude` pour l'agent |
-| `model` | texte | non | modèle ayant mené la mission (`opus` pour le sous-agent), pour la traçabilité ; aucun coût à journaliser (aucune API appelée) |
+| `model` | texte | non | modèle ayant mené la mission (`sonnet` pour le chercheur), pour la traçabilité ; aucun coût à journaliser (aucune API appelée) |
 | `request` | texte | oui | demande d'adrien, reformulée fidèlement |
 | `startedAt`, `completedAt` | Day | `completedAt` si `state: completed` | |
 | `state` | enum | oui | `completed`, `interrupted` (limite de contexte, source indisponible) |
