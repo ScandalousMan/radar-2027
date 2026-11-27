@@ -158,3 +158,361 @@
   journal: 2026-11-22-thematique-droit-du-sol
   createdAt: 2026-11-22
   updatedAt: 2026-11-22
+
+- id: gabriel-attal-immigration-003
+  personality: gabriel-attal
+  kind: POSITION
+  theme: immigration
+  question: immigration-regularisation-metiers-tension
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "mais on sait qu'il faut sortir d'une forme d'hypocrisie. Vous avez aujourd'hui des travailleurs qui sont là, qui travaillent, on ferme les yeux."
+  speaker: Gabriel Attal
+  context: >-
+    Entretien de Gabriel Attal, alors ministre délégué chargé des Comptes publics, sur Europe 1
+    (Sonia Mabrouk), le 3 novembre 2022, au lendemain de l'annonce des grandes lignes du projet de
+    loi immigration du Gouvernement. Interrogé sur le risque d'« appel d'air », il répond que les
+    chefs d'entreprise y verront « probablement peut-être un bol d'air pour leur activité » et qu'une
+    partie de l'économie « tourne aujourd'hui grâce à l'immigration ». La phrase citée suit
+    l'évocation de cinq à six milliards d'euros perdus au titre du travail dissimulé, « en grande
+    partie » d'étrangers non déclarés ; il ajoute aussitôt qu'il faut « d'abord être clair » avec la
+    personne en situation irrégulière « si on souhaite ou pas qu'il puisse rester en France ».
+  verificationNotes: >-
+    Transcription officielle (Service d'information du Gouvernement, publiée par vie-publique.fr),
+    lue dans la copie de la Wayback Machine du 6 février 2023 : la page vie-publique.fr renvoyait une
+    page de contrôle anti-robot puis « Site en maintenance » (HTTP 503), et l'article d'Europe 1
+    répondait HTTP 403 ; aucun contrôle d'accès n'a été contourné. Phrase retrouvée mot pour mot dans
+    le texte en cache (apostrophes droites après normalisation). La transcription ne nomme pas
+    explicitement le titre de séjour « métiers en tension » : le lien avec cette mesure vient du
+    contexte (projet annoncé la veille) et du titre de l'article d'Europe 1, non ouvert.
+  source: gabriel-attal-europe1-2022-11-03-vie-publique
+  publisher: Service d'information du Gouvernement (vie-publique.fr), entretien Europe 1
+  locator: { kind: passage, value: "réponse à « Est-ce que quelqu'un en situation irrégulière en France n'est pas un délit ? », après le chiffrage du travail dissimulé" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: ministre délégué chargé des Comptes publics (gouvernement Borne), novembre 2022
+  rationale:
+    sourceQuality: >-
+      Transcription intégrale officielle de l'entretien, primaire ; lue dans une archive publique
+      faute d'accès à la page d'origine.
+    attribution: >-
+      Propos personnels de Gabriel Attal (« je l'assume aussi pour le coup en tant que ministre des
+      Comptes publics »), tenus en défense d'un projet du Gouvernement dont il était membre.
+    interpretation: >-
+      Attal plaide pour ne plus « fermer les yeux » sur les travailleurs étrangers sans titre qui
+      travaillent déjà, dans la défense d'un projet comportant un titre de séjour pour les métiers en
+      tension. C'est un soutien à l'idée de l'énoncé, mais indirect (aucun mot « régulariser » ni
+      « métiers en tension » dans sa bouche) et assorti d'une réserve (« être clair » sur qui peut
+      rester) : QUALIFIED_SUPPORT, non EXPLICIT_SUPPORT.
+    temporalRelevance: >-
+      Propos de 2022, tenus comme ministre d'un autre gouvernement, sans corroboration récente
+      retrouvée en source primaire ; sa campagne 2027 met en avant une « préférence travail » sans
+      se prononcer sur la régularisation des travailleurs sans titre.
+  statedAt: { date: 2022-11-03, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-attal-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: gabriel-attal-immigration-004
+  personality: gabriel-attal
+  kind: POSITION
+  theme: immigration
+  question: immigration-ame-soins-urgents
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Nous le ferons avant l'été par voie réglementaire avec une base qui est connue : le rapport de Claude Evin et Patrick Stefanini."
+  speaker: Gabriel Attal
+  context: >-
+    Déclaration de politique générale de Gabriel Attal, Premier ministre, à l'Assemblée nationale
+    (deuxième séance du 30 janvier 2024). La phrase suit immédiatement, après une interruption de
+    M. Benjamin Lucas, celle-ci : « Je tiendrai l'engagement de ma prédécesseure de réformer l'aide
+    médicale de l'État. » Le passage s'inscrit dans le développement sur la souveraineté (« Il faut
+    assumer d'accueillir moins pour accueillir mieux »).
+  verificationNotes: >-
+    Deux phrases retrouvées mot pour mot dans le compte rendu officiel en cache ; seule la seconde
+    est citée, la première est rapportée en contexte (pas de fusion). Le contenu du rapport
+    Evin-Stefanini (décembre 2023) n'a pas été rouvert dans cette mission : sa conclusion de maintenir
+    l'AME plutôt que de la transformer en aide médicale d'urgence est une connaissance de contexte,
+    étayée seulement par la presse (Public Sénat, extrait de moteur).
+  source: gabriel-attal-an-dpg-2024-01-30
+  publisher: Assemblée nationale
+  locator: { kind: passage, value: "déclaration du Premier ministre, partie souveraineté, après « la border force »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: Premier ministre, janvier 2024
+  rationale:
+    sourceQuality: Compte rendu intégral officiel de la séance, primaire.
+    attribution: >-
+      Déclaration prononcée par Gabriel Attal lui-même ; elle engage le Gouvernement qu'il dirigeait,
+      mais il la porte personnellement (« Je tiendrai l'engagement »).
+    interpretation: >-
+      L'énoncé veut limiter l'AME aux soins urgents. Attal s'engage à « réformer » l'AME, par voie
+      réglementaire et sur la base du rapport Evin-Stefanini : il retient une réforme de l'AME
+      existante, non sa transformation en aide médicale d'urgence (que le décret ne peut d'ailleurs
+      pas créer). C'est une opposition implicite à l'énoncé, non formulée comme telle :
+      QUALIFIED_OPPOSITION (lecture de l'agent, à confirmer).
+    temporalRelevance: >-
+      Engagement de Premier ministre en 2024, autre fonction ; aucun propos personnel récent sur
+      l'AME retrouvé (le document Renaissance de mai 2025 reprend la même ligne, mais c'est une
+      position de parti).
+  statedAt: { date: 2024-01-30, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-attal-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: gabriel-attal-immigration-005
+  personality: gabriel-attal
+  kind: POSITION
+  theme: immigration
+  question: immigration-condamnes-perte-titre-sejour
+  qualification: NO_DIRECT_EVIDENCE
+  quoteStatus: PARAPHRASE
+  paraphrase: >-
+    Gabriel Attal figure parmi les 44 députés du groupe Ensemble pour la République ayant voté pour
+    les amendements identiques de suppression (n° 1 de Mme Élisa Martin et suivants) de l'article
+    premier de la proposition de loi du groupe RN visant à assouplir les conditions d'expulsion des
+    étrangers constituant une menace grave pour l'ordre public ; amendements adoptés le 31 octobre
+    2024 (186 pour, 144 contre).
+  speaker: Gabriel Attal
+  context: >-
+    Proposition de loi n° 265 de Mme Edwige Diaz (RN), qui supprimait des protections légales contre
+    l'expulsion (articles L. 631-2 et suivants du CESEDA). Le ministre délégué Nicolas Daragon y
+    était défavorable, la jugeant contraire à la Constitution et aux engagements internationaux ;
+    l'orateur EPR, M. Charles Sitzenstuhl, a annoncé que « le groupe Ensemble pour la République
+    présidé par Gabriel Attal votera contre le texte ». Attal n'a pas pris la parole.
+  verificationNotes: >-
+    Nom « M. Gabriel Attal » retrouvé dans la liste « Pour : 44 » du groupe EPR sur la page officielle
+    du scrutin n° 218 (texte enregistré depuis le code HTML de la page). Texte de la proposition de
+    loi et compte rendu de la deuxième séance du 31 octobre 2024 lus sur assemblee-nationale.fr.
+  source: gabriel-attal-an-scrutin-218-expulsion-etrangers
+  publisher: Assemblée nationale
+  locator: { kind: passage, value: "Ensemble pour la République (94 membres), Pour : 44" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: HIGH
+  actionScope: >-
+    Vote individuel nominatif « pour » au scrutin public n° 218 sur la suppression de l'article
+    premier de la proposition de loi n° 265 (assouplir les conditions d'expulsion des étrangers
+    constituant une menace grave pour l'ordre public), première lecture, Assemblée nationale,
+    deuxième séance du 31 octobre 2024 ; suppression adoptée. Le vote porte sur la levée des
+    protections contre l'expulsion, non sur le retrait du titre de séjour des condamnés.
+  temporalRelevance: DATED
+  period: président du groupe EPR à l'Assemblée, octobre 2024
+  rationale:
+    attribution: Vote nominatif personnel ; le groupe s'est partagé (44 pour sur 94).
+    interpretation: >-
+      L'énoncé porte sur la perte du titre de séjour pour toute condamnation à de la prison ferme.
+      Le texte visé levait des protections contre l'expulsion d'étrangers menaçant gravement l'ordre
+      public ; le vote ne dit rien du retrait des titres et n'emporte aucune motivation connue :
+      NO_DIRECT_EVIDENCE.
+    temporalRelevance: Vote de 2024, plus de douze mois avant la vérification.
+  statedAt: { date: 2024-10-31, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-attal-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: gabriel-attal-immigration-006
+  personality: gabriel-attal
+  kind: POSITION
+  theme: immigration
+  question: immigration-asile-examen-hors-europe-v2
+  qualification: NO_DIRECT_EVIDENCE
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Gabriel Attal écarte en revanche les centres de renvoi installés dans des pays tiers : ils coûtent cher, ne fonctionnent pas et créent une dépendance vis-à-vis de ces États."
+  speaker: Gabriel Attal
+  context: >-
+    Fiche de mesure « Définir des quotas migratoires révisés tous les deux ans » du site de campagne
+    (rattachée à l'émission de BFM TV du 6 septembre 2026), rédigée à la troisième personne par la
+    campagne. La même idée figure dans le compte rendu de l'entretien sur LCI du 25 août 2026
+    publié par la campagne (« refuse les solutions qu'il juge inefficaces, comme les centres de
+    renvoi installés dans des pays tiers, en raison de leur coût et du risque de dépendance »).
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache de la fiche. Les enregistrements de BFM TV
+    et de LCI (vidéos YouTube intégrées) n'ont pas été transcrits : la formulation orale exacte
+    d'Attal n'est pas connue.
+  source: gabriel-attal-mesure-quotas-migratoires-revises
+  publisher: attalpresident.fr (campagne de Gabriel Attal)
+  locator: { kind: paragraph, value: "Un plafond voté par le Parlement tous les deux ans, dernier paragraphe" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  lead:
+    url: https://votons-2027.fr/candidats/attal/programme/immigration
+    title: "Immigration · présidentielle 2027 (votons-2027.fr)"
+  rationale:
+    sourceQuality: Site officiel de campagne, primaire pour le programme du candidat.
+    attribution: >-
+      Texte publié par la campagne au nom du candidat ; formulation de la campagne, non citation
+      orale.
+    interpretation: >-
+      Les « centres de renvoi » (centres de retour pour étrangers à éloigner) ne sont pas des centres
+      d'examen des demandes d'asile, objet de l'énoncé. Le rejet, motivé par le coût, l'inefficacité
+      et la dépendance envers les États tiers, laisse présager une réserve sur l'externalisation de
+      l'asile, mais ne la tranche pas : NO_DIRECT_EVIDENCE.
+    temporalRelevance: Fiche datée du 6 septembre 2026, moins de douze mois.
+  statedAt: { date: 2026-09-06, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-attal-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: gabriel-attal-immigration-007
+  personality: gabriel-attal
+  kind: POSITION
+  theme: immigration
+  question: immigration-titre-sejour-longue-duree
+  qualification: NO_DIRECT_EVIDENCE
+  quoteStatus: PARAPHRASE
+  paraphrase: >-
+    Gabriel Attal figure parmi les 10 députés du groupe Ensemble pour la République ayant voté
+    contre l'amendement n° 12 de M. Laurent Jacobelli (RN) à l'article premier de la proposition de
+    loi visant à garantir un renouvellement automatique des titres de séjour de longue durée ;
+    amendement rejeté le 11 décembre 2025 (18 pour, 110 contre).
+  speaker: Gabriel Attal
+  context: >-
+    Proposition de loi socialiste n° 1799 (rapporteure Colette Capdevielle). L'amendement n° 12
+    réécrivait l'article premier : les cartes de séjour pluriannuelles et les cartes de résident ne
+    pourraient « en aucun cas faire l'objet d'un renouvellement automatique », sous conditions
+    cumulées (résidence continue, français B1 ou B2, « assimilation effective », ressources hors
+    prestations non contributives, absence de toute procédure judiciaire…). Attal ne figure ni dans
+    le scrutin n° 4746 (suppression de l'article premier) ni dans le scrutin n° 4754 sur l'ensemble
+    (texte adopté).
+  verificationNotes: >-
+    Nom retrouvé dans la liste « Contre : 10 » du groupe EPR (page officielle du scrutin n° 4748) ;
+    dispositif de l'amendement lu sur assemblee-nationale.fr (2199/AN/12) ; absence du nom vérifiée
+    sur les pages des scrutins n° 4746, 4749, 4750, 4752, 4753 et 4754.
+  source: gabriel-attal-an-scrutin-4748-titres-sejour-longue-duree
+  publisher: Assemblée nationale
+  locator: { kind: passage, value: "Ensemble pour la République (91 membres), Contre : 10" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: HIGH
+  actionScope: >-
+    Vote individuel nominatif « contre » au scrutin public n° 4748 sur l'amendement n° 12 de
+    M. Jacobelli à l'article premier de la proposition de loi n° 1799 (renouvellement automatique
+    des titres de séjour de longue durée), première lecture, Assemblée nationale, troisième séance
+    du 11 décembre 2025 ; amendement rejeté. Aucun vote d'Attal sur l'article ni sur l'ensemble.
+  temporalRelevance: CURRENT
+  period: député, président du groupe EPR, décembre 2025
+  rationale:
+    interpretation: >-
+      L'énoncé demande que les étrangers en situation régulière obtiennent plus facilement un titre
+      de longue durée. Voter contre un durcissement drastique du renouvellement n'est pas soutenir
+      une facilitation de l'accès ; Attal ne s'est pas prononcé sur le renouvellement automatique
+      lui-même : NO_DIRECT_EVIDENCE.
+    temporalRelevance: Vote du 11 décembre 2025, moins de douze mois avant la vérification.
+  statedAt: { date: 2025-12-11, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-attal-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: gabriel-attal-immigration-008
+  personality: gabriel-attal
+  kind: POSITION
+  theme: immigration
+  question: immigration-amende-sejour-irregulier
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: PARAPHRASE
+  paraphrase: >-
+    Gabriel Attal figure parmi les 47 députés du groupe Ensemble pour la République ayant voté pour
+    les amendements identiques de suppression (n° 2 de M. Paul Christophle et suivants) de l'article
+    unique de la proposition de loi visant au rétablissement du délit de séjour irrégulier ;
+    amendements adoptés le 30 octobre 2025 (209 pour, 169 contre), ce qui a vidé le texte.
+  speaker: Gabriel Attal
+  context: >-
+    Proposition de loi n° 1839 du groupe RN (rapporteure Sylvie Josserand). Son article unique
+    punissait de 3 750 euros d'amende le fait pour un étranger majeur de séjourner en France au-delà
+    de la durée autorisée par son visa ou sans titre, avec une peine complémentaire de trois ans
+    d'interdiction du territoire. Le ministre de l'intérieur Laurent Nuñez s'y opposait ; pour le
+    groupe EPR, M. Charles Sitzenstuhl a mis en avant le cadre européen et M. Jean-Luc Fugit a
+    annoncé un vote contre. Attal n'a pas pris la parole.
+  verificationNotes: >-
+    Nom « M. Gabriel Attal » retrouvé dans la liste « Pour : 47 » du groupe EPR sur la page officielle
+    du scrutin n° 3261 ; texte de la proposition de loi n° 1839 et compte rendu de la deuxième séance
+    du 30 octobre 2025 lus sur assemblee-nationale.fr.
+  source: gabriel-attal-an-scrutin-3261-delit-sejour-irregulier
+  publisher: Assemblée nationale
+  locator: { kind: passage, value: "Ensemble pour la République (92 membres), Pour : 47" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: HIGH
+  actionScope: >-
+    Vote individuel nominatif « pour » au scrutin public n° 3261 sur la suppression de l'article
+    unique de la proposition de loi n° 1839 visant au rétablissement du délit de séjour irrégulier
+    (3 750 euros d'amende, trois ans d'interdiction du territoire en peine complémentaire), première
+    lecture, Assemblée nationale, deuxième séance du 30 octobre 2025 ; suppression adoptée. Le vote
+    établit son rejet de ce texte à cette date, non son adhésion à l'argumentaire de son groupe.
+  temporalRelevance: DATED
+  period: député, président du groupe EPR, octobre 2025
+  rationale:
+    attribution: Vote nominatif personnel ; 47 des 92 membres du groupe ont voté ainsi.
+    interpretation: >-
+      L'énoncé veut sanctionner le séjour irrégulier par une amende ; le texte supprimé faisait
+      exactement cela (amende de 3 750 euros), avec en plus une interdiction du territoire. Le vote
+      de suppression va contre l'énoncé, mais sans motivation personnelle exprimée et sur un texte
+      plus large que la seule amende : QUALIFIED_OPPOSITION plutôt qu'EXPLICIT_OPPOSITION.
+    temporalRelevance: Vote du 30 octobre 2025, un peu plus de douze mois avant la vérification, sans propos récent retrouvé sur le sujet.
+  statedAt: { date: 2025-10-30, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-attal-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: gabriel-attal-immigration-009
+  personality: gabriel-attal
+  kind: POSITION
+  theme: immigration
+  question: immigration-regularisation-cinq-ans
+  qualification: NO_DIRECT_EVIDENCE
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "renforcer la coordination au sein de l'espace Schengen pour éviter qu'un État membre puisse décider seul de régularisations massives ayant des conséquences pour ses voisins"
+  speaker: Gabriel Attal
+  context: >-
+    Compte rendu, publié par la campagne, de l'entretien de Gabriel Attal sur LCI (25 août 2026),
+    partie « Durcir les règles migratoires avec une "préférence travail" » : « Il souhaite également
+    s'inspirer du système canadien à points et » + passage cité. Le contexte probable est la
+    régularisation exceptionnelle engagée par l'Espagne en 2026 (interprétation de l'agent).
+  verificationNotes: >-
+    Passage retrouvé mot pour mot dans le texte en cache de la page de campagne ; c'est une
+    reformulation par la campagne, non une citation orale. Vidéo LCI intégrée non transcrite.
+  source: gabriel-attal-actualite-lci-2026-08-25
+  publisher: attalpresident.fr (campagne de Gabriel Attal)
+  locator: { kind: paragraph, value: "Durcir les règles migratoires avec une « préférence travail », 3e paragraphe" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: >-
+      Texte de la campagne résumant l'entretien ; propos du candidat reformulés, d'où MEDIUM.
+    interpretation: >-
+      L'énoncé porte sur la régularisation, en France, des étrangers présents depuis plus de cinq
+      ans. Le passage vise les régularisations « massives » décidées seul par un autre État membre
+      et la coordination européenne : il ne dit rien d'une régularisation au cas par cas après cinq
+      ans de présence. NO_DIRECT_EVIDENCE.
+    temporalRelevance: Entretien du 25 août 2026, moins de douze mois.
+  statedAt: { date: 2026-08-25, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-attal-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27

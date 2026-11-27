@@ -1,0 +1,401 @@
+# Journal de mission (spec 008, FR-029 ; mission issue de data:gaps, spec 009 §13 bis).
+# Requêtes et sources effectivement consultées. Mission 3 du rapport data/reports/trous/2026-11-26.md.
+id: 2026-11-27-campagne-retailleau-justice
+mode: PERSONALITY
+author: claude
+model: opus
+request: >-
+  Mission issue de data:gaps (spec 009, lot 2), mode PERSONALITY : chercher, pour Bruno Retailleau
+  et le thème justice, une prise de position personnelle en source primaire (discours, entretien,
+  tribune, intervention ou vote personnel au Sénat, déclaration de ministre exprimant sa position,
+  programme, livre) sur dix questions, dans l'ordre : justice-arret-construction-prisons,
+  justice-courtes-peines-alternatives, justice-comparution-immediate-mineurs,
+  justice-majorite-penale-16-ans, justice-supprimer-reductions-automatiques,
+  justice-perpetuite-reelle-etendue, justice-tig-delits-sans-violence,
+  justice-accompagnement-emploi-detenus, justice-imprescriptibilite-crimes-sexuels-mineurs,
+  justice-juridictions-mineurs-specialisees-v2 ; enregistrer les sources par data:source fetch,
+  écrire des preuves qualifiées, consigner les absences avec leur question ; ne rien déduire de LR,
+  du gouvernement ou d'alliés ; ne pas écrire dans positions/ ; pas de commit.
+startedAt: 2026-11-27
+completedAt: 2026-11-27
+state: completed
+scope:
+  personalities: [bruno-retailleau]
+  themes: [justice]
+  questions:
+    - justice-arret-construction-prisons
+    - justice-courtes-peines-alternatives
+    - justice-comparution-immediate-mineurs
+    - justice-majorite-penale-16-ans
+    - justice-supprimer-reductions-automatiques
+    - justice-perpetuite-reelle-etendue
+    - justice-tig-delits-sans-violence
+    - justice-accompagnement-emploi-detenus
+    - justice-imprescriptibilite-crimes-sexuels-mineurs
+    - justice-juridictions-mineurs-specialisees-v2
+queries:
+  - at: 2026-11-27
+    query: "lecture préalable : section « Mission 3 » du rapport data:gaps, questions/justice.yaml (10 énoncés), positions/bruno-retailleau.yaml (aucune position sur les 10 questions ; positions voisines justice-peines-minimales-recidive et justice-sanction-financiere-parents), sources/bruno-retailleau.yaml, preuves/bruno-retailleau.yaml (aucune preuve justice), journaux précédents sur Retailleau"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-27
+    query: "recherche plein texte dans les textes en cache des sources Retailleau : prison, peine, mineur, perpétuité, détenu, incarcér, imprescript, majorité pénale, comparution"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-27
+    query: "Bruno Retailleau places de prison construction 2026"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "site:republicains.fr Retailleau prison justice mineurs"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://www.publicsenat.fr/actualites/politique/bruno-retailleau-favorable-aux-courtes-peines-de-prison-ce-nest-pas-une-solution-magique"
+    category: NATIONAL_MEDIA
+    tool: curl
+  - at: 2026-11-27
+    query: "https://www.vie-publique.fr/discours/297336-bruno-retailleau-12022025-france-inter-ordre-public (et 297078, France 2, 28 janvier 2025)"
+    category: GOVERNMENT
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "site:senat.fr Retailleau proposition de loi mineurs délinquants excuse de minorité"
+    category: SENAT
+    tool: web_search
+  - at: 2026-11-27
+    query: "Retailleau \"majorité pénale\" 16 ans"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Bruno Retailleau majorité pénale 15 ans octobre 2026"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "\"Nos propositions pour la France\" Les Républicains sécurité justice PDF 2026"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://votons-2027.fr/candidats/retailleau/programme (piste seulement)"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "https://www.avecretailleau.fr/projet (rubriques Justice et Sécurité : « À venir »)"
+    category: CAMPAIGN_SITE
+    tool: curl
+  - at: 2026-11-27
+    query: "moteur interne de republicains.fr : prison, peine, mineurs, perpétuité, justice, détenus, excuse de minorité, comparution immédiate, imprescriptibilité, travail d'intérêt général, réduction de peine, majorité pénale"
+    category: PARTY_SITE
+    tool: curl
+  - at: 2026-11-27
+    query: "pages republicains.fr ouvertes : 2025/02/12 (France Inter), 2025/01/28 (France 2), 2026/02/12 (déclaration), 2025/07/23 (Valeurs actuelles), 2025/01/07, 2025/05/22, 2025/06/10, 2025/09/17"
+    category: FULL_INTERVIEWS
+    tool: curl
+  - at: 2026-11-27
+    query: "https://www.senat.fr/leg/ppl16-641.html (PPL Bas, redressement de la justice, 2017)"
+    category: SENAT
+    tool: curl
+  - at: 2026-11-27
+    query: "\"Bruno Retailleau\" \"places de prison\" Sénat séance"
+    category: SENAT
+    tool: web_search
+  - at: 2026-11-27
+    query: "articles Public Sénat des 29 et 31 janvier 2017 sur la PPL Retailleau-Buffet « efficacité de la justice pénale »"
+    category: NATIONAL_MEDIA
+    tool: curl
+  - at: 2026-11-27
+    query: "senat.fr proposition de loi \"renforcer l'efficacité de la justice pénale\" Retailleau Buffet 2016"
+    category: SENAT
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://www.senat.fr/leg/ppl16-126.html et compte rendu analytique du 31 janvier 2017 (s20170131_4)"
+    category: PARLIAMENTARY_ARCHIVES
+    tool: curl
+  - at: 2026-11-27
+    query: "Retailleau \"places de prison\" candidat présidentielle"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "pages republicains.fr 2025/08/28, 2025/10/22, 2026/02/18 ; dépêche AFP La Gazette France du 23 avril 2026 ; Public Sénat, premier meeting"
+    category: PRESS_AGENCIES
+    tool: curl
+  - at: 2026-11-27
+    query: "Retailleau \"comparution immédiate\" mineurs 16 ans"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Retailleau \"fiasco\" justice des mineurs France 2 28 janvier 2025 comparution immédiate courtes peines"
+    category: TV_RADIO_DEBATES
+    tool: web_search
+  - at: 2026-11-27
+    query: "Bruno Retailleau \"perpétuité réelle\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "dépêche AFP La Gazette France du 11 juin 2026 (castration chimique) et Public Sénat du 8 juin 2026 (affaire Lyhanna)"
+    category: PRESS_AGENCIES
+    tool: curl
+  - at: 2026-11-27
+    query: "Retailleau imprescriptibilité crimes sexuels mineurs"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Public Sénat, 29 octobre 2026 : le Sénat rétablit l'imprescriptibilité ; liste des scrutins publics 2026-2027 et 2025-2026 du Sénat"
+    category: SENAT
+    tool: curl
+  - at: 2026-11-27
+    query: "https://www.senat.fr/scrutin-public/2026/scr2026-43.html et amendements n° 1, 3 et 298 (texte n° 89, 2026-2027)"
+    category: SENAT
+    tool: curl
+  - at: 2026-11-27
+    query: "Bruno Retailleau \"travail d'intérêt général\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "listes des propositions de loi dont Bruno Retailleau est auteur ou cosignataire, sessions 2011 à 2025 (senat.fr), filtrées sur justice, peine, prison, mineur, détenu"
+    category: SENAT
+    tool: curl
+  - at: 2026-11-27
+    query: "https://www.senat.fr/leg/ppl17-293.html et ppl17-028.html (protection des mineurs, 2017-2018)"
+    category: PARLIAMENTARY_ARCHIVES
+    tool: curl
+  - at: 2026-11-27
+    query: "Retailleau \"juge des enfants\" OR \"tribunal pour enfants\" mineurs jugés comme des majeurs"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Retailleau détenus travail en prison réinsertion emploi"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "moteur interne de republicains.fr : pénitentiaire, places de prison, TIG, travaux d'intérêt général, juge des enfants, tribunal pour enfants, réinsertion, incompressible ; pages 2025/06/16 (JDD) et 2025/05/22 (Le Parisien) ouvertes"
+    category: PARTY_SITE
+    tool: curl
+  - at: 2026-11-27
+    query: "\"Retailleau\" \"excuse de minorité\" supprimer 16 ans entretien"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Public Sénat, 19 juin 2025 : censure de la loi Attal par le Conseil constitutionnel (contexte de la preuve 006)"
+    category: NATIONAL_MEDIA
+    tool: curl
+  - at: 2026-11-27
+    query: "https://www.elyseescope.com/questions/bruno-retailleau-majorite-penale (piste seulement)"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "Retailleau mineurs \"15 ans\" majorité pénale abaisser octobre 2026 violences"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Public Sénat, 10 mars 2021 : rixes entre jeunes, Retailleau veut des prisons spécifiques"
+    category: NATIONAL_MEDIA
+    tool: curl
+  - at: 2026-11-27
+    query: "recherche plein texte des doublons dans data/ : URL et identifiants des sources retenues, « courtes peines », « Belloubet »"
+    category: EXISTING_CORPUS
+    tool: grep
+categoriesExplored:
+  - EXISTING_CORPUS
+  - NATIONAL_MEDIA
+  - PARTY_SITE
+  - CAMPAIGN_SITE
+  - SENAT
+  - PARLIAMENTARY_ARCHIVES
+  - FULL_INTERVIEWS
+  - TV_RADIO_DEBATES
+  - PRESS_AGENCIES
+  - GOVERNMENT
+  - SPECIALIZED_PUBLICATIONS
+categoriesNotExplored:
+  - category: SOCIAL_MEDIA
+    reason: Comptes X et Facebook sous authentification, non contournée (FR-049) ; seuls les messages reproduits sur republicains.fr ont été lus.
+  - category: ORIGINAL_VIDEOS
+    reason: Vidéos des entretiens (France 2, France Inter, BFMTV) non transcrites ; l'agent n'écoute pas l'audio.
+  - category: ASSEMBLEE_NATIONALE
+    reason: Bruno Retailleau ne siège pas à l'Assemblée nationale sous la législature en cours.
+  - category: EUROPEAN_PARLIAMENT
+    reason: Sans objet pour ce périmètre.
+  - category: HISTORICAL_ARCHIVES
+    reason: Comptes rendus intégraux du Sénat des débats sur les lois de 2019 (programmation justice) et de 2021 (confiance dans l'institution judiciaire) non parcourus ; scrutins individuels de ces lois non ouverts.
+  - category: FACT_CHECKING
+    reason: Non exploré, aucune piste de vérification tierce sur ces questions.
+  - category: REGIONAL_MEDIA
+    reason: Non exploré.
+  - category: ACADEMIC
+    reason: Sans objet pour établir une position personnelle.
+exhaustive: false
+sourcesConsulted:
+  - url: https://republicains.fr/actualites/2025/07/23/bruno-retailleau-le-macronisme-sachevera-avec-emmanuel-macron/
+    title: « Le macronisme s'achèvera avec Emmanuel Macron » (entretien à Valeurs actuelles)
+    outcome: retained
+    source: bruno-retailleau-va-macronisme-2025-07
+  - url: https://www.publicsenat.fr/actualites/politique/rixes-entre-jeunes-retailleau-veut-des-peines-de-prison-specifiques-187980
+    title: Rixes entre jeunes (Public Sénat, 10 mars 2021)
+    outcome: retained
+    source: bruno-retailleau-publicsenat-rixes-2021-03
+  - url: https://republicains.fr/actualites/2025/06/16/bruno-retailleau-mai-68-a-fabrique-des-barbares/
+    title: « Mai 68 a fabriqué des barbares » (entretien au JDD)
+    outcome: retained
+    source: bruno-retailleau-jdd-mai-68-barbares-2025-06
+  - url: https://www.lagazettefrance.fr/article/presidentielle-retailleau-lr-veut-boucler-les-quartiers-du-narcotrafic
+    title: Retailleau veut « boucler » les quartiers du narcotrafic (AFP, 23 avril 2026)
+    outcome: retained
+    source: bruno-retailleau-afp-plan-anti-trafics-2026-04
+  - url: https://republicains.fr/actualites/2025/01/28/bruno-retailleau-la-justice-des-mineurs-est-un-echec-en-france/
+    title: « La justice des mineurs est un échec en France » (France 2)
+    outcome: retained
+    source: bruno-retailleau-france2-justice-mineurs-2025-01
+  - url: https://republicains.fr/actualites/2026/06/06/il-faut-creer-une-cour-disciplinaire-de-la-magistrature/
+    title: Il faut créer une cour disciplinaire de la magistrature (déjà enregistrée)
+    outcome: retained
+    source: bruno-retailleau-retailleau-creer-une-cour-disciplinaire-de-la-magistrature-r
+  - url: https://www.senat.fr/leg/ppl16-126.html
+    title: PPL n° 126 (2016-2017) tendant à renforcer l'efficacité de la justice pénale
+    outcome: retained
+    source: bruno-retailleau-senat-ppl16-126-justice-penale
+  - url: https://www.senat.fr/scrutin-public/2026/scr2026-43.html
+    title: Sénat, scrutin n° 43 du 28 octobre 2026
+    outcome: retained
+    source: bruno-retailleau-senat-scrutin-2026-43-imprescriptibilite
+  - url: https://www.senat.fr/leg/ppl17-293.html
+    title: PPL n° 293 (2017-2018), protection des mineurs victimes d'infractions sexuelles
+    outcome: retained
+    source: bruno-retailleau-senat-ppl17-293-mineurs-victimes
+  - url: https://www.lagazettefrance.fr/article/criminels-sexuels-retailleau-propose-la-castration-chimique-la-gauche-sceptique
+    title: Criminels sexuels, Retailleau propose la castration chimique (AFP, juin 2026)
+    outcome: retained
+    source: bruno-retailleau-afp-castration-chimique-2026-06
+  - url: https://republicains.fr/actualites/2025/02/12/bruno-retailleau-il-faut-assumer-des-peines-courtes-des-le-premier-delit-grave/
+    title: « Il faut assumer des peines courtes dès le premier délit grave » (France Inter)
+    outcome: rejected
+    reason: Lu ; message de l'intéressé sur les peines courtes redondant avec la preuve 003, plus explicite ; non enregistré.
+  - url: https://republicains.fr/actualites/2025/06/10/bruno-retailleau-je-veux-changer-les-regles/
+    title: « Je veux changer les règles » (France 2, 10 juin 2025)
+    outcome: rejected
+    reason: Lu ; message « peines courtes, mais fermes » pour les mineurs, redondant avec les preuves 003 et 004.
+  - url: https://www.publicsenat.fr/actualites/politique/bruno-retailleau-favorable-aux-courtes-peines-de-prison-ce-nest-pas-une-solution-magique
+    title: Bruno Retailleau favorable aux courtes peines de prison (Public Sénat, 10 octobre 2024)
+    outcome: rejected
+    reason: Lu ; citations reprises du Parisien (non ouvert), redondantes avec la preuve 003.
+  - url: https://www.publicsenat.fr/actualites/politique/le-senat-veut-effacer-la-reforme-penale-de-christiane-taubira-54038
+    title: Le Sénat veut effacer la réforme pénale de Christiane Taubira (Public Sénat, 31 janvier 2017)
+    outcome: rejected
+    reason: Lu ; le plan de 16 000 places de prison y est attribué aux auteurs de la PPL mais n'est pas dans le texte déposé, et les propos cités sont de F.-N. Buffet et P. Bas, non de B. Retailleau.
+  - url: https://www.senat.fr/leg/ppl16-641.html
+    title: PPL d'orientation et de programmation pour le redressement de la justice (P. Bas, 2017)
+    outcome: rejected
+    reason: Lu ; seul auteur Philippe Bas, Bruno Retailleau n'est pas signataire.
+  - url: https://www.senat.fr/cra/s20170131/s20170131_4.html
+    title: Compte rendu analytique du Sénat, 31 janvier 2017 (efficacité de la justice pénale)
+    outcome: rejected
+    reason: Lu ; aucune intervention de Bruno Retailleau.
+  - url: https://www.avecretailleau.fr/projet
+    title: Le projet (site de campagne de Bruno Retailleau)
+    outcome: rejected
+    reason: Lu ; rubriques Justice et Sécurité marquées « À venir », aucune mesure publiée à la date de la recherche.
+  - url: https://www.vie-publique.fr/discours/297336-bruno-retailleau-12022025-france-inter-ordre-public
+    title: Transcription de l'entretien de Bruno Retailleau sur France Inter (12 février 2025)
+    outcome: inaccessible
+    reason: Page protégée par un contrôle anti-robots (redirection JavaScript) ; non contourné.
+  - url: https://www.vie-publique.fr/discours/297078-bruno-retailleau-28012025-france-2-ordre-public
+    title: Transcription de l'entretien de Bruno Retailleau sur France 2 (28 janvier 2025)
+    outcome: inaccessible
+    reason: Même protection anti-robots ; non contourné.
+  - url: https://votons-2027.fr/candidats/retailleau/programme
+    title: Programme de Bruno Retailleau (votons-2027.fr)
+    outcome: rejected
+    reason: Agrégateur ; piste seulement, a conduit au site de campagne (rubrique justice « à venir »).
+  - url: https://www.elyseescope.com/questions/bruno-retailleau-majorite-penale
+    title: Bruno Retailleau propose de réduire la majorité pénale à 15 ans (ÉlyséeScope, 19 octobre 2026)
+    outcome: rejected
+    reason: Agrégateur sans citation ni source primaire ; affirmation non retrouvée en source primaire.
+evidenceAdded:
+  - bruno-retailleau-justice-001
+  - bruno-retailleau-justice-002
+  - bruno-retailleau-justice-003
+  - bruno-retailleau-justice-004
+  - bruno-retailleau-justice-005
+  - bruno-retailleau-justice-006
+  - bruno-retailleau-justice-007
+  - bruno-retailleau-justice-008
+  - bruno-retailleau-justice-009
+  - bruno-retailleau-justice-010
+  - bruno-retailleau-justice-011
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided: []
+verified:
+  - bruno-retailleau-justice-001
+  - bruno-retailleau-justice-002
+  - bruno-retailleau-justice-003
+  - bruno-retailleau-justice-004
+  - bruno-retailleau-justice-006
+  - bruno-retailleau-justice-007
+  - bruno-retailleau-justice-008
+  - bruno-retailleau-justice-009
+  - bruno-retailleau-justice-010
+  - bruno-retailleau-justice-011
+toVerify:
+  - bruno-retailleau-justice-005
+contradictions: []
+gaps:
+  - kind: NOT_FOUND
+    personality: bruno-retailleau
+    theme: justice
+    question: justice-majorite-penale-16-ans
+    note: >-
+      Aucune prise de position personnelle sur l'abaissement de la majorité pénale à 16 ans après
+      recherches presse, site du parti, site de campagne, Sénat et entretiens. Un agrégateur
+      (ÉlyséeScope, 19 octobre 2026) lui prête une proposition d'abaissement à 15 ans, sans
+      citation ni source ; non retrouvée en source primaire.
+  - kind: NOT_FOUND
+    personality: bruno-retailleau
+    theme: justice
+    question: justice-perpetuite-reelle-etendue
+    evidence: [bruno-retailleau-justice-011]
+    note: >-
+      Aucune prise de position sur l'extension de la perpétuité réelle ; seule une dépêche AFP
+      (juin 2026) indique qu'il évoque la difficulté des peines incompressibles pour justifier la
+      castration chimique obligatoire (preuve ambiguë).
+  - kind: NOT_FOUND
+    personality: bruno-retailleau
+    theme: justice
+    question: justice-tig-delits-sans-violence
+    note: >-
+      Aucune prise de position sur le travail d'intérêt général, ni sur les délits commis sans
+      violence en particulier, après recherches presse, site du parti et Sénat ; ses propos sur
+      les courtes peines visent les « premières violences » ou le « premier délit grave ».
+  - kind: NOT_FOUND
+    personality: bruno-retailleau
+    theme: justice
+    question: justice-accompagnement-emploi-detenus
+    note: >-
+      Aucune prise de position sur l'accompagnement vers l'emploi des détenus après recherches
+      presse, site du parti (réinsertion, pénitentiaire) et propositions de loi au Sénat.
+  - kind: NOT_FOUND
+    personality: bruno-retailleau
+    theme: justice
+    question: justice-juridictions-mineurs-specialisees-v2
+    note: >-
+      Aucune prise de position sur le jugement des mineurs par des juridictions distinctes après
+      recherches presse, site du parti (juge des enfants, tribunal pour enfants) et Sénat ; ses
+      « établissements spécifiques » pour mineurs concernent l'exécution des peines, pas les
+      juridictions.
+  - kind: PRIMARY_INACCESSIBLE
+    personality: bruno-retailleau
+    theme: justice
+    question: justice-comparution-immediate-mineurs
+    evidence: [bruno-retailleau-justice-005]
+    note: >-
+      Les transcriptions vie-publique.fr des entretiens France 2 (28 janvier 2025) et France Inter
+      (12 février 2025) n'ont pu être ouvertes (contrôle anti-robots, non contourné) ; la
+      formulation exacte sur la comparution immédiate reste à vérifier.
+  - kind: HISTORICAL_ONLY
+    personality: bruno-retailleau
+    theme: justice
+    question: justice-supprimer-reductions-automatiques
+    evidence: [bruno-retailleau-justice-007, bruno-retailleau-justice-008]
+    note: >-
+      Le soutien explicite date de la PPL de 2016 ; la déclaration de 2025 ne vise pas
+      spécifiquement les réductions automatiques.
+signals: []

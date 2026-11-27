@@ -383,3 +383,102 @@
   candidates:
     - bruno-retailleau
   contentHash: sha256:df22cd04b33892b6489eada6f7f146f5496b00660bd5afd4828093d551fa401a
+- id: bruno-retailleau-senat-ppl16-126-justice-penale
+  url: https://www.senat.fr/leg/ppl16-126.html
+  title: PPL tendant à renforcer l'efficacité de la justice pénale, n° 126 (2016-2017) (Sénat, F.-N. Buffet, B. Retailleau)
+  kind: declaration_vote
+  publishedAt:
+    date: 2016-11-15
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:9539315cb82b2e52740f7cca2dc067bb44452471fbe6898c98bca02d39f87099
+- id: bruno-retailleau-senat-ppl17-293-mineurs-victimes
+  url: https://www.senat.fr/leg/ppl17-293.html
+  title: PPL d'orientation et de programmation pour une meilleure protection des mineurs victimes d'infractions sexuelles, n° 293 (2017-2018) (Sénat, B. Retailleau cosignataire)
+  kind: declaration_vote
+  publishedAt:
+    date: 2018-02-12
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:411094888a0687f4d14197c858737278aa31bd4fbb0d2f2ec989c20246f02ac6
+- id: bruno-retailleau-senat-scrutin-2026-43-imprescriptibilite
+  url: https://www.senat.fr/scrutin-public/2026/scr2026-43.html
+  title: Sénat, scrutin n° 43 du 28 octobre 2026 (rétablissement de l'article 11 bis A du projet de loi relatif à la protection des enfants, imprescriptibilité)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-28
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:ff86e1bcf0818ecd354875dc6e8e856973d528b3481eec70bb8274afcdab3d93
+- id: bruno-retailleau-jdd-mai-68-barbares-2025-06
+  url: https://republicains.fr/actualites/2025/06/16/bruno-retailleau-mai-68-a-fabrique-des-barbares/
+  title: « Mai 68 a fabriqué des barbares » (entretien au JDD, Les Républicains)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-06-16
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:e6b55066607494ce7a24196adc5204ac60c6ad7ddfcb0be2f3f7571bd00dcf48
+- id: bruno-retailleau-va-macronisme-2025-07
+  url: https://republicains.fr/actualites/2025/07/23/bruno-retailleau-le-macronisme-sachevera-avec-emmanuel-macron/
+  title: « Le macronisme s'achèvera avec Emmanuel Macron » (entretien à Valeurs actuelles, Les Républicains)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-07-23
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:767904c5af5b72cd4cb1df0842809fffcda0574697dde3390176dae53a0cd0c4
+- id: bruno-retailleau-afp-plan-anti-trafics-2026-04
+  url: https://www.lagazettefrance.fr/article/presidentielle-retailleau-lr-veut-boucler-les-quartiers-du-narcotrafic
+  title: "Présidentielle : Retailleau (LR) veut « boucler » les quartiers du narcotrafic (AFP, La Gazette France)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-04-23
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:82f67c25c5fe15e96faef4c12e87dc04fb002cb6f7641dc5d6c72d1a09b13407
+- id: bruno-retailleau-publicsenat-rixes-2021-03
+  url: https://www.publicsenat.fr/actualites/politique/rixes-entre-jeunes-retailleau-veut-des-peines-de-prison-specifiques-187980
+  title: "Rixes entre jeunes : « Ce qui explique l'hyper violence, c'est l'hyper laxisme », affirme Bruno Retailleau (Public Sénat)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2021-03-10
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:17b7c3c6dcbb50c6257399411c7e0241ad36aba634e54a2c713c38f0a6c86316
+- id: bruno-retailleau-france2-justice-mineurs-2025-01
+  url: https://republicains.fr/actualites/2025/01/28/bruno-retailleau-la-justice-des-mineurs-est-un-echec-en-france/
+  title: « La justice des mineurs est un échec en France » (France 2, Les Républicains)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-01-28
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:94d95c6ffc2be07c11c3ae6422578f5dfc1705ce34e20069f513b4c58538069a
+- id: bruno-retailleau-afp-castration-chimique-2026-06
+  url: https://www.lagazettefrance.fr/article/criminels-sexuels-retailleau-propose-la-castration-chimique-la-gauche-sceptique
+  title: "Criminels sexuels : Retailleau propose la castration chimique, la gauche sceptique (AFP, La Gazette France)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-06-10
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:a0f07a382e27a29546ad423c1e9ceba4f848a6c71c78e9282c6c0eaf54d4b5a8

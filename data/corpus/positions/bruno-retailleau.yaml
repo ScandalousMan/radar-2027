@@ -1216,3 +1216,77 @@
   reviewer: adrien
   reviewedAt: 2026-11-26
   reviewedHash: sha256:56684ffb00cffbc063ea4a3c002de2420c130b27d230e8fb04cdfabe2463701b
+
+# Campagne de couverture 009, lot 2 (2026-11-27) : positions transcrites par l'agent depuis les preuves
+# primaires de data/recherche (journal 2026-11-27-campagne-retailleau-justice).
+
+- question: justice-arret-construction-prisons
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-va-macronisme-2025-07
+  quote: "Pour briser au plus tôt la spirale de la délinquance, il faut des courtes peines de prison dès les premières violences, dans des établissements spécifiques."
+  quoteSource: bruno-retailleau-va-macronisme-2025-07
+  justification: "Entretien de 2025 : il demande des établissements spécifiques pour les courtes peines, ce qui va contre l'arrêt des constructions ; aucun chiffre ni programme immobilier."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+
+- question: justice-courtes-peines-alternatives
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-jdd-mai-68-barbares-2025-06
+  quote: "Mais pour cela, il faut commencer par abroger la loi Belloubet de 2019, qui empêche ces peines courtes."
+  quoteSource: bruno-retailleau-jdd-mai-68-barbares-2025-06
+  justification: "Entretien de 2025 : il veut abroger la loi de 2019 qui écarte les courtes peines et prône des peines d'une ou deux semaines de prison, à l'opposé de l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+
+- question: justice-comparution-immediate-mineurs
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-creer-une-cour-disciplinaire-de-la-magistrature-r
+  quote: "le Conseil constitutionnel a censuré un texte pourtant timide sur le durcissement de la justice des mineurs, interdisant ainsi presque toute réforme législative"
+  quoteSource: bruno-retailleau-retailleau-creer-une-cour-disciplinaire-de-la-magistrature-r
+  justification: "Entretien de 2026 : il juge « timide » la loi censurée qui ouvrait la comparution immédiate aux mineurs de 16 ans ; soutien sans nommer la mesure."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+
+- question: justice-supprimer-reductions-automatiques
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-senat-ppl16-126-justice-penale
+  quote: "La réduction de peines ne peut plus être un droit octroyé par provision."
+  quoteSource: bruno-retailleau-senat-ppl16-126-justice-penale
+  justification: "Proposition de loi sénatoriale de 2016 qu'il a cosignée, dont l'article 20 supprime le crédit de réduction de peine automatique ; position ancienne, rappelée en 2025 contre les réductions de peine."
+  old: true
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+
+- question: justice-imprescriptibilite-crimes-sexuels-mineurs
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-senat-scrutin-2026-43-imprescriptibilite
+  quote: "Mmes Kristina Pluchet, Sophie Primas, Virginie Quentin, MM. Jean-François Rapin, Bruno Retailleau, Hervé Reynaud"
+  quoteSource: bruno-retailleau-senat-scrutin-2026-43-imprescriptibilite
+  justification: "Vote personnel « pour » au Sénat en 2026 sur l'imprescriptibilité des viols sur mineurs, contre la majorité de son groupe et l'avis de la commission."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27

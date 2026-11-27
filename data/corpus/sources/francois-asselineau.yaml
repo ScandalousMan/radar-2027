@@ -53,3 +53,36 @@
   candidates:
     - francois-asselineau
   contentHash: sha256:eb7ba468faf93e453acb9a30eeb3e7cd39481355bdcde72a111774605398ce19
+- id: francois-asselineau-toulouse-defi-migratoire-2023
+  url: https://upr.fr/drp/reunion-publique-de-francois-asselineau-a-toulouse-que-faire-face-au-defi-migratoire
+  title: "Réunion publique de François Asselineau à Toulouse : « Que faire face au défi migratoire ? » (UPR)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-10-31
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - francois-asselineau
+  contentHash: sha256:e5bbeb0ee0cea8ed8a7d470083e97fc28a3d9529d32d50920518bc4818638aeb
+- id: francois-asselineau-immigration-objectif-cache-ue-2023
+  url: https://upr.fr/essentiels/immigration-lobjectif-cache-de-lunion-europeenne
+  title: "Immigration : l'objectif caché de l'Union européenne (UPR)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2023-11-28
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - francois-asselineau
+  contentHash: sha256:4b14c731bbc030e4a57764f951cfc8ba95693680f96dbbddf84a46299b30f94c
+- id: francois-asselineau-sud-radio-bercoff-2026-10-30
+  url: https://www.sudradio.fr/sud-radio/francois-asselineau-je-suis-plus-courageux-que-melenchon-et-le-pen-qui-sont-des-laches
+  title: "François Asselineau : « Je suis plus courageux que Mélenchon et Le Pen » (Sud Radio, Bercoff)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-10-30
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - francois-asselineau
+  contentHash: sha256:072172f62ba39baf43ce02624bc893270acb483d21f2a9f5fad74b40f1bac77a

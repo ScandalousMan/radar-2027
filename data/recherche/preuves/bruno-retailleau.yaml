@@ -795,3 +795,464 @@
   journal: 2026-11-22-campagne-retailleau-economie
   createdAt: 2026-11-23
   updatedAt: 2026-11-23
+
+- id: bruno-retailleau-justice-001
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: justice
+  question: justice-arret-construction-prisons
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Pour briser au plus tôt la spirale de la délinquance, il faut des courtes peines de prison dès les premières violences, dans des établissements spécifiques."
+  speaker: Bruno Retailleau
+  context: >-
+    Entretien à Valeurs actuelles (juillet 2025), reproduit sur le site des Républicains, en
+    réponse à « Comment améliorer la réponse pénale ? ». La phrase suit « nous devons arrêter de
+    donner aux mineurs un droit au premier, au deuxième, au troisième tabassage » et précède
+    « Il faudrait pour cela abolir la loi Belloubet, qui proscrit ces courtes peines de prison. »
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache de la page du site des Républicains, qui
+    renvoie à l'entretien sur ValeursActuelles.com (non ouvert).
+  source: bruno-retailleau-va-macronisme-2025-07
+  publisher: Les Républicains (entretien à Valeurs actuelles)
+  locator: { kind: passage, value: "réponse à « Comment améliorer la réponse pénale ? », point « Deuxièmement »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: ministre de l'Intérieur et président des Républicains (2025)
+  rationale:
+    sourceQuality: >-
+      Entretien publié par le site officiel de son parti, dont il est le président, sous la forme
+      questions-réponses : document diffusé par la personnalité elle-même.
+    interpretation: >-
+      L'énoncé demande l'arrêt de la construction de places de prison. Le propos réclame des
+      « établissements spécifiques » pour exécuter des courtes peines, ce qui suppose des places
+      nouvelles ou réaffectées : opposition implicite à l'arrêt des constructions, mais sans
+      engagement chiffré ni mention explicite d'un programme de construction, d'où une opposition
+      qualifiée.
+    temporalRelevance: Propos de juillet 2025, plus de douze mois avant la vérification.
+  statedAt: { date: 2025-07-23, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-justice
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-justice-002
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: justice
+  question: justice-arret-construction-prisons
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "de prisons spécifiques pour des courtes peines pour les mineurs, pour les enfermer"
+  speaker: Bruno Retailleau
+  context: >-
+    Déclaration à la sortie des questions au gouvernement au Sénat (10 mars 2021), alors président
+    du groupe LR, après des rixes mortelles entre adolescents. Public Sénat écrit qu'il « propose
+    la création, comme aux Pays-Bas » de telles prisons, puis cite : « Seul un enfermement de
+    quelques semaines peut caractériser une vraie sanction ».
+  verificationNotes: >-
+    Fragment retrouvé mot pour mot dans le texte en cache de l'article de Public Sénat ; aucun
+    enregistrement original n'a été ouvert.
+  source: bruno-retailleau-publicsenat-rixes-2021-03
+  publisher: Public Sénat
+  locator: { kind: paragraph, value: "3" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: mandat de sénateur, président du groupe LR (2021)
+  rationale:
+    sourceQuality: Média parlementaire établi rapportant entre guillemets une déclaration orale.
+    interpretation: >-
+      Proposition de créer des prisons spécifiques pour mineurs condamnés à de courtes peines :
+      contraire à l'arrêt de la construction de places, mais limité à une catégorie
+      d'établissements, d'où une opposition qualifiée.
+    temporalRelevance: Propos de 2021 ; la même idée est reprise en 2025 (bruno-retailleau-justice-001).
+  statedAt: { date: 2021-03-10, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-justice
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-justice-003
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: justice
+  question: justice-courtes-peines-alternatives
+  qualification: EXPLICIT_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Dès le premier délit grave, des peines courtes - une ou deux semaines de prison, comme aux Pays-Bas - peuvent avoir un effet dissuasif. Mais pour cela, il faut commencer par abroger la loi Belloubet de 2019, qui empêche ces peines courtes."
+  speaker: Bruno Retailleau
+  context: >-
+    Entretien au JDD (juin 2025), reproduit sur le site des Républicains, après l'agression
+    mortelle d'une surveillante à Nogent. Réponse à « Vous évoquez des tabous à faire tomber.
+    Lesquels précisément ? », qui commence par « Le premier tabou, c'est la prison pour les
+    mineurs. » et se termine par « C'est une urgence. »
+  verificationNotes: >-
+    Passage retrouvé mot pour mot dans le texte en cache (tirets cadratins normalisés en tirets
+    simples par le cache). L'entretien original sur LeJDD.fr n'a pas été ouvert.
+  source: bruno-retailleau-jdd-mai-68-barbares-2025-06
+  publisher: Les Républicains (entretien au JDD)
+  locator: { kind: passage, value: "réponse à « Vous évoquez des tabous à faire tomber. Lesquels précisément ? »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: ministre de l'Intérieur et président des Républicains (2025), repris en campagne 2026
+  rationale:
+    sourceQuality: Entretien diffusé par le site officiel du parti qu'il préside.
+    interpretation: >-
+      L'énoncé demande de remplacer les peines de prison de moins d'un an par des peines
+      alternatives. Le propos demande l'abrogation de la loi de 2019 qui limite les courtes peines
+      et des peines de prison d'une ou deux semaines dès le premier délit grave : opposition
+      explicite. Le contexte vise d'abord les mineurs, mais l'abrogation demandée est générale.
+    temporalRelevance: >-
+      Propos de juin 2025, plus de douze mois avant la vérification. La dépêche AFP du 23 avril
+      2026 (bruno-retailleau-justice-004) montre qu'il réclame encore de courtes peines pour les
+      jeunes dès les premiers délits, mais ne reprend pas l'abrogation de la loi de 2019 : ce n'est
+      pas une corroboration de la même citation.
+  statedAt: { date: 2025-06, precision: month }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-justice
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-justice-004
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: justice
+  question: justice-courtes-peines-alternatives
+  qualification: QUALIFIED_OPPOSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "frapper dès les premiers délits ces jeunes avec des courtes peines"
+  speaker: Bruno Retailleau
+  context: >-
+    Présentation de son « plan d'urgence anti-trafics » à Nanterre le 23 avril 2026, premier
+    déplacement après sa désignation comme candidat LR. La dépêche indique que le volet
+    judiciaire prévoit des sanctions « beaucoup plus fermes » pour les mineurs afin de les
+    frapper de courtes peines.
+  verificationNotes: >-
+    Fragment retrouvé mot pour mot dans le texte en cache de la dépêche AFP reprise par La Gazette
+    France ; la conférence de presse originale n'a pas été consultée.
+  source: bruno-retailleau-afp-plan-anti-trafics-2026-04
+  publisher: AFP (La Gazette France)
+  locator: { kind: paragraph, value: "3" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: Dépêche d'agence citant entre guillemets le candidat ; source secondaire fiable.
+    interpretation: >-
+      Courtes peines de prison réclamées pour les jeunes délinquants dès les premiers délits :
+      contraire au remplacement des courtes peines par des alternatives, mais limité aux mineurs,
+      d'où une opposition qualifiée.
+  statedAt: { date: 2026-04-23, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-justice
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-justice-005
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: justice
+  question: justice-comparution-immediate-mineurs
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: PARAPHRASE
+  paraphrase: >-
+    Selon le compte de l'émission Télématin (France 2), relayé sur le site des Républicains, le
+    ministre de l'Intérieur souhaite l'instauration de comparutions immédiates et de courtes peines
+    de prison pour les mineurs, après avoir qualifié la justice des mineurs de « fiasco ».
+  speaker: Bruno Retailleau
+  context: >-
+    Invité de Télématin le 28 janvier 2025, en pleine discussion de la proposition de loi Attal
+    sur la justice des mineurs (qui prévoyait la comparution immédiate des mineurs d'au moins
+    16 ans). La phrase entre guillemets attribuée au ministre dans le message porte sur le constat
+    d'échec, pas sur la comparution immédiate elle-même.
+  verificationNotes: >-
+    Message de France 2 lu dans le texte en cache de la page du site des Républicains. La
+    transcription intégrale de l'entretien publiée par vie-publique.fr n'a pas pu être ouverte
+    (protection anti-robots, non contournée) : la formulation exacte du ministre sur la
+    comparution immédiate n'est pas vérifiée.
+  source: bruno-retailleau-france2-justice-mineurs-2025-01
+  publisher: France 2 (Télématin), relayé par Les Républicains
+  locator: { kind: passage, value: "deuxième message de @telematin reproduit sur la page" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: MEDIUM
+  temporalRelevance: DATED
+  period: ministre de l'Intérieur (2025)
+  rationale:
+    quote: Reformulation par le média de ce que souhaite le ministre ; pas de citation exacte.
+    attribution: >-
+      Résumé par France 2 de propos tenus en direct par l'intéressé ; confiance moyenne faute
+      d'avoir lu la transcription.
+    interpretation: >-
+      Soutien à la comparution immédiate des mineurs, sans précision d'âge dans la reformulation :
+      soutien qualifié à l'énoncé, qui vise les mineurs de plus de 16 ans.
+  statedAt: { date: 2025-01-28, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-justice
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-justice-006
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: justice
+  question: justice-comparution-immediate-mineurs
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "le Conseil constitutionnel a censuré un texte pourtant timide sur le durcissement de la justice des mineurs, interdisant ainsi presque toute réforme législative"
+  speaker: Bruno Retailleau
+  context: >-
+    Entretien de juin 2026 (après le meurtre de Lyhanna), reproduit sur le site des Républicains,
+    où il propose une révision constitutionnelle par référendum. Suite : « Avec le référendum, je
+    rendrai aux Français la capacité de choisir la politique pénale qu'ils souhaitent. » Le texte
+    visé est la loi Attal de 2025, dont le Conseil constitutionnel a censuré le 19 juin 2025
+    notamment l'article 4 étendant la comparution immédiate aux mineurs de 16 ans (Public Sénat,
+    19 juin 2025, consulté).
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache d'une source déjà enregistrée. Le média
+    d'origine de l'entretien n'est pas indiqué dans le texte en cache.
+  source: bruno-retailleau-retailleau-creer-une-cour-disciplinaire-de-la-magistrature-r
+  publisher: Les Républicains
+  locator: { kind: passage, value: "réponse à « Vous souhaitez donc la suppression du Conseil supérieur de la magistrature ? »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      Le candidat juge « timide » le texte censuré et veut contourner la censure par référendum ;
+      ce texte comportait la comparution immédiate des mineurs de 16 ans. Il ne nomme pas cette
+      mesure : soutien qualifié, déduit de son rejet de la censure d'un texte qui la contenait,
+      corroboré par bruno-retailleau-justice-005.
+  statedAt: { date: 2026-06, precision: month }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-justice
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-justice-007
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: justice
+  question: justice-supprimer-reductions-automatiques
+  qualification: EXPLICIT_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "La réduction de peines ne peut plus être un droit octroyé par provision."
+  speaker: Bruno Retailleau
+  context: >-
+    Exposé des motifs de la proposition de loi n° 126 (2016-2017) tendant à renforcer
+    l'efficacité de la justice pénale, présentée par François-Noël Buffet et Bruno Retailleau.
+    L'article 20 supprime les trois premiers alinéas de l'article 721 du code de procédure pénale
+    (crédit de réduction de peine accordé d'office) et réécrit l'article 721-1 : la réduction
+    « peut être accordée » par le juge de l'application des peines aux condamnés qui manifestent
+    des efforts sérieux de réadaptation sociale. Texte examiné au Sénat le 31 janvier 2017.
+  verificationNotes: >-
+    Phrase et article 20 retrouvés mot pour mot dans le texte en cache du document du Sénat.
+  source: bruno-retailleau-senat-ppl16-126-justice-penale
+  publisher: Sénat
+  locator: { kind: article, value: "exposé des motifs (chapitre exécution de la peine) et article 20" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: HIGH
+  actionScope: >-
+    Dépôt, comme deuxième auteur après François-Noël Buffet (le texte est présenté « par MM.
+    François-Noël Buffet, Bruno Retailleau » et une centaine de cosignataires LR), de la
+    proposition de loi n° 126 (Sénat, 15 novembre 2016) ; portée : article 20, suppression du
+    crédit de réduction de peine automatique. L'acte établit son soutien au dispositif à cette
+    date ; l'issue du texte à l'Assemblée n'a pas été vérifiée.
+  temporalRelevance: HISTORICAL
+  period: mandat de sénateur, président du groupe LR (2016-2017)
+  rationale:
+    interpretation: >-
+      Supprimer le crédit de réduction de peine accordé d'office et ne garder que des réductions
+      accordées par le juge selon les efforts du condamné correspond exactement à l'énoncé.
+    temporalRelevance: >-
+      Texte de 2016. [Hypothèse non vérifiée dans cette mission] le droit a depuis évolué (loi de
+      2021 sur la confiance dans l'institution judiciaire). Corroboration partielle récente :
+      bruno-retailleau-justice-008 (2025).
+  statedAt: { date: 2016-11-15, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-justice
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-justice-008
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: justice
+  question: justice-supprimer-reductions-automatiques
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "il faut mettre un terme au droit à l'inexécution des peines que, dans les faits, nous avons créé, à travers les multiples aménagements et réductions de peines"
+  speaker: Bruno Retailleau
+  context: >-
+    Même entretien à Valeurs actuelles (juillet 2025) que bruno-retailleau-justice-001, point
+    « Premièrement » de la réponse sur la réponse pénale. Suite : « Il n'est pas normal qu'il y
+    ait tant de différences entre la peine encourue, la peine prononcée et la peine exécutée. »
+  verificationNotes: Passage retrouvé mot pour mot dans le texte en cache (apostrophes normalisées).
+  source: bruno-retailleau-va-macronisme-2025-07
+  publisher: Les Républicains (entretien à Valeurs actuelles)
+  locator: { kind: passage, value: "réponse à « Comment améliorer la réponse pénale ? », point « Premièrement »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: ministre de l'Intérieur et président des Républicains (2025)
+  rationale:
+    interpretation: >-
+      Critique des réductions de peines dans leur ensemble comme source d'inexécution, sans parler
+      spécifiquement de leur caractère automatique ni proposer un dispositif : soutien qualifié.
+  statedAt: { date: 2025-07-23, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-justice
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-justice-009
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: justice
+  question: justice-imprescriptibilite-crimes-sexuels-mineurs
+  qualification: EXPLICIT_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Mmes Kristina Pluchet, Sophie Primas, Virginie Quentin, MM. Jean-François Rapin, Bruno Retailleau, Hervé Reynaud"
+  speaker: Sénat
+  context: >-
+    Scrutin public n° 43 du Sénat, séance du 28 octobre 2026, sur les amendements identiques
+    (n° 1 rect. quinquies, 2 rect., 3 rect. ter, 95 rect. bis, 273 rect. ter, 298 rect. sexies et
+    300 du Gouvernement) tendant à rétablir l'article 11 bis A du projet de loi relatif à la
+    protection des enfants. Ces amendements (n° 1, 3 et 298 lus sur senat.fr) modifient l'article 7
+    du code de procédure pénale pour rendre imprescriptibles les crimes des articles 222-23 à
+    222-26 du code pénal (viols) commis sur des mineurs. Adopté par 252 voix contre 80. Le groupe
+    LR s'est divisé (50 pour, 70 contre, 2 abstentions, 2 non-votants), la commission des lois
+    était défavorable.
+  verificationNotes: >-
+    Nom retrouvé dans la liste « Pour » du texte en cache de la page du scrutin. L'en-tête du
+    scrutin et la répartition du groupe LR ont été lus sur la page ouverte (le texte en cache ne
+    les conserve pas). Le nom de Bruno Retailleau ne porte pas d'astérisque de mise au point.
+  source: bruno-retailleau-senat-scrutin-2026-43-imprescriptibilite
+  publisher: Sénat
+  locator: { kind: passage, value: "Analyse par groupes politiques, groupe Les Républicains, liste « Pour »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: HIGH
+  actionScope: >-
+    Vote nominatif « pour » au scrutin public n° 43 (Sénat, 28 octobre 2026, première lecture du
+    projet de loi relatif à la protection des enfants) sur le rétablissement de l'article 11 bis A
+    (imprescriptibilité des viols commis sur mineurs) ; résultat : adopté. Vote distinct de la
+    majorité de son groupe (70 contre).
+  temporalRelevance: CURRENT
+  period: mandat de sénateur, campagne présidentielle 2027
+  rationale:
+    attribution: >-
+      Le groupe LR étant divisé, le vote « pour » de l'intéressé est un choix individuel et non
+      l'application d'une consigne de groupe. Le vote ne dit rien de ses motivations.
+    interpretation: >-
+      Le vote rétablit l'imprescriptibilité des crimes de viol commis sur mineurs, soit les crimes
+      sexuels visés par l'énoncé : soutien explicite par l'acte.
+  statedAt: { date: 2026-10-28, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-justice
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-justice-010
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: justice
+  question: justice-imprescriptibilite-crimes-sexuels-mineurs
+  qualification: AMBIGUOUS
+  quoteStatus: VERIFIED_QUOTE
+  quote: "L'action publique des crimes mentionnés aux articles 222-23 à 222-26 du code pénal, lorsqu'ils sont commis sur des mineurs, se prescrit par trente années révolues à compter de la majorité de ces derniers."
+  speaker: Bruno Retailleau
+  context: >-
+    Article 2 de la proposition de loi n° 293 (2017-2018) d'orientation et de programmation pour
+    une meilleure protection des mineurs victimes d'infractions sexuelles, présentée par Philippe
+    Bas, Marie Mercier et plusieurs sénateurs dont Bruno Retailleau (sixième signataire), déposée
+    le 12 février 2018. Le texte allonge la prescription à trente ans après la majorité, sans
+    proposer l'imprescriptibilité (le mot n'apparaît pas dans le document).
+  verificationNotes: Article retrouvé mot pour mot dans le texte en cache du document du Sénat.
+  source: bruno-retailleau-senat-ppl17-293-mineurs-victimes
+  publisher: Sénat
+  locator: { kind: article, value: "article 2" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: MEDIUM
+  actionScope: >-
+    Cosignature (sixième signataire, texte transpartisan LR-UC-RDSE) de la proposition de loi
+    n° 293 déposée au Sénat le 12 février 2018 ; portée : dépôt, article 2 allongeant le délai de
+    prescription des viols sur mineurs à trente ans après la majorité.
+  temporalRelevance: HISTORICAL
+  period: mandat de sénateur, président du groupe LR (2018)
+  rationale:
+    interpretation: >-
+      Allonger la prescription n'est ni l'imprescriptibilité ni son refus explicite : l'acte va
+      dans le même sens sans atteindre l'énoncé, et ne permet pas de conclure. Il précède le vote
+      « pour » l'imprescriptibilité de 2026 (bruno-retailleau-justice-009), qui marque une
+      évolution.
+    temporalRelevance: Texte de 2018, antérieur au vote de 2026.
+  statedAt: { date: 2018-02-12, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-justice
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-justice-011
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: justice
+  question: justice-perpetuite-reelle-etendue
+  qualification: AMBIGUOUS
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "D'où ma proposition de castration chimique obligatoire pour les individus les plus dangereux, qui ont les plus grands risques de récidive"
+  speaker: Bruno Retailleau
+  context: >-
+    Émission de BFMTV du 10 juin 2026 réunissant plusieurs candidats après le meurtre de Lyhanna.
+    La dépêche AFP écrit, sans guillemets, qu'il « a estimé qu'il fallait tenir compte de la
+    difficulté à mettre en place des peines de prison incompressibles », avant de citer la phrase.
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache de la dépêche AFP reprise par La Gazette
+    France ; l'émission originale n'a pas été consultée et la phrase sur les peines
+    incompressibles est une paraphrase de l'agence.
+  source: bruno-retailleau-afp-castration-chimique-2026-06
+  publisher: AFP (La Gazette France)
+  locator: { kind: paragraph, value: "2" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      Le candidat présente la castration chimique obligatoire comme réponse à la difficulté de
+      prononcer des peines incompressibles (paraphrase AFP) ; il ne se prononce ni pour ni contre
+      l'extension de la perpétuité réelle à d'autres crimes. Propos qui ne permet pas de conclure.
+  statedAt: { date: 2026-06-10, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-justice
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
