@@ -1760,11 +1760,14 @@
   quote: "Fixation d'un objectif de 300 avions de combat et vingt ravitailleurs mobilisables."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Liste de programmes d'équipement en hausse (300 chars, 1 million de drones par an, objectif de frégates augmenté, 300 avions de combat) : sens contraire à une réduction du budget, mais aucun chiffre de budget ni de part du PIB, donc opposition partielle déduite des objectifs capacitaires écrits."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:98484e0143692bb0a4d5ef280cbbbf265625bae48baf4579190eba54d4104ffc
 
 - question: education-universite-sans-selection
   value: 1
@@ -1774,11 +1777,14 @@
   quote: "Fin des MIG (ex-SNU) et de Parcoursup. - Distribution finale d'une proposition d'admission à tous les candidats à des formations universitaires avant les vacances d'été."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Suppression de Parcoursup et proposition d'admission garantie à tous les candidats : accès universel à l'université, mais sans garantie que ce soit dans la formation de son choix ; ailleurs le programme prévoit une sélection accrue à l'entrée au lycée. Soutien partiel."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:a48cc41eba0445ef67c6274e0492b615ce920843bba012a6648aa037742cd293
 
 - question: justice-supprimer-reductions-automatiques
   value: 1
@@ -1788,11 +1794,14 @@
   quote: "Fin du modèle Badinter : peines réelles, exécution des peines courtes, séparation des débats sur les faits et la personnalité ; de la condamnation et de la sentence."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "« Peines réelles » va dans le sens de la suppression des réductions automatiques, mais la même liste prévoit une « Simplification du régime de réduction des peines aux fins de lisibilité », ce qui suppose le maintien d'un régime de réductions : soutien partiel, sans mention explicite des crédits automatiques."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:605d31185ff3c43f05e22b8b704f123ed5bc09d964f0221e0357bb0160237514
 
 - question: international-primaute-loi-nationale-v2
   value: 1
@@ -1802,11 +1811,14 @@
   quote: "Sortie de l'Union Européenne, de l'euro, du Conseil de l'Europe et/ou de l'espace Schengen."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "La sortie de l'UE soumise à référendum rendrait la loi nationale seule applicable ; la position va au-delà de l'énoncé et reste subordonnée au référendum. Complété par « Renforcement de l'emprise sur la CEDH et la CJUE … dans la perspective d'un important contentieux » (p. 54). Soutien qualifié (instrument : référendum de sortie, pas primauté au sein de l'UE)."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:71359df18094ad6852031b8eefd2e7cbbb6b520e28f96b9e42ad3c3d86ca7f1f
 
 - question: agriculture-alleger-normes-agricoles
   value: 1
@@ -1816,11 +1828,14 @@
   quote: "Épurement des normes et certifications, suppression des normes sur le calibrage et conditionnement des fruits et légumes."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Allègement des normes et certifications agricoles et suppression du principe de compensation environnementale ; mais le même volet ajoute un diagnostic périodique obligatoire de santé des sols : soutien à l'allègement, sans viser toutes les normes environnementales."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:30cca6b379a78587030531323d6f04ea6a55ddffe57dda158e9ea18c58aff33f
 
 - question: education-salaires-enseignants-15-pourcent
   value: 1
@@ -1830,36 +1845,11 @@
   quote: "Revalorisation salariale des enseignants et baisse du nombre d'élèves."
   quoteSource: juan-branco-la-voie-programme-2027
   justification: "Revalorisation des enseignants du primaire (et, au secondaire, « en début de carrière ») sans montant : soutien à la hausse, plus étroit que l'énoncé (ni 15 %, ni l'ensemble des enseignants explicitement)."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-27
-
-- question: education-postes-baisse-demographique
-  value: 1
-  evidence: programme
-  sources:
-    - juan-branco-la-voie-programme-2027
-  quote: "Création d'un corps d'enseignants d'aide scolaire."
-  quoteSource: juan-branco-la-voie-programme-2027
-  justification: "La baisse du nombre d'élèves (par classe, lecture contextuelle) et la création d'un « corps d'enseignants d'aide scolaire » supposent de ne pas réduire les postes ; aucune mention explicite de la démographie : soutien qualifié, interprétatif."
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-27
-
-- question: energie-suspendre-nouvelles-eoliennes
-  value: -1
-  evidence: programme
-  sources:
-    - juan-branco-la-voie-programme-2027
-  quote: "Conditionnalisation des aides au développement des énergies alternatives à des critères de fabrication locale."
-  quoteSource: juan-branco-la-voie-programme-2027
-  justification: "Les aides aux énergies alternatives sont maintenues sous condition de fabrication locale, sans moratoire ; le texte critique toutefois les « énergies intermittentes » et priorise le nucléaire (14 EPR 2). Pas de suspension proposée : opposition partielle à l'énoncé, éoliennes non nommées."
-  status: draft
-  provenance:
-    kind: manual
-  author: claude
-  authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:b6e31a4e50ca2c2377254c4a9f7d1579a25afd43de1f5cae8eee1682b9ec4427
