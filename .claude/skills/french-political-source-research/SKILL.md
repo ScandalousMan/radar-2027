@@ -214,6 +214,13 @@ Méthode : ouvrir l'original ; confirmer l'auteur et la date ; recopier le texte
 d'origine** ; noter la localisation précise ; lire ou écouter assez de contexte ; vérifier si le
 propos est conditionnel, hypothétique, ironique ou rapporté.
 
+**Un résumé n'est pas l'original** : la réponse d'un outil qui reformule une page (`WebFetch`
+compris) ne permet ni `VERIFIED_QUOTE` ni de dire qu'un passage est vérifié. Lire le **texte brut**
+(cache du registre, ou page ou PDF téléchargé hors du dépôt et converti en texte) ; une page de PDF
+se vérifie dans le PDF, en précisant le numéro de page du fichier et le folio imprimé s'ils
+diffèrent. À défaut, la preuve reste `UNVERIFIED_QUOTE` et la localisation non vérifiée est dite
+telle.
+
 **Interdits** (FR-020) — ne jamais :
 
 - reconstituer une citation à partir d'une paraphrase journalistique ;
