@@ -1,0 +1,383 @@
+# Journal de mission (spec 008, FR-029 ; mission issue de data:gaps, spec 009 §13 bis).
+# Requêtes et sources effectivement consultées.
+id: 2026-11-27-campagne-asselineau-immigration
+mode: PERSONALITY
+author: claude
+model: opus
+request: >-
+  Mission 2 du rapport data:gaps du 2026-11-26 (spec 009, lot 2), mode PERSONALITY : chercher, pour
+  François Asselineau et le thème immigration, une prise de position personnelle en source primaire
+  (programme signé, livres, conférences, entretiens intégraux, vidéos officielles, upr.fr quand le
+  texte est présenté comme son programme personnel) sur dix-sept questions, dans l'ordre du rapport ;
+  ouvrir l'original et retrouver la citation exacte ; agrégateurs en piste seulement (lead) ; ne rien
+  déduire du parti, d'un soutien ou d'un allié ; consigner les absences ; écrire seulement sous
+  data/recherche/ et, au besoin, data/corpus/sources/francois-asselineau.yaml ; ne pas écrire dans
+  positions/ ; pas de commit ; aucune vidéo sonore.
+startedAt: 2026-11-27
+completedAt: 2026-11-27
+state: completed
+scope:
+  personalities: [francois-asselineau]
+  themes: [immigration]
+  questions:
+    - immigration-regularisation-metiers-tension
+    - immigration-ame-soins-urgents
+    - immigration-supprimer-droit-du-sol
+    - immigration-regroupement-familial-ressources
+    - immigration-asile-examen-hors-europe-v2
+    - immigration-prestations-duree-residence
+    - immigration-titre-sejour-longue-duree
+    - immigration-amende-sejour-irregulier
+    - immigration-plafond-annuel-admissions
+    - immigration-visas-professions-qualifiees-v2
+    - immigration-vote-local-etrangers-v2
+    - immigration-voies-legales-travail-ue
+    - immigration-regularisation-cinq-ans
+    - immigration-frais-etudiants-etrangers
+    - immigration-reduire-duree-naturalisation
+    - immigration-asile-examen-sans-transfert
+    - immigration-asile-droit-travail
+queries:
+  - at: 2026-11-27
+    query: "lecture préalable : rapport data/reports/trous/2026-11-26.md (mission 2), questions/immigration.yaml (17 énoncés), positions/francois-asselineau.yaml (une seule position immigration, sur immigration-condamnes-perte-titre-sejour, hors mission), sources/francois-asselineau.yaml (5 sources), preuves/francois-asselineau.yaml (1 preuve de candidature), personnalites.yaml, signalements.yaml, journal modèle 2026-11-22-campagne-roussel-immigration"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-27
+    query: "recherche plein texte dans les textes en cache des 5 sources Asselineau : immigr, étranger, asile, droit du sol, regroupement, aide médicale, naturalis, séjour, visa, régularis, prestations, réfugié, droit de vote"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-27
+    query: "François Asselineau programme 2027 immigration"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "upr.fr programme présidentiel 2027 Asselineau contrôler l'immigration"
+    category: CAMPAIGN_SITE
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://votons-2027.fr/candidats/asselineau/programme/immigration"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "https://upr.fr/notre-programme (sommaire des éditions du programme présidentiel ; 2027 « En cours d'élaboration »)"
+    category: CAMPAIGN_SITE
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "https://upr.fr/notre-programme/programme-2017 (recherche des passages immigration, étrangers, nationalité, Schengen)"
+    category: HISTORICAL_ARCHIVES
+    tool: curl
+  - at: 2026-11-27
+    query: "Asselineau \"aide médicale d'État\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Asselineau \"droit du sol\" référendum Mayotte"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "site:upr.fr Asselineau immigration régularisation sans-papiers"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-27
+    query: "site:upr.fr loi immigration Darmanin communiqué Asselineau 2023"
+    category: PARTY_SITE
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://upr.fr/sitemap.xml (4 651 URL) : filtrage des adresses sur immigr, migra, asile, droit-du-sol, etranger, regularis, naturalis, aide-medicale, regroupement, frontiere, schengen, mayotte, oqtf, sans-papiers, titre-de-sejour, visa, marrakech, refugi ; liste des entretiens et passages médias 2025-2026 ; pages FAQ /wiki/"
+    category: PARTY_SITE
+    tool: curl
+  - at: 2026-11-27
+    query: "https://upr.fr/drp/reunion-publique-de-francois-asselineau-a-toulouse-que-faire-face-au-defi-migratoire"
+    category: SPEECHES_PRESS_CONFERENCES
+    tool: curl
+  - at: 2026-11-27
+    query: "https://upr.fr/essentiels/immigration-le-dessous-des-cartes-quelles-solutions ; https://upr.fr/essentiels/immigration-lobjectif-cache-de-lunion-europeenne ; https://upr.fr/analyses/le-rejet-surprise-de-la-loi-darmanin"
+    category: PARTY_SITE
+    tool: curl
+  - at: 2026-11-27
+    query: "https://upr.fr/medias/francois-asselineau-invite-de-julien-girard-sur-frontieres-18-11-2024 ; https://upr.fr/medias/francois-asselineau-face-a-jean-yves-le-gallou-sur-tvl-04-07-2026 (débat sur la « remigration »)"
+    category: TV_RADIO_DEBATES
+    tool: curl
+  - at: 2026-11-27
+    query: "https://upr.fr/medias/article-de-rtl-francois-asselineau-invite-de-sam-zirah-01-11-2026 ; https://upr.fr/medias/francois-asselineau-au-micro-de-mourad-guichard-08-09-2026"
+    category: FULL_INTERVIEWS
+    tool: curl
+  - at: 2026-11-27
+    query: "https://www.youtube.com/watch?v=CH-MeQoObcg (page de la vidéo de Toulouse, sans lecture : date, durée, piste de sous-titres automatiques ; téléchargement des sous-titres refusé par la plateforme)"
+    category: ORIGINAL_VIDEOS
+    tool: curl
+  - at: 2026-11-27
+    query: "https://upr.fr/medias/francois-asselineau-interroge-par-lagence-anadolu-09-06-2026 puis https://www.aa.com.tr/fr/monde/francois-asselineau-accuse-emmanuel-macron-d-accompagner-le-déclassement-de-la-france/3964864"
+    category: PRESS_AGENCIES
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "Asselineau Le Gallou remigration débat TVL juillet 2026"
+    category: TV_RADIO_DEBATES
+    tool: web_search
+  - at: 2026-11-27
+    query: "\"Asselineau\" \"regroupement familial\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "François Asselineau immigration entretien \"droit du sol\" OR \"AME\" OR \"régularisation\" 2026"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-27
+    query: "Asselineau \"droit de vote des étrangers\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Asselineau immigration référendum programme 2022 Le Monde OR Le Figaro OR Libération"
+    category: HISTORICAL_ARCHIVES
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://www.sudradio.fr/sud-radio/francois-asselineau-je-suis-plus-courageux-que-melenchon-et-le-pen-qui-sont-des-laches"
+    category: FULL_INTERVIEWS
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "https://www.sudradio.fr/sud-radio/asselineau-nous-ne-sommes-pas-des-souverainistes"
+    category: FULL_INTERVIEWS
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "Asselineau UPR \"métiers en tension\" OR \"sans-papiers\" OR \"régulariser\" immigration"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Asselineau naturalisation assimilation \"étudiants étrangers\" OR \"asile\" programme UPR"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Asselineau \"remigration\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "youtube François Asselineau immigration AME aide médicale État répond à vos questions"
+    category: ORIGINAL_VIDEOS
+    tool: web_search
+  - at: 2026-11-27
+    query: "recherche plein texte des doublons dans data/recherche et data/corpus/positions : « réformer le droit du sol », « 4 millions de nouveaux », « politique de regroupement familial », URL des trois sources nouvelles"
+    category: EXISTING_CORPUS
+    tool: grep
+categoriesExplored:
+  - EXISTING_CORPUS
+  - NATIONAL_MEDIA
+  - CAMPAIGN_SITE
+  - PARTY_SITE
+  - SPEECHES_PRESS_CONFERENCES
+  - TV_RADIO_DEBATES
+  - FULL_INTERVIEWS
+  - ORIGINAL_VIDEOS
+  - PRESS_AGENCIES
+  - HISTORICAL_ARCHIVES
+  - SPECIALIZED_PUBLICATIONS
+categoriesNotExplored:
+  - category: ASSEMBLEE_NATIONALE
+    reason: François Asselineau n'a jamais été député ; aucun acte parlementaire personnel à chercher.
+  - category: SENAT
+    reason: François Asselineau n'a jamais été sénateur.
+  - category: EUROPEAN_PARLIAMENT
+    reason: François Asselineau n'a jamais siégé au Parlement européen.
+  - category: SOCIAL_MEDIA
+    reason: Publications sur X, Facebook, Telegram sous authentification ou non indexées ; non contournées (FR-049).
+  - category: FACT_CHECKING
+    reason: Aucune vérification de faits portant sur ses propos migratoires trouvée par les moteurs ; non approfondi.
+  - category: ACADEMIC
+    reason: Sans objet pour des positions de campagne récentes.
+exhaustive: false
+sourcesConsulted:
+  - url: https://upr.fr/notre-programme/programme-2022
+    title: Programme présidentiel 2022 de François Asselineau (déjà enregistré)
+    outcome: retained
+    source: francois-asselineau-programme-2022
+  - url: https://upr.fr/drp/reunion-publique-de-francois-asselineau-a-toulouse-que-faire-face-au-defi-migratoire
+    title: "Réunion publique de François Asselineau à Toulouse : « Que faire face au défi migratoire ? » (UPR, 31 octobre 2023)"
+    outcome: retained
+    source: francois-asselineau-toulouse-defi-migratoire-2023
+  - url: https://upr.fr/essentiels/immigration-lobjectif-cache-de-lunion-europeenne
+    title: "Immigration : l'objectif caché de l'Union européenne (UPR, 28 novembre 2023)"
+    outcome: retained
+    source: francois-asselineau-immigration-objectif-cache-ue-2023
+  - url: https://www.sudradio.fr/sud-radio/francois-asselineau-je-suis-plus-courageux-que-melenchon-et-le-pen-qui-sont-des-laches
+    title: "François Asselineau chez André Bercoff (Sud Radio, 30 octobre 2026)"
+    outcome: retained
+    source: francois-asselineau-sud-radio-bercoff-2026-10-30
+  - url: https://upr.fr/notre-programme
+    title: Sommaire des programmes présidentiels de François Asselineau (UPR)
+    outcome: rejected
+    reason: Lu ; indique que le programme 2027 est « En cours d'élaboration » ; aucun contenu sur les questions.
+  - url: https://upr.fr/notre-programme/programme-2017
+    title: Programme présidentiel 2017 de François Asselineau (UPR)
+    outcome: rejected
+    reason: Lu ; seul passage migratoire, un référendum « sur l'immigration » sans orientation ; cycle 2017 révolu.
+  - url: https://upr.fr/essentiels/immigration-le-dessous-des-cartes-quelles-solutions
+    title: "Immigration : le dessous des cartes, quelles solutions ? (UPR, décembre 2022)"
+    outcome: rejected
+    reason: Lu ; texte du parti sur les ONG et la coopération avec l'Afrique, sans lien avec les énoncés.
+  - url: https://upr.fr/analyses/le-rejet-surprise-de-la-loi-darmanin
+    title: Le rejet surprise de la loi Darmanin (UPR, décembre 2023)
+    outcome: rejected
+    reason: Lu ; critique générale du projet de loi, aucune mesure précise.
+  - url: https://upr.fr/medias/francois-asselineau-face-a-jean-yves-le-gallou-sur-tvl-04-07-2026
+    title: François Asselineau face à Jean-Yves Le Gallou sur TVL (débat sur la « remigration », 4 juillet 2026)
+    outcome: inaccessible
+    reason: Page de renvoi vers une vidéo YouTube (3OB1FUUlO3c) sans transcription ; l'agent n'écoute pas l'audio.
+  - url: https://upr.fr/medias/francois-asselineau-invite-de-julien-girard-sur-frontieres-18-11-2024
+    title: François Asselineau invité de Julien Girard sur Frontières (octobre 2024)
+    outcome: inaccessible
+    reason: Page de renvoi vers une vidéo sans transcription ; non écoutée.
+  - url: https://upr.fr/medias/article-de-rtl-francois-asselineau-invite-de-sam-zirah-01-11-2026
+    title: "Article de RTL : François Asselineau invité de Sam Zirah (1er novembre 2026)"
+    outcome: rejected
+    reason: Lu ; résumé de l'entretien (Frexit, bilan du quinquennat, fonction présidentielle) sans passage migratoire ; vidéo non écoutée.
+  - url: https://upr.fr/medias/francois-asselineau-au-micro-de-mourad-guichard-08-09-2026
+    title: François Asselineau au micro de Mourad Guichard (8 septembre 2026)
+    outcome: rejected
+    reason: Lu ; présentation de l'entretien centrée sur le traitement médiatique, sans passage migratoire.
+  - url: https://www.youtube.com/watch?v=CH-MeQoObcg
+    title: "Réunion publique de François Asselineau à Toulouse (vidéo UPR, 31 octobre 2023, 1 h 29)"
+    outcome: inaccessible
+    reason: Seuls des sous-titres générés automatiquement existent et leur téléchargement est refusé ; vidéo non lue, audio non écouté.
+  - url: https://www.aa.com.tr/fr/monde/francois-asselineau-accuse-emmanuel-macron-d-accompagner-le-déclassement-de-la-france/3964864
+    title: François Asselineau accuse Emmanuel Macron d'accompagner le déclassement de la France (Anadolu, 12 juin 2026)
+    outcome: rejected
+    reason: Lu ; propos généraux (« arrêter le plus possible les flux migratoires », assimilation) sans lien direct avec les dix-sept énoncés ; non enregistré.
+  - url: https://www.sudradio.fr/sud-radio/asselineau-nous-ne-sommes-pas-des-souverainistes
+    title: "Asselineau : « Nous ne sommes pas des souverainistes » (Sud Radio, 18 septembre 2025)"
+    outcome: rejected
+    reason: Lu ; une seule phrase sur l'immigration (« le problème numéro 1 de la France, ce n'est pas l'immigration »), sans lien avec les énoncés.
+  - url: https://votons-2027.fr/candidats/asselineau/programme/immigration
+    title: "Immigration · présidentielle 2027 (votons-2027.fr)"
+    outcome: rejected
+    reason: Agrégateur ; piste seulement (champ lead des preuves 001 et 003), renvoie à upr.fr/notre-programme, c'est-à-dire au programme 2022.
+  - url: https://www.elyseescope.com/questions/francois-asselineau-immigration-2027
+    title: François Asselineau et immigration (ÉlyséeScope)
+    outcome: rejected
+    reason: Agrégateur à synthèses non sourcées ; non ouvert comme preuve.
+evidenceAdded:
+  - francois-asselineau-immigration-001
+  - francois-asselineau-immigration-002
+  - francois-asselineau-immigration-003
+  - francois-asselineau-immigration-004
+  - francois-asselineau-immigration-005
+  - francois-asselineau-immigration-006
+  - francois-asselineau-immigration-007
+  - francois-asselineau-immigration-008
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided: []
+verified:
+  - francois-asselineau-immigration-001
+  - francois-asselineau-immigration-002
+  - francois-asselineau-immigration-003
+  - francois-asselineau-immigration-004
+  - francois-asselineau-immigration-005
+  - francois-asselineau-immigration-006
+  - francois-asselineau-immigration-007
+  - francois-asselineau-immigration-008
+toVerify: []
+contradictions: []
+gaps:
+  - kind: NOT_FOUND
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-regularisation-metiers-tension
+    note: >-
+      Aucune prise de position sur la régularisation des travailleurs sans titre dans les métiers en
+      tension : programmes 2017 et 2022, pages immigration de upr.fr, entretiens 2025-2026 (Sud Radio,
+      Anadolu, RTL) et recherches presse sans résultat.
+  - kind: NOT_FOUND
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-ame-soins-urgents
+    note: >-
+      Aucune mention de l'aide médicale d'État dans les programmes 2017 et 2022, dans les pages
+      immigration de upr.fr ni dans les entretiens textuels consultés ; recherches presse sans résultat.
+  - kind: NOT_FOUND
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-asile-examen-hors-europe-v2
+    evidence: [francois-asselineau-immigration-008]
+    note: >-
+      Seul un passage du programme 2022 sur la répartition de l'accueil des réfugiés entre États
+      (preuve 008, sans lien direct) ; rien sur l'examen des demandes hors de l'Union européenne.
+  - kind: NOT_FOUND
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-titre-sejour-longue-duree
+    note: Aucune mention des titres de séjour de longue durée dans les sources ouvertes (programmes, pages upr.fr, entretiens).
+  - kind: NOT_FOUND
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-amende-sejour-irregulier
+    note: >-
+      Le programme 2022 évoque la législation « visant à interdire toute immigration illégale » et un
+      délit d'obstruction visant des associations, mais aucune sanction (amende) du séjour irrégulier.
+  - kind: NOT_FOUND
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-plafond-annuel-admissions
+    note: >-
+      Aucun plafond annuel voté par le Parlement ; le programme 2022 renvoie la politique migratoire au
+      référendum et l'entretien Anadolu de juin 2026 parle d'« arrêter le plus possible les flux
+      migratoires », sans instrument.
+  - kind: NOT_FOUND
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-visas-professions-qualifiees-v2
+    note: Aucune mention des visas de travail pour les professions qualifiées dans les sources ouvertes.
+  - kind: NOT_FOUND
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-vote-local-etrangers-v2
+    note: >-
+      Aucune mention du droit de vote des étrangers aux élections locales dans les programmes 2017 et
+      2022, les pages upr.fr filtrées ni la presse.
+  - kind: NOT_FOUND
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-regularisation-cinq-ans
+    note: Aucune mention d'une régularisation après cinq ans de présence dans les sources ouvertes.
+  - kind: NOT_FOUND
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-frais-etudiants-etrangers
+    note: Aucune mention des frais d'inscription des étudiants étrangers dans les programmes 2017 et 2022 ni ailleurs.
+  - kind: NOT_FOUND
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-reduire-duree-naturalisation
+    evidence: [francois-asselineau-immigration-007]
+    note: >-
+      Le programme 2022 conditionne la naturalisation à une « claire volonté d'assimilation » (preuve
+      007, sans lien direct) ; rien sur la durée de résidence exigée.
+  - kind: NOT_FOUND
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-asile-examen-sans-transfert
+    note: >-
+      Aucune mention du règlement de Dublin ni des transferts de demandeurs d'asile ; la sortie de l'UE
+      voulue par le candidat n'est pas une prise de position sur l'énoncé et n'en est pas déduite.
+  - kind: NOT_FOUND
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-asile-droit-travail
+    note: Aucune mention du droit au travail des demandeurs d'asile dans les sources ouvertes.
+  - kind: PARTY_POSITION_ONLY
+    personality: francois-asselineau
+    theme: immigration
+    question: immigration-prestations-duree-residence
+    evidence: [francois-asselineau-immigration-004]
+    note: >-
+      Seule une formulation au nom de l'UPR (« L'UPR VEUT distribuer les prestations sociales avec plus
+      de discernement… ») dans le compte rendu d'un discours de 2023 ; propos personnels de la vidéo non
+      vérifiés.
+  - kind: PRIMARY_INACCESSIBLE
+    personality: francois-asselineau
+    theme: immigration
+    evidence: [francois-asselineau-immigration-002, francois-asselineau-immigration-004]
+    note: >-
+      Les prises de parole migratoires les plus détaillées sont des vidéos sans transcription (réunion
+      de Toulouse du 31 octobre 2023, débat avec Jean-Yves Le Gallou sur TVL le 4 juillet 2026,
+      Frontières en octobre 2024) ; sous-titres automatiques non récupérables, audio non écouté. Le
+      programme 2027 n'est pas encore publié (« En cours d'élaboration » sur upr.fr).
+signals: []

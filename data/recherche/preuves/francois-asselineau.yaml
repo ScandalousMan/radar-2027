@@ -25,3 +25,316 @@
   verifiedAt: 2026-11-22
   createdAt: 2026-11-22
   updatedAt: 2026-11-22
+
+- id: francois-asselineau-immigration-001
+  personality: francois-asselineau
+  kind: POSITION
+  theme: immigration
+  question: immigration-supprimer-droit-du-sol
+  qualification: CONDITIONAL_POSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Les modifications à apporter au droit du sol, dont le système actuel pose des problèmes particulièrement criants à Mayotte et en Guyane"
+  speaker: François Asselineau
+  context: >-
+    Programme présidentiel 2022, section « 22 - Contrôler l'immigration » : second point soumis au
+    référendum que le candidat promet d'organiser « avant la fin de l'année 2022 », après « La
+    politique de regroupement familial ». Le programme ne précise ni l'ampleur des modifications ni
+    une suppression du droit du sol.
+  verificationNotes: >-
+    Passage relu mot pour mot dans le texte en cache de la source déjà enregistrée. La page
+    upr.fr/notre-programme indique le 27 novembre 2026 que le programme 2027 est « En cours
+    d'élaboration » et propose l'édition 2022 comme « programme présidentiel de François
+    Asselineau ». Piste également vue sur votons-2027.fr, non retenue comme source.
+  source: francois-asselineau-programme-2022
+  publisher: François Asselineau, campagne présidentielle 2022 (site de l'UPR)
+  locator: { kind: passage, value: "section 22 - Contrôler l'immigration, dernier paragraphe" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: campagne présidentielle 2022
+  lead:
+    url: https://votons-2027.fr/candidats/asselineau/programme/immigration
+    title: "Immigration · présidentielle 2027 (votons-2027.fr)"
+  rationale:
+    attribution: "Programme présenté à la première personne (« je propose aux Français ») comme le programme présidentiel de François Asselineau."
+    interpretation: >-
+      Le programme veut des « modifications » du droit du sol, visant surtout Mayotte et la Guyane,
+      et en remet le contenu à un référendum : position subordonnée au vote populaire et plus
+      étroite qu'une suppression générale.
+    temporalRelevance: Programme de la campagne 2022 ; le programme 2027 n'est pas publié.
+  statedAt: { date: 2022-02, precision: month }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-asselineau-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: francois-asselineau-immigration-002
+  personality: francois-asselineau
+  kind: POSITION
+  theme: immigration
+  question: immigration-supprimer-droit-du-sol
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "L'UPR VEUT réformer le droit du sol pour réserver la nationalité française aux 67 millions de Français qui d'ores et déjà la détiennent, et à leurs descendants."
+  speaker: Union populaire républicaine
+  context: >-
+    Compte rendu publié par l'UPR de la réunion publique de François Asselineau à Toulouse « Que
+    faire face au défi migratoire ? » (vidéo YouTube CH-MeQoObcg, chaîne de l'UPR, mise en ligne le
+    31 octobre 2023, 1 h 29). Le texte présente la « stratégie » de François Asselineau puis formule
+    chaque mesure au nom du parti (« L'UPR VEUT »), sous le « Point nº 2 : le droit du sol ».
+  verificationNotes: >-
+    Page ouverte et passage retrouvé mot pour mot dans le texte en cache. Les propos exacts de
+    François Asselineau dans la vidéo n'ont pas été vérifiés : les sous-titres automatiques n'ont pas
+    pu être récupérés et l'agent n'écoute pas l'audio.
+  source: francois-asselineau-toulouse-defi-migratoire-2023
+  publisher: Union populaire républicaine (upr.fr)
+  locator: { kind: passage, value: "Point nº 2 : le droit du sol" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PARTY_POSITION
+  attributionConfidence: MEDIUM
+  temporalRelevance: DATED
+  period: campagne des élections européennes de 2024
+  rationale:
+    sourceQuality: "Publication officielle du parti : primaire pour la position de l'UPR, résumé de seconde main pour les propos du candidat."
+    attribution: >-
+      Mesure formulée au nom du parti (« L'UPR VEUT ») dans un résumé du discours du candidat :
+      position de parti, à confirmer par les propos personnels dans la vidéo.
+    interpretation: >-
+      Réserver la nationalité aux Français actuels et à leurs descendants revient à ne plus
+      l'accorder par la naissance sur le sol, mais la mesure est présentée comme une « réforme » et
+      ne traite pas de la naturalisation : soutien qualifié.
+    temporalRelevance: Propos de 2023, non corroborés par une source de moins de 12 mois.
+  statedAt: { date: 2023-10, precision: month }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-asselineau-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: francois-asselineau-immigration-003
+  personality: francois-asselineau
+  kind: POSITION
+  theme: immigration
+  question: immigration-regroupement-familial-ressources
+  qualification: AMBIGUOUS
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Un référendum organisé avant la fin de l'année 2022 demandera notamment aux Français de trancher : • La politique de regroupement familial"
+  speaker: François Asselineau
+  context: >-
+    Programme présidentiel 2022, section « 22 - Contrôler l'immigration ». Le regroupement familial
+    est le premier des sujets soumis à référendum ; aucune orientation (conditions de ressources ou
+    autre) n'est indiquée.
+  verificationNotes: Passage relu mot pour mot dans le texte en cache de la source déjà enregistrée.
+  source: francois-asselineau-programme-2022
+  publisher: François Asselineau, campagne présidentielle 2022 (site de l'UPR)
+  locator: { kind: passage, value: "section 22 - Contrôler l'immigration, dernier paragraphe" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: campagne présidentielle 2022
+  lead:
+    url: https://votons-2027.fr/candidats/asselineau/programme/immigration
+    title: "Immigration · présidentielle 2027 (votons-2027.fr)"
+  rationale:
+    interpretation: >-
+      Le candidat renvoie la politique de regroupement familial au référendum sans dire dans quel
+      sens, ni parler de conditions de ressources : le propos ne permet pas de conclure. Le
+      compte rendu UPR de la réunion de Toulouse (2023) range l'« Obligation d'autoriser le
+      regroupement familial imposée par la Directive européenne 2003/86/CE » parmi les dispositifs
+      d'immigration imposés, sans plus de précision.
+    temporalRelevance: Programme de la campagne 2022 ; le programme 2027 n'est pas publié.
+  statedAt: { date: 2022-02, precision: month }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-asselineau-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: francois-asselineau-immigration-004
+  personality: francois-asselineau
+  kind: POSITION
+  theme: immigration
+  question: immigration-prestations-duree-residence
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "L'UPR VEUT distribuer les prestations sociales avec plus de discernement et en faire bénéficier avant tout les 67 millions de Français."
+  speaker: Union populaire républicaine
+  context: >-
+    Même compte rendu UPR de la réunion publique de Toulouse (octobre 2023), « Point n°3 - Les
+    prestations sociales », précédé de : les prestations « extrêmement favorables sont un des
+    critères qui poussent les migrants à choisir la France ».
+  verificationNotes: >-
+    Passage retrouvé mot pour mot dans le texte en cache. Propos exacts du candidat dans la vidéo
+    non vérifiés (sous-titres automatiques non récupérés, audio non écouté).
+  source: francois-asselineau-toulouse-defi-migratoire-2023
+  publisher: Union populaire républicaine (upr.fr)
+  locator: { kind: passage, value: "Point n°3 - Les prestations sociales" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PARTY_POSITION
+  attributionConfidence: MEDIUM
+  temporalRelevance: DATED
+  period: campagne des élections européennes de 2024
+  rationale:
+    attribution: Mesure formulée au nom du parti (« L'UPR VEUT ») dans un résumé du discours du candidat.
+    interpretation: >-
+      Va dans le sens d'un accès des étrangers aux prestations plus restreint (priorité aux
+      Français), sans instrument précis : ni durée de résidence, ni cinq ans, ni distinction des
+      prestations non contributives. Soutien qualifié, plus vague que l'énoncé.
+    temporalRelevance: Propos de 2023, non corroborés par une source de moins de 12 mois.
+  statedAt: { date: 2023-10, precision: month }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-asselineau-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: francois-asselineau-immigration-005
+  personality: francois-asselineau
+  kind: POSITION
+  theme: immigration
+  question: immigration-voies-legales-travail-ue
+  qualification: QUALIFIED_OPPOSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "On nous explique qu'il n'y a pas assez de natalité. Très bien : si on constate qu'il y a un manque de natalité, on doit prendre d'abord et avant tout une politique nataliste."
+  speaker: François Asselineau
+  context: >-
+    Entretien avec André Bercoff sur Sud Radio, 30 octobre 2026, passage « Sur le degré
+    d'indépendance de la France ». Juste avant : « La politique officielle de l'Union Européenne est
+    de faire entrer 4 millions de nouveaux migrants par an. Pour une durée indéterminée. » Juste
+    après : « Mais la politique migratoire a été transférée à l'Union Européenne. »
+  verificationNotes: >-
+    Article de Sud Radio ouvert ; passage retrouvé mot pour mot dans le texte en cache. Le
+    découpage des propos est celui de la transcription publiée par Sud Radio ; l'enregistrement
+    n'a pas été écouté.
+  source: francois-asselineau-sud-radio-bercoff-2026-10-30
+  publisher: Sud Radio
+  locator: { kind: passage, value: "Sur le degré d'indépendance de la France" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: Transcription d'entretien publiée par la radio elle-même, sans l'enregistrement intégral.
+    interpretation: >-
+      Il présente l'entrée de migrants voulue par l'Union européenne comme une politique qu'il
+      critique et répond au besoin démographique par une politique nataliste plutôt que par
+      l'immigration : opposition à davantage d'immigration légale organisée par l'UE, implicite
+      et sans viser expressément l'immigration de travail.
+  statedAt: { date: 2026-10-30, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-asselineau-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: francois-asselineau-immigration-006
+  personality: francois-asselineau
+  kind: POSITION
+  theme: immigration
+  question: immigration-voies-legales-travail-ue
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "François Asselineau dénonce la forfaiture démocratique que constitue l'Union européenne. Élue par personne, mais se prévalant de traités internationaux, une Suédoise dicte à la France une politique migratoire sans entrave"
+  speaker: Union populaire républicaine
+  context: >-
+    Article de l'UPR (28 novembre 2023, avec vidéo de la chaîne UPR) sur l'intervention de la
+    commissaire Ylva Johansson à la « Conférence de haut niveau sur la migration légale » (Madrid,
+    16 novembre 2023), résumée ainsi : la politique de l'UE vise « d'accroître la part des migrants
+    légaux ».
+  verificationNotes: Page ouverte et passage retrouvé mot pour mot dans le texte en cache ; la vidéo n'a pas été écoutée.
+  source: francois-asselineau-immigration-objectif-cache-ue-2023
+  publisher: Union populaire républicaine (upr.fr)
+  locator: { kind: passage, value: "avant-dernier paragraphe" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PARTY_POSITION
+  attributionConfidence: MEDIUM
+  temporalRelevance: DATED
+  period: campagne des élections européennes de 2024
+  rationale:
+    attribution: Texte du parti qui rapporte à la troisième personne ce que « dénonce » François Asselineau.
+    interpretation: >-
+      Critique la stratégie européenne d'accroissement des migrations légales et la compétence
+      même de l'UE en la matière ; l'immigration de travail n'est pas visée expressément.
+      Opposition qualifiée.
+    temporalRelevance: Texte de 2023 ; même orientation corroborée par l'entretien personnel du 30 octobre 2026 (preuve 005).
+  statedAt: { date: 2023-11-28, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-asselineau-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: francois-asselineau-immigration-007
+  personality: francois-asselineau
+  kind: POSITION
+  theme: immigration
+  question: immigration-reduire-duree-naturalisation
+  qualification: NO_DIRECT_EVIDENCE
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "ne doivent intégrer la communauté nationale par naturalisation que les personnes manifestant une claire volonté d'assimilation"
+  speaker: François Asselineau
+  context: >-
+    Programme présidentiel 2022, passage sur l'identité nationale : « il nous faut rappeler et faire
+    respecter l'évidence et la loi, qui prescrivent que […] », suivi de « Des instructions précises en
+    ce sens seront données aux administrations. »
+  verificationNotes: Passage relu mot pour mot dans le texte en cache de la source déjà enregistrée.
+  source: francois-asselineau-programme-2022
+  publisher: François Asselineau, campagne présidentielle 2022 (site de l'UPR)
+  locator: { kind: passage, value: "passage sur l'identité nationale et l'assimilation" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: campagne présidentielle 2022
+  rationale:
+    interpretation: >-
+      Porte sur le critère d'assimilation pour la naturalisation, pas sur la durée de résidence
+      exigée : aucun lien direct avec l'énoncé.
+  statedAt: { date: 2022-02, precision: month }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-asselineau-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: francois-asselineau-immigration-008
+  personality: francois-asselineau
+  kind: POSITION
+  theme: immigration
+  question: immigration-asile-examen-hors-europe-v2
+  qualification: NO_DIRECT_EVIDENCE
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Nous exigerons que tous les États mitoyens et concernés par les zones de conflits prennent leur juste part dans l'accueil des réfugiés de guerre"
+  speaker: François Asselineau
+  context: >-
+    Programme présidentiel 2022, section « 22 - Contrôler l'immigration » ; suite : l'Europe
+    occidentale et la France ne doivent plus être « la destination ultra-majoritaire des réfugiés ».
+  verificationNotes: Passage relu mot pour mot dans le texte en cache de la source déjà enregistrée.
+  source: francois-asselineau-programme-2022
+  publisher: François Asselineau, campagne présidentielle 2022 (site de l'UPR)
+  locator: { kind: passage, value: "section 22 - Contrôler l'immigration" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: campagne présidentielle 2022
+  rationale:
+    interpretation: >-
+      Vise la répartition de l'accueil des réfugiés entre États, pas le lieu d'examen des demandes
+      d'asile ni des centres hors de l'Union européenne (dont il veut d'ailleurs sortir) : aucun
+      lien direct avec l'énoncé.
+  statedAt: { date: 2022-02, precision: month }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-asselineau-immigration
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27

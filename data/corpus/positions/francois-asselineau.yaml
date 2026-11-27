@@ -1193,3 +1193,40 @@
   reviewer: adrien
   reviewedAt: 2026-11-15
   reviewedHash: sha256:0689f6a08eb2cb7262312d3ebf4f34f1f695febd17bae16f19ba4f3cbb6e1faa
+
+# Campagne de couverture 009, lot 2 (2026-11-27) : positions transcrites par l'agent depuis les preuves
+# primaires de data/recherche (journal 2026-11-27-campagne-asselineau-immigration).
+
+- question: immigration-supprimer-droit-du-sol
+  value: 1
+  evidence: livre_plateforme
+  sources:
+    - francois-asselineau-programme-2022
+  quote: "Les modifications à apporter au droit du sol, dont le système actuel pose des problèmes particulièrement criants à Mayotte et en Guyane"
+  quoteSource: francois-asselineau-programme-2022
+  justification: "Programme présidentiel 2022 : des modifications du droit du sol soumises à référendum, sans aller jusqu'à sa suppression ; programme 2027 non publié."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:1490f5bfb46f436f7de0390db0dfe42f1867ffc70700e52008d56fe6205e3707
+
+- question: immigration-voies-legales-travail-ue
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - francois-asselineau-sud-radio-bercoff-2026-10-30
+  quote: "On nous explique qu'il n'y a pas assez de natalité. Très bien : si on constate qu'il y a un manque de natalité, on doit prendre d'abord et avant tout une politique nataliste."
+  quoteSource: francois-asselineau-sud-radio-bercoff-2026-10-30
+  justification: "Entretien de 2026 : il oppose une politique nataliste à l'immigration voulue par l'Union européenne ; opposition implicite, qui ne vise pas expressément l'immigration de travail."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:8e0bbe60af59cb46125cf9ca48043557e0408751e281671032c37ac53738a5e5

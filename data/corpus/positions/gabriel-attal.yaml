@@ -1131,3 +1131,40 @@
   reviewer: adrien
   reviewedAt: 2026-11-15
   reviewedHash: sha256:44c6aa6ddab9dae63ba8daedd5c2b9a543a406584d8594190c59130792bf0006
+
+# Campagne de couverture 009, lot 2 (2026-11-27) : positions transcrites par l'agent depuis les preuves
+# primaires de data/recherche (journal 2026-11-27-campagne-attal-immigration).
+
+- question: immigration-regularisation-metiers-tension
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - gabriel-attal-europe1-2022-11-03-vie-publique
+  quote: "mais on sait qu'il faut sortir d'une forme d'hypocrisie. Vous avez aujourd'hui des travailleurs qui sont là, qui travaillent, on ferme les yeux."
+  quoteSource: gabriel-attal-europe1-2022-11-03-vie-publique
+  justification: "Entretien de 2022, comme ministre, en défense du projet de titre « métiers en tension » : soutien à la régularisation des travailleurs déjà employés, sans nommer la mesure ; propos ancien."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:ebf213a85eed7e44edd336b8f5ead5895f4259c8ccec41f36f81b408ee9795c7
+
+- question: immigration-amende-sejour-irregulier
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - gabriel-attal-an-scrutin-3261-delit-sejour-irregulier
+  quote: "Ensemble pour la République (92 membres) Pour : 47 M. Pieyre-Alexandre Anglade M. Gabriel Attal"
+  quoteSource: gabriel-attal-an-scrutin-3261-delit-sejour-irregulier
+  justification: "Vote personnel en 2025 pour la suppression de l'article unique d'une proposition de loi rétablissant le délit de séjour irrégulier (3 750 € d'amende), soit exactement la mesure de l'énoncé ; un vote personnel compte à pleine valeur."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:d3d220b0678bba110f38409605df06c85ec2231d3573309bd7f95cef9d24f55b

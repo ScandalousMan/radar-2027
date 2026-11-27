@@ -251,3 +251,80 @@
   candidates:
     - gabriel-attal
   contentHash: sha256:e7517e4e9c38f5853c2c8c8bd0b4423f549ebc93de4e1161a9bc3d29c2152917
+- id: gabriel-attal-an-dpg-2024-01-30
+  url: https://www.assemblee-nationale.fr/dyn/16/comptes-rendus/seance/session-ordinaire-de-2023-2024/deuxieme-seance-du-mardi-30-janvier-2024
+  title: Déclaration de politique générale du Premier ministre, compte rendu de la deuxième séance du 30 janvier 2024 (Assemblée nationale)
+  kind: declaration_vote
+  publishedAt:
+    date: 2024-01-30
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:cb712fc2a50aa4a78003a62fed49473d836f714ea5f931e94c5c0fcfb44d7744
+- id: gabriel-attal-europe1-2022-11-03-vie-publique
+  url: https://web.archive.org/web/20230206034936/https://www.vie-publique.fr/discours/287032-gabriel-attal-03112022-politique-de-limmigration-article-49-budget-2023
+  title: Entretien de Gabriel Attal sur Europe 1 le 3 novembre 2022, transcription vie-publique.fr (copie Wayback Machine du 6 février 2023)
+  kind: declaration_vote
+  publishedAt:
+    date: 2022-11-03
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:4afd5f0f2f2caa10e7d26edd5514b55d038b3b348f43bab7ce42521f9249ca69
+- id: gabriel-attal-an-scrutin-3261-delit-sejour-irregulier
+  url: https://questions.assemblee-nationale.fr/dyn/17/scrutins/3261
+  title: Analyse du scrutin public n° 3261, suppression de l'article unique de la proposition de loi visant au rétablissement du délit de séjour irrégulier (Assemblée nationale)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-10-30
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:66d8fca781c109b8d5e97634f334b199bc07b6d25484a2bc574b41b282af8ed5
+- id: gabriel-attal-an-scrutin-218-expulsion-etrangers
+  url: https://questions.assemblee-nationale.fr/dyn/17/scrutins/218
+  title: Analyse du scrutin public n° 218, suppression de l'article premier de la proposition de loi visant à assouplir les conditions d'expulsion des étrangers constituant une menace grave pour l'ordre public (Assemblée nationale)
+  kind: declaration_vote
+  publishedAt:
+    date: 2024-10-31
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:4bc8dfe1597eeb9221e73de34b6b2ca0858be645375eefe68e4ba8302a4a2efb
+- id: gabriel-attal-an-scrutin-4748-titres-sejour-longue-duree
+  url: https://questions.assemblee-nationale.fr/dyn/17/scrutins/4748
+  title: Analyse du scrutin public n° 4748, amendement n° 12 de M. Jacobelli, proposition de loi sur le renouvellement automatique des titres de séjour de longue durée (Assemblée nationale)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-12-11
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:e1743883c38af42e5e98586cae95185d6ef085711aae5885ce68f7578266a8cc
+- id: gabriel-attal-mesure-quotas-migratoires-revises
+  url: https://attalpresident.fr/programme/mesures/quotas-migratoires-revises
+  title: "Mesure : définir des quotas migratoires révisés tous les deux ans (attalpresident.fr)"
+  kind: programme
+  publishedAt:
+    date: 2026-09-06
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:93cfbb63fe0602048fe6b248f2764de147f3da88ae39a13d50ba51a55ca096f9
+- id: gabriel-attal-actualite-lci-2026-08-25
+  url: https://attalpresident.fr/actualites/lci-gabriel-attal-defend-un-projet-de-rupture-pour-repondre-aux-grands-defis-du-pays
+  title: "LCI : Gabriel Attal défend un projet de rupture pour répondre aux grands défis du pays (attalpresident.fr)"
+  kind: livre_plateforme
+  publishedAt:
+    date: 2026-08-25
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - gabriel-attal
+  contentHash: sha256:c84d5de7e32afcf805dfae09f56c8f60295db5960e22d1ca52310fb52b610ba8

@@ -1,0 +1,429 @@
+# Journal de mission (spec 008, FR-029 ; mission issue de data:gaps, spec 009 §13 bis).
+# Requêtes et sources effectivement consultées pour Gabriel Attal × immigration (lot 2, mission 1).
+id: 2026-11-27-campagne-attal-immigration
+mode: PERSONALITY
+author: claude
+model: opus
+request: >-
+  Mission issue de data:gaps (spec 009, lot 2, mission 1 de data/reports/trous/2026-11-26.md), mode
+  PERSONALITY : chercher, pour Gabriel Attal et le thème immigration, une prise de position
+  personnelle en source primaire (programme, livre, discours, entretien intégral, vote ou
+  amendement à l'Assemblée) sur treize questions, dans l'ordre : immigration-regularisation-metiers-tension,
+  immigration-ame-soins-urgents, immigration-condamnes-perte-titre-sejour,
+  immigration-asile-examen-hors-europe-v2, immigration-vote-local-etrangers-v2,
+  immigration-prestations-duree-residence, immigration-titre-sejour-longue-duree,
+  immigration-amende-sejour-irregulier, immigration-voies-legales-travail-ue,
+  immigration-regularisation-cinq-ans, immigration-frais-etudiants-etrangers,
+  immigration-reduire-duree-naturalisation, immigration-asile-examen-sans-transfert ; agrégateurs en
+  piste seulement ; aucune position déduite du parti ou du gouvernement en tant que tel ; écrire
+  seulement sous data/recherche/ et data/corpus/sources/gabriel-attal.yaml ; ne jamais écrire
+  data/corpus/positions/ ; pas de commit.
+startedAt: 2026-11-27
+completedAt: 2026-11-27
+state: completed
+scope:
+  personalities: [gabriel-attal]
+  themes: [immigration]
+  questions:
+    - immigration-regularisation-metiers-tension
+    - immigration-ame-soins-urgents
+    - immigration-condamnes-perte-titre-sejour
+    - immigration-asile-examen-hors-europe-v2
+    - immigration-vote-local-etrangers-v2
+    - immigration-prestations-duree-residence
+    - immigration-titre-sejour-longue-duree
+    - immigration-amende-sejour-irregulier
+    - immigration-voies-legales-travail-ue
+    - immigration-regularisation-cinq-ans
+    - immigration-frais-etudiants-etrangers
+    - immigration-reduire-duree-naturalisation
+    - immigration-asile-examen-sans-transfert
+queries:
+  - at: 2026-11-27
+    query: "lecture préalable : section Mission 1 de data/reports/trous/2026-11-26.md, questions/immigration.yaml (13 énoncés et polarités), positions/gabriel-attal.yaml (aucune position sur les 13 questions), preuves/gabriel-attal.yaml (3 preuves), personnalites.yaml, signalements.yaml, sources/gabriel-attal.yaml (24 sources) et journal modèle 2026-11-22-campagne-roussel-immigration"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-27
+    query: "recherche plein texte dans les textes en cache de la fiche « frontières » et de la restitution Renaissance « Une République ferme, une France apaisée » : AME, aide médicale, métiers en tension, régularis, vote, prestations, amende, séjour irrégulier, naturalisation, étudiants, Dublin, condamn"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-27
+    query: "Gabriel Attal régularisation travailleurs sans-papiers métiers en tension"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "attalpresident.fr mesures immigration"
+    category: CAMPAIGN_SITE
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://votons-2027.fr/candidats/attal/programme/immigration"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "https://www.lagazettefrance.fr/article/attal-veut-une-immigration-plus-faible-et-axee-sur-le-travail (dépêche AFP du 26 mai 2026, entretien France Inter)"
+    category: PRESS_AGENCIES
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "https://attalpresident.fr/programme (liste des fiches de mesures) puis fiches immigration-systeme-a-points, quotas-migratoires-revises, preference-travail-constitution, durcir-regroupement-familial, delit-maintien-illicite, interconnecter-fichiers"
+    category: CAMPAIGN_SITE
+    tool: curl
+  - at: 2026-11-27
+    query: "attalpresident.fr/actualites : comptes rendus BFM TV (6 septembre 2026), LCI (25 août 2026), France Inter (26 mai 2026), France 2 (20 septembre 2026), meeting de Paris (30 mai 2026)"
+    category: FULL_INTERVIEWS
+    tool: curl
+  - at: 2026-11-27
+    query: "Attal déclaration de politique générale 30 janvier 2024 \"aide médicale d'État\" réforme"
+    category: GOVERNMENT
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://www.assemblee-nationale.fr/dyn/16/comptes-rendus/seance/session-ordinaire-de-2023-2024/deuxieme-seance-du-mardi-30-janvier-2024 (déclaration de politique générale)"
+    category: PARLIAMENTARY_ARCHIVES
+    tool: curl
+  - at: 2026-11-27
+    query: "\"Attal\" \"AME\" aide médicale d'État 2025 OR 2026 entretien \"soins urgents\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "site:assemblee-nationale.fr scrutin public amendement \"aide médicale\" urgence 17e législature"
+    category: ASSEMBLEE_NATIONALE
+    tool: web_search
+  - at: 2026-11-27
+    query: "parcours des intitulés des 10 145 scrutins publics de la 17e législature (questions.assemblee-nationale.fr/dyn/17/scrutins, pages 1 à 1019) et filtrage : étrangers, immigration, séjour, asile, aide médicale, droit de vote, naturalisation, régularisation, expulsion"
+    category: ASSEMBLEE_NATIONALE
+    tool: curl
+  - at: 2026-11-27
+    query: "pages des scrutins n° 218, 3261, 4746, 4748, 4749, 4750, 4752, 4753, 4754 et comptes rendus des séances du 31 octobre 2024, du 30 octobre 2025 et du 11 décembre 2025"
+    category: ASSEMBLEE_NATIONALE
+    tool: curl
+  - at: 2026-11-27
+    query: "textes des propositions de loi n° 265, 1839 et 2180 et amendement 2199/AN/12 (assemblee-nationale.fr)"
+    category: PARLIAMENTARY_ARCHIVES
+    tool: curl
+  - at: 2026-11-27
+    query: "Gabriel Attal étrangers condamnés titre de séjour retrait expulsion proposition"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "\"Gabriel Attal\" \"étrangers délinquants\" OR \"délinquants étrangers\" expulser déclaration"
+    category: SPEECHES_PRESS_CONFERENCES
+    tool: web_search
+  - at: 2026-11-27
+    query: "Gabriel Attal droit de vote des étrangers élections locales position"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "\"Attal\" \"vote des étrangers\" Houlié proposition Premier ministre réagit"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Gabriel Attal \"pays tiers\" asile demandes examinées hors Europe \"hubs\" retour position"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Gabriel Attal LCI août 2026 immigration \"pays tiers\" centres coûtent cher dépendance préférence travail Constitution"
+    category: TV_RADIO_DEBATES
+    tool: web_search
+  - at: 2026-11-27
+    query: "\"Attal\" \"hypocrisie\" \"travail au noir\" immigration métiers en tension titre de séjour"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://www.europe1.fr/politique/immigration-il-faut-arreter-lhypocrisie-autour-du-travail-au-noir-estime-gabriel-attal-4145028"
+    category: TV_RADIO_DEBATES
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "vie-publique Gabriel Attal ministre comptes publics entretien Europe 1 novembre 2022 immigration métiers en tension"
+    category: GOVERNMENT
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://www.vie-publique.fr/discours/287032-gabriel-attal-03112022-politique-de-limmigration (navigateur intégré, puis index Wayback Machine et copie du 6 février 2023)"
+    category: HISTORICAL_ARCHIVES
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "https://brusselssignal.eu/2026/04/macrons-party-leader-attal-calls-for-controlled-immigration-as-he-eyes-presidential-run/"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "Attal Espagne régularisation 500 000 sans-papiers \"Grande interview\" Europe 1 CNews avril 2026 système à points"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-27
+    query: "Gabriel Attal prestations sociales étrangers durée de résidence \"cinq ans\" OR \"deux ans\" allocations conditionner"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "\"Attal\" Premier ministre RIP LR prestations sociales étrangers Conseil constitutionnel avril 2024 réaction"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Gabriel Attal frais d'inscription étudiants étrangers extra-européens immigration étudiante"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "texte de la page programme attalpresident.fr et des comptes rendus d'entretiens : naturalis, aide médicale, asile, Dublin, Schengen, étudiant, régularis, vote, prestations, titre de séjour, résidence"
+    category: CAMPAIGN_SITE
+    tool: grep
+  - at: 2026-11-27
+    query: "Gabriel Attal naturalisation durée de résidence condition \"naturalisation\" déclaration"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Gabriel Attal règlement Dublin pays de première entrée demandeurs d'asile transfert position"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Gabriel Attal \"immigration légale\" Union européenne voies légales travail pacte asile migration Europe talents"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "recherche plein texte des doublons dans data/ : URL des sept sources retenues, « prédécesseure », « forme d'hypocrisie », « centres de renvoi »"
+    category: EXISTING_CORPUS
+    tool: grep
+categoriesExplored:
+  - EXISTING_CORPUS
+  - NATIONAL_MEDIA
+  - CAMPAIGN_SITE
+  - SPECIALIZED_PUBLICATIONS
+  - PRESS_AGENCIES
+  - FULL_INTERVIEWS
+  - GOVERNMENT
+  - PARLIAMENTARY_ARCHIVES
+  - ASSEMBLEE_NATIONALE
+  - SPEECHES_PRESS_CONFERENCES
+  - TV_RADIO_DEBATES
+  - HISTORICAL_ARCHIVES
+categoriesNotExplored:
+  - category: ORIGINAL_VIDEOS
+    reason: Vidéos intégrales des entretiens 2026 (TF1, France Inter, LCI, BFM TV, France 2, Europe 1/CNews) non transcrites ; l'agent n'écoute pas l'audio et aucun outil de sous-titres n'était disponible.
+  - category: SOCIAL_MEDIA
+    reason: Publications sous authentification (X, Instagram), non contournée (FR-049).
+  - category: SENAT
+    reason: Gabriel Attal n'a jamais siégé au Sénat.
+  - category: EUROPEAN_PARLIAMENT
+    reason: Gabriel Attal n'a pas siégé au Parlement européen.
+  - category: FACT_CHECKING
+    reason: Non exploré ; aucune piste de vérification spécifique sur ces treize questions.
+exhaustive: false
+sourcesConsulted:
+  - url: https://web.archive.org/web/20230206034936/https://www.vie-publique.fr/discours/287032-gabriel-attal-03112022-politique-de-limmigration-article-49-budget-2023
+    title: Entretien de Gabriel Attal sur Europe 1 le 3 novembre 2022 (transcription vie-publique.fr, copie Wayback)
+    outcome: retained
+    source: gabriel-attal-europe1-2022-11-03-vie-publique
+  - url: https://www.assemblee-nationale.fr/dyn/16/comptes-rendus/seance/session-ordinaire-de-2023-2024/deuxieme-seance-du-mardi-30-janvier-2024
+    title: Déclaration de politique générale, deuxième séance du 30 janvier 2024
+    outcome: retained
+    source: gabriel-attal-an-dpg-2024-01-30
+  - url: https://questions.assemblee-nationale.fr/dyn/17/scrutins/218
+    title: Scrutin public n° 218 (31 octobre 2024)
+    outcome: retained
+    source: gabriel-attal-an-scrutin-218-expulsion-etrangers
+  - url: https://questions.assemblee-nationale.fr/dyn/17/scrutins/3261
+    title: Scrutin public n° 3261 (30 octobre 2025)
+    outcome: retained
+    source: gabriel-attal-an-scrutin-3261-delit-sejour-irregulier
+  - url: https://questions.assemblee-nationale.fr/dyn/17/scrutins/4748
+    title: Scrutin public n° 4748 (11 décembre 2025)
+    outcome: retained
+    source: gabriel-attal-an-scrutin-4748-titres-sejour-longue-duree
+  - url: https://attalpresident.fr/programme/mesures/quotas-migratoires-revises
+    title: "Mesure : définir des quotas migratoires révisés tous les deux ans"
+    outcome: retained
+    source: gabriel-attal-mesure-quotas-migratoires-revises
+  - url: https://attalpresident.fr/actualites/lci-gabriel-attal-defend-un-projet-de-rupture-pour-repondre-aux-grands-defis-du-pays
+    title: "LCI : Gabriel Attal défend un projet de rupture (compte rendu de campagne)"
+    outcome: retained
+    source: gabriel-attal-actualite-lci-2026-08-25
+  - url: https://attalpresident.fr/programme/mesures/immigration-systeme-a-points
+    title: "Mesure : instaurer un système à points pour l'immigration"
+    outcome: rejected
+    reason: Lu ; système à points d'admission au séjour, sans lien direct avec les treize énoncés.
+  - url: https://attalpresident.fr/programme/mesures/preference-travail-constitution
+    title: "Mesure : préférence travail inscrite dans la Constitution"
+    outcome: rejected
+    reason: Lu ; réduction de l'immigration familiale et étudiante au profit du travail, sans lien direct avec les énoncés (rien sur les frais d'inscription).
+  - url: https://attalpresident.fr/programme/mesures/durcir-regroupement-familial
+    title: "Mesure : durcir les règles du regroupement familial"
+    outcome: rejected
+    reason: Lu ; hors des treize questions de la mission.
+  - url: https://attalpresident.fr/actualites/gabriel-attal-france-inter-election-presidentielle
+    title: "Gabriel Attal sur France Inter (26 mai 2026), compte rendu de campagne"
+    outcome: rejected
+    reason: Lu ; préférence travail et regroupement familial seulement.
+  - url: https://attalpresident.fr/actualites/bfm-tv-gabriel-attal-veut-changer-de-modele-pour-redonner-de-la-puissance-a-la-france
+    title: "BFM TV (6 septembre 2026), compte rendu de campagne"
+    outcome: rejected
+    reason: Lu ; quotas et système à points, sans lien direct avec les énoncés.
+  - url: https://attalpresident.fr/actualites/gabriel-attal-sur-france-2-gerer-l-urgence-et-preparer-l-avenir
+    title: "France 2, Franc-jeu (20 septembre 2026), compte rendu de campagne"
+    outcome: rejected
+    reason: Lu ; principe « accueillir moins pour accueillir mieux » seulement.
+  - url: https://www.lagazettefrance.fr/article/attal-veut-une-immigration-plus-faible-et-axee-sur-le-travail
+    title: Attal veut une immigration plus faible et axée sur le travail (AFP, 26 mai 2026)
+    outcome: rejected
+    reason: Dépêche secondaire ; rien sur les treize questions.
+  - url: https://votons-2027.fr/candidats/attal/programme/immigration
+    title: "Immigration · présidentielle 2027 (votons-2027.fr)"
+    outcome: rejected
+    reason: Agrégateur ; piste seulement (champ lead de la preuve 006), renvoie au programme de campagne.
+  - url: https://brusselssignal.eu/2026/04/macrons-party-leader-attal-calls-for-controlled-immigration-as-he-eyes-presidential-run/
+    title: Macron's party leader Attal calls for controlled immigration (Brussels Signal, 27 avril 2026)
+    outcome: rejected
+    reason: Article secondaire en anglais (propos traduits) sur un entretien Europe 1/CNews non retrouvé ; régularisation « à points » et rejet de la régularisation espagnole non vérifiables en français d'origine.
+  - url: https://www.europe1.fr/politique/immigration-il-faut-arreter-lhypocrisie-autour-du-travail-au-noir-estime-gabriel-attal-4145028
+    title: Immigration, il faut arrêter l'hypocrisie autour du travail au noir, estime Gabriel Attal (Europe 1)
+    outcome: inaccessible
+    reason: HTTP 403 ; non contourné. La copie Wayback ouverte ne contenait que le gabarit de page.
+  - url: https://www.vie-publique.fr/discours/287032-gabriel-attal-03112022-politique-de-limmigration
+    title: Transcription vie-publique.fr de l'entretien du 3 novembre 2022 (page d'origine)
+    outcome: inaccessible
+    reason: Page de contrôle anti-robot puis « Site en maintenance » (HTTP 503) ; transcription lue dans la copie Wayback de l'URL antérieure.
+  - url: https://www.vie-publique.fr/discours/292847-declaration-de-politique-generale-gabriel-attal-30012024
+    title: Déclaration de politique générale (vie-publique.fr)
+    outcome: inaccessible
+    reason: Contrôle anti-robot ; compte rendu officiel de l'Assemblée utilisé à la place.
+  - url: https://www.modernghana.com/news/1496598/attal-hardens-migration-line-with-macron-camp.amp
+    title: Attal hardens migration line (reprise AFP)
+    outcome: inaccessible
+    reason: HTTP 403 (de même pour la reprise inkl.com) ; non contourné.
+  - url: https://questions.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2180.html
+    title: Proposition de loi n° 2180 (Rodwell, Barnier, Attal…) sur la sécurité, la rétention administrative et la prévention des risques d'attentat
+    outcome: rejected
+    reason: Cosignée par Attal, lue ; rétention administrative et mesures antiterroristes, aucun article sur les treize énoncés.
+  - url: https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B1839.html
+    title: Proposition de loi n° 1839 visant au rétablissement du délit de séjour irrégulier
+    outcome: rejected
+    reason: Lue pour qualifier le vote du scrutin n° 3261 ; ce n'est pas un acte d'Attal.
+  - url: https://www.assemblee-nationale.fr/dyn/17/amendements/2199/AN/12
+    title: Amendement n° 12 de M. Jacobelli (texte n° 2199)
+    outcome: rejected
+    reason: Lu pour qualifier le vote du scrutin n° 4748 ; ce n'est pas un acte d'Attal.
+evidenceAdded:
+  - gabriel-attal-immigration-003
+  - gabriel-attal-immigration-004
+  - gabriel-attal-immigration-005
+  - gabriel-attal-immigration-006
+  - gabriel-attal-immigration-007
+  - gabriel-attal-immigration-008
+  - gabriel-attal-immigration-009
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided: []
+verified:
+  - gabriel-attal-immigration-003
+  - gabriel-attal-immigration-004
+  - gabriel-attal-immigration-005
+  - gabriel-attal-immigration-006
+  - gabriel-attal-immigration-007
+  - gabriel-attal-immigration-008
+  - gabriel-attal-immigration-009
+toVerify: []
+contradictions: []
+gaps:
+  - kind: HISTORICAL_ONLY
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-regularisation-metiers-tension
+    evidence: [gabriel-attal-immigration-003]
+    note: >-
+      Seul propos personnel retrouvé : entretien Europe 1 du 3 novembre 2022, comme ministre des
+      Comptes publics. Aucun propos de la campagne 2027 sur la régularisation des travailleurs sans
+      titre en source primaire ; un article de Brussels Signal (27 avril 2026) lui prête une
+      régularisation « à points », non vérifiable en version originale.
+  - kind: HISTORICAL_ONLY
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-ame-soins-urgents
+    evidence: [gabriel-attal-immigration-004]
+    note: >-
+      Seul propos personnel retrouvé : déclaration de politique générale du 30 janvier 2024 (réforme
+      réglementaire sur la base du rapport Evin-Stefanini). La restitution Renaissance de mai 2025
+      (« Réformer l'AME en mettant en œuvre les recommandations du rapport Evin-Stefanini ») est une
+      position de parti. Votes éventuels sur des amendements budgétaires relatifs à l'AME non vérifiés.
+  - kind: NOT_FOUND
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-condamnes-perte-titre-sejour
+    evidence: [gabriel-attal-immigration-005]
+    note: >-
+      Aucune prise de position personnelle sur le retrait du titre de séjour des étrangers condamnés
+      à de la prison ferme (presse, discours de Premier ministre, site de campagne, scrutins de la
+      17e législature) ; seul un vote sur la levée des protections contre l'expulsion (scrutin n° 218),
+      sans lien direct.
+  - kind: NOT_FOUND
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-asile-examen-hors-europe-v2
+    evidence: [gabriel-attal-immigration-006]
+    note: >-
+      Aucune prise de position sur l'examen des demandes d'asile hors de l'Union ; la campagne écarte
+      seulement les « centres de renvoi » dans des pays tiers (fiche du 6 septembre 2026), autre
+      instrument.
+  - kind: NOT_FOUND
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-vote-local-etrangers-v2
+    note: >-
+      Rien trouvé après recherches presse, site de campagne, compte rendu de la déclaration de
+      politique générale et scrutins de la 17e législature (aucun scrutin public sur le droit de vote
+      des étrangers dans ses intitulés).
+  - kind: NOT_FOUND
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-prestations-duree-residence
+    note: >-
+      Aucune prise de position personnelle sur une condition de cinq ans de résidence pour les
+      prestations non contributives des étrangers. La presse évoque une annonce de mars 2023 (ministre
+      des Comptes publics) sur une durée de présence annuelle en France pour les allocations, qui est
+      une autre condition, non vérifiée en source primaire ; la restitution Renaissance de 2025 propose
+      l'arrêt des prestations à l'expiration du titre (position de parti).
+  - kind: NOT_FOUND
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-titre-sejour-longue-duree
+    evidence: [gabriel-attal-immigration-007]
+    note: >-
+      Aucune prise de position sur la facilitation de l'accès aux titres de longue durée ; seul un vote
+      contre un amendement RN durcissant leur renouvellement (scrutin n° 4748), sans vote sur
+      l'ensemble du texte.
+  - kind: NOT_FOUND
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-voies-legales-travail-ue
+    note: >-
+      Rien trouvé sur l'ouverture de voies légales d'immigration de travail par l'Union européenne :
+      sa campagne parle de quotas nationaux votés par le Parlement et d'un système à points français ;
+      comme Premier ministre, il a défendu le pacte asile et migration, sans viser les voies légales.
+  - kind: NOT_FOUND
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-regularisation-cinq-ans
+    evidence: [gabriel-attal-immigration-009]
+    note: >-
+      Aucune prise de position sur la régularisation des étrangers présents depuis plus de cinq ans ;
+      seulement une coordination Schengen contre les régularisations « massives » décidées seul par
+      un État membre (compte rendu de campagne, LCI, 25 août 2026), et un rejet de la régularisation
+      espagnole rapporté en anglais par Brussels Signal, non vérifiable.
+  - kind: NOT_FOUND
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-frais-etudiants-etrangers
+    note: >-
+      Rien trouvé sur les frais d'inscription des étudiants extra-européens (presse, site de campagne) ;
+      la campagne veut réduire l'immigration étudiante au profit de l'immigration de travail, sans
+      parler des frais.
+  - kind: NOT_FOUND
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-reduire-duree-naturalisation
+    note: >-
+      Rien trouvé sur la durée de résidence exigée pour la naturalisation (presse, site de campagne,
+      restitution Renaissance, scrutins de la 17e législature).
+  - kind: NOT_FOUND
+    personality: gabriel-attal
+    theme: immigration
+    question: immigration-asile-examen-sans-transfert
+    note: >-
+      Rien trouvé sur le règlement de Dublin ou les transferts vers l'État responsable ; seule une
+      défense générale du pacte asile et migration comme Premier ministre (question au Gouvernement de
+      2024, non ouverte), qui ne tranche pas l'énoncé.
+signals: []
