@@ -25,3 +25,255 @@
   verifiedAt: 2026-11-22
   createdAt: 2026-11-22
   updatedAt: 2026-11-22
+
+- id: florian-philippot-defense-001
+  personality: florian-philippot
+  kind: POSITION
+  theme: defense
+  question: defense-reduire-budget-armees
+  qualification: EXPLICIT_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Doublement du budget de la défense en 5 ans"
+  speaker: Florian Philippot
+  context: "Programme présidentiel 2022 « Libérons la France » de Florian Philippot, rubrique défense."
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache de la source du registre."
+  source: florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  publisher: "Florian Philippot (projet présidentiel 2022)"
+  locator: { kind: passage, value: "rubrique DÉFENSE / SPATIAL" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: campagne présidentielle 2022
+  rationale:
+    interpretation: "Doubler le budget en cinq ans est l'inverse d'une réduction en proportion du PIB. Programme 2022, non corroboré par une déclaration personnelle récente (la charte des Patriotes, document de parti, demande 3 % du PIB)."
+  statedAt: { date: 2022, precision: year }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-philippot-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: florian-philippot-defense-002
+  personality: florian-philippot
+  kind: POSITION
+  theme: defense
+  question: defense-reduire-budget-armees
+  qualification: EXPLICIT_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Il faut avant tout annuler la baisse du budget de l'armée"
+  speaker: Florian Philippot
+  context: "Au lendemain de l'attaque contre des militaires de Sentinelle à Levallois, après l'annulation de 850 M€ de crédits de défense ; propos sur Europe 1 rapportés par Public Sénat."
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache de la source du registre."
+  source: florian-philippot-levallois-philippot-appelle-a-annuler-la-baisse-du-budget-de
+  publisher: "Public Sénat"
+  locator: { kind: passage, value: "corps de l'article (propos tenus sur Europe 1)" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: 2017, vice-président du FN
+  rationale:
+    interpretation: "Refus d'une baisse du budget militaire ; ancien (2017, autre fonction partisane)."
+  statedAt: { date: 2017-08-10, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-philippot-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: florian-philippot-securite-001
+  personality: florian-philippot
+  kind: POSITION
+  theme: securite
+  question: securite-hausse-effectifs-police
+  qualification: EXPLICIT_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Il faut en même temps renforcer nos effectifs de police et de gendarmerie"
+  speaker: Florian Philippot
+  context: "Même entretien Europe 1 du 10 août 2017, rapporté par Public Sénat."
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache de la source du registre."
+  source: florian-philippot-levallois-philippot-appelle-a-annuler-la-baisse-du-budget-de
+  publisher: "Public Sénat"
+  locator: { kind: passage, value: "corps de l'article (propos tenus sur Europe 1)" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: 2017, vice-président du FN
+  rationale:
+    interpretation: "Demande explicite de renforcer les effectifs de police ; ancien (2017), non corroboré récemment (le projet 2026 parle de police de proximité sans chiffre d'effectifs)."
+  statedAt: { date: 2017-08-10, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-philippot-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: florian-philippot-transport-001
+  personality: florian-philippot
+  kind: POSITION
+  theme: transport
+  question: transport-petites-lignes-maintenues
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "merci pour la ruralité qui va encore perdre des dessertes et des arrêts"
+  speaker: Florian Philippot
+  context: "Réaction au rapport Spinetta sur l'avenir de la SNCF, propos tenus sur Territoires d'Infos (Public Sénat)."
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache de la source du registre."
+  source: florian-philippot-le-rapport-spinetta-vise-a-tuer-le-service-public-ferroviair
+  publisher: "Public Sénat"
+  locator: { kind: passage, value: "corps de l'article (propos tenus sur Territoires d'Infos)" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: 2018, débat sur le rapport Spinetta
+  rationale:
+    interpretation: "Critique ironique de la perte de dessertes rurales face au rapport Spinetta (audit des petites lignes) : soutien implicite au maintien, sans engagement explicite sur les lignes peu fréquentées."
+  statedAt: { date: 2018-02-16, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-philippot-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: florian-philippot-education-001
+  personality: florian-philippot
+  kind: POSITION
+  theme: education
+  question: education-salaires-enseignants-15-pourcent
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "leur autorité pleinement reconnue et leur carrière revalorisée, notamment sur le plan salarial"
+  speaker: Florian Philippot
+  context: "Projet des Patriotes 2026-2027, mouvement présidé par le candidat et utilisé comme son programme dans le corpus."
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache de la source du registre."
+  source: florian-philippot-projet-pour-la-france-2026
+  publisher: "Les Patriotes"
+  locator: { kind: passage, value: "rubrique ÉCOLE, « Refonder l'autorité des professeurs »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    interpretation: "Revalorisation salariale demandée, sans le montant de 15 % de l'énoncé."
+  statedAt: { date: 2026-09-03, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-philippot-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: florian-philippot-economie-001
+  personality: florian-philippot
+  kind: POSITION
+  theme: economie
+  question: economie-baisse-depense-publique
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "la solution devra d'abord venir d'une réduction du train de vie de l'Etat"
+  speaker: Florian Philippot
+  context: "Même passage : redresser les finances « sans augmenter le niveau d'imposition », et « stimuler l'investissement »."
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache de la source du registre."
+  source: florian-philippot-projet-pour-la-france-2026
+  publisher: "Les Patriotes"
+  locator: { kind: passage, value: "rubrique finances publiques, « Le tiercé gagnant »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    interpretation: "Réduction ciblée (ministères non régaliens, dépenses inutiles) tout en stimulant l'investissement : soutien partiel à une baisse de la dépense."
+  statedAt: { date: 2026-09-03, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-philippot-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: florian-philippot-fiscalite-001
+  personality: florian-philippot
+  kind: POSITION
+  theme: fiscalite
+  question: fiscalite-baisse-prelevements-obligatoires
+  qualification: AMBIGUOUS
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Pour réaliser ce redressement sans augmenter le niveau d'imposition déjà record subi par les Français"
+  speaker: Florian Philippot
+  context: "Projet des Patriotes 2026-2027."
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache de la source du registre."
+  source: florian-philippot-projet-pour-la-france-2026
+  publisher: "Les Patriotes"
+  locator: { kind: passage, value: "rubrique finances publiques, « Le tiercé gagnant »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    interpretation: "Refus d'une hausse, pas engagement de baisse du total ; ailleurs, la charte des Patriotes prévoit le rétablissement de l'ISF. Ne permet pas de conclure."
+  statedAt: { date: 2026-09-03, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-philippot-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: florian-philippot-fiscalite-002
+  personality: florian-philippot
+  kind: POSITION
+  theme: fiscalite
+  question: fiscalite-baisse-impot-societes
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Fiscalité progressive selon la taille de l'entreprise (les TPE/PME doivent payer moins que les gros groupes)"
+  speaker: Florian Philippot
+  context: "Programme présidentiel 2022 « Libérons la France »."
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache de la source du registre."
+  source: florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili
+  publisher: "Florian Philippot (projet présidentiel 2022)"
+  locator: { kind: passage, value: "rubrique économie" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: campagne présidentielle 2022
+  rationale:
+    interpretation: "Allègement pour les TPE/PME seulement, pas une baisse générale du taux ; programme 2022 non corroboré."
+  statedAt: { date: 2022, precision: year }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-philippot-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: florian-philippot-numerique-001
+  personality: florian-philippot
+  kind: POSITION
+  theme: numerique
+  question: numerique-assouplir-regles-ia
+  qualification: NO_DIRECT_EVIDENCE
+  quoteStatus: VERIFIED_QUOTE
+  quote: "L'État doit donc soutenir massivement la recherche, les entreprises françaises de l'IA"
+  speaker: Florian Philippot
+  context: "Projet des Patriotes 2026-2027."
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache de la source du registre."
+  source: florian-philippot-projet-pour-la-france-2026
+  publisher: "Les Patriotes"
+  locator: { kind: passage, value: "rubrique SOUVERAINETÉ NUMÉRIQUE" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    interpretation: "Soutien public à l'IA (subventions), sans rien dire de l'assouplissement des règles."
+  statedAt: { date: 2026-09-03, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-philippot-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27

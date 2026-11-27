@@ -1,0 +1,126 @@
+# Journal de mission (spec 008, FR-029 ; mission issue de data:gaps, spec 009 §13 bis, lot 3).
+id: 2026-11-27-campagne-philippot-banque-active
+mode: PERSONALITY
+author: claude
+model: opus
+request: >-
+  Campagne de couverture 009, lot 3 : pour Florian Philippot, chercher en sources primaires une
+  position personnelle sur 20 questions de la banque active (ordre de gain du rapport data:gaps),
+  enregistrer les sources par data:source fetch, écrire des preuves qualifiées et consigner les
+  lacunes avec leur question ; rien déduit du parti ou d'un soutien ; pas d'écriture dans positions/.
+startedAt: 2026-11-27
+completedAt: 2026-11-27
+state: completed
+scope:
+  personalities: [florian-philippot]
+  themes: [defense, agriculture, education, transport, securite, numerique, fiscalite, sante, economie, justice, travail]
+  questions: [defense-reduire-budget-armees, agriculture-retenues-eau-irrigation, education-universite-sans-selection, transport-petites-lignes-maintenues, securite-pouvoirs-polices-municipales, education-salaires-enseignants-15-pourcent, education-postes-baisse-demographique, numerique-assouplir-regles-ia, numerique-taxe-plateformes, fiscalite-baisse-prelevements-obligatoires, fiscalite-baisse-impot-societes, sante-production-publique-medicaments, sante-hausse-franchises-medicales, education-groupes-de-niveau-college, securite-hausse-effectifs-police, economie-baisse-depense-publique, justice-courtes-peines-alternatives, travail-retraite-capitalisation, agriculture-pesticides-moitie-2030, economie-controle-rachats-etrangers]
+queries:
+  - { at: 2026-11-27, query: "lecture préalable : questions/*.yaml (20 énoncés), positions/florian-philippot.yaml, sources/florian-philippot.yaml, preuves/florian-philippot.yaml", category: EXISTING_CORPUS, tool: read }
+  - { at: 2026-11-27, query: "grep des textes en cache (projet 2026, programme 2022, charte, Entrevue, franceinfo) sur les mots-clés des 20 questions", category: EXISTING_CORPUS, tool: grep }
+  - { at: 2026-11-27, query: "projet Grandes orientations pour un projet patriote 2026-2027 relu par rubriques (école, sécurité, santé, finances publiques, numérique, agriculture, rail)", category: PARTY_SITE, tool: read }
+  - { at: 2026-11-27, query: "programme présidentiel 2022 Libérons la France relu intégralement", category: CAMPAIGN_SITE, tool: read }
+  - { at: 2026-11-27, query: "Florian Philippot franchises médicales doublement", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-27, query: "Florian Philippot retraite capitalisation fonds de pension", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-27, query: "Florian Philippot budget défense 2 % PIB armées augmentation", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-27, query: "https://www.publicsenat.fr/actualites/politique/levallois-philippot-appelle-a-annuler-la-baisse-du-budget-de-l-armee-76629", category: NATIONAL_MEDIA, tool: web_fetch }
+  - { at: 2026-11-27, query: "Florian Philippot baisser les impôts / baisse des impôts Patriotes 2026", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-27, query: "Florian Philippot petites lignes ferroviaires SNCF fermeture", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-27, query: "https://www.publicsenat.fr/actualites/politique/le-rapport-spinetta-vise-a-tuer-le-service-public-ferroviaire-selon-florian", category: NATIONAL_MEDIA, tool: web_fetch }
+categoriesExplored: [EXISTING_CORPUS, PARTY_SITE, CAMPAIGN_SITE, NATIONAL_MEDIA]
+categoriesNotExplored:
+  - { category: EUROPEAN_PARLIAMENT, reason: "votes 2014-2017 non dépouillés dans cette mission ; à faire pour franchises, IA, pesticides" }
+  - { category: SOCIAL_MEDIA, reason: "comptes X et vidéos non dépouillés (authentification, pas d'écoute audio)" }
+  - { category: ORIGINAL_VIDEOS, reason: "émissions des Patriotes non transcrites" }
+exhaustive: false
+sourcesConsulted:
+  - { url: "https://www.publicsenat.fr/actualites/politique/levallois-philippot-appelle-a-annuler-la-baisse-du-budget-de-l-armee-76629", title: "Levallois, Philippot appelle à annuler la baisse du budget de l'armée", outcome: retained, source: florian-philippot-levallois-philippot-appelle-a-annuler-la-baisse-du-budget-de }
+  - { url: "https://www.publicsenat.fr/actualites/politique/le-rapport-spinetta-vise-a-tuer-le-service-public-ferroviaire-selon-florian", title: "Le rapport Spinetta vise à tuer le service public ferroviaire, selon Florian Philippot", outcome: retained, source: florian-philippot-le-rapport-spinetta-vise-a-tuer-le-service-public-ferroviair }
+  - { url: "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf", title: "Grandes orientations pour un projet patriote 2026-2027 (déjà au registre)", outcome: retained, source: florian-philippot-projet-pour-la-france-2026 }
+  - { url: "https://www.politique-animaux.fr/sites/www.politique-animaux.fr/fichiers/prises-de-positions/pieces-jointes/programme2022.pdf", title: "Libérons la France, programme 2022 (déjà au registre)", outcome: retained, source: florian-philippot-liberons-la-france-projet-presidentiel-2022-de-florian-phili }
+  - { url: "https://www.elyseescope.com/questions/florian-philippot-fiscalite-2027", title: "ÉlyséeScope, fiscalité (résultat de recherche seulement)", outcome: rejected, reason: "site de synthèse non primaire, non sourcé" }
+  - { url: "https://www.breizh-info.com/2023/03/20/217110/florian-philippot-la-reforme-des-retraites-est-une-privatisation-deguisee/", title: "Breizh-info, retraites 2023", outcome: rejected, reason: "non ouvert ; ne porte pas sur la capitalisation selon le résultat" }
+evidenceAdded: [florian-philippot-defense-001, florian-philippot-defense-002, florian-philippot-securite-001, florian-philippot-transport-001, florian-philippot-education-001, florian-philippot-economie-001, florian-philippot-fiscalite-001, florian-philippot-fiscalite-002, florian-philippot-numerique-001]
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided: []
+verified: [florian-philippot-defense-001, florian-philippot-defense-002, florian-philippot-securite-001, florian-philippot-transport-001, florian-philippot-education-001, florian-philippot-economie-001, florian-philippot-fiscalite-001, florian-philippot-fiscalite-002, florian-philippot-numerique-001]
+toVerify: []
+contradictions: []
+signals: []
+gaps:
+  - kind: HISTORICAL_ONLY
+    personality: florian-philippot
+    theme: defense
+    question: defense-reduire-budget-armees
+    note: "Seules des preuves de 2017 et 2022 ; la charte des Patriotes (document de parti) demande 3 % du PIB, non retenue comme position personnelle."
+  - kind: HISTORICAL_ONLY
+    personality: florian-philippot
+    theme: securite
+    question: securite-hausse-effectifs-police
+    note: "Seul un propos de 2017."
+  - kind: HISTORICAL_ONLY
+    personality: florian-philippot
+    theme: transport
+    question: transport-petites-lignes-maintenues
+    note: "Seul un propos de 2018, indirect."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: agriculture
+    question: agriculture-retenues-eau-irrigation
+    note: "Aucun propos personnel trouvé : projet 2026, programme 2022, charte et entretiens en cache relus par mots-clés, plus recherches web de la mission ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: education
+    question: education-universite-sans-selection
+    note: "Aucun propos personnel trouvé : projet 2026, programme 2022, charte et entretiens en cache relus par mots-clés, plus recherches web de la mission ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: securite
+    question: securite-pouvoirs-polices-municipales
+    note: "Aucun propos personnel trouvé : projet 2026, programme 2022, charte et entretiens en cache relus par mots-clés, plus recherches web de la mission ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: education
+    question: education-postes-baisse-demographique
+    note: "Aucun propos personnel trouvé : projet 2026, programme 2022, charte et entretiens en cache relus par mots-clés, plus recherches web de la mission ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: numerique
+    question: numerique-taxe-plateformes
+    note: "Aucun propos personnel trouvé : projet 2026, programme 2022, charte et entretiens en cache relus par mots-clés, plus recherches web de la mission ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: sante
+    question: sante-production-publique-medicaments
+    note: "Aucun propos personnel trouvé : projet 2026, programme 2022, charte et entretiens en cache relus par mots-clés, plus recherches web de la mission ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: sante
+    question: sante-hausse-franchises-medicales
+    note: "Aucun propos personnel trouvé : projet 2026, programme 2022, charte et entretiens en cache relus par mots-clés, plus recherches web de la mission ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: education
+    question: education-groupes-de-niveau-college
+    note: "Aucun propos personnel trouvé : projet 2026, programme 2022, charte et entretiens en cache relus par mots-clés, plus recherches web de la mission ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: justice
+    question: justice-courtes-peines-alternatives
+    note: "Aucun propos personnel trouvé : projet 2026, programme 2022, charte et entretiens en cache relus par mots-clés, plus recherches web de la mission ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: travail
+    question: travail-retraite-capitalisation
+    note: "Aucun propos personnel trouvé : projet 2026, programme 2022, charte et entretiens en cache relus par mots-clés, plus recherches web de la mission ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: agriculture
+    question: agriculture-pesticides-moitie-2030
+    note: "Aucun propos personnel trouvé : projet 2026, programme 2022, charte et entretiens en cache relus par mots-clés, plus recherches web de la mission ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: economie
+    question: economie-controle-rachats-etrangers
+    note: "Aucun propos personnel trouvé : projet 2026, programme 2022, charte et entretiens en cache relus par mots-clés, plus recherches web de la mission ; aucune position supposée."

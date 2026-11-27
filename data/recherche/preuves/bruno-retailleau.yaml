@@ -1256,3 +1256,265 @@
   journal: 2026-11-27-campagne-retailleau-justice
   createdAt: 2026-11-27
   updatedAt: 2026-11-27
+
+- id: bruno-retailleau-societe-001
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: societe
+  question: societe-aide-active-a-mourir
+  qualification: EXPLICIT_OPPOSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "je suis opposé au suicide assisté et à l'euthanasie"
+  speaker: Bruno Retailleau
+  context: >-
+    Intervention en séance publique au Sénat, nouvelle lecture de la proposition de loi relative
+    au droit à l'aide à mourir, après le rejet de l'article 2. Phrase complète : « Personnellement,
+    j'ai voté contre, parce que, fondamentalement, je suis opposé au suicide assisté et à
+    l'euthanasie. »
+  verificationNotes: >-
+    Passage relu dans le compte rendu intégral officiel (PDF du Sénat) ; dans le texte en cache le
+    mot « fondamentalement » est coupé en fin de ligne (« fondamenta- lement »), d'où une citation
+    limitée à la seconde moitié de la phrase.
+  source: bruno-retailleau-senat-compte-rendu-integral-de-la-seance-du-12-mai-2026-aide
+  publisher: Sénat
+  locator: { kind: page, value: "3415" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027 (sénateur)
+  rationale:
+    interpretation: >-
+      L'énoncé demande d'autoriser l'aide active à mourir pour les adultes atteints d'une maladie
+      incurable ; il se déclare opposé au suicide assisté et à l'euthanasie, les deux modalités de
+      l'aide active à mourir, et dit avoir voté contre l'article 2. Opposition explicite.
+  statedAt: { date: 2026-05-12, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-environnement-001
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: environnement
+  question: environnement-supprimer-zfe
+  qualification: EXPLICIT_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Si je suis élu en 2027, je les abrogerai."
+  speaker: Bruno Retailleau
+  context: >-
+    Publication sur X du compte @BrunoRetailleau le 22 mai 2026, au lendemain de la censure par le
+    Conseil constitutionnel de la suppression des ZFE (cavalier législatif) ; « les » renvoie aux
+    ZFE, qui « pénalisent les Français qui travaillent, qui n'ont pas les moyens de changer de
+    voiture ».
+  verificationNotes: >-
+    Publication intégrée (embed) dans l'article d'Europe 1, lue dans la page ouverte le 2026-11-27
+    et recopiée dans le fichier enregistré par --from-file ; X n'a pas été consulté directement
+    (authentification). Texte tronqué par l'embed après « La liberté de circuler n'est pas un… ».
+  source: bruno-retailleau-suppression-des-zfe-par-le-conseil-constitutionnel-une-grand
+  publisher: Europe 1 (publication X intégrée)
+  locator: { kind: paragraph, value: "publication X intégrée, 3e phrase" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    sourceQuality: >-
+      Publication du compte authentifié de l'intéressé, reproduite à l'identique par l'intégration
+      native de X dans un média national ; primaire pour cet usage.
+    interpretation: >-
+      Engagement à abroger les ZFE s'il est élu : soutien explicite à leur suppression.
+  statedAt: { date: 2026-05-22, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-securite-001
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: securite
+  question: securite-pouvoirs-polices-municipales
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "très favorable à une extension du rôle des policiers municipaux"
+  speaker: Bruno Retailleau
+  context: >-
+    Audition du ministre de l'Intérieur par la commission des lois de l'Assemblée nationale (début
+    octobre 2024), rapportée par Maire-info. Il ajoute aussitôt : « dès lors que vous irez sur le
+    champ de la police judiciaire, le maire perdra le contrôle de ses policiers », et « Nous ne
+    ferons rien sans l'avis de l'AMF ».
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache de l'article ; le compte rendu officiel
+    de la commission des lois n'a pas été ouvert.
+  source: bruno-retailleau-bruno-retailleau-tres-favorable-a-une-extension-des-pouvoirs
+  publisher: Maire-info
+  locator: { kind: paragraph, value: "réponse sur la proposition de loi relative aux polices municipales" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: ministère de l'Intérieur, octobre 2024
+  rationale:
+    interpretation: >-
+      Soutien à une extension des pouvoirs des polices municipales, mais pas à « les mêmes pouvoirs
+      d'enquête que la police nationale » : il pose la perte de contrôle du maire comme limite et
+      subordonne la réforme à l'avis de l'AMF. Soutien plus étroit que l'énoncé.
+    temporalRelevance: >-
+      Propos de ministre en 2024 ; le projet de loi qu'il a ensuite porté (2025) n'a pas été
+      relu ici. Non corroboré comme position de candidat.
+  statedAt: { date: 2024-10, precision: month }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-energie-001
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: energie
+  question: energie-reduire-part-nucleaire
+  qualification: QUALIFIED_OPPOSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "S'adapter, c'est lutter contre le réchauffement avec l'énergie la plus souveraine, abondante, pilotable et décarbonée : le nucléaire"
+  speaker: Bruno Retailleau
+  context: >-
+    Tribune signée, republiée sur republicains.fr le 9 août 2026 ; le passage se poursuit par
+    « Cessons d'engloutir des milliards dans le vent [...]. Relançons l'atome ».
+  verificationNotes: Phrase retrouvée mot pour mot dans le texte en cache de la source déjà enregistrée.
+  source: bruno-retailleau-retailleau-face-au-rechauffement-climatique-adapter-la-franc
+  publisher: Les Républicains (republicains.fr)
+  locator: { kind: passage, value: "paragraphe « S'adapter, c'est… »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      Il veut relancer l'atome et cesser de financer l'éolien : orientation contraire à une
+      réduction de la part du nucléaire, sans toutefois se prononcer explicitement sur cette part.
+      Opposition qualifiée.
+  statedAt: { date: 2026-08-09, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-energie-002
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: energie
+  question: energie-nouveaux-reacteurs-au-dela-epr2
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "rebâtir un parc nucléaire"
+  speaker: Bruno Retailleau
+  context: >-
+    Tribune publiée dans Le Figaro le 3 juillet 2025, cosignée avec François-Xavier Bellamy et
+    Julien Aubert, rapportée par Public Sénat ; appel à « rebâtir un parc nucléaire » et à arrêter
+    les subventions à l'éolien et au photovoltaïque.
+  verificationNotes: >-
+    Fragment retrouvé mot pour mot dans le texte en cache de l'article de Public Sénat ; la tribune
+    originale du Figaro (paywall) n'a pas été ouverte. Une phrase plus longue (« éviter l'effet
+    falaise lié au vieillissement des centrales actuelles ») apparaît dans des résultats de
+    recherche mais n'a pas été vérifiée.
+  source: bruno-retailleau-fin-des-subventions-aux-eoliennes-et-au-photovoltaique-la-tr
+  publisher: Public Sénat
+  locator: { kind: paragraph, value: "« Dans une tribune publiée sur le Figaro ce 3 juillet »" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: président des Républicains, ministre de l'Intérieur (2025)
+  rationale:
+    attribution: Tribune cosignée par l'intéressé (cosignature = position personnelle).
+    interpretation: >-
+      Rebâtir un parc nucléaire va au-delà du seul programme en cours, mais aucun nombre de
+      réacteurs ni référence aux six EPR2 n'est donné : soutien qualifié.
+    temporalRelevance: Propos de juillet 2025, corroboré dans l'esprit par « Relançons l'atome » (août 2026), sans chiffre.
+  statedAt: { date: 2025-07-03, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-democratie-001
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: democratie
+  question: democratie-referendum-reserve-elus-v2
+  qualification: AMBIGUOUS
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "le président de la République pourra donner la parole au peuple français pour censurer la censure"
+  speaker: Bruno Retailleau
+  context: >-
+    Entretien au Figaro (septembre 2026) republié sur republicains.fr : il veut élargir l'article
+    11 et diviser par deux le nombre de signatures requis pour le référendum d'initiative partagée
+    (« plutôt que 5 millions de signatures, il en faudrait moitié moins »).
+  verificationNotes: Phrases retrouvées mot pour mot dans le texte en cache de la source déjà enregistrée.
+  source: bruno-retailleau-figaro-constitution-2026-09
+  publisher: Le Figaro (republicains.fr)
+  locator: { kind: passage, value: "réponse sur les deux textes soumis aux Français" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      Les nouveaux référendums qu'il propose restent déclenchés par le président (art. 11, «
+      censurer la censure ») ; il allège le RIP, dont l'initiative reste parlementaire, sans dire
+      s'il veut un référendum à l'initiative des seuls citoyens. Ne permet pas de conclure.
+  statedAt: { date: 2026-09-02, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+
+- id: bruno-retailleau-democratie-002
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: democratie
+  question: democratie-referendum-reserve-elus-v2
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Le référendum d'initiative populaire, j'y suis favorable, mais encadré"
+  speaker: Bruno Retailleau
+  context: >-
+    Propos sur LCI le 18 décembre 2018, en pleine crise des gilets jaunes, rapportés par Public
+    Sénat ; l'article précise qu'il veut abaisser à 1 million le seuil de signatures du RIP « mais
+    avec toujours "le filtre parlementaire" ».
+  verificationNotes: Phrase retrouvée mot pour mot dans le texte en cache ; l'émission de LCI n'a pas été consultée.
+  source: bruno-retailleau-retailleau-lr-favorable-a-un-referendum-d-initiative-citoyen
+  publisher: Public Sénat
+  locator: { kind: paragraph, value: "2" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: président du groupe LR au Sénat (2018)
+  rationale:
+    interpretation: >-
+      Favorable à un référendum d'initiative populaire encadré, donc à un déclenchement qui ne
+      soit pas réservé au président ou au Parlement ; mais le maintien du « filtre parlementaire »
+      rapporté par l'article en limite la portée. Opposition qualifiée, historique.
+    temporalRelevance: Propos de 2018 ; la proposition de 2026 (bruno-retailleau-democratie-001) ne le reprend pas explicitement.
+  statedAt: { date: 2018-12-18, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-retailleau-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27

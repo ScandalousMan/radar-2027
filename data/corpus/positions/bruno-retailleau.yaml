@@ -1305,3 +1305,76 @@
   reviewer: adrien
   reviewedAt: 2026-11-27
   reviewedHash: sha256:3696620d69ce94d224ff10da9f310a661535957283c21687f3a3c4c95f491eb5
+
+# Campagne de couverture 009, lot 3 (2026-11-27) : positions transcrites par l'agent depuis les preuves
+# primaires de data/recherche (journal 2026-11-27-campagne-*-banque-active).
+
+- question: societe-aide-active-a-mourir
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-senat-compte-rendu-integral-de-la-seance-du-12-mai-2026-aide
+  quote: "je suis opposé au suicide assisté et à l'euthanasie"
+  quoteSource: bruno-retailleau-senat-compte-rendu-integral-de-la-seance-du-12-mai-2026-aide
+  justification: "L'énoncé demande d'autoriser l'aide active à mourir pour les adultes atteints d'une maladie incurable ; il se déclare opposé au suicide assisté et à l'euthanasie, les deux modalités de l'aide active à mourir, et dit avoir voté contre l'article 2. Opposition explicite."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+
+- question: environnement-supprimer-zfe
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-suppression-des-zfe-par-le-conseil-constitutionnel-une-grand
+  quote: "Si je suis élu en 2027, je les abrogerai."
+  quoteSource: bruno-retailleau-suppression-des-zfe-par-le-conseil-constitutionnel-une-grand
+  justification: "Engagement à abroger les ZFE s'il est élu : soutien explicite à leur suppression."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+
+- question: energie-reduire-part-nucleaire
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-face-au-rechauffement-climatique-adapter-la-franc
+  quote: "S'adapter, c'est lutter contre le réchauffement avec l'énergie la plus souveraine, abondante, pilotable et décarbonée : le nucléaire"
+  quoteSource: bruno-retailleau-retailleau-face-au-rechauffement-climatique-adapter-la-franc
+  justification: "Il veut relancer l'atome et cesser de financer l'éolien : orientation contraire à une réduction de la part du nucléaire, sans toutefois se prononcer explicitement sur cette part. Opposition qualifiée."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+
+- question: securite-pouvoirs-polices-municipales
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-bruno-retailleau-tres-favorable-a-une-extension-des-pouvoirs
+  quote: "très favorable à une extension du rôle des policiers municipaux"
+  quoteSource: bruno-retailleau-bruno-retailleau-tres-favorable-a-une-extension-des-pouvoirs
+  justification: "Soutien à une extension des pouvoirs des polices municipales, mais pas à « les mêmes pouvoirs d'enquête que la police nationale » : il pose la perte de contrôle du maire comme limite et subordonne la réforme à l'avis de l'AMF. Soutien plus étroit que l'énoncé."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+
+- question: energie-nouveaux-reacteurs-au-dela-epr2
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-fin-des-subventions-aux-eoliennes-et-au-photovoltaique-la-tr
+  quote: "rebâtir un parc nucléaire"
+  quoteSource: bruno-retailleau-fin-des-subventions-aux-eoliennes-et-au-photovoltaique-la-tr
+  justification: "Rebâtir un parc nucléaire va au-delà du seul programme en cours, mais aucun nombre de réacteurs ni référence aux six EPR2 n'est donné : soutien qualifié."
+  status: draft
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27

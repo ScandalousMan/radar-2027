@@ -1,0 +1,189 @@
+# Journal de mission (spec 008, FR-029 ; mission issue de data:gaps, spec 009 §13 bis).
+# Juan Branco × questions de la banque active (lot 3).
+id: 2026-11-27-campagne-branco-banque-active
+mode: PERSONALITY
+author: claude
+model: opus
+request: >-
+  Campagne de couverture 009, lot 3 : pour Juan Branco, chercher en sources primaires une prise de
+  position personnelle sur 20 questions de la banque active (ordre de gain), en relisant d'abord en
+  entier le programme « La Voie » 2027 ; agrégateurs en piste seulement ; rien de déduit d'un
+  soutien ; lacunes avec question ; écrire seulement data/recherche/ et
+  data/corpus/sources/juan-branco.yaml ; jamais data/corpus/positions/ ; pas de commit.
+startedAt: 2026-11-27
+completedAt: 2026-11-27
+state: completed
+scope:
+  personalities: [juan-branco]
+  themes: [defense, agriculture, education, securite, societe, energie, justice, numerique, travail, international]
+  questions:
+    - defense-reduire-budget-armees
+    - agriculture-retenues-eau-irrigation
+    - education-universite-sans-selection
+    - securite-pouvoirs-polices-municipales
+    - societe-uniforme-ecole-publique
+    - energie-suspendre-nouvelles-eoliennes
+    - societe-aide-active-a-mourir
+    - securite-reconnaissance-faciale-police
+    - justice-sanction-financiere-parents
+    - numerique-assouplir-regles-ia
+    - numerique-taxe-plateformes
+    - societe-signes-religieux-universite
+    - securite-hausse-effectifs-police
+    - justice-supprimer-reductions-automatiques
+    - education-salaires-enseignants-15-pourcent
+    - education-postes-baisse-demographique
+    - travail-retraite-au-dela-64-ans
+    - international-primaute-loi-nationale-v2
+    - agriculture-alleger-normes-agricoles
+    - international-renegocier-traites-competences
+queries:
+  - at: 2026-11-27
+    query: "lecture préalable : énoncés des 20 questions (questions/*.yaml), preuves/juan-branco.yaml, sources/juan-branco.yaml, personnalites.yaml"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-27
+    query: "relecture intégrale du texte en cache du programme « La Voie » v9 et recherche plein texte (armée, irrigation, retenue, Parcoursup, sélection, police municipale, uniforme, éolien, mourir, euthanasie, reconnaissance faciale, parents, intelligence artificielle, plateforme, religieux, effectifs, gendarmerie, peine, enseignant, retraite, primauté, traités, normes)"
+    category: CAMPAIGN_SITE
+    tool: grep
+  - at: 2026-11-27
+    query: "recherche plein texte dans les textes en cache de ruches.org/le-projet et de l'entretien Aurores (2026-01-25) sur les mêmes mots-clés"
+    category: FULL_INTERVIEWS
+    tool: grep
+  - at: 2026-11-27
+    query: "Juan Branco retraite 64 ans réforme position"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Juan Branco euthanasie aide à mourir"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Juan Branco reconnaissance faciale surveillance"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "\"Juan Branco\" entretien Frexit retraites fin de vie 2026"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-27
+    query: "\"Branco\" Ruches programme éoliennes uniforme école"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_search
+categoriesExplored: [EXISTING_CORPUS, CAMPAIGN_SITE, FULL_INTERVIEWS, NATIONAL_MEDIA, SPECIALIZED_PUBLICATIONS]
+categoriesNotExplored:
+  - category: SOCIAL_MEDIA
+    reason: "Comptes X/Telegram et vidéos YouTube non dépouillés (volume, lecture audio exclue) ; mission bornée au programme et à des recherches ciblées."
+  - category: ORIGINAL_VIDEOS
+    reason: "Aucune transcription officielle repérée ; pas d'écoute audio."
+exhaustive: false
+sourcesConsulted:
+  - url: https://media.ruches.org/projet-1784217879253.pdf
+    title: "La Voie : pour sauver le peuple français (Le Projet v9)"
+    outcome: retained
+    source: juan-branco-la-voie-programme-2027
+  - url: https://ruches.org/le-projet
+    title: "Le Projet 2027 (Les Ruches)"
+    outcome: rejected
+    reason: "Résumé du même programme, aucun élément supplémentaire sur les questions."
+  - url: https://aurores.org/entretien-avec-juan-branco-cela-risque-de-tres-mal-se-finir/
+    title: "Entretien avec Juan Branco (Aurores)"
+    outcome: rejected
+    reason: "Aucun passage sur les 20 questions."
+  - url: https://votons-2027.fr/candidats/branco/programme/education
+    title: "Éducation · présidentielle 2027 (votons-2027.fr)"
+    outcome: rejected
+    reason: "Site de compilation : piste seulement, non ouverte comme preuve ; mesures déjà dans le programme primaire."
+evidenceAdded:
+  - juan-branco-defense-001
+  - juan-branco-education-001
+  - juan-branco-securite-001
+  - juan-branco-justice-001
+  - juan-branco-international-001
+  - juan-branco-international-002
+  - juan-branco-agriculture-001
+  - juan-branco-education-002
+  - juan-branco-education-003
+  - juan-branco-energie-001
+  - juan-branco-societe-001
+  - juan-branco-travail-001
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided: []
+verified:
+  - juan-branco-defense-001
+  - juan-branco-education-001
+  - juan-branco-securite-001
+  - juan-branco-justice-001
+  - juan-branco-international-001
+  - juan-branco-international-002
+  - juan-branco-agriculture-001
+  - juan-branco-education-002
+  - juan-branco-education-003
+  - juan-branco-energie-001
+  - juan-branco-societe-001
+  - juan-branco-travail-001
+toVerify: []
+contradictions: []
+gaps:
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: agriculture
+    question: agriculture-retenues-eau-irrigation
+    note: "Aucune mesure ni propos sur l'énoncé dans le programme La Voie relu en entier, ni dans ruches.org/le-projet et l'entretien Aurores en cache ; recherches web ciblées (8 requêtes, 5 catégories) sans résultat attribuable au candidat."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: societe
+    question: societe-uniforme-ecole-publique
+    note: "Aucune mesure ni propos sur l'énoncé dans le programme La Voie relu en entier, ni dans ruches.org/le-projet et l'entretien Aurores en cache ; recherches web ciblées (8 requêtes, 5 catégories) sans résultat attribuable au candidat."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: societe
+    question: societe-aide-active-a-mourir
+    note: "Aucune mesure ni propos sur l'énoncé dans le programme La Voie relu en entier, ni dans ruches.org/le-projet et l'entretien Aurores en cache ; recherches web ciblées (8 requêtes, 5 catégories) sans résultat attribuable au candidat."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: securite
+    question: securite-reconnaissance-faciale-police
+    note: "Aucune mesure ni propos sur l'énoncé dans le programme La Voie relu en entier, ni dans ruches.org/le-projet et l'entretien Aurores en cache ; recherches web ciblées (8 requêtes, 5 catégories) sans résultat attribuable au candidat."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: justice
+    question: justice-sanction-financiere-parents
+    note: "Aucune mesure ni propos sur l'énoncé dans le programme La Voie relu en entier, ni dans ruches.org/le-projet et l'entretien Aurores en cache ; recherches web ciblées (8 requêtes, 5 catégories) sans résultat attribuable au candidat."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: numerique
+    question: numerique-assouplir-regles-ia
+    note: "Aucune mesure ni propos sur l'énoncé dans le programme La Voie relu en entier, ni dans ruches.org/le-projet et l'entretien Aurores en cache ; recherches web ciblées (8 requêtes, 5 catégories) sans résultat attribuable au candidat."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: numerique
+    question: numerique-taxe-plateformes
+    note: "Aucune mesure ni propos sur l'énoncé dans le programme La Voie relu en entier, ni dans ruches.org/le-projet et l'entretien Aurores en cache ; recherches web ciblées (8 requêtes, 5 catégories) sans résultat attribuable au candidat."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: securite
+    question: securite-hausse-effectifs-police
+    note: "Aucune mesure ni propos sur l'énoncé dans le programme La Voie relu en entier, ni dans ruches.org/le-projet et l'entretien Aurores en cache ; recherches web ciblées (8 requêtes, 5 catégories) sans résultat attribuable au candidat."
+  - kind: NO_PERSONAL_POSITION
+    personality: juan-branco
+    theme: securite
+    question: securite-pouvoirs-polices-municipales
+    note: "Seule une mesure voisine du programme (preuve AMBIGUOUS ou NO_DIRECT_EVIDENCE) ; aucune position tranchée sur l'énoncé."
+  - kind: NO_PERSONAL_POSITION
+    personality: juan-branco
+    theme: societe
+    question: societe-signes-religieux-universite
+    note: "Seule une mesure voisine du programme (preuve AMBIGUOUS ou NO_DIRECT_EVIDENCE) ; aucune position tranchée sur l'énoncé."
+  - kind: NO_PERSONAL_POSITION
+    personality: juan-branco
+    theme: international
+    question: international-renegocier-traites-competences
+    note: "Seule une mesure voisine du programme (preuve AMBIGUOUS ou NO_DIRECT_EVIDENCE) ; aucune position tranchée sur l'énoncé."
+  - kind: NO_PERSONAL_POSITION
+    personality: juan-branco
+    theme: travail
+    question: travail-retraite-au-dela-64-ans
+    note: "Seule une mesure voisine du programme (preuve AMBIGUOUS ou NO_DIRECT_EVIDENCE) ; aucune position tranchée sur l'énoncé."
+signals: []

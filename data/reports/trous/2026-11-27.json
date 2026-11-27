@@ -1,0 +1,6815 @@
+{
+  "date": "2026-11-27",
+  "k": 7,
+  "activeCount": 98,
+  "rows": [
+    {
+      "rank": 1,
+      "candidate": "bruno-retailleau",
+      "question": "energie-reduire-part-nucleaire",
+      "theme": "energie",
+      "bank": "active",
+      "questionCoverage": 13,
+      "candidateCoverage": 0.551,
+      "gain": 461.75
+    },
+    {
+      "rank": 2,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-logiciels-libres-administration",
+      "theme": "numerique",
+      "bank": "active",
+      "questionCoverage": 13,
+      "candidateCoverage": 0.551,
+      "gain": 461.75
+    },
+    {
+      "rank": 3,
+      "candidate": "bruno-retailleau",
+      "question": "economie-participations-etat-industrie",
+      "theme": "economie",
+      "bank": "active",
+      "questionCoverage": 12,
+      "candidateCoverage": 0.551,
+      "gain": 461.75
+    },
+    {
+      "rank": 4,
+      "candidate": "bruno-retailleau",
+      "question": "transport-petites-lignes-maintenues",
+      "theme": "transport",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.551,
+      "gain": 461.75
+    },
+    {
+      "rank": 5,
+      "candidate": "bruno-retailleau",
+      "question": "immigration-ame-soins-urgents",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.551,
+      "gain": 461.75
+    },
+    {
+      "rank": 6,
+      "candidate": "bruno-retailleau",
+      "question": "securite-pouvoirs-polices-municipales",
+      "theme": "securite",
+      "bank": "active",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 461.75
+    },
+    {
+      "rank": 7,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-referendum-reserve-elus-v2",
+      "theme": "democratie",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.551,
+      "gain": 407.45
+    },
+    {
+      "rank": 8,
+      "candidate": "juan-branco",
+      "question": "defense-reduire-budget-armees",
+      "theme": "defense",
+      "bank": "active",
+      "questionCoverage": 11,
+      "candidateCoverage": 0.5102,
+      "gain": 349.5
+    },
+    {
+      "rank": 9,
+      "candidate": "juan-branco",
+      "question": "agriculture-retenues-eau-irrigation",
+      "theme": "agriculture",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.5102,
+      "gain": 349.5
+    },
+    {
+      "rank": 10,
+      "candidate": "juan-branco",
+      "question": "education-universite-sans-selection",
+      "theme": "education",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.5102,
+      "gain": 349.5
+    },
+    {
+      "rank": 11,
+      "candidate": "juan-branco",
+      "question": "securite-pouvoirs-polices-municipales",
+      "theme": "securite",
+      "bank": "active",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 349.5
+    },
+    {
+      "rank": 12,
+      "candidate": "juan-branco",
+      "question": "societe-uniforme-ecole-publique",
+      "theme": "societe",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5102,
+      "gain": 329.5
+    },
+    {
+      "rank": 13,
+      "candidate": "bruno-retailleau",
+      "question": "environnement-supprimer-zfe",
+      "theme": "environnement",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.551,
+      "gain": 328.3333
+    },
+    {
+      "rank": 14,
+      "candidate": "juan-branco",
+      "question": "energie-suspendre-nouvelles-eoliennes",
+      "theme": "energie",
+      "bank": "active",
+      "questionCoverage": 11,
+      "candidateCoverage": 0.5102,
+      "gain": 314.5
+    },
+    {
+      "rank": 15,
+      "candidate": "bruno-retailleau",
+      "question": "sante-production-publique-medicaments",
+      "theme": "sante",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.551,
+      "gain": 296.3333
+    },
+    {
+      "rank": 16,
+      "candidate": "bruno-retailleau",
+      "question": "securite-reconnaissance-faciale-police",
+      "theme": "securite",
+      "bank": "active",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 275.6667
+    },
+    {
+      "rank": 17,
+      "candidate": "bruno-retailleau",
+      "question": "energie-nouveaux-reacteurs-au-dela-epr2",
+      "theme": "energie",
+      "bank": "active",
+      "questionCoverage": 11,
+      "candidateCoverage": 0.551,
+      "gain": 266
+    },
+    {
+      "rank": 18,
+      "candidate": "bruno-retailleau",
+      "question": "transport-autoroutes-concedees-v2",
+      "theme": "transport",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.551,
+      "gain": 266
+    },
+    {
+      "rank": 19,
+      "candidate": "bruno-retailleau",
+      "question": "societe-aide-active-a-mourir",
+      "theme": "societe",
+      "bank": "active",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 266
+    },
+    {
+      "rank": 20,
+      "candidate": "bruno-retailleau",
+      "question": "sante-hausse-franchises-medicales",
+      "theme": "sante",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.551,
+      "gain": 265.3333
+    },
+    {
+      "rank": 21,
+      "candidate": "bruno-retailleau",
+      "question": "securite-hausse-effectifs-police",
+      "theme": "securite",
+      "bank": "active",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 264.1667
+    },
+    {
+      "rank": 22,
+      "candidate": "bruno-retailleau",
+      "question": "immigration-regroupement-familial-ressources",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 11,
+      "candidateCoverage": 0.551,
+      "gain": 255.8333
+    },
+    {
+      "rank": 23,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-impot-fortune-retabli",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.551,
+      "gain": 255.8333
+    },
+    {
+      "rank": 24,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-taxe-plateformes",
+      "theme": "numerique",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.551,
+      "gain": 250.5
+    },
+    {
+      "rank": 25,
+      "candidate": "bruno-retailleau",
+      "question": "international-quitter-commandement-otan",
+      "theme": "international",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.551,
+      "gain": 245.3333
+    },
+    {
+      "rank": 26,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-baisse-impot-societes",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.551,
+      "gain": 241.8333
+    },
+    {
+      "rank": 27,
+      "candidate": "bruno-retailleau",
+      "question": "international-renegocier-traites-competences",
+      "theme": "international",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.551,
+      "gain": 232
+    },
+    {
+      "rank": 28,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-proportionnelle-legislatives",
+      "theme": "institutions",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.551,
+      "gain": 225
+    },
+    {
+      "rank": 29,
+      "candidate": "juan-branco",
+      "question": "societe-aide-active-a-mourir",
+      "theme": "societe",
+      "bank": "active",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 219.8333
+    },
+    {
+      "rank": 30,
+      "candidate": "bruno-retailleau",
+      "question": "transport-concurrence-ferroviaire",
+      "theme": "transport",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.551,
+      "gain": 208.5
+    },
+    {
+      "rank": 31,
+      "candidate": "bruno-retailleau",
+      "question": "energie-petits-reacteurs-modulaires",
+      "theme": "energie",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.551,
+      "gain": 207.75
+    },
+    {
+      "rank": 32,
+      "candidate": "bruno-retailleau",
+      "question": "agriculture-prix-plancher-agricoles",
+      "theme": "agriculture",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.551,
+      "gain": 206
+    },
+    {
+      "rank": 33,
+      "candidate": "juan-branco",
+      "question": "securite-reconnaissance-faciale-police",
+      "theme": "securite",
+      "bank": "active",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 201.25
+    },
+    {
+      "rank": 34,
+      "candidate": "juan-branco",
+      "question": "justice-sanction-financiere-parents",
+      "theme": "justice",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5102,
+      "gain": 200.8333
+    },
+    {
+      "rank": 35,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-supprimer-senat",
+      "theme": "institutions",
+      "bank": "active",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 199
+    },
+    {
+      "rank": 36,
+      "candidate": "bruno-retailleau",
+      "question": "economie-controle-rachats-etrangers",
+      "theme": "economie",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.551,
+      "gain": 198
+    },
+    {
+      "rank": 37,
+      "candidate": "bruno-retailleau",
+      "question": "travail-smic-au-dela-inflation",
+      "theme": "travail",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.551,
+      "gain": 198
+    },
+    {
+      "rank": 38,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-taxe-benefices-exceptionnels",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.551,
+      "gain": 198
+    },
+    {
+      "rank": 39,
+      "candidate": "bruno-retailleau",
+      "question": "international-aide-developpement-0-7",
+      "theme": "international",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.551,
+      "gain": 198
+    },
+    {
+      "rank": 40,
+      "candidate": "bruno-retailleau",
+      "question": "transport-subventionner-fret-ferroviaire",
+      "theme": "transport",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.551,
+      "gain": 198
+    },
+    {
+      "rank": 41,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-reduire-credits-impot",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.551,
+      "gain": 198
+    },
+    {
+      "rank": 42,
+      "candidate": "bruno-retailleau",
+      "question": "sante-regulation-installation-medecins",
+      "theme": "sante",
+      "bank": "active",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 198
+    },
+    {
+      "rank": 43,
+      "candidate": "juan-branco",
+      "question": "numerique-assouplir-regles-ia",
+      "theme": "numerique",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 194.5
+    },
+    {
+      "rank": 44,
+      "candidate": "juan-branco",
+      "question": "numerique-taxe-plateformes",
+      "theme": "numerique",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 194.5
+    },
+    {
+      "rank": 45,
+      "candidate": "juan-branco",
+      "question": "societe-signes-religieux-universite",
+      "theme": "societe",
+      "bank": "active",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 193.8333
+    },
+    {
+      "rank": 46,
+      "candidate": "juan-branco",
+      "question": "securite-hausse-effectifs-police",
+      "theme": "securite",
+      "bank": "active",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 192.3333
+    },
+    {
+      "rank": 47,
+      "candidate": "juan-branco",
+      "question": "justice-supprimer-reductions-automatiques",
+      "theme": "justice",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5102,
+      "gain": 190.8333
+    },
+    {
+      "rank": 48,
+      "candidate": "juan-branco",
+      "question": "education-salaires-enseignants-15-pourcent",
+      "theme": "education",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.5102,
+      "gain": 190.6667
+    },
+    {
+      "rank": 49,
+      "candidate": "juan-branco",
+      "question": "education-postes-baisse-demographique",
+      "theme": "education",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5102,
+      "gain": 190.6667
+    },
+    {
+      "rank": 50,
+      "candidate": "juan-branco",
+      "question": "travail-retraite-au-dela-64-ans",
+      "theme": "travail",
+      "bank": "active",
+      "questionCoverage": 14,
+      "candidateCoverage": 0.5102,
+      "gain": 189.1667
+    },
+    {
+      "rank": 51,
+      "candidate": "juan-branco",
+      "question": "international-primaute-loi-nationale-v2",
+      "theme": "international",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5102,
+      "gain": 177.8333
+    },
+    {
+      "rank": 52,
+      "candidate": "juan-branco",
+      "question": "agriculture-alleger-normes-agricoles",
+      "theme": "agriculture",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5102,
+      "gain": 177.5
+    },
+    {
+      "rank": 53,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-donnees-sante-hebergeurs-europeens",
+      "theme": "numerique",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 175.2
+    },
+    {
+      "rank": 54,
+      "candidate": "bruno-retailleau",
+      "question": "travail-plateformes-presomption-salariat",
+      "theme": "travail",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 175.2
+    },
+    {
+      "rank": 55,
+      "candidate": "juan-branco",
+      "question": "international-renegocier-traites-competences",
+      "theme": "international",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5102,
+      "gain": 166
+    },
+    {
+      "rank": 56,
+      "candidate": "juan-branco",
+      "question": "justice-comparution-immediate-mineurs",
+      "theme": "justice",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5102,
+      "gain": 163
+    },
+    {
+      "rank": 57,
+      "candidate": "bruno-retailleau",
+      "question": "agriculture-interdire-glyphosate",
+      "theme": "agriculture",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 58,
+      "candidate": "bruno-retailleau",
+      "question": "defense-cesser-ventes-armes-conflits",
+      "theme": "defense",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 59,
+      "candidate": "bruno-retailleau",
+      "question": "defense-defense-europeenne-emprunt",
+      "theme": "defense",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 60,
+      "candidate": "bruno-retailleau",
+      "question": "defense-priorite-depenses-sociales",
+      "theme": "defense",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 61,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-revision-par-congres",
+      "theme": "democratie",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 62,
+      "candidate": "bruno-retailleau",
+      "question": "environnement-fin-thermique-2035",
+      "theme": "environnement",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 63,
+      "candidate": "bruno-retailleau",
+      "question": "environnement-pause-normes-europeennes",
+      "theme": "environnement",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 64,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-baisse-tva",
+      "theme": "fiscalite",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 65,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-hausse-taxe-transactions-financieres",
+      "theme": "fiscalite",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 66,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-impot-minimum-grandes-fortunes-v2",
+      "theme": "fiscalite",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 67,
+      "candidate": "bruno-retailleau",
+      "question": "international-controles-frontieres-schengen",
+      "theme": "international",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 68,
+      "candidate": "bruno-retailleau",
+      "question": "international-impots-propres-ue",
+      "theme": "international",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 69,
+      "candidate": "bruno-retailleau",
+      "question": "sante-centres-sante-publics",
+      "theme": "sante",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 70,
+      "candidate": "bruno-retailleau",
+      "question": "sante-doubler-etudiants-medecine",
+      "theme": "sante",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 71,
+      "candidate": "bruno-retailleau",
+      "question": "sante-mutuelles-part-accrue-v2",
+      "theme": "sante",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 72,
+      "candidate": "bruno-retailleau",
+      "question": "societe-gpa-interdite-v2",
+      "theme": "societe",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 73,
+      "candidate": "bruno-retailleau",
+      "question": "travail-elargir-penibilite-retraite",
+      "theme": "travail",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 74,
+      "candidate": "bruno-retailleau",
+      "question": "travail-salaries-conseils-administration",
+      "theme": "travail",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2
+    },
+    {
+      "rank": 75,
+      "candidate": "juan-branco",
+      "question": "fiscalite-baisse-impot-societes",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5102,
+      "gain": 155
+    },
+    {
+      "rank": 76,
+      "candidate": "juan-branco",
+      "question": "travail-retraite-capitalisation",
+      "theme": "travail",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.5102,
+      "gain": 148.3333
+    },
+    {
+      "rank": 77,
+      "candidate": "juan-branco",
+      "question": "defense-dissuasion-protection-europe-v2",
+      "theme": "defense",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 142
+    },
+    {
+      "rank": 78,
+      "candidate": "juan-branco",
+      "question": "institutions-supprimer-senat",
+      "theme": "institutions",
+      "bank": "active",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 137
+    },
+    {
+      "rank": 79,
+      "candidate": "juan-branco",
+      "question": "education-groupes-de-niveau-college",
+      "theme": "education",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 136.25
+    },
+    {
+      "rank": 80,
+      "candidate": "juan-branco",
+      "question": "justice-peines-minimales-recidive",
+      "theme": "justice",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5102,
+      "gain": 136
+    },
+    {
+      "rank": 81,
+      "candidate": "juan-branco",
+      "question": "fiscalite-supprimer-impots-production",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5102,
+      "gain": 136
+    },
+    {
+      "rank": 82,
+      "candidate": "juan-branco",
+      "question": "fiscalite-taxe-benefices-exceptionnels",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5102,
+      "gain": 136
+    },
+    {
+      "rank": 83,
+      "candidate": "juan-branco",
+      "question": "justice-majorite-penale-16-ans",
+      "theme": "justice",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5102,
+      "gain": 136
+    },
+    {
+      "rank": 84,
+      "candidate": "juan-branco",
+      "question": "travail-duree-travail-accord-entreprise",
+      "theme": "travail",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5102,
+      "gain": 136
+    },
+    {
+      "rank": 85,
+      "candidate": "juan-branco",
+      "question": "economie-edf-entierement-publique",
+      "theme": "economie",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 136
+    },
+    {
+      "rank": 86,
+      "candidate": "juan-branco",
+      "question": "economie-reduire-nombre-fonctionnaires",
+      "theme": "economie",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 136
+    },
+    {
+      "rank": 87,
+      "candidate": "juan-branco",
+      "question": "energie-prolonger-reacteurs-60-ans",
+      "theme": "energie",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 136
+    },
+    {
+      "rank": 88,
+      "candidate": "juan-branco",
+      "question": "environnement-calendrier-logements-mal-isoles",
+      "theme": "environnement",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 136
+    },
+    {
+      "rank": 89,
+      "candidate": "juan-branco",
+      "question": "numerique-donnees-sante-hebergeurs-europeens",
+      "theme": "numerique",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 128.3214
+    },
+    {
+      "rank": 90,
+      "candidate": "juan-branco",
+      "question": "travail-plateformes-presomption-salariat",
+      "theme": "travail",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 128.3214
+    },
+    {
+      "rank": 91,
+      "candidate": "juan-branco",
+      "question": "agriculture-derogations-neonicotinoides",
+      "theme": "agriculture",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 92,
+      "candidate": "juan-branco",
+      "question": "agriculture-interdire-glyphosate",
+      "theme": "agriculture",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 93,
+      "candidate": "juan-branco",
+      "question": "defense-cesser-ventes-armes-conflits",
+      "theme": "defense",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 94,
+      "candidate": "juan-branco",
+      "question": "defense-defense-europeenne-emprunt",
+      "theme": "defense",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 95,
+      "candidate": "juan-branco",
+      "question": "defense-priorite-depenses-sociales",
+      "theme": "defense",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 96,
+      "candidate": "juan-branco",
+      "question": "democratie-revision-par-congres",
+      "theme": "democratie",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 97,
+      "candidate": "juan-branco",
+      "question": "economie-aides-conditionnees-emploi",
+      "theme": "economie",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 98,
+      "candidate": "juan-branco",
+      "question": "economie-plafonnement-loyers-zones-tendues",
+      "theme": "economie",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 99,
+      "candidate": "juan-branco",
+      "question": "energie-fonds-publics-renouvelables",
+      "theme": "energie",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 100,
+      "candidate": "juan-branco",
+      "question": "environnement-fin-thermique-2035",
+      "theme": "environnement",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 101,
+      "candidate": "juan-branco",
+      "question": "environnement-pause-normes-europeennes",
+      "theme": "environnement",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 102,
+      "candidate": "juan-branco",
+      "question": "international-arrets-cedh-derogation-v2",
+      "theme": "international",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 103,
+      "candidate": "juan-branco",
+      "question": "international-controles-frontieres-schengen",
+      "theme": "international",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 104,
+      "candidate": "juan-branco",
+      "question": "international-impots-propres-ue",
+      "theme": "international",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 105,
+      "candidate": "juan-branco",
+      "question": "justice-perpetuite-reelle-etendue",
+      "theme": "justice",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 106,
+      "candidate": "juan-branco",
+      "question": "sante-doubler-etudiants-medecine",
+      "theme": "sante",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 107,
+      "candidate": "juan-branco",
+      "question": "societe-gpa-interdite-v2",
+      "theme": "societe",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 108,
+      "candidate": "juan-branco",
+      "question": "travail-elargir-penibilite-retraite",
+      "theme": "travail",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 116.5714
+    },
+    {
+      "rank": 109,
+      "candidate": "florian-philippot",
+      "question": "defense-reduire-budget-armees",
+      "theme": "defense",
+      "bank": "active",
+      "questionCoverage": 11,
+      "candidateCoverage": 0.5306,
+      "gain": 95.6667
+    },
+    {
+      "rank": 110,
+      "candidate": "florian-philippot",
+      "question": "agriculture-retenues-eau-irrigation",
+      "theme": "agriculture",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.5306,
+      "gain": 95.6667
+    },
+    {
+      "rank": 111,
+      "candidate": "florian-philippot",
+      "question": "education-universite-sans-selection",
+      "theme": "education",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.5306,
+      "gain": 95.6667
+    },
+    {
+      "rank": 112,
+      "candidate": "florian-philippot",
+      "question": "transport-petites-lignes-maintenues",
+      "theme": "transport",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.5306,
+      "gain": 95.6667
+    },
+    {
+      "rank": 113,
+      "candidate": "florian-philippot",
+      "question": "securite-pouvoirs-polices-municipales",
+      "theme": "securite",
+      "bank": "active",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 95.6667
+    },
+    {
+      "rank": 114,
+      "candidate": "florian-philippot",
+      "question": "education-salaires-enseignants-15-pourcent",
+      "theme": "education",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.5306,
+      "gain": 94.6667
+    },
+    {
+      "rank": 115,
+      "candidate": "florian-philippot",
+      "question": "education-postes-baisse-demographique",
+      "theme": "education",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5306,
+      "gain": 94.6667
+    },
+    {
+      "rank": 116,
+      "candidate": "florian-philippot",
+      "question": "numerique-assouplir-regles-ia",
+      "theme": "numerique",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5306,
+      "gain": 94.6667
+    },
+    {
+      "rank": 117,
+      "candidate": "florian-philippot",
+      "question": "numerique-taxe-plateformes",
+      "theme": "numerique",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5306,
+      "gain": 94.6667
+    },
+    {
+      "rank": 118,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-baisse-prelevements-obligatoires",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.5306,
+      "gain": 93.6667
+    },
+    {
+      "rank": 119,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-baisse-impot-societes",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5306,
+      "gain": 93.6667
+    },
+    {
+      "rank": 120,
+      "candidate": "florian-philippot",
+      "question": "sante-production-publique-medicaments",
+      "theme": "sante",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5306,
+      "gain": 93.6667
+    },
+    {
+      "rank": 121,
+      "candidate": "florian-philippot",
+      "question": "sante-hausse-franchises-medicales",
+      "theme": "sante",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5306,
+      "gain": 93.6667
+    },
+    {
+      "rank": 122,
+      "candidate": "florian-philippot",
+      "question": "education-groupes-de-niveau-college",
+      "theme": "education",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5306,
+      "gain": 91.6667
+    },
+    {
+      "rank": 123,
+      "candidate": "florian-philippot",
+      "question": "securite-hausse-effectifs-police",
+      "theme": "securite",
+      "bank": "active",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 91.6667
+    },
+    {
+      "rank": 124,
+      "candidate": "florian-philippot",
+      "question": "economie-baisse-depense-publique",
+      "theme": "economie",
+      "bank": "active",
+      "questionCoverage": 11,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 125,
+      "candidate": "florian-philippot",
+      "question": "justice-courtes-peines-alternatives",
+      "theme": "justice",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 126,
+      "candidate": "florian-philippot",
+      "question": "travail-retraite-capitalisation",
+      "theme": "travail",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 127,
+      "candidate": "florian-philippot",
+      "question": "agriculture-pesticides-moitie-2030",
+      "theme": "agriculture",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 128,
+      "candidate": "florian-philippot",
+      "question": "economie-controle-rachats-etrangers",
+      "theme": "economie",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 129,
+      "candidate": "florian-philippot",
+      "question": "energie-petits-reacteurs-modulaires",
+      "theme": "energie",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 130,
+      "candidate": "florian-philippot",
+      "question": "environnement-assouplir-artificialisation",
+      "theme": "environnement",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 131,
+      "candidate": "florian-philippot",
+      "question": "environnement-supprimer-zfe",
+      "theme": "environnement",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 132,
+      "candidate": "florian-philippot",
+      "question": "environnement-taxe-carbone-importations",
+      "theme": "environnement",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 133,
+      "candidate": "florian-philippot",
+      "question": "immigration-asile-examen-hors-europe-v2",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 134,
+      "candidate": "florian-philippot",
+      "question": "immigration-prestations-duree-residence",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 135,
+      "candidate": "florian-philippot",
+      "question": "travail-smic-au-dela-inflation",
+      "theme": "travail",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 136,
+      "candidate": "florian-philippot",
+      "question": "energie-supprimer-aides-solaire-eolien",
+      "theme": "energie",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 137,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-reduire-allegements-cotisations",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 138,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-supprimer-impots-production",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 139,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-taxe-benefices-exceptionnels",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 140,
+      "candidate": "florian-philippot",
+      "question": "immigration-amende-sejour-irregulier",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 141,
+      "candidate": "florian-philippot",
+      "question": "immigration-titre-sejour-longue-duree",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 142,
+      "candidate": "florian-philippot",
+      "question": "transport-subventionner-fret-ferroviaire",
+      "theme": "transport",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 143,
+      "candidate": "florian-philippot",
+      "question": "travail-duree-travail-accord-entreprise",
+      "theme": "travail",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 144,
+      "candidate": "florian-philippot",
+      "question": "defense-renoncer-modernisation-dissuasion",
+      "theme": "defense",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 145,
+      "candidate": "florian-philippot",
+      "question": "economie-reduire-nombre-fonctionnaires",
+      "theme": "economie",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 146,
+      "candidate": "florian-philippot",
+      "question": "energie-prolonger-reacteurs-60-ans",
+      "theme": "energie",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 147,
+      "candidate": "florian-philippot",
+      "question": "environnement-calendrier-logements-mal-isoles",
+      "theme": "environnement",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 148,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-baisse-cotisations-salaries",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 149,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-reduire-credits-impot",
+      "theme": "fiscalite",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 150,
+      "candidate": "florian-philippot",
+      "question": "immigration-plafond-annuel-admissions",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 151,
+      "candidate": "florian-philippot",
+      "question": "immigration-vote-local-etrangers-v2",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 152,
+      "candidate": "florian-philippot",
+      "question": "sante-regulation-installation-medecins",
+      "theme": "sante",
+      "bank": "active",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 153,
+      "candidate": "florian-philippot",
+      "question": "societe-signes-religieux-universite",
+      "theme": "societe",
+      "bank": "active",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 90.6667
+    },
+    {
+      "rank": 154,
+      "candidate": "florian-philippot",
+      "question": "travail-plateformes-presomption-salariat",
+      "theme": "travail",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 86.6
+    },
+    {
+      "rank": 155,
+      "candidate": "florian-philippot",
+      "question": "agriculture-autoriser-nouvelles-techniques-genomiques",
+      "theme": "agriculture",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 156,
+      "candidate": "florian-philippot",
+      "question": "agriculture-derogations-neonicotinoides",
+      "theme": "agriculture",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 157,
+      "candidate": "florian-philippot",
+      "question": "agriculture-interdire-glyphosate",
+      "theme": "agriculture",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 158,
+      "candidate": "florian-philippot",
+      "question": "defense-cesser-ventes-armes-conflits",
+      "theme": "defense",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 159,
+      "candidate": "florian-philippot",
+      "question": "defense-priorite-depenses-sociales",
+      "theme": "defense",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 160,
+      "candidate": "florian-philippot",
+      "question": "economie-aides-conditionnees-emploi",
+      "theme": "economie",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 161,
+      "candidate": "florian-philippot",
+      "question": "economie-plafonnement-loyers-zones-tendues",
+      "theme": "economie",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 162,
+      "candidate": "florian-philippot",
+      "question": "education-examen-entree-college",
+      "theme": "education",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 163,
+      "candidate": "florian-philippot",
+      "question": "energie-fonds-publics-renouvelables",
+      "theme": "energie",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 164,
+      "candidate": "florian-philippot",
+      "question": "environnement-pause-normes-europeennes",
+      "theme": "environnement",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 165,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-hausse-taxe-transactions-financieres",
+      "theme": "fiscalite",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 166,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-impot-minimum-grandes-fortunes-v2",
+      "theme": "fiscalite",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 167,
+      "candidate": "florian-philippot",
+      "question": "international-impots-propres-ue",
+      "theme": "international",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 168,
+      "candidate": "florian-philippot",
+      "question": "justice-perpetuite-reelle-etendue",
+      "theme": "justice",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 169,
+      "candidate": "florian-philippot",
+      "question": "sante-doubler-etudiants-medecine",
+      "theme": "sante",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 170,
+      "candidate": "florian-philippot",
+      "question": "sante-mutuelles-part-accrue-v2",
+      "theme": "sante",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 171,
+      "candidate": "florian-philippot",
+      "question": "travail-elargir-penibilite-retraite",
+      "theme": "travail",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 172,
+      "candidate": "florian-philippot",
+      "question": "travail-salaries-conseils-administration",
+      "theme": "travail",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 81.6
+    },
+    {
+      "rank": 173,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-referendum-initiative-citoyenne",
+      "theme": "democratie",
+      "bank": "active",
+      "questionCoverage": 10,
+      "candidateCoverage": 0.551,
+      "gain": 54.3
+    },
+    {
+      "rank": 174,
+      "candidate": "juan-branco",
+      "question": "energie-accelerer-eolien-terrestre",
+      "theme": "energie",
+      "bank": "active",
+      "questionCoverage": 12,
+      "candidateCoverage": 0.5102,
+      "gain": 35
+    },
+    {
+      "rank": 175,
+      "candidate": "bruno-retailleau",
+      "question": "education-uniforme-obligatoire",
+      "theme": "education",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.551,
+      "gain": 24
+    },
+    {
+      "rank": 176,
+      "candidate": "juan-branco",
+      "question": "education-uniforme-obligatoire",
+      "theme": "education",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 20
+    },
+    {
+      "rank": 177,
+      "candidate": "bruno-retailleau",
+      "question": "defense-budget-armees-3-pib",
+      "theme": "defense",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 178,
+      "candidate": "bruno-retailleau",
+      "question": "education-revalorisation-identique-pour-tous",
+      "theme": "education",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 179,
+      "candidate": "bruno-retailleau",
+      "question": "travail-semaine-32-heures",
+      "theme": "travail",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 180,
+      "candidate": "bruno-retailleau",
+      "question": "agriculture-interdire-poules-cage",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 181,
+      "candidate": "bruno-retailleau",
+      "question": "agriculture-plafonner-aides-pac",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 182,
+      "candidate": "bruno-retailleau",
+      "question": "defense-doubler-reservistes",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 183,
+      "candidate": "bruno-retailleau",
+      "question": "defense-reduire-presence-etranger",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 184,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-vote-16-ans",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 185,
+      "candidate": "bruno-retailleau",
+      "question": "economie-eau-operateurs-publics",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 186,
+      "candidate": "bruno-retailleau",
+      "question": "economie-plafonner-prix-alimentaires",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 187,
+      "candidate": "bruno-retailleau",
+      "question": "economie-vendre-participations-etat",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 188,
+      "candidate": "bruno-retailleau",
+      "question": "education-prive-financement-mixite",
+      "theme": "education",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 189,
+      "candidate": "bruno-retailleau",
+      "question": "environnement-taxer-kerosene-vols-interieurs",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 190,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-capital-aligne-travail",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 191,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-quotient-familial-credit-enfant",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 192,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-tranche-hauts-revenus",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 193,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-autonomie-fiscale-collectivites",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 194,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-mandat-presidentiel-sept-ans",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 195,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-supprimer-49-3",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 196,
+      "candidate": "bruno-retailleau",
+      "question": "international-reduire-contribution-ue",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 197,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-alleger-moderation",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 198,
+      "candidate": "bruno-retailleau",
+      "question": "sante-derembourser-faible-service-rendu",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 199,
+      "candidate": "bruno-retailleau",
+      "question": "securite-recepisse-controles-identite",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 200,
+      "candidate": "bruno-retailleau",
+      "question": "societe-service-national-obligatoire",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 201,
+      "candidate": "bruno-retailleau",
+      "question": "societe-simplifier-changement-sexe-etat-civil",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 202,
+      "candidate": "bruno-retailleau",
+      "question": "transport-baisser-taxe-billets-avion",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 203,
+      "candidate": "bruno-retailleau",
+      "question": "transport-gratuite-transports-urbains",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 204,
+      "candidate": "bruno-retailleau",
+      "question": "transport-sncf-entreprise-publique-v2",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 205,
+      "candidate": "bruno-retailleau",
+      "question": "transport-taxe-kilometrique-poids-lourds",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 206,
+      "candidate": "bruno-retailleau",
+      "question": "transport-trains-de-nuit",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 207,
+      "candidate": "bruno-retailleau",
+      "question": "travail-augmenter-jours-carence",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 208,
+      "candidate": "bruno-retailleau",
+      "question": "travail-indexation-salaires",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 209,
+      "candidate": "bruno-retailleau",
+      "question": "travail-statut-fonction-publique-regalien",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 210,
+      "candidate": "bruno-retailleau",
+      "question": "agriculture-bio-restauration-collective-v2",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 211,
+      "candidate": "bruno-retailleau",
+      "question": "defense-effectifs-armees-hausse",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 212,
+      "candidate": "bruno-retailleau",
+      "question": "defense-second-porte-avions",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 213,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-conventions-citoyennes",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 214,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-referendum-revocatoire",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 215,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-supprimer-cese",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 216,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-vote-blanc-exprime",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 217,
+      "candidate": "bruno-retailleau",
+      "question": "economie-encadrer-marges-distribution",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 218,
+      "candidate": "bruno-retailleau",
+      "question": "economie-etat-finance-usines",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 219,
+      "candidate": "bruno-retailleau",
+      "question": "economie-regle-equilibre-constitution",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 220,
+      "candidate": "bruno-retailleau",
+      "question": "education-carte-scolaire-suppression",
+      "theme": "education",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 221,
+      "candidate": "bruno-retailleau",
+      "question": "environnement-exploitation-hydrocarbures",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 222,
+      "candidate": "bruno-retailleau",
+      "question": "environnement-interdire-vols-interieurs",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 223,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-baisse-ir-tranches-intermediaires",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 224,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-csg-progressive-v2",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 225,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-supprimer-ifi",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 226,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-autonomie-corse-constitution-v2",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 227,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-referendum-revision-constitution",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 228,
+      "candidate": "bruno-retailleau",
+      "question": "international-majorite-qualifiee-ue",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 229,
+      "candidate": "bruno-retailleau",
+      "question": "international-referendum-maintien-ue",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 230,
+      "candidate": "bruno-retailleau",
+      "question": "justice-justice-restaurative-systematique",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 231,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-ia-remuneration-auteurs",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 232,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-reseaux-sociaux-moins-15-ans",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 233,
+      "candidate": "bruno-retailleau",
+      "question": "sante-depassements-honoraires-libres",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 234,
+      "candidate": "bruno-retailleau",
+      "question": "sante-depenses-assurance-maladie-inflation",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 235,
+      "candidate": "bruno-retailleau",
+      "question": "securite-armer-polices-municipales",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 236,
+      "candidate": "bruno-retailleau",
+      "question": "securite-enquetes-policiers-independantes",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 237,
+      "candidate": "bruno-retailleau",
+      "question": "securite-interdire-lbd-manifestations",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 238,
+      "candidate": "bruno-retailleau",
+      "question": "securite-presomption-legitime-defense",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 239,
+      "candidate": "bruno-retailleau",
+      "question": "securite-supprimer-bac",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 240,
+      "candidate": "bruno-retailleau",
+      "question": "transport-abandonner-nouvelles-lgv",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 241,
+      "candidate": "bruno-retailleau",
+      "question": "transport-doubler-investissement-ferroviaire",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 242,
+      "candidate": "bruno-retailleau",
+      "question": "transport-milliard-amenagements-cyclables",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 243,
+      "candidate": "bruno-retailleau",
+      "question": "transport-routes-90-kmh",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 244,
+      "candidate": "bruno-retailleau",
+      "question": "travail-limiter-licenciements-beneficiaires-v2",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 245,
+      "candidate": "bruno-retailleau",
+      "question": "agriculture-encadrer-prix-terres",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 246,
+      "candidate": "bruno-retailleau",
+      "question": "defense-fermer-bases-afrique",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 247,
+      "candidate": "bruno-retailleau",
+      "question": "defense-traite-interdiction-armes-nucleaires",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 248,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-parrainages-elus-maintenus",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 249,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-petition-debat-parlement",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 250,
+      "candidate": "bruno-retailleau",
+      "question": "energie-consommation-moitie-2050",
+      "theme": "energie",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 251,
+      "candidate": "bruno-retailleau",
+      "question": "environnement-ecocide-crime",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 252,
+      "candidate": "bruno-retailleau",
+      "question": "environnement-publicite-vehicules-emetteurs",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 253,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-heures-sup-sans-plafond",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 254,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-fusions-communes-obligatoires",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 255,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-investiture-premier-ministre",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 256,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-maintenir-article-40",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 257,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-reduire-nombre-parlementaires",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 258,
+      "candidate": "bruno-retailleau",
+      "question": "international-adhesion-ukraine-ue",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 259,
+      "candidate": "bruno-retailleau",
+      "question": "international-emprunt-commun-ue",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 260,
+      "candidate": "bruno-retailleau",
+      "question": "international-initiative-parlement-europeen",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 261,
+      "candidate": "bruno-retailleau",
+      "question": "international-referendum-traites-europeens",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 262,
+      "candidate": "bruno-retailleau",
+      "question": "justice-plafonner-detenus-places",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 263,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-assouplir-consentement-traceurs",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 264,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-chiffrement-messageries-v2",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 265,
+      "candidate": "bruno-retailleau",
+      "question": "sante-assurance-sante-privee-option-v2",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 266,
+      "candidate": "bruno-retailleau",
+      "question": "sante-psychologues-rembourses",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 267,
+      "candidate": "bruno-retailleau",
+      "question": "sante-ratios-soignants-patients",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 268,
+      "candidate": "bruno-retailleau",
+      "question": "sante-reduire-indemnites-arret-maladie",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 269,
+      "candidate": "bruno-retailleau",
+      "question": "sante-taxer-boissons-sucrees",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 270,
+      "candidate": "bruno-retailleau",
+      "question": "securite-limiter-dissolution-associations",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 271,
+      "candidate": "bruno-retailleau",
+      "question": "securite-restreindre-tirs-refus-obtemperer",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 272,
+      "candidate": "bruno-retailleau",
+      "question": "securite-videosurveillance-algorithmique",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 273,
+      "candidate": "bruno-retailleau",
+      "question": "societe-cannabis-legalisation",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 274,
+      "candidate": "bruno-retailleau",
+      "question": "societe-conge-second-parent",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 275,
+      "candidate": "bruno-retailleau",
+      "question": "societe-interdire-ecriture-inclusive",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 276,
+      "candidate": "bruno-retailleau",
+      "question": "transport-abonnement-national-unique",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 277,
+      "candidate": "bruno-retailleau",
+      "question": "transport-supprimer-controle-technique-motos-v2",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 278,
+      "candidate": "bruno-retailleau",
+      "question": "transport-voitures-centres-villes-libres",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 279,
+      "candidate": "bruno-retailleau",
+      "question": "travail-plafonner-ecart-salaires",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 280,
+      "candidate": "bruno-retailleau",
+      "question": "agriculture-chalut-aires-protegees",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 281,
+      "candidate": "bruno-retailleau",
+      "question": "defense-controle-exportations-armes",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 282,
+      "candidate": "bruno-retailleau",
+      "question": "defense-troupes-ukraine-cessez-le-feu-v2",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 283,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-assemblees-tirees-consultatives-v2",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 284,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-raccourcir-consultations-public",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 285,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-referendum-local-initiative",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 286,
+      "candidate": "bruno-retailleau",
+      "question": "economie-ouverture-dimanche-libre-v2",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 287,
+      "candidate": "bruno-retailleau",
+      "question": "environnement-gazole-non-routier-agriculteurs",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 288,
+      "candidate": "bruno-retailleau",
+      "question": "environnement-trajectoire-emissions-entreprises",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 289,
+      "candidate": "bruno-retailleau",
+      "question": "fiscalite-exit-tax-conservation-15-ans",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 290,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-adaptation-lois-regions",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 291,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-ordre-du-jour-parlement",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 292,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-pouvoirs-commissions-enquete",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 293,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-pouvoirs-prefet-renforces",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 294,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-algorithmes-publics",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 295,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-responsabilite-plateformes-limitee-v2",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 296,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-scission-grandes-plateformes",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 297,
+      "candidate": "bruno-retailleau",
+      "question": "sante-budget-hopital-inflation",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 298,
+      "candidate": "bruno-retailleau",
+      "question": "securite-interdire-drones-manifestations",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 299,
+      "candidate": "bruno-retailleau",
+      "question": "societe-salles-consommation-drogue-v2",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 300,
+      "candidate": "bruno-retailleau",
+      "question": "agriculture-agrandissement-sans-autorisation",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 301,
+      "candidate": "bruno-retailleau",
+      "question": "agriculture-origine-viandes-restaurants-v2",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 302,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-budget-participatif-communes",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 303,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-chambre-tiree-au-sort",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 304,
+      "candidate": "bruno-retailleau",
+      "question": "energie-centres-donnees-pres-centrales",
+      "theme": "energie",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 305,
+      "candidate": "bruno-retailleau",
+      "question": "environnement-chasse-dimanche",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 306,
+      "candidate": "bruno-retailleau",
+      "question": "environnement-faciliter-derogation-especes",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 307,
+      "candidate": "bruno-retailleau",
+      "question": "environnement-supprimer-taxe-carbone",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 308,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-parlement-interventions-militaires",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 309,
+      "candidate": "bruno-retailleau",
+      "question": "international-listes-transnationales",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 310,
+      "candidate": "bruno-retailleau",
+      "question": "justice-detenus-frais-incarceration",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 311,
+      "candidate": "bruno-retailleau",
+      "question": "justice-liberation-conditionnelle-deux-tiers",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 312,
+      "candidate": "bruno-retailleau",
+      "question": "justice-visites-familiales-prisons",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 313,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-anonymat-en-ligne",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 314,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-donnees-publiques-entrainement-ia",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 315,
+      "candidate": "bruno-retailleau",
+      "question": "sante-jeunes-medecins-zones-sous-dotees",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 316,
+      "candidate": "bruno-retailleau",
+      "question": "sante-medicaments-grandes-surfaces",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 317,
+      "candidate": "bruno-retailleau",
+      "question": "securite-budget-vers-prevention",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 318,
+      "candidate": "bruno-retailleau",
+      "question": "securite-couvre-feu-mineurs",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 319,
+      "candidate": "bruno-retailleau",
+      "question": "securite-interdire-plaquage-ventral",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 320,
+      "candidate": "bruno-retailleau",
+      "question": "securite-renseignement-autorisation-juge",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 321,
+      "candidate": "bruno-retailleau",
+      "question": "securite-supprimer-controles-preventifs",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 322,
+      "candidate": "bruno-retailleau",
+      "question": "securite-surveillance-antiterroriste-prolongee",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 323,
+      "candidate": "bruno-retailleau",
+      "question": "societe-education-sexualite-accord-parents",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 324,
+      "candidate": "bruno-retailleau",
+      "question": "societe-statut-beau-parent-v2",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 325,
+      "candidate": "bruno-retailleau",
+      "question": "travail-plafond-prudhommes-maintenu-v2",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 326,
+      "candidate": "bruno-retailleau",
+      "question": "travail-smic-regional",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 327,
+      "candidate": "bruno-retailleau",
+      "question": "agriculture-curage-fosses-sans-autorisation",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 328,
+      "candidate": "bruno-retailleau",
+      "question": "agriculture-tirs-loups-sans-autorisation-v2",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 329,
+      "candidate": "bruno-retailleau",
+      "question": "defense-livret-a-industrie-defense",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 330,
+      "candidate": "bruno-retailleau",
+      "question": "democratie-supprimer-cndp",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 331,
+      "candidate": "bruno-retailleau",
+      "question": "energie-centres-donnees-electricite-renouvelable",
+      "theme": "energie",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 332,
+      "candidate": "bruno-retailleau",
+      "question": "energie-solaire-toits-batiments-neufs",
+      "theme": "energie",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 333,
+      "candidate": "bruno-retailleau",
+      "question": "institutions-ordonnances-elargies",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 334,
+      "candidate": "bruno-retailleau",
+      "question": "international-casques-bleus",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 335,
+      "candidate": "bruno-retailleau",
+      "question": "numerique-rgpd-petites-entreprises",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 336,
+      "candidate": "bruno-retailleau",
+      "question": "securite-manifestations-sans-declaration",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 337,
+      "candidate": "bruno-retailleau",
+      "question": "societe-casinos-en-ligne",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 338,
+      "candidate": "bruno-retailleau",
+      "question": "societe-pma-post-mortem",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 339,
+      "candidate": "bruno-retailleau",
+      "question": "societe-succession-couples-non-maries",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 340,
+      "candidate": "bruno-retailleau",
+      "question": "transport-supprimer-subventions-aeroports",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.551,
+      "gain": 0
+    },
+    {
+      "rank": 341,
+      "candidate": "florian-philippot",
+      "question": "education-revalorisation-identique-pour-tous",
+      "theme": "education",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 342,
+      "candidate": "florian-philippot",
+      "question": "travail-semaine-32-heures",
+      "theme": "travail",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 343,
+      "candidate": "florian-philippot",
+      "question": "agriculture-interdire-poules-cage",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 344,
+      "candidate": "florian-philippot",
+      "question": "agriculture-plafonner-aides-pac",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 345,
+      "candidate": "florian-philippot",
+      "question": "defense-doubler-reservistes",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 346,
+      "candidate": "florian-philippot",
+      "question": "defense-reduire-presence-etranger",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 347,
+      "candidate": "florian-philippot",
+      "question": "democratie-vote-16-ans",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 348,
+      "candidate": "florian-philippot",
+      "question": "economie-eau-operateurs-publics",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 349,
+      "candidate": "florian-philippot",
+      "question": "economie-vendre-participations-etat",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 350,
+      "candidate": "florian-philippot",
+      "question": "education-financement-suit-choix-familles",
+      "theme": "education",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 351,
+      "candidate": "florian-philippot",
+      "question": "education-frais-inscription-etudiants-etrangers",
+      "theme": "education",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 352,
+      "candidate": "florian-philippot",
+      "question": "education-prive-financement-mixite",
+      "theme": "education",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 353,
+      "candidate": "florian-philippot",
+      "question": "environnement-plastique-usage-unique-2030",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 354,
+      "candidate": "florian-philippot",
+      "question": "environnement-taxer-kerosene-vols-interieurs",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 355,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-capital-aligne-travail",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 356,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-quotient-familial-credit-enfant",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 357,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-tranche-hauts-revenus",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 358,
+      "candidate": "florian-philippot",
+      "question": "immigration-frais-etudiants-etrangers",
+      "theme": "immigration",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 359,
+      "candidate": "florian-philippot",
+      "question": "immigration-reduire-duree-naturalisation",
+      "theme": "immigration",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 360,
+      "candidate": "florian-philippot",
+      "question": "institutions-autonomie-fiscale-collectivites",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 361,
+      "candidate": "florian-philippot",
+      "question": "institutions-mandat-presidentiel-sept-ans",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 362,
+      "candidate": "florian-philippot",
+      "question": "institutions-supprimer-49-3",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 363,
+      "candidate": "florian-philippot",
+      "question": "justice-imprescriptibilite-crimes-sexuels-mineurs",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 364,
+      "candidate": "florian-philippot",
+      "question": "justice-tig-delits-sans-violence",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 365,
+      "candidate": "florian-philippot",
+      "question": "securite-recepisse-controles-identite",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 366,
+      "candidate": "florian-philippot",
+      "question": "societe-service-national-obligatoire",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 367,
+      "candidate": "florian-philippot",
+      "question": "societe-simplifier-changement-sexe-etat-civil",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 368,
+      "candidate": "florian-philippot",
+      "question": "transport-baisser-taxe-billets-avion",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 369,
+      "candidate": "florian-philippot",
+      "question": "transport-gratuite-transports-urbains",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 370,
+      "candidate": "florian-philippot",
+      "question": "transport-taxe-kilometrique-poids-lourds",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 371,
+      "candidate": "florian-philippot",
+      "question": "transport-trains-de-nuit",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 372,
+      "candidate": "florian-philippot",
+      "question": "travail-augmenter-jours-carence",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 373,
+      "candidate": "florian-philippot",
+      "question": "travail-indexation-salaires",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 374,
+      "candidate": "florian-philippot",
+      "question": "travail-statut-fonction-publique-regalien",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 375,
+      "candidate": "florian-philippot",
+      "question": "agriculture-bio-restauration-collective-v2",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 376,
+      "candidate": "florian-philippot",
+      "question": "defense-effectifs-armees-hausse",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 377,
+      "candidate": "florian-philippot",
+      "question": "democratie-conventions-citoyennes",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 378,
+      "candidate": "florian-philippot",
+      "question": "democratie-referendum-revocatoire",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 379,
+      "candidate": "florian-philippot",
+      "question": "democratie-vote-blanc-exprime",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 380,
+      "candidate": "florian-philippot",
+      "question": "economie-encadrer-marges-distribution",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 381,
+      "candidate": "florian-philippot",
+      "question": "economie-regle-equilibre-constitution",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 382,
+      "candidate": "florian-philippot",
+      "question": "education-carte-scolaire-suppression",
+      "theme": "education",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 383,
+      "candidate": "florian-philippot",
+      "question": "environnement-interdire-vols-interieurs",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 384,
+      "candidate": "florian-philippot",
+      "question": "environnement-limiter-recours-projets-v2",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 385,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-baisse-ir-tranches-intermediaires",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 386,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-csg-progressive-v2",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 387,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-supprimer-ifi",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 388,
+      "candidate": "florian-philippot",
+      "question": "immigration-asile-examen-sans-transfert",
+      "theme": "immigration",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 389,
+      "candidate": "florian-philippot",
+      "question": "institutions-autonomie-corse-constitution-v2",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 390,
+      "candidate": "florian-philippot",
+      "question": "international-majorite-qualifiee-ue",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 391,
+      "candidate": "florian-philippot",
+      "question": "justice-accompagnement-emploi-detenus",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 392,
+      "candidate": "florian-philippot",
+      "question": "justice-justice-restaurative-systematique",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 393,
+      "candidate": "florian-philippot",
+      "question": "numerique-faciliter-centres-donnees",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 394,
+      "candidate": "florian-philippot",
+      "question": "numerique-ia-remuneration-auteurs",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 395,
+      "candidate": "florian-philippot",
+      "question": "numerique-reseaux-sociaux-moins-15-ans",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 396,
+      "candidate": "florian-philippot",
+      "question": "numerique-telephone-interdit-lycees",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 397,
+      "candidate": "florian-philippot",
+      "question": "sante-depassements-honoraires-libres",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 398,
+      "candidate": "florian-philippot",
+      "question": "sante-depenses-assurance-maladie-inflation",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 399,
+      "candidate": "florian-philippot",
+      "question": "securite-armer-polices-municipales",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 400,
+      "candidate": "florian-philippot",
+      "question": "securite-enquetes-policiers-independantes",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 401,
+      "candidate": "florian-philippot",
+      "question": "securite-interdire-lbd-manifestations",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 402,
+      "candidate": "florian-philippot",
+      "question": "securite-presomption-legitime-defense",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 403,
+      "candidate": "florian-philippot",
+      "question": "securite-supprimer-bac",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 404,
+      "candidate": "florian-philippot",
+      "question": "societe-signes-religieux-sorties-scolaires",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 405,
+      "candidate": "florian-philippot",
+      "question": "transport-abandonner-nouvelles-lgv",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 406,
+      "candidate": "florian-philippot",
+      "question": "transport-doubler-investissement-ferroviaire",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 407,
+      "candidate": "florian-philippot",
+      "question": "transport-milliard-amenagements-cyclables",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 408,
+      "candidate": "florian-philippot",
+      "question": "transport-routes-90-kmh",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 409,
+      "candidate": "florian-philippot",
+      "question": "travail-limiter-licenciements-beneficiaires-v2",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 410,
+      "candidate": "florian-philippot",
+      "question": "agriculture-encadrer-prix-terres",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 411,
+      "candidate": "florian-philippot",
+      "question": "defense-fermer-bases-afrique",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 412,
+      "candidate": "florian-philippot",
+      "question": "defense-traite-interdiction-armes-nucleaires",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 413,
+      "candidate": "florian-philippot",
+      "question": "democratie-petition-debat-parlement",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 414,
+      "candidate": "florian-philippot",
+      "question": "economie-assouplir-seuils-effectifs",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 415,
+      "candidate": "florian-philippot",
+      "question": "education-notes-evaluation-alternative",
+      "theme": "education",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 416,
+      "candidate": "florian-philippot",
+      "question": "energie-consommation-moitie-2050",
+      "theme": "energie",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 417,
+      "candidate": "florian-philippot",
+      "question": "environnement-ecocide-crime",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 418,
+      "candidate": "florian-philippot",
+      "question": "environnement-publicite-vehicules-emetteurs",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 419,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-heures-sup-sans-plafond",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 420,
+      "candidate": "florian-philippot",
+      "question": "immigration-asile-droit-travail",
+      "theme": "immigration",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 421,
+      "candidate": "florian-philippot",
+      "question": "institutions-fusions-communes-obligatoires",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 422,
+      "candidate": "florian-philippot",
+      "question": "institutions-investiture-premier-ministre",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 423,
+      "candidate": "florian-philippot",
+      "question": "institutions-maintenir-article-40",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 424,
+      "candidate": "florian-philippot",
+      "question": "international-adhesion-ukraine-ue",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 425,
+      "candidate": "florian-philippot",
+      "question": "international-emprunt-commun-ue",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 426,
+      "candidate": "florian-philippot",
+      "question": "international-initiative-parlement-europeen",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 427,
+      "candidate": "florian-philippot",
+      "question": "international-referendum-traites-europeens",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 428,
+      "candidate": "florian-philippot",
+      "question": "justice-plafonner-detenus-places",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 429,
+      "candidate": "florian-philippot",
+      "question": "numerique-assouplir-consentement-traceurs",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 430,
+      "candidate": "florian-philippot",
+      "question": "numerique-chiffrement-messageries-v2",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 431,
+      "candidate": "florian-philippot",
+      "question": "sante-assurance-sante-privee-option-v2",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 432,
+      "candidate": "florian-philippot",
+      "question": "sante-psychologues-rembourses",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 433,
+      "candidate": "florian-philippot",
+      "question": "sante-reduire-indemnites-arret-maladie",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 434,
+      "candidate": "florian-philippot",
+      "question": "sante-taxer-boissons-sucrees",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 435,
+      "candidate": "florian-philippot",
+      "question": "securite-limiter-dissolution-associations",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 436,
+      "candidate": "florian-philippot",
+      "question": "securite-restreindre-tirs-refus-obtemperer",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 437,
+      "candidate": "florian-philippot",
+      "question": "securite-videosurveillance-algorithmique",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 438,
+      "candidate": "florian-philippot",
+      "question": "societe-cannabis-legalisation",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 439,
+      "candidate": "florian-philippot",
+      "question": "societe-conge-second-parent",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 440,
+      "candidate": "florian-philippot",
+      "question": "transport-abonnement-national-unique",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 441,
+      "candidate": "florian-philippot",
+      "question": "transport-supprimer-controle-technique-motos-v2",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 442,
+      "candidate": "florian-philippot",
+      "question": "transport-voitures-centres-villes-libres",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 443,
+      "candidate": "florian-philippot",
+      "question": "travail-plafonner-ecart-salaires",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 444,
+      "candidate": "florian-philippot",
+      "question": "agriculture-chalut-aires-protegees",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 445,
+      "candidate": "florian-philippot",
+      "question": "agriculture-moins-controles-exploitations",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 446,
+      "candidate": "florian-philippot",
+      "question": "defense-controle-exportations-armes",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 447,
+      "candidate": "florian-philippot",
+      "question": "defense-troupes-ukraine-cessez-le-feu-v2",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 448,
+      "candidate": "florian-philippot",
+      "question": "democratie-assemblees-tirees-consultatives-v2",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 449,
+      "candidate": "florian-philippot",
+      "question": "democratie-raccourcir-consultations-public",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 450,
+      "candidate": "florian-philippot",
+      "question": "democratie-referendum-local-initiative",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 451,
+      "candidate": "florian-philippot",
+      "question": "democratie-seuil-rip-maintenu-v2",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 452,
+      "candidate": "florian-philippot",
+      "question": "economie-ouverture-dimanche-libre-v2",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 453,
+      "candidate": "florian-philippot",
+      "question": "environnement-gazole-non-routier-agriculteurs",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 454,
+      "candidate": "florian-philippot",
+      "question": "environnement-trajectoire-emissions-entreprises",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 455,
+      "candidate": "florian-philippot",
+      "question": "fiscalite-exit-tax-conservation-15-ans",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 456,
+      "candidate": "florian-philippot",
+      "question": "institutions-adaptation-lois-regions",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 457,
+      "candidate": "florian-philippot",
+      "question": "institutions-ordre-du-jour-parlement",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 458,
+      "candidate": "florian-philippot",
+      "question": "institutions-pouvoirs-commissions-enquete",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 459,
+      "candidate": "florian-philippot",
+      "question": "institutions-pouvoirs-prefet-renforces",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 460,
+      "candidate": "florian-philippot",
+      "question": "numerique-algorithmes-publics",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 461,
+      "candidate": "florian-philippot",
+      "question": "numerique-responsabilite-plateformes-limitee-v2",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 462,
+      "candidate": "florian-philippot",
+      "question": "numerique-scission-grandes-plateformes",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 463,
+      "candidate": "florian-philippot",
+      "question": "sante-budget-hopital-inflation",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 464,
+      "candidate": "florian-philippot",
+      "question": "securite-interdire-drones-manifestations",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 465,
+      "candidate": "florian-philippot",
+      "question": "societe-salles-consommation-drogue-v2",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 466,
+      "candidate": "florian-philippot",
+      "question": "agriculture-agrandissement-sans-autorisation",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 467,
+      "candidate": "florian-philippot",
+      "question": "agriculture-origine-viandes-restaurants-v2",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 468,
+      "candidate": "florian-philippot",
+      "question": "democratie-budget-participatif-communes",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 469,
+      "candidate": "florian-philippot",
+      "question": "democratie-chambre-tiree-au-sort",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 470,
+      "candidate": "florian-philippot",
+      "question": "energie-centres-donnees-pres-centrales",
+      "theme": "energie",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 471,
+      "candidate": "florian-philippot",
+      "question": "environnement-chasse-dimanche",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 472,
+      "candidate": "florian-philippot",
+      "question": "environnement-faciliter-derogation-especes",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 473,
+      "candidate": "florian-philippot",
+      "question": "environnement-supprimer-taxe-carbone",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 474,
+      "candidate": "florian-philippot",
+      "question": "institutions-parlement-interventions-militaires",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 475,
+      "candidate": "florian-philippot",
+      "question": "international-listes-transnationales",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 476,
+      "candidate": "florian-philippot",
+      "question": "justice-detenus-frais-incarceration",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 477,
+      "candidate": "florian-philippot",
+      "question": "justice-liberation-conditionnelle-deux-tiers",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 478,
+      "candidate": "florian-philippot",
+      "question": "justice-visites-familiales-prisons",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 479,
+      "candidate": "florian-philippot",
+      "question": "numerique-anonymat-en-ligne",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 480,
+      "candidate": "florian-philippot",
+      "question": "numerique-donnees-publiques-entrainement-ia",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 481,
+      "candidate": "florian-philippot",
+      "question": "sante-jeunes-medecins-zones-sous-dotees",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 482,
+      "candidate": "florian-philippot",
+      "question": "sante-medicaments-grandes-surfaces",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 483,
+      "candidate": "florian-philippot",
+      "question": "securite-budget-vers-prevention",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 484,
+      "candidate": "florian-philippot",
+      "question": "securite-couvre-feu-mineurs",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 485,
+      "candidate": "florian-philippot",
+      "question": "securite-interdire-plaquage-ventral",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 486,
+      "candidate": "florian-philippot",
+      "question": "securite-renseignement-autorisation-juge",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 487,
+      "candidate": "florian-philippot",
+      "question": "securite-supprimer-controles-preventifs",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 488,
+      "candidate": "florian-philippot",
+      "question": "securite-surveillance-antiterroriste-prolongee",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 489,
+      "candidate": "florian-philippot",
+      "question": "societe-education-sexualite-accord-parents",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 490,
+      "candidate": "florian-philippot",
+      "question": "societe-statut-beau-parent-v2",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 491,
+      "candidate": "florian-philippot",
+      "question": "travail-plafond-prudhommes-maintenu-v2",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 492,
+      "candidate": "florian-philippot",
+      "question": "travail-smic-regional",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 493,
+      "candidate": "florian-philippot",
+      "question": "agriculture-curage-fosses-sans-autorisation",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 494,
+      "candidate": "florian-philippot",
+      "question": "agriculture-tirs-loups-sans-autorisation-v2",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 495,
+      "candidate": "florian-philippot",
+      "question": "defense-livret-a-industrie-defense",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 496,
+      "candidate": "florian-philippot",
+      "question": "democratie-supprimer-cndp",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 497,
+      "candidate": "florian-philippot",
+      "question": "energie-centres-donnees-electricite-renouvelable",
+      "theme": "energie",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 498,
+      "candidate": "florian-philippot",
+      "question": "energie-solaire-toits-batiments-neufs",
+      "theme": "energie",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 499,
+      "candidate": "florian-philippot",
+      "question": "institutions-ordonnances-elargies",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 500,
+      "candidate": "florian-philippot",
+      "question": "international-casques-bleus",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 501,
+      "candidate": "florian-philippot",
+      "question": "numerique-rgpd-petites-entreprises",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 502,
+      "candidate": "florian-philippot",
+      "question": "securite-manifestations-sans-declaration",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 503,
+      "candidate": "florian-philippot",
+      "question": "societe-casinos-en-ligne",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 504,
+      "candidate": "florian-philippot",
+      "question": "societe-pma-post-mortem",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 505,
+      "candidate": "florian-philippot",
+      "question": "societe-succession-couples-non-maries",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 506,
+      "candidate": "florian-philippot",
+      "question": "transport-supprimer-subventions-aeroports",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5306,
+      "gain": 0
+    },
+    {
+      "rank": 507,
+      "candidate": "juan-branco",
+      "question": "travail-retraite-62-ans",
+      "theme": "travail",
+      "bank": "active",
+      "questionCoverage": 13,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 508,
+      "candidate": "juan-branco",
+      "question": "immigration-regularisation-cinq-ans",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 12,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 509,
+      "candidate": "juan-branco",
+      "question": "defense-budget-armees-3-pib",
+      "theme": "defense",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 510,
+      "candidate": "juan-branco",
+      "question": "education-revalorisation-identique-pour-tous",
+      "theme": "education",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 511,
+      "candidate": "juan-branco",
+      "question": "travail-semaine-32-heures",
+      "theme": "travail",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 512,
+      "candidate": "juan-branco",
+      "question": "defense-reduire-presence-etranger",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 513,
+      "candidate": "juan-branco",
+      "question": "democratie-vote-16-ans",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 514,
+      "candidate": "juan-branco",
+      "question": "economie-plafonner-prix-alimentaires",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 515,
+      "candidate": "juan-branco",
+      "question": "education-frais-inscription-etudiants-etrangers",
+      "theme": "education",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 516,
+      "candidate": "juan-branco",
+      "question": "education-prive-financement-mixite",
+      "theme": "education",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 517,
+      "candidate": "juan-branco",
+      "question": "fiscalite-capital-aligne-travail",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 518,
+      "candidate": "juan-branco",
+      "question": "fiscalite-quotient-familial-credit-enfant",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 519,
+      "candidate": "juan-branco",
+      "question": "immigration-frais-etudiants-etrangers",
+      "theme": "immigration",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 520,
+      "candidate": "juan-branco",
+      "question": "immigration-reduire-duree-naturalisation",
+      "theme": "immigration",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 521,
+      "candidate": "juan-branco",
+      "question": "institutions-autonomie-fiscale-collectivites",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 522,
+      "candidate": "juan-branco",
+      "question": "international-reduire-contribution-ue",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 523,
+      "candidate": "juan-branco",
+      "question": "international-renforcer-sanctions-russie",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 524,
+      "candidate": "juan-branco",
+      "question": "justice-tig-delits-sans-violence",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 525,
+      "candidate": "juan-branco",
+      "question": "numerique-alleger-moderation",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 526,
+      "candidate": "juan-branco",
+      "question": "sante-derembourser-faible-service-rendu",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 527,
+      "candidate": "juan-branco",
+      "question": "societe-simplifier-changement-sexe-etat-civil",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 528,
+      "candidate": "juan-branco",
+      "question": "transport-baisser-taxe-billets-avion",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 529,
+      "candidate": "juan-branco",
+      "question": "transport-gratuite-transports-urbains",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 530,
+      "candidate": "juan-branco",
+      "question": "transport-sncf-entreprise-publique-v2",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 531,
+      "candidate": "juan-branco",
+      "question": "transport-trains-de-nuit",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 532,
+      "candidate": "juan-branco",
+      "question": "travail-augmenter-jours-carence",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 533,
+      "candidate": "juan-branco",
+      "question": "travail-indexation-salaires",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 534,
+      "candidate": "juan-branco",
+      "question": "travail-statut-fonction-publique-regalien",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 535,
+      "candidate": "juan-branco",
+      "question": "agriculture-bio-restauration-collective-v2",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 536,
+      "candidate": "juan-branco",
+      "question": "defense-effectifs-armees-hausse",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 537,
+      "candidate": "juan-branco",
+      "question": "defense-second-porte-avions",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 538,
+      "candidate": "juan-branco",
+      "question": "democratie-conventions-citoyennes",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 539,
+      "candidate": "juan-branco",
+      "question": "economie-encadrer-marges-distribution",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 540,
+      "candidate": "juan-branco",
+      "question": "economie-regle-equilibre-constitution",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 541,
+      "candidate": "juan-branco",
+      "question": "education-orientation-professionnelle-avant-fin-college",
+      "theme": "education",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 542,
+      "candidate": "juan-branco",
+      "question": "environnement-exploitation-hydrocarbures",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 543,
+      "candidate": "juan-branco",
+      "question": "environnement-interdire-vols-interieurs",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 544,
+      "candidate": "juan-branco",
+      "question": "fiscalite-csg-progressive-v2",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 545,
+      "candidate": "juan-branco",
+      "question": "fiscalite-supprimer-ifi",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 546,
+      "candidate": "juan-branco",
+      "question": "immigration-asile-examen-sans-transfert",
+      "theme": "immigration",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 547,
+      "candidate": "juan-branco",
+      "question": "institutions-autonomie-corse-constitution-v2",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 548,
+      "candidate": "juan-branco",
+      "question": "international-majorite-qualifiee-ue",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 549,
+      "candidate": "juan-branco",
+      "question": "justice-accompagnement-emploi-detenus",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 550,
+      "candidate": "juan-branco",
+      "question": "justice-juridictions-mineurs-specialisees-v2",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 551,
+      "candidate": "juan-branco",
+      "question": "justice-justice-restaurative-systematique",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 552,
+      "candidate": "juan-branco",
+      "question": "numerique-faciliter-centres-donnees",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 553,
+      "candidate": "juan-branco",
+      "question": "numerique-reseaux-sociaux-moins-15-ans",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 554,
+      "candidate": "juan-branco",
+      "question": "numerique-telephone-interdit-lycees",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 555,
+      "candidate": "juan-branco",
+      "question": "sante-depenses-assurance-maladie-inflation",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 556,
+      "candidate": "juan-branco",
+      "question": "securite-armer-polices-municipales",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 557,
+      "candidate": "juan-branco",
+      "question": "securite-presomption-legitime-defense",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 558,
+      "candidate": "juan-branco",
+      "question": "societe-signes-religieux-sorties-scolaires",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 559,
+      "candidate": "juan-branco",
+      "question": "transport-abandonner-nouvelles-lgv",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 560,
+      "candidate": "juan-branco",
+      "question": "transport-doubler-investissement-ferroviaire",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 561,
+      "candidate": "juan-branco",
+      "question": "transport-milliard-amenagements-cyclables",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 562,
+      "candidate": "juan-branco",
+      "question": "travail-limiter-licenciements-beneficiaires-v2",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 563,
+      "candidate": "juan-branco",
+      "question": "defense-fermer-bases-afrique",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 564,
+      "candidate": "juan-branco",
+      "question": "defense-traite-interdiction-armes-nucleaires",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 565,
+      "candidate": "juan-branco",
+      "question": "democratie-petition-debat-parlement",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 566,
+      "candidate": "juan-branco",
+      "question": "economie-assouplir-seuils-effectifs",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 567,
+      "candidate": "juan-branco",
+      "question": "education-notes-evaluation-alternative",
+      "theme": "education",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 568,
+      "candidate": "juan-branco",
+      "question": "energie-consommation-moitie-2050",
+      "theme": "energie",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 569,
+      "candidate": "juan-branco",
+      "question": "environnement-ecocide-crime",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 570,
+      "candidate": "juan-branco",
+      "question": "environnement-publicite-vehicules-emetteurs",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 571,
+      "candidate": "juan-branco",
+      "question": "fiscalite-heures-sup-sans-plafond",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 572,
+      "candidate": "juan-branco",
+      "question": "immigration-asile-droit-travail",
+      "theme": "immigration",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 573,
+      "candidate": "juan-branco",
+      "question": "institutions-fusions-communes-obligatoires",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 574,
+      "candidate": "juan-branco",
+      "question": "institutions-investiture-premier-ministre",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 575,
+      "candidate": "juan-branco",
+      "question": "institutions-maintenir-article-40",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 576,
+      "candidate": "juan-branco",
+      "question": "institutions-reduire-nombre-parlementaires",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 577,
+      "candidate": "juan-branco",
+      "question": "international-adhesion-ukraine-ue",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 578,
+      "candidate": "juan-branco",
+      "question": "international-emprunt-commun-ue",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 579,
+      "candidate": "juan-branco",
+      "question": "international-initiative-parlement-europeen",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 580,
+      "candidate": "juan-branco",
+      "question": "international-referendum-traites-europeens",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 581,
+      "candidate": "juan-branco",
+      "question": "justice-plafonner-detenus-places",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 582,
+      "candidate": "juan-branco",
+      "question": "numerique-assouplir-consentement-traceurs",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 583,
+      "candidate": "juan-branco",
+      "question": "numerique-chiffrement-messageries-v2",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 584,
+      "candidate": "juan-branco",
+      "question": "sante-ratios-soignants-patients",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 585,
+      "candidate": "juan-branco",
+      "question": "sante-reduire-indemnites-arret-maladie",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 586,
+      "candidate": "juan-branco",
+      "question": "securite-limiter-dissolution-associations",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 587,
+      "candidate": "juan-branco",
+      "question": "securite-restreindre-tirs-refus-obtemperer",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 588,
+      "candidate": "juan-branco",
+      "question": "securite-videosurveillance-algorithmique",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 589,
+      "candidate": "juan-branco",
+      "question": "societe-cannabis-legalisation",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 590,
+      "candidate": "juan-branco",
+      "question": "societe-conge-second-parent",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 591,
+      "candidate": "juan-branco",
+      "question": "societe-interdire-ecriture-inclusive",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 592,
+      "candidate": "juan-branco",
+      "question": "transport-abonnement-national-unique",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 593,
+      "candidate": "juan-branco",
+      "question": "transport-voitures-centres-villes-libres",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 594,
+      "candidate": "juan-branco",
+      "question": "travail-plafonner-ecart-salaires",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 595,
+      "candidate": "juan-branco",
+      "question": "agriculture-chalut-aires-protegees",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 596,
+      "candidate": "juan-branco",
+      "question": "agriculture-moins-controles-exploitations",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 597,
+      "candidate": "juan-branco",
+      "question": "defense-controle-exportations-armes",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 598,
+      "candidate": "juan-branco",
+      "question": "defense-troupes-ukraine-cessez-le-feu-v2",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 599,
+      "candidate": "juan-branco",
+      "question": "democratie-raccourcir-consultations-public",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 600,
+      "candidate": "juan-branco",
+      "question": "democratie-seuil-rip-maintenu-v2",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 601,
+      "candidate": "juan-branco",
+      "question": "economie-ouverture-dimanche-libre-v2",
+      "theme": "economie",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 602,
+      "candidate": "juan-branco",
+      "question": "environnement-trajectoire-emissions-entreprises",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 603,
+      "candidate": "juan-branco",
+      "question": "fiscalite-exit-tax-conservation-15-ans",
+      "theme": "fiscalite",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 604,
+      "candidate": "juan-branco",
+      "question": "institutions-adaptation-lois-regions",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 605,
+      "candidate": "juan-branco",
+      "question": "institutions-ordre-du-jour-parlement",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 606,
+      "candidate": "juan-branco",
+      "question": "institutions-pouvoirs-commissions-enquete",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 607,
+      "candidate": "juan-branco",
+      "question": "institutions-pouvoirs-prefet-renforces",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 608,
+      "candidate": "juan-branco",
+      "question": "numerique-responsabilite-plateformes-limitee-v2",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 609,
+      "candidate": "juan-branco",
+      "question": "numerique-scission-grandes-plateformes",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 610,
+      "candidate": "juan-branco",
+      "question": "sante-budget-hopital-inflation",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 611,
+      "candidate": "juan-branco",
+      "question": "securite-interdire-drones-manifestations",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 612,
+      "candidate": "juan-branco",
+      "question": "societe-salles-consommation-drogue-v2",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 2,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 613,
+      "candidate": "juan-branco",
+      "question": "agriculture-agrandissement-sans-autorisation",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 614,
+      "candidate": "juan-branco",
+      "question": "agriculture-origine-viandes-restaurants-v2",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 615,
+      "candidate": "juan-branco",
+      "question": "democratie-budget-participatif-communes",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 616,
+      "candidate": "juan-branco",
+      "question": "energie-centres-donnees-pres-centrales",
+      "theme": "energie",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 617,
+      "candidate": "juan-branco",
+      "question": "environnement-chasse-dimanche",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 618,
+      "candidate": "juan-branco",
+      "question": "environnement-faciliter-derogation-especes",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 619,
+      "candidate": "juan-branco",
+      "question": "environnement-supprimer-taxe-carbone",
+      "theme": "environnement",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 620,
+      "candidate": "juan-branco",
+      "question": "institutions-parlement-interventions-militaires",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 621,
+      "candidate": "juan-branco",
+      "question": "international-listes-transnationales",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 622,
+      "candidate": "juan-branco",
+      "question": "justice-detenus-frais-incarceration",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 623,
+      "candidate": "juan-branco",
+      "question": "justice-liberation-conditionnelle-deux-tiers",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 624,
+      "candidate": "juan-branco",
+      "question": "justice-visites-familiales-prisons",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 625,
+      "candidate": "juan-branco",
+      "question": "numerique-anonymat-en-ligne",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 626,
+      "candidate": "juan-branco",
+      "question": "numerique-donnees-publiques-entrainement-ia",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 627,
+      "candidate": "juan-branco",
+      "question": "sante-medicaments-grandes-surfaces",
+      "theme": "sante",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 628,
+      "candidate": "juan-branco",
+      "question": "securite-budget-vers-prevention",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 629,
+      "candidate": "juan-branco",
+      "question": "securite-couvre-feu-mineurs",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 630,
+      "candidate": "juan-branco",
+      "question": "securite-interdire-plaquage-ventral",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 631,
+      "candidate": "juan-branco",
+      "question": "securite-renseignement-autorisation-juge",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 632,
+      "candidate": "juan-branco",
+      "question": "securite-supprimer-controles-preventifs",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 633,
+      "candidate": "juan-branco",
+      "question": "securite-surveillance-antiterroriste-prolongee",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 634,
+      "candidate": "juan-branco",
+      "question": "societe-education-sexualite-accord-parents",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 635,
+      "candidate": "juan-branco",
+      "question": "societe-statut-beau-parent-v2",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 636,
+      "candidate": "juan-branco",
+      "question": "travail-plafond-prudhommes-maintenu-v2",
+      "theme": "travail",
+      "bank": "reserve",
+      "questionCoverage": 1,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 637,
+      "candidate": "juan-branco",
+      "question": "agriculture-curage-fosses-sans-autorisation",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 638,
+      "candidate": "juan-branco",
+      "question": "agriculture-tirs-loups-sans-autorisation-v2",
+      "theme": "agriculture",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 639,
+      "candidate": "juan-branco",
+      "question": "defense-livret-a-industrie-defense",
+      "theme": "defense",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 640,
+      "candidate": "juan-branco",
+      "question": "democratie-supprimer-cndp",
+      "theme": "democratie",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 641,
+      "candidate": "juan-branco",
+      "question": "energie-centres-donnees-electricite-renouvelable",
+      "theme": "energie",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 642,
+      "candidate": "juan-branco",
+      "question": "energie-solaire-toits-batiments-neufs",
+      "theme": "energie",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 643,
+      "candidate": "juan-branco",
+      "question": "institutions-ordonnances-elargies",
+      "theme": "institutions",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 644,
+      "candidate": "juan-branco",
+      "question": "international-casques-bleus",
+      "theme": "international",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 645,
+      "candidate": "juan-branco",
+      "question": "numerique-rgpd-petites-entreprises",
+      "theme": "numerique",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 646,
+      "candidate": "juan-branco",
+      "question": "securite-manifestations-sans-declaration",
+      "theme": "securite",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 647,
+      "candidate": "juan-branco",
+      "question": "societe-casinos-en-ligne",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 648,
+      "candidate": "juan-branco",
+      "question": "societe-pma-post-mortem",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 649,
+      "candidate": "juan-branco",
+      "question": "societe-succession-couples-non-maries",
+      "theme": "societe",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 650,
+      "candidate": "juan-branco",
+      "question": "transport-supprimer-subventions-aeroports",
+      "theme": "transport",
+      "bank": "reserve",
+      "questionCoverage": 0,
+      "candidateCoverage": 0.5102,
+      "gain": 0
+    },
+    {
+      "rank": 651,
+      "candidate": "juan-branco",
+      "question": "immigration-ame-soins-urgents",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5102,
+      "gain": 349.5,
+      "searched": {
+        "journal": "2026-11-22-campagne-branco-immigration",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 652,
+      "candidate": "bruno-retailleau",
+      "question": "economie-prix-energie-reglementes",
+      "theme": "economie",
+      "bank": "active",
+      "questionCoverage": 11,
+      "candidateCoverage": 0.551,
+      "gain": 338.8333,
+      "searched": {
+        "journal": "2026-11-22-campagne-retailleau-economie",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 653,
+      "candidate": "juan-branco",
+      "question": "immigration-supprimer-droit-du-sol",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 12,
+      "candidateCoverage": 0.5102,
+      "gain": 220.1667,
+      "searched": {
+        "journal": "2026-11-22-campagne-branco-immigration",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 654,
+      "candidate": "bruno-retailleau",
+      "question": "immigration-vote-local-etrangers-v2",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.551,
+      "gain": 201,
+      "searched": {
+        "journal": "2026-11-22-bruno-retailleau-immigration",
+        "kind": "NO_PERSONAL_POSITION"
+      }
+    },
+    {
+      "rank": 655,
+      "candidate": "bruno-retailleau",
+      "question": "immigration-titre-sejour-longue-duree",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.551,
+      "gain": 198,
+      "searched": {
+        "journal": "2026-11-22-bruno-retailleau-immigration",
+        "kind": "NO_PERSONAL_POSITION"
+      }
+    },
+    {
+      "rank": 656,
+      "candidate": "bruno-retailleau",
+      "question": "justice-majorite-penale-16-ans",
+      "theme": "justice",
+      "bank": "active",
+      "questionCoverage": 8,
+      "candidateCoverage": 0.551,
+      "gain": 198,
+      "searched": {
+        "journal": "2026-11-27-campagne-retailleau-justice",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 657,
+      "candidate": "bruno-retailleau",
+      "question": "economie-edf-entierement-publique",
+      "theme": "economie",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.551,
+      "gain": 198,
+      "searched": {
+        "journal": "2026-11-22-campagne-retailleau-economie",
+        "kind": "NO_PERSONAL_POSITION"
+      }
+    },
+    {
+      "rank": 658,
+      "candidate": "bruno-retailleau",
+      "question": "immigration-visas-professions-qualifiees-v2",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.551,
+      "gain": 198,
+      "searched": {
+        "journal": "2026-11-22-bruno-retailleau-immigration",
+        "kind": "NO_PERSONAL_POSITION"
+      }
+    },
+    {
+      "rank": 659,
+      "candidate": "bruno-retailleau",
+      "question": "immigration-voies-legales-travail-ue",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.551,
+      "gain": 198,
+      "searched": {
+        "journal": "2026-11-22-bruno-retailleau-immigration",
+        "kind": "NO_PERSONAL_POSITION"
+      }
+    },
+    {
+      "rank": 660,
+      "candidate": "bruno-retailleau",
+      "question": "economie-aides-conditionnees-emploi",
+      "theme": "economie",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2,
+      "searched": {
+        "journal": "2026-11-22-campagne-retailleau-economie",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 661,
+      "candidate": "bruno-retailleau",
+      "question": "justice-perpetuite-reelle-etendue",
+      "theme": "justice",
+      "bank": "reserve-promotable",
+      "questionCoverage": 6,
+      "candidateCoverage": 0.551,
+      "gain": 159.2,
+      "searched": {
+        "journal": "2026-11-27-campagne-retailleau-justice",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 662,
+      "candidate": "juan-branco",
+      "question": "immigration-vote-local-etrangers-v2",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 139,
+      "searched": {
+        "journal": "2026-11-22-campagne-branco-immigration",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 663,
+      "candidate": "juan-branco",
+      "question": "immigration-condamnes-perte-titre-sejour",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5102,
+      "gain": 136,
+      "searched": {
+        "journal": "2026-11-22-campagne-branco-immigration",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 664,
+      "candidate": "juan-branco",
+      "question": "immigration-prestations-duree-residence",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 9,
+      "candidateCoverage": 0.5102,
+      "gain": 136,
+      "searched": {
+        "journal": "2026-11-22-campagne-branco-immigration",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 665,
+      "candidate": "juan-branco",
+      "question": "immigration-plafond-annuel-admissions",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 136,
+      "searched": {
+        "journal": "2026-11-22-campagne-branco-immigration",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 666,
+      "candidate": "juan-branco",
+      "question": "immigration-voies-legales-travail-ue",
+      "theme": "immigration",
+      "bank": "active",
+      "questionCoverage": 7,
+      "candidateCoverage": 0.5102,
+      "gain": 136,
+      "searched": {
+        "journal": "2026-11-22-campagne-branco-immigration",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 667,
+      "candidate": "bruno-retailleau",
+      "question": "immigration-reduire-duree-naturalisation",
+      "theme": "immigration",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0,
+      "searched": {
+        "journal": "2026-11-22-bruno-retailleau-immigration",
+        "kind": "NO_PERSONAL_POSITION"
+      }
+    },
+    {
+      "rank": 668,
+      "candidate": "bruno-retailleau",
+      "question": "justice-tig-delits-sans-violence",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 5,
+      "candidateCoverage": 0.551,
+      "gain": 0,
+      "searched": {
+        "journal": "2026-11-27-campagne-retailleau-justice",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 669,
+      "candidate": "bruno-retailleau",
+      "question": "immigration-asile-examen-sans-transfert",
+      "theme": "immigration",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0,
+      "searched": {
+        "journal": "2026-11-22-bruno-retailleau-immigration",
+        "kind": "NO_PERSONAL_POSITION"
+      }
+    },
+    {
+      "rank": 670,
+      "candidate": "bruno-retailleau",
+      "question": "justice-accompagnement-emploi-detenus",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0,
+      "searched": {
+        "journal": "2026-11-27-campagne-retailleau-justice",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 671,
+      "candidate": "bruno-retailleau",
+      "question": "justice-juridictions-mineurs-specialisees-v2",
+      "theme": "justice",
+      "bank": "reserve",
+      "questionCoverage": 4,
+      "candidateCoverage": 0.551,
+      "gain": 0,
+      "searched": {
+        "journal": "2026-11-27-campagne-retailleau-justice",
+        "kind": "NOT_FOUND"
+      }
+    },
+    {
+      "rank": 672,
+      "candidate": "bruno-retailleau",
+      "question": "immigration-asile-droit-travail",
+      "theme": "immigration",
+      "bank": "reserve",
+      "questionCoverage": 3,
+      "candidateCoverage": 0.551,
+      "gain": 0,
+      "searched": {
+        "journal": "2026-11-22-bruno-retailleau-immigration",
+        "kind": "NO_PERSONAL_POSITION"
+      }
+    }
+  ]
+}
