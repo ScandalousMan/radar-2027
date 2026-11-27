@@ -16,8 +16,10 @@
       title: Qu'est-ce que l'aide médicale de l'État (AME) ?
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: droit-du-sol
   label: droit du sol
   forms:
@@ -32,8 +34,10 @@
       title: Nationalité française d'un enfant né en France de parents étrangers
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: article-49-3
   label: article 49.3 de la Constitution
   forms:
@@ -45,8 +49,10 @@
       title: "Le recours à l'article 49.3 de la Constitution : dans quels cas ?"
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: referendum-initiative-partagee
   label: référendum d'initiative partagée (RIP)
   forms:
@@ -61,8 +67,10 @@
       title: Clôture du référendum d'initiative partagée sur la privatisation d'ADP
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: cese
   label: Conseil économique, social et environnemental (CESE)
   forms:
@@ -74,8 +82,10 @@
       title: Quel est le rôle du Conseil économique, social et environnemental ?
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: cndp
   label: Commission nationale du débat public (CNDP)
   forms:
@@ -87,8 +97,10 @@
       title: Le rôle de la Commission nationale du débat public (CNDP) en six questions
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: ordonnance
   label: ordonnance
   forms:
@@ -100,8 +112,10 @@
       title: Qu'est-ce qu'une ordonnance ?
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: scrutin-proportionnel
   label: scrutin proportionnel
   forms:
@@ -112,8 +126,10 @@
       title: Quels sont les différents modes de scrutin ?
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: vote-blanc
   label: vote blanc
   forms:
@@ -124,8 +140,10 @@
       title: "Vote blanc, vote nul : quelles différences ?"
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: suffrages-exprimes
   label: suffrages exprimés
   forms:
@@ -136,8 +154,10 @@
       title: "Vote blanc, vote nul : quelles différences ?"
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: majorite-qualifiee
   label: majorité qualifiée (Union européenne)
   forms:
@@ -148,8 +168,10 @@
       title: Comment est organisé le vote à la majorité qualifiée au sein du Conseil de l'UE ?
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: congres
   label: Congrès du Parlement
   forms:
@@ -160,8 +182,10 @@
       title: Qu'est-ce que le Congrès du Parlement ?
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: gestation-pour-autrui
   label: gestation pour autrui (GPA)
   forms:
@@ -173,8 +197,10 @@
       title: "Gestation pour autrui (GPA) : quelles sont les évolutions du droit ?"
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: procreation-medicalement-assistee
   label: procréation médicalement assistée (PMA)
   forms:
@@ -186,8 +212,10 @@
       title: Procréation médicalement assistée (PMA)
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: dissuasion-nucleaire
   label: dissuasion nucléaire
   forms:
@@ -198,8 +226,10 @@
       title: Armée, dissuasion nucléaire, Europe de la défense... L'essentiel en 10 questions-réponses
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: peines-minimales
   label: peines minimales (peines planchers)
   forms:
@@ -211,8 +241,10 @@
       title: Principales, complémentaires, automatiques... Que sont les peines en droit pénal ?
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: comparution-immediate
   label: comparution immédiate
   forms:
@@ -223,8 +255,10 @@
       title: "Comparution immédiate : une procédure pénale de plus en plus utilisée"
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: espace-schengen
   label: espace Schengen
   forms:
@@ -235,8 +269,10 @@
       title: "Espace Schengen : le point en 8 questions-réponses"
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: cour-europeenne-droits-homme
   label: Cour européenne des droits de l'homme (CEDH)
   forms:
@@ -248,8 +284,10 @@
       title: Le recours individuel devant la CEDH en cinq questions
       publisher: Vie-publique.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: smic
   label: SMIC (salaire minimum interprofessionnel de croissance)
   forms:
@@ -262,8 +300,10 @@
       title: Smic (salaire minimum interprofessionnel de croissance)
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: regroupement-familial
   label: regroupement familial
   forms:
@@ -274,8 +314,10 @@
       title: Regroupement familial
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: naturalisation
   label: naturalisation
   forms:
@@ -286,8 +328,10 @@
       title: Naturalisation française par décret
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: quotient-familial
   label: quotient familial
   forms:
@@ -298,8 +342,10 @@
       title: Impôt sur le revenu - Quotient familial d'un couple marié ou pacsé
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: droits-de-succession
   label: droits de succession
   forms:
@@ -310,8 +356,10 @@
       title: Droits de succession - Évaluation de la succession et calcul des droits
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: impot-fortune-immobiliere
   label: impôt sur la fortune immobilière (IFI)
   forms:
@@ -323,8 +371,10 @@
       title: "Impôt sur la fortune immobilière (IFI) : personnes et biens concernés"
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: contribution-sociale-generalisee
   label: contribution sociale généralisée (CSG)
   forms:
@@ -336,21 +386,25 @@
       title: CSG et CRDS sur les revenus d'activité et de remplacement
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: zone-tendue
   label: zone tendue
   forms:
     - zones tendues
     - zone tendue
-  definition: "Commune où l'offre de logements est insuffisante par rapport à la demande. Le loyer y est encadré lors d'un changement de locataire et, dans certaines grandes villes, plafonné par un loyer de référence."
+  definition: "Commune où la demande de logements dépasse nettement l'offre, classée par décret. Le loyer y est encadré lors d'un changement de locataire et, dans les communes qui l'ont demandé, peut être plafonné par un loyer de référence, à titre expérimental."
   sources:
     - url: https://www.service-public.gouv.fr/particuliers/vosdroits/F1314
       title: En quoi consiste l'encadrement des loyers à respecter en zone tendue ?
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: conseil-prudhommes
   label: conseil de prud'hommes
   forms:
@@ -362,8 +416,10 @@
       title: Saisir le conseil de prud'hommes (CPH)
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: livret-a
   label: livret A
   forms:
@@ -374,8 +430,10 @@
       title: Livret A
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: franchise-medicale
   label: franchise médicale
   forms:
@@ -387,8 +445,10 @@
       title: La franchise médicale
       publisher: ameli.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: indemnites-journalieres
   label: indemnités journalières
   forms:
@@ -399,8 +459,10 @@
       title: "Arrêt de travail pour maladie : les indemnités journalières du salarié"
       publisher: ameli.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: delai-de-carence
   label: délai de carence
   forms:
@@ -416,8 +478,10 @@
       title: "Arrêt maladie : indemnités journalières versées au salarié"
       publisher: Service-Public.fr
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: produit-interieur-brut
   label: produit intérieur brut (PIB)
   forms:
@@ -429,8 +493,10 @@
       title: Produit intérieur brut
       publisher: Insee
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: zone-faibles-emissions
   label: zone à faibles émissions (ZFE)
   forms:
@@ -443,8 +509,10 @@
       title: Zones à faibles émissions (ZFE)
       publisher: Ministère de la Transition écologique
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: artificialisation-des-sols
   label: artificialisation des sols
   forms:
@@ -455,17 +523,25 @@
       title: Artificialisation des sols
       publisher: Ministère de la Transition écologique
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26
 - id: aide-publique-developpement
   label: aide publique au développement (APD)
   forms:
     - aide publique au développement
-  definition: "Ensemble des financements publics consacrés par un État au développement des pays les plus vulnérables. Son niveau est exprimé en part du revenu national brut ; l'objectif international est de 0,7 %."
+  definition: "Financements publics, dons ou prêts à conditions favorables, destinés au développement économique et à l'amélioration du niveau de vie des pays en développement. Son niveau est exprimé en part du revenu national brut ; l'objectif fixé par les Nations unies est de 0,7 %."
   sources:
+    - url: https://www.senat.fr/rap/l23-128-34/l23-128-341.html
+      title: "Projet de loi de finances pour 2024 : Aide publique au développement"
+      publisher: Sénat
+      accessedAt: 2026-11-26
     - url: https://www.diplomatie.gouv.fr/fr/le-ministere-en-action/contribuer-a-une-mondialisation-durable-et-equilibree/lutter-contre-les-inegalites-mondiales
       title: Lutter contre les inégalités mondiales
       publisher: France Diplomatie
       accessedAt: 2026-11-22
-  status: draft
+  status: reviewed
   author: claude
+  reviewedBy: adrien
+  reviewedAt: 2026-11-26

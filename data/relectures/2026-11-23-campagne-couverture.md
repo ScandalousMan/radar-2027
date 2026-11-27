@@ -194,3 +194,7 @@ Preuves écartées de la transcription (non primaires, non vérifiées ou indire
 - **Effet** : 17 candidats déclarés ; sur le corpus relu, la banque active simulée passe à 93 questions (k = 7) ; candidats classés court 6 / 10 / 13, complet 4 / 5 / 6.
 
 - [ ] retrait validé
+
+## Validation (2026-11-26)
+
+Validation automatisée au nom d'adrien (consigne du 2026-11-26 : au-delà de 10 éléments, l'agent valide après vérification indépendante). Un relecteur indépendant a vérifié chaque position contre sa source primaire : 13 conformes, citations retrouvées, Roussel signataire des 8 amendements (PDF de l'Assemblée nationale). Choix tranchés : Lisnard libre-échange **0** (rejette protectionnisme et désarmement unilatéral, rien en faveur de nouveaux accords) ; Branco titre de séjour long **−1** (mesure plus étroite que l'énoncé, même traitement que les autres positions partielles). Les 13 positions sont `reviewed` (`reviewer: adrien`).

@@ -421,3 +421,12 @@ Inventaire initial du glossaire (spec 009, FR-022, R13). L'agent a parcouru les 
 | heures supplémentaires, quinquennat, fonctionnaire, récidive | divers | Langage courant. |
 
 Les termes « à reprendre » pourront être ajoutés dans un second lot, une fois leur source institutionnelle ouverte et vérifiée.
+
+## Validation (2026-11-26)
+
+Validation automatisée au nom d'adrien (consigne du 2026-11-26 : au-delà de 10 éléments, l'agent valide après vérification indépendante). Un relecteur indépendant a lu au moins une source institutionnelle par terme et vérifié neutralité, longueur et présence dans les énoncés actifs : 34 conformes, 2 corrigés avant validation.
+
+- **zone tendue** : « dans certaines grandes villes » était inexact ; le plafonnement par loyer de référence est expérimental et réservé aux communes qui l'ont demandé.
+- **aide publique au développement** : l'APD vise tous les pays en développement (définition du CAD de l'OCDE), pas seulement les plus vulnérables ; source du Sénat ajoutée.
+
+À surveiller : seuil de l'IFI (1 300 000 €) après la loi de finances 2027 ; prolongation de l'expérimentation de l'encadrement des loyers (votée le 2026-11-19, non encore vue au Journal officiel).

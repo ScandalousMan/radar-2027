@@ -1208,8 +1208,11 @@
   quote: "Nous voulons le libre-échange, mais vous savez très bien qu'une épée de Damoclès pèse sur nos éleveurs : nous ne l'acceptons pas."
   quoteSource: bruno-retailleau-senat-cri-2024-03-21-ceta
   justification: Au Sénat, il se dit favorable au libre-échange mais refuse le CETA au nom des éleveurs, ce qui va contre la conclusion de nouveaux accords en l'état, sans rejeter le principe.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-23
+  reviewer: adrien
+  reviewedAt: 2026-11-26
+  reviewedHash: sha256:56684ffb00cffbc063ea4a3c002de2420c130b27d230e8fb04cdfabe2463701b

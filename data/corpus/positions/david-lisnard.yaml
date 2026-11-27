@@ -1430,11 +1430,14 @@
   quote: La France exige de ses industriels et agriculteurs le respect des normes sociales, environnementales et sanitaires les plus strictes au monde, et laisse entrer librement des produits qui ne les respectent pas. Cela s'appelle une asymétrie de concurrence, pas du libre-échange.
   quoteSource: david-lisnard-entretien-lettre-made-in-france-2026-05
   justification: Il défend l'échange libre mais refuse l'ouverture à des produits qui ne respectent pas les normes françaises, ce qui conditionne de nouveaux accords à la réciprocité des normes sans les rejeter.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-23
+  reviewer: adrien
+  reviewedAt: 2026-11-26
+  reviewedHash: sha256:72e92de1cf536b1e7a43d55fb13fcb7155295f9ec9394dbb15b23853b42f49ed
 
 - question: economie-participations-etat-industrie
   value: -1
@@ -1444,8 +1447,11 @@
   quote: Nous ne défendons ni la planification colbertiste ni la politique des champions désignés
   quoteSource: david-lisnard-entretien-lettre-made-in-france-2026-05
   justification: Il refuse la planification et la désignation de champions par l'État, ce qui va contre des prises de participation dans l'industrie, sans les exclure explicitement en cas de défaillance.
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-23
+  reviewer: adrien
+  reviewedAt: 2026-11-26
+  reviewedHash: sha256:cbfa998c4998e570a260f797cec3c957c095bb1680e65e538a4d6d8ab0d9a403
