@@ -86,3 +86,25 @@
   candidates:
     - florian-philippot
   contentHash: sha256:95fe7ec2cfa301c5f144aed383f28d0fa5d6c3dd20fd808043219ae1d1882660
+- id: florian-philippot-levallois-philippot-appelle-a-annuler-la-baisse-du-budget-de
+  url: https://www.publicsenat.fr/actualites/politique/levallois-philippot-appelle-a-annuler-la-baisse-du-budget-de-l-armee-76629
+  title: "Levallois : Philippot appelle à « annuler la baisse du budget de l'armée » (Public Sénat)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2017-08-10
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - florian-philippot
+  contentHash: sha256:c38ed02c26952334a3cd721965e04235d283ebec87a1ffb119ef07eb2ac2560b
+- id: florian-philippot-le-rapport-spinetta-vise-a-tuer-le-service-public-ferroviair
+  url: https://www.publicsenat.fr/actualites/politique/le-rapport-spinetta-vise-a-tuer-le-service-public-ferroviaire-selon-florian
+  title: Le rapport Spinetta « vise à tuer le service public ferroviaire », selon Florian Philippot (Public Sénat)
+  kind: declaration_vote
+  publishedAt:
+    date: 2018-02-16
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - florian-philippot
+  contentHash: sha256:2413aada20c54f4f771b5eb6889d0f5ef1fab49899beed36a9defa3ba41ae0dd

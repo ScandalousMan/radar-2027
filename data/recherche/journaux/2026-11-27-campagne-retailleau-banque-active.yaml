@@ -1,0 +1,248 @@
+# Journal de mission (spec 008, FR-029 ; mission issue de data:gaps, spec 009 §13 bis).
+# Campagne de couverture 009, lot 3 : Bruno Retailleau, questions de la banque active.
+id: 2026-11-27-campagne-retailleau-banque-active
+mode: PERSONALITY
+author: claude
+model: opus
+request: >-
+  Mission de campagne 009 lot 3, mode PERSONALITY : pour Bruno Retailleau, chercher en sources
+  primaires une position personnelle sur 20 questions de la banque active (ordre de gain) :
+  energie-reduire-part-nucleaire, numerique-logiciels-libres-administration,
+  economie-participations-etat-industrie, transport-petites-lignes-maintenues,
+  immigration-ame-soins-urgents, securite-pouvoirs-polices-municipales,
+  democratie-referendum-reserve-elus-v2, environnement-supprimer-zfe,
+  sante-production-publique-medicaments, securite-reconnaissance-faciale-police,
+  energie-nouveaux-reacteurs-au-dela-epr2, transport-autoroutes-concedees-v2,
+  societe-aide-active-a-mourir, sante-hausse-franchises-medicales, securite-hausse-effectifs-police,
+  immigration-regroupement-familial-ressources, fiscalite-impot-fortune-retabli,
+  numerique-taxe-plateformes, international-quitter-commandement-otan, fiscalite-baisse-impot-societes ;
+  objectif au moins 6 positions personnelles ; priorité aux questions où une position est probable ;
+  rien déduit de LR, du gouvernement ou d'un soutien ; ne pas écrire dans positions/ ; pas de commit.
+startedAt: 2026-11-27
+completedAt: 2026-11-27
+state: completed
+scope:
+  personalities: [bruno-retailleau]
+  themes: [energie, numerique, economie, transport, immigration, securite, democratie, environnement, sante, societe, fiscalite, international]
+  questions:
+    - energie-reduire-part-nucleaire
+    - numerique-logiciels-libres-administration
+    - economie-participations-etat-industrie
+    - transport-petites-lignes-maintenues
+    - immigration-ame-soins-urgents
+    - securite-pouvoirs-polices-municipales
+    - democratie-referendum-reserve-elus-v2
+    - environnement-supprimer-zfe
+    - sante-production-publique-medicaments
+    - securite-reconnaissance-faciale-police
+    - energie-nouveaux-reacteurs-au-dela-epr2
+    - transport-autoroutes-concedees-v2
+    - societe-aide-active-a-mourir
+    - sante-hausse-franchises-medicales
+    - securite-hausse-effectifs-police
+    - immigration-regroupement-familial-ressources
+    - fiscalite-impot-fortune-retabli
+    - numerique-taxe-plateformes
+    - international-quitter-commandement-otan
+    - fiscalite-baisse-impot-societes
+queries:
+  - at: 2026-11-27
+    query: "lecture préalable : ligne bruno-retailleau de la liste de mission, énoncés des 20 questions, positions/bruno-retailleau.yaml (aucune position sur les questions traitées), sources/bruno-retailleau.yaml (44 sources), preuves/bruno-retailleau.yaml (28 preuves, dont immigration-008 sur l'AME), journaux Retailleau précédents"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-27
+    query: "recherche plein texte dans les textes en cache des sources Retailleau : EPR, réacteur, nucléaire, référendum, ZFE, aide médicale, policiers, franchise, fortune"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-27
+    query: "Bruno Retailleau aide à mourir \"Retailleau\" euthanasie déclaration"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://www.senat.fr/seances/s202605/s20260512/s20260512.pdf (compte rendu intégral, interventions de M. Bruno Retailleau)"
+    category: SENAT
+    tool: curl
+  - at: 2026-11-27
+    query: "https://www.lagazettefrance.fr/article/aide-a-mourir-le-senat-s-oppose-a-nouveau-retailleau-veut-un-referendum"
+    category: PRESS_AGENCIES
+    tool: curl
+  - at: 2026-11-27
+    query: "Retailleau zones à faibles émissions ZFE supprimer"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "\"Retailleau\" ZFE \"pénalisent les Français qui travaillent\""
+    category: SOCIAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Retailleau ZFE \"écologie punitive\" abrogerai Conseil constitutionnel mai 2026"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "\"Retailleau\" ZFE \"symbole d'une écologie punitive\""
+    category: SOCIAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Bruno Retailleau Sénat vote suppression zones à faibles émissions intervention ZFE entretien"
+    category: SENAT
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://www.europe1.fr/politique/suppression-des-zfe-par-le-conseil-constitutionnel-une-grande-partie-de-la-classe-politique-revoltee-937349 (403 en curl et WebFetch, lu dans le navigateur)"
+    category: SOCIAL_MEDIA
+    tool: browser
+  - at: 2026-11-27
+    query: "site:vie-publique.fr Bruno Retailleau polices municipales pouvoirs"
+    category: GOVERNMENT
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://www.maire-info.com/polices-municipales/bruno-retailleau-tres-favorable-a-une-extension-des-pouvoirs-des-policiers-municipaux--article-28977"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: curl
+  - at: 2026-11-27
+    query: "Retailleau reconnaissance faciale temps réel police"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Retailleau candidat 2027 recruter policiers gendarmes supplémentaires effectifs"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://acteurspublics.fr/articles/presidentielle-bruno-retailleau-souhaite-redeployer-125-000-fonctionnaires-sur-le-terrain-grace-a-lia/"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-27
+    query: "Retailleau nouveaux réacteurs nucléaires \"EPR\" 2026 candidat construire"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Retailleau tribune L'Opinion \"l'empilement des ENR subventionnées fragilise notre nucléaire\" réacteurs"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://www.publicsenat.fr/actualites/politique/fin-des-subventions-aux-eoliennes-et-au-photovoltaique-la-tribune-de-bruno-retailleau-met-le-socle-commun-en-surchauffe"
+    category: NATIONAL_MEDIA
+    tool: curl
+  - at: 2026-11-27
+    query: "site:vie-publique.fr Retailleau \"aide médicale d'État\" soins urgents"
+    category: GOVERNMENT
+    tool: web_search
+  - at: 2026-11-27
+    query: "Retailleau \"aide médicale d'urgence\" AME candidat 2026 supprimer"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Retailleau \"franchises médicales\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "Retailleau \"référendum d'initiative citoyenne\" RIC contre"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-27
+    query: "https://www.publicsenat.fr/actualites/politique/retailleau-lr-favorable-a-un-referendum-d-initiative-citoyenne-136444"
+    category: HISTORICAL_ARCHIVES
+    tool: curl
+categoriesExplored: [EXISTING_CORPUS, NATIONAL_MEDIA, SENAT, PRESS_AGENCIES, SOCIAL_MEDIA, GOVERNMENT, SPECIALIZED_PUBLICATIONS, HISTORICAL_ARCHIVES]
+categoriesNotExplored:
+  - category: CAMPAIGN_SITE
+    reason: avecretailleau.fr non consulté dans le temps de la mission ; seules les pages republicains.fr déjà en cache ont été relues.
+  - category: ORIGINAL_VIDEOS
+    reason: aucune vidéo écoutée (TF1 du 23 septembre 2024 sur l'AME, LCI 2018) ; l'agent n'écoute pas l'audio.
+  - category: SOCIAL_MEDIA
+    reason: X non consulté directement (authentification) ; seule la publication intégrée dans Europe 1 a été lue.
+exhaustive: false
+sourcesConsulted:
+  - url: https://www.senat.fr/seances/s202605/s20260512/s20260512.pdf
+    title: Sénat, compte rendu intégral du 12 mai 2026
+    outcome: retained
+    source: bruno-retailleau-senat-compte-rendu-integral-de-la-seance-du-12-mai-2026-aide
+  - url: https://www.europe1.fr/politique/suppression-des-zfe-par-le-conseil-constitutionnel-une-grande-partie-de-la-classe-politique-revoltee-937349
+    title: Suppression des ZFE par le Conseil constitutionnel (Europe 1)
+    outcome: retained
+    source: bruno-retailleau-suppression-des-zfe-par-le-conseil-constitutionnel-une-grand
+  - url: https://www.maire-info.com/polices-municipales/bruno-retailleau-tres-favorable-%C3%A0-une-extension-des-pouvoirs-des-policiers-municipaux--article-28977
+    title: Bruno Retailleau « très favorable à une extension des pouvoirs des policiers municipaux » (Maire-info)
+    outcome: retained
+    source: bruno-retailleau-bruno-retailleau-tres-favorable-a-une-extension-des-pouvoirs
+  - url: https://www.publicsenat.fr/actualites/politique/retailleau-lr-favorable-a-un-referendum-d-initiative-citoyenne-136444
+    title: Retailleau (LR) favorable à un référendum d'initiative citoyenne (Public Sénat)
+    outcome: retained
+    source: bruno-retailleau-retailleau-lr-favorable-a-un-referendum-d-initiative-citoyen
+  - url: https://www.publicsenat.fr/actualites/politique/fin-des-subventions-aux-eoliennes-et-au-photovoltaique-la-tribune-de-bruno-retailleau-met-le-socle-commun-en-surchauffe
+    title: La tribune de Bruno Retailleau met le socle commun en surchauffe (Public Sénat)
+    outcome: retained
+    source: bruno-retailleau-fin-des-subventions-aux-eoliennes-et-au-photovoltaique-la-tr
+  - url: https://www.lagazettefrance.fr/article/aide-a-mourir-le-senat-s-oppose-a-nouveau-retailleau-veut-un-referendum
+    title: "Aide à mourir: le Sénat s'oppose à nouveau, Retailleau veut un référendum (AFP)"
+    outcome: rejected
+    reason: dépêche secondaire ; le compte rendu officiel du Sénat a été préféré.
+  - url: https://acteurspublics.fr/articles/presidentielle-bruno-retailleau-souhaite-redeployer-125-000-fonctionnaires-sur-le-terrain-grace-a-lia/
+    title: Présidentielle, Bruno Retailleau souhaite redéployer 125 000 fonctionnaires (Acteurs publics)
+    outcome: rejected
+    reason: redéploiement de 18 000 policiers et gendarmes à effectif constant, sans hausse d'effectifs ni citation directe.
+  - url: https://www.elyseescope.com/questions/bruno-retailleau-et-la-securite
+    title: Bruno Retailleau et la sécurité (ÉlyséeScope)
+    outcome: rejected
+    reason: site de synthèse sans chiffres ni source primaire ; piste seulement.
+  - url: https://votons-2027.fr/candidats/retailleau/programme/sante
+    title: Santé et social, Retailleau (votons-2027.fr)
+    outcome: rejected
+    reason: agrégateur de programmes, piste seulement ; ne mentionne pas les franchises.
+evidenceAdded:
+  - bruno-retailleau-societe-001
+  - bruno-retailleau-environnement-001
+  - bruno-retailleau-securite-001
+  - bruno-retailleau-energie-001
+  - bruno-retailleau-energie-002
+  - bruno-retailleau-democratie-001
+  - bruno-retailleau-democratie-002
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided:
+  - evidence: bruno-retailleau-immigration-008
+    note: AME, paraphrase franceinfo de 2024 déjà enregistrée ; aucune citation directe nouvelle trouvée, rien ajouté.
+verified:
+  - bruno-retailleau-societe-001
+  - bruno-retailleau-environnement-001
+  - bruno-retailleau-securite-001
+  - bruno-retailleau-energie-001
+  - bruno-retailleau-energie-002
+  - bruno-retailleau-democratie-001
+  - bruno-retailleau-democratie-002
+toVerify:
+  - bruno-retailleau-energie-002
+  - bruno-retailleau-securite-001
+contradictions:
+  - evidence: [bruno-retailleau-democratie-002, bruno-retailleau-democratie-001]
+    note: >-
+      2018 : favorable à un référendum d'initiative populaire « encadré » ; 2026 : ses propositions
+      gardent un déclenchement présidentiel ou à initiative parlementaire (RIP allégé). Évolution ou
+      simple silence sur le RIC, non tranché ; pas de contradiction frontale.
+gaps:
+  - kind: NOT_FOUND
+    personality: bruno-retailleau
+    theme: securite
+    question: securite-hausse-effectifs-police
+    note: >-
+      Recherches presse nationale, vie-publique, Acteurs publics et corpus existant : son
+      programme (via Acteurs publics) prévoit de rendre 18 000 policiers et gendarmes à la voie
+      publique à effectif constant ; aucune promesse personnelle chiffrée de hausse d'effectifs.
+  - kind: NOT_FOUND
+    personality: bruno-retailleau
+    theme: sante
+    question: sante-hausse-franchises-medicales
+    note: Recherche presse nationale et corpus en cache sans résultat ; aucune déclaration sur le doublement des franchises de 2026 trouvée.
+  - kind: NOT_FOUND
+    personality: bruno-retailleau
+    theme: securite
+    question: securite-reconnaissance-faciale-police
+    note: Recherche presse et questions écrites (enquête Disclose 2026) sans propos personnel de l'intéressé sur la reconnaissance faciale en temps réel.
+  - kind: REPORTED_UNVERIFIABLE
+    personality: bruno-retailleau
+    theme: immigration
+    question: immigration-ame-soins-urgents
+    evidence: [bruno-retailleau-immigration-008]
+    note: >-
+      Intention rapportée (TF1, 23 septembre 2024) de remplacer l'AME par une aide d'urgence ;
+      aucune citation directe ni reprise de candidat retrouvée (vie-publique, presse 2026).
+signals: []

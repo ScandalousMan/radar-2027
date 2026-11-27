@@ -482,3 +482,58 @@
   candidates:
     - bruno-retailleau
   contentHash: sha256:a0f07a382e27a29546ad423c1e9ceba4f848a6c71c78e9282c6c0eaf54d4b5a8
+- id: bruno-retailleau-suppression-des-zfe-par-le-conseil-constitutionnel-une-grand
+  url: https://www.europe1.fr/politique/suppression-des-zfe-par-le-conseil-constitutionnel-une-grande-partie-de-la-classe-politique-revoltee-937349
+  title: "Suppression des ZFE par le Conseil constitutionnel : une grande partie de la classe politique révoltée (Europe 1, publication X de Bruno Retailleau intégrée)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-22
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:fc7a343bcb0ec1572174c51114aecc1a354f13995b41d5b17a7e68e7ff97fc4e
+- id: bruno-retailleau-senat-compte-rendu-integral-de-la-seance-du-12-mai-2026-aide
+  url: https://www.senat.fr/seances/s202605/s20260512/s20260512.pdf
+  title: Sénat, compte rendu intégral de la séance du 12 mai 2026 (aide à mourir, nouvelle lecture)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-05-12
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:2d4822e20a6cb170c632fefc6320978a722f2da9e5aaafe46a80d999630621ba
+- id: bruno-retailleau-bruno-retailleau-tres-favorable-a-une-extension-des-pouvoirs
+  url: https://www.maire-info.com/polices-municipales/bruno-retailleau-tres-favorable-%C3%A0-une-extension-des-pouvoirs-des-policiers-municipaux--article-28977
+  title: Bruno Retailleau « très favorable à une extension des pouvoirs des policiers municipaux » (Maire-info)
+  kind: declaration_vote
+  publishedAt:
+    date: 2024-10-07
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:32ae5e53a4580e81fdbc7f96a73fd64b4aebafddf96fd3d304cb8090f0efbb70
+- id: bruno-retailleau-retailleau-lr-favorable-a-un-referendum-d-initiative-citoyen
+  url: https://www.publicsenat.fr/actualites/politique/retailleau-lr-favorable-a-un-referendum-d-initiative-citoyenne-136444
+  title: Retailleau (LR) favorable à un référendum d'initiative citoyenne (Public Sénat)
+  kind: declaration_vote
+  publishedAt:
+    date: 2018-12-18
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:8058adc61595e5aed6cc9da63c00f98971bcbdacd3a7a782c4eee3af1ccfb16a
+- id: bruno-retailleau-fin-des-subventions-aux-eoliennes-et-au-photovoltaique-la-tr
+  url: https://www.publicsenat.fr/actualites/politique/fin-des-subventions-aux-eoliennes-et-au-photovoltaique-la-tribune-de-bruno-retailleau-met-le-socle-commun-en-surchauffe
+  title: "Fin des subventions aux éoliennes et au photovoltaïque : la tribune de Bruno Retailleau met le socle commun en surchauffe (Public Sénat)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-07-03
+    precision: day
+  accessedAt: 2026-11-27
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:a99ddbd087b276b360308683d6f56be576bfeead439b2be42e1986a16e82f686

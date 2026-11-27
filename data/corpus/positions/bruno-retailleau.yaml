@@ -1305,3 +1305,74 @@
   reviewer: adrien
   reviewedAt: 2026-11-27
   reviewedHash: sha256:3696620d69ce94d224ff10da9f310a661535957283c21687f3a3c4c95f491eb5
+
+# Campagne de couverture 009, lot 3 (2026-11-27) : positions transcrites par l'agent depuis les preuves
+# primaires de data/recherche (journal 2026-11-27-campagne-*-banque-active).
+
+- question: societe-aide-active-a-mourir
+  value: -2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-senat-compte-rendu-integral-de-la-seance-du-12-mai-2026-aide
+  quote: "je suis opposé au suicide assisté et à l'euthanasie"
+  quoteSource: bruno-retailleau-senat-compte-rendu-integral-de-la-seance-du-12-mai-2026-aide
+  justification: "L'énoncé demande d'autoriser l'aide active à mourir pour les adultes atteints d'une maladie incurable ; il se déclare opposé au suicide assisté et à l'euthanasie, les deux modalités de l'aide active à mourir, et dit avoir voté contre l'article 2. Opposition explicite."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:74d1abadb864dc14f0275cc32ce27d87525955b8e525cac4f07490ff3460538e
+
+- question: environnement-supprimer-zfe
+  value: 2
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-suppression-des-zfe-par-le-conseil-constitutionnel-une-grand
+  quote: "Si je suis élu en 2027, je les abrogerai."
+  quoteSource: bruno-retailleau-suppression-des-zfe-par-le-conseil-constitutionnel-une-grand
+  justification: "Engagement à abroger les ZFE s'il est élu : soutien explicite à leur suppression."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:f455c4064870c2d566282de16fba9877e772863a173652562bfcb8d7304d404e
+
+- question: energie-reduire-part-nucleaire
+  value: -1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-retailleau-face-au-rechauffement-climatique-adapter-la-franc
+  quote: "S'adapter, c'est lutter contre le réchauffement avec l'énergie la plus souveraine, abondante, pilotable et décarbonée : le nucléaire"
+  quoteSource: bruno-retailleau-retailleau-face-au-rechauffement-climatique-adapter-la-franc
+  justification: "Il veut relancer l'atome et cesser de financer l'éolien : orientation contraire à une réduction de la part du nucléaire, sans toutefois se prononcer explicitement sur cette part. Opposition qualifiée."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:e2e42cc98e90e54ca0363d81f6afa13ed28b3e68f6ed5f21592f904d5db4f377
+
+- question: energie-nouveaux-reacteurs-au-dela-epr2
+  value: 1
+  evidence: declaration_vote
+  sources:
+    - bruno-retailleau-fin-des-subventions-aux-eoliennes-et-au-photovoltaique-la-tr
+  quote: "rebâtir un parc nucléaire"
+  quoteSource: bruno-retailleau-fin-des-subventions-aux-eoliennes-et-au-photovoltaique-la-tr
+  justification: "Rebâtir un parc nucléaire va au-delà du seul programme en cours, mais aucun nombre de réacteurs ni référence aux six EPR2 n'est donné : soutien qualifié."
+  status: reviewed
+  provenance:
+    kind: manual
+  author: claude
+  authoredAt: 2026-11-27
+  reviewer: adrien
+  reviewedAt: 2026-11-27
+  reviewedHash: sha256:1771a5f2e65ba6f8496509c7b6a8355dc2d9b8c18b8aaa573578d3abc681822e

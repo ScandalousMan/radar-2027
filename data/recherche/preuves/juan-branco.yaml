@@ -83,3 +83,351 @@
   journal: 2026-11-22-campagne-branco-immigration
   createdAt: 2026-11-22
   updatedAt: 2026-11-22
+- id: juan-branco-defense-001
+  personality: juan-branco
+  kind: POSITION
+  theme: defense
+  question: defense-reduire-budget-armees
+  qualification: QUALIFIED_OPPOSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Fixation d'un objectif de 300 avions de combat et vingt ravitailleurs mobilisables."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, mouvement du candidat ; partie L'extérieur et la défense, liste des programmes d'armement (p. 25)."
+  verificationNotes: "Texte retrouvé mot pour mot dans le texte en cache du PDF (relu en entier pour cette mission). Pagination indicative (numéros de page imprimés dans le texte extrait)."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "partie L'extérieur et la défense, liste des programmes d'armement (p. 25)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat pour sa candidature présidentielle."
+    interpretation: "Liste de programmes d'équipement en hausse (300 chars, 1 million de drones par an, objectif de frégates augmenté, 300 avions de combat) : sens contraire à une réduction du budget, mais aucun chiffre de budget ni de part du PIB, donc opposition partielle déduite des objectifs capacitaires écrits."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-branco-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+- id: juan-branco-education-001
+  personality: juan-branco
+  kind: POSITION
+  theme: education
+  question: education-universite-sans-selection
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Fin des MIG (ex-SNU) et de Parcoursup. - Distribution finale d'une proposition d'admission à tous les candidats à des formations universitaires avant les vacances d'été."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, mouvement du candidat ; partie L'instruction, volet Secondaire/Supérieur (p. 41)."
+  verificationNotes: "Texte retrouvé mot pour mot dans le texte en cache du PDF (relu en entier pour cette mission). Pagination indicative (numéros de page imprimés dans le texte extrait)."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "partie L'instruction, volet Secondaire/Supérieur (p. 41)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat pour sa candidature présidentielle."
+    interpretation: "Suppression de Parcoursup et proposition d'admission garantie à tous les candidats : accès universel à l'université, mais sans garantie que ce soit dans la formation de son choix ; ailleurs le programme prévoit une sélection accrue à l'entrée au lycée. Soutien partiel."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-branco-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+- id: juan-branco-securite-001
+  personality: juan-branco
+  kind: POSITION
+  theme: securite
+  question: securite-pouvoirs-polices-municipales
+  qualification: AMBIGUOUS
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Municipalisation de la police nationale (hors Police Judiciaire et unités de maintien de l'ordre)."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, mouvement du candidat ; partie Intérieur/Sécurité, première mesure (p. 20)."
+  verificationNotes: "Texte retrouvé mot pour mot dans le texte en cache du PDF (relu en entier pour cette mission). Pagination indicative (numéros de page imprimés dans le texte extrait)."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "partie Intérieur/Sécurité, première mesure (p. 20)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat pour sa candidature présidentielle."
+    interpretation: "La police nationale passerait sous autorité municipale, mais la police judiciaire, qui porte les pouvoirs d'enquête, en est exclue : impossible de conclure sur l'octroi de pouvoirs d'enquête aux polices municipales."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-branco-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+- id: juan-branco-justice-001
+  personality: juan-branco
+  kind: POSITION
+  theme: justice
+  question: justice-supprimer-reductions-automatiques
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Fin du modèle Badinter : peines réelles, exécution des peines courtes, séparation des débats sur les faits et la personnalité ; de la condamnation et de la sentence."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, mouvement du candidat ; partie La justice, liste des mesures pénales (p. 18-19)."
+  verificationNotes: "Texte retrouvé mot pour mot dans le texte en cache du PDF (relu en entier pour cette mission). Pagination indicative (numéros de page imprimés dans le texte extrait)."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "partie La justice, liste des mesures pénales (p. 18-19)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat pour sa candidature présidentielle."
+    interpretation: "« Peines réelles » va dans le sens de la suppression des réductions automatiques, mais la même liste prévoit une « Simplification du régime de réduction des peines aux fins de lisibilité », ce qui suppose le maintien d'un régime de réductions : soutien partiel, sans mention explicite des crédits automatiques."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-branco-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+- id: juan-branco-international-001
+  personality: juan-branco
+  kind: POSITION
+  theme: international
+  question: international-primaute-loi-nationale-v2
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Sortie de l'Union Européenne, de l'euro, du Conseil de l'Europe et/ou de l'espace Schengen."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, mouvement du candidat ; Les normes, Souveraineté, référendum fondé sur l'article 11 (p. 8)."
+  verificationNotes: "Texte retrouvé mot pour mot dans le texte en cache du PDF (relu en entier pour cette mission). Pagination indicative (numéros de page imprimés dans le texte extrait)."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "Les normes, Souveraineté, référendum fondé sur l'article 11 (p. 8)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat pour sa candidature présidentielle."
+    interpretation: "La sortie de l'UE soumise à référendum rendrait la loi nationale seule applicable ; la position va au-delà de l'énoncé et reste subordonnée au référendum. Complété par « Renforcement de l'emprise sur la CEDH et la CJUE … dans la perspective d'un important contentieux » (p. 54). Soutien qualifié (instrument : référendum de sortie, pas primauté au sein de l'UE)."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-branco-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+- id: juan-branco-international-002
+  personality: juan-branco
+  kind: POSITION
+  theme: international
+  question: international-renegocier-traites-competences
+  qualification: AMBIGUOUS
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "La sortie de l'Union Européenne et de l'euro, soumise à référendum, exigera, le cas échéant, de procéder à l'adoption de politiques de transition afin d'éviter tout choc économique, normatif et social."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, mouvement du candidat ; partie L'Europe (transition), chapeau (p. 53)."
+  verificationNotes: "Texte retrouvé mot pour mot dans le texte en cache du PDF (relu en entier pour cette mission). Pagination indicative (numéros de page imprimés dans le texte extrait)."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "partie L'Europe (transition), chapeau (p. 53)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat pour sa candidature présidentielle."
+    interpretation: "Le programme propose un référendum de sortie, non une renégociation des traités ; l'objectif (rendre des compétences aux États) est atteint par un autre instrument : ni soutien ni opposition à la renégociation elle-même."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-branco-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+- id: juan-branco-agriculture-001
+  personality: juan-branco
+  kind: POSITION
+  theme: agriculture
+  question: agriculture-alleger-normes-agricoles
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Épurement des normes et certifications, suppression des normes sur le calibrage et conditionnement des fruits et légumes."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, mouvement du candidat ; partie Agriculture, volet Simplification bureaucratique (p. 49)."
+  verificationNotes: "Texte retrouvé mot pour mot dans le texte en cache du PDF (relu en entier pour cette mission). Pagination indicative (numéros de page imprimés dans le texte extrait)."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "partie Agriculture, volet Simplification bureaucratique (p. 49)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat pour sa candidature présidentielle."
+    interpretation: "Allègement des normes et certifications agricoles et suppression du principe de compensation environnementale ; mais le même volet ajoute un diagnostic périodique obligatoire de santé des sols : soutien à l'allègement, sans viser toutes les normes environnementales."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-branco-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+- id: juan-branco-education-002
+  personality: juan-branco
+  kind: POSITION
+  theme: education
+  question: education-salaires-enseignants-15-pourcent
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Revalorisation salariale des enseignants et baisse du nombre d'élèves."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, mouvement du candidat ; partie L'instruction, volet Primaire et antéprimaire (p. 42)."
+  verificationNotes: "Texte retrouvé mot pour mot dans le texte en cache du PDF (relu en entier pour cette mission). Pagination indicative (numéros de page imprimés dans le texte extrait)."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "partie L'instruction, volet Primaire et antéprimaire (p. 42)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat pour sa candidature présidentielle."
+    interpretation: "Revalorisation des enseignants du primaire (et, au secondaire, « en début de carrière ») sans montant : soutien à la hausse, plus étroit que l'énoncé (ni 15 %, ni l'ensemble des enseignants explicitement)."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-branco-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+- id: juan-branco-education-003
+  personality: juan-branco
+  kind: POSITION
+  theme: education
+  question: education-postes-baisse-demographique
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Création d'un corps d'enseignants d'aide scolaire."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, mouvement du candidat ; partie L'instruction, volet Secondaire (p. 41)."
+  verificationNotes: "Texte retrouvé mot pour mot dans le texte en cache du PDF (relu en entier pour cette mission). Pagination indicative (numéros de page imprimés dans le texte extrait)."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "partie L'instruction, volet Secondaire (p. 41)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat pour sa candidature présidentielle."
+    interpretation: "La baisse du nombre d'élèves (par classe, lecture contextuelle) et la création d'un « corps d'enseignants d'aide scolaire » supposent de ne pas réduire les postes ; aucune mention explicite de la démographie : soutien qualifié, interprétatif."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-branco-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+- id: juan-branco-energie-001
+  personality: juan-branco
+  kind: POSITION
+  theme: energie
+  question: energie-suspendre-nouvelles-eoliennes
+  qualification: QUALIFIED_OPPOSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Conditionnalisation des aides au développement des énergies alternatives à des critères de fabrication locale."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, mouvement du candidat ; partie L'énergie, l'écologie et les logements (p. 52)."
+  verificationNotes: "Texte retrouvé mot pour mot dans le texte en cache du PDF (relu en entier pour cette mission). Pagination indicative (numéros de page imprimés dans le texte extrait)."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "partie L'énergie, l'écologie et les logements (p. 52)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat pour sa candidature présidentielle."
+    interpretation: "Les aides aux énergies alternatives sont maintenues sous condition de fabrication locale, sans moratoire ; le texte critique toutefois les « énergies intermittentes » et priorise le nucléaire (14 EPR 2). Pas de suspension proposée : opposition partielle à l'énoncé, éoliennes non nommées."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-branco-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+- id: juan-branco-societe-001
+  personality: juan-branco
+  kind: POSITION
+  theme: societe
+  question: societe-signes-religieux-universite
+  qualification: AMBIGUOUS
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Confirmation de la loi sur la laïcité ou établissement d'un régime concordataire."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, mouvement du candidat ; Les normes, Société, référendum interlocutoire de l'Assemblée constituante (p. 9)."
+  verificationNotes: "Texte retrouvé mot pour mot dans le texte en cache du PDF (relu en entier pour cette mission). Pagination indicative (numéros de page imprimés dans le texte extrait)."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "Les normes, Société, référendum interlocutoire de l'Assemblée constituante (p. 9)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat pour sa candidature présidentielle."
+    interpretation: "Alternative soumise à référendum, rien sur les signes religieux des étudiants : on ne peut conclure."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-branco-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
+- id: juan-branco-travail-001
+  personality: juan-branco
+  kind: POSITION
+  theme: travail
+  question: travail-retraite-au-dela-64-ans
+  qualification: NO_DIRECT_EVIDENCE
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Alignement des régimes de retraite et des taux de retour intra et intergénérationnel, fixation des taux selon l'espérance de vie par catégorie sociale et professionnelle"
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, mouvement du candidat ; partie Travail et protection sociale (p. 30)."
+  verificationNotes: "Texte retrouvé mot pour mot dans le texte en cache du PDF (relu en entier pour cette mission). Pagination indicative (numéros de page imprimés dans le texte extrait)."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "partie Travail et protection sociale (p. 30)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat pour sa candidature présidentielle."
+    interpretation: "Réforme des taux par espérance de vie, sans mention de l'âge légal."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-27
+  verifiedAt: 2026-11-27
+  journal: 2026-11-27-campagne-branco-banque-active
+  createdAt: 2026-11-27
+  updatedAt: 2026-11-27
