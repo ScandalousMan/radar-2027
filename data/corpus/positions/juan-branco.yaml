@@ -1866,11 +1866,14 @@
   quote: "Suppression du Conseil économique et social et du Sénat."
   quoteSource: juan-branco-abattre-l-ennemi-juan-branco-texte-integral-en-acces-libre-s
   justification: "Abattre l'ennemi (2021, p. 146) propose la suppression du Sénat ; le programme « La Voie » (2026) soumet à la constituante trois options dont aucune ne garde le Sénat comme chambre distincte."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-28
+  reviewer: adrien
+  reviewedAt: 2026-11-28
+  reviewedHash: sha256:64e93dd02e7f978b1bf2abc074287beb8aacff27949c4a23971cfa93a738b8c4
 
 - question: immigration-regularisation-cinq-ans
   value: 1
@@ -1881,8 +1884,11 @@
   quoteSource: juan-branco-abattre-l-ennemi-juan-branco-texte-integral-en-acces-libre-s
   justification: "Abattre l'ennemi (2021, p. 153) : régularisation sous critères d'assimilation et obligations, sans durée de présence ; soutien conditionnel."
   old: true
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-28
+  reviewer: adrien
+  reviewedAt: 2026-11-28
+  reviewedHash: sha256:1179ae0e8d31ec3f4ce8c7bf8e84036039d48fb0a5d03b7528a30df84c4df75c

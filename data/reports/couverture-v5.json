@@ -1,0 +1,7583 @@
+{
+  "version": 5,
+  "generatedAt": "2026-11-28",
+  "minQuestionCoverage": 7,
+  "maxActiveQuestions": 120,
+  "themes": [
+    {
+      "id": "international",
+      "active": 4,
+      "reserve": 13,
+      "subjects": 4,
+      "completed": false
+    },
+    {
+      "id": "societe",
+      "active": 3,
+      "reserve": 14,
+      "subjects": 3,
+      "completed": false
+    },
+    {
+      "id": "economie",
+      "active": 9,
+      "reserve": 10,
+      "subjects": 9,
+      "completed": false
+    },
+    {
+      "id": "fiscalite",
+      "active": 9,
+      "reserve": 11,
+      "subjects": 9,
+      "completed": false
+    },
+    {
+      "id": "immigration",
+      "active": 14,
+      "reserve": 4,
+      "subjects": 13,
+      "completed": false
+    },
+    {
+      "id": "sante",
+      "active": 3,
+      "reserve": 14,
+      "subjects": 3,
+      "completed": true
+    },
+    {
+      "id": "securite",
+      "active": 3,
+      "reserve": 17,
+      "subjects": 3,
+      "completed": true
+    },
+    {
+      "id": "justice",
+      "active": 7,
+      "reserve": 10,
+      "subjects": 7,
+      "completed": false
+    },
+    {
+      "id": "institutions",
+      "active": 3,
+      "reserve": 15,
+      "subjects": 3,
+      "completed": true
+    },
+    {
+      "id": "democratie",
+      "active": 4,
+      "reserve": 15,
+      "subjects": 3,
+      "completed": false
+    },
+    {
+      "id": "numerique",
+      "active": 3,
+      "reserve": 14,
+      "subjects": 3,
+      "completed": false
+    },
+    {
+      "id": "agriculture",
+      "active": 4,
+      "reserve": 13,
+      "subjects": 4,
+      "completed": false
+    },
+    {
+      "id": "travail",
+      "active": 6,
+      "reserve": 11,
+      "subjects": 5,
+      "completed": false
+    },
+    {
+      "id": "defense",
+      "active": 5,
+      "reserve": 12,
+      "subjects": 4,
+      "completed": false
+    },
+    {
+      "id": "environnement",
+      "active": 4,
+      "reserve": 14,
+      "subjects": 4,
+      "completed": false
+    },
+    {
+      "id": "transport",
+      "active": 4,
+      "reserve": 13,
+      "subjects": 4,
+      "completed": false
+    },
+    {
+      "id": "energie",
+      "active": 7,
+      "reserve": 5,
+      "subjects": 6,
+      "completed": false
+    },
+    {
+      "id": "education",
+      "active": 6,
+      "reserve": 7,
+      "subjects": 5,
+      "completed": false
+    }
+  ],
+  "warnings": [
+    {
+      "theme": "sante",
+      "subjects": 3,
+      "message": "Thème sante complété : 2 enjeu(x) à k = 7, 1 question(s) ajoutée(s) sous le minimum pour atteindre 3 enjeux."
+    },
+    {
+      "theme": "securite",
+      "subjects": 3,
+      "message": "Thème securite complété : 0 enjeu(x) à k = 7, 3 question(s) ajoutée(s) sous le minimum pour atteindre 3 enjeux."
+    },
+    {
+      "theme": "institutions",
+      "subjects": 3,
+      "message": "Thème institutions complété : 2 enjeu(x) à k = 7, 1 question(s) ajoutée(s) sous le minimum pour atteindre 3 enjeux."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "edouard-philippe",
+      "coverage": 0.429
+    },
+    {
+      "id": "marine-tondelier",
+      "coverage": 0.745
+    },
+    {
+      "id": "delphine-batho",
+      "coverage": 0.112
+    },
+    {
+      "id": "nathalie-arthaud",
+      "coverage": 0.265
+    },
+    {
+      "id": "juan-branco",
+      "coverage": 0.592
+    },
+    {
+      "id": "bruno-retailleau",
+      "coverage": 0.633
+    },
+    {
+      "id": "francois-asselineau",
+      "coverage": 0.439
+    },
+    {
+      "id": "david-lisnard",
+      "coverage": 0.622
+    },
+    {
+      "id": "nicolas-dupont-aignan",
+      "coverage": 0.694
+    },
+    {
+      "id": "jean-luc-melenchon",
+      "coverage": 0.755
+    },
+    {
+      "id": "florian-philippot",
+      "coverage": 0.653
+    },
+    {
+      "id": "gabriel-attal",
+      "coverage": 0.469
+    },
+    {
+      "id": "anasse-kazib",
+      "coverage": 0.286
+    },
+    {
+      "id": "marine-le-pen",
+      "coverage": 0.714
+    },
+    {
+      "id": "raphael-glucksmann",
+      "coverage": 0.49
+    },
+    {
+      "id": "fabien-roussel",
+      "coverage": 0.643
+    },
+    {
+      "id": "eric-zemmour",
+      "coverage": 0.694
+    }
+  ],
+  "ranked": {
+    "short": {
+      "min": 8,
+      "median": 11,
+      "max": 13
+    },
+    "full": {
+      "min": 8,
+      "median": 10,
+      "max": 10
+    },
+    "byTriple": [
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "economie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "fiscalite"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "immigration"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "sante"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "securite"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "societe",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "fiscalite"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "immigration"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "sante"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "securite"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "institutions"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "democratie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "numerique"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "economie",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "immigration"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "sante"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "securite"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "institutions"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "democratie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "numerique"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "fiscalite",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "immigration",
+          "sante"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "immigration",
+          "securite"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "immigration",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "immigration",
+          "institutions"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "immigration",
+          "democratie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "immigration",
+          "numerique"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "immigration",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "immigration",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "immigration",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "immigration",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "immigration",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "immigration",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "immigration",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "sante",
+          "securite"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "sante",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "sante",
+          "institutions"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "sante",
+          "democratie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "sante",
+          "numerique"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "sante",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "sante",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "sante",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "sante",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "sante",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "sante",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "sante",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "securite",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "securite",
+          "institutions"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "securite",
+          "democratie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "securite",
+          "numerique"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "securite",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "securite",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "securite",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "securite",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "securite",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "securite",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "securite",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "justice",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "justice",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "justice",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "justice",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "justice",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "justice",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "justice",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "justice",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "justice",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "justice",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "institutions",
+          "democratie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "institutions",
+          "numerique"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "institutions",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "institutions",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "institutions",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "institutions",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "institutions",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "institutions",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "institutions",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "democratie",
+          "numerique"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "democratie",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "democratie",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "democratie",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "democratie",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "democratie",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "democratie",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "democratie",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "numerique",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "numerique",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "numerique",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "numerique",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "numerique",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "numerique",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "numerique",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "agriculture",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "agriculture",
+          "defense"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "agriculture",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "agriculture",
+          "transport"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "agriculture",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "agriculture",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "travail",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "travail",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "travail",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "travail",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "travail",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "defense",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "defense",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "defense",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "defense",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "environnement",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "environnement",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "environnement",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "transport",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "international",
+          "energie",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "fiscalite"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "immigration"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "sante"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "securite"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "agriculture"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "economie",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "immigration"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "sante"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "securite"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "institutions"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "numerique"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "agriculture"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "environnement"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "fiscalite",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "immigration",
+          "sante"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "immigration",
+          "securite"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "immigration",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "immigration",
+          "institutions"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "immigration",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "immigration",
+          "numerique"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "immigration",
+          "agriculture"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "immigration",
+          "travail"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "immigration",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "immigration",
+          "environnement"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "immigration",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "immigration",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "immigration",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "sante",
+          "securite"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "sante",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "sante",
+          "institutions"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "sante",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "sante",
+          "numerique"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "sante",
+          "agriculture"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "sante",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "sante",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "sante",
+          "environnement"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "sante",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "sante",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "sante",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "securite",
+          "justice"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "securite",
+          "institutions"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "securite",
+          "democratie"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "securite",
+          "numerique"
+        ],
+        "short": 8,
+        "full": 8
+      },
+      {
+        "priorities": [
+          "societe",
+          "securite",
+          "agriculture"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "securite",
+          "travail"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "securite",
+          "defense"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "securite",
+          "environnement"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "securite",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "securite",
+          "energie"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "securite",
+          "education"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "justice",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "justice",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "justice",
+          "numerique"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "justice",
+          "agriculture"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "justice",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "justice",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "justice",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "justice",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "justice",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "justice",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "institutions",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "institutions",
+          "numerique"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "institutions",
+          "agriculture"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "institutions",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "institutions",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "institutions",
+          "environnement"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "institutions",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "institutions",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "institutions",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "democratie",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "democratie",
+          "agriculture"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "democratie",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "democratie",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "democratie",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "democratie",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "democratie",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "democratie",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "numerique",
+          "agriculture"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "numerique",
+          "travail"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "numerique",
+          "defense"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "numerique",
+          "environnement"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "numerique",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "numerique",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "numerique",
+          "education"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "agriculture",
+          "travail"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "agriculture",
+          "defense"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "agriculture",
+          "environnement"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "agriculture",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "agriculture",
+          "energie"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "agriculture",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "travail",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "travail",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "travail",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "travail",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "travail",
+          "education"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "defense",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "defense",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "defense",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "defense",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "environnement",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "environnement",
+          "energie"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "environnement",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "transport",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "societe",
+          "energie",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "immigration"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "sante"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "securite"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "fiscalite",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "immigration",
+          "sante"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "immigration",
+          "securite"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "immigration",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "immigration",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "immigration",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "immigration",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "immigration",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "immigration",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "immigration",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "immigration",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "immigration",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "immigration",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "immigration",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "sante",
+          "securite"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "sante",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "sante",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "sante",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "sante",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "sante",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "sante",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "sante",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "sante",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "sante",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "sante",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "sante",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "securite",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "securite",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "securite",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "securite",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "securite",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "securite",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "securite",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "securite",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "securite",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "securite",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "securite",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "justice",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "justice",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "justice",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "justice",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "justice",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "justice",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "justice",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "justice",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "justice",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "justice",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "institutions",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "institutions",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "institutions",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "institutions",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "institutions",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "institutions",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "institutions",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "institutions",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "institutions",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "democratie",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "democratie",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "democratie",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "democratie",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "democratie",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "democratie",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "democratie",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "democratie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "numerique",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "numerique",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "numerique",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "numerique",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "numerique",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "numerique",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "numerique",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "agriculture",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "agriculture",
+          "defense"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "agriculture",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "agriculture",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "agriculture",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "agriculture",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "travail",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "travail",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "travail",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "travail",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "travail",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "defense",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "defense",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "defense",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "defense",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "environnement",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "environnement",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "environnement",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "transport",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "economie",
+          "energie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "immigration",
+          "sante"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "immigration",
+          "securite"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "immigration",
+          "justice"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "immigration",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "immigration",
+          "democratie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "immigration",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "immigration",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "immigration",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "immigration",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "immigration",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "immigration",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "immigration",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "immigration",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "sante",
+          "securite"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "sante",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "sante",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "sante",
+          "democratie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "sante",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "sante",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "sante",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "sante",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "sante",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "sante",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "sante",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "sante",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "securite",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "securite",
+          "institutions"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "securite",
+          "democratie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "securite",
+          "numerique"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "securite",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "securite",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "securite",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "securite",
+          "environnement"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "securite",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "securite",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "securite",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "justice",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "justice",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "justice",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "justice",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "justice",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "justice",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "justice",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "justice",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "justice",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "justice",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "institutions",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "institutions",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "institutions",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "institutions",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "institutions",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "institutions",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "institutions",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "institutions",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "institutions",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "democratie",
+          "numerique"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "democratie",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "democratie",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "democratie",
+          "defense"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "democratie",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "democratie",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "democratie",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "democratie",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "numerique",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "numerique",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "numerique",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "numerique",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "numerique",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "numerique",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "numerique",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "agriculture",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "agriculture",
+          "defense"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "agriculture",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "agriculture",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "agriculture",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "agriculture",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "travail",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "travail",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "travail",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "travail",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "travail",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "defense",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "defense",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "defense",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "defense",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "environnement",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "environnement",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "environnement",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "transport",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "fiscalite",
+          "energie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "sante",
+          "securite"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "sante",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "sante",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "sante",
+          "democratie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "sante",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "sante",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "sante",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "sante",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "sante",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "sante",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "sante",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "sante",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "securite",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "securite",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "securite",
+          "democratie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "securite",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "securite",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "securite",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "securite",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "securite",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "securite",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "securite",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "securite",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "justice",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "justice",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "justice",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "justice",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "justice",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "justice",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "justice",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "justice",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "justice",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "justice",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "institutions",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "institutions",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "institutions",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "institutions",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "institutions",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "institutions",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "institutions",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "institutions",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "institutions",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "democratie",
+          "numerique"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "democratie",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "democratie",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "democratie",
+          "defense"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "democratie",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "democratie",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "democratie",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "democratie",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "numerique",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "numerique",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "numerique",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "numerique",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "numerique",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "numerique",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "numerique",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "agriculture",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "agriculture",
+          "defense"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "agriculture",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "agriculture",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "agriculture",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "agriculture",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "travail",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "travail",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "travail",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "travail",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "travail",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "defense",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "defense",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "defense",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "defense",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "environnement",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "environnement",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "environnement",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "transport",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "immigration",
+          "energie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "securite",
+          "justice"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "securite",
+          "institutions"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "securite",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 9
+      },
+      {
+        "priorities": [
+          "sante",
+          "securite",
+          "numerique"
+        ],
+        "short": 9,
+        "full": 9
+      },
+      {
+        "priorities": [
+          "sante",
+          "securite",
+          "agriculture"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "securite",
+          "travail"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "securite",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "securite",
+          "environnement"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "securite",
+          "transport"
+        ],
+        "short": 9,
+        "full": 9
+      },
+      {
+        "priorities": [
+          "sante",
+          "securite",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "securite",
+          "education"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "justice",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "justice",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "justice",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "justice",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "justice",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "justice",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "justice",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "justice",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "justice",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "justice",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "institutions",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "institutions",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "institutions",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "institutions",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "institutions",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "institutions",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "institutions",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "institutions",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "institutions",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "democratie",
+          "numerique"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "democratie",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "democratie",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "democratie",
+          "defense"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "democratie",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "democratie",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "democratie",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "democratie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "numerique",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "numerique",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "numerique",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "numerique",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "numerique",
+          "transport"
+        ],
+        "short": 10,
+        "full": 9
+      },
+      {
+        "priorities": [
+          "sante",
+          "numerique",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "numerique",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "agriculture",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "agriculture",
+          "defense"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "agriculture",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "agriculture",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "agriculture",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "agriculture",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "travail",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "travail",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "travail",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "travail",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "travail",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "defense",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "defense",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "defense",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "defense",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "environnement",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "environnement",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "environnement",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "transport",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "sante",
+          "energie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "justice",
+          "institutions"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "justice",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "justice",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "justice",
+          "agriculture"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "justice",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "justice",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "justice",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "justice",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "justice",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "justice",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "institutions",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "institutions",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "institutions",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "institutions",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "institutions",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "institutions",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "institutions",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "institutions",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "institutions",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "democratie",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "democratie",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "democratie",
+          "travail"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "democratie",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "democratie",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "democratie",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "democratie",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "democratie",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "numerique",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "numerique",
+          "travail"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "numerique",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "numerique",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "numerique",
+          "transport"
+        ],
+        "short": 10,
+        "full": 9
+      },
+      {
+        "priorities": [
+          "securite",
+          "numerique",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "numerique",
+          "education"
+        ],
+        "short": 9,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "agriculture",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "agriculture",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "agriculture",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "agriculture",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "agriculture",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "agriculture",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "travail",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "travail",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "travail",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "travail",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "travail",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "defense",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "defense",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "defense",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "defense",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "environnement",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "environnement",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "environnement",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "transport",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "securite",
+          "energie",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "institutions",
+          "democratie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "institutions",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "institutions",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "institutions",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "institutions",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "institutions",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "institutions",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "institutions",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "institutions",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "democratie",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "democratie",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "democratie",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "democratie",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "democratie",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "democratie",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "democratie",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "democratie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "numerique",
+          "agriculture"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "numerique",
+          "travail"
+        ],
+        "short": 13,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "numerique",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "numerique",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "numerique",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "numerique",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "numerique",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "agriculture",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "agriculture",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "agriculture",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "agriculture",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "agriculture",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "agriculture",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "travail",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "travail",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "travail",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "travail",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "travail",
+          "education"
+        ],
+        "short": 13,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "defense",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "defense",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "defense",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "defense",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "environnement",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "environnement",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "environnement",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "transport",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "justice",
+          "energie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "democratie",
+          "numerique"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "democratie",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "democratie",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "democratie",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "democratie",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "democratie",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "democratie",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "democratie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "numerique",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "numerique",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "numerique",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "numerique",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "numerique",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "numerique",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "numerique",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "agriculture",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "agriculture",
+          "defense"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "agriculture",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "agriculture",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "agriculture",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "agriculture",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "travail",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "travail",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "travail",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "travail",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "travail",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "defense",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "defense",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "defense",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "defense",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "environnement",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "environnement",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "environnement",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "transport",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "institutions",
+          "energie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "numerique",
+          "agriculture"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "numerique",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "numerique",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "numerique",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "numerique",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "numerique",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "numerique",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "agriculture",
+          "travail"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "agriculture",
+          "defense"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "agriculture",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "agriculture",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "agriculture",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "agriculture",
+          "education"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "travail",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "travail",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "travail",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "travail",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "travail",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "defense",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "defense",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "defense",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "defense",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "environnement",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "environnement",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "environnement",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "transport",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "democratie",
+          "energie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "agriculture",
+          "travail"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "agriculture",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "agriculture",
+          "environnement"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "agriculture",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "agriculture",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "agriculture",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "travail",
+          "defense"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "travail",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "travail",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "travail",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "travail",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "defense",
+          "environnement"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "defense",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "defense",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "defense",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "environnement",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "environnement",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "environnement",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "transport",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "numerique",
+          "energie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "travail",
+          "defense"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "travail",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "travail",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "travail",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "travail",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "defense",
+          "environnement"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "defense",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "defense",
+          "energie"
+        ],
+        "short": 12,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "defense",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "environnement",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "environnement",
+          "energie"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "environnement",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "transport",
+          "education"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "agriculture",
+          "energie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "travail",
+          "defense",
+          "environnement"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "travail",
+          "defense",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "travail",
+          "defense",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "travail",
+          "defense",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "travail",
+          "environnement",
+          "transport"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "travail",
+          "environnement",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "travail",
+          "environnement",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "travail",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "travail",
+          "transport",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "travail",
+          "energie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "defense",
+          "environnement",
+          "transport"
+        ],
+        "short": 10,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "defense",
+          "environnement",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "defense",
+          "environnement",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "defense",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "defense",
+          "transport",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "defense",
+          "energie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "environnement",
+          "transport",
+          "energie"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "environnement",
+          "transport",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "environnement",
+          "energie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      },
+      {
+        "priorities": [
+          "transport",
+          "energie",
+          "education"
+        ],
+        "short": 11,
+        "full": 10
+      }
+    ]
+  },
+  "successCriteria": {
+    "sc001": false,
+    "sc002": true
+  }
+}

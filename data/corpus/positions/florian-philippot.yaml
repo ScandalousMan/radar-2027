@@ -1463,11 +1463,14 @@
   quote: "Conserver notre dissuasion nucléaire."
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le projet 2026 (p. 10) veut conserver la dissuasion nucléaire, sans parler de sa modernisation : opposition partielle à l'idée d'y renoncer."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-28
+  reviewer: adrien
+  reviewedAt: 2026-11-28
+  reviewedHash: sha256:685191ebe344f8ff794321ff39fbe7ad182ead1fd899379a637b2cfb4650c07a
 
 - question: societe-signes-religieux-universite
   value: 2
@@ -1478,11 +1481,14 @@
   quoteSource: florian-philippot-florian-philippot-quand-nous-ferons-le-frexit-nous-aurons-de
   justification: "Sud Radio (31 octobre 2019), à propos du voile : soutien explicite à une interdiction à l'université ; ancien, non corroboré récemment."
   old: true
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-28
+  reviewer: adrien
+  reviewedAt: 2026-11-28
+  reviewedHash: sha256:5d3b29b6f9ec8dc2b373bb8b5ac25f66e70d2d274293a4054b046e91798673e8
 
 - question: fiscalite-taxe-benefices-exceptionnels
   value: 1
@@ -1493,11 +1499,14 @@
   quoteSource: florian-philippot-prix-des-carburants-on-pourrait-se-priver-de-tva-sur-l-essen
   justification: "franceinfo (8 mai 2019) : surtaxe des grands groupes pétroliers et gaziers, plus étroite que l'énoncé (bénéfices exceptionnels de toutes les grandes entreprises) ; ancien."
   old: true
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-28
+  reviewer: adrien
+  reviewedAt: 2026-11-28
+  reviewedHash: sha256:58846e2d19ce93fd6608920238c6c9d77ee95608cc72525ee3c546d3d6cf5d4d
 
 - question: travail-smic-au-dela-inflation
   value: 1
@@ -1508,11 +1517,14 @@
   quoteSource: florian-philippot-pecresse-lr-en-faveur-d-une-augmentation-du-smic-net-de-20-p
   justification: "Public Sénat (21 juin 2018) : +15 % en cinq ans, au-dessus de l'inflation de l'époque ; dit au nom de son parti, qu'il préside ; ancien."
   old: true
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-28
+  reviewer: adrien
+  reviewedAt: 2026-11-28
+  reviewedHash: sha256:e4fb40d228dbdd0a46dbdad50c125c0e99bee0b3c0b1c8805bf904f21e630b8c
 
 - question: economie-reduire-nombre-fonctionnaires
   value: -1
@@ -1523,11 +1535,14 @@
   quoteSource: florian-philippot-florian-philippot-marine-le-pen-est-le-seul-rempart-face-a-f
   justification: "Sud Radio (2016) : critique de la suppression de 500 000 postes de fonctionnaires ; ancien, non corroboré récemment."
   old: true
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-28
+  reviewer: adrien
+  reviewedAt: 2026-11-28
+  reviewedHash: sha256:9a67f2205716b76797c75201b6a8310cbd0883952d4ca8b614b7028a5ea14108
 
 - question: energie-supprimer-aides-solaire-eolien
   value: 1
@@ -1537,8 +1552,11 @@
   quote: "Il faut donc un moratoire total et définitif sur cette méthode de production d'électricité"
   quoteSource: florian-philippot-projet-pour-la-france-2026
   justification: "Le projet 2026 demande un moratoire définitif sur l'éolien et supprime dans son tableau d'économies la ligne « Soutien aux énergies électriques alt. et bouclier énergétique 5 Md€ / an » ; soutien partiel, la ligne mêlant les aides et le bouclier énergétique."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-28
+  reviewer: adrien
+  reviewedAt: 2026-11-28
+  reviewedHash: sha256:ad3cc304a03329a44b8f135adaef788b6cef553cd2bd7e36128749ef19d29496

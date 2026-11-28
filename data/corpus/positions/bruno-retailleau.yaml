@@ -1388,11 +1388,14 @@
   quote: "La Ve République repose sur le fait majoritaire. Instaurer la proportionnelle, c'est graver l'instabilité dans nos institutions."
   quoteSource: bruno-retailleau-jdd-mai-68-barbares-2025-06
   justification: "Entretien au JDD (juin 2025) : opposition explicite à la proportionnelle, qu'il dit maintenir comme « point dur »."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-28
+  reviewer: adrien
+  reviewedAt: 2026-11-28
+  reviewedHash: sha256:aeff72e4ac0c36f797b09204b955e00723639075c4fac93bcd8e1e5626e7ad1a
 
 - question: fiscalite-taxe-benefices-exceptionnels
   value: -2
@@ -1402,11 +1405,14 @@
   quote: "Tous ces amendements ont le goût sucré des mesures qui n'ont que l'apparence de la justice sociale. Ce sont de fausses bonnes solutions, et cela pour deux raisons."
   quoteSource: bruno-retailleau-senat-compte-rendu-integral-de-la-seance-du-1er-aout-2022-pr
   justification: "Explication de vote au Sénat (1er août 2022, PLFR) contre les amendements de taxation des superprofits, qu'il qualifie de « fausses bonnes solutions »."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-28
+  reviewer: adrien
+  reviewedAt: 2026-11-28
+  reviewedHash: sha256:680a8b2bddc44979c141e393fe53ac7f2b85b9ad4b9c6680b074e9185e1b0e46
 
 - question: education-uniforme-obligatoire
   value: 2
@@ -1416,11 +1422,14 @@
   quote: "Les élèves des écoles primaires, collèges et lycées portent une tenue vestimentaire uniforme au sein de leur établissement."
   quoteSource: bruno-retailleau-proposition-de-loi-n-202-2022-2023-visant-a-rendre-obligatoi
   justification: "Cosignataire (2e signataire) de la proposition de loi Sénat n° 202 (13 décembre 2022) rendant l'uniforme obligatoire du primaire au lycée ; cosignature comptée comme position personnelle. Le livret LR d'août 2026 dit seulement « encouragé » (position du parti)."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-28
+  reviewer: adrien
+  reviewedAt: 2026-11-28
+  reviewedHash: sha256:5510c63189a73398f3700c074fefb90728ca32e7266ef1096fef7cd26e435702
 
 - question: democratie-referendum-initiative-citoyenne
   value: 1
@@ -1430,8 +1439,11 @@
   quote: "alléger les contraintes nécessaires à l'organisation d'un référendum d'initiative partagée : plutôt que 5 millions de signatures, il en faudrait moitié moins"
   quoteSource: bruno-retailleau-figaro-constitution-2026-09
   justification: "Entretien au Figaro (septembre 2026) : il veut abaisser le seuil de signatures du référendum d'initiative partagée, qui exige aussi des parlementaires ; soutien plus étroit qu'un référendum déclenché par la seule pétition."
-  status: draft
+  status: reviewed
   provenance:
     kind: manual
   author: claude
   authoredAt: 2026-11-28
+  reviewer: adrien
+  reviewedAt: 2026-11-28
+  reviewedHash: sha256:3efeafd6126e033aad8619859007c07dbf9002665cfdf45fa6b94a315c52a030
