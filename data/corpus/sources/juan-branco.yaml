@@ -42,3 +42,25 @@
   candidates:
     - juan-branco
   contentHash: sha256:97b7d5e9448973c71b2a98be0733b3c92069e4041bfcf50722fecafb8bc76d9d
+- id: juan-branco-reponse-de-juan-branco-a-philippe-juvin-rapporteur-general-d
+  url: https://media.ruches.org/livre/juan-branco-reponse-a-philippe-juvin.pdf
+  title: Réponse de Juan Branco à Philippe Juvin, rapporteur général de la commission des Finances (lettre du 11 septembre 2026, PDF)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-09-11
+    precision: day
+  accessedAt: 2026-11-28
+  candidates:
+    - juan-branco
+  contentHash: sha256:f6b24c0b0b390b730aba210f765c6a6ce210be6d0f99dbec9ffb8a11a171cc83
+- id: juan-branco-abattre-l-ennemi-juan-branco-texte-integral-en-acces-libre-s
+  url: https://juan-branco.fr/wp-content/uploads/2022/01/ABATTRE_LENNEMI.pdf
+  title: Abattre l'ennemi (Juan Branco, texte intégral en accès libre sur juan-branco.fr, PDF)
+  kind: livre_plateforme
+  publishedAt:
+    date: "2021"
+    precision: year
+  accessedAt: 2026-11-28
+  candidates:
+    - juan-branco
+  contentHash: sha256:67adc6c0616b0a282e60d3538c08000bb283348aaa6e9dd4932e6b2acccb91df

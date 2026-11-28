@@ -277,3 +277,241 @@
   journal: 2026-11-27-campagne-philippot-banque-active
   createdAt: 2026-11-27
   updatedAt: 2026-11-27
+
+- id: florian-philippot-travail-001
+  personality: florian-philippot
+  kind: POSITION
+  theme: travail
+  question: travail-smic-au-dela-inflation
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Nous sommes favorables à 15% d'augmentation du Smic en 5 ans"
+  speaker: Florian Philippot
+  context: "Dépêche Public Sénat sur la proposition de Valérie Pécresse (Smic net +20 %) ; Philippot, président des Patriotes et député européen, réagit à la proposition de Guillaume Peltier (+10, 15 ou 20 %) en se disant « ouvert » à une revalorisation, tout en doutant de la sincérité de M. Peltier."
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache de la source du registre (propos rapportés entre guillemets par Public Sénat : « a confié le député européen sur Public Sénat »). Original audiovisuel non retrouvé. « Nous » : propos tenus comme président du parti, sans distinction explicite avec une position personnelle. Date : la dépêche est publiée le jeudi 2018-06-21 ; la source indique « jeudi » pour la réaction de Mme Pécresse, la date exacte de l'interview de Philippot n'est pas précisée."
+  source: florian-philippot-pecresse-lr-en-faveur-d-une-augmentation-du-smic-net-de-20-p
+  publisher: "Public Sénat"
+  locator: { kind: passage, value: "dernier tiers de la dépêche, paragraphe sur la réaction de Florian Philippot" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: MEDIUM
+  temporalRelevance: DATED
+  period: "2018, député européen, président des Patriotes"
+  rationale:
+    sourceQuality: "Dépêche d'un média établi rapportant un propos entre guillemets ; non primaire."
+    attribution: "Propos tenus par Philippot en son nom de président des Patriotes (« nous »)."
+    interpretation: "Une hausse de 15 % en cinq ans (environ 2,8 % par an) est un coup de pouce chiffré, mais l'énoncé exige une hausse supérieure à l'inflation ; l'inflation n'est pas mentionnée, d'où un soutien qualifié. Propos de 2018, non corroboré récemment."
+    temporalRelevance: "Plus de 8 ans, non corroboré par une source récente (le projet 2026 ne fixe pas de trajectoire du SMIC)."
+  statedAt: { date: 2018-06-21, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-florian-philippot-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+
+- id: florian-philippot-societe-001
+  personality: florian-philippot
+  kind: POSITION
+  theme: societe
+  question: societe-signes-religieux-universite
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "je suis pour une interdiction à l'université depuis longtemps"
+  speaker: Florian Philippot
+  context: "Sud Radio, « C'est à la une », 31 octobre 2019 : interrogé sur l'interdiction prochaine du voile pour les mères accompagnatrices de sorties scolaires, il se dit « tout à fait favorable », ajoute que « cela n'est pas suffisant », puis la phrase citée, et conclut qu'interdire les voiles ne règle rien tant que les flux d'immigration continuent."
+  verificationNotes: "Citation retrouvée mot pour mot dans le corps de l'article Sud Radio (texte en cache). L'intertitre de la même page reformule : « Je suis pour une interdiction du voile à l'université depuis longtemps » (variante de la même source, non retenue comme citation). La phrase du corps est elliptique (« interdiction » du voile, sujet de la question) ; transcription écrite de la radio, entretien audio non écouté."
+  source: florian-philippot-florian-philippot-quand-nous-ferons-le-frexit-nous-aurons-de
+  publisher: "Sud Radio"
+  locator: { kind: paragraph, value: "9 (réponse sur l'interdiction du voile pour les accompagnatrices de sorties scolaires)" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: "2019, président des Patriotes, candidat aux municipales de Forbach"
+  rationale:
+    sourceQuality: "Compte rendu écrit par la radio d'origine de son propre entretien ; secondaire car transcription non intégrale ni audio vérifié."
+    interpretation: "Soutien à l'interdiction du voile à l'université, donc à une partie seulement des signes religieux ostensibles visés par l'énoncé (qui ne parle pas du voile en particulier) : soutien qualifié, plus étroit que l'énoncé."
+    temporalRelevance: "Propos de 2019, non corroboré récemment : le projet 2026 évoque la laïcité à l'école mais pas l'université."
+  statedAt: { date: 2019-10-31, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-florian-philippot-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+
+- id: florian-philippot-fiscalite-003
+  personality: florian-philippot
+  kind: POSITION
+  theme: fiscalite
+  question: fiscalite-taxe-benefices-exceptionnels
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Je propose une surtaxation des grands groupes pétroliers et gaziers"
+  speaker: Florian Philippot
+  context: "France 2, « Les 4 Vérités », 8 mai 2019, à propos de la hausse des prix des carburants. Il ajoute que les grands groupes « doivent contribuer à la solidarité nationale », et, à la question « Cette surtaxe serait-elle générale ou conjoncturelle ? » : « Je crois que l'on peut les surtaxer de manière particulière quand il y a une hausse comme cela des prix à la pompe. »"
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache de la source du registre (compte rendu franceinfo de l'émission France 2, propos entre guillemets). Vidéo non écoutée ; la citation de réponse « surtaxer de manière particulière quand il y a une hausse » figure dans la même page."
+  source: florian-philippot-prix-des-carburants-on-pourrait-se-priver-de-tva-sur-l-essen
+  publisher: "franceinfo (France Télévisions)"
+  locator: { kind: passage, value: "article, paragraphe « Je propose une surtaxation… »" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: "2019, député européen, président des Patriotes"
+  rationale:
+    sourceQuality: "Compte rendu d'une émission par le diffuseur lui-même ; secondaire (pas de transcription intégrale)."
+    interpretation: "Taxe supplémentaire sur les seules grandes entreprises pétrolières et gazières, déclenchée par une hausse des prix à la pompe, donc liée à une conjoncture : proche de la taxation de « bénéfices exceptionnels » mais ciblée sur un secteur et sur le prix, non sur le niveau des profits. Soutien qualifié."
+    temporalRelevance: "Plus de 7 ans, non corroboré récemment (le projet 2026 évoque seulement la lutte contre l'optimisation fiscale des grands groupes)."
+  statedAt: { date: 2019-05-08, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-florian-philippot-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+
+- id: florian-philippot-economie-002
+  personality: florian-philippot
+  kind: POSITION
+  theme: economie
+  question: economie-reduire-nombre-fonctionnaires
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Si vous dîtes qu'on supprime 500 000 fonctionnaires, il faut savoir qu'on casse le service public"
+  speaker: Florian Philippot
+  context: "Sud Radio / Public Sénat, « Territoires d'Infos », 6 décembre 2016, à propos du programme de François Fillon. Philippot ajoute que l'on a procédé « à moindre dose sous Sarkozy » avec des effets sur la police, les renseignements, la gendarmerie, l'armée et l'hôpital, et juge qu'« on va recommencer en pire ? Ce serait suicidaire »."
+  verificationNotes: "Citation retrouvée mot pour mot (orthographe « dîtes » de la source conservée) dans le texte en cache ; la phrase est coupée dans l'article par l'incise « a assuré Florian Philippot », le fragment cité est contigu dans la source. Émission écoutée non ; compte rendu écrit de Sud Radio."
+  source: florian-philippot-florian-philippot-marine-le-pen-est-le-seul-rempart-face-a-f
+  publisher: "Sud Radio"
+  locator: { kind: passage, value: "dernier paragraphe de l'article, propos sur les 500 000 fonctionnaires" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: "2016, vice-président du Front national, campagne présidentielle 2017"
+  rationale:
+    sourceQuality: "Compte rendu écrit par la radio d'origine ; secondaire."
+    interpretation: "Opposition à une suppression massive (500 000 postes) au nom des services publics, pas à toute diminution : l'énoncé (diminution du nombre de fonctionnaires sans chiffre) est plus large, d'où une opposition qualifiée. Le projet 2026 prévoit en parallèle une « suppression des doublons dans la fonction publique territoriale » (30 Md€ / an visés) sans chiffrer les postes : nuance, pas contradiction établie."
+    temporalRelevance: "Propos de 2016 tenus comme vice-président du FN, période révolue ; à ne pas présenter comme position actuelle."
+  statedAt: { date: 2016-12-06, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-florian-philippot-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+
+- id: florian-philippot-defense-003
+  personality: florian-philippot
+  kind: POSITION
+  theme: defense
+  question: defense-renoncer-modernisation-dissuasion
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Conserver notre dissuasion nucléaire."
+  speaker: Florian Philippot
+  context: "Projet « Grandes orientations pour un projet patriote 2026-2027 », rubrique souveraineté / défense. Suite du passage : « L'Union européenne lorgne sur l'arsenal nucléaire français […]. Les déclarations du président Macron se disant prêt à partager notre dissuasion avec l'Europe constituent une trahison sans précédent de nos intérêts nationaux. »"
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache de la source du registre et dans le PDF (page 10 du fichier). Le passage porte sur le maintien d'une dissuasion strictement nationale face à son partage européen ; la modernisation n'est pas mentionnée."
+  source: florian-philippot-projet-pour-la-france-2026
+  publisher: "Les Patriotes"
+  locator: { kind: page, value: "10 (numéro de page du fichier PDF)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Document de parti élaboré avec le Pôle d'expertise des Patriotes, publié par le mouvement dont Philippot est le président et le candidat ; même traitement que les autres preuves tirées de ce projet (confiance MEDIUM)."
+    interpretation: "Opposition à l'idée de renoncer à la dissuasion, mais l'énoncé porte sur sa modernisation : « conserver » et dénoncer son partage européen ne disent rien du renouvellement des composantes. Opposition qualifiée, plus étroite que l'énoncé."
+  statedAt: { date: 2026-09-03, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-florian-philippot-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+
+- id: florian-philippot-energie-001
+  personality: florian-philippot
+  kind: POSITION
+  theme: energie
+  question: energie-supprimer-aides-solaire-eolien
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Soutien aux énergies électriques alt. et bouclier énergétique 5 Md€ / an 5 Md€ / an"
+  speaker: Florian Philippot
+  context: "Projet « Grandes orientations pour un projet patriote 2026-2027 », rubrique finances publiques : tableau « Économies possibles » (colonnes : dépenses annuelles / potentiel d'économies ; économies annuelles visées). La ligne figure parmi les économies visées, avec la contribution nette à l'UE, la suppression des doublons dans la fonction publique territoriale et la baisse du coût de l'immigration (total « 60 Md€ / an »)."
+  verificationNotes: "Ligne de tableau retrouvée mot pour mot dans le texte en cache ; localisée page 9 du fichier PDF, où les deux valeurs de 5 Md€ / an sont alignées avec les colonnes « potentiel d'économies » et « économies annuelles visées ». Texte aplati par l'extraction du PDF (retours à la ligne dans « alt. et / bouclier énergétique »). La ligne regroupe le soutien aux énergies électriques « alternatives » et le bouclier énergétique : ni le solaire ni l'éolien ne sont nommés."
+  source: florian-philippot-projet-pour-la-france-2026
+  publisher: "Les Patriotes"
+  locator: { kind: page, value: "9 (numéro de page du fichier PDF), tableau « Économies possibles »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Document de parti publié par le mouvement dont Philippot est le président et le candidat ; confiance MEDIUM comme pour les autres preuves tirées de ce projet."
+    interpretation: "Le projet vise une économie annuelle égale à la totalité de la ligne de soutien aux énergies électriques alternatives (5 sur 5 Md€), donc la suppression de ce soutien, mais la ligne est groupée avec le bouclier énergétique et ne nomme ni le solaire ni l'éolien. Soutien qualifié. Voir aussi florian-philippot-energie-002 (moratoire sur l'éolien)."
+  statedAt: { date: 2026-09-03, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-florian-philippot-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+
+- id: florian-philippot-energie-002
+  personality: florian-philippot
+  kind: POSITION
+  theme: energie
+  question: energie-supprimer-aides-solaire-eolien
+  qualification: QUALIFIED_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Il faut donc un moratoire total et définitif sur cette méthode de production d'électricité"
+  speaker: Florian Philippot
+  context: "Projet « Grandes orientations pour un projet patriote 2026-2027 », rubrique énergie : « En finir avec les éoliennes sur terre et en mer. Coût faramineux, laideur esthétique, menace sur la biodiversité […] il n'y a aucune raison de poursuivre le développement des éoliennes en France. Il faut donc un moratoire total et définitif sur cette méthode de production d'électricité qui nous est là encore imposée par l'Union européenne. Il faut engager un plan de démantèlement des éoliennes installées […]. »"
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache ; page 3 du fichier PDF. L'éolien seul est visé (rien sur le solaire) et l'instrument est un moratoire et un démantèlement, pas la suppression d'aides ; le texte ne parle pas de subventions."
+  source: florian-philippot-projet-pour-la-france-2026
+  publisher: "Les Patriotes"
+  locator: { kind: page, value: "3 (numéro de page du fichier PDF), rubrique énergie" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Document de parti publié par le mouvement dont Philippot est le président et le candidat ; confiance MEDIUM."
+    interpretation: "Un moratoire total sur l'éolien terrestre et maritime mettrait fin à tout nouveau soutien à l'éolien, mais l'énoncé vise la suppression des aides au solaire et à l'éolien ; ici, instrument différent (moratoire) et filière unique : soutien indirect et partiel, plus faible que energie-001."
+  statedAt: { date: 2026-09-03, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-florian-philippot-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+
+- id: florian-philippot-environnement-001
+  personality: florian-philippot
+  kind: POSITION
+  theme: environnement
+  question: environnement-supprimer-zfe
+  qualification: EXPLICIT_SUPPORT
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Stop aux ZFE !"
+  speaker: Les Patriotes
+  context: "Page de pétition du site des Patriotes, 2 janvier 2025, non signée : « Les ZFE sont l'application de la loi Climat de 2021 […] Refusons cette ségrégation ! […] Stop aux ZFE ! Stop à Macron et à l'UE ! Oui à la vraie écologie et non à la fausse écologie liberticide et anti-pauvres ! »"
+  verificationNotes: "Citation retrouvée mot pour mot dans le texte en cache. Page sans signataire : position du parti, non attribuable personnellement à Philippot sans autre élément. Aucun propos personnel de Philippot sur les ZFE retrouvé (une mention d'un direct YouTube, sans contenu, dans un commentaire de Breizh-info, n'a pas été retenue)."
+  source: florian-philippot-stop-aux-zfe-les-patriotes-petition
+  publisher: "Les Patriotes"
+  locator: { kind: passage, value: "dernière ligne de la page de pétition" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PARTY_POSITION
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: "janvier 2025"
+  rationale:
+    attribution: "Page de pétition du parti, sans auteur ; position de parti, pas position personnelle (spec 009, § 13 bis point 5)."
+    interpretation: "Demande explicite d'arrêter les ZFE : soutien explicite à leur suppression pour le parti. Ne peut pas servir seule de position personnelle."
+    temporalRelevance: "Janvier 2025, soit plus de 12 mois, non corroboré par une source récente."
+  statedAt: { date: 2025-01-02, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-florian-philippot-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28

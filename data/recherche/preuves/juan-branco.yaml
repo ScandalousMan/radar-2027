@@ -431,3 +431,181 @@
   journal: 2026-11-27-campagne-branco-banque-active
   createdAt: 2026-11-27
   updatedAt: 2026-11-27
+- id: juan-branco-institutions-001
+  personality: juan-branco
+  kind: POSITION
+  theme: institutions
+  question: institutions-supprimer-senat
+  qualification: EXPLICIT_SUPPORT
+  candidacyStatus: POTENTIAL
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Suppression du Conseil économique et social et du Sénat."
+  speaker: Juan Branco
+  context: "Livre « Abattre l'ennemi » (texte intégral en accès libre sur juan-branco.fr), dernier chapitre « Gouverner », section « Réforme institutionnelle » : « Réformes qui seront proposées dans le cadre de cette initiative constituante » (liste à puces). Au chapitre « Penser » (p. 128), le livre prévoit aussi, « en alternative à leur abolition », une fusion du Sénat et du CESE en une assemblée représentative."
+  verificationNotes: "Phrase retrouvée mot pour mot dans le texte en cache du PDF (extraction pdftotext relue, page 146 du fichier = folio 146). Le même PDF dit p. 128 : « Il sera proposé, en alternative à leur abolition, que le Sénat et le CESE se fondent en une assemblée » et, p. 120 (chapitre « Agir »), « la transformation du Sénat en une chambre du peuple chargée de valider les impulsions défendues par l'Assemblée des communes » : l'abolition est la mesure listée p. 146, avec des variantes (fusion, chambre du peuple) soumises au choix. Ouvrage rédigé en 2021 (métadonnées du PDF : création le 2021-07-30) pour une conquête du pouvoir hors cycle 2027 ; mis en ligne sur le site (chemin d'upload 2022/01). Date des propos approchée à l'année 2021, non à la publication."
+  source: juan-branco-abattre-l-ennemi-juan-branco-texte-integral-en-acces-libre-s
+  publisher: "juan-branco.fr (site personnel de l'auteur)"
+  locator: { kind: page, value: "146" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: "ouvrage de 2021, avant la candidature 2027"
+  rationale:
+    sourceQuality: "Livre signé de l'auteur, diffusé par lui sur son site : source primaire ; texte lu dans le cache du registre."
+    attribution: "Ouvrage personnel de Juan Branco ; propositions de réforme présentées à la première personne du pluriel au nom du projet qu'il porte."
+    interpretation: "Mesure explicitement listée : suppression du Sénat. Réserve : proposée dans un cadre constituant avec une variante de fusion (p. 128), et publiée en 2021."
+    temporalRelevance: "Écrit en 2021, non repris mot pour mot dans le programme 2026 ; corroboré dans l'esprit par le programme 2026 (trois options qui font toutes disparaître le Sénat comme chambre distincte, voir juan-branco-institutions-002), d'où DATED et non CURRENT."
+  statedAt: { date: "2021", precision: year }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-juan-branco-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+- id: juan-branco-institutions-002
+  personality: juan-branco
+  kind: POSITION
+  theme: institutions
+  question: institutions-supprimer-senat
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Suppression du Sénat et de l'Assemblée nationale, création de 14 500 agoras réparties sur le territoire (3 500 citoyens par agora pour 50 millions d'électeurs 3) Fusion du Sénat et de l'Assemblée nationale en une Chambre du peuple, à scrutin mixte."
+  speaker: Juan Branco
+  context: "Programme « La Voie » (version 9) des Ruches, partie Démocratie, note 2 « Réorganisation des fonctions législatives, avec trois options » soumises à l'assemblée constituante. Options 2 et 3 citées ; l'option 1 (même note, texte non contigu) est : « Création d'une chambre haute absorbant le Sénat et le Conseil Économique, Social et Environnemental (CESE) »."
+  verificationNotes: "Passage retrouvé mot pour mot dans le texte en cache du PDF (le « 3 » collé à « électeurs » est le numéro d'option 3 de l'extraction, parenthèse non refermée dans le texte extrait). Option 1 vérifiée dans la même note du cache. Les trois options font disparaître le Sénat comme chambre distincte (suppression, absorption, fusion) ; aucune ne le maintient. Pagination indicative (la note 2 court sur les pages 9 à 10). PDF rouvert le 2026-11-28 : même fichier (créé le 2026-05-27), pas de version plus récente."
+  source: juan-branco-la-voie-programme-2027
+  publisher: Les Ruches
+  locator: { kind: passage, value: "partie Démocratie, note 2 (réorganisation du Parlement, options 2 et 3 ; pp. 9-10 indicatives)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Programme de campagne publié par le mouvement du candidat pour sa candidature présidentielle."
+    interpretation: "Le programme ne tranche pas entre trois architectures soumises à la constituante, mais aucune ne conserve le Sénat : suppression (option 2), absorption dans une chambre haute (option 1), fusion (option 3). Soutien à la disparition du Sénat tel qu'il existe, sans engagement sur le mot « supprimé » pour les options 1 et 3 : soutien qualifié."
+  statedAt: { date: 2026-05-27, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-juan-branco-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+- id: juan-branco-immigration-003
+  personality: juan-branco
+  kind: POSITION
+  theme: immigration
+  question: immigration-regularisation-cinq-ans
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: POTENTIAL
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Régularisation des sans-papiers présents sur le territoire satisfaisant à des critères d'assimilation, accompagnée d'obligations de service à la nation, d'une conditionnalisation du regroupement familial et d'une déconcentration du traitement de l'asile au niveau consulaire"
+  speaker: Juan Branco
+  context: "Livre « Abattre l'ennemi » (texte intégral en accès libre sur juan-branco.fr), chapitre « Gouverner », liste de mesures du volet Intérieur / police et immigration."
+  verificationNotes: "Phrase retrouvée mot pour mot dans le texte en cache du PDF (page 153 du fichier = folio 153). Ouvrage rédigé en 2021 (métadonnées du PDF : création le 2021-07-30), mis en ligne sur le site (chemin d'upload 2022/01). Le programme 2026 reprend l'idée en termes voisins (« Mise en place de critères objectivables d'intégration [...] dans le cadre des régularisations de personnes dénuées de titres de séjour », déjà preuve juan-branco-immigration-001 pour la question métiers en tension) ; cette phrase ne peut pas être rattachée à une seconde question (règle RECH-EVIDENCE), d'où l'appui sur la version 2021, plus explicite. Aucune durée de présence (cinq ans) n'est mentionnée dans aucune des deux versions."
+  source: juan-branco-abattre-l-ennemi-juan-branco-texte-integral-en-acces-libre-s
+  publisher: "juan-branco.fr (site personnel de l'auteur)"
+  locator: { kind: page, value: "153" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: "ouvrage de 2021, avant la candidature 2027"
+  rationale:
+    sourceQuality: "Livre signé de l'auteur, diffusé par lui sur son site : source primaire ; texte lu dans le cache du registre."
+    attribution: "Ouvrage personnel de Juan Branco ; mesures présentées au nom du projet qu'il porte."
+    interpretation: "Soutien à la régularisation des sans-papiers présents sur le territoire, conditionnée à des critères d'assimilation et à des obligations de service à la nation ; l'ancienneté de cinq ans de l'énoncé n'est pas le critère : soutien qualifié, plus conditionnel et sans seuil de durée."
+    temporalRelevance: "Écrit en 2021 ; corroboré dans l'esprit par le programme 2026 (juan-branco-immigration-001) : DATED pour le texte lui-même."
+  statedAt: { date: "2021", precision: year }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-juan-branco-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+- id: juan-branco-economie-001
+  personality: juan-branco
+  kind: POSITION
+  theme: economie
+  question: economie-reduire-nombre-fonctionnaires
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "la réduction massive du personnel administratif dans la fonction hospitalière"
+  speaker: Juan Branco
+  context: "Lettre de Juan Branco du 11 septembre 2026 à Philippe Juvin (rapporteur général de la commission des Finances de l'Assemblée nationale), réponse à son courrier du 31 août 2026 sur la charge de la dette ; phrase complète : « Nous proposons, outre la fusion de plus de cent organismes et opérateurs d'État ; la réduction massive du personnel administratif dans la fonction hospitalière ; du financement public de la formation professionnelle assurée par des opérateurs privés ; et une baisse générale des dépenses publiques recentrées sur les services publics essentiels ; la suppression de 267 taxes et impôts […] »."
+  verificationNotes: "Texte retrouvé mot pour mot dans le cache du PDF de la lettre (4 pages, signée, p. 2). Le programme confirme la mesure sectorielle (« Suppression, après un audit flash, d'un quart à la moitié des postes d'encadrement administratif dans les hôpitaux »). Le même programme crée par ailleurs des postes (doublement des agents douaniers, garde champêtre par commune, etc.) : aucune cible globale d'effectifs de la fonction publique n'est donnée."
+  source: juan-branco-reponse-de-juan-branco-a-philippe-juvin-rapporteur-general-d
+  publisher: Les Ruches (lettre publiée sur ruches.org)
+  locator: { kind: page, value: "2" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Lettre à en-tête et signature de Juan Branco, publiée par son mouvement."
+    interpretation: "Réduction de personnel ciblée (administratif hospitalier) et fusion d'organismes d'État, dans une baisse générale des dépenses publiques : soutien partiel à une diminution du nombre d'agents publics, plus étroit que l'énoncé (pas de cible globale, pas d'horizon quinquennal explicite). Soutien qualifié, de force modérée."
+  statedAt: { date: 2026-09-11, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-juan-branco-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+- id: juan-branco-economie-002
+  personality: juan-branco
+  kind: POSITION
+  theme: economie
+  question: economie-edf-entierement-publique
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "et de rétablir des services publics fonctionnels : nous pensons ainsi par exemple aux opérateurs téléphoniques ; aux gestionnaires d'autoroutes ; ou aux opérateurs commerciaux du marché de l'électricité"
+  speaker: Juan Branco
+  context: "Lettre de Juan Branco du 11 septembre 2026 à Philippe Juvin ; la phrase commence par « Elle s'accompagnera enfin, dans le cadre du changement constitutionnel que nous proposons, de nationalisations sans indemnisations pour leurs principaux actionnaires concernant un certain nombre de monopoles naturels ayant été sans raison privatisés, afin de dégager des marges de manœuvre budgétaires au sein des populations et de l'État, » puis continue par la citation."
+  verificationNotes: "Texte retrouvé mot pour mot dans le cache du PDF de la lettre (p. 3). EDF n'est PAS nommée : la lettre vise les « opérateurs commerciaux du marché de l'électricité » (fournisseurs privés). Le programme (partie Énergie) propose de même « Expropriation des acteurs privés et nationalisation du marché de la distribution de l'électricité : fin de la concurrence dans le secteur énergétique » et « Arrêt du processus de privatisation de l'hydroélectrique », et prévoit « Interdiction de cession de patrimoine public, y compris de privatisations, hors référendum » (partie Démocratie) ; aucun de ces passages ne nomme EDF. Preuve limite : lecture à arbitrer par l'orchestrateur."
+  source: juan-branco-reponse-de-juan-branco-a-philippe-juvin-rapporteur-general-d
+  publisher: Les Ruches (lettre publiée sur ruches.org)
+  locator: { kind: page, value: "3" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Lettre à en-tête et signature de Juan Branco, publiée par son mouvement."
+    interpretation: "Soutien à la propriété publique du secteur électrique (nationalisation des opérateurs commerciaux, condamnation de la privatisation), compatible avec et plus large que l'énoncé, mais sans mention d'EDF ni de son capital : soutien qualifié, lien indirect avec l'énoncé précis."
+  statedAt: { date: 2026-09-11, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-juan-branco-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+- id: juan-branco-energie-002
+  personality: juan-branco
+  kind: POSITION
+  theme: energie
+  question: energie-accelerer-eolien-terrestre
+  qualification: QUALIFIED_OPPOSITION
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "une réorientation des différents crédits impôts et dispositifs d'investissement des énergies intermittentes vers la construction d'infrastructures de production et de distribution d'électricité stables"
+  speaker: Juan Branco
+  context: "Lettre de Juan Branco du 11 septembre 2026 à Philippe Juvin ; la phrase précise que le projet est « inenvisageable sans un renforcement drastique de l'autonomie énergétique de la France, passant non seulement par » cette réorientation, mais aussi par une réorientation des partenariats avec les pays producteurs d'hydrocarbures."
+  verificationNotes: "Texte retrouvé mot pour mot dans le cache du PDF de la lettre (fin de la p. 2). Les éoliennes ne sont pas nommées : « énergies intermittentes » désigne éolien et solaire. Le programme est cohérent (« 14 EPR 2 », « Concentration des subventions photovoltaïques », critique de la « réduction de la part du nucléaire, favorisant les énergies intermittentes ») mais ne cite pas non plus l'éolien terrestre. Preuve limite : lecture à arbitrer par l'orchestrateur."
+  source: juan-branco-reponse-de-juan-branco-a-philippe-juvin-rapporteur-general-d
+  publisher: Les Ruches (lettre publiée sur ruches.org)
+  locator: { kind: page, value: "2" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DOCUMENT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    attribution: "Lettre à en-tête et signature de Juan Branco, publiée par son mouvement."
+    interpretation: "Retrait des crédits d'impôt et aides à l'investissement des énergies intermittentes au profit de capacités stables : opposition à l'accélération du déploiement subventionné des énergies intermittentes, dont l'éolien terrestre, sans le nommer ni l'interdire : opposition qualifiée."
+  statedAt: { date: 2026-09-11, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-juan-branco-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28

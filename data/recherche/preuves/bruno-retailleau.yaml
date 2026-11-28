@@ -1518,3 +1518,302 @@
   journal: 2026-11-27-campagne-retailleau-banque-active
   createdAt: 2026-11-27
   updatedAt: 2026-11-27
+
+- id: bruno-retailleau-institutions-001
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: institutions
+  question: institutions-proportionnelle-legislatives
+  qualification: EXPLICIT_OPPOSITION
+  candidacyStatus: INTENTION_EXPRESSED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "La Ve République repose sur le fait majoritaire. Instaurer la proportionnelle, c'est graver l'instabilité dans nos institutions."
+  speaker: Bruno Retailleau
+  context: >-
+    Entretien au JDD (juin 2025) republié sur republicains.fr, alors qu'il est ministre de
+    l'Intérieur. Question : « Vous vous êtes opposé publiquement à la proportionnelle. Est-ce un
+    point de rupture avec le Premier ministre ? » Réponse : « Je le maintiens, c'est un point dur »,
+    puis la phrase citée ; il ajoute que la réforme « creuserait la fracture territoriale » et
+    serait « une double erreur ».
+  verificationNotes: >-
+    Phrases retrouvées mot pour mot dans le texte en cache de la source déjà enregistrée
+    (apostrophes typographiques normalisées par le cache). La précision « pour les législatives »
+    vient de la question posée dans l'entretien (réforme du mode de scrutin des députés évoquée avec
+    le Premier ministre) ; une autre source, Maire-info du 7 octobre 2024, rapporte déjà son
+    opposition à ce système (non retenue comme preuve : propos de journaliste).
+  source: bruno-retailleau-jdd-mai-68-barbares-2025-06
+  publisher: Le JDD (republicains.fr)
+  locator: { kind: passage, value: "réponse à la question « Vous vous êtes opposé publiquement à la proportionnelle »" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: gouvernement Bayrou, débat sur la proportionnelle (juin 2025)
+  rationale:
+    interpretation: >-
+      Il s'oppose à l'instauration de la proportionnelle (« point dur », « ligne rouge »), avec des
+      arguments institutionnels : cela rejoint l'énoncé « Les députés doivent être élus au scrutin
+      proportionnel » en sens inverse, sans réserve exprimée.
+    temporalRelevance: >-
+      Propos de juin 2025 (près de 17 mois) tenus en tant que ministre ; aucune source plus
+      récente retrouvée dans ce lot, mais aucune contraire non plus.
+  statedAt: { date: 2025-06, precision: month }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-bruno-retailleau-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+
+- id: bruno-retailleau-education-001
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: education
+  question: education-uniforme-obligatoire
+  qualification: EXPLICIT_SUPPORT
+  candidacyStatus: POTENTIAL
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Les élèves des écoles primaires, collèges et lycées portent une tenue vestimentaire uniforme au sein de leur établissement."
+  speaker: Bruno Retailleau
+  context: >-
+    Article 1er de la proposition de loi n° 202 (Sénat, 2022-2023) « visant à rendre obligatoire le
+    port d'une tenue d'établissement scolaire », enregistrée le 13 décembre 2022, présentée par
+    Mme Céline Boulay-Espéronnier, M. Bruno Retailleau (deuxième signataire) et d'autres sénateurs.
+    L'exposé des motifs conclut que le port d'une tenue uniforme est « une mesure opportune », avec
+    une allocation de l'État aux familles modestes (article 2).
+  verificationNotes: >-
+    Texte de l'article 1er (page 7 du PDF) et liste des signataires (page 1) retrouvés dans le texte
+    en cache du PDF officiel du Sénat. Le champ speaker désigne le cosignataire ; le texte est
+    collectif.
+  source: bruno-retailleau-proposition-de-loi-n-202-2022-2023-visant-a-rendre-obligatoi
+  publisher: Sénat
+  locator: { kind: article, value: "article 1er (art. L. 111-2-1 du code de l'éducation), page 7 du PDF" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_ACTION
+  attributionConfidence: HIGH
+  actionScope: >-
+    Cosignature, en deuxième position après la première signataire, de la proposition de loi
+    sénatoriale n° 202 (2022-2023) déposée le 13 décembre 2022 ; portée de l'acte : dépôt d'un
+    texte collectif, sans vote ni discussion en séance connus. L'acte établit qu'il a soutenu
+    l'obligation par sa signature, non qu'il en a personnellement rédigé ou défendu chaque article.
+  temporalRelevance: DATED
+  period: sénateur, président du groupe LR (décembre 2022)
+  rationale:
+    interpretation: >-
+      Le texte rend l'uniforme obligatoire dans les écoles primaires, collèges et lycées ; il couvre
+      donc l'énoncé (primaire et collège) en y ajoutant le lycée. Soutien explicite à l'obligation.
+    temporalRelevance: >-
+      Décembre 2022. Le livret éducation de LR (août 2026, evidence bruno-retailleau-education-002)
+      parle seulement d'un port de l'uniforme « encouragé » : évolution possible, à arbitrer.
+  statedAt: { date: 2022-12-13, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-bruno-retailleau-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+
+- id: bruno-retailleau-education-002
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: education
+  question: education-uniforme-obligatoire
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "La neutralité de la loi de 2004 sera étendue aux accompagnateurs des sorties scolaires, et le port de l'uniforme encouragé, pour faire vivre, par-delà les origines, une identité commune et le sentiment d'appartenir à une même école."
+  speaker: Les Républicains
+  context: >-
+    Livret « Nos propositions pour la France : éducation » (Les Républicains, août 2026), proposition
+    sur la laïcité à l'école et l'identité commune.
+  verificationNotes: >-
+    Phrase retrouvée mot pour mot dans le texte en cache du PDF ; le PDF n'est pas paginé dans le
+    cache, localisation par passage. Document de parti, non signé personnellement par le candidat.
+  source: bruno-retailleau-lr-livret-education
+  publisher: Les Républicains
+  locator: { kind: passage, value: "section sur la laïcité et l'identité commune à l'école" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PARTY_POSITION
+  attributionConfidence: MEDIUM
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      Le livret veut « encourager » le port de l'uniforme, pas l'imposer : soutien à l'uniforme plus
+      étroit que l'obligation de l'énoncé (« obligatoire à l'école primaire et au collège »). C'est
+      une position de parti, à rapprocher de l'évidence personnelle de 2022 (education-001).
+    attribution: Position du parti dont il est le candidat ; propos non attribués nommément à Retailleau.
+  statedAt: { date: 2026-08, precision: month }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-bruno-retailleau-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+
+- id: bruno-retailleau-fiscalite-001
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: fiscalite
+  question: fiscalite-taxe-benefices-exceptionnels
+  qualification: EXPLICIT_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Tous ces amendements ont le goût sucré des mesures qui n'ont que l'apparence de la justice sociale. Ce sont de fausses bonnes solutions, et cela pour deux raisons."
+  speaker: Bruno Retailleau
+  context: >-
+    Séance du Sénat du 1er août 2022, projet de loi de finances rectificative pour 2022, après
+    l'article 2 : explication de vote de M. Retailleau, président du groupe LR, sur les amendements
+    de taxation des superprofits (n° 130 rectifié bis, 226 rectifié, 227 rectifié, 249 rectifié,
+    250 rectifié, 319, 320). Il poursuit : « dire aux Français que la solution réside dans la
+    taxation, c'est leur mentir » et conclut : « si le remède aux malheurs français était les
+    taxes sur les superprofits [...] la France serait non seulement le pays le plus civilisé, mais
+    même à l'avant-garde du bonheur universel ! ».
+  verificationNotes: >-
+    Passage relu dans le texte en cache du compte rendu intégral officiel (apostrophes
+    typographiques normalisées par le cache) : même explication de vote, arguments et conclusion
+    lus dans le contexte. Un autre orateur du même débat (M. Philippe Dominati) a tenu des propos
+    voisins : ils ne lui sont pas attribués. Le résultat du vote individuel n'a pas été relevé.
+  source: bruno-retailleau-senat-compte-rendu-integral-de-la-seance-du-1er-aout-2022-pr
+  publisher: Sénat
+  locator: { kind: passage, value: "explication de vote de M. Retailleau, amendements de taxation des superprofits après l'article 2 (séance du 1er août 2022)" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: DATED
+  period: président du groupe LR au Sénat, crise des prix de l'énergie (été 2022)
+  rationale:
+    interpretation: >-
+      Il rejette la taxation des superprofits (« fausses bonnes solutions », arguments d'efficacité
+      et d'équité), ce qui s'oppose à l'énoncé « Les bénéfices exceptionnels des grandes entreprises
+      doivent être soumis à une taxe supplémentaire ». Les amendements visaient surtout les
+      pétroliers, gaziers, transporteurs maritimes et concessionnaires d'autoroutes ; le rejet est
+      énoncé en termes généraux (« les résultats d'une entreprise, quelle qu'elle soit »).
+    temporalRelevance: >-
+      Août 2022 (plus de 4 ans) ; aucun propos récent retrouvé. Le programme actuel écarte les
+      hausses d'impôts mais ne mentionne pas cette taxe.
+  statedAt: { date: 2022-08-01, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-bruno-retailleau-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+
+- id: bruno-retailleau-agriculture-001
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: agriculture
+  question: agriculture-prix-plancher-agricoles
+  qualification: EXPLICIT_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "revenu minimum universel agricole"
+  speaker: Bruno Retailleau
+  context: >-
+    Salon de l'agriculture, 24 février 2024 : après l'annonce par Emmanuel Macron d'un « prix
+    plancher » pour les denrées agricoles, Public Sénat écrit : « Pour le sénateur de la Vendée,
+    l'instauration de prix planchers revient à mettre en place un " revenu minimum universel
+    agricole ", une " idée socialiste " », et ajoute qu'il craint des écarts entre exploitations et
+    des distorsions de marché qui pourraient tuer certaines filières.
+  verificationNotes: >-
+    Fragment entre guillemets retrouvé mot pour mot dans le texte en cache de l'article ; la phrase
+    englobante est de la rédaction (le fragment seul est tenu pour citation). Déclaration originale
+    (réaction publique, probablement sur un réseau social ou à la radio) non retrouvée ni consultée.
+  source: bruno-retailleau-salon-de-l-agriculture-emmanuel-macron-veut-un-prix-plancher
+  publisher: Public Sénat
+  locator: { kind: paragraph, value: "La droite fustige une « idée socialiste », 4e paragraphe de la section" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: MEDIUM
+  temporalRelevance: DATED
+  period: chef de file des sénateurs LR, Salon de l'agriculture 2024
+  rationale:
+    interpretation: >-
+      Il rejette l'instauration de prix planchers (assimilés à un « revenu minimum universel agricole »
+      et à une « idée socialiste »), ce qui s'oppose à l'énoncé « Des prix plancher garantis doivent
+      être fixés pour les principales productions agricoles ». Le livret agricole LR de 2026 (déjà
+      enregistré) parle de rééquilibrer la chaîne de valeur sans citer de prix plancher.
+    sourceQuality: Presse parlementaire reproduisant des fragments de ses propos ; l'original n'a pas été vu.
+    temporalRelevance: Février 2024 (21 mois) ; aucune position plus récente sur ce point retrouvée.
+  statedAt: { date: 2024-02-24, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-bruno-retailleau-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+
+- id: bruno-retailleau-travail-001
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: travail
+  question: travail-smic-au-dela-inflation
+  qualification: QUALIFIED_OPPOSITION
+  quoteStatus: VERIFIED_QUOTE
+  quote: "Augmenter massivement le salaire minimum aujourd'hui, ce serait plus de déclassement pour la France et plus d'appauvrissement pour les Français"
+  speaker: Bruno Retailleau
+  context: >-
+    Tribune dans L'Opinion rapportée par Public Sénat le 5 juillet 2018, en réponse à des cadres
+    de LR favorables à une hausse du Smic de 20 % : il estime qu'elle « déclencherait le détonateur
+    » de la dette et refuse que la droite « camp[e] sur une posture de compassion ».
+  verificationNotes: >-
+    Citation retrouvée mot pour mot dans le texte en cache de l'article de Public Sénat ; la
+    tribune d'origine de L'Opinion n'a pas été consultée. Une dépêche AFP du 9 novembre 2026 (source
+    enregistrée bruno-retailleau-lecornu-donne-un-coup-de-pouce-au-smic-les-syndicats-entre-c)
+    rapporte qu'il a mis en garde contre une hausse du Smic qui pourrait mettre en « faillite » les
+    entreprises ; l'interview d'origine (franceinfo, 5 novembre 2026 selon un autre compte rendu)
+    n'a pas été retrouvée : à confirmer.
+  source: bruno-retailleau-augmenter-le-smic-de-20-declencherait-le-detonateur-de-la-de
+  publisher: Public Sénat
+  locator: { kind: paragraph, value: "1" }
+  sourceQuality: B_RELIABLE_SECONDARY
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: HISTORICAL
+  period: président du groupe LR au Sénat (2018)
+  rationale:
+    interpretation: >-
+      Il s'oppose à une hausse massive du Smic (20 %), pas à toute revalorisation : opposition
+      qualifiée à l'énoncé « Le SMIC doit être augmenté au-delà de l'inflation ».
+    temporalRelevance: >-
+      Propos de 2018, soit huit ans ; la dépêche AFP de novembre 2026 va dans le même sens mais
+      reste une reformulation journalistique (non retenue comme citation).
+  statedAt: { date: 2018-07-05, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-bruno-retailleau-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
+
+- id: bruno-retailleau-democratie-003
+  personality: bruno-retailleau
+  kind: POSITION
+  theme: democratie
+  question: democratie-referendum-initiative-citoyenne
+  qualification: QUALIFIED_SUPPORT
+  candidacyStatus: DECLARED
+  quoteStatus: VERIFIED_QUOTE
+  quote: "alléger les contraintes nécessaires à l'organisation d'un référendum d'initiative partagée : plutôt que 5 millions de signatures, il en faudrait moitié moins"
+  speaker: Bruno Retailleau
+  context: >-
+    Entretien au Figaro (septembre 2026) republié sur republicains.fr, à propos du premier texte
+    soumis aux Français (révision de la Constitution) : « le peuple français doit pouvoir décider,
+    par référendum, de toute question législative », avec un article 11 élargi.
+  verificationNotes: Phrase retrouvée mot pour mot dans le texte en cache de la source déjà enregistrée.
+  source: bruno-retailleau-figaro-constitution-2026-09
+  publisher: Le Figaro (republicains.fr)
+  locator: { kind: passage, value: "réponse sur les deux textes soumis aux Français" }
+  sourceQuality: A_PRIMARY_VERIFIED
+  attribution: PERSONAL_DIRECT
+  attributionConfidence: HIGH
+  temporalRelevance: CURRENT
+  period: campagne présidentielle 2027
+  rationale:
+    interpretation: >-
+      Il veut abaisser de moitié le nombre de signatures du référendum d'initiative partagée :
+      c'est un déclenchement par signatures d'électeurs, ce qui rejoint l'énoncé, mais le dispositif
+      reste le RIP (initiative parlementaire associée aux signatures), plus étroit qu'un référendum
+      d'initiative citoyenne par pétition seule. Soutien qualifié. Preuve complémentaire existante :
+      bruno-retailleau-democratie-002 (Public Sénat, 18 décembre 2018, « Le référendum d'initiative
+      populaire, j'y suis favorable, mais encadré »), qui peut aussi se rattacher à cette question
+      (historique).
+  statedAt: { date: 2026-09-02, precision: day }
+  researchedAt: 2026-11-28
+  verifiedAt: 2026-11-28
+  journal: 2026-11-28-campagne-bruno-retailleau-lot-4
+  createdAt: 2026-11-28
+  updatedAt: 2026-11-28
