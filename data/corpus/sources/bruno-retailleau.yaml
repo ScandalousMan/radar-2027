@@ -537,3 +537,58 @@
   candidates:
     - bruno-retailleau
   contentHash: sha256:a99ddbd087b276b360308683d6f56be576bfeead439b2be42e1986a16e82f686
+- id: bruno-retailleau-proposition-de-loi-n-202-2022-2023-visant-a-rendre-obligatoi
+  url: https://www.senat.fr/leg/ppl22-202.pdf
+  title: Proposition de loi n° 202 (2022-2023) visant à rendre obligatoire le port d'une tenue d'établissement scolaire (Sénat)
+  kind: declaration_vote
+  publishedAt:
+    date: 2022-12-13
+    precision: day
+  accessedAt: 2026-11-28
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:6b028e8f7a793167a4e6b9934ce1a0545840f5292d63bde5c79001bad52c622d
+- id: bruno-retailleau-senat-compte-rendu-integral-de-la-seance-du-1er-aout-2022-pr
+  url: https://www.senat.fr/seances/s202208/s20220801/s20220801_mono.html
+  title: Sénat, compte rendu intégral de la séance du 1er août 2022 (projet de loi de finances rectificative pour 2022, amendements sur les superprofits)
+  kind: declaration_vote
+  publishedAt:
+    date: 2022-08-01
+    precision: day
+  accessedAt: 2026-11-28
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:caeb750f2c999f1d9daacb8221faae01f73591561426b792432915d78ad74bab
+- id: bruno-retailleau-salon-de-l-agriculture-emmanuel-macron-veut-un-prix-plancher
+  url: https://www.publicsenat.fr/actualites/colere-des-agriculteurs/salon-de-lagriculture-emmanuel-macron-veut-un-prix-plancher-pour-les-denrees-agricoles-qui-fait-deja-polemique
+  title: "Salon de l'agriculture : Emmanuel Macron veut « un prix plancher » pour les denrées agricoles qui fait déjà polémique (Public Sénat)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2024-02-24
+    precision: day
+  accessedAt: 2026-11-28
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:b19ca7b18aa4a512cd5381a7b206aba64c482efae3074f63359f5eb4aadabb6b
+- id: bruno-retailleau-augmenter-le-smic-de-20-declencherait-le-detonateur-de-la-de
+  url: https://www.publicsenat.fr/actualites/politique/augmenter-le-smic-de-20-declencherait-le-detonateur-de-la-dette-pour-retailleau-lr
+  title: Augmenter le Smic de 20% déclencherait « le détonateur » de la dette pour Retailleau (LR) (Public Sénat)
+  kind: declaration_vote
+  publishedAt:
+    date: 2018-07-05
+    precision: day
+  accessedAt: 2026-11-28
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:6e52f43a485b2784b0e5f4a7c00f19f6bd7dbfcdbad4adbd9174af0680ba1cde
+- id: bruno-retailleau-lecornu-donne-un-coup-de-pouce-au-smic-les-syndicats-entre-c
+  url: https://www.dhnet.be/dernieres-depeches/2026/11/09/sans-latitude-lecornu-tente-de-repondre-a-la-colere-sociale-KWCY3XBQXBFR3JX7E55UFVXLVQ/
+  title: Lecornu donne un coup de pouce au Smic, les syndicats entre colère et expectative (dépêche AFP, DH)
+  kind: declaration_vote
+  publishedAt:
+    date: 2026-11-09
+    precision: day
+  accessedAt: 2026-11-28
+  candidates:
+    - bruno-retailleau
+  contentHash: sha256:ebb215df3808de8c2e673ecc0651744c8ef09c4d66392b3e472157e7b8a1df7e

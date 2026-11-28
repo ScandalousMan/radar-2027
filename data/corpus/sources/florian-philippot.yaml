@@ -108,3 +108,58 @@
   candidates:
     - florian-philippot
   contentHash: sha256:2413aada20c54f4f771b5eb6889d0f5ef1fab49899beed36a9defa3ba41ae0dd
+- id: florian-philippot-pecresse-lr-en-faveur-d-une-augmentation-du-smic-net-de-20-p
+  url: https://www.publicsenat.fr/actualites/politique/pecresse-lr-en-faveur-d-une-augmentation-du-smic-net-de-20-87354
+  title: Pécresse (LR) en faveur d'une augmentation du Smic net de 20 % (Public Sénat)
+  kind: declaration_vote
+  publishedAt:
+    date: 2018-06-21
+    precision: day
+  accessedAt: 2026-11-28
+  candidates:
+    - florian-philippot
+  contentHash: sha256:bea534179f42b4eb1ce95513b0c4e6c3266518ae7ceb6b92f253beb60b27dd4d
+- id: florian-philippot-florian-philippot-quand-nous-ferons-le-frexit-nous-aurons-de
+  url: https://www.sudradio.fr/societe/florian-philippot-quand-nous-ferons-le-frexit-nous-aurons-de-lexperience
+  title: "Florian Philippot : « quand nous ferons le Frexit, nous aurons de l'expérience » (Sud Radio)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2019-10-31
+    precision: day
+  accessedAt: 2026-11-28
+  candidates:
+    - florian-philippot
+  contentHash: sha256:09a88526476fdf275c029017118058c9d04d1e1b9355c82605fe7d325ea6a1d5
+- id: florian-philippot-florian-philippot-marine-le-pen-est-le-seul-rempart-face-a-f
+  url: https://www.sudradio.fr/politique/florian-philippot-marine-le-pen-est-le-seul-rempart-face-a-fillon
+  title: "Florian Philippot : « Marine Le Pen est le seul rempart face à Fillon » (Sud Radio)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2016-12-06
+    precision: day
+  accessedAt: 2026-11-28
+  candidates:
+    - florian-philippot
+  contentHash: sha256:829a81f98ebf918fa2fb6cfa5172f22e24eee3796b5c42dea83483eee05f58ab
+- id: florian-philippot-prix-des-carburants-on-pourrait-se-priver-de-tva-sur-l-essen
+  url: https://www.franceinfo.fr/economie/automobile/diesel/prix-des-carburants-on-pourrait-se-priver-de-tva-sur-l-essence-affirme-philippot-les-patriotes_3433937.html
+  title: "Prix des carburants : « On pourrait se priver de TVA sur l'essence », affirme Philippot (franceinfo, France 2)"
+  kind: declaration_vote
+  publishedAt:
+    date: 2019-05-08
+    precision: day
+  accessedAt: 2026-11-28
+  candidates:
+    - florian-philippot
+  contentHash: sha256:96bb453cb2e22c57c57baefe154cd1db47aa67a5b9774fd80cc8e4f5a8c453f3
+- id: florian-philippot-stop-aux-zfe-les-patriotes-petition
+  url: https://les-patriotes.fr/stop-aux-zfe/
+  title: Stop aux ZFE ! (Les Patriotes, pétition)
+  kind: declaration_vote
+  publishedAt:
+    date: 2025-01-02
+    precision: day
+  accessedAt: 2026-11-28
+  candidates:
+    - florian-philippot
+  contentHash: sha256:61b346723896bc450acf7c3f48e0fe428c60e862d222f0ff04e044614b9cc1cc

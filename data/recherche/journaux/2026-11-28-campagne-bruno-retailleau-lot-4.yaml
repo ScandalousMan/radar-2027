@@ -1,0 +1,388 @@
+# Journal de mission (spec 008, FR-029 ; campagne de couverture spec 009, lot 4).
+# Requêtes et sources effectivement consultées. Angle imposé : activité au Sénat de Bruno Retailleau.
+id: 2026-11-28-campagne-bruno-retailleau-lot-4
+mode: GLOBAL_ENRICHMENT
+author: claude
+model: sonnet
+request: >-
+  Mission de campagne de couverture 009, lot 4, GLOBAL_ENRICHMENT ciblé traité comme une mission
+  PERSONALITY limitée aux questions listées : trouver pour Bruno Retailleau (58/98 positions) des
+  preuves de position personnelle (citations VERIFIED_QUOTE de qualité A ou B, lien direct avec
+  l'énoncé) sur seize questions actives encore sans position (institutions-proportionnelle-legislatives,
+  institutions-supprimer-senat, defense-budget-armees-3-pib, education-uniforme-obligatoire,
+  democratie-referendum-initiative-citoyenne, fiscalite-taxe-benefices-exceptionnels,
+  fiscalite-reduire-credits-impot, travail-smic-au-dela-inflation, sante-regulation-installation-medecins,
+  energie-petits-reacteurs-modulaires, international-renegocier-traites-competences,
+  international-aide-developpement-0-7, agriculture-prix-plancher-agricoles,
+  transport-concurrence-ferroviaire, transport-subventionner-fret-ferroviaire,
+  education-revalorisation-identique-pour-tous), avec l'angle nouveau de l'activité au Sénat
+  (scrutins nominatifs, propositions de loi cosignées, interventions en séance) et des relances
+  fiscales (ISF, impôt sur les sociétés) uniquement par le Sénat ; les deux sens de la polarité ;
+  sources de 2022 ou après de préférence ; ne pas écrire dans personnalites.yaml, signalements.yaml,
+  positions/ ni questions/ ; pas de commit.
+startedAt: 2026-11-28
+completedAt: 2026-11-28
+state: completed
+scope:
+  personalities: [bruno-retailleau]
+  themes: [institutions, defense, education, democratie, fiscalite, travail, sante, energie, international, agriculture, transport]
+  questions:
+    - institutions-proportionnelle-legislatives
+    - institutions-supprimer-senat
+    - defense-budget-armees-3-pib
+    - education-uniforme-obligatoire
+    - democratie-referendum-initiative-citoyenne
+    - fiscalite-taxe-benefices-exceptionnels
+    - fiscalite-reduire-credits-impot
+    - travail-smic-au-dela-inflation
+    - sante-regulation-installation-medecins
+    - energie-petits-reacteurs-modulaires
+    - international-renegocier-traites-competences
+    - international-aide-developpement-0-7
+    - agriculture-prix-plancher-agricoles
+    - transport-concurrence-ferroviaire
+    - transport-subventionner-fret-ferroviaire
+    - education-revalorisation-identique-pour-tous
+queries:
+  - at: 2026-11-28
+    query: "lecture préalable : journaux Retailleau du 2026-11-22 (économie), 2026-11-27 (banque active) et 2026-11-27 (justice) ; questions/*.yaml (énoncés et polarités des seize questions) ; positions/bruno-retailleau.yaml ; sources/bruno-retailleau.yaml (49 sources, 49 textes présents dans le cache) ; preuves/bruno-retailleau.yaml (35 preuves)"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-28
+    query: "recherche plein texte dans les 49 textes en cache des sources Retailleau : proportionnelle, Sénat, uniforme, superprofits, crédits d'impôt, SMIC, médecins, petits réacteurs, traités européens, 0,7 / développement, prix plancher, ferroviaire, fret, 3 % du PIB, référendum d'initiative"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-28
+    query: "Retailleau proportionnelle législatives candidat 2027 proportionnelle refuse"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "https://republicains.fr/actualites/2025/06/16/bruno-retailleau-mai-68-a-fabrique-des-barbares/ (entretien JDD, texte en cache : passage sur la proportionnelle)"
+    category: FULL_INTERVIEWS
+    tool: read
+  - at: 2026-11-28
+    query: "https://www.publicsenat.fr/actualites/politique/hostile-a-la-proportionnelle-bruno-retailleau-necarte-pas-une-demission-du-gouvernement (2 juin 2025)"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: WebFetch
+  - at: 2026-11-28
+    query: "Bruno Retailleau budget des armées \"3 %\" du PIB effort de défense"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "Retailleau \"du PIB\" défense armées budget défense 2027 programme candidat porter effort"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "https://www.elyseescope.com/candidat/bruno-retailleau/defense (agrégateur, piste seulement : « 3,5 % du PIB », renvoie à LCI du 25 mai 2026)"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: WebFetch
+  - at: 2026-11-28
+    query: "https://www.lci.fr/politique/2026/05/25/retailleau-service-militaire-obligatoire-6-mois (page ouverte : page d'accueil générique, article absent)"
+    category: NATIONAL_MEDIA
+    tool: curl
+  - at: 2026-11-28
+    query: "Retailleau service militaire obligatoire six mois défense budget PIB mai 2026 candidat"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "https://www.senat.fr/seances/s202512/s20251215/s20251215.pdf (déclaration du Gouvernement 50-1 sur la défense, 15 décembre 2025 : aucune intervention de M. Retailleau, seulement sa présence dans les listes de scrutin)"
+    category: SENAT
+    tool: pdftotext
+  - at: 2026-11-28
+    query: "scrutins publics du Sénat n° 126 (15 décembre 2025), 293 (9 juin 2026) et 323 (30 juin 2026) : déclaration 50-1 stratégie de défense et loi actualisant la programmation militaire (vote Pour de M. Retailleau, texte non lu : pas de seuil 3 % du PIB établi)"
+    category: SENAT
+    tool: curl
+  - at: 2026-11-28
+    query: "https://republicains.fr/actualites/2026/07/14/lunite-nationale-premiere-de-nos-armes/ (texte en cache : « pour atteindre 100 milliards d'euros à la fin du quinquennat », pas de ratio au PIB)"
+    category: PARTY_SITE
+    tool: grep
+  - at: 2026-11-28
+    query: "Bruno Retailleau uniforme école obligatoire"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "https://www.senat.fr/leg/ppl22-202.pdf (proposition de loi n° 202, 2022-2023, tenue d'établissement scolaire : signataires, exposé des motifs, articles 1 à 4)"
+    category: SENAT
+    tool: pdftotext
+  - at: 2026-11-28
+    query: "Retailleau supprimer le Sénat OR suppression du Sénat défend le Sénat bicamérisme"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "Retailleau Sénat bicamérisme OR supprimer le Sénat OR réduire le nombre de parlementaires programme institutions 2026"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "Retailleau régulation installation des médecins liberté d'installation proposition de loi Garot Sénat"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "https://www.publicsenat.fr/actualites/sante/deserts-medicaux-la-proposition-de-loi-des-senateurs-lr-pour-renforcer-lacces-aux-soins-adoptee-en-commission (PPL Mouiller, 6 mai 2025 : M. Retailleau absent des signataires, alors ministre)"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: WebFetch
+  - at: 2026-11-28
+    query: "senat.fr proposition de loi Mouiller améliorer l'accès aux soins dans les territoires signataires Retailleau installation médecins zones surdotées"
+    category: SENAT
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "Retailleau déserts médicaux liberté d'installation médecins coercition Retailleau déclaration"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "Retailleau aide publique au développement baisse aide au développement réduire"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "Retailleau aide au développement aide publique au développement supprimer OR réduire OR Afrique candidat 2027"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "https://www.senat.fr/senateur/retailleau_bruno04033b.html et https://www.senat.fr/basile/rechercheQuestion.do (liste des questions de M. Retailleau : cinq questions caduques de 2019 ou antérieures, aucune sur les thèmes visés) ; recherche de dossiers législatifs par auteur sans résultat"
+    category: SENAT
+    tool: curl
+  - at: 2026-11-28
+    query: "scrutins publics du Sénat des sessions 2025-2026 (n° 1 à 330) et 2026-2027 (n° 1 à 180) : indexation des titres et du vote nominatif de M. Retailleau (revenu au Sénat le 13 novembre 2025)"
+    category: SENAT
+    tool: curl
+  - at: 2026-11-28
+    query: "Retailleau SMIC augmenter Smic coup de pouce salaire minimum position"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "https://www.publicsenat.fr/actualites/politique/augmenter-le-smic-de-20-declencherait-le-detonateur-de-la-dette-pour-retailleau-lr (5 juillet 2018)"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: WebFetch
+  - at: 2026-11-28
+    query: "https://www.dhnet.be/dernieres-depeches/2026/11/09/sans-latitude-lecornu-tente-de-repondre-a-la-colere-sociale-KWCY3XBQXBFR3JX7E55UFVXLVQ/ (dépêche AFP du 9 novembre 2026)"
+    category: PRESS_AGENCIES
+    tool: WebFetch
+  - at: 2026-11-28
+    query: "Bruno Retailleau Smic coup de pouce Lecornu réaction faillite entreprises baisser les charges novembre 2026"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "Retailleau franceinfo 5 novembre 2026 Smic entreprises faillite baisser charges invité"
+    category: TV_RADIO_DEBATES
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "Retailleau petits réacteurs modulaires SMR nucléaire financer"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "Retailleau réacteurs nucléaire 2026 programme énergie SMR OR petits réacteurs OR EPR tribune L'Opinion nucléaire"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "Retailleau concurrence ferroviaire SNCF ouverture à la concurrence TER Pays de la Loire"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "Retailleau SNCF fret ferroviaire OR petites lignes OR concurrence TER 2026 transports programme"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "Retailleau taxe superprofits bénéfices exceptionnels taxe TotalEnergies"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "https://www.publicsenat.fr/article/debat/taxation-des-superprofits-au-senat-une-bataille-de-longue-haleine-entre-la-gauche-les (8 février 2023, piste vers la séance du 1er août 2022)"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: WebFetch
+  - at: 2026-11-28
+    query: "eau minérale Retailleau superprofits Sénat fortes chaleurs projet de loi de finances rectificative juillet 2022 compte rendu"
+    category: SENAT
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "https://www.senat.fr/seances/s202208/s20220801/s20220801_mono.html (compte rendu intégral du 1er août 2022 : explication de vote de M. Retailleau sur les amendements de taxation des superprofits) ; sondage des comptes rendus des 27 et 29 juillet et des 2 et 3 août 2022"
+    category: SENAT
+    tool: pdftotext
+  - at: 2026-11-28
+    query: "Retailleau ISF impôt sur la fortune amendement Sénat rétablir ISF explication de vote"
+    category: SENAT
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "https://www.publicsenat.fr/actualites/politique/retailleau-juge-que-macron-sait-que-ses-declarations-sur-l-isf-sont-des-balivernes (17 octobre 2017 : sur les contreparties à l'ISF, pas sur son rétablissement)"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: WebFetch
+  - at: 2026-11-28
+    query: "Retailleau prix plancher agriculteurs prix minimum Egalim loi Sénat agriculteurs rémunération"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "https://www.publicsenat.fr/actualites/colere-des-agriculteurs/salon-de-lagriculture-emmanuel-macron-veut-un-prix-plancher-pour-les-denrees-agricoles-qui-fait-deja-polemique (24 février 2024)"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: WebFetch
+  - at: 2026-11-28
+    query: "Retailleau prix plancher revenu minimum universel agricole Macron Salon agriculture 2024 (recherche de la déclaration d'origine)"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "Retailleau traités européens renégocier OR modifier les traités OR révision des traités Retailleau Europe compétences"
+    category: NATIONAL_MEDIA
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "recherche plein texte dans les textes en cache Retailleau : renégoci, révision des traités, traités européens, compétences à l'État (aucune demande de renégociation ; « respect strict des traités » dans le livret électricité)"
+    category: EXISTING_CORPUS
+    tool: grep
+  - at: 2026-11-28
+    query: "Bruno Retailleau Sénat séance 2026 intervention compte rendu intégral explication de vote (site:senat.fr)"
+    category: SENAT
+    tool: WebSearch
+  - at: 2026-11-28
+    query: "https://www.senat.fr/scrutin-public/2026/scr2026-43.html et séries scr2025-N / scr2026-N (liste des votes)"
+    category: PARLIAMENTARY_ARCHIVES
+    tool: curl
+categoriesExplored:
+  - EXISTING_CORPUS
+  - SENAT
+  - PARLIAMENTARY_ARCHIVES
+  - NATIONAL_MEDIA
+  - SPECIALIZED_PUBLICATIONS
+  - PRESS_AGENCIES
+  - PARTY_SITE
+  - FULL_INTERVIEWS
+  - TV_RADIO_DEBATES
+categoriesNotExplored:
+  - category: SOCIAL_MEDIA
+    reason: Réactions de 2024 et de novembre 2026 probablement publiées sur X ou à la radio ; réseau non consulté, les déclarations d'origine n'ont pas été retrouvées.
+  - category: ORIGINAL_VIDEOS
+    reason: Aucune vidéo ni transcription intégrale consultée ; l'agent n'écoute pas l'audio.
+  - category: EUROPEAN_PARLIAMENT
+    reason: Hors du périmètre utile (aucune de ces questions ne relève d'une activité d'eurodéputé).
+exhaustive: false
+sourcesConsulted:
+  - url: https://republicains.fr/actualites/2025/06/16/bruno-retailleau-mai-68-a-fabrique-des-barbares/
+    title: « Mai 68 a fabriqué des barbares » (entretien au JDD, Les Républicains)
+    outcome: retained
+    source: bruno-retailleau-jdd-mai-68-barbares-2025-06
+  - url: https://www.senat.fr/leg/ppl22-202.pdf
+    title: Proposition de loi n° 202 (2022-2023) visant à rendre obligatoire le port d'une tenue d'établissement scolaire (Sénat)
+    outcome: retained
+    source: bruno-retailleau-proposition-de-loi-n-202-2022-2023-visant-a-rendre-obligatoi
+  - url: https://republicains.fr/wp-content/uploads/2026/09/LR_Ecole_vF.pdf
+    title: "Nos propositions pour la France : éducation (Les Républicains, PDF)"
+    outcome: retained
+    source: bruno-retailleau-lr-livret-education
+  - url: https://www.senat.fr/seances/s202208/s20220801/s20220801_mono.html
+    title: Sénat, compte rendu intégral de la séance du 1er août 2022 (projet de loi de finances rectificative pour 2022)
+    outcome: retained
+    source: bruno-retailleau-senat-compte-rendu-integral-de-la-seance-du-1er-aout-2022-pr
+  - url: https://www.publicsenat.fr/actualites/colere-des-agriculteurs/salon-de-lagriculture-emmanuel-macron-veut-un-prix-plancher-pour-les-denrees-agricoles-qui-fait-deja-polemique
+    title: Salon de l'agriculture, Macron veut « un prix plancher » (Public Sénat, 24 février 2024)
+    outcome: retained
+    source: bruno-retailleau-salon-de-l-agriculture-emmanuel-macron-veut-un-prix-plancher
+  - url: https://www.publicsenat.fr/actualites/politique/augmenter-le-smic-de-20-declencherait-le-detonateur-de-la-dette-pour-retailleau-lr
+    title: Augmenter le Smic de 20% déclencherait « le détonateur » de la dette pour Retailleau (Public Sénat, 5 juillet 2018)
+    outcome: retained
+    source: bruno-retailleau-augmenter-le-smic-de-20-declencherait-le-detonateur-de-la-de
+  - url: https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/
+    title: Entretien au Figaro, septembre 2026 (republicains.fr)
+    outcome: retained
+    source: bruno-retailleau-figaro-constitution-2026-09
+  - url: https://www.dhnet.be/dernieres-depeches/2026/11/09/sans-latitude-lecornu-tente-de-repondre-a-la-colere-sociale-KWCY3XBQXBFR3JX7E55UFVXLVQ/
+    title: Lecornu donne un coup de pouce au Smic (dépêche AFP, DH, 9 novembre 2026)
+    outcome: retained
+    source: bruno-retailleau-lecornu-donne-un-coup-de-pouce-au-smic-les-syndicats-entre-c
+  - url: https://www.elyseescope.com/candidat/bruno-retailleau/defense
+    title: ÉlyséeScope, fiche Défense de Bruno Retailleau
+    outcome: rejected
+    reason: Agrégateur, piste seulement ; renvoie à un article de LCI du 25 mai 2026 introuvable.
+  - url: https://www.lci.fr/politique/2026/05/25/retailleau-service-militaire-obligatoire-6-mois
+    title: LCI, service militaire obligatoire de six mois (25 mai 2026)
+    outcome: inaccessible
+    reason: L'URL renvoie une page générique de TF1 Info sans l'article ; recherche du texte infructueuse.
+  - url: https://www.senat.fr/scrutin-public/2025/scr2025-293.html
+    title: Scrutin n° 293 du 9 juin 2026, loi actualisant la programmation militaire 2024-2030
+    outcome: rejected
+    reason: Vote nominatif Pour de M. Retailleau, mais texte non lu ni seuil de 3 % du PIB établi ; trop indirect pour l'énoncé.
+  - url: https://www.publicsenat.fr/actualites/sante/deserts-medicaux-la-proposition-de-loi-des-senateurs-lr-pour-renforcer-lacces-aux-soins-adoptee-en-commission
+    title: Déserts médicaux, PPL des sénateurs LR adoptée en commission (Public Sénat, 6 mai 2025)
+    outcome: rejected
+    reason: M. Retailleau n'est pas cité parmi les signataires (alors ministre de l'Intérieur).
+  - url: https://www.publicsenat.fr/actualites/politique/retailleau-juge-que-macron-sait-que-ses-declarations-sur-l-isf-sont-des-balivernes
+    title: Retailleau juge que Macron « sait » que ses déclarations sur l'ISF sont des « balivernes » (Public Sénat, 17 octobre 2017)
+    outcome: rejected
+    reason: Porte sur les contreparties au soutien aux entreprises, pas sur le rétablissement d'un impôt sur la fortune.
+  - url: https://www.publicsenat.fr/article/debat/taxation-des-superprofits-au-senat-une-bataille-de-longue-haleine-entre-la-gauche-les
+    title: Taxation des superprofits au Sénat (Public Sénat, 8 février 2023)
+    outcome: rejected
+    reason: Piste vers le compte rendu intégral du 1er août 2022 ; la formulation « eau minérale » y est rapportée librement, l'original est retenu à la place.
+evidenceAdded:
+  - bruno-retailleau-institutions-001
+  - bruno-retailleau-education-001
+  - bruno-retailleau-education-002
+  - bruno-retailleau-fiscalite-001
+  - bruno-retailleau-agriculture-001
+  - bruno-retailleau-travail-001
+  - bruno-retailleau-democratie-003
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided:
+  - evidence: bruno-retailleau-democratie-002
+    note: >-
+      L'entretien LCI du 18 décembre 2018 (Public Sénat, « Le référendum d'initiative populaire,
+      j'y suis favorable, mais encadré ») n'est pas recopié : la même citation est déjà enregistrée
+      pour democratie-referendum-reserve-elus-v2. À rattacher aussi à democratie-referendum-initiative-citoyenne
+      (qualification proposée QUALIFIED_SUPPORT, historique).
+  - evidence: bruno-retailleau-democratie-001
+    note: >-
+      Même entretien du Figaro de septembre 2026 que democratie-001 mais autre passage (réduction de
+      moitié des signatures du RIP) ; nouvelle preuve democratie-003 rattachée à une autre question.
+verified:
+  - bruno-retailleau-institutions-001
+  - bruno-retailleau-education-001
+  - bruno-retailleau-education-002
+  - bruno-retailleau-fiscalite-001
+  - bruno-retailleau-agriculture-001
+  - bruno-retailleau-travail-001
+  - bruno-retailleau-democratie-003
+toVerify:
+  - >-
+    SMIC : la déclaration de M. Retailleau du 5 novembre 2026 sur franceinfo (hausse du Smic qui
+    mettrait les entreprises en « faillite », « massivement baisser les charges »), rapportée par
+    une dépêche AFP du 9 novembre 2026 et par un compte rendu secondaire, n'a pas été retrouvée dans
+    son original : à confirmer pour documenter une position actuelle (la preuve travail-001 date de 2018).
+  - >-
+    Prix plancher : retrouver la réaction d'origine du 24 février 2024 (réseau social ou radio) et
+    la position 2026 du candidat sur la rémunération des agriculteurs.
+  - >-
+    Défense : l'agrégateur ÉlyséeScope attribue au candidat un budget des armées à 3,5 % du PIB, avec
+    renvoi à un article de LCI du 25 mai 2026 non retrouvé ; la seule source primaire est « 100
+    milliards d'euros à la fin du quinquennat » (déjà enregistrée, utilisée pour defense-reduire-budget-armees),
+    sans ratio au PIB. À confirmer à l'écoute ou dans le texte de l'entretien avant toute qualification.
+  - >-
+    Questions peu explorées (une à trois requêtes, hors seuil NOT_FOUND) : fiscalite-reduire-credits-impot,
+    education-revalorisation-identique-pour-tous, transport-subventionner-fret-ferroviaire,
+    transport-concurrence-ferroviaire, energie-petits-reacteurs-modulaires,
+    international-renegocier-traites-competences, international-aide-developpement-0-7,
+    sante-regulation-installation-medecins, institutions-supprimer-senat. Une exploration manuelle
+    des interventions du sénateur (https://www.senat.fr/interventions/retailleau_bruno04033b/) et
+    du Journal officiel du Sénat par date reste à faire.
+contradictions:
+  - evidence: [bruno-retailleau-education-001, bruno-retailleau-education-002]
+    note: >-
+      Cosignature en décembre 2022 d'une PPL rendant l'uniforme obligatoire (primaire, collège,
+      lycée) contre « port de l'uniforme encouragé » dans le livret éducation LR d'août 2026
+      (education-002, position de parti). Évolution possible vers un dispositif non contraignant ;
+      pas d'explication fiable retrouvée. Conservées toutes deux ; aucune position publiée à
+      contredire, donc pas de signalement.
+gaps:
+  - kind: NOT_FOUND
+    personality: bruno-retailleau
+    theme: defense
+    question: defense-budget-armees-3-pib
+    note: >-
+      Aucun seuil du budget des armées exprimé en part du PIB par M. Retailleau lui-même retrouvé
+      après lecture des textes en cache du registre, recherches presse, site du parti, Sénat
+      (déclaration 50-1 du 15 décembre 2025, scrutins sur la loi actualisant la programmation
+      militaire) et vérification d'une piste d'agrégateur. Seule une cible en euros (100 milliards
+      d'ici la fin du quinquennat) est documentée ; elle n'est pas équivalente à un ratio au PIB.
+  - kind: NO_PERSONAL_POSITION
+    personality: bruno-retailleau
+    theme: sante
+    question: sante-regulation-installation-medecins
+    note: >-
+      La proposition de loi Mouiller (mai 2025), qui régule l'installation dans les zones surdotées,
+      est portée par des sénateurs LR dont M. Retailleau n'est pas signataire (ministre alors) ;
+      aucune prise de position personnelle retrouvée dans ce lot (recherches limitées, voir toVerify).
+signals: []
