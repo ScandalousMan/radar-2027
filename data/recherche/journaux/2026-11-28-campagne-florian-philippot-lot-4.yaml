@@ -1,0 +1,188 @@
+# Journal de mission (spec 008, FR-029 ; mission issue de data:gaps, spec 009 §13 bis, lot 4).
+id: 2026-11-28-campagne-florian-philippot-lot-4
+mode: GLOBAL_ENRICHMENT
+author: claude
+model: sonnet
+request: >-
+  Campagne de couverture 009, lot 4 (GLOBAL_ENRICHMENT ciblé, traité comme une mission PERSONALITY limitée
+  aux questions listées) : pour Florian Philippot, chercher en sources primaires ou secondaires fiables une
+  position personnelle sur 20 questions actives de la banque encore sans position (les questions déjà
+  cherchées sans succès au lot 3 ne sont pas relancées), dans les deux sens de la polarité de chaque
+  énoncé ; angles nouveaux imposés : activité de député européen 2014-2019, vidéos et émissions originales,
+  site et communiqués des Patriotes. Rien déduit du parti ou d'un soutien ; aucune écriture dans positions/,
+  questions/, personnalites.yaml ni signalements.yaml.
+startedAt: 2026-11-28
+completedAt: 2026-11-28
+state: completed
+scope:
+  personalities: [florian-philippot]
+  themes: [environnement, energie, immigration, fiscalite, travail, defense, societe, sante, economie, transport]
+  questions: [environnement-supprimer-zfe, energie-supprimer-aides-solaire-eolien, energie-prolonger-reacteurs-60-ans, energie-petits-reacteurs-modulaires, environnement-taxe-carbone-importations, immigration-vote-local-etrangers-v2, immigration-plafond-annuel-admissions, immigration-prestations-duree-residence, immigration-asile-examen-hors-europe-v2, immigration-amende-sejour-irregulier, immigration-titre-sejour-longue-duree, fiscalite-supprimer-impots-production, fiscalite-taxe-benefices-exceptionnels, travail-smic-au-dela-inflation, defense-renoncer-modernisation-dissuasion, societe-signes-religieux-universite, environnement-assouplir-artificialisation, sante-regulation-installation-medecins, economie-reduire-nombre-fonctionnaires, transport-subventionner-fret-ferroviaire]
+queries:
+  - { at: 2026-11-28, query: "lecture préalable : journal du lot 3, positions/florian-philippot.yaml, sources/florian-philippot.yaml, preuves/florian-philippot.yaml, énoncés et polarités des 20 questions (questions/*.yaml)", category: EXISTING_CORPUS, tool: read }
+  - { at: 2026-11-28, query: "grep du texte en cache du projet 2026 (rubriques énergie, écologie, immigration, finances publiques, santé, sécurité, défense) sur les mots-clés des 20 questions", category: EXISTING_CORPUS, tool: grep }
+  - { at: 2026-11-28, query: "grep des textes en cache du programme 2022, de la charte, du plan d'urgence énergétique, d'Entrevue et de franceinfo sur les mots-clés des 20 questions", category: EXISTING_CORPUS, tool: grep }
+  - { at: 2026-11-28, query: "PDF du projet 2026 téléchargé hors du dépôt puis pdftotext : localisation des pages 3 (moratoire éolien), 9 (tableau des économies), 10 (dissuasion)", category: PARTY_SITE, tool: curl }
+  - { at: 2026-11-28, query: "https://les-patriotes.fr/wp-content/uploads/2025/09/lespatriotes_projet.pdf (édition 2025 du projet, comparaison avec l'édition 2026)", category: PARTY_SITE, tool: curl }
+  - { at: 2026-11-28, query: "Florian Philippot ZFE zones à faibles émissions supprimer", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot ZFE Patriotes interdire voitures villes", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot Patriotes ZFE zones à faibles émissions voitures anti-pauvres", category: PARTY_SITE, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot ZFE zones à faibles émissions Patriotes (breizh-info, cnews, francesoir, les-patriotes.fr, lejdd)", category: PARTY_SITE, tool: web_search }
+  - { at: 2026-11-28, query: "https://les-patriotes.fr/stop-aux-zfe/", category: PARTY_SITE, tool: curl }
+  - { at: 2026-11-28, query: "Florian Philippot invité Sud Radio interview ZFE voitures écologie punitive", category: FULL_INTERVIEWS, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot subventions éolien solaire supprimer", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot nucléaire EDF éoliennes subventions renouvelables (les-patriotes.fr, florian-philippot.com)", category: PARTY_SITE, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot petits réacteurs modulaires nucléaire prolongation centrales", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot nucléaire centrales Fessenheim EDF investissements EPR (publicsenat, lcp, franceinfo, sudradio)", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot invité Sud Radio nucléaire énergie éoliennes", category: FULL_INTERVIEWS, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot nucléaire EPR petits réacteurs Patriotes énergie (breizh-info, cnews, francesoir, les-patriotes.fr, lejdd)", category: SPECIALIZED_PUBLICATIONS, tool: web_search }
+  - { at: 2026-11-28, query: "https://www.publicsenat.fr/actualites/politique/fermeture-de-reacteurs-nucleaires-philippot-fn-denonce-une-annonce-demagogique", category: NATIONAL_MEDIA, tool: curl }
+  - { at: 2026-11-28, query: "https://www.cnews.fr/france/2026-07-13/sur-lenergie-limmigration-et-lagriculture-il-ny-quune-solution-sortir-de-lue", category: ORIGINAL_VIDEOS, tool: curl }
+  - { at: 2026-11-28, query: "Florian Philippot taxe carbone aux frontières", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot protectionnisme taxe frontières importations pollution dumping écologique (publicsenat, sudradio, lcp, franceinfo, breizh-info, cnews, francesoir)", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot taxe carbone écologie punitive gilets jaunes carburants fiscalité écologique (publicsenat, sudradio, lcp, franceinfo)", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot immigration droit de vote des étrangers élections locales", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot droit de vote étrangers élections locales Patriotes", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot immigration référendum quotas expulsion prestations sociales étrangers préférence nationale (les-patriotes.fr, florian-philippot.com)", category: PARTY_SITE, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot invité Sud Radio immigration quotas expulsions étrangers", category: FULL_INTERVIEWS, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot immigration quotas régularisation sans-papiers interview Patriotes (breizh-info, cnews, francesoir, les-patriotes.fr, lejdd)", category: SPECIALIZED_PUBLICATIONS, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot prestations sociales étrangers préférence nationale résidence années (publicsenat, sudradio, lcp, franceinfo)", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot droit d'asile demandeurs d'asile Europe centres hors de France (publicsenat, sudradio, lcp, franceinfo)", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot séjour irrégulier délit amende clandestins sanction", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot immigration régularisation titre de séjour étrangers regroupement familial Patriotes (publicsenat, lcp, franceinfo, sudradio)", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "https://www.breizh-info.com/2020/11/26/154592/florian-philippot-libertes-france/ (interview écrite, arrêt de l'immigration légale et illégale)", category: SPECIALIZED_PUBLICATIONS, tool: curl }
+  - { at: 2026-11-28, query: "https://www.publicsenat.fr/actualites/politique/immigration-permettre-a-chacun-de-vivre-sereinement-dans-son-propre-pays-estime", category: NATIONAL_MEDIA, tool: curl }
+  - { at: 2026-11-28, query: "Florian Philippot impôts de production entreprises baisse TVA fiscalité", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot impôts de production baisser charges entreprises PME cotisations patronales (publicsenat, sudradio, lcp, franceinfo, breizh-info, cnews, francesoir)", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot superprofits taxer bénéfices exceptionnels TotalEnergies", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot taxe entreprises multinationales bénéfices GAFA impôt grands groupes (publicsenat, lcp, franceinfo, sudradio)", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "https://www.franceinfo.fr/economie/automobile/diesel/prix-des-carburants-on-pourrait-se-priver-de-tva-sur-l-essence-affirme-philippot-les-patriotes_3433937.html", category: TV_RADIO_DEBATES, tool: curl }
+  - { at: 2026-11-28, query: "Florian Philippot SMIC augmentation salaires", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot invité Sud Radio impôts entreprises fonctionnaires SMIC retraite", category: FULL_INTERVIEWS, tool: web_search }
+  - { at: 2026-11-28, query: "https://www.publicsenat.fr/actualites/politique/pecresse-lr-en-faveur-d-une-augmentation-du-smic-net-de-20-87354", category: PRESS_AGENCIES, tool: curl }
+  - { at: 2026-11-28, query: "Philippot dissuasion nucléaire armée française modernisation sous-marins (publicsenat, sudradio, lcp, franceinfo)", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot signes religieux université étudiants voile interdire", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot voile université interdire laïcité étudiantes", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot voile islamique interdire espace public université (publicsenat, lcp, franceinfo, sudradio)", category: FULL_INTERVIEWS, tool: web_search }
+  - { at: 2026-11-28, query: "https://www.sudradio.fr/societe/florian-philippot-quand-nous-ferons-le-frexit-nous-aurons-de-lexperience", category: FULL_INTERVIEWS, tool: curl }
+  - { at: 2026-11-28, query: "Florian Philippot fonctionnaires supprimer postes nombre de fonctionnaires", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot Fillon 500 000 fonctionnaires suppression postes réaction", category: HISTORICAL_ARCHIVES, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot fonctionnaires emplois publics (publicsenat)", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "https://www.sudradio.fr/politique/florian-philippot-marine-le-pen-est-le-seul-rempart-face-a-fillon", category: FULL_INTERVIEWS, tool: curl }
+  - { at: 2026-11-28, query: "Florian Philippot désert médical médecins installation régulation liberté", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot invité Sud Radio médecins hôpital santé déserts médicaux", category: FULL_INTERVIEWS, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot médecins désert médical Patriotes installation (breizh-info, cnews, francesoir, les-patriotes.fr, lejdd)", category: SPECIALIZED_PUBLICATIONS, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot artificialisation des sols zéro artificialisation nette ZAN communes", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot bétonisation terres agricoles urbanisme sols Patriotes", category: PARTY_SITE, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot artificialisation sols loi climat communes rurales maires (europarl, lejdd, franceinfo, lcp)", category: EUROPEAN_PARLIAMENT, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot SNCF fret ferroviaire rail transport marchandises camions (publicsenat, sudradio, lcp, franceinfo)", category: NATIONAL_MEDIA, tool: web_search }
+  - { at: 2026-11-28, query: "Philippot rail fret ferroviaire service public SNCF investissements camions autoroutes (publicsenat, sudradio, breizh-info, cnews, francesoir, les-patriotes.fr)", category: PARTY_SITE, tool: web_search }
+  - { at: 2026-11-28, query: "Florian Philippot explication de vote Parlement européen (europarl.europa.eu)", category: EUROPEAN_PARLIAMENT, tool: web_search }
+  - { at: 2026-11-28, query: "https://www.europarl.europa.eu/meps/en/110977/FLORIAN_PHILIPPOT/all-activities/written-explanations/8 (liste des 20 explications écrites d'avril 2019 ; curl bloqué 403)", category: EUROPEAN_PARLIAMENT, tool: web_fetch }
+  - { at: 2026-11-28, query: "https://www.franceinfo.fr/replay-radio/le-vrai-du-faux/florian-philippot-dit-il-vrai-sur-la-taxe-pour-les-camions-etrangers_1760447.html", category: HISTORICAL_ARCHIVES, tool: curl }
+categoriesExplored: [EXISTING_CORPUS, PARTY_SITE, CAMPAIGN_SITE, NATIONAL_MEDIA, PRESS_AGENCIES, FULL_INTERVIEWS, TV_RADIO_DEBATES, ORIGINAL_VIDEOS, EUROPEAN_PARLIAMENT, HISTORICAL_ARCHIVES, SPECIALIZED_PUBLICATIONS]
+categoriesNotExplored:
+  - { category: SOCIAL_MEDIA, reason: "comptes X et chaîne YouTube non dépouillés : authentification, pas d'écoute audio, transcriptions automatiques seulement (jamais VERIFIED_QUOTE)" }
+  - { category: ORIGINAL_VIDEOS, reason: "vidéos CNews, France 2 et YouTube non écoutées ni transcrites ; la page CNews du 2026-07-13 n'a que le titre et une phrase de chapeau, sans transcription" }
+  - { category: EUROPEAN_PARLIAMENT, reason: "page des explications de vote et des votes nominatifs 2014-2019 bloquée en téléchargement direct (403) ; seul un aperçu de la liste (20 entrées d'avril 2019, bouton « charger plus » non exploré) a été obtenu par un outil de résumé, donc non vérifiable ; aucune des 20 entrées vues ne porte sur une question de la liste" }
+  - { category: ASSEMBLEE_NATIONALE, reason: "Philippot n'a jamais été député national ; non pertinent" }
+exhaustive: false
+sourcesConsulted:
+  - { url: "https://www.publicsenat.fr/actualites/politique/pecresse-lr-en-faveur-d-une-augmentation-du-smic-net-de-20-87354", title: "Pécresse (LR) en faveur d'une augmentation du Smic net de 20 % (Public Sénat)", outcome: retained, source: florian-philippot-pecresse-lr-en-faveur-d-une-augmentation-du-smic-net-de-20-p }
+  - { url: "https://www.sudradio.fr/societe/florian-philippot-quand-nous-ferons-le-frexit-nous-aurons-de-lexperience", title: "Florian Philippot : « quand nous ferons le Frexit, nous aurons de l'expérience » (Sud Radio)", outcome: retained, source: florian-philippot-florian-philippot-quand-nous-ferons-le-frexit-nous-aurons-de }
+  - { url: "https://www.sudradio.fr/politique/florian-philippot-marine-le-pen-est-le-seul-rempart-face-a-fillon", title: "Florian Philippot : « Marine Le Pen est le seul rempart face à Fillon » (Sud Radio)", outcome: retained, source: florian-philippot-florian-philippot-marine-le-pen-est-le-seul-rempart-face-a-f }
+  - { url: "https://www.franceinfo.fr/economie/automobile/diesel/prix-des-carburants-on-pourrait-se-priver-de-tva-sur-l-essence-affirme-philippot-les-patriotes_3433937.html", title: "Prix des carburants : « On pourrait se priver de TVA sur l'essence », affirme Philippot (franceinfo, France 2)", outcome: retained, source: florian-philippot-prix-des-carburants-on-pourrait-se-priver-de-tva-sur-l-essen }
+  - { url: "https://les-patriotes.fr/stop-aux-zfe/", title: "Stop aux ZFE ! (Les Patriotes, pétition)", outcome: retained, source: florian-philippot-stop-aux-zfe-les-patriotes-petition }
+  - { url: "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf", title: "Grandes orientations pour un projet patriote 2026-2027 (déjà au registre)", outcome: retained, source: florian-philippot-projet-pour-la-france-2026 }
+  - { url: "https://les-patriotes.fr/wp-content/uploads/2025/09/lespatriotes_projet.pdf", title: "Grandes orientations pour un projet patriote, édition 2025", outcome: rejected, reason: "même document, édition antérieure : mêmes passages que l'édition 2026 sur les questions de la liste ; non enregistré pour éviter un doublon" }
+  - { url: "https://www.publicsenat.fr/actualites/politique/fermeture-de-reacteurs-nucleaires-philippot-fn-denonce-une-annonce-demagogique", title: "Fermeture de réacteurs nucléaires : Philippot (FN) dénonce « une annonce démagogique » (Public Sénat, 2017-07-10)", outcome: rejected, reason: "lu en texte brut ; propos sur la fermeture de 17 réacteurs et le besoin d'investissements de l'État pour « pérenniser » les installations, sans lien direct avec la prolongation au-delà de 60 ans (qualification NO_DIRECT_EVIDENCE, sans valeur pour la banque) ; non enregistré" }
+  - { url: "https://www.publicsenat.fr/actualites/politique/immigration-permettre-a-chacun-de-vivre-sereinement-dans-son-propre-pays-estime", title: "Immigration : « permettre à chacun de vivre sereinement » dans son propre pays, estime Philippot (Public Sénat, 2017-12-26)", outcome: rejected, reason: "propos généraux sur l'immigration massive, les frontières et une « politique régulée d'immigration », sans lien direct avec aucun énoncé de la liste" }
+  - { url: "https://www.breizh-info.com/2020/11/26/154592/florian-philippot-libertes-france/", title: "Florian Philippot : « Notre pays est incontestablement dans les mains… » (Breizh-info, 2020-11-26)", outcome: rejected, reason: "appelle à « arrêter toute forme d'immigration légale comme illégale » (exceptions) : ni plafond annuel fixé par le Parlement ni facilitation du titre de longue durée ; hors énoncés ; non enregistré" }
+  - { url: "https://www.cnews.fr/france/2026-07-13/sur-lenergie-limmigration-et-lagriculture-il-ny-quune-solution-sortir-de-lue", title: "« Sur l'énergie, l'immigration et l'agriculture il n'y a qu'une solution : sortir de l'UE », martèle Florian Philippot (CNews, 2026-07-13)", outcome: inaccessible, reason: "page vidéo sans transcription, seuls le titre et une phrase de chapeau sont lisibles ; vidéo non écoutée" }
+  - { url: "https://www.europarl.europa.eu/meps/en/110977/FLORIAN_PHILIPPOT/all-activities/written-explanations/8", title: "Explications de vote écrites, 8e législature (Parlement européen)", outcome: inaccessible, reason: "403 sur le téléchargement direct ; seul un résumé d'outil a été obtenu, non utilisable pour une preuve" }
+  - { url: "https://www.sudradio.fr/politique/florian-philippot-si-on-se-re-enferme-dans-lunion-des-droites-on-ne-sera-jamais-majoritaires", title: "Florian Philippot : « Si on se ré-enferme dans l'union des droites… » (Sud Radio, 2018-05-01)", outcome: rejected, reason: "lu en texte brut ; propos sur l'union des droites et le Frexit, sans lien avec un énoncé de la liste" }
+  - { url: "https://www.sudradio.fr/bercoff-dans-tous-ses-etats/florian-philippot-blackrock-drapeau-europeen-reforme-retraites", title: "Florian Philippot : « Charcutons l'Union européenne » (Sud Radio, 2023-02-01)", outcome: rejected, reason: "lu en texte brut ; réforme des retraites et capitalisation, question déjà cherchée au lot 3 (travail-retraite-capitalisation) ; hors liste" }
+  - { url: "https://www.franceinfo.fr/replay-radio/le-vrai-du-faux/florian-philippot-dit-il-vrai-sur-la-taxe-pour-les-camions-etrangers_1760447.html", title: "Florian Philippot dit-il vrai sur la taxe pour les camions étrangers ? (franceinfo, 2014-05-01)", outcome: rejected, reason: "lu en texte brut ; porte sur l'Eurovignette et une taxe sur les poids lourds étrangers, sans lien avec le financement du fret ferroviaire" }
+evidenceAdded: [florian-philippot-travail-001, florian-philippot-societe-001, florian-philippot-fiscalite-003, florian-philippot-economie-002, florian-philippot-defense-003, florian-philippot-energie-001, florian-philippot-energie-002, florian-philippot-environnement-001]
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided: []
+verified: [florian-philippot-travail-001, florian-philippot-societe-001, florian-philippot-fiscalite-003, florian-philippot-economie-002, florian-philippot-defense-003, florian-philippot-energie-001, florian-philippot-energie-002, florian-philippot-environnement-001]
+toVerify:
+  - "Écouter l'entretien Sud Radio du 2019-10-31 (« C'est à la une ») pour confirmer le timestamp et la formulation de « je suis pour une interdiction à l'université depuis longtemps » (l'intertitre de la page dit « du voile »)."
+  - "Écouter « Les 4 Vérités » du 2019-05-08 (France 2) pour confirmer la surtaxe des grands groupes pétroliers et gaziers."
+  - "Votes nominatifs et explications de vote au Parlement européen 2014-2019 : page bloquée en téléchargement direct, à faire depuis un navigateur ; aucune des 20 entrées d'avril 2019 vues ne porte sur une question de la liste."
+contradictions: []
+signals: []
+gaps:
+  - kind: PARTY_POSITION_ONLY
+    personality: florian-philippot
+    theme: environnement
+    question: environnement-supprimer-zfe
+    evidence: [florian-philippot-environnement-001]
+    note: "Seule la pétition « Stop aux ZFE ! » du site des Patriotes (2025-01-02, sans signataire) a été trouvée ; aucun propos personnel de Philippot retrouvé après recherches presse nationale, site du parti, Sud Radio, Breizh-info/CNews/JDD, texte du projet 2026."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: energie
+    question: energie-prolonger-reacteurs-60-ans
+    note: "Aucun propos personnel : recherches presse nationale, site du parti, Sud Radio, Breizh-info/CNews/JDD, Public Sénat 2017 (fermeture de réacteurs, sans lien direct) et relecture du projet 2026 (investissement massif dans le nucléaire de nouvelle génération, sans durée de vie) ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: energie
+    question: energie-petits-reacteurs-modulaires
+    note: "Aucun propos personnel : mêmes recherches que pour la prolongation des réacteurs ; le projet 2026 parle de « nucléaire de nouvelle génération » sans nommer les petits réacteurs modulaires ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: environnement
+    question: environnement-taxe-carbone-importations
+    note: "Aucun propos personnel sur une taxe sur les émissions des importations : recherches presse nationale, Public Sénat, Sud Radio, explications de vote au Parlement européen (liste partielle), texte du projet 2026 (protectionnisme présenté comme mesure écologique, sans taxe sur les émissions de GES) ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: immigration
+    question: immigration-vote-local-etrangers-v2
+    note: "Aucun propos personnel : recherches presse nationale, site du parti, Sud Radio, Breizh-info/CNews, texte du projet 2026 et de la charte ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: immigration
+    question: immigration-plafond-annuel-admissions
+    note: "Aucun propos sur un plafond annuel fixé par le Parlement : le projet 2026 vise des « flux extrêmement limités » et la fin de l'immigration de travail, et Breizh-info 2020 un arrêt de l'immigration légale avec exceptions, sans plafond voté ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: immigration
+    question: immigration-prestations-duree-residence
+    note: "Aucun propos personnel : recherches presse nationale, site du parti, Sud Radio, Breizh-info/CNews, projet 2026 (seule la conditionnalité des prestations des familles de mineurs récidivistes, hors sujet) ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: immigration
+    question: immigration-asile-examen-hors-europe-v2
+    note: "Aucun propos personnel sur l'examen des demandes d'asile hors de l'UE : recherches presse nationale, site du parti, Sud Radio, Breizh-info/CNews, projet 2026 (refus du pacte migratoire et sortie de la CEDH, sans centres hors UE) ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: immigration
+    question: immigration-amende-sejour-irregulier
+    note: "Aucun propos personnel sur une amende pour séjour irrégulier : recherches presse nationale, site du parti, Sud Radio, Breizh-info/CNews, projet 2026 (renvoi des clandestins et application des OQTF, sans amende) ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: immigration
+    question: immigration-titre-sejour-longue-duree
+    note: "Aucun propos personnel : recherches presse nationale, site du parti, Sud Radio, Breizh-info/CNews, projet 2026 ; le seul propos proche (Breizh-info 2020, arrêt de l'immigration légale avec exceptions) ne vise pas les étrangers déjà en situation régulière ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: fiscalite
+    question: fiscalite-supprimer-impots-production
+    note: "Aucun propos personnel : recherches presse nationale (deux requêtes), site du parti, programme 2022 et projet 2026 (principes fiscaux : allègement pour indépendants et petites entreprises, sans impôts de production) ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: transport
+    question: transport-subventionner-fret-ferroviaire
+    note: "Aucun propos personnel sur le fret ferroviaire : recherches presse nationale, Public Sénat, Sud Radio, Breizh-info/Patriotes, projet 2026 (rétablissement du monopole public dans le rail, « soutien au fret maritime » seulement) ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: environnement
+    question: environnement-assouplir-artificialisation
+    note: "Aucun propos personnel : recherches presse nationale, site du parti, Breizh-info/CNews, Parlement européen, projet 2026 (artificialisation citée seulement comme menace pour la biodiversité, sans position sur ses objectifs) ; aucune position supposée."
+  - kind: NOT_FOUND
+    personality: florian-philippot
+    theme: sante
+    question: sante-regulation-installation-medecins
+    note: "Aucun propos personnel sur la régulation de l'installation : recherches presse nationale, Sud Radio, Breizh-info/CNews/JDD, programme 2022 (liberté totale de prescription, sans installation) et projet 2026 (suppression des ARS, centres de santé de proximité) ; aucune position supposée."

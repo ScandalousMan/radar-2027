@@ -1,0 +1,290 @@
+# Journal de mission (spec 008, FR-029 ; mission issue de data:gaps, spec 009 §13 bis).
+# Juan Branco × questions de la banque active (lot 4).
+id: 2026-11-28-campagne-juan-branco-lot-4
+mode: GLOBAL_ENRICHMENT
+author: claude
+model: sonnet
+request: >-
+  Campagne de couverture 009, lot 4, mode GLOBAL_ENRICHMENT ciblé (traité comme PERSONALITY limité aux
+  questions listées) : pour Juan Branco, chercher des preuves de position personnelle sur 21 questions
+  actives jamais cherchées, par les angles livres, vidéos et entretiens, programme (dernière version) et
+  tribunes ou billets signés ; les deux sens de la polarité ; écrire seulement data/recherche/ et
+  data/corpus/sources/juan-branco.yaml ; jamais data/corpus/positions/, questions/, personnalites.yaml ni
+  signalements.yaml ; pas de commit.
+startedAt: 2026-11-28
+completedAt: 2026-11-28
+state: completed
+scope:
+  personalities: [juan-branco]
+  themes: [travail, institutions, immigration, economie, fiscalite, defense, energie, justice, education, environnement]
+  questions:
+    - travail-retraite-62-ans
+    - institutions-supprimer-senat
+    - immigration-regularisation-cinq-ans
+    - economie-edf-entierement-publique
+    - fiscalite-taxe-benefices-exceptionnels
+    - fiscalite-baisse-impot-societes
+    - fiscalite-supprimer-impots-production
+    - travail-retraite-capitalisation
+    - travail-duree-travail-accord-entreprise
+    - economie-reduire-nombre-fonctionnaires
+    - defense-budget-armees-3-pib
+    - defense-dissuasion-protection-europe-v2
+    - energie-prolonger-reacteurs-60-ans
+    - energie-accelerer-eolien-terrestre
+    - justice-comparution-immediate-mineurs
+    - justice-peines-minimales-recidive
+    - justice-majorite-penale-16-ans
+    - education-groupes-de-niveau-college
+    - education-uniforme-obligatoire
+    - education-revalorisation-identique-pour-tous
+    - environnement-calendrier-logements-mal-isoles
+queries:
+  - at: 2026-11-28
+    query: "lecture préalable : journaux 2026-11-27-campagne-branco-banque-active et 2026-11-22-campagne-branco-immigration, preuves/juan-branco.yaml, positions/juan-branco.yaml, sources/juan-branco.yaml, énoncés et polarités des 21 questions (questions/*.yaml)"
+    category: EXISTING_CORPUS
+    tool: read
+  - at: 2026-11-28
+    query: "relecture du texte en cache du programme « La Voie » v9 (sections Démocratie, Justice, Intérieur, Défense, Économie, Numérique, Instruction, Énergie) et recherche plein texte : Sénat, retraite, capitalisation, régularis, EDF, bénéfices, sociétés, impôts de production, 35 heures, fonctionnaires, PIB, dissuasion, éolien, comparution, mineur, récidiv, majorité pénale, niveau, uniforme, isolé, DPE"
+    category: CAMPAIGN_SITE
+    tool: grep
+  - at: 2026-11-28
+    query: "rouverture de https://media.ruches.org/projet-1784217879253.pdf : fichier créé le 2026-05-27 (même version que celle en cache, pas de version plus récente) ; https://ruches.org/le-projet (renvoie au même PDF)"
+    category: CAMPAIGN_SITE
+    tool: curl+pdfinfo
+  - at: 2026-11-28
+    query: "https://ruches.org (navigation, actualités, documents, bibliothèque, vidéothèque) : recensement des textes publiés, dont la lettre à Philippe Juvin du 2026-09-11"
+    category: PARTY_SITE
+    tool: curl
+  - at: 2026-11-28
+    query: "https://media.ruches.org/livre/juan-branco-reponse-a-philippe-juvin.pdf (lettre du 2026-09-11, 4 pages) : lecture intégrale"
+    category: SPEECHES_PRESS_CONFERENCES
+    tool: pdftotext
+  - at: 2026-11-28
+    query: "https://ruches.org/faq (100 questions) : recherche plein texte Sénat, retraite, fonctionnaires, nucléaire, impôt, EDF, éolien, uniforme"
+    category: PARTY_SITE
+    tool: grep
+  - at: 2026-11-28
+    query: "https://juan-branco.fr (accueil, /livres/, /articles/, /videos/, /politiques/) : recensement des textes accessibles légalement et des vidéos"
+    category: PERSONAL_SITE
+    tool: curl
+  - at: 2026-11-28
+    query: "https://juan-branco.fr/wp-content/uploads/2022/01/ABATTRE_LENNEMI.pdf (livre « Abattre l'ennemi », 2021, texte intégral en libre accès) : recherche plein texte Sénat, retraite, capitalisation, fonctionnaires, nucléaire, EDF, mineurs, récidiv, éolien, uniforme, régularis, isolation, heures, PIB, dissuasion ; lecture des chapitres Penser, Agir, Gouverner"
+    category: HISTORICAL_ARCHIVES
+    tool: pdftotext+grep
+  - at: 2026-11-28
+    query: "https://juan-branco.fr/wp-content/uploads/2021/03/macron-et-son-crepuscule-3.pdf (Crépuscule, texte écrit en 2018) : recherche plein texte Sénat, retraite, capitalisation, fonctionnaires, nucléaire, EDF, mineurs, récidiv"
+    category: HISTORICAL_ARCHIVES
+    tool: pdftotext+grep
+  - at: 2026-11-28
+    query: "Juan Branco réforme des retraites 62 ans OR 64 ans position"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-28
+    query: "\"Branco\" \"retraites\" 2023 avocat Juan Branco tribune réforme Macron 49.3"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-28
+    query: "\"Juan Branco\" \"retraites\" \"Ruches\" programme 2027 âge de départ"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_search
+  - at: 2026-11-28
+    query: "Juan Branco supprimer le Sénat"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-28
+    query: "\"Juan Branco\" candidat 2027 \"Sénat\" OR \"chambre du peuple\" entretien institutions constituante"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-28
+    query: "https://votons-2027.fr/candidats/branco/programme/institutions"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-28
+    query: "Juan Branco entretien 2026 nucléaire EDF nationalisation éolien"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-28
+    query: "\"Juan Branco\" nucléaire \"EPR\" OR \"EDF\" OR \"éoliennes\" 2026 candidat présidentielle"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-28
+    query: "\"Juan Branco\" 2027 \"entreprises\" impôts \"dividendes\" OR \"superprofits\" OR \"impôt sur les sociétés\" interview"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-28
+    query: "Juan Branco substack OR \"juanbranco.com\" fonctionnaires impôt sociétés"
+    category: SOCIAL_MEDIA
+    tool: web_search
+  - at: 2026-11-28
+    query: "Juan Branco majorité pénale mineurs comparution immédiate peines planchers récidive"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-28
+    query: "\"Juan Branco\" délinquance mineurs justice des mineurs prison peines position candidat"
+    category: TV_RADIO_DEBATES
+    tool: web_search
+  - at: 2026-11-28
+    query: "\"Juan Branco\" école uniforme OR \"groupes de niveau\" OR \"choc des savoirs\" enseignants salaires"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-28
+    query: "\"Juan Branco\" passoires thermiques DPE location interdiction logements OR \"35 heures\" OR \"durée du travail\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-28
+    query: "\"Juan Branco\" budget des armées dissuasion nucléaire Europe OTAN défense 3% PIB"
+    category: NATIONAL_MEDIA
+    tool: web_search
+categoriesExplored: [EXISTING_CORPUS, CAMPAIGN_SITE, PARTY_SITE, SPEECHES_PRESS_CONFERENCES, PERSONAL_SITE, HISTORICAL_ARCHIVES, NATIONAL_MEDIA, SPECIALIZED_PUBLICATIONS, FULL_INTERVIEWS, TV_RADIO_DEBATES, SOCIAL_MEDIA]
+categoriesNotExplored:
+  - category: ORIGINAL_VIDEOS
+    reason: "Vidéos YouTube de la chaîne et lives repérés sur juan-branco.fr/videos mais non dépouillés : aucune transcription officielle ni manuelle ; une transcription automatique ne peut pas fonder un VERIFIED_QUOTE et l'agent n'écoute pas l'audio."
+  - category: ASSEMBLEE_NATIONALE
+    reason: "Aucun mandat parlementaire : pas d'activité parlementaire à consulter."
+  - category: SENAT
+    reason: "Aucun mandat parlementaire."
+  - category: SOCIAL_MEDIA
+    reason: "Comptes X, Instagram et TikTok non dépouillés (volume, sans moteur d'accès fiable) ; seule une recherche web de billets de blog a été faite."
+exhaustive: false
+sourcesConsulted:
+  - url: https://media.ruches.org/projet-1784217879253.pdf
+    title: "La Voie : pour sauver le peuple français (Le Projet v9)"
+    outcome: retained
+    source: juan-branco-la-voie-programme-2027
+  - url: https://media.ruches.org/livre/juan-branco-reponse-a-philippe-juvin.pdf
+    title: "Réponse de Juan Branco à Philippe Juvin (lettre du 2026-09-11)"
+    outcome: retained
+    source: juan-branco-reponse-de-juan-branco-a-philippe-juvin-rapporteur-general-d
+  - url: https://juan-branco.fr/wp-content/uploads/2022/01/ABATTRE_LENNEMI.pdf
+    title: "Abattre l'ennemi (texte intégral en accès libre, 2021)"
+    outcome: retained
+    source: juan-branco-abattre-l-ennemi-juan-branco-texte-integral-en-acces-libre-s
+  - url: https://juan-branco.fr/wp-content/uploads/2021/03/macron-et-son-crepuscule-3.pdf
+    title: "Crépuscule (texte écrit en 2018)"
+    outcome: rejected
+    reason: "Texte de 2018 sur la captation du pouvoir macroniste : aucun passage sur les 21 questions."
+  - url: https://ruches.org/faq
+    title: "Juan Branco en 100 questions (Ruches)"
+    outcome: rejected
+    reason: "Réponses factuelles sur le parcours, sans position sur les 21 questions."
+  - url: https://ruches.org/le-projet
+    title: "Le Projet 2027 (Les Ruches)"
+    outcome: rejected
+    reason: "Renvoie au même PDF v9 déjà enregistré ; aucun élément supplémentaire."
+  - url: https://juan-branco.fr/videos/
+    title: "Vidéos (juan-branco.fr)"
+    outcome: rejected
+    reason: "Liens YouTube sans transcription officielle ; non exploitables en VERIFIED_QUOTE."
+  - url: https://votons-2027.fr/candidats/branco/programme/institutions
+    title: "Institutions et société, présidentielle 2027 (votons-2027.fr)"
+    outcome: rejected
+    reason: "Site de compilation : piste seulement ; les mesures renvoient au PDF primaire."
+evidenceAdded:
+  - juan-branco-institutions-001
+  - juan-branco-institutions-002
+  - juan-branco-immigration-003
+  - juan-branco-economie-001
+  - juan-branco-economie-002
+  - juan-branco-energie-002
+evidenceCorroborated: []
+evidenceCorrected: []
+duplicatesAvoided:
+  - evidence: juan-branco-immigration-001
+    note: "La mesure 2026 « critères objectivables d'intégration » est déjà la preuve de la question métiers en tension (même source, même citation) : la validation interdit de la rattacher à une autre question, elle n'est donc pas réenregistrée pour la question cinq ans ; juan-branco-immigration-003 s'appuie sur la version 2021 d'Abattre l'ennemi (p. 153)."
+  - evidence: juan-branco-energie-001
+    note: "Le programme (14 EPR 2, subventions photovoltaïques, critique des énergies intermittentes) est déjà couvert par la preuve existante ; seule la lettre du 2026-09-11, qui parle de réorientation des crédits d'impôt, apporte un propos distinct (juan-branco-energie-002)."
+verified:
+  - juan-branco-institutions-001
+  - juan-branco-institutions-002
+  - juan-branco-immigration-003
+  - juan-branco-economie-001
+  - juan-branco-economie-002
+  - juan-branco-energie-002
+toVerify:
+  - "Vidéos YouTube de la chaîne (juan-branco.fr/videos) et entretiens audio 2023-2026 : à écouter pour retraites 2023, Sénat, fiscalité des grandes entreprises ; transcription automatique seulement possible, donc UNVERIFIED_QUOTE."
+contradictions:
+  - evidence: [juan-branco-institutions-001, juan-branco-institutions-002]
+    note: "Évolution, pas de contradiction : 2021 « Suppression du Conseil économique et social et du Sénat » (liste de réformes) avec variante de fusion ; 2026 trois options (suppression, absorption, fusion) soumises à la constituante, toutes sans Sénat distinct (juan-branco-institutions-002). Évolution de l'énergie à signaler : « Abattre l'ennemi » (2021) parlait de « sortir progressivement du nucléaire » et d'un « référendum sur l'énergie nucléaire à quinze ans » ; le programme 2026 prévoit 14 EPR 2. Non enregistré comme preuve (aucune des 21 questions n'est visée directement), mais utile à l'arbitre pour la question energie-prolonger-reacteurs-60-ans."
+gaps:
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: travail
+    question: travail-retraite-62-ans
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : retraites : le programme et le livre 2021 parlent d'alignement des régimes et de taux selon l'espérance de vie, jamais de l'âge légal ; la lettre Juvin prévoit un plafonnement des retraites et la prise en compte du patrimoine."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: travail
+    question: travail-retraite-capitalisation
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: travail
+    question: travail-duree-travail-accord-entreprise
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : seul objectif chiffré : 1800 heures travaillées par actif, sans mention de la durée légale ni de l'accord d'entreprise."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: fiscalite
+    question: fiscalite-taxe-benefices-exceptionnels
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : seules mesures voisines : taxe sur les transactions financières, suppression du CICE et du CIR."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: fiscalite
+    question: fiscalite-baisse-impot-societes
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : seules mesures voisines : « allègement bureaucratique et fiscal majeur » aux créateurs de richesse (lettre Juvin) et moratoire impositif de trois ans pour les nouvelles entreprises ; le taux de l'IS n'est jamais cité."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: fiscalite
+    question: fiscalite-supprimer-impots-production
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : seule mesure voisine : suppression de 267 taxes à faible rendement (CETIM, TGAP, etc.), non qualifiées d'impôts de production."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: defense
+    question: defense-budget-armees-3-pib
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : le programme liste de nombreux programmes d'armement sans cible en pourcentage du PIB."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: defense
+    question: defense-dissuasion-protection-europe-v2
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : le programme prévoit la sortie de l'OTAN (commandement intégré ou traité) et, dans « Abattre l'ennemi », une réduction à cinq sous-marins nucléaires ; aucun propos sur l'extension de la dissuasion aux partenaires européens."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: energie
+    question: energie-prolonger-reacteurs-60-ans
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : programme 2026 : 14 EPR 2 ; « Abattre l'ennemi » 2021 : sortie progressive du nucléaire ; aucun propos sur la durée de vie des réacteurs existants."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: justice
+    question: justice-comparution-immediate-mineurs
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : seule mesure voisine : audiences foraines pour les comparutions immédiates (adultes) ; rien sur les mineurs."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: justice
+    question: justice-peines-minimales-recidive
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : seules mesures voisines : « Fin du modèle Badinter : peines réelles » et peines courtes ; rien sur la récidive ni sur des minima."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: justice
+    question: justice-majorite-penale-16-ans
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: education
+    question: education-groupes-de-niveau-college
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : seule mesure voisine, au primaire : « Généralisation des classes à niveaux agglomérés » ; rien sur les groupes de niveau au collège."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: education
+    question: education-uniforme-obligatoire
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : seule mention : professeurs des écoles « identifiable à l'uniforme » (uniforme des enseignants, non des élèves)."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: education
+    question: education-revalorisation-identique-pour-tous
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : seule mesure voisine : revalorisation salariale des enseignants en début de carrière (ciblée, ni hausse générale ni primes au mérite)."
+  - kind: NOT_FOUND
+    personality: juan-branco
+    theme: environnement
+    question: environnement-calendrier-logements-mal-isoles
+    note: "Aucun propos ni mesure attribuable à Juan Branco sur l'énoncé après lecture intégrale du programme v9, de la lettre à Philippe Juvin (2026-09-11), du livre « Abattre l'ennemi » (2021) et de la FAQ ruches.org, et 15 requêtes web (NATIONAL_MEDIA, FULL_INTERVIEWS, SPECIALIZED_PUBLICATIONS, TV_RADIO_DEBATES, SOCIAL_MEDIA) sans résultat le citant. Éléments voisins non retenus : seule mesure voisine : moratoire sur les aides à l'isolation (Ma prime rénov') ; rien sur l'interdiction de louer."
+signals: []
