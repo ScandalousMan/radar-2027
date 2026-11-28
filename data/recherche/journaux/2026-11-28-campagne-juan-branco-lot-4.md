@@ -17,6 +17,8 @@ Mode : GLOBAL_ENRICHMENT (ciblé, traité comme PERSONALITY limité à 21 questi
 - [Fait vérifié] « Abattre l'ennemi » (https://juan-branco.fr/wp-content/uploads/2022/01/ABATTRE_LENNEMI.pdf), texte intégral diffusé par l'auteur sur son site ; PDF créé le 2021-07-30 (métadonnées). Nouvelle source juan-branco-abattre-l-ennemi-juan-branco-texte-integral-en-acces-libre-s.
 - Écartées : « Crépuscule » (2018, aucun passage utile), FAQ ruches.org, ruches.org/le-projet (même PDF), vidéos juan-branco.fr (sans transcription), votons-2027.fr (compilation, piste seulement).
 
+Suivi du lot 4 (2e passe, mêmes dates) : 16 requêtes supplémentaires, sources écrites primaires 2022-2026 uniquement. Billets et articles de juan-branco.fr (~46 pages lues, reposts et communiqués), transcription de la conférence du 2022-03-01 sur l'Ukraine, billet « Le prix de l'électricité » (2022-04-26), programme v9 relu sur le parc nucléaire existant, « Abattre l'ennemi » relu. aurores.org inaccessible (connexion refusée). Aucune nouvelle preuve.
+
 ## 4. Citations et preuves ajoutées
 
 1. **juan-branco-institutions-001** · institutions-supprimer-senat · EXPLICIT_SUPPORT · DATED. [Citation] « Suppression du Conseil économique et social et du Sénat. » (« Abattre l'ennemi », chapitre Gouverner, « Réforme institutionnelle », p. 146, 2021). [Interprétation] Mesure listée parmi les réformes proposées dans le cadre constituant ; variante de fusion p. 128. Sens proposé : +2 pour ce texte seul.
@@ -40,6 +42,10 @@ Aucun.
 - juan-branco-energie-001 couvre déjà le programme sur les énergies alternatives ; seule la lettre Juvin est nouvelle.
 
 ## 8. Éléments non vérifiés ou non résolus
+
+- [Fait vérifié] Le programme v9 ne parle ni du parc nucléaire existant, ni du grand carénage, ni de capitalisation, ni d'un budget des armées en % du PIB.
+- [Hypothèse] Piste d'agrégateur (France-Vote, sans source) : « Il faut abroger la réforme des retraites de 2023 et revenir à un départ à 62 ans ou moins ». Contredit par le programme primaire ; rejetée, jamais preuve.
+- aurores.org : inaccessible (ECONNREFUSED) pendant la 2e passe.
 
 - [Hypothèse] Les vidéos et entretiens audio 2023-2026 (retraites 2023, Sénat, fiscalité des grandes entreprises) pourraient contenir des positions : non écoutés, non transcrits officiellement.
 - Date de « Abattre l'ennemi » : rattachée à 2021 d'après les métadonnées du PDF (création le 2021-07-30), non à la date d'upload (chemin 2022/01).

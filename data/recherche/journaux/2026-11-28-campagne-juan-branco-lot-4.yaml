@@ -136,6 +136,70 @@ queries:
     query: "\"Juan Branco\" budget des armées dissuasion nucléaire Europe OTAN défense 3% PIB"
     category: NATIONAL_MEDIA
     tool: web_search
+  - at: 2026-11-28
+    query: "relecture ciblée du programme v9 en cache : parc nucléaire existant, grand carénage, prolongation, durée de vie, ASN, 60 ans, budget des armées, % du PIB, capitalisation, fonds de pension : seule mention nucléaire = « Construction de 14 EPR 2 » ; rien sur le parc existant, la capitalisation ni un budget en % du PIB"
+    category: CAMPAIGN_SITE
+    tool: grep
+  - at: 2026-11-28
+    query: "juan-branco.fr : téléchargement et lecture des ~46 billets et articles repérés sur /articles/ et /politiques/ (2022-2026) ; mots-clés retraite, Sénat, nucléaire, fonctionnaires, impôt, bénéfices, armées, capitalisation"
+    category: PERSONAL_SITE
+    tool: curl+grep
+  - at: 2026-11-28
+    query: "juan-branco.fr/1916-2 : transcription de la conférence du 2022-03-01 sur la France dans le conflit russo-ukrainien (extraits)"
+    category: PERSONAL_SITE
+    tool: grep
+  - at: 2026-11-28
+    query: "juan-branco.fr/1920-2 : billet « Le prix de l'électricité » (2022-04-26)"
+    category: PERSONAL_SITE
+    tool: read
+  - at: 2026-11-28
+    query: "https://aurores.org/ (liste des articles) : connexion refusée (ECONNREFUSED) au moment de la requête"
+    category: PERSONAL_SITE
+    tool: web_fetch
+  - at: 2026-11-28
+    query: "Juan Branco tribune retraites \"Branco\" Le Média OR Blast OR \"Off Investigation\" OR \"Le Vent se lève\" réforme des retraites 2023"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-28
+    query: "juan-branco.fr retraites OR superprofits OR \"bénéfices\" OR \"impôt\" billet 2023 2024 2025"
+    category: PERSONAL_SITE
+    tool: web_search
+  - at: 2026-11-28
+    query: "Juan Branco \"Coup d'État\" OR \"Treize pas vers la tyrannie\" texte intégral accès libre PDF"
+    category: HISTORICAL_ARCHIVES
+    tool: web_search
+  - at: 2026-11-28
+    query: "https://www.france-vote.fr/candidats/juan-branco (mesures retraites, fiscalité entreprises, défense, nucléaire)"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-28
+    query: "https://politiwiki.fr/wiki/Juan_Branco (propos du 2023-01-31 sur la manifestation contre la réforme des retraites)"
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_fetch
+  - at: 2026-11-28
+    query: "aurores.org Juan Branco tribune retraites OR nucléaire OR fiscalité OR \"budget des armées\" OR \"fonctionnaires\""
+    category: SPECIALIZED_PUBLICATIONS
+    tool: web_search
+  - at: 2026-11-28
+    query: "\"Juan Branco\" TotalEnergies profits taxer OR \"taxe\" OR \"superprofits\" entreprises énergie"
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-28
+    query: "\"Juan Branco\" entretien écrit Figaro OR Marianne OR Valeurs OR Frontières OR Éléments candidat 2027 programme interview texte"
+    category: FULL_INTERVIEWS
+    tool: web_search
+  - at: 2026-11-28
+    query: "\"Juan Branco\" \"retraite par répartition\" OR \"capitalisation\" OR \"fonds de pension\" OR \"retraites par capitalisation\""
+    category: NATIONAL_MEDIA
+    tool: web_search
+  - at: 2026-11-28
+    query: "\"Juan Branco\" Thinkerview OR Incorrectibles transcription retraites nucléaire armée budget \"transcription\""
+    category: ORIGINAL_VIDEOS
+    tool: web_search
+  - at: 2026-11-28
+    query: "« Abattre l'ennemi » relu sur effectifs, dépenses publiques, superprofits, dividendes, réacteurs, grand carénage, dissuasion, retraite par capitalisation : seules mentions utiles « Sortie de l'OTAN », « Réduction à cinq sous-marins nucléaires », « sortir progressivement du nucléaire »"
+    category: HISTORICAL_ARCHIVES
+    tool: grep
 categoriesExplored: [EXISTING_CORPUS, CAMPAIGN_SITE, PARTY_SITE, SPEECHES_PRESS_CONFERENCES, PERSONAL_SITE, HISTORICAL_ARCHIVES, NATIONAL_MEDIA, SPECIALIZED_PUBLICATIONS, FULL_INTERVIEWS, TV_RADIO_DEBATES, SOCIAL_MEDIA]
 categoriesNotExplored:
   - category: ORIGINAL_VIDEOS
@@ -180,6 +244,30 @@ sourcesConsulted:
     title: "Institutions et société, présidentielle 2027 (votons-2027.fr)"
     outcome: rejected
     reason: "Site de compilation : piste seulement ; les mesures renvoient au PDF primaire."
+  - url: https://juan-branco.fr/1916-2/
+    title: "Transcription de la conférence sur le rôle de la France dans le conflit russo-ukrainien (2022-03-10)"
+    outcome: rejected
+    reason: "Aucun propos sur les questions visées (OTAN, sanctions, guerre) ; simples occurrences de « nucléaire » et « armées » dans un autre sens."
+  - url: https://juan-branco.fr/1920-2/
+    title: "Billet « Le prix de l'électricité » (2022-04-26)"
+    outcome: rejected
+    reason: "Critique du mécanisme européen de prix de l'électricité ; rien sur EDF, le nucléaire existant ni la propriété publique."
+  - url: https://juan-branco.fr/articles/
+    title: "Articles et billets (~46 pages lues, 2022-2026)"
+    outcome: rejected
+    reason: "Reposts de réseaux sociaux, communiqués d'avocats et recommandations de lecture ; aucun propos sur les questions visées."
+  - url: https://aurores.org/
+    title: "Aurores (page d'accueil)"
+    outcome: inaccessible
+    reason: "Connexion refusée (ECONNREFUSED) lors des tentatives ; l'entretien Aurores en cache a déjà été relu au lot 3."
+  - url: https://www.france-vote.fr/candidats/juan-branco
+    title: "Juan Branco : programme et positions (France-Vote)"
+    outcome: rejected
+    reason: "Agrégateur : affirme « abroger la réforme des retraites de 2023 et revenir à 62 ans ou moins », sans source, en contradiction avec le programme primaire (alignement des régimes selon l'espérance de vie, pas d'âge). Piste non confirmée, jamais preuve."
+  - url: https://politiwiki.fr/wiki/Juan_Branco
+    title: "Juan Branco (PolitiWiki)"
+    outcome: rejected
+    reason: "Compilation : cite un propos oral du 2023-01-31 (vidéo Les Incorrectibles, 00:41:15) sur la composition de la manifestation, sans lien avec l'âge de départ ; vidéo sans transcription officielle."
 evidenceAdded:
   - juan-branco-institutions-001
   - juan-branco-institutions-002
@@ -202,6 +290,7 @@ verified:
   - juan-branco-economie-002
   - juan-branco-energie-002
 toVerify:
+  - "Suivi lot 4 (2e passe, 16 requêtes, aucune nouvelle preuve) : aucune source écrite primaire 2022-2026 sur retraite 62 ans, taxe sur les bénéfices exceptionnels, impôt sur les sociétés, budget des armées à 3 % du PIB, prolongation des réacteurs au-delà de 60 ans (le programme v9 ne parle pas du parc existant ni du grand carénage) ni capitalisation ; lacunes NOT_FOUND inchangées. Piste agrégateur non confirmée : France-Vote attribue à Branco « abroger la réforme des retraites de 2023, 62 ans ou moins » sans source (rejetée, à chercher dans une source primaire)."
   - "Vidéos YouTube de la chaîne (juan-branco.fr/videos) et entretiens audio 2023-2026 : à écouter pour retraites 2023, Sénat, fiscalité des grandes entreprises ; transcription automatique seulement possible, donc UNVERIFIED_QUOTE."
 contradictions:
   - evidence: [juan-branco-institutions-001, juan-branco-institutions-002]
